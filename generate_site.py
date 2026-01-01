@@ -806,10 +806,20 @@ def generate_about_page():
         <li><strong>8th Edition (1860)</strong> - Twenty-two volumes</li>
     </ul>
 
+    <h2>Sources</h2>
+    <p>The source PDF documents come from two collections:</p>
+    <ul>
+        <li><strong><a href="https://data.nls.uk/data/digitised-collections/encyclopaedia-britannica/">National Library of Scotland</a></strong> -
+        Digitised Collections: Encyclopaedia Britannica</li>
+        <li><strong><a href="https://archive.org/">Internet Archive</a></strong> -
+        Historical book digitization project</li>
+    </ul>
+
     <h2>Technical Details</h2>
-    <p>The source documents were digitized by the National Library of Scotland and
-    processed using OLMoCR (Optical Layout Model OCR) to extract structured text
-    while preserving page number references.</p>
+    <p>Text extraction was performed using <strong><a href="https://github.com/allenai/olmocr">OLMoCR</a></strong>
+    (Optical Layout Model OCR), a state-of-the-art vision-language model developed by the Allen Institute for AI.
+    OLMoCR preserves document structure and provides character-level page number mapping, enabling precise
+    provenance tracking for each article.</p>
 
     <h2>Usage</h2>
     <p>This corpus is provided for research and educational purposes. Individual
@@ -824,6 +834,10 @@ def generate_about_page():
         <li>Article type (dictionary entry vs treatise)</li>
         <li>Word count</li>
     </ul>
+
+    <h2>Acknowledgments</h2>
+    <p>This project was made possible by the open data policies of the National Library of Scotland
+    and the Internet Archive's commitment to universal access to knowledge.</p>
     """
 
     return generate_html_page("About", content)
