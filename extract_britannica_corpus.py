@@ -742,6 +742,20 @@ def process_edition(edition_year: int, sources: list, output_dir: Path) -> dict:
         all_volumes.append(volume)
         all_articles.extend(articles)
 
+    # Deduplicate articles within edition (OCR sometimes duplicates content)
+    seen_articles = {}
+    unique_articles = []
+    for a in all_articles:
+        # Create key from headword + volume + first 100 chars of text
+        key = (a.headword.upper(), a.volume_num, a.text[:100] if a.text else "")
+        if key not in seen_articles:
+            seen_articles[key] = a
+            unique_articles.append(a)
+
+    if len(unique_articles) < len(all_articles):
+        logger.info(f"  Removed {len(all_articles) - len(unique_articles)} duplicate articles (OCR artifacts)")
+    all_articles = unique_articles
+
     # Save outputs
     output_dir.mkdir(exist_ok=True)
 
