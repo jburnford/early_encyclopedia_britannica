@@ -351,6 +351,29 @@ def discover_sources(ocr_base: Path) -> dict:
                     "title": md_path.name,
                 })
 
+    # Deduplicate sources by (edition_year, volume_num)
+    # Keep the first source with the most page_count, or prefer JSONL over MD
+    for edition_year in sources:
+        seen = {}
+        deduped = []
+        for src in sources[edition_year]:
+            key = src.get("volume_num", 0)
+            if key not in seen:
+                seen[key] = src
+                deduped.append(src)
+            else:
+                # Prefer source with higher page_count or JSONL type
+                existing = seen[key]
+                existing_score = existing.get("page_count", 0) + (10 if "jsonl" in existing.get("type", "") else 0)
+                new_score = src.get("page_count", 0) + (10 if "jsonl" in src.get("type", "") else 0)
+                if new_score > existing_score:
+                    # Replace with better source
+                    deduped.remove(existing)
+                    deduped.append(src)
+                    seen[key] = src
+        sources[edition_year] = deduped
+        logger.info(f"  {edition_year}: {len(deduped)} unique volumes (deduplicated)")
+
     return sources
 
 
