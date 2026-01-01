@@ -1,0 +1,4401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume 13 - 1823 - Encyclopaedia Britannica Historical Corpus</title>
+    <style>
+:root {
+    --bg-primary: #faf8f5;
+    --bg-secondary: #fff;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --accent: #8b4513;
+    --accent-light: #d4a574;
+    --border: #e0d8d0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+header .subtitle {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.breadcrumb {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.edition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.edition-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.edition-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.edition-card h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.edition-card .year {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.edition-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.edition-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--bg-secondary);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edition-card a:hover { background: var(--accent-light); }
+
+.volume-list {
+    list-style: none;
+}
+
+.volume-list li {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.volume-list a {
+    display: block;
+    padding: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.volume-list a:hover { background: var(--bg-primary); }
+
+.volume-list .meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.article-list {
+    list-style: none;
+}
+
+.article-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.article-header:hover { background: var(--bg-primary); }
+
+.article-header h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+}
+
+.article-header .meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.article-header .badge {
+    background: var(--accent-light);
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.article-content {
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+    display: none;
+    background: #fffef8;
+}
+
+.article-content.show { display: block; }
+
+.article-text {
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.article-actions {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+.article-actions button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.article-actions button:hover { background: var(--accent-light); }
+
+.loading {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.search-box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-results {
+    margin-top: 1rem;
+}
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
+.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
+.search-result a { color: var(--accent); }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.stats-table th, .stats-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-table th { background: var(--bg-primary); color: var(--accent); }
+.stats-table tr:hover { background: var(--bg-primary); }
+
+.filter-bar {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container { padding: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .edition-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; <a href="index.html">1823 Edition</a> &raquo; Volume 13</div>
+        
+    <header>
+        <h1>Volume 13</h1>
+        <p class="subtitle">Sixth Edition (1823) | MAT-MIC</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="index.html">1823 Edition</a>
+        <a href="../search.html">Search</a>
+    </nav>
+
+    <p>This volume contains <strong>395 articles</strong>.
+    Click on an article to view its full text.</p>
+
+    <div class="filter-bar">
+        <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
+        <select id="typeFilter" onchange="filterArticles()">
+            <option value="all">All Types</option>
+            <option value="treatise">Treatises Only</option>
+            <option value="dictionary">Dictionary Only</option>
+        </select>
+    </div>
+
+    <ul class="article-list" id="articleList">
+        
+        <li class="article-item" data-idx="0">
+            <div class="article-header" onclick="toggleArticle(0)">
+                <h3>APPENDIX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 376-378 | 1,644 words</span>
+            </div>
+            <div class="article-content" id="content-0">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="1">
+            <div class="article-header" onclick="toggleArticle(1)">
+                <h3>APPENDIX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 502-511 | 9,116 words</span>
+            </div>
+            <div class="article-content" id="content-1">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="2">
+            <div class="article-header" onclick="toggleArticle(2)">
+                <h3>ARTHRODYNA<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 358-374 | 15,760 words</span>
+            </div>
+            <div class="article-content" id="content-2">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="3">
+            <div class="article-header" onclick="toggleArticle(3)">
+                <h3>AXIOMS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 63-66 | 4,078 words</span>
+            </div>
+            <div class="article-content" id="content-3">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="4">
+            <div class="article-header" onclick="toggleArticle(4)">
+                <h3>CHICKENPOX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 380-381 | 1,074 words</span>
+            </div>
+            <div class="article-content" id="content-4">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="5">
+            <div class="article-header" onclick="toggleArticle(5)">
+                <h3>CLOTHING<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 524 | 5 words</span>
+            </div>
+            <div class="article-content" id="content-5">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="6">
+            <div class="article-header" onclick="toggleArticle(6)">
+                <h3>COSTIVENESS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 495-496 | 707 words</span>
+            </div>
+            <div class="article-content" id="content-6">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="7">
+            <div class="article-header" onclick="toggleArticle(7)">
+                <h3>DEFINITIONS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 63 | 314 words</span>
+            </div>
+            <div class="article-content" id="content-7">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="8">
+            <div class="article-header" onclick="toggleArticle(8)">
+                <h3>DIFFICULTY OF DISCHARGING URINE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 498 | 138 words</span>
+            </div>
+            <div class="article-content" id="content-8">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="9">
+            <div class="article-header" onclick="toggleArticle(9)">
+                <h3>DROPSY OF THE ABDOMEN<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 461-471 | 11,718 words</span>
+            </div>
+            <div class="article-content" id="content-9">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="10">
+            <div class="article-header" onclick="toggleArticle(10)">
+                <h3>END OF THE THIRTEENTH VOLUME<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 856-861 | 19 words</span>
+            </div>
+            <div class="article-content" id="content-10">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="11">
+            <div class="article-header" onclick="toggleArticle(11)">
+                <h3>EXCESSIVE SWEATING<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 490 | 64 words</span>
+            </div>
+            <div class="article-content" id="content-11">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="12">
+            <div class="article-header" onclick="toggleArticle(12)">
+                <h3>FALLING-SICKNESS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 433-461 | 29,971 words</span>
+            </div>
+            <div class="article-content" id="content-12">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="13">
+            <div class="article-header" onclick="toggleArticle(13)">
+                <h3>FLUX OF BLOOD<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 490 | 110 words</span>
+            </div>
+            <div class="article-content" id="content-13">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="14">
+            <div class="article-header" onclick="toggleArticle(14)">
+                <h3>FLUX OF THE LACHRYMAL HUMOUR<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 490 | 170 words</span>
+            </div>
+            <div class="article-content" id="content-14">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="15">
+            <div class="article-header" onclick="toggleArticle(15)">
+                <h3>GREEK COINS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 219-221 | 1,713 words</span>
+            </div>
+            <div class="article-content" id="content-15">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="16">
+            <div class="article-header" onclick="toggleArticle(16)">
+                <h3>GREEN SICKNESS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 425-433 | 8,259 words</span>
+            </div>
+            <div class="article-content" id="content-16">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="17">
+            <div class="article-header" onclick="toggleArticle(17)">
+                <h3>HEALTHY PROPAGATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 524 | 9 words</span>
+            </div>
+            <div class="article-content" id="content-17">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="18">
+            <div class="article-header" onclick="toggleArticle(18)">
+                <h3>HEMATEMESIS</h3>
+                <span class="meta">pp. 409 | 15 words</span>
+            </div>
+            <div class="article-content" id="content-18">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="19">
+            <div class="article-header" onclick="toggleArticle(19)">
+                <h3>HEMATURIA<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 409-411 | 1,759 words</span>
+            </div>
+            <div class="article-content" id="content-19">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="20">
+            <div class="article-header" onclick="toggleArticle(20)">
+                <h3>HISTORY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 57-59 | 3,162 words</span>
+            </div>
+            <div class="article-content" id="content-20">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="21">
+            <div class="article-header" onclick="toggleArticle(21)">
+                <h3>HYPOCHONDRIAC AFFECTION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 425 | 417 words</span>
+            </div>
+            <div class="article-content" id="content-21">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="22">
+            <div class="article-header" onclick="toggleArticle(22)">
+                <h3>IMEDIATE</h3>
+                <span class="meta">pp. 230 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-22">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="23">
+            <div class="article-header" onclick="toggleArticle(23)">
+                <h3>INDEX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 145-146 | 1,203 words</span>
+            </div>
+            <div class="article-content" id="content-23">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="24">
+            <div class="article-header" onclick="toggleArticle(24)">
+                <h3>INDEX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 527-531 | 3,765 words</span>
+            </div>
+            <div class="article-content" id="content-24">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="25">
+            <div class="article-header" onclick="toggleArticle(25)">
+                <h3>INDEX<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 783-784 | 607 words</span>
+            </div>
+            <div class="article-content" id="content-25">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="26">
+            <div class="article-header" onclick="toggleArticle(26)">
+                <h3>JAMES HENTHORN</h3>
+                <span class="meta">pp. 379 | 291 words</span>
+            </div>
+            <div class="article-content" id="content-26">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="27">
+            <div class="article-header" onclick="toggleArticle(27)">
+                <h3>JAMES HENTHORN</h3>
+                <span class="meta">pp. 379-380 | 334 words</span>
+            </div>
+            <div class="article-content" id="content-27">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="28">
+            <div class="article-header" onclick="toggleArticle(28)">
+                <h3>LUCAS PEPYS</h3>
+                <span class="meta">pp. 376 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-28">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="29">
+            <div class="article-header" onclick="toggleArticle(29)">
+                <h3>MATRIX</h3>
+                <span class="meta">pp. 25 | 93 words</span>
+            </div>
+            <div class="article-content" id="content-29">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="30">
+            <div class="article-header" onclick="toggleArticle(30)">
+                <h3>MATRON</h3>
+                <span class="meta">pp. 25 | 110 words</span>
+            </div>
+            <div class="article-content" id="content-30">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="31">
+            <div class="article-header" onclick="toggleArticle(31)">
+                <h3>MATRONA</h3>
+                <span class="meta">pp. 25 | 43 words</span>
+            </div>
+            <div class="article-content" id="content-31">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="32">
+            <div class="article-header" onclick="toggleArticle(32)">
+                <h3>MATRONALIA</h3>
+                <span class="meta">pp. 25 | 87 words</span>
+            </div>
+            <div class="article-content" id="content-32">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="33">
+            <div class="article-header" onclick="toggleArticle(33)">
+                <h3>MATROSSES</h3>
+                <span class="meta">pp. 25 | 50 words</span>
+            </div>
+            <div class="article-content" id="content-33">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="34">
+            <div class="article-header" onclick="toggleArticle(34)">
+                <h3>MATSYS</h3>
+                <span class="meta">pp. 25-26 | 395 words</span>
+            </div>
+            <div class="article-content" id="content-34">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="35">
+            <div class="article-header" onclick="toggleArticle(35)">
+                <h3>MATT</h3>
+                <span class="meta">pp. 26 | 31 words</span>
+            </div>
+            <div class="article-content" id="content-35">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="36">
+            <div class="article-header" onclick="toggleArticle(36)">
+                <h3>MATTER</h3>
+                <span class="meta">pp. 26 | 243 words</span>
+            </div>
+            <div class="article-content" id="content-36">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="37">
+            <div class="article-header" onclick="toggleArticle(37)">
+                <h3>MATTHEW</h3>
+                <span class="meta">pp. 26-27 | 810 words</span>
+            </div>
+            <div class="article-content" id="content-37">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="38">
+            <div class="article-header" onclick="toggleArticle(38)">
+                <h3>MATTHIOLUS</h3>
+                <span class="meta">pp. 27 | 47 words</span>
+            </div>
+            <div class="article-content" id="content-38">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="39">
+            <div class="article-header" onclick="toggleArticle(39)">
+                <h3>MATTIACUM</h3>
+                <span class="meta">pp. 27 | 29 words</span>
+            </div>
+            <div class="article-content" id="content-39">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="40">
+            <div class="article-header" onclick="toggleArticle(40)">
+                <h3>MATTINS</h3>
+                <span class="meta">pp. 27 | 16 words</span>
+            </div>
+            <div class="article-content" id="content-40">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="41">
+            <div class="article-header" onclick="toggleArticle(41)">
+                <h3>MATY</h3>
+                <span class="meta">pp. 27 | 863 words</span>
+            </div>
+            <div class="article-content" id="content-41">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="42">
+            <div class="article-header" onclick="toggleArticle(42)">
+                <h3>MAUBEUGE</h3>
+                <span class="meta">pp. 27-28 | 77 words</span>
+            </div>
+            <div class="article-content" id="content-42">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="43">
+            <div class="article-header" onclick="toggleArticle(43)">
+                <h3>MAUCAUCO</h3>
+                <span class="meta">pp. 28 | 15 words</span>
+            </div>
+            <div class="article-content" id="content-43">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="44">
+            <div class="article-header" onclick="toggleArticle(44)">
+                <h3>MAUNCH</h3>
+                <span class="meta">pp. 28 | 14 words</span>
+            </div>
+            <div class="article-content" id="content-44">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="45">
+            <div class="article-header" onclick="toggleArticle(45)">
+                <h3>MAUNDY THURSDAY</h3>
+                <span class="meta">pp. 28 | 61 words</span>
+            </div>
+            <div class="article-content" id="content-45">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="46">
+            <div class="article-header" onclick="toggleArticle(46)">
+                <h3>MAUPERTUIS</h3>
+                <span class="meta">pp. 28-29 | 1,643 words</span>
+            </div>
+            <div class="article-content" id="content-46">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="47">
+            <div class="article-header" onclick="toggleArticle(47)">
+                <h3>MAUR</h3>
+                <span class="meta">pp. 29 | 232 words</span>
+            </div>
+            <div class="article-content" id="content-47">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="48">
+            <div class="article-header" onclick="toggleArticle(48)">
+                <h3>MAURICE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 29-31 | 2,302 words</span>
+            </div>
+            <div class="article-content" id="content-48">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="49">
+            <div class="article-header" onclick="toggleArticle(49)">
+                <h3>MAURICEAU</h3>
+                <span class="meta">pp. 29 | 118 words</span>
+            </div>
+            <div class="article-content" id="content-49">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="50">
+            <div class="article-header" onclick="toggleArticle(50)">
+                <h3>MAURITANIA<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 31-33 | 1,869 words</span>
+            </div>
+            <div class="article-content" id="content-50">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="51">
+            <div class="article-header" onclick="toggleArticle(51)">
+                <h3>MAURITIA</h3>
+                <span class="meta">pp. 33 | 19 words</span>
+            </div>
+            <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="52">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>MAURITIUS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 33-35 | 2,435 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="53">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>MAURUA</h3>
+                <span class="meta">pp. 35 | 72 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="54">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>MAUSOLEUM</h3>
+                <span class="meta">pp. 35 | 166 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="55">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>MAVIS</h3>
+                <span class="meta">pp. 28 | 7 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="56">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>MAXENTIUS</h3>
+                <span class="meta">pp. 35-36 | 258 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="57">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>MAXILLA</h3>
+                <span class="meta">pp. 36 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="58">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>MAXIM</h3>
+                <span class="meta">pp. 36 | 85 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="59">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>MAXIMUM</h3>
+                <span class="meta">pp. 36 | 62 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="60">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>MAXIMUS</h3>
+                <span class="meta">pp. 36 | 298 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="61">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>MAY</h3>
+                <span class="meta">pp. 36-38 | 1,672 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="62">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>MAYNWARING</h3>
+                <span class="meta">pp. 38 | 297 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="63">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>MAYO</h3>
+                <span class="meta">pp. 38 | 136 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="64">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>MAYO</h3>
+                <span class="meta">pp. 38 | 198 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="65">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>MAYOR</h3>
+                <span class="meta">pp. 38-39 | 620 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="66">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>MAZA</h3>
+                <span class="meta">pp. 39 | 37 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="67">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>MAZAGAN</h3>
+                <span class="meta">pp. 39 | 56 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="68">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>MAZARA</h3>
+                <span class="meta">pp. 39 | 50 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="69">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>MAZARINE</h3>
+                <span class="meta">pp. 39 | 361 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="70">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>MEAD</h3>
+                <span class="meta">pp. 39 | 355 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="71">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>MEAD</h3>
+                <span class="meta">pp. 39-40 | 954 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="72">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>MEADOW</h3>
+                <span class="meta">pp. 40 | 53 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="73">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>MEAL</h3>
+                <span class="meta">pp. 40 | 206 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="74">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>MEAN</h3>
+                <span class="meta">pp. 40-41 | 121 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="75">
+            <div class="article-header" onclick="toggleArticle(75)">
+                <h3>MEARNSSHIRE</h3>
+                <span class="meta">pp. 41 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="76">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>MEASLES<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 41-53 | 8,724 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="77">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>MEASLES<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 381-385 | 3,964 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="78">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>MEASURING</h3>
+                <span class="meta">pp. 53-54 | 770 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="79">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>MEATH</h3>
+                <span class="meta">pp. 54 | 918 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="80">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>MECCA</h3>
+                <span class="meta">pp. 54-56 | 1,326 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="81">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>MECHANICAL</h3>
+                <span class="meta">pp. 56 | 203 words</span>
+            </div>
+            <div class="article-content" id="content-81">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="82">
+            <div class="article-header" onclick="toggleArticle(82)">
+                <h3>MECHANICAL</h3>
+                <span class="meta">pp. 56-57 | 163 words</span>
+            </div>
+            <div class="article-content" id="content-82">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="83">
+            <div class="article-header" onclick="toggleArticle(83)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 57 | 98 words</span>
+            </div>
+            <div class="article-content" id="content-83">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="84">
+            <div class="article-header" onclick="toggleArticle(84)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 59-63 | 3,915 words</span>
+            </div>
+            <div class="article-content" id="content-84">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="85">
+            <div class="article-header" onclick="toggleArticle(85)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 66-67 | 878 words</span>
+            </div>
+            <div class="article-content" id="content-85">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="86">
+            <div class="article-header" onclick="toggleArticle(86)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 68-69 | 107 words</span>
+            </div>
+            <div class="article-content" id="content-86">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="87">
+            <div class="article-header" onclick="toggleArticle(87)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 74-79 | 4,650 words</span>
+            </div>
+            <div class="article-content" id="content-87">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="88">
+            <div class="article-header" onclick="toggleArticle(88)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 82-99 | 18,533 words</span>
+            </div>
+            <div class="article-content" id="content-88">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="89">
+            <div class="article-header" onclick="toggleArticle(89)">
+                <h3>MECHANICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 106-145 | 41,932 words</span>
+            </div>
+            <div class="article-content" id="content-89">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="90">
+            <div class="article-header" onclick="toggleArticle(90)">
+                <h3>MECHANICS
+MECHANISM</h3>
+                <span class="meta">pp. 146-177 | 20 words</span>
+            </div>
+            <div class="article-content" id="content-90">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="91">
+            <div class="article-header" onclick="toggleArticle(91)">
+                <h3>MECHOACAN</h3>
+                <span class="meta">pp. 177 | 234 words</span>
+            </div>
+            <div class="article-content" id="content-91">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="92">
+            <div class="article-header" onclick="toggleArticle(92)">
+                <h3>MECHOACAN</h3>
+                <span class="meta">pp. 177 | 57 words</span>
+            </div>
+            <div class="article-content" id="content-92">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="93">
+            <div class="article-header" onclick="toggleArticle(93)">
+                <h3>MECKLENBURG</h3>
+                <span class="meta">pp. 177 | 768 words</span>
+            </div>
+            <div class="article-content" id="content-93">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="94">
+            <div class="article-header" onclick="toggleArticle(94)">
+                <h3>MECONIUM</h3>
+                <span class="meta">pp. 177 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-94">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="95">
+            <div class="article-header" onclick="toggleArticle(95)">
+                <h3>MEDALEUCA</h3>
+                <span class="meta">pp. 539 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-95">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="96">
+            <div class="article-header" onclick="toggleArticle(96)">
+                <h3>MEDALLION</h3>
+                <span class="meta">pp. 224-229 | 121 words</span>
+            </div>
+            <div class="article-content" id="content-96">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="97">
+            <div class="article-header" onclick="toggleArticle(97)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 177-199 | 24,884 words</span>
+            </div>
+            <div class="article-content" id="content-97">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="98">
+            <div class="article-header" onclick="toggleArticle(98)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 199-207 | 7,860 words</span>
+            </div>
+            <div class="article-content" id="content-98">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="99">
+            <div class="article-header" onclick="toggleArticle(99)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 207-208 | 1,112 words</span>
+            </div>
+            <div class="article-content" id="content-99">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="100">
+            <div class="article-header" onclick="toggleArticle(100)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 208-209 | 326 words</span>
+            </div>
+            <div class="article-content" id="content-100">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="101">
+            <div class="article-header" onclick="toggleArticle(101)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 221-223 | 1,309 words</span>
+            </div>
+            <div class="article-content" id="content-101">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="102">
+            <div class="article-header" onclick="toggleArticle(102)">
+                <h3>MEDALS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 223-224 | 742 words</span>
+            </div>
+            <div class="article-content" id="content-102">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="103">
+            <div class="article-header" onclick="toggleArticle(103)">
+                <h3>MEDEA</h3>
+                <span class="meta">pp. 229 | 729 words</span>
+            </div>
+            <div class="article-content" id="content-103">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="104">
+            <div class="article-header" onclick="toggleArticle(104)">
+                <h3>MEDEOLA</h3>
+                <span class="meta">pp. 229 | 26 words</span>
+            </div>
+            <div class="article-content" id="content-104">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="105">
+            <div class="article-header" onclick="toggleArticle(105)">
+                <h3>MEDIA</h3>
+                <span class="meta">pp. 229-230 | 808 words</span>
+            </div>
+            <div class="article-content" id="content-105">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="106">
+            <div class="article-header" onclick="toggleArticle(106)">
+                <h3>MEDIA</h3>
+                <span class="meta">pp. 230 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-106">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="107">
+            <div class="article-header" onclick="toggleArticle(107)">
+                <h3>MEDIASTINUM</h3>
+                <span class="meta">pp. 230 | 45 words</span>
+            </div>
+            <div class="article-content" id="content-107">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="108">
+            <div class="article-header" onclick="toggleArticle(108)">
+                <h3>MEDIATOR</h3>
+                <span class="meta">pp. 230 | 63 words</span>
+            </div>
+            <div class="article-content" id="content-108">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="109">
+            <div class="article-header" onclick="toggleArticle(109)">
+                <h3>MEDICAGO</h3>
+                <span class="meta">pp. 230 | 40 words</span>
+            </div>
+            <div class="article-content" id="content-109">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="110">
+            <div class="article-header" onclick="toggleArticle(110)">
+                <h3>MEDICAL JURISPRUDENCE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 522-523 | 1,064 words</span>
+            </div>
+            <div class="article-content" id="content-110">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="111">
+            <div class="article-header" onclick="toggleArticle(111)">
+                <h3>MEDICAL POLICE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 523-524 | 795 words</span>
+            </div>
+            <div class="article-content" id="content-111">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="112">
+            <div class="article-header" onclick="toggleArticle(112)">
+                <h3>MEDICINAL</h3>
+                <span class="meta">pp. 230 | 34 words</span>
+            </div>
+            <div class="article-content" id="content-112">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="113">
+            <div class="article-header" onclick="toggleArticle(113)">
+                <h3>MEDICINE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 230-358 | 133,528 words</span>
+            </div>
+            <div class="article-content" id="content-113">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="114">
+            <div class="article-header" onclick="toggleArticle(114)">
+                <h3>MEDICINE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 411-422 | 10,450 words</span>
+            </div>
+            <div class="article-content" id="content-114">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="115">
+            <div class="article-header" onclick="toggleArticle(115)">
+                <h3>MEDICINE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 521-522 | 2,051 words</span>
+            </div>
+            <div class="article-content" id="content-115">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="116">
+            <div class="article-header" onclick="toggleArticle(116)">
+                <h3>MEDICIS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 531-534 | 2,940 words</span>
+            </div>
+            <div class="article-content" id="content-116">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="117">
+            <div class="article-header" onclick="toggleArticle(117)">
+                <h3>MEDINA</h3>
+                <span class="meta">pp. 535 | 348 words</span>
+            </div>
+            <div class="article-content" id="content-117">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="118">
+            <div class="article-header" onclick="toggleArticle(118)">
+                <h3>MEDINA TALNARI</h3>
+                <span class="meta">pp. 534-535 | 514 words</span>
+            </div>
+            <div class="article-content" id="content-118">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="119">
+            <div class="article-header" onclick="toggleArticle(119)">
+                <h3>MEDINE</h3>
+                <span class="meta">pp. 535 | 17 words</span>
+            </div>
+            <div class="article-content" id="content-119">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="120">
+            <div class="article-header" onclick="toggleArticle(120)">
+                <h3>MEDIOLANUM</h3>
+                <span class="meta">pp. 535-536 | 184 words</span>
+            </div>
+            <div class="article-content" id="content-120">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="121">
+            <div class="article-header" onclick="toggleArticle(121)">
+                <h3>MEDIOMATRICI</h3>
+                <span class="meta">pp. 536 | 10 words</span>
+            </div>
+            <div class="article-content" id="content-121">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="122">
+            <div class="article-header" onclick="toggleArticle(122)">
+                <h3>MEDITATION</h3>
+                <span class="meta">pp. 536 | 152 words</span>
+            </div>
+            <div class="article-content" id="content-122">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="123">
+            <div class="article-header" onclick="toggleArticle(123)">
+                <h3>MEDITERRANEAN</h3>
+                <span class="meta">pp. 536 | 189 words</span>
+            </div>
+            <div class="article-content" id="content-123">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="124">
+            <div class="article-header" onclick="toggleArticle(124)">
+                <h3>MEDITRINALIA</h3>
+                <span class="meta">pp. 536 | 58 words</span>
+            </div>
+            <div class="article-content" id="content-124">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="125">
+            <div class="article-header" onclick="toggleArticle(125)">
+                <h3>MEDITULLIUM</h3>
+                <span class="meta">pp. 536 | 28 words</span>
+            </div>
+            <div class="article-content" id="content-125">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="126">
+            <div class="article-header" onclick="toggleArticle(126)">
+                <h3>MEDIUM</h3>
+                <span class="meta">pp. 536 | 43 words</span>
+            </div>
+            <div class="article-content" id="content-126">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="127">
+            <div class="article-header" onclick="toggleArticle(127)">
+                <h3>MEDIUM</h3>
+                <span class="meta">pp. 536 | 106 words</span>
+            </div>
+            <div class="article-content" id="content-127">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="128">
+            <div class="article-header" onclick="toggleArticle(128)">
+                <h3>MEDIUM</h3>
+                <span class="meta">pp. 536 | 193 words</span>
+            </div>
+            <div class="article-content" id="content-128">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="129">
+            <div class="article-header" onclick="toggleArticle(129)">
+                <h3>MEDIUM</h3>
+                <span class="meta">pp. 536 | 9 words</span>
+            </div>
+            <div class="article-content" id="content-129">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="130">
+            <div class="article-header" onclick="toggleArticle(130)">
+                <h3>MEDLAR</h3>
+                <span class="meta">pp. 536 | 4 words</span>
+            </div>
+            <div class="article-content" id="content-130">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="131">
+            <div class="article-header" onclick="toggleArticle(131)">
+                <h3>MEDULLA OSSIIUM</h3>
+                <span class="meta">pp. 536 | 138 words</span>
+            </div>
+            <div class="article-content" id="content-131">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="132">
+            <div class="article-header" onclick="toggleArticle(132)">
+                <h3>MEDUSA</h3>
+                <span class="meta">pp. 536-537 | 146 words</span>
+            </div>
+            <div class="article-content" id="content-132">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="133">
+            <div class="article-header" onclick="toggleArticle(133)">
+                <h3>MEDUSA</h3>
+                <span class="meta">pp. 537 | 13 words</span>
+            </div>
+            <div class="article-content" id="content-133">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="134">
+            <div class="article-header" onclick="toggleArticle(134)">
+                <h3>MEDWAY</h3>
+                <span class="meta">pp. 537 | 248 words</span>
+            </div>
+            <div class="article-content" id="content-134">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="135">
+            <div class="article-header" onclick="toggleArticle(135)">
+                <h3>MEEREN</h3>
+                <span class="meta">pp. 537 | 123 words</span>
+            </div>
+            <div class="article-content" id="content-135">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="136">
+            <div class="article-header" onclick="toggleArticle(136)">
+                <h3>MEEREN</h3>
+                <span class="meta">pp. 537 | 209 words</span>
+            </div>
+            <div class="article-content" id="content-136">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="137">
+            <div class="article-header" onclick="toggleArticle(137)">
+                <h3>MEETRETES</h3>
+                <span class="meta">pp. 793-794 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-137">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="138">
+            <div class="article-header" onclick="toggleArticle(138)">
+                <h3>MEGALESIA</h3>
+                <span class="meta">pp. 537 | 80 words</span>
+            </div>
+            <div class="article-content" id="content-138">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="139">
+            <div class="article-header" onclick="toggleArticle(139)">
+                <h3>MEGALOPOLEIS</h3>
+                <span class="meta">pp. 537 | 51 words</span>
+            </div>
+            <div class="article-content" id="content-139">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="140">
+            <div class="article-header" onclick="toggleArticle(140)">
+                <h3>MEGARA</h3>
+                <span class="meta">pp. 537-539 | 1,557 words</span>
+            </div>
+            <div class="article-content" id="content-140">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="141">
+            <div class="article-header" onclick="toggleArticle(141)">
+                <h3>MELAENE</h3>
+                <span class="meta">pp. 539 | 9 words</span>
+            </div>
+            <div class="article-content" id="content-141">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="142">
+            <div class="article-header" onclick="toggleArticle(142)">
+                <h3>MELAMPODIUM</h3>
+                <span class="meta">pp. 539 | 10 words</span>
+            </div>
+            <div class="article-content" id="content-142">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="143">
+            <div class="article-header" onclick="toggleArticle(143)">
+                <h3>MELAMPODIUM</h3>
+                <span class="meta">pp. 539 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-143">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="144">
+            <div class="article-header" onclick="toggleArticle(144)">
+                <h3>MELAMPUS</h3>
+                <span class="meta">pp. 539 | 438 words</span>
+            </div>
+            <div class="article-content" id="content-144">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="145">
+            <div class="article-header" onclick="toggleArticle(145)">
+                <h3>MELAMPYRUM</h3>
+                <span class="meta">pp. 539 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-145">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="146">
+            <div class="article-header" onclick="toggleArticle(146)">
+                <h3>MELANCHOLY</h3>
+                <span class="meta">pp. 539 | 15 words</span>
+            </div>
+            <div class="article-content" id="content-146">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="147">
+            <div class="article-header" onclick="toggleArticle(147)">
+                <h3>MELANCTHON</h3>
+                <span class="meta">pp. 539-540 | 820 words</span>
+            </div>
+            <div class="article-content" id="content-147">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="148">
+            <div class="article-header" onclick="toggleArticle(148)">
+                <h3>MELANIPPIDES</h3>
+                <span class="meta">pp. 540 | 39 words</span>
+            </div>
+            <div class="article-content" id="content-148">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="149">
+            <div class="article-header" onclick="toggleArticle(149)">
+                <h3>MELANTERIA</h3>
+                <span class="meta">pp. 540 | 57 words</span>
+            </div>
+            <div class="article-content" id="content-149">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="150">
+            <div class="article-header" onclick="toggleArticle(150)">
+                <h3>MELASTOMA</h3>
+                <span class="meta">pp. 540 | 26 words</span>
+            </div>
+            <div class="article-content" id="content-150">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="151">
+            <div class="article-header" onclick="toggleArticle(151)">
+                <h3>MELCHA</h3>
+                <span class="meta">pp. 540 | 26 words</span>
+            </div>
+            <div class="article-content" id="content-151">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="152">
+            <div class="article-header" onclick="toggleArticle(152)">
+                <h3>MELCHISEDEC</h3>
+                <span class="meta">pp. 540-541 | 1,298 words</span>
+            </div>
+            <div class="article-content" id="content-152">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="153">
+            <div class="article-header" onclick="toggleArticle(153)">
+                <h3>MELCHITES</h3>
+                <span class="meta">pp. 540 | 106 words</span>
+            </div>
+            <div class="article-content" id="content-153">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="154">
+            <div class="article-header" onclick="toggleArticle(154)">
+                <h3>MELCOMB-REGIS</h3>
+                <span class="meta">pp. 541-542 | 599 words</span>
+            </div>
+            <div class="article-content" id="content-154">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="155">
+            <div class="article-header" onclick="toggleArticle(155)">
+                <h3>MELDAE</h3>
+                <span class="meta">pp. 542 | 28 words</span>
+            </div>
+            <div class="article-content" id="content-155">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="156">
+            <div class="article-header" onclick="toggleArticle(156)">
+                <h3>MELEAGER</h3>
+                <span class="meta">pp. 542 | 511 words</span>
+            </div>
+            <div class="article-content" id="content-156">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="157">
+            <div class="article-header" onclick="toggleArticle(157)">
+                <h3>MELEAGER</h3>
+                <span class="meta">pp. 542 | 88 words</span>
+            </div>
+            <div class="article-content" id="content-157">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="158">
+            <div class="article-header" onclick="toggleArticle(158)">
+                <h3>MELEAGRIS</h3>
+                <span class="meta">pp. 542 | 15 words</span>
+            </div>
+            <div class="article-content" id="content-158">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="159">
+            <div class="article-header" onclick="toggleArticle(159)">
+                <h3>MELES</h3>
+                <span class="meta">pp. 542 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-159">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="160">
+            <div class="article-header" onclick="toggleArticle(160)">
+                <h3>MELES</h3>
+                <span class="meta">pp. 542 | 51 words</span>
+            </div>
+            <div class="article-content" id="content-160">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="161">
+            <div class="article-header" onclick="toggleArticle(161)">
+                <h3>MELETIANS</h3>
+                <span class="meta">pp. 542 | 103 words</span>
+            </div>
+            <div class="article-content" id="content-161">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="162">
+            <div class="article-header" onclick="toggleArticle(162)">
+                <h3>MELIA</h3>
+                <span class="meta">pp. 542 | 28 words</span>
+            </div>
+            <div class="article-content" id="content-162">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="163">
+            <div class="article-header" onclick="toggleArticle(163)">
+                <h3>MELIANTHUS</h3>
+                <span class="meta">pp. 542 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-163">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="164">
+            <div class="article-header" onclick="toggleArticle(164)">
+                <h3>MELIBOEA</h3>
+                <span class="meta">pp. 542 | 46 words</span>
+            </div>
+            <div class="article-content" id="content-164">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="165">
+            <div class="article-header" onclick="toggleArticle(165)">
+                <h3>MELICA</h3>
+                <span class="meta">pp. 542 | 28 words</span>
+            </div>
+            <div class="article-content" id="content-165">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="166">
+            <div class="article-header" onclick="toggleArticle(166)">
+                <h3>MELICERES</h3>
+                <span class="meta">pp. 542 | 7 words</span>
+            </div>
+            <div class="article-content" id="content-166">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="167">
+            <div class="article-header" onclick="toggleArticle(167)">
+                <h3>MELICERTA</h3>
+                <span class="meta">pp. 542-543 | 112 words</span>
+            </div>
+            <div class="article-content" id="content-167">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="168">
+            <div class="article-header" onclick="toggleArticle(168)">
+                <h3>MELINDA</h3>
+                <span class="meta">pp. 543 | 171 words</span>
+            </div>
+            <div class="article-content" id="content-168">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="169">
+            <div class="article-header" onclick="toggleArticle(169)">
+                <h3>MELINUM</h3>
+                <span class="meta">pp. 543 | 64 words</span>
+            </div>
+            <div class="article-content" id="content-169">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="170">
+            <div class="article-header" onclick="toggleArticle(170)">
+                <h3>MELISSA</h3>
+                <span class="meta">pp. 543 | 53 words</span>
+            </div>
+            <div class="article-content" id="content-170">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="171">
+            <div class="article-header" onclick="toggleArticle(171)">
+                <h3>MELISSA</h3>
+                <span class="meta">pp. 543 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-171">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="172">
+            <div class="article-header" onclick="toggleArticle(172)">
+                <h3>MELISSUS OF SAMOS</h3>
+                <span class="meta">pp. 543 | 35 words</span>
+            </div>
+            <div class="article-content" id="content-172">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="173">
+            <div class="article-header" onclick="toggleArticle(173)">
+                <h3>MELITE</h3>
+                <span class="meta">pp. 543 | 59 words</span>
+            </div>
+            <div class="article-content" id="content-173">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="174">
+            <div class="article-header" onclick="toggleArticle(174)">
+                <h3>MELITE</h3>
+                <span class="meta">pp. 543 | 30 words</span>
+            </div>
+            <div class="article-content" id="content-174">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="175">
+            <div class="article-header" onclick="toggleArticle(175)">
+                <h3>MELITE</h3>
+                <span class="meta">pp. 543 | 35 words</span>
+            </div>
+            <div class="article-content" id="content-175">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="176">
+            <div class="article-header" onclick="toggleArticle(176)">
+                <h3>MELITENSIS TERRA</h3>
+                <span class="meta">pp. 543 | 256 words</span>
+            </div>
+            <div class="article-content" id="content-176">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="177">
+            <div class="article-header" onclick="toggleArticle(177)">
+                <h3>MELITUS</h3>
+                <span class="meta">pp. 543 | 35 words</span>
+            </div>
+            <div class="article-content" id="content-177">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="178">
+            <div class="article-header" onclick="toggleArticle(178)">
+                <h3>MELLER</h3>
+                <span class="meta">pp. 543 | 17 words</span>
+            </div>
+            <div class="article-content" id="content-178">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="179">
+            <div class="article-header" onclick="toggleArticle(179)">
+                <h3>MELLI</h3>
+                <span class="meta">pp. 543-544 | 579 words</span>
+            </div>
+            <div class="article-content" id="content-179">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="180">
+            <div class="article-header" onclick="toggleArticle(180)">
+                <h3>MELLILLA</h3>
+                <span class="meta">pp. 543 | 45 words</span>
+            </div>
+            <div class="article-content" id="content-180">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="181">
+            <div class="article-header" onclick="toggleArticle(181)">
+                <h3>MELLITE</h3>
+                <span class="meta">pp. 544 | 16 words</span>
+            </div>
+            <div class="article-content" id="content-181">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="182">
+            <div class="article-header" onclick="toggleArticle(182)">
+                <h3>MELMOTH</h3>
+                <span class="meta">pp. 544 | 522 words</span>
+            </div>
+            <div class="article-content" id="content-182">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="183">
+            <div class="article-header" onclick="toggleArticle(183)">
+                <h3>MELOCHIA</h3>
+                <span class="meta">pp. 544 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-183">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="184">
+            <div class="article-header" onclick="toggleArticle(184)">
+                <h3>MELODUNUM</h3>
+                <span class="meta">pp. 544 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-184">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="185">
+            <div class="article-header" onclick="toggleArticle(185)">
+                <h3>MELODY</h3>
+                <span class="meta">pp. 544-545 | 1,129 words</span>
+            </div>
+            <div class="article-content" id="content-185">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="186">
+            <div class="article-header" onclick="toggleArticle(186)">
+                <h3>MELOE</h3>
+                <span class="meta">pp. 545 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-186">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="187">
+            <div class="article-header" onclick="toggleArticle(187)">
+                <h3>MELON</h3>
+                <span class="meta">pp. 545 | 19 words</span>
+            </div>
+            <div class="article-content" id="content-187">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="188">
+            <div class="article-header" onclick="toggleArticle(188)">
+                <h3>MELOS</h3>
+                <span class="meta">pp. 545 | 112 words</span>
+            </div>
+            <div class="article-content" id="content-188">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="189">
+            <div class="article-header" onclick="toggleArticle(189)">
+                <h3>MELOTHRIA</h3>
+                <span class="meta">pp. 545-546 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-189">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="190">
+            <div class="article-header" onclick="toggleArticle(190)">
+                <h3>MELPOMENE</h3>
+                <span class="meta">pp. 546 | 68 words</span>
+            </div>
+            <div class="article-content" id="content-190">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="191">
+            <div class="article-header" onclick="toggleArticle(191)">
+                <h3>MELROSE</h3>
+                <span class="meta">pp. 546 | 333 words</span>
+            </div>
+            <div class="article-content" id="content-191">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="192">
+            <div class="article-header" onclick="toggleArticle(192)">
+                <h3>MELTING CONE</h3>
+                <span class="meta">pp. 546 | 92 words</span>
+            </div>
+            <div class="article-content" id="content-192">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="193">
+            <div class="article-header" onclick="toggleArticle(193)">
+                <h3>MELTON MOWBRAY</h3>
+                <span class="meta">pp. 546 | 76 words</span>
+            </div>
+            <div class="article-content" id="content-193">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="194">
+            <div class="article-header" onclick="toggleArticle(194)">
+                <h3>MELVIL</h3>
+                <span class="meta">pp. 546 | 210 words</span>
+            </div>
+            <div class="article-content" id="content-194">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="195">
+            <div class="article-header" onclick="toggleArticle(195)">
+                <h3>MEMBER</h3>
+                <span class="meta">pp. 546 | 22 words</span>
+            </div>
+            <div class="article-content" id="content-195">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="196">
+            <div class="article-header" onclick="toggleArticle(196)">
+                <h3>MEMBER</h3>
+                <span class="meta">pp. 546 | 43 words</span>
+            </div>
+            <div class="article-content" id="content-196">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="197">
+            <div class="article-header" onclick="toggleArticle(197)">
+                <h3>MEMBERS</h3>
+                <span class="meta">pp. 546 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-197">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="198">
+            <div class="article-header" onclick="toggleArticle(198)">
+                <h3>MEMBRANE</h3>
+                <span class="meta">pp. 546 | 40 words</span>
+            </div>
+            <div class="article-content" id="content-198">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="199">
+            <div class="article-header" onclick="toggleArticle(199)">
+                <h3>MEMEL</h3>
+                <span class="meta">pp. 546 | 123 words</span>
+            </div>
+            <div class="article-content" id="content-199">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="200">
+            <div class="article-header" onclick="toggleArticle(200)">
+                <h3>MEMNON<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 546-549 | 2,263 words</span>
+            </div>
+            <div class="article-content" id="content-200">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="201">
+            <div class="article-header" onclick="toggleArticle(201)">
+                <h3>MEMPHIS</h3>
+                <span class="meta">pp. 549-550 | 716 words</span>
+            </div>
+            <div class="article-content" id="content-201">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="202">
+            <div class="article-header" onclick="toggleArticle(202)">
+                <h3>MENANDER</h3>
+                <span class="meta">pp. 550-551 | 486 words</span>
+            </div>
+            <div class="article-content" id="content-202">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="203">
+            <div class="article-header" onclick="toggleArticle(203)">
+                <h3>MENANDRIANS</h3>
+                <span class="meta">pp. 551 | 176 words</span>
+            </div>
+            <div class="article-content" id="content-203">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="204">
+            <div class="article-header" onclick="toggleArticle(204)">
+                <h3>MENASSEH BEN ISRAEL</h3>
+                <span class="meta">pp. 551 | 277 words</span>
+            </div>
+            <div class="article-content" id="content-204">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="205">
+            <div class="article-header" onclick="toggleArticle(205)">
+                <h3>MENDELSON</h3>
+                <span class="meta">pp. 551 | 415 words</span>
+            </div>
+            <div class="article-content" id="content-205">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="206">
+            <div class="article-header" onclick="toggleArticle(206)">
+                <h3>MENDEZ PINTO</h3>
+                <span class="meta">pp. 551-552 | 272 words</span>
+            </div>
+            <div class="article-content" id="content-206">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="207">
+            <div class="article-header" onclick="toggleArticle(207)">
+                <h3>MENDICANTS</h3>
+                <span class="meta">pp. 552-553 | 1,144 words</span>
+            </div>
+            <div class="article-content" id="content-207">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="208">
+            <div class="article-header" onclick="toggleArticle(208)">
+                <h3>MENE</h3>
+                <span class="meta">pp. 553 | 44 words</span>
+            </div>
+            <div class="article-content" id="content-208">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="209">
+            <div class="article-header" onclick="toggleArticle(209)">
+                <h3>MENECRATES</h3>
+                <span class="meta">pp. 553 | 261 words</span>
+            </div>
+            <div class="article-content" id="content-209">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="210">
+            <div class="article-header" onclick="toggleArticle(210)">
+                <h3>MENEDEMUS</h3>
+                <span class="meta">pp. 553 | 85 words</span>
+            </div>
+            <div class="article-content" id="content-210">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="211">
+            <div class="article-header" onclick="toggleArticle(211)">
+                <h3>MENELAUS</h3>
+                <span class="meta">pp. 553 | 30 words</span>
+            </div>
+            <div class="article-content" id="content-211">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="212">
+            <div class="article-header" onclick="toggleArticle(212)">
+                <h3>MENELAUS</h3>
+                <span class="meta">pp. 553 | 22 words</span>
+            </div>
+            <div class="article-content" id="content-212">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="213">
+            <div class="article-header" onclick="toggleArticle(213)">
+                <h3>MENES</h3>
+                <span class="meta">pp. 553 | 111 words</span>
+            </div>
+            <div class="article-content" id="content-213">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="214">
+            <div class="article-header" onclick="toggleArticle(214)">
+                <h3>MENIALS</h3>
+                <span class="meta">pp. 553 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-214">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="215">
+            <div class="article-header" onclick="toggleArticle(215)">
+                <h3>MENINGES</h3>
+                <span class="meta">pp. 553 | 20 words</span>
+            </div>
+            <div class="article-content" id="content-215">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="216">
+            <div class="article-header" onclick="toggleArticle(216)">
+                <h3>MENINX</h3>
+                <span class="meta">pp. 553 | 55 words</span>
+            </div>
+            <div class="article-content" id="content-216">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="217">
+            <div class="article-header" onclick="toggleArticle(217)">
+                <h3>MENIPPUS</h3>
+                <span class="meta">pp. 553 | 151 words</span>
+            </div>
+            <div class="article-content" id="content-217">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="218">
+            <div class="article-header" onclick="toggleArticle(218)">
+                <h3>MENISCUS</h3>
+                <span class="meta">pp. 553 | 21 words</span>
+            </div>
+            <div class="article-content" id="content-218">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="219">
+            <div class="article-header" onclick="toggleArticle(219)">
+                <h3>MENISPERMUM</h3>
+                <span class="meta">pp. 553 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-219">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="220">
+            <div class="article-header" onclick="toggleArticle(220)">
+                <h3>MENNITH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 553-555 | 1,712 words</span>
+            </div>
+            <div class="article-content" id="content-220">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="221">
+            <div class="article-header" onclick="toggleArticle(221)">
+                <h3>MENOLOGY</h3>
+                <span class="meta">pp. 555 | 78 words</span>
+            </div>
+            <div class="article-content" id="content-221">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="222">
+            <div class="article-header" onclick="toggleArticle(222)">
+                <h3>MENSA</h3>
+                <span class="meta">pp. 555 | 15 words</span>
+            </div>
+            <div class="article-content" id="content-222">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="223">
+            <div class="article-header" onclick="toggleArticle(223)">
+                <h3>MENSALS</h3>
+                <span class="meta">pp. 555 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-223">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="224">
+            <div class="article-header" onclick="toggleArticle(224)">
+                <h3>MENSES</h3>
+                <span class="meta">pp. 555 | 70 words</span>
+            </div>
+            <div class="article-content" id="content-224">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="225">
+            <div class="article-header" onclick="toggleArticle(225)">
+                <h3>MENSORES</h3>
+                <span class="meta">pp. 555 | 75 words</span>
+            </div>
+            <div class="article-content" id="content-225">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="226">
+            <div class="article-header" onclick="toggleArticle(226)">
+                <h3>MENSTRUAL</h3>
+                <span class="meta">pp. 574 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-226">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="227">
+            <div class="article-header" onclick="toggleArticle(227)">
+                <h3>MENSTRUM</h3>
+                <span class="meta">pp. 574 | 40 words</span>
+            </div>
+            <div class="article-content" id="content-227">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="228">
+            <div class="article-header" onclick="toggleArticle(228)">
+                <h3>MENSURATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 555-558 | 3,207 words</span>
+            </div>
+            <div class="article-content" id="content-228">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="229">
+            <div class="article-header" onclick="toggleArticle(229)">
+                <h3>MENSURATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 558-559 | 864 words</span>
+            </div>
+            <div class="article-content" id="content-229">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="230">
+            <div class="article-header" onclick="toggleArticle(230)">
+                <h3>MENSURATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 559-560 | 785 words</span>
+            </div>
+            <div class="article-content" id="content-230">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="231">
+            <div class="article-header" onclick="toggleArticle(231)">
+                <h3>MENSURATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 561-566 | 4,111 words</span>
+            </div>
+            <div class="article-content" id="content-231">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="232">
+            <div class="article-header" onclick="toggleArticle(232)">
+                <h3>MENSURATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 573-574 | 123 words</span>
+            </div>
+            <div class="article-content" id="content-232">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="233">
+            <div class="article-header" onclick="toggleArticle(233)">
+                <h3>MENTHA</h3>
+                <span class="meta">pp. 574 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-233">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="234">
+            <div class="article-header" onclick="toggleArticle(234)">
+                <h3>MENTOR</h3>
+                <span class="meta">pp. 574 | 56 words</span>
+            </div>
+            <div class="article-content" id="content-234">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="235">
+            <div class="article-header" onclick="toggleArticle(235)">
+                <h3>MENTZ<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 574-580 | 1,861 words</span>
+            </div>
+            <div class="article-content" id="content-235">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="236">
+            <div class="article-header" onclick="toggleArticle(236)">
+                <h3>MENTZ</h3>
+                <span class="meta">pp. 580-581 | 1,511 words</span>
+            </div>
+            <div class="article-content" id="content-236">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="237">
+            <div class="article-header" onclick="toggleArticle(237)">
+                <h3>MENTZEL</h3>
+                <span class="meta">pp. 581 | 138 words</span>
+            </div>
+            <div class="article-content" id="content-237">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="238">
+            <div class="article-header" onclick="toggleArticle(238)">
+                <h3>MENUS</h3>
+                <span class="meta">pp. 581 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-238">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="239">
+            <div class="article-header" onclick="toggleArticle(239)">
+                <h3>MENUTHIAS</h3>
+                <span class="meta">pp. 581 | 77 words</span>
+            </div>
+            <div class="article-content" id="content-239">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="240">
+            <div class="article-header" onclick="toggleArticle(240)">
+                <h3>MENYANTHES</h3>
+                <span class="meta">pp. 581 | 26 words</span>
+            </div>
+            <div class="article-content" id="content-240">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="241">
+            <div class="article-header" onclick="toggleArticle(241)">
+                <h3>MENZIKOFF</h3>
+                <span class="meta">pp. 581-582 | 704 words</span>
+            </div>
+            <div class="article-content" id="content-241">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="242">
+            <div class="article-header" onclick="toggleArticle(242)">
+                <h3>MENZINI</h3>
+                <span class="meta">pp. 582 | 54 words</span>
+            </div>
+            <div class="article-content" id="content-242">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="243">
+            <div class="article-header" onclick="toggleArticle(243)">
+                <h3>MEOTIS</h3>
+                <span class="meta">pp. 582 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-243">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="244">
+            <div class="article-header" onclick="toggleArticle(244)">
+                <h3>MEPHITIC</h3>
+                <span class="meta">pp. 582 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-244">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="245">
+            <div class="article-header" onclick="toggleArticle(245)">
+                <h3>MEPHITIS FANUM</h3>
+                <span class="meta">pp. 582 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-245">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="246">
+            <div class="article-header" onclick="toggleArticle(246)">
+                <h3>MEQUINEZ</h3>
+                <span class="meta">pp. 582 | 638 words</span>
+            </div>
+            <div class="article-content" id="content-246">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="247">
+            <div class="article-header" onclick="toggleArticle(247)">
+                <h3>MERA-DE-ASTA</h3>
+                <span class="meta">pp. 582 | 47 words</span>
+            </div>
+            <div class="article-content" id="content-247">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="248">
+            <div class="article-header" onclick="toggleArticle(248)">
+                <h3>MERCATOR</h3>
+                <span class="meta">pp. 582-583 | 211 words</span>
+            </div>
+            <div class="article-content" id="content-248">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="249">
+            <div class="article-header" onclick="toggleArticle(249)">
+                <h3>MERCATORUM FESTUM</h3>
+                <span class="meta">pp. 583 | 56 words</span>
+            </div>
+            <div class="article-content" id="content-249">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="250">
+            <div class="article-header" onclick="toggleArticle(250)">
+                <h3>MERCHANT</h3>
+                <span class="meta">pp. 583-584 | 1,247 words</span>
+            </div>
+            <div class="article-content" id="content-250">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="251">
+            <div class="article-header" onclick="toggleArticle(251)">
+                <h3>MERCIA</h3>
+                <span class="meta">pp. 584-585 | 1,072 words</span>
+            </div>
+            <div class="article-content" id="content-251">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="252">
+            <div class="article-header" onclick="toggleArticle(252)">
+                <h3>MERCURIALIS</h3>
+                <span class="meta">pp. 585-586 | 884 words</span>
+            </div>
+            <div class="article-content" id="content-252">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="253">
+            <div class="article-header" onclick="toggleArticle(253)">
+                <h3>MERCURY</h3>
+                <span class="meta">pp. 586 | 21 words</span>
+            </div>
+            <div class="article-content" id="content-253">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="254">
+            <div class="article-header" onclick="toggleArticle(254)">
+                <h3>MERCY</h3>
+                <span class="meta">pp. 586 | 236 words</span>
+            </div>
+            <div class="article-content" id="content-254">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="255">
+            <div class="article-header" onclick="toggleArticle(255)">
+                <h3>MERCY-SEAT</h3>
+                <span class="meta">pp. 586 | 126 words</span>
+            </div>
+            <div class="article-content" id="content-255">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="256">
+            <div class="article-header" onclick="toggleArticle(256)">
+                <h3>MERETRIX</h3>
+                <span class="meta">pp. 586 | 82 words</span>
+            </div>
+            <div class="article-content" id="content-256">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="257">
+            <div class="article-header" onclick="toggleArticle(257)">
+                <h3>MERGUS</h3>
+                <span class="meta">pp. 586 | 12 words</span>
+            </div>
+            <div class="article-content" id="content-257">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="258">
+            <div class="article-header" onclick="toggleArticle(258)">
+                <h3>MERIAN</h3>
+                <span class="meta">pp. 586 | 264 words</span>
+            </div>
+            <div class="article-content" id="content-258">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="259">
+            <div class="article-header" onclick="toggleArticle(259)">
+                <h3>MERIDA</h3>
+                <span class="meta">pp. 586 | 62 words</span>
+            </div>
+            <div class="article-content" id="content-259">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="260">
+            <div class="article-header" onclick="toggleArticle(260)">
+                <h3>MERIDA</h3>
+                <span class="meta">pp. 586 | 54 words</span>
+            </div>
+            <div class="article-content" id="content-260">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="261">
+            <div class="article-header" onclick="toggleArticle(261)">
+                <h3>MERIDA</h3>
+                <span class="meta">pp. 586 | 34 words</span>
+            </div>
+            <div class="article-content" id="content-261">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="262">
+            <div class="article-header" onclick="toggleArticle(262)">
+                <h3>MERIDEN</h3>
+                <span class="meta">pp. 586-587 | 72 words</span>
+            </div>
+            <div class="article-content" id="content-262">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="263">
+            <div class="article-header" onclick="toggleArticle(263)">
+                <h3>MERIDIAN</h3>
+                <span class="meta">pp. 587 | 54 words</span>
+            </div>
+            <div class="article-content" id="content-263">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="264">
+            <div class="article-header" onclick="toggleArticle(264)">
+                <h3>MERIDIANI</h3>
+                <span class="meta">pp. 587 | 83 words</span>
+            </div>
+            <div class="article-content" id="content-264">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="265">
+            <div class="article-header" onclick="toggleArticle(265)">
+                <h3>MERIDIONAL DISTANCE</h3>
+                <span class="meta">pp. 587 | 59 words</span>
+            </div>
+            <div class="article-content" id="content-265">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="266">
+            <div class="article-header" onclick="toggleArticle(266)">
+                <h3>MERIONETHSHIRE</h3>
+                <span class="meta">pp. 587 | 165 words</span>
+            </div>
+            <div class="article-content" id="content-266">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="267">
+            <div class="article-header" onclick="toggleArticle(267)">
+                <h3>MERIT</h3>
+                <span class="meta">pp. 587 | 27 words</span>
+            </div>
+            <div class="article-content" id="content-267">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="268">
+            <div class="article-header" onclick="toggleArticle(268)">
+                <h3>MERLIN</h3>
+                <span class="meta">pp. 587 | 76 words</span>
+            </div>
+            <div class="article-content" id="content-268">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="269">
+            <div class="article-header" onclick="toggleArticle(269)">
+                <h3>MERLON</h3>
+                <span class="meta">pp. 587 | 17 words</span>
+            </div>
+            <div class="article-content" id="content-269">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="270">
+            <div class="article-header" onclick="toggleArticle(270)">
+                <h3>MERLUCIUS</h3>
+                <span class="meta">pp. 587 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-270">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="271">
+            <div class="article-header" onclick="toggleArticle(271)">
+                <h3>MERMAID</h3>
+                <span class="meta">pp. 587 | 552 words</span>
+            </div>
+            <div class="article-content" id="content-271">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="272">
+            <div class="article-header" onclick="toggleArticle(272)">
+                <h3>MEROE</h3>
+                <span class="meta">pp. 588 | 885 words</span>
+            </div>
+            <div class="article-content" id="content-272">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="273">
+            <div class="article-header" onclick="toggleArticle(273)">
+                <h3>MEROFS</h3>
+                <span class="meta">pp. 589 | 13 words</span>
+            </div>
+            <div class="article-content" id="content-273">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="274">
+            <div class="article-header" onclick="toggleArticle(274)">
+                <h3>MEROM</h3>
+                <span class="meta">pp. 588-589 | 181 words</span>
+            </div>
+            <div class="article-content" id="content-274">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="275">
+            <div class="article-header" onclick="toggleArticle(275)">
+                <h3>MEROPE</h3>
+                <span class="meta">pp. 589 | 67 words</span>
+            </div>
+            <div class="article-content" id="content-275">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="276">
+            <div class="article-header" onclick="toggleArticle(276)">
+                <h3>MEROPS</h3>
+                <span class="meta">pp. 589 | 63 words</span>
+            </div>
+            <div class="article-content" id="content-276">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="277">
+            <div class="article-header" onclick="toggleArticle(277)">
+                <h3>MEROVINGIAN CHARACTER</h3>
+                <span class="meta">pp. 589 | 49 words</span>
+            </div>
+            <div class="article-content" id="content-277">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="278">
+            <div class="article-header" onclick="toggleArticle(278)">
+                <h3>MEROZ</h3>
+                <span class="meta">pp. 589 | 150 words</span>
+            </div>
+            <div class="article-content" id="content-278">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="279">
+            <div class="article-header" onclick="toggleArticle(279)">
+                <h3>MERS</h3>
+                <span class="meta">pp. 587-588 | 171 words</span>
+            </div>
+            <div class="article-content" id="content-279">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="280">
+            <div class="article-header" onclick="toggleArticle(280)">
+                <h3>MERS</h3>
+                <span class="meta">pp. 589 | 56 words</span>
+            </div>
+            <div class="article-content" id="content-280">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="281">
+            <div class="article-header" onclick="toggleArticle(281)">
+                <h3>MERSA</h3>
+                <span class="meta">pp. 589 | 187 words</span>
+            </div>
+            <div class="article-content" id="content-281">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="282">
+            <div class="article-header" onclick="toggleArticle(282)">
+                <h3>MERSENNE</h3>
+                <span class="meta">pp. 589 | 278 words</span>
+            </div>
+            <div class="article-content" id="content-282">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="283">
+            <div class="article-header" onclick="toggleArticle(283)">
+                <h3>MERSEY</h3>
+                <span class="meta">pp. 589 | 121 words</span>
+            </div>
+            <div class="article-content" id="content-283">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="284">
+            <div class="article-header" onclick="toggleArticle(284)">
+                <h3>MERULA</h3>
+                <span class="meta">pp. 589 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-284">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="285">
+            <div class="article-header" onclick="toggleArticle(285)">
+                <h3>MERUS</h3>
+                <span class="meta">pp. 589-590 | 69 words</span>
+            </div>
+            <div class="article-content" id="content-285">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="286">
+            <div class="article-header" onclick="toggleArticle(286)">
+                <h3>MESARAIC VESSELS</h3>
+                <span class="meta">pp. 590 | 30 words</span>
+            </div>
+            <div class="article-content" id="content-286">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="287">
+            <div class="article-header" onclick="toggleArticle(287)">
+                <h3>MESCHEDE</h3>
+                <span class="meta">pp. 590 | 60 words</span>
+            </div>
+            <div class="article-content" id="content-287">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="288">
+            <div class="article-header" onclick="toggleArticle(288)">
+                <h3>MESEMBRYANTHEMUM</h3>
+                <span class="meta">pp. 590 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-288">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="289">
+            <div class="article-header" onclick="toggleArticle(289)">
+                <h3>MESENTERIC</h3>
+                <span class="meta">pp. 590 | 20 words</span>
+            </div>
+            <div class="article-content" id="content-289">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="290">
+            <div class="article-header" onclick="toggleArticle(290)">
+                <h3>MESENTERITIS</h3>
+                <span class="meta">pp. 590 | 8 words</span>
+            </div>
+            <div class="article-content" id="content-290">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="291">
+            <div class="article-header" onclick="toggleArticle(291)">
+                <h3>MESENTERY</h3>
+                <span class="meta">pp. 590 | 35 words</span>
+            </div>
+            <div class="article-content" id="content-291">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="292">
+            <div class="article-header" onclick="toggleArticle(292)">
+                <h3>MESHES OF NETS</h3>
+                <span class="meta">pp. 590 | 7 words</span>
+            </div>
+            <div class="article-content" id="content-292">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="293">
+            <div class="article-header" onclick="toggleArticle(293)">
+                <h3>MESN</h3>
+                <span class="meta">pp. 590 | 140 words</span>
+            </div>
+            <div class="article-content" id="content-293">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="294">
+            <div class="article-header" onclick="toggleArticle(294)">
+                <h3>MESOCHRI</h3>
+                <span class="meta">pp. 590 | 48 words</span>
+            </div>
+            <div class="article-content" id="content-294">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="295">
+            <div class="article-header" onclick="toggleArticle(295)">
+                <h3>MESOCOLON</h3>
+                <span class="meta">pp. 590 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-295">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="296">
+            <div class="article-header" onclick="toggleArticle(296)">
+                <h3>MESOLOGARITHMS</h3>
+                <span class="meta">pp. 590 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-296">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="297">
+            <div class="article-header" onclick="toggleArticle(297)">
+                <h3>MESOPORPHYRON</h3>
+                <span class="meta">pp. 599 | 43 words</span>
+            </div>
+            <div class="article-content" id="content-297">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="298">
+            <div class="article-header" onclick="toggleArticle(298)">
+                <h3>MESOPOTAMIA</h3>
+                <span class="meta">pp. 590 | 208 words</span>
+            </div>
+            <div class="article-content" id="content-298">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="299">
+            <div class="article-header" onclick="toggleArticle(299)">
+                <h3>MESOPTERYGIUS</h3>
+                <span class="meta">pp. 590 | 20 words</span>
+            </div>
+            <div class="article-content" id="content-299">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="300">
+            <div class="article-header" onclick="toggleArticle(300)">
+                <h3>MESPILUS</h3>
+                <span class="meta">pp. 590 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-300">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="301">
+            <div class="article-header" onclick="toggleArticle(301)">
+                <h3>MESS</h3>
+                <span class="meta">pp. 590 | 75 words</span>
+            </div>
+            <div class="article-content" id="content-301">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="302">
+            <div class="article-header" onclick="toggleArticle(302)">
+                <h3>MESSALINA</h3>
+                <span class="meta">pp. 590 | 141 words</span>
+            </div>
+            <div class="article-content" id="content-302">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="303">
+            <div class="article-header" onclick="toggleArticle(303)">
+                <h3>MESSANA</h3>
+                <span class="meta">pp. 590-591 | 122 words</span>
+            </div>
+            <div class="article-content" id="content-303">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="304">
+            <div class="article-header" onclick="toggleArticle(304)">
+                <h3>MESSENA</h3>
+                <span class="meta">pp. 591 | 92 words</span>
+            </div>
+            <div class="article-content" id="content-304">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="305">
+            <div class="article-header" onclick="toggleArticle(305)">
+                <h3>MESSENGERS</h3>
+                <span class="meta">pp. 591 | 191 words</span>
+            </div>
+            <div class="article-content" id="content-305">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="306">
+            <div class="article-header" onclick="toggleArticle(306)">
+                <h3>MESSENGERS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 591-594 | 3,567 words</span>
+            </div>
+            <div class="article-content" id="content-306">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="307">
+            <div class="article-header" onclick="toggleArticle(307)">
+                <h3>MESSIAH</h3>
+                <span class="meta">pp. 594-595 | 760 words</span>
+            </div>
+            <div class="article-content" id="content-307">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="308">
+            <div class="article-header" onclick="toggleArticle(308)">
+                <h3>MESSINA<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 595-599 | 5,043 words</span>
+            </div>
+            <div class="article-content" id="content-308">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="309">
+            <div class="article-header" onclick="toggleArticle(309)">
+                <h3>MESSUAGE</h3>
+                <span class="meta">pp. 599 | 47 words</span>
+            </div>
+            <div class="article-content" id="content-309">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="310">
+            <div class="article-header" onclick="toggleArticle(310)">
+                <h3>META</h3>
+                <span class="meta">pp. 599 | 183 words</span>
+            </div>
+            <div class="article-content" id="content-310">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="311">
+            <div class="article-header" onclick="toggleArticle(311)">
+                <h3>METACARPUS</h3>
+                <span class="meta">pp. 599 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-311">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="312">
+            <div class="article-header" onclick="toggleArticle(312)">
+                <h3>METAGITNIION</h3>
+                <span class="meta">pp. 599 | 16 words</span>
+            </div>
+            <div class="article-content" id="content-312">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="313">
+            <div class="article-header" onclick="toggleArticle(313)">
+                <h3>METAL</h3>
+                <span class="meta">pp. 599-600 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-313">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="314">
+            <div class="article-header" onclick="toggleArticle(314)">
+                <h3>METAL</h3>
+                <span class="meta">pp. 600 | 120 words</span>
+            </div>
+            <div class="article-content" id="content-314">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="315">
+            <div class="article-header" onclick="toggleArticle(315)">
+                <h3>METALLISATION</h3>
+                <span class="meta">pp. 600 | 18 words</span>
+            </div>
+            <div class="article-content" id="content-315">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="316">
+            <div class="article-header" onclick="toggleArticle(316)">
+                <h3>METALLURGY</h3>
+                <span class="meta">pp. 600 | 77 words</span>
+            </div>
+            <div class="article-content" id="content-316">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="317">
+            <div class="article-header" onclick="toggleArticle(317)">
+                <h3>METAMORPHOSIS</h3>
+                <span class="meta">pp. 600 | 111 words</span>
+            </div>
+            <div class="article-content" id="content-317">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="318">
+            <div class="article-header" onclick="toggleArticle(318)">
+                <h3>METAPHOR<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 600-605 | 4,534 words</span>
+            </div>
+            <div class="article-content" id="content-318">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="319">
+            <div class="article-header" onclick="toggleArticle(319)">
+                <h3>METAPHRAST</h3>
+                <span class="meta">pp. 605 | 17 words</span>
+            </div>
+            <div class="article-content" id="content-319">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="320">
+            <div class="article-header" onclick="toggleArticle(320)">
+                <h3>METAPHYSICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 605-735 | 140,149 words</span>
+            </div>
+            <div class="article-content" id="content-320">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="321">
+            <div class="article-header" onclick="toggleArticle(321)">
+                <h3>METAPLASMUS</h3>
+                <span class="meta">pp. 735 | 20 words</span>
+            </div>
+            <div class="article-content" id="content-321">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="322">
+            <div class="article-header" onclick="toggleArticle(322)">
+                <h3>METAPONTUM</h3>
+                <span class="meta">pp. 735 | 76 words</span>
+            </div>
+            <div class="article-content" id="content-322">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="323">
+            <div class="article-header" onclick="toggleArticle(323)">
+                <h3>METASTASIO</h3>
+                <span class="meta">pp. 735 | 3 words</span>
+            </div>
+            <div class="article-content" id="content-323">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="324">
+            <div class="article-header" onclick="toggleArticle(324)">
+                <h3>METASTASIS</h3>
+                <span class="meta">pp. 736 | 55 words</span>
+            </div>
+            <div class="article-content" id="content-324">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="325">
+            <div class="article-header" onclick="toggleArticle(325)">
+                <h3>METATHESIS</h3>
+                <span class="meta">pp. 736 | 61 words</span>
+            </div>
+            <div class="article-content" id="content-325">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="326">
+            <div class="article-header" onclick="toggleArticle(326)">
+                <h3>METELIN<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 736-738 | 2,130 words</span>
+            </div>
+            <div class="article-content" id="content-326">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="327">
+            <div class="article-header" onclick="toggleArticle(327)">
+                <h3>METELLUS</h3>
+                <span class="meta">pp. 738 | 391 words</span>
+            </div>
+            <div class="article-content" id="content-327">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="328">
+            <div class="article-header" onclick="toggleArticle(328)">
+                <h3>METEMPSYCHOSIS</h3>
+                <span class="meta">pp. 738-739 | 810 words</span>
+            </div>
+            <div class="article-content" id="content-328">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="329">
+            <div class="article-header" onclick="toggleArticle(329)">
+                <h3>METEOR<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 739-754 | 17,346 words</span>
+            </div>
+            <div class="article-content" id="content-329">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="330">
+            <div class="article-header" onclick="toggleArticle(330)">
+                <h3>METEOROLOGICAL</h3>
+                <span class="meta">pp. 754 | 63 words</span>
+            </div>
+            <div class="article-content" id="content-330">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="331">
+            <div class="article-header" onclick="toggleArticle(331)">
+                <h3>METEOROLOGY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 754-783 | 30,266 words</span>
+            </div>
+            <div class="article-content" id="content-331">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="332">
+            <div class="article-header" onclick="toggleArticle(332)">
+                <h3>METEOROMANCY</h3>
+                <span class="meta">pp. 784-785 | 34 words</span>
+            </div>
+            <div class="article-content" id="content-332">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="333">
+            <div class="article-header" onclick="toggleArticle(333)">
+                <h3>METESSIB</h3>
+                <span class="meta">pp. 785 | 29 words</span>
+            </div>
+            <div class="article-content" id="content-333">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="334">
+            <div class="article-header" onclick="toggleArticle(334)">
+                <h3>METHEGLIN</h3>
+                <span class="meta">pp. 785 | 183 words</span>
+            </div>
+            <div class="article-content" id="content-334">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="335">
+            <div class="article-header" onclick="toggleArticle(335)">
+                <h3>METHOD</h3>
+                <span class="meta">pp. 785 | 24 words</span>
+            </div>
+            <div class="article-content" id="content-335">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="336">
+            <div class="article-header" onclick="toggleArticle(336)">
+                <h3>METHODISTS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 785-793 | 7,813 words</span>
+            </div>
+            <div class="article-content" id="content-336">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="337">
+            <div class="article-header" onclick="toggleArticle(337)">
+                <h3>METHUSELAH</h3>
+                <span class="meta">pp. 793 | 103 words</span>
+            </div>
+            <div class="article-content" id="content-337">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="338">
+            <div class="article-header" onclick="toggleArticle(338)">
+                <h3>METHYMNA</h3>
+                <span class="meta">pp. 793 | 66 words</span>
+            </div>
+            <div class="article-content" id="content-338">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="339">
+            <div class="article-header" onclick="toggleArticle(339)">
+                <h3>METOEICI</h3>
+                <span class="meta">pp. 793 | 80 words</span>
+            </div>
+            <div class="article-content" id="content-339">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="340">
+            <div class="article-header" onclick="toggleArticle(340)">
+                <h3>METONYMY</h3>
+                <span class="meta">pp. 793 | 27 words</span>
+            </div>
+            <div class="article-content" id="content-340">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="341">
+            <div class="article-header" onclick="toggleArticle(341)">
+                <h3>METOPE</h3>
+                <span class="meta">pp. 793 | 38 words</span>
+            </div>
+            <div class="article-content" id="content-341">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="342">
+            <div class="article-header" onclick="toggleArticle(342)">
+                <h3>METOPOSCOPY</h3>
+                <span class="meta">pp. 793 | 81 words</span>
+            </div>
+            <div class="article-content" id="content-342">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="343">
+            <div class="article-header" onclick="toggleArticle(343)">
+                <h3>METRE</h3>
+                <span class="meta">pp. 793 | 115 words</span>
+            </div>
+            <div class="article-content" id="content-343">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="344">
+            <div class="article-header" onclick="toggleArticle(344)">
+                <h3>METRICAL VERSES</h3>
+                <span class="meta">pp. 794 | 92 words</span>
+            </div>
+            <div class="article-content" id="content-344">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="345">
+            <div class="article-header" onclick="toggleArticle(345)">
+                <h3>METRONOMII</h3>
+                <span class="meta">pp. 794 | 199 words</span>
+            </div>
+            <div class="article-content" id="content-345">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="346">
+            <div class="article-header" onclick="toggleArticle(346)">
+                <h3>METROPOLIS</h3>
+                <span class="meta">pp. 794 | 61 words</span>
+            </div>
+            <div class="article-content" id="content-346">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="347">
+            <div class="article-header" onclick="toggleArticle(347)">
+                <h3>METULUM</h3>
+                <span class="meta">pp. 794 | 47 words</span>
+            </div>
+            <div class="article-content" id="content-347">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="348">
+            <div class="article-header" onclick="toggleArticle(348)">
+                <h3>METZ</h3>
+                <span class="meta">pp. 794 | 104 words</span>
+            </div>
+            <div class="article-content" id="content-348">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="349">
+            <div class="article-header" onclick="toggleArticle(349)">
+                <h3>MEURSIUS</h3>
+                <span class="meta">pp. 794-795 | 1,032 words</span>
+            </div>
+            <div class="article-content" id="content-349">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="350">
+            <div class="article-header" onclick="toggleArticle(350)">
+                <h3>MEVANIA</h3>
+                <span class="meta">pp. 794 | 68 words</span>
+            </div>
+            <div class="article-content" id="content-350">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="351">
+            <div class="article-header" onclick="toggleArticle(351)">
+                <h3>MEW</h3>
+                <span class="meta">pp. 795 | 11 words</span>
+            </div>
+            <div class="article-content" id="content-351">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="352">
+            <div class="article-header" onclick="toggleArticle(352)">
+                <h3>MEWING<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 795-799 | 5,073 words</span>
+            </div>
+            <div class="article-content" id="content-352">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="353">
+            <div class="article-header" onclick="toggleArticle(353)">
+                <h3>MEXICO<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 799-823 | 25,801 words</span>
+            </div>
+            <div class="article-content" id="content-353">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="354">
+            <div class="article-header" onclick="toggleArticle(354)">
+                <h3>MEXICO<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 823-834 | 12,327 words</span>
+            </div>
+            <div class="article-content" id="content-354">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="355">
+            <div class="article-header" onclick="toggleArticle(355)">
+                <h3>MEXICO</h3>
+                <span class="meta">pp. 834-835 | 502 words</span>
+            </div>
+            <div class="article-content" id="content-355">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="356">
+            <div class="article-header" onclick="toggleArticle(356)">
+                <h3>MEZERAY</h3>
+                <span class="meta">pp. 835-836 | 564 words</span>
+            </div>
+            <div class="article-content" id="content-356">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="357">
+            <div class="article-header" onclick="toggleArticle(357)">
+                <h3>MEZIERS</h3>
+                <span class="meta">pp. 836 | 57 words</span>
+            </div>
+            <div class="article-content" id="content-357">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="358">
+            <div class="article-header" onclick="toggleArticle(358)">
+                <h3>MEZIRIAC</h3>
+                <span class="meta">pp. 836 | 261 words</span>
+            </div>
+            <div class="article-content" id="content-358">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="359">
+            <div class="article-header" onclick="toggleArticle(359)">
+                <h3>MEZUZOTH</h3>
+                <span class="meta">pp. 836 | 333 words</span>
+            </div>
+            <div class="article-content" id="content-359">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="360">
+            <div class="article-header" onclick="toggleArticle(360)">
+                <h3>MEZZOTINTO<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 836-840 | 4,190 words</span>
+            </div>
+            <div class="article-content" id="content-360">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="361">
+            <div class="article-header" onclick="toggleArticle(361)">
+                <h3>MICHAELIS</h3>
+                <span class="meta">pp. 840 | 575 words</span>
+            </div>
+            <div class="article-content" id="content-361">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="362">
+            <div class="article-header" onclick="toggleArticle(362)">
+                <h3>MICHAELMAS</h3>
+                <span class="meta">pp. 840 | 22 words</span>
+            </div>
+            <div class="article-content" id="content-362">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="363">
+            <div class="article-header" onclick="toggleArticle(363)">
+                <h3>MICKLE</h3>
+                <span class="meta">pp. 840-842 | 1,524 words</span>
+            </div>
+            <div class="article-content" id="content-363">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="364">
+            <div class="article-header" onclick="toggleArticle(364)">
+                <h3>MICROCOSM</h3>
+                <span class="meta">pp. 842 | 23 words</span>
+            </div>
+            <div class="article-content" id="content-364">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="365">
+            <div class="article-header" onclick="toggleArticle(365)">
+                <h3>MICROGRAPHY</h3>
+                <span class="meta">pp. 842 | 14 words</span>
+            </div>
+            <div class="article-content" id="content-365">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="366">
+            <div class="article-header" onclick="toggleArticle(366)">
+                <h3>MICROMETER<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 842-856 | 16,964 words</span>
+            </div>
+            <div class="article-content" id="content-366">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="367">
+            <div class="article-header" onclick="toggleArticle(367)">
+                <h3>MNEMONICA</h3>
+                <span class="meta">pp. 549 | 684 words</span>
+            </div>
+            <div class="article-content" id="content-367">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="368">
+            <div class="article-header" onclick="toggleArticle(368)">
+                <h3>NETTLE-RASH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 388-393 | 3,730 words</span>
+            </div>
+            <div class="article-content" id="content-368">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="369">
+            <div class="article-header" onclick="toggleArticle(369)">
+                <h3>OKEY BELFOUR</h3>
+                <span class="meta">pp. 378-379 | 898 words</span>
+            </div>
+            <div class="article-content" id="content-369">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="370">
+            <div class="article-header" onclick="toggleArticle(370)">
+                <h3>PART II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 861 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-370">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="371">
+            <div class="article-header" onclick="toggleArticle(371)">
+                <h3>PHTHISIS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 394-409 | 15,939 words</span>
+            </div>
+            <div class="article-content" id="content-371">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="372">
+            <div class="article-header" onclick="toggleArticle(372)">
+                <h3>PHYSICAL EDUCATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 524-527 | 2,959 words</span>
+            </div>
+            <div class="article-content" id="content-372">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="373">
+            <div class="article-header" onclick="toggleArticle(373)">
+                <h3>PROBLEM IV<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 561 | 7 words</span>
+            </div>
+            <div class="article-content" id="content-373">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="374">
+            <div class="article-header" onclick="toggleArticle(374)">
+                <h3>REPORT<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 374-376 | 2,607 words</span>
+            </div>
+            <div class="article-content" id="content-374">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="375">
+            <div class="article-header" onclick="toggleArticle(375)">
+                <h3>RULE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 561 | 111 words</span>
+            </div>
+            <div class="article-content" id="content-375">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="376">
+            <div class="article-header" onclick="toggleArticle(376)">
+                <h3>RULE III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 560-561 | 991 words</span>
+            </div>
+            <div class="article-content" id="content-376">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="377">
+            <div class="article-header" onclick="toggleArticle(377)">
+                <h3>SALIVATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 490-495 | 5,780 words</span>
+            </div>
+            <div class="article-content" id="content-377">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="378">
+            <div class="article-header" onclick="toggleArticle(378)">
+                <h3>SCARLET FEVER<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 385-388 | 3,585 words</span>
+            </div>
+            <div class="article-content" id="content-378">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="379">
+            <div class="article-header" onclick="toggleArticle(379)">
+                <h3>SCHOLIUM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 67-68 | 1,632 words</span>
+            </div>
+            <div class="article-content" id="content-379">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="380">
+            <div class="article-header" onclick="toggleArticle(380)">
+                <h3>SCHOLIUM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 79-82 | 4,727 words</span>
+            </div>
+            <div class="article-content" id="content-380">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="381">
+            <div class="article-header" onclick="toggleArticle(381)">
+                <h3>SCHOLIUM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 99-106 | 9,168 words</span>
+            </div>
+            <div class="article-content" id="content-381">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="382">
+            <div class="article-header" onclick="toggleArticle(382)">
+                <h3>SCOLIUM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 69-74 | 6,950 words</span>
+            </div>
+            <div class="article-content" id="content-382">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="383">
+            <div class="article-header" onclick="toggleArticle(383)">
+                <h3>SCURVY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 471-490 | 17,836 words</span>
+            </div>
+            <div class="article-content" id="content-383">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="384">
+            <div class="article-header" onclick="toggleArticle(384)">
+                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 559 | 25 words</span>
+            </div>
+            <div class="article-content" id="content-384">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="385">
+            <div class="article-header" onclick="toggleArticle(385)">
+                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 566-573 | 7,206 words</span>
+            </div>
+            <div class="article-content" id="content-385">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="386">
+            <div class="article-header" onclick="toggleArticle(386)">
+                <h3>SPITTING OF BLOOD<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 393-394 | 1,738 words</span>
+            </div>
+            <div class="article-content" id="content-386">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="387">
+            <div class="article-header" onclick="toggleArticle(387)">
+                <h3>ST MICHAEL&#x27;S</h3>
+                <span class="meta">pp. 840 | 231 words</span>
+            </div>
+            <div class="article-content" id="content-387">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="388">
+            <div class="article-header" onclick="toggleArticle(388)">
+                <h3>STOMACE</h3>
+                <span class="meta">pp. 409 | 14 words</span>
+            </div>
+            <div class="article-content" id="content-388">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="389">
+            <div class="article-header" onclick="toggleArticle(389)">
+                <h3>STONE IN THE BLADDER<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 498-502 | 3,827 words</span>
+            </div>
+            <div class="article-content" id="content-389">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="390">
+            <div class="article-header" onclick="toggleArticle(390)">
+                <h3>SUPPRESSION OF URINE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 496-498 | 2,660 words</span>
+            </div>
+            <div class="article-content" id="content-390">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="391">
+            <div class="article-header" onclick="toggleArticle(391)">
+                <h3>TABLES OF ANCIENT COINS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 209-219 | 10,970 words</span>
+            </div>
+            <div class="article-content" id="content-391">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="392">
+            <div class="article-header" onclick="toggleArticle(392)">
+                <h3>TREMOR<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 422-425 | 2,412 words</span>
+            </div>
+            <div class="article-content" id="content-392">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="393">
+            <div class="article-header" onclick="toggleArticle(393)">
+                <h3>TURE</h3>
+                <span class="meta">pp. 735-736 | 1,355 words</span>
+            </div>
+            <div class="article-content" id="content-393">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="394">
+            <div class="article-header" onclick="toggleArticle(394)">
+                <h3>WORMS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 511-521 | 10,191 words</span>
+            </div>
+            <div class="article-content" id="content-394">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+    </ul>
+    
+        <footer>
+            <p>Encyclopaedia Britannica Historical Corpus</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+        </footer>
+    </div>
+    
+    <script>
+    const YEAR = 1823;
+    const VOL = 13;
+    let articlesData = null;
+    let loadedArticles = new Set();
+
+    async function loadArticleData() {
+        if (articlesData) return;
+        try {
+            const response = await fetch('data/vol13.json');
+            articlesData = await response.json();
+        } catch (err) {
+            console.error('Failed to load article data:', err);
+        }
+    }
+
+    async function toggleArticle(idx) {
+        const content = document.getElementById('content-' + idx);
+        const isShown = content.classList.contains('show');
+
+        if (isShown) {
+            content.classList.remove('show');
+            return;
+        }
+
+        content.classList.add('show');
+
+        if (loadedArticles.has(idx)) return;
+
+        await loadArticleData();
+        if (!articlesData || !articlesData[idx]) {
+            content.innerHTML = '<div class="article-text">Error loading article.</div>';
+            return;
+        }
+
+        const article = articlesData[idx];
+        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
+
+        content.innerHTML = `
+            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-actions">
+                <button onclick="downloadMd(${idx})">Download .md</button>
+                <button onclick="copyText(${idx})">Copy Text</button>
+            </div>
+        `;
+        loadedArticles.add(idx);
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function downloadMd(idx) {
+        const article = articlesData[idx];
+        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
+        const header = `# ${article.h}\n\n**Edition:** 1823 Sixth Edition\n**Volume:** 13\n**Pages:** ${pages}\n\n---\n\n`;
+        const blob = new Blob([header + article.t], {type: 'text/markdown'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = article.h.replace(/[^a-zA-Z0-9]/g, '_') + '.md';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    function copyText(idx) {
+        const article = articlesData[idx];
+        navigator.clipboard.writeText(article.t).then(() => {
+            alert('Copied to clipboard!');
+        });
+    }
+
+    function filterArticles() {
+        const query = document.getElementById('filterInput').value.toLowerCase();
+        const typeFilter = document.getElementById('typeFilter').value;
+        const items = document.querySelectorAll('.article-item');
+
+        items.forEach(item => {
+            const header = item.querySelector('h3').textContent.toLowerCase();
+            const isTreatise = item.querySelector('.badge') !== null;
+
+            let show = header.includes(query);
+            if (typeFilter === 'treatise') show = show && isTreatise;
+            if (typeFilter === 'dictionary') show = show && !isTreatise;
+
+            item.style.display = show ? '' : 'none';
+        });
+    }
+    </script>
+    
+</body>
+</html>

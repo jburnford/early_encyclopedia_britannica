@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume 1 - 1860 - Encyclopaedia Britannica Historical Corpus</title>
+    <style>
+:root {
+    --bg-primary: #faf8f5;
+    --bg-secondary: #fff;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --accent: #8b4513;
+    --accent-light: #d4a574;
+    --border: #e0d8d0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+header .subtitle {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.breadcrumb {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.edition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.edition-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.edition-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.edition-card h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.edition-card .year {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.edition-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.edition-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--bg-secondary);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edition-card a:hover { background: var(--accent-light); }
+
+.volume-list {
+    list-style: none;
+}
+
+.volume-list li {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.volume-list a {
+    display: block;
+    padding: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.volume-list a:hover { background: var(--bg-primary); }
+
+.volume-list .meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.article-list {
+    list-style: none;
+}
+
+.article-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.article-header:hover { background: var(--bg-primary); }
+
+.article-header h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+}
+
+.article-header .meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.article-header .badge {
+    background: var(--accent-light);
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.article-content {
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+    display: none;
+    background: #fffef8;
+}
+
+.article-content.show { display: block; }
+
+.article-text {
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.article-actions {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+.article-actions button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.article-actions button:hover { background: var(--accent-light); }
+
+.loading {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.search-box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-results {
+    margin-top: 1rem;
+}
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
+.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
+.search-result a { color: var(--accent); }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.stats-table th, .stats-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-table th { background: var(--bg-primary); color: var(--accent); }
+.stats-table tr:hover { background: var(--bg-primary); }
+
+.filter-bar {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container { padding: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .edition-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; <a href="index.html">1860 Edition</a> &raquo; Volume 1</div>
+        
+    <header>
+        <h1>Volume 1</h1>
+        <p class="subtitle">Eighth Edition (1860) | Dissertations</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="index.html">1860 Edition</a>
+        <a href="../search.html">Search</a>
+    </nav>
+
+    <p>This volume contains <strong>75 articles</strong>.
+    Click on an article to view its full text.</p>
+
+    <div class="filter-bar">
+        <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
+        <select id="typeFilter" onchange="filterArticles()">
+            <option value="all">All Types</option>
+            <option value="treatise">Treatises Only</option>
+            <option value="dictionary">Dictionary Only</option>
+        </select>
+    </div>
+
+    <ul class="article-list" id="articleList">
+        
+        <li class="article-item" data-idx="0">
+            <div class="article-header" onclick="toggleArticle(0)">
+                <h3>ABEL<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 832-842 | 9,305 words</span>
+            </div>
+            <div class="article-content" id="content-0">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="1">
+            <div class="article-header" onclick="toggleArticle(1)">
+                <h3>ADAM SMITH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 382-383 | 1,226 words</span>
+            </div>
+            <div class="article-content" id="content-1">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="2">
+            <div class="article-header" onclick="toggleArticle(2)">
+                <h3>AND SECRETARY OF THE ROYAL SOCIETY OF EDINBURGH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 555-557 | 2 words</span>
+            </div>
+            <div class="article-content" id="content-2">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="3">
+            <div class="article-header" onclick="toggleArticle(3)">
+                <h3>ARCHBISHOP OF DUBLIN<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 455-464 | 5,280 words</span>
+            </div>
+            <div class="article-content" id="content-3">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="4">
+            <div class="article-header" onclick="toggleArticle(4)">
+                <h3>BY JAMES DAVID FORBES</h3>
+                <span class="meta">pp. 803 | 5 words</span>
+            </div>
+            <div class="article-content" id="content-4">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="5">
+            <div class="article-header" onclick="toggleArticle(5)">
+                <h3>BY SIR JOHN LESLIE</h3>
+                <span class="meta">pp. 697 | 9 words</span>
+            </div>
+            <div class="article-content" id="content-5">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="6">
+            <div class="article-header" onclick="toggleArticle(6)">
+                <h3>BY THE RIGHT HONOURABLE
+SIR JAMES MACKINTOSH</h3>
+                <span class="meta">pp. 299 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-6">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="7">
+            <div class="article-header" onclick="toggleArticle(7)">
+                <h3>CHAPTER II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 819-832 | 12,388 words</span>
+            </div>
+            <div class="article-content" id="content-7">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="8">
+            <div class="article-header" onclick="toggleArticle(8)">
+                <h3>CHAPTER III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 842-875 | 31,104 words</span>
+            </div>
+            <div class="article-content" id="content-8">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="9">
+            <div class="article-header" onclick="toggleArticle(9)">
+                <h3>CHAPTER IV<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 875-903 | 26,703 words</span>
+            </div>
+            <div class="article-content" id="content-9">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="10">
+            <div class="article-header" onclick="toggleArticle(10)">
+                <h3>CHAPTER VI<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 935-968 | 31,988 words</span>
+            </div>
+            <div class="article-content" id="content-10">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="11">
+            <div class="article-header" onclick="toggleArticle(11)">
+                <h3>CHAPTER VII<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 968-1006 | 35,014 words</span>
+            </div>
+            <div class="article-content" id="content-11">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="12">
+            <div class="article-header" onclick="toggleArticle(12)">
+                <h3>CHURCH ALLEGIANCE AND SEPARATIONS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 544-553 | 6,332 words</span>
+            </div>
+            <div class="article-content" id="content-12">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="13">
+            <div class="article-header" onclick="toggleArticle(13)">
+                <h3>CLARKE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 351-352 | 1,031 words</span>
+            </div>
+            <div class="article-content" id="content-13">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="14">
+            <div class="article-header" onclick="toggleArticle(14)">
+                <h3>CONTENTS OF THE SIXTH DISSERTATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 803-807 | 1,781 words</span>
+            </div>
+            <div class="article-content" id="content-14">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="15">
+            <div class="article-header" onclick="toggleArticle(15)">
+                <h3>CORRESPONDING MEMBER OF THE ROYAL INSTITUTE OF FRANCE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 697-699 | 2 words</span>
+            </div>
+            <div class="article-content" id="content-15">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="16">
+            <div class="article-header" onclick="toggleArticle(16)">
+                <h3>CORRUPTIONS OF CHRISTIANITY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 512-544 | 24,013 words</span>
+            </div>
+            <div class="article-content" id="content-16">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="17">
+            <div class="article-header" onclick="toggleArticle(17)">
+                <h3>CUDWORTH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 348-351 | 1,773 words</span>
+            </div>
+            <div class="article-content" id="content-17">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="18">
+            <div class="article-header" onclick="toggleArticle(18)">
+                <h3>DISSERTATION SIXTH<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 807-809 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-18">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="19">
+            <div class="article-header" onclick="toggleArticle(19)">
+                <h3>DUGALD STEWART<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 410-418 | 5,938 words</span>
+            </div>
+            <div class="article-content" id="content-19">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="20">
+            <div class="article-header" onclick="toggleArticle(20)">
+                <h3>EARL OF SHAFTESBURY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 355-366 | 7,672 words</span>
+            </div>
+            <div class="article-content" id="content-20">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="21">
+            <div class="article-header" onclick="toggleArticle(21)">
+                <h3>END OF DISSERTATION THIRD<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 553-555 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-21">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="22">
+            <div class="article-header" onclick="toggleArticle(22)">
+                <h3>END OF THE FIRST DISSERTATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 297-299 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-22">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="23">
+            <div class="article-header" onclick="toggleArticle(23)">
+                <h3>END OF THE FOURTH DISSERTATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 696-697 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-23">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="24">
+            <div class="article-header" onclick="toggleArticle(24)">
+                <h3>END OF THE SECOND DISSERTATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 453-455 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-24">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="25">
+            <div class="article-header" onclick="toggleArticle(25)">
+                <h3>END OF VOLUME FIRST<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 801-803 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-25">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="26">
+            <div class="article-header" onclick="toggleArticle(26)">
+                <h3>ESTABLISHMENT OF CHRIST&#x27;S KINGDOM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 498-512 | 11,163 words</span>
+            </div>
+            <div class="article-content" id="content-26">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="27">
+            <div class="article-header" onclick="toggleArticle(27)">
+                <h3>HOBBS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 340-344 | 2,594 words</span>
+            </div>
+            <div class="article-content" id="content-27">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="28">
+            <div class="article-header" onclick="toggleArticle(28)">
+                <h3>HUTCHESON<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 371-382 | 7,434 words</span>
+            </div>
+            <div class="article-content" id="content-28">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="29">
+            <div class="article-header" onclick="toggleArticle(29)">
+                <h3>INTRODUCTION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 699-704 | 3,213 words</span>
+            </div>
+            <div class="article-content" id="content-29">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="30">
+            <div class="article-header" onclick="toggleArticle(30)">
+                <h3>INTRODUCTION OF THE GOSPEL<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 487-498 | 7,908 words</span>
+            </div>
+            <div class="article-content" id="content-30">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="31">
+            <div class="article-header" onclick="toggleArticle(31)">
+                <h3>INTRODUCTORY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 809-819 | 10,104 words</span>
+            </div>
+            <div class="article-content" id="content-31">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="32">
+            <div class="article-header" onclick="toggleArticle(32)">
+                <h3>JEREMY BENTHAM<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 400-410 | 7,675 words</span>
+            </div>
+            <div class="article-content" id="content-32">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="33">
+            <div class="article-header" onclick="toggleArticle(33)">
+                <h3>LEIBNITZ<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 130-147 | 14,325 words</span>
+            </div>
+            <div class="article-content" id="content-33">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="34">
+            <div class="article-header" onclick="toggleArticle(34)">
+                <h3>LOCKE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 108-127 | 17,014 words</span>
+            </div>
+            <div class="article-content" id="content-34">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="35">
+            <div class="article-header" onclick="toggleArticle(35)">
+                <h3>MASTER OF TRINITY COLLEGE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 299-323 | 15,425 words</span>
+            </div>
+            <div class="article-content" id="content-35">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="36">
+            <div class="article-header" onclick="toggleArticle(36)">
+                <h3>MATHEMATICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 558-598 | 29,179 words</span>
+            </div>
+            <div class="article-content" id="content-36">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="37">
+            <div class="article-header" onclick="toggleArticle(37)">
+                <h3>MR LOCKE TO MR NEWTON<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 127-130 | 2,809 words</span>
+            </div>
+            <div class="article-content" id="content-37">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="38">
+            <div class="article-header" onclick="toggleArticle(38)">
+                <h3>NOTE GG</h3>
+                <span class="meta">pp. 269 | 457 words</span>
+            </div>
+            <div class="article-content" id="content-38">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="39">
+            <div class="article-header" onclick="toggleArticle(39)">
+                <h3>NOTE HH</h3>
+                <span class="meta">pp. 269-270 | 448 words</span>
+            </div>
+            <div class="article-content" id="content-39">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="40">
+            <div class="article-header" onclick="toggleArticle(40)">
+                <h3>NOTE II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 270-297 | 19,175 words</span>
+            </div>
+            <div class="article-content" id="content-40">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="41">
+            <div class="article-header" onclick="toggleArticle(41)">
+                <h3>NOTES AND ILLUSTRATIONS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 239-269 | 20,838 words</span>
+            </div>
+            <div class="article-content" id="content-41">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="42">
+            <div class="article-header" onclick="toggleArticle(42)">
+                <h3>NOTES AND ILLUSTRATIONS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 440-453 | 8,291 words</span>
+            </div>
+            <div class="article-content" id="content-42">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="43">
+            <div class="article-header" onclick="toggleArticle(43)">
+                <h3>OF
+CHRISTIANITY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 455 | 6 words</span>
+            </div>
+            <div class="article-content" id="content-43">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="44">
+            <div class="article-header" onclick="toggleArticle(44)">
+                <h3>OF THE
+PROGRESS OF MATHEMATICAL AND PHYSICAL SCIENCE</h3>
+                <span class="meta">pp. 803 | 5 words</span>
+            </div>
+            <div class="article-content" id="content-44">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="45">
+            <div class="article-header" onclick="toggleArticle(45)">
+                <h3>OF THE
+RISE</h3>
+                <span class="meta">pp. 455 | 3 words</span>
+            </div>
+            <div class="article-content" id="content-45">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="46">
+            <div class="article-header" onclick="toggleArticle(46)">
+                <h3>OPTICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 903-935 | 30,722 words</span>
+            </div>
+            <div class="article-content" id="content-46">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="47">
+            <div class="article-header" onclick="toggleArticle(47)">
+                <h3>PART FIRST<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 557-558 | 604 words</span>
+            </div>
+            <div class="article-content" id="content-47">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="48">
+            <div class="article-header" onclick="toggleArticle(48)">
+                <h3>PART SECOND<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 639-641 | 253 words</span>
+            </div>
+            <div class="article-content" id="content-48">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="49">
+            <div class="article-header" onclick="toggleArticle(49)">
+                <h3>PERIOD FIRST<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 641 | 2 words</span>
+            </div>
+            <div class="article-content" id="content-49">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="50">
+            <div class="article-header" onclick="toggleArticle(50)">
+                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 344-348 | 3,600 words</span>
+            </div>
+            <div class="article-content" id="content-50">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="51">
+            <div class="article-header" onclick="toggleArticle(51)">
+                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 352-355 | 2,445 words</span>
+            </div>
+            <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="52">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 383-400 | 12,376 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="53">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 130 | 8 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="54">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 323-331 | 6,137 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="55">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 659-669 | 7,593 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="56">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 726-801 | 56,337 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="57">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 147-159 | 11,044 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="58">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 331-340 | 6,849 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="59">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 598-605 | 5,146 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="60">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 669-678 | 6,892 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="61">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 159-180 | 17,737 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="62">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 605-639 | 25,039 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="63">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 678-696 | 14,416 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="64">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>SECTION VI<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 180-195 | 13,725 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="65">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>SECTION VI<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 366-371 | 4,130 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="66">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>SECTION VII<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 195-212 | 15,611 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="67">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>SECTION VII<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 424-440 | 12,286 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="68">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>SECTION VIII<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 212-239 | 22,199 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="69">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>SINCE THE REVIVAL OF LETTERS IN EUROPE<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 555 | 3 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="70">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>SPECULATIVE MATHEMATICS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 704-726 | 18,439 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="71">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>THE MOSAIC DISPENSATION<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 474-487 | 10,245 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="72">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>THE NEW GEOMETRY<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 641-659 | 12,658 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="73">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>THE PAGAN RELIGIONS<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 464-474 | 7,860 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" data-idx="74">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>THOMAS BROWN<span class="badge">Treatise</span></h3>
+                <span class="meta">pp. 418-424 | 4,582 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+    </ul>
+    
+        <footer>
+            <p>Encyclopaedia Britannica Historical Corpus</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+        </footer>
+    </div>
+    
+    <script>
+    const YEAR = 1860;
+    const VOL = 1;
+    let articlesData = null;
+    let loadedArticles = new Set();
+
+    async function loadArticleData() {
+        if (articlesData) return;
+        try {
+            const response = await fetch('data/vol1.json');
+            articlesData = await response.json();
+        } catch (err) {
+            console.error('Failed to load article data:', err);
+        }
+    }
+
+    async function toggleArticle(idx) {
+        const content = document.getElementById('content-' + idx);
+        const isShown = content.classList.contains('show');
+
+        if (isShown) {
+            content.classList.remove('show');
+            return;
+        }
+
+        content.classList.add('show');
+
+        if (loadedArticles.has(idx)) return;
+
+        await loadArticleData();
+        if (!articlesData || !articlesData[idx]) {
+            content.innerHTML = '<div class="article-text">Error loading article.</div>';
+            return;
+        }
+
+        const article = articlesData[idx];
+        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
+
+        content.innerHTML = `
+            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-actions">
+                <button onclick="downloadMd(${idx})">Download .md</button>
+                <button onclick="copyText(${idx})">Copy Text</button>
+            </div>
+        `;
+        loadedArticles.add(idx);
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function downloadMd(idx) {
+        const article = articlesData[idx];
+        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
+        const header = `# ${article.h}\n\n**Edition:** 1860 Eighth Edition\n**Volume:** 1\n**Pages:** ${pages}\n\n---\n\n`;
+        const blob = new Blob([header + article.t], {type: 'text/markdown'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = article.h.replace(/[^a-zA-Z0-9]/g, '_') + '.md';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    function copyText(idx) {
+        const article = articlesData[idx];
+        navigator.clipboard.writeText(article.t).then(() => {
+            alert('Copied to clipboard!');
+        });
+    }
+
+    function filterArticles() {
+        const query = document.getElementById('filterInput').value.toLowerCase();
+        const typeFilter = document.getElementById('typeFilter').value;
+        const items = document.querySelectorAll('.article-item');
+
+        items.forEach(item => {
+            const header = item.querySelector('h3').textContent.toLowerCase();
+            const isTreatise = item.querySelector('.badge') !== null;
+
+            let show = header.includes(query);
+            if (typeFilter === 'treatise') show = show && isTreatise;
+            if (typeFilter === 'dictionary') show = show && !isTreatise;
+
+            item.style.display = show ? '' : 'none';
+        });
+    }
+    </script>
+    
+</body>
+</html>

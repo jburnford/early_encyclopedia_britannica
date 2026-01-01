@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1771 Edition - Encyclopaedia Britannica Historical Corpus</title>
+    <style>
+:root {
+    --bg-primary: #faf8f5;
+    --bg-secondary: #fff;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --accent: #8b4513;
+    --accent-light: #d4a574;
+    --border: #e0d8d0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+header .subtitle {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.breadcrumb {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.edition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.edition-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.edition-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.edition-card h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.edition-card .year {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.edition-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.edition-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--bg-secondary);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edition-card a:hover { background: var(--accent-light); }
+
+.volume-list {
+    list-style: none;
+}
+
+.volume-list li {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.volume-list a {
+    display: block;
+    padding: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.volume-list a:hover { background: var(--bg-primary); }
+
+.volume-list .meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.article-list {
+    list-style: none;
+}
+
+.article-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.article-header:hover { background: var(--bg-primary); }
+
+.article-header h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+}
+
+.article-header .meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.article-header .badge {
+    background: var(--accent-light);
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.article-content {
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+    display: none;
+    background: #fffef8;
+}
+
+.article-content.show { display: block; }
+
+.article-text {
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.article-actions {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+.article-actions button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.article-actions button:hover { background: var(--accent-light); }
+
+.loading {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.search-box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-results {
+    margin-top: 1rem;
+}
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
+.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
+.search-result a { color: var(--accent); }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.stats-table th, .stats-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-table th { background: var(--bg-primary); color: var(--accent); }
+.stats-table tr:hover { background: var(--bg-primary); }
+
+.filter-bar {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container { padding: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .edition-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; 1771 Edition</div>
+        
+    <header>
+        <h1>Encyclopaedia Britannica</h1>
+        <p class="subtitle">First Edition (1771)</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../search.html">Search</a>
+    </nav>
+
+    <p>The First Edition contains <strong>28,139 articles</strong>
+    including <strong>727 treatises</strong> across
+    <strong>3 volumes</strong>.</p>
+
+    <h2>Volumes</h2>
+    <ul class="volume-list">
+        
+        <li>
+            <a href="vol1.html">
+                <strong>Volume 1</strong>
+                : A-B
+                <div class="meta">7,961 articles, 324 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol2.html">
+                <strong>Volume 2</strong>
+                : C-L
+                <div class="meta">10,070 articles, 260 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol3.html">
+                <strong>Volume 3</strong>
+                : M-Z
+                <div class="meta">10,108 articles, 143 treatises</div>
+            </a>
+        </li>
+        
+    </ul>
+    
+        <footer>
+            <p>Encyclopaedia Britannica Historical Corpus</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+        </footer>
+    </div>
+    
+</body>
+</html>

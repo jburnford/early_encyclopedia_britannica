@@ -1,0 +1,15 @@
+# Data files (too large for GitHub)
+output/
+output_v2/
+ocr_results/
+json/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# System
+.DS_Store
+*.log
