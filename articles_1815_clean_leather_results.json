@@ -1,0 +1,548 @@
+{
+  "domain": "leather",
+  "hierarchical": true,
+  "num_target_articles": 19,
+  "num_background_articles": 50,
+  "num_chunks": 526,
+  "time_standard": 4.625215291976929,
+  "time_contextual": 10.399967193603516,
+  "voyage-3": {
+    "model": "voyage-3",
+    "queries": [
+      {
+        "query": "vegetable tanning oak bark process pit",
+        "expected": [
+          "TANNING",
+          "BARK",
+          "OAK",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "TAN",
+          "TANNING"
+        ],
+        "scores": [
+          "0.587",
+          "0.577",
+          "0.570",
+          "0.570",
+          "0.569"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.25
+      },
+      {
+        "query": "hide preparation lime soaking unhairing",
+        "expected": [
+          "HIDE",
+          "TANNING",
+          "LEATHER",
+          "LIME"
+        ],
+        "retrieved": [
+          "TANNING",
+          "LEATHER",
+          "TANNING",
+          "TANNING",
+          "TANNING"
+        ],
+        "scores": [
+          "0.504",
+          "0.460",
+          "0.443",
+          "0.442",
+          "0.421"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "currying finishing leather oil grease",
+        "expected": [
+          "LEATHER",
+          "TANNING",
+          "CURRIER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.588",
+          "0.508",
+          "0.502",
+          "0.489",
+          "0.473"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "morocco red leather Turkey dyeing goatskin",
+        "expected": [
+          "LEATHER",
+          "MOROCCO",
+          "TANNING"
+        ],
+        "retrieved": [
+          "MOROCCO",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.576",
+          "0.528",
+          "0.514",
+          "0.507",
+          "0.505"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "tanning liquor ooze tan yard handler",
+        "expected": [
+          "TANNING",
+          "TAN",
+          "BARK"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNING",
+          "OAK",
+          "TANNING",
+          "TAN"
+        ],
+        "scores": [
+          "0.474",
+          "0.431",
+          "0.416",
+          "0.415",
+          "0.412"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "raw hides salted green dried",
+        "expected": [
+          "HIDE",
+          "LEATHER",
+          "TANNING"
+        ],
+        "retrieved": [
+          "TANNING",
+          "HIDE",
+          "TANNING",
+          "TANNING",
+          "TANNING"
+        ],
+        "scores": [
+          "0.504",
+          "0.467",
+          "0.465",
+          "0.461",
+          "0.456"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "sole leather butts backs thick",
+        "expected": [
+          "TANNING",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.446",
+          "0.417",
+          "0.373",
+          "0.346",
+          "0.296"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "chamois soft white leather oil tawed",
+        "expected": [
+          "CHAMOIS",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "LEATHER",
+          "LEATHER",
+          "MOROCCO",
+          "VELLUM"
+        ],
+        "scores": [
+          "0.406",
+          "0.406",
+          "0.405",
+          "0.374",
+          "0.374"
+        ],
+        "first_relevant_rank": 2,
+        "recall_5": 0.5
+      },
+      {
+        "query": "parchment vellum animal skin writing",
+        "expected": [
+          "PARCHMENT",
+          "VELLUM",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "PARCHMENT",
+          "PARCHMENT",
+          "PARCHMENT",
+          "PARCHMENT",
+          "VELLUM"
+        ],
+        "scores": [
+          "0.653",
+          "0.622",
+          "0.613",
+          "0.588",
+          "0.577"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "cordwainer shoemaker leather craft",
+        "expected": [
+          "CORDWAINER",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNER",
+          "LEATHER",
+          "MANDING",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.480",
+          "0.454",
+          "0.451",
+          "0.417",
+          "0.413"
+        ],
+        "first_relevant_rank": 3,
+        "recall_5": 0.5
+      },
+      {
+        "query": "fuller cloth wool process",
+        "expected": [
+          "FULLER"
+        ],
+        "retrieved": [
+          "FULLER",
+          "FULLER",
+          "FULLER",
+          "FULLER",
+          "FULLER"
+        ],
+        "scores": [
+          "0.571",
+          "0.537",
+          "0.528",
+          "0.516",
+          "0.508"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      }
+    ],
+    "mrr": 0.893939393939394,
+    "recall_at_5": 0.6439393939393939,
+    "recall_at_10": 0.7348484848484848
+  },
+  "voyage-context-3": {
+    "model": "voyage-context-3",
+    "queries": [
+      {
+        "query": "vegetable tanning oak bark process pit",
+        "expected": [
+          "TANNING",
+          "BARK",
+          "OAK",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNING",
+          "TAN",
+          "TANNING",
+          "TANNING"
+        ],
+        "scores": [
+          "0.558",
+          "0.549",
+          "0.538",
+          "0.534",
+          "0.534"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.25
+      },
+      {
+        "query": "hide preparation lime soaking unhairing",
+        "expected": [
+          "HIDE",
+          "TANNING",
+          "LEATHER",
+          "LIME"
+        ],
+        "retrieved": [
+          "LEATHER",
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "TANNING"
+        ],
+        "scores": [
+          "0.531",
+          "0.516",
+          "0.514",
+          "0.514",
+          "0.512"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "currying finishing leather oil grease",
+        "expected": [
+          "LEATHER",
+          "TANNING",
+          "CURRIER"
+        ],
+        "retrieved": [
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "TANNER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.428",
+          "0.425",
+          "0.424",
+          "0.383",
+          "0.382"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.3333333333333333
+      },
+      {
+        "query": "morocco red leather Turkey dyeing goatskin",
+        "expected": [
+          "LEATHER",
+          "MOROCCO",
+          "TANNING"
+        ],
+        "retrieved": [
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.514",
+          "0.492",
+          "0.491",
+          "0.489",
+          "0.484"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.3333333333333333
+      },
+      {
+        "query": "tanning liquor ooze tan yard handler",
+        "expected": [
+          "TANNING",
+          "TAN",
+          "BARK"
+        ],
+        "retrieved": [
+          "TANNER",
+          "TAN",
+          "TANNING",
+          "TANNING",
+          "TAN"
+        ],
+        "scores": [
+          "0.423",
+          "0.398",
+          "0.369",
+          "0.368",
+          "0.361"
+        ],
+        "first_relevant_rank": 2,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "raw hides salted green dried",
+        "expected": [
+          "HIDE",
+          "LEATHER",
+          "TANNING"
+        ],
+        "retrieved": [
+          "HIDE",
+          "LEATHER",
+          "TANNER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.529",
+          "0.448",
+          "0.423",
+          "0.421",
+          "0.410"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.6666666666666666
+      },
+      {
+        "query": "sole leather butts backs thick",
+        "expected": [
+          "TANNING",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "TANNING",
+          "TANNING"
+        ],
+        "scores": [
+          "0.314",
+          "0.309",
+          "0.308",
+          "0.282",
+          "0.279"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "chamois soft white leather oil tawed",
+        "expected": [
+          "CHAMOIS",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.357",
+          "0.335",
+          "0.325",
+          "0.318",
+          "0.318"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "parchment vellum animal skin writing",
+        "expected": [
+          "PARCHMENT",
+          "VELLUM",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "PARCHMENT",
+          "PARCHMENT",
+          "PARCHMENT",
+          "PARCHMENT",
+          "PARCHMENT"
+        ],
+        "scores": [
+          "0.658",
+          "0.646",
+          "0.620",
+          "0.605",
+          "0.595"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.3333333333333333
+      },
+      {
+        "query": "cordwainer shoemaker leather craft",
+        "expected": [
+          "CORDWAINER",
+          "LEATHER"
+        ],
+        "retrieved": [
+          "TANNER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER",
+          "LEATHER"
+        ],
+        "scores": [
+          "0.460",
+          "0.308",
+          "0.305",
+          "0.304",
+          "0.302"
+        ],
+        "first_relevant_rank": 2,
+        "recall_5": 0.5
+      },
+      {
+        "query": "fuller cloth wool process",
+        "expected": [
+          "FULLER"
+        ],
+        "retrieved": [
+          "FULLER",
+          "FULLER",
+          "FULLER",
+          "FULLER",
+          "FULLER"
+        ],
+        "scores": [
+          "0.558",
+          "0.556",
+          "0.544",
+          "0.531",
+          "0.517"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      }
+    ],
+    "mrr": 0.9090909090909091,
+    "recall_at_5": 0.5075757575757576,
+    "recall_at_10": 0.5681818181818182
+  },
+  "mrr_improvement_pct": 1.6949152542372738
+}

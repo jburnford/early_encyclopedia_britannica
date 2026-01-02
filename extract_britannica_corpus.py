@@ -164,6 +164,60 @@ ARTICLE_PATTERN = re.compile(
     re.MULTILINE
 )
 
+# Pattern for entries where headword is followed directly by a verb (no comma)
+# e.g., "CABALLINE denotes something belonging to horses"
+# IMPORTANT: Only matches at line start with double newline to avoid mid-text matches
+ARTICLE_VERB_PATTERN = re.compile(
+    r'(?:\n\n+)(?:\*\*)?([A-Z][A-Z\'\-]{2,}(?:\s+[A-Z][A-Z\'\-]+)*)(?:\*\*)?\s+'
+    r'(?:denotes|signifies|means|expresses|implies|indicates)\b',
+    re.MULTILINE | re.IGNORECASE
+)
+
+# Load stopwords - try NLTK first, fall back to hardcoded list
+def _load_stopwords():
+    """Load stopwords from NLTK if available, otherwise use hardcoded list."""
+    try:
+        from nltk.corpus import stopwords
+        words = set(w.upper() for w in stopwords.words('english'))
+        logger.debug(f"Loaded {len(words)} stopwords from NLTK")
+    except (ImportError, LookupError):
+        # NLTK not available or stopwords not downloaded
+        words = {
+            'I', 'ME', 'MY', 'MYSELF', 'WE', 'OUR', 'OURS', 'OURSELVES', 'YOU',
+            'YOUR', 'YOURS', 'YOURSELF', 'YOURSELVES', 'HE', 'HIM', 'HIS',
+            'HIMSELF', 'SHE', 'HER', 'HERS', 'HERSELF', 'IT', 'ITS', 'ITSELF',
+            'THEY', 'THEM', 'THEIR', 'THEIRS', 'THEMSELVES', 'WHAT', 'WHICH',
+            'WHO', 'WHOM', 'THIS', 'THAT', 'THESE', 'THOSE', 'AM', 'IS', 'ARE',
+            'WAS', 'WERE', 'BE', 'BEEN', 'BEING', 'HAVE', 'HAS', 'HAD', 'HAVING',
+            'DO', 'DOES', 'DID', 'DOING', 'A', 'AN', 'THE', 'AND', 'BUT', 'IF',
+            'OR', 'BECAUSE', 'AS', 'UNTIL', 'WHILE', 'OF', 'AT', 'BY', 'FOR',
+            'WITH', 'ABOUT', 'AGAINST', 'BETWEEN', 'INTO', 'THROUGH', 'DURING',
+            'BEFORE', 'AFTER', 'ABOVE', 'BELOW', 'TO', 'FROM', 'UP', 'DOWN',
+            'IN', 'OUT', 'ON', 'OFF', 'OVER', 'UNDER', 'AGAIN', 'FURTHER',
+            'THEN', 'ONCE', 'HERE', 'THERE', 'WHEN', 'WHERE', 'WHY', 'HOW',
+            'ALL', 'EACH', 'FEW', 'MORE', 'MOST', 'OTHER', 'SOME', 'SUCH', 'NO',
+            'NOR', 'NOT', 'ONLY', 'OWN', 'SAME', 'SO', 'THAN', 'TOO', 'VERY',
+            'S', 'T', 'CAN', 'WILL', 'JUST', 'DON', 'SHOULD', 'NOW', 'D', 'LL',
+            'M', 'O', 'RE', 'VE', 'Y', 'AIN', 'AREN', 'COULDN', 'DIDN', 'DOESN',
+            'HADN', 'HASN', 'HAVEN', 'ISN', 'MA', 'MIGHTN', 'MUSTN', 'NEEDN',
+            'SHAN', 'SHOULDN', 'WASN', 'WEREN', 'WON', 'WOULDN',
+        }
+        logger.debug(f"Using {len(words)} hardcoded stopwords")
+
+    # Add additional encyclopedia-specific exclusions
+    words.update({
+        'HENCE', 'THUS', 'THEREFORE', 'HOWEVER', 'MOREOVER', 'FURTHERMORE',
+        'NEVERTHELESS', 'ACCORDINGLY', 'CONSEQUENTLY', 'MEANWHILE', 'FORMERLY',
+        'SAID', 'CALLED', 'NAMED', 'KNOWN', 'MADE', 'FOUND', 'GIVEN', 'TAKEN',
+        'ONE', 'TWO', 'THREE', 'FOUR', 'FIVE', 'SIX', 'SEVEN', 'EIGHT', 'NINE', 'TEN',
+        'FIRST', 'SECOND', 'THIRD', 'FOURTH', 'FIFTH', 'LAST', 'NEXT',
+        'MANY', 'MUCH', 'SEVERAL', 'EVERY', 'BOTH', 'EITHER', 'NEITHER',
+        'ANOTHER', 'VARIOUS', 'CERTAIN', 'WHOLE', 'ENTIRE', 'HALF',
+    })
+    return words
+
+STOPWORDS = _load_stopwords()
+
 TREATISE_PATTERN = re.compile(
     r'(?:\n+|---\s*\n+)(?:\*\*)?([A-Z][A-Z\'\-]+(?:\s+[A-Z][A-Z\'\-]+)*)(?:\*\*)?\.\s*\n+',
     re.MULTILINE
@@ -588,9 +642,22 @@ def is_cross_reference_context(text: str, match_start: int) -> bool:
 def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[Article]:
     """Extract articles from OCR text."""
 
-    # Find matches
+    # Find matches from standard comma pattern
     dict_matches = [(m.start(), m.end(), m.group(1).upper().strip(), False)
                     for m in ARTICLE_PATTERN.finditer(text) if len(m.group(1)) >= 2]
+
+    # Find matches from verb pattern (HEADWORD denotes/signifies/means...)
+    # For verb patterns, end position is after headword (before verb)
+    verb_matches = []
+    for m in ARTICLE_VERB_PATTERN.finditer(text):
+        hw = m.group(1).upper().strip()
+        # Skip stopwords that are false positives
+        if hw in STOPWORDS:
+            continue
+        if len(hw) >= 3:  # Require at least 3 chars for verb pattern
+            # Calculate end position as just after the headword
+            hw_end = m.start() + len(m.group(0).split()[0]) + 1
+            verb_matches.append((m.start(), hw_end, hw, False))
 
     # Filter out treatise matches that are cross-references (e.g., "See\nCHEMISTRY.\n\n")
     treatise_matches = []
@@ -603,7 +670,7 @@ def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[
         treatise_matches.append((m.start(), m.end(), m.group(1).upper().strip(), True))
 
     # Combine and sort
-    all_entries = dict_matches + treatise_matches
+    all_entries = dict_matches + verb_matches + treatise_matches
     all_entries.sort(key=lambda x: x[0])
 
     # Deduplicate nearby

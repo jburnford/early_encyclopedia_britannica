@@ -19,7 +19,7 @@ from datetime import datetime
 # Configuration
 INPUT_DIR = Path("output_v2")
 OUTPUT_DIR = Path("docs")
-EDITIONS_TO_INCLUDE = [1771, 1778, 1810, 1815, 1823, 1842, 1860]  # Excluding 1797
+EDITIONS_TO_INCLUDE = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]  # All 8 editions
 
 EDITION_NAMES = {
     1771: ("1st Edition", "First"),

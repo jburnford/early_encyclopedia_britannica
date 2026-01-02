@@ -1,0 +1,703 @@
+{
+  "articles": [
+    "GLASS",
+    "PRINTING",
+    "EXPERIMENTAL PHILOSOPHY"
+  ],
+  "num_chunks": 313,
+  "voyage-3": {
+    "queries": [
+      {
+        "query": "the French improvements to this art and their methods",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "PRINTING",
+          "GLASS"
+        ],
+        "scores": [
+          "0.519",
+          "0.514",
+          "0.465",
+          "0.451",
+          "0.421"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the inventor who first discovered this technique in ancient ",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "GLASS",
+          "PRINTING",
+          "GLASS"
+        ],
+        "scores": [
+          "0.470",
+          "0.467",
+          "0.458",
+          "0.457",
+          "0.452"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the process requires careful preparation of materials before",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.413",
+          "0.412",
+          "0.405",
+          "0.396",
+          "0.382"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "the practice was known among the ancient Romans and Greeks",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "EXPERIMENTAL PHILOSOPHY",
+          "PRINTING",
+          "GLASS",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.405",
+          "0.382",
+          "0.375",
+          "0.360",
+          "0.359"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "melting sand with alkaline salts in a furnace produces trans",
+        "type": "article_specific",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.518",
+          "0.470",
+          "0.468",
+          "0.462",
+          "0.451"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "moveable type letters arranged for impressions on paper",
+        "type": "article_specific",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.600",
+          "0.544",
+          "0.540",
+          "0.528",
+          "0.527"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "vitrification of materials at high temperatures",
+        "type": "article_specific",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.535",
+          "0.460",
+          "0.422",
+          "0.419",
+          "0.414"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "copper plate engraving for producing illustrations",
+        "type": "article_specific",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.574",
+          "0.570",
+          "0.512",
+          "0.505",
+          "0.475"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "experiments and observations as the foundation of knowledge",
+        "type": "article_specific",
+        "expected": [
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "retrieved": [
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "scores": [
+          "0.531",
+          "0.467",
+          "0.461",
+          "0.432",
+          "0.429"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "ocular demonstration and sensory evidence for truth",
+        "type": "article_specific",
+        "expected": [
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "retrieved": [
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "scores": [
+          "0.494",
+          "0.423",
+          "0.399",
+          "0.384",
+          "0.351"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the color of glass and how to produce different tints",
+        "type": "within_article_section",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.584",
+          "0.581",
+          "0.578",
+          "0.577",
+          "0.565"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "window glass versus mirror glass manufacturing differences",
+        "type": "within_article_section",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.517",
+          "0.490",
+          "0.486",
+          "0.482",
+          "0.479"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "ink preparation and composition for printing",
+        "type": "within_article_section",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.553",
+          "0.504",
+          "0.486",
+          "0.445",
+          "0.429"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the press mechanism and how it applies pressure",
+        "type": "within_article_section",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.476",
+          "0.465",
+          "0.463",
+          "0.462",
+          "0.455"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      }
+    ],
+    "mrr": 1.0,
+    "recall_at_5": 0.9642857142857143,
+    "by_type": {
+      "cross_article_ambiguous": {
+        "mrr": 1.0,
+        "count": 4
+      },
+      "article_specific": {
+        "mrr": 1.0,
+        "count": 6
+      },
+      "within_article_section": {
+        "mrr": 1.0,
+        "count": 4
+      }
+    }
+  },
+  "voyage-context-3": {
+    "queries": [
+      {
+        "query": "the French improvements to this art and their methods",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.415",
+          "0.391",
+          "0.380",
+          "0.375",
+          "0.369"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "the inventor who first discovered this technique in ancient ",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.387",
+          "0.385",
+          "0.356",
+          "0.354",
+          "0.346"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "the process requires careful preparation of materials before",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "GLASS"
+        ],
+        "scores": [
+          "0.324",
+          "0.316",
+          "0.305",
+          "0.302",
+          "0.301"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the practice was known among the ancient Romans and Greeks",
+        "type": "cross_article_ambiguous",
+        "expected": [
+          "GLASS",
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "EXPERIMENTAL PHILOSOPHY",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.350",
+          "0.331",
+          "0.326",
+          "0.324",
+          "0.312"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 0.5
+      },
+      {
+        "query": "melting sand with alkaline salts in a furnace produces trans",
+        "type": "article_specific",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.545",
+          "0.535",
+          "0.534",
+          "0.529",
+          "0.529"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "moveable type letters arranged for impressions on paper",
+        "type": "article_specific",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.549",
+          "0.547",
+          "0.544",
+          "0.544",
+          "0.536"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "vitrification of materials at high temperatures",
+        "type": "article_specific",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.415",
+          "0.375",
+          "0.348",
+          "0.340",
+          "0.338"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "copper plate engraving for producing illustrations",
+        "type": "article_specific",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.503",
+          "0.482",
+          "0.450",
+          "0.444",
+          "0.434"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "experiments and observations as the foundation of knowledge",
+        "type": "article_specific",
+        "expected": [
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "retrieved": [
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "scores": [
+          "0.564",
+          "0.511",
+          "0.469",
+          "0.463",
+          "0.457"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "ocular demonstration and sensory evidence for truth",
+        "type": "article_specific",
+        "expected": [
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "retrieved": [
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY",
+          "EXPERIMENTAL PHILOSOPHY"
+        ],
+        "scores": [
+          "0.435",
+          "0.383",
+          "0.378",
+          "0.356",
+          "0.318"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the color of glass and how to produce different tints",
+        "type": "within_article_section",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.552",
+          "0.550",
+          "0.548",
+          "0.548",
+          "0.547"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "window glass versus mirror glass manufacturing differences",
+        "type": "within_article_section",
+        "expected": [
+          "GLASS"
+        ],
+        "retrieved": [
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS",
+          "GLASS"
+        ],
+        "scores": [
+          "0.433",
+          "0.425",
+          "0.421",
+          "0.419",
+          "0.416"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "ink preparation and composition for printing",
+        "type": "within_article_section",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.547",
+          "0.505",
+          "0.461",
+          "0.454",
+          "0.452"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      },
+      {
+        "query": "the press mechanism and how it applies pressure",
+        "type": "within_article_section",
+        "expected": [
+          "PRINTING"
+        ],
+        "retrieved": [
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING",
+          "PRINTING"
+        ],
+        "scores": [
+          "0.424",
+          "0.420",
+          "0.411",
+          "0.407",
+          "0.406"
+        ],
+        "first_relevant_rank": 1,
+        "recall_5": 1.0
+      }
+    ],
+    "mrr": 1.0,
+    "recall_at_5": 0.8928571428571429,
+    "by_type": {
+      "cross_article_ambiguous": {
+        "mrr": 1.0,
+        "count": 4
+      },
+      "article_specific": {
+        "mrr": 1.0,
+        "count": 6
+      },
+      "within_article_section": {
+        "mrr": 1.0,
+        "count": 4
+      }
+    }
+  },
+  "context_wins": 0,
+  "standard_wins": 0,
+  "ties": 14
+}

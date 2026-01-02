@@ -19,19 +19,22 @@ Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britan
 | `output_v2/` | Extracted JSONL files (not in git - too large) |
 | `ocr_results/` | Source OCR files from OLMoCR (not in git) |
 
-## Current Status: 102,036 Articles
+## Current Status: 121,161 Articles
 
 | Edition | Year | Volumes | Articles | Treatises | Biographical | Geographical |
 |---------|------|---------|----------|-----------|--------------|--------------|
-| 1st | 1771 | 3 | 11,351 | 365 | **0** | 2,067 |
-| 2nd | 1778 | 10 | 13,948 | 1,000 | 635 | 2,237 |
-| 4th | 1810 | 20 | 9,822 | 1,002 | 379 | 1,435 |
-| 5th | 1815 | 19 | 18,178 | 1,630 | 720 | 2,783 |
-| 6th | 1823 | 20 | 15,748 | 1,809 | 596 | 2,284 |
-| 7th | 1842 | 22 | 18,528 | 2,135 | 580 | 4,064 |
-| 8th | 1860 | 22 | 14,461 | 2,369 | 1,068 | 2,213 |
+| 1st | 1771 | 3 | 11,447 | 385 | **0** | 2,074 |
+| 2nd | 1778 | 10 | 14,136 | 1,067 | 637 | 2,238 |
+| 3rd | 1797 | 18 | 17,139 | 1,820 | 694 | 2,655 |
+| 4th | 1810 | 20 | 10,024 | 1,074 | 379 | 1,438 |
+| 5th | 1815 | 19 | 18,531 | 1,776 | 720 | 2,789 |
+| 6th | 1823 | 20 | 16,081 | 1,963 | 596 | 2,291 |
+| 7th | 1842 | 22 | 19,003 | 2,312 | 583 | 4,088 |
+| 8th | 1860 | 22 | 14,800 | 2,545 | 1,070 | 2,228 |
 
-**Note**: 1771 (1st edition) correctly shows 0 biographical entries - this edition explicitly excluded biography to focus on Arts & Sciences.
+**Notes**:
+- 1771 (1st edition) correctly shows 0 biographical entries - this edition explicitly excluded biography to focus on Arts & Sciences.
+- 1797 (3rd edition) now fully OCR'd with all 18 volumes.
 
 ## Output Format (JSONL)
 
@@ -152,10 +155,8 @@ A detailed plan exists for building a Neo4j GraphRAG knowledge graph from the co
 ### 1842 General Index - OCR In Progress
 Volume 22 of the 1842 edition contains the General Index, which provides the canonical taxonomy for the encyclopedia. Currently only the preface has been extracted; full index OCR is in progress.
 
-### 3rd Edition (1797) - Missing Volumes
-Volumes 1, 10, 11, 12, 13 are missing from OCR. Need to re-OCR these from source PDFs.
-- Currently excluded from website
-- 14 volumes available, but incomplete
+### 3rd Edition (1797) - COMPLETE
+All 18 volumes now OCR'd and extracted. Previously missing volumes have been processed.
 
 ### Potential Article Quality Issues
 - Some very short articles may still be artifacts

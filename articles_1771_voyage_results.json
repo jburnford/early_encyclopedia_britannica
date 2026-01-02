@@ -1,0 +1,570 @@
+{
+  "voyage-3": {
+    "model": "voyage-3",
+    "queries": [
+      {
+        "query": "phlogiston combustion theory",
+        "expected": [
+          "CHEMISTRY",
+          "FIRE",
+          "COMBUSTION"
+        ],
+        "retrieved": [
+          "AABAM",
+          "ABATOR",
+          "ABACTUS",
+          "ABACUS",
+          "ABACO"
+        ],
+        "scores": [
+          "0.328",
+          "0.264",
+          "0.264",
+          "0.263",
+          "0.261"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "planetary motion orbits",
+        "expected": [
+          "ASTRONOMY",
+          "PLANET",
+          "ORBIT"
+        ],
+        "retrieved": [
+          "ABBATIS",
+          "ABACO",
+          "ABADAN",
+          "ABANO",
+          "AAHUS"
+        ],
+        "scores": [
+          "0.263",
+          "0.249",
+          "0.208",
+          "0.206",
+          "0.203"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "electrical fluid experiments",
+        "expected": [
+          "ELECTRICITY",
+          "LIGHTNING",
+          "THUNDER"
+        ],
+        "retrieved": [
+          "ABACATUAIA",
+          "ABASING",
+          "AABAM",
+          "AAM",
+          "ABANCAY"
+        ],
+        "scores": [
+          "0.192",
+          "0.174",
+          "0.172",
+          "0.171",
+          "0.157"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "smallpox inoculation variolation",
+        "expected": [
+          "MEDICINE",
+          "INOCULATION",
+          "SMALLPOX"
+        ],
+        "retrieved": [
+          "ABACTUS",
+          "ABACUS",
+          "AABAM",
+          "ABATEMENT",
+          "ABBATIS"
+        ],
+        "scores": [
+          "0.278",
+          "0.272",
+          "0.262",
+          "0.261",
+          "0.256"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "chymistry transmutation metals",
+        "expected": [
+          "CHEMISTRY",
+          "ALCHEMY",
+          "METAL"
+        ],
+        "retrieved": [
+          "AABAM",
+          "ABACATUAIA",
+          "ABACO",
+          "ABATEMENT",
+          "ABASCIA"
+        ],
+        "scores": [
+          "0.485",
+          "0.249",
+          "0.239",
+          "0.227",
+          "0.218"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "natural philosophy principles",
+        "expected": [
+          "PHYSICS",
+          "PHILOSOPHY",
+          "NATURE"
+        ],
+        "retrieved": [
+          "ABACUS",
+          "ABACO",
+          "AABAM",
+          "ABACUS",
+          "ABADIR"
+        ],
+        "scores": [
+          "0.219",
+          "0.218",
+          "0.217",
+          "0.207",
+          "0.201"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "phlebotomy bloodletting cure",
+        "expected": [
+          "MEDICINE",
+          "SURGERY",
+          "BLOOD"
+        ],
+        "retrieved": [
+          "ABACTUS",
+          "ABATE",
+          "ABACO",
+          "AABAM",
+          "ABATEMENT"
+        ],
+        "scores": [
+          "0.335",
+          "0.299",
+          "0.294",
+          "0.291",
+          "0.283"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "American colonies revolution",
+        "expected": [
+          "AMERICA",
+          "COLONY",
+          "REVOLUTION"
+        ],
+        "retrieved": [
+          "ABASCIA",
+          "ABBATIS",
+          "AAMA",
+          "ABACTORES",
+          "ABB"
+        ],
+        "scores": [
+          "0.239",
+          "0.231",
+          "0.204",
+          "0.202",
+          "0.200"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "Scottish enlightenment philosophy",
+        "expected": [
+          "SCOTLAND",
+          "PHILOSOPHY",
+          "EDINBURGH"
+        ],
+        "retrieved": [
+          "ABATEMENT",
+          "ABATEMENT",
+          "ABACO",
+          "ABATOR",
+          "ABATEMENT"
+        ],
+        "scores": [
+          "0.219",
+          "0.207",
+          "0.204",
+          "0.203",
+          "0.199"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "logarithm calculation tables",
+        "expected": [
+          "ALGEBRA",
+          "LOGARITHM",
+          "ARITHMETIC"
+        ],
+        "retrieved": [
+          "ABACUS",
+          "ABACUS",
+          "ABACO",
+          "ABAI",
+          "ABACUS"
+        ],
+        "scores": [
+          "0.365",
+          "0.290",
+          "0.248",
+          "0.207",
+          "0.194"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "fortification military engineering",
+        "expected": [
+          "FORTIFICATION",
+          "MILITARY",
+          "WAR"
+        ],
+        "retrieved": [
+          "ABACOT",
+          "AAMA",
+          "AAHUS",
+          "AARSEO",
+          "AAM"
+        ],
+        "scores": [
+          "0.277",
+          "0.254",
+          "0.252",
+          "0.250",
+          "0.243"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "navigation longitude chronometer",
+        "expected": [
+          "NAVIGATION",
+          "LONGITUDE",
+          "GEOGRAPHY"
+        ],
+        "retrieved": [
+          "ABACUS",
+          "ABASING",
+          "ABACO",
+          "AB",
+          "ABBATIS"
+        ],
+        "scores": [
+          "0.242",
+          "0.235",
+          "0.226",
+          "0.213",
+          "0.202"
+        ],
+        "first_relevant_rank": null
+      }
+    ],
+    "mrr": 0.0,
+    "recall_at_5": 0.0
+  },
+  "voyage-context-3": {
+    "model": "voyage-context-3",
+    "queries": [
+      {
+        "query": "phlogiston combustion theory",
+        "expected": [
+          "CHEMISTRY",
+          "FIRE",
+          "COMBUSTION"
+        ],
+        "retrieved": [
+          "ABAFT",
+          "ABACOA",
+          "AAMA",
+          "ABACUS",
+          "AB"
+        ],
+        "scores": [
+          "0.078",
+          "0.047",
+          "0.041",
+          "0.040",
+          "0.038"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "planetary motion orbits",
+        "expected": [
+          "ASTRONOMY",
+          "PLANET",
+          "ORBIT"
+        ],
+        "retrieved": [
+          "ABACUS",
+          "ABACUS",
+          "ABAS",
+          "ABADIR",
+          "ABACUS"
+        ],
+        "scores": [
+          "0.082",
+          "0.074",
+          "0.072",
+          "0.064",
+          "0.057"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "electrical fluid experiments",
+        "expected": [
+          "ELECTRICITY",
+          "LIGHTNING",
+          "THUNDER"
+        ],
+        "retrieved": [
+          "ABANO",
+          "ABAS",
+          "ABAFT",
+          "ABACH",
+          "AAHUS"
+        ],
+        "scores": [
+          "0.061",
+          "0.056",
+          "0.052",
+          "0.049",
+          "0.043"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "smallpox inoculation variolation",
+        "expected": [
+          "MEDICINE",
+          "INOCULATION",
+          "SMALLPOX"
+        ],
+        "retrieved": [
+          "ABATOR",
+          "ABATAMENTUM",
+          "ABATEMENT",
+          "ABAISED",
+          "ABATEMENT"
+        ],
+        "scores": [
+          "0.097",
+          "0.097",
+          "0.089",
+          "0.084",
+          "0.083"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "chymistry transmutation metals",
+        "expected": [
+          "CHEMISTRY",
+          "ALCHEMY",
+          "METAL"
+        ],
+        "retrieved": [
+          "ABACUS",
+          "ABAISED",
+          "ABAFT",
+          "ABADAN",
+          "AAHUS"
+        ],
+        "scores": [
+          "0.069",
+          "0.063",
+          "0.062",
+          "0.060",
+          "0.059"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "natural philosophy principles",
+        "expected": [
+          "PHYSICS",
+          "PHILOSOPHY",
+          "NATURE"
+        ],
+        "retrieved": [
+          "ABACOA",
+          "AARSEO",
+          "ABAFT",
+          "ABAPTISTON",
+          "AAMA"
+        ],
+        "scores": [
+          "0.092",
+          "0.083",
+          "0.071",
+          "0.069",
+          "0.067"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "phlebotomy bloodletting cure",
+        "expected": [
+          "MEDICINE",
+          "SURGERY",
+          "BLOOD"
+        ],
+        "retrieved": [
+          "ABATOR",
+          "ABATAMENTUM",
+          "ABAFT",
+          "AAMA",
+          "ABANCAY"
+        ],
+        "scores": [
+          "0.098",
+          "0.078",
+          "0.070",
+          "0.068",
+          "0.058"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "American colonies revolution",
+        "expected": [
+          "AMERICA",
+          "COLONY",
+          "REVOLUTION"
+        ],
+        "retrieved": [
+          "ABATEMENT",
+          "ABADAN",
+          "ABATEMENT",
+          "AACCH",
+          "AATTER"
+        ],
+        "scores": [
+          "0.036",
+          "0.033",
+          "0.028",
+          "0.026",
+          "0.024"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "Scottish enlightenment philosophy",
+        "expected": [
+          "SCOTLAND",
+          "PHILOSOPHY",
+          "EDINBURGH"
+        ],
+        "retrieved": [
+          "ABARTICULATION",
+          "AARSEO",
+          "AAHUS",
+          "ABATOR",
+          "ABADAN"
+        ],
+        "scores": [
+          "0.040",
+          "0.040",
+          "0.038",
+          "0.037",
+          "0.037"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "logarithm calculation tables",
+        "expected": [
+          "ALGEBRA",
+          "LOGARITHM",
+          "ARITHMETIC"
+        ],
+        "retrieved": [
+          "AARSEO",
+          "ABATAMENTUM",
+          "ABAFT",
+          "ABARCA",
+          "AAHUS"
+        ],
+        "scores": [
+          "0.051",
+          "0.044",
+          "0.043",
+          "0.041",
+          "0.039"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "fortification military engineering",
+        "expected": [
+          "FORTIFICATION",
+          "MILITARY",
+          "WAR"
+        ],
+        "retrieved": [
+          "ABATAMENTUM",
+          "ABATOR",
+          "AATTER",
+          "AARSEO",
+          "AAMA"
+        ],
+        "scores": [
+          "0.099",
+          "0.085",
+          "0.084",
+          "0.073",
+          "0.062"
+        ],
+        "first_relevant_rank": null
+      },
+      {
+        "query": "navigation longitude chronometer",
+        "expected": [
+          "NAVIGATION",
+          "LONGITUDE",
+          "GEOGRAPHY"
+        ],
+        "retrieved": [
+          "ABATAMENTUM",
+          "AAHUS",
+          "ABAFT",
+          "AAR",
+          "ABATE"
+        ],
+        "scores": [
+          "0.064",
+          "0.064",
+          "0.061",
+          "0.048",
+          "0.044"
+        ],
+        "first_relevant_rank": null
+      }
+    ],
+    "mrr": 0.0,
+    "recall_at_5": 0.0
+  },
+  "num_articles": 50,
+  "num_chunks": 51
+}
