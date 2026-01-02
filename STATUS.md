@@ -1,10 +1,11 @@
 # Encyclopaedia Britannica Historical Corpus - Project Status
 
 ## Overview
-Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britannica (1771-1860) as a browsable website and structured data.
+Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britannica (1771-1860) as a browsable website and structured data, with edition-aware article classification.
 
 ## Repository
 - **GitHub**: `github.com:jburnford/early_encyclopedia_britannica.git`
+- **Live Website**: https://jburnford.github.io/early_encyclopedia_britannica/
 - **GitHub Pages**: Enabled from `/docs` folder
 
 ## Key Files
@@ -13,22 +14,24 @@ Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britan
 |------|---------|
 | `extract_britannica_corpus.py` | Main extraction script - parses OCR output into articles |
 | `generate_site.py` | Generates static HTML site from extracted articles |
+| `encyclopedia_parser/` | Edition-aware parsing module with classification |
 | `docs/` | Generated website (committed to git) |
 | `output_v2/` | Extracted JSONL files (not in git - too large) |
 | `ocr_results/` | Source OCR files from OLMoCR (not in git) |
-| `json/` | 1815 edition OCR in JSON format (not in git) |
 
 ## Current Status: 102,036 Articles
 
-| Edition | Year | Volumes | Articles | Treatises |
-|---------|------|---------|----------|-----------|
-| 1st | 1771 | 3 | 11,351 | 360 |
-| 2nd | 1778 | 10 | 13,948 | 1,003 |
-| 4th | 1810 | 20 | 9,822 | 1,003 |
-| 5th | 1815 | 19 | 18,178 | 1,625 |
-| 6th | 1823 | 20 | 15,748 | 1,820 |
-| 7th | 1842 | 22 | 18,528 | 2,137 |
-| 8th | 1860 | 22 | 14,461 | 2,369 |
+| Edition | Year | Volumes | Articles | Treatises | Biographical | Geographical |
+|---------|------|---------|----------|-----------|--------------|--------------|
+| 1st | 1771 | 3 | 11,351 | 365 | **0** | 2,067 |
+| 2nd | 1778 | 10 | 13,948 | 1,000 | 635 | 2,237 |
+| 4th | 1810 | 20 | 9,822 | 1,002 | 379 | 1,435 |
+| 5th | 1815 | 19 | 18,178 | 1,630 | 720 | 2,783 |
+| 6th | 1823 | 20 | 15,748 | 1,809 | 596 | 2,284 |
+| 7th | 1842 | 22 | 18,528 | 2,135 | 580 | 4,064 |
+| 8th | 1860 | 22 | 14,461 | 2,369 | 1,068 | 2,213 |
+
+**Note**: 1771 (1st edition) correctly shows 0 biographical entries - this edition explicitly excluded biography to focus on Arts & Sciences.
 
 ## Output Format (JSONL)
 
@@ -37,7 +40,7 @@ Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britan
   "article_id": "1771_v01_ASTRONOMY",
   "headword": "ASTRONOMY",
   "text": "full article text...",
-  "article_type": "treatise|dictionary|cross_reference",
+  "article_type": "treatise|dictionary|biographical|geographical|cross_reference",
   "edition_year": 1771,
   "edition_name": "Britannica 1st",
   "volume_id": "...",
@@ -51,6 +54,63 @@ Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britan
 }
 ```
 
+## Article Types
+
+| Type | Description | Detection |
+|------|-------------|-----------|
+| `treatise` | Major scholarly articles (ASTRONOMY, CHEMISTRY, etc.) | Known treatise list + length > 10K chars |
+| `dictionary` | Short definition entries | Default type |
+| `biographical` | Person entries with dates | Birth/death patterns, "born 1642" |
+| `geographical` | Place entries with coordinates | Lat/Long patterns, "city of", "miles from" |
+| `cross_reference` | Redirect entries | "See CHEMISTRY" pattern |
+
+## Edition-Aware Classification System
+
+Each edition of the Encyclopaedia Britannica has different characteristics that require edition-specific handling.
+
+### Module Structure
+
+```
+encyclopedia_parser/
+├── models.py           # EditionConfig with edition-specific settings
+├── classifiers.py      # Edition-aware article classification
+├── editions/           # Edition-specific configuration files
+│   ├── __init__.py     # EditionRegistry for loading configs
+│   ├── edition_1771.py # 1st edition (Arts & Sciences only)
+│   ├── edition_1815.py # 5th edition (largest article count)
+│   └── edition_1842.py # 7th edition (has General Index)
+```
+
+### Edition-Specific Differences
+
+| Edition | Year | Key Characteristics |
+|---------|------|---------------------|
+| 1st | 1771 | **No biography** - Arts & Sciences focus only |
+| 2nd | 1778 | Adds biography & history, Vol 10 Appendix |
+| 4th | 1810 | Reprint of 3rd with updates |
+| 5th | 1815 | Largest article count (18,178) |
+| 6th | 1823 | Cleanest OCR (no long s confusion) |
+| 7th | 1842 | Has General Index in Volume 22 |
+| 8th | 1860 | Final edition in corpus |
+
+### EditionConfig Fields
+
+```python
+has_biography: bool      # Whether edition includes biographical entries
+has_geography: bool      # Whether edition includes geographical entries
+index_volume: int        # Volume number of index (if any)
+major_treatises: set     # Edition-specific major treatise headwords
+ocr_artifacts: list      # Edition-specific false positive patterns
+```
+
+## Website Features
+
+- **Color-coded badges**: Treatise (brown), Biography (green), Place (blue)
+- **Article type filters**: Filter by treatise, biographical, geographical
+- **Statistics per volume**: Article count, treatise count, page range
+- **Markdown export**: Download articles as .md files
+- **Full-text search**: Search across all editions
+
 ## Completed Work
 
 1. **Unified extraction script** - Handles multiple OCR formats (JSONL, JSON arrays, MD files)
@@ -61,8 +121,36 @@ Extracting and publishing OCR'd text from 7 editions of the Encyclopaedia Britan
 6. **Page number provenance** - Each article has start/end page from OCR
 7. **Static website** - Browsable by edition/volume with search and .md download
 8. **Validation** - Zero page-order violations (articles in correct sequence)
+9. **Edition-aware classification** - 1771 correctly excludes biography; editions use specific rules
+10. **Enhanced website** - Color-coded badges, filters, statistics by article type
+
+## Next Phase: Neo4j Knowledge Graph
+
+A detailed plan exists for building a Neo4j GraphRAG knowledge graph from the corpus.
+
+**Plan file**: `.claude/plans/smooth-giggling-sifakis.md`
+
+### Roadmap
+1. **OCR 1842 General Index** (in progress) - Volume 22 is the "Rosetta Stone" for taxonomy
+2. **Parse Index** - Extract terms, cross-references, volume/page references
+3. **Build Neo4j Schema** - Concepts, Articles, Sections, Chunks with relationships
+4. **Load Data** - Starting with 1842 edition (has index)
+5. **Cross-Reference Extraction** - Link articles via "See CHEMISTRY" patterns
+6. **Cross-Edition Linking** - Track how concepts evolved 1771-1860
+7. **Vector Search** - Add Voyage-3 embeddings for RAG
+
+### Neo4j Node Types (Planned)
+- `Concept` - Abstract topics from index
+- `Edition` - Encyclopedia editions
+- `Volume` - Physical volumes
+- `Article` - Dictionary/treatise entries
+- `Section` - Parts of treatises
+- `Chunk` - Semantic text chunks with embeddings
 
 ## Known Issues / TODO
+
+### 1842 General Index - OCR In Progress
+Volume 22 of the 1842 edition contains the General Index, which provides the canonical taxonomy for the encyclopedia. Currently only the preface has been extracted; full index OCR is in progress.
 
 ### 3rd Edition (1797) - Missing Volumes
 Volumes 1, 10, 11, 12, 13 are missing from OCR. Need to re-OCR these from source PDFs.
