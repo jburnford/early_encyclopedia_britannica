@@ -180,6 +180,31 @@ FRONT_MATTER = [
     r'^PREFACE', r'^ENCYCLOP', r'^LONDON', r'^EDINBURGH', r'^PRINTED',
 ]
 
+# OCR artifacts - figure labels, repeated letters, etc.
+# These patterns match headwords that are almost certainly not real articles
+REPEATED_LETTERS = re.compile(r'^([A-Z])\1+$')  # AA, BBB, CCCC, etc.
+SHORT_LETTER_COMBOS = re.compile(r'^[A-Z]{1,3}$')  # A, AB, ABC - potential figure labels
+
+
+def is_likely_ocr_artifact(headword: str, text: str) -> bool:
+    """Check if a headword is likely an OCR artifact (figure label, etc.)."""
+    # Repeated letters are almost always figure labels
+    if REPEATED_LETTERS.match(headword):
+        return True
+
+    # Very short headwords (1-3 letters) with short text are likely artifacts
+    if SHORT_LETTER_COMBOS.match(headword):
+        word_count = len(text.split())
+        # Short text with short headword = likely figure label
+        if word_count < 50:
+            return True
+        # Check if text looks like figure explanation
+        text_lower = text[:200].lower()
+        if any(x in text_lower for x in ['fig.', 'figure', 'plate', 'the point', 'the line']):
+            return True
+
+    return False
+
 
 # =============================================================================
 # Source Discovery
@@ -450,6 +475,15 @@ def get_page_for_char(char_pos: int, page_numbers: list) -> Optional[int]:
 # Article Extraction
 # =============================================================================
 
+def is_cross_reference_context(text: str, match_start: int) -> bool:
+    """Check if match is preceded by 'See' indicating a cross-reference."""
+    # Look at preceding context (up to 20 chars before the newline that precedes the match)
+    context_start = max(0, match_start - 20)
+    context = text[context_start:match_start].lower()
+    # Check for "see" at the end of context (allowing whitespace/newlines between)
+    return bool(re.search(r'see\s*$', context))
+
+
 def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[Article]:
     """Extract articles from OCR text."""
 
@@ -457,8 +491,15 @@ def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[
     dict_matches = [(m.start(), m.end(), m.group(1).upper().strip(), False)
                     for m in ARTICLE_PATTERN.finditer(text) if len(m.group(1)) >= 2]
 
-    treatise_matches = [(m.start(), m.end(), m.group(1).upper().strip(), True)
-                        for m in TREATISE_PATTERN.finditer(text) if len(m.group(1)) >= 3]
+    # Filter out treatise matches that are cross-references (e.g., "See\nCHEMISTRY.\n\n")
+    treatise_matches = []
+    for m in TREATISE_PATTERN.finditer(text):
+        if len(m.group(1)) < 3:
+            continue
+        # Check if this is a cross-reference (preceded by "See")
+        if is_cross_reference_context(text, m.start()):
+            continue
+        treatise_matches.append((m.start(), m.end(), m.group(1).upper().strip(), True))
 
     # Combine and sort
     all_entries = dict_matches + treatise_matches
@@ -493,6 +534,10 @@ def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[
 
         article_text = text[text_start:text_end].strip()
         if len(article_text) < 10:
+            continue
+
+        # Filter out OCR artifacts (figure labels, etc.)
+        if is_likely_ocr_artifact(headword, article_text):
             continue
 
         headword_counts[headword] = headword_counts.get(headword, 0) + 1
