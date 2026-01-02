@@ -194,6 +194,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -339,16 +343,18 @@ footer {
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0">
+        <li class="article-item" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>GENERAL INDEX<span class="badge">Treatise</span></h3>
+                <h3>GENERAL INDEX<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 9-12 | 917 words</span>
             </div>
             <div class="article-content" id="content-0">
@@ -356,7 +362,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1">
+        <li class="article-item" data-idx="1" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(1)">
                 <h3>SEVENTH EDITION</h3>
                 <span class="meta">pp. 9 | 15 words</span>
@@ -370,7 +376,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
         </footer>
     </div>
     
@@ -455,11 +461,12 @@ footer {
 
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
 
             item.style.display = show ? '' : 'none';
         });

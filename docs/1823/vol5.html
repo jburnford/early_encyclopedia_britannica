@@ -194,6 +194,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -339,16 +343,18 @@ footer {
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0">
+        <li class="article-item" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ACEPHALA CONCHIFERA<span class="badge">Treatise</span></h3>
+                <h3>ACEPHALA CONCHIFERA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 888-891 | 2,378 words</span>
             </div>
             <div class="article-content" id="content-0">
@@ -356,9 +362,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1">
+        <li class="article-item" data-idx="1" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>ACEPHALA TUNICATA<span class="badge">Treatise</span></h3>
+                <h3>ACEPHALA TUNICATA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 891-894 | 2,835 words</span>
             </div>
             <div class="article-content" id="content-1">
@@ -366,13 +372,13 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="2">
+        <li class="article-item" data-idx="2" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(2)">
                 <h3>ADDENDUM
 
 TO
 
-VOLUME FIFTH<span class="badge">Treatise</span></h3>
+VOLUME FIFTH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 876-878 | 739 words</span>
             </div>
             <div class="article-content" id="content-2">
@@ -380,9 +386,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="3">
+        <li class="article-item" data-idx="3" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>AGRICULTURE<span class="badge">Treatise</span></h3>
+                <h3>AGRICULTURE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 382-419 | 24,319 words</span>
             </div>
             <div class="article-content" id="content-3">
@@ -390,9 +396,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="4">
+        <li class="article-item" data-idx="4" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>AQUATIC<span class="badge">Treatise</span></h3>
+                <h3>AQUATIC<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 884 | 733 words</span>
             </div>
             <div class="article-content" id="content-4">
@@ -400,9 +406,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="5">
+        <li class="article-item" data-idx="5" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>BRANCHIFERA<span class="badge">Treatise</span></h3>
+                <h3>BRANCHIFERA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 884-888 | 3,194 words</span>
             </div>
             <div class="article-content" id="content-5">
@@ -410,7 +416,7 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="6">
+        <li class="article-item" data-idx="6" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(6)">
                 <h3>BY DUGALD STEWART</h3>
                 <span class="meta">pp. 13 | 56 words</span>
@@ -420,9 +426,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="7">
+        <li class="article-item" data-idx="7" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>CEPHALOPODA<span class="badge">Treatise</span></h3>
+                <h3>CEPHALOPODA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 878 | 121 words</span>
             </div>
             <div class="article-content" id="content-7">
@@ -430,9 +436,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="8">
+        <li class="article-item" data-idx="8" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>CLASS II<span class="badge">Treatise</span></h3>
+                <h3>CLASS II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 327-328 | 303 words</span>
             </div>
             <div class="article-content" id="content-8">
@@ -440,9 +446,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="9">
+        <li class="article-item" data-idx="9" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>CLASS II<span class="badge">Treatise</span></h3>
+                <h3>CLASS II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 732-735 | 1,267 words</span>
             </div>
             <div class="article-content" id="content-9">
@@ -450,9 +456,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="10">
+        <li class="article-item" data-idx="10" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>CLASS II<span class="badge">Treatise</span></h3>
+                <h3>CLASS II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 740-773 | 22,246 words</span>
             </div>
             <div class="article-content" id="content-10">
@@ -460,9 +466,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="11">
+        <li class="article-item" data-idx="11" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>CLASS III<span class="badge">Treatise</span></h3>
+                <h3>CLASS III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 328 | 76 words</span>
             </div>
             <div class="article-content" id="content-11">
@@ -470,9 +476,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="12">
+        <li class="article-item" data-idx="12" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>CLASS III<span class="badge">Treatise</span></h3>
+                <h3>CLASS III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 735 | 44 words</span>
             </div>
             <div class="article-content" id="content-12">
@@ -480,9 +486,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="13">
+        <li class="article-item" data-idx="13" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>CLASS III<span class="badge">Treatise</span></h3>
+                <h3>CLASS III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 773-774 | 1,034 words</span>
             </div>
             <div class="article-content" id="content-13">
@@ -490,9 +496,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="14">
+        <li class="article-item" data-idx="14" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>CLASS IV<span class="badge">Treatise</span></h3>
+                <h3>CLASS IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 328 | 254 words</span>
             </div>
             <div class="article-content" id="content-14">
@@ -500,9 +506,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="15">
+        <li class="article-item" data-idx="15" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>CLASS IX<span class="badge">Treatise</span></h3>
+                <h3>CLASS IX<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 330 | 781 words</span>
             </div>
             <div class="article-content" id="content-15">
@@ -510,9 +516,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="16">
+        <li class="article-item" data-idx="16" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>CLASS VI<span class="badge">Treatise</span></h3>
+                <h3>CLASS VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 328-329 | 231 words</span>
             </div>
             <div class="article-content" id="content-16">
@@ -520,9 +526,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="17">
+        <li class="article-item" data-idx="17" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>CLASS VII<span class="badge">Treatise</span></h3>
+                <h3>CLASS VII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 329 | 597 words</span>
             </div>
             <div class="article-content" id="content-17">
@@ -530,9 +536,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="18">
+        <li class="article-item" data-idx="18" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>CLASS VIII<span class="badge">Treatise</span></h3>
+                <h3>CLASS VIII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 329-330 | 271 words</span>
             </div>
             <div class="article-content" id="content-18">
@@ -540,9 +546,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="19">
+        <li class="article-item" data-idx="19" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>CLASS XI<span class="badge">Treatise</span></h3>
+                <h3>CLASS XI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 331 | 316 words</span>
             </div>
             <div class="article-content" id="content-19">
@@ -550,9 +556,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="20">
+        <li class="article-item" data-idx="20" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>COLEOPTERA<span class="badge">Treatise</span></h3>
+                <h3>COLEOPTERA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 324-327 | 3,643 words</span>
             </div>
             <div class="article-content" id="content-20">
@@ -560,9 +566,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="21">
+        <li class="article-item" data-idx="21" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>DESCRIPTION OF THE PLATE<span class="badge">Treatise</span></h3>
+                <h3>DESCRIPTION OF THE PLATE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 331-345 | 12,491 words</span>
             </div>
             <div class="article-content" id="content-21">
@@ -570,9 +576,9 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="22">
+        <li class="article-item" data-idx="22" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>DIPTERA<span class="badge">Treatise</span></h3>
+                <h3>DIPTERA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 330-331 | 526 words</span>
             </div>
             <div class="article-content" id="content-22">
@@ -580,10 +586,10 @@ VOLUME FIFTH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="23">
+        <li class="article-item" data-idx="23" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(23)">
                 <h3>DIRECTIONS
-DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
+DIRECTIONS FOR PLACING THE PLATES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 897-898 | 62 words</span>
             </div>
             <div class="article-content" id="content-23">
@@ -591,9 +597,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="24">
+        <li class="article-item" data-idx="24" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>DISSERTATION FIRST<span class="badge">Treatise</span></h3>
+                <h3>DISSERTATION FIRST<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 13-16 | 802 words</span>
             </div>
             <div class="article-content" id="content-24">
@@ -601,9 +607,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="25">
+        <li class="article-item" data-idx="25" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>GASTEROPODA<span class="badge">Treatise</span></h3>
+                <h3>GASTEROPODA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 880-884 | 3,041 words</span>
             </div>
             <div class="article-content" id="content-25">
@@ -611,9 +617,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="26">
+        <li class="article-item" data-idx="26" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>GEOLOGY<span class="badge">Treatise</span></h3>
+                <h3>GEOLOGY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 774-800 | 20,326 words</span>
             </div>
             <div class="article-content" id="content-26">
@@ -621,9 +627,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="27">
+        <li class="article-item" data-idx="27" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>HEMIPTERA<span class="badge">Treatise</span></h3>
+                <h3>HEMIPTERA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 328 | 541 words</span>
             </div>
             <div class="article-content" id="content-27">
@@ -631,9 +637,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="28">
+        <li class="article-item" data-idx="28" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>HUNGARY<span class="badge">Treatise</span></h3>
+                <h3>HUNGARY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 277-284 | 7,071 words</span>
             </div>
             <div class="article-content" id="content-28">
@@ -641,9 +647,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="29">
+        <li class="article-item" data-idx="29" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>HUNTINGDONSHIRE<span class="badge">Treatise</span></h3>
+                <h3>HUNTINGDONSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 284-290 | 5,612 words</span>
             </div>
             <div class="article-content" id="content-29">
@@ -651,9 +657,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="30">
+        <li class="article-item" data-idx="30" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>INSECTA<span class="badge">Treatise</span></h3>
+                <h3>INSECTA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 317-324 | 7,114 words</span>
             </div>
             <div class="article-content" id="content-30">
@@ -661,9 +667,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="31">
+        <li class="article-item" data-idx="31" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(31)">
-                <h3>INVERNESS-SHIRE<span class="badge">Treatise</span></h3>
+                <h3>INVERNESS-SHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 345-367 | 18,826 words</span>
             </div>
             <div class="article-content" id="content-31">
@@ -671,9 +677,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="32">
+        <li class="article-item" data-idx="32" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(32)">
-                <h3>IONIAN ISLANDS<span class="badge">Treatise</span></h3>
+                <h3>IONIAN ISLANDS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 367-376 | 8,688 words</span>
             </div>
             <div class="article-content" id="content-32">
@@ -681,9 +687,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="33">
+        <li class="article-item" data-idx="33" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(33)">
-                <h3>IRELAND<span class="badge">Treatise</span></h3>
+                <h3>IRELAND<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 376-382 | 4,776 words</span>
             </div>
             <div class="article-content" id="content-33">
@@ -691,9 +697,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="34">
+        <li class="article-item" data-idx="34" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(34)">
-                <h3>ITALY<span class="badge">Treatise</span></h3>
+                <h3>ITALY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 419-435 | 16,868 words</span>
             </div>
             <div class="article-content" id="content-34">
@@ -701,9 +707,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="35">
+        <li class="article-item" data-idx="35" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(35)">
-                <h3>JAUTS<span class="badge">Treatise</span></h3>
+                <h3>JAUTS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 290-317 | 28,321 words</span>
             </div>
             <div class="article-content" id="content-35">
@@ -711,9 +717,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="36">
+        <li class="article-item" data-idx="36" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(36)">
-                <h3>JURISPRUDENCE<span class="badge">Treatise</span></h3>
+                <h3>JURISPRUDENCE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 435-469 | 35,429 words</span>
             </div>
             <div class="article-content" id="content-36">
@@ -721,9 +727,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="37">
+        <li class="article-item" data-idx="37" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>KENT<span class="badge">Treatise</span></h3>
+                <h3>KENT<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 469-472 | 2,914 words</span>
             </div>
             <div class="article-content" id="content-37">
@@ -731,7 +737,7 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="38">
+        <li class="article-item" data-idx="38" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(38)">
                 <h3>KERGUELEN&#x27;S LAND</h3>
                 <span class="meta">pp. 472-473 | 626 words</span>
@@ -741,9 +747,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="39">
+        <li class="article-item" data-idx="39" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(39)">
-                <h3>KERRY</h3>
+                <h3>KERRY<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 473-474 | 1,366 words</span>
             </div>
             <div class="article-content" id="content-39">
@@ -751,9 +757,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="40">
+        <li class="article-item" data-idx="40" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>KILDARE<span class="badge">Treatise</span></h3>
+                <h3>KILDARE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 474-476 | 2,211 words</span>
             </div>
             <div class="article-content" id="content-40">
@@ -761,9 +767,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="41">
+        <li class="article-item" data-idx="41" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(41)">
-                <h3>KINCARDINESHIRE<span class="badge">Treatise</span></h3>
+                <h3>KINCARDINESHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 476-478 | 1,860 words</span>
             </div>
             <div class="article-content" id="content-41">
@@ -771,9 +777,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="42">
+        <li class="article-item" data-idx="42" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(42)">
-                <h3>KING&#x27;S COUNTY</h3>
+                <h3>KING&#x27;S COUNTY<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 478-479 | 1,234 words</span>
             </div>
             <div class="article-content" id="content-42">
@@ -781,9 +787,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="43">
+        <li class="article-item" data-idx="43" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>KINROSS-SHIRE</h3>
+                <h3>KINROSS-SHIRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 479-480 | 921 words</span>
             </div>
             <div class="article-content" id="content-43">
@@ -791,9 +797,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="44">
+        <li class="article-item" data-idx="44" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(44)">
-                <h3>KIRKCUDBRIGHT<span class="badge">Treatise</span></h3>
+                <h3>KIRKCUDBRIGHT<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 480-483 | 2,664 words</span>
             </div>
             <div class="article-content" id="content-44">
@@ -801,7 +807,7 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="45">
+        <li class="article-item" data-idx="45" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(45)">
                 <h3>KLINOMETER</h3>
                 <span class="meta">pp. 483-484 | 754 words</span>
@@ -811,7 +817,7 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="46">
+        <li class="article-item" data-idx="46" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(46)">
                 <h3>KOOKIES</h3>
                 <span class="meta">pp. 484 | 757 words</span>
@@ -821,9 +827,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="47">
+        <li class="article-item" data-idx="47" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(47)">
-                <h3>LACCADIVES<span class="badge">Treatise</span></h3>
+                <h3>LACCADIVES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 484-501 | 16,998 words</span>
             </div>
             <div class="article-content" id="content-47">
@@ -831,9 +837,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="48">
+        <li class="article-item" data-idx="48" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(48)">
-                <h3>LAMP<span class="badge">Treatise</span></h3>
+                <h3>LAMP<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 501-509 | 10,023 words</span>
             </div>
             <div class="article-content" id="content-48">
@@ -841,9 +847,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="49">
+        <li class="article-item" data-idx="49" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(49)">
-                <h3>LANARKSHIRE<span class="badge">Treatise</span></h3>
+                <h3>LANARKSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 509-511 | 2,044 words</span>
             </div>
             <div class="article-content" id="content-49">
@@ -851,9 +857,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="50">
+        <li class="article-item" data-idx="50" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>LANCASHIRE<span class="badge">Treatise</span></h3>
+                <h3>LANCASHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 511-542 | 28,253 words</span>
             </div>
             <div class="article-content" id="content-50">
@@ -861,9 +867,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="51">
+        <li class="article-item" data-idx="51" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(51)">
-                <h3>LEICESTERSHIRE<span class="badge">Treatise</span></h3>
+                <h3>LEICESTERSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 542-553 | 9,520 words</span>
             </div>
             <div class="article-content" id="content-51">
@@ -871,9 +877,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="52">
+        <li class="article-item" data-idx="52" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(52)">
-                <h3>LIBERTY OF THE PRESS<span class="badge">Treatise</span></h3>
+                <h3>LIBERTY OF THE PRESS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 553-569 | 16,336 words</span>
             </div>
             <div class="article-content" id="content-52">
@@ -881,9 +887,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="53">
+        <li class="article-item" data-idx="53" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(53)">
-                <h3>LIMERICK</h3>
+                <h3>LIMERICK<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 569 | 946 words</span>
             </div>
             <div class="article-content" id="content-53">
@@ -891,9 +897,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="54">
+        <li class="article-item" data-idx="54" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(54)">
-                <h3>LINCOLNSHIRE<span class="badge">Treatise</span></h3>
+                <h3>LINCOLNSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 569-573 | 4,026 words</span>
             </div>
             <div class="article-content" id="content-54">
@@ -901,9 +907,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="55">
+        <li class="article-item" data-idx="55" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(55)">
-                <h3>LITHOGRAPHY<span class="badge">Treatise</span></h3>
+                <h3>LITHOGRAPHY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 573-591 | 15,322 words</span>
             </div>
             <div class="article-content" id="content-55">
@@ -911,9 +917,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="56">
+        <li class="article-item" data-idx="56" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(56)">
-                <h3>LOCKE<span class="badge">Treatise</span></h3>
+                <h3>LOCKE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 17-47 | 18,042 words</span>
             </div>
             <div class="article-content" id="content-56">
@@ -921,9 +927,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="57">
+        <li class="article-item" data-idx="57" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(57)">
-                <h3>LONDONDERRY<span class="badge">Treatise</span></h3>
+                <h3>LONDONDERRY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 591-593 | 2,402 words</span>
             </div>
             <div class="article-content" id="content-57">
@@ -931,9 +937,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="58">
+        <li class="article-item" data-idx="58" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(58)">
-                <h3>LOUISIANA<span class="badge">Treatise</span></h3>
+                <h3>LOUISIANA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 593-605 | 12,855 words</span>
             </div>
             <div class="article-content" id="content-58">
@@ -941,9 +947,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="59">
+        <li class="article-item" data-idx="59" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(59)">
-                <h3>LUS<span class="badge">Treatise</span></h3>
+                <h3>LUS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 605-607 | 1,912 words</span>
             </div>
             <div class="article-content" id="content-59">
@@ -951,9 +957,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="60">
+        <li class="article-item" data-idx="60" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(60)">
-                <h3>MALWAH<span class="badge">Treatise</span></h3>
+                <h3>MALWAH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 607-615 | 8,829 words</span>
             </div>
             <div class="article-content" id="content-60">
@@ -961,9 +967,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="61">
+        <li class="article-item" data-idx="61" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(61)">
-                <h3>MAYO</h3>
+                <h3>MAYO<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 615-616 | 1,174 words</span>
             </div>
             <div class="article-content" id="content-61">
@@ -971,9 +977,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="62">
+        <li class="article-item" data-idx="62" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(62)">
-                <h3>MEATH<span class="badge">Treatise</span></h3>
+                <h3>MEATH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 616-618 | 2,015 words</span>
             </div>
             <div class="article-content" id="content-62">
@@ -981,9 +987,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="63">
+        <li class="article-item" data-idx="63" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(63)">
-                <h3>MERIONETHSHIRE<span class="badge">Treatise</span></h3>
+                <h3>MERIONETHSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 618-662 | 47,320 words</span>
             </div>
             <div class="article-content" id="content-63">
@@ -991,9 +997,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="64">
+        <li class="article-item" data-idx="64" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(64)">
-                <h3>MEXICO<span class="badge">Treatise</span></h3>
+                <h3>MEXICO<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 662-706 | 43,213 words</span>
             </div>
             <div class="article-content" id="content-64">
@@ -1001,9 +1007,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="65">
+        <li class="article-item" data-idx="65" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(65)">
-                <h3>MIDDLESEX<span class="badge">Treatise</span></h3>
+                <h3>MIDDLESEX<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 706-709 | 2,877 words</span>
             </div>
             <div class="article-content" id="content-65">
@@ -1011,9 +1017,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="66">
+        <li class="article-item" data-idx="66" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(66)">
-                <h3>MINERALOGY<span class="badge">Treatise</span></h3>
+                <h3>MINERALOGY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 709-732 | 20,305 words</span>
             </div>
             <div class="article-content" id="content-66">
@@ -1021,9 +1027,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="67">
+        <li class="article-item" data-idx="67" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(67)">
-                <h3>MOLLUSCA ACEPHALA<span class="badge">Treatise</span></h3>
+                <h3>MOLLUSCA ACEPHALA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 888 | 103 words</span>
             </div>
             <div class="article-content" id="content-67">
@@ -1031,9 +1037,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="68">
+        <li class="article-item" data-idx="68" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(68)">
-                <h3>MOLLUSCA CEPHALIA<span class="badge">Treatise</span></h3>
+                <h3>MOLLUSCA CEPHALIA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 878 | 198 words</span>
             </div>
             <div class="article-content" id="content-68">
@@ -1041,9 +1047,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="69">
+        <li class="article-item" data-idx="69" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(69)">
-                <h3>MONAGHAN<span class="badge">Treatise</span></h3>
+                <h3>MONAGHAN<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 800-832 | 34,224 words</span>
             </div>
             <div class="article-content" id="content-69">
@@ -1051,9 +1057,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="70">
+        <li class="article-item" data-idx="70" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(70)">
-                <h3>MONEY OF GERMANY<span class="badge">Treatise</span></h3>
+                <h3>MONEY OF GERMANY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 832-846 | 15,845 words</span>
             </div>
             <div class="article-content" id="content-70">
@@ -1061,9 +1067,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="71">
+        <li class="article-item" data-idx="71" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(71)">
-                <h3>MONMOUTHSHIRE<span class="badge">Treatise</span></h3>
+                <h3>MONMOUTHSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 846-848 | 2,180 words</span>
             </div>
             <div class="article-content" id="content-71">
@@ -1071,9 +1077,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="72">
+        <li class="article-item" data-idx="72" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(72)">
-                <h3>MONTGOMERYSHIRE<span class="badge">Treatise</span></h3>
+                <h3>MONTGOMERYSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 848-851 | 3,041 words</span>
             </div>
             <div class="article-content" id="content-72">
@@ -1081,9 +1087,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="73">
+        <li class="article-item" data-idx="73" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(73)">
-                <h3>MORAYSHIRE</h3>
+                <h3>MORAYSHIRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 851-852 | 1,416 words</span>
             </div>
             <div class="article-content" id="content-73">
@@ -1091,9 +1097,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="74">
+        <li class="article-item" data-idx="74" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(74)">
-                <h3>MORTALITY<span class="badge">Treatise</span></h3>
+                <h3>MORTALITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 852-868 | 15,210 words</span>
             </div>
             <div class="article-content" id="content-74">
@@ -1101,9 +1107,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="75">
+        <li class="article-item" data-idx="75" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(75)">
-                <h3>MR LOCKE TO MR NEWTON<span class="badge">Treatise</span></h3>
+                <h3>MR LOCKE TO MR NEWTON<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 47-53 | 3,188 words</span>
             </div>
             <div class="article-content" id="content-75">
@@ -1111,9 +1117,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="76">
+        <li class="article-item" data-idx="76" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(76)">
-                <h3>MYSORE<span class="badge">Treatise</span></h3>
+                <h3>MYSORE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 873-876 | 4,247 words</span>
             </div>
             <div class="article-content" id="content-76">
@@ -1121,9 +1127,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="77">
+        <li class="article-item" data-idx="77" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(77)">
-                <h3>NATANTIA<span class="badge">Treatise</span></h3>
+                <h3>NATANTIA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 878 | 119 words</span>
             </div>
             <div class="article-content" id="content-77">
@@ -1131,9 +1137,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="78">
+        <li class="article-item" data-idx="78" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(78)">
-                <h3>NATURAL HISTORY OF SIMPLE MINERALS<span class="badge">Treatise</span></h3>
+                <h3>NATURAL HISTORY OF SIMPLE MINERALS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 737-740 | 1,425 words</span>
             </div>
             <div class="article-content" id="content-78">
@@ -1141,9 +1147,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="79">
+        <li class="article-item" data-idx="79" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(79)">
-                <h3>NAUTILACEA<span class="badge">Treatise</span></h3>
+                <h3>NAUTILACEA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 878-880 | 1,238 words</span>
             </div>
             <div class="article-content" id="content-79">
@@ -1151,9 +1157,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="80">
+        <li class="article-item" data-idx="80" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(80)">
-                <h3>NOTES AND ILLUSTRATIONS<span class="badge">Treatise</span></h3>
+                <h3>NOTES AND ILLUSTRATIONS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 228-275 | 28,899 words</span>
             </div>
             <div class="article-content" id="content-80">
@@ -1161,9 +1167,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="81">
+        <li class="article-item" data-idx="81" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(81)">
-                <h3>PROGRESS OF METAPHYSICS DURING THE EIGHTEENTH CENTURY<span class="badge">Treatise</span></h3>
+                <h3>PROGRESS OF METAPHYSICS DURING THE EIGHTEENTH CENTURY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 16-17 | 14 words</span>
             </div>
             <div class="article-content" id="content-81">
@@ -1171,9 +1177,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="82">
+        <li class="article-item" data-idx="82" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(82)">
-                <h3>PTEROPODA<span class="badge">Treatise</span></h3>
+                <h3>PTEROPODA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 880 | 603 words</span>
             </div>
             <div class="article-content" id="content-82">
@@ -1181,9 +1187,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="83">
+        <li class="article-item" data-idx="83" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(83)">
-                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <h3>SECTION II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 53-79 | 14,429 words</span>
             </div>
             <div class="article-content" id="content-83">
@@ -1191,9 +1197,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="84">
+        <li class="article-item" data-idx="84" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(84)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 79-99 | 11,253 words</span>
             </div>
             <div class="article-content" id="content-84">
@@ -1201,9 +1207,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="85">
+        <li class="article-item" data-idx="85" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(85)">
-                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <h3>SECTION IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 99-133 | 17,642 words</span>
             </div>
             <div class="article-content" id="content-85">
@@ -1211,9 +1217,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="86">
+        <li class="article-item" data-idx="86" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(86)">
-                <h3>SECTION VI<span class="badge">Treatise</span></h3>
+                <h3>SECTION VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 133-157 | 13,186 words</span>
             </div>
             <div class="article-content" id="content-86">
@@ -1221,9 +1227,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="87">
+        <li class="article-item" data-idx="87" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(87)">
-                <h3>SECTION VII<span class="badge">Treatise</span></h3>
+                <h3>SECTION VII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 157-184 | 15,351 words</span>
             </div>
             <div class="article-content" id="content-87">
@@ -1231,9 +1237,9 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="88">
+        <li class="article-item" data-idx="88" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(88)">
-                <h3>SECTION VIII<span class="badge">Treatise</span></h3>
+                <h3>SECTION VIII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 184-228 | 24,056 words</span>
             </div>
             <div class="article-content" id="content-88">
@@ -1241,12 +1247,12 @@ DIRECTIONS FOR PLACING THE PLATES<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="89">
+        <li class="article-item" data-idx="89" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(89)">
                 <h3>TABLE
 OF THE
 ARTICLES AND TREATISES
-CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
+CONTAINED IN THIS VOLUME<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 894-896 | 145 words</span>
             </div>
             <div class="article-content" id="content-89">
@@ -1254,9 +1260,9 @@ CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="90">
+        <li class="article-item" data-idx="90" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(90)">
-                <h3>TABLE VI<span class="badge">Treatise</span></h3>
+                <h3>TABLE VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 868-869 | 219 words</span>
             </div>
             <div class="article-content" id="content-90">
@@ -1264,9 +1270,9 @@ CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="91">
+        <li class="article-item" data-idx="91" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(91)">
-                <h3>TABLE VII<span class="badge">Treatise</span></h3>
+                <h3>TABLE VII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 869-873 | 3,816 words</span>
             </div>
             <div class="article-content" id="content-91">
@@ -1274,9 +1280,9 @@ CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="92">
+        <li class="article-item" data-idx="92" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(92)">
-                <h3>VOLUME FIFTH<span class="badge">Treatise</span></h3>
+                <h3>VOLUME FIFTH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 897 | 225 words</span>
             </div>
             <div class="article-content" id="content-92">
@@ -1288,7 +1294,7 @@ CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
         </footer>
     </div>
     
@@ -1373,11 +1379,12 @@ CONTAINED IN THIS VOLUME<span class="badge">Treatise</span></h3>
 
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
 
             item.style.display = show ? '' : 'none';
         });

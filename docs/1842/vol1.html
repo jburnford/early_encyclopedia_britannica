@@ -194,6 +194,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -339,16 +343,18 @@ footer {
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0">
+        <li class="article-item" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ADAM SMITH<span class="badge">Treatise</span></h3>
+                <h3>ADAM SMITH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 584-585 | 1,226 words</span>
             </div>
             <div class="article-content" id="content-0">
@@ -356,9 +362,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1">
+        <li class="article-item" data-idx="1" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>ANTAGONISTS OF HOBBIESTS<span class="badge">Treatise</span></h3>
+                <h3>ANTAGONISTS OF HOBBIESTS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 269-275 | 4,670 words</span>
             </div>
             <div class="article-content" id="content-1">
@@ -366,9 +372,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="2">
+        <li class="article-item" data-idx="2" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>BACON<span class="badge">Treatise</span></h3>
+                <h3>BACON<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 258-269 | 8,583 words</span>
             </div>
             <div class="article-content" id="content-2">
@@ -376,7 +382,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="3">
+        <li class="article-item" data-idx="3" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(3)">
                 <h3>BY JOHN LESLIE</h3>
                 <span class="meta">pp. 799 | 10 words</span>
@@ -386,10 +392,10 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="4">
+        <li class="article-item" data-idx="4" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(4)">
                 <h3>BY THE RIGHT HONOURABLE
-SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
+SIR JAMES MACKINTOSH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 517-525 | 4,617 words</span>
             </div>
             <div class="article-content" id="content-4">
@@ -397,9 +403,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="5">
+        <li class="article-item" data-idx="5" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>CLARKE<span class="badge">Treatise</span></h3>
+                <h3>CLARKE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 553-554 | 1,026 words</span>
             </div>
             <div class="article-content" id="content-5">
@@ -407,9 +413,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="6">
+        <li class="article-item" data-idx="6" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>CUDWORTH<span class="badge">Treatise</span></h3>
+                <h3>CUDWORTH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 550-553 | 1,776 words</span>
             </div>
             <div class="article-content" id="content-6">
@@ -417,9 +423,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="7">
+        <li class="article-item" data-idx="7" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>DAVID HARTLEY<span class="badge">Treatise</span></h3>
+                <h3>DAVID HARTLEY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 588-598 | 7,608 words</span>
             </div>
             <div class="article-content" id="content-7">
@@ -427,9 +433,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="8">
+        <li class="article-item" data-idx="8" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>DAVID HUME<span class="badge">Treatise</span></h3>
+                <h3>DAVID HUME<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 578-584 | 4,441 words</span>
             </div>
             <div class="article-content" id="content-8">
@@ -437,9 +443,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="9">
+        <li class="article-item" data-idx="9" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>DISSERTATION THIRD<span class="badge">Treatise</span></h3>
+                <h3>DISSERTATION THIRD<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 741-743 | 255 words</span>
             </div>
             <div class="article-content" id="content-9">
@@ -447,9 +453,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="10">
+        <li class="article-item" data-idx="10" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>DUGALD STEWART<span class="badge">Treatise</span></h3>
+                <h3>DUGALD STEWART<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 612-620 | 5,932 words</span>
             </div>
             <div class="article-content" id="content-10">
@@ -457,9 +463,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="11">
+        <li class="article-item" data-idx="11" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>EARL OF SHAFTESBURY<span class="badge">Treatise</span></h3>
+                <h3>EARL OF SHAFTESBURY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 557-563 | 3,882 words</span>
             </div>
             <div class="article-content" id="content-11">
@@ -467,9 +473,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="12">
+        <li class="article-item" data-idx="12" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>HUTCHESON<span class="badge">Treatise</span></h3>
+                <h3>HUTCHESON<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 573-578 | 2,988 words</span>
             </div>
             <div class="article-content" id="content-12">
@@ -477,9 +483,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="13">
+        <li class="article-item" data-idx="13" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>JEREMY BENTHAM<span class="badge">Treatise</span></h3>
+                <h3>JEREMY BENTHAM<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 602-612 | 7,652 words</span>
             </div>
             <div class="article-content" id="content-13">
@@ -487,9 +493,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="14">
+        <li class="article-item" data-idx="14" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>JONATHAN EDWARDS<span class="badge">Treatise</span></h3>
+                <h3>JONATHAN EDWARDS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 566-568 | 1,275 words</span>
             </div>
             <div class="article-content" id="content-14">
@@ -497,9 +503,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="15">
+        <li class="article-item" data-idx="15" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>LEIBNITZ<span class="badge">Treatise</span></h3>
+                <h3>LEIBNITZ<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 348-365 | 14,229 words</span>
             </div>
             <div class="article-content" id="content-15">
@@ -507,9 +513,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="16">
+        <li class="article-item" data-idx="16" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>LEIBNITZ<span class="badge">Treatise</span></h3>
+                <h3>LEIBNITZ<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 563-566 | 2,386 words</span>
             </div>
             <div class="article-content" id="content-16">
@@ -517,9 +523,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="17">
+        <li class="article-item" data-idx="17" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>MATHEMATICS<span class="badge">Treatise</span></h3>
+                <h3>MATHEMATICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 660-700 | 29,180 words</span>
             </div>
             <div class="article-content" id="content-17">
@@ -527,9 +533,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="18">
+        <li class="article-item" data-idx="18" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>MR LOCKE TO MR NEWTON<span class="badge">Treatise</span></h3>
+                <h3>MR LOCKE TO MR NEWTON<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 345-348 | 2,822 words</span>
             </div>
             <div class="article-content" id="content-18">
@@ -537,7 +543,7 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="19">
+        <li class="article-item" data-idx="19" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(19)">
                 <h3>NOTE GG</h3>
                 <span class="meta">pp. 487 | 457 words</span>
@@ -547,9 +553,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="20">
+        <li class="article-item" data-idx="20" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>NOTE HH<span class="badge">Treatise</span></h3>
+                <h3>NOTE HH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 487-508 | 15,223 words</span>
             </div>
             <div class="article-content" id="content-20">
@@ -557,9 +563,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="21">
+        <li class="article-item" data-idx="21" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>NOTE ZZ<span class="badge">Treatise</span></h3>
+                <h3>NOTE ZZ<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 508-515 | 4,751 words</span>
             </div>
             <div class="article-content" id="content-21">
@@ -567,9 +573,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="22">
+        <li class="article-item" data-idx="22" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>NOTES<span class="badge">Treatise</span></h3>
+                <h3>NOTES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 457-487 | 20,822 words</span>
             </div>
             <div class="article-content" id="content-22">
@@ -577,9 +583,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="23">
+        <li class="article-item" data-idx="23" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>NOTES AND ILLUSTRATIONS<span class="badge">Treatise</span></h3>
+                <h3>NOTES AND ILLUSTRATIONS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 642-655 | 8,195 words</span>
             </div>
             <div class="article-content" id="content-23">
@@ -587,9 +593,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="24">
+        <li class="article-item" data-idx="24" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>PART FIRST<span class="badge">Treatise</span></h3>
+                <h3>PART FIRST<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 659-660 | 604 words</span>
             </div>
             <div class="article-content" id="content-24">
@@ -597,9 +603,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="25">
+        <li class="article-item" data-idx="25" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <h3>REMARKS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 546-550 | 3,598 words</span>
             </div>
             <div class="article-content" id="content-25">
@@ -607,9 +613,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="26">
+        <li class="article-item" data-idx="26" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <h3>REMARKS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 554-557 | 2,445 words</span>
             </div>
             <div class="article-content" id="content-26">
@@ -617,9 +623,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="27">
+        <li class="article-item" data-idx="27" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <h3>REMARKS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 571-573 | 1,925 words</span>
             </div>
             <div class="article-content" id="content-27">
@@ -627,9 +633,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="28">
+        <li class="article-item" data-idx="28" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>REMARKS<span class="badge">Treatise</span></h3>
+                <h3>REMARKS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 585-587 | 1,453 words</span>
             </div>
             <div class="article-content" id="content-28">
@@ -637,9 +643,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="29">
+        <li class="article-item" data-idx="29" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>RICHARD PRICE<span class="badge">Treatise</span></h3>
+                <h3>RICHARD PRICE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 587-588 | 390 words</span>
             </div>
             <div class="article-content" id="content-29">
@@ -647,9 +653,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="30">
+        <li class="article-item" data-idx="30" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <h3>SECTION II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 275-310 | 27,874 words</span>
             </div>
             <div class="article-content" id="content-30">
@@ -657,9 +663,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="31">
+        <li class="article-item" data-idx="31" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(31)">
-                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <h3>SECTION II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 525-533 | 5,444 words</span>
             </div>
             <div class="article-content" id="content-31">
@@ -667,9 +673,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="32">
+        <li class="article-item" data-idx="32" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(32)">
-                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <h3>SECTION II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 761-771 | 7,593 words</span>
             </div>
             <div class="article-content" id="content-32">
@@ -677,9 +683,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="33">
+        <li class="article-item" data-idx="33" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(33)">
-                <h3>SECTION II<span class="badge">Treatise</span></h3>
+                <h3>SECTION II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 828-903 | 56,410 words</span>
             </div>
             <div class="article-content" id="content-33">
@@ -687,9 +693,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="34">
+        <li class="article-item" data-idx="34" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(34)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 310-345 | 28,162 words</span>
             </div>
             <div class="article-content" id="content-34">
@@ -697,9 +703,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="35">
+        <li class="article-item" data-idx="35" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(35)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 365-377 | 11,183 words</span>
             </div>
             <div class="article-content" id="content-35">
@@ -707,9 +713,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="36">
+        <li class="article-item" data-idx="36" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(36)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 533-541 | 6,129 words</span>
             </div>
             <div class="article-content" id="content-36">
@@ -717,9 +723,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="37">
+        <li class="article-item" data-idx="37" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 700-707 | 5,146 words</span>
             </div>
             <div class="article-content" id="content-37">
@@ -727,9 +733,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="38">
+        <li class="article-item" data-idx="38" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(38)">
-                <h3>SECTION III<span class="badge">Treatise</span></h3>
+                <h3>SECTION III<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 771-780 | 6,883 words</span>
             </div>
             <div class="article-content" id="content-38">
@@ -737,9 +743,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="39">
+        <li class="article-item" data-idx="39" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(39)">
-                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <h3>SECTION IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 377-398 | 17,369 words</span>
             </div>
             <div class="article-content" id="content-39">
@@ -747,9 +753,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="40">
+        <li class="article-item" data-idx="40" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <h3>SECTION IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 541-546 | 3,399 words</span>
             </div>
             <div class="article-content" id="content-40">
@@ -757,9 +763,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="41">
+        <li class="article-item" data-idx="41" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(41)">
-                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <h3>SECTION IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 707-741 | 25,062 words</span>
             </div>
             <div class="article-content" id="content-41">
@@ -767,9 +773,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="42">
+        <li class="article-item" data-idx="42" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(42)">
-                <h3>SECTION IV<span class="badge">Treatise</span></h3>
+                <h3>SECTION IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 780-798 | 14,300 words</span>
             </div>
             <div class="article-content" id="content-42">
@@ -777,9 +783,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="43">
+        <li class="article-item" data-idx="43" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>SECTION VI<span class="badge">Treatise</span></h3>
+                <h3>SECTION VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 398-413 | 13,571 words</span>
             </div>
             <div class="article-content" id="content-43">
@@ -787,9 +793,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="44">
+        <li class="article-item" data-idx="44" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(44)">
-                <h3>SECTION VI<span class="badge">Treatise</span></h3>
+                <h3>SECTION VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 568-571 | 2,201 words</span>
             </div>
             <div class="article-content" id="content-44">
@@ -797,9 +803,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="45">
+        <li class="article-item" data-idx="45" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(45)">
-                <h3>SECTION VII<span class="badge">Treatise</span></h3>
+                <h3>SECTION VII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 413-430 | 14,929 words</span>
             </div>
             <div class="article-content" id="content-45">
@@ -807,9 +813,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="46">
+        <li class="article-item" data-idx="46" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(46)">
-                <h3>SECTION VII<span class="badge">Treatise</span></h3>
+                <h3>SECTION VII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 626-642 | 12,286 words</span>
             </div>
             <div class="article-content" id="content-46">
@@ -817,9 +823,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="47">
+        <li class="article-item" data-idx="47" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(47)">
-                <h3>SECTION VIII<span class="badge">Treatise</span></h3>
+                <h3>SECTION VIII<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 430-457 | 22,944 words</span>
             </div>
             <div class="article-content" id="content-47">
@@ -827,9 +833,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="48">
+        <li class="article-item" data-idx="48" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(48)">
-                <h3>SPECULATIVE MATHEMATICS<span class="badge">Treatise</span></h3>
+                <h3>SPECULATIVE MATHEMATICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 806-828 | 18,398 words</span>
             </div>
             <div class="article-content" id="content-48">
@@ -837,9 +843,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="49">
+        <li class="article-item" data-idx="49" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(49)">
-                <h3>THE NEW GEOMETRY<span class="badge">Treatise</span></h3>
+                <h3>THE NEW GEOMETRY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 743-761 | 12,657 words</span>
             </div>
             <div class="article-content" id="content-49">
@@ -847,9 +853,9 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="50">
+        <li class="article-item" data-idx="50" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>THOMAS BROWN<span class="badge">Treatise</span></h3>
+                <h3>THOMAS BROWN<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 620-626 | 4,575 words</span>
             </div>
             <div class="article-content" id="content-50">
@@ -857,11 +863,11 @@ SIR JAMES MACKINTOSH<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="51">
+        <li class="article-item" data-idx="51" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(51)">
                 <h3>TO
 
-THE DISSERTATIONS<span class="badge">Treatise</span></h3>
+THE DISSERTATIONS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 905 | 461 words</span>
             </div>
             <div class="article-content" id="content-51">
@@ -869,9 +875,9 @@ THE DISSERTATIONS<span class="badge">Treatise</span></h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="52">
+        <li class="article-item" data-idx="52" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(52)">
-                <h3>WILLIAM PALEY<span class="badge">Treatise</span></h3>
+                <h3>WILLIAM PALEY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 598-602 | 2,916 words</span>
             </div>
             <div class="article-content" id="content-52">
@@ -883,7 +889,7 @@ THE DISSERTATIONS<span class="badge">Treatise</span></h3>
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
         </footer>
     </div>
     
@@ -968,11 +974,12 @@ THE DISSERTATIONS<span class="badge">Treatise</span></h3>
 
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
 
             item.style.display = show ? '' : 'none';
         });

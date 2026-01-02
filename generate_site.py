@@ -223,6 +223,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -462,6 +466,8 @@ def generate_index_page(stats):
                 <th>Volumes</th>
                 <th>Articles</th>
                 <th>Treatises</th>
+                <th>Biographical</th>
+                <th>Geographical</th>
             </tr>
         </thead>
         <tbody>
@@ -472,6 +478,8 @@ def generate_index_page(stats):
                 <td>{stats[y]['volumes']:,}</td>
                 <td>{stats[y]['articles']:,}</td>
                 <td>{stats[y]['treatises']:,}</td>
+                <td>{stats[y]['biographical']:,}</td>
+                <td>{stats[y]['geographical']:,}</td>
             </tr>
         """ for y in EDITIONS_TO_INCLUDE if y in stats)}
         </tbody>
@@ -556,10 +564,19 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         word_count = a.get('word_count', 0)
 
         pages = f"{start_page}" if start_page == end_page else f"{start_page}-{end_page}"
-        badge = '<span class="badge">Treatise</span>' if article_type == 'treatise' else ''
+
+        # Generate badge based on article type
+        if article_type == 'treatise':
+            badge = '<span class="badge treatise">Treatise</span>'
+        elif article_type == 'biographical':
+            badge = '<span class="badge biographical">Biography</span>'
+        elif article_type == 'geographical':
+            badge = '<span class="badge geographical">Place</span>'
+        else:
+            badge = ''
 
         article_items.append(f"""
-        <li class="article-item" data-idx="{i}">
+        <li class="article-item" data-idx="{i}" data-type="{article_type}">
             <div class="article-header" onclick="toggleArticle({i})">
                 <h3>{escape_html(headword)}{badge}</h3>
                 <span class="meta">pp. {pages} | {word_count:,} words</span>
@@ -589,8 +606,10 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
@@ -682,11 +701,12 @@ def generate_volume_page(year, vol_num, articles, vol_info):
 
         items.forEach(item => {{
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {{
+                show = show && (articleType === typeFilter);
+            }}
 
             item.style.display = show ? '' : 'none';
         }});
@@ -892,12 +912,16 @@ def main():
         all_volumes[year] = volumes
 
         treatises = sum(1 for a in articles if a.get('article_type') == 'treatise')
+        biographical = sum(1 for a in articles if a.get('article_type') == 'biographical')
+        geographical = sum(1 for a in articles if a.get('article_type') == 'geographical')
         stats[year] = {
             'volumes': len(set(v.get('volume_num', 0) for v in volumes)),
             'articles': len(articles),
             'treatises': treatises,
+            'biographical': biographical,
+            'geographical': geographical,
         }
-        print(f"    {len(articles):,} articles, {treatises:,} treatises")
+        print(f"    {len(articles):,} articles, {treatises:,} treatises, {biographical:,} biographical, {geographical:,} geographical")
 
     # Generate index page
     print("  Generating index.html...")

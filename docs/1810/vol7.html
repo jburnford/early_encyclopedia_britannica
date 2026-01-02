@@ -194,6 +194,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -339,16 +343,18 @@ footer {
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0">
+        <li class="article-item" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ARCHITECTO ROBERTO ADAM<span class="badge">Treatise</span></h3>
+                <h3>ARCHITECTO ROBERTO ADAM<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 140-150 | 10,961 words</span>
             </div>
             <div class="article-content" id="content-0">
@@ -356,9 +362,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1">
+        <li class="article-item" data-idx="1" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>COROLLARIES<span class="badge">Treatise</span></h3>
+                <h3>COROLLARIES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 70-71 | 321 words</span>
             </div>
             <div class="article-content" id="content-1">
@@ -366,9 +372,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="2">
+        <li class="article-item" data-idx="2" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>COROLLARIES<span class="badge">Treatise</span></h3>
+                <h3>COROLLARIES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 75-78 | 3,403 words</span>
             </div>
             <div class="article-content" id="content-2">
@@ -376,9 +382,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="3">
+        <li class="article-item" data-idx="3" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>COROLLARY<span class="badge">Treatise</span></h3>
+                <h3>COROLLARY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 69-70 | 1,803 words</span>
             </div>
             <div class="article-content" id="content-3">
@@ -386,9 +392,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="4">
+        <li class="article-item" data-idx="4" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>COROLLARY<span class="badge">Treatise</span></h3>
+                <h3>COROLLARY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 72-75 | 2,990 words</span>
             </div>
             <div class="article-content" id="content-4">
@@ -396,9 +402,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="5">
+        <li class="article-item" data-idx="5" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>COROLLARY<span class="badge">Treatise</span></h3>
+                <h3>COROLLARY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 92-93 | 364 words</span>
             </div>
             <div class="article-content" id="content-5">
@@ -406,9 +412,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="6">
+        <li class="article-item" data-idx="6" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>COROLLARY<span class="badge">Treatise</span></h3>
+                <h3>COROLLARY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 94-95 | 343 words</span>
             </div>
             <div class="article-content" id="content-6">
@@ -416,9 +422,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="7">
+        <li class="article-item" data-idx="7" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 35-36 | 1,023 words</span>
             </div>
             <div class="article-content" id="content-7">
@@ -426,9 +432,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="8">
+        <li class="article-item" data-idx="8" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 36-39 | 2,315 words</span>
             </div>
             <div class="article-content" id="content-8">
@@ -436,9 +442,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="9">
+        <li class="article-item" data-idx="9" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 39 | 1,238 words</span>
             </div>
             <div class="article-content" id="content-9">
@@ -446,9 +452,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="10">
+        <li class="article-item" data-idx="10" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 39-41 | 1,196 words</span>
             </div>
             <div class="article-content" id="content-10">
@@ -456,9 +462,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="11">
+        <li class="article-item" data-idx="11" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 41-61 | 24,511 words</span>
             </div>
             <div class="article-content" id="content-11">
@@ -466,9 +472,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="12">
+        <li class="article-item" data-idx="12" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 61-62 | 539 words</span>
             </div>
             <div class="article-content" id="content-12">
@@ -476,9 +482,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="13">
+        <li class="article-item" data-idx="13" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 63-65 | 671 words</span>
             </div>
             <div class="article-content" id="content-13">
@@ -486,9 +492,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="14">
+        <li class="article-item" data-idx="14" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>DYEING<span class="badge">Treatise</span></h3>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 65 | 282 words</span>
             </div>
             <div class="article-content" id="content-14">
@@ -496,7 +502,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="15">
+        <li class="article-item" data-idx="15" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(15)">
                 <h3>DYNA
 
@@ -508,9 +514,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="16">
+        <li class="article-item" data-idx="16" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 65-66 | 1,099 words</span>
             </div>
             <div class="article-content" id="content-16">
@@ -518,9 +524,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="17">
+        <li class="article-item" data-idx="17" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 66-69 | 2,245 words</span>
             </div>
             <div class="article-content" id="content-17">
@@ -528,9 +534,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="18">
+        <li class="article-item" data-idx="18" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 69 | 100 words</span>
             </div>
             <div class="article-content" id="content-18">
@@ -538,9 +544,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="19">
+        <li class="article-item" data-idx="19" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 71-72 | 1,736 words</span>
             </div>
             <div class="article-content" id="content-19">
@@ -548,9 +554,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="20">
+        <li class="article-item" data-idx="20" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 75 | 253 words</span>
             </div>
             <div class="article-content" id="content-20">
@@ -558,9 +564,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="21">
+        <li class="article-item" data-idx="21" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 78-79 | 2,474 words</span>
             </div>
             <div class="article-content" id="content-21">
@@ -568,9 +574,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="22">
+        <li class="article-item" data-idx="22" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 79-85 | 5,659 words</span>
             </div>
             <div class="article-content" id="content-22">
@@ -578,9 +584,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="23">
+        <li class="article-item" data-idx="23" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 85-89 | 4,191 words</span>
             </div>
             <div class="article-content" id="content-23">
@@ -588,9 +594,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="24">
+        <li class="article-item" data-idx="24" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 89 | 1,212 words</span>
             </div>
             <div class="article-content" id="content-24">
@@ -598,9 +604,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="25">
+        <li class="article-item" data-idx="25" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 89-92 | 1,676 words</span>
             </div>
             <div class="article-content" id="content-25">
@@ -608,9 +614,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="26">
+        <li class="article-item" data-idx="26" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 92 | 853 words</span>
             </div>
             <div class="article-content" id="content-26">
@@ -618,9 +624,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="27">
+        <li class="article-item" data-idx="27" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 93 | 1,162 words</span>
             </div>
             <div class="article-content" id="content-27">
@@ -628,9 +634,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="28">
+        <li class="article-item" data-idx="28" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 93-94 | 746 words</span>
             </div>
             <div class="article-content" id="content-28">
@@ -638,9 +644,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="29">
+        <li class="article-item" data-idx="29" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 95-102 | 9,263 words</span>
             </div>
             <div class="article-content" id="content-29">
@@ -648,9 +654,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="30">
+        <li class="article-item" data-idx="30" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>DYNAMICS<span class="badge">Treatise</span></h3>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 102-109 | 129 words</span>
             </div>
             <div class="article-content" id="content-30">
@@ -658,7 +664,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="31">
+        <li class="article-item" data-idx="31" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(31)">
                 <h3>DYNASTY</h3>
                 <span class="meta">pp. 109 | 72 words</span>
@@ -668,7 +674,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="32">
+        <li class="article-item" data-idx="32" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(32)">
                 <h3>DYRRACHIUM</h3>
                 <span class="meta">pp. 109-110 | 201 words</span>
@@ -678,7 +684,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="33">
+        <li class="article-item" data-idx="33" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(33)">
                 <h3>DYSCRASY</h3>
                 <span class="meta">pp. 110 | 17 words</span>
@@ -688,7 +694,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="34">
+        <li class="article-item" data-idx="34" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(34)">
                 <h3>DYSENTERY</h3>
                 <span class="meta">pp. 110 | 26 words</span>
@@ -698,7 +704,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="35">
+        <li class="article-item" data-idx="35" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(35)">
                 <h3>DYSOREXY</h3>
                 <span class="meta">pp. 110 | 12 words</span>
@@ -708,7 +714,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="36">
+        <li class="article-item" data-idx="36" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(36)">
                 <h3>DYSPNOEA</h3>
                 <span class="meta">pp. 110 | 10 words</span>
@@ -718,9 +724,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="37">
+        <li class="article-item" data-idx="37" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>DYSSERT</h3>
+                <h3>DYSSERT<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 110 | 26 words</span>
             </div>
             <div class="article-content" id="content-37">
@@ -728,7 +734,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="38">
+        <li class="article-item" data-idx="38" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(38)">
                 <h3>DYSURY</h3>
                 <span class="meta">pp. 110 | 18 words</span>
@@ -738,7 +744,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="39">
+        <li class="article-item" data-idx="39" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(39)">
                 <h3>DYVOUR</h3>
                 <span class="meta">pp. 110 | 444 words</span>
@@ -748,9 +754,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="40">
+        <li class="article-item" data-idx="40" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>EACHARD</h3>
+                <h3>EACHARD<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 110 | 63 words</span>
             </div>
             <div class="article-content" id="content-40">
@@ -758,7 +764,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="41">
+        <li class="article-item" data-idx="41" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(41)">
                 <h3>EACHARD</h3>
                 <span class="meta">pp. 110-112 | 1,387 words</span>
@@ -768,7 +774,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="42">
+        <li class="article-item" data-idx="42" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(42)">
                 <h3>EAGLE</h3>
                 <span class="meta">pp. 112 | 161 words</span>
@@ -778,7 +784,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="43">
+        <li class="article-item" data-idx="43" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(43)">
                 <h3>EAGLE</h3>
                 <span class="meta">pp. 112 | 129 words</span>
@@ -788,7 +794,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="44">
+        <li class="article-item" data-idx="44" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(44)">
                 <h3>EAGLET</h3>
                 <span class="meta">pp. 112 | 24 words</span>
@@ -798,7 +804,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="45">
+        <li class="article-item" data-idx="45" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(45)">
                 <h3>EALDERMAN</h3>
                 <span class="meta">pp. 112 | 337 words</span>
@@ -808,7 +814,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="46">
+        <li class="article-item" data-idx="46" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(46)">
                 <h3>EAR</h3>
                 <span class="meta">pp. 112 | 163 words</span>
@@ -818,7 +824,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="47">
+        <li class="article-item" data-idx="47" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(47)">
                 <h3>EARING</h3>
                 <span class="meta">pp. 112-113 | 144 words</span>
@@ -828,7 +834,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="48">
+        <li class="article-item" data-idx="48" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(48)">
                 <h3>EARL</h3>
                 <span class="meta">pp. 113 | 396 words</span>
@@ -838,7 +844,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="49">
+        <li class="article-item" data-idx="49" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(49)">
                 <h3>EARTH</h3>
                 <span class="meta">pp. 113 | 22 words</span>
@@ -848,7 +854,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="50">
+        <li class="article-item" data-idx="50" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(50)">
                 <h3>EARTH</h3>
                 <span class="meta">pp. 113 | 56 words</span>
@@ -858,7 +864,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="51">
+        <li class="article-item" data-idx="51" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(51)">
                 <h3>EARTHS</h3>
                 <span class="meta">pp. 113 | 33 words</span>
@@ -868,7 +874,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="52">
+        <li class="article-item" data-idx="52" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(52)">
                 <h3>EASEL PIECES</h3>
                 <span class="meta">pp. 113 | 38 words</span>
@@ -878,7 +884,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="53">
+        <li class="article-item" data-idx="53" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(53)">
                 <h3>EASEMENT</h3>
                 <span class="meta">pp. 113 | 38 words</span>
@@ -888,7 +894,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="54">
+        <li class="article-item" data-idx="54" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(54)">
                 <h3>EASING</h3>
                 <span class="meta">pp. 113 | 45 words</span>
@@ -898,7 +904,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="55">
+        <li class="article-item" data-idx="55" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(55)">
                 <h3>EAST</h3>
                 <span class="meta">pp. 113 | 63 words</span>
@@ -908,7 +914,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="56">
+        <li class="article-item" data-idx="56" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(56)">
                 <h3>EASTER</h3>
                 <span class="meta">pp. 113 | 134 words</span>
@@ -918,9 +924,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="57">
+        <li class="article-item" data-idx="57" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(57)">
-                <h3>EASTER ISLAND</h3>
+                <h3>EASTER ISLAND<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 113-115 | 1,526 words</span>
             </div>
             <div class="article-content" id="content-57">
@@ -928,9 +934,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="58">
+        <li class="article-item" data-idx="58" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(58)">
-                <h3>EATON</h3>
+                <h3>EATON<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 115 | 681 words</span>
             </div>
             <div class="article-content" id="content-58">
@@ -938,7 +944,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="59">
+        <li class="article-item" data-idx="59" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(59)">
                 <h3>EAVES</h3>
                 <span class="meta">pp. 115 | 35 words</span>
@@ -948,7 +954,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="60">
+        <li class="article-item" data-idx="60" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(60)">
                 <h3>EAVES-DROPPERS</h3>
                 <span class="meta">pp. 115 | 86 words</span>
@@ -958,7 +964,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="61">
+        <li class="article-item" data-idx="61" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(61)">
                 <h3>EBDOMARIUS</h3>
                 <span class="meta">pp. 115 | 71 words</span>
@@ -968,7 +974,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="62">
+        <li class="article-item" data-idx="62" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(62)">
                 <h3>EBDOME</h3>
                 <span class="meta">pp. 115 | 51 words</span>
@@ -978,7 +984,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="63">
+        <li class="article-item" data-idx="63" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(63)">
                 <h3>EBION</h3>
                 <span class="meta">pp. 115 | 81 words</span>
@@ -988,7 +994,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="64">
+        <li class="article-item" data-idx="64" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(64)">
                 <h3>EBIONITES</h3>
                 <span class="meta">pp. 115-116 | 1,169 words</span>
@@ -998,9 +1004,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="65">
+        <li class="article-item" data-idx="65" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(65)">
-                <h3>EBORACUM</h3>
+                <h3>EBORACUM<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 116-117 | 48 words</span>
             </div>
             <div class="article-content" id="content-65">
@@ -1008,7 +1014,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="66">
+        <li class="article-item" data-idx="66" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(66)">
                 <h3>EBUDE</h3>
                 <span class="meta">pp. 117 | 70 words</span>
@@ -1018,7 +1024,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="67">
+        <li class="article-item" data-idx="67" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(67)">
                 <h3>EBULLITION</h3>
                 <span class="meta">pp. 117 | 15 words</span>
@@ -1028,7 +1034,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="68">
+        <li class="article-item" data-idx="68" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(68)">
                 <h3>EBUSUS</h3>
                 <span class="meta">pp. 117 | 52 words</span>
@@ -1038,7 +1044,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="69">
+        <li class="article-item" data-idx="69" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(69)">
                 <h3>ECALESIA</h3>
                 <span class="meta">pp. 117 | 23 words</span>
@@ -1048,7 +1054,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="70">
+        <li class="article-item" data-idx="70" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(70)">
                 <h3>ECASTOR</h3>
                 <span class="meta">pp. 117 | 25 words</span>
@@ -1058,7 +1064,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="71">
+        <li class="article-item" data-idx="71" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(71)">
                 <h3>ECATEA</h3>
                 <span class="meta">pp. 117 | 32 words</span>
@@ -1068,7 +1074,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="72">
+        <li class="article-item" data-idx="72" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(72)">
                 <h3>ECATESIA</h3>
                 <span class="meta">pp. 117 | 158 words</span>
@@ -1078,7 +1084,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="73">
+        <li class="article-item" data-idx="73" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(73)">
                 <h3>ECAVESSADE</h3>
                 <span class="meta">pp. 117 | 11 words</span>
@@ -1088,9 +1094,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="74">
+        <li class="article-item" data-idx="74" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(74)">
-                <h3>ECBATANA</h3>
+                <h3>ECBATANA<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 117 | 133 words</span>
             </div>
             <div class="article-content" id="content-74">
@@ -1098,7 +1104,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="75">
+        <li class="article-item" data-idx="75" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(75)">
                 <h3>ECCLESIASTES</h3>
                 <span class="meta">pp. 117-118 | 92 words</span>
@@ -1108,7 +1114,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="76">
+        <li class="article-item" data-idx="76" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(76)">
                 <h3>ECCLESIASTICAL</h3>
                 <span class="meta">pp. 118-119 | 1,356 words</span>
@@ -1118,7 +1124,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="77">
+        <li class="article-item" data-idx="77" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(77)">
                 <h3>ECHELLENSIS</h3>
                 <span class="meta">pp. 117 | 149 words</span>
@@ -1128,7 +1134,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="78">
+        <li class="article-item" data-idx="78" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(78)">
                 <h3>ECHINUS</h3>
                 <span class="meta">pp. 119-120 | 13 words</span>
@@ -1138,7 +1144,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="79">
+        <li class="article-item" data-idx="79" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(79)">
                 <h3>ECHINUS</h3>
                 <span class="meta">pp. 120 | 20 words</span>
@@ -1148,7 +1154,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="80">
+        <li class="article-item" data-idx="80" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(80)">
                 <h3>ECHO</h3>
                 <span class="meta">pp. 120-121 | 1,651 words</span>
@@ -1158,7 +1164,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="81">
+        <li class="article-item" data-idx="81" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(81)">
                 <h3>ECHOMETER</h3>
                 <span class="meta">pp. 121 | 32 words</span>
@@ -1168,7 +1174,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="82">
+        <li class="article-item" data-idx="82" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(82)">
                 <h3>ECHYMOSIS</h3>
                 <span class="meta">pp. 117 | 141 words</span>
@@ -1178,9 +1184,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="83">
+        <li class="article-item" data-idx="83" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(83)">
-                <h3>ECKIUS</h3>
+                <h3>ECKIUS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 121 | 353 words</span>
             </div>
             <div class="article-content" id="content-83">
@@ -1188,7 +1194,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="84">
+        <li class="article-item" data-idx="84" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(84)">
                 <h3>ECLIPSE</h3>
                 <span class="meta">pp. 121 | 30 words</span>
@@ -1198,7 +1204,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="85">
+        <li class="article-item" data-idx="85" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(85)">
                 <h3>ECLIPSE</h3>
                 <span class="meta">pp. 122 | 24 words</span>
@@ -1208,7 +1214,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="86">
+        <li class="article-item" data-idx="86" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(86)">
                 <h3>ECLIPTA</h3>
                 <span class="meta">pp. 121 | 31 words</span>
@@ -1218,7 +1224,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="87">
+        <li class="article-item" data-idx="87" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(87)">
                 <h3>ECLIPTIC</h3>
                 <span class="meta">pp. 121 | 26 words</span>
@@ -1228,7 +1234,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="88">
+        <li class="article-item" data-idx="88" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(88)">
                 <h3>ECLOGUE</h3>
                 <span class="meta">pp. 122 | 128 words</span>
@@ -1238,9 +1244,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="89">
+        <li class="article-item" data-idx="89" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(89)">
-                <h3>ECLUSE</h3>
+                <h3>ECLUSE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 122 | 68 words</span>
             </div>
             <div class="article-content" id="content-89">
@@ -1248,7 +1254,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="90">
+        <li class="article-item" data-idx="90" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(90)">
                 <h3>ECPHRACTICS</h3>
                 <span class="meta">pp. 122 | 18 words</span>
@@ -1258,7 +1264,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="91">
+        <li class="article-item" data-idx="91" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(91)">
                 <h3>ECSTATICI</h3>
                 <span class="meta">pp. 122 | 51 words</span>
@@ -1268,7 +1274,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="92">
+        <li class="article-item" data-idx="92" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(92)">
                 <h3>ECTLIC</h3>
                 <span class="meta">pp. 121-122 | 69 words</span>
@@ -1278,7 +1284,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="93">
+        <li class="article-item" data-idx="93" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(93)">
                 <h3>ECTROPIUM</h3>
                 <span class="meta">pp. 122 | 25 words</span>
@@ -1288,7 +1294,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="94">
+        <li class="article-item" data-idx="94" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(94)">
                 <h3>EDDA</h3>
                 <span class="meta">pp. 122-123 | 856 words</span>
@@ -1298,7 +1304,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="95">
+        <li class="article-item" data-idx="95" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(95)">
                 <h3>EDDISH</h3>
                 <span class="meta">pp. 123 | 20 words</span>
@@ -1308,7 +1314,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="96">
+        <li class="article-item" data-idx="96" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(96)">
                 <h3>EDDOES</h3>
                 <span class="meta">pp. 123 | 93 words</span>
@@ -1318,7 +1324,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="97">
+        <li class="article-item" data-idx="97" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(97)">
                 <h3>EDEN</h3>
                 <span class="meta">pp. 123 | 150 words</span>
@@ -1328,7 +1334,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="98">
+        <li class="article-item" data-idx="98" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(98)">
                 <h3>EDGINGS</h3>
                 <span class="meta">pp. 123 | 160 words</span>
@@ -1338,7 +1344,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="99">
+        <li class="article-item" data-idx="99" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(99)">
                 <h3>EDHILLING</h3>
                 <span class="meta">pp. 123-124 | 73 words</span>
@@ -1348,7 +1354,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="100">
+        <li class="article-item" data-idx="100" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(100)">
                 <h3>EDICT</h3>
                 <span class="meta">pp. 124 | 128 words</span>
@@ -1358,9 +1364,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="101">
+        <li class="article-item" data-idx="101" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(101)">
-                <h3>EDINBURGH<span class="badge">Treatise</span></h3>
+                <h3>EDINBURGH<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 124-140 | 18,508 words</span>
             </div>
             <div class="article-content" id="content-101">
@@ -1368,9 +1374,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="102">
+        <li class="article-item" data-idx="102" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(102)">
-                <h3>EDINBURGHSHIRE</h3>
+                <h3>EDINBURGHSHIRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 150 | 622 words</span>
             </div>
             <div class="article-content" id="content-102">
@@ -1378,7 +1384,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="103">
+        <li class="article-item" data-idx="103" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(103)">
                 <h3>EDITOR</h3>
                 <span class="meta">pp. 150-151 | 44 words</span>
@@ -1388,9 +1394,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="104">
+        <li class="article-item" data-idx="104" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(104)">
-                <h3>EDLINCK</h3>
+                <h3>EDLINCK<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 123 | 325 words</span>
             </div>
             <div class="article-content" id="content-104">
@@ -1398,7 +1404,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="105">
+        <li class="article-item" data-idx="105" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(105)">
                 <h3>EDOM</h3>
                 <span class="meta">pp. 151 | 64 words</span>
@@ -1408,9 +1414,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="106">
+        <li class="article-item" data-idx="106" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(106)">
-                <h3>EDOM<span class="badge">Treatise</span></h3>
+                <h3>EDOM<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 151-192 | 47,593 words</span>
             </div>
             <div class="article-content" id="content-106">
@@ -1418,7 +1424,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="107">
+        <li class="article-item" data-idx="107" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(107)">
                 <h3>EDULCORATION</h3>
                 <span class="meta">pp. 192 | 77 words</span>
@@ -1428,7 +1434,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="108">
+        <li class="article-item" data-idx="108" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(108)">
                 <h3>EDWARD</h3>
                 <span class="meta">pp. 192 | 11 words</span>
@@ -1438,7 +1444,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="109">
+        <li class="article-item" data-idx="109" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(109)">
                 <h3>EDWARDS</h3>
                 <span class="meta">pp. 192-193 | 1,387 words</span>
@@ -1448,9 +1454,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="110">
+        <li class="article-item" data-idx="110" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(110)">
-                <h3>EDYSTONE<span class="badge">Treatise</span></h3>
+                <h3>EDYSTONE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 193-199 | 5,883 words</span>
             </div>
             <div class="article-content" id="content-110">
@@ -1458,7 +1464,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="111">
+        <li class="article-item" data-idx="111" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(111)">
                 <h3>EFFLUVIVM</h3>
                 <span class="meta">pp. 199 | 29 words</span>
@@ -1468,7 +1474,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="112">
+        <li class="article-item" data-idx="112" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(112)">
                 <h3>EFFRONTES</h3>
                 <span class="meta">pp. 199 | 46 words</span>
@@ -1478,7 +1484,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="113">
+        <li class="article-item" data-idx="113" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(113)">
                 <h3>EFFUSION</h3>
                 <span class="meta">pp. 199 | 28 words</span>
@@ -1488,7 +1494,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="114">
+        <li class="article-item" data-idx="114" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(114)">
                 <h3>EFFUSION</h3>
                 <span class="meta">pp. 199 | 28 words</span>
@@ -1498,7 +1504,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="115">
+        <li class="article-item" data-idx="115" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(115)">
                 <h3>EGERIA</h3>
                 <span class="meta">pp. 199 | 111 words</span>
@@ -1508,7 +1514,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="116">
+        <li class="article-item" data-idx="116" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(116)">
                 <h3>EGG</h3>
                 <span class="meta">pp. 199-200 | 816 words</span>
@@ -1518,7 +1524,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="117">
+        <li class="article-item" data-idx="117" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(117)">
                 <h3>EGINIART</h3>
                 <span class="meta">pp. 200 | 108 words</span>
@@ -1528,7 +1534,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="118">
+        <li class="article-item" data-idx="118" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(118)">
                 <h3>EGLON</h3>
                 <span class="meta">pp. 200 | 74 words</span>
@@ -1538,9 +1544,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="119">
+        <li class="article-item" data-idx="119" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(119)">
-                <h3>EGRA</h3>
+                <h3>EGRA<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 200 | 95 words</span>
             </div>
             <div class="article-content" id="content-119">
@@ -1548,7 +1554,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="120">
+        <li class="article-item" data-idx="120" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(120)">
                 <h3>EGRET</h3>
                 <span class="meta">pp. 200 | 10 words</span>
@@ -1558,9 +1564,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="121">
+        <li class="article-item" data-idx="121" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(121)">
-                <h3>EGYPT<span class="badge">Treatise</span></h3>
+                <h3>EGYPT<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 200-245 | 52,481 words</span>
             </div>
             <div class="article-content" id="content-121">
@@ -1568,7 +1574,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="122">
+        <li class="article-item" data-idx="122" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(122)">
                 <h3>EHRHARTA</h3>
                 <span class="meta">pp. 245 | 12 words</span>
@@ -1578,7 +1584,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="123">
+        <li class="article-item" data-idx="123" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(123)">
                 <h3>EHRHARTIA</h3>
                 <span class="meta">pp. 245 | 12 words</span>
@@ -1588,7 +1594,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="124">
+        <li class="article-item" data-idx="124" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(124)">
                 <h3>EHUD</h3>
                 <span class="meta">pp. 245-246 | 238 words</span>
@@ -1598,7 +1604,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="125">
+        <li class="article-item" data-idx="125" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(125)">
                 <h3>EICETAE</h3>
                 <span class="meta">pp. 246 | 179 words</span>
@@ -1608,7 +1614,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="126">
+        <li class="article-item" data-idx="126" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(126)">
                 <h3>EJACULATOR</h3>
                 <span class="meta">pp. 246 | 26 words</span>
@@ -1618,7 +1624,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="127">
+        <li class="article-item" data-idx="127" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(127)">
                 <h3>EJECTA</h3>
                 <span class="meta">pp. 246 | 14 words</span>
@@ -1628,7 +1634,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="128">
+        <li class="article-item" data-idx="128" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(128)">
                 <h3>EJECTION</h3>
                 <span class="meta">pp. 246 | 20 words</span>
@@ -1638,7 +1644,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="129">
+        <li class="article-item" data-idx="129" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(129)">
                 <h3>EJECTION</h3>
                 <span class="meta">pp. 246 | 54 words</span>
@@ -1648,7 +1654,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="130">
+        <li class="article-item" data-idx="130" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(130)">
                 <h3>EJECTMENT</h3>
                 <span class="meta">pp. 246 | 482 words</span>
@@ -1658,7 +1664,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="131">
+        <li class="article-item" data-idx="131" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(131)">
                 <h3>EKRON</h3>
                 <span class="meta">pp. 246 | 127 words</span>
@@ -1668,7 +1674,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="132">
+        <li class="article-item" data-idx="132" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(132)">
                 <h3>ELAEAGNUS</h3>
                 <span class="meta">pp. 246-247 | 16 words</span>
@@ -1678,7 +1684,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="133">
+        <li class="article-item" data-idx="133" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(133)">
                 <h3>ELAEOCARPUS</h3>
                 <span class="meta">pp. 247 | 12 words</span>
@@ -1688,7 +1694,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="134">
+        <li class="article-item" data-idx="134" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(134)">
                 <h3>ELAEOTHESIUM</h3>
                 <span class="meta">pp. 247 | 20 words</span>
@@ -1698,7 +1704,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="135">
+        <li class="article-item" data-idx="135" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(135)">
                 <h3>ELAIS</h3>
                 <span class="meta">pp. 247 | 14 words</span>
@@ -1708,7 +1714,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="136">
+        <li class="article-item" data-idx="136" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(136)">
                 <h3>ELAM</h3>
                 <span class="meta">pp. 247 | 224 words</span>
@@ -1718,7 +1724,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="137">
+        <li class="article-item" data-idx="137" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(137)">
                 <h3>ELAPHEBOLIA</h3>
                 <span class="meta">pp. 247 | 139 words</span>
@@ -1728,7 +1734,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="138">
+        <li class="article-item" data-idx="138" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(138)">
                 <h3>ELAPHEBOLIUM</h3>
                 <span class="meta">pp. 247 | 50 words</span>
@@ -1738,7 +1744,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="139">
+        <li class="article-item" data-idx="139" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(139)">
                 <h3>ELASMIS</h3>
                 <span class="meta">pp. 247 | 59 words</span>
@@ -1748,9 +1754,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="140">
+        <li class="article-item" data-idx="140" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(140)">
-                <h3>ELASTIC<span class="badge">Treatise</span></h3>
+                <h3>ELASTIC<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 247-249 | 1,996 words</span>
             </div>
             <div class="article-content" id="content-140">
@@ -1758,7 +1764,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="141">
+        <li class="article-item" data-idx="141" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(141)">
                 <h3>ELASTICITY</h3>
                 <span class="meta">pp. 249-250 | 941 words</span>
@@ -1768,7 +1774,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="142">
+        <li class="article-item" data-idx="142" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(142)">
                 <h3>ELATE</h3>
                 <span class="meta">pp. 250 | 14 words</span>
@@ -1778,7 +1784,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="143">
+        <li class="article-item" data-idx="143" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(143)">
                 <h3>ELATER</h3>
                 <span class="meta">pp. 250 | 13 words</span>
@@ -1788,7 +1794,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="144">
+        <li class="article-item" data-idx="144" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(144)">
                 <h3>ELATERIUM</h3>
                 <span class="meta">pp. 250 | 11 words</span>
@@ -1798,7 +1804,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="145">
+        <li class="article-item" data-idx="145" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(145)">
                 <h3>ELATERIUM</h3>
                 <span class="meta">pp. 250 | 12 words</span>
@@ -1808,7 +1814,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="146">
+        <li class="article-item" data-idx="146" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(146)">
                 <h3>ELATH</h3>
                 <span class="meta">pp. 250 | 143 words</span>
@@ -1818,7 +1824,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="147">
+        <li class="article-item" data-idx="147" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(147)">
                 <h3>ELATINE</h3>
                 <span class="meta">pp. 250 | 11 words</span>
@@ -1828,7 +1834,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="148">
+        <li class="article-item" data-idx="148" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(148)">
                 <h3>ELATOSTEMA</h3>
                 <span class="meta">pp. 250 | 11 words</span>
@@ -1838,9 +1844,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="149">
+        <li class="article-item" data-idx="149" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(149)">
-                <h3>ELBING</h3>
+                <h3>ELBING<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 250 | 144 words</span>
             </div>
             <div class="article-content" id="content-149">
@@ -1848,7 +1854,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="150">
+        <li class="article-item" data-idx="150" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(150)">
                 <h3>ELBOW</h3>
                 <span class="meta">pp. 250 | 61 words</span>
@@ -1858,7 +1864,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="151">
+        <li class="article-item" data-idx="151" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(151)">
                 <h3>ELCESAITES</h3>
                 <span class="meta">pp. 250 | 76 words</span>
@@ -1868,7 +1874,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="152">
+        <li class="article-item" data-idx="152" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(152)">
                 <h3>ELDERS</h3>
                 <span class="meta">pp. 250 | 174 words</span>
@@ -1878,7 +1884,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="153">
+        <li class="article-item" data-idx="153" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(153)">
                 <h3>ELEATIC PHILOSOPHY</h3>
                 <span class="meta">pp. 250-251 | 355 words</span>
@@ -1888,7 +1894,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="154">
+        <li class="article-item" data-idx="154" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(154)">
                 <h3>ELECT</h3>
                 <span class="meta">pp. 251 | 128 words</span>
@@ -1898,7 +1904,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="155">
+        <li class="article-item" data-idx="155" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(155)">
                 <h3>ELECTION</h3>
                 <span class="meta">pp. 251 | 53 words</span>
@@ -1908,9 +1914,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="156">
+        <li class="article-item" data-idx="156" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(156)">
-                <h3>ELECTION<span class="badge">Treatise</span></h3>
+                <h3>ELECTION<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 251-255 | 4,700 words</span>
             </div>
             <div class="article-content" id="content-156">
@@ -1918,7 +1924,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="157">
+        <li class="article-item" data-idx="157" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(157)">
                 <h3>ELECTORATE</h3>
                 <span class="meta">pp. 255 | 28 words</span>
@@ -1928,7 +1934,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="158">
+        <li class="article-item" data-idx="158" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(158)">
                 <h3>ELECTRIC</h3>
                 <span class="meta">pp. 255 | 34 words</span>
@@ -1938,9 +1944,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="159">
+        <li class="article-item" data-idx="159" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(159)">
-                <h3>ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 255-258 | 1,778 words</span>
             </div>
             <div class="article-content" id="content-159">
@@ -1948,9 +1954,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="160">
+        <li class="article-item" data-idx="160" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(160)">
-                <h3>ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 259-266 | 8,178 words</span>
             </div>
             <div class="article-content" id="content-160">
@@ -1958,9 +1964,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="161">
+        <li class="article-item" data-idx="161" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(161)">
-                <h3>ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 275-349 | 82,482 words</span>
             </div>
             <div class="article-content" id="content-161">
@@ -1968,9 +1974,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="162">
+        <li class="article-item" data-idx="162" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(162)">
-                <h3>ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 385-410 | 27,375 words</span>
             </div>
             <div class="article-content" id="content-162">
@@ -1978,9 +1984,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="163">
+        <li class="article-item" data-idx="163" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(163)">
-                <h3>ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 439-440 | 638 words</span>
             </div>
             <div class="article-content" id="content-163">
@@ -1988,9 +1994,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="164">
+        <li class="article-item" data-idx="164" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(164)">
-                <h3>END OF THE SEVENTH VOLUME<span class="badge">Treatise</span></h3>
+                <h3>END OF THE SEVENTH VOLUME<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 440 | 32 words</span>
             </div>
             <div class="article-content" id="content-164">
@@ -1998,7 +2004,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="165">
+        <li class="article-item" data-idx="165" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(165)">
                 <h3>ETHESES</h3>
                 <span class="meta">pp. 122 | 72 words</span>
@@ -2008,7 +2014,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="166">
+        <li class="article-item" data-idx="166" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(166)">
                 <h3>ETHLIPSIS</h3>
                 <span class="meta">pp. 122 | 52 words</span>
@@ -2018,9 +2024,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="167">
+        <li class="article-item" data-idx="167" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(167)">
-                <h3>OF THE GENERAL PHENOMENA OF EXCITED ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>OF THE GENERAL PHENOMENA OF EXCITED ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 258-259 | 1,038 words</span>
             </div>
             <div class="article-content" id="content-167">
@@ -2028,9 +2034,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="168">
+        <li class="article-item" data-idx="168" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(168)">
-                <h3>ON ATMOSPHERICAL ELECTRICITY<span class="badge">Treatise</span></h3>
+                <h3>ON ATMOSPHERICAL ELECTRICITY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 385 | 98 words</span>
             </div>
             <div class="article-content" id="content-168">
@@ -2038,9 +2044,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="169">
+        <li class="article-item" data-idx="169" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(169)">
-                <h3>PART II<span class="badge">Treatise</span></h3>
+                <h3>PART II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 266-275 | 10,192 words</span>
             </div>
             <div class="article-content" id="content-169">
@@ -2048,9 +2054,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="170">
+        <li class="article-item" data-idx="170" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(170)">
-                <h3>PART II<span class="badge">Treatise</span></h3>
+                <h3>PART II<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 275 | 486 words</span>
             </div>
             <div class="article-content" id="content-170">
@@ -2058,9 +2064,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="171">
+        <li class="article-item" data-idx="171" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(171)">
-                <h3>PART IV<span class="badge">Treatise</span></h3>
+                <h3>PART IV<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 349-385 | 41,273 words</span>
             </div>
             <div class="article-content" id="content-171">
@@ -2068,9 +2074,9 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="172">
+        <li class="article-item" data-idx="172" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(172)">
-                <h3>PART VI<span class="badge">Treatise</span></h3>
+                <h3>PART VI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 410-435 | 3,830 words</span>
             </div>
             <div class="article-content" id="content-172">
@@ -2078,7 +2084,7 @@ DYANOMETER</h3>
             </div>
         </li>
         
-        <li class="article-item" data-idx="173">
+        <li class="article-item" data-idx="173" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(173)">
                 <h3>VIR NOBILISSIMUS
 FRANCISCUS DOMINUS NAPIER</h3>
@@ -2093,7 +2099,7 @@ FRANCISCUS DOMINUS NAPIER</h3>
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
         </footer>
     </div>
     
@@ -2178,11 +2184,12 @@ FRANCISCUS DOMINUS NAPIER</h3>
 
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
 
             item.style.display = show ? '' : 'none';
         });

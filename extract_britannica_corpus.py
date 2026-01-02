@@ -31,6 +31,10 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Iterator, List, Tuple
 
+# Import edition-aware classification
+from encyclopedia_parser.editions import get_edition_config, get_major_treatises
+from encyclopedia_parser.models import ArticleType
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
@@ -252,6 +256,55 @@ def is_likely_ocr_artifact(headword: str, text: str) -> bool:
             return True
 
     return False
+
+
+def _is_biographical(text: str, edition_config) -> bool:
+    """
+    Check if article is biographical.
+    Edition-aware: 1771 (1st edition) does not have biographical entries.
+    """
+    # Check if edition allows biographical entries
+    if edition_config and not edition_config.has_biography:
+        return False
+
+    # Common biographical patterns
+    bio_patterns = [
+        r'\bborn\s+(?:in\s+)?(?:about\s+)?\d{4}',
+        r'\bdied\s+(?:in\s+)?(?:about\s+)?\d{4}',
+        r'\(\d{4}\s*[-–—]\s*\d{4}\)',  # (1642-1727)
+        r'\bflourished\s+(?:about\s+)?\d{4}',
+        r'\b(?:he|she)\s+was\s+(?:a\s+)?(?:celebrated|famous|eminent|distinguished)',
+    ]
+
+    for pattern in bio_patterns:
+        if re.search(pattern, text, re.IGNORECASE):
+            return True
+
+    return False
+
+
+def _is_geographical(text: str) -> bool:
+    """Check if article is geographical (has coordinates or place indicators)."""
+    # Coordinate patterns
+    if re.search(r'[EW]\.\s*Long\.', text, re.IGNORECASE):
+        return True
+    if re.search(r'[NS]\.\s*Lat\.', text, re.IGNORECASE):
+        return True
+
+    # Common geographical indicators (need 2+)
+    geo_patterns = [
+        r'\b(?:city|town|village|river|mountain|island|county|district)\s+(?:of|in)\b',
+        r'\b(?:lies|situated|bounded|borders)\b',
+        r'\bmiles?\s+(?:north|south|east|west|from)\b',
+        r'\bpopulation\s+(?:of\s+)?\d',
+    ]
+
+    indicator_count = sum(
+        1 for pattern in geo_patterns
+        if re.search(pattern, text.lower())
+    )
+
+    return indicator_count >= 2
 
 
 # =============================================================================
@@ -600,12 +653,21 @@ def extract_articles(text: str, volume: VolumeInfo, page_numbers: list) -> List[
                 articles[-1].word_count = len(articles[-1].text.split())
                 continue
 
-        # Determine type
+        # Determine type using edition-aware classification
         is_crossref = bool(CROSS_REF_PATTERN.match(article_text))
+
+        # Get edition-specific treatise list and config
+        edition_config = get_edition_config(volume.edition_year)
+        edition_treatises = get_major_treatises(volume.edition_year)
+
         if is_crossref:
             article_type = "cross_reference"
-        elif is_treatise or headword in MAJOR_TREATISES or len(article_text) > 10000:
+        elif is_treatise or headword in edition_treatises or len(article_text) > 10000:
             article_type = "treatise"
+        elif _is_biographical(article_text, edition_config):
+            article_type = "biographical"
+        elif _is_geographical(article_text):
+            article_type = "geographical"
         else:
             article_type = "dictionary"
 

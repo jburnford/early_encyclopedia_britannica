@@ -194,6 +194,10 @@ nav a:hover { text-decoration: underline; }
     margin-left: 0.5rem;
 }
 
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.biographical { background: #2e7d32; }
+.article-header .badge.geographical { background: #1565c0; }
+
 .article-content {
     padding: 1rem;
     border-top: 1px solid var(--border);
@@ -339,16 +343,18 @@ footer {
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
-            <option value="treatise">Treatises Only</option>
-            <option value="dictionary">Dictionary Only</option>
+            <option value="treatise">Treatises</option>
+            <option value="biographical">Biographical</option>
+            <option value="geographical">Geographical</option>
+            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0">
+        <li class="article-item" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>CLYSTERS<span class="badge">Treatise</span></h3>
+                <h3>CLYSTERS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 79 | 380 words</span>
             </div>
             <div class="article-content" id="content-0">
@@ -356,9 +362,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1">
+        <li class="article-item" data-idx="1" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>DRENCHES<span class="badge">Treatise</span></h3>
+                <h3>DRENCHES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 78-79 | 636 words</span>
             </div>
             <div class="article-content" id="content-1">
@@ -366,9 +372,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="2">
+        <li class="article-item" data-idx="2" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>END OF THE EIGHTH VOLUME<span class="badge">Treatise</span></h3>
+                <h3>END OF THE EIGHTH VOLUME<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 426-428 | 740 words</span>
             </div>
             <div class="article-content" id="content-2">
@@ -376,7 +382,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="3">
+        <li class="article-item" data-idx="3" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(3)">
                 <h3>FAIRY</h3>
                 <span class="meta">pp. 5-6 | 830 words</span>
@@ -386,7 +392,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="4">
+        <li class="article-item" data-idx="4" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(4)">
                 <h3>FAITH</h3>
                 <span class="meta">pp. 6 | 416 words</span>
@@ -396,9 +402,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="5">
+        <li class="article-item" data-idx="5" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>FAITHORN</h3>
+                <h3>FAITHORN<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 6 | 334 words</span>
             </div>
             <div class="article-content" id="content-5">
@@ -406,7 +412,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="6">
+        <li class="article-item" data-idx="6" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(6)">
                 <h3>FAKIRS</h3>
                 <span class="meta">pp. 6-7 | 543 words</span>
@@ -416,7 +422,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="7">
+        <li class="article-item" data-idx="7" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(7)">
                 <h3>FALASHA</h3>
                 <span class="meta">pp. 7-8 | 832 words</span>
@@ -426,7 +432,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="8">
+        <li class="article-item" data-idx="8" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(8)">
                 <h3>FALCADE</h3>
                 <span class="meta">pp. 8 | 36 words</span>
@@ -436,7 +442,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="9">
+        <li class="article-item" data-idx="9" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(9)">
                 <h3>FALCATED</h3>
                 <span class="meta">pp. 8 | 19 words</span>
@@ -446,7 +452,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="10">
+        <li class="article-item" data-idx="10" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(10)">
                 <h3>FALCO</h3>
                 <span class="meta">pp. 8 | 17 words</span>
@@ -456,7 +462,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="11">
+        <li class="article-item" data-idx="11" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(11)">
                 <h3>FALCON</h3>
                 <span class="meta">pp. 8 | 346 words</span>
@@ -466,7 +472,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="12">
+        <li class="article-item" data-idx="12" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(12)">
                 <h3>FALCONER</h3>
                 <span class="meta">pp. 8 | 283 words</span>
@@ -476,7 +482,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="13">
+        <li class="article-item" data-idx="13" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(13)">
                 <h3>FALCONER</h3>
                 <span class="meta">pp. 8 | 138 words</span>
@@ -486,7 +492,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="14">
+        <li class="article-item" data-idx="14" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(14)">
                 <h3>FALCONRY</h3>
                 <span class="meta">pp. 8 | 65 words</span>
@@ -496,7 +502,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="15">
+        <li class="article-item" data-idx="15" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(15)">
                 <h3>FALCONRY</h3>
                 <span class="meta">pp. 8-9 | 690 words</span>
@@ -506,7 +512,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="16">
+        <li class="article-item" data-idx="16" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(16)">
                 <h3>FALCONRY</h3>
                 <span class="meta">pp. 9-10 | 644 words</span>
@@ -516,7 +522,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="17">
+        <li class="article-item" data-idx="17" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(17)">
                 <h3>FALERIUS</h3>
                 <span class="meta">pp. 10 | 31 words</span>
@@ -526,7 +532,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="18">
+        <li class="article-item" data-idx="18" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(18)">
                 <h3>FALKIA</h3>
                 <span class="meta">pp. 10 | 12 words</span>
@@ -536,9 +542,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="19">
+        <li class="article-item" data-idx="19" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>FALKIRK</h3>
+                <h3>FALKIRK<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 10 | 374 words</span>
             </div>
             <div class="article-content" id="content-19">
@@ -546,7 +552,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="20">
+        <li class="article-item" data-idx="20" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(20)">
                 <h3>FALKLAND</h3>
                 <span class="meta">pp. 10-12 | 1,482 words</span>
@@ -556,7 +562,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="21">
+        <li class="article-item" data-idx="21" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(21)">
                 <h3>FALLACY</h3>
                 <span class="meta">pp. 12 | 214 words</span>
@@ -566,7 +572,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="22">
+        <li class="article-item" data-idx="22" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(22)">
                 <h3>FALLOPIAN TUBES</h3>
                 <span class="meta">pp. 12 | 59 words</span>
@@ -576,9 +582,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="23">
+        <li class="article-item" data-idx="23" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>FALLOPIUS</h3>
+                <h3>FALLOPIUS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 12 | 140 words</span>
             </div>
             <div class="article-content" id="content-23">
@@ -586,7 +592,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="24">
+        <li class="article-item" data-idx="24" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(24)">
                 <h3>FALLOW</h3>
                 <span class="meta">pp. 12 | 45 words</span>
@@ -596,9 +602,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="25">
+        <li class="article-item" data-idx="25" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>FALMOUTH</h3>
+                <h3>FALMOUTH<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 12 | 243 words</span>
             </div>
             <div class="article-content" id="content-25">
@@ -606,7 +612,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="26">
+        <li class="article-item" data-idx="26" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(26)">
                 <h3>FALSE</h3>
                 <span class="meta">pp. 12 | 24 words</span>
@@ -616,7 +622,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="27">
+        <li class="article-item" data-idx="27" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(27)">
                 <h3>FALSE ACTION</h3>
                 <span class="meta">pp. 12 | 54 words</span>
@@ -626,7 +632,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="28">
+        <li class="article-item" data-idx="28" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(28)">
                 <h3>FALSE IMPRISONMENT</h3>
                 <span class="meta">pp. 12-13 | 215 words</span>
@@ -636,7 +642,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="29">
+        <li class="article-item" data-idx="29" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(29)">
                 <h3>FALSI CRIMEN</h3>
                 <span class="meta">pp. 13 | 64 words</span>
@@ -646,7 +652,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="30">
+        <li class="article-item" data-idx="30" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(30)">
                 <h3>FALSIFY</h3>
                 <span class="meta">pp. 13 | 111 words</span>
@@ -656,7 +662,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="31">
+        <li class="article-item" data-idx="31" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(31)">
                 <h3>FALX</h3>
                 <span class="meta">pp. 13 | 51 words</span>
@@ -666,7 +672,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="32">
+        <li class="article-item" data-idx="32" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(32)">
                 <h3>FAMA CLAMOSA</h3>
                 <span class="meta">pp. 13 | 486 words</span>
@@ -676,7 +682,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="33">
+        <li class="article-item" data-idx="33" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(33)">
                 <h3>FAME</h3>
                 <span class="meta">pp. 13 | 55 words</span>
@@ -686,7 +692,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="34">
+        <li class="article-item" data-idx="34" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(34)">
                 <h3>FAMIA</h3>
                 <span class="meta">pp. 13-14 | 222 words</span>
@@ -696,7 +702,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="35">
+        <li class="article-item" data-idx="35" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(35)">
                 <h3>FAMILY</h3>
                 <span class="meta">pp. 14 | 22 words</span>
@@ -706,7 +712,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="36">
+        <li class="article-item" data-idx="36" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(36)">
                 <h3>FAMINE</h3>
                 <span class="meta">pp. 14 | 17 words</span>
@@ -716,7 +722,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="37">
+        <li class="article-item" data-idx="37" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(37)">
                 <h3>FAN</h3>
                 <span class="meta">pp. 14 | 705 words</span>
@@ -726,7 +732,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="38">
+        <li class="article-item" data-idx="38" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(38)">
                 <h3>FANATICS</h3>
                 <span class="meta">pp. 14 | 114 words</span>
@@ -736,7 +742,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="39">
+        <li class="article-item" data-idx="39" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(39)">
                 <h3>FANIONS</h3>
                 <span class="meta">pp. 14 | 11 words</span>
@@ -746,7 +752,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="40">
+        <li class="article-item" data-idx="40" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(40)">
                 <h3>FANNERS</h3>
                 <span class="meta">pp. 14 | 18 words</span>
@@ -756,7 +762,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="41">
+        <li class="article-item" data-idx="41" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(41)">
                 <h3>FANSHAW</h3>
                 <span class="meta">pp. 14-15 | 332 words</span>
@@ -766,7 +772,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="42">
+        <li class="article-item" data-idx="42" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(42)">
                 <h3>FANTASIA</h3>
                 <span class="meta">pp. 15 | 57 words</span>
@@ -776,9 +782,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="43">
+        <li class="article-item" data-idx="43" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>FANUM</h3>
+                <h3>FANUM<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 15 | 81 words</span>
             </div>
             <div class="article-content" id="content-43">
@@ -786,7 +792,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="44">
+        <li class="article-item" data-idx="44" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(44)">
                 <h3>FARANDMAN</h3>
                 <span class="meta">pp. 15 | 28 words</span>
@@ -796,7 +802,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="45">
+        <li class="article-item" data-idx="45" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(45)">
                 <h3>FARCE</h3>
                 <span class="meta">pp. 15 | 221 words</span>
@@ -806,7 +812,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="46">
+        <li class="article-item" data-idx="46" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(46)">
                 <h3>FARCIN</h3>
                 <span class="meta">pp. 15 | 23 words</span>
@@ -816,7 +822,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="47">
+        <li class="article-item" data-idx="47" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(47)">
                 <h3>FARDING-DEAL</h3>
                 <span class="meta">pp. 15 | 10 words</span>
@@ -826,7 +832,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="48">
+        <li class="article-item" data-idx="48" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(48)">
                 <h3>FARINA</h3>
                 <span class="meta">pp. 15 | 211 words</span>
@@ -836,7 +842,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="49">
+        <li class="article-item" data-idx="49" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(49)">
                 <h3>FARLEU</h3>
                 <span class="meta">pp. 15 | 42 words</span>
@@ -846,9 +852,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="50">
+        <li class="article-item" data-idx="50" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>FARM<span class="badge">Treatise</span></h3>
+                <h3>FARM<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 15-19 | 3,612 words</span>
             </div>
             <div class="article-content" id="content-50">
@@ -856,7 +862,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="51">
+        <li class="article-item" data-idx="51" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(51)">
                 <h3>FARMER</h3>
                 <span class="meta">pp. 19 | 42 words</span>
@@ -866,7 +872,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="52">
+        <li class="article-item" data-idx="52" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(52)">
                 <h3>FARMER</h3>
                 <span class="meta">pp. 19 | 1,012 words</span>
@@ -876,7 +882,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="53">
+        <li class="article-item" data-idx="53" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(53)">
                 <h3>FARMER</h3>
                 <span class="meta">pp. 19-20 | 759 words</span>
@@ -886,7 +892,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="54">
+        <li class="article-item" data-idx="54" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(54)">
                 <h3>FARMER</h3>
                 <span class="meta">pp. 20 | 19 words</span>
@@ -896,7 +902,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="55">
+        <li class="article-item" data-idx="55" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(55)">
                 <h3>FARN ISLANDS</h3>
                 <span class="meta">pp. 20 | 359 words</span>
@@ -906,9 +912,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="56">
+        <li class="article-item" data-idx="56" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(56)">
-                <h3>FARNABIE</h3>
+                <h3>FARNABIE<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 20-21 | 277 words</span>
             </div>
             <div class="article-content" id="content-56">
@@ -916,9 +922,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="57">
+        <li class="article-item" data-idx="57" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(57)">
-                <h3>FARNHAM</h3>
+                <h3>FARNHAM<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 21 | 328 words</span>
             </div>
             <div class="article-content" id="content-57">
@@ -926,9 +932,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="58">
+        <li class="article-item" data-idx="58" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(58)">
-                <h3>FARNOVIANS</h3>
+                <h3>FARNOVIANS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 21 | 121 words</span>
             </div>
             <div class="article-content" id="content-58">
@@ -936,7 +942,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="59">
+        <li class="article-item" data-idx="59" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(59)">
                 <h3>FARQUHAR</h3>
                 <span class="meta">pp. 21 | 524 words</span>
@@ -946,7 +952,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="60">
+        <li class="article-item" data-idx="60" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(60)">
                 <h3>FARQUHAR</h3>
                 <span class="meta">pp. 21-22 | 229 words</span>
@@ -956,7 +962,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="61">
+        <li class="article-item" data-idx="61" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(61)">
                 <h3>FARRIER</h3>
                 <span class="meta">pp. 22 | 14 words</span>
@@ -966,9 +972,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="62">
+        <li class="article-item" data-idx="62" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(62)">
-                <h3>FARRIERY<span class="badge">Treatise</span></h3>
+                <h3>FARRIERY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 22-23 | 1,601 words</span>
             </div>
             <div class="article-content" id="content-62">
@@ -976,9 +982,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="63">
+        <li class="article-item" data-idx="63" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(63)">
-                <h3>FARRIERY<span class="badge">Treatise</span></h3>
+                <h3>FARRIERY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 31-78 | 51,439 words</span>
             </div>
             <div class="article-content" id="content-63">
@@ -986,9 +992,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="64">
+        <li class="article-item" data-idx="64" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(64)">
-                <h3>FARRIERY<span class="badge">Treatise</span></h3>
+                <h3>FARRIERY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 83-185 | 99,956 words</span>
             </div>
             <div class="article-content" id="content-64">
@@ -996,9 +1002,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="65">
+        <li class="article-item" data-idx="65" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(65)">
-                <h3>FARWELL-CAPE</h3>
+                <h3>FARWELL-CAPE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 15 | 14 words</span>
             </div>
             <div class="article-content" id="content-65">
@@ -1006,7 +1012,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="66">
+        <li class="article-item" data-idx="66" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(66)">
                 <h3>FASCIA</h3>
                 <span class="meta">pp. 190 | 68 words</span>
@@ -1016,7 +1022,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="67">
+        <li class="article-item" data-idx="67" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(67)">
                 <h3>FASCIA</h3>
                 <span class="meta">pp. 190 | 65 words</span>
@@ -1026,7 +1032,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="68">
+        <li class="article-item" data-idx="68" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(68)">
                 <h3>FASCIALIS</h3>
                 <span class="meta">pp. 190 | 161 words</span>
@@ -1036,7 +1042,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="69">
+        <li class="article-item" data-idx="69" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(69)">
                 <h3>FASCIETS</h3>
                 <span class="meta">pp. 190 | 24 words</span>
@@ -1046,7 +1052,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="70">
+        <li class="article-item" data-idx="70" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(70)">
                 <h3>FASCINES</h3>
                 <span class="meta">pp. 190 | 108 words</span>
@@ -1056,7 +1062,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="71">
+        <li class="article-item" data-idx="71" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(71)">
                 <h3>FASCIOLA</h3>
                 <span class="meta">pp. 190 | 68 words</span>
@@ -1066,7 +1072,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="72">
+        <li class="article-item" data-idx="72" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(72)">
                 <h3>FASCLE</h3>
                 <span class="meta">pp. 190 | 18 words</span>
@@ -1076,7 +1082,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="73">
+        <li class="article-item" data-idx="73" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(73)">
                 <h3>FAST</h3>
                 <span class="meta">pp. 190-191 | 1,139 words</span>
@@ -1086,7 +1092,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="74">
+        <li class="article-item" data-idx="74" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(74)">
                 <h3>FASTERMANS</h3>
                 <span class="meta">pp. 191 | 41 words</span>
@@ -1096,9 +1102,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="75">
+        <li class="article-item" data-idx="75" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(75)">
-                <h3>FASTI<span class="badge">Treatise</span></h3>
+                <h3>FASTI<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 191-193 | 2,532 words</span>
             </div>
             <div class="article-content" id="content-75">
@@ -1106,9 +1112,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="76">
+        <li class="article-item" data-idx="76" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(76)">
-                <h3>FASTOLF</h3>
+                <h3>FASTOLF<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 193-194 | 126 words</span>
             </div>
             <div class="article-content" id="content-76">
@@ -1116,9 +1122,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="77">
+        <li class="article-item" data-idx="77" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(77)">
-                <h3>FAT<span class="badge">Treatise</span></h3>
+                <h3>FAT<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 194-195 | 2,115 words</span>
             </div>
             <div class="article-content" id="content-77">
@@ -1126,7 +1132,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="78">
+        <li class="article-item" data-idx="78" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(78)">
                 <h3>FATHEMITES</h3>
                 <span class="meta">pp. 195 | 34 words</span>
@@ -1136,7 +1142,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="79">
+        <li class="article-item" data-idx="79" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(79)">
                 <h3>FATHER</h3>
                 <span class="meta">pp. 195-196 | 366 words</span>
@@ -1146,7 +1152,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="80">
+        <li class="article-item" data-idx="80" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(80)">
                 <h3>FATHERLASHER</h3>
                 <span class="meta">pp. 196-197 | 1,050 words</span>
@@ -1156,7 +1162,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="81">
+        <li class="article-item" data-idx="81" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(81)">
                 <h3>FE</h3>
                 <span class="meta">pp. 197 | 67 words</span>
@@ -1166,7 +1172,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="82">
+        <li class="article-item" data-idx="82" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(82)">
                 <h3>FEAL</h3>
                 <span class="meta">pp. 197 | 94 words</span>
@@ -1176,7 +1182,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="83">
+        <li class="article-item" data-idx="83" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(83)">
                 <h3>FEALTY</h3>
                 <span class="meta">pp. 197 | 207 words</span>
@@ -1186,7 +1192,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="84">
+        <li class="article-item" data-idx="84" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(84)">
                 <h3>FEAR</h3>
                 <span class="meta">pp. 197 | 294 words</span>
@@ -1196,9 +1202,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="85">
+        <li class="article-item" data-idx="85" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(85)">
-                <h3>FEAST<span class="badge">Treatise</span></h3>
+                <h3>FEAST<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 197-202 | 4,985 words</span>
             </div>
             <div class="article-content" id="content-85">
@@ -1206,7 +1212,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="86">
+        <li class="article-item" data-idx="86" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(86)">
                 <h3>FEATHER</h3>
                 <span class="meta">pp. 202 | 274 words</span>
@@ -1216,7 +1222,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="87">
+        <li class="article-item" data-idx="87" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(87)">
                 <h3>FEBRIFUGE</h3>
                 <span class="meta">pp. 202 | 12 words</span>
@@ -1226,7 +1232,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="88">
+        <li class="article-item" data-idx="88" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(88)">
                 <h3>FEBRUARY</h3>
                 <span class="meta">pp. 202 | 108 words</span>
@@ -1236,7 +1242,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="89">
+        <li class="article-item" data-idx="89" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(89)">
                 <h3>FECIALES</h3>
                 <span class="meta">pp. 202-203 | 476 words</span>
@@ -1246,9 +1252,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="90">
+        <li class="article-item" data-idx="90" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(90)">
-                <h3>FEE<span class="badge">Treatise</span></h3>
+                <h3>FEE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 203-205 | 2,264 words</span>
             </div>
             <div class="article-content" id="content-90">
@@ -1256,7 +1262,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="91">
+        <li class="article-item" data-idx="91" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(91)">
                 <h3>FEELERS</h3>
                 <span class="meta">pp. 205 | 13 words</span>
@@ -1266,7 +1272,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="92">
+        <li class="article-item" data-idx="92" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(92)">
                 <h3>FEELING</h3>
                 <span class="meta">pp. 205 | 98 words</span>
@@ -1276,7 +1282,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="93">
+        <li class="article-item" data-idx="93" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(93)">
                 <h3>FEINT</h3>
                 <span class="meta">pp. 205 | 39 words</span>
@@ -1286,7 +1292,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="94">
+        <li class="article-item" data-idx="94" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(94)">
                 <h3>FELAPTON</h3>
                 <span class="meta">pp. 205 | 33 words</span>
@@ -1296,9 +1302,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="95">
+        <li class="article-item" data-idx="95" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(95)">
-                <h3>FELIBIEN</h3>
+                <h3>FELIBIEN<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 205 | 94 words</span>
             </div>
             <div class="article-content" id="content-95">
@@ -1306,7 +1312,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="96">
+        <li class="article-item" data-idx="96" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(96)">
                 <h3>FELICITAS</h3>
                 <span class="meta">pp. 205 | 66 words</span>
@@ -1316,7 +1322,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="97">
+        <li class="article-item" data-idx="97" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(97)">
                 <h3>FELIS</h3>
                 <span class="meta">pp. 205 | 316 words</span>
@@ -1326,7 +1332,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="98">
+        <li class="article-item" data-idx="98" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(98)">
                 <h3>FELO DE SE</h3>
                 <span class="meta">pp. 205 | 29 words</span>
@@ -1336,7 +1342,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="99">
+        <li class="article-item" data-idx="99" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(99)">
                 <h3>FELONY</h3>
                 <span class="meta">pp. 205-206 | 1,270 words</span>
@@ -1346,9 +1352,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="100">
+        <li class="article-item" data-idx="100" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(100)">
-                <h3>FELTING</h3>
+                <h3>FELTING<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 206-208 | 1,456 words</span>
             </div>
             <div class="article-content" id="content-100">
@@ -1356,7 +1362,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="101">
+        <li class="article-item" data-idx="101" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(101)">
                 <h3>FEN</h3>
                 <span class="meta">pp. 208 | 842 words</span>
@@ -1366,7 +1372,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="102">
+        <li class="article-item" data-idx="102" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(102)">
                 <h3>FENCE</h3>
                 <span class="meta">pp. 208-209 | 1,344 words</span>
@@ -1376,9 +1382,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="103">
+        <li class="article-item" data-idx="103" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(103)">
-                <h3>FENELON</h3>
+                <h3>FENELON<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 209-210 | 323 words</span>
             </div>
             <div class="article-content" id="content-103">
@@ -1386,7 +1392,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="104">
+        <li class="article-item" data-idx="104" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(104)">
                 <h3>FENTON</h3>
                 <span class="meta">pp. 210 | 58 words</span>
@@ -1396,9 +1402,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="105">
+        <li class="article-item" data-idx="105" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(105)">
-                <h3>FENTON</h3>
+                <h3>FENTON<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 210 | 169 words</span>
             </div>
             <div class="article-content" id="content-105">
@@ -1406,7 +1412,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="106">
+        <li class="article-item" data-idx="106" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(106)">
                 <h3>FEOD</h3>
                 <span class="meta">pp. 210 | 57 words</span>
@@ -1416,9 +1422,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="107">
+        <li class="article-item" data-idx="107" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(107)">
-                <h3>FEODAL SYSTEM<span class="badge">Treatise</span></h3>
+                <h3>FEODAL SYSTEM<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 210-217 | 6,773 words</span>
             </div>
             <div class="article-content" id="content-107">
@@ -1426,7 +1432,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="108">
+        <li class="article-item" data-idx="108" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(108)">
                 <h3>FEOFFMENT</h3>
                 <span class="meta">pp. 217 | 353 words</span>
@@ -1436,9 +1442,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="109">
+        <li class="article-item" data-idx="109" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(109)">
-                <h3>FER DE FOURCHETTE</h3>
+                <h3>FER DE FOURCHETTE<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 217 | 150 words</span>
             </div>
             <div class="article-content" id="content-109">
@@ -1446,7 +1452,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="110">
+        <li class="article-item" data-idx="110" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(110)">
                 <h3>FERAE</h3>
                 <span class="meta">pp. 217 | 12 words</span>
@@ -1456,7 +1462,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="111">
+        <li class="article-item" data-idx="111" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(111)">
                 <h3>FERALIA</h3>
                 <span class="meta">pp. 217 | 267 words</span>
@@ -1466,7 +1472,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="112">
+        <li class="article-item" data-idx="112" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(112)">
                 <h3>FERENTARII</h3>
                 <span class="meta">pp. 217 | 18 words</span>
@@ -1476,9 +1482,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="113">
+        <li class="article-item" data-idx="113" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(113)">
-                <h3>FERENTINUM</h3>
+                <h3>FERENTINUM<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 217 | 43 words</span>
             </div>
             <div class="article-content" id="content-113">
@@ -1486,7 +1492,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="114">
+        <li class="article-item" data-idx="114" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(114)">
                 <h3>FERENTUM</h3>
                 <span class="meta">pp. 217 | 18 words</span>
@@ -1496,7 +1502,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="115">
+        <li class="article-item" data-idx="115" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(115)">
                 <h3>FERETRIUS</h3>
                 <span class="meta">pp. 217 | 43 words</span>
@@ -1506,7 +1512,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="116">
+        <li class="article-item" data-idx="116" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(116)">
                 <h3>FERETRUM</h3>
                 <span class="meta">pp. 217 | 36 words</span>
@@ -1516,7 +1522,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="117">
+        <li class="article-item" data-idx="117" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(117)">
                 <h3>FERG</h3>
                 <span class="meta">pp. 217-218 | 367 words</span>
@@ -1526,7 +1532,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="118">
+        <li class="article-item" data-idx="118" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(118)">
                 <h3>FERGUS</h3>
                 <span class="meta">pp. 218 | 11 words</span>
@@ -1536,9 +1542,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="119">
+        <li class="article-item" data-idx="119" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(119)">
-                <h3>FERGUSON</h3>
+                <h3>FERGUSON<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 218 | 522 words</span>
             </div>
             <div class="article-content" id="content-119">
@@ -1546,7 +1552,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="120">
+        <li class="article-item" data-idx="120" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(120)">
                 <h3>FERGUSON</h3>
                 <span class="meta">pp. 218-219 | 1,137 words</span>
@@ -1556,7 +1562,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="121">
+        <li class="article-item" data-idx="121" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(121)">
                 <h3>FERIA</h3>
                 <span class="meta">pp. 220 | 92 words</span>
@@ -1566,7 +1572,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="122">
+        <li class="article-item" data-idx="122" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(122)">
                 <h3>FERIAE</h3>
                 <span class="meta">pp. 219-220 | 336 words</span>
@@ -1576,7 +1582,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="123">
+        <li class="article-item" data-idx="123" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(123)">
                 <h3>FERIANA</h3>
                 <span class="meta">pp. 220 | 248 words</span>
@@ -1586,9 +1592,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="124">
+        <li class="article-item" data-idx="124" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(124)">
-                <h3>FERMANAGH</h3>
+                <h3>FERMANAGH<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 220 | 207 words</span>
             </div>
             <div class="article-content" id="content-124">
@@ -1596,7 +1602,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="125">
+        <li class="article-item" data-idx="125" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(125)">
                 <h3>FERMENT</h3>
                 <span class="meta">pp. 220 | 110 words</span>
@@ -1606,7 +1612,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="126">
+        <li class="article-item" data-idx="126" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(126)">
                 <h3>FERMENTATION</h3>
                 <span class="meta">pp. 220-221 | 372 words</span>
@@ -1616,7 +1622,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="127">
+        <li class="article-item" data-idx="127" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(127)">
                 <h3>FERN</h3>
                 <span class="meta">pp. 221 | 182 words</span>
@@ -1626,7 +1632,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="128">
+        <li class="article-item" data-idx="128" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(128)">
                 <h3>FERNANDO</h3>
                 <span class="meta">pp. 221 | 11 words</span>
@@ -1636,9 +1642,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="129">
+        <li class="article-item" data-idx="129" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(129)">
-                <h3>FERNELIUS</h3>
+                <h3>FERNELIUS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 221 | 775 words</span>
             </div>
             <div class="article-content" id="content-129">
@@ -1646,9 +1652,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="130">
+        <li class="article-item" data-idx="130" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(130)">
-                <h3>FERO</h3>
+                <h3>FERO<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 222-223 | 1,183 words</span>
             </div>
             <div class="article-content" id="content-130">
@@ -1656,7 +1662,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="131">
+        <li class="article-item" data-idx="131" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(131)">
                 <h3>FERONIA</h3>
                 <span class="meta">pp. 221 | 82 words</span>
@@ -1666,9 +1672,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="132">
+        <li class="article-item" data-idx="132" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(132)">
-                <h3>FERRARA</h3>
+                <h3>FERRARA<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 221-222 | 456 words</span>
             </div>
             <div class="article-content" id="content-132">
@@ -1676,7 +1682,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="133">
+        <li class="article-item" data-idx="133" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(133)">
                 <h3>FERRARIA</h3>
                 <span class="meta">pp. 222 | 23 words</span>
@@ -1686,9 +1692,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="134">
+        <li class="article-item" data-idx="134" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(134)">
-                <h3>FERRARS</h3>
+                <h3>FERRARS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 222 | 330 words</span>
             </div>
             <div class="article-content" id="content-134">
@@ -1696,7 +1702,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="135">
+        <li class="article-item" data-idx="135" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(135)">
                 <h3>FERRET</h3>
                 <span class="meta">pp. 222 | 4 words</span>
@@ -1706,7 +1712,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="136">
+        <li class="article-item" data-idx="136" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(136)">
                 <h3>FERRETS</h3>
                 <span class="meta">pp. 222 | 36 words</span>
@@ -1716,7 +1722,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="137">
+        <li class="article-item" data-idx="137" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(137)">
                 <h3>FERRETTO</h3>
                 <span class="meta">pp. 222 | 223 words</span>
@@ -1726,9 +1732,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="138">
+        <li class="article-item" data-idx="138" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(138)">
-                <h3>FERRO</h3>
+                <h3>FERRO<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 222 | 76 words</span>
             </div>
             <div class="article-content" id="content-138">
@@ -1736,9 +1742,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="139">
+        <li class="article-item" data-idx="139" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(139)">
-                <h3>FERROL</h3>
+                <h3>FERROL<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 223 | 43 words</span>
             </div>
             <div class="article-content" id="content-139">
@@ -1746,7 +1752,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="140">
+        <li class="article-item" data-idx="140" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(140)">
                 <h3>FERRUGINOUS</h3>
                 <span class="meta">pp. 223 | 11 words</span>
@@ -1756,7 +1762,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="141">
+        <li class="article-item" data-idx="141" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(141)">
                 <h3>FERRUGO</h3>
                 <span class="meta">pp. 223 | 11 words</span>
@@ -1766,7 +1772,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="142">
+        <li class="article-item" data-idx="142" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(142)">
                 <h3>FERRY</h3>
                 <span class="meta">pp. 223 | 32 words</span>
@@ -1776,7 +1782,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="143">
+        <li class="article-item" data-idx="143" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(143)">
                 <h3>FERTILITY</h3>
                 <span class="meta">pp. 223-224 | 261 words</span>
@@ -1786,7 +1792,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="144">
+        <li class="article-item" data-idx="144" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(144)">
                 <h3>FERULA</h3>
                 <span class="meta">pp. 224 | 158 words</span>
@@ -1796,7 +1802,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="145">
+        <li class="article-item" data-idx="145" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(145)">
                 <h3>FERULA</h3>
                 <span class="meta">pp. 224 | 34 words</span>
@@ -1806,7 +1812,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="146">
+        <li class="article-item" data-idx="146" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(146)">
                 <h3>FESCENNIA</h3>
                 <span class="meta">pp. 224 | 27 words</span>
@@ -1816,7 +1822,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="147">
+        <li class="article-item" data-idx="147" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(147)">
                 <h3>FESCENNINE VERSES</h3>
                 <span class="meta">pp. 224 | 86 words</span>
@@ -1826,7 +1832,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="148">
+        <li class="article-item" data-idx="148" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(148)">
                 <h3>FESSE WAYS</h3>
                 <span class="meta">pp. 224 | 44 words</span>
@@ -1836,7 +1842,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="149">
+        <li class="article-item" data-idx="149" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(149)">
                 <h3>FESTI DIES</h3>
                 <span class="meta">pp. 224 | 113 words</span>
@@ -1846,7 +1852,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="150">
+        <li class="article-item" data-idx="150" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(150)">
                 <h3>FESTINO</h3>
                 <span class="meta">pp. 224 | 58 words</span>
@@ -1856,7 +1862,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="151">
+        <li class="article-item" data-idx="151" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(151)">
                 <h3>FESTIVAL</h3>
                 <span class="meta">pp. 224 | 18 words</span>
@@ -1866,7 +1872,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="152">
+        <li class="article-item" data-idx="152" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(152)">
                 <h3>FESTOON</h3>
                 <span class="meta">pp. 224 | 100 words</span>
@@ -1876,7 +1882,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="153">
+        <li class="article-item" data-idx="153" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(153)">
                 <h3>FESTUCA</h3>
                 <span class="meta">pp. 224 | 104 words</span>
@@ -1886,7 +1892,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="154">
+        <li class="article-item" data-idx="154" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(154)">
                 <h3>FETLOCK</h3>
                 <span class="meta">pp. 224 | 26 words</span>
@@ -1896,7 +1902,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="155">
+        <li class="article-item" data-idx="155" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(155)">
                 <h3>FETTI</h3>
                 <span class="meta">pp. 224-225 | 66 words</span>
@@ -1906,7 +1912,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="156">
+        <li class="article-item" data-idx="156" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(156)">
                 <h3>FEU-DUTY</h3>
                 <span class="meta">pp. 225 | 114 words</span>
@@ -1916,7 +1922,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="157">
+        <li class="article-item" data-idx="157" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(157)">
                 <h3>FEUD</h3>
                 <span class="meta">pp. 225 | 104 words</span>
@@ -1926,7 +1932,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="158">
+        <li class="article-item" data-idx="158" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(158)">
                 <h3>FEUDAL</h3>
                 <span class="meta">pp. 225 | 12 words</span>
@@ -1936,7 +1942,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="159">
+        <li class="article-item" data-idx="159" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(159)">
                 <h3>FEUDATORY</h3>
                 <span class="meta">pp. 225 | 15 words</span>
@@ -1946,7 +1952,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="160">
+        <li class="article-item" data-idx="160" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(160)">
                 <h3>FEVER</h3>
                 <span class="meta">pp. 225 | 10 words</span>
@@ -1956,9 +1962,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="161">
+        <li class="article-item" data-idx="161" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(161)">
-                <h3>FEVERSHAM</h3>
+                <h3>FEVERSHAM<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 225 | 292 words</span>
             </div>
             <div class="article-content" id="content-161">
@@ -1966,7 +1972,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="162">
+        <li class="article-item" data-idx="162" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(162)">
                 <h3>FEVILDEA</h3>
                 <span class="meta">pp. 225 | 13 words</span>
@@ -1976,9 +1982,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="163">
+        <li class="article-item" data-idx="163" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(163)">
-                <h3>FEVRE</h3>
+                <h3>FEVRE<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 225 | 202 words</span>
             </div>
             <div class="article-content" id="content-163">
@@ -1986,7 +1992,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="164">
+        <li class="article-item" data-idx="164" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(164)">
                 <h3>FEVRE</h3>
                 <span class="meta">pp. 225 | 64 words</span>
@@ -1996,9 +2002,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="165">
+        <li class="article-item" data-idx="165" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(165)">
-                <h3>FEZ<span class="badge">Treatise</span></h3>
+                <h3>FEZ<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 225-227 | 1,741 words</span>
             </div>
             <div class="article-content" id="content-165">
@@ -2006,7 +2012,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="166">
+        <li class="article-item" data-idx="166" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(166)">
                 <h3>FEZZAN</h3>
                 <span class="meta">pp. 227-228 | 1,750 words</span>
@@ -2016,9 +2022,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="167">
+        <li class="article-item" data-idx="167" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(167)">
-                <h3>FIASCONE</h3>
+                <h3>FIASCONE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 228 | 23 words</span>
             </div>
             <div class="article-content" id="content-167">
@@ -2026,9 +2032,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="168">
+        <li class="article-item" data-idx="168" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(168)">
-                <h3>FIBRE</h3>
+                <h3>FIBRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 228-230 | 1,458 words</span>
             </div>
             <div class="article-content" id="content-168">
@@ -2036,9 +2042,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="169">
+        <li class="article-item" data-idx="169" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(169)">
-                <h3>FIDDES</h3>
+                <h3>FIDDES<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 230 | 140 words</span>
             </div>
             <div class="article-content" id="content-169">
@@ -2046,7 +2052,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="170">
+        <li class="article-item" data-idx="170" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(170)">
                 <h3>FIDEI-COMMISSUM</h3>
                 <span class="meta">pp. 230 | 18 words</span>
@@ -2056,7 +2062,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="171">
+        <li class="article-item" data-idx="171" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(171)">
                 <h3>FIDEJUROR</h3>
                 <span class="meta">pp. 230 | 28 words</span>
@@ -2066,7 +2072,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="172">
+        <li class="article-item" data-idx="172" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(172)">
                 <h3>FIDENA</h3>
                 <span class="meta">pp. 230 | 30 words</span>
@@ -2076,7 +2082,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="173">
+        <li class="article-item" data-idx="173" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(173)">
                 <h3>FIDES</h3>
                 <span class="meta">pp. 230 | 61 words</span>
@@ -2086,7 +2092,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="174">
+        <li class="article-item" data-idx="174" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(174)">
                 <h3>FIDIUS</h3>
                 <span class="meta">pp. 230 | 27 words</span>
@@ -2096,7 +2102,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="175">
+        <li class="article-item" data-idx="175" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(175)">
                 <h3>FIELD</h3>
                 <span class="meta">pp. 230 | 12 words</span>
@@ -2106,7 +2112,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="176">
+        <li class="article-item" data-idx="176" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(176)">
                 <h3>FIELD</h3>
                 <span class="meta">pp. 230 | 225 words</span>
@@ -2116,9 +2122,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="177">
+        <li class="article-item" data-idx="177" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(177)">
-                <h3>FIELDING</h3>
+                <h3>FIELDING<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 230-231 | 340 words</span>
             </div>
             <div class="article-content" id="content-177">
@@ -2126,7 +2132,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="178">
+        <li class="article-item" data-idx="178" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(178)">
                 <h3>FIENUS</h3>
                 <span class="meta">pp. 231 | 72 words</span>
@@ -2136,7 +2142,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="179">
+        <li class="article-item" data-idx="179" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(179)">
                 <h3>FIERI FACIAS</h3>
                 <span class="meta">pp. 231 | 40 words</span>
@@ -2146,9 +2152,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="180">
+        <li class="article-item" data-idx="180" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(180)">
-                <h3>FIFESHIRE<span class="badge">Treatise</span></h3>
+                <h3>FIFESHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 231-239 | 7,096 words</span>
             </div>
             <div class="article-content" id="content-180">
@@ -2156,7 +2162,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="181">
+        <li class="article-item" data-idx="181" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(181)">
                 <h3>FIGURED</h3>
                 <span class="meta">pp. 239 | 134 words</span>
@@ -2166,7 +2172,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="182">
+        <li class="article-item" data-idx="182" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(182)">
                 <h3>FILAGO</h3>
                 <span class="meta">pp. 239 | 23 words</span>
@@ -2176,7 +2182,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="183">
+        <li class="article-item" data-idx="183" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(183)">
                 <h3>FILAMENT</h3>
                 <span class="meta">pp. 239-240 | 976 words</span>
@@ -2186,7 +2192,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="184">
+        <li class="article-item" data-idx="184" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(184)">
                 <h3>FILANDERS</h3>
                 <span class="meta">pp. 240 | 220 words</span>
@@ -2196,7 +2202,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="185">
+        <li class="article-item" data-idx="185" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(185)">
                 <h3>FILBERT</h3>
                 <span class="meta">pp. 240 | 13 words</span>
@@ -2206,7 +2212,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="186">
+        <li class="article-item" data-idx="186" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(186)">
                 <h3>FILE</h3>
                 <span class="meta">pp. 240 | 416 words</span>
@@ -2216,9 +2222,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="187">
+        <li class="article-item" data-idx="187" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(187)">
-                <h3>FILIAL<span class="badge">Treatise</span></h3>
+                <h3>FILIAL<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 240-242 | 1,854 words</span>
             </div>
             <div class="article-content" id="content-187">
@@ -2226,9 +2232,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="188">
+        <li class="article-item" data-idx="188" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(188)">
-                <h3>FILICACIA</h3>
+                <h3>FILICACIA<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 242 | 74 words</span>
             </div>
             <div class="article-content" id="content-188">
@@ -2236,7 +2242,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="189">
+        <li class="article-item" data-idx="189" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(189)">
                 <h3>FILICES</h3>
                 <span class="meta">pp. 242 | 88 words</span>
@@ -2246,7 +2252,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="190">
+        <li class="article-item" data-idx="190" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(190)">
                 <h3>FILICES</h3>
                 <span class="meta">pp. 242 | 16 words</span>
@@ -2256,7 +2262,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="191">
+        <li class="article-item" data-idx="191" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(191)">
                 <h3>FILING</h3>
                 <span class="meta">pp. 242 | 188 words</span>
@@ -2266,7 +2272,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="192">
+        <li class="article-item" data-idx="192" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(192)">
                 <h3>FILLAGREE</h3>
                 <span class="meta">pp. 242-243 | 924 words</span>
@@ -2276,7 +2282,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="193">
+        <li class="article-item" data-idx="193" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(193)">
                 <h3>FILLET</h3>
                 <span class="meta">pp. 243 | 263 words</span>
@@ -2286,9 +2292,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="194">
+        <li class="article-item" data-idx="194" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(194)">
-                <h3>FILTER<span class="badge">Treatise</span></h3>
+                <h3>FILTER<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 243-251 | 2,591 words</span>
             </div>
             <div class="article-content" id="content-194">
@@ -2296,7 +2302,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="195">
+        <li class="article-item" data-idx="195" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(195)">
                 <h3>FILTRATION</h3>
                 <span class="meta">pp. 251 | 17 words</span>
@@ -2306,7 +2312,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="196">
+        <li class="article-item" data-idx="196" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(196)">
                 <h3>FIMBRIAE</h3>
                 <span class="meta">pp. 251 | 23 words</span>
@@ -2316,7 +2322,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="197">
+        <li class="article-item" data-idx="197" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(197)">
                 <h3>FIMBRIATED</h3>
                 <span class="meta">pp. 251 | 13 words</span>
@@ -2326,7 +2332,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="198">
+        <li class="article-item" data-idx="198" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(198)">
                 <h3>FINAL</h3>
                 <span class="meta">pp. 251 | 79 words</span>
@@ -2336,9 +2342,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="199">
+        <li class="article-item" data-idx="199" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(199)">
-                <h3>FINAL</h3>
+                <h3>FINAL<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 251 | 42 words</span>
             </div>
             <div class="article-content" id="content-199">
@@ -2346,7 +2352,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="200">
+        <li class="article-item" data-idx="200" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(200)">
                 <h3>FINANCES</h3>
                 <span class="meta">pp. 251 | 97 words</span>
@@ -2356,9 +2362,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="201">
+        <li class="article-item" data-idx="201" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(201)">
-                <h3>FINCH</h3>
+                <h3>FINCH<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 251 | 143 words</span>
             </div>
             <div class="article-content" id="content-201">
@@ -2366,7 +2372,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="202">
+        <li class="article-item" data-idx="202" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(202)">
                 <h3>FINCH-KIND</h3>
                 <span class="meta">pp. 251 | 16 words</span>
@@ -2376,7 +2382,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="203">
+        <li class="article-item" data-idx="203" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(203)">
                 <h3>FINE</h3>
                 <span class="meta">pp. 251 | 62 words</span>
@@ -2386,7 +2392,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="204">
+        <li class="article-item" data-idx="204" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(204)">
                 <h3>FINE</h3>
                 <span class="meta">pp. 251-252 | 682 words</span>
@@ -2396,7 +2402,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="205">
+        <li class="article-item" data-idx="205" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(205)">
                 <h3>FINERY</h3>
                 <span class="meta">pp. 252 | 209 words</span>
@@ -2406,7 +2412,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="206">
+        <li class="article-item" data-idx="206" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(206)">
                 <h3>FINESSE</h3>
                 <span class="meta">pp. 252 | 71 words</span>
@@ -2416,7 +2422,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="207">
+        <li class="article-item" data-idx="207" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(207)">
                 <h3>FINGAL</h3>
                 <span class="meta">pp. 252-253 | 1,355 words</span>
@@ -2426,7 +2432,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="208">
+        <li class="article-item" data-idx="208" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(208)">
                 <h3>FINGERS</h3>
                 <span class="meta">pp. 253 | 21 words</span>
@@ -2436,9 +2442,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="209">
+        <li class="article-item" data-idx="209" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(209)">
-                <h3>FINISTERRE</h3>
+                <h3>FINISTERRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 253 | 30 words</span>
             </div>
             <div class="article-content" id="content-209">
@@ -2446,9 +2452,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="210">
+        <li class="article-item" data-idx="210" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(210)">
-                <h3>FINITE</h3>
+                <h3>FINITE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 253 | 190 words</span>
             </div>
             <div class="article-content" id="content-210">
@@ -2456,7 +2462,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="211">
+        <li class="article-item" data-idx="211" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(211)">
                 <h3>FINNIINGIA</h3>
                 <span class="meta">pp. 253 | 78 words</span>
@@ -2466,9 +2472,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="212">
+        <li class="article-item" data-idx="212" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(212)">
-                <h3>FIRE<span class="badge">Treatise</span></h3>
+                <h3>FIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 253-267 | 15,297 words</span>
             </div>
             <div class="article-content" id="content-212">
@@ -2476,7 +2482,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="213">
+        <li class="article-item" data-idx="213" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(213)">
                 <h3>FIRING</h3>
                 <span class="meta">pp. 267 | 698 words</span>
@@ -2486,7 +2492,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="214">
+        <li class="article-item" data-idx="214" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(214)">
                 <h3>FIRKIN</h3>
                 <span class="meta">pp. 267 | 29 words</span>
@@ -2496,7 +2502,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="215">
+        <li class="article-item" data-idx="215" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(215)">
                 <h3>FIRLOT</h3>
                 <span class="meta">pp. 267 | 49 words</span>
@@ -2506,7 +2512,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="216">
+        <li class="article-item" data-idx="216" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(216)">
                 <h3>FIRMAMENT</h3>
                 <span class="meta">pp. 267 | 172 words</span>
@@ -2516,7 +2522,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="217">
+        <li class="article-item" data-idx="217" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(217)">
                 <h3>FIRMAN</h3>
                 <span class="meta">pp. 267 | 21 words</span>
@@ -2526,9 +2532,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="218">
+        <li class="article-item" data-idx="218" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(218)">
-                <h3>FIRMICUS<span class="badge">Treatise</span></h3>
+                <h3>FIRMICUS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 267-270 | 2,884 words</span>
             </div>
             <div class="article-content" id="content-218">
@@ -2536,7 +2542,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="219">
+        <li class="article-item" data-idx="219" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(219)">
                 <h3>FISHER</h3>
                 <span class="meta">pp. 270 | 520 words</span>
@@ -2546,9 +2552,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="220">
+        <li class="article-item" data-idx="220" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(220)">
-                <h3>FISHERY<span class="badge">Treatise</span></h3>
+                <h3>FISHERY<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 270-278 | 9,779 words</span>
             </div>
             <div class="article-content" id="content-220">
@@ -2556,9 +2562,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="221">
+        <li class="article-item" data-idx="221" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(221)">
-                <h3>FISHGARD</h3>
+                <h3>FISHGARD<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 278 | 17 words</span>
             </div>
             <div class="article-content" id="content-221">
@@ -2566,9 +2572,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="222">
+        <li class="article-item" data-idx="222" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(222)">
-                <h3>FISHING<span class="badge">Treatise</span></h3>
+                <h3>FISHING<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 278-283 | 4,971 words</span>
             </div>
             <div class="article-content" id="content-222">
@@ -2576,7 +2582,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="223">
+        <li class="article-item" data-idx="223" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(223)">
                 <h3>FISSURES</h3>
                 <span class="meta">pp. 283 | 58 words</span>
@@ -2586,7 +2592,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="224">
+        <li class="article-item" data-idx="224" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(224)">
                 <h3>FISTULA</h3>
                 <span class="meta">pp. 283 | 246 words</span>
@@ -2596,7 +2602,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="225">
+        <li class="article-item" data-idx="225" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(225)">
                 <h3>FITCHET</h3>
                 <span class="meta">pp. 283 | 17 words</span>
@@ -2606,7 +2612,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="226">
+        <li class="article-item" data-idx="226" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(226)">
                 <h3>FITCHY</h3>
                 <span class="meta">pp. 283 | 67 words</span>
@@ -2616,9 +2622,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="227">
+        <li class="article-item" data-idx="227" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(227)">
-                <h3>FITZ-STEPHEN</h3>
+                <h3>FITZ-STEPHEN<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 283-284 | 109 words</span>
             </div>
             <div class="article-content" id="content-227">
@@ -2626,9 +2632,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="228">
+        <li class="article-item" data-idx="228" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(228)">
-                <h3>FITZHERBERT</h3>
+                <h3>FITZHERBERT<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 283 | 118 words</span>
             </div>
             <div class="article-content" id="content-228">
@@ -2636,7 +2642,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="229">
+        <li class="article-item" data-idx="229" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(229)">
                 <h3>FIVES</h3>
                 <span class="meta">pp. 284 | 321 words</span>
@@ -2646,7 +2652,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="230">
+        <li class="article-item" data-idx="230" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(230)">
                 <h3>FIXMILLNER</h3>
                 <span class="meta">pp. 284-285 | 950 words</span>
@@ -2656,7 +2662,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="231">
+        <li class="article-item" data-idx="231" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(231)">
                 <h3>FLAG</h3>
                 <span class="meta">pp. 285-286 | 949 words</span>
@@ -2666,7 +2672,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="232">
+        <li class="article-item" data-idx="232" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(232)">
                 <h3>FLAGOLET</h3>
                 <span class="meta">pp. 286 | 41 words</span>
@@ -2676,7 +2682,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="233">
+        <li class="article-item" data-idx="233" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(233)">
                 <h3>FLAGS</h3>
                 <span class="meta">pp. 285 | 52 words</span>
@@ -2686,7 +2692,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="234">
+        <li class="article-item" data-idx="234" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(234)">
                 <h3>FLAIL</h3>
                 <span class="meta">pp. 286 | 65 words</span>
@@ -2696,7 +2702,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="235">
+        <li class="article-item" data-idx="235" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(235)">
                 <h3>FLAIR</h3>
                 <span class="meta">pp. 286 | 44 words</span>
@@ -2706,7 +2712,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="236">
+        <li class="article-item" data-idx="236" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(236)">
                 <h3>FLAKE</h3>
                 <span class="meta">pp. 286 | 35 words</span>
@@ -2716,7 +2722,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="237">
+        <li class="article-item" data-idx="237" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(237)">
                 <h3>FLAKE</h3>
                 <span class="meta">pp. 286 | 152 words</span>
@@ -2726,9 +2732,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="238">
+        <li class="article-item" data-idx="238" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(238)">
-                <h3>FLAMBEAU</h3>
+                <h3>FLAMBEAU<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 286 | 543 words</span>
             </div>
             <div class="article-content" id="content-238">
@@ -2736,7 +2742,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="239">
+        <li class="article-item" data-idx="239" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(239)">
                 <h3>FLAME</h3>
                 <span class="meta">pp. 286-287 | 1,216 words</span>
@@ -2746,7 +2752,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="240">
+        <li class="article-item" data-idx="240" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(240)">
                 <h3>FLAMEN</h3>
                 <span class="meta">pp. 287-288 | 306 words</span>
@@ -2756,7 +2762,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="241">
+        <li class="article-item" data-idx="241" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(241)">
                 <h3>FLAMINIUS</h3>
                 <span class="meta">pp. 288 | 337 words</span>
@@ -2766,9 +2772,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="242">
+        <li class="article-item" data-idx="242" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(242)">
-                <h3>FLAMSTEED</h3>
+                <h3>FLAMSTEED<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 288 | 127 words</span>
             </div>
             <div class="article-content" id="content-242">
@@ -2776,7 +2782,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="243">
+        <li class="article-item" data-idx="243" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(243)">
                 <h3>FLAMSTEED</h3>
                 <span class="meta">pp. 288-289 | 564 words</span>
@@ -2786,7 +2792,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="244">
+        <li class="article-item" data-idx="244" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(244)">
                 <h3>FLANEL</h3>
                 <span class="meta">pp. 289-290 | 1,001 words</span>
@@ -2796,7 +2802,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="245">
+        <li class="article-item" data-idx="245" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(245)">
                 <h3>FLANK</h3>
                 <span class="meta">pp. 290 | 122 words</span>
@@ -2806,7 +2812,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="246">
+        <li class="article-item" data-idx="246" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(246)">
                 <h3>FLANK</h3>
                 <span class="meta">pp. 290 | 41 words</span>
@@ -2816,7 +2822,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="247">
+        <li class="article-item" data-idx="247" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(247)">
                 <h3>FLANK</h3>
                 <span class="meta">pp. 290 | 193 words</span>
@@ -2826,7 +2832,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="248">
+        <li class="article-item" data-idx="248" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(248)">
                 <h3>FLAT</h3>
                 <span class="meta">pp. 290 | 142 words</span>
@@ -2836,7 +2842,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="249">
+        <li class="article-item" data-idx="249" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(249)">
                 <h3>FLATUS</h3>
                 <span class="meta">pp. 290-291 | 35 words</span>
@@ -2846,9 +2852,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="250">
+        <li class="article-item" data-idx="250" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(250)">
-                <h3>FLAVEL</h3>
+                <h3>FLAVEL<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 291 | 221 words</span>
             </div>
             <div class="article-content" id="content-250">
@@ -2856,9 +2862,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="251">
+        <li class="article-item" data-idx="251" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(251)">
-                <h3>FLAX<span class="badge">Treatise</span></h3>
+                <h3>FLAX<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 291-302 | 10,198 words</span>
             </div>
             <div class="article-content" id="content-251">
@@ -2866,7 +2872,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="252">
+        <li class="article-item" data-idx="252" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(252)">
                 <h3>FLEAM</h3>
                 <span class="meta">pp. 302 | 84 words</span>
@@ -2876,9 +2882,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="253">
+        <li class="article-item" data-idx="253" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(253)">
-                <h3>FLECHIER</h3>
+                <h3>FLECHIER<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 302 | 127 words</span>
             </div>
             <div class="article-content" id="content-253">
@@ -2886,7 +2892,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="254">
+        <li class="article-item" data-idx="254" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(254)">
                 <h3>FLECKNOE</h3>
                 <span class="meta">pp. 302 | 116 words</span>
@@ -2896,7 +2902,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="255">
+        <li class="article-item" data-idx="255" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(255)">
                 <h3>FLEECE</h3>
                 <span class="meta">pp. 302 | 19 words</span>
@@ -2906,7 +2912,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="256">
+        <li class="article-item" data-idx="256" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(256)">
                 <h3>FLEET</h3>
                 <span class="meta">pp. 302 | 433 words</span>
@@ -2916,9 +2922,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="257">
+        <li class="article-item" data-idx="257" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(257)">
-                <h3>FLEETWOOD</h3>
+                <h3>FLEETWOOD<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 302 | 175 words</span>
             </div>
             <div class="article-content" id="content-257">
@@ -2926,9 +2932,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="258">
+        <li class="article-item" data-idx="258" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(258)">
-                <h3>FLEMINGIANS<span class="badge">Treatise</span></h3>
+                <h3>FLEMINGIANS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 302-305 | 3,110 words</span>
             </div>
             <div class="article-content" id="content-258">
@@ -2936,7 +2942,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="259">
+        <li class="article-item" data-idx="259" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(259)">
                 <h3>FLETWOOD</h3>
                 <span class="meta">pp. 305 | 124 words</span>
@@ -2946,9 +2952,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="260">
+        <li class="article-item" data-idx="260" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(260)">
-                <h3>FLEURI</h3>
+                <h3>FLEURI<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 305 | 170 words</span>
             </div>
             <div class="article-content" id="content-260">
@@ -2956,7 +2962,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="261">
+        <li class="article-item" data-idx="261" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(261)">
                 <h3>FLEVILLEA</h3>
                 <span class="meta">pp. 305 | 12 words</span>
@@ -2966,7 +2972,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="262">
+        <li class="article-item" data-idx="262" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(262)">
                 <h3>FLEXIBLE</h3>
                 <span class="meta">pp. 305 | 19 words</span>
@@ -2976,7 +2982,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="263">
+        <li class="article-item" data-idx="263" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(263)">
                 <h3>FLEXOR</h3>
                 <span class="meta">pp. 305 | 41 words</span>
@@ -2986,7 +2992,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="264">
+        <li class="article-item" data-idx="264" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(264)">
                 <h3>FLIGHT</h3>
                 <span class="meta">pp. 305 | 42 words</span>
@@ -2996,9 +3002,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="265">
+        <li class="article-item" data-idx="265" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(265)">
-                <h3>FLINTSHIRE</h3>
+                <h3>FLINTSHIRE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 305-306 | 201 words</span>
             </div>
             <div class="article-content" id="content-265">
@@ -3006,7 +3012,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="266">
+        <li class="article-item" data-idx="266" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(266)">
                 <h3>FLOAT</h3>
                 <span class="meta">pp. 306 | 199 words</span>
@@ -3016,9 +3022,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="267">
+        <li class="article-item" data-idx="267" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(267)">
-                <h3>FLOATAGES<span class="badge">Treatise</span></h3>
+                <h3>FLOATAGES<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 306-310 | 3,843 words</span>
             </div>
             <div class="article-content" id="content-267">
@@ -3026,7 +3032,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="268">
+        <li class="article-item" data-idx="268" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(268)">
                 <h3>FLORA</h3>
                 <span class="meta">pp. 310 | 286 words</span>
@@ -3036,7 +3042,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="269">
+        <li class="article-item" data-idx="269" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(269)">
                 <h3>FLORALES LUDI</h3>
                 <span class="meta">pp. 310 | 249 words</span>
@@ -3046,7 +3052,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="270">
+        <li class="article-item" data-idx="270" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(270)">
                 <h3>FLORALIA</h3>
                 <span class="meta">pp. 310 | 24 words</span>
@@ -3056,9 +3062,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="271">
+        <li class="article-item" data-idx="271" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(271)">
-                <h3>FLORENCE<span class="badge">Treatise</span></h3>
+                <h3>FLORENCE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 310-312 | 2,244 words</span>
             </div>
             <div class="article-content" id="content-271">
@@ -3066,7 +3072,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="272">
+        <li class="article-item" data-idx="272" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(272)">
                 <h3>FLORILEGE</h3>
                 <span class="meta">pp. 312 | 60 words</span>
@@ -3076,7 +3082,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="273">
+        <li class="article-item" data-idx="273" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(273)">
                 <h3>FLORILEGIUM</h3>
                 <span class="meta">pp. 312 | 29 words</span>
@@ -3086,7 +3092,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="274">
+        <li class="article-item" data-idx="274" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(274)">
                 <h3>FLORIN</h3>
                 <span class="meta">pp. 312 | 90 words</span>
@@ -3096,7 +3102,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="275">
+        <li class="article-item" data-idx="275" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(275)">
                 <h3>FLORINIANS</h3>
                 <span class="meta">pp. 312 | 153 words</span>
@@ -3106,9 +3112,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="276">
+        <li class="article-item" data-idx="276" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(276)">
-                <h3>FLORIS</h3>
+                <h3>FLORIS<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 312 | 114 words</span>
             </div>
             <div class="article-content" id="content-276">
@@ -3116,7 +3122,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="277">
+        <li class="article-item" data-idx="277" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(277)">
                 <h3>FLORIST</h3>
                 <span class="meta">pp. 312-313 | 47 words</span>
@@ -3126,7 +3132,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="278">
+        <li class="article-item" data-idx="278" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(278)">
                 <h3>FLORUS</h3>
                 <span class="meta">pp. 313 | 92 words</span>
@@ -3136,7 +3142,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="279">
+        <li class="article-item" data-idx="279" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(279)">
                 <h3>FLORY</h3>
                 <span class="meta">pp. 313 | 36 words</span>
@@ -3146,7 +3152,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="280">
+        <li class="article-item" data-idx="280" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(280)">
                 <h3>FLOS</h3>
                 <span class="meta">pp. 313 | 175 words</span>
@@ -3156,7 +3162,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="281">
+        <li class="article-item" data-idx="281" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(281)">
                 <h3>FLOTA</h3>
                 <span class="meta">pp. 313 | 125 words</span>
@@ -3166,7 +3172,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="282">
+        <li class="article-item" data-idx="282" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(282)">
                 <h3>FLOTSON</h3>
                 <span class="meta">pp. 313 | 99 words</span>
@@ -3176,7 +3182,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="283">
+        <li class="article-item" data-idx="283" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(283)">
                 <h3>FLOUNDER</h3>
                 <span class="meta">pp. 313 | 52 words</span>
@@ -3186,7 +3192,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="284">
+        <li class="article-item" data-idx="284" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(284)">
                 <h3>FLOUR</h3>
                 <span class="meta">pp. 313 | 481 words</span>
@@ -3196,9 +3202,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="285">
+        <li class="article-item" data-idx="285" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(285)">
-                <h3>FLOWER<span class="badge">Treatise</span></h3>
+                <h3>FLOWER<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 313-317 | 3,642 words</span>
             </div>
             <div class="article-content" id="content-285">
@@ -3206,7 +3212,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="286">
+        <li class="article-item" data-idx="286" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(286)">
                 <h3>FLUDD</h3>
                 <span class="meta">pp. 317 | 329 words</span>
@@ -3216,7 +3222,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="287">
+        <li class="article-item" data-idx="287" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(287)">
                 <h3>FLUENT</h3>
                 <span class="meta">pp. 317 | 50 words</span>
@@ -3226,7 +3232,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="288">
+        <li class="article-item" data-idx="288" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(288)">
                 <h3>FLUID</h3>
                 <span class="meta">pp. 317-318 | 1,503 words</span>
@@ -3236,9 +3242,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="289">
+        <li class="article-item" data-idx="289" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(289)">
-                <h3>FLUIDITY</h3>
+                <h3>FLUIDITY<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 318-320 | 1,706 words</span>
             </div>
             <div class="article-content" id="content-289">
@@ -3246,7 +3252,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="290">
+        <li class="article-item" data-idx="290" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(290)">
                 <h3>FLUX</h3>
                 <span class="meta">pp. 320 | 75 words</span>
@@ -3256,7 +3262,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="291">
+        <li class="article-item" data-idx="291" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(291)">
                 <h3>FLUX</h3>
                 <span class="meta">pp. 320 | 283 words</span>
@@ -3266,7 +3272,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="292">
+        <li class="article-item" data-idx="292" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(292)">
                 <h3>FLUX</h3>
                 <span class="meta">pp. 320-321 | 569 words</span>
@@ -3276,9 +3282,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="293">
+        <li class="article-item" data-idx="293" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(293)">
-                <h3>FLUXIONS<span class="badge">Treatise</span></h3>
+                <h3>FLUXIONS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 321-399 | 68,462 words</span>
             </div>
             <div class="article-content" id="content-293">
@@ -3286,9 +3292,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="294">
+        <li class="article-item" data-idx="294" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(294)">
-                <h3>FLUXIONS<span class="badge">Treatise</span></h3>
+                <h3>FLUXIONS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 399-402 | 3,631 words</span>
             </div>
             <div class="article-content" id="content-294">
@@ -3296,7 +3302,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="295">
+        <li class="article-item" data-idx="295" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(295)">
                 <h3>FLY</h3>
                 <span class="meta">pp. 402-408 | 1,352 words</span>
@@ -3306,7 +3312,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="296">
+        <li class="article-item" data-idx="296" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(296)">
                 <h3>FLYING</h3>
                 <span class="meta">pp. 408-409 | 1,176 words</span>
@@ -3316,7 +3322,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="297">
+        <li class="article-item" data-idx="297" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(297)">
                 <h3>FO</h3>
                 <span class="meta">pp. 409 | 62 words</span>
@@ -3326,7 +3332,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="298">
+        <li class="article-item" data-idx="298" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(298)">
                 <h3>FOCUS</h3>
                 <span class="meta">pp. 409 | 49 words</span>
@@ -3336,7 +3342,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="299">
+        <li class="article-item" data-idx="299" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(299)">
                 <h3>FODDER</h3>
                 <span class="meta">pp. 409 | 188 words</span>
@@ -3346,7 +3352,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="300">
+        <li class="article-item" data-idx="300" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(300)">
                 <h3>FOETOR</h3>
                 <span class="meta">pp. 409 | 12 words</span>
@@ -3356,7 +3362,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="301">
+        <li class="article-item" data-idx="301" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(301)">
                 <h3>FOETUS</h3>
                 <span class="meta">pp. 409 | 284 words</span>
@@ -3366,7 +3372,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="302">
+        <li class="article-item" data-idx="302" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(302)">
                 <h3>FOG</h3>
                 <span class="meta">pp. 409 | 333 words</span>
@@ -3376,7 +3382,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="303">
+        <li class="article-item" data-idx="303" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(303)">
                 <h3>FOGAGE</h3>
                 <span class="meta">pp. 409-410 | 12 words</span>
@@ -3386,7 +3392,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="304">
+        <li class="article-item" data-idx="304" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(304)">
                 <h3>FOIBLE</h3>
                 <span class="meta">pp. 410 | 155 words</span>
@@ -3396,7 +3402,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="305">
+        <li class="article-item" data-idx="305" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(305)">
                 <h3>FOIL</h3>
                 <span class="meta">pp. 410 | 336 words</span>
@@ -3406,7 +3412,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="306">
+        <li class="article-item" data-idx="306" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(306)">
                 <h3>FOKIEN</h3>
                 <span class="meta">pp. 410 | 225 words</span>
@@ -3416,9 +3422,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="307">
+        <li class="article-item" data-idx="307" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(307)">
-                <h3>FOLARD</h3>
+                <h3>FOLARD<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 410-411 | 648 words</span>
             </div>
             <div class="article-content" id="content-307">
@@ -3426,7 +3432,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="308">
+        <li class="article-item" data-idx="308" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(308)">
                 <h3>FOLC-LANDS</h3>
                 <span class="meta">pp. 411 | 76 words</span>
@@ -3436,7 +3442,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="309">
+        <li class="article-item" data-idx="309" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(309)">
                 <h3>FOLCMOTE</h3>
                 <span class="meta">pp. 411 | 375 words</span>
@@ -3446,9 +3452,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="310">
+        <li class="article-item" data-idx="310" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(310)">
-                <h3>FOLENGIO</h3>
+                <h3>FOLENGIO<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 411 | 153 words</span>
             </div>
             <div class="article-content" id="content-310">
@@ -3456,7 +3462,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="311">
+        <li class="article-item" data-idx="311" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(311)">
                 <h3>FOLIA</h3>
                 <span class="meta">pp. 411 | 19 words</span>
@@ -3466,7 +3472,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="312">
+        <li class="article-item" data-idx="312" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(312)">
                 <h3>FOLIAGE</h3>
                 <span class="meta">pp. 411-412 | 497 words</span>
@@ -3476,7 +3482,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="313">
+        <li class="article-item" data-idx="313" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(313)">
                 <h3>FOLIO</h3>
                 <span class="meta">pp. 412 | 58 words</span>
@@ -3486,7 +3492,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="314">
+        <li class="article-item" data-idx="314" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(314)">
                 <h3>FOLKES</h3>
                 <span class="meta">pp. 412 | 463 words</span>
@@ -3496,9 +3502,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="315">
+        <li class="article-item" data-idx="315" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(315)">
-                <h3>FOLKESTONE</h3>
+                <h3>FOLKESTONE<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 412 | 188 words</span>
             </div>
             <div class="article-content" id="content-315">
@@ -3506,7 +3512,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="316">
+        <li class="article-item" data-idx="316" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(316)">
                 <h3>FOLLICULUS</h3>
                 <span class="meta">pp. 412 | 101 words</span>
@@ -3516,7 +3522,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="317">
+        <li class="article-item" data-idx="317" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(317)">
                 <h3>FOLLIS</h3>
                 <span class="meta">pp. 412-413 | 206 words</span>
@@ -3526,7 +3532,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="318">
+        <li class="article-item" data-idx="318" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(318)">
                 <h3>FOLLY</h3>
                 <span class="meta">pp. 413 | 56 words</span>
@@ -3536,7 +3542,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="319">
+        <li class="article-item" data-idx="319" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(319)">
                 <h3>FOMAHAUT</h3>
                 <span class="meta">pp. 413 | 12 words</span>
@@ -3546,7 +3552,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="320">
+        <li class="article-item" data-idx="320" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(320)">
                 <h3>FOMENTATION</h3>
                 <span class="meta">pp. 413 | 184 words</span>
@@ -3556,9 +3562,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="321">
+        <li class="article-item" data-idx="321" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(321)">
-                <h3>FONG-YANG</h3>
+                <h3>FONG-YANG<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 413 | 584 words</span>
             </div>
             <div class="article-content" id="content-321">
@@ -3566,9 +3572,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="322">
+        <li class="article-item" data-idx="322" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(322)">
-                <h3>FONTAINBLEAU</h3>
+                <h3>FONTAINBLEAU<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 414 | 96 words</span>
             </div>
             <div class="article-content" id="content-322">
@@ -3576,7 +3582,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="323">
+        <li class="article-item" data-idx="323" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(323)">
                 <h3>FONTAINE</h3>
                 <span class="meta">pp. 413-414 | 1,212 words</span>
@@ -3586,7 +3592,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="324">
+        <li class="article-item" data-idx="324" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(324)">
                 <h3>FONTAINES</h3>
                 <span class="meta">pp. 414-415 | 497 words</span>
@@ -3596,7 +3602,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="325">
+        <li class="article-item" data-idx="325" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(325)">
                 <h3>FONTANELLA</h3>
                 <span class="meta">pp. 415 | 24 words</span>
@@ -3606,9 +3612,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="326">
+        <li class="article-item" data-idx="326" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(326)">
-                <h3>FONTANELLE<span class="badge">Treatise</span></h3>
+                <h3>FONTANELLE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 415-422 | 7,841 words</span>
             </div>
             <div class="article-content" id="content-326">
@@ -3616,9 +3622,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="327">
+        <li class="article-item" data-idx="327" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(327)">
-                <h3>FONTARABIA</h3>
+                <h3>FONTARABIA<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 415 | 97 words</span>
             </div>
             <div class="article-content" id="content-327">
@@ -3626,9 +3632,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="328">
+        <li class="article-item" data-idx="328" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(328)">
-                <h3>FOOSHT</h3>
+                <h3>FOOSHT<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 422 | 455 words</span>
             </div>
             <div class="article-content" id="content-328">
@@ -3636,7 +3642,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="329">
+        <li class="article-item" data-idx="329" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(329)">
                 <h3>FOOT</h3>
                 <span class="meta">pp. 422-423 | 283 words</span>
@@ -3646,7 +3652,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="330">
+        <li class="article-item" data-idx="330" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(330)">
                 <h3>FOOTE</h3>
                 <span class="meta">pp. 423-424 | 1,551 words</span>
@@ -3656,7 +3662,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="331">
+        <li class="article-item" data-idx="331" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(331)">
                 <h3>FORAMEN</h3>
                 <span class="meta">pp. 424 | 133 words</span>
@@ -3666,9 +3672,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="332">
+        <li class="article-item" data-idx="332" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(332)">
-                <h3>FORBES</h3>
+                <h3>FORBES<span class="badge biographical">Biography</span></h3>
                 <span class="meta">pp. 424 | 349 words</span>
             </div>
             <div class="article-content" id="content-332">
@@ -3676,7 +3682,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="333">
+        <li class="article-item" data-idx="333" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(333)">
                 <h3>FORCE</h3>
                 <span class="meta">pp. 424-425 | 1,030 words</span>
@@ -3686,7 +3692,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="334">
+        <li class="article-item" data-idx="334" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(334)">
                 <h3>FORCEPS</h3>
                 <span class="meta">pp. 425 | 24 words</span>
@@ -3696,7 +3702,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="335">
+        <li class="article-item" data-idx="335" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(335)">
                 <h3>FORCER</h3>
                 <span class="meta">pp. 425 | 57 words</span>
@@ -3706,9 +3712,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="336">
+        <li class="article-item" data-idx="336" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(336)">
-                <h3>FORCIBLE ENTRY</h3>
+                <h3>FORCIBLE ENTRY<span class="badge geographical">Place</span></h3>
                 <span class="meta">pp. 425-426 | 982 words</span>
             </div>
             <div class="article-content" id="content-336">
@@ -3716,9 +3722,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="337">
+        <li class="article-item" data-idx="337" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(337)">
-                <h3>OINTMENTS<span class="badge">Treatise</span></h3>
+                <h3>OINTMENTS<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 79-83 | 3,475 words</span>
             </div>
             <div class="article-content" id="content-337">
@@ -3726,7 +3732,7 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="338">
+        <li class="article-item" data-idx="338" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(338)">
                 <h3>PLACCUS</h3>
                 <span class="meta">pp. 285 | 73 words</span>
@@ -3736,9 +3742,9 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="339">
+        <li class="article-item" data-idx="339" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(339)">
-                <h3>POPE<span class="badge">Treatise</span></h3>
+                <h3>POPE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 23-31 | 7,773 words</span>
             </div>
             <div class="article-content" id="content-339">
@@ -3750,7 +3756,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-01</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
         </footer>
     </div>
     
@@ -3835,11 +3841,12 @@ footer {
 
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
-            const isTreatise = item.querySelector('.badge') !== null;
+            const articleType = item.dataset.type;
 
             let show = header.includes(query);
-            if (typeFilter === 'treatise') show = show && isTreatise;
-            if (typeFilter === 'dictionary') show = show && !isTreatise;
+            if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
 
             item.style.display = show ? '' : 'none';
         });
