@@ -183,24 +183,72 @@ FRONT_MATTER = [
 # OCR artifacts - figure labels, repeated letters, etc.
 # These patterns match headwords that are almost certainly not real articles
 REPEATED_LETTERS = re.compile(r'^([A-Z])\1+$')  # AA, BBB, CCCC, etc.
-SHORT_LETTER_COMBOS = re.compile(r'^[A-Z]{1,3}$')  # A, AB, ABC - potential figure labels
+SHORT_LETTER_COMBOS = re.compile(r'^[A-Z]{1,4}$')  # A, AB, ABC, ABCD - potential figure labels
+SEQUENTIAL_LETTERS = re.compile(r'^[A-Z]{2,4}$')  # Check if letters are sequential (ABC, BCD, etc.)
+
+# Known non-article words that appear in encyclopedias
+NON_ARTICLE_WORDS = {
+    'FINIS', 'INDEX', 'ERRATA', 'ADDENDA', 'CORRIGENDA', 'APPENDIX',
+    'CONTENTS', 'PREFACE', 'INTRODUCTION', 'ADVERTISEMENT', 'DIRECTIONS',
+    'SUPPLEMENT', 'PLATES', 'FIGURES', 'TABLES', 'END', 'CONCLUSION',
+}
+
+# Word fragments (common suffixes that shouldn't be standalone headwords)
+WORD_FRAGMENTS = re.compile(r'^(GRAPHY|OLOGY|ATION|MENT|NESS|ICAL|IOUS|EOUS|ABLE|IBLE|MENT|TURE|SION|TION)$')
+
+
+def is_sequential_letters(s: str) -> bool:
+    """Check if string is sequential letters like ABC, BCD, etc."""
+    if len(s) < 2 or len(s) > 5:
+        return False
+    for i in range(len(s) - 1):
+        if ord(s[i+1]) - ord(s[i]) != 1:
+            return False
+    return True
 
 
 def is_likely_ocr_artifact(headword: str, text: str) -> bool:
     """Check if a headword is likely an OCR artifact (figure label, etc.)."""
-    # Repeated letters are almost always figure labels
+    word_count = len(text.split())
+
+    # Repeated letters are almost always figure labels (AA, BBB, etc.)
     if REPEATED_LETTERS.match(headword):
         return True
 
-    # Very short headwords (1-3 letters) with short text are likely artifacts
+    # Sequential letters are figure labels (ABC, BCD, CDE, etc.)
+    if is_sequential_letters(headword):
+        return True
+
+    # Mixed repeated/sequential patterns (AABC, ABBC, etc.)
+    if len(headword) <= 5 and headword.isalpha():
+        unique_chars = len(set(headword))
+        if unique_chars <= 3 and len(headword) >= 3:
+            # Few unique chars in short string = likely figure label
+            if word_count < 100:
+                return True
+
+    # Known non-article words
+    if headword in NON_ARTICLE_WORDS:
+        return True
+
+    # Word fragments that aren't real headwords
+    if WORD_FRAGMENTS.match(headword):
+        return True
+
+    # Very short headwords (1-4 letters) with short text are likely artifacts
     if SHORT_LETTER_COMBOS.match(headword):
-        word_count = len(text.split())
         # Short text with short headword = likely figure label
         if word_count < 50:
             return True
         # Check if text looks like figure explanation
         text_lower = text[:200].lower()
         if any(x in text_lower for x in ['fig.', 'figure', 'plate', 'the point', 'the line']):
+            return True
+
+    # Very short articles (< 10 words) are suspicious
+    if word_count < 10:
+        # Allow cross-references which are naturally short
+        if not text.lower().startswith('see '):
             return True
 
     return False
