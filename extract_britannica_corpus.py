@@ -159,8 +159,11 @@ MAJOR_TREATISES = {
 # Parsing Patterns
 # =============================================================================
 
+# Pattern for dictionary entries: HEADWORD, or HEADWORD (note),
+# Examples: "ASTRONOMY, the science..." or "CAJETAN (Cardinal), was born..."
 ARTICLE_PATTERN = re.compile(
-    r'(?:^|\n+)(?:\*\*)?([A-Z][A-Z\'\-]+(?:\s+[A-Z][A-Z\'\-]+)*)(?:\*\*)?,\s+',
+    r'(?:^|\n+)(?:\*\*)?([A-Z][A-Z\'\-]+(?:\s+[A-Z][A-Z\'\-]+)*)(?:\*\*)?'
+    r'(?:\s*\([^)]+\))?,\s+',  # Optional parenthetical before comma
     re.MULTILINE
 )
 
