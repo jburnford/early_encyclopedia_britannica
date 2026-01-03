@@ -268,6 +268,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -352,7 +365,7 @@ footer {
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0" data-type="treatise">
+        <li class="article-item" id="article-NOTICE" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
                 <h3>NOTICE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 275-286 | 4,135 words</span>
@@ -366,7 +379,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-03</p>
         </footer>
     </div>
     
@@ -409,7 +422,7 @@ footer {
         const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
 
         content.innerHTML = `
-            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-text">${renderArticleHtml(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
@@ -422,6 +435,15 @@ footer {
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }
+
+    function renderArticleHtml(text) {
+        let safe = escapeHtml(text);
+        safe = safe.replace(
+            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
+            '<a class="xref" href="$1">$2</a>'
+        );
+        return safe;
     }
 
     function downloadMd(idx) {
@@ -461,6 +483,32 @@ footer {
             item.style.display = show ? '' : 'none';
         });
     }
+
+    window.addEventListener('load', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                setTimeout(() => {
+                    article.scrollIntoView({behavior: 'smooth', block: 'start'});
+                }, 100);
+            }
+        }
+    });
+
+    window.addEventListener('hashchange', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                article.scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+        }
+    });
     </script>
     
 </body>

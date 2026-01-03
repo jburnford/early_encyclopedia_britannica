@@ -268,6 +268,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -335,8 +348,8 @@ footer {
         <a href="../search.html">Search</a>
     </nav>
 
-    <p>The Sixth Edition contains <strong>16,241 articles</strong>
-    including <strong>1,981 treatises</strong> across
+    <p>The Sixth Edition contains <strong>16,026 articles</strong>
+    including <strong>1,814 treatises</strong> across
     <strong>20 volumes</strong>.</p>
 
     <h2>Volumes</h2>
@@ -346,7 +359,7 @@ footer {
             <a href="vol1.html">
                 <strong>Volume 1</strong>
                 
-                <div class="meta">142 articles, 108 treatises</div>
+                <div class="meta">99 articles, 71 treatises</div>
             </a>
         </li>
         
@@ -354,7 +367,7 @@ footer {
             <a href="vol2.html">
                 <strong>Volume 2</strong>
                 : America-ASS
-                <div class="meta">1,195 articles, 68 treatises</div>
+                <div class="meta">1,187 articles, 63 treatises</div>
             </a>
         </li>
         
@@ -362,7 +375,7 @@ footer {
             <a href="vol3.html">
                 <strong>Volume 3</strong>
                 : ASS-BOO
-                <div class="meta">1,454 articles, 84 treatises</div>
+                <div class="meta">1,451 articles, 81 treatises</div>
             </a>
         </li>
         
@@ -370,7 +383,7 @@ footer {
             <a href="vol4.html">
                 <strong>Volume 4</strong>
                 : BOO-BUR
-                <div class="meta">642 articles, 92 treatises</div>
+                <div class="meta">632 articles, 83 treatises</div>
             </a>
         </li>
         
@@ -378,7 +391,7 @@ footer {
             <a href="vol5.html">
                 <strong>Volume 5</strong>
                 
-                <div class="meta">116 articles, 98 treatises</div>
+                <div class="meta">105 articles, 88 treatises</div>
             </a>
         </li>
         
@@ -386,7 +399,7 @@ footer {
             <a href="vol6.html">
                 <strong>Volume 6</strong>
                 
-                <div class="meta">122 articles, 90 treatises</div>
+                <div class="meta">106 articles, 75 treatises</div>
             </a>
         </li>
         
@@ -394,7 +407,7 @@ footer {
             <a href="vol7.html">
                 <strong>Volume 7</strong>
                 : CTE-Electricity
-                <div class="meta">1,216 articles, 117 treatises</div>
+                <div class="meta">1,195 articles, 100 treatises</div>
             </a>
         </li>
         
@@ -402,7 +415,7 @@ footer {
             <a href="vol8.html">
                 <strong>Volume 8</strong>
                 : ELE-FOR
-                <div class="meta">1,022 articles, 77 treatises</div>
+                <div class="meta">1,014 articles, 72 treatises</div>
             </a>
         </li>
         
@@ -410,7 +423,7 @@ footer {
             <a href="vol9.html">
                 <strong>Volume 9</strong>
                 : FOR-GOT
-                <div class="meta">764 articles, 95 treatises</div>
+                <div class="meta">757 articles, 91 treatises</div>
             </a>
         </li>
         
@@ -418,7 +431,7 @@ footer {
             <a href="vol10.html">
                 <strong>Volume 10</strong>
                 : GOT-Hydrodynamics
-                <div class="meta">1,028 articles, 120 treatises</div>
+                <div class="meta">1,025 articles, 117 treatises</div>
             </a>
         </li>
         
@@ -426,7 +439,7 @@ footer {
             <a href="vol11.html">
                 <strong>Volume 11</strong>
                 : HYD-LIE
-                <div class="meta">1,313 articles, 86 treatises</div>
+                <div class="meta">1,306 articles, 82 treatises</div>
             </a>
         </li>
         
@@ -434,7 +447,7 @@ footer {
             <a href="vol12.html">
                 <strong>Volume 12</strong>
                 : LIE-Materia
-                <div class="meta">737 articles, 102 treatises</div>
+                <div class="meta">734 articles, 101 treatises</div>
             </a>
         </li>
         
@@ -442,7 +455,7 @@ footer {
             <a href="vol13.html">
                 <strong>Volume 13</strong>
                 : MAT-MIC
-                <div class="meta">393 articles, 97 treatises</div>
+                <div class="meta">383 articles, 88 treatises</div>
             </a>
         </li>
         
@@ -450,7 +463,7 @@ footer {
             <a href="vol14.html">
                 <strong>Volume 14</strong>
                 : MIC-NIC
-                <div class="meta">695 articles, 107 treatises</div>
+                <div class="meta">681 articles, 97 treatises</div>
             </a>
         </li>
         
@@ -458,7 +471,7 @@ footer {
             <a href="vol15.html">
                 <strong>Volume 15</strong>
                 : NIC-PAR
-                <div class="meta">832 articles, 83 treatises</div>
+                <div class="meta">828 articles, 80 treatises</div>
             </a>
         </li>
         
@@ -466,7 +479,7 @@ footer {
             <a href="vol16.html">
                 <strong>Volume 16</strong>
                 : PAR-Poetry
-                <div class="meta">746 articles, 107 treatises</div>
+                <div class="meta">737 articles, 102 treatises</div>
             </a>
         </li>
         
@@ -474,7 +487,7 @@ footer {
             <a href="vol17.html">
                 <strong>Volume 17</strong>
                 : Poetry-RHI
-                <div class="meta">1,095 articles, 131 treatises</div>
+                <div class="meta">1,082 articles, 124 treatises</div>
             </a>
         </li>
         
@@ -482,7 +495,7 @@ footer {
             <a href="vol18.html">
                 <strong>Volume 18</strong>
                 : RHI-Scripture
-                <div class="meta">593 articles, 66 treatises</div>
+                <div class="meta">586 articles, 61 treatises</div>
             </a>
         </li>
         
@@ -490,7 +503,7 @@ footer {
             <a href="vol19.html">
                 <strong>Volume 19</strong>
                 : Scripture-SUG
-                <div class="meta">971 articles, 150 treatises</div>
+                <div class="meta">962 articles, 143 treatises</div>
             </a>
         </li>
         
@@ -498,7 +511,7 @@ footer {
             <a href="vol20.html">
                 <strong>Volume 20</strong>
                 : SUI-ZYM
-                <div class="meta">1,165 articles, 103 treatises</div>
+                <div class="meta">1,156 articles, 95 treatises</div>
             </a>
         </li>
         
@@ -506,7 +519,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-03</p>
         </footer>
     </div>
     

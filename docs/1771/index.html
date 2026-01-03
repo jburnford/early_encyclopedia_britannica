@@ -268,6 +268,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -335,8 +348,8 @@ footer {
         <a href="../search.html">Search</a>
     </nav>
 
-    <p>The First Edition contains <strong>11,448 articles</strong>
-    including <strong>385 treatises</strong> across
+    <p>The First Edition contains <strong>11,389 articles</strong>
+    including <strong>336 treatises</strong> across
     <strong>3 volumes</strong>.</p>
 
     <h2>Volumes</h2>
@@ -346,7 +359,7 @@ footer {
             <a href="vol1.html">
                 <strong>Volume 1</strong>
                 : A-B
-                <div class="meta">3,241 articles, 159 treatises</div>
+                <div class="meta">3,202 articles, 125 treatises</div>
             </a>
         </li>
         
@@ -354,7 +367,7 @@ footer {
             <a href="vol2.html">
                 <strong>Volume 2</strong>
                 : C-L
-                <div class="meta">4,246 articles, 154 treatises</div>
+                <div class="meta">4,236 articles, 147 treatises</div>
             </a>
         </li>
         
@@ -362,7 +375,7 @@ footer {
             <a href="vol3.html">
                 <strong>Volume 3</strong>
                 : M-Z
-                <div class="meta">3,961 articles, 72 treatises</div>
+                <div class="meta">3,951 articles, 64 treatises</div>
             </a>
         </li>
         
@@ -370,7 +383,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-03</p>
         </footer>
     </div>
     

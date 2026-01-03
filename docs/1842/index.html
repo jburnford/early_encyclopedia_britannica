@@ -268,6 +268,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -335,8 +348,8 @@ footer {
         <a href="../search.html">Search</a>
     </nav>
 
-    <p>The Seventh Edition contains <strong>19,232 articles</strong>
-    including <strong>2,311 treatises</strong> across
+    <p>The Seventh Edition contains <strong>18,954 articles</strong>
+    including <strong>2,087 treatises</strong> across
     <strong>22 volumes</strong>.</p>
 
     <h2>Volumes</h2>
@@ -346,7 +359,7 @@ footer {
             <a href="vol0.html">
                 <strong>Volume 0</strong>
                 
-                <div class="meta">2 articles, 1 treatises</div>
+                <div class="meta">0 articles, 0 treatises</div>
             </a>
         </li>
         
@@ -354,7 +367,7 @@ footer {
             <a href="vol1.html">
                 <strong>Volume 1</strong>
                 : Preliminary
-                <div class="meta">55 articles, 53 treatises</div>
+                <div class="meta">19 articles, 19 treatises</div>
             </a>
         </li>
         
@@ -362,7 +375,7 @@ footer {
             <a href="vol2.html">
                 <strong>Volume 2</strong>
                 : A-Anatomy
-                <div class="meta">1,445 articles, 111 treatises</div>
+                <div class="meta">1,425 articles, 95 treatises</div>
             </a>
         </li>
         
@@ -370,7 +383,7 @@ footer {
             <a href="vol3.html">
                 <strong>Volume 3</strong>
                 : Anatomy-Astronomy
-                <div class="meta">860 articles, 98 treatises</div>
+                <div class="meta">847 articles, 86 treatises</div>
             </a>
         </li>
         
@@ -378,7 +391,7 @@ footer {
             <a href="vol4.html">
                 <strong>Volume 4</strong>
                 : Astronomy-BOR
-                <div class="meta">1,276 articles, 118 treatises</div>
+                <div class="meta">1,268 articles, 111 treatises</div>
             </a>
         </li>
         
@@ -386,7 +399,7 @@ footer {
             <a href="vol5.html">
                 <strong>Volume 5</strong>
                 : BOR-CAL
-                <div class="meta">619 articles, 99 treatises</div>
+                <div class="meta">610 articles, 92 treatises</div>
             </a>
         </li>
         
@@ -394,7 +407,7 @@ footer {
             <a href="vol6.html">
                 <strong>Volume 6</strong>
                 : CAL-Clock
-                <div class="meta">1,214 articles, 94 treatises</div>
+                <div class="meta">1,205 articles, 88 treatises</div>
             </a>
         </li>
         
@@ -402,7 +415,7 @@ footer {
             <a href="vol7.html">
                 <strong>Volume 7</strong>
                 : CLO-Dialling
-                <div class="meta">1,315 articles, 139 treatises</div>
+                <div class="meta">1,307 articles, 133 treatises</div>
             </a>
         </li>
         
@@ -410,7 +423,7 @@ footer {
             <a href="vol8.html">
                 <strong>Volume 8</strong>
                 : DIA-England
-                <div class="meta">845 articles, 112 treatises</div>
+                <div class="meta">815 articles, 87 treatises</div>
             </a>
         </li>
         
@@ -418,7 +431,7 @@ footer {
             <a href="vol9.html">
                 <strong>Volume 9</strong>
                 : England-FRA
-                <div class="meta">960 articles, 136 treatises</div>
+                <div class="meta">942 articles, 120 treatises</div>
             </a>
         </li>
         
@@ -426,7 +439,7 @@ footer {
             <a href="vol10.html">
                 <strong>Volume 10</strong>
                 : France-GRO
-                <div class="meta">683 articles, 83 treatises</div>
+                <div class="meta">680 articles, 81 treatises</div>
             </a>
         </li>
         
@@ -434,7 +447,7 @@ footer {
             <a href="vol11.html">
                 <strong>Volume 11</strong>
                 : Grotius-HYD
-                <div class="meta">910 articles, 130 treatises</div>
+                <div class="meta">893 articles, 115 treatises</div>
             </a>
         </li>
         
@@ -442,7 +455,7 @@ footer {
             <a href="vol12.html">
                 <strong>Volume 12</strong>
                 : Hydrodynamics-KYR
-                <div class="meta">1,129 articles, 90 treatises</div>
+                <div class="meta">1,126 articles, 89 treatises</div>
             </a>
         </li>
         
@@ -450,7 +463,7 @@ footer {
             <a href="vol13.html">
                 <strong>Volume 13</strong>
                 : LAB-Magnetism
-                <div class="meta">798 articles, 90 treatises</div>
+                <div class="meta">792 articles, 87 treatises</div>
             </a>
         </li>
         
@@ -458,7 +471,7 @@ footer {
             <a href="vol14.html">
                 <strong>Volume 14</strong>
                 : Magnetism-Mexico
-                <div class="meta">661 articles, 104 treatises</div>
+                <div class="meta">650 articles, 93 treatises</div>
             </a>
         </li>
         
@@ -466,7 +479,7 @@ footer {
             <a href="vol15.html">
                 <strong>Volume 15</strong>
                 : MEY-Navigation
-                <div class="meta">660 articles, 147 treatises</div>
+                <div class="meta">649 articles, 138 treatises</div>
             </a>
         </li>
         
@@ -474,7 +487,7 @@ footer {
             <a href="vol16.html">
                 <strong>Volume 16</strong>
                 : Navigation-PAN
-                <div class="meta">907 articles, 97 treatises</div>
+                <div class="meta">900 articles, 94 treatises</div>
             </a>
         </li>
         
@@ -482,7 +495,7 @@ footer {
             <a href="vol17.html">
                 <strong>Volume 17</strong>
                 : PAN-Plastic
-                <div class="meta">685 articles, 95 treatises</div>
+                <div class="meta">679 articles, 89 treatises</div>
             </a>
         </li>
         
@@ -490,7 +503,7 @@ footer {
             <a href="vol18.html">
                 <strong>Volume 18</strong>
                 : PLA-QUI
-                <div class="meta">746 articles, 118 treatises</div>
+                <div class="meta">721 articles, 99 treatises</div>
             </a>
         </li>
         
@@ -498,7 +511,7 @@ footer {
             <a href="vol19.html">
                 <strong>Volume 19</strong>
                 : RAB-SCU
-                <div class="meta">997 articles, 102 treatises</div>
+                <div class="meta">989 articles, 96 treatises</div>
             </a>
         </li>
         
@@ -506,7 +519,7 @@ footer {
             <a href="vol20.html">
                 <strong>Volume 20</strong>
                 : Sculpture-SUR
-                <div class="meta">953 articles, 120 treatises</div>
+                <div class="meta">934 articles, 107 treatises</div>
             </a>
         </li>
         
@@ -514,7 +527,7 @@ footer {
             <a href="vol21.html">
                 <strong>Volume 21</strong>
                 : Surveying-ZYM
-                <div class="meta">1,512 articles, 174 treatises</div>
+                <div class="meta">1,503 articles, 168 treatises</div>
             </a>
         </li>
         
@@ -522,7 +535,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-03</p>
         </footer>
     </div>
     

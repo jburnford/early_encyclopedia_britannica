@@ -268,6 +268,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -336,7 +349,7 @@ footer {
         <a href="../search.html">Search</a>
     </nav>
 
-    <p>This volume contains <strong>122 articles</strong>.
+    <p>This volume contains <strong>106 articles</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
@@ -352,7 +365,7 @@ footer {
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" data-idx="0" data-type="treatise">
+        <li class="article-item" id="article-AMERICAN_RUSSIA" data-idx="0" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(0)">
                 <h3>AMERICAN RUSSIA<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 524 | 586 words</span>
@@ -362,1217 +375,1057 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" data-idx="1" data-type="treatise">
+        <li class="article-item" id="article-DIRECTIONS_FOR_PLACING_THE_PLATES" data-idx="1" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>AND KEPT THEM TOGETHER BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 44-58 | 14,269 words</span>
+                <h3>DIRECTIONS FOR PLACING THE PLATES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 937-938 | 57 words</span>
             </div>
             <div class="article-content" id="content-1">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="2" data-type="treatise">
+        <li class="article-item" id="article-EVERY_INCREASE_OF_THE_POWERS_OF_INDUSTRY_AFFORDS_THE" data-idx="2" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>DIRECTIONS FOR PLACING THE PLATES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 937-938 | 57 words</span>
+                <h3>EVERY INCREASE OF THE POWERS OF INDUSTRY AFFORDS THE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 670-683 | 14,788 words</span>
             </div>
             <div class="article-content" id="content-2">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="3" data-type="treatise">
+        <li class="article-item" id="article-FLUENTS" data-idx="3" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>EVERY INCREASE OF THE POWERS OF INDUSTRY AFFORDS THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 670-683 | 14,788 words</span>
+                <h3>FLUENTS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 893-901 | 6,150 words</span>
             </div>
             <div class="article-content" id="content-3">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="4" data-type="treatise">
+        <li class="article-item" id="article-GUN_POWDER" data-idx="4" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>FLUENTS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 893-901 | 6,150 words</span>
+                <h3>GUN-POWDER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 384-397 | 13,246 words</span>
             </div>
             <div class="article-content" id="content-4">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="5" data-type="treatise">
+        <li class="article-item" id="article-HAVING_IN_THE_PREVIOUS_SECTIONS_ENDEAVOURED_TO_EXPLAIN_THE" data-idx="5" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>FROM OTHER EXPERIMENTS PREVIOUSLY MADE BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 156-165 | 6,975 words</span>
+                <h3>HAVING IN THE PREVIOUS SECTIONS ENDEAVOURED TO EXPLAIN THE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 306-326 | 21,836 words</span>
             </div>
             <div class="article-content" id="content-5">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="6" data-type="treatise">
+        <li class="article-item" id="article-JOHN_RENNIE" data-idx="6" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>GUN-POWDER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 384-397 | 13,246 words</span>
+                <h3>JOHN RENNIE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 473-480 | 7,779 words</span>
             </div>
             <div class="article-content" id="content-6">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="7" data-type="treatise">
+        <li class="article-item" id="article-NAVY" data-idx="7" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>HAVING IN THE PREVIOUS SECTIONS ENDEAVOURED TO EXPLAIN THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 306-326 | 21,836 words</span>
+                <h3>NAVY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 33-44 | 11,843 words</span>
             </div>
             <div class="article-content" id="content-7">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="8" data-type="treatise">
+        <li class="article-item" id="article-NECKER" data-idx="8" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>JOHN RENNIE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 473-480 | 7,779 words</span>
+                <h3>NECKER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 71-73 | 2,426 words</span>
             </div>
             <div class="article-content" id="content-8">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="9" data-type="treatise">
+        <li class="article-item" id="article-NEPAUL" data-idx="9" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>NAVY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 33-44 | 11,843 words</span>
+                <h3>NEPAUL<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 73-74 | 418 words</span>
             </div>
             <div class="article-content" id="content-9">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="10" data-type="treatise">
+        <li class="article-item" id="article-NETHERLANDS" data-idx="10" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>NECKER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 71-73 | 2,426 words</span>
+                <h3>NETHERLANDS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 74-85 | 10,538 words</span>
             </div>
             <div class="article-content" id="content-10">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="11" data-type="geographical">
+        <li class="article-item" id="article-NORTH_POLAR_SEA" data-idx="11" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>NEPAUL<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 73-74 | 418 words</span>
+                <h3>NORTH POLAR SEA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 232-271 | 35,762 words</span>
             </div>
             <div class="article-content" id="content-11">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="12" data-type="treatise">
+        <li class="article-item" id="article-NORTHAMPTONSHIRE" data-idx="12" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>NETHERLANDS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 74-85 | 10,538 words</span>
+                <h3>NORTHAMPTONSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 85-86 | 1,585 words</span>
             </div>
             <div class="article-content" id="content-12">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="13" data-type="treatise">
+        <li class="article-item" id="article-NORTHUMBERLAND" data-idx="13" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>NORTH POLAR SEA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 232-271 | 35,762 words</span>
+                <h3>NORTHUMBERLAND<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 86-88 | 1,612 words</span>
             </div>
             <div class="article-content" id="content-13">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="14" data-type="geographical">
+        <li class="article-item" id="article-NORWAY" data-idx="14" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>NORTHAMPTONSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 85-86 | 1,585 words</span>
+                <h3>NORWAY</h3>
+                <span class="meta">pp. 88 | 2 words</span>
             </div>
             <div class="article-content" id="content-14">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="15" data-type="geographical">
+        <li class="article-item" id="article-NOTTINGHAMSHIRE" data-idx="15" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>NORTHUMBERLAND<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 86-88 | 1,612 words</span>
+                <h3>NOTTINGHAMSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 88-89 | 1,708 words</span>
             </div>
             <div class="article-content" id="content-15">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="16" data-type="cross_reference">
+        <li class="article-item" id="article-ORGANIC_REMAINS" data-idx="16" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>NORWAY</h3>
-                <span class="meta">pp. 88 | 2 words</span>
+                <h3>ORGANIC REMAINS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 89-101 | 9,717 words</span>
             </div>
             <div class="article-content" id="content-16">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="17" data-type="treatise">
+        <li class="article-item" id="article-ORME" data-idx="17" data-type="biographical">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>NOTTINGHAMSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 88-89 | 1,708 words</span>
+                <h3>ORME<span class="badge biographical">Biography</span></h3>
+                <span class="meta">pp. 125-126 | 1,552 words</span>
             </div>
             <div class="article-content" id="content-17">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="18" data-type="treatise">
+        <li class="article-item" id="article-OXFORDSHIRE" data-idx="18" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>OF THE FUNCTIONS OF THE INDIVIDUAL MEMBERS AND ORGANS OF VEGETABLES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 791-799 | 8,315 words</span>
+                <h3>OXFORDSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 126-127 | 197 words</span>
             </div>
             <div class="article-content" id="content-18">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="19" data-type="treatise">
+        <li class="article-item" id="article-PALEY" data-idx="19" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>OF THE GENERAL FUNCTIONS OF VEGETABLES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 775-791 | 17,813 words</span>
+                <h3>PALEY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 128-132 | 3,800 words</span>
             </div>
             <div class="article-content" id="content-19">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="20" data-type="treatise">
+        <li class="article-item" id="article-PALLAS" data-idx="20" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>OF THE VITAL POWERS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 799-802 | 4,118 words</span>
+                <h3>PALLAS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 132-135 | 3,110 words</span>
             </div>
             <div class="article-content" id="content-20">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="21" data-type="treatise">
+        <li class="article-item" id="article-PANTOGRAPH" data-idx="21" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>ORGANIC REMAINS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 89-101 | 9,717 words</span>
+                <h3>PANTOGRAPH</h3>
+                <span class="meta">pp. 135-136 | 1,323 words</span>
             </div>
             <div class="article-content" id="content-21">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="22" data-type="biographical">
+        <li class="article-item" id="article-PARK" data-idx="22" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>ORME<span class="badge biographical">Biography</span></h3>
-                <span class="meta">pp. 125-126 | 1,552 words</span>
+                <h3>PARK<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 136-138 | 1,660 words</span>
             </div>
             <div class="article-content" id="content-22">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="23" data-type="geographical">
+        <li class="article-item" id="article-PAUW" data-idx="23" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>OXFORDSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 126-127 | 197 words</span>
+                <h3>PAUW</h3>
+                <span class="meta">pp. 138 | 915 words</span>
             </div>
             <div class="article-content" id="content-23">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="24" data-type="treatise">
+        <li class="article-item" id="article-PEEBLES_SHIRE" data-idx="24" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>PALEY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 128-132 | 3,800 words</span>
+                <h3>PEEBLES-SHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 138-140 | 1,200 words</span>
             </div>
             <div class="article-content" id="content-24">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="25" data-type="treatise">
+        <li class="article-item" id="article-PEMBROKESHIRE" data-idx="25" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>PALLAS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 132-135 | 3,110 words</span>
+                <h3>PEMBROKESHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 140-141 | 1,606 words</span>
             </div>
             <div class="article-content" id="content-25">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="26" data-type="dictionary">
+        <li class="article-item" id="article-PENDULUM" data-idx="26" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>PANTOGRAPH</h3>
-                <span class="meta">pp. 135-136 | 1,323 words</span>
+                <h3>PENDULUM<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 141-156 | 15,333 words</span>
             </div>
             <div class="article-content" id="content-26">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="27" data-type="treatise">
+        <li class="article-item" id="article-PERTHSHIRE" data-idx="27" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>PARK<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 136-138 | 1,660 words</span>
+                <h3>PERTHSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 165-166 | 2,001 words</span>
             </div>
             <div class="article-content" id="content-27">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="28" data-type="dictionary">
+        <li class="article-item" id="article-PERU" data-idx="28" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>PAUW</h3>
-                <span class="meta">pp. 138 | 915 words</span>
+                <h3>PERU<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 166-198 | 34,191 words</span>
             </div>
             <div class="article-content" id="content-28">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="29" data-type="geographical">
+        <li class="article-item" id="article-PHYSICAL_GEOGRAPHY" data-idx="29" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>PEEBLES-SHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 138-140 | 1,200 words</span>
+                <h3>PHYSICAL GEOGRAPHY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 198-208 | 9,983 words</span>
             </div>
             <div class="article-content" id="content-29">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="30" data-type="geographical">
+        <li class="article-item" id="article-PHYSIOLOGY" data-idx="30" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>PEMBROKESHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 140-141 | 1,606 words</span>
+                <h3>PHYSIOLOGY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 208-210 | 2,604 words</span>
             </div>
             <div class="article-content" id="content-30">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="31" data-type="treatise">
+        <li class="article-item" id="article-PLAYFAIR" data-idx="31" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(31)">
-                <h3>PENDULUM<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 141-156 | 15,333 words</span>
+                <h3>PLAYFAIR<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 226-232 | 7,117 words</span>
             </div>
             <div class="article-content" id="content-31">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="32" data-type="treatise">
+        <li class="article-item" id="article-POLAR_SEAS" data-idx="32" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(32)">
-                <h3>PERTHSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 165-166 | 2,001 words</span>
+                <h3>POLAR SEAS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 232 | 147 words</span>
             </div>
             <div class="article-content" id="content-32">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="33" data-type="treatise">
+        <li class="article-item" id="article-POOR_LAWS" data-idx="33" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(33)">
-                <h3>PERU<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 166-198 | 34,191 words</span>
+                <h3>POOR-LAWS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 326-371 | 42,024 words</span>
             </div>
             <div class="article-content" id="content-33">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="34" data-type="treatise">
+        <li class="article-item" id="article-PORSON" data-idx="34" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(34)">
-                <h3>PHYSICAL GEOGRAPHY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 198-208 | 9,983 words</span>
+                <h3>PORSON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 371-384 | 13,227 words</span>
             </div>
             <div class="article-content" id="content-34">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="35" data-type="treatise">
+        <li class="article-item" id="article-PRINTING" data-idx="35" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(35)">
-                <h3>PHYSIOLOGY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 208-210 | 2,604 words</span>
+                <h3>PRINTING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 408-413 | 5,051 words</span>
             </div>
             <div class="article-content" id="content-35">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="36" data-type="treatise">
+        <li class="article-item" id="article-PRISONS" data-idx="36" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(36)">
-                <h3>PLAYFAIR<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 226-232 | 7,117 words</span>
+                <h3>PRISONS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 436-438 | 1,185 words</span>
             </div>
             <div class="article-content" id="content-36">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="37" data-type="treatise">
+        <li class="article-item" id="article-PRISONS_AND_PRISON_DISCIPLINE" data-idx="37" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>POLAR SEAS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 232 | 147 words</span>
+                <h3>PRISONS AND PRISON DISCIPLINE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 424-436 | 4,102 words</span>
             </div>
             <div class="article-content" id="content-37">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="38" data-type="treatise">
+        <li class="article-item" id="article-PRUSSIA" data-idx="38" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(38)">
-                <h3>POOR-LAWS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 326-371 | 42,024 words</span>
+                <h3>PRUSSIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 442-447 | 3,568 words</span>
             </div>
             <div class="article-content" id="content-38">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="39" data-type="treatise">
+        <li class="article-item" id="article-QUEEN_S_COUNTY" data-idx="39" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(39)">
-                <h3>PORSON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 371-384 | 13,227 words</span>
+                <h3>QUEEN&#x27;S COUNTY<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 455 | 766 words</span>
             </div>
             <div class="article-content" id="content-39">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="40" data-type="geographical">
+        <li class="article-item" id="article-QUESNAY" data-idx="40" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>PRINCE OF WALES&#x27;S ISLAND<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 407-408 | 1,534 words</span>
+                <h3>QUESNAY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 455-459 | 3,887 words</span>
             </div>
             <div class="article-content" id="content-40">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="41" data-type="treatise">
+        <li class="article-item" id="article-RADNORSHIRE" data-idx="41" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(41)">
-                <h3>PRINTING<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 408-413 | 5,051 words</span>
+                <h3>RADNORSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 459-460 | 1,353 words</span>
             </div>
             <div class="article-content" id="content-41">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="42" data-type="treatise">
+        <li class="article-item" id="article-RAILWAY" data-idx="42" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(42)">
-                <h3>PRISONS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 436-438 | 1,185 words</span>
+                <h3>RAILWAY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 460-467 | 5,742 words</span>
             </div>
             <div class="article-content" id="content-42">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="43" data-type="treatise">
+        <li class="article-item" id="article-REFRACTION" data-idx="43" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>PRISONS AND PRISON DISCIPLINE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 424-436 | 4,102 words</span>
+                <h3>REFRACTION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 901-920 | 20,089 words</span>
             </div>
             <div class="article-content" id="content-43">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="44" data-type="treatise">
+        <li class="article-item" id="article-RENNIE" data-idx="44" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(44)">
-                <h3>PRUSSIA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 442-447 | 3,568 words</span>
+                <h3>RENNIE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 469-473 | 3,991 words</span>
             </div>
             <div class="article-content" id="content-44">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="45" data-type="geographical">
+        <li class="article-item" id="article-RNFREWSHIRE" data-idx="45" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(45)">
-                <h3>QUEEN&#x27;S COUNTY<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 455 | 766 words</span>
+                <h3>RNFREWSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 467-469 | 2,252 words</span>
             </div>
             <div class="article-content" id="content-45">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="46" data-type="treatise">
+        <li class="article-item" id="article-ROBISON" data-idx="46" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(46)">
-                <h3>QUESNAY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 455-459 | 3,887 words</span>
+                <h3>ROBISON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 480-485 | 4,642 words</span>
             </div>
             <div class="article-content" id="content-46">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="47" data-type="geographical">
+        <li class="article-item" id="article-ROMANCE" data-idx="47" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(47)">
-                <h3>RADNORSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 459-460 | 1,353 words</span>
+                <h3>ROMANCE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 485-506 | 21,484 words</span>
             </div>
             <div class="article-content" id="content-47">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="48" data-type="treatise">
+        <li class="article-item" id="article-ROSS_SHIRE" data-idx="48" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(48)">
-                <h3>RAILWAY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 460-467 | 5,742 words</span>
+                <h3>ROSS-SHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 506-508 | 1,272 words</span>
             </div>
             <div class="article-content" id="content-48">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="49" data-type="treatise">
+        <li class="article-item" id="article-ROXBURGHSHIRE" data-idx="49" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(49)">
-                <h3>REFRACTION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 901-920 | 20,089 words</span>
+                <h3>ROXBURGHSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 508-510 | 3,040 words</span>
             </div>
             <div class="article-content" id="content-49">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="50" data-type="treatise">
+        <li class="article-item" id="article-RUSH" data-idx="50" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>RENNIE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 469-473 | 3,991 words</span>
+                <h3>RUSH</h3>
+                <span class="meta">pp. 510-512 | 1,610 words</span>
             </div>
             <div class="article-content" id="content-50">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="51" data-type="treatise">
+        <li class="article-item" id="article-RUSSIAN_EMPIRE" data-idx="51" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(51)">
-                <h3>RNFREWSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 467-469 | 2,252 words</span>
+                <h3>RUSSIAN EMPIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 512-524 | 11,233 words</span>
             </div>
             <div class="article-content" id="content-51">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="52" data-type="treatise">
+        <li class="article-item" id="article-RUTLANDSHIRE" data-idx="52" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(52)">
-                <h3>ROBISON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 480-485 | 4,642 words</span>
+                <h3>RUTLANDSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 524-525 | 666 words</span>
             </div>
             <div class="article-content" id="content-52">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="53" data-type="treatise">
+        <li class="article-item" id="article-SALOP" data-idx="53" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(53)">
-                <h3>ROMANCE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 485-506 | 21,484 words</span>
+                <h3>SALOP<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 525-532 | 6,768 words</span>
             </div>
             <div class="article-content" id="content-53">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="54" data-type="geographical">
+        <li class="article-item" id="article-SCOTLAND" data-idx="54" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(54)">
-                <h3>ROSS-SHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 506-508 | 1,272 words</span>
+                <h3>SCOTLAND<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 532-535 | 2,305 words</span>
             </div>
             <div class="article-content" id="content-54">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="55" data-type="treatise">
+        <li class="article-item" id="article-SELKIRKSHIRE" data-idx="55" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(55)">
-                <h3>ROXBURGHSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 508-510 | 3,040 words</span>
+                <h3>SELKIRKSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 552-554 | 1,425 words</span>
             </div>
             <div class="article-content" id="content-55">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="56" data-type="dictionary">
+        <li class="article-item" id="article-SHETLAND" data-idx="56" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(56)">
-                <h3>RUSH</h3>
-                <span class="meta">pp. 510-512 | 1,610 words</span>
+                <h3>SHETLAND</h3>
+                <span class="meta">pp. 554 | 670 words</span>
             </div>
             <div class="article-content" id="content-56">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="57" data-type="treatise">
+        <li class="article-item" id="article-SINCAPEORE" data-idx="57" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(57)">
-                <h3>RUSSIAN EMPIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 512-524 | 11,233 words</span>
+                <h3>SINCAPEORE</h3>
+                <span class="meta">pp. 554-555 | 827 words</span>
             </div>
             <div class="article-content" id="content-57">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="58" data-type="geographical">
+        <li class="article-item" id="article-SLIGO" data-idx="58" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(58)">
-                <h3>RUTLANDSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 524-525 | 666 words</span>
+                <h3>SLIGO<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 555-557 | 937 words</span>
             </div>
             <div class="article-content" id="content-58">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="59" data-type="treatise">
+        <li class="article-item" id="article-SOMERSETSHIRE" data-idx="59" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(59)">
-                <h3>SALOP<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 525-532 | 6,768 words</span>
+                <h3>SOMERSETSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 557-558 | 1,773 words</span>
             </div>
             <div class="article-content" id="content-59">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="60" data-type="treatise">
+        <li class="article-item" id="article-SPAIN" data-idx="60" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(60)">
-                <h3>SCOTLAND<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 532-535 | 2,305 words</span>
+                <h3>SPAIN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 558-582 | 24,986 words</span>
             </div>
             <div class="article-content" id="content-60">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="61" data-type="geographical">
+        <li class="article-item" id="article-SPONGES_ARE_COMPOSED_OF_HORNY_FIBRES_CONNECTED_TOGETHER_BY" data-idx="61" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(61)">
-                <h3>SELKIRKSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 552-554 | 1,425 words</span>
+                <h3>SPONGES ARE COMPOSED OF HORNY FIBRES CONNECTED TOGETHER BY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 101-124 | 9,747 words</span>
             </div>
             <div class="article-content" id="content-61">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="62" data-type="dictionary">
+        <li class="article-item" id="article-STAFFORDSHIRE" data-idx="62" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(62)">
-                <h3>SHETLAND</h3>
-                <span class="meta">pp. 554 | 670 words</span>
+                <h3>STAFFORDSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 582-585 | 1,928 words</span>
             </div>
             <div class="article-content" id="content-62">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="63" data-type="dictionary">
+        <li class="article-item" id="article-STEAM_ENGINE" data-idx="63" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(63)">
-                <h3>SINCAPEORE</h3>
-                <span class="meta">pp. 554-555 | 827 words</span>
+                <h3>STEAM-ENGINE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 585-587 | 2,887 words</span>
             </div>
             <div class="article-content" id="content-63">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="64" data-type="geographical">
+        <li class="article-item" id="article-STEAM_NAVIGATION" data-idx="64" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(64)">
-                <h3>SLIGO<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 555-557 | 937 words</span>
+                <h3>STEAM-NAVIGATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 587-596 | 10,046 words</span>
             </div>
             <div class="article-content" id="content-64">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="65" data-type="treatise">
+        <li class="article-item" id="article-STEEL" data-idx="65" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(65)">
-                <h3>SOMERSETSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 557-558 | 1,773 words</span>
+                <h3>STEEL<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 596-603 | 1,778 words</span>
             </div>
             <div class="article-content" id="content-65">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="66" data-type="treatise">
+        <li class="article-item" id="article-STIRLINGSHIRE" data-idx="66" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(66)">
-                <h3>SPAIN<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 558-582 | 24,986 words</span>
+                <h3>STIRLINGSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 603-605 | 2,913 words</span>
             </div>
             <div class="article-content" id="content-66">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="67" data-type="treatise">
+        <li class="article-item" id="article-STONE_MASONRY" data-idx="67" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(67)">
-                <h3>SPONGES ARE COMPOSED OF HORNY FIBRES CONNECTED TOGETHER BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 101-124 | 9,747 words</span>
+                <h3>STONE-MASONRY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 617-623 | 6,081 words</span>
             </div>
             <div class="article-content" id="content-67">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="68" data-type="treatise">
+        <li class="article-item" id="article-STONE_MASONRY_AND_STONE_CUTTING" data-idx="68" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(68)">
-                <h3>STAFFORDSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 582-585 | 1,928 words</span>
+                <h3>STONE-MASONRY AND STONE-CUTTING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 605-617 | 10,864 words</span>
             </div>
             <div class="article-content" id="content-68">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="69" data-type="treatise">
+        <li class="article-item" id="article-SUCH_ARE_THE_PRETENSIONS_OF_THE_DUTCH_TO_THE_HONOUR_OF_THE_INVENTION_OF_PRINTING_BY" data-idx="69" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(69)">
-                <h3>STEAM-ENGINE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 585-587 | 2,887 words</span>
+                <h3>SUCH ARE THE PRETENSIONS OF THE DUTCH TO THE HONOUR OF THE INVENTION OF PRINTING BY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 413-424 | 13,070 words</span>
             </div>
             <div class="article-content" id="content-69">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="70" data-type="treatise">
+        <li class="article-item" id="article-SUFFOLK" data-idx="70" data-type="dictionary">
             <div class="article-header" onclick="toggleArticle(70)">
-                <h3>STEAM-NAVIGATION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 587-596 | 10,046 words</span>
+                <h3>SUFFOLK</h3>
+                <span class="meta">pp. 623-631 | 1,281 words</span>
             </div>
             <div class="article-content" id="content-70">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="71" data-type="treatise">
+        <li class="article-item" id="article-SURGERY" data-idx="71" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(71)">
-                <h3>STEEL<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 596-603 | 1,778 words</span>
+                <h3>SURGERY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 631-658 | 29,543 words</span>
             </div>
             <div class="article-content" id="content-71">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="72" data-type="treatise">
+        <li class="article-item" id="article-SURRY" data-idx="72" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(72)">
-                <h3>STIRLINGSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 603-605 | 2,913 words</span>
+                <h3>SURRY<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 658-660 | 1,450 words</span>
             </div>
             <div class="article-content" id="content-72">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="73" data-type="treatise">
+        <li class="article-item" id="article-SUSSEX" data-idx="73" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(73)">
-                <h3>STONE-MASONRY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 617-623 | 6,081 words</span>
+                <h3>SUSSEX<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 660-661 | 1,247 words</span>
             </div>
             <div class="article-content" id="content-73">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="74" data-type="treatise">
+        <li class="article-item" id="article-SUTHERLAND" data-idx="74" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(74)">
-                <h3>STONE-MASONRY AND STONE-CUTTING<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 605-617 | 10,864 words</span>
+                <h3>SUTHERLAND<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 661-668 | 6,214 words</span>
             </div>
             <div class="article-content" id="content-74">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="75" data-type="treatise">
+        <li class="article-item" id="article-TABLE_OF_THE_ARTICLES_AND_TREATISES_CONTAINED_IN_THIS_WORK" data-idx="75" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(75)">
-                <h3>SUCH ARE THE PRETENSIONS OF THE DUTCH TO THE HONOUR OF THE INVENTION OF PRINTING BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 413-424 | 13,070 words</span>
-            </div>
-            <div class="article-content" id="content-75">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="76" data-type="dictionary">
-            <div class="article-header" onclick="toggleArticle(76)">
-                <h3>SUFFOLK</h3>
-                <span class="meta">pp. 623-631 | 1,281 words</span>
-            </div>
-            <div class="article-content" id="content-76">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="77" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(77)">
-                <h3>SURGERY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 631-658 | 29,543 words</span>
-            </div>
-            <div class="article-content" id="content-77">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="78" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(78)">
-                <h3>SURRY<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 658-660 | 1,450 words</span>
-            </div>
-            <div class="article-content" id="content-78">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="79" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(79)">
-                <h3>SUSSEX<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 660-661 | 1,247 words</span>
-            </div>
-            <div class="article-content" id="content-79">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="80" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(80)">
-                <h3>SUTHERLAND<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 661-668 | 6,214 words</span>
-            </div>
-            <div class="article-content" id="content-80">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="81" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(81)">
                 <h3>TABLE
 OF THE
 ARTICLES AND TREATISES
 CONTAINED IN THIS WORK<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 928-932 | 1,184 words</span>
             </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TABLE_OF_ARTICLES_AND_TREATISES" data-idx="76" data-type="treatise">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>TABLE OF ARTICLES AND TREATISES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 932-937 | 1,305 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TAXATION" data-idx="77" data-type="treatise">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>TAXATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 668-670 | 1,044 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TAXATION" data-idx="78" data-type="treatise">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>TAXATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 683-711 | 27,466 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TENNANT" data-idx="79" data-type="treatise">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>TENNANT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 711-714 | 3,194 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THIS_COUNTY_IS_BY_NO" data-idx="80" data-type="dictionary">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>THIS COUNTY IS BY NO</h3>
+                <span class="meta">pp. 127-128 | 1,476 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THIS_SIMPLE_MACHINE_MIGHT_BE_MADE_THE" data-idx="81" data-type="treatise">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>THIS SIMPLE MACHINE MIGHT BE MADE THE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 58-71 | 8,186 words</span>
+            </div>
             <div class="article-content" id="content-81">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="82" data-type="treatise">
+        <li class="article-item" id="article-THOMPSON" data-idx="82" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(82)">
-                <h3>TABLE OF ARTICLES AND TREATISES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 932-937 | 1,305 words</span>
+                <h3>THOMPSON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 714-718 | 3,943 words</span>
             </div>
             <div class="article-content" id="content-82">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="83" data-type="treatise">
+        <li class="article-item" id="article-TIDES" data-idx="83" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(83)">
-                <h3>TAXATION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 668-670 | 1,044 words</span>
+                <h3>TIDES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 718-726 | 7,862 words</span>
             </div>
             <div class="article-content" id="content-83">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="84" data-type="treatise">
+        <li class="article-item" id="article-TIPPERARY" data-idx="84" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(84)">
-                <h3>TAXATION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 683-711 | 27,466 words</span>
+                <h3>TIPPERARY<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 735-736 | 925 words</span>
             </div>
             <div class="article-content" id="content-84">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="85" data-type="treatise">
+        <li class="article-item" id="article-TOOKE" data-idx="85" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(85)">
-                <h3>TENNANT<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 711-714 | 3,194 words</span>
+                <h3>TOOKE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 736-743 | 7,150 words</span>
             </div>
             <div class="article-content" id="content-85">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="86" data-type="treatise">
+        <li class="article-item" id="article-TYRONE" data-idx="86" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(86)">
-                <h3>THE ADMISSION OF THE POWERS ALREADY ENUMERATED DO NOT YET SUPPLY US WITH THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 210-226 | 16,387 words</span>
+                <h3>TYRONE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 743-744 | 869 words</span>
             </div>
             <div class="article-content" id="content-86">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="87" data-type="treatise">
+        <li class="article-item" id="article-UNITED_STATES_OF_NORTH_AMERICA" data-idx="87" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(87)">
-                <h3>THE END<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 927-928 | 124 words</span>
+                <h3>UNITED STATES OF NORTH AMERICA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 744-764 | 19,318 words</span>
             </div>
             <div class="article-content" id="content-87">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="88" data-type="treatise">
+        <li class="article-item" id="article-VACCINATION" data-idx="88" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(88)">
-                <h3>THE EXTERNAL<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 397-407 | 8,663 words</span>
+                <h3>VACCINATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 764-774 | 10,289 words</span>
             </div>
             <div class="article-content" id="content-88">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="89" data-type="treatise">
+        <li class="article-item" id="article-VEGETABLE_PHYSIOLOGY" data-idx="89" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(89)">
-                <h3>THE LATTER IS THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 438-442 | 5,407 words</span>
+                <h3>VEGETABLE PHYSIOLOGY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 774-775 | 323 words</span>
             </div>
             <div class="article-content" id="content-89">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="90" data-type="treatise">
+        <li class="article-item" id="article-WAK_WAKEFIELD" data-idx="90" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(90)">
-                <h3>THE MINES ARE BY NO<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 447-455 | 7,664 words</span>
+                <h3>WAK
+
+WAKEFIELD<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 802-808 | 5,617 words</span>
             </div>
             <div class="article-content" id="content-90">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="91" data-type="treatise">
+        <li class="article-item" id="article-WAR" data-idx="91" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(91)">
-                <h3>THE MODE OF OBTAINING THE CIRCULAR FROM THE ORDINARY POLARISATION BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 920-927 | 7,033 words</span>
+                <h3>WAR<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 808-835 | 25,983 words</span>
             </div>
             <div class="article-content" id="content-91">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="92" data-type="treatise">
+        <li class="article-item" id="article-WARWICKSHIRE" data-idx="92" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(92)">
-                <h3>THE MOST CARELESS AND INATTENTIVE OBSERVER OF THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 271-306 | 37,079 words</span>
+                <h3>WARWICKSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 835-838 | 1,022 words</span>
             </div>
             <div class="article-content" id="content-92">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="93" data-type="treatise">
+        <li class="article-item" id="article-WATERFORD" data-idx="93" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(93)">
-                <h3>THE PROOF OF THIS WELL KNOWN FORMULA IS THE MOST READILY OBTAINED BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 726-735 | 9,393 words</span>
+                <h3>WATERFORD<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 838-839 | 1,238 words</span>
             </div>
             <div class="article-content" id="content-93">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="94" data-type="treatise">
+        <li class="article-item" id="article-WATSON" data-idx="94" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(94)">
-                <h3>THE TURNPIKE ROADS AND BRIDGES IN THE LOWLANDS HAVE BEEN MADE AND ARE KEPT IN REPAIR BY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 535-552 | 17,699 words</span>
+                <h3>WATSON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 839-842 | 3,007 words</span>
             </div>
             <div class="article-content" id="content-94">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="95" data-type="dictionary">
+        <li class="article-item" id="article-WATT" data-idx="95" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(95)">
-                <h3>THIS COUNTY IS BY NO</h3>
-                <span class="meta">pp. 127-128 | 1,476 words</span>
+                <h3>WATT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 842-848 | 7,329 words</span>
             </div>
             <div class="article-content" id="content-95">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="96" data-type="treatise">
+        <li class="article-item" id="article-WEIGHTS_AND_MEASURES" data-idx="96" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(96)">
-                <h3>THIS SIMPLE MACHINE MIGHT BE MADE THE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 58-71 | 8,186 words</span>
+                <h3>WEIGHTS AND MEASURES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 848-861 | 10,885 words</span>
             </div>
             <div class="article-content" id="content-96">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="97" data-type="treatise">
+        <li class="article-item" id="article-WESTMORELAND" data-idx="97" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(97)">
-                <h3>THOMPSON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 714-718 | 3,943 words</span>
+                <h3>WESTMORELAND<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 861-862 | 752 words</span>
             </div>
             <div class="article-content" id="content-97">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="98" data-type="treatise">
+        <li class="article-item" id="article-WEXFORD" data-idx="98" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(98)">
-                <h3>TIDES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 718-726 | 7,862 words</span>
+                <h3>WEXFORD<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 862-863 | 1,044 words</span>
             </div>
             <div class="article-content" id="content-98">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="99" data-type="geographical">
+        <li class="article-item" id="article-WHITAKER" data-idx="99" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(99)">
-                <h3>TIPPERARY<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 735-736 | 925 words</span>
+                <h3>WHITAKER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 863-867 | 4,403 words</span>
             </div>
             <div class="article-content" id="content-99">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="100" data-type="treatise">
+        <li class="article-item" id="article-WIGTOWNSHIRE" data-idx="100" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(100)">
-                <h3>TO THE BINDER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 938 | 131 words</span>
+                <h3>WIGTOWNSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 867-868 | 1,970 words</span>
             </div>
             <div class="article-content" id="content-100">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="101" data-type="treatise">
+        <li class="article-item" id="article-WILTSHIRE" data-idx="101" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(101)">
-                <h3>TOOKE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 736-743 | 7,150 words</span>
+                <h3>WILTSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 868-869 | 1,189 words</span>
             </div>
             <div class="article-content" id="content-101">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="102" data-type="geographical">
+        <li class="article-item" id="article-WINE_MAKING" data-idx="102" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(102)">
-                <h3>TYRONE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 743-744 | 869 words</span>
+                <h3>WINE-MAKING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 869-880 | 12,525 words</span>
             </div>
             <div class="article-content" id="content-102">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="103" data-type="treatise">
+        <li class="article-item" id="article-WORCESTERSHIRE" data-idx="103" data-type="geographical">
             <div class="article-header" onclick="toggleArticle(103)">
-                <h3>UNITED STATES OF NORTH AMERICA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 744-764 | 19,318 words</span>
+                <h3>WORCESTERSHIRE<span class="badge geographical">Place</span></h3>
+                <span class="meta">pp. 880-881 | 1,037 words</span>
             </div>
             <div class="article-content" id="content-103">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="104" data-type="treatise">
+        <li class="article-item" id="article-WURTEMBERG" data-idx="104" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(104)">
-                <h3>VACCINATION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 764-774 | 10,289 words</span>
+                <h3>WURTEMBERG<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">pp. 881-884 | 3,072 words</span>
             </div>
             <div class="article-content" id="content-104">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" data-idx="105" data-type="treatise">
+        <li class="article-item" id="article-YORKSHIRE" data-idx="105" data-type="treatise">
             <div class="article-header" onclick="toggleArticle(105)">
-                <h3>VEGETABLE PHYSIOLOGY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 774-775 | 323 words</span>
-            </div>
-            <div class="article-content" id="content-105">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="106" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(106)">
-                <h3>WAK
-
-WAKEFIELD<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 802-808 | 5,617 words</span>
-            </div>
-            <div class="article-content" id="content-106">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="107" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(107)">
-                <h3>WAR<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 808-835 | 25,983 words</span>
-            </div>
-            <div class="article-content" id="content-107">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="108" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(108)">
-                <h3>WARWICKSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 835-838 | 1,022 words</span>
-            </div>
-            <div class="article-content" id="content-108">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="109" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(109)">
-                <h3>WATERFORD<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 838-839 | 1,238 words</span>
-            </div>
-            <div class="article-content" id="content-109">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="110" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(110)">
-                <h3>WATSON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 839-842 | 3,007 words</span>
-            </div>
-            <div class="article-content" id="content-110">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="111" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(111)">
-                <h3>WATT<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 842-848 | 7,329 words</span>
-            </div>
-            <div class="article-content" id="content-111">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="112" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(112)">
-                <h3>WEIGHTS AND MEASURES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 848-861 | 10,885 words</span>
-            </div>
-            <div class="article-content" id="content-112">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="113" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(113)">
-                <h3>WESTMORELAND<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 861-862 | 752 words</span>
-            </div>
-            <div class="article-content" id="content-113">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="114" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(114)">
-                <h3>WEXFORD<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 862-863 | 1,044 words</span>
-            </div>
-            <div class="article-content" id="content-114">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="115" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(115)">
-                <h3>WHITAKER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 863-867 | 4,403 words</span>
-            </div>
-            <div class="article-content" id="content-115">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="116" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(116)">
-                <h3>WIGTOWNSHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 867-868 | 1,970 words</span>
-            </div>
-            <div class="article-content" id="content-116">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="117" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(117)">
-                <h3>WILTSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 868-869 | 1,189 words</span>
-            </div>
-            <div class="article-content" id="content-117">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="118" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(118)">
-                <h3>WINE-MAKING<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 869-880 | 12,525 words</span>
-            </div>
-            <div class="article-content" id="content-118">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="119" data-type="geographical">
-            <div class="article-header" onclick="toggleArticle(119)">
-                <h3>WORCESTERSHIRE<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 880-881 | 1,037 words</span>
-            </div>
-            <div class="article-content" id="content-119">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="120" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(120)">
-                <h3>WURTEMBERG<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 881-884 | 3,072 words</span>
-            </div>
-            <div class="article-content" id="content-120">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" data-idx="121" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(121)">
                 <h3>YORKSHIRE<span class="badge treatise">Treatise</span></h3>
                 <span class="meta">pp. 884-892 | 7,780 words</span>
             </div>
-            <div class="article-content" id="content-121">
+            <div class="article-content" id="content-105">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -1581,7 +1434,7 @@ WAKEFIELD<span class="badge treatise">Treatise</span></h3>
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-02</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-03</p>
         </footer>
     </div>
     
@@ -1624,7 +1477,7 @@ WAKEFIELD<span class="badge treatise">Treatise</span></h3>
         const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
 
         content.innerHTML = `
-            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-text">${renderArticleHtml(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
@@ -1637,6 +1490,15 @@ WAKEFIELD<span class="badge treatise">Treatise</span></h3>
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }
+
+    function renderArticleHtml(text) {
+        let safe = escapeHtml(text);
+        safe = safe.replace(
+            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
+            '<a class="xref" href="$1">$2</a>'
+        );
+        return safe;
     }
 
     function downloadMd(idx) {
@@ -1676,6 +1538,32 @@ WAKEFIELD<span class="badge treatise">Treatise</span></h3>
             item.style.display = show ? '' : 'none';
         });
     }
+
+    window.addEventListener('load', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                setTimeout(() => {
+                    article.scrollIntoView({behavior: 'smooth', block: 'start'});
+                }, 100);
+            }
+        }
+    });
+
+    window.addEventListener('hashchange', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                article.scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+        }
+    });
     </script>
     
 </body>
