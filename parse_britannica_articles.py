@@ -21,8 +21,35 @@ import re
 import os
 from pathlib import Path
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Set
 import argparse
+
+
+def load_index_headwords(index_path: str) -> Set[str]:
+    """
+    Load headwords from an index JSONL file for use as validation whitelist.
+
+    Args:
+        index_path: Path to index JSONL file (e.g., output_v2/index_1842.jsonl)
+
+    Returns:
+        Set of uppercase headwords that are main entries with volume references.
+    """
+    headwords = set()
+    if not os.path.exists(index_path):
+        return headwords
+
+    with open(index_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            if line.strip():
+                entry = json.loads(line)
+                # Only main entries with volume references
+                if entry.get('entry_type') == 'main' and entry.get('references'):
+                    term = entry.get('term', '').upper().strip()
+                    if len(term) > 1:  # Skip single letters
+                        headwords.add(term)
+
+    return headwords
 
 
 @dataclass
@@ -91,8 +118,21 @@ class BritannicaParser:
         re.MULTILINE
     )
 
+    # Pattern for Title Case headwords (used in 1842 edition where OCR renders some
+    # headwords as "Aalen," instead of "AALEN,")
+    # Matches: Aalen, a city... or Aaron, high-priest...
+    # NOTE: This pattern produces many false positives - use with index whitelist!
+    TITLECASE_ARTICLE_PATTERN = re.compile(
+        r'(?:^|\n+)([A-Z][a-z]+(?:[\s\-][A-Za-z]+)*),\s+[a-z]',
+        re.MULTILINE
+    )
+
     # Pattern to extract volume number from metadata Source-File
     VOLUME_FROM_METADATA = re.compile(r'Volume\s+(\d+)', re.IGNORECASE)
+
+    # Editions that use mixed case headwords (Title Case in addition to ALL-CAPS)
+    # These editions need index-based validation to avoid false positives
+    EDITIONS_WITH_TITLECASE = {1842, 1860}
 
     # Edition configurations
     EDITIONS = {
@@ -194,11 +234,23 @@ class BritannicaParser:
         'SCRIPTURE', 'THEOLOGY', 'MINERALOGY', 'GEOLOGY' # Common 19th century additions
     })
 
-    def __init__(self, edition_year: int = 1815, verbose: bool = False):
+    def __init__(self, edition_year: int = 1815, verbose: bool = False,
+                 index_headwords: set = None):
+        """
+        Initialize the parser.
+
+        Args:
+            edition_year: Year of the edition to parse
+            verbose: Whether to print verbose output
+            index_headwords: Optional set of valid headwords from index (uppercase).
+                            If provided, enables Title Case matching for editions
+                            that use mixed case headwords (1842, 1860).
+        """
         self.edition_year = edition_year
         self.edition_info = self.EDITIONS.get(edition_year, {"name": f"Unknown {edition_year}", "type": "unknown"})
         self.verbose = verbose
         self.stats = ParserStats()
+        self.index_headwords = index_headwords or set()
 
     def parse_volume(self, json_path: str, volume_override: int = None) -> list[Article]:
         """Parse a single volume JSON file into articles."""
@@ -243,6 +295,21 @@ class BritannicaParser:
         # Find all article matches (dictionary entries with comma)
         dict_matches = list(self.ARTICLE_PATTERN.finditer(text))
 
+        # For editions with mixed-case OCR (1842, 1860), also find Title Case headwords
+        # but ONLY if they match entries in the index (to avoid false positives)
+        titlecase_matches = []
+        if self.edition_year in self.EDITIONS_WITH_TITLECASE and self.index_headwords:
+            for m in self.TITLECASE_ARTICLE_PATTERN.finditer(text):
+                headword_upper = m.group(1).upper()
+                # Only accept if it's a known headword from the index
+                if headword_upper in self.index_headwords:
+                    titlecase_matches.append(m)
+            if self.verbose:
+                print(f"    Found {len(titlecase_matches)} validated Title Case matches")
+
+        # Combine ALL-CAPS and validated Title Case matches
+        dict_matches = dict_matches + titlecase_matches
+
         # Find treatise matches (major essays with period)
         treatise_matches = list(self.TREATISE_PATTERN.finditer(text))
 
@@ -279,122 +346,38 @@ class BritannicaParser:
                         continue
 
             all_entries.append((m.start(), m.end(), m.group(1), False, m))
-                    
-                            # Common false positive words for treatise patterns
-                    
-                            # Removed BOOK, CHAPTER, SECTION to avoid skipping real articles like BOOK-KEEPING
-                    
-                            skip_words = {'ILLUSTRATED', 'VOLUMES', 'CASE', 'TABLE', 'PART', 'PLATE',
-                    
-                                         'FIGURE', 'DIRECT', 'INDIRECT', 'GENERAL', 'USES', 'PRINCIPLES',
-                    
-                                         'APPENDIX', 'INDEX', 'CONTENTS'}
-                    
-                    
-                    
-                            treatise_candidates = treatise_matches + treatise_no_period + repeated_matches + law_matches
-                    
-                            
-                    
-                            for m in treatise_candidates:
-                    
-                                headword = m.group(1).upper()
-                    
-                                # Skip very short or obviously non-article headwords
-                    
-                                if len(headword) < 3:
-                    
-                                    continue
-                    
-                                
-                    
-                                # Check skip words
-                    
-                                headword_parts = set(re.split(r'[\s\-]+', headword))
-                    
-                                if any(w in headword_parts for w in skip_words):
-                    
-                                    continue
-                    
-                    
-                    
-                                # Special handling for editions
-                    
-                                treatises = self.TREATISES_1771 if self.edition_year == 1771 else self.TREATISES_1815
-                    
-                                
-                    
-                                if self.edition_year in (1771, 1815):
-                    
-                                    # ONLY allow treatise matches if they are in our major whitelist
-                    
-                                    # This prevents section headers within Anatomy/Law/etc from breaking articles
-                    
-                                    if headword not in treatises:
-                    
-                                        continue
-                    
-                    
-                    
-                                # Specific check for structural headers (Book/Chapter/Section + Number)
-                    
-                                if re.match(r'^(?:BOOK|CHAPTER|SECTION|SECT|PART|PLATE|FIG|FIGURE)\s+[IVX0-9]+', headword, re.IGNORECASE):
-                    
-                                    continue
-                    
-                                
-                    
-                                # Check for "Part I." or similar immediately before or after the match
-                    
-                                # Look back 50 chars and forward 50 chars
-                    
-                                structural_headers = r'\b(?:Part|PART|PLATE|Plate|Fig|FIG|SECTION|SECT|BOOK|CHAPTER|Page|PAGE)\.?\s+[IVX0-9]+'
-                    
-                                lookback = text[max(0, m.start()-50):m.start()]
-                    
-                                lookahead = text[m.end():min(len(text), m.end()+50)]
-                    
-                                if re.search(structural_headers, lookback) or re.search(structural_headers, lookahead):
-                    
-                                    continue
-                    
-                    
-                    
-                                # Filter out section titles that start with a number (e.g. "BOROUGHS.\n\n11 A borough...")
-                    
-                                # The match includes the \n\n at the end, so text[m.end()] is the start of body
-                    
-                                body_preview = text[m.end():m.end()+10].strip()
-                    
-                                if body_preview:
-                    
-                                    if body_preview[0].isdigit():
-                    
-                                        continue
-                    
-                                    
-                    
-                                    # Filter out running headers interrupting sentences (body continues with lowercase)
-                    
-                                    # But allow common definition starters like "is", "may", "signifies"
-                    
-                                    if body_preview[0].islower():
-                    
-                                        first_word = body_preview.split()[0].lower()
-                    
-                                        allowed_starters = {'is', 'are', 'may', 'can', 'signifies', 'denotes', 'contains', 'includes', 'consists'}
-                    
-                                        # Remove punctuation
-                    
-                                        first_word = first_word.strip('.,;:')
-                    
-                                        if first_word not in allowed_starters:
-                    
-                                            continue
-                    
-                    
-                    
-                                all_entries.append((m.start(), m.end(), headword, True, m))            if re.match(r'^(?:BOOK|CHAPTER|SECTION|SECT|PART|PLATE|FIG|FIGURE)\s+[IVX0-9]+', headword, re.IGNORECASE):
+
+        # Common false positive words for treatise patterns
+        # Removed BOOK, CHAPTER, SECTION to avoid skipping real articles like BOOK-KEEPING
+        skip_words = {'ILLUSTRATED', 'VOLUMES', 'CASE', 'TABLE', 'PART', 'PLATE',
+                     'FIGURE', 'DIRECT', 'INDIRECT', 'GENERAL', 'USES', 'PRINCIPLES',
+                     'APPENDIX', 'INDEX', 'CONTENTS'}
+
+        treatise_candidates = treatise_matches + treatise_no_period + repeated_matches + law_matches
+
+        for m in treatise_candidates:
+            headword = m.group(1).upper()
+
+            # Skip very short or obviously non-article headwords
+            if len(headword) < 3:
+                continue
+
+            # Check skip words
+            headword_parts = set(re.split(r'[\s\-]+', headword))
+            if any(w in headword_parts for w in skip_words):
+                continue
+
+            # Special handling for editions
+            treatises = self.TREATISES_1771 if self.edition_year == 1771 else self.TREATISES_1815
+
+            if self.edition_year in (1771, 1815):
+                # ONLY allow treatise matches if they are in our major whitelist
+                # This prevents section headers within Anatomy/Law/etc from breaking articles
+                if headword not in treatises:
+                    continue
+
+            # Specific check for structural headers (Book/Chapter/Section + Number)
+            if re.match(r'^(?:BOOK|CHAPTER|SECTION|SECT|PART|PLATE|FIG|FIGURE)\s+[IVX0-9]+', headword, re.IGNORECASE):
                 continue
             
             # Check for "Part I." or similar immediately before or after the match

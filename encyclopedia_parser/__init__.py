@@ -68,8 +68,30 @@ from .sections import (
     get_section_stats,
 )
 from .patterns import PATTERNS
+from .expected_articles import (
+    ExpectedArticle,
+    ExpectedArticleRegistry,
+    build_registry_from_defaults,
+)
+from .fuzzy_matcher import (
+    FuzzyMatch,
+    FuzzyMatcher,
+    analyze_missing_articles,
+)
+from .llm_extractor import (
+    ExtractionResult,
+    LLMArticleExtractor,
+    BatchExtractionStats,
+    find_article_boundaries_with_llm,
+)
+from .smart_parser import (
+    SmartParseResult,
+    SmartParserStats,
+    SmartBritannicaParser,
+    recover_missing_articles,
+)
 
-__version__ = "0.3.1"
+__version__ = "1.0.0"
 __all__ = [
     # Models
     "Article",
@@ -104,4 +126,22 @@ __all__ = [
     "print_article_structure",
     # Patterns
     "PATTERNS",
+    # Expected Articles (Phase 1 Smart Parser)
+    "ExpectedArticle",
+    "ExpectedArticleRegistry",
+    "build_registry_from_defaults",
+    # Fuzzy Matcher (Phase 2 Smart Parser)
+    "FuzzyMatch",
+    "FuzzyMatcher",
+    "analyze_missing_articles",
+    # LLM Extractor (Phase 3 Smart Parser)
+    "ExtractionResult",
+    "LLMArticleExtractor",
+    "BatchExtractionStats",
+    "find_article_boundaries_with_llm",
+    # Smart Parser (Phase 4 Integration)
+    "SmartParseResult",
+    "SmartParserStats",
+    "SmartBritannicaParser",
+    "recover_missing_articles",
 ]

@@ -297,6 +297,19 @@ nav a:hover { text-decoration: underline; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
 
+/* Cross-reference links within article text */
+.xref {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: background 0.2s;
+}
+
+.xref:hover {
+    background: #fff3cd;
+    border-bottom-style: solid;
+}
+
 .stats-table {
     width: 100%;
     border-collapse: collapse;
@@ -354,6 +367,150 @@ footer {
 def escape_html(text):
     """Escape HTML entities."""
     return html.escape(text) if text else ""
+
+
+def headword_to_id(headword: str) -> str:
+    """Convert headword to valid HTML ID for deep-linking.
+
+    Examples:
+        ASTRONOMY -> article-ASTRONOMY
+        CHEMISTRY (History of) -> article-CHEMISTRY_HISTORY_OF
+        ABD-EL-KADER -> article-ABD_EL_KADER
+    """
+    # Normalize: uppercase, replace non-alphanumeric with underscore
+    clean = re.sub(r'[^A-Za-z0-9]+', '_', headword.upper())
+    # Remove leading/trailing underscores
+    clean = clean.strip('_')
+    return f"article-{clean}"
+
+
+def load_index_headwords() -> set:
+    """Load main entry headwords from 1842 index as link targets.
+
+    Returns set of uppercase headwords that are valid link targets.
+    Only includes entries with volume references (not cross-refs).
+    """
+    index_path = INPUT_DIR / "index_1842.jsonl"
+    if not index_path.exists():
+        print(f"Warning: Index file not found: {index_path}")
+        return set()
+
+    headwords = set()
+    with open(index_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            if line.strip():
+                entry = json.loads(line)
+                # Only main entries with volume references
+                if entry.get('entry_type') == 'main' and entry.get('references'):
+                    term = entry.get('term', '').upper().strip()
+                    if len(term) > 1:  # Skip single letters
+                        headwords.add(term)
+
+    return headwords
+
+
+def build_article_lookup(all_articles: dict) -> dict:
+    """Build lookup: normalized_headword -> {edition: volume}.
+
+    This maps headwords to their location in each edition for cross-linking.
+    """
+    lookup = defaultdict(dict)
+
+    for year, articles in all_articles.items():
+        for a in articles:
+            headword = a.get('headword', '').upper().strip()
+            if headword:
+                vol_num = a.get('volume_num', 0)
+                # Store first occurrence only (if duplicate headwords)
+                if year not in lookup[headword]:
+                    lookup[headword][year] = vol_num
+
+    return dict(lookup)
+
+
+def inject_hyperlinks(text: str, current_headword: str, edition_year: int,
+                      index_headwords: set, article_lookup: dict) -> str:
+    """Inject hyperlinks for index headwords found in article text.
+
+    Args:
+        text: Article body text
+        current_headword: Headword of current article (to avoid self-linking)
+        edition_year: Current edition year (for same-edition linking)
+        index_headwords: Set of valid link targets from 1842 index
+        article_lookup: Mapping of headword -> {year: volume}
+
+    Returns:
+        Text with <a class="xref"> tags wrapped around linked terms.
+        Only first occurrence of each term is linked.
+    """
+    if not index_headwords or not article_lookup:
+        return text
+
+    current_upper = current_headword.upper().strip()
+    linked_terms = set()  # Track which terms we've already linked
+
+    def replace_match(match):
+        term = match.group(0)
+        term_upper = term.upper()
+
+        # Skip if already linked this term, or it's the current article
+        if term_upper in linked_terms:
+            return term
+        if term_upper == current_upper:
+            return term
+
+        # Check if this term is a valid link target
+        if term_upper not in index_headwords:
+            return term
+        if term_upper not in article_lookup:
+            return term
+
+        # Find target: prefer same edition, fallback to 1842
+        locations = article_lookup[term_upper]
+        if edition_year in locations:
+            target_year = edition_year
+            target_vol = locations[edition_year]
+        elif 1842 in locations:
+            target_year = 1842
+            target_vol = locations[1842]
+        else:
+            # Use first available edition
+            target_year = min(locations.keys())
+            target_vol = locations[target_year]
+
+        linked_terms.add(term_upper)
+        article_id = headword_to_id(term_upper)
+
+        # Use relative path for same edition, absolute for cross-edition
+        if target_year == edition_year:
+            url = f"vol{target_vol}.html#{article_id}"
+        else:
+            url = f"../{target_year}/vol{target_vol}.html#{article_id}"
+
+        return f'<a class="xref" href="{url}">{term}</a>'
+
+    # Build pattern from index headwords (sorted by length desc to match longer first)
+    # Only include terms that exist in our article lookup
+    valid_terms = [hw for hw in index_headwords if hw in article_lookup]
+    if not valid_terms:
+        return text
+
+    # Sort by length descending so "NATURAL PHILOSOPHY" matches before "NATURAL"
+    valid_terms.sort(key=len, reverse=True)
+
+    # Escape special regex chars and build pattern
+    escaped_terms = [re.escape(t) for t in valid_terms]
+
+    # Match whole words only (case insensitive)
+    # Limit to first 5000 terms to avoid regex complexity issues
+    pattern = r'\b(' + '|'.join(escaped_terms[:5000]) + r')\b'
+
+    try:
+        result = re.sub(pattern, replace_match, text, flags=re.IGNORECASE)
+        return result
+    except re.error:
+        # If regex fails, return original text
+        return text
 
 
 def load_articles(year):
@@ -575,8 +732,9 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         else:
             badge = ''
 
+        article_id = headword_to_id(headword)
         article_items.append(f"""
-        <li class="article-item" data-idx="{i}" data-type="{article_type}">
+        <li class="article-item" id="{article_id}" data-idx="{i}" data-type="{article_type}">
             <div class="article-header" onclick="toggleArticle({i})">
                 <h3>{escape_html(headword)}{badge}</h3>
                 <span class="meta">pp. {pages} | {word_count:,} words</span>
@@ -659,7 +817,7 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
 
         content.innerHTML = `
-            <div class="article-text">${{escapeHtml(article.t)}}</div>
+            <div class="article-text">${{renderArticleHtml(article.t)}}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${{idx}})">Download .md</button>
                 <button onclick="copyText(${{idx}})">Copy Text</button>
@@ -672,6 +830,17 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         const div = document.createElement('div');
         div.textContent = text;
         return div.innerHTML;
+    }}
+
+    function renderArticleHtml(text) {{
+        // First escape all HTML, then restore our safe xref links
+        let safe = escapeHtml(text);
+        // Restore xref anchor tags (we only generate these with class="xref")
+        safe = safe.replace(
+            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
+            '<a class="xref" href="$1">$2</a>'
+        );
+        return safe;
     }}
 
     function downloadMd(idx) {{
@@ -711,6 +880,35 @@ def generate_volume_page(year, vol_num, articles, vol_info):
             item.style.display = show ? '' : 'none';
         }});
     }}
+
+    // Hash navigation: auto-expand and scroll to article on page load
+    window.addEventListener('load', function() {{
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {{
+            const article = document.querySelector(hash);
+            if (article) {{
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                // Small delay to ensure content is loaded before scrolling
+                setTimeout(() => {{
+                    article.scrollIntoView({{behavior: 'smooth', block: 'start'}});
+                }}, 100);
+            }}
+        }}
+    }});
+
+    // Also handle hash changes (e.g., clicking internal links)
+    window.addEventListener('hashchange', function() {{
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {{
+            const article = document.querySelector(hash);
+            if (article) {{
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                article.scrollIntoView({{behavior: 'smooth', block: 'start'}});
+            }}
+        }}
+    }});
     </script>
     """
 
@@ -722,17 +920,34 @@ def generate_volume_page(year, vol_num, articles, vol_info):
     return generate_html_page(f"Volume {vol_num} - {year}", content, breadcrumbs, extra_js)
 
 
-def generate_volume_data(articles):
-    """Generate compact JSON data for a volume's articles."""
+def generate_volume_data(articles, edition_year: int,
+                          index_headwords: set = None,
+                          article_lookup: dict = None):
+    """Generate compact JSON data for a volume's articles.
+
+    Args:
+        articles: List of article dicts
+        edition_year: Year of this edition
+        index_headwords: Set of valid link targets (optional)
+        article_lookup: Mapping of headword -> {year: volume} (optional)
+    """
     data = []
     sorted_articles = sorted(articles, key=lambda a: a.get('headword', '').upper())
 
     for a in sorted_articles:
+        text = a.get('text', '')
+        headword = a.get('headword', '')
+
+        # Inject hyperlinks if lookup data available
+        if index_headwords and article_lookup:
+            text = inject_hyperlinks(text, headword, edition_year,
+                                     index_headwords, article_lookup)
+
         data.append({
-            "h": a.get('headword', ''),      # headword
-            "t": a.get('text', ''),           # text
-            "sp": a.get('start_page'),        # start page
-            "ep": a.get('end_page'),          # end page
+            "h": headword,         # headword
+            "t": text,             # text (with hyperlinks)
+            "sp": a.get('start_page'),  # start page
+            "ep": a.get('end_page'),    # end page
         })
     return data
 
@@ -945,6 +1160,14 @@ def main():
         json.dump(search_index, f, separators=(',', ':'))  # Compact JSON
     print(f"    {len(search_index):,} entries")
 
+    # Load index headwords and build article lookup for hyperlinking
+    print("  Building hyperlink lookup...")
+    index_headwords = load_index_headwords()
+    article_lookup = build_article_lookup(all_articles)
+    # Filter to only headwords that exist in articles
+    valid_headwords = index_headwords & set(article_lookup.keys())
+    print(f"    {len(index_headwords):,} index headwords, {len(valid_headwords):,} linkable")
+
     # Generate edition pages
     for year in EDITIONS_TO_INCLUDE:
         if year not in all_articles:
@@ -976,9 +1199,10 @@ def main():
             with open(edition_dir / f"vol{vol_num}.html", 'w', encoding='utf-8') as f:
                 f.write(generate_volume_page(year, vol_num, vol_arts, vol_info))
 
-            # JSON data file (article text)
+            # JSON data file (article text with hyperlinks)
             with open(data_dir / f"vol{vol_num}.json", 'w', encoding='utf-8') as f:
-                json.dump(generate_volume_data(vol_arts), f, separators=(',', ':'))
+                vol_data = generate_volume_data(vol_arts, year, valid_headwords, article_lookup)
+                json.dump(vol_data, f, separators=(',', ':'))
 
         print(f"    {len(vol_articles)} volumes")
 

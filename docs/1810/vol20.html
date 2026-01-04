@@ -8149,7 +8149,9 @@ VAGABOND</h3>
     }
 
     function renderArticleHtml(text) {
+        // First escape all HTML, then restore our safe xref links
         let safe = escapeHtml(text);
+        // Restore xref anchor tags (we only generate these with class="xref")
         safe = safe.replace(
             /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
             '<a class="xref" href="$1">$2</a>'
@@ -8195,6 +8197,7 @@ VAGABOND</h3>
         });
     }
 
+    // Hash navigation: auto-expand and scroll to article on page load
     window.addEventListener('load', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {
@@ -8202,6 +8205,7 @@ VAGABOND</h3>
             if (article) {
                 const idx = parseInt(article.dataset.idx);
                 toggleArticle(idx);
+                // Small delay to ensure content is loaded before scrolling
                 setTimeout(() => {
                     article.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }, 100);
@@ -8209,6 +8213,7 @@ VAGABOND</h3>
         }
     });
 
+    // Also handle hash changes (e.g., clicking internal links)
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {

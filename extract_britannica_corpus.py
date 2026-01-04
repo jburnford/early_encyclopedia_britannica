@@ -252,7 +252,27 @@ NON_ARTICLE_WORDS = {
     'FINIS', 'INDEX', 'ERRATA', 'ADDENDA', 'CORRIGENDA', 'APPENDIX',
     'CONTENTS', 'PREFACE', 'INTRODUCTION', 'ADVERTISEMENT', 'DIRECTIONS',
     'SUPPLEMENT', 'PLATES', 'FIGURES', 'TABLES', 'END', 'CONCLUSION',
+    'NOTES', 'REMARKS', 'OBSERVATIONS', 'POSTSCRIPT',
+    # Front matter and edition headers
+    'GENERAL INDEX', 'SEVENTH EDITION', 'SIXTH EDITION', 'FIFTH EDITION',
+    'FOURTH EDITION', 'THIRD EDITION', 'SECOND EDITION', 'FIRST EDITION',
+    'EIGHTH EDITION', 'ENCYCLOPAEDIA BRITANNICA',
 }
+
+# Patterns for section headers and notes within treatises (not real articles)
+SECTION_HEADER_PATTERN = re.compile(
+    r'^(SECTION|CHAPTER|PART|BOOK|NOTE|NOTES)\s+[IVXLCDM\dA-Z]+$',
+    re.IGNORECASE
+)
+
+# Multi-word phrases that are subheadings, not article titles
+# Real article titles are typically 1-3 words and are nouns/proper nouns
+SUBHEADING_PATTERNS = [
+    re.compile(r'^(THE|A|AN|BUT|AND|OR|BY|TO|OF|IN|ON|FOR|WITH|FROM)\s', re.IGNORECASE),
+    re.compile(r'^MR\s+[A-Z]+\s+TO\s+MR', re.IGNORECASE),  # "MR LOCKE TO MR NEWTON"
+    re.compile(r'^(ANTAGONISTS|ADVOCATES|OPPONENTS|DEFENDERS)\s+OF\s', re.IGNORECASE),
+    re.compile(r'^(EARL|LORD|SIR|LADY|DUKE|BARON|COUNT|PRINCE)\s+OF\s', re.IGNORECASE),  # Titled people as subheadings
+]
 
 # Word fragments (common suffixes that shouldn't be standalone headwords)
 WORD_FRAGMENTS = re.compile(r'^(GRAPHY|OLOGY|ATION|MENT|NESS|ICAL|IOUS|EOUS|ABLE|IBLE|MENT|TURE|SION|TION)$')
@@ -271,6 +291,7 @@ def is_sequential_letters(s: str) -> bool:
 def is_likely_ocr_artifact(headword: str, text: str) -> bool:
     """Check if a headword is likely an OCR artifact (figure label, etc.)."""
     word_count = len(text.split())
+    headword_upper = headword.upper().strip()
 
     # Repeated letters are almost always figure labels (AA, BBB, etc.)
     if REPEATED_LETTERS.match(headword):
@@ -288,9 +309,18 @@ def is_likely_ocr_artifact(headword: str, text: str) -> bool:
             if word_count < 100:
                 return True
 
-    # Known non-article words
-    if headword in NON_ARTICLE_WORDS:
+    # Known non-article words (check both original and uppercase)
+    if headword in NON_ARTICLE_WORDS or headword_upper in NON_ARTICLE_WORDS:
         return True
+
+    # Section headers within treatises (SECTION II, NOTE GG, CHAPTER III, etc.)
+    if SECTION_HEADER_PATTERN.match(headword):
+        return True
+
+    # Multi-word subheadings that aren't real articles
+    for pattern in SUBHEADING_PATTERNS:
+        if pattern.match(headword):
+            return True
 
     # Word fragments that aren't real headwords
     if WORD_FRAGMENTS.match(headword):
