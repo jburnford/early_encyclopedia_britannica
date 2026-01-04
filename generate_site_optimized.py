@@ -47,6 +47,13 @@ EDITION_NAMES = {
     1860: ("8th Edition", "Eighth"),
 }
 
+# Hyperlink filtering - only link meaningful article types
+# Types that should be hyperlinked (places, people, major topics)
+LINKABLE_ARTICLE_TYPES = {"geographical", "biographical", "treatise"}
+
+# Minimum text length for "unknown" type articles to be linkable
+MIN_UNKNOWN_LENGTH = 2000  # ~1.5 pages of text
+
 # HTML Templates - identical to original
 BASE_CSS = """
 :root {
@@ -402,18 +409,26 @@ class HyperlinkInjector:
     Speed: Linear scan vs potential catastrophic backtracking
     """
 
-    def __init__(self, index_headwords: Set[str], article_lookup: Dict[str, Dict[int, int]]):
+    def __init__(self, index_headwords: Set[str], article_lookup: Dict[str, Dict[int, int]],
+                 linkable_headwords: Set[str]):
         """
         Initialize the hyperlink injector.
 
         Args:
             index_headwords: Set of valid link targets from 1842 index (uppercase)
             article_lookup: Mapping of headword -> {year: volume}
+            linkable_headwords: Set of headwords that are linkable (based on article type)
         """
         self.article_lookup = article_lookup
 
-        # Filter to only linkable headwords
-        self.valid_headwords = {hw for hw in index_headwords if hw in article_lookup}
+        # Only link headwords that:
+        # 1. Are in the index
+        # 2. Exist as articles
+        # 3. Are marked as linkable (geographical, biographical, treatise, or long unknown)
+        self.valid_headwords = {
+            hw for hw in index_headwords
+            if hw in article_lookup and hw in linkable_headwords
+        }
         print(f"    Building hyperlink automaton for {len(self.valid_headwords):,} terms...")
 
         if HAVE_AHOCORASICK:
@@ -597,14 +612,18 @@ def load_index_headwords() -> Set[str]:
     return headwords
 
 
-def build_article_lookup_streaming() -> Dict[str, Dict[int, int]]:
+def build_article_lookup_streaming() -> Tuple[Dict[str, Dict[int, int]], Set[str]]:
     """
     Build article lookup by streaming through JSONL files.
 
     This only extracts headword -> {year: volume} mapping without loading article text,
     keeping memory usage low (~20MB vs ~600MB).
+
+    Returns:
+        Tuple of (lookup dict, set of linkable headwords based on article type)
     """
     lookup = defaultdict(dict)
+    linkable = set()
 
     for year in EDITIONS_TO_INCLUDE:
         path = INPUT_DIR / f"articles_{year}.jsonl"
@@ -614,7 +633,7 @@ def build_article_lookup_streaming() -> Dict[str, Dict[int, int]]:
         with open(path, 'r', encoding='utf-8') as f:
             for line in f:
                 if line.strip():
-                    # Parse only the fields we need (headword, volume_num)
+                    # Parse only the fields we need
                     article = json.loads(line)
                     headword = article.get('headword', '').upper().strip()
                     if headword:
@@ -622,7 +641,17 @@ def build_article_lookup_streaming() -> Dict[str, Dict[int, int]]:
                         if year not in lookup[headword]:
                             lookup[headword][year] = vol_num
 
-    return dict(lookup)
+                        # Check if this article type is linkable
+                        article_type = article.get('article_type', 'unknown')
+                        if article_type in LINKABLE_ARTICLE_TYPES:
+                            linkable.add(headword)
+                        elif article_type == 'unknown':
+                            # For unknown types, only link if substantial length
+                            text_len = len(article.get('text', ''))
+                            if text_len >= MIN_UNKNOWN_LENGTH:
+                                linkable.add(headword)
+
+    return dict(lookup), linkable
 
 
 def load_articles_streaming(year: int):
@@ -943,8 +972,9 @@ def generate_volume_page(year, vol_num, articles, vol_info):
 
     function renderArticleHtml(text) {{
         let safe = escapeHtml(text);
+        // Match escaped HTML anchor tags (quotes stay as quotes, only < and > are escaped)
         safe = safe.replace(
-            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\\/a&gt;/g,
+            /&lt;a class="xref" href="([^"]+)"&gt;([^&]+)&lt;\\/a&gt;/g,
             '<a class="xref" href="$1">$2</a>'
         );
         return safe;
@@ -1282,8 +1312,9 @@ def main():
 
     # Phase 1: Build article lookup (streaming, low memory)
     print("\nPhase 1: Building article lookup (streaming)...")
-    article_lookup = build_article_lookup_streaming()
+    article_lookup, linkable_headwords = build_article_lookup_streaming()
     print(f"  {len(article_lookup):,} unique headwords")
+    print(f"  {len(linkable_headwords):,} linkable (geo/bio/treatise)")
 
     # Phase 2: Load index headwords
     print("\nPhase 2: Loading index headwords...")
@@ -1292,7 +1323,7 @@ def main():
 
     # Phase 3: Build hyperlink injector (Aho-Corasick automaton)
     print("\nPhase 3: Building hyperlink injector...")
-    injector = HyperlinkInjector(index_headwords, article_lookup)
+    injector = HyperlinkInjector(index_headwords, article_lookup, linkable_headwords)
 
     # Phase 4: Load volume metadata (lightweight)
     print("\nPhase 4: Loading volume metadata...")

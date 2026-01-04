@@ -30346,8 +30346,9 @@ WASTE-BOOK<span class="badge treatise">Treatise</span></h3>
 
     function renderArticleHtml(text) {
         let safe = escapeHtml(text);
+        // Match escaped HTML anchor tags (quotes stay as quotes, only < and > are escaped)
         safe = safe.replace(
-            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
+            /&lt;a class="xref" href="([^"]+)"&gt;([^&]+)&lt;\/a&gt;/g,
             '<a class="xref" href="$1">$2</a>'
         );
         return safe;
