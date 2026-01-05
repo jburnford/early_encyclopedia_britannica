@@ -5,22 +5,25 @@
 This project processes OCR'd text from the first 8 editions of the Encyclopaedia Britannica (1771-1860) into a searchable, hyperlinked static website hosted on GitHub Pages.
 
 **Final Statistics:**
-- **136,848 articles** across 8 editions
-- **4.4 million cross-reference hyperlinks** to places, people, and major topics
+- **135,117 articles** across 8 editions (after LLM-assisted corrections)
+- **4.2 million cross-reference hyperlinks** to places, people, and major topics
 - **8 editions** spanning 89 years of publication
+- **4,404 article corrections** reviewed and applied (788 article merges, 66 deletions)
 
 ## Edition Summary
 
 | Edition | Year | Articles | Volumes | Notes |
 |---------|------|----------|---------|-------|
-| 1st | 1771 | 12,624 | 3 | First edition, dictionary-style |
-| 2nd | 1778 | 17,219 | 10 | Expanded with more treatises |
-| 3rd | 1797 | 21,180 | 18 | Major expansion |
-| 4th | 1810 | 15,070 | 20 | Supplement added |
-| 5th | 1815 | 18,617 | 20 | Updated 4th edition |
-| 6th | 1823 | 16,011 | 20 | Final Constable edition |
-| 7th | 1842 | 19,669 | 21+Index | Most scholarly edition |
-| 8th | 1860 | 16,458 | 22 | Last edition before 9th |
+| 1st | 1771 | 12,529 | 3 | First edition, dictionary-style |
+| 2nd | 1778 | 17,114 | 10 | Expanded with more treatises |
+| 3rd | 1797 | 21,048 | 18 | Major expansion |
+| 4th | 1810 | 14,976 | 20 | Supplement added |
+| 5th | 1815 | 18,475 | 20 | Updated 4th edition |
+| 6th | 1823 | 15,906 | 20 | Final Constable edition |
+| 7th | 1842 | 19,612 | 21+Index | Most scholarly edition |
+| 8th | 1860 | 16,385 | 22 | Last edition before 9th |
+
+*Article counts reflect post-correction totals after LLM-assisted review.*
 
 ## Directory Structure
 
@@ -53,18 +56,28 @@ This project processes OCR'd text from the first 8 editions of the Encyclopaedia
 │
 ├── json/                          # Legacy JSON format (5th/6th editions)
 │
-└── encyclopedia_parser/           # Python parsing library
-    ├── __init__.py                # Module exports
-    ├── models.py                  # Data models (Article, TextChunk, etc.)
-    ├── extractors/                # Text extraction (MD, JSONL)
-    ├── classifiers.py             # Article type classification
-    ├── chunkers.py                # Text chunking for RAG
-    ├── sections.py                # Section extraction
-    ├── patterns.py                # Regex patterns
-    ├── expected_articles.py       # Expected article registry (Smart Parser)
-    ├── fuzzy_matcher.py           # OCR variation detection (Smart Parser)
-    ├── llm_extractor.py           # LLM-based extraction (Smart Parser)
-    └── smart_parser.py            # Smart Parser integration
+├── encyclopedia_parser/           # Python parsing library
+│   ├── __init__.py                # Module exports
+│   ├── models.py                  # Data models (Article, TextChunk, etc.)
+│   ├── extractors/                # Text extraction (MD, JSONL)
+│   ├── classifiers.py             # Article type classification
+│   ├── chunkers.py                # Text chunking for RAG
+│   ├── sections.py                # Section extraction
+│   ├── patterns.py                # Regex patterns
+│   ├── expected_articles.py       # Expected article registry (Smart Parser)
+│   ├── fuzzy_matcher.py           # OCR variation detection (Smart Parser)
+│   ├── llm_extractor.py           # LLM-based extraction (Smart Parser)
+│   └── smart_parser.py            # Smart Parser integration
+│
+└── llm_corrections/               # LLM-assisted article corrections
+    ├── corrections/
+    │   └── decisions.json         # All correction decisions (4,404 total)
+    ├── state/
+    │   └── batch_{year}_{nnn}.json  # Flagged article batches
+    ├── generate_batches.py        # Generate batches of flagged articles
+    ├── llm_article_corrector.py   # Interactive LLM review tool
+    ├── apply_merges.py            # Apply corrections to JSONL files
+    └── CONTINUATION_PROMPT.md     # Project continuation guide
 ```
 
 ## Key Scripts
@@ -183,6 +196,104 @@ The Smart Parser was developed to recover articles missed by the main parser:
 - Combines fuzzy matching + heuristic extraction
 - Confidence scoring for recovered articles
 
+## LLM Article Correction System
+
+The LLM correction system reviews flagged articles and applies corrections to fix parsing errors. This process reduced the corpus from 136,848 to 135,117 articles.
+
+### Problem Statement
+The parser sometimes incorrectly identifies article boundaries, resulting in:
+- **Sentence fragments** parsed as separate articles (e.g., "THIS SPECIES OF..." starting mid-sentence)
+- **Section headers** extracted as standalone articles (e.g., "PROBLEM III", "COROLLARY", "DEFINITIONS")
+- **OCR artifacts** and front matter incorrectly treated as content
+
+### Decision Types
+
+| Decision | Description | Result |
+|----------|-------------|--------|
+| **KEEP** | Valid standalone article | No change |
+| **MERGE** | Fragment belongs to adjacent article | Appends text to parent with page marker |
+| **DELETE** | Errata, front matter, or pure cross-reference | Removes from corpus |
+
+### Workflow
+
+1. **Generate Batches** (`generate_batches.py`)
+   - Identifies articles with issues (letter mismatch, sentence fragments)
+   - Groups into batches of 50 articles for review
+   - Includes context: surrounding letters, page adjacency, text preview
+
+2. **LLM Review** (`llm_article_corrector.py`)
+   - Presents flagged articles with context
+   - Uses pattern matching for efficient bulk decisions
+   - Records decisions with reasoning to `corrections/decisions.json`
+
+3. **Apply Corrections** (`apply_merges.py`)
+   - Reads decisions from `decisions.json`
+   - MERGE: Appends child text to parent with `[Continued from p.X]` marker
+   - DELETE: Removes article from corpus
+   - Creates backups before modification
+
+### Decision Patterns
+
+The review identified several recurring patterns:
+
+**KEEP signals:**
+- Headword letter matches `surrounding_letter` (volume metadata issue)
+- Valid biography/geography/subject despite OCR errors
+- Pharmacy/chemistry Latin terms (BALSAMUM, OLEUM, etc.)
+- Cross-references with valid content
+
+**MERGE signals:**
+- Sentence fragment headwords (THIS/THESE/WHEN/WHILE...)
+- Section headers (PROBLEM, REMARK, EXAMPLE, COROLLARY...)
+- Roman numerals (VII, VIII, XII...)
+- Linnaean classification sections (MONANDRIA, DECANDRIA...)
+
+**DELETE signals:**
+- Title pages, dedication pages
+- Errata/corrigenda sections
+- Pure cross-references with no content
+
+### Statistics by Edition
+
+| Edition | Reviewed | KEEP | MERGE | DELETE |
+|---------|----------|------|-------|--------|
+| 1771 | 135 | 35 | 95 | 5 |
+| 1778 | 377 | 272 | 68 | 37 |
+| 1797 | 235 | 103 | 124 | 8 |
+| 1810 | 2,044 | 1,950 | 90 | 4 |
+| 1815 | 275 | 133 | 135 | 7 |
+| 1823 | 281 | 176 | 101 | 4 |
+| 1842 | 458 | 401 | 57 | 0 |
+| 1860 | 599 | 526 | 72 | 1 |
+| **Total** | **4,404** | **3,596** | **742** | **66** |
+
+### Decision File Format
+
+```json
+{
+  "article_id": "1815_v01_ABCDEF",
+  "headword": "WHEN THE SPECIES",
+  "edition_year": 1815,
+  "batch_num": 1,
+  "decision": "MERGE",
+  "merge_into": "BOTANY",
+  "reasoning": "Sentence fragment from BOTANY article"
+}
+```
+
+### Running the Correction Pipeline
+
+```bash
+# Preview changes
+python3 apply_merges.py --preview
+
+# Apply to specific edition
+python3 apply_merges.py --apply --edition 1815
+
+# Apply all corrections
+python3 apply_merges.py --apply
+```
+
 ## Hyperlink System
 
 The site includes intelligent cross-reference hyperlinks:
@@ -232,7 +343,8 @@ pip install pyahocorasick rapidfuzz
 ### Performance
 - Site generation: ~5 minutes for all 8 editions
 - Smart parser: ~7 minutes for full recovery run
-- Hyperlink injection: 4.4M links in ~3 minutes
+- Hyperlink injection: 4.2M links in ~3 minutes
+- LLM corrections: 4,404 decisions applied in seconds
 
 ## Acknowledgments
 

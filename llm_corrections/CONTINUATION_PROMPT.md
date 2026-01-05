@@ -3,9 +3,14 @@
 ## Project Overview
 Reviewing flagged articles across 8 editions (1771-1860) of the Encyclopedia Britannica. Each article needs a decision: KEEP (valid standalone), MERGE (into parent article), or DELETE (errata/front matter).
 
-## Current Progress
-- **Total decisions**: 2,791
-- **Editions complete**: 4/8
+## Project Status: ✅ COMPLETE
+
+All 8 editions have been reviewed and corrections applied.
+
+- **Total decisions**: 4,404
+- **Editions complete**: 8/8
+- **Final article count**: 135,117 (reduced from 136,848)
+- **Corrections applied**: January 2026
 
 ### Edition Status
 | Edition | Articles | Status | KEEP | MERGE | DELETE |
@@ -14,10 +19,10 @@ Reviewing flagged articles across 8 editions (1771-1860) of the Encyclopedia Bri
 | 1778 | 377 | ✅ Complete | 272 | 68 | 37 |
 | 1797 | 235 | ✅ Complete | 103 | 124 | 8 |
 | 1810 | 2,044 | ✅ Complete | 1,950 | 90 | 4 |
-| 1815 | ? | 🔄 **START HERE** | - | - | - |
-| 1823 | ? | ⏳ Pending | - | - | - |
-| 1842 | ? | ⏳ Pending | - | - | - |
-| 1860 | ? | ⏳ Pending | - | - | - |
+| 1815 | 275 | ✅ Complete | 133 | 135 | 7 |
+| 1823 | 281 | ✅ Complete | 176 | 101 | 4 |
+| 1842 | 458 | ✅ Complete | 401 | 57 | 0 |
+| 1860 | 599 | ✅ Complete | 526 | 72 | 1 |
 
 ## Working Directory
 ```
@@ -68,44 +73,30 @@ Examine text previews and make KEEP/MERGE/DELETE decisions.
 - Front matter, volume introductions
 - Pure cross-references with no content
 
-## Task: Process 1815 Edition
+## Applying Corrections
 
-### 1. Run meta-analysis
-```python
-python3 << 'EOF'
-import json
-import os
-from collections import Counter
+If modifications are needed to the decisions, use `apply_merges.py`:
 
-articles = []
-for i in range(1, 100):
-    path = f'state/batch_1815_{i:03d}.json'
-    if os.path.exists(path):
-        with open(path) as f:
-            batch = json.load(f)
-            articles.extend(batch['articles'])
+```bash
+# Preview changes without applying
+python3 apply_merges.py --preview
 
-print(f"Total 1815 flagged articles: {len(articles)}")
+# Apply changes to specific edition
+python3 apply_merges.py --apply --edition 1815
 
-# Analyze MATCH vs MISMATCH
-matches = mismatches = 0
-for a in articles:
-    hw = a['flagged'].get('headword', '')
-    surr = a['flagged'].get('surrounding_letter', '')
-    if hw and surr:
-        if hw[0].upper() == surr:
-            matches += 1
-        else:
-            mismatches += 1
-
-print(f"MATCH (bulk KEEP): {matches}")
-print(f"MISMATCH (manual review): {mismatches}")
-EOF
+# Apply all corrections
+python3 apply_merges.py --apply
 ```
 
-### 2. Bulk-KEEP matching articles
-### 3. Manual review mismatches with LLM analysis
-### 4. Record all decisions to corrections/decisions.json
+Backups are automatically created in `output_v2/backup_before_merges/`.
 
-## To Start
-Read this file, then run the meta-analysis on 1815 edition and process using the efficient bulk approach demonstrated for 1810.
+## Regenerating the Website
+
+After corrections are applied:
+
+```bash
+cd /home/jic823/1815EncyclopediaBritannicaNLS
+python3 generate_site_optimized.py
+```
+
+This regenerates all HTML in `docs/` with updated article counts and content.
