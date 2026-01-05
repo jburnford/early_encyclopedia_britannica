@@ -1,0 +1,1689 @@
+{
+  "edition_year": 1797,
+  "batch_num": 2,
+  "total_batches": 5,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1797_v12_ELEMENTS_OF_MUSIC",
+        "headword": "ELEMENTS OF MUSIC",
+        "start_page": 529,
+        "end_page": 537,
+        "word_count": 7234,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ELEMENTS OF MUSIC...' starts with 'E' but volume 12 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Theoretical and Practical (†).\n\nPRÉLIMINARY DISCOURSE.\n\nMusic may be considered, either as an art, which has for its object one of the greatest pleasures of which our senses (‡) are susceptible; or as a science, by which that art is reduced to principles. This is the double view in which we mean to treat of music in this work.\n\nIt has been the case with music as with all the other arts invented by men: some facts were at first discovered by accident; soon afterwards reflection and observation in",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v12_MUSHROOM",
+          "headword": "MUSHROOM",
+          "start_page": 512,
+          "end_page": 529,
+          "word_count": 17903,
+          "text_end": "ic, suggested by the earl of Sandwich in 1776, have had a beneficial effect in improving the art.\n\nWe have been somewhat particular in our account of musical affairs in our own country during the present century, as what would be most interesting to general readers, and of which a well-informed gentleman would not wish to be ignorant. The professor and connoisseur is not to be expected to content himself with disquisitions much more minute than those of which our limits can be supposed to admit."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_ESSENTIAL_CHARACTER",
+        "headword": "ESSENTIAL CHARACTER",
+        "start_page": 472,
+        "end_page": 472,
+        "word_count": 159,
+        "volume_num": 3,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ESSENTIAL CHARACTER...' starts with 'E' but volume 3 covers B-B",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ESSENTIAL CHARACTER' starts with 'E' but is surrounded by 'M' articles (p.472) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "PAPAVER.\nCorolla four-petal'd, calyx two-leav'd, capsule one-cell'd, gaping with pores under the permanent stigma. Poppy.\n\n* With hispid capsules.\n\n1 P. hybrdum. Capsules subglobular, brawny, hispid, stem leafy, many-flower'd. *nule.\n\n2 P. argemone. Capsules club'd, hispid, stem leafy, many-flower'd.\n\n3 P. alpinum. Capsules hispid, scape one-flower'd, naked, hispid, leaves twice-feather'd. alpine.\n\n4 P. nudicaule. Capsules hispid, scape one-flower'd, naked, hispid, leaves simple, feather-fringed",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_TETRADYNAMIA_SILIQUOSA",
+          "headword": "TETRADYNAMIA SILIQUOSA",
+          "start_page": 471,
+          "end_page": 471,
+          "word_count": 212,
+          "text_end": "r are uniformly longer; the antherae are erect, and sharp at the top.\n\nThe Pistillum has a cylindrical germen; the style is of the same length with the germen, and the same height with the lamina; the stigma is entire, with a little knob or button.\n\nThe Pericarpium is an oblong, scabrous, double-celled, two valved pod, gibbous, and full of little protuberances on the under parts; the dissepimentum (29) is large, compressed, and often twice the length of the valves.\n\nThe Seeds are many and round."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v11_FALLING-SICKNESS",
+        "headword": "FALLING-SICKNESS",
+        "start_page": 270,
+        "end_page": 303,
+        "word_count": 35541,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FALLING-SICKNESS...' starts with 'F' but volume 11 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Epilepsia, Sauv. gen. 134. Lin. 143. Vog. 188. Sag. gen. 24. Boerh. 1071. Hoffm. III. 9. Junck. 54.\n\nEclampsia, Sauv. gen. 133. 180. Sag. gen. 240.\n\nSp. I. The Cerebralis, or Epilepsy depending on an affection of the Brain.\n\nEpilepsia plethorica, Sauv. fp. 1.\nEclampsia plethorica, Sauv. fp. 7.\nEpilepsia cachectica, Sauv. fp. 2.\n\nSp. I. The Sympathica, or Sympathetic Epilepsy, with a sensation of something rising from a certain part of the body towards the Head.\n\nEpilepsia sympathica, Sauv. fp. 8",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v11_HYPOCHONDRIAC_AFFECTION",
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 262,
+          "end_page": 270,
+          "word_count": 8364,
+          "text_end": "ds of radishes, which are often mixed with rye in that country; and from this supposed cause the disease takes its name. It is also, however, a very common opinion, that this disease depends on the rye used in diet being of a bad quality, and particularly containing a large proportion of what is called spurred rye.\n\nCure. In this affection, also, the cure, as far as it has yet been discovered, is very much the same with that of epilepsy, the disease next to be considered.\n\nGENUS LIII. EPILEPSIA."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v08_FEE",
+        "headword": "FEE",
+        "start_page": 403,
+        "end_page": 403,
+        "word_count": 186,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FEE...' starts with 'F' but volume 8 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'FEE' starts with 'F' but is surrounded by 'H' articles (p.403) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "SUCCESSION; and LAW, No lxxvi. & clxxx. et seq.\n\nHeir-Apparent, is a person so called in the lifetime\nof his ancestor, at whose death he is heir at law.\n\nHeir-Premptive, is one who, if the ancestor should\ndie immediately, would, in the present circumstances of\nthings, be his heir; but whose right of inheritance may\nbe defeated by the contingency of some nearer heir be-\ning born.\n\nHeir-Loom, (formed of heir and the Saxon loom, de-\nnoting limb or members) in our law-books, signifies such\ngoods and",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v08_HEINECCIUS",
+          "headword": "HEINECCIUS",
+          "start_page": 402,
+          "end_page": 403,
+          "word_count": 1225,
+          "text_end": "1. Antiquitatum Romanarum jurisprudentium illu-\nstrantium syntagma. It was this excellent abridgement\nthat gave rise to his reputation in foreign countries.\n2. Elementa juris civilis secundum ordinem institutionum &\npandectarum. 3. Fundamenta styli cultioris. There are\nfew works so useful as this for forming a Latin style.\n4. Elementa philosophiae rationalis & moralis, quibus\npremissa historia philosophica. 5. Historia juris civilis\nRomani ac Germanici. 6. Elementa juris nature & gen-\ntium, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v08_FINGAL",
+        "headword": "FINGAL",
+        "start_page": 115,
+        "end_page": 117,
+        "word_count": 2448,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FINGAL...' starts with 'F' but volume 8 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The following passage in the 4th book of the Iliad is a description of a battle wonderfully ardent.\n\n\"When now gathered on either side, the hosts plunged together in fight; shield is hardly laid to shield; spears clash on the brazen corslets; bossy buckler meets; loud tumult rages over all; groans are mixed with boasts of men; the slain and slayer join in noise; the earth is floating round with blood. As when two rushing streams from two mountains come roaring down, and throw together their rapi",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v08_ARISTAEUS",
+          "headword": "ARISTAEUS",
+          "start_page": 115,
+          "end_page": 115,
+          "word_count": 50,
+          "text_end": "Burst as a wave that from the cloud impends, And swelled with tempests on the ship descends. White are the decks with foam, the winds aloud Howl o'er the masts, and fling through every strand. Pale, trembling, tir'd, the sailors freeze with fears, And instant death on every wave appears."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_FLOATING-BRIDGE",
+        "headword": "FLOATING-BRIDGE",
+        "start_page": 600,
+        "end_page": 600,
+        "word_count": 136,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FLOATING-BRIDGE...' starts with 'F' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "is ordinarily made of two small\nbridges, laid one over the other, in such manner as\nthat the uppermost stretches and runs out, by the help\nof certain cords running through pulleys placed along\nthe sides of the under-bridge, which push it forwards\ntill the end of it joins the place it is designed to be\nfixed on. When these two bridges are stretched out\nto their full length, so that the two middle ends meet,\nthey are not to be above four or five fathoms long;\nbecause, if longer, they will break. T",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_BRIDGE_OF_COMMUNICATION",
+          "headword": "BRIDGE OF COMMUNICATION",
+          "start_page": 600,
+          "end_page": 600,
+          "word_count": 26,
+          "text_end": "is that made over a river,\nby which two armies, or forts, which are separated by\nthat river, have a free communication with one ano-\nther."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v15_FOG",
+        "headword": "FOG",
+        "start_page": 635,
+        "end_page": 636,
+        "word_count": 140,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FOG...' starts with 'F' but volume 15 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "and the arch m H of the primitive will be the measure of the arch DE of the inclined circle RDS.\n\nThe converse of this proposition, namely, to cut off an arch from a given projected circle equal to a given arch of the primitive, is obvious.\n\nThe above operation would be greatly shortened by using the line of lines in the sector.\n\nIt seems unnecessary to insist farther on this projection, especially as the reader will see the application of it to the projection of the sphere on the planes of the",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_FREE-BENCH",
+        "headword": "FREE-BENCH",
+        "start_page": 181,
+        "end_page": 184,
+        "word_count": 3025,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'FREE-BENCH...' starts with 'F' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "h signifies that estate in copyhold-lands which the wife, being espoused a virgin, has, after the decease of her husband, for her dower, according to the custom of the manor. As to this free-bench, several manors have several customs; and in the manors of East and West Enborne, in the county of Berks, and other parts of England, there is a custom, that when a copyhold tenant dies, the widow shall have her free-bench in all the deceased husband's lands, whilst she lives single and chaste; but if",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_BENAVIDUS",
+          "headword": "BENAVIDUS",
+          "start_page": 181,
+          "end_page": 181,
+          "word_count": 49,
+          "text_end": "or Bonavitus (Marcus Mantua), a celebrated civilian, taught civil law with reputation, during 60 years, at Padua the place of his birth; and died in 1582, aged 93. His principal works are, 1. Collectanea super Ius Caeareum. 2. Corporis tom. ii. 3. Problemata legalia. 4. De illustribus Jurisconsultis, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_GENERAL_OBSERVATIONS",
+        "headword": "GENERAL OBSERVATIONS",
+        "start_page": 707,
+        "end_page": 722,
+        "word_count": 17497,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'GENERAL OBSERVATIONS...' starts with 'G' but volume 9 covers H-L",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'GENERAL OBSERVATIONS' starts with 'G' but is surrounded by 'L' articles (p.707) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "1. The municipal law of Scotland, as of most other countries, consists partly of statutory or written law, which has the express authority of the legislative power; partly of customary or unwritten law, which derives force from its presumed or tacit consent.\n\n2. Under our statutory or written law is comprehended, (1.) Our acts of parliament: not only those which were made in the reign of James I. of Scotland, and from thence down to our union with England in 1707, but such of the British statute",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_GENERAL_TERMS",
+        "headword": "GENERAL TERMS",
+        "start_page": 483,
+        "end_page": 486,
+        "word_count": 2107,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'GENERAL TERMS...' starts with 'G' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "N° II. The Duration of a Plant is either\n\n21. Annual, or dying within one year.\n\n22. Biennial, or flowering the second year, and then dying.\n\n23. Perennial, or flourishing for many years.\n\n24. Caducous, or falling down and dying before the end of one season.\n\n25. Deciduous, dying at the end of one season.\n\n26. Persisting, not dying after one season.\n\n27. Sempervirent, evergreen, or remaining fresh and green through all the seasons of the year.\n\nN° III. Magnitude.\n\n\"I very seldom admit,\" says Lin",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v13_GREATER_OUSE",
+        "headword": "GREATER OUSE",
+        "start_page": 624,
+        "end_page": 629,
+        "word_count": 971,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'GREATER OUSE...' starts with 'G' but volume 13 covers N-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'GREATER OUSE' starts with 'G' but is surrounded by 'O' articles (p.624) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "a river which rises near Fitwell in Oxfordshire, and proceeds to Buckingham, Stony-Stratford, and Newport-Pagnell, in Buckinghamshire; from thence it proceeds to Bedford, and turning north-east it passes on to Huntingdon and Ely, till at length it arrives at Lynn-Regis in Norfolk, and falls into the sea. It is navigable to some distance above Dowham, where there is a good harbour for barges; and a considerable trade is carried on by it to Lynn and other towns.\n\nSmaller Ouse, rises in Suffolk, an",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v13_OVIS",
+          "headword": "OVIS",
+          "start_page": 616,
+          "end_page": 624,
+          "word_count": 9313,
+          "text_end": "ithout importance. At all events, we trust by that time to be able to give a favourable report of that truly patriotic society which has been lately instituted in this part of the united kingdom for meliorating the breed of sheep, and in consequence the nature and quality of the wool. From the active and indefatigable exertions of Sir John Sinclair, baronet, the president of that society, we have every thing to hope from well conducted experiments, and nothing to fear from groundless hypotheses."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v15_GULIELMO_BRIDGEN",
+        "headword": "GULIELMO BRIDGEN",
+        "start_page": 497,
+        "end_page": 497,
+        "word_count": 595,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'GULIELMO BRIDGEN...' starts with 'G' but volume 15 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "AR. PRÆ. VRB.\n\nThis portrait, painted by Reynolds, was engraved by Basire. The corporations of Dublin, Bath, Exeter, and Norwich, paid him the like compliment; and in a petition entered in the journals of the city of Dublin, it was declared, that no man appeared to have acquitted himself in his high station with such becoming zeal for the honour and dignity of the crown, and the fulfilling his majesty's most gracious intentions for preserving the freedom and happiness of his subjects, and such i",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v15_ASSERTORIS",
+          "headword": "ASSERTORIS",
+          "start_page": 497,
+          "end_page": 497,
+          "word_count": 15,
+          "text_end": "S. P. Q. L.\nIN CURIA MUNICIPIALI\nPONI JUVSERVNT\nNONO KAL. MART. A. D. MDCCCLXIV."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_GYNANDRIA_PENTANDRIA",
+        "headword": "GYNANDRIA PENTANDRIA",
+        "start_page": 471,
+        "end_page": 471,
+        "word_count": 142,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'GYNANDRIA PENTANDRIA...' starts with 'G' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Passiflora, or Passion-Flower.\n\nThe Calyx is a perianthium consisting of five plain coloured leaves, similar to those of the corolla.\n\nThe Corolla consists of five plain obtuse semi-lanceolate leaves, of the same magnitude and figure with those of the calyx.\n\nThe nettarium is a triple corona, the exterior of which is longest, surrounding the style within the petals, and straitened above.\n\nThe Stamina are five, subulated, open, and connected to the style at the base of the germen; the antherae ar",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_DIDYNAMIA_ANGIOSPERMIA",
+          "headword": "DIDYNAMIA ANGIOSPERMIA",
+          "start_page": 466,
+          "end_page": 471,
+          "word_count": 172,
+          "text_end": "ur, subulated (44), inserted into the base of the corolla, and inclined to the same side; two of them are longer than the other two; the antherae are divided into two parts, and pointed at the top.\n\nThe Pistillum consists of a germen sharp at the top, a simple style situated like the lamina, and an acute stigma.\n\nThe Pericarpium has an oval capsule, of the same length with the calyx, sharp at the top, having two cells, and two valves which burst open at both sides.\n\nThe Seeds are many and small."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v05_HALF-DECK",
+        "headword": "HALF-DECK",
+        "start_page": 745,
+        "end_page": 745,
+        "word_count": 64,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HALF-DECK...' starts with 'H' but volume 5 covers C-D",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "k implies a continued floor laid from stem to stern, upon one line, without any stops or intervals.\n\nHalf-Deck, a space under the quarter deck of a ship of war, contained between the foremost bulkhead of the steerage and the fore-part of the quarter-deck. In the colliers of Northumberland the steerage itself is called the half-deck, and is usually the habitation of the crew.",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v05_DECLAMATION",
+          "headword": "DECLAMATION",
+          "start_page": 745,
+          "end_page": 747,
+          "word_count": 2732,
+          "text_end": "serious reflection in his closet; and endeavour to seize the true sense of the author; and to find out that expression of each sentiment and passion, which is the most natural, the most striking, and best adapted to the stage; and which he will cultivate by repeated essays, till he is able to render it in its full force.\n\nDECLARATORY ACTION. See Law, No. clxxii.\n\n21. DECLENSION, in grammar, an inflection of nouns according to their divers cases; as nominative, genitive, dative, &c. See GRAMMAR."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_HEAD-BOROUGH_ALSO",
+        "headword": "HEAD-BOROUGH ALSO",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 22,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HEAD-BOROUGH ALSO...' starts with 'H' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "h also signifies a kind of head constable, where there are several chosen as his assistants, to serve warrants, &c. See Constable.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_BORROMEUS",
+          "headword": "BORROMEUS",
+          "start_page": 430,
+          "end_page": 433,
+          "word_count": 2872,
+          "text_end": "but concerning which many good and learned men have in former times very much perplexed themselves and other people, by raising doubts about its legality in foro conscientiae. That is, when money is lent on a contract to receive not only the principal sum again, but also an increase by way of compensation for the use, which is generally called interest by those who think it lawful, and usury by those who do not so. But as to this, see the article Interest.\n\nBORROWSTOWNNESS. See BURROWSTOWNNESS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v12_HENRIADE",
+        "headword": "HENRIADE",
+        "start_page": 348,
+        "end_page": 348,
+        "word_count": 96,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HENRIADE...' starts with 'H' but volume 12 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HENRIADE' starts with 'H' but is surrounded by 'M' articles (p.348) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The following is a list of his works: 1. Un Traité de l'Eucharistie, 1604, in folio. 2. Un Traité de la vérité de la Religion Chrétienne, 8vo. 3. A book entitled La Mystère d'iniquité, 4to. 4. Un discours sur le droit pretendu par ceux de la maison de Guise, 8vo. 5. Curious and interesting Memoirs from the year 1572 to 1629, 4 vols. 4to, valuable. 6. Letters; which are written with great spirit and good sense. David des Liques has given us his life in quarto; a book more interesting for the matt",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v12_MORNAY",
+          "headword": "MORNAY",
+          "start_page": 347,
+          "end_page": 348,
+          "word_count": 905,
+          "text_end": "rst elements of politics, who like unskilful surgeons would apply violent remedies to every disease, and advise a man to cut off an arm when his finger aches.\" These remonstrances produced no other effect than the loss of the government of Saumur, of which he was deprived by Louis XIII. in 1621. He died two years after, November 11th, 1623, aged 74, in his Barony de la Forêt-sur-Sèvre in Poitou. The Prote-\n\nCet enfant des courtisans, mais à la cour aimé ;\nFier ennemi de Rome, et de Rome éliminé."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v17_HENRY_STEPHENS",
+        "headword": "HENRY STEPHENS",
+        "start_page": 877,
+        "end_page": 877,
+        "word_count": 134,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HENRY STEPHENS...' starts with 'H' but volume 17 covers S-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HENRY STEPHENS' starts with 'H' but is surrounded by 'S' articles (p.877) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "the first of these illustrious men, was born in France, soon after the discovery of printing, perhaps about the year 1465. He settled as a printer at Paris, and was probably patronized by Louis XII. A great proportion of the books which he published were Latin: They are printed in the Roman letter, and are not inelegant, though some of them abound rather too much in contractions. He died about the year 1520, and left behind him three sons, Francis, Robert, and Charles. His widow married Simon de",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v17_STEMSON",
+          "headword": "STEMSON",
+          "start_page": 870,
+          "end_page": 877,
+          "word_count": 6711,
+          "text_end": "t to despise all little views and all mean retrospects. Nothing is worth your looking back; and therefore look forward, and make (as you can) the world look after you; but take care, it be not with pity, but with esteem and admiration. I am, with the greatest sincerity and affection for your fame as well as happiness, your, &c.\n\nThe above most charming and most affectionate letter was written about a month before Atterbury bishop of Rochester was sent into banishment, and is universally admired."
+        },
+        "semantic": {
+          "article_id": "1797_v17_STEPHENS",
+          "headword": "STEPHENS",
+          "start_page": 877,
+          "end_page": 877,
+          "word_count": 127,
+          "text_end": "of them were exceedingly corrupted. By their abilities and indefatigable industry these defects were supplied, and the learned were furnished with beautiful and correct editions of the Greek and Roman authors. Thus the world was not only supplied with an inexhaustible fund of amusement and instruction in these ancient writings; but it is to the ardour which they inspired, and to the model of elegance which they displayed, that the present advanced state of literature is in a great measure owing."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v01_HERESY_OF_ALMARIC",
+        "headword": "HERESY OF ALMARIC",
+        "start_page": 526,
+        "end_page": 526,
+        "word_count": 119,
+        "volume_num": 1,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HERESY OF ALMARIC...' starts with 'H' but volume 1 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a tenet broached in France by one Almaric, in the year 1209. It consisted in affirming, that every Christian was actually a member of Christ; and that without this faith no one could be saved. His followers went farther, and affirmed, that the power of the Father lasted only during the continuance of the Mosaic law; that the coming of Christ introduced a new law; that at the end of this began the reign of the Holy Ghost; and that now confession and the sacraments were at an end, and that every o",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v01_ALME",
+          "headword": "ALME",
+          "start_page": 526,
+          "end_page": 527,
+          "word_count": 671,
+          "text_end": "ut amongst the grandees and rich men.\n\nThe common people have also their Almé. They are girls of the second class, who try to imitate the former; but they have neither their elegance, their graces, nor their knowledge. They are everywhere to be met with. The public places and the walks about Grand Cairo are full of them. As the populace require allusions still more strongly marked, decency will not permit the relation to what a pitch they carry the licentiousness of their gestures and attitudes."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v13_HISTORY",
+        "headword": "HISTORY",
+        "start_page": 249,
+        "end_page": 261,
+        "word_count": 12951,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HISTORY...' starts with 'H' but volume 13 covers N-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HISTORY' starts with 'H' but is surrounded by 'O' articles (p.249) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "§ 1. Discoveries concerning the Light.\n\nThe element of light has occupied much of the attention of thinking men ever since the phenomena of nature have been the objects of rational investigation. The discoveries that have from time to time been made concerning it, are so fully inserted under the article Light, that there is little room for any further addition here. The nature of that subtle element is indeed very little known as yet, notwithstanding all the endeavours of philosophers; and whate",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v13_OPOCALPASUM",
+          "headword": "OPOCALPASUM",
+          "start_page": 246,
+          "end_page": 249,
+          "word_count": 1226,
+          "text_end": "er which we have it imported from Turkey and the East Indies. It readily mingles with water, by trituration, into a milky liquor, which on standing deposits a portion of resinous matter, and becomes yellowish; to rectified spirit it yields a gold-coloured tincture, which tastes and smells strongly of opopanax. Water distilled from it is impregnated with its smell, but no essential oil is obtained on committing moderate quantities to the operation.\"\n\nSee Pastanaca, of which opopanax is a species."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v10_HITHERTO_MAHOMET_HAD_PROPAGATED_HIS_RELIGION_BY_FAIR",
+        "headword": "HITHERTO MAHOMET HAD PROPAGATED HIS RELIGION BY FAIR",
+        "start_page": 478,
+        "end_page": 481,
+        "word_count": 3753,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 8 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HITHERTO MAHOMET HAD...' starts with 'H' but volume 10 covers L-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HITHERTO MAHOMET HAD PROPAGATE' starts with 'H' but is surrounded by 'M' articles (p.478) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "o Mahomet had propagated his religion by fair means; so that the whole success of his enterprise, before his flight to Medina, must be attributed to persuasion only, and not to compulsion. For before this second oath of fealty or inauguration at al Akaba, he had no permission to use any force at all; and in several places of the Koran, which he pretended were revealed during his stay at Mecca, he declares his business was only to preach and admonish; that he had no authority to compel any person",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v10_MAHOMET",
+          "headword": "MAHOMET",
+          "start_page": 476,
+          "end_page": 478,
+          "word_count": 2868,
+          "text_end": "Mahomet swore to be faithful to them, on condition that they should protect him against all insults as heartily as they would their own wives and families. They then asked him what recompense they were to expect if they should happen to be killed in his quarrel; he answered, Paradise. Whereupon they pledged their faith to him, and so returned home; after Mahomet had chosen 12 out of their number, who were to have the same authority among them as the 12 apostles of Christ had among his disciples."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v18_HITHERTO_THESE_UNHALLOWED",
+        "headword": "HITHERTO THESE UNHALLOWED",
+        "start_page": 601,
+        "end_page": 602,
+        "word_count": 1001,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HITHERTO THESE UNHAL...' starts with 'H' but volume 18 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HITHERTO THESE UNHALLOWED' starts with 'H' but is surrounded by 'T' articles (p.601) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "o these unhallowed means of bringing Christians to uniformity of faith and practice, had been only occasionally employed from their not accurately distinguishing between the spirit of the gospel and that of the law; but as soon as the bishops of Rome had brought the inhabitants of Europe to recognize their infallibility in explaining articles of faith, and deciding points of controversy, persecution became a regular and permanent instrument of ecclesiastical discipline. To doubt or to deny any d",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v18_TOLERATION",
+          "headword": "TOLERATION",
+          "start_page": 600,
+          "end_page": 601,
+          "word_count": 1033,
+          "text_end": ", than they persecuted the Pagans for their idolatry; and afterwards, when heresies arose in the church, persecuted one another for expressing in different phrases metaphysical propositions, of such a nature as no human mind can fully comprehend. The apostle had forewarned them that there must be heresies in the church, that they who are approved may be made manifest; but it did not occur to them that persecution for opinion is the worst of all heresies, as it violates at once truth and charity."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v11_HYPOCHONDRIAC_AFFECTION",
+        "headword": "HYPOCHONDRIAC AFFECTION",
+        "start_page": 262,
+        "end_page": 270,
+        "word_count": 8364,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HYPOCHONDRIAC AFFECT...' starts with 'H' but volume 11 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "HyPOCHONDRIASIS, Sauv. gen. 220. Lin. 76. Vog. 218. Sag. 332.\n\nMorbus hypochondriacus, Boerh. 1098.\n\nMalum hypochondriacum, Hoffm. III. 65. Junk 36.\n\nAlthough some of the nosological writers, particularly Sauvages, have considered this genus as consisting of different species, Dr Cullen is of opinion that there is only one idiopathic species, the hypochondriasis melancholica. He considers not only the hypochondriasis hysterica, phthisica, and athmatica, but also the bilious, sanguinea, and pitui",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v11_ADYNAMIAE",
+          "headword": "ADYNAMIAE",
+          "start_page": 259,
+          "end_page": 262,
+          "word_count": 3300,
+          "text_end": "With this intention, recourse is had to a variety of tonics both from the mineral and vegetable kingdom; particularly chalybeates in different forms, gentian, colombo, and the like; but of all the tonics which can be employed in this affection, none are attended with greater benefit than exercise and cold bathing; and the proper and prudent employment of these is no less effectual in removing the disease, than in preventing the return of it after it is once removed.\n\nGENUS XLVI. HYPOCHONDRIASIS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IAMBUS",
+        "headword": "IAMBUS",
+        "start_page": 82,
+        "end_page": 87,
+        "word_count": 4790,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IAMBUS' starts with 'I' but is surrounded by 'J' articles (p.82) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "IAMBUS, in the Greek and Latin profody, a poetical foot, consisting of a short syllable followed by a long one; as in\n\nSyllaba longa brevi subiecta vocatur iambus, as Horace expresses it; who also calls the iambus a swift, rapid foot, pes citus.\n\nThe word, according to some, took its rise from Iambus, the son of Pan and Echo, who invented this foot; or, perhaps, who only used sharp-biting expressions to Ceres, when afflicted for the death of Proserpine. Others rather derive it from the Greek νεν",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JAMAICA",
+          "headword": "JAMAICA",
+          "start_page": 80,
+          "end_page": 82,
+          "word_count": 2402,
+          "text_end": "r acre.\nPlants - 22 ditto.\nCane land, in ratoons and young plants 15 ditto.\nPasture land - 8 ditto.\nWood land - 4 ditto.\nProvisions - 14 ditto.\nNegroes - 57 ditto.\nMules - 22 ditto.\nSteers - 10 ditto.\nBreeding cattle, &c. - 5 ditto.\nWorks, water, carts, &c. from 7 to 10,000\n\nIf a planter would wish to leave his estate for a num-\nber of years, his income would be large if he could\nget only 10d. sterling a day for his negroes (the loss\nmade good), without requiring any thing for his land\nor works."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_ICOSANDRIA_POLYGAMIA",
+        "headword": "ICOSANDRIA POLYGAMIA",
+        "start_page": 466,
+        "end_page": 466,
+        "word_count": 150,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ICOSANDRIA POLYGAMIA...' starts with 'I' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Fragaria, or Strawberry.\n\nThe Calyx is a perianthium consisting of one plain leaf, divided into ten segments, each alternately narrower.\n\nThe Corolla has five roundish open petals inserted into the calyx.\n\nThe Stamina are 20 in number, subulate or tapering, shorter than the corolla, and inserted into the calyx. The antherae are lunulated, or shaped like a crescent.\n\nThe Pistillum consists of many small germina collected into a little head or knob. The styli are simple, and inserted into the side",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_DIDYNAMIA_ANGIOSPERMIA",
+          "headword": "DIDYNAMIA ANGIOSPERMIA",
+          "start_page": 466,
+          "end_page": 471,
+          "word_count": 172,
+          "text_end": "ur, subulated (44), inserted into the base of the corolla, and inclined to the same side; two of them are longer than the other two; the antherae are divided into two parts, and pointed at the top.\n\nThe Pistillum consists of a germen sharp at the top, a simple style situated like the lamina, and an acute stigma.\n\nThe Pericarpium has an oval capsule, of the same length with the calyx, sharp at the top, having two cells, and two valves which burst open at both sides.\n\nThe Seeds are many and small."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IESVS_CHRISTVS_VINCIT",
+        "headword": "IESVS CHRISTVS VINCIT",
+        "start_page": 818,
+        "end_page": 818,
+        "word_count": 294,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IESVS CHRISTVS VINCIT' starts with 'I' but is surrounded by 'L' articles (p.818) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Legend is also applied to the inscription of medals, which serves to explain the figures or devices represented on them. In strictness, the legend differs from the inscription; this last properly signifying words placed on the reverse of a medal, in lieu of figures.\n\nIt seems as if the ancients had intended their medals should serve both as images and as emblems; the former for the common people, and the other for persons of taste and parts; the images to represent the faces of princes; emblems",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_LEE_s2",
+          "headword": "LEE",
+          "start_page": 815,
+          "end_page": 818,
+          "word_count": 3318,
+          "text_end": "of legati, consulares, and praetorii. The first commanded whole armies, as the emperors lieutenant-generals; and the other had the command of particular legions.\n\nThe legati under the proconsuls in the provinces, served for judging inferior causes, and management of smaller concerns, remitting things of great moment to the governor or præsidium himself. This was the original office of the legati, as was hinted above; though, as we have seen, they were afterwards admitted to command in the army."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v18_INCAL",
+        "headword": "INCAL",
+        "start_page": 592,
+        "end_page": 592,
+        "word_count": 14,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'INCAL...' starts with 'I' but volume 18 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'INCAL' starts with 'I' but is surrounded by 'T' articles (p.592) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "the name by which crude or impure borax is called. See BORAX and CHEMISTRY-INDEX.",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v18_TIMOLEON",
+          "headword": "TIMOLEON",
+          "start_page": 591,
+          "end_page": 592,
+          "word_count": 339,
+          "text_end": "that this Timotheus was not the famous player on the flute so much esteemed by that prince, who was animated to such a degree by his performance as to seize his arms; and who employed him, as Athenaeus informs us, together with the other great musicians of his time, at his nuptials. However, by an inattention to dates, and by forgetting that of these two musicians of the same name the one was a Miletian and the other a Theban, they have been hitherto often confounded.\n\nTIMUR-BECK. See TAMERLANE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v08_INTERJECTIONS",
+        "headword": "INTERJECTIONS",
+        "start_page": 100,
+        "end_page": 100,
+        "word_count": 25,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'INTERJECTIONS...' starts with 'I' but volume 8 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "which are words or sounds used to express sudden feelings or emotions. They are often exclamation words like \"oh,\" \"ah,\" \"yes,\" \"no.\"\n\n---\n\n### Articles",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v08_CONJUNCTIONS",
+          "headword": "CONJUNCTIONS",
+          "start_page": 100,
+          "end_page": 100,
+          "word_count": 69,
+          "text_end": "ich are words used to connect words, phrases, or clauses. They can be classified as:\n\n- **Coordinating conjunctions**, which connect two or more words or parts of a sentence with equal importance (e.g., and, but, or).\n- **Subordinating conjunctions**, which introduce subordinate clauses that are not independent (e.g., because, although, since).\n- **Correlative conjunctions**, which connect words, phrases, or clauses in pairs (e.g., both...and, either...or, neither...nor).\n\n---\n\n### Interjections"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IONIA",
+        "headword": "IONIA",
+        "start_page": 347,
+        "end_page": 349,
+        "word_count": 1395,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IONIA' starts with 'I' but is surrounded by 'J' articles (p.347) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "a country of Asia minor, bounded on the north by Abolia, on the west by the Aegean and Icarian seas, on the south by Caria, and on the east by Lydia and part of Caria. It was founded by colonies from Greece and particularly Attica, by the Ionians or subjects of Ion. Ionia was divided into 12 small states which formed a celebrated confederacy often mentioned by the ancients. These 12 states were Priene, Miletus, Colophon, Clazomenae, Ephesus, Lebedos, Teos, Phocaea, Erythrae, Smyrna, and the capi",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JONES",
+          "headword": "JONES",
+          "start_page": 346,
+          "end_page": 347,
+          "word_count": 1664,
+          "text_end": "rd; but an order being published to encourage the informers of such concealments, and four persons being privy to the spot where the money was hid, it was taken up, and reburied in Lambeth-marsh. Grief, misfortunes, and age, put an end to his life at Somerset-house, July 21, 1652. Several of his designs have been published by Mr Kent, Mr Colin Campbell, and Mr Isaac Ware. He left in MS. some curious notes on Palladio's architecture, which are inserted in an edition of Palladio published in 1714."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v06_ISLANDS_OF_DISAPPOINTMENT",
+        "headword": "ISLANDS OF DISAPPOINTMENT",
+        "start_page": 56,
+        "end_page": 57,
+        "word_count": 119,
+        "volume_num": 6,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ISLANDS OF DISAPPOIN...' starts with 'I' but volume 6 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "are a cluster of small islands, lying in S. Lat. 14° 10'. W. Long. 141° 16'. They were discovered by Commodore Byron in 1765, who gave them their name from the shores affording no anchorage for his ships; for which reason he was obliged to quit them without landing, or procuring any refreshments for his crew, who were then languishing with sicknesses. They are inhabited by Indians, who appeared on the beach with spears in their hands, that were at least 16 feet long. They everywhere discovered h",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v06_DISANDRA",
+          "headword": "DISANDRA",
+          "start_page": 56,
+          "end_page": 56,
+          "word_count": 30,
+          "text_end": "in botany: A genus of the digynia order, belonging to the heptandria clas of plants. The calyx has seven leaves; the corolla parted into seven, and flat; the capsule two-celled."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v18_ISLE_OF_WIGHT",
+        "headword": "ISLE OF WIGHT",
+        "start_page": 972,
+        "end_page": 972,
+        "word_count": 299,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ISLE OF WIGHT...' starts with 'I' but volume 18 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ISLE OF WIGHT' starts with 'I' but is surrounded by 'W' articles (p.972) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "an island lying on the south coast of Hampshire, from which it is separated by a narrow channel. It is about 21 miles in length, and 13 in breadth. It is nearly divided into equal parts by the river Mede or Cowes, which rising in the southern angle, enters at the northern, into the channel, opposite the mouth of Southampton Bay. The south coast is edged with very steep cliffs of chalk and freestone, hollowed into caverns in various parts. The west side is fenced with ridges of rocks, of which th",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v18_WICKLIFF",
+          "headword": "WICKLIFF",
+          "start_page": 971,
+          "end_page": 972,
+          "word_count": 725,
+          "text_end": "seen in bishop Tanner's Bib. Brit. Hib. Some of them are in the Bodleian Library, others in the British Museum, &c.\n\nWickliff was doubtless a very extraordinary man, considering the times in which he lived. His natural sagacity discovered the absurdities and impositions of the church of Rome, and he had the honesty and resolution to promulgate his opinions, which a little more support would probably have enabled him to establish: they were evidently the foundation of the subsequent reformation."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IVEACH",
+        "headword": "IVEACH",
+        "start_page": 438,
+        "end_page": 439,
+        "word_count": 205,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVEACH' starts with 'I' but is surrounded by 'J' articles (p.438) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "the name of two baronies of Ireland, in the county of Down, and province of Ulster. They are distinguished into Upper and Lower Ivecach, and the former is by much the largest barony in that county. The name of Ivecach, or Hy Veach, is said to be taken from Achains, in Irish called Eachach, grandfather to king Coaltipaig, as much as to say \"the territory...\"\nterritory of Eachach;\" for by, in the Irish language, is a common adjective, denoting not only the heads and founders of families, but also",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JUDAH",
+          "headword": "JUDAH",
+          "start_page": 436,
+          "end_page": 438,
+          "word_count": 2252,
+          "text_end": "it lays them under. And, besides, as this prevents oppression on the one hand; so, on the other, it stifles all hopes of impunity or mitigation, with which an offender might flatter himself if his punishment depended on the humour or discretion of the court. Whereas, where an established penalty is annexed to crimes, the criminal may read their certain consequence in that law, which ought to be the unvaried rule, as it is the inflexible judge, of his actions.\n\nJudgment of God. See Judicium Dei."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IVES",
+        "headword": "IVES",
+        "start_page": 439,
+        "end_page": 439,
+        "word_count": 378,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVES' starts with 'I' but is surrounded by 'J' articles (p.439) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "or Yves (St), a celebrated bishop of Chartres, born in the territory of Beauvais in the 11th century. His merit procured his election to the see of Chartres in 1092, or 1093, under the pontificate of Urban II. who had deposed Geoffroy his predecessor for sundry accusations against him. Ives particularly signalized himself by his zeal against Philip I., who had put away his wife Bertha of Holland, and had taken Bertrade of Montford, wife of Fouques count of Anjou. Afterward he devoted himself who",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JUDOIGNE",
+          "headword": "JUDOIGNE",
+          "start_page": 438,
+          "end_page": 438,
+          "word_count": 46,
+          "text_end": "a town of the Austrian Netherlands, in Brabant. Near this town the duke of Marlborough gained that signal victory over the French in 1706, called the battle of Ramillies. It is seated on the river Gete, 13 miles south-east of Louvain, and 16 north of Namur."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IVICA",
+        "headword": "IVICA",
+        "start_page": 440,
+        "end_page": 440,
+        "word_count": 12,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVICA' starts with 'I' but is surrounded by 'J' articles (p.440) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "or Yvica, the name of an island in the Mediterranean. See Yvica.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JUGORA",
+          "headword": "JUGORA",
+          "start_page": 439,
+          "end_page": 440,
+          "word_count": 39,
+          "text_end": "a considerable province of Muscovy, depending on the government of Archangel. It has the title of a duchy; and is inhabited by a kind of Tartars, who are very savage, and much of the same disposition with the Samoiedes."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IVORY",
+        "headword": "IVORY",
+        "start_page": 447,
+        "end_page": 447,
+        "word_count": 114,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVORY' starts with 'I' but is surrounded by 'J' articles (p.447) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in natural history, &c., a hard, solid, and firm substance, of a white colour, and capable of a very good polish. It is the tusk of the elephant *; and is hollow from the base to a certain height, the cavity being filled up with a compact medullary substance, seeming to have a great number of glands in it. It is observed, that the Ceylon ivory, and that of the island of Achém, do not become yellow in the wearing, as all other ivory does; for this reason the teeth of these places bear a larger pr",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_SOME_MYTHOLOGISTS_SUPPOSE_THAT_JUNO",
+          "headword": "SOME MYTHOLOGISTS SUPPOSE THAT JUNO",
+          "start_page": 446,
+          "end_page": 446,
+          "word_count": 33,
+          "text_end": "e mythologists suppose that Juno signifies the air; others, that she was the Egyptian Isis; who being represented under various figures, was by the Greeks and Romans represented as so many distinct deities."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IVREA",
+        "headword": "IVREA",
+        "start_page": 449,
+        "end_page": 450,
+        "word_count": 53,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVREA' starts with 'I' but is surrounded by 'J' articles (p.449) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "an ancient and strong town of Italy, in Piedmont, and capital of Canavese, with a strong fort, a bishop's see, the title of a marquisate, and an ancient castle. It is subject to the king of Sardinia, and situated on the river Doria between two hills, in E. Long. 7.48. N. Lat. 45.12.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JURA",
+          "headword": "JURA",
+          "start_page": 448,
+          "end_page": 449,
+          "word_count": 1507,
+          "text_end": "bitants, remarkable for their industry. Some are watch-makers; but the greatest number employ themselves in polishing crystals, granites, and marcasites. The country is much infested with bears and wolves. In ascending to this place there is a very extensive prospect of great part of the Pays de Vaud, the lake of Geneva, and that of Neuchatel, which from that high point of view appear to be nearly on a level; though M. de Luc found the latter to be 159 feet above the level of the lake of Geneva."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v09_IXORA",
+        "headword": "IXORA",
+        "start_page": 462,
+        "end_page": 462,
+        "word_count": 42,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IXORA' starts with 'I' but is surrounded by 'J' articles (p.462) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in botany: A genus of the monogynia\norder, belonging to the tetrandria clas of plants; and\nin the natural method ranking under the 47th order,\nStellate. The corolla is monopetalous, funnel-shaped,\nand long, superior; the stamina above the throat; the\nberry tetraperous.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v09_JUXTAPOSITION",
+          "headword": "JUXTAPOSITION",
+          "start_page": 461,
+          "end_page": 461,
+          "word_count": 54,
+          "text_end": "is used by philosophers to denote that species of growth which is performed by the apposition of new matter to the surface or outside of old. In which sense it stands opposed to *intussufception*; where the growth of a body is performed by the reception of a juice within it diffused through its canals."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v16_JOHN_BALIOL",
+        "headword": "JOHN BALIOL",
+        "start_page": 779,
+        "end_page": 837,
+        "word_count": 65522,
+        "volume_num": 16,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'JOHN BALIOL...' starts with 'J' but volume 16 covers R-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'JOHN BALIOL' starts with 'J' but is surrounded by 'S' articles (p.779) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "competitor.\n```\never, it was soon perceived, that the claims of all of them might be cut off excepting two, viz. Baliol and Bruce, of whom the former had the preference with respect to hereditary right, and the latter as to popularity. Baliol had strongly attached himself to Edward's party; which being by far the most powerful in Scotland, gave him a decided superiority over Bruce. The event was, that Edward, by his own party most probably, though some say, by the unanimous voice of the Scot's p",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v16_SCOTLAND",
+          "headword": "SCOTLAND",
+          "start_page": 758,
+          "end_page": 779,
+          "word_count": 21825,
+          "text_end": "to succeed to sovereignties, in their own nature impartible, preferable to the female.\n\nNotwithstanding this number of candidates, however,\n\n(c) The pedigree of the three principal competitors will be fully understood from the following scheme.\n\n```\nDavid I. King of Scots.\n|   |\nHenry Prince of Scotland.\n|   |\nDavid Earl of Huntingdon, second son.\n|   |\n3. Ada—Henry de Hastings. 2. Isabella—Robert Bruce. 1. Margaret—Allan of Galloway.\n|   |   |\nHenry de Hastings. ROBERT BRUCE, competitor.\n|   |"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v18_JONATHAN_SWIFT",
+        "headword": "JONATHAN SWIFT",
+        "start_page": 266,
+        "end_page": 271,
+        "word_count": 5541,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'JONATHAN SWIFT...' starts with 'J' but volume 18 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'JONATHAN SWIFT' starts with 'J' but is surrounded by 'S' articles (p.266) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "S.T.P.\nHujus Ecclesiae Cathedralis\nDecani:\nUbi fave indignatio\nUlterius cor lacerare nequit.\nAbi, viator,\nEt initare, si poteris,\nStrenuum pro virili libertatis vindicem.\nObit anno (1745)\nMensis (Oktobris) die (29.)\nAetatis anno 78.\n\nSwift undoubtedly was a man of native genius. His fancy was inexhaustible; his conceptions were lively and comprehensive; and he had the peculiar felicity of conveying them in language equally correct, free, and perspicuous. His penetration was as quick as intuition",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v18_SWERTIA",
+          "headword": "SWERTIA",
+          "start_page": 262,
+          "end_page": 266,
+          "word_count": 5117,
+          "text_end": "before he ceased to be a reasonable being, he left about £1200 in specific legacies; and the rest of his fortune, which amounted to about £11,000, to erect and endow a hospital for lunatics and idiots. He was buried in the most private manner, according to directions in his will, in the great aisle of St Patrick's cathedral, and, by way of monument, a slab of black marble was placed against the wall, on which was engraved the following Latin epitaph, written by himself:\n\nHic depositum est corpus"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_JOURNAL_s2",
+        "headword": "JOURNAL",
+        "start_page": 407,
+        "end_page": 419,
+        "word_count": 7086,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'JOURNAL...' starts with 'J' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Edinburgh, 19th February, 1789.\n\nSundries Drs. to Meal.\n\n1 Cash For 30 bolls, at 13s 8d L 20 10\n2 Henry Hardy For 45 13s 1od 31 2 6\n4 William Hunter For 27 13s 1od 18 13 6\n4 Baillie and Bell, Borrow-\nflownesses For 52 13s 1od 35 19 4\n\n154 Rules I. III.\n\n23 Drawn on the Royal Bank\n\nRule II.\n\n1 Cash Dr. to Royal Bank Drawn on them\n\nSundries Drs. to Cash.\n\n3 William Bruce Paid him in part L. 50\n4 Alex. Sharp Paid him in full 32 18 4\n5 Tho. Smith Paid his bill on me at sight 35\n\nEdinburgh, 2d March,",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_BOOK-KEEPING_s3",
+          "headword": "BOOK-KEEPING",
+          "start_page": 406,
+          "end_page": 407,
+          "word_count": 273,
+          "text_end": "qt. 200 lb. each, amount per invoice f. 312, at 22d per f. L. 28 12\nPaid freight and charges 1 5\n\nRules II. IV.\n\nBartered with James Bofwell 2 bags clover seed, at L. 6, L 12, for 2 hds. lints, at 558 L 5 10\nReceived in money 5\nAnd he owes the balance 1 10\n\nRules III. I.\n\nPaid Tho. Smith in full L. 19\nAnd for interest 1 10\n\nRules I. IV.\n\nSold 140 lb. clover-feed to John Scott farmer at Haugh-head, at 7½d L 4 7 6\n70 to James Cuthbert, at 7½d 2 3 9\n120 for ready money, at 7½d 3 12 6\n\nRules I. II."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v03_KFG",
+        "headword": "KFG",
+        "start_page": 600,
+        "end_page": 600,
+        "word_count": 433,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'KFG...' starts with 'K' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the transverse piece or beam over which the\ncable passes. E, the roll, or windlass, round which the\nrope or cable is wound. a, b, The rudders. O, a boat.\ne, One of the punts, or small flat-bottomed boats that\nsupport the chain. N, N, pumps for extracting the wa-\nter out of the boats. P, P, captains.\n\nFig. 4. Lateral elevation of the bridge. a, c, One\nof the boats. b, The rudder. E, The roll, or wind-\nlass. M, The horse, or cross-piece. GH, One of the\nmasts. E, M, H, F, The cable. In this view th",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v03_FLOATING-BRIDGE",
+          "headword": "FLOATING-BRIDGE",
+          "start_page": 600,
+          "end_page": 600,
+          "word_count": 136,
+          "text_end": "forwards\ntill the end of it joins the place it is designed to be\nfixed on. When these two bridges are stretched out\nto their full length, so that the two middle ends meet,\nthey are not to be above four or five fathoms long;\nbecause, if longer, they will break. Their chief use\nis for surprising out-works, or posts that have but nar-\nrow moats. In the memoirs of the royal academy of\nsciences we find an ingenious contrivance of a float-\ning-bridge, which lays itself on the other side of the\nriver."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v07_LETTERS_OF_EXONERATION",
+        "headword": "LETTERS OF EXONERATION",
+        "start_page": 78,
+        "end_page": 78,
+        "word_count": 41,
+        "volume_num": 7,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LETTERS OF EXONERATI...' starts with 'L' but volume 7 covers E-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Scots law, a writ or summons issued by authority of the court of judicature, at the instance of a panel, for citing witnesses to prove his defences, or his objections to any of the jury or witnesses cited against him.",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v07_EXECRATION",
+          "headword": "EXECRATION",
+          "start_page": 78,
+          "end_page": 78,
+          "word_count": 186,
+          "text_end": "uld be set up, or dedicated in them, which could be done in clean places; and, lastly, that the priests, as often as they prayed for the Athenian people, allies, armies, and fleets, should as many times detest and execrate Philip, his children, kingdom, land and sea forces, and the whole race and name of the Macedonians.\n\nAt the taking and demolishing of cities, it was usual amongst the Jews, Greeks, and Romans, to pronounce curses upon, and load with direful execrations, the rebuilders of them."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v06_LLENCHUS_s2",
+        "headword": "LLENCHUS",
+        "start_page": 594,
+        "end_page": 594,
+        "word_count": 32,
+        "volume_num": 6,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LLENCHUS...' starts with 'L' but volume 6 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in logic, by the Latins called argumen-\ntum and inquisitio, is a vicious or fallacious argument,\nwhich deceives under the appearance of a truth; the\nsame with what is otherwife called sophism.",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v06_ELEPHANTINE",
+          "headword": "ELEPHANTINE",
+          "start_page": 594,
+          "end_page": 595,
+          "word_count": 117,
+          "text_end": "he Nile stood the last Roman garrison (Notitia Imperii).\n\n**Elephantine**, in Roman antiquity, an appellation given to the books wherein were registered the transactions of the senate and magistrates of Rome, of the emperors or generals of armies, and even of the provincial magistrates; the births and deaths of the people, and other things relating to the census.\n\nThey are supposed to have been so called, as being made of leaves of ivory or elephants tusks.\n\n**ELEPHANTOMACHI.** See **Ethiopia**."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v11_LUES_VENEREA",
+        "headword": "LUES VENEREA",
+        "start_page": 306,
+        "end_page": 312,
+        "word_count": 7602,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LUES VENEREA...' starts with 'L' but volume 11 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or French Pox.\n\nSyphilis, Sauv. gen. 386. Lin. 6. Vog. 319.\nSag. 126.\n\nLues venerea, Boerh. 1440. Hoffm. III. 413. Junck. 96. Afric de lue Venerea.\n\nDr Astruc, who writes a very accurate history of the lues venerea, is fully convinced that it is a new disease, which never appeared in Europe till some time between the years 1494 and 1496, having been imported from America by the companions of Christopher Columbus; though this opinion is not without its opponents. Dr Sanches in particular has cont",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v11_WHEN_THE_PATIENT_CAN_BY_NO_OTHER",
+          "headword": "WHEN THE PATIENT CAN BY NO OTHER",
+          "start_page": 303,
+          "end_page": 306,
+          "word_count": 2661,
+          "text_end": "extent of four or five grains, and the dose gradually rising till it amount to 15 or 20 grains twice or thrice a day. Given to this extent, particularly when conjoined with the Peruvian bark, it has often been found of great service in scrofulous cases. At the same time it must be allowed, that such patients, after resisting every mode of cure, will have in some instances a spontaneous recovery in the progress of life, probably from the system acquiring additional vigour.\n\nGENUS LXXV. SYPHILIS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v12_MAGNETICAL_NEEDLES",
+        "headword": "MAGNETICAL NEEDLES",
+        "start_page": 856,
+        "end_page": 860,
+        "word_count": 2068,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'MAGNETICAL NEEDLES' starts with 'M' but is surrounded by 'N' articles (p.856) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in navigation, a needle touched with a lodestone, and sustained on a pivot or centre; on which playing at liberty, it directs itself to certain points in or under the horizon; whence the magnetic needle is of two kinds, viz. horizontal or inclinatory. See the article MAGNET.\n\nHorizontal needles are those equally balanced on each side of the pivot that sustains them; and which, playing horizontally with their two extremes, point out the north and south points of the horizon. For their application",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v12_NEEDLE",
+          "headword": "NEEDLE",
+          "start_page": 855,
+          "end_page": 856,
+          "word_count": 1743,
+          "text_end": "adjusted vertically by a plumb-line and button above the divided circle, and the dovetail work at the upper go; and the divisions on the circle are adjusted so as to be perpendicular to the horizon by the same plumb-line, and an adjoining screw; and when it is adjusted, a pointer annexed to a screw, which serves to move the divided circle, is fixed at the lowest go. Whenever the instrument is used to find the dip, it must be so placed that the needle may vibrate exactly in the magnetic meridian."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v13_MARCVS",
+        "headword": "MARCVS",
+        "start_page": 757,
+        "end_page": 757,
+        "word_count": 11,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MARCVS...' starts with 'M' but volume 13 covers N-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'MARCVS' starts with 'M' but is surrounded by 'P' articles (p.757) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "AVRELIVS. ANTONIVS. PIUS.\nFELIX. AVG. TRIB.\nPOT. V. COS. PROCOS. PANTHEVM.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v13_PANTHEISM",
+          "headword": "PANTHEISM",
+          "start_page": 756,
+          "end_page": 757,
+          "word_count": 561,
+          "text_end": "God, and all things divine and human being modifications of mere matter, the Stoics undoubtedly agreed with Anaximander and his followers; for the school of Zeno held but one substance. See Metaphysics, n° 265. This impious doctrine, that all things are God, and that there is but one substance, was revived in modern times by Spinoza, an apostate Jew. As we shall give a life of him and a view of his principles, we must refer the reader for a fuller account of Pantheism to Spinoza.\n\nSee also Pan."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v08_MDCCCLXXXIII",
+        "headword": "MDCCCLXXXIII",
+        "start_page": 356,
+        "end_page": 356,
+        "word_count": 123,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MDCCCLXXXIII...' starts with 'M' but volume 8 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "aged 58 years.\nThat he lived ornamental and useful\nTo society in an eminent degree\nWas among the boasted felicities\nOf the present age;\nThat he laboured for the benefit of society,\nLet his own pathetic admonitions\nRecord and realize.\n\n\"The hour is hastening, in which whatever praise\nor censure I have acquired will be remembered\nwith equal indifference. Time, who is impatient\nto date my last paper, will shortly moulder the\nhand which is now writing it in the dust, and still\nthe breath that now th",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v08_HAWKING",
+          "headword": "HAWKING",
+          "start_page": 356,
+          "end_page": 359,
+          "word_count": 2600,
+          "text_end": ", call her to your fist, and feed her with it; afterwards give her some of the feathers of the fowl's neck, to fower her, and make her caft.\n\nIf your hawk be a stately high-flying one, she ought not to take more than one flight in a morning; and if she be made for the river, let her not fly more than twice: when she is at the highest, take her down with your lure; and when she has plumbed and broken the fowl a little, feed her, by which means you will keep her a high-flyer, and fond of the lure."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v06_MECHANICAL_DIVISION",
+        "headword": "MECHANICAL DIVISION",
+        "start_page": 83,
+        "end_page": 84,
+        "word_count": 814,
+        "volume_num": 6,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MECHANICAL DIVISION...' starts with 'M' but volume 6 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "l Division signifies that separation which is occasioned in the parts of a body by help of mechanical instruments.—The mechanical division of bodies does\nDivision indeed separate them into smaller, homogeneous, similar parts; but this separation cannot extend to the primary integrant molecules of any body; and consequently is incapable of breaking what is properly called their aggregation: also, no union is formed betwixt the divided and dividing bodies, in which respect division essentially dif",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v06_DIVISION",
+          "headword": "DIVISION",
+          "start_page": 83,
+          "end_page": 83,
+          "word_count": 12,
+          "text_end": "in general, is the separating a thing into two or more parts."
+        },
+        "semantic": {
+          "article_id": "1797_v06_DIVISION",
+          "headword": "DIVISION",
+          "start_page": 83,
+          "end_page": 83,
+          "word_count": 12,
+          "text_end": "in general, is the separating a thing into two or more parts."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v17_MECHANICS",
+        "headword": "MECHANICS",
+        "start_page": 864,
+        "end_page": 867,
+        "word_count": 4072,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MECHANICS...' starts with 'M' but volume 17 covers S-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'MECHANICS' starts with 'M' but is surrounded by 'S' articles (p.864) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "there has appeared (Phil. Trans. 1794)\na demonstration by Mr Vince, which we think unexcep-\ntionable, and of such simplicity that it is astonishing\nthat it has not occurred to any person who thinks on\nthe subject. Our readers will not be displeased with\nan account of it.\n\nLet AE (fig. 2.) be a mathematical lever, or in-\nflexible straight line, resting on the prop A, and sup-\nported at E by a force acting upwards. Let two equal\nweights b and d be hung on at B and D, equidistant\nfrom A and E. Pres",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v17_STEEL",
+          "headword": "STEEL",
+          "start_page": 861,
+          "end_page": 864,
+          "word_count": 2887,
+          "text_end": "ather ca-\npable of absorbing it, as calcareous earth or quicklime.\nBy a cementation with calcareous earth, continued\nduring eight or ten hours, steel is reduced to the\nstate of iron. After it has been tempered, it may be\nagain untempered, and softened to any degree that we\nthink proper; for which purpose we have only to heat\nit more or less, and to let it cool slowly. By this me-\nthod we may soften the hardest-tempered steel.\n\nSTEEL-BOW Tenants. See TENURE.\n\nSalt of STEEL. See CHEMISTRY, p. 697."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v04_METALS_s11",
+        "headword": "METALS",
+        "start_page": 673,
+        "end_page": 673,
+        "word_count": 22,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'METALS...' starts with 'M' but volume 4 covers C-C",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "{Gold, Silver, Lead, Tin, Copper, and Iron, as above.\n{Platina. This mixture changes its colour much on being exposed to the air.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1797_v06_MOE",
+        "headword": "MOE",
+        "start_page": 24,
+        "end_page": 24,
+        "word_count": 122,
+        "volume_num": 6,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MOE...' starts with 'M' but volume 6 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or mo. adj. An obsolete term still employed in the Scotch dialect, and by them pronounced mae; denoting a greater number, and nearly synonymous with more; but it differs in this respect, that in the Scotch dialect, mae and main (English more) are each employed in their distinct sphere, without encroaching upon one another; mae being employed to denote number, but never quantity or quality; and main, to denote quantity and quality, but never number: thus they say mae, not main, apples, men, &c.,",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1797_v06_DIDACTIC",
+          "headword": "DIDACTIC",
+          "start_page": 24,
+          "end_page": 25,
+          "word_count": 84,
+          "text_end": "in the schools, signifies the manner of speaking or writing, adapted to teach or explain the\nDidapper, the nature of things.—The word is formed from the Didelphis Greek διδάσκω, δοκεῖ, \"I teach.\"\n\nThere are many words that are only used in the didactic and dogmatic way; and there are many works, ancient and modern, both in prose and verse, written after this method; such as the Georgics of Virgil, Lucretius's poem De Rerum Natura, and Pope's Essays on Criticism and on Man, &c. &c."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

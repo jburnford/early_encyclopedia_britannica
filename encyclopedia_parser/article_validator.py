@@ -19,6 +19,7 @@ class IssueType(str, Enum):
     SENTENCE_FRAGMENT = "sentence_fragment"
     STRUCTURAL_MARKER = "structural_marker"
     OUT_OF_RANGE = "out_of_range"
+    ALPHABETICAL_BREAK = "alphabetical_break"  # Article breaks alphabetical sequence
     TOO_SHORT = "too_short"
     TOO_LONG = "too_long"
     OCR_ERROR = "ocr_error"

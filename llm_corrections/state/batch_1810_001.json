@@ -1,0 +1,1599 @@
+{
+  "edition_year": 1810,
+  "batch_num": 1,
+  "total_batches": 40,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1810_v17_ABSOLUTE_IMPULSE",
+        "headword": "ABSOLUTE IMPULSE",
+        "start_page": 382,
+        "end_page": 382,
+        "word_count": 350,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABSOLUTE IMPULSE...' starts with 'A' but volume 17 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABSOLUTE IMPULSE' starts with 'A' but is surrounded by 'R' articles (p.382) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e impulse means the actual pressure on the impelled surface, arising from the action of the fluid, whether striking the surface perpendicularly or obliquely; or it is the force impressed on the surface, or tendency to motion which it acquires, and which must be opposed by an equal force in the opposite direction, in order that the surface may be maintained in its place. It is of importance to keep in mind, that this pressure is always perpendicular to the surface. It is a proposition founded on",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESISTANCE",
+          "headword": "RESISTANCE",
+          "start_page": 378,
+          "end_page": 381,
+          "word_count": 3394,
+          "text_end": "therefore, we shall demonstrate anything concerning the impulsion of a fluid, estimated in the direction of its motion, we must consider it as demonstrated concerning the resistance of a quiescent fluid to the motion of that body, having the same velocity in the opposite direction. The determination of these impulsions being much easier than the determination of the motions communicated by the body to the particles of the fluid, this method will be followed in most of the subsequent discussions."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v10_ACACIA",
+        "headword": "ACACIA",
+        "start_page": 337,
+        "end_page": 343,
+        "word_count": 2615,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACACIA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACACIA' starts with 'A' but is surrounded by 'H' articles (p.337) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "insipidated juice of, Acid, nitric, muriatic, red acetous, white acetous, distilled acetous, acetic, sulphuric, highly concentrated, nitric, highly concentrated, fluoric, formic, phosphoric, citric, arsenic, of oranges, of gooseberries, of grapes, Aetynolite, glassy, Ether, sulphuric, nitric, muriatic, acetic, Agate, oriental, onyx, speckled, cloudy, Kirwan.\n| Substance                                      | Specific Gravity |\n|------------------------------------------------|------------------|",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v14_ACCORDING_TO_SOME_AUTHORS_THE_WORD_MUSULMAN",
+        "headword": "ACCORDING TO SOME AUTHORS THE WORD MUSULMAN",
+        "start_page": 177,
+        "end_page": 178,
+        "word_count": 693,
+        "volume_num": 14,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACCORDING TO SOME AU...' starts with 'A' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "g to some authors the word Musulman signifies saved, that is, predestinated; and hence the Mahometans give themselves the appellation, as believing they are all predestinated to salvation.—Martinius is more particular as to the origin of the name; which he derives from the Arabic مسلم, mufalem, \"saved, snatched out of danger;\" the Mahometans, he observes, establishing their religion by fire and sword, massacred all those who would not embrace it, and granted life to all that did, calling them Mu",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v14_REMARK_s2",
+          "headword": "REMARK",
+          "start_page": 150,
+          "end_page": 175,
+          "word_count": 7924,
+          "text_end": "in any number of parts, will be found to be by no means difficult. See Ex. cix. and cx.\n\n(5 n) Yet there may be two fifths in succession, provided the parts move in contrary directions, or, in other words, if the progress of one part be ascending, and the other descending; but in this case they are not properly two fifths, they are a fifth and a twelfth; for example, if one of the parts in descending should found F D, and the other 'c a' in rising, C is the fifth of F, and 'a' the twelfth of D."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v12_ADDENDUM",
+        "headword": "ADDENDUM",
+        "start_page": 427,
+        "end_page": 433,
+        "word_count": 3054,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ADDENDUM...' starts with 'A' but volume 12 covers I-L",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADDENDUM' starts with 'A' but is surrounded by 'D' articles (p.427) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The following was omitted among the preparations of iron.\n\ng. Carbonas Ferri præcipitatus, E. Precipitated carbonate of iron.\n\nPrepared by decomposing a solution of sulphate of iron by a solution of carbonate of soda; washing and drying the precipitate.\n\nSimilar in its virtues to 961. Dose five to 30 grains.\n\nThe space allotted to this article was so small, and the time for preparing it so short, that it is, of necessity, much less full and complete than it might otherwise have been. As it was i",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_AIKENSIDE",
+        "headword": "AIKENSIDE",
+        "start_page": 417,
+        "end_page": 419,
+        "word_count": 1513,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AIKENSIDE...' starts with 'A' but volume 17 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AIKENSIDE' starts with 'A' but is surrounded by 'R' articles (p.417) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Mankind in general would willingly dispense with these troublesome visits of the dead. To prevent the return of the zumbi or the ghost, some nations of Africa use many superstitious rites; and Kolben tells us, * Voyage to Angola, that the frightened Hottentots leave in the hut where a Congo and person has died all the utensils and furniture, lest the angry ghost, incensed at their avarice, should haunt them in their dreams, and infest them in the night. Divines and moralists have laboured to sho",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESURRECTION",
+          "headword": "RESURRECTION",
+          "start_page": 416,
+          "end_page": 417,
+          "word_count": 1481,
+          "text_end": "o rise;\nThey open often, often snuff the air,\nAs if they prest the footsteps of the deer;\nAnd sometimes wak'd, pursue their fancy'd prey,\nThe fancy'd deer, that seem to run away,\nTill quite awak'd, the follow'd shapes decay.\n\nAnd foster curs, that lie and sleep at home,\nDo often roufe, and walk about the room,\nAnd bark, as if they saw some strangers come.\nAnd birds will start, and seek the woods, by night,\nWhene'er the fancy'd hawk appears in flight,\nWhene'er they see his wing or hear him fight."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v14_AMPUTATION_IS_NOT_THE_ONLY",
+        "headword": "AMPUTATION IS NOT THE ONLY",
+        "start_page": 178,
+        "end_page": 178,
+        "word_count": 329,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMPUTATION IS NOT TH...' starts with 'A' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "n is not the only means of accomplishing this end. Formerly, the growth of the testicles was prevented, and their organization destroyed by simple rubbing, while the child was put into a warm bath made of a decoction of plants. Some pretend that by this species of castration the life is in no danger. Amputation of the testicles is not attended with much danger; but complete amputation of the external parts of generation is often fatal. This operation can only be performed on children from seven",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v14_ACCORDING_TO_SOME_AUTHORS_THE_WORD_MUSULMAN",
+          "headword": "ACCORDING TO SOME AUTHORS THE WORD MUSULMAN",
+          "start_page": 177,
+          "end_page": 178,
+          "word_count": 693,
+          "text_end": "e who have nothing in view but the improvement of a vain talent, or the formation of a voice which disfigures nature, as was the case formerly in Italy, are contented with cutting away the testicles. But in some countries of Asia, especially among the Turks, and in a part of Africa, those whom jealousy inspires with distrust would not think their wives safe in the custody of such eunuchs: They employ no slaves in their seraglios who have not been deprived of all the external parts of generation."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v18_AMUSEMENTS_OF_SCIENCE_s7",
+        "headword": "AMUSEMENTS OF SCIENCE",
+        "start_page": 176,
+        "end_page": 191,
+        "word_count": 1305,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMUSEMENTS OF SCIENC...' starts with 'A' but volume 18 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AMUSEMENTS OF SCIENCE' starts with 'A' but is surrounded by 'S' articles (p.176) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The syringe B (fig. 67.), in the following manner. The ball c is screwed quite close in the top of the syringe at b, at the end of the steel pointed rod; a is a stout ring through which passes the rod k: upon this rod the feet are commonly placed, then the hands are to be applied to the two handles i i, fixed on the side of the barrel of the syringe. Now by moving the barrel B steadily up and down on the rod a, the ball c will become charged with condensed air; and it may be easily known when th",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v19_ANALYSIS_OF_STONES_s4",
+        "headword": "ANALYSIS OF STONES",
+        "start_page": 354,
+        "end_page": 356,
+        "word_count": 1173,
+        "volume_num": 19,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANALYSIS OF STONES...' starts with 'A' but volume 19 covers R-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ANALYSIS OF STONES' starts with 'A' but is surrounded by 'S' articles (p.354) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "&c.\n\nBarytic being washed and dried, weighed 185 grains, but after ignition, only 180 grains.\n\nOne hundred parts of this mineral are therefore composed of:\n\n- Sulphate of barytes D: 92\n- Silica B: 9\n- C: 1\n\n100 *\n\n7. STRONTIAN Genus.\n\nAnalysis of Carbonate of Strontites.\n\nThis mineral was analyzed by Kluproth, in the following manner.\n\nA. 100 parts were dissolved in muriatic acid, diluted with half its quantity of water. Thirty parts of carbonic acid were driven off during the solution, which be",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v09_ANNUALS",
+        "headword": "ANNUALS",
+        "start_page": 69,
+        "end_page": 69,
+        "word_count": 362,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANNUALS...' starts with 'A' but volume 9 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "when sown, No. 51, 76, 100, 101, 154\n\nApple trees, when pruned, 38\n\nApples, when gathered, 249\n\ndifferent kinds of, 251\n\nApricots, different kinds of, 250\n\nArtichokes, when earthered up, 31\n\nwhen dressed and planted, 136, 137\n\nJerusalem, when planted, 143\n\nAsparagus, how sown and managed, 133\n\nbeds dressed, 248\n\nB.\n\nBeans, when sown, 23\n\nwhen earthered up, 30\n\nearly kidney, 66\n\nfull crop of, 185\n\nBlanch endive, 29\n\nBulbous roots, how protected in beds, 49\n\nwhen planted, 50\n\nwhen taken up, 205\n\nC",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v07_ARCHITECTO_ROBERTO_ADAM",
+        "headword": "ARCHITECTO ROBERTO ADAM",
+        "start_page": 140,
+        "end_page": 150,
+        "word_count": 10961,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARCHITECTO ROBERTO A...' starts with 'A' but volume 7 covers D-E",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARCHITECTO ROBERTO ADAM' starts with 'A' but is surrounded by 'E' articles (p.140) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Q. F. F. Q. S.\n\nThe east and west fronts of this pile are to extend 255 feet, and the south and north 358. There are to be houses for the principal and six or seven of the professors. The library is to be a room of 160 feet in length; the museum for natural curiosities is to be of the same extent; and the dimensions of the hall for degrees and public exercises are about 90 feet by 30. There are likewise to be an elegant and most convenient anatomical theatre; a chemical laboratory; and large roo",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASSUS",
+        "headword": "ASSUS",
+        "start_page": 8,
+        "end_page": 8,
+        "word_count": 122,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASSUS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or Assos, in Ancient Geography, a town of Troas (though by others supposed to be of Mytilene), and the same with Apollonia (Pliny); but different from the Apollonia on the river Rhynchus. Ptolemy places it on the sea-coast, but Strabo more inland; if he does not mean the head of an inland bay, as appears from Diodorus Siculus. It was the country of Clearchus, the Stoic philosopher, who succeeded Zeno. St Luke and others of St Paul's companions, in his voyage (Acts xx. 13, 14.), went by sea from",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASSYRIA",
+        "headword": "ASSYRIA",
+        "start_page": 8,
+        "end_page": 9,
+        "word_count": 980,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASSYRIA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an ancient kingdom of Asia, concerning the extent, commencement, and duration of which, historians differ greatly in their accounts. Several ancient writers, in particular Ctesias and Diodorus Siculus, have affirmed, that the Assyrian monarchy, under Ninus and Semiramis, comprehended the greater part of the known world. Had this been the case, it is not likely that Homer and Herodotus would have omitted a fact so remarkable. The sacred records intimate, that none of the ancient states or kingdom",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTABAT",
+        "headword": "ASTABAT",
+        "start_page": 9,
+        "end_page": 9,
+        "word_count": 74,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTABAT...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a town of Armenia, in Asia, situated near the river Aras, 12 miles south of Nakhivan. The land about it is excellent, and produces very good wine. There is a root peculiar to this country, called romas; which runs in the ground like liquorice, and serves for dyeing red. It is very much used all over the Indies, and in it they have a great trade. E. Long. 46° 30', N. Lat. 39° 0'.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASSYRIA",
+          "headword": "ASSYRIA",
+          "start_page": 8,
+          "end_page": 9,
+          "word_count": 980,
+          "text_end": "nnals of ancient nations. We hear\nAST\n\nAssyriam hear no more of the kings of Assyria, but of those of Babylon. Cyaxares king of Media assisted Nebuchadnezzar king of Babylon, in the siege of Nineveh, which they took and destroyed, B.C. 606. The Chaldean or Babylonian kingdom was transferred to the Medes, after the reign of Nabonadius, son of Evil-merodach, and grandson of Nebuchadnezzar. He is styled Belshazzar in the sacred records, and was conquered by Cyrus, B.C. 538.\n\nASSYRIAM. See Assyriam."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTANDA",
+        "headword": "ASTANDA",
+        "start_page": 9,
+        "end_page": 9,
+        "word_count": 32,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTANDA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Antiquity, a royal courier or messenger, the same with Angarus.—King Darius of Persia is said by Plutarch, in his book on the fortune of Alexander, to have formerly been an astanda.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTABAT",
+          "headword": "ASTABAT",
+          "start_page": 9,
+          "end_page": 9,
+          "word_count": 74,
+          "text_end": "a town of Armenia, in Asia, situated near the river Aras, 12 miles south of Nakhivan. The land about it is excellent, and produces very good wine. There is a root peculiar to this country, called romas; which runs in the ground like liquorice, and serves for dyeing red. It is very much used all over the Indies, and in it they have a great trade. E. Long. 46° 30', N. Lat. 39° 0'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTAROTH",
+        "headword": "ASTAROTH",
+        "start_page": 9,
+        "end_page": 9,
+        "word_count": 220,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTAROTH...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or Ashtaroth, in Antiquity, a goddess of the Sidonians.—The word is Syriac, and signifies sheep, especially when their udders are turgid with milk. From the fecundity of these animals, which in Syria continue to breed a long time, they formed the notion of a deity, whom they called Astarte, or Ashlarite. See Astarte.\n\nAstarte, in Ancient Geography, the royal residence of Og king of Bashan; whether the same with Altaroth Carnaim, is matter of doubt: if one and the same, it follows from Eusebius's",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTANDA",
+          "headword": "ASTANDA",
+          "start_page": 9,
+          "end_page": 9,
+          "word_count": 32,
+          "text_end": "in Antiquity, a royal courier or messenger, the same with Angarus.—King Darius of Persia is said by Plutarch, in his book on the fortune of Alexander, to have formerly been an astanda."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTEISM",
+        "headword": "ASTEISM",
+        "start_page": 9,
+        "end_page": 9,
+        "word_count": 49,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTEISM...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Rhetoric, a genteel irony, or handsome way of deriding another. Such, e.g.: is that of Virgil:\n\nQui Bavium non odi, amet tua carmina, Mavi, &c.\n\nDiomed places the characteristic of this figure, or species of irony, in that it is not gross and rustic, but ingenious and polite.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTAROTH",
+          "headword": "ASTAROTH",
+          "start_page": 9,
+          "end_page": 9,
+          "word_count": 220,
+          "text_end": "cted an altar to her. In the reign of Ahab, Jezebel caused her worship to be performed with much pomp and ceremony: she had 400 priests; the women were employed in weaving hangings or tabernacles for her; and Jeremiah observes, that \"the children gathered the wood, the fathers kindled the fire, and the women kneaded the dough, to make cakes for the queen of heaven.\"\n\nAstarte, in Ancient Geography, a city on the other side Jordan; one of the names of Rabbath Ammon, in Arabia Petraea, (Stephanus)."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTELL",
+        "headword": "ASTELL",
+        "start_page": 9,
+        "end_page": 10,
+        "word_count": 562,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTELL...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Mary, an English lady who was an eminent writer, was born at Newcastle upon Tyne in the year 1668. Her father, who was a merchant, committed the education of his daughter to her uncle, who was a clergyman. Convicted of the general injury done to young ladies at that period by the deficiency of their education, he taught her the Latin and French languages, and instructed her in the principles of logic, mathematics, and natural philosophy. Having spent 20 years of her life in Newcastle, she retire",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTEISM",
+          "headword": "ASTEISM",
+          "start_page": 9,
+          "end_page": 9,
+          "word_count": 49,
+          "text_end": "in Rhetoric, a genteel irony, or handsome way of deriding another. Such, e.g.: is that of Virgil:\n\nQui Bavium non odi, amet tua carmina, Mavi, &c.\n\nDiomed places the characteristic of this figure, or species of irony, in that it is not gross and rustic, but ingenious and polite."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERABAD",
+        "headword": "ASTERABAD",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 101,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERABAD...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a province in the north-east part of Persia, having Tabristan on the east, part of the Caspian sea and part of Jorjan on the north, Korasan on the west, and Koumas on the south. It is a mountainous country, except near the banks of the rivers that almost surround it, where it is pleasant and fruitful, producing grapes of a prodigious size. In other parts the soil is sandy and barren. Afterabad is the chief town, which gives name to a gulf in the Persian sea, at the bottom of which it stands. E.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTELL",
+          "headword": "ASTELL",
+          "start_page": 9,
+          "end_page": 10,
+          "word_count": 562,
+          "text_end": "ed, that about a century ago a lady informed the public by her pen, that \"women, who ought to be retired, are for this reason designed for speculation,\" and that \"great improvements might be made in the sciences, were not women enviously excluded from their proper business.\" Deeming her time more valuable than to be walled by trifling visitors, and abhorring the practice of\nof teaching servants to lie, she would humorously accost such visitors by saying, \"Mrs Attell is not at home.\" (Gen. Biog.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERIA",
+        "headword": "ASTERIA",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 519,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERIA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Zoology, a name by which some authors have called the Falco palumbarius, or gyrfalcon. See Falco, Ornithology Index.\n\nASTERIA is also the name of a gem, usually called the cat's eye, or oculus cati. It is a very singular and very beautiful stone, and somewhat approaches to the nature of the opal, in having a bright included colour, which seems to be lodged deep in the body of the stone, and shifts about, as it is moved, in various directions; but it differs from the opal in all other particul",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERABAD",
+          "headword": "ASTERABAD",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 101,
+          "text_end": "rt of Persia, having Tabristan on the east, part of the Caspian sea and part of Jorjan on the north, Korasan on the west, and Koumas on the south. It is a mountainous country, except near the banks of the rivers that almost surround it, where it is pleasant and fruitful, producing grapes of a prodigious size. In other parts the soil is sandy and barren. Afterabad is the chief town, which gives name to a gulf in the Persian sea, at the bottom of which it stands. E. Long. 54° 35'. N. Lat. 36° 50'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERIAS",
+        "headword": "ASTERIAS",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 10,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERIAS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the ancient name of the bittern. See Ardea, Ornithology Index.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERIA",
+          "headword": "ASTERIA",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 519,
+          "text_end": "ly perceivable in the astrotites, but is signal in the asteria. The former must be broken in small pieces before it will move; but the latter will move, not only in a whole joint, but in two or three knit together. The curious frequently meet with these stones in many parts of England: at Cleydon in Oxfordshire they are found rather larger than common, but of a softer substance; for, on being left a small space of time in a strong acid, they may easily be separated at the joints in small plates."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERISK",
+        "headword": "ASTERISK",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 30,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERISK...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a mark in form of a star (*), placed over a word or sentence, to refer the reader to the margin, or elsewhere, for a quotation, explanation, or the like.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERIAS",
+          "headword": "ASTERIAS",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 10,
+          "text_end": "the ancient name of the bittern. See Ardea, Ornithology Index."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERIUS",
+        "headword": "ASTERIUS",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 54,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERIUS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or Asturius, a Roman consul, in 449. We have under his name, \"A Conference on the Old and New Testament,\" in Latin verse: in which each strophe contains, in the first verse, an historical fact in the Old Testament; and in the second, an application of that fact to some point in the New.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERISK",
+          "headword": "ASTERISK",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 30,
+          "text_end": "a mark in form of a star (*), placed over a word or sentence, to refer the reader to the margin, or elsewhere, for a quotation, explanation, or the like."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTERN",
+        "headword": "ASTERN",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 26,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERN...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a sea-phrase, used to signify any thing at some distance behind the ship; being the opposite of AHEAD, which signifies the space before her. See AHEAD.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERIUS",
+          "headword": "ASTERIUS",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 54,
+          "text_end": "or Asturius, a Roman consul, in 449. We have under his name, \"A Conference on the Old and New Testament,\" in Latin verse: in which each strophe contains, in the first verse, an historical fact in the Old Testament; and in the second, an application of that fact to some point in the New."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTEROPODIUM",
+        "headword": "ASTEROPODIUM",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 29,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTEROPODIUM...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a kind of extraneous fossil of the same substance with the asteria or star-stones, to which they serve as a base. See ASTERIA and STONE.\n\nASTHMA. See Medicine Index.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTERN",
+          "headword": "ASTERN",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 26,
+          "text_end": "a sea-phrase, used to signify any thing at some distance behind the ship; being the opposite of AHEAD, which signifies the space before her. See AHEAD."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTI",
+        "headword": "ASTI",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 96,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTI...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a city of Montferrat in Italy, seated on the Tanaro, and capital of the county of the same name. It is a bishop's see, and well fortified with strong walls and deep ditches; and is divided into the city, borough, citadel, and castle. There are a great many churches and convents, as well as other handsome buildings; and its territory is well watered, abounding with groves, pleasant hills, and spacious fields. It was taken by the French in 1745, and retaken by the king of Sardinia in 1746. E. Long",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTEROPODIUM",
+          "headword": "ASTEROPODIUM",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 29,
+          "text_end": "a kind of extraneous fossil of the same substance with the asteria or star-stones, to which they serve as a base. See ASTERIA and STONE.\n\nASTHMA. See Medicine Index."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTIGI",
+        "headword": "ASTIGI",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 41,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTIGI...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Ancient Geography, a colony, and conventus juridicus, of Baetica, fumigated Augusta Firma, situated on the Singulus, which falls into the Baetis; called also Colonia Adigitana (Pliny): Now Ecija, midway between Seville and Cordova. W. Long. 5° N. Lat. 37° 20'.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTI",
+          "headword": "ASTI",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 96,
+          "text_end": "aly, seated on the Tanaro, and capital of the county of the same name. It is a bishop's see, and well fortified with strong walls and deep ditches; and is divided into the city, borough, citadel, and castle. There are a great many churches and convents, as well as other handsome buildings; and its territory is well watered, abounding with groves, pleasant hills, and spacious fields. It was taken by the French in 1745, and retaken by the king of Sardinia in 1746. E. Long. 8° 15'. N. Lat. 54° 50'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTOMI",
+        "headword": "ASTOMI",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 31,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTOMI...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Anthropology, a people feigned without mouths. Pliny speaks of a nation of Astomi in India who lived only by the smell or effluvia of bodies taken in by the nose.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTIGI",
+          "headword": "ASTIGI",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 41,
+          "text_end": "in Ancient Geography, a colony, and conventus juridicus, of Baetica, fumigated Augusta Firma, situated on the Singulus, which falls into the Baetis; called also Colonia Adigitana (Pliny): Now Ecija, midway between Seville and Cordova. W. Long. 5° N. Lat. 37° 20'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTORGA",
+        "headword": "ASTORGA",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 57,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTORGA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a very ancient city of Spain, in the kingdom of Leon, with a bishop's see, is seated on the river Tuerta, and well fortified both by art and nature. It stands in a most agreeable plain, about 150 miles north-west of Madrid. There are excellent trouts in the river. W. Long. 6° 20'. N. Lat. 42° 20'.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTOMI",
+          "headword": "ASTOMI",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 31,
+          "text_end": "in Anthropology, a people feigned without mouths. Pliny speaks of a nation of Astomi in India who lived only by the smell or effluvia of bodies taken in by the nose."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRACAN",
+        "headword": "ASTRACAN",
+        "start_page": 10,
+        "end_page": 12,
+        "word_count": 1409,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRACAN...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a province of Russia, and the most easterly part of Europe; bounded on the north by Bulgaria and Bashkiria; on the south by the Caspian sea; on the west, by the Volga, which divides it from the Nogayan Tartars and Don Cossacks; and on the east, by the great ridge of mountains which part it from Great Tartary. The province extends from the 46th to the 52d degree of latitude. The summer is long, and intensely hot: the winter continues about three months.\nAstracan, months so severe, that the Volga",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTORGA",
+          "headword": "ASTORGA",
+          "start_page": 10,
+          "end_page": 10,
+          "word_count": 57,
+          "text_end": "a very ancient city of Spain, in the kingdom of Leon, with a bishop's see, is seated on the river Tuerta, and well fortified both by art and nature. It stands in a most agreeable plain, about 150 miles north-west of Madrid. There are excellent trouts in the river. W. Long. 6° 20'. N. Lat. 42° 20'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRAEA",
+        "headword": "ASTRAEA",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 71,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRAEA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Astronomy, a name which some give\nto the sign Virgo, by others called Erigone, and some-\ntimes Isis. The poets feign that justice quitted hea-\nven to reside on earth, in the golden age; but, grow-\ning weary of the iniquities of mankind, she left the\nearth, and returned to heaven, where she commenced\na constellation of stars, and from her orb still looks\ndown on the ways of men.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRACAN",
+          "headword": "ASTRACAN",
+          "start_page": 10,
+          "end_page": 12,
+          "word_count": 1409,
+          "text_end": "perance, the guests drink a kind of cherry-\nbrandy out of large goblets; and every person invited\nthrows a present of money into the bed of the mother,\nwho sits up with great formality to be saluted by the\ncompany.\n\nThe Indians have a Pagan temple at Astracan, in\nwhich they pay their adoration, and make offerings of\nfruit to a very ugly deformed idol. The priests of this\npagod use incense, beads, cups, and prostrations. The\nTartars, on the contrary, hold idol-worship in the ut-\nmost abomination."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRAGAL_s2",
+        "headword": "ASTRAGAL",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 16,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRAGAL...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Gunnery, a round moulding encom-\npassing a cannon, about half a foot from its mouth.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRAEA",
+          "headword": "ASTRAEA",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 71,
+          "text_end": "in Astronomy, a name which some give\nto the sign Virgo, by others called Erigone, and some-\ntimes Isis. The poets feign that justice quitted hea-\nven to reside on earth, in the golden age; but, grow-\ning weary of the iniquities of mankind, she left the\nearth, and returned to heaven, where she commenced\na constellation of stars, and from her orb still looks\ndown on the ways of men."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRAGALOMANCY",
+        "headword": "ASTRAGALOMANCY",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 52,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRAGALOMANCY...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a species of divination per-\nformed by throwing small pieces, with marks corre-\nsponding to the letters of the alphabet; the acciden-\ntal disposition of which formed the answer required.\nThis kind of divination was practised in a temple of\nHercules, in Achaia. The word is derived from\nἀστραγάλος, and μαντεία, divination.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRAGAL_s2",
+          "headword": "ASTRAGAL",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 16,
+          "text_end": "in Gunnery, a round moulding encom-\npassing a cannon, about half a foot from its mouth."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRAGALUS",
+        "headword": "ASTRAGALUS",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 11,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRAGALUS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "MILK-VETCH, or LIQUORICE-\nVETCH. See Botany Index.\n\nASTRAGALUS. See Anatomy Index.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRAGALOMANCY",
+          "headword": "ASTRAGALOMANCY",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 52,
+          "text_end": "a species of divination per-\nformed by throwing small pieces, with marks corre-\nsponding to the letters of the alphabet; the acciden-\ntal disposition of which formed the answer required.\nThis kind of divination was practised in a temple of\nHercules, in Achaia. The word is derived from\nἀστραγάλος, and μαντεία, divination."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRINGENTS",
+        "headword": "ASTRINGENTS",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 49,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRINGENTS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the Materia Medica, sub-\nstances distinguished by a rough astringent taste, and\nchanging solutions of iron, especially those made in the\nvitriolic acid, into a dark purple or black colour; such\nare galls, tormentil root, bitrot root, balantines, ter-\nra japonica, acacia, &c. See Materia Medica In-\ndex.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRAGALUS",
+          "headword": "ASTRAGALUS",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 11,
+          "text_end": "MILK-VETCH, or LIQUORICE-\nVETCH. See Botany Index.\n\nASTRAGALUS. See Anatomy Index."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROGNOSIA",
+        "headword": "ASTROGNOSIA",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 16,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROGNOSIA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the science of the fixed stars,\nor the knowledge of their names, constellations, mag-\nnitudes, &c.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRINGENTS",
+          "headword": "ASTRINGENTS",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 49,
+          "text_end": "in the Materia Medica, sub-\nstances distinguished by a rough astringent taste, and\nchanging solutions of iron, especially those made in the\nvitriolic acid, into a dark purple or black colour; such\nare galls, tormentil root, bitrot root, balantines, ter-\nra japonica, acacia, &c. See Materia Medica In-\ndex."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROITES",
+        "headword": "ASTROITES",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 11,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROITES...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or STAR-STONE, in Natural His-\ntory. See ASTERIA and STAR STONE.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTROGNOSIA",
+          "headword": "ASTROGNOSIA",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 16,
+          "text_end": "the science of the fixed stars,\nor the knowledge of their names, constellations, mag-\nnitudes, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROLABE_s2",
+        "headword": "ASTROLABE",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 10,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROLABE...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "among the Ancients, was the same as\nour armillary sphere.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTROITES",
+          "headword": "ASTROITES",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 11,
+          "text_end": "or STAR-STONE, in Natural His-\ntory. See ASTERIA and STAR STONE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROLOGY",
+        "headword": "ASTROLOGY",
+        "start_page": 12,
+        "end_page": 12,
+        "word_count": 419,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROLOGY...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a conjectural science, which teach-\nes to judge of the effects and influences of the stars,\nand to foretell future events by the situation and diffe-\nrent aspects of the heavenly bodies.\n\nThis science has been divided into two branches, na-\ntural and judiciary. To the former belongs the pre-\ndicting of natural effects; as, the changes of weather,\nwinds, storms, hurricanes, thunder, floods, earthquakes,\n&c. This art properly belongs to natural philosophy;\nand is only to be deduced à posteriori, f",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTROLABE_s2",
+          "headword": "ASTROLABE",
+          "start_page": 12,
+          "end_page": 12,
+          "word_count": 10,
+          "text_end": "among the Ancients, was the same as\nour armillary sphere."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRONOMY_s10",
+        "headword": "ASTRONOMY",
+        "start_page": 167,
+        "end_page": 240,
+        "word_count": 26032,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRONOMY...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Of calculating the sun and moon falls, according to equal time by using the tables; and the point \\( y \\) is the ecliptical conjunction of the sun and moon.\n\nTake the moon's true horary motion from the sun, 27° 54', in your compasses, from the scale CA (every division of which is a minute of a degree), and with that extent make marks along the path of the penumbra's centre; and divide each space from mark to mark into 60 equal parts or horary minutes, by dots; and set the hours to every 60th min",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_EXAMPLE_VII",
+          "headword": "EXAMPLE VII",
+          "start_page": 163,
+          "end_page": 167,
+          "word_count": 3617,
+          "text_end": "in your compasses, and set it from i to x in the bisecting line Cx, making it parallel to Cy; and through x, at right angles to the axis of the moon's orbit CM, drawn the straight line N wxy S for the path of the penumbra's centre over the earth's disk.—The point w, in the axis of the moon's orbit, is that where the penumbra's centre approaches nearest to the centre of the earth's disk, and consequently in the middle of the general eclipses: the point x is that where the conjunction...\nAppendix."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROPE_WELLS",
+        "headword": "ASTROPE WELLS",
+        "start_page": 240,
+        "end_page": 241,
+        "word_count": 36,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROPE WELLS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "near Banbury in Oxfordshire, are recommended as excellent in many disorders. The water is a brisk, nutritious, pleasant-tasted chalybeate, and is also gently purgative. It should be drank from three to five quarts in the forenoon.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRONOMY_s10",
+          "headword": "ASTRONOMY",
+          "start_page": 167,
+          "end_page": 240,
+          "word_count": 26032,
+          "text_end": "astronomers, 68\nDunn, Mr, his account of them, 69\nappearances of the luminous clouds, 72—76\ntwo regions of clouds, 77\ntheory of phenomena, 78\neclipses, 103\nbeginning and ending, 108\naccount of one by Dr Halley, 124\nhis place in the universe, 224\ncentre attracts all bodies, 348\nmoves round the common centre of gravity, 364\nSynodic of the moon, 90\nStars, fixed, number increased by telescopes, 192\ndifference in magnitude, 193\ntelescopic, 194\nuniformed, 195\ndivision in constellations, and uses, 196"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTROSCOPE",
+        "headword": "ASTROSCOPE",
+        "start_page": 241,
+        "end_page": 241,
+        "word_count": 51,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTROSCOPE...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a kind of astronomical instrument, composed of two cones, on whose surface the constellations, with their stars, are delineated, by means whereof the stars may be easily known. The astroscope is the invention of William Schuckhard, formerly professor of mathematics at Tubingen, who published a treatise expressly on it in 1668.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTROPE_WELLS",
+          "headword": "ASTROPE WELLS",
+          "start_page": 240,
+          "end_page": 241,
+          "word_count": 36,
+          "text_end": "near Banbury in Oxfordshire, are recommended as excellent in many disorders. The water is a brisk, nutritious, pleasant-tasted chalybeate, and is also gently purgative. It should be drank from three to five quarts in the forenoon."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTRUC",
+        "headword": "ASTRUC",
+        "start_page": 241,
+        "end_page": 242,
+        "word_count": 442,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTRUC...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "John, a celebrated physician, was born in the year 1684, at the little town of Savoy, in the province of Languedoc. His father, who was a Protestant clergyman, bestowed particular pains upon the earliest part of his education. After which he went to the university of Montpelier, where he was created master of arts in the year 1700. He then began the study of medicine; and, in two years, obtained the degree of bachelor, having upon that occasion written a dissertation on the cause of fermentation",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTROSCOPE",
+          "headword": "ASTROSCOPE",
+          "start_page": 241,
+          "end_page": 241,
+          "word_count": 51,
+          "text_end": "a kind of astronomical instrument, composed of two cones, on whose surface the constellations, with their stars, are delineated, by means whereof the stars may be easily known. The astroscope is the invention of William Schuckhard, formerly professor of mathematics at Tubingen, who published a treatise expressly on it in 1668."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTURIA",
+        "headword": "ASTURIA",
+        "start_page": 242,
+        "end_page": 242,
+        "word_count": 305,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTURIA...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an ancient kingdom of Spain, subdued by Augustus emperor of Rome.—The inhabitants of this country, along with those of Cantabria, asserted their liberty long after the rest of Spain had received the Roman yoke. So great was their desire of liberty, that, after being closely shut up by the Roman army, they endured the most terrible calamities of famine, even to the devouring of one another, rather than submit to the enemy. At length, however, the Asturians were for surrendering; but the Cantabria",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTRUC",
+          "headword": "ASTRUC",
+          "start_page": 241,
+          "end_page": 242,
+          "word_count": 442,
+          "text_end": "that of Paris a great concourse of medical students, foreigners as well as natives of France. At the same time he was not more celebrated as a professor than a practitioner. And, even at an advanced age, he persevered with unwearyed assiduity in that intense study which first raised his reputation. Hence it is that he has been enabled to transmit to posterity so many valuable monuments of his medical erudition. He died, universally regretted, on the 15th of May 1766, in the 82nd year of his age."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTURIAS",
+        "headword": "ASTURIAS",
+        "start_page": 242,
+        "end_page": 242,
+        "word_count": 167,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTURIAS...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "anciently the kingdom of Asturias, is now a principality of modern Spain, bounded by Biscay on the east, Galicia on the west, Old Castile and Leon on the south, and the sea on the north. Its greatest length is about 110 miles, and its breadth 54. On the south it is separated from Old Castile and Leon by high mountains covered with woods. The province is tolerably fertile, but thinly inhabited. The inhabitants value themselves much on being descended from the ancient Goths. Even the poor peasants",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTURIA",
+          "headword": "ASTURIA",
+          "start_page": 242,
+          "end_page": 242,
+          "word_count": 305,
+          "text_end": "our and despair, they were entirely defeated in a most bloody battle, which lasted two days, and for that time entirely subdued. A few years afterwards they rebelled, in conjunction with the Cantabrians; but were soon reduced by the Romans, who massacred most of the young men that were capable of bearing arms. This did not prevent them from revolting anew in a short time afterwards; but without succours, being obliged to submit to the Roman power, till the subversion of that empire by the Goths."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTYAGES",
+        "headword": "ASTYAGES",
+        "start_page": 242,
+        "end_page": 242,
+        "word_count": 98,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTYAGES...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "son of Cyaxares, the last king of the Medes. He dreamed that from the womb of his daughter Mandane, married to Cambyses king of Persia, there sprung a vine that spread itself over all Asia. She being with child, he resolved to kill the infant as soon as born. Its name was Cyrus; and Harpagus, being sent to destroy it, preferred it; which Astyages after a long time hearing of, he cauled Harpagus to eat his own son. Harpagus called in Cyrus, who de-throned his grandfather, and thereby ended the mo",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTURIAS",
+          "headword": "ASTURIAS",
+          "start_page": 242,
+          "end_page": 242,
+          "word_count": 167,
+          "text_end": "en the poor peasants, who are fain to go to seek work in other provinces, call themselves illigrious Goths and Mountaineers, thinking it ignominious to marry even with great and rich families of another race. This pride is flattered by the respect paid them by the rest of the nation, and the privileges bestowed upon them by the government. The hereditary prince of Spain is styled prince of the Asturias. The most remarkable places in this principality are Oviedo, Gyon, Santillana, and St. Andero."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTYANAX",
+        "headword": "ASTYANAX",
+        "start_page": 242,
+        "end_page": 242,
+        "word_count": 24,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTYANAX...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the only son of Hector and Andromache. After the taking of Troy, he was thrown from the top of a tower by Ulysses's orders.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTYAGES",
+          "headword": "ASTYAGES",
+          "start_page": 242,
+          "end_page": 242,
+          "word_count": 98,
+          "text_end": "s. He dreamed that from the womb of his daughter Mandane, married to Cambyses king of Persia, there sprung a vine that spread itself over all Asia. She being with child, he resolved to kill the infant as soon as born. Its name was Cyrus; and Harpagus, being sent to destroy it, preferred it; which Astyages after a long time hearing of, he cauled Harpagus to eat his own son. Harpagus called in Cyrus, who de-throned his grandfather, and thereby ended the monarchy of the Medes. See MEDIA and PERSIA."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASTYNOUMI",
+        "headword": "ASTYNOUMI",
+        "start_page": 242,
+        "end_page": 242,
+        "word_count": 20,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTYNOUMI...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Grecian Antiquity, magistrates in Athens, corresponding to the aediles of the Romans; they were ten in number. See AEDILE.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTYANAX",
+          "headword": "ASTYANAX",
+          "start_page": 242,
+          "end_page": 242,
+          "word_count": 24,
+          "text_end": "the only son of Hector and Andromache. After the taking of Troy, he was thrown from the top of a tower by Ulysses's orders."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASYLUM",
+        "headword": "ASYLUM",
+        "start_page": 242,
+        "end_page": 243,
+        "word_count": 435,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASYLUM...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a sanctuary, or place of refuge, where criminals shelter themselves from the hands of justice. The word is compounded of the primitive particle α, and ευλογειν, I bless; because no person could be taken out of an asylum without sacrilege.\n\nThe aylas of altars and temples were very ancient; and likewise those of tombs, statues, and other monuments of considerable personages. Thus, the temple of Diana at Ephesus was a refuge for debtors, the tomb of Theseus for slaves. Among the Romans, a celebrat",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASTYNOUMI",
+          "headword": "ASTYNOUMI",
+          "start_page": 242,
+          "end_page": 242,
+          "word_count": 20,
+          "text_end": "in Grecian Antiquity, magistrates in Athens, corresponding to the aediles of the Romans; they were ten in number. See AEDILE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASYMMETRY",
+        "headword": "ASYMMETRY",
+        "start_page": 243,
+        "end_page": 243,
+        "word_count": 41,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASYMMETRY...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the want of proportion between the parts of any thing; being the contrary of symmetry. Or, it is the relation of two quantities which have no common measure, as between 1 and √2, or the side and diagonal of a square.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASYLUM",
+          "headword": "ASYLUM",
+          "start_page": 242,
+          "end_page": 243,
+          "word_count": 435,
+          "text_end": "not be removed without a legal assurance of life, and an entire remission of the crime. The reason of the extension was, that they might not be obliged to live altogether in the churches, &c., where several of the occasions of life could not be decently performed.\n\nBut at length these asylums or sanctuaries were also stripped of most of their immunities, because they served to make guilt and libertinage more bold and daring. In England, particularly, they were entirely abolished: See Sanctuary."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v03_ASYMPTOTE",
+        "headword": "ASYMPTOTE",
+        "start_page": 243,
+        "end_page": 243,
+        "word_count": 68,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASYMPTOTE...' starts with 'A' but volume 3 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Geometry, a line which continually approaches nearer to another; but, though continued infinitely, will never meet with it: Of these there are many kinds. In strictness, however, the term asymptotes is appropriated to right lines, which approach nearer and nearer to some curves of which they are said to be asymptotes; but if they and their curves are indefinitely continued, they will never meet. See Conic Sections.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v03_ASYMMETRY",
+          "headword": "ASYMMETRY",
+          "start_page": 243,
+          "end_page": 243,
+          "word_count": 41,
+          "text_end": "the want of proportion between the parts of any thing; being the contrary of symmetry. Or, it is the relation of two quantities which have no common measure, as between 1 and √2, or the side and diagonal of a square."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

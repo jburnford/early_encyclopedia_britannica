@@ -1,0 +1,1612 @@
+{
+  "edition_year": 1778,
+  "batch_num": 5,
+  "total_batches": 8,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1778_v10_HUNTER",
+        "headword": "HUNTER",
+        "start_page": 1168,
+        "end_page": 1169,
+        "word_count": 1269,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HUNTER...' starts with 'H' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a celebrated anatomist, was a native of Kilberge in the county of Lanark in Scotland. Being designed by his father for the church, he was sent, at a proper age, to the college of Glasgow; but having spent five years in regular academical attendance there, he began to feel strong objections to theological studies; and happening to become acquainted with Dr Cullen, who was at that time just established in practice at Hamilton, he was persuaded to apply himself to physic. Dr Cullen's Hunter, friend",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_HOPE",
+          "headword": "HOPE",
+          "start_page": 1167,
+          "end_page": 1168,
+          "word_count": 1219,
+          "text_end": "reat mullen or verbasum thapsus, which are often found covered with a soft wool of this colour, and the plant is plentiful here: other materials, however, are often used, as flax, hemp, moss, hair, or such like soft substances. The outside of the nest has a coating of green moss, such as is common on old pales, or enclosures, and on trees; the inner diameter of the nest is hardly a geometrical inch at the top, and its depth half an inch; they are said to lay two eggs, each of the size of a pea.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_HYDRA",
+        "headword": "HYDRA",
+        "start_page": 1169,
+        "end_page": 1169,
+        "word_count": 31,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HYDRA...' starts with 'H' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in zoology, a genus of the order of zoophyta, belonging to the class of vermes. There are seven species, known by the general name of polypes. See POLYP, in this Appendix.",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_HUNTER",
+          "headword": "HUNTER",
+          "start_page": 1168,
+          "end_page": 1169,
+          "word_count": 1269,
+          "text_end": "d of above 20,000l. in money; the bulk of which is given to Mr Bailey. We are credibly informed, that the Doctor formerly applied to the ministers of this country to allot him a piece of ground, on which he might build a museum, that he would engage to leave endowed for the public service. His request, however, was not complied with; and he then purchased the premises in Great Windmill-street, where he built his museum and spacious habitation. He died 30th April 1783, of the gout in his stomach."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v08_HYDRAULIC_ORGAN",
+        "headword": "HYDRAULIC ORGAN",
+        "start_page": 245,
+        "end_page": 245,
+        "word_count": 65,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HYDRAULIC ORGAN...' starts with 'H' but volume 8 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'HYDRAULIC ORGAN' starts with 'H' but is surrounded by 'O' articles (p.245) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "c Organ denotes a musical machine that plays by water instead of wind. Of these there are several in Italy, in the grottos of vineyards. Ctesibius of Alexandria, who lived in the time of Ptolemy Evergetes, is said to have invented organs that played by compressing the air with water, as is still practised. Archimedes and Vitruvius have left us descriptions of the hydraulic organ.",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v08_ORGAN_s2",
+          "headword": "ORGAN",
+          "start_page": 243,
+          "end_page": 245,
+          "word_count": 2700,
+          "text_end": "out any handle, as that of the flute-stop p f, which draws out the slider f g, all the pipes in the set LN are ready to play, as soon as the keys C, D, E, &c., are put down; therefore, if the key D be put down, it opens the corresponding valve m v, through which the air enters into the pipe X, and makes it sound. In the same manner any other pipe in the set LN, will sound when its key is put down; but no pipe, in any other set, will sound till the slider be drawn out by its corresponding handle."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_HYDROCEPHALUS_INTERNUM",
+        "headword": "HYDROCEPHALUS INTERNUM",
+        "start_page": 1169,
+        "end_page": 1169,
+        "word_count": 62,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'HYDROCEPHALUS INTERN...' starts with 'H' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See MEDICINE, no 370. 438. Besides the use of mercury, there recommended as effectual in this disease, formerly so fatal, a surprising instance of the efficacy of the vapour-bath is given in the 8th volume of the Medical Commentaries. The instance, however, is singular, and the medicine ought to be often repeated with success before much confidence is put in it.",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_HYDRA",
+          "headword": "HYDRA",
+          "start_page": 1169,
+          "end_page": 1169,
+          "word_count": 31,
+          "text_end": "in zoology, a genus of the order of zoophyta, belonging to the class of vermes. There are seven species, known by the general name of polypes. See POLYP, in this Appendix."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_ICHNEUMON",
+        "headword": "ICHNEUMON",
+        "start_page": 1169,
+        "end_page": 1170,
+        "word_count": 619,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ICHNEUMON...' starts with 'I' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) One distinguishing and striking character of these species of flies is the almost continual agitation of their antennae. The name of ichneumon has been applied to them from the service they do us by destroying caterpillars, plant-lice, and other insects, as the ichneumon or mantouette destroys the crocodiles. The variety to be found in the species of ichneumons is prodigious; among the smaller species, there are males who perform their amorous preludes in the most passionate and gallan",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_HYDROCEPHALUS_INTERNUM",
+          "headword": "HYDROCEPHALUS INTERNUM",
+          "start_page": 1169,
+          "end_page": 1169,
+          "word_count": 62,
+          "text_end": "(Encycl.) See MEDICINE, no 370. 438. Besides the use of mercury, there recommended as effectual in this disease, formerly so fatal, a surprising instance of the efficacy of the vapour-bath is given in the 8th volume of the Medical Commentaries. The instance, however, is singular, and the medicine ought to be often repeated with success before much confidence is put in it."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_ICHTHYOLOGY",
+        "headword": "ICHTHYOLOGY",
+        "start_page": 1170,
+        "end_page": 1170,
+        "word_count": 510,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ICHTHYOLOGY...' starts with 'I' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The most judicious arrangement of this branch of Zoology seems to be that of Mr Pennant, who distributes fish into three divisions; Cetaceous, Cartilaginous, and Bony.\n\nDiv. I. **CETACEOUS FISH**; the characters of which are the following: No gills; an orifice on the top of the head, through which they breathe and eject water; a flat or horizontal tail; exemplified in Plate CCXVIII. (lower compartment), fig. 1, by the Beaked Whale, borrowed from Dale's Hist. Harw. 411. Tab. xiv.—This d",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_JAGO",
+          "headword": "JAGO",
+          "start_page": 1169,
+          "end_page": 1169,
+          "word_count": 149,
+          "text_end": "n 1755, on the Causes of Impenitence considered, preached May 4, 1755, at Hartbury in Warwickshire, where he was vicar; on occasion of a conversation said to have passed between one of the inhabitants and an apparition in the church-yard there; wrote \"Edge-hill,\" a poem, for which he obtained a large subscription in 1767; and was also author of \"Labour and Genius, 1768;\" 4to; of \"The Blackbirds,\" a beautiful elegy in the Adventurer; and of many other ingenious performances. He died May 28, 1781."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v02_ICOSANDRIA_POLYGAMIA",
+        "headword": "ICOSANDRIA POLYGAMIA",
+        "start_page": 608,
+        "end_page": 608,
+        "word_count": 150,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ICOSANDRIA POLYGAMIA...' starts with 'I' but volume 2 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Fragaria, or Strawberry.\n\nThe Calix is a perianthium, consisting of one plain leaf, divided into ten segments, each alternately narrower.\n\nThe Corolla has five roundish open petals inserted into the calyx.\n\nThe Stamina are 20 in number, subulated or tapering, shorter than the corolla, and inserted into the calyx. The antherae are lunulated, or shaped like a crescent.\n\nThe Pistillum consists of many small germina, collected into a little head or knob. The styli are simple, and inserted into the s",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v02_DIDYNAMIA_ANGIOSPERMIA",
+          "headword": "DIDYNAMIA ANGIOSPERMIA",
+          "start_page": 608,
+          "end_page": 611,
+          "word_count": 171,
+          "text_end": "r, subulated (44), inserted into the base of the corolla, and inclined to the same side; two of them are longer than the other two: the antherae are divided into two parts, and pointed at the top.\n\nThe Pistillum consists of a germen sharp at the top, a simple stylus situate like the stamina, and an acute stigma.\n\nThe Pericarpium has an oval capsule, of the same length with the calyx, sharp at the top, having two cells, and two valves which burst open at both sides.\n\nThe Seeds are many and small."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_IDEAS",
+        "headword": "IDEAS",
+        "start_page": 1170,
+        "end_page": 1173,
+        "word_count": 2844,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'IDEAS...' starts with 'I' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The origin of ideas has been a long time disputed among philosophers. The Peripatetics maintain, that external objects emit species which resemble them all around; and that these species, striking on our senses, are by them transmitted to the understanding; and that, being material and sensible, they are rendered intelligible by the active intellect; and are at length received by the passive. Others are of opinion, that our souls have of themselves the power of producing ideas of thing",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_ICHTHYOLOGY",
+          "headword": "ICHTHYOLOGY",
+          "start_page": 1170,
+          "end_page": 1170,
+          "word_count": 510,
+          "text_end": "al fins a, as in the Haddock, fig. 4.—Genera: The Dragonet, Weever, Codlith, Blenny.\n\nSect. 3. **THORACIC**: The ventral fins a, placed beneath the pectoral fins b, as in the Father Lasher, fig. 5.—Genera: The Goby, Bull-head, Doree, Flounder, Gilt-head, Wrasse, Perch, Stickleback, Mackrel, Surmullet, Gurnard.\n\nSect. 4. **ABDOMINAL**: The ventral fins placed behind the pectoral fins, as in the Minnow, fig. 6.—Genera: The Loche, Salmon, Pike, Argentine, Athene, Mullet, Flying fish, Herring, Carp."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_INEBRIANTS",
+        "headword": "INEBRIANTS",
+        "start_page": 1173,
+        "end_page": 1173,
+        "word_count": 245,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'INEBRIANTS...' starts with 'I' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "are defined to be such things as affect the nerves in a particular and agreeable manner, and through them alter and disturb the functions of the mind. They are properly divided into native and artificial; the former chiefly in use among the oriental and other nations, the latter principally throughout Europe.\n\nNatural Inebriants are, 1. Opium; in use all over the east, and of which the Turks, through custom, swallow a drachm. 2. Peganum harmala, Syrian rue. The seeds are sold in Turkey for this",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_IDEAS",
+          "headword": "IDEAS",
+          "start_page": 1170,
+          "end_page": 1173,
+          "word_count": 2844,
+          "text_end": "as perception, memory, will, &c. and we have just the same reason to believe the identity of an idea as that of any external body, or that of our own minds.\n\nThose who wish to be farther acquainted with the controversy relating to the nature and origin of our ideas, must be referred to Hume's Treatise of Human Nature, vol. i. p. 123, &c. 282, &c. 434, &c. Reid's Inquiry into the Human Mind, passim. Beattie's Essay on Truth, part ii. chap. 2. Priestley's Examination of Reid, Beattie, &c. passim."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_INJECTION",
+        "headword": "INJECTION",
+        "start_page": 1173,
+        "end_page": 1173,
+        "word_count": 568,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'INJECTION...' starts with 'I' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or INJECTING, in surgery, the Injection, throwing in some liquor or medicine into a vein opened by incision. This practice, and that of transfusion, or the conveying the arterial blood of one man, or other animal, into another, were once greatly practised, but are now laid aside.\n\nThe method of injecting is this: A vein is to be opened in the arm with a lancet as in bleeding, and the small pipe of a syringe being introduced at the orifice, the liquor intended to be mixed with the blood, and cont",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_INEBRIANTS",
+          "headword": "INEBRIANTS",
+          "start_page": 1173,
+          "end_page": 1173,
+          "word_count": 245,
+          "text_end": "foil, are used by the Dalecarlians to render their beer intoxicating. 11. Tobacco, and several others less material are mentioned; such as clary, laffron, and darnel.\n\nArtificial Inebriants, are fermented liquors from farinaceous feeds; wines, and spirits drawn by distillation. With these is ranked the nectar of the gods, and the anodyne medicine of Homer, commonly called nepenthe; and the spells by which Medea and Circe produced their enchantments.\n\nINFORMATION. Line penult, formade, read mode."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IOLAUS",
+        "headword": "IOLAUS",
+        "start_page": 888,
+        "end_page": 888,
+        "word_count": 47,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IOLAUS' starts with 'I' but is surrounded by 'J' articles (p.888) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in fabulous history, the son of Iphicles, assisted Hercules in overcoming the hydra, by procuring and lighting firebrands, as fast as Hercules cut off its heads. As a reward for this piece of service, Hercules prevailed on Hebe to restore him to youth, when decrepid with age.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JOINT",
+          "headword": "JOINT",
+          "start_page": 887,
+          "end_page": 888,
+          "word_count": 205,
+          "text_end": "of which nobody\nJointure before had ever thought it possible to alter the position. He had such an absolute command of his muscles and joints, that he could almost disjoint his whole body; so that he once imposed on the famous Mollens by his distortions, in such a manner, that he refused to undertake his cure: but, to the amazement of the physician, no sooner had he given over his patient, than he saw him restore himself to the figure and condition of a proper man, with no distortion about him."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v04_ISLANDS_OF_DISAPPOINTMENT",
+        "headword": "ISLANDS OF DISAPPOINTMENT",
+        "start_page": 141,
+        "end_page": 141,
+        "word_count": 118,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ISLANDS OF DISAPPOIN...' starts with 'I' but volume 4 covers D-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "are a cluster of small islands, lying in S. Lat. 14. 10. W. Long. 141. 16. They were discovered by Commodore Byron in 1765, who gave them their name from the shores affording no anchorage for his ships; for which reason he was obliged to quit them without landing, or procuring any refreshments for his crew, who were then languishing with sickness. They are inhabited by Indians, who appeared on the beach with spears in their hands, that were at least 16 feet long. They everywhere discovered hosti",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v04_DISABILITY",
+          "headword": "DISABILITY",
+          "start_page": 141,
+          "end_page": 141,
+          "word_count": 236,
+          "text_end": "wer to perform it.\n\n3. Disability by the act of God is where a man is non sane memoriae, whereby he is incapable to make any grant, &c. So that, if he passeth an estate out of him, it may after his death be voided; but it is a maxim in law, \"That a man of full age, shall never be received to disable his own person.\"\n\n4. Disability by the act of the law, is where a man by the sole act of the law, without any thing by him done, is rendered incapable of the benefit of the law; as an alien born, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IVES",
+        "headword": "IVES",
+        "start_page": 951,
+        "end_page": 951,
+        "word_count": 280,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVES' starts with 'I' but is surrounded by 'J' articles (p.951) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "or Yves, (St.), a celebrated bishop of Chartres, born in the territory of Beauvais in the 11th century. His merit procured his election to the see of Chartres in 1092, or 1093, under the pontificate of Urban II. who had deposed Geoffroy his predecessor for sundry accusations against him. Yves particularly signalized himself by his zeal against Philip I., who had put away his wife Bertha of Holland, and had taken Bertrade of Montford, wife of Fouques count of Anjou. Afterward he devoted himself w",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JUDGMENT_s2",
+          "headword": "JUDGMENT",
+          "start_page": 949,
+          "end_page": 951,
+          "word_count": 1464,
+          "text_end": "mitigation, with which an offender might flatter himself if his punishment depended on the humour or discretion of the court. Whereas, where an established penalty is annexed to crimes, the criminal may read their certain consequence in that law, which ought to be the unvaried rule, as it is the inflexible judge, of his actions.\n\nJudgment of God, (Judicium Dei), in law, a term applied to the trial by combat, by ordeal, &c. See the articles Duel, Combat, Ordeal, &c.\n\nJUDICIAL COMBAT. See BATTLE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IVICA",
+        "headword": "IVICA",
+        "start_page": 952,
+        "end_page": 952,
+        "word_count": 12,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVICA' starts with 'I' but is surrounded by 'J' articles (p.952) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "or YVICA, the name of an island in the Mediterranean. See YVICA.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JUGORA",
+          "headword": "JUGORA",
+          "start_page": 951,
+          "end_page": 952,
+          "word_count": 39,
+          "text_end": "a considerable province of Muscovy, depending on the government of Archangel. It has the title of a duchy; and is inhabited by a kind of Tartars, who are very savage, and much of the same disposition with the Samoiedes."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IVORY",
+        "headword": "IVORY",
+        "start_page": 957,
+        "end_page": 958,
+        "word_count": 114,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVORY' starts with 'I' but is surrounded by 'J' articles (p.957) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in natural history, &c. a hard, solid, and firm substance, of a white colour, and capable of a very good polish. It is the tusk of the elephant; and is hollow from the base to a certain height, the cavity being filled up with a compact medullary substance, seeming\nseeming to have a great number of glands in it. It is observed, that the Ceylon ivory, and that of the island of Achim, do not become yellow in the wearing, as all other ivory does; for this reason the teeth of these places bear a larg",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JULIERS",
+          "headword": "JULIERS",
+          "start_page": 954,
+          "end_page": 957,
+          "word_count": 2571,
+          "text_end": "niper, but this tree itself is said to be destroyed by the meadow-oat. The oil of juniper mixed with that of nuts makes an excellent varnish for pictures, wood-work, and preserving iron from rusting. The resin powdered and rubbed into paper prevents the ink from sinking through it, for which it is frequently used under the name of Pounce.—The charcoal made from this wood endures longer than any other, inasmuch that live embers are said to have been found in the ashes, after being a year covered."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IVREA",
+        "headword": "IVREA",
+        "start_page": 959,
+        "end_page": 959,
+        "word_count": 55,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IVREA' starts with 'I' but is surrounded by 'J' articles (p.959) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "an ancient and strong town of Italy, in Piedmont, and capital of Canavez, with a strong fort, a bishop's see, the title of a marquisate, and an ancient castle. It is subject to the king of Sardinia, and situated on the river Doria between two hills, in E. Long. 7° 48'. N. Lat. 45° 12'.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JURA",
+          "headword": "JURA",
+          "start_page": 958,
+          "end_page": 959,
+          "word_count": 1139,
+          "text_end": "ous sounds; forming a length of not less than 60 miles; supplied by only one minister and an assistant.\n\nThe very old clans of Jura are the Mac-ilvans, and the Mac-rainers: but it seems to have changed masters more than once. In 1549, Donald of Cautyre, Mac-guillayne of Doward, Mac-guillayne of Kinloch-buy, and Mac-duffie of Colonsay, were the proprietors; Mac-leon of Mull had also a share in 1586. At present it belongs to the duke of Argyle, Mr Macneil of Colonsay, and Mr Campbell of Shawfield."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_IXION",
+        "headword": "IXION",
+        "start_page": 963,
+        "end_page": 964,
+        "word_count": 144,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'IXION' starts with 'I' but is surrounded by 'J' articles (p.963) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "in fabulous history, king of the Lapithes, married Dia, the daughter of Deionius, to whom he refused to give the customary nuptial presents. Deionius in revenge took from him his horses; when Ixion, dissembling his resentment, invited his father-in-law to a feast, and made him fall through a trap-door into a burning furnace, in which he was immediately consumed. Ixion being afterwards stung with remorse for his cruelty, ran mad; on which Jupiter, in compassion, not only forgave him, but took him",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_JUTLAND",
+          "headword": "JUTLAND",
+          "start_page": 962,
+          "end_page": 963,
+          "word_count": 170,
+          "text_end": "vers, that are sent to Germany, Holland, and elsewhere. This was anciently called the Cimbrian Chersonesus, and is supposed to be the country from whence the Saxons came into England. It is divided into two parts, called North and South Jutland; the latter is the duchy of Sleswick, and lies between North Jutland and the duchy of Holstein; and the duke of that name is in possession of part of it, whose capital town is Gottorp, for which reason the sovereign is called the duke of Holstein Gottorp."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_JAGO",
+        "headword": "JAGO",
+        "start_page": 1169,
+        "end_page": 1169,
+        "word_count": 149,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'JAGO...' starts with 'J' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an ingenious poet, was vicar of Snitterfield in Warwickshire, and rector of Kimcote in Leicestershire. He was the intimate friend and correspondent of Mr Shenstone, contemporary with him at Oxford, and, it is believed, his schoolfellow; was of University College; took the degree of M.A. July 9, 1739; was author of several poems in the 4th and 5th volumes of Doddley's Poems; published a sermon, in 1755, on the Causes of Impenitence considered, preached May 4, 1755, at Hartbury in Warwickshire, wh",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_ICHNEUMON",
+          "headword": "ICHNEUMON",
+          "start_page": 1169,
+          "end_page": 1170,
+          "word_count": 619,
+          "text_end": "spiders, run them through with their sting, tear them to pieces, and thus avenge the whole nation of flies of so formidable a foe: others, destitute of wings, (and those are females) deposit their eggs in spiders' nests. The ichneumon of the bedeguar (or sweet-briar sponge), and that of the rose-tree, perhaps only deposit their eggs in those places, because they find other insects on which they feed. The genus of the ichneumon flies, might with propriety be termed a race of diminutive cannibals."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_KALMIA",
+        "headword": "KALMIA",
+        "start_page": 1173,
+        "end_page": 1174,
+        "word_count": 553,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'KALMIA...' starts with 'K' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The two species are the la-\ntifolia and the angustifolia. The first, a most\nbeautiful shrub, rises usually to the height of five\nor six feet, and sometimes twice that height in its\nnative places. The stems of some are as big as the\nsmall of a man's leg, though generally they are\nsmaller, and covered with a brown rough bark. The\nwood is very close grained, heavy, and hard like box.\nThe limbs in general are crooked, and grow irregular;\nbut are thick-clothed with stiff smooth leaves of a",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_INJECTION",
+          "headword": "INJECTION",
+          "start_page": 1173,
+          "end_page": 1173,
+          "word_count": 568,
+          "text_end": "with infusions of opium and crocus metallorum; all which he circumstantially described in his Usefulness of Experimental Philosophy, part ii. eff. 2.\n\nThe ingenious Dr Hales made a variety of experiments of this kind on different animals.\n\nMany disorders of particular parts are noway curable, unless the parts affected are injected with a proper liquor, by means of a syringe and proper tube. The method of performing this is too obvious to need any directions; but these general cautions are neces-"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_KERATOPHYTUM",
+        "headword": "KERATOPHYTUM",
+        "start_page": 1174,
+        "end_page": 1176,
+        "word_count": 447,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'KERATOPHYTUM...' starts with 'K' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, a species\nof Gorgonia.—The keratophyta are called the frutices\ncaroloides, or sea-shrubs; and generally known among\nnaturalists by the different appellations of litophyta, li-\nthoxyla, and keratophyta; epithets tending to convey\nan idea of their composition, which at first view, seems\nto consist partly of a woody or horny, partly of a\nstony or calcareous substance, variously disposed with\nLampyris, the fire-fly, a genus of insects belonging to the coleoptera order; the charac",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_KALMIA",
+          "headword": "KALMIA",
+          "start_page": 1173,
+          "end_page": 1174,
+          "word_count": 553,
+          "text_end": "f very fine\nhairs. The convex side of the same petal is also speck-\nled with yellowish green. The pointal rises from the\ncentre of the flower, and has its head adorned with\nscarlet, and surrounded by 10 stamens, whereof three\nare long and seven short, whose farina issues out at a\nsmall round hole at its top. This elegant tree adorns\nthe western and remote parts of Pennsylvania, always\ngrowing in the most sterile soil, or on the rocky de-\nclivities of hills and river-banks, in shady moist\nplaces."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_KF",
+        "headword": "KF",
+        "start_page": 173,
+        "end_page": 173,
+        "word_count": 162,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'KF...' starts with 'K' but volume 5 covers G-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the distance of the two stations of the shorter staff\nto SA, the excess of the height sought above the height\nof the shorter staff. Wherefore SA will be found by\nthe rule of three. To which let the height of the\nshorter staff be added, and the sum will give the whole\ninaccessible height BA.\n\nNote 1. In the same manner may an inaccessible\nheight be found by a geometrical square, or by a plain\nspeculum. But we shall leave the rules to be found\nout by the student, for his own exercise.\n\nNote 2. Tha",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_DCA",
+          "headword": "DCA",
+          "start_page": 173,
+          "end_page": 173,
+          "word_count": 108,
+          "text_end": "C and\nH are right ones; likewise the angle A is equal to the\nangle FDH; wherefore the remaining angles DFH,\nand ADC, are also equal: wherefore, as FH, the dis-\ntance of the staffs, to HD, the excess of the longer\nstaff above the shorter; so is DC, the distance of the\nlonger staff from the tower, to CA, the excess of the\nheight of the tower above the longer staff. And\nthence CA will be found by the rule of three.\n\nTo which if the length DE be added, you will have\nthe whole height of the tower BA."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LARVA",
+        "headword": "LARVA",
+        "start_page": 1176,
+        "end_page": 1176,
+        "word_count": 78,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LARVA...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, a name given by Linnaeus to insects in that state called by other writers eruca or caterpillar.\n\nLARVÆ, in antiquity, derived from the Hetruscan word lar or laris, signifying prince or lord, denoted the ghosts of the deceased, considered as wicked and mischievous. Hence is formed the term larvatus, i.e. larva indutus, or demoniac. The ingenious Mr Farmer urges the etymology and use of this term to prove, that the heathen demons were human ghosts.",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_KERATOPHYTUM",
+          "headword": "KERATOPHYTUM",
+          "start_page": 1174,
+          "end_page": 1176,
+          "word_count": 447,
+          "text_end": "finer green. This light the insect withdraws at pleasure, either by unfolding or contracting itself. As a proof that the light depends on a phosphorous matter, you may crush the animal, which, though dead and bruised, leaves a luminous substance on the hand, that only loses its lustre when dried.\n\nThe perfect insect flies about during the evening in autumn, and frequents the grally plantations of juniper trees.\n\nBeauty of Language, p. 4095, col. 2. l. 4. from bottom, for Part II. read Part III."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LEASE",
+        "headword": "LEASE",
+        "start_page": 1176,
+        "end_page": 1176,
+        "word_count": 207,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LEASE...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "from the French laisser, demittere, \"to let,\" in law, a demise, or letting of lands, tenements, or hereditaments, unto another for life, term of years, or at will, for a rent reserved.\n\nA lease is either written, called an indenture, deed-poll, or lease in writing; or by word of mouth, called lease parole.\n\nAll estates, interests of freehold, or terms for years in lands, &c. not put in writing and signed by the parties, shall have no greater effect than as estates at will; unless it be of leases",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LARVA",
+          "headword": "LARVA",
+          "start_page": 1176,
+          "end_page": 1176,
+          "word_count": 78,
+          "text_end": "in natural history, a name given by Linnaeus to insects in that state called by other writers eruca or caterpillar.\n\nLARVÆ, in antiquity, derived from the Hetruscan word lar or laris, signifying prince or lord, denoted the ghosts of the deceased, considered as wicked and mischievous. Hence is formed the term larvatus, i.e. larva indutus, or demoniac. The ingenious Mr Farmer urges the etymology and use of this term to prove, that the heathen demons were human ghosts."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LEPAS",
+        "headword": "LEPAS",
+        "start_page": 1176,
+        "end_page": 1176,
+        "word_count": 100,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LEPAS...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the acorn, in zoology, a genus belonging to the order of vermes testacea. The animal is the triton; the shell is multivalve, unequal, fixed by a stem or sessile. There are several species, of which the most remarkable is the anatifa, consisting of five shells depressed, affixed to a pedicle and in clusters. It adheres to the bottom of ships by its pedicles. The tentacles from its animal are feathered; and have given the old English historians and naturalists the idea of a bird. They ascribed the",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LEASE",
+          "headword": "LEASE",
+          "start_page": 1176,
+          "end_page": 1176,
+          "word_count": 207,
+          "text_end": "years must be made in writing; and if the substance of a lease be put in writing, and signed by the parties, though it be not sealed, it shall have the effect of a lease for years, &c.\n\nAn assignment differs from a lease only in this; that by a lease one grants an interest less than his own, referring to himself a reversion; in assignments he parts with the whole property, and the assignee stands to all intents and purposes in the place of the assignor.\n\nLease, in Scots law. See Tack, (Encycl.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LIBERTY_s2",
+        "headword": "LIBERTY",
+        "start_page": 1176,
+        "end_page": 1177,
+        "word_count": 1411,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LIBERTY...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "physical, is that principle of spontaneity or self-determination which constitutes us agents; or which gives us a command over our actions, rendering them properly ours, and not effects of the operation of any foreign cause. See Metaphysics, (Encycl.) n° 78—80. Without this liberty, or being under a necessity of always following some will different from his own, man would be a machine acted upon by mechanical springs, having no principle of motion in himself, or command over events; and therefor",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LEPAS",
+          "headword": "LEPAS",
+          "start_page": 1176,
+          "end_page": 1176,
+          "word_count": 100,
+          "text_end": "a. The animal is the triton; the shell is multivalve, unequal, fixed by a stem or sessile. There are several species, of which the most remarkable is the anatifa, consisting of five shells depressed, affixed to a pedicle and in clusters. It adheres to the bottom of ships by its pedicles. The tentacles from its animal are feathered; and have given the old English historians and naturalists the idea of a bird. They ascribed the origin of the barnacle goosel to those shells. See Plate CLIX. fig. 8."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LIEUTAUD",
+        "headword": "LIEUTAUD",
+        "start_page": 1177,
+        "end_page": 1177,
+        "word_count": 197,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LIEUTAUD...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "counsellor of state and first physician at the court of France, was born at Aix in Provence, and resided principally there till he took the degree of doctor of medicine. After this he prosecuted his studies for some years at Montpellier. He returned to Aix, where he soon acquired extensive practice, and became eminent for literary abilities. He resided there till the year 1750, when he was invited to act as physician to the royal infirmary at Versailles. There he practised with such reputation a",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LIBERTY_s2",
+          "headword": "LIBERTY",
+          "start_page": 1176,
+          "end_page": 1177,
+          "word_count": 1411,
+          "text_end": "r will. See on this subject Collins's Inquiry concerning Human Liberty, first printed in 1717. Clarke's Remarks, 1717; and Collection of Papers which passed between Mr Leibnitz and Dr Clarke, in 1715 and 1716. Jackson's Vindication and Defence of Human Liberty, 1730. Price's Review of the principal Questions, &c., in Morals, p. 315, &c., edit. 1758. Priestley's Doctrine of Philosophical Necessity, 1777.—For the objections against liberty, and the arguments in support of necessity, see NECESSITY."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LITHOSTROTION",
+        "headword": "LITHOSTROTION",
+        "start_page": 1177,
+        "end_page": 1177,
+        "word_count": 65,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LITHOSTROTION...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, the name of a species of fossil coral, composed of a great number of long and slender columns, sometimes round, sometimes angular, jointed nicely to one another, and of a starry or radiated surface at their tops. These are found in considerable quantities in the northern and western parts of this kingdom, sometimes in single, sometimes in complex specimens. See Plate CCCXVII.",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LIEUTAUD",
+          "headword": "LIEUTAUD",
+          "start_page": 1177,
+          "end_page": 1177,
+          "word_count": 197,
+          "text_end": "did not prevent him from cultivating the science of medicine in all its branches, and from freely communicating to others the result of his own studies. He published many valuable works; among which the following may be accounted the most remarkable, 1. Elementa Philologie. 2. Precis de la Medicine. 3. Pratique Precis de la Matiere Medecale. 4. Essai Anatomique. 5. Synopsis Universa Praxes Medicinae. 6. Historia Anatomico-Medica. He died at Versailles Dec. 8th, 1780, in the 78th year of his age."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_LYMINGTON",
+        "headword": "LYMINGTON",
+        "start_page": 1177,
+        "end_page": 1177,
+        "word_count": 17,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'LYMINGTON...' starts with 'L' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a town of Hampshire in England situated on a hill near the sea, in W. Long. 1.",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LITHOSTROTION",
+          "headword": "LITHOSTROTION",
+          "start_page": 1177,
+          "end_page": 1177,
+          "word_count": 65,
+          "text_end": "in natural history, the name of a species of fossil coral, composed of a great number of long and slender columns, sometimes round, sometimes angular, jointed nicely to one another, and of a starry or radiated surface at their tops. These are found in considerable quantities in the northern and western parts of this kingdom, sometimes in single, sometimes in complex specimens. See Plate CCCXVII."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MACBRIDE",
+        "headword": "MACBRIDE",
+        "start_page": 1177,
+        "end_page": 1179,
+        "word_count": 1423,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MACBRIDE...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an eminent physician and philosopher, was descended from an ancient family in the county of Galloway in Scotland. His grandfather, a clergyman, had settled in Ireland about the end of the last century, as minister to a Presbyterian congregation at Belfast; and his father, who followed the same line, was settled at Ballymony in the county of Antrim, where he married, and where our author was born in April 1726. After a proper school-education, and having passed some time under the tuition of an e",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_LYMINGTON",
+          "headword": "LYMINGTON",
+          "start_page": 1177,
+          "end_page": 1177,
+          "word_count": 17,
+          "text_end": "a town of Hampshire in England situated on a hill near the sea, in W. Long. 1."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MADREPORA",
+        "headword": "MADREPORA",
+        "start_page": 1179,
+        "end_page": 1179,
+        "word_count": 446,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MADREPORA...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, the name of a genus of submarine substances; the characters of which are, That they are almost of a stony hardness, resembling the corals, and are usually divided into branches, and pervious by many holes or cavities, which are frequently of a stellar figure.\n\nIn the Linnæan system, this is a genus of lithophyta: The animal that inhabits it is the medusa; it comprehends 39 species. According to Donati, the madrepora is like the coral as to its hardness, which is equal to bone",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MACBRIDE",
+          "headword": "MACBRIDE",
+          "start_page": 1177,
+          "end_page": 1179,
+          "word_count": 1423,
+          "text_end": "im at least, the great mind of the philosopher was conjoined with the feeling heart of the affectionate father.\n\nBut if his abilities were remarkable as a philosopher and physician, if his conduct was exemplary as a husband and parent, his manners were no less amiable as a companion and friend. His polite and benevolent conduct, joined to his taste for the fine arts, conciliated the affections and esteem of all who knew him. His death was universally and sincerely lamented in the city of Dublin."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MAGNOLIA",
+        "headword": "MAGNOLIA",
+        "start_page": 1179,
+        "end_page": 1180,
+        "word_count": 315,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MAGNOLIA...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The glauca generally grows in a poor swampy soil, or on wet meadows. The English and Swedes in Pennsylvania and New Jersey call it beaver tree, because the root of this tree is the dainty of beavers, which are caught by its means. It drops its leaves early in autumn, though some of the young trees kept them all the winter. This tree is seldom found to the north of Pennsylvania, where it begins to flower about the end of May. The scent of its blossoms is exquisite: for by it you can dis",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MADREPORA",
+          "headword": "MADREPORA",
+          "start_page": 1179,
+          "end_page": 1179,
+          "word_count": 446,
+          "text_end": "e saw all its claws moved, as well as its head or centre. When the animals of the madrepora are destroyed, its extremities become white. In the madrepora, he says, the animal occupies the extremity; and the substance is of a stony but more loose texture than the coral. This is formed, like other substances of the same nature, of a liquor which the animal discharges; and he farther adds, that there are some species of the polype of the madrepora, which are produced singly, and others in clutters."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MALALEUCA",
+        "headword": "MALALEUCA",
+        "start_page": 1179,
+        "end_page": 1179,
+        "word_count": 117,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MALALEUCA...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the CAYPUTI TREE; a genus of the polyandra order, belonging to the polyadelphia class of plants. There is but one species, viz. the leucodendron, a native of the East Indies and South-Sea islands. Mr Forster relates that they were found in the island of New Caledonia. They were black at the root, but had a bark perfectly white and loose, with long narrow leaves like our willows. The leaves are extremely fragrant and aromatic; and Rumphius tells us, that from them the natives of the Moluccas make",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MAGNOLIA",
+          "headword": "MAGNOLIA",
+          "start_page": 1179,
+          "end_page": 1180,
+          "word_count": 315,
+          "text_end": "ning may be taken: the virtues of this remedy were universally extolled, and even praised, for their salutary effects in consumptions. The bark being put into brandy, or boiled in any other liquor, is said not only to ease pectoral diseases, but likewise to be of some service against all internal pains and heat; and it was thought that a decoction of it could stop the dysentery. Persons who had caught cold boiled the branches of the beaver-tree in water, and drank it to their great relief. Kalm."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MAN-OF-WAR_BIRD",
+        "headword": "MAN-OF-WAR BIRD",
+        "start_page": 1180,
+        "end_page": 1180,
+        "word_count": 218,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MAN-OF-WAR BIRD...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Pelicanus Aquilus, Lin.) Its bill is more than a hand's-breadth long, and is narrow: the upper jaw is somewhat the longest, with a hook-shaped point; the cere, which is blue, covers the bill from the eyes to the hook-shaped point: the mandibles have no such serrated incisions (supplying the place of teeth) as are usually found in sea-birds: the head is covered with short feathers as far as the eyes, which are pretty large: the tongue is large, almost trifid at the top; the corner at its bottom",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MALALEUCA",
+          "headword": "MALALEUCA",
+          "start_page": 1179,
+          "end_page": 1179,
+          "word_count": 117,
+          "text_end": "ndies and South-Sea islands. Mr Forster relates that they were found in the island of New Caledonia. They were black at the root, but had a bark perfectly white and loose, with long narrow leaves like our willows. The leaves are extremely fragrant and aromatic; and Rumphius tells us, that from them the natives of the Moluccas make the oil called cayputi. This oil is commended as a nervous medicine, and as being useful in some cardialgies. The dose is four or five drops in some convenient liquor."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MARBELLA",
+        "headword": "MARBELLA",
+        "start_page": 1180,
+        "end_page": 1180,
+        "word_count": 32,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MARBELLA...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a town of Andalusia in Spain, situated at the mouth of the Rio Verde, 30 miles north-east of Gibraltar, and 28 south-west of Malaga. W. Long. 5. 25. N. Lat. 30. 25.",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MAN-OF-WAR_BIRD",
+          "headword": "MAN-OF-WAR BIRD",
+          "start_page": 1180,
+          "end_page": 1180,
+          "word_count": 218,
+          "text_end": "ides the coverts, 22 secondary feathers: the outward of the 12 tail-feathers are much longer than the middle ones, which make the tail look like a pair of scissors. The bird is about the size of a goose, and is a yard long: the colour of the whole body, and of the toes, is black; but the head, breast, belly, and fore-part of the neck, are of a fine white. Its food is fishes, which it takes from others, because it is not forced to catch them itself: the English for this reason call it man-of-war."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v08_MARCVS",
+        "headword": "MARCVS",
+        "start_page": 344,
+        "end_page": 344,
+        "word_count": 11,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MARCVS...' starts with 'M' but volume 8 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'MARCVS' starts with 'M' but is surrounded by 'P' articles (p.344) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "AVRELIVS. ANTONIVS. PIYS.\nFELIX. AVG. TRIB.\nPOT. V. COS. PROCOS. PANTHEVM.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v08_PANTHEON",
+          "headword": "PANTHEON",
+          "start_page": 343,
+          "end_page": 344,
+          "word_count": 705,
+          "text_end": "; it was repaired by Domitian, which occasioned some writers to mention that prince as the founder of the building. The emperor Adrian also did something to it. But it appears, that the pantheon is more indebted to Septimius Severus, than to any one since its erection. The most, perhaps, that any of his predecessors had done, was the adding some ornament to it: Septimius bestowed essential reparations upon it. The following inscription appears upon the architrave:\n\nIMP. CAES. SEPTIMIUS. SEVERVS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MARINE_REMAINS",
+        "headword": "MARINE REMAINS",
+        "start_page": 1180,
+        "end_page": 1182,
+        "word_count": 1949,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MARINE REMAINS...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a term used by many authors to express the shells of sea-fishes, and parts of crustaceous and other sea-animals, found in digging at great depths in the earth, or on the tops of high mountains. Their being lodged in these places, is an evident and unquestionable proof of the sea's having once been there, since it must have covered those places where it has left its productions. It has been a favourite system with many, and particularly with the late Dr Woodward, that all these marine bodies were",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MARBELLA",
+          "headword": "MARBELLA",
+          "start_page": 1180,
+          "end_page": 1180,
+          "word_count": 32,
+          "text_end": "a town of Andalusia in Spain, situated at the mouth of the Rio Verde, 30 miles north-east of Gibraltar, and 28 south-west of Malaga. W. Long. 5. 25. N. Lat. 30. 25."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MASQUERADE",
+        "headword": "MASQUERADE",
+        "start_page": 1182,
+        "end_page": 1182,
+        "word_count": 67,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MASQUERADE...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or MASCARADE, an assembly of persons masked or disguised, meeting to dance and divert themselves. This was much in use with us, and has been long a very common practice abroad, especially in carnival time.\n\nThe word comes from the Italian mascarata, and that from the Arabic maschara, which signifies \"railery, buffoonery.\" Granacci, who died in 1543, is said to have been the first inventor of masquerades.",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MARINE_REMAINS",
+          "headword": "MARINE REMAINS",
+          "start_page": 1180,
+          "end_page": 1182,
+          "word_count": 1949,
+          "text_end": "rson, that has been known.\n\nTheatrical masques were in common use both among\nMasquerade the Greeks and Romans: Suidas and Athæneus ascribe Measures, the invention of them to the poet Cherilus, a contemporary of Thespis; Horace attributes them to Æschylus; but Aristotle informs us, that the real inventor, and consequently the time of their first introduction and use, were unknown. Brantome observes, that the common use of modern masques was not introduced till towards the end of the 16th century."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MEASURES",
+        "headword": "MEASURES",
+        "start_page": 1182,
+        "end_page": 1183,
+        "word_count": 2095,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MEASURES...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) It is necessary, for the convenience of commerce, that an uniformity should be observed in weights and measures, and regulated by proper standards. A foot-rule may be used as a standard for measures of length, a bushel for measures of capacity, and a pound for weights. There should be only one authentic standard of each kind, formed of the most durable materials, and kept with all possible care. A sufficient number of copies, exactly corresponding to the principal standard, may be dist",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MASQUERADE",
+          "headword": "MASQUERADE",
+          "start_page": 1182,
+          "end_page": 1182,
+          "word_count": 67,
+          "text_end": "or MASCARADE, an assembly of persons masked or disguised, meeting to dance and divert themselves. This was much in use with us, and has been long a very common practice abroad, especially in carnival time.\n\nThe word comes from the Italian mascarata, and that from the Arabic maschara, which signifies \"railery, buffoonery.\" Granacci, who died in 1543, is said to have been the first inventor of masquerades."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MEDICINE",
+        "headword": "MEDICINE",
+        "start_page": 1183,
+        "end_page": 1184,
+        "word_count": 10,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MEDICINE...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "no. 494. See further the article SERPENT, in this APPENDIX.",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MEASURES",
+          "headword": "MEASURES",
+          "start_page": 1182,
+          "end_page": 1183,
+          "word_count": 2095,
+          "text_end": "qual to six legal malt bushels.\n\nIn Stirlingshire, 17 pecks are reckoned to the boll: in Invernessshire, 18 pecks: in Ayrshire, the boll is the same as the English quarter. And the firlots, in many places, are larger than the Linlithgow standard.\n\n40 feet hewn timber make a load.\n50 feet unhewn timber make a load.\n32 gallons make a herring barrel.\n42 gallons make a salmon barrel.\n1 cwt. gun-powder makes a barrel.\n256 lb. soap make a barrel.\n10 dozen candles make a barrel.\n12 barrels make a last."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MEDINE",
+        "headword": "MEDINE",
+        "start_page": 1184,
+        "end_page": 1184,
+        "word_count": 24,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MEDINE...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an Egyptian piece of money, of iron silvered over, and about the size of a silver threepence.\n\nMERCURY. Line 2. for 214, read 414.",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MEDICINE",
+          "headword": "MEDICINE",
+          "start_page": 1183,
+          "end_page": 1184,
+          "word_count": 10,
+          "text_end": "no. 494. See further the article SERPENT, in this APPENDIX."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MERCURIFICATION",
+        "headword": "MERCURIFICATION",
+        "start_page": 1184,
+        "end_page": 1184,
+        "word_count": 277,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MERCURIFICATION...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in metallurgic chemistry, the obtaining the mercury from metallic minerals in its fluid form. For the effecting this, those who have been engaged in these researches have proposed three methods. The first is by means of a certain mercury, so prepared as to have a dissolving power, by which it could take up the mercuries of metals in the same manner as water dissolves salt from ash. The second is by means of certain regenerating salts, such as sal ammoniac, which are to detain the more earthy par",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MEDINE",
+          "headword": "MEDINE",
+          "start_page": 1184,
+          "end_page": 1184,
+          "word_count": 24,
+          "text_end": "an Egyptian piece of money, of iron silvered over, and about the size of a silver threepence.\n\nMERCURY. Line 2. for 214, read 414."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MILLEPORA",
+        "headword": "MILLEPORA",
+        "start_page": 1184,
+        "end_page": 1184,
+        "word_count": 141,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MILLEPORA...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, a name by which Linnaeus distinguishes that genus of lithophytes, of a hard structure and full of holes, which are not stellate or radiated, and whose animal is the hydra, in which it differs from the madrepora, and comprehending 14 different species.\n\nIn the millepora, the animal which forms and inhales it occupies the substance; and it is observed that the millepora grow upon one another: their little animals produce their spawn; which attaching itself either to the extremi",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MERCURIFICATION",
+          "headword": "MERCURIFICATION",
+          "start_page": 1184,
+          "end_page": 1184,
+          "word_count": 277,
+          "text_end": "sun shines strong.\n\nFor other processes, the reader may consult Junker's Conspicuum Chemiae. But these mercurified metals, or their mercurial principle rendered sensible, are a kind of philosophical mercury, which, although they resemble ordinary mercury, are nevertheless said by persons exercised in such studies, to differ from it considerably, by having a greater specific gravity, by more effectually penetrating and dissolving metals, by a stronger adhesion to these, and by a less volatility."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MINE",
+        "headword": "MINE",
+        "start_page": 1184,
+        "end_page": 1187,
+        "word_count": 1147,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MINE...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the military art, (Encycl.) Mines are either dug within the body of the earth, as those made by the besieged to blow up the works of the besiegers before they make a lodgment on the covered way; or in eminences and rising grounds, as to make a breach in the ramparts, &c. or to blow up walls, or, lastly, to tear up rocks.\n\nTwo ounces of powder have been found, by experiment, capable of raising two cubic feet of earth; consequently 200 ounces, that is, 12 pound 8 ounces, will raise 200 cubic fe",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MILLEPORA",
+          "headword": "MILLEPORA",
+          "start_page": 1184,
+          "end_page": 1184,
+          "word_count": 141,
+          "text_end": "ed that the millepora grow upon one another: their little animals produce their spawn; which attaching itself either to the extremity of the body already formed, or underneath it, gives a different form to this production. Hence the various shapes of the millepora, which is composed of an infinite number of the cells of those little insects, which all together exhibit different figures, though every particular cellula has its essential form, and the same dimensions, according to its own species."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MINERALOGY",
+        "headword": "MINERALOGY",
+        "start_page": 1187,
+        "end_page": 1187,
+        "word_count": 28,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MINERALOGY...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) P. 5065, line 13, from the bottom, for n m v, mark d e f; and line 5, from the bottom, after acids, supply \"mentioned, n° 68.\"",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MINE",
+          "headword": "MINE",
+          "start_page": 1184,
+          "end_page": 1187,
+          "word_count": 1147,
+          "text_end": "ce; and though these suppositions are not quite exact, yet the calculations of mines deduced from them have proved successful in practice; for which reason this calculation should be followed, till a better and more simple be found out.\n\nM. de Valliere found that the entonnoir of a mine was a paraboloid, which is a solid generated by the rotation of a semiparabola about its axis; but as the difference between these two is very insignificant in practice, that of the frustum of a cone may be used."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_MOATAZALITES",
+        "headword": "MOATAZALITES",
+        "start_page": 1187,
+        "end_page": 1187,
+        "word_count": 182,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MOATAZALITES...' starts with 'M' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or Separatists, a religious sect among the Turks, who deny all forms and qualities in the Divine Being; or who divest God of his attributes.\n\nThere are two opinions among the Turkish divines concerning God. The first admits metaphysical forms, or attributes; as, that God has wisdom, by which he is wise; power, by which he is powerful; eternity, by which he is eternal, &c.\n\nThe second allows God to be wise, powerful, eternal; but will not allow any form or quality in God, for fear of admitting a",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_MINERALOGY",
+          "headword": "MINERALOGY",
+          "start_page": 1187,
+          "end_page": 1187,
+          "word_count": 28,
+          "text_end": "(Encycl.) P. 5065, line 13, from the bottom, for n m v, mark d e f; and line 5, from the bottom, after acids, supply \"mentioned, n° 68.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v04_MOE",
+        "headword": "MOE",
+        "start_page": 119,
+        "end_page": 120,
+        "word_count": 855,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MOE...' starts with 'M' but volume 4 covers D-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or MO. adj. An obsolete term, still employed in the Scotch dialect, and by them pronounced mac; denoting a greater number, and nearly synonymous with more: but it differs in this respect, that, in the Scotch dialect, mac and mair (English, more) are each employed in their distinct sphere, without encroaching upon one another; mac being employed to denote number, but never quantity or quality; and mair, to denote quantity and quality, but never number: thus they say mac, not mair, apples, men, &c",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v04_DICAMNUS",
+          "headword": "DICAMNUS",
+          "start_page": 114,
+          "end_page": 119,
+          "word_count": 5023,
+          "text_end": "f at a loss for a term, and obliged to search for one beyond the bounds of our own language, he might take one of these, when he found that it was expressive and energetic, in preference to another drawn from a foreign language. This would at least have one good effect: it would make our language more fixed and stable; not to say more accurate and precise, than by borrowing from foreign languages. The following examples may serve to give some idea of the manner of treating this part of the work."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v04_MONEY-TABLE_s7",
+        "headword": "MONEY-TABLE",
+        "start_page": 556,
+        "end_page": 559,
+        "word_count": 2886,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MONEY-TABLE...' starts with 'M' but volume 4 covers D-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "12 Denari \\( \\frac{1}{2} \\) soldi \\( \\frac{1}{2} \\) piastre \\( \\frac{1}{2} \\) 6 Ster.\n\nBooks and accounts are kept in piastras, soldi, and denari. The piastre here consists of 6 lires, and the lire contains 20 soldi, and the soldi 12 denari, and consequently exchange money is 6 times better than lire money. The course of exchange is from 47d. to 58d. Sterling per piastre.\n\nExample. What is the Sterling value of 731 piastras, at 55\\(\\frac{1}{2}\\)d. each.\n\n\\[\n\\begin{array}{c|c}\ns. & d. \\\\\n\\hline\n4",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v02_MONODELPHIA_POLYANDRIA",
+        "headword": "MONODELPHIA POLYANDRIA",
+        "start_page": 611,
+        "end_page": 611,
+        "word_count": 129,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MONODELPHIA POLYANDR...' starts with 'M' but volume 2 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Malva, or Common Mallow.\n\nThe Calyx is a double perianthium: the exterior one consists of three lanceolate, loose, persistent leaves; the interior has but one large, broad, persistent leaf, divided into five segments.\n\nThe Corolla has five plain leaves, united at the base, heart-shaped, and premorse (54).\n\nThe Stamina consist of numerous filaments, united into a cylindrical form below, loose above, and inserted into the corolla: the antherae are kidney-shaped.\n\nThe Pistillum has an orbicular ger",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v02_GYNANDRIA_PENTANDRIA",
+          "headword": "GYNANDRIA PENTANDRIA",
+          "start_page": 611,
+          "end_page": 611,
+          "word_count": 142,
+          "text_end": "itened above.\n\nThe Stamina are five, subulated, open, and connected to the stylus at the base of the germen: the antherae are oblong, obtuse, and incumbent.\n\nThe Pistillum consists of an erect cylindrical stylus, upon the top of which an oval germen is placed: the styli are three, thicker, and wider above: the stigmata are roundish knobs.\n\nThe Pericarpium is a fleshy, suboval, one-celled berry, resting upon the stylus.\n\nThe Seeds are numerous, oval, and each of them inclosed in a small membrane."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v02_MONOECIA_TETRANDRIA",
+        "headword": "MONOECIA TETRANDRIA",
+        "start_page": 611,
+        "end_page": 642,
+        "word_count": 24046,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MONOECIA TETRANDRIA...' starts with 'M' but volume 2 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Urtica, or Common Nettle.\n\nThe Calyx of the male flowers is a four-leaved perianthium; the leaves are roundish, concave, and obtuse.\n\nThe Corolla has no petals; but there is a small urceolated (i.e. an inflated skin, gibbous on each side) nectarium in the centre of the flower.\n\nThe Stamina consists of four subulated open filaments, of an equal length with the calyx, and one of them is placed between each leaf of the calyx: the antherae have no cells.\n\nThe Calyx of the female flowers is a double-",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v02_MONODELPHIA_POLYANDRIA",
+          "headword": "MONODELPHIA POLYANDRIA",
+          "start_page": 611,
+          "end_page": 611,
+          "word_count": 129,
+          "text_end": "ited into a cylindrical form below, loose above, and inserted into the corolla: the antherae are kidney-shaped.\n\nThe Pistillum has an orbicular germen, a cylindrical short stylus, and many bristly stigmata of an equal length with the stylus.\n\nThe Pericarpium consists of several distinct capsules joined by an articulation, resembling a depressed globe, and opening from within when ripe: the receptaculum is a kind of column binding the capsules together.\n\nThe Seeds are solitary, and kidney-shaped."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v05_MORAL_GOOD",
+        "headword": "MORAL GOOD",
+        "start_page": 262,
+        "end_page": 262,
+        "word_count": 551,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'MORAL GOOD...' starts with 'M' but volume 5 covers G-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "l Good denotes the right conduct of the several senses and passions, or their just proportion and accommodation to their respective objects and relations. See MORALS.\n\nGood Behaviour, (bonus gestus,) signifies an exact carriage or behaviour of a subject towards the king and the people, whereunto some persons upon their misbehaviour are bound: and he that is bound to this, is said to be more strictly bound than to the peace; because where the peace is not broken, the surety de bono gestu may be f",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v05_GORDIUS_s2",
+          "headword": "GORDIUS",
+          "start_page": 262,
+          "end_page": 263,
+          "word_count": 339,
+          "text_end": "was shewn in Cato's Letters. At length Sir Robert Walpole retained him to defend his administration, to which end he wrote several pamphlets; and died first commissioner of the wine-licences in 1750. There are two other collections of tracts of his writing, The Cordial for low spirits, and The pillars of priesthood and orthodoxy shaken. In his translations of Sallust and other works, he places the verbs at the ends of sentences, according to the Latin idiom, in a very stiff and affected manner."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

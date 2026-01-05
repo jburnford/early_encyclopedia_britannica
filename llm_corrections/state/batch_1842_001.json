@@ -1,0 +1,1686 @@
+{
+  "edition_year": 1842,
+  "batch_num": 1,
+  "total_batches": 10,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1842_v21_ABARKULSKAIA",
+        "headword": "ABARKULSKAIA",
+        "start_page": 933,
+        "end_page": 934,
+        "word_count": 782,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABARKULSKAIA...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABARKULSKAIA' starts with 'A' but is surrounded by 'X' articles (p.933) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "a village of Tobolsk, in Asiatic Russia, on the Irtysch, 120 miles east of Tobolsk.\n\nAcht, a vessel rigged as a queen's cutter, having a bowsprit, foresail, and jib. They are generally used as survey-boats.\n\nAdi, a river of Asiatic Russia, which falls into the Obisk Gulf. Long. 72.38. E. Lat. 67.25. N.\n\nAkoutsk, one of the four districts into which the province of Irkoutsk, in Asiatic Russia, is divided. It extends as far as the Frozen Ocean, north from the boundary of the provinces of Irkoutsk",
+        "surrounding_letter": "X"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_XIXONA",
+          "headword": "XIXONA",
+          "start_page": 932,
+          "end_page": 933,
+          "word_count": 618,
+          "text_end": "unless in words derived from the Greek, as in chyle, empyrean, &c., though it is admitted into the middle of some pure English words, as dying, flying, &c. The Romans had no capital of this letter, but used the small one in the middle and last syllables of words, as in corymbus, onyx, martyr. Y is also numeral, signifying 150, or, according to Baroniuss, 159, and with a dash over it, as Y, it signified 150,000.\n\nYa, a city of China, of the second rank, in Sechuen. Long. 102.39. E. Lat. 30.9. N."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v10_ABE",
+        "headword": "ABE",
+        "start_page": 455,
+        "end_page": 475,
+        "word_count": 19250,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABE...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABE' starts with 'A' but is surrounded by 'C' articles (p.455) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "ADE, have a common vertex\nE, they have the same altitude, there-\nfore ABE : ADE = AB : AD (Cor.\nto 6); but AB : AD = AB × AE : AD × AE (3), there-\nfore,\n\n\\[ \\frac{ABE}{ADE} = \\frac{AB \\times AE}{AD \\times AE}. \\]\n\nIn the same manner, it may be demonstrated that\n\n\\[ \\frac{ABC}{ABE} = \\frac{AB \\times AC}{AB \\times AE}; \\]\n\ntherefore (8, 3) \\( \\frac{ABC}{ADE} = \\frac{AB \\times AC}{AD \\times AE}. \\)\n\nCon. Therefore the two triangles are equivalent, if the\nrectangle \\( AB \\times AC = AD \\times AE \\),",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v19_ABSOLUTE_IMPULSE",
+        "headword": "ABSOLUTE IMPULSE",
+        "start_page": 177,
+        "end_page": 177,
+        "word_count": 81,
+        "volume_num": 19,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABSOLUTE IMPULSE...' starts with 'A' but volume 19 covers R-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABSOLUTE IMPULSE' starts with 'A' but is surrounded by 'R' articles (p.177) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e impulse means the actual pressure on the impelled surface, arising from the action of the fluid, whether striking the surface perpendicularly or obliquely; or it is the force impressed on the surface, or tendency to motion which it acquires, and which must be opposed by an equal force in the opposite direction, in order that the surface may be maintained in its place. It is of importance to keep in mind, that this pressure is always perpendicular to the surface.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v08_ACCELERATION",
+        "headword": "ACCELERATION",
+        "start_page": 383,
+        "end_page": 384,
+        "word_count": 1497,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACCELERATION...' starts with 'A' but volume 8 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "n expresses some relation of the velocity and time. This relation may be geometrically expressed in a variety of ways. In fig. 18 the uniform acceleration, or the unvaried relation between the velocity and the time, is very aptly expressed by the constant ratio of the ordinates and abscissas of the triangle agy. The ratio of $da$ to $ad$ is the same with that of $es$ to $ae$, or that of $f\\beta$ to $\\alpha f$, &c.; or the ratio of the increment of velocity $\\pi x$ to the increment of the time $\\",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v09_ACULEATA",
+        "headword": "ACULEATA",
+        "start_page": 237,
+        "end_page": 268,
+        "word_count": 38238,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACULEATA...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACULEATA' starts with 'A' but is surrounded by 'G' articles (p.237) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "This, the second primary section of the hymenopterous order, is distinguished from the preceding by the want of an ovipositor. That organ is represented by a sting composed of three parts, concealed and retractile. It is characteristic of the females, and likewise exists in those individuals (imperfect in a sexual point of view) commonly called neuters, which constitute so important a feature in the social union of the gregarious kinds. It is, however, wanting in several of the ant tribe,—in whi",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v09_GENUS_OPHION",
+          "headword": "GENUS OPHION",
+          "start_page": 235,
+          "end_page": 237,
+          "word_count": 2442,
+          "text_end": "ticulate. The example figured, P. cornua, deposits its eggs in the nest of Bembex rostrata. In Chrysis proper there is no false proboscis. The maxillary palpi are of medium size, or elongated, and composed of five articulations; the labial consist of three. Several analogous genera are recognised by naturalists, such as Hedychrum, Lat. (Plate CCXXXII. fig. 3), in which the maxillary palpi are much longer than the labial, the ligula emarginate, and the abdomen rounded and entire at the extremity."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v08_AD",
+        "headword": "AD",
+        "start_page": 388,
+        "end_page": 389,
+        "word_count": 1411,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AD...' starts with 'A' but volume 8 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "ad, the accelerating forces at A and a. Let V, B\nexpress the velocity at B, and v, b the velocity at b.\n\nLet GHK and ghk be curves whose ordinates are in-\nversely as the velocities at the corresponding points of\nthe abscissa. These curves are therefore exponents of\nthe times (No. 99). Then, because the forces act simi-\nlarly, we have, by the last theorem, AC × AD : ac\n× ad = V : v, B : b, = hb : HB². Therefore HB\n\n106. If there be two lines EFGH (fig. 21), efgh, so re-\nlated to their abscisses A",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v01_ADAM_SMITH",
+        "headword": "ADAM SMITH",
+        "start_page": 584,
+        "end_page": 585,
+        "word_count": 1226,
+        "volume_num": 1,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADAM SMITH' starts with 'A' but is surrounded by 'C' articles (p.584) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The great name of Adam Smith rests upon the Enquiry into the Nature and Causes of the Wealth of Nations; perhaps the only book which produced an immediate, general, and irrevocable change in some of the most important parts of the legislation of all civilized states. The works of Grotius, of Locke, and of Montesquieu, which bear a resemblance to it in character, and had no inconsiderable analogy to it in the extent of their popular influence, were productive only of a general amendment, not so c",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v01_DAVID_HUME",
+          "headword": "DAVID HUME",
+          "start_page": 578,
+          "end_page": 584,
+          "word_count": 4441,
+          "text_end": "respective provinces of reason and sentiment in morals, concur in ranking the\n\n---\n\n1 \"In hac questione primas tenet Voluntas, qua, ut ait Augustinus, peccator, et recte visitar.\" (Hyperaspistes; Districte adversus Servum Arbitrium Martini Lutheri, per Desiderium Erasmus Rotterdamensem.)\n\n2 Essays and Treatises, vol. II.\nEnquiry with the ethical treatises of the highest merit in our language,—with Shaftesbury's Enquiry concerning Virtue, Butler's Sermons, and Smith's Theory of Moral Sentiments."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v12_ADVANTAGES_OF_WATER-MEADOWS_AND_WARPING",
+        "headword": "ADVANTAGES OF WATER-MEADOWS AND WARPING",
+        "start_page": 461,
+        "end_page": 466,
+        "word_count": 6944,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ADVANTAGES OF WATER-...' starts with 'A' but volume 12 covers H-K",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADVANTAGES OF WATER-MEADOWS AN' starts with 'A' but is surrounded by 'I' articles (p.461) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The advantages derived from water-meadows and warping, as stated by authors who have written on those subjects, almost exceed credibility. One author of some standing says:—“Having heard that the proprietor of an old floated meadow at South Cerney (in Gloucestershire), had disposed of the produce of it, in the year 1795, in a way well calculated to ascertain its real value, I wrote to a person who resides on the spot, requesting him to send me a particular account of the product, and I received",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v12_IRRIGATION_s3",
+          "headword": "IRRIGATION",
+          "start_page": 460,
+          "end_page": 461,
+          "word_count": 823,
+          "text_end": "irrigate effectually in this manner, it is necessary to build the mouths of the main drains with strong masonry, and erect sluices for the retention of the water in the drains. This species of irrigation may also be attempted on any flat piece of ground resting on a gravelly bottom, by means of ditches which surround it, and which can command water from a lake or river. Turnips or potatoes, or any kind of crop, whether drilled or not, might be beneficially watered in this manner in a dry summer."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v12_AFTER_THE_USUAL",
+        "headword": "AFTER THE USUAL",
+        "start_page": 340,
+        "end_page": 341,
+        "word_count": 670,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AFTER THE USUAL...' starts with 'A' but volume 12 covers H-K",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AFTER THE USUAL' starts with 'A' but is surrounded by 'I' articles (p.340) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "r the usual means had been employed to recall him to life, it was agreed that his body should be dissected, to discover the cause of so sudden a death; but the supposed dead person overhearing this proposal, opened his eyes, started up, and immediately betook himself to his heels. Cardinal Espinosa, prime minister to Phillip II. was not so fortunate; for, in the memoirs of Amelot de la Houssaye, we are informed that he put his hand to the knife with which he was opened in order to be embalmed. I",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v12_INTERMENT",
+          "headword": "INTERMENT",
+          "start_page": 339,
+          "end_page": 340,
+          "word_count": 1748,
+          "text_end": "e smartly rubbed with a brush dipped in very strong pickle. At the end of three quarters of an hour she was observed to sigh; she was then made to swallow some spirituous liquor; and she was soon afterwards restored to life, much to the joy of her disconsolate parents. A certain man having undertaken a journey in order to see his brother, on his arrival at his house found him dead. This news affected him so much that it brought on syncope, and he himself was supposed to be in the like situation."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_AFTER_THE_WOOL_HAS_BEEN_COMBED_BY_ONE_OR_OTHER_OF_THE_ABOVE",
+        "headword": "AFTER THE WOOL HAS BEEN COMBED BY ONE OR OTHER OF THE ABOVE",
+        "start_page": 912,
+        "end_page": 912,
+        "word_count": 1245,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 13 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AFTER THE WOOL HAS B...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AFTER THE WOOL HAS BEEN COMBED' starts with 'A' but is surrounded by 'W' articles (p.912) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "r the wool has been combed by one or other of the above means, it is removed to the breaking frame, which opens out any fibres which may have escaped from the combs in a partially felted state. The principal part of the breaking frame consists of two rows of endless comb-chains, of which one pair is exhibited in the annexed figure.\n\nThe reader must bear in mind that the frame-work is omitted in the drawing, as not being essential to the due understanding of the process. The wool is introduced be",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_ALEXANDER",
+        "headword": "ALEXANDER",
+        "start_page": 335,
+        "end_page": 335,
+        "word_count": 41,
+        "volume_num": 11,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALEXANDER...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALEXANDER' starts with 'A' but is surrounded by 'M' articles (p.335) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "10. The name of Alexander has not yet been identified in the sacred characters; but it will appear hereafter that a knowledge of the enchorial form may possibly contribute very materially, at some future time, to assist us in determining it.",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_MISPHRAGMUTHOSIS",
+          "headword": "MISPHRAGMUTHOSIS",
+          "start_page": 332,
+          "end_page": 335,
+          "word_count": 2757,
+          "text_end": "hich might be taken either for that of Amasis or for that of the pseudonymous Psammetichus; but the sitting figure is somewhat different. The victor in the naval combat at Medinet-Habou, who appears also frequently at Ombos, considerably resembles them both. Lord Mountmorris has a rough seal with the name of Amasis only, the epithet God being prefixed in a smaller character. The names also occur on a small obelisk lying at Tsan, the ancient Tanis, of which a sketch was brought home by Dr Merion."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ALLADOLID_s2",
+        "headword": "ALLADOLID",
+        "start_page": 525,
+        "end_page": 525,
+        "word_count": 185,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALLADOLID...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALLADOLID' starts with 'A' but is surrounded by 'V' articles (p.525) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "a city of Spain in the province of Leon, the capital of a district of the same name. It is situated on a plain at the spot where the rivers Pisuegra and Ebro form a junction; and the waters of the latter, divided into two branches, pass through a part of the city. The country around it is not productive, but might be made highly fertile by a small expense in irrigation. The city is large, and contains a population of about 30,000 souls. Its streets are narrow and crooked, and exhibit signs of de",
+        "surrounding_letter": "V"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_VALETTA",
+          "headword": "VALETTA",
+          "start_page": 524,
+          "end_page": 525,
+          "word_count": 237,
+          "text_end": "ers, lodges of the different languages, the conservatory, the university, the treasury, the palace of justice, the hospital, the Monte di Pietà, the barracks, the theatre, and the exchange. These buildings are distinguished by the elegance and chasteness of their architecture. The public library contains about 100,000 volumes, and there is also an extensive museum. The total population of the island in 1816, including the troops, amounted to 106,614, of which about 40,000 resided in the capital."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v17_ALPHABET",
+        "headword": "ALPHABET",
+        "start_page": 837,
+        "end_page": 837,
+        "word_count": 46,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALPHABET...' starts with 'A' but volume 17 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALPHABET' starts with 'A' but is surrounded by 'P' articles (p.837) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Α Β Γ Δ Ε Ζ Η Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω\n\nΑ Β Γ Δ Ε Ζ Η Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_ALTER_IN_ALTERIUS_DULCI_AMPLEXU_MORITURUS",
+        "headword": "ALTER IN ALTERIUS DULCI AMPLEXU MORITURUS",
+        "start_page": 279,
+        "end_page": 279,
+        "word_count": 43,
+        "volume_num": 11,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALTER IN ALTERIUS DU...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALTER IN ALTERIUS DULCI AMPLEX' starts with 'A' but is surrounded by 'H' articles (p.279) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "NON EQUIDEM CURIS CRUDELI FATA MOVERI POSSEREO ROR NEC ME VITAE SPES VANA EFFELIT.\n\nLines which are not indeed very harmonious or poetical, but which might have stood in the same work with CONSILIIS NOX APTA DUCUM LUX APTIOR ARMIS,\nand with Cleopatra's",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_HERCULANEUM",
+          "headword": "HERCULANEUM",
+          "start_page": 272,
+          "end_page": 279,
+          "word_count": 8881,
+          "text_end": "ts.\n\nIt must not, however, be denied, that to the great majority of readers it would be far more agreeable and convenient to have the works not only restored, but translated, if it could be done with tolerable accuracy, and without any very great loss of time. And even where a probable restoration is beyond our reach, it might be of some advantage to substitute a possible one. Thus the specimen which has been copied from the Philosophical Transactions for 1752 might suggest the three hexameters,"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_AMMON",
+        "headword": "AMMON",
+        "start_page": 329,
+        "end_page": 329,
+        "word_count": 178,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMMON...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Now, a water jar of this form is constantly converted, in the running hand of the manuscripts, into a character like a z; and this character, in the enchorial text of Rosetta, is made to express the name of Jupiter; a fact which confirms the testimony of the Greek authors, who considered the Egyptian Jupiter as having been represented with a ram's head. A similar figure is found at Edou (Apollinopolis Magna), and at Esneh (Latopolis). The temple at Edou seems to have been dedicated by Amenophis",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_GODDESS",
+          "headword": "GODDESS",
+          "start_page": 328,
+          "end_page": 329,
+          "word_count": 889,
+          "text_end": "y common in some other cases, with respect to these two personifications, though it does not extend to the substitution of the heads of different animals for each other.\n\n5. Ammon, the Egyptian Jupiter, is sufficiently identified by a combination of evidence of various kinds, although no single link of the chain extends very far. A figure with a ram's head is denoted; both on the green sarcophagus and on the temple at Elephantine, by a water jar, sometimes, but not always, accompanied by a bird."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_AMN",
+        "headword": "AMN",
+        "start_page": 362,
+        "end_page": 376,
+        "word_count": 16121,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMN...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "NE, NOUB, and NOUM. Eusebius informs us that the Egyptians represented the demiurge, or creator of the world, under a human form, covered with blue flesh, encircled by a zone or girdle, holding a sceptre, and having on the head a royal ornamented head-dress of feathers. Porphyry gives us the same information. \"Hujus porro Knéph imaginem, inquit, humana forma depingunt, colore caruilio, zonum tenentem et sceptrum, pennam gerentem in capite; ovum ab ore product, a quo nascitur deus quem Ἡρακλῆς Ph",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_AREIA",
+          "headword": "AREIA",
+          "start_page": 337,
+          "end_page": 362,
+          "word_count": 29176,
+          "text_end": "es of private individuals are never included in an elliptical ring or cartouche, which is the distinctive mark of the proper names of sovereigns alone; they are written like the ordinary current text of the hieroglyphics, but are constantly terminated either by the figurative emblem of man, or by the sign of the feminine gender, as the case may be. From this branch of his analysis Champollion concludes that the proper names of individuals were written phonetically; and consequently that the opi-"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v02_ANATOMY_OF_THE_ORGANS_OF_THE_ANIMAL",
+        "headword": "ANATOMY OF THE ORGANS OF THE ANIMAL",
+        "start_page": 769,
+        "end_page": 775,
+        "word_count": 8095,
+        "volume_num": 2,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          }
+        ],
+        "text_preview": "VOLUNTARY, OR RELATIVE FUNCTIONS.\n\nThe organs belonging to the functions of animal life are those of locomotion, sensation, voice, and innervation. These organs are distinguished by two general characters, symmetry of form and harmony of action. By the first is meant that each organ possesses similar parts on each side of the mesial plane. By the second is meant that the action of that part which is on the right side of the mesial plane corresponds with that on the left.\n\nCHAP. I.—THE ORGANS OF",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v20_ANGUIDAE",
+        "headword": "ANGUIDAE",
+        "start_page": 132,
+        "end_page": 134,
+        "word_count": 1964,
+        "volume_num": 20,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANGUIDAE...' starts with 'A' but volume 20 covers S-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ANGUIDAE' starts with 'A' but is surrounded by 'S' articles (p.132) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "OR SLOW-WORMS.\n\nThese still exhibit the bony head, the teeth, the tongue of Seps, and the eye is furnished with three eyelids. They correspond to the ancient unrestricted genus Anguis of Linnæus, and are characterized externally by imbricated scales covering the whole body. The species now form four minor genera, of which the first three still exhibit beneath the skin certain small bones corresponding to those of the shoulder and pelvis.\n\nGENUS Pseudopus, Merrem. Tympanum visible externally. A p",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v20_SERPENTS",
+          "headword": "SERPENTS",
+          "start_page": 131,
+          "end_page": 132,
+          "word_count": 1178,
+          "text_end": "nt of which due notice will be given.\n\nThe French anatomist defines serpents as,—reptiles without feet, which advance by means of sinuous movements of the body. He divides them into three great groups,—the Anguidae or slow-worms,—the true serpents (subdivided into, 1st, double movers, i.e. the genera Amphibolena and Typhlops; 2dly, serpents properly so called, containing all the actually Ophidian species),—and the naked serpents, composed of the single genus Cecilia.\n\nWe commence, then, with the"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ANNES",
+        "headword": "ANNES",
+        "start_page": 533,
+        "end_page": 533,
+        "word_count": 110,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANNES...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an arrondissement in the department of Morbihan in France, extending over 638 square miles, comprising eleven cantons, divided into seven communes, containing a population of 125,898 in 1836. The capital of the city of the same name, which is connected with the port of Morbihan by a canal about two and a half miles in length. It is well fortified, is the seat of a bishop, has a cathedral and other three churches, 1850 houses, and 11,623 inhabitants in 1836. The chief trade is in corn, butter, an",
+        "surrounding_letter": "V"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_VANDYCK",
+          "headword": "VANDYCK",
+          "start_page": 532,
+          "end_page": 533,
+          "word_count": 751,
+          "text_end": "but little fortune, maintained him in a style equal to her birth. He generally kept a magnificent equipage, and a numerous retinue. He died in Bickfriars on the 9th of December 1641, at the early age of forty-two, and was buried in St. Paul's near the tomb of Lord Gurney. He left a daughter, married to Mr. Stepney, the grandfather of George Stepey the poet. Lady Violette was afterwards married to Richard the son of Sir John Pryse of Newton-Averbacham, but by her second husband she had no issue."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_AR",
+        "headword": "AR",
+        "start_page": 533,
+        "end_page": 533,
+        "word_count": 647,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AR...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a department of the south-east of France, formed out of the eastern part of ancient Provence. It extends in north latitude from 43° 2' to 44° 0', and in east longitude from 5° 29' to 6° 59' and comprehends 2854 square miles. It is bounded on the north by the department of the Lower Alpes, on the north-east by Piedmont, on the south-east by the Mediterranean sea, and on the west by the mouths of the Rhone. It is divided into four arrondissements, which are subdivided into thirty-five cantons, and",
+        "surrounding_letter": "V"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ANNES",
+          "headword": "ANNES",
+          "start_page": 533,
+          "end_page": 533,
+          "word_count": 110,
+          "text_end": "divided into seven communes, containing a population of 125,898 in 1836. The capital of the city of the same name, which is connected with the port of Morbihan by a canal about two and a half miles in length. It is well fortified, is the seat of a bishop, has a cathedral and other three churches, 1850 houses, and 11,623 inhabitants in 1836. The chief trade is in corn, butter, and honey; and a fishery for anchovies affords occupation to many of the people.\n\nLat. 47° 39' 14\". Long. 2° 52' 16\". W."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_AREIA",
+        "headword": "AREIA",
+        "start_page": 337,
+        "end_page": 362,
+        "word_count": 29176,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AREIA...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "IRENE.\n\nRamuneus.\n\nIn Diogenes and Areia we discover no traces of the ring which is the usual characteristic of proper names; and, on the other hand, we find occasionally, in some of the manuscripts, the parts of the ring applied to a title of Osiris, which is more regularly written without any such distinction. A name of a private individual is inserted from a sarcophagus in the British Museum, engraved by Alexander, in his Egyptian Monuments. Its form is not that of a parallelopped, but more a",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_EPIPHANES",
+          "headword": "EPIPHANES",
+          "start_page": 336,
+          "end_page": 337,
+          "word_count": 857,
+          "text_end": "ption Fraternal gods, as, indeed, Philadelphus and his queen are called in the Greek inscription of Rosetta.\n\n3. Private Persons.\n\nWe find the names of six individuals expressed in the enchorial text of the inscription of Rosetta, though they are wanting in the distinct hieroglyphics; but, as they are clearly ascertained by the context, they are of considerable value in tracing the approach of the hieroglyphic to alphabetic writing. These are, Aetus, Philinus, Diogenes, Pyrrha, Areia, and Irene."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v08_ARGILLACEOUS_GENUS",
+        "headword": "ARGILLACEOUS GENUS",
+        "start_page": 644,
+        "end_page": 644,
+        "word_count": 137,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARGILLACEOUS GENUS...' starts with 'A' but volume 8 covers D-E",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARGILLACEOUS GENUS' starts with 'A' but is surrounded by 'H' articles (p.644) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Alum,\nPipe clay,\nSlate clay,\nSlates,\nStone, hone,\nFullers' earth,\nReddle,\nArmenian bole,\nBasalt,\nBricks and tiles,\nQueen's ware,\nDitto fractured,\n\nSpark purple, rather ramified, luminous through its whole surface.\nSparks, and luminous, but not luminous when inside pipes.\nSparks, and luminous, but loses its absorbent power as it becomes bituminous.\nSparks, and absorbed electric light from the explosion.\nGood spark, and phosphoric by the explosion.\nGood bright sparks, but slightly luminous.\nNo spa",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v08_MURIATIC_GENUS",
+          "headword": "MURIATIC GENUS",
+          "start_page": 643,
+          "end_page": 644,
+          "word_count": 78,
+          "text_end": "eatites, talc, and fibrous amianthus,\nAsbestos,\nMica,\nMicaaceous schistus,\n\nWere both transiently luminous by the electric explosion.\nVery luminous through its whole substance.\nNot more luminous than the carbonate.\nSparks branching off in minute party-coloured points.\nGave sparks, and were slightly luminous by the explosion.\nRamifications on its surface more variegated than in chlorite.\nAffords sparks, but is not luminous by the explosion.\nSparks ramified as in chlorite, scarcely phosphorescent."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v09_ARMAMENT_OF_FORTRESSES",
+        "headword": "ARMAMENT OF FORTRESSES",
+        "start_page": 785,
+        "end_page": 786,
+        "word_count": 820,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARMAMENT OF FORTRESS...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Having thus endeavoured to describe as briefly as possible the principal systems of fortification, it only now remains for us, before quitting this branch of the subject, to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exact rules as to the proportion of ordnance, ammunition, and stores of every kind required for the defence of a fortified place, seeing this must necessarily vary according to",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v05_ARRANGEMENT_AND_CHARACTERS_OF_THE_NATURAL_ORDERS",
+        "headword": "ARRANGEMENT AND CHARACTERS OF THE NATURAL ORDERS",
+        "start_page": 104,
+        "end_page": 105,
+        "word_count": 1124,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARRANGEMENT AND CHAR...' starts with 'A' but volume 5 covers B-C",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARRANGEMENT AND CHARACTERS OF ' starts with 'A' but is surrounded by 'F' articles (p.104) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "I. VASCULARES.\n\nA. EXOGENAE DE CAND. (DICOTYLEDONES JUSS.)\n\nDIV. I.—Dichlamydeae Thalamiflorae. D. C.\n\n(1. Hypopetalae.) Juss.\n\nOrder 1. Ranunculaceae. Juss.\n\nSub-order 1. Ranunculinæ. Sepals distinct, various in number, from three to fifteen, but usually five, deciduous; estivation generally imbricated, sometimes valvate.\n\n---\n\n1 In the divisions with several petals, the petals are sometimes, though rarely, abortive; it is then difficult to decide whether the plant comes here or belongs to the",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v05_NATURAL_CLASSIFICATION_OF_PLANTS",
+          "headword": "NATURAL CLASSIFICATION OF PLANTS",
+          "start_page": 98,
+          "end_page": 104,
+          "word_count": 7513,
+          "text_end": "h Rudolphi and Lindley, however, carry the system of subdivision perhaps to excess; but as our object is here to give a view of the science at the present day, we shall admit almost all of them, arranging, however, the minor ones under a general head, to which, for conciseness, we shall give no character, and which may be viewed, if one pleases, as a class. To as short a definition of the orders as possible we shall annex a few remarks, which we trust may render this department more interesting."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_ARUERIS",
+        "headword": "ARUERIS",
+        "start_page": 330,
+        "end_page": 330,
+        "word_count": 311,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARUERIS...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "11. This divinity, the Apollo of the Egyptian mythology, is sufficiently identified by the comparison of various inscriptions with the fragment of Hermapion, preserved by Ammianus Marcellinus, as the translation of the inscription on a particular obelisk, with which, however, it does not exactly agree, although its style completely resembles that of the Egyptian inscriptions in general, and the beginning corresponds perfectly well to the beginning of almost all the obelisks in existence, supposi",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_PHRE",
+          "headword": "PHRE",
+          "start_page": 329,
+          "end_page": 329,
+          "word_count": 321,
+          "text_end": "almost the only intelligible combination of letters that ever occurs on the Abraxas or amulets; and the monster to which it relates has generally radiations from its head, and is surrounded by six stars. The tablets of the sun in the manuscripts exhibit also little genii worshipping him, each of which is always marked \"star god.\"\n\n7. The name of RHEA may, without impropriety, be assigned to a female personage very commonly accompanying the sun, and distinguished by many of his attributes, thus:"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATERLAND_s2",
+        "headword": "ATERLAND",
+        "start_page": 789,
+        "end_page": 789,
+        "word_count": 135,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATERLAND...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Daniel, D.D., a learned English di-\nviner who greatly distinguished himself in theological con-\ntroversies, was born in 1683, at Wasely in Lincolnshire, of \nplace his father was rector. He had his academical \ntraining at Magdalen College, Cambridge, where he drew up \na tract which went through several editions, entitled \nAdvice to a Young Student, with a Method of Study for \nthree years. In 1713 he became master of the col-\nlege soon after appointed chaplain to George I., and \nat the time of his",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_WATERFORD",
+          "headword": "WATERFORD",
+          "start_page": 784,
+          "end_page": 789,
+          "word_count": 4524,
+          "text_end": "iverpool and Bristol.\n\nThe population of the county of the city amounted in \n181 to 28,679, in 1831 to 28,821, and in 1834 to 29,352. \nOf the last named number, 4,427 were members of the \nestablished church, 429 Protestant dissenters, and 24,433 \nRoman Catholics. The population of the other towns con-\ntaining more than 2,000 souls each, was, in 1831, Dungar-\nvan, 6,519; Tallow, 2,998; Lismore, 2,894; Carrickbeg (a \nsuburb of Carrick-on-Suir), 2,704; Cappoquin, 2,289; and \nTrimore, 2,224.\n\n(c.p.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATERLOO",
+        "headword": "ATERLOO",
+        "start_page": 789,
+        "end_page": 789,
+        "word_count": 38,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATERLOO...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a village of Belgium, ten miles south of \nBrussels, with about 1,600 inhabitants. Its name has been \nrendered famous by the battle which decided the fate of \nNapoleon. For an account of that battle, see the article \nW.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ATERLAND_s2",
+          "headword": "ATERLAND",
+          "start_page": 789,
+          "end_page": 789,
+          "word_count": 135,
+          "text_end": "h several editions, entitled \nAdvice to a Young Student, with a Method of Study for \nthree years. In 1713 he became master of the col-\nlege soon after appointed chaplain to George I., and \nat the time of his death, in 1740, was canon of Windsor, \ndeacon of Middlesex, and vicar of Twickenham. A \ncollective edition of his Works, with a review of his life and \nwritings, was published by Bishop Van Mildert. Oxford, \n181, 10 vols. 8vo. A general index, forming the eleventh \nvolume, was added in 1828."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATFORD",
+        "headword": "ATFORD",
+        "start_page": 789,
+        "end_page": 789,
+        "word_count": 97,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATFORD...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a market-town of the county of Hertford,\nin the hundred of Caisho, 17½ miles from London. It \nstands on the river Colne, a few miles from its source at \nOtterpool. It is well built and pleasantly situated, consist-\ning principally of one street. There is a good market on \nSaturday, and two annual fairs are held. The chief trade \nis in linen and silk. The population amounted in 1821 to \n475, and in 1831 to 5,293; but this estimate includes the \ninhabitants of three hamlets which form a portion of",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ATERLOO",
+          "headword": "ATERLOO",
+          "start_page": 789,
+          "end_page": 789,
+          "word_count": 38,
+          "text_end": "a village of Belgium, ten miles south of \nBrussels, with about 1,600 inhabitants. Its name has been \nrendered famous by the battle which decided the fate of \nNapoleon. For an account of that battle, see the article \nW."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_ATHIOPO",
+        "headword": "ATHIOPO",
+        "start_page": 319,
+        "end_page": 328,
+        "word_count": 11563,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATHIOPO...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "who has embarked with us? Are the heretics\nEgyptians, that he should have been sent to dispute with\nthem?\" Lastly, the author of an Arabic note inserted\nin a Coptic manuscript, preserved in the King's Library\nat Paris, informs us that, before the invasion of the Mos-\nlims, it was the custom in Egypt, in the celebration of\nthe offices, to read in Greek the lessons of Scripture, and\nto explain them in Coptic; and it appears from a fragment\npublished by Georgi, that the inhabitants of Upper Egypt\nr",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_HIERARCHY_LIKEWISE",
+          "headword": "HIERARCHY LIKEWISE",
+          "start_page": 303,
+          "end_page": 319,
+          "word_count": 19528,
+          "text_end": "m to converse together, if God had not grant-\ned to Bischoi the gift of speaking Syriac, and to St Eph-\nrem that of explaining himself in Egyptian. Dioscorus,\npatriarch of Alexandria, in his eulogium on the bishop of\nTkouo, with whom he travelled to the council of Chalcedon,\nstates expressly that the latter knew only Egyptian. \"As\nI understood not his conversation, the deacon Peter,\" says\nhe, \"acted as our interpreter.\" He adds, \"The deacon\nTheopistos said to me, What shall we do with this mute,"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATIVIA",
+        "headword": "ATIVIA",
+        "start_page": 929,
+        "end_page": 929,
+        "word_count": 232,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATIVIA...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATIVIA' starts with 'A' but is surrounded by 'W' articles (p.929) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "a government of Spain, in the kingdom of Valencia, extending from the river Alcia to the shores of the Mediterranean Sea. It is now more commonly called Sagunto, its ancient name having been changed by law to sanction the expulsion of the Moors. The capital of the parish of the same name was founded by the Romans, and called by them Setabas. It is situated on the declivity of a conical mountain, overlooking a plain not very fruitful, though watered by the river Albayda, one of the tributary stre",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_WYNDHAM",
+          "headword": "WYNDHAM",
+          "start_page": 928,
+          "end_page": 929,
+          "word_count": 176,
+          "text_end": "of Oxford and Lord Bolingbroke, he adhered to the interests of the latter. He was removed from his employment on the accession of George I., and falling under suspicion on the breaking out of the rebellion in 1715, was apprehended. He made his escape; a reward was published for apprehending him; he surrendered, was committed to the Tower, but never brought to a trial. After he regained his liberty, he continued in opposition to the several administrations under which he lived, and died in 1740."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATLINGTON",
+        "headword": "ATLINGTON",
+        "start_page": 789,
+        "end_page": 789,
+        "word_count": 53,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATLINGTON...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an irregularly built market-town of \nthe county of Oxford, in the hundred of Pirton, forty-three \nmiles from London. It stands in a hilly district, called the \nChiltern Hills, has an endowed school, and a market on \nSunday, with two annual fairs. The population amounted \nin 1821 to 1,479, and in 1831 to 1,833.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ATFORD",
+          "headword": "ATFORD",
+          "start_page": 789,
+          "end_page": 789,
+          "word_count": 97,
+          "text_end": "rd,\nin the hundred of Caisho, 17½ miles from London. It \nstands on the river Colne, a few miles from its source at \nOtterpool. It is well built and pleasantly situated, consist-\ning principally of one street. There is a good market on \nSaturday, and two annual fairs are held. The chief trade \nis in linen and silk. The population amounted in 1821 to \n475, and in 1831 to 5,293; but this estimate includes the \ninhabitants of three hamlets which form a portion of the \nparish, though not of the town."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_ATSON",
+        "headword": "ATSON",
+        "start_page": 789,
+        "end_page": 791,
+        "word_count": 3567,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATSON...' starts with 'A' but volume 21 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Robert, LL.D., an elegant historian, was \nborn at St Andrews, about the year 1730. He was the \nson of an apothecary of that place, who was also a brewer. \nHaving gone through the usual course of languages and \nphilosophy at the school and university of his native \ncity, and also entered on the study of divinity, a desire \nof being acquainted with a larger circle of literati, \nand of improving himself in every branch of knowledge, \nled him, first to the university of Glasgow, and afterwards \nto t",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ATLINGTON",
+          "headword": "ATLINGTON",
+          "start_page": 789,
+          "end_page": 789,
+          "word_count": 53,
+          "text_end": "an irregularly built market-town of \nthe county of Oxford, in the hundred of Pirton, forty-three \nmiles from London. It stands in a hilly district, called the \nChiltern Hills, has an endowed school, and a market on \nSunday, with two annual fairs. The population amounted \nin 1821 to 1,479, and in 1831 to 1,833."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+        "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+        "start_page": 786,
+        "end_page": 793,
+        "word_count": 9740,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATTACK AND DEFENCE O...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La résolution des sièges,\" says the Mareschal, \"est une affaire de",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v09_ARMAMENT_OF_FORTRESSES",
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 785,
+          "end_page": 786,
+          "word_count": 820,
+          "text_end": "ld be within the body of the place, and as they require a great quantity of ammunition, they should be less frequently used, and only upon urgent oc-\nFortification.\n\nA judicious economy of ammunition is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chassé in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v14_AXIOMS",
+        "headword": "AXIOMS",
+        "start_page": 366,
+        "end_page": 366,
+        "word_count": 352,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AXIOMS...' starts with 'A' but volume 14 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AXIOMS' starts with 'A' but is surrounded by 'M' articles (p.366) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Axiom 1. Equal weights acting at the extremities of equal arms of a straight lever, and having the lines of the direction in which they act at equal angles to these arms, will exert the same effort to turn the lever round its fulcrum. This axiom has been generally restricted to the particular case when the weights act perpendicularly to the arms of the lever; but no reason can be assigned for such a limitation. The truth in the axiom is as self-evident when the angles formed by the arms of the l",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v10_BAC",
+        "headword": "BAC",
+        "start_page": 455,
+        "end_page": 455,
+        "word_count": 199,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BAC...' starts with 'B' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "their homologous sides are proportional. Now the\nside BD of the lesser triangle is homologous to the side\nBA of the greater, because they are opposite to the equal\nangles BAD, BCA; in like manner BA, considered as a\nside of the lesser triangle, is homologous to the side BC\nof the greater, each being opposite to a right angle; there-\nfore, BD : BA = BA : BC. In the same manner it may be\nshown that CD : CA = CA : CB, therefore each side\n\nis a mean proportional between the hypotenuse and the\nsegmen",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v10_ABE",
+          "headword": "ABE",
+          "start_page": 455,
+          "end_page": 475,
+          "word_count": 19250,
+          "text_end": "ency of its waters, which contain an abundance of excellent fish. The lake is in general very deep, and interspersed with numerous islands, one of which, Diamond Island, formerly possessed a fort.\n\nGeorge's Channel, a dangerous passage in the Eastern Seas, between the great Nicobar Island and the others.\nThe danger in this passage arises from the rapidity with which the tide runs, which is at the rate of about five miles an hour, and from rocks, so that it is not safe for any vessel to enter it."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v03_BALUSTER",
+        "headword": "BALUSTER",
+        "start_page": 475,
+        "end_page": 475,
+        "word_count": 152,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BALUSTER...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a small column or pier supporting the coping in a pierced parapet: the parapet itself when pierced is hence called a balustrade.\n\nBAND or TENIA, nearly synonymous with Fillet, q. v. This term is, however, most generally applied to that listel in the Doric entablature which separates the frieze from the architrave, and connects the lower parts of the triglyphs.\n\nBASE (Gr. βάσις, from the verb to bear). The congeries of mouldings generally placed under the shaft of an Ionic or Corinthian column is",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v03_ATTIC",
+          "headword": "ATTIC",
+          "start_page": 475,
+          "end_page": 475,
+          "word_count": 103,
+          "text_end": "evation. The etymology of this term is unsettled: probably the upper range of columns in a Greek hypereithral temple (see Plate LVII. fig. 1) was called arxos, from having no coherent wall; whence the Latin atticum, and its application to a story superimposing the general ordinance. Otherwise such a thing is unknown in Greek architecture; but it is very common in both Roman and Italian practice. What is here termed the tholobate in St Peter's and St Paul's cathedrals are generally termed attics."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v03_BATTLEMENT",
+        "headword": "BATTLEMENT",
+        "start_page": 475,
+        "end_page": 475,
+        "word_count": 30,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BATTLEMENT...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a pierced or machicolated parapet.\n\nBAY. The space between the mullions of a window, between piers, and between the principal beams of a roof, floor, or ceiling, is a bay.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v03_BALUSTER",
+          "headword": "BALUSTER",
+          "start_page": 475,
+          "end_page": 475,
+          "word_count": 152,
+          "text_end": "erb to bear). The congeries of mouldings generally placed under the shaft of an Ionic or Corinthian column is called its base. Plate LXVI. fig. 1. The term is applied also to the lowest part of a pedestal or stylobate; to the vertical moulded fittings which go round walls on the floor; and generally to every thing that is put lowest, for any thing to rest on.\n\nBATTER (Fr. battre, to beat). Building over in projecting courses, like inverted steps, is termed battering, beating, or corbelling over."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v08_BE",
+        "headword": "BE",
+        "start_page": 388,
+        "end_page": 388,
+        "word_count": 389,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BE...' starts with 'B' but volume 8 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "CF, and ad, be, cf. Then if B and b are similar in-\nstants (suppose the middles) of the whole times, we have\nBE : be = AD : ad. Therefore, by the lemma, the area\nACFD is to acfd as AC × AD to ac × ad. But these\nareas are proportional to the velocities (No. 72), and the\nproposition is demonstrated. For the same reason, the\nchange of velocity during the time AB is to the change\nduring ab as AB × AD to ab × ad.\n\nCor. 1. If the times and forces are reciprocally propor-\ntional, the changes of velocit",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v08_AD",
+          "headword": "AD",
+          "start_page": 388,
+          "end_page": 389,
+          "word_count": 1411,
+          "text_end": "th that of \\( m \\) particles having each the velocity \\( v \\).\n\nIf therefore a motive force \\( f \\) act on a body consisting of \\( m \\) particles, the accelerating force \\( a \\) is \\( \\frac{f}{m} \\frac{v}{t} \\).\n\nTherefore the three last propositions concerning the similar, the uniform, or the momentary actions of moving forces, when expressed in the most general terms, are,\n\n\\[\nv^2 = \\frac{f}{mt},\n\\]\n\n\\[\nv^2 = \\frac{f}{m}, \\quad \\text{or} \\quad ede = \\frac{fds}{m},\n\\]\n\n\\[\nt^2 = \\frac{mS}{f}.\n\\]"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v03_BED-MOULD",
+        "headword": "BED-MOULD",
+        "start_page": 475,
+        "end_page": 475,
+        "word_count": 26,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BED-MOULD...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the congeries of mouldings which is under the projecting part of almost every cornice, and of which indeed it is a part. Plate LXVI. fig. 1.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v03_BATTLEMENT",
+          "headword": "BATTLEMENT",
+          "start_page": 475,
+          "end_page": 475,
+          "word_count": 30,
+          "text_end": "a pierced or machicolated parapet.\n\nBAY. The space between the mullions of a window, between piers, and between the principal beams of a roof, floor, or ceiling, is a bay."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v12_BEFORE_PROCEEDING_TO_DIRECT_THE_USE_OF_THE_LAST",
+        "headword": "BEFORE PROCEEDING TO DIRECT THE USE OF THE LAST",
+        "start_page": 304,
+        "end_page": 305,
+        "word_count": 989,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 9 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BEFORE PROCEEDING TO...' starts with 'B' but volume 12 covers H-K",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BEFORE PROCEEDING TO DIRECT TH' starts with 'B' but is surrounded by 'I' articles (p.304) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e proceeding to direct the use of the last means mentioned, viz. tobacco, for destroying insects in turnips, it may be proper to mention an experiment made by Mr Green, of the flower-garden at Kew. He contrived a pair of bellows similar to that employed in recovering people apparently drowned. It had a cavity in the nozzle, in which some tobacco was put, with a live coal over it. The bellows being then worked, the tobacco was set on fire, and the smoke directed to any particular spot. A lady was",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v12_INSECTS",
+          "headword": "INSECTS",
+          "start_page": 303,
+          "end_page": 304,
+          "word_count": 1666,
+          "text_end": "softened with water so as to admit the plants. This method will secure their more speedy growth. In the nursery the attack of the fly may be prevented by sprinkling soot or quicklime on the ground. The utility of transplanting turnips is evident by the practice of transplanting the turnip-rooted cabbage. They who are discouraged from having recourse to this practice by the expense attending it, do not reflect that the hoeing is prevented, and the plants grow the better, being set in fresh earth."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_BERENICE",
+        "headword": "BERENICE",
+        "start_page": 335,
+        "end_page": 336,
+        "word_count": 644,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BERENICE...' starts with 'B' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "---\n\n1 The name of Alexander has now been several times identified in the sacred characters or hieroglyphics. It occurs on the edifices of Karnak, where it is written AAKZANTPS and AAKZENPOX. (Champollion, Précis du Synt. Hiérogly. p. 84. Paris, 1826.) We also learn from Mr Salt, that, besides the granite sanctuary at Karnak, the name of Alexander, preceded by mystic titles, is found on the granite propylion in the island of Elephantine. In these titles the word Amun is clearly distinguished. It",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v11_ALEXANDER",
+          "headword": "ALEXANDER",
+          "start_page": 335,
+          "end_page": 335,
+          "word_count": 41,
+          "text_end": "10. The name of Alexander has not yet been identified in the sacred characters; but it will appear hereafter that a knowledge of the enchorial form may possibly contribute very materially, at some future time, to assist us in determining it."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_BIBLIOGRAPHY",
+        "headword": "BIBLIOGRAPHY",
+        "start_page": 613,
+        "end_page": 613,
+        "word_count": 317,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BIBLIOGRAPHY...' starts with 'B' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BIBLIOGRAPHY' starts with 'B' but is surrounded by 'L' articles (p.613) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Generally of the Science.\n\nSainbel's Lectures on Farriery. 4to, London, 1793.\nBoardman's Dictionary of the Veterinary Art. 4to, London, 1805.\nWhite's Treatise on Veterinary Medicine. 4 vols., London, 1819.\nDictionary of the Veterinary Art. 1 vol., 12mo, Lond., 1817.\nBlaine's Outlines of the Veterinary Art. 5th edit., London, 1841.\nHurtrel's Dictionnaire de Med. et Chir. Veterin., tom. 4, Paris.\nHazard's Esquisses de Nosographie Veterinaire.\nMorton's Veterinary Pharmacy.\nThe Veterinarian, Periodi",
+        "surrounding_letter": "V"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_VETERINARY_SCIENCE_s10",
+          "headword": "VETERINARY SCIENCE",
+          "start_page": 610,
+          "end_page": 613,
+          "word_count": 2996,
+          "text_end": "l cause their disappearance from all the above-named animals, or a solution of corrosive sublimate, although this requires a little more caution. For the tick in sheep, a mixture of tar and turpentine is a speedy and certain poison; and for the maggot, sometimes a most fatal vermin in this quadruped, the great matter is the shepherd's watchful care; as soon as discovered, the affected part must be shaved, and spirit of turpentine, or of tar with oil, or a solution of corrosive sublimate applied."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v12_BLAST_ENGINE",
+        "headword": "BLAST ENGINE",
+        "start_page": 853,
+        "end_page": 853,
+        "word_count": 15,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLAST ENGINE...' starts with 'B' but volume 12 covers H-K",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BLAST ENGINE' starts with 'B' but is surrounded by 'K' articles (p.853) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Erected at Wylam Iron Works, by R.&W. HAWTHON, Civil Engineers, NEWCASTLE upon TYNE.\n\nELEVATION. Fig.1.",
+        "surrounding_letter": "K"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v03_BLOCKING-COURSE",
+        "headword": "BLOCKING-COURSE",
+        "start_page": 475,
+        "end_page": 475,
+        "word_count": 27,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLOCKING-COURSE...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a deep but slightly projecting course in an elevation, to act as cornice to an arcade, or to separate a basement from a superior story. (See STRING-COURSE.)",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v03_BED-MOULD",
+          "headword": "BED-MOULD",
+          "start_page": 475,
+          "end_page": 475,
+          "word_count": 26,
+          "text_end": "the congeries of mouldings which is under the projecting part of almost every cornice, and of which indeed it is a part. Plate LXVI. fig. 1."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v16_BOATS",
+        "headword": "BOATS",
+        "start_page": 46,
+        "end_page": 47,
+        "word_count": 2192,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOATS...' starts with 'B' but volume 16 covers N-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Boats formed exclusively for canals are much longer and narrower than those which are also intended for rivers, or for river navigation alone. It is found, that when made of this shape, they are tracked with more ease or speed than when of a wider and shorter form; and they likewise occasion less injury to the sides of the canal. Indeed the proportions of the boats must always be regulated by the dimensions of the locks and bridges; and these have often been made of very reduced width, from cons",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v16_BRIDGES",
+          "headword": "BRIDGES",
+          "start_page": 45,
+          "end_page": 46,
+          "word_count": 717,
+          "text_end": "bridge. When the bridge is shut, three of the five ribs bear at right angles on the abutments; the other two are secured upon the upper circles, and at GG. We should think that a far\n\n---\n\n1 Fontaine, Des Travaux du Fleuve du Rhin, 1833; and Mr Rennie's Report on Hydraulics.\nmore simple bridge of the moveable sort might be formed, so as to move backwards and forwards in a straight line, like a waggon on a railway. Some rude bridges upon this principle are said to have been long in use in China."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v21_BODY_WITHOUT_TENTACULA_OR_ARTICULATED_MEMBERS",
+        "headword": "BODY WITHOUT TENTACULA OR ARTICULATED MEMBERS",
+        "start_page": 974,
+        "end_page": 1000,
+        "word_count": 31382,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BODY WITHOUT TENTACU...' starts with 'B' but volume 21 covers S-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BODY WITHOUT TENTACULA OR ARTI' starts with 'B' but is surrounded by 'O' articles (p.974) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "• Body more or less twisted in an angular manner, unequally thick, and furnished anteriorly with bifurcated arms.\n\n† Three long cornuous arms placed around the mouth; the two anterior, or all the three, forked; the oviferous sac resembling a spirally twisted cord. Lernæa. Oken.\n\n‡‡ Four soft and fleshy appendages placed around the mouth; the anterior forked; oviferous sac cylindrical. Lernegocera. Blainv.\n\n---\n\n1 On the Entozoa of insects consult Léon Dufour, in Ann. des Sc. Nat. n. s. tom. vii.",
+        "surrounding_letter": "Z"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v21_ZOO_PHYTES",
+          "headword": "ZOO PHYTES",
+          "start_page": 972,
+          "end_page": 974,
+          "word_count": 2757,
+          "text_end": "sters we shall attempt no description; but the figures of a few of them, given in Plate DII. figs. 13–17, will convey some idea of their shapes and variety. They are all external parasites, living on the skin and on the gills of fish, to which they adhere by hooked grasps or claws; and it is presumed that they injure the fish by sucking out their blood. Burmeister, who places them among the Siphonostomous Crustacea of Latreille, gives the following synopses of their genera.\n\nI. Family Penellina."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v11_BOTANICAL_STRUCTURES",
+        "headword": "BOTANICAL STRUCTURES",
+        "start_page": 695,
+        "end_page": 697,
+        "word_count": 2468,
+        "volume_num": 11,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOTANICAL STRUCTURES...' starts with 'B' but volume 11 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BOTANICAL STRUCTURES' starts with 'B' but is surrounded by 'C' articles (p.695) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Glazed houses, for the reception and culture of exotic plants, though sometimes placed in connection with similar structures in the forcing department, are now almost universally regarded as appendages of the flower garden. In the hands of architects they have assumed a great variety of forms. We shall confine ourselves to the exhibition of the principle of the most important of these, and shall limit our remarks to the Greenhouse, the Conservatory, and the Stove.\n\nThe Greenhouse is intended to",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v16_BRIDGES",
+        "headword": "BRIDGES",
+        "start_page": 45,
+        "end_page": 46,
+        "word_count": 717,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRIDGES...' starts with 'B' but volume 16 covers N-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Where canals or rivers are navigated only by such boats as have neither masts nor rigging, the bridges over these waters are, for the most part, fixed, and have scarcely any thing peculiar in them on account of the navigation, except that the arch may rise a little higher, and have a towing-path under it, as shown at B, fig. 8, Plate CCCLXXIX. But a moveable bridge is always employed where a fixed one would occasion too great a rise in a road, or where the arch cannot be elevated sufficiently to",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v16_CONSTRUCTION_OF_CANALS",
+          "headword": "CONSTRUCTION OF CANALS",
+          "start_page": 38,
+          "end_page": 45,
+          "word_count": 9362,
+          "text_end": "ere up the rapid winds up the rope, and draws the vessel to it, which we should think by much the better method. Where the navigation of a river is incumbered by shifting mud or sand, the force of the current is sometimes employed, particularly in France, to urge forward a plank held on edge across the stream, so as to make it clear the way like a snow-plough for a fleet of boats, &c. which are to follow. But it is more systematic to have a boat provided with flaps or wings for cleaning a river."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v09_BRITAIN",
+        "headword": "BRITAIN",
+        "start_page": 422,
+        "end_page": 423,
+        "word_count": 1042,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRITAIN...' starts with 'B' but volume 9 covers E-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BRITAIN' starts with 'B' but is surrounded by 'E' articles (p.422) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Though much smaller in extent than any of the other states of the first rank, Britain is the most wealthy and powerful of the whole. She has a moderately good climate, a soil less fertile in grain than that of France, but affording better pasture; an extensive line of sea-coast, with numerous harbours; a natural and well-defined frontier; a good commercial position, and the largest fields of coal in Europe. But all these advantages have contributed less to her aggrandisement than the excellence",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v09_EUROPA",
+          "headword": "EUROPA",
+          "start_page": 414,
+          "end_page": 421,
+          "word_count": 8541,
+          "text_end": "to all freedom of thought. The literary glory of Spain expired some time after the Reformation; and Italy has been checked in her career. The older writers of these countries breathe a spirit which would not be tolerated at the present day, nor does society there afford the elements out of which such characters could be formed. And thus it happened that the very same event which called forth the powers of the human mind in the north of Europe, extinguished the intellectual activity of the south."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1842_v15_BRITISH_FRESH-WATER_DEPOSITS",
+        "headword": "BRITISH FRESH-WATER DEPOSITS",
+        "start_page": 222,
+        "end_page": 223,
+        "word_count": 273,
+        "volume_num": 15,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRITISH FRESH-WATER ...' starts with 'B' but volume 15 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BRITISH FRESH-WATER DEPOSITS' starts with 'B' but is surrounded by 'C' articles (p.222) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "These are confined to the Isle of Wight and part of the\nadjacent coast of Hampshire. Mr Webster first called pub-\nlic attention to them. Against the London clay mention-\ned in the section of Alum Bay rest a considerable mass of\nsands, chiefly white or light coloured, which gradually lose\nthe verticality of the dislocated beds here, and turn so as\nto become almost perfectly horizontal. (See Diagram No. 14.)\n\n---\n\n1 Proceedings of British Association at Dublin.\n2 Ibid.\nUpon these lies a mass of ne",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1842_v15_TERTIARY_STRATA",
+          "headword": "TERTIARY STRATA",
+          "start_page": 219,
+          "end_page": 222,
+          "word_count": 3513,
+          "text_end": "e\nof British marine tertiaries.\n\nThe green and yellow sands and blue clays, which con-\ntain the shells, form the base of a perishing diluvial cliff;\nand, in the compass of a few yards' length, fifty-five species\nof shells have been found, besides some small cephalopoda,\nand several bones and teeth of fishes. Of the shells, four\nspecies are also found in the crag—five or six are identical\nwith living species—a considerable part of the remainder are,\nas far as yet known, peculiar to this locality."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

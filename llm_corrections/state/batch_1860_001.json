@@ -1,0 +1,1680 @@
+{
+  "edition_year": 1860,
+  "batch_num": 1,
+  "total_batches": 12,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1860_v10_ABE",
+        "headword": "ABE",
+        "start_page": 532,
+        "end_page": 532,
+        "word_count": 369,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABE...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "ADE, have a common vertex\nE, they have the same altitude, there-\nfore ABE : ADE = AB : AD (Cor.\nto 6); but AB : AD = AB × AE : AD × AE (3), there-\nfore,\n\nABE : ADE = AB × AE : AD × AE.\n\nIn the same manner, it may be demonstrated that\n\nABC : ABE = AB × AC : AB × AE;\n\ntherefore (8, 3) ABC : ADE = AB × AC : AD × AE.\n\nCon. Therefore the two triangles are equivalent, if the\nrectangle AB × AC = AD × AE, or (8), if AB : AD =\nAE : AC, in which case the sides about the equal\nangles are said to be recipro",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v10_GEOMETRY",
+          "headword": "GEOMETRY",
+          "start_page": 504,
+          "end_page": 532,
+          "word_count": 31185,
+          "text_end": "triangles DEF, ABC\nare equiangular and similar.\n\n**Theorem XXII.**—Two triangles which have an angle of\nthe one equal to an angle of the other, and the sides\nabout these angles proportional, are similar.\n\nLet the angle A = D, and let AB : DE = AC : DF,\n\nFig. 85.\n\nthe triangle ABC is similar to\nDEF. Take AG = DE,\nand draw GH parallel to BC,\nthen the angle AGH = ABC\n(21, I), therefore the triangle\nAGH is equiangular to ABC,\nand consequently (20) AB :\nAG = AC : AH; but by\nhypothesis AB : DE = AC :"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_ACCIDENTS_ON_RAILWAYS",
+        "headword": "ACCIDENTS ON RAILWAYS",
+        "start_page": 807,
+        "end_page": 808,
+        "word_count": 990,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACCIDENTS ON RAILWAY...' starts with 'A' but volume 18 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACCIDENTS ON RAILWAYS' starts with 'A' but is surrounded by 'P' articles (p.807) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The question of railway accidents involves the whole question of railway management in detail. Accidents may be called the weak points of the system, where imperfection is manifested, where failure crops out, and where the line of demarcation may be drawn between the practicable and the impracticable. \"If the road is perfect,\" says Captain Huish, \"if the engine is perfect, if the carriages are perfect, and I will go on to say, if the signalman is perfect, and if everything about the railway is p",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_RAILWAY_SPEEDS_AND_LOCOMOTIVE_PERFORMANCES",
+          "headword": "RAILWAY SPEEDS AND LOCOMOTIVE PERFORMANCES",
+          "start_page": 805,
+          "end_page": 807,
+          "word_count": 2083,
+          "text_end": "total, and, with the engine, 415 tons gross,—equivalent to a gross weight of 1245 tons on a level.\n\nA goods-engine, working at full power, exerts a tractive force of 10,000 to 12,000 lb., or about 5 tons pull on the train; so that a pull of 5 tons from the engine suffices to draw behind it 1000 tons on a level.\n\nA tractive force of 10 or 12 lb. is capable of drawing 1 ton on a level at 10 miles per hour. At 60 miles per hour the required tractive force is about 45 lb. for 1 ton of gross weight."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_ACULEATA",
+        "headword": "ACULEATA",
+        "start_page": 203,
+        "end_page": 232,
+        "word_count": 33946,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACULEATA...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACULEATA' starts with 'A' but is surrounded by 'H' articles (p.203) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "This, the second primary section of the hymenopterous order, is distinguished from the preceding by the want of an ovipositor. That organ is represented by a sting composed of three parts, concealed and retractile. It is characteristic of the females, and likewise exists in those individuals (imperfect in a sexual point of view) commonly called neuters, which constitute so important a feature in the social union of the gregarious kinds. It is, however, wanting in several of the ant tribe,—in whi",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_TRIMERA",
+          "headword": "TRIMERA",
+          "start_page": 161,
+          "end_page": 203,
+          "word_count": 47761,
+          "text_end": "ticulate. The example figured, P. carnea, deposits its eggs in the nest of Hemex rostrata. In Chrysis proper there is no false proboscis. The maxillary palpi are of medium size, or elongated, and composed of five articulations; the labial consist of three. Several analogous genera are recognised by naturalists, such as Hedychrum, Lat. (Plate CCXLV., figure 3), in which the maxillary palpi are much longer than the labial, the ligula emarginate; and the abdomen rounded and entire at the extremity."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v21_AD",
+        "headword": "AD",
+        "start_page": 357,
+        "end_page": 362,
+        "word_count": 5649,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AD...' starts with 'A' but volume 21 covers T-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AD' starts with 'A' but is surrounded by 'T' articles (p.357) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "at which time the sine is the radius OD. After\nthe arc has passed into the second quadrant, the sine\nFE shortens to become zero, when the arc is the\nsemicircumference AG; and\nit is obvious that the sine of the arc AE, which is greater\nthan the quadrant, is also the sine of its supplement GE,\nwhich is as much less than the quadrant.\n\nWhen the arc, as AH, exceeds the semicircumference,\nits sine IH appears on the other side of the diameter AOG,\nand this position is represented by the sign −. The si",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v01_ADAM_SMITH",
+        "headword": "ADAM SMITH",
+        "start_page": 382,
+        "end_page": 383,
+        "word_count": 1226,
+        "volume_num": 1,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADAM SMITH' starts with 'A' but is surrounded by 'C' articles (p.382) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The great name of Adam Smith rests upon the Enquiry into the Nature and Causes of the Wealth of Nations; perhaps the only book which produced an immediate, general, and irrevocable change in some of the most important parts of the legislation of all civilized states. The works of Grotius, of Locke, and of Montesquieu, which bear a resemblance to it in character, and had no inconsiderable analogy to it in the extent of their popular influence, were productive only of a general amendment, not so c",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_ADVANTAGES_OF_WATER-MEADOWS_AND_WARPING",
+        "headword": "ADVANTAGES OF WATER-MEADOWS AND WARPING",
+        "start_page": 631,
+        "end_page": 632,
+        "word_count": 2101,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ADVANTAGES OF WATER-...' starts with 'A' but volume 12 covers H-J",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADVANTAGES OF WATER-MEADOWS AN' starts with 'A' but is surrounded by 'I' articles (p.631) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The advantages derived from water-meadows and warping, as stated by authors who have written on those subjects, almost exceed credibility.\n\nIn 1802 Mr Smith laid out a water-meadow on the Paisley farm, near Woburn, Bedfordshire, for the Duke of Bedford, and in 1803 its produce was as follows:\n\n- In March, 240 sheep for three weeks, at 6d. each per week.\n- In June, mowed 18 tons hay, at £1.4 per ton.\n- In August, mowed 13½ do.\n- In September, 80 fat sheep for three weeks, at 4d. each per week.\n-",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_MANAGEMENT_OF_WATER-MEADOWS",
+          "headword": "MANAGEMENT OF WATER-MEADOWS",
+          "start_page": 628,
+          "end_page": 629,
+          "word_count": 1521,
+          "text_end": "is quantity of water should be continued over the meadow during October, November, December, and January, from fifteen to twenty days in succession, according as the weather is fresh or frosty, wet or dry. Between every such interval, the meadow should be laid thoroughly dry for five or six days to give the grass air; and should the weather threaten a lengthened period of hard frost, the watering should be entirely discontinued for the time; for in thawing, the sheet of ice which covers the sur-"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v11_AFFIXED_PERSONAL_PRONOUNS",
+        "headword": "AFFIXED PERSONAL PRONOUNS",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 134,
+        "volume_num": 11,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AFFIXED PERSONAL PRO...' starts with 'A' but volume 11 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AFFIXED PERSONAL PRONOUNS' starts with 'A' but is surrounded by 'O' articles (p.432) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "| Singular | Plural |\n|----------|--------|\n| 3. M.—ENT, Him. | 3. C.—SEN Them. |\n| F.—ES Her. | |\n| 2. M.—ENT Thee (m.) | 2. C.—TEN Ye. |\n| F.—ET Thee (f.) | |\n| 1. C.—A Me | 1. C.—EN Us. |\n\nIt is to be observed that when the ideographic signs for the affixed pronouns of the first person singular are employed that person becomes necessarily masculine or feminine. As, however, it has but one sound, the person remains common though bearing this indication of a distinction of gender. The same must",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v11_STEE",
+          "headword": "STEE",
+          "start_page": 429,
+          "end_page": 432,
+          "word_count": 2559,
+          "text_end": "e.\"\n\nIt was prefixed to nouns, as TA-MEN-T, \"the swallow\" (in which group we find the termination T as well as the article, proving that the two were distinct, and that both cannot be articles); NA-NEBU, \"the lords.\"\n\nPronouns.\n\nThe pronouns we must now consider. In the tables, as in those of the verbs, the method of arrangement usually adopted in grammars of Semitic languages has been here followed, as in these parts of grammar the Egyptian most resembles the languages of that class.\n\nPersonal."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_AFRICANS_AND_SOUTH-WESTERN_ASIATICS",
+        "headword": "AFRICANS AND SOUTH-WESTERN ASIATICS",
+        "start_page": 361,
+        "end_page": 365,
+        "word_count": 4532,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AFRICANS AND SOUTH-W...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AFRICANS AND SOUTH-WESTERN ASI' starts with 'A' but is surrounded by 'C' articles (p.361) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "A return to the south-western parts of Asia leads us to the ethnology of Africa, which begins in Syria and Mesopotamia; the populations akin to the Arab being (in the opinion of the present writer at least) African rather than Asiatic; at any rate, transitional or intermediate.\n\nThe populations speaking languages akin to those of the Bible and Koran (the Hebrew and the Arabic) are termed A. Semitic.—This group contains,\n\nIn Asia, the Syrians, Assyrians, Babylonians, Phoenicians, Ammonites, Moabi",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_CENTRAL_AND_SOUTHERN_EUROPEANS",
+          "headword": "CENTRAL AND SOUTHERN EUROPEANS",
+          "start_page": 359,
+          "end_page": 361,
+          "word_count": 1990,
+          "text_end": "n, a class based upon philological rather than physical grounds (for which see Notes on Language), the Kelts (= the Welsh, Bretons, Gaels, and Manxmen) can be placed in the same division with the\n\n4. Sarmatians, Germans, Latins, and Greeks, who are Indo-European (q.v.) in the strictest sense of the term. Sarmatian means Slavonic and Lithuanic collectively. The great historical nations of Europe belong to this class. For the relations of the speakers of the Sanskrit language see Language (Notes)."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_AGASSIZ",
+        "headword": "AGASSIZ",
+        "start_page": 836,
+        "end_page": 836,
+        "word_count": 11,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AGASSIZ...' starts with 'A' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v08_AGRICULTURAL_DRAINAGE",
+        "headword": "AGRICULTURAL DRAINAGE",
+        "start_page": 136,
+        "end_page": 139,
+        "word_count": 5384,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AGRICULTURAL DRAINAG...' starts with 'A' but volume 8 covers D-E",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AGRICULTURAL DRAINAGE' starts with 'A' but is surrounded by 'D' articles (p.136) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "To drain land is to rid it of its superfluous moisture. The rivers of a country with their tributary brooks and rills are the natural provision for removing the rain water which either flows directly from its surface, or which, after percolating through porous strata to an indefinite depth, is again discharged at the surface by springs. The latter may thus be regarded as the outlets of a natural underground drainage. This provision for disposing of the water that falls from the clouds is usually",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_ALEXANDER",
+        "headword": "ALEXANDER",
+        "start_page": 554,
+        "end_page": 555,
+        "word_count": 82,
+        "volume_num": 15,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALEXANDER...' starts with 'A' but volume 15 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALEXANDER' starts with 'A' but is surrounded by 'M' articles (p.554) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Outlines of Moral Science. New York, 1852.\n\nFor the history of Moral Philosophy, besides the general histories of Brucker, Ruhle, Tennemann, Rixner, Ritter, Erdmann, Chalybeus, Morell, Lewes, and Schwegler, the following special histories may be named:—MEINERS (Chr.), Allgemeine Kritische Gesch. der älteren und neueren Ethik, 2 vols. Gött. 1800-1. STAEBULIN (C. F.), Gesch. der Moral Philosophie, Hanover, 1823. BLAREY (R.), History of Moral Science, 2 vols. 8vo, Lond. 1848. Wheewell's History of",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_ALPHABETICAL_INDEX_OF_MINERAL_SPECIES",
+        "headword": "ALPHABETICAL INDEX OF MINERAL SPECIES",
+        "start_page": 139,
+        "end_page": 141,
+        "word_count": 2224,
+        "volume_num": 15,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALPHABETICAL INDEX O...' starts with 'A' but volume 15 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALPHABETICAL INDEX OF MINERAL ' starts with 'A' but is surrounded by 'M' articles (p.139) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "| Aemite          | 110 | Anasultite       | 86 | Arsenite        | 389 |\n|-----------------|-----|------------------|----|-----------------|-----|\n| Ascolite        | 463 | Andalusite      | 149 | Asphalite       | 501 |\n| Aschynite       | 357 | Andesine        | 5  | Atacanite       | 296 |\n| Agalmatolite    | 133 | Anglelite       | 304 | Augite          | 101 |\n| Alabandite      | 479 | Anhydrite       | 215 | Aurichalcite    | 283 |\n| Albite          | 4   | Anorthosite     | 8  | Autunnit",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_MINERALOGICAL_SCIENCE_s3",
+          "headword": "MINERALOGICAL SCIENCE",
+          "start_page": 135,
+          "end_page": 139,
+          "word_count": 3866,
+          "text_end": "). Transparent; vitreous. Colourless, but in large masses greenish or bluish. Refracts double.\n\nThe water found on the earth is never pure, but contains more or less of various substances—atmospheric air, carbolic acid, nitrogen gas; silica, alumina, and salts (carbonates, sulphates, nitrates, phosphates) of lime, magnesia, soda, potash, protoxides of iron and manganese; or chlorides, and fluorides of the metallic bases; and in the sea and some saline springs also iodine and bro-mine.\n\n(J.N.—L.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_ALPHABETICAL_INDEX_TO_THE_GENERA_OF_ARACHNIDES",
+        "headword": "ALPHABETICAL INDEX TO THE GENERA OF ARACHNIDES",
+        "start_page": 398,
+        "end_page": 398,
+        "word_count": 315,
+        "volume_num": 3,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          }
+        ],
+        "text_preview": "| Genus       | Page |\n|-------------|------|\n| Acarus      | 388  |\n| Acylia      | 389  |\n| Ammotheca   | 387  |\n| Aranea      | 379  |\n| Argas       | 388  |\n| Argyroneta  | 379  |\n| Astoma      | 378  |\n| Atypus      | 378  |\n| Bedella     | 388  |\n| Borellia    | 385  |\n| Caris       | 389  |\n| Chelifer    | 386  |\n| Cheyletes   | 388  |\n| Clotho      | 379  |\n| Ctenus      | 382  |\n| Dolomedes   | 382  |\n| Drassus     | 379  |\n| Dyders      | 378  |\n| Epeira      | 381  |\n| Epiphus     | 3",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_GENUS_OCYPETE",
+          "headword": "GENUS OCYPETE",
+          "start_page": 397,
+          "end_page": 398,
+          "word_count": 377,
+          "text_end": "undevall. Lund, 1823. Conpectus Arachnidum. By the same. Goth., 1833. Uebersicht der Arachniden. By C. L. Koch. Nürnberg, 1836-46. Übersicht der Arachnidenystema. By the same. 1837-43. Deutschlands Crustaceen, Myriapoden u. Arachniden. By the same. Regensburg, 1834-41. Tableau des Araneides. By C. A. Walkenaer. Paris, 1805. Histoire Naturelle des Insectes—Aptères, Arachnides. By the same. Tom. I. II., Paris, 1836-7. Tom. III., containing Phryncides, Scorpioides, &c. By Paul Gervais. Paris, 1844."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v19_AMPHISBENIDAE",
+        "headword": "AMPHISBENIDAE",
+        "start_page": 48,
+        "end_page": 49,
+        "word_count": 909,
+        "volume_num": 19,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMPHISBENIDAE...' starts with 'A' but volume 19 covers R-S",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "PROGRESSING EITHER WAY.\n\nThe lower jaw still continues, as among the preceding groups, supported by a tympanic bone, articulated directly to the cranium, the two branches of that jaw being soldered together anteriorly, while those of the upper one are fixed to the cranium and the intermaxillary bone. This formation both produces an equality of dimension between the head and the rest of the body, and also prevents that peculiar power of dilatation for which the genuine serpents are so remarkable.",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v19_GENUS_ALLIGATOR",
+          "headword": "GENUS ALLIGATOR",
+          "start_page": 33,
+          "end_page": 48,
+          "word_count": 19458,
+          "text_end": "an tribes; but the two characters just mentioned do not convert them from one order to another, being still held as it were in subordination to the general structure.1\n\nWe commence our description of OPHIDIAN with the animals that have the general form of serpents; but yet differ from them anatomically so much that they cannot be considered as true Serpents; and have been judiciously separated from them by M. Schlegel. We divide Ophidians into the groups CECILIA, AMPHISBENA, ANGUIS, and SERPENS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v10_ANALYTICAL_GEOMETRY",
+        "headword": "ANALYTICAL GEOMETRY",
+        "start_page": 550,
+        "end_page": 550,
+        "word_count": 168,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANALYTICAL GEOMETRY...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "1. The branch of science which has obtained the name of analytical geometry owes its origin to Descartes. It consists in the application of algebra to geometry, not merely by using algebraic symbols as the representatives of magnitude, but by employing these in such a manner that the position of a point is indicated by referring it to fixed lines or planes, just as the position of a point on the earth's surface is defined by referring it to the equator and the first meridian. For example, if we",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v10_APB",
+          "headword": "APB",
+          "start_page": 540,
+          "end_page": 550,
+          "word_count": 11212,
+          "text_end": "| 30. | 31. | 6. 2. |\n| 32. | 23. | 11. | 12. 2. | Cor. to | 2. | 32. | 9. 2. |\n| 33. | 24. 1. | 12. | 11. 2. | Cor. to | 3. | 33. | 12. 2. |\n| 34. | 25. | 14. | 8. 2. | Cor. to | 4. | 1 Cor. to | 30. | 16. 2. of Part II. |\n| 35. | 28. 1. | 15. | 2. 2. | Pr. 1. | 6. | 1 Cor. to | 31. | 3. 3. |\n| 36. | 26. 1. | 8. 2. | 16. | 9. 2. | 6. | 5. 1. | Pr. 1. | 1. 6. of Part I. |\n| 37. | 1. 4. | 20. | 14. 2. | 5. | 4. | 4. 6. of Part I. |\n| 38. | 2 Cor. to | 21. | 15. 2. | 4. | 4. | 16. 2. of Part II. |"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v10_ANALYTICAL_GEOMETRY_OF_TWO_DIMENSIONS",
+        "headword": "ANALYTICAL GEOMETRY OF TWO DIMENSIONS",
+        "start_page": 550,
+        "end_page": 572,
+        "word_count": 23128,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANALYTICAL GEOMETRY ...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "2. As every line or area is supposed to be situated in one plane, we may, whenever it is convenient to do so, imagine that plane to be the paper before us, which, for convenience of phraseology, we may further suppose to be standing\nupright, so that any one line of print is horizontal, whilst the successive lines lie vertically under each other. The simplest way, under these circumstances, in which the position of a point can be indicated, will be by its distances from two lines at right angles",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v10_ANALYTICAL_GEOMETRY",
+          "headword": "ANALYTICAL GEOMETRY",
+          "start_page": 550,
+          "end_page": 550,
+          "word_count": 168,
+          "text_end": "it to the equator and the first meridian. For example, if we suppose the positions of two lines at right angles to one another to be fixed and known, then the position of any point in the same plane is sufficiently determined by its distances from these two lines, just as the position of a place on a given map is denoted by its latitude and longitude.\n\nThis science, like that of ordinary geometry, is divided into two parts, plane and solid, or analytical geometry of two and of three dimensions."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_ANDERSON'S_GUIDE_TO_THE_HIGHLANDS_AND_ISLANDS_OF_SCOT-\nLAND",
+        "headword": "ANDERSON'S GUIDE TO THE HIGHLANDS AND ISLANDS OF SCOT-\nLAND",
+        "start_page": 5,
+        "end_page": 5,
+        "word_count": 40,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 10 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "ocr_error",
+            "severity": "medium",
+            "reason": "Headword contains unusual characters",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANDERSON'S GUIDE TO ...' starts with 'A' but volume 18 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ANDERSON'S GUIDE TO THE HIGHLA' starts with 'A' but is surrounded by 'B' articles (p.5) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "including ORKNEY and ZETLAND, descriptive of their Scenery, Statistics, Antiqui-\nties, and Natural History. Third Edition. Price 10s. 6d.\n\nBLACK'S COUNTY GUIDES:—DERBYSHIRE, 2s. HAMPSHIRE, 2s.\nDEVON AND CORNWALL. 2s.\nGLOUCESTER AND HEREFORD. [In the Press.\nYORKSHIRE. 2s. 6d.; Cloth, 3s.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_VIII",
+          "headword": "VIII",
+          "start_page": 4,
+          "end_page": 4,
+          "word_count": 114,
+          "text_end": "E and the HOUND: their various Uses and Treatment; including Practical Instructions in Horsemanship and Hunting, &c. By Nimrod. Third Edition, with numerous Illustrations. Demy 8vo. Price 10s. 6d.\n\nX.\nVol. II. of the ENCYCLOPÆDIA BRITANNICA, RE-ISSUE, from letter A to the article Anatomy. Quarto, cloth, price 24s.; half-bound Russia, 30s.\n\nXI.\nERIC; or, LITTLE BY LITTLE. A Tale of Roslyn School. By Frederick W. Farrar, Fellow of Trinity College, Cambridge. Third Edition. Crown 8vo. Price 6s. 6d."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v19_ANGUIDAE",
+        "headword": "ANGUIDAE",
+        "start_page": 49,
+        "end_page": 50,
+        "word_count": 948,
+        "volume_num": 19,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANGUIDAE...' starts with 'A' but volume 19 covers R-S",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "OR SLOW-WORMS.**\n\nThese still exhibit the bony head, the teeth, the tongue of *Seps*, and the eye is furnished with three eyelids. They correspond to the ancient unrestricted genus *Anguis* of Linnaeus, and are characterized externally by imbricated scales covering the whole body. The species now form four minor genera, of which the first three still exhibit beneath the skin certain small bones corresponding to those of the shoulder and pelvis.\n\nGenus *Psammophis*, Merrem. Tympanum visible exter",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v19_CECILIAE",
+          "headword": "CECILIAE",
+          "start_page": 48,
+          "end_page": 48,
+          "word_count": 504,
+          "text_end": "neath in an acute angle. We have figured a nearly allied species from America, Cec. brevittata of the French naturalists. (See Plate V., fig. 3.) Finally, a few have the folds almost effaced, the body long and slender, and the muzzle projecting. Cec. lambricoides, Daudin, is entirely blind, of a blackish colour, two feet long, and not thicker than a quill. Baron Cuvier possessed the skeleton of a Cecilia more than six feet long. There were 225 vertebrae, but the external characters were unknown."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_ANTARCTIC_POLAR_REGIONS",
+        "headword": "ANTARCTIC POLAR REGIONS",
+        "start_page": 193,
+        "end_page": 194,
+        "word_count": 1227,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANTARCTIC POLAR REGI...' starts with 'A' but volume 18 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ANTARCTIC POLAR REGIONS' starts with 'A' but is surrounded by 'G' articles (p.193) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Our knowledge of the North Polar seas and lands is the result of the search for a strait leading to the Pacific; but the exploration of the Antarctic regions is mainly due to quests after a Terra Australis incognita. The belief in the existence of an Antarctic continent can be traced back to the year 1576, when Juan Fernandez sailed from the coast of Chile on a W.S.W. course, and was reported to have arrived, after a month's voyage, at a tierra ferma, a pleasant, fertile land inhabited by highly",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_GREIPAR",
+          "headword": "GREIPAR",
+          "start_page": 175,
+          "end_page": 193,
+          "word_count": 22902,
+          "text_end": "apart. The elephant and rhinoceros do not exist on the American continent at the present day, nor in Siberia. The horse was introduced into the former by the Spaniards; and of the other species enumerated above, the musk-ox at the same geological epoch existed in Europe, Professor Owen having identified a skull found in England with the American species. The conditions of sea and land when such accumulations were possible are subjects of conjecture and speculation on which we cannot enter here."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v10_APB",
+        "headword": "APB",
+        "start_page": 540,
+        "end_page": 550,
+        "word_count": 11212,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'APB...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "APC are by hypothesis right-angled triangles,\n$$AB^2 - BP^2 = AP^2$$, and $$AC^2 - CP^2 = AP^2$$, we have\n$$AP^2 + AP^2 = 2AQ^2 - 2PQ^2$$,\nand therefore $$AP^2 = AQ^2 - PQ^2$$, or $$AP^2 + PQ^2 = AQ^2$$;\ntherefore the triangle APQ is right-angled at P (Schol. 15,\n4, Part 1), and consequently AP is perpendicular to the\nplane MN (Def. 1).\nGeometry Cor. 1. The perpendicular AP is shorter than any oblique line AQ; therefore it measures the distance of the point A from the plane.\n\nCor. 2. From the sa",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v10_AXIOM",
+          "headword": "AXIOM",
+          "start_page": 538,
+          "end_page": 540,
+          "word_count": 2527,
+          "text_end": "ther in\na plane determine its position; that is, the plane can\ncoincide with these lines only in one position.\n\nLet the straight lines AB, AC\ncut each other in A; conceive a\nplane to pass through AB, and\nto be turned about that line,\ntill it pass through the point\nC; and this it can manifestly\ndo only in one position; then,\nas the points A and C are in\nthe plane, the whole line AC\nmust be in the plane; there-\nfore there is only one position\nin which the plane can coincide with the same two lines"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+        "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+        "start_page": 815,
+        "end_page": 823,
+        "word_count": 8810,
+        "volume_num": 9,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 9 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'APPLICATION OF THE P...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_RULES_FOR_DETERMINING_THE_DIMENSIONS_OF_PARAPETS",
+          "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+          "start_page": 810,
+          "end_page": 815,
+          "word_count": 6140,
+          "text_end": "ally \\(\\frac{1}{2}\\), \\(\\frac{1}{3}\\), or \\(\\frac{2}{3}\\), when that of the scarp is \\(\\frac{1}{2}\\), \\(\\frac{2}{3}\\), or 1; and it should be added that the bottom of the ditch ought always to slope on each side towards the centre, so as to carry off the water, and that it should be so arranged as to prevent the enemy from collecting together, and reforming his men in the ditch which in all cases of simple lines, without flanking defences, he would do were the bottom left free from obstructions."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v01_ARCHBISHOP_OF_DUBLIN",
+        "headword": "ARCHBISHOP OF DUBLIN",
+        "start_page": 455,
+        "end_page": 464,
+        "word_count": 5280,
+        "volume_num": 1,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARCHBISHOP OF DUBLIN' starts with 'A' but is surrounded by 'D' articles (p.455) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Dissertation Third.\n\nIntroduction.\n\nA sketch, like the present, of the rise, progress, and corruptions of Christianity, would be altogether defective without some notice of those religious systems which it was designed to supplant or to complete.\n\nNot only will much light be thrown upon its genuine character and excellence by a contrast with their errors or deficiencies, but moreover, a knowledge of these will often disclose to us the sources of some of those corruptions which have disfigured th",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v01_NOTES_AND_ILLUSTRATIONS_s2",
+          "headword": "NOTES AND ILLUSTRATIONS",
+          "start_page": 440,
+          "end_page": 453,
+          "word_count": 8291,
+          "text_end": "dividual gratification; or, 2. refined self-love, which seeks the greatest pleasure which can arise from all the desires of human nature,—the latter of which is an invaluable, though inferior principle. The admirable writer whose language has occasioned this illustration, who at an early age has mastered every species of composition, will doubtless hold fast to simplicity, which survives all the fashions of deviation from it, and which a man of a genius so fertile has few temptations to forsake."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+        "headword": "ARMAMENT OF FORTRESSES",
+        "start_page": 832,
+        "end_page": 832,
+        "word_count": 868,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARMAMENT OF FORTRESS...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exa",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_FORTIFICATION",
+          "headword": "FORTIFICATION",
+          "start_page": 831,
+          "end_page": 832,
+          "word_count": 249,
+          "text_end": "nnière h. These, and other works of a similar description, are constructed for the purpose of occupying some of the ground which might otherwise be of service to the besiegers, or as in the caponnière to cover a communication; but their application must of course depend upon certain localities, and the judgment of the engineer must therefore determine, in each particular place, which is best adapted to the ground, and most proper to be employed with reference to the general defence of the place."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_ASSISTANT-SURGEONS",
+        "headword": "ASSISTANT-SURGEONS",
+        "start_page": 122,
+        "end_page": 122,
+        "word_count": 92,
+        "volume_num": 16,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASSISTANT-SURGEONS...' starts with 'A' but volume 16 covers N-O",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ASSISTANT-SURGEONS' starts with 'A' but is surrounded by 'N' articles (p.122) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v04_ASSISTED_BY_NUMEROUS_CONTRIBUTORS",
+        "headword": "ASSISTED BY NUMEROUS CONTRIBUTORS",
+        "start_page": 1023,
+        "end_page": 1023,
+        "word_count": 126,
+        "volume_num": 4,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ASSISTED BY NUMEROUS CONTRIBUT' starts with 'A' but is surrounded by 'B' articles (p.1023) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "WHOSE INITIALS ARE ATTACHED TO THEIR RESPECTIVE ARTICLES.\n\nThe ENCYCLOPÆDIA BRITANNICA forms an Alphabetical Repertory of every branch of Human Knowledge, and renders the Alphabet a ready key not only to the Arts and Sciences, but to the multiplied details of History, Philosophy, Biography, Geography, Commerce, Manufactures, Statistics, and Miscellaneous Literature.\n\nThe Publishers are fully aware that in a comprehensive work of reference, as this is, it is desirable to obtain Completeness and A",
+        "surrounding_letter": "U"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v04_MISCELLANEOUS_WORKS",
+          "headword": "MISCELLANEOUS WORKS",
+          "start_page": 1017,
+          "end_page": 1021,
+          "word_count": 1152,
+          "text_end": "will derive from this work both instruction and pleasure; those who desire to know the value of their country and its institutions, as shown even in the most inaccessible parts of its remotest provinces, will ponder over its contents; and the general reader, who seeks only for that rational amusement which the personal narrative of a lively and intelligent tourist never fails to yield, will find it in these volumes.\"—Edinburgh Review.\n\nEDINBURGH: ADAM AND CHARLES BLACK.\nENCYCLOPÆDIA BRITANNICA,"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_ATHERINE_FAMILY",
+        "headword": "ATHERINE FAMILY",
+        "start_page": 305,
+        "end_page": 318,
+        "word_count": 14354,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATHERINE FAMILY...' starts with 'A' but volume 12 covers H-J",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATHERINE FAMILY' starts with 'A' but is surrounded by 'I' articles (p.305) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "We are obliged, say the authors of the Histoire des Poissons, to leave isolated among the fishes a group composed of a single genus, which it is impossible to divide otherwise than into small tribes, and which does not associate closely with any other genus or family. Some species have teeth clearly visible on the jaws, vomer, and palatines, such as Atherina Boieri, and its allies, which have a large flat head; others, like A. saucelot have the teeth on the palatines so minute that they are bare",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_MUGIL_FAMILY",
+          "headword": "MUGIL FAMILY",
+          "start_page": 304,
+          "end_page": 305,
+          "word_count": 1509,
+          "text_end": "ore compressed than that of Mugil; gill-covers flatter. Preorbital not covering the whole maxillary, which is not decurved so as to show itself below the mandible. Teeth on the two jaws, front of the vomer, and pharyngeals; none on the palatine bones. Lower lip very thick, doubled back, callous and trenchant. Stomach differing from that of Mugil in being wholly membranous and otherwise fleshy; intestine long, six times folded; pancreatic ceca two; air-bladder simple with thin coats. Two species."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v17_ATMOSPHERIC_INFLUENCE",
+        "headword": "ATMOSPHERIC INFLUENCE",
+        "start_page": 401,
+        "end_page": 402,
+        "word_count": 422,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATMOSPHERIC INFLUENC...' starts with 'A' but volume 17 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATMOSPHERIC INFLUENCE' starts with 'A' but is surrounded by 'M' articles (p.401) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The effect of the buoyancy of the air upon the going of a clock is considerable: thus lead is about 9000 times heavier than air of the same volume, and therefore a change of one inch in the barometer will alter the apparent weight of the leaden bob by one part in 270,000, which corresponds to an alteration in the daily rate of the clock of \\( \\frac{1}{100} \\)ths of a second, or rather more than one second per week; and as the whole of the pendulum is not made of such weighty materials, the actua",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v17_REMONTOIRES",
+          "headword": "REMONTOIRES",
+          "start_page": 400,
+          "end_page": 400,
+          "word_count": 412,
+          "text_end": "re essentially recoil escapements, and have all the defects which are inseparable from the class. An extraneous influence cannot be brought to bear on the pendulum at a worse place than at the extremity of the motion, where the velocity is zero. And seeing that, for good time-keeping, the arc of impulse must be very short, it cannot but be detrimental to lengthen it out over a half oscillation. These escapements, in fact, are in direct opposition to the principles which have just been explained."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v17_ATTACHED_PENDULUMS",
+        "headword": "ATTACHED PENDULUMS",
+        "start_page": 398,
+        "end_page": 400,
+        "word_count": 2014,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATTACHED PENDULUMS...' starts with 'A' but volume 17 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATTACHED PENDULUMS' starts with 'A' but is surrounded by 'P' articles (p.398) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The great utility of the pendulum lies in its application to time-keeping. This part of the subject has already been adverted to under the head CLOCK-WORK; in the present place, we shall consider a little more in detail the abstract principles which are involved.\n\nAs has been stated, clock pendulums are never suspended on knife-edges; they are hung by means of thin flat springs. The elasticity of these, and the form which they take on being bent, cause a deviation from the circular motion, the e",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+        "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+        "start_page": 832,
+        "end_page": 834,
+        "word_count": 1654,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATTACK AND DEFENCE O...' starts with 'A' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La résolution des sièges,\" says the Mareschal, \"est une affaire de",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832,
+          "end_page": 832,
+          "word_count": 868,
+          "text_end": "ved, should be within the body of the place, and as they require a great quantity of ammunition, they should be less frequently used, and only upon urgent occasions. A judicious economy of ammunition is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chassé in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_AUDUBON",
+        "headword": "AUDUBON",
+        "start_page": 836,
+        "end_page": 836,
+        "word_count": 20,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AUDUBON...' starts with 'A' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_AGASSIZ",
+          "headword": "AGASSIZ",
+          "start_page": 836,
+          "end_page": 836,
+          "word_count": 11,
+          "text_end": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_AUSONIUS",
+        "headword": "AUSONIUS",
+        "start_page": 270,
+        "end_page": 276,
+        "word_count": 8260,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AUSONIUS...' starts with 'A' but volume 12 covers H-J",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AUSONIUS' starts with 'A' but is surrounded by 'C' articles (p.270) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Its flesh is not much esteemed, as it is soft, insipid, and difficult of digestion.\n\nThe Bream (Leuciscus brama, Valenc.) is common in slow-flowing rivers and lakes in most European countries. It sometimes attains 2½ feet in length, but its ordinary dimensions may be stated to be about 1 foot. Worms, conger, and aquatic plants are its usual food; but like many allied species, it often swallows mud, which renders its flesh unsavoury. \"There exists in the River Trent, in the neighbourhood of Newar",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v10_AXIOM",
+        "headword": "AXIOM",
+        "start_page": 538,
+        "end_page": 540,
+        "word_count": 2527,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AXIOM...' starts with 'A' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "If ABC be an arch of a circle, and AD, CD be two tangents at its extremities, intersecting each other in D; the sum of the tangents AD, DC is greater than the arch ABC.\n\nCor. Hence the perimeter of any polygon described about a circle, is greater than the circumference of the circle.\n\nPROP. I. THEOREM.—Equilateral polygons, ABCDEF, GHIKLM, of the same number of sides inscribed in circles are similar, and are to one another as the squares of the radii of the circles.\n\nAs each of the polygons is b",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v17_AXIOMS",
+        "headword": "AXIOMS",
+        "start_page": 248,
+        "end_page": 252,
+        "word_count": 4861,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AXIOMS...' starts with 'A' but volume 17 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AXIOMS' starts with 'A' but is surrounded by 'P' articles (p.248) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "1. All things which exist, exist either of themselves or through something else.\n\n2. That which cannot be conceived as existing through something else (per aliquid) must be conceived as existing through itself (per se).\n\n3. From a given determinate cause an effect necessarily follows; and if there be no given determinate cause, no effect can follow.\n\n4. The knowledge (cognitio) of an effect depends upon and implies the knowledge of its cause.\n\n5. Things that have nothing in common with each othe",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v17_PAN_THEISM",
+          "headword": "PAN THEISM",
+          "start_page": 247,
+          "end_page": 248,
+          "word_count": 795,
+          "text_end": "ed De Deo, in genuine geometrical fashion, by laying down a series of definitions and axioms, from which he proceeds to evolve demonstratively, in a set of theorems each dependent on what has gone before, his entire scheme of God and the world. This he does with uncommon accuracy and clearness of language; so that if it is difficult to understand him, the defect does not lie in the author. Before entering upon a brief analysis of his system, it is necessary to exhibit his definitions and axioms."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v10_BAC",
+        "headword": "BAC",
+        "start_page": 532,
+        "end_page": 532,
+        "word_count": 199,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BAC...' starts with 'B' but volume 10 covers F-G",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "their homologous sides are proportional. Now the\nside BD of the lesser triangle is homologous to the side\nBA of the greater, because they are opposite to the equal\nangles BAD, BCA; in like manner BA, considered as a\nside of the lesser triangle, is homologous to the side BC\nof the greater, each being opposite to a right angle; there-\nfore, BD : BA = BA : BC. In the same manner it may\nbe shown that CD : CA = CA : CB, therefore each side\nis a mean proportional between the hypotenuse and the\nsegment",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v10_ABE",
+          "headword": "ABE",
+          "start_page": 532,
+          "end_page": 532,
+          "word_count": 369,
+          "text_end": "VI.**—Similar polygons are composed of the\nsame number of triangles which are similar and similar-\nly situated.\n\nIn the polygon ABCDE, draw from one of the angles A\nthe diagonals AC, AD to all the other angles. In the po-\nlygon FGHIK, draw in like manner from the angle F,\nhomologous to A, the diagonals FH, FI to the other angles.\n\nBecause the polygons are similar, the angle ABC is equal\nto its homologous angle FGH (Def. 2), also the sides AB,\nBC are proportional to FG, GH; so that AB : FG = BC :"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BALUSTER",
+        "headword": "BALUSTER",
+        "start_page": 515,
+        "end_page": 515,
+        "word_count": 22,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BALUSTER...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a small column or pier supporting the coping in a pierced parapet; the parapet itself when pierced is hence called a balustrade.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_ATTIC",
+          "headword": "ATTIC",
+          "start_page": 515,
+          "end_page": 515,
+          "word_count": 113,
+          "text_end": "per range of columns in a Greek hypethral temple (see Plate LIII. fig. 1.; and see also Archaeologia, vol. xxiii. p. 412), was called ἀρχοντικόν or ἀρχοντικόν, from having no coherent wall; whence the Latin atticum, and its application to a story superimposing the general ordinance. Otherwise such a thing is unknown in Greek architecture; but it is very common in both Roman and Italian practice. What is here termed the tholobate in St Peter's and St Paul's Cathedrals are generally termed attics."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BAND_OF_TENNA",
+        "headword": "BAND OF TENNA",
+        "start_page": 515,
+        "end_page": 515,
+        "word_count": 233,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BAND OF TENNA...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "nearly synonymous with Fillet, q. v. This term is, however, most generally applied to that listel in the Doric entablature which separates the frieze from the architrave, and connects the lower parts of the triglyphs.\n\nBASE (Gr. βάσις). The congeries of mouldings generally placed under the shaft of an Ionic or Corinthian column is called its base. Plate LXII. fig. 1. The term is applied also to the lowest part of a pedestal or stylobate; to the vertical moulded fittings which go round walls on t",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_BALUSTER",
+          "headword": "BALUSTER",
+          "start_page": 515,
+          "end_page": 515,
+          "word_count": 22,
+          "text_end": "a small column or pier supporting the coping in a pierced parapet; the parapet itself when pierced is hence called a balustrade."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BARTON_JUSTUS_VON_LIEBIG",
+        "headword": "BARTON JUSTUS VON LIEBIG",
+        "start_page": 1061,
+        "end_page": 1061,
+        "word_count": 11,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BARTON JUSTUS VON LI...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Dr WM. GREGORY, Professor of Chemistry in the University of Edinburgh.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_BASTIONED_SYSTEMS_OF_THE_NETHERLANDS",
+        "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+        "start_page": 841,
+        "end_page": 842,
+        "word_count": 1683,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BASTIONED SYSTEMS OF...' starts with 'B' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The bastioned system of the Italians was soon carried into other countries by their engineers, who were extensively engaged in the service of foreign princes, and it was thus that the celebrated Italian engineer Marchi, coming to Brussels with Margaret of Austria in 1559, appears to have introduced the bastioned system into the Netherlands. It has been shown that in rampart defences, the ordinary earthen scarp adopted in ditches of parapet works had been replaced by a masonry revetment as a secu",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_THESE_INCREASED",
+          "headword": "THESE INCREASED",
+          "start_page": 834,
+          "end_page": 841,
+          "word_count": 9772,
+          "text_end": "oubted that they will, how can the Emperor of Russia expect to keep longer from their grasp the just reward of gallantry and perseverance, almost beyond example, for which they have been contending? The hope of the Russians can now only be formed on success in the field, and as that hope becomes with each successive attempt and failure less bright, so must the gloom of disappointment and despair darken until the end shall come, and Sebastopol, although perhaps in ruins, be abandoned to its fate."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BATTLEMENT",
+        "headword": "BATTLEMENT",
+        "start_page": 515,
+        "end_page": 515,
+        "word_count": 62,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BATTLEMENT...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a pierced or machicolated parapet.\n\nBAY. The space between the mullions of a window, between piers, and between the principal beams of a roof, floor, or ceiling, is a bay. The term Bay is also applied to a projected window or compartment of windows which forms on the inside a bay. Such a compartment in a shop is vulgarly called a Bow-window.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_BAND_OF_TENNA",
+          "headword": "BAND OF TENNA",
+          "start_page": 515,
+          "end_page": 515,
+          "word_count": 233,
+          "text_end": "nance may rest; as in the Strand front of Somerset House, of which the basement begins at the level of the floor of the vestibule, being about that of the street pavement, and extends upwards to half the height of the adjoining building east and west.\n\nBATTER (Fr. battre, to beat). Building over in projecting courses, like inverted steps, is termed battering, gathering, or corbelling over. The term is often applied to the converse operation of throwing back, as in a revetement or retaining wall."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_BBW",
+        "headword": "BBW",
+        "start_page": 606,
+        "end_page": 607,
+        "word_count": 2285,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BBW...' starts with 'B' but volume 18 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BBW' starts with 'B' but is surrounded by 'P' articles (p.606) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "\\(=pq^2=q^2p\\)\nBBB, \\(=qqq=q^3\\)\n\nIt thus appears that the probability of obtaining two events of one kind, and one of the other, is the same in whatever order they succeed each other, and, in fact, is independent of the order. Disregarding, then, the order of succession, and considering the combination of two white balls with one black, in whatever order they may be arranged, as the same compound event, the probability of its occurrence in any order whatever, being the sum of its probabilities",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_PRIVY_COUNCIL",
+          "headword": "PRIVY COUNCIL",
+          "start_page": 599,
+          "end_page": 606,
+          "word_count": 8775,
+          "text_end": "by (9), becomes \\( 2pq \\). The sum of the probabilities of all the possible arrangements is therefore\n\n\\[\np^2 + 2pq + q^2 = (p + q)^2;\n\\]\n\nwhence it appears that the probabilities of the different arrangements in two trials are respectively the terms of the development of the binomial, \\( (p+q)^2 \\).\n\nLet us next suppose the number of trials to be three.\nThe different arrangements that may be formed of the simple events in three trials, with the probability of each respectively, are as follows:"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_BEATTIE",
+        "headword": "BEATTIE",
+        "start_page": 554,
+        "end_page": 554,
+        "word_count": 11,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BEATTIE...' starts with 'B' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Elements of Moral Science. Vol. i., Ed. 1790; vol. ii., 1793.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_ALEXANDER",
+          "headword": "ALEXANDER",
+          "start_page": 554,
+          "end_page": 555,
+          "word_count": 82,
+          "text_end": "Philosophy, besides the general histories of Brucker, Ruhle, Tennemann, Rixner, Ritter, Erdmann, Chalybeus, Morell, Lewes, and Schwegler, the following special histories may be named:—MEINERS (Chr.), Allgemeine Kritische Gesch. der älteren und neueren Ethik, 2 vols. Gött. 1800-1. STAEBULIN (C. F.), Gesch. der Moral Philosophie, Hanover, 1823. BLAREY (R.), History of Moral Science, 2 vols. 8vo, Lond. 1848. Wheewell's History of Moral Philosophy in England. 8vo, Lond. 1852.)\nPART I.—OF RECTITUDE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BED-MOULD",
+        "headword": "BED-MOULD",
+        "start_page": 515,
+        "end_page": 516,
+        "word_count": 26,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BED-MOULD...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the congeries of mouldings which is under the projecting part of almost every cornice, and of which indeed it is a part. Plate LXII. fig. 1.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_BATTLEMENT",
+          "headword": "BATTLEMENT",
+          "start_page": 515,
+          "end_page": 515,
+          "word_count": 62,
+          "text_end": "a pierced or machicolated parapet.\n\nBAY. The space between the mullions of a window, between piers, and between the principal beams of a roof, floor, or ceiling, is a bay. The term Bay is also applied to a projected window or compartment of windows which forms on the inside a bay. Such a compartment in a shop is vulgarly called a Bow-window."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_BENTHAM",
+        "headword": "BENTHAM",
+        "start_page": 554,
+        "end_page": 554,
+        "word_count": 28,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BENTHAM...' starts with 'B' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Introduction to the Principles of Morals and Politics. Lond. 1789. Deontology, or the Science of Morality, &c. Compiled from his MSS. by J. Bowring. 2 vols. Lond. 1834.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_BEATTIE",
+          "headword": "BEATTIE",
+          "start_page": 554,
+          "end_page": 554,
+          "word_count": 11,
+          "text_end": "Elements of Moral Science. Vol. i., Ed. 1790; vol. ii., 1793."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_BENTLEY'S_MISCELLANY",
+        "headword": "BENTLEY'S MISCELLANY",
+        "start_page": 10,
+        "end_page": 10,
+        "word_count": 45,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BENTLEY'S MISCELLANY...' starts with 'B' but volume 12 covers H-J",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BENTLEY'S MISCELLANY' starts with 'B' but is surrounded by 'I' articles (p.10) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "\"These 'Memorials' will remain a work of reference to Edinburgh history, a classic in the English language, and a monument to its author's talent and goodness.\"\n\nATHENÆUM.\n\n\"Edinburgh has sent out few books so full of entertainment, or so high in value as these 'Memorials.'\"",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_KITTO'S_HISTORY_OF_PALESTINE",
+          "headword": "KITTO'S HISTORY OF PALESTINE",
+          "start_page": 9,
+          "end_page": 9,
+          "word_count": 31,
+          "text_end": "from the Patriarchal Age to the Present Time. With Upwards of Two Hundred Illustrations, 6s. cloth plain; 6s. 6d. cloth, gilt edges.\n\nEDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: HOULSTON AND STONEMAN;"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_BETWEEN_THE_PAROXYSMS",
+        "headword": "BETWEEN THE PAROXYSMS",
+        "start_page": 207,
+        "end_page": 207,
+        "word_count": 73,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BETWEEN THE PAROXYSM...' starts with 'B' but volume 12 covers H-J",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BETWEEN THE PAROXYSMS' starts with 'B' but is surrounded by 'H' articles (p.207) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "n the paroxysms means should be used to remove the cause of the disorder; and tonics, particularly preparations of iron and quinine, regulation of the bowels and the secretions, and attention to diet and exercise, are the measures most likely to restore health when the complaint, as it usually is, is attended with various degrees of debility. Assafetida, valerian, ammonia, and other antispasmodics are also useful in preventing the recurrence of the convulsions.",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_HYSTERIA",
+          "headword": "HYSTERIA",
+          "start_page": 206,
+          "end_page": 206,
+          "word_count": 92,
+          "text_end": "tack women, and which are attended with convulsions, a sense of choking, and involuntary laughing and crying, is strictly applicable to a large proportion of those chronic, so-called nervous, disorders to which females are subject. Of these the fit or convulsion is but the occasional and prominent symptom. The fit itself is usually preceded by a general uneasiness and feeling of oppression, a tight sensation about the throat, headache, cramps, and the sensation of a ball rising from the stomach."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v17_BLACK'S_ATLASES_AND_MAPS",
+        "headword": "BLACK'S ATLASES AND MAPS",
+        "start_page": 7,
+        "end_page": 13,
+        "word_count": 843,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACK'S ATLASES AND ...' starts with 'B' but volume 17 covers O-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BLACK'S ATLASES AND MAPS' starts with 'B' but is surrounded by 'J' articles (p.7) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "I. BLACK'S GENERAL ATLAS OF THE WORLD. A Series of Sixty Folio Maps, New Edition, Engraved and Printed in Colours in the first style of the Art, and accompanied by Descriptions of the various Countries of the World, and a Complete Index of 65,000 names.\n\nIn the construction of the New Edition of this Atlas, access has been obtained to the most recent Government Charts and Surveys; and the authentic information these supply has been embodied along with the important discoveries of British and For",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_BLACK'S_GUIDE_BOOKS",
+        "headword": "BLACK'S GUIDE BOOKS",
+        "start_page": 4,
+        "end_page": 5,
+        "word_count": 104,
+        "volume_num": 18,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACK'S GUIDE BOOKS...' starts with 'B' but volume 18 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Just published, price 8s. 6d., a New and greatly Improved Edition (the 14th) of\nBLACK'S PICTURESQUE TOURIST OF SCOTLAND. Illustrated by 176\nMaps, Charts, and Views, and containing all the most recent information.\n\nBLACK'S PICTURESQUE TOURIST OF ENGLAND. With a general Tra-\nvelling Map—Charts of Roads, Railroads, and interesting Localities—engraved Views of Pic-\nturesque Scenery—and a comprehensive General Index, embracing a List of Hotels and Inns.\nFourth Edition, greatly enlarged and improved.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_PRECESSION",
+          "headword": "PRECESSION",
+          "start_page": 3,
+          "end_page": 4,
+          "word_count": 115,
+          "text_end": "Dr. G. Von Buxen.\nPUNJAB. By E. B. Eastwick, Author of the article \"Persia.\"\nQUAKERS. By William Howitt, Author of \"Visits to Remarkable Places,\" &c.\nQUESNAY. By J. R. McCulloch.\nQUINTILIANUS. By Frederic W. Farrar, Fellow of Trinity College, Cambridge.\nRABELLAIS. By Theodore Martin.\nRAILWAYS. By D. K. Clark, Author of \"Mechanical Engineering of Railways,\" &c. &c.\nREGISTRATION. By James T. Hammack.\n\nEDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: SIMPKIN, MARSHALL, & Co.\nMESSRS ADAM & CHARLES BLACK'S"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_BLACK'S_GUIDE_TO_THE_LAKES_OF_CUMBERLAND",
+        "headword": "BLACK'S GUIDE TO THE LAKES OF CUMBERLAND",
+        "start_page": 5,
+        "end_page": 5,
+        "word_count": 14,
+        "volume_num": 18,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACK'S GUIDE TO THE...' starts with 'B' but volume 18 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "WESTMORELAND,\nand LANCASHIRE. Ninth Edition. Including an Essay on the Geology, by JOHN PHIL-",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v18_ANDERSON'S_GUIDE_TO_THE_HIGHLANDS_AND_ISLANDS_OF_SCOT-\nLAND",
+          "headword": "ANDERSON'S GUIDE TO THE HIGHLANDS AND ISLANDS OF SCOT-\nLAND",
+          "start_page": 5,
+          "end_page": 5,
+          "word_count": 40,
+          "text_end": "including ORKNEY and ZETLAND, descriptive of their Scenery, Statistics, Antiqui-\nties, and Natural History. Third Edition. Price 10s. 6d.\n\nBLACK'S COUNTY GUIDES:—DERBYSHIRE, 2s. HAMPSHIRE, 2s.\nDEVON AND CORNWALL. 2s.\nGLOUCESTER AND HEREFORD. [In the Press.\nYORKSHIRE. 2s. 6d.; Cloth, 3s."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_BLOCKING-COURSE",
+        "headword": "BLOCKING-COURSE",
+        "start_page": 516,
+        "end_page": 516,
+        "word_count": 140,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLOCKING-COURSE...' starts with 'B' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a deep but slightly projecting course in an elevation, to act as cornice to an arcade, or to separate a basement from a superior story. (See STRING-COURSE.)\n\n† Boss, a sculptured knob which is placed on the intersections of ribs in groined ceilings.\n\n† BUTTRESS, the projected piers against the quoins of towers, and against the ordinary piers of walls, to strengthen them, and receive the outward thrust of the inner transverse arches.\n\nCAELING. The flutes of columns are said to be cabled when they",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_BED-MOULD",
+          "headword": "BED-MOULD",
+          "start_page": 515,
+          "end_page": 516,
+          "word_count": 26,
+          "text_end": "the congeries of mouldings which is under the projecting part of almost every cornice, and of which indeed it is a part. Plate LXII. fig. 1."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_BLYTH",
+        "headword": "BLYTH",
+        "start_page": 836,
+        "end_page": 836,
+        "word_count": 29,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLYTH...' starts with 'B' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_AUDUBON",
+          "headword": "AUDUBON",
+          "start_page": 836,
+          "end_page": 836,
+          "word_count": 20,
+          "text_end": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

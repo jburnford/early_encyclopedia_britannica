@@ -1,0 +1,1561 @@
+{
+  "edition_year": 1860,
+  "batch_num": 10,
+  "total_batches": 12,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+        "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+        "start_page": 253,
+        "end_page": 253,
+        "word_count": 181,
+        "volume_num": 14,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 11 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PRIVATE WORKS DISTRI...' starts with 'P' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v14_PICTET",
+          "headword": "PICTET",
+          "start_page": 253,
+          "end_page": 253,
+          "word_count": 32,
+          "text_end": "New Mammalia from Brazil, &c., in Mémoires de la Société de Physique et d'Histoire Naturelle de Genève, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Musée de Genève. Geneva, 1841-44. 4to."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v04_PROBLEMS_IN_PRACTICAL_ASTRONOMY",
+        "headword": "PROBLEMS IN PRACTICAL ASTRONOMY",
+        "start_page": 136,
+        "end_page": 140,
+        "word_count": 4474,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PROBLEMS IN PRACTICA...' starts with 'P' but volume 4 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Problem I.—Given the right ascension and declination of a star or planet, together with the obliquity of the ecliptic, to find the star's longitude and latitude.\n\nLet P (fig. 120, Plate XC.) be the pole of the equator O Q, E the pole of the ecliptic I L, and S the place of the star. Let PR, the circle of latitude passing through\nAstronomy\n\nS, meet the equator in R; and EM, the circle of declination, meet the ecliptic in M; also let \\( \\alpha E, \\alpha P \\) be arcs of great circles passing throug",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v11_PROPAGATION",
+        "headword": "PROPAGATION",
+        "start_page": 712,
+        "end_page": 716,
+        "word_count": 5528,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PROPAGATION...' starts with 'P' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Propagation of Fruit-Trees by Seed.—Although fruit-trees are furnished with all the natural means of reproduction, it is not in general expedient to attempt to propagate them by the sowing of seed. This method is found to be equally tedious and precarious, requiring the labour of many years; and after all, existing varieties of fruits can be propagated by seed, so as to resemble the parent tree upon which they grew, only to a very limited extent; and the chance of an improved variety being produ",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v11_FRUIT_AND_KITCHEN_GARDEN",
+          "headword": "FRUIT AND KITCHEN GARDEN",
+          "start_page": 707,
+          "end_page": 712,
+          "word_count": 6280,
+          "text_end": "or their\ngrowth becomes too luxuriant, in consequence of the soil becoming too rich. They shade and injure other crops, and destroy that unity of expression which ought to exist in every highly kept kitchen-garden. They should be planted in the outer slips, where they may be allowed to attain a large size or be kept in a dwarfish state. Each sort of fruit should be planted by itself, to give an appearance of order and system, as well as to facilitate their protection by being covered with nets."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_PROVINCE_MOLLUSCA",
+        "headword": "PROVINCE MOLLUSCA",
+        "start_page": 344,
+        "end_page": 360,
+        "word_count": 16998,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PROVINCE MOLLUSCA...' starts with 'P' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Cuvier.\n\n(Heterogangliata, Owen.)\n\nCLASS I.—TUNICATA, Lam.\n\n(Acephales sans Coquilles, Cuvier.)\n\nAcephalous Molluscoids inclosed in an elastic uncalcified tunic, perforated by two apertures, and composed of a peculiar substance resembling the \"cellulose\" of plants, in having no nitrogen, but only carbon and hydrogen.\n\nORDER I.—SACCOBRANCHIATA, Owen.\n\n(Les Ascidies and Les Aggregés, Cuv.)\n\nMantle united to the tunic at the two orifices; elsewhere commonly more or less detached. Branchia, a dilate",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v04_PTOLEMY'S_CONSTELLATIONS",
+        "headword": "PTOLEMY'S CONSTELLATIONS",
+        "start_page": 105,
+        "end_page": 112,
+        "word_count": 7678,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PTOLEMY'S CONSTELLAT...' starts with 'P' but volume 4 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "North of the Zodiac.\n\n1. Ursa Minor, The Little Bear.\n2. Ursa Major, The Great Bear.\n3. Draco, The Dragon.\n4. Cepheus, Cepheus.\n5. Bootes, Arctophila.\n6. Corona Borealis, The Northern Crown.\n7. Hercules, Engonasin, Hercules kneeling.\n8. Lyra, The Harp.\n9. Cygnus, Gallina, The Swan.\n10. Cassiopeia, The Lady in her Chair.\n11. Perseus, Perseus.\n12. Auriga, The Waggoner.\nTheoretical 13. Serpentarius, Ophiuchus, Serpentarius.\nAstronomy 14. Serpens,\n15. Sagitta,\n16. Aquila, Vultur, et Antinous,\n17. De",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_PUCHEAN",
+        "headword": "PUCHEAN",
+        "start_page": 837,
+        "end_page": 837,
+        "word_count": 39,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PUCHEAN...' starts with 'P' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Birds described in Dumont D'Urville's Voyage au Pol Sud et dans l'Océanie sur les corvettes l'Astrolabe et la Zélée.\n\n— Mémoires sur les Types des Oiseaux du Musée de Paris (Arch. du Muséum, and Rev. et Mag. de Zoologie).",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_PEALE",
+          "headword": "PEALE",
+          "start_page": 837,
+          "end_page": 837,
+          "word_count": 13,
+          "text_end": "Birds in the United States Exploring Expedition commanded by C. Wilkes. Philadelphia, 1848."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v14_PUCHERAN",
+        "headword": "PUCHERAN",
+        "start_page": 253,
+        "end_page": 253,
+        "word_count": 14,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'PUCHERAN...' starts with 'P' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Various Species and Orders of Mammalia in Archives du Muséum d'Histoire Naturelle de Paris.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253,
+          "end_page": 253,
+          "word_count": 181,
+          "text_end": "; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v14_QUADRUMANOUS",
+        "headword": "QUADRUMANOUS",
+        "start_page": 148,
+        "end_page": 151,
+        "word_count": 4061,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'QUADRUMANOUS...' starts with 'Q' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "OR FOUR-HANDED ANIMALS.\n\nTeeth of three sorts—incisive, canine, and molar. Each of the four extremities furnished with a thumb, free in its movements, and capable of being opposed to the other fingers or toes, which are long and flexible, and bear a strong resemblance to the fingers of the human hand. The eyes are directed forwards. The mammae, which are pectoral, vary in number from two to four. A bony partition separates the temporal cavities from the orbits; but the nasal bone does not exhibi",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v02_RABBITS",
+        "headword": "RABBITS",
+        "start_page": 366,
+        "end_page": 366,
+        "word_count": 116,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RABBITS...' starts with 'R' but volume 2 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "It has been usual, in agricultural works, to take some notice of rabbits. We have so often witnessed the destruction of crops, and consequent vexation and quarrels caused by these creatures, that we regard them only as noxious vermin. It may be true that there are, in various parts of the country, tracts of sand so barren that it is more profitable Live Stock to stock them with rabbits than anything else. Those who choose, whether for pleasure or profit, to keep such stock, ought, however, to be",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v02_POULTRY",
+          "headword": "POULTRY",
+          "start_page": 366,
+          "end_page": 368,
+          "word_count": 2080,
+          "text_end": "f a system of medicine, which is at present so keenly controverted by members of the medical profession. We have simply to state, that we have had ample proof in our personal experience of the power of minute (but appreciable) doses of a variety of medicines, when administered on the principle, that \"like cures like,\" to arrest and cure disease in the lower animals; and we earnestly recommend to veterinary surgeons, and to the owners of live stock, to give this system a full and impartial trial."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_RADIATA",
+        "headword": "RADIATA",
+        "start_page": 70,
+        "end_page": 72,
+        "word_count": 1321,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RADIATA...' starts with 'R' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "---\n\n1 \"Animalia gelatinosa polyzoorpha, interaneis nullis medullisque indistincta. Os interdum indistinctum, sed nutritio absorptione externa vel interna semper statit. Anus nullus. Reproductio fissipara vel gemmipara, gemmis modo externis modo internis, interdum acervatis. Plurique ex individuis pluribus semper cohaerentibus animalia composita sintunt.\" (Hor. Est. p. 224.)\nThis arrangement of animals is, it is true, quite distinct from that generally adopted; but it will be seen that it is not",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_RAMPART_OR_TOWN_FORTIFICATION",
+        "headword": "RAMPART OR TOWN FORTIFICATION",
+        "start_page": 823,
+        "end_page": 827,
+        "word_count": 5324,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RAMPART OR TOWN FORT...' starts with 'R' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the sam",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "start_page": 815,
+          "end_page": 823,
+          "word_count": 8810,
+          "text_end": "tream, and allowed to float down. More extended intrenchments might be formed of lines of lunettes with intervening intrenchments; but it is unnecessary to pursue the subject in this suggestive manner further, as the engineer must necessarily adapt his works to the nature of the ground, and to the extent of the army for which he is required to prepare in this manner a defensive position, from which it may either advance or retire, without risk or confusion, as the necessities of war may require."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v11_RANGES_AND_PENETRATION",
+        "headword": "RANGES AND PENETRATION",
+        "start_page": 153,
+        "end_page": 154,
+        "word_count": 2238,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RANGES AND PENETRATI...' starts with 'R' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Before closing this article it is necessary to say a few words on these important points in practical gunnery, as, in fact, the main object of the science is to insure that the gunner shall throw the shot or shells that they shall either strike or explode at some defined point, and also that the shot shall have force sufficient at that point to perform the work required from it,—as, for example, if the residual velocity of a Shrapnell shell were almost 0 at the time of its explosion, the balls w",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v11_MANAGEMENT_OF_GUNS",
+          "headword": "MANAGEMENT OF GUNS",
+          "start_page": 148,
+          "end_page": 152,
+          "word_count": 6288,
+          "text_end": "19. In our own arsenal also, the subject has been taken in hand by Captain Boxer, and mechanical means adopted for insuring precision in the bore, and in the position and form of the vent with every prospect of success. But with every respect for these laudable and skilful efforts, it would be unjust to deny to Mr Hale the merit of having first in this country invented machinery of a most beautiful description for the manufacture of rockets, and for doing away with the stick entirely. Mr Hale's"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_RAYS",
+        "headword": "RAYS",
+        "start_page": 337,
+        "end_page": 340,
+        "word_count": 4360,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RAYS...' starts with 'R' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "This sub-order, familiarly known by the name of Skates, has for the general character of its form the extreme depression of its body, and the lateral expansion of the pectoral\nfins forming a discoid or subrhomboidal body, with an appended tail, which in the *Rhinobatidae* is fleshy and tapering, and in the *Rajidae*, *Trygonidae*, and some other groups, is cartilaginous and slender, and sometimes elongated like the thong of a whip. In some a narrow lanceet-shaped spine placed erect on the dorsal",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_SHARKS",
+          "headword": "SHARKS",
+          "start_page": 333,
+          "end_page": 337,
+          "word_count": 6116,
+          "text_end": ". Front of the head transverse to the ends of the lateral orbital extensions of the skull. Nostrils on the front border; nasal flap small, triangular on the inner edge of the nostril. Labial cartilages small. Teeth alike above and below, being a compressed pyramidal, with an entire or serrated exterior basal edge; a medial tooth in both jaws. First dorsal near the pectorals; second one over the anal. Distinct tail-pits. Oviduct villous; yolk-bag connected to the sides of the ovary. Four species."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_RECTITUDE_DEFINED",
+        "headword": "RECTITUDE DEFINED",
+        "start_page": 555,
+        "end_page": 555,
+        "word_count": 1187,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RECTITUDE DEFINED...' starts with 'R' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Rectitude is the conformity of actions to an acknowledged standard of right.\n\nIn all ages, and among all nations, a distinction has been recognised between right and wrong; and these qualities have been discriminated from other qualities with which they may frequently be closely associated, such as pleasant and painful, agreeable and repulsive, beneficial and noxious, &c. The proposition, \"This is right,\" and the proposition, \"This is agreeable,\" may be translated into all languages under the su",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_WHEWELL",
+          "headword": "WHEWELL",
+          "start_page": 554,
+          "end_page": 554,
+          "word_count": 15,
+          "text_end": "Elements of Morality, including Policy. 2 vols. Lond. 1845. Lectures on Systematic Morality. Lond. 1846."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_CHARLES_II",
+        "headword": "REIGN OF CHARLES II",
+        "start_page": 430,
+        "end_page": 444,
+        "word_count": 17471,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF CHARLES II...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Charles II.—His first measures popular.—The regicides punished.—Indignities offered to the remains of Cromwell, Ireton, and Bradshaw.—Death of the Duke of Gloucester.—Parliament dissolved.—State of the nation.—Prolificacy and ingratitude of the King.—Slavish disposition of Parliament.—King's extravagance.—Marriage with the Infants of Portugal.—War with the Dutch.—Naval engagements.—Action off Lowestoft.—Battle of the Four Days.—Negotiations.—The Dutch fleet appears in the Medway and the Thames.—",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_GEORGE_II",
+        "headword": "REIGN OF GEORGE II",
+        "start_page": 467,
+        "end_page": 474,
+        "word_count": 9798,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF GEORGE II...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Accession of George II.—Court and Country Parties.—Charitable Corporation.—Excise Scheme rejected.—Parliament dissolved.—War with Spain.—Capture of Puerto Bello.—Anson's Expedition.—Unsuccessful attempt on Cartagena.—Retirement of Sir Robert Walpole.—Army sent into Flanders.—Origin of the Continental War.—Desperate situation of the Queen of Hungary.—Relieved by the British forces.—Battle of Dettingen.—Intended invasion of Britain by France.—Battle of Fontenoy.—Capture of Louisburg.—Landing of th",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v05_REIGN_OF_QUEEN_ANNE",
+          "headword": "REIGN OF QUEEN ANNE",
+          "start_page": 456,
+          "end_page": 467,
+          "word_count": 12578,
+          "text_end": "ect, however, the surgeon who followed on horseback was called, and rubbed it with spirits. But the friction was unavailing; the king's tongue began to swell, and he had just strength enough to bid them hasten to Osnaburgh; after which he fell insensible into Fabrice's arms. He never recovered; but expired about eleven o'clock the next morning, in the sixty-eighth year of his age and thirteenth of his reign. His body was conveyed to Hanover, and interred among his electoral ancestors.\n\nCHAP. XI."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_GEORGE_III",
+        "headword": "REIGN OF GEORGE III",
+        "start_page": 474,
+        "end_page": 476,
+        "word_count": 2671,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF GEORGE III...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Accession of George III.—Success of the British arms.—Proposals of peace.—A war with Spain proposed by Mr Pitt.—His resignation.—Created Earl of Chatham.—War with Spain.—France and Spain declare war on Portugal.—Invasion of that country.—Spaniards defeated.—Taking of Lisbon.—Philipps Island returned.—Extent of the conquests of Britain.—Peace of 1763.—Discontents.—Cyder-tax.—Resignation of Lord Bute.—New ministry.—Supposed influence of Lord Bute.—Proceedings against John Wilkes.—Licentiousness of",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v05_REIGN_OF_GEORGE_II",
+          "headword": "REIGN OF GEORGE II",
+          "start_page": 467,
+          "end_page": 474,
+          "word_count": 9798,
+          "text_end": "ndants into the room, they lifted him into bed, when he desired in a faint voice that the Princess Amelia might be sent for; but before she could reach the apartment his majesty expired, in the seventy-seventh year of his age and thirty-third of his reign. An attempt was made to bleed him, but without effect; and afterwards the surgeons, upon opening him, discovered that the right ventricle of the heart had been ruptured, and a great quantity of blood discharged through the aperture.\n\nCHAP. XII."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_GEORGE_IV",
+        "headword": "REIGN OF GEORGE IV",
+        "start_page": 636,
+        "end_page": 650,
+        "word_count": 18525,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF GEORGE IV...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Accession of George IV.—Assembling of Parliament.—Message from the King.—Debates.—Parliament dissolved.—Cato Street Conspiracy.—Thistlewood and his Accomplices seized, convicted, and executed.—Discontent.—Fomented by Government Spies.—Severe Measures.—The Queen.—Aversion of the King.—She Lands at Dover.—Message from the King respecting the Conduct of the Queen.—Bill of Pains and Penalties introduced.—Proceedings thereon.—Bill of Pains and Penalties thrown out.—Scene in the House of Commons.—Char",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v05_BONAPARTE_WAS_NOW_PROVIDED_WITH_ADDITIONAL",
+          "headword": "BONAPARTE WAS NOW PROVIDED WITH ADDITIONAL",
+          "start_page": 608,
+          "end_page": 636,
+          "word_count": 35569,
+          "text_end": "ticism. Yet he loved and patronised the fine arts, particularly music and painting; he collected a noble library; he had a taste for agriculture and some of the mechanic arts; and he was at once plain and unpretending in his manners; all which circumstances go very far in the case of a king. Hunting and the penal laws against the Catholics formed the things which, next to his own family, he was most attached to; and his scruples of conscience long stood in the way of national justice.\n\nCHAP. XX."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_JAMES_II",
+        "headword": "REIGN OF JAMES II",
+        "start_page": 444,
+        "end_page": 453,
+        "word_count": 11072,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF JAMES II...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Accession of James II.—Slavish Addresses—Remarkable one by the Quakers.—Imprudent Measures of the King.—Measure in favour of the Catholics.—Monmouth's Conspiracy.—Defeat and Execution of Argyll.—Landing of Monmouth.—Battle of Sedgemoore.—Defeat, Capture, and Execution of Monmouth.—James endeavors to establish Popery.—Parliament dissolved.—Catholics promoted.—Opposition of the English Clergy.—An ambassador sent to Rome.—Declarations in favour of liberty of conscience.—The seven Bishops imprisoned",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v05_REIGN_OF_CHARLES_II",
+          "headword": "REIGN OF CHARLES II",
+          "start_page": 430,
+          "end_page": 444,
+          "word_count": 17471,
+          "text_end": "ant, whilst he satisfied his conscience by secretly professing Catholicism, and in reality believed no religion at all. Finally, in all the relations of life, whether public or private, he was equally unprincipled, profligate, false, immoral, vicious, and corrupt; whilst, from the example of his debauched and licentious court, public morals contracted a taint, which it required little less than a century to obliterate, and which for a time wholly paralysed the character of the nation.\n\nCHAP. VII"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v05_REIGN_OF_QUEEN_ANNE",
+        "headword": "REIGN OF QUEEN ANNE",
+        "start_page": 456,
+        "end_page": 467,
+        "word_count": 12578,
+        "volume_num": 5,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REIGN OF QUEEN ANNE...' starts with 'R' but volume 5 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Accession of Anne.—State of parties.—War declared against France.—Duke of Marlborough appointed general.—His success in his first Campaign.—Losses sustained at sea.—Gallantry and death of Admiral Benbow.—Continental army increased—\nFurther successes of Marlborough—French defeated at Blenheim—Gibraltar taken—French defeated at Ramillies—Ineffectual attempt of the Spaniards to recover Gibraltar—Charles declared king of Spain—War of the Succession—Barcelona taken—French defeated at Ramillies—The Ki",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v11_RELATIVE_PRONOUNS",
+        "headword": "RELATIVE PRONOUNS",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 25,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RELATIVE PRONOUNS...' starts with 'R' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "1. Simple Relative Pronouns.\n\nSingular.\n\nM. PUY, PEPEE He who. C. NAY\n\nF. TUY She who.\n\nPlural.\n\nC. APEN, APU.\n\n2. Determinate Relative Pronouns.\n\nIndefinite.",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v11_POSSESSIVE_PRONOUNS",
+          "headword": "POSSESSIVE PRONOUNS",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 335,
+          "text_end": "erson. Object masc., person speaking com.\n\nSing. PAEEF, PEEF, PEET, PAEEF My (m.) i aiav\n\nObject fem., person speaking com.\n\nSing. TAEEF, TEETE, TEEF, TAP My (f.) i aiav\n\nObject masc., persons speaking com.\n\nPlur. PAEEF, PAEEF, PAEEF, PAEEF Our (m.) i aiav\n\nObject fem., persons speaking com.\n\nPlur. TAEEF, TEETE, TEEF, TAP Our (f.) i aiav\n\nObjects com., person speaking com.\n\nPlur. NAEEF, NEES, NAS Our i ai ai aiav\n\nObjects com., persons speaking com.\n\nPlur. NAEESEN, NEESEN, NASEN Our i ai ai aiav"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v17_REMONTOIRES",
+        "headword": "REMONTOIRES",
+        "start_page": 400,
+        "end_page": 400,
+        "word_count": 412,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REMONTOIRES...' starts with 'R' but volume 17 covers O-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "As the maintaining power is communicated to the pallets through a long train of wheels, it is liable to periodical variations from malformation of the teeth, and to more permanent changes from dust, and from the thickening of the oil. Also in spring time-keepers the form of the fusee does not compensate perfectly for the varying tension of the mainspring. Hence the utility of what are called remontoires, or re-winders.\n\nThis name is given to various arrangements by which a small weight or slende",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v17_PENDULUM_s4",
+          "headword": "PENDULUM",
+          "start_page": 400,
+          "end_page": 401,
+          "word_count": 250,
+          "text_end": "). In this there remain still the quantities \\( l \\) and \\( p \\) to be determined by experiment. By placing the weight \\( C \\) at three different positions on the stem, and observing the times of oscillation, these quantities \\( l \\) and \\( p \\) can be found, and thence the graduation of the instrument.\n\nHowever, as the matter does not call for extreme precision, the ordinary method of finding by trial three or four points on the scale, and then graduating between, is sufficient for the purpose."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_RESINS",
+        "headword": "RESINS",
+        "start_page": 102,
+        "end_page": 122,
+        "word_count": 23544,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESINS...' starts with 'R' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "GUMS, &c.\n\n| Gunpowder, heap. | 836 | 52-2500                       | 0-48379                       |\n| Living men.     | 891 | 55-6875                       | 0-51562                       |\n| Wax.            | 897 | 56-0625                       | 0-51900                       |\n| Ice.            | 930 | 58-1250                       | 0-53810                       |\n| Gunpowder, close. | 937 | 58-5625                       | 0-54224                       |\n| Tallow.         | 942 | 58-6750",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_DEFINITIONS_AND_PRELIMINARY_OBSERVATIONS",
+          "headword": "DEFINITIONS AND PRELIMINARY OBSERVATIONS",
+          "start_page": 91,
+          "end_page": 102,
+          "word_count": 14698,
+          "text_end": "|\n| Tallow.        | 942                                    | 58-6750                       | 0-54512                       |\n| Butter.        | 942                                    | 58-8750                       | 0-54513                       |\n| Bees-wax.      | 956                                    | 59-7500                       | 0-55324                       |\n| Sodium.        | 972                                    | 60-7500                       | 0-56250                       |"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v03_RICHARD_WHATELY",
+        "headword": "RICHARD WHATELY",
+        "start_page": 1061,
+        "end_page": 1061,
+        "word_count": 11,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RICHARD WHATELY...' starts with 'R' but volume 3 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v03_JOHN_WILSON",
+          "headword": "JOHN WILSON",
+          "start_page": 1061,
+          "end_page": 1061,
+          "word_count": 18,
+          "text_end": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v14_RICHARDSON",
+        "headword": "RICHARDSON",
+        "start_page": 253,
+        "end_page": 253,
+        "word_count": 46,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RICHARDSON...' starts with 'R' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nRÜPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.—\"Beschreibung mehrerer neuer Säugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v14_PUCHERAN",
+          "headword": "PUCHERAN",
+          "start_page": 253,
+          "end_page": 253,
+          "word_count": 14,
+          "text_end": "Various Species and Orders of Mammalia in Archives du Muséum d'Histoire Naturelle de Paris."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v20_RISE_AND_PROGRESS_OF_NAVAL_ARCHITECTURE",
+        "headword": "RISE AND PROGRESS OF NAVAL ARCHITECTURE",
+        "start_page": 127,
+        "end_page": 127,
+        "word_count": 1234,
+        "volume_num": 20,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RISE AND PROGRESS OF...' starts with 'R' but volume 20 covers S-S",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "In tracing the progress of naval architecture among the nations of antiquity, in order to connect it with its advance in more modern times, the chronological divisions adopted by that indefatigable investigator, Charnock, in his valuable History of Marine Architecture, present a very succinct idea of the probable rise, progress, decline, and revival of the art, and therefore offer a valuable guide for investigation. It would not be consistent with the purpose of this article to enter into the de",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v20_SHIFFNAL",
+          "headword": "SHIFFNAL",
+          "start_page": 125,
+          "end_page": 125,
+          "word_count": 64,
+          "text_end": "a market-town of England, Shropshire, 17 miles E.S.E. of Shrewsbury, and 135 N.W. by W. of London. It contains no remarkable building except the large and handsome parish church, which is in the form of a cross, with a fine carved roof and some Norman remains. The other places of worship belong to the Baptists and Independents. There are also national schools and a"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v04_ROADICEA",
+        "headword": "ROADICEA",
+        "start_page": 825,
+        "end_page": 825,
+        "word_count": 234,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ROADICEA...' starts with 'R' but volume 4 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a valiant British queen in the time of the emperor Nero. She was the wife of Prasutagus, king of the Iceni, a people inhabiting the eastern coast of Britain. On his deathbed, A.D. 60, Prasutagus named the emperor heir to his accumulated treasures conjointly with his own two daughters, in expectation of securing thereby Nero's protection for his family and people; but he was no sooner dead than the emperor's officers seized all. Boadicea's opposition to these unjust proceedings was resented with",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v04_BOAR",
+          "headword": "BOAR",
+          "start_page": 825,
+          "end_page": 826,
+          "word_count": 500,
+          "text_end": "ery to the last.\n\nThe hinder claws of a boar are called guards. In the corn he is said to feed; in the meadows or fallow-fields, to rout, worm, or fern; in a close, to graze. The boar is furred with his full complement of teeth, which afterwards increase in size, but not in number. Amongst these there are four called tusks or tusks, the two largest of which do not hurt when he strikes, but serve only to whet the other two, with which the beast defends himself, and frequently kills his assailant."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v02_ROLLERS",
+        "headword": "ROLLERS",
+        "start_page": 283,
+        "end_page": 283,
+        "word_count": 636,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ROLLERS...' starts with 'R' but volume 2 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Those formerly used were solid cylinders of timber or stone attached to a frame and shafts, for which hollow ones of cast-iron are now generally substituted. The simplest form of these has a smooth surface, and is cast in sections to admit of more easy turning. They are made of diverse weights,\n\nso as to be adapted for the draught of one or two horses as required. Those of the former description, weighing in all 6 cwt., and costing as many pounds sterling, are exceedingly useful for all purposes",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v02_GRUBBERS",
+          "headword": "GRUBBERS",
+          "start_page": 281,
+          "end_page": 283,
+          "word_count": 1173,
+          "text_end": "semblance to harrows, is noticed now rather than before. It is a very strong iron harrow, with the tines made longer and very considerably curved forwards. An iron rod with a loop handle is fixed to the hind bar, by means of which the driver can easily hitch it up and get rid of weeds, &c. Two such harrows are coupled together and drawn by four horses. Its pulverizing power is very considerable. But when clods have been brought to the surface they are most effectually reduced by various kinds of"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_ROYAL_MARINES",
+        "headword": "ROYAL MARINES",
+        "start_page": 125,
+        "end_page": 125,
+        "word_count": 59,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ROYAL MARINES...' starts with 'R' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "General officers | 120 | According to circumstances |\nColonels | 90 | 200 | 150 |\nLieutenant-colonels | 80 | 200 | 140 |\nMajors | 70 | 120 | 100 |\nCaptains | 50 | 80 | 65 |\n1st Lieutenants | 40 | 60 | 50 |\n2nd Lieutenants | 35 | 50 | 40 |",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_CIVIL_BRANCH",
+          "headword": "CIVIL BRANCH",
+          "start_page": 125,
+          "end_page": 125,
+          "word_count": 206,
+          "text_end": "50 | 30 |\nAssistant-engineers | ... | ... | ... |\n\n* If the officer was killed in action, or died within six months of wounds received in action.\n* If the officer was deemed, or suffered other violent death in an immediate act of duty, or if it shall be proved to the satisfaction of the lords commissioners of the Admiralty that he has died from the effects of any injury or disease caused by extraordinary exposure or exertion on service within six months after his being first certified to be ill."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_RULES_FOR_DETERMINING_THE_DIMENSIONS_OF_PARAPETS",
+        "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+        "start_page": 810,
+        "end_page": 815,
+        "word_count": 6140,
+        "volume_num": 9,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RULES FOR DETERMININ...' starts with 'R' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Determination of the Relief of a Parapet.—First, in respect to the protection of troops in a normal position, where the ground is considered horizontal. Now, the minimum for a simple parapet may be here stated at 6' 6\" as a musket ball would penetrate the parapet for about 6' below its crest, and the maximum at 8 feet, a height which gives the defenders perfect security under almost every circumstance of fire, including even that of mounted soldiers.\n\nDeflade.—Secondly, where the ground is uneve",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v09_ELEMENTARY_FORTIFICATION",
+          "headword": "ELEMENTARY FORTIFICATION",
+          "start_page": 807,
+          "end_page": 810,
+          "word_count": 3047,
+          "text_end": "dd, that the choice of any particular form must be determined by the engineer from a knowledge of the nature of the ground itself, only remembering that the contents of the ditch, or ditches, must supply material for forming the parapet; and further, that as its depth adds to the difficulty of assault, it should not be diminished except from necessity. After these elementary remarks, the student may be considered prepared to enter on the consideration generally of parapet or field fortification."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_RUPEL",
+        "headword": "RUPEL",
+        "start_page": 837,
+        "end_page": 837,
+        "word_count": 20,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RUPEL...' starts with 'R' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Systematische Übersicht der Vögel Nord-öst Afrika. Frankfort, 1845. Svo.\n\n— Birds of North-East Africa, in the Museum Senckenbergianum. Vol. 3.",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_PUCHEAN",
+          "headword": "PUCHEAN",
+          "start_page": 837,
+          "end_page": 837,
+          "word_count": 39,
+          "text_end": "Birds described in Dumont D'Urville's Voyage au Pol Sud et dans l'Océanie sur les corvettes l'Astrolabe et la Zélée.\n\n— Mémoires sur les Types des Oiseaux du Musée de Paris (Arch. du Muséum, and Rev. et Mag. de Zoologie)."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v21_SAMUEL_WYATT",
+        "headword": "SAMUEL WYATT",
+        "start_page": 956,
+        "end_page": 958,
+        "word_count": 3240,
+        "volume_num": 21,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SAMUEL WYATT...' starts with 'S' but volume 21 covers T-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "third son of Benjamin of Blackbrook, and elder brother of the preceding, was engaged extensively as an architect and builder, occupations which, at that time, frequently went together. He is said to have designed Hooton Hall, Cheshire; Tatton Park, for the Egerton family; Doddington Hall, for Sir T. Broughton; and Kedleston, for Lord Scarsdale. The editors of the *Vitruvius Britannicus* attribute this last building to Adam. As the house, however, was but partly finished at the time they wrote, i",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v21_JAMES_WYATT",
+          "headword": "JAMES WYATT",
+          "start_page": 956,
+          "end_page": 956,
+          "word_count": 528,
+          "text_end": "to great expense in preparing careful drawings and measurements of our best mediaval buildings. There is great boldness in the way in which most of his Gothic buildings are treated, and ideas of grandeur and magnificence, which were much alike at the time. He was killed by the accidental overturning of the carriage of Mr Codrington, near Marlborough, dying instantly of the concussion, on the 5th Sept., 1813, at the age of 70. He left a wife and four children, three of whom will be noticed below."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_SCATER",
+        "headword": "SCATER",
+        "start_page": 837,
+        "end_page": 837,
+        "word_count": 41,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SCATER...' starts with 'S' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "many papers on Ornithology in the Illustrated Proceedings of the Zoological Society, and Annals of Nat. Hist., and Edin. New Phil. Journal.\n\n— Monograph of the Birds forming the Tanagrine genus Calliste, illustrated by coloured plates of all the known species.",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_RUPEL",
+          "headword": "RUPEL",
+          "start_page": 837,
+          "end_page": 837,
+          "word_count": 20,
+          "text_end": "Systematische Übersicht der Vögel Nord-öst Afrika. Frankfort, 1845. Svo.\n\n— Birds of North-East Africa, in the Museum Senckenbergianum. Vol. 3."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v14_SCHINZ",
+        "headword": "SCHINZ",
+        "start_page": 253,
+        "end_page": 253,
+        "word_count": 17,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SCHINZ...' starts with 'S' but volume 14 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Monographien der Säugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and MÜLLER.",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v14_RICHARDSON",
+          "headword": "RICHARDSON",
+          "start_page": 253,
+          "end_page": 253,
+          "word_count": 46,
+          "text_end": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nRÜPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.—\"Beschreibung mehrerer neuer Säugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_SCHLEMMERMACHER",
+        "headword": "SCHLEMMERMACHER",
+        "start_page": 554,
+        "end_page": 554,
+        "word_count": 25,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SCHLEMMERMACHER...' starts with 'S' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Grundlinien einer Kritik der bisherigen Sittenlehre. Berl. 1803. Entwurf einer Syst. der Sittenlehre, forming vol. v. of div. iii. of his Sämtliche Werke. Berl. 1834-48.",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_PAYNE",
+          "headword": "PAYNE",
+          "start_page": 554,
+          "end_page": 554,
+          "word_count": 12,
+          "text_end": "Elements of Mental and Moral Science, &c. Lond. 1828. 4th ed. 1857."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v21_SCOTTISH_UNIVERSITIES",
+        "headword": "SCOTTISH UNIVERSITIES",
+        "start_page": 488,
+        "end_page": 492,
+        "word_count": 4747,
+        "volume_num": 21,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SCOTTISH UNIVERSITIE...' starts with 'S' but volume 21 covers T-Z",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'SCOTTISH UNIVERSITIES' starts with 'S' but is surrounded by 'U' articles (p.488) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "UNIVERSITY OF ST ANDREWS.\n\nAt the beginning of the fifteenth century, Scotland contained no academical institution in which the higher branches of knowledge were taught. The Scottish youth who wished to obtain a more liberal education than the seminaries of the country afforded, were under the necessity of seeking it in distant universities; in some of which colleges were early endowed for their reception. Soon after the middle of the thirteenth century, Dervorguilla, daughter of Alan, Earl of G",
+        "surrounding_letter": "U"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v21_UNIVERSITY_OF_DURHAM",
+          "headword": "UNIVERSITY OF DURHAM",
+          "start_page": 486,
+          "end_page": 488,
+          "word_count": 1911,
+          "text_end": "it is proposed in convocation. The academical year consists of three terms, of not less than eight weeks each, called Michaelmas, Epiphany, and Easter. Michaelmas term commences not earlier than the 16th of October, and Easter term ends not later than the 30th June. No religious test is exacted till a student proceeds to his degree. For the terms and exercises requisite for proceeding to the different degrees, and for the university and college expenses, see Durham University Calendar for 1859."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v08_SECOND_LAW_OF_MOTION",
+        "headword": "SECOND LAW OF MOTION",
+        "start_page": 341,
+        "end_page": 347,
+        "word_count": 7680,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SECOND LAW OF MOTION...' starts with 'S' but volume 8 covers D-E",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Every change of motion is proportional to the force impressed, and is made in the direction of that force.\n\n37. This law also may almost be considered as an identical proposition; for it is equivalent to saying that the changing force is to be measured by the change which it produces, and that the direction of this force is the direction of the change. Of this there can be no doubt, when we consider the force in no other sense than that of the cause of motion, paying no attention to the form or",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_SECOND_MASTERS",
+        "headword": "SECOND MASTERS",
+        "start_page": 122,
+        "end_page": 125,
+        "word_count": 3956,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SECOND MASTERS...' starts with 'S' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unles",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_PAYMASTERS",
+          "headword": "PAYMASTERS",
+          "start_page": 122,
+          "end_page": 122,
+          "word_count": 150,
+          "text_end": "0 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v07_SECONDARY_COMPENSATION",
+        "headword": "SECONDARY COMPENSATION",
+        "start_page": 40,
+        "end_page": 42,
+        "word_count": 2301,
+        "volume_num": 7,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SECONDARY COMPENSATI...' starts with 'S' but volume 7 covers C-D",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "When chronometers had been brought to great perfection by the improved workmanship of modern times, and were subjected to more extreme temperatures in the annual trials at Greenwich, it was perceived that there was a residuary error, which was due to changes of temperature, but which no adjustment of the compensation could correct. For if the compensation was adjusted for two extreme temperatures, such as 32° and 100°, then the chronometer gained at mean temperatures; and if adjusted for any two",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v07_ELECTRICAL_CLOCKS",
+          "headword": "ELECTRICAL CLOCKS",
+          "start_page": 35,
+          "end_page": 40,
+          "word_count": 5898,
+          "text_end": "timing is done by screws with heavy heads (t, t, in fig. 22) just opposite to the ends of the cross-bar, and consequently not affected by the bending of the rim. The compensation may be done approximately by the known results of previous experience with similar balances; and many watches are sold with compensation balances which have never been tried or adjusted—a matter which a purchaser has no means of ascertaining except by trying the watch himself in two sufficiently different temperatures."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v16_SECRETARIES",
+        "headword": "SECRETARIES",
+        "start_page": 122,
+        "end_page": 122,
+        "word_count": 18,
+        "volume_num": 16,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SECRETARIES...' starts with 'S' but volume 16 covers N-O",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v16_SECOND_MASTERS",
+          "headword": "SECOND MASTERS",
+          "start_page": 122,
+          "end_page": 125,
+          "word_count": 3956,
+          "text_end": "50 | ... |\n| Gunners warranted prior to 1830 | 25 | ... | ... |\n| Gunners not warranted prior to 1830 | ... | ... | ... |\n| Boatswains warranted prior to 1830 | 25 | ... | ... |\n| Boatswains not warranted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v07_SECURITY_OF_BUILDINGS_AGAINST_FIRE",
+        "headword": "SECURITY OF BUILDINGS AGAINST FIRE",
+        "start_page": 339,
+        "end_page": 342,
+        "word_count": 4405,
+        "volume_num": 7,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SECURITY OF BUILDING...' starts with 'S' but volume 7 covers C-D",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "It is seldom that houses take fire from common accidents such as occur to the lighter moveable furniture and to drapery; but, for the most part, from the exposure of timber in or about the structure to the continued action of fire, or of heat capable sooner or later of inducing the combustion of timber; and as the source is most commonly in some stove, furnace, flue, pipe, or tube, for generating or for conveying heat, or for removing the products of combustion, much of the real danger to buildi",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v07_CONSTRUCTION_AS_APPLIED_TO_CIVIC_STRUCTURES_GENERALLY",
+          "headword": "CONSTRUCTION AS APPLIED TO CIVIC STRUCTURES GENERALLY",
+          "start_page": 337,
+          "end_page": 339,
+          "word_count": 3006,
+          "text_end": "ence of manipulated bond in its construction, and encased by the soil within which it is placed.\n\nConcrete, indeed, is at all times more safely to be regarded as a substance to be placed as a layer, than as a substance to be set up as a wall; for although excellent erections as walls may be made of concrete—as erections in the same form may be made of tempered clay—neither concrete nor tempered clay is to be regarded as a proper substance with which to form the lofty walls of buildings in towns."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_SHARKS",
+        "headword": "SHARKS",
+        "start_page": 333,
+        "end_page": 337,
+        "word_count": 6116,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SHARKS...' starts with 'S' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The Scyliorhinus or Dog-fishes, have the anal fin situated either before or beneath or behind the second dorsal, and are mostly spotted or coloured with lively tints. Their French names are Rousette or Rocher. The typical genus Scyllium has two representatives on the British coasts, Sc. canicula and Sc. catulus, both very common, and constantly taken by the fishers with bait at all the fishing stations round the coast, but more plentiful among the Orkney Islands than elsewhere. They are scarcely",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_CHONDROPTERYGIANS",
+          "headword": "CHONDROPTERYGIANS",
+          "start_page": 330,
+          "end_page": 333,
+          "word_count": 2630,
+          "text_end": "n the cloaca. The claspers are present in the Chimaeridae as well as Plagiostomi, as appendages to the posterior edges of the anal fins, and have a fissure towards their ends, leading to a blind subcutaneous sac, which is well lubricated with mucus. In the Rays a glandular body aids its secretions to this mucus. The ovaria are smaller than those of osseous fishes, and the ova comparatively few in number. Some of the genera are viviparous, others ovo-viviparous, and others again merely oviparous."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v15_SHATTESBURY",
+        "headword": "SHATTESBURY",
+        "start_page": 554,
+        "end_page": 554,
+        "word_count": 18,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SHATTESBURY...' starts with 'S' but volume 15 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "An Inquiry concerning Virtue and Merit. Lond. 1699. Characteristics of Men, Manners, Opinions, Times. 3 vols. Lond. 1710.",
+        "surrounding_letter": "W"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v15_SCHLEMMERMACHER",
+          "headword": "SCHLEMMERMACHER",
+          "start_page": 554,
+          "end_page": 554,
+          "word_count": 25,
+          "text_end": "Grundlinien einer Kritik der bisherigen Sittenlehre. Berl. 1803. Entwurf einer Syst. der Sittenlehre, forming vol. v. of div. iii. of his Sämtliche Werke. Berl. 1834-48."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v02_SHEEP",
+        "headword": "SHEEP",
+        "start_page": 355,
+        "end_page": 357,
+        "word_count": 3156,
+        "volume_num": 2,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SHEEP...' starts with 'S' but volume 2 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "When Fitzherbert so long ago said, \"Sheep is the most profitablest cattle that a man can have,\" he expressed an opinion in which agriculturists of the present day fully concur. But if this was true of the flocks of his time, how much more of the many admirable breeds which now adorn the rich pastures, the grassy downs, and heath-clad mountains of our native country. Their flesh is in high estimation with all classes of the community, and constitutes at least one-half of all the butcher meat cons",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v02_CATTLE",
+          "headword": "CATTLE",
+          "start_page": 350,
+          "end_page": 355,
+          "word_count": 6640,
+          "text_end": "nce of the owner, and his skill in so managing the commissariat, as to secure throughout the year a sufficiency of suitable food for the stock on hand. Unless this is attended to, he may find himself necessitated to sell his cattle before they are fat, and when markets are glutted. Whenever they have attained to what is technically called ripe fitness, and prices are at their average rate, it is generally more profitable forthwith to dispose of them, than to speculate upon a rise in the markets."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_SIRENOIDS",
+        "headword": "SIRENOIDS",
+        "start_page": 329,
+        "end_page": 330,
+        "word_count": 1276,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SIRENOIDS...' starts with 'S' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Two distinct species of this order, family, and genus are known; one an inhabitant of the River Amazon, whose structure has not been so fully investigated, and the L. annectans from the Gambia, which has been minutely dissected by several of the first comparative anatomists of the day, and been the subject of much scientific controversy as to its station in the animal scale, whether it ought to be ranked with the reptiles or fishes. Professor Owen from the first advocated its ichthyic constituti",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_GANOIDAE",
+          "headword": "GANOIDAE",
+          "start_page": 328,
+          "end_page": 329,
+          "word_count": 2752,
+          "text_end": "kin destitute of bony shields; recognisable at once by the enormous leaf-like expansion of the snout. In general form Sturgeons, but the gill-openings are larger, and the membranous tip of the gill-flap reaches the middle of the body. Mouth very wide, with a multitude of little teeth. A gelatinous chord in the spine like that of the Lamprey. A spiral intestinal valve; pancreas partially divided into ceca; an air-bladder. Müller says that the opercula are absent in Polyodon. (Osteol. der Myxine.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_SKETCH_OF_THE_HISTORY_OF_THE_ORDER",
+        "headword": "SKETCH OF THE HISTORY OF THE ORDER",
+        "start_page": 766,
+        "end_page": 769,
+        "word_count": 4157,
+        "volume_num": 12,
+        "primary_issue": "sentence_fragment",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SKETCH OF THE HISTOR...' starts with 'S' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "In taking a glance at the history of the order of Jesuits, there is little that can command attention beyond the field of its interference with the political interests of the European nations. So far as Jesuitism was an outbreak of religious fervour—and so far, when thus thought of, as it served in a time of laxity to reanimate the Roman Catholic world, and thus to maintain Catholicism against the assailant forces of the Lutheran and Calvinistic reformation—thus far, the Society may be regarded",
+        "surrounding_letter": "J"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_IXIGO_DE_RECALDE_LOTOLA",
+          "headword": "IXIGO DE RECALDE LOTOLA",
+          "start_page": 762,
+          "end_page": 766,
+          "word_count": 5801,
+          "text_end": "arrest movement, actually took effect; and it might have done so in a degree that would have been fatal to our modern advancement, if the Jesuit body had not, at an early time, so displayed its vicious tendencies in another sphere as to awaken salutary distrust and alarm throughout Europe.\n\nThis reaction against the Jesuit body took its rise within the circle of political movements, where it had already whispered doctrines against which the moral instincts of men prompted them to make an outcry."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v09_SKETCH_OF_THE_SEVERAL_STATES",
+        "headword": "SKETCH OF THE SEVERAL STATES",
+        "start_page": 408,
+        "end_page": 413,
+        "word_count": 6661,
+        "volume_num": 9,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SKETCH OF THE SEVERA...' starts with 'S' but volume 9 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Britain, though much smaller in extent than any of the other states of the first rank, is the wealthiest, and consequently the most powerful, of the whole. It enjoys a moderately good climate, rather cold and moist, but equable, a soil and garrisoned by Sardinian troops. Moldavia, Wallachia, and Servia are independent only in respect of internal administration, but acknowledge the imperial sovereignty of the Ottoman Sultan. Montenegro is practically independent, under the rule of its Vladika, or",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v11_SMALL_FRUITS",
+        "headword": "SMALL FRUITS",
+        "start_page": 727,
+        "end_page": 729,
+        "word_count": 2362,
+        "volume_num": 11,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SMALL FRUITS...' starts with 'S' but volume 11 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The Red, White, and Black Currant, the Gooseberry, the Raspberry, the Strawberry, and Cranberry, are usually cultivated in our gardens, under the title of Small Fruits. Their economical uses in cookery, confectionery, and in the manufacture of home-made wines, attach to them considerable importance, and render desirable a separate account of them, however brief.\n\nThe Currant.—The *Ribes rubrum* includes as its varieties our Red and White Currants. The principal subvarieties are:\n\n- Dutch Red, Ru",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v11_HORTICULTURE_s3",
+          "headword": "HORTICULTURE",
+          "start_page": 724,
+          "end_page": 725,
+          "word_count": 441,
+          "text_end": "In reference to the Crasanne, Mr Geo. Lindley recommends gathering the crop at three different times, the first a fortnight or more before it is ripe, the second a week or ten days after, and the third when fully ripe. The first gathering will come into eating latest, and thus the season of the fruit may be considerably prolonged. It is evident that the same method may be followed with the Brown Beurré and Gansel's Bergamot, or with any others which continue only a short time in a mature state."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v12_SMITH_MENTIONS_THAT_THE_INCREASED",
+        "headword": "SMITH MENTIONS THAT THE INCREASED",
+        "start_page": 441,
+        "end_page": 447,
+        "word_count": 6007,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SMITH MENTIONS THAT ...' starts with 'S' but volume 12 covers H-J",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "h mentions that the increased means of profitably investing capital acquired during the war, terminated by the peace of Paris in 1763, raised the market rate of interest to a level with the statutory rate, or perhaps higher. But it was not until the subsequent European war that any very material or general inconvenience was found to result from the limitation of interest to 5 per cent.\n\nIt is necessary, however, to observe, that this remark applies exclusively to loans negotiated by individuals",
+        "surrounding_letter": "I"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1860_v12_INTEREST_s2",
+          "headword": "INTEREST",
+          "start_page": 439,
+          "end_page": 441,
+          "word_count": 2393,
+          "text_end": "as they pleased, upon their servants' notes only, at 4½ per cent.\n\nThe supposed insecurity of the revolutionary establishment, and the novelty of the practice of funding, occasioned the payment of a high rate of interest for a large portion of the sums borrowed by the public in the reigns of William III. and Anne. But private persons, of undoubted credit, could then borrow at less than 5 per cent. During the reign of George II. the market rate of interest fluctuated from 3 to 4 and 4½ per cent."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1860_v18_SOUTHERN_HEMISPHERE",
+        "headword": "SOUTHERN HEMISPHERE",
+        "start_page": 285,
+        "end_page": 294,
+        "word_count": 14792,
+        "volume_num": 18,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'SOUTHERN HEMISPHERE...' starts with 'S' but volume 18 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The Fiji Islands.—Regarding the New Hebrides as the eastern limit of Australia, the Fijis constitute the western boundary of Polynesia. By French writers these islands are included in the regions to the west, to which the name of Melanesia has been given; but as this term designates rather the colour of the people than the peculiarities of their country, it does not necessarily define geographically the islands. The Fijis, however, seem to form the connecting-link between the black races of Mela",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    }
+  ]
+}

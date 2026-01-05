@@ -1,0 +1,1611 @@
+{
+  "edition_year": 1778,
+  "batch_num": 2,
+  "total_batches": 8,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1778_v10_BASTARD",
+        "headword": "BASTARD",
+        "start_page": 1105,
+        "end_page": 1105,
+        "word_count": 161,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BASTARD...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) This article contains the state of the matter according to the law of England. How it stands in the law of Scotland, see Law, Part III. No clxxxii. 3, 4, and clxi. 33.\n\nKnights of the Bath, a military order in England, supposed to have been instituted by Richard II. who limited their number to four; however, his successor Henry IV. increased them to 46. Their motto was Tres in uno, signifying the three theological virtues.\n\nThis order received its denomination from a custom of bathing",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BASKERVILLE",
+          "headword": "BASKERVILLE",
+          "start_page": 1105,
+          "end_page": 1105,
+          "word_count": 296,
+          "text_end": "He published likewise some of the English classics. The best testimonies of the merit of these performances are themselves; and Mr Baskerville's name is deservedly ranked among those who, in modern times, have brought the art of printing to its greatest perfection. Not meeting, however, with that encouragement from the book-sellers which he expected, he set up a letter-foundery for sale a little before his death; which business is now carried on by his widow. He died without issue in July 1775."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v07_BD",
+        "headword": "BD",
+        "start_page": 858,
+        "end_page": 858,
+        "word_count": 303,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BD...' starts with 'B' but volume 7 covers M-O",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BD' starts with 'B' but is surrounded by 'H' articles (p.858) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "DE, &c. and let the situation of the eye F be\nsuch, that the rays AB being refracted in passing thro'\nthe glass, may enter it in the direction BF, and the rays\nAC in the direction CF. Then will the eye, by means\nof the former, see the object in G, and by the latter in\nH; and by means of the rays AI, the object will ap-\npear also in its proper situation A.\n\nSECT. II. Of the Reflection of Light.\n\nWhen a ray of light falls upon any body, however\ntransparent, the whole of it never passes through the",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v07_BECAUSE_THE_EQUABLE_DESCRIPTION_OF_AREAS",
+        "headword": "BECAUSE THE EQUABLE DESCRIPTION OF AREAS",
+        "start_page": 696,
+        "end_page": 701,
+        "word_count": 5586,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BECAUSE THE EQUABLE ...' starts with 'B' but volume 7 covers M-O",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BECAUSE THE EQUABLE DESCRIPTIO' starts with 'B' but is surrounded by 'N' articles (p.696) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e the equable description of areas indicates that a centre is respected by that force with which the body is most affected, and by which it is drawn back from its rectilinear motion, and retained in its orbit, we may always be allowed to use the equable description of areas as an indication of a centre about which all circular motion is performed in free spaces.\n\nTheor. IV. The centripetal forces of bodies which by equable motions describe different circles, tend to the centres of the same circl",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v07_SCHOLIA",
+          "headword": "SCHOLIA",
+          "start_page": 690,
+          "end_page": 696,
+          "word_count": 6738,
+          "text_end": "t line, the action of the centripetal force tending to that other body T is either none at all, or it is mixed and combined with very powerful actions of other forces; and the whole force compounded of them all, if they are many, is directed to another (immovable or moveable) centre. The same thing obtains when the other body is actuated by any other motion whatever; provided that centripetal force is taken which remains after subducting that whole force acting upon that other body T.\n\nScholium."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BERWICK",
+        "headword": "BERWICK",
+        "start_page": 1105,
+        "end_page": 1105,
+        "word_count": 345,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BERWICK...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The town of Berwick upon Tweed was originally part of the kingdom of Scotland; and, as such, was for a time reduced by king Edward I. into the possession of the crown of England; and, during such its subjection, it received from that prince a charter, which (after its subsequent cession by Edward Baliol, to be for ever united to the crown and realm of England) was confirmed by king Edward III., with some additions; particularly, that it should be governed by the laws and usages which i",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BASTARD",
+          "headword": "BASTARD",
+          "start_page": 1105,
+          "end_page": 1105,
+          "word_count": 161,
+          "text_end": "ts denomination from a custom of bathing before they received the golden spur. It is seldom conferred but at the coronation of kings, or the inauguration of a prince of Wales, or duke of York. They wear a red ribbon beltwise.—The order of the Bath, after remaining many years extinct, was revived under George I. by a solemn creation of a great number of knights.\n\nBAVINS. See Fire-Ship, note D, (Encycl.)\n\nBENARES. See Observatory, (Encycl.)\n\nKing's-Bench, (Encycl.) See also King's-Bench, (Encycl.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BIRCH",
+        "headword": "BIRCH",
+        "start_page": 1106,
+        "end_page": 1108,
+        "word_count": 1180,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BIRCH...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Dr Thomas), an eminent historical and biographical writer, was born in London in 1705. His parents were both of them Quakers; and his father, Joseph Birch, was a coffee-mill maker by trade. Thomas being put to school, was indefatigable in his application, and stole many hours from sleep to increase his stock of knowledge. By this unremitting diligence, though he had not the happiness of an university education, he soon became qualified to take holy orders in the church of England, to the surpri",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLACKSTONE",
+          "headword": "BLACKSTONE",
+          "start_page": 1105,
+          "end_page": 1106,
+          "word_count": 1293,
+          "text_end": ", he thought he could not, consistently with that engagement, comply with this request, and therefore declined it. But he transmitted copies of many of them for the perusal of his royal highness; who, far from being offended at an excuse grounded on so honourable a motive, was pleased to order a handsome gratuity to be presented to him.\n\nIt is doubtful whether the Commentaries were originally intended for the press; but many imperfect and incorrect copies having got abroad, and a pirated edition"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v03_BLACK",
+        "headword": "BLACK",
+        "start_page": 579,
+        "end_page": 580,
+        "word_count": 638,
+        "volume_num": 3,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BLACK' starts with 'B' but is surrounded by 'C' articles (p.579) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "BLACK. Africans under the line.\nInhabitants of New Guinea.\nInhabitants of New Holland.\n\nSWARthy. The Moors in the northern parts of Africa.\nThe Hottentots in the southern parts of it.\n\nCOPPER-COLOURED. The East Indians.\nRED-COLOURED. The Americans.\nBROWN-COLOURED. Tartars.\nPerfians.\nArabs.\nAfricans on the coast of the Mediterranean.\nChinese.\n\nBROWNIsh. The inhabitants of the southern parts of Europe; as Sicilians,\nAbyssinians,\nSpaniards,\nTurks, and likewise the Samoiedes and Laplanders.\n\nWHITE.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLACK-CAP",
+        "headword": "BLACK-CAP",
+        "start_page": 1108,
+        "end_page": 1108,
+        "word_count": 279,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACK-CAP...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in ornithology, a species of Motacilla, under which article it was omitted to be described. It is a small bird, scarce weighing half an ounce. The crown of the head in the male is black; the hind part of the neck a light ash-colour; the back and coverts of the wings are of a greyish green; the quill-feathers and tail dusky, edged with dull green; the breast and upper part of the belly are of a pale ash-colour; the vent feathers whitish; the legs of a lead colour. The female is distinguished from",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BIRCH",
+          "headword": "BIRCH",
+          "start_page": 1106,
+          "end_page": 1108,
+          "word_count": 1180,
+          "text_end": "he Society, which have hitherto not been published, are inserted in their proper order, as a supplement to the Philosophical Transactions, 1756 and 1757;\" 4 vols 4to. 13. \"The Life of Henry Prince of Wales, eldest Son of King James I. Compiled chiefly from his own papers and other manuscripts, never before published, 1760;\" 8vo. His numerous communications to the Royal Society may be seen in the Philosophical Transactions; and his poetical talents are evident from the verses already referred to."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLACK-JACK",
+        "headword": "BLACK-JACK",
+        "start_page": 1108,
+        "end_page": 1108,
+        "word_count": 84,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACK-JACK...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a kind of mineral found in the Derbyshire mines. It was some time ago employed in Wales for mending the roads; but is now found to answer the purpose of calamine for making bricks.—Mons. Van Swab, in 1738, was the first person who distilled zinc from Black-jack; and it is said that some English manufacturers purchased the secret from him when he was in England; though they might possibly have taken the hint from a work which he erected for the purpose above mentioned.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLACK-CAP",
+          "headword": "BLACK-CAP",
+          "start_page": 1108,
+          "end_page": 1108,
+          "word_count": 279,
+          "text_end": "any of our warblers, the nightingale excepted.\n\nThe black-cap frequents orchards and gardens. Mr Pennant discovered the nest of this bird in a spruce fir, about two feet from the ground; the outside was composed of the dried stalks of the goose grass; with a little wool and green moss round the verge; the inside was lined with the fibres of roots, thinly covered with black horse hair. There were five eggs of a pale reddish brown, mottled with a deeper colour, and sprinkled with a few dark spots."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLACKSTONE",
+        "headword": "BLACKSTONE",
+        "start_page": 1105,
+        "end_page": 1106,
+        "word_count": 1293,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACKSTONE...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an eminent English lawyer, was born at London in July 1723. His father, Mr Charles Blackstone, a silk-man, citizen, and bowyer of London, died some months before the birth of our author, who was the youngest of four children; and their mother died before he was 12 years old.\n\nEven from his birth, the care both of his education and fortune was kindly undertaken by his maternal uncle Mr Thomas Bigg, an eminent surgeon in London, and afterwards, on the death of his elder brothers, owner of the Chil",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BERWICK",
+          "headword": "BERWICK",
+          "start_page": 1105,
+          "end_page": 1105,
+          "word_count": 345,
+          "text_end": "wick, any more than the principality of Wales; yet it hath been solemnly adjudged, that all prerogative writs (as those of mandamus, prohibition, habeas corpus, certiorari, &c.) may issue to Berwick as well as to every other of the dominions of the crown of England, and that indictments and other local matters arising in the town of Berwick may be tried by a jury of the county of Northumberland.\n\nBEZOAR MINERAL. Line 2d from the end, for tin, &c. in disrepute, read tin, &c. all now in disrepute."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLACKWALL",
+        "headword": "BLACKWALL",
+        "start_page": 1108,
+        "end_page": 1109,
+        "word_count": 846,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLACKWALL...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Anthony, A. M.), a learned author, after completing his academical education at Emanuel college, Cambridge, was appointed head master of the free school at Derby, and lecturer of Allhallows there, where he first distinguished himself in the literary world by an edition of Theognis, printed at London in 1706, and was afterwards head master of the free school at Market-Bosworth in Leicestershire. The Grammar whereby he initiated the youth under his care into Latin, was of his own compounding, and",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLACK-JACK",
+          "headword": "BLACK-JACK",
+          "start_page": 1108,
+          "end_page": 1108,
+          "word_count": 84,
+          "text_end": "a kind of mineral found in the Derbyshire mines. It was some time ago employed in Wales for mending the roads; but is now found to answer the purpose of calamine for making bricks.—Mons. Van Swab, in 1738, was the first person who distilled zinc from Black-jack; and it is said that some English manufacturers purchased the secret from him when he was in England; though they might possibly have taken the hint from a work which he erected for the purpose above mentioned."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLUE_JOHN",
+        "headword": "BLUE JOHN",
+        "start_page": 1109,
+        "end_page": 1109,
+        "word_count": 142,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLUE JOHN...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "among miners, a kind of mineral which has lately been fabricated into vases and other ornamental figures. It is of the same quality with the cubical spar, with respect to its suitability in the fire. It loses its colour, and becomes white in moderate heat: the weight of a cubic foot of the bluest kind is 3180 ounces, and that of the least blue is 3140 ounces. This substance began first to be applied to use about 18 years ago at one of the oldest mines in Derbyshire, called Odin mine, probably fr",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLACKWALL",
+          "headword": "BLACKWALL",
+          "start_page": 1108,
+          "end_page": 1109,
+          "word_count": 846,
+          "text_end": "nding, with the addition of some spirit of salt, becomes of a pale blue. The lixivia of flesh, and of crude salt of tartar, produced both white coagula, which the spirit of salt made no alteration in. From these experiments it appears, that not any of these metallic bodies would produce a fine blue colour with the lixivium of the blood; but a solution of iron answers all the experiments that are made with the solution of vitriol, and produces as fine a blue colour as that made in the common way."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BLUSHING",
+        "headword": "BLUSHING",
+        "start_page": 1109,
+        "end_page": 1109,
+        "word_count": 181,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BLUSHING...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a suffusion or redness of the cheeks, excited by a sense of shame, on account of consciousness of some failing or imperfection.\n\nBlushing is supposed to be produced from a kind of consent or sympathy between several parts of the body, occasioned by the same nerve being extended to them all. Thus the fifth pair of nerves being branched from the brain to the eye, ear, muscles of the lips, cheeks, palate, tongue, and nose; a thing seen or heard that is shameful affects the cheeks with blushes, driv",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLUE_JOHN",
+          "headword": "BLUE JOHN",
+          "start_page": 1109,
+          "end_page": 1109,
+          "word_count": 142,
+          "text_end": "of a cubic foot of the bluest kind is 3180 ounces, and that of the least blue is 3140 ounces. This substance began first to be applied to use about 18 years ago at one of the oldest mines in Derbyshire, called Odin mine, probably from its being dedicated to Odin the great god of the northern nations, at the foot of a high mountain called Mam Tor in Castleton. Here the greatest quantities are still found; the largest pieces are sold for £1. a ton, the middle-sized for £1., and the least for 50s."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BOLETUS",
+        "headword": "BOLETUS",
+        "start_page": 1109,
+        "end_page": 1109,
+        "word_count": 28,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOLETUS...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Horned cattle are fond of the brown boletus, and eat it greedily; but it is believed that it vitiates the milk, and lessens the quantity of it.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BLUSHING",
+          "headword": "BLUSHING",
+          "start_page": 1109,
+          "end_page": 1109,
+          "word_count": 181,
+          "text_end": "e blood into the minute vessels thereof; at the same time that it affects the eye and ear. For the same reason it is, as Mr. Derham observes, that a savoury thing seen or smelt affects the glands and parts of the mouth; if a thing heard be pleasing, it affects the muscles of the face with laughter; if melancholy, it exerts itself on the glands of the eyes, and occasions weeping, &c. And to the same cause Dr Willis ascribes the pleasure of killing.\n\nBOILING FOUNTAIN. See ICELAND, and Plate CLVII."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BONES",
+        "headword": "BONES",
+        "start_page": 1109,
+        "end_page": 1109,
+        "word_count": 147,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BONES...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) From a discovery made by Mr Scheele, of a method of producing the phosphoric acid in large quantity from bones, it has been asserted, that this acid is naturally contained in the bones, united with a calcareous earth. From many experiments, however, it appears that no acid is naturally contained in calcined bones; nor can the acid of phosphorus be extracted from them but by means of the vitriolic acid: whence it seems probable, that the phosphoric acid in this case is produced by the c",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BOLETUS",
+          "headword": "BOLETUS",
+          "start_page": 1109,
+          "end_page": 1109,
+          "word_count": 28,
+          "text_end": "(Encycl.) Horned cattle are fond of the brown boletus, and eat it greedily; but it is believed that it vitiates the milk, and lessens the quantity of it."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BOTANICAL_TABLE",
+        "headword": "BOTANICAL TABLE",
+        "start_page": 1109,
+        "end_page": 1113,
+        "word_count": 1745,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOTANICAL TABLE...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) In this table it was omitted to mark with their proper numbers, as proposed, the genera included in the 58 Orders belonging to Linnæus's Fragments of a Natural Method of Classification. In the following recapitulation of those genera, that omission is supplied; the figures added to each genus denoting the natural order to which it belongs: and these numbers or figures may be marked with the pen at the corresponding genera in the Table itself.\n\n| Abrus 32 | Acer 23 |\n| Acalypha 38 | Ach",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BONES",
+          "headword": "BONES",
+          "start_page": 1109,
+          "end_page": 1109,
+          "word_count": 147,
+          "text_end": "sphorus be extracted from them but by means of the vitriolic acid: whence it seems probable, that the phosphoric acid in this case is produced by the combination of a certain quantity of earth with the vitriolic acid.—With regard to the earth of bones itself, it appears to be very different from the calcareous kind: it is much more soluble in the vitriolic acid, and may be precipitated from that or any other by means of the caustic volatile alkali, which cannot be done with the calcareous earth."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BOTTS",
+        "headword": "BOTTS",
+        "start_page": 1113,
+        "end_page": 1113,
+        "word_count": 11,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOTTS...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See also Oestrus, (Encycl. and Appendix.)\n\nBOW-LEGGED. See Valgus, (Encycl.)",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BOTANICAL_TABLE",
+          "headword": "BOTANICAL TABLE",
+          "start_page": 1109,
+          "end_page": 1113,
+          "word_count": 1745,
+          "text_end": "23\nTrophis 16\nTulipa 10\nTurnera 37\nTurritis 39\nTypha 3\nVaccinium 18\nValantia 47\nValliflora 1\nVandellia 40\nVarronia 41\nVegezia 22\nVella 39\nVeratrum 10\nVerbascum 28\nVerbena 40\nVeronica 40\nViburnum 43\nVicia 32\nVinca 30\nViola 29\nVitex 40\nVitis 46\nUlex 32\nUlmus 53\nVolkamera 40\nUniola 4\nUrena 37\nUrtica 53\nUtricularia 24\nUvaria 52\nUvularia 11\nWachendorffia 6\nWaltheria 37\nWinterania 12\nXylopia 52\nXyris 6\nYucca 10\nZamia 1\nZannichellia 15\nZanthoxylon 46\nZea 4\nZizania 4\nZiziphora 42\nZofera 2\nZygophyllum 14"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BOWYER",
+        "headword": "BOWYER",
+        "start_page": 1113,
+        "end_page": 1115,
+        "word_count": 2184,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BOWYER...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the most learned printer of his age, was born at White Friars in London, Dec. 17, 1699. His father, whose name also was William, had been eminent in the same profession; and his maternal grandfather (Isabold Dawks) was employed in printing the celebrated Polyglott bible of bishop Walton. At a proper age, he was placed for grammatical education under the care of Mr Ambrose Bonwicke, a nonjuring clergyman of known piety and learning, who then lived at Headly, near Leatherhead in Surrey. Here Mr Bo",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BOTTS",
+          "headword": "BOTTS",
+          "start_page": 1113,
+          "end_page": 1113,
+          "word_count": 11,
+          "text_end": "(Encycl.) See also Oestrus, (Encycl. and Appendix.)\n\nBOW-LEGGED. See Valgus, (Encycl.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BRAMINS",
+        "headword": "BRAMINS",
+        "start_page": 1115,
+        "end_page": 1115,
+        "word_count": 152,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRAMINS...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See also Observatory, (Encycl.)\n\nTo BREAM, to burn off the filth, such as grats, ooze, shells, or sea-weed, from a ship's bottom, that has gathered to it in a voyage, or by lying long in a harbour. This operation is performed by holding kindled furze, faggots, or such materials, to the bottom, so that the flame incorporating with the pitch, sulphur, &c. that had formerly covered it, immediately loosens and throws off whatever filth may have adhered to the planks. After this, the bottom",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BOWYER",
+          "headword": "BOWYER",
+          "start_page": 1113,
+          "end_page": 1115,
+          "word_count": 2184,
+          "text_end": "his he continued to do till within a few weeks of his death, which happened in November 1777, when he had nearly completed his 78th year.\n\nFor more than half a century Mr Bowyer was unrivalled as a learned printer; and many of the most masterly productions of this kingdom have come from his press. To his literary and professional abilities he added an excellent moral character; and he was particularly distinguished by his inflexible probity, and an uncommon alacrity in relieving the necessitous."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BRITAIN",
+        "headword": "BRITAIN",
+        "start_page": 1115,
+        "end_page": 1115,
+        "word_count": 13,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRITAIN...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) No 454, for Antipollution privateer, read the Active and Favourite king's ships.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BRAMINS",
+          "headword": "BRAMINS",
+          "start_page": 1115,
+          "end_page": 1115,
+          "word_count": 152,
+          "text_end": "had formerly covered it, immediately loosens and throws off whatever filth may have adhered to the planks. After this, the bottom is covered anew with a composition of sulphur, tallow, &c. which not only makes it smooth and slippery, so as to divide the fluid more readily, but also prevents and destroys those worms which eat through the planks in the course of a voyage. Breaming may be performed either when the ship lies aground after the tide has ebbed from her, or by docking, or by careening."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BROWN",
+        "headword": "BROWN",
+        "start_page": 1115,
+        "end_page": 1117,
+        "word_count": 2470,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BROWN...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a clergyman of the church of England, and an ingenious writer, was born at Rothbury in Northumberland in November 1715. His father John Brown, was a native of Scotland, of the Browns of Colstoun near Haddington; and at the time of his son's birth was curate to Dr Thomlinson rector of Rothbury. He was afterwards collated to the vicarage of Wigton in Cumberland; to which place he carried his son, who received the first part of his education there. Thence he was removed, in 1732, to the university",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BRITAIN",
+          "headword": "BRITAIN",
+          "start_page": 1115,
+          "end_page": 1115,
+          "word_count": 13,
+          "text_end": "(Encycl.) No 454, for Antipollution privateer, read the Active and Favourite king's ships."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BRUCHUS",
+        "headword": "BRUCHUS",
+        "start_page": 1117,
+        "end_page": 1117,
+        "word_count": 12,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BRUCHUS...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See Plate CCCXIII.\n\nBUBONOCELE. For n° 13. read p. 8383, 8422.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BROWN",
+          "headword": "BROWN",
+          "start_page": 1115,
+          "end_page": 1117,
+          "word_count": 2470,
+          "text_end": "to a friend. \"His distemper was a frenzy, to which he had by fits been long subject; to my own knowledge, above 30 years. Had it not been for Mr Farish frequently, and once for myself, the same event would have happened to him long ago. It was no premeditated purpose in him; for he abhorred the thought of self-murder; and in bitterness of soul expressed his fears to me, that one time or another some ready mischief might present itself to him, at a time when he was wholly deprived of his reason.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BUG",
+        "headword": "BUG",
+        "start_page": 1117,
+        "end_page": 1118,
+        "word_count": 227,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BUG...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Early in the spring, even in February, the larva of these creatures begins to burst from the egg; and it is at this season that attention is so very requisite. The bed ought to be stripped of all its furniture; which should be washed, and even boiled, if linen; if stuff, it should be hot-pressed. The bedstead should be taken to pieces, dusted, and washed with spirit of wine in the joints; for in those parts the females lay their eggs. This done, the joints, crevices, cavities, &c. shou",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BRUCHUS",
+          "headword": "BRUCHUS",
+          "start_page": 1117,
+          "end_page": 1117,
+          "word_count": 12,
+          "text_end": "(Encycl.) See Plate CCCXIII.\n\nBUBONOCELE. For n° 13. read p. 8383, 8422."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BURSERA",
+        "headword": "BURSERA",
+        "start_page": 1118,
+        "end_page": 1118,
+        "word_count": 154,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BURSERA...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in botany, a genus of the monogynia order, belonging to the hexandria clas of plants. There is but one species, the gummifera, or gum-elm. This is a large tree. The leaves are pennate, the middle rib five or six inches long, with the pinnae set opposite to one another on footstalks half an inch long. The blossoms are succeeded by purple-coloured berries bigger than large peas, hanging in clusters on a stalk of about five inches long, to which each berry is joined by a footstalk of half an inch l",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BUG",
+          "headword": "BUG",
+          "start_page": 1117,
+          "end_page": 1118,
+          "word_count": 227,
+          "text_end": "ese vermin are not so numerous, by repeating the operation every three months.—Professor Kalm mentions, that from repeated trials, he has been convinced that sulphur, if it be properly employed, entirely destroys bugs and their eggs in beds or walls, though they were ten times more numerous than the ants on an ant-hill. His translator, Dr Forster, adds, that a still more effectual remedy is, to wash all the infected furniture with a solution of arsenic. See further the article Cimicifuga, below."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_BUTTERWORT",
+        "headword": "BUTTERWORT",
+        "start_page": 1118,
+        "end_page": 1118,
+        "word_count": 67,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BUTTERWORT...' starts with 'B' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Wherever this plant, called also Yorkshire fanicle, is found, it is a certain indication of a boggy soil. It has long had the reputation of being noxious to sheep. The country people believe that it gives them the rot whenever they eat it, which they will not do but from great necessity. Hence this plant has been called the white rot.\n\nCABBAGE BARK-TREE. Sec Geoffreæa, below.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BURSERA",
+          "headword": "BURSERA",
+          "start_page": 1118,
+          "end_page": 1118,
+          "word_count": 154,
+          "text_end": "ger than large peas, hanging in clusters on a stalk of about five inches long, to which each berry is joined by a footstalk of half an inch long. The seed is hard, white, and of a triangular figure, inclosed within a thin capsule, which divides in three parts, and discharges the seed. This tree produces a large quantity of gum, of a brown colour, and of the consistence of turpentine. It is esteemed a good vulnerary, and is much used for horses. Most of the Bahama islands abound with these trees."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CABINDA",
+        "headword": "CABINDA",
+        "start_page": 1118,
+        "end_page": 1118,
+        "word_count": 75,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CABINDA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the chief port of the kingdom of Angoy in Loango in Africa. It is situated at the mouth of a river of the same name about five leagues north of Cape Palmerino, on the north side of the mouth of the river Zaire. The bay is very commodious for trade, wooding, and watering.\n\nCACHEXY. For Index subjoined to Medicine, read, p. 481o.\n\nCACTUS. For Ceres, read Cereus.\n\nCÆSARIAN OPERATION. For chap. vi. read chap. xv.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_BUTTERWORT",
+          "headword": "BUTTERWORT",
+          "start_page": 1118,
+          "end_page": 1118,
+          "word_count": 67,
+          "text_end": "(Encycl.) Wherever this plant, called also Yorkshire fanicle, is found, it is a certain indication of a boggy soil. It has long had the reputation of being noxious to sheep. The country people believe that it gives them the rot whenever they eat it, which they will not do but from great necessity. Hence this plant has been called the white rot.\n\nCABBAGE BARK-TREE. Sec Geoffreæa, below."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CALAMUS",
+        "headword": "CALAMUS",
+        "start_page": 1118,
+        "end_page": 1118,
+        "word_count": 157,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CALAMUS...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in botany, a genus of the monogynia order, belonging to the hexandria clas of plants. There is but one species, the rotang, or true Indian cane. The stem is without branches, has a crown at top, and is everywhere beset with straight spines. This is the true Indian cane, which is not visible on the outside; but the bark being taken off discovers the smooth stick, which has no marks of spine on the bark, and is exactly like those which the Dutch sell to us; keeping this matter very secret, lest tr",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CABINDA",
+          "headword": "CABINDA",
+          "start_page": 1118,
+          "end_page": 1118,
+          "word_count": 75,
+          "text_end": "the chief port of the kingdom of Angoy in Loango in Africa. It is situated at the mouth of a river of the same name about five leagues north of Cape Palmerino, on the north side of the mouth of the river Zaire. The bay is very commodious for trade, wooding, and watering.\n\nCACHEXY. For Index subjoined to Medicine, read, p. 481o.\n\nCACTUS. For Ceres, read Cereus.\n\nCÆSARIAN OPERATION. For chap. vi. read chap. xv."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CALCAREOUS_EARTH",
+        "headword": "CALCAREOUS EARTH",
+        "start_page": 1118,
+        "end_page": 1119,
+        "word_count": 755,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CALCAREOUS EARTH...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Though this kind of earth cannot be vitrified by itself in the heat of our common furnaces, it is remarkable, that by mixing it with argillaceous earth, which is as unvitrifiable as itself, both will melt together into glass. To illustrate this, Dr Watson relates the following experiment. \"Mix well together equal weights of powdered chalk or other calcareous body, and powdered pipe-clay; put the mixture into a crucible. Any where towards the middle of the crucible put two solid pieces;",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CALAMUS",
+          "headword": "CALAMUS",
+          "start_page": 1118,
+          "end_page": 1118,
+          "word_count": 157,
+          "text_end": "ken off discovers the smooth stick, which has no marks of spine on the bark, and is exactly like those which the Dutch sell to us; keeping this matter very secret, lest travellers going by should take as many canes out of the woods as they please. Sumatra is said to be the place where most of these sticks grow. Such are to be chosen as are of a proper growth between two joints, suitable to the fashionable length of canes as they are then worn: but such are scarce.\n\nCALASH. For n° 76. read n° 73."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CALCINATION",
+        "headword": "CALCINATION",
+        "start_page": 1119,
+        "end_page": 1119,
+        "word_count": 654,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CALCINATION...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) In confirmation of the opinion that the increase of weight in metallic calces is owing to the adhesion of elastic fluids, it may be observed, that various metallic calces are in great measure soluble in water; which shows that they have something of a saline nature. Perhaps the elastic, or that matter, whatever it is, which generates the elastic fluids obtained from these calces, renders them so.\n\nCALX antimonii, is the earthy part of the regulus of antimony when deprived of its phlogi",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CALCAREOUS_EARTH",
+          "headword": "CALCAREOUS EARTH",
+          "start_page": 1118,
+          "end_page": 1119,
+          "word_count": 755,
+          "text_end": "stances gained; and the second expresses that which they would have gained, had they been exposed to the fire only for four hours.\n\n| Substance          | C. q. lb. | C. q. lb. |\n|-------------------|-----------|-----------|\n| Sunna marble      | 8         | 15        |\n| Rhomboidal spar   | 8         | 5         |\n| Statuary marble   | 8         | 0         |\n| Chalk             | 7         | 13        |\n| Clithero limestone| 6         | 9         |\n| Crystalized spar  | 6         | 0         |"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CANELLA_ALBA",
+        "headword": "CANELLA ALBA",
+        "start_page": 1119,
+        "end_page": 1119,
+        "word_count": 65,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CANELLA ALBA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Marginal note, for no 201, read Catalogue of Simples, (Encycl.) See also Winterania in this Appendix.\n\nCANNEL coal, a species of coal remarkable for being easily kindled, and burning with a bright flame. It receives its name from canwyll, which in the old British language signifies \"a candle;\" the want of which is supplied by the bright flame of this coal. See COAL, (Encycl.)",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CALCINATION",
+          "headword": "CALCINATION",
+          "start_page": 1119,
+          "end_page": 1119,
+          "word_count": 654,
+          "text_end": "when kindled fills the room with much more smoke than the powder of resin, I prefer the last.\"\n\nCANDLE-Bomb, a name given to small glass bubbles, having a neck about an inch long, with a very slender bore, by means of which a small quantity of water is introduced into them, and the orifice afterwards closed up. This stalk being put through the wick of a burning candle, the vicinity of the flame soon rarifies the water into steam, by the elasticity of which the glass is broken with a loud crack."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CANTHARIS",
+        "headword": "CANTHARIS",
+        "start_page": 1119,
+        "end_page": 1119,
+        "word_count": 85,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CANTHARIS...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The cantharis noctiluca, which is frequently found in pastures and under juniper trees, shines by night. In Italy and North America a species of winged cantharides remain all night on the shrubs and branches of trees, emitting light; but on the approach of any enemy instantly fly off, and the whole tree seems on fire. This wonderful light, which has no connection either with the culinary or electric fire, is placed in the segments of the abdomen of the insect while it remains alive.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CANELLA_ALBA",
+          "headword": "CANELLA ALBA",
+          "start_page": 1119,
+          "end_page": 1119,
+          "word_count": 65,
+          "text_end": "(Encycl.) Marginal note, for no 201, read Catalogue of Simples, (Encycl.) See also Winterania in this Appendix.\n\nCANNEL coal, a species of coal remarkable for being easily kindled, and burning with a bright flame. It receives its name from canwyll, which in the old British language signifies \"a candle;\" the want of which is supplied by the bright flame of this coal. See COAL, (Encycl.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CAOUTCHOUC",
+        "headword": "CAOUTCHOUC",
+        "start_page": 1119,
+        "end_page": 1120,
+        "word_count": 149,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CAOUTCHOUC...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) A method of dissolving this elastic gum without ether is as follows: Take one pound of the spirit of turpentine, and a pound of the gum cut into very small pieces; pour the turpentine into a long-necked matrafs, which must be placed in a sand-bath; throw in the gum, not all at once, but by little and little according as it is perceived to dissolve. When it is entirely dissolved, pour into the matrafs a pint of nut or linseed oil, or oil of pop-\nCardamom pies, rendered deliciatice in th",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CANTHARIS",
+          "headword": "CANTHARIS",
+          "start_page": 1119,
+          "end_page": 1119,
+          "word_count": 85,
+          "text_end": "(Encycl.) The cantharis noctiluca, which is frequently found in pastures and under juniper trees, shines by night. In Italy and North America a species of winged cantharides remain all night on the shrubs and branches of trees, emitting light; but on the approach of any enemy instantly fly off, and the whole tree seems on fire. This wonderful light, which has no connection either with the culinary or electric fire, is placed in the segments of the abdomen of the insect while it remains alive."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CAPE_COAST",
+        "headword": "CAPE COAST",
+        "start_page": 1121,
+        "end_page": 1122,
+        "word_count": 212,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CAPE COAST...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the name of the chief British settlement on the coast of Guineas in Africa. The name is thought to be a corruption of Cabo Corso, the ancient Portuguese appellation. This cape is formed by an angular point, washed on the south and east by the sea, on which stands the English fort. Here the Portuguese settled in 1610, and built the citadel of Cape Coast upon a large rock that projects into the sea. A few years afterwards they were dislodged by the Dutch, to whom this place is principally indebted",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHESELDEN",
+          "headword": "CHESELDEN",
+          "start_page": 1120,
+          "end_page": 1121,
+          "word_count": 587,
+          "text_end": "ay 7, 1751, inclosed in a paper with the following lines:\n\n'Tis what the happy to the unhappy owe;\nFor what man gives, the gods by him bestow.\n\nPope. He died at Bath, April 11, 1752, of a disorder arising from drinking ale after eating hot buns. Finding himself uneasy, he sent for a physician, who advised vomiting immediately; and if the advice had been taken,\ntaken, it was thought his life might have been saved. By his direction, he was buried at Chelsea.\n\nCHEVERON. For no 23, 24. read p. 3592."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CARICA",
+        "headword": "CARICA",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 15,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CARICA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See also PAPAW, (Encycl.)\n\nCARIES. For Index subjoined to Medicine, read Surgery, no 393.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CAOUTCHOUC",
+          "headword": "CAOUTCHOUC",
+          "start_page": 1119,
+          "end_page": 1120,
+          "word_count": 149,
+          "text_end": "rceived to dissolve. When it is entirely dissolved, pour into the matrafs a pint of nut or linseed oil, or oil of pop-\nCardamom pies, rendered deliciatice in the usual manner with lichefelden. Then let the whole boil for a quarter of an hour; and the preparation is finished.—This would make an excellent varnish for Air-balloons, were it not so expensive on account of the price of the gum.\n\nCARDAMOM. For no 210, 211. read The Catalogue of Simples.\n\nCAREENING. For plate LXXXIV. read plate LXXXIII."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CARNATION",
+        "headword": "CARNATION",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 11,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CARNATION...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or the naked parts of painting, (Encycl.) See also Miniature-Painting, (Encycl.)",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CARICA",
+          "headword": "CARICA",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 15,
+          "text_end": "(Encycl.) See also PAPAW, (Encycl.)\n\nCARIES. For Index subjoined to Medicine, read Surgery, no 393."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CARRONADE",
+        "headword": "CARRONADE",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 56,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CARRONADE...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a short kind of ordnance lately invented, capable of carrying a large ball, and useful in close engagements at sea. It takes its name from Carron, the place where it was invented. See Gunney, no 45. (Encycl.)\n\nCARUS. For the Index subjoined to Medicine, read Medicine, no 372—374.\n\nCARYOPHYLLUS. For no 49. read Catalogue of Simples.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CARNATION",
+          "headword": "CARNATION",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 11,
+          "text_end": "or the naked parts of painting, (Encycl.) See also Miniature-Painting, (Encycl.)"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v04_CASE_II",
+        "headword": "CASE II",
+        "start_page": 94,
+        "end_page": 97,
+        "word_count": 1396,
+        "volume_num": 4,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CASE II...' starts with 'C' but volume 4 covers D-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CASE II' starts with 'C' but is surrounded by 'D' articles (p.94) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "7. If the plane of the dial not only declines, but also reclines, or inclines. Suppose its declination from fronting the south S be equal to the arc SD on the horizon; and its reclination be equal to the arc Dd of the vertical circle DZ: then it is plain, that if the quadrant of altitude ZdD on the globe cuts the point D in the horizon, and the reclination is counted upon the quadrant from D to d; the intersection of the hour circle PRd, with the equinoctial WQE, will determine Rd, the latitude",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v04_DIAL",
+          "headword": "DIAL",
+          "start_page": 85,
+          "end_page": 94,
+          "word_count": 9099,
+          "text_end": "her side of the subtillar CL, and the line HO would have a subcontrary position to what it has in this figure.\n\n6. And these two dials, with the upper points of their files turned toward the north pole, will serve for other two planes parallel to them; the one declining from the north toward the east, and the other from the north toward the west, by the same quantity of angle. The like holds true of all dials in general, whatever be their declination and obliquity of their planes to the horizon."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CATECHU",
+        "headword": "CATECHU",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 23,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CATECHU...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See also ARECA, (Encycl.)\n\nCATHARTICS. For no 54. &c. read p. 4476.\n\nCATOCHE. For Index subjoined to Medicine, read Medicine, no 387.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CARRONADE",
+          "headword": "CARRONADE",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 56,
+          "text_end": "a short kind of ordnance lately invented, capable of carrying a large ball, and useful in close engagements at sea. It takes its name from Carron, the place where it was invented. See Gunney, no 45. (Encycl.)\n\nCARUS. For the Index subjoined to Medicine, read Medicine, no 372—374.\n\nCARYOPHYLLUS. For no 49. read Catalogue of Simples."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CAUSTICITY",
+        "headword": "CAUSTICITY",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 14,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CAUSTICITY...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) Par. 2d, line 10. after inflammable matter, add and all their fixed air.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CATECHU",
+          "headword": "CATECHU",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 23,
+          "text_end": "(Encycl.) See also ARECA, (Encycl.)\n\nCATHARTICS. For no 54. &c. read p. 4476.\n\nCATOCHE. For Index subjoined to Medicine, read Medicine, no 387."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CENTRONIA",
+        "headword": "CENTRONIA",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 67,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CENTRONIA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in natural history, a name by which the echini marini have been lately distinguished. Dr Hill makes them a distinct class of animals living under the defence of shell coverings formed of one piece, and furnished with a vast number of spines moveable at the creature's pleasure.\n\nCERATE. For the references at the end, read Pharmacy, no 1019—1021.\n\nCERUSSE of Antimony, the same with Calx of Antimony.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CAUSTICITY",
+          "headword": "CAUSTICITY",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 14,
+          "text_end": "(Encycl.) Par. 2d, line 10. after inflammable matter, add and all their fixed air."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHAIN-WALES",
+        "headword": "CHAIN-WALES",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 11,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHAIN-WALES...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See Plate LXXXII.\n\nfig. 13.\n\nCHANCE. For Sortes, read Sortilegus.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CENTRONIA",
+          "headword": "CENTRONIA",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 67,
+          "text_end": "in natural history, a name by which the echini marini have been lately distinguished. Dr Hill makes them a distinct class of animals living under the defence of shell coverings formed of one piece, and furnished with a vast number of spines moveable at the creature's pleasure.\n\nCERATE. For the references at the end, read Pharmacy, no 1019—1021.\n\nCERUSSE of Antimony, the same with Calx of Antimony."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHANCELLOR'S_COURT",
+        "headword": "CHANCELLOR'S COURT",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 18,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHANCELLOR'S COURT...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the universities of Oxford and Cambridge. See University Courts (Encycl.)\n\nCHAPEAU. For no 27. read p. 3607.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHAIN-WALES",
+          "headword": "CHAIN-WALES",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 11,
+          "text_end": "(Encycl.) See Plate LXXXII.\n\nfig. 13.\n\nCHANCE. For Sortes, read Sortilegus."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v01_CHAP",
+        "headword": "CHAP",
+        "start_page": 444,
+        "end_page": 452,
+        "word_count": 5151,
+        "volume_num": 1,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHAP...' starts with 'C' but volume 1 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "CHAP. II.\nOf the Sense of Feeling.\n\na. The sense of feeling is perhaps seated in all parts of the body, but is commonly said to be confined to the nervous papillae of the cutis or true skin, which, with their appendages and their several uses, have been already described.\n\nb. The exterior properties of bodies, such as their solidity, their humidity, their inequality, their smoothness, dryness, or fluidity, and likewise their degree of heat, seem all to be capable of making different impressions",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v01_ANATOMY_s2",
+          "headword": "ANATOMY",
+          "start_page": 431,
+          "end_page": 443,
+          "word_count": 6226,
+          "text_end": "hese several divisions is only 29 pair. But there is another pair called the spinal, which arises from the medulla spinalis at its beginning, and, ascending through the great foramen of the os occipitis into the cranium, passes out again close to the eighth pair, with which however it does not unite; and it is afterwards distributed chiefly to the muscles of the neck, back, and scapula. In this course it sends off filaments to different parts, and likewise communicates with several other nerves."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHARLOCKS",
+        "headword": "CHARLOCKS",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 34,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHARLOCKS...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) These are the pests of our corn-fields, and are said to give a most unwholesome quality to bread when the seeds abound in grain.\n\nCHARTA MAGNA. For Law, no 31. read Magna Charta.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHANCELLOR'S_COURT",
+          "headword": "CHANCELLOR'S COURT",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 18,
+          "text_end": "in the universities of Oxford and Cambridge. See University Courts (Encycl.)\n\nCHAPEAU. For no 27. read p. 3607."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHAVARIA",
+        "headword": "CHAVARIA",
+        "start_page": 1120,
+        "end_page": 1120,
+        "word_count": 25,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHAVARIA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in ornithology. See the article PARRA in this Appendix.\n\nCHEMISTRY. No 101. par ult. for \"See Essaying, Glass, and Smelting,\" read \"See Furnace and Glass.\"",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHARLOCKS",
+          "headword": "CHARLOCKS",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 34,
+          "text_end": "(Encycl.) These are the pests of our corn-fields, and are said to give a most unwholesome quality to bread when the seeds abound in grain.\n\nCHARTA MAGNA. For Law, no 31. read Magna Charta."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHESELDEN",
+        "headword": "CHESELDEN",
+        "start_page": 1120,
+        "end_page": 1121,
+        "word_count": 587,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHESELDEN...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(William), an eminent anatomist and surgeon, was born at Burrow on the Hill, in the county of Leicester, descended from an ancient family in the county of Rutland, whose arms and pedigree are in Wright's \"History of Rutland.\" He received the rudiments of his professional skill at Leicester; and married Deborah Knight, a citizen's daughter, by whom he had one daughter, Williamina Deborah. In 1713 he published his Anatomy of the Human Body, 1 vol. 8vo; and in 1723, A Treatise on the high Operation",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHAVARIA",
+          "headword": "CHAVARIA",
+          "start_page": 1120,
+          "end_page": 1120,
+          "word_count": 25,
+          "text_end": "in ornithology. See the article PARRA in this Appendix.\n\nCHEMISTRY. No 101. par ult. for \"See Essaying, Glass, and Smelting,\" read \"See Furnace and Glass.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHINA",
+        "headword": "CHINA",
+        "start_page": 1121,
+        "end_page": 1121,
+        "word_count": 566,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHINA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) The immense population of China, recorded under that article, no 55, falls very far short of that recorded by some late authors. In the Memoirs of the History, &c. of the Chinese by the missionaries at Pekin, published at Paris in 1780, we find a controversy on this subject between M. Pau and the ex-judic M. Amiott. The former had published a book, intitled \"Philosophical Inquiries concerning the Egyptians and Chinese,\" in which he rates the population of China much below 82 millions.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CAPE_COAST",
+          "headword": "CAPE COAST",
+          "start_page": 1121,
+          "end_page": 1122,
+          "word_count": 212,
+          "text_end": "ish. With a squadron of 13 men of war he attacked all the English settlements along the coast, ruined the factories, took, burnt, and sunk all the shipping of the English Company; however, after all his efforts, he was baffled in his attempts on Cape Coast. By the treaty of Breda it was confirmed to the English, and the king granted a new charter in 1672; on which the Company applied all their attention to the fortifying and rendering it commodious.\n\nCOBALT. At the end, for Zaffre, read Regulus."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CHOCOLATE",
+        "headword": "CHOCOLATE",
+        "start_page": 1121,
+        "end_page": 1121,
+        "word_count": 150,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHOCOLATE...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) This, according to Linnaeus, is more salutary than either tea or coffee. There are three methods of preparing it, as practised by the Indians, the Spaniards, and others. The Indians, to one pound of the roasted nuts put half a pound of sugar dissolved in rose-water, and half a pound of flour of maize or Indian corn. The Spaniards, to fix pounds of the nut add three and an half of sugar, seven pods of vanillas, one pound and an half of Indian corn, half a pound of cinnamon, fix cloves;",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHINA",
+          "headword": "CHINA",
+          "start_page": 1121,
+          "end_page": 1121,
+          "word_count": 566,
+          "text_end": "s of the Missionaries, it is certain, that a bad administration,—the extortions and oppressive conduct of civil and military officers,—the revolutions occasioned by the establishment of different dynasties,—famines,—epidemics,—inundations,—wars,—massacres—and the fall of great ministers, involving their friends and families in ruin, keep population within certain bounds, and hinder it from rising to a pitch that would produce new and fatal revolutions.\n\nCHITAU. For Lignum-aloes, read Xylo-aloes."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CIMICIFUGA",
+        "headword": "CIMICIFUGA",
+        "start_page": 1121,
+        "end_page": 1121,
+        "word_count": 173,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CIMICIFUGA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in botany, a genus of the polyandra order, belonging to the dioecia class of plants. Meillerchmidius, in the Ibis Siberica, gives it the following character and name: *Cimicifuga foetida* with the leaves of the herb Christopher, bearing a thyrsis of yellow male flowers with a red villous seed, the seed-vessel in form of a horn. This whole plant to resembles the actea racemosa, that it is difficult to distinguish them when not in flower; but in the fructification it greatly differs from it, the c",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CHOCOLATE",
+          "headword": "CHOCOLATE",
+          "start_page": 1121,
+          "end_page": 1121,
+          "word_count": 150,
+          "text_end": "rds, to fix pounds of the nut add three and an half of sugar, seven pods of vanillas, one pound and an half of Indian corn, half a pound of cinnamon, fix cloves; one drachm of capicum, and whatsoever is thought requisite of the roucou nut to improve the colour, together with ambergrise or musk to give an agreeable scent. In the other and more common way, to seventeen pounds of nuts are added ten pounds of sugar, twenty-eight pods of vanillas, one drachm of ambergrise, and fix ounces of cinnamon."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v10_CLEPSYDRA",
+        "headword": "CLEPSYDRA",
+        "start_page": 1121,
+        "end_page": 1121,
+        "word_count": 11,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLEPSYDRA...' starts with 'C' but volume 10 covers S-Z",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(Encycl.) See also Hydrostactica, no 42. (Encycl.)\n\nCLYDESDALE. See Lanarkshire, (Encycl.)",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v10_CIMICIFUGA",
+          "headword": "CIMICIFUGA",
+          "start_page": 1121,
+          "end_page": 1121,
+          "word_count": 173,
+          "text_end": "ng four pistils, the actea but one. Jacquin says, that it is a native of the Carpathian mountains. It has obtained the name of cimicifuga, or bugbane, both in Siberia and Tartary, from its property of driving away those insects; and the botanists of those parts of Europe which are infested by them, have long desired to naturalise it in their several countries.\n\nCIVIL LIST. See List, (Encycl.)\n\nCivil Society. For Law, Part I. read Part II.\n\nCLAVARIA. Par. 2. line 1. For Mr Miller, read Mr Muller."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1778_v06_CLIV",
+        "headword": "CLIV",
+        "start_page": 987,
+        "end_page": 990,
+        "word_count": 3301,
+        "volume_num": 6,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLIV...' starts with 'C' but volume 6 covers K-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "CLIV. PHYSOMETRA, or Windy Swelling of the Uterus. Genus LXXIV.\n\nPhysometra, Sauv. gen. 290. Sag. 119.\nHydrophysis, Vog. 317.\n\nThe treatment of this is not different from that of the tympany.\n\nCLV. ANASARCA, or Watery Swelling over the Whole Body. Genus LXXV.\n\nAnasarca, Sauv. gen. 281. Lin. 215. Vog. 313.\nSag. 108. Boerb. 1225. Hoffm. III. 322. Junck. 87. Monro on the Dropsy. Milman Animadversiones de hydropoe 1779.\nPhlegmatia, Sauv. gen. 282.\nAngina aquosa, Boerb. 791.\n\nIn this disease the feet",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1778_v06_GENUS_LXVII",
+          "headword": "GENUS LXVII",
+          "start_page": 984,
+          "end_page": 987,
+          "word_count": 3883,
+          "text_end": "es being still continued, she had such explosions of wind upwards and downwards, that none of the other patients would remain in the same room, nay scarce on the same floor with her. Her belly became less, and softer than it had been from the first attack of the disease; her medicines, with a dose of syrup of buckthorn at proper intervals, still were continued; only the proportion of steel was increased; her flatulent discharge went on successfully, and she gradually recovered her former health."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

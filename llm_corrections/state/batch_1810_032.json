@@ -1,0 +1,1600 @@
+{
+  "edition_year": 1810,
+  "batch_num": 32,
+  "total_batches": 40,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPRESENTATION",
+        "headword": "REPRESENTATION",
+        "start_page": 368,
+        "end_page": 368,
+        "word_count": 15,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPRESENTATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the drama, the exhibition of a theatrical piece, together with the scenes, machinery, &c.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPOSE_s2",
+          "headword": "REPOSE",
+          "start_page": 368,
+          "end_page": 368,
+          "word_count": 61,
+          "text_end": "in Painting, certain masses or large assemblages of light and shade, which being well conducted, prevented the confusion of objects and figures, by engaging and fixing the eye so as it cannot attend to the other parts of the painting for some time; and thus leading it to consider the several groups gradually, proceeding as it were from stage to stage."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPRESENTATIVE",
+        "headword": "REPRESENTATIVE",
+        "start_page": 368,
+        "end_page": 368,
+        "word_count": 34,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPRESENTATIVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "one who personates or supplies the place of another, and is invested with his right and authority. Thus the house of commons are the representatives of the people in parliament. See COMMONS and PARLIAMENT.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPRESENTATION",
+          "headword": "REPRESENTATION",
+          "start_page": 368,
+          "end_page": 368,
+          "word_count": 15,
+          "text_end": "in the drama, the exhibition of a theatrical piece, together with the scenes, machinery, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPRIEVE",
+        "headword": "REPRIEVE",
+        "start_page": 368,
+        "end_page": 368,
+        "word_count": 791,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPRIEVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Criminal Law, (from reprendre, \"to take back\"), is the withdrawing of a sentence for an interval of time; whereby the execution is suspended. See JUDGEMENT.\n\nThis may be, first, ex arbitrio judicis, either before or after judgement: as, where the judge is not satisfied with the verdict, or the evidence is insufficient, or the indictment is insufficient, or he is doubtful whether the offence be within clergy; or sometimes if it be a small felony, or any favourable circumstances appear in the c",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPRESENTATIVE",
+          "headword": "REPRESENTATIVE",
+          "start_page": 368,
+          "end_page": 368,
+          "word_count": 34,
+          "text_end": "one who personates or supplies the place of another, and is invested with his right and authority. Thus the house of commons are the representatives of the people in parliament. See COMMONS and PARLIAMENT."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPRISALS",
+        "headword": "REPRISALS",
+        "start_page": 368,
+        "end_page": 371,
+        "word_count": 3125,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPRISALS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a right which princes claim of taking from their enemies any thing equivalent to what they unjustly detain from them or their subjects. For as the delay of making war may sometimes be detrimental to individuals who have suffered by depredations from foreign potentates, our laws have in some respects armed the subject with powers to impel the prerogative; by directing the ministers of the crown to issue letters of marque and reprisal upon due demand: the prerogative of granting which is nearly re",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPRIEVE",
+          "headword": "REPRIEVE",
+          "start_page": 368,
+          "end_page": 368,
+          "word_count": 791,
+          "text_end": "not the person attainted: neither shall any peremptory challenges of the jury be allowed the prisoner, though formerly such challenges were held to be allowable whenever a man's life was in question. If neither pregnancy, insanity, non-identity, nor other plea, will avail to avoid the judgement, and stay the execution consequent thereupon, the last and surest resort is in the king's most gracious pardon; the granting of which is the most amiable prerogative of the crown. See the article PARDON."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPTILES",
+        "headword": "REPTILES",
+        "start_page": 371,
+        "end_page": 371,
+        "word_count": 404,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPTILES...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Natural History, a kind of animals denominated from their creeping or advancing on the belly. Or reptiles are those animals, which, instead of feet, rest on one part of the body, while they advance forward with the rest. Such are earthworms, snakes, caterpillars, &c. Indeed, most of the reptiles have feet; only those very small, and the legs short in proportion to the bulk of the body.\n\nNaturalists observe a world of artful contrivance for the motion of reptiles. Thus, particularly in the ear",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPRISALS",
+          "headword": "REPRISALS",
+          "start_page": 368,
+          "end_page": 371,
+          "word_count": 3125,
+          "text_end": "g to be a new one.\n\nA part thus reproduced being broken, there is a second reproduction. The summer, which is the only season of the year when the lobsters eat, is the most favourable time for the reproduction. It is then performed in four or five weeks; whereas it takes up eight or nine months in any other season. The small legs are sometimes reproduced, but more rarely, as well as more slowly, than the great ones: the herons do the same.\n\nThe experiment is most easily tried on the common crab."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPTILIA",
+        "headword": "REPTILIA",
+        "start_page": 371,
+        "end_page": 371,
+        "word_count": 17,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPTILIA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the name of one of the orders of the class amphibia, including tortoises, frogs, lizards. See Reptology.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPTILES",
+          "headword": "REPTILES",
+          "start_page": 371,
+          "end_page": 371,
+          "word_count": 404,
+          "text_end": "hese last have a compages of bones articulated together.\n\nThe body here is not drawn together, but as it were complicated; part of it being applied on the rough ground, and the rest ejaculated and shot from it, which being set on the ground in its turn, brings the other after it. The spine of the back variously wreathed has the same effect in leaping, as the joints in the feet of other animals; they make their leaps by means of muscles, and extend the plica or folds. See Reptology and Ophiology."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPUBLIC",
+        "headword": "REPUBLIC",
+        "start_page": 371,
+        "end_page": 371,
+        "word_count": 43,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPUBLIC...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or COMMONWEALTH, a popular state or government; or a nation where the people have the government in their own hands. See Government, Aristocracy, Democracy, and Monarchy.\n\nREPUBLIC of Letters, a phrase used collectively of the whole body of the studious and learned people.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPTILIA",
+          "headword": "REPTILIA",
+          "start_page": 371,
+          "end_page": 371,
+          "word_count": 17,
+          "text_end": "the name of one of the orders of the class amphibia, including tortoises, frogs, lizards. See Reptology."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPUDIATION",
+        "headword": "REPUDIATION",
+        "start_page": 371,
+        "end_page": 371,
+        "word_count": 10,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPUDIATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the Civil Law, the act of divorcing. See Divorce.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPUBLIC",
+          "headword": "REPUBLIC",
+          "start_page": 371,
+          "end_page": 371,
+          "word_count": 43,
+          "text_end": "or COMMONWEALTH, a popular state or government; or a nation where the people have the government in their own hands. See Government, Aristocracy, Democracy, and Monarchy.\n\nREPUBLIC of Letters, a phrase used collectively of the whole body of the studious and learned people."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPULSION",
+        "headword": "REPULSION",
+        "start_page": 371,
+        "end_page": 372,
+        "word_count": 263,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPULSION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Physics, that property of bodies whereby they recede from each other, and, on certain occasions, mutually avoid coming into contact.\n\nRepulsion, as well as attraction, has of late been considered as one of the primary qualities of all matter, and has been much used in explaining the phenomena of nature: thus the particles of air, fire, steam, electric fluid, &c. are all said to have a repulsive power with respect to one another.—That this is the case with the air, and vapour of all kinds, is",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPUDIATION",
+          "headword": "REPUDIATION",
+          "start_page": 371,
+          "end_page": 371,
+          "word_count": 10,
+          "text_end": "in the Civil Law, the act of divorcing. See Divorce."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REPUTATION",
+        "headword": "REPUTATION",
+        "start_page": 372,
+        "end_page": 372,
+        "word_count": 350,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REPUTATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "N means credit, honour, or the character of good; and since we are destined to live in society, is necessary and useful more or less to every human being. There is no man, except one who is overgrown with pride and self-conceit, or whose actions are bad, but pays attention to his reputation, and wishes to possess the good opinion of his neighbours or the world. The love of reputation and of fame are most powerful springs of action; but though they proceed from the same principle, the means of at",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPULSION",
+          "headword": "REPULSION",
+          "start_page": 371,
+          "end_page": 372,
+          "word_count": 263,
+          "text_end": "impossible that a primary quality of matter can be increased or diminished by any external circumstances whatever; for whatever property depends upon external circumstances, is not a primary but a secondary one.—The re-\nRepulsion of electrified bodies is explained under the article Electricity: that of others is less subject to investigation; and the most that can be said concerning it is, that in many cases it seems to be the consequence of a modification of fire, and in others of electricity."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REQUEST",
+        "headword": "REQUEST",
+        "start_page": 372,
+        "end_page": 372,
+        "word_count": 774,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REQUEST...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Law, a supplication or petition referred to a prince, or to a court of justice; begging relief in some questionable cases where the common law grants no immediate redress.\n\nCourt of REQUESTS (curia requisitionum) was a court of equity, of the same nature with the court of chancery, but inferior to it; principally instituted for the relief of such petitioners as in questionable cases addressed themselves by supplication to his majesty. Of this court the lord privy-seal was chief judge, assiste",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REPUTATION",
+          "headword": "REPUTATION",
+          "start_page": 372,
+          "end_page": 372,
+          "word_count": 350,
+          "text_end": "the applause of mankind, or at least by that of a single nation; whilst reputation is of much less extent, and arises from different circumstances. That reputation which is founded on deceit and artifice is never solid; and the most honourable will always be found to be the most useful. Everyone may safely, and indeed ought to, aspire to the consideration and praise due to his condition and merit; but he who aspires to more, or who seeks it by dishonest means, will at length meet with contempt."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REQUIEM",
+        "headword": "REQUIEM",
+        "start_page": 372,
+        "end_page": 372,
+        "word_count": 17,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REQUIEM...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the Romish history, a mass sung for the rest of the soul of a person deceased.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REQUEST",
+          "headword": "REQUEST",
+          "start_page": 372,
+          "end_page": 372,
+          "word_count": 774,
+          "text_end": "reward or gratuity whatsoever, to the gaoler of such gaol on any pretence whatsoever; and every gaoler demanding or receiving any fee for the discharge of any such person, or keeping any such person prisoner after the said respective times limited by the said act, shall forfeit five pounds, to be recovered in a summary way before two justices of the peace, one moiety thereof to be paid to the overseers of the poor of the parish where the offence shall be committed, and the other to the informer."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESCISSION",
+        "headword": "RESCISSION",
+        "start_page": 372,
+        "end_page": 373,
+        "word_count": 18,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESCISSION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "RESCISSION, in the Civil Law, an action intended for the annulling or setting aside any contract, deed, &c.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REQUIEM",
+          "headword": "REQUIEM",
+          "start_page": 372,
+          "end_page": 372,
+          "word_count": 17,
+          "text_end": "in the Romish history, a mass sung for the rest of the soul of a person deceased."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESCRIPT",
+        "headword": "RESCRIPT",
+        "start_page": 373,
+        "end_page": 373,
+        "word_count": 28,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESCRIPT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an answer delivered by an emperor, or a pope, when consulted by particular persons on some difficult question or point of law, to serve as a decision thereof.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESCISSION",
+          "headword": "RESCISSION",
+          "start_page": 372,
+          "end_page": 373,
+          "word_count": 18,
+          "text_end": "RESCISSION, in the Civil Law, an action intended for the annulling or setting aside any contract, deed, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESEDA",
+        "headword": "RESEDA",
+        "start_page": 373,
+        "end_page": 374,
+        "word_count": 1274,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESEDA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a genus of plants belonging to the dodecandra clafs; and in the natural method ranking under the 54th order, Mifcellaneous. See Botany Index. The Luteola or Dyer's-weed, Yellow-weed, Weld, or Wild-wood, is one of the most valuable of the species, on account of its extensive use in dyeing. See Dyeing. The odorata or mignonette is well known for the sweetness of its fragrance, and as an ornament of the flower-garden.\n\nRESEMBLANCE and DISSIMILITUDE, the relations of likeness and difference among ob",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESCRIPT",
+          "headword": "RESCRIPT",
+          "start_page": 373,
+          "end_page": 373,
+          "word_count": 28,
+          "text_end": "an answer delivered by an emperor, or a pope, when consulted by particular persons on some difficult question or point of law, to serve as a decision thereof."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESERVE",
+        "headword": "RESERVE",
+        "start_page": 377,
+        "end_page": 377,
+        "word_count": 52,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESERVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Law, the same with reservation. See RESERVATION.\n\nBody of RESERVE, or Corps de RESERVE, in military affairs, the third or last line of an army, drawn up for battle; so called because they are referred to sustain the rest as occasion requires, and not to engage but in case of necessity.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESERVOIR",
+        "headword": "RESERVOIR",
+        "start_page": 377,
+        "end_page": 377,
+        "word_count": 25,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESERVOIR...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a place where water is collected and reserved, in order to be conveyed to distant places through pipes, or supply a fountain or jet d'eau.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESERVE",
+          "headword": "RESERVE",
+          "start_page": 377,
+          "end_page": 377,
+          "word_count": 52,
+          "text_end": "in Law, the same with reservation. See RESERVATION.\n\nBody of RESERVE, or Corps de RESERVE, in military affairs, the third or last line of an army, drawn up for battle; so called because they are referred to sustain the rest as occasion requires, and not to engage but in case of necessity."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESET",
+        "headword": "RESET",
+        "start_page": 377,
+        "end_page": 377,
+        "word_count": 22,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESET...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Law, the receiving or harbouring an outlawed person. See OUTLAWRY.\n\nRESET of Theft, in Scots Law. See LAW, No clxxxvi. 29.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESERVOIR",
+          "headword": "RESERVOIR",
+          "start_page": 377,
+          "end_page": 377,
+          "word_count": 25,
+          "text_end": "a place where water is collected and reserved, in order to be conveyed to distant places through pipes, or supply a fountain or jet d'eau."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESIDENCE",
+        "headword": "RESIDENCE",
+        "start_page": 377,
+        "end_page": 377,
+        "word_count": 24,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESIDENCE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the Canon and Common Law, the abode of a person or incumbent upon his benefice; and his affinity in attending on the same.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESET",
+          "headword": "RESET",
+          "start_page": 377,
+          "end_page": 377,
+          "word_count": 22,
+          "text_end": "in Law, the receiving or harbouring an outlawed person. See OUTLAWRY.\n\nRESET of Theft, in Scots Law. See LAW, No clxxxvi. 29."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESIDENT",
+        "headword": "RESIDENT",
+        "start_page": 377,
+        "end_page": 378,
+        "word_count": 516,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESIDENT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a public minister, who manages the affairs of a kingdom or state, at a foreign court.\n\nThey are a class of public ministers, inferior to ambassadors or envoys; but, like them, are under the protection of the law of nations.\n\nRESIDUAL analysis, a calculus invented by Mr Landen, and proposed as a substitute for the method of fluxions. The design of it was to avoid introducing the idea of motion, and of quantities infinitely small, into mathematical investigation. The residual analysis accordingly",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESIDENCE",
+          "headword": "RESIDENCE",
+          "start_page": 377,
+          "end_page": 377,
+          "word_count": 24,
+          "text_end": "in the Canon and Common Law, the abode of a person or incumbent upon his benefice; and his affinity in attending on the same."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESIDUE",
+        "headword": "RESIDUE",
+        "start_page": 378,
+        "end_page": 378,
+        "word_count": 10,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESIDUE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the remainder or balance of an account, debt, or obligation.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESIDENT",
+          "headword": "RESIDENT",
+          "start_page": 377,
+          "end_page": 378,
+          "word_count": 516,
+          "text_end": "lication, as well as inferior to it for enlarging the boundaries of mathematical science.\n\nRESIDUAL Figure, in Geometry, the figure remaining after the subtraction of the less from the greater.\n\nRESIDUAL Root, is a root composed of two members only connected by the sign — or minus. Thus, \\(a - b\\), or \\(5 - 3\\), is a residual root; and is so called, because its true value is no more than the residue, or difference between the parts \\(a\\) and \\(b\\) or \\(5\\) and \\(3\\), which in this case is \\(2\\)."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESIGNATION",
+        "headword": "RESIGNATION",
+        "start_page": 378,
+        "end_page": 378,
+        "word_count": 39,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESIGNATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in general, signifies the implicit submission of ourselves, or of something we possess, to the will of another. In a religious sense it signifies a perfect submission, without discontent, to the will of God. See MORAL PHILOSOPHY, No. 119.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESIDUE",
+          "headword": "RESIDUE",
+          "start_page": 378,
+          "end_page": 378,
+          "word_count": 10,
+          "text_end": "the remainder or balance of an account, debt, or obligation."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESIN",
+        "headword": "RESIN",
+        "start_page": 378,
+        "end_page": 378,
+        "word_count": 485,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESIN...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Natural History, a viscid juice oozing either spontaneously, or by incision, from several trees, as the pine, fir, &c.—A premium for several years has been offered by the London Society for Encouraging Arts, &c. for discovering a mode of reducing the inflammable quality of resin, so as to adapt it to the purposes of making candles; but no such discovery has yet been made.\n\nElastic RESIN. See CAOUTCHOUC, CHEMISTRY Index.\n\nGum RESIN, a mixture of gum and resin. See CHEMISTRY and MATERIA MEDICA",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESIGNATION",
+          "headword": "RESIGNATION",
+          "start_page": 378,
+          "end_page": 378,
+          "word_count": 39,
+          "text_end": "in general, signifies the implicit submission of ourselves, or of something we possess, to the will of another. In a religious sense it signifies a perfect submission, without discontent, to the will of God. See MORAL PHILOSOPHY, No. 119."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESINOUS_ELECTRICITY",
+        "headword": "RESINOUS ELECTRICITY",
+        "start_page": 378,
+        "end_page": 378,
+        "word_count": 23,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESINOUS ELECTRICITY...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "is that kind of electricity which is produced by exciting bodies of the resinous kind, and which is generally negative. See ELECTRICITY pallium.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESIN",
+          "headword": "RESIN",
+          "start_page": 378,
+          "end_page": 378,
+          "word_count": 485,
+          "text_end": "igested in a strong heat. The varnish which it makes with either is very weak, and of little use. With respect to its medicinal qualities, Mr White has found it, in many cases, a good pectoral medicine, and very balsamic. It is not obtainable in so great abundance as the red gum produced by the eucalyptus resinifera. The plant which produces the yellow gum seems to be perfectly unknown to botanists, but Mr White has communicated no specimens by which its genus or even class could be determined.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESISTANCE",
+        "headword": "RESISTANCE",
+        "start_page": 378,
+        "end_page": 381,
+        "word_count": 3394,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESISTANCE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or RESISTING Force, in Philosophy, denotes, in general, any power which acts in an opposite direction to another, so as to destroy or diminish its effect. See MECHANICS, HYDRODYNAMICS, and PNEUMATICS.\n\nOf all the resistances of bodies to each, there is undoubtedly none of greater importance than the resistance of the fluidity or reaction of fluids. It is here that we must look for a theory of naval architecture, for the impulse of the air is our moving power, and this must be modified so as to p",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESINOUS_ELECTRICITY",
+          "headword": "RESINOUS ELECTRICITY",
+          "start_page": 378,
+          "end_page": 378,
+          "word_count": 23,
+          "text_end": "is that kind of electricity which is produced by exciting bodies of the resinous kind, and which is generally negative. See ELECTRICITY pallium."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESTIVE",
+        "headword": "RESTIVE",
+        "start_page": 416,
+        "end_page": 416,
+        "word_count": 19,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESTIVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or RESTY, in the manege, a stubborn, unruly, ill-broken horse, that flops, or runs back, instead of advancing forward.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RELATIVE_OR_EFFECTIVE_IMPULSE",
+          "headword": "RELATIVE OR EFFECTIVE IMPULSE",
+          "start_page": 382,
+          "end_page": 416,
+          "word_count": 35793,
+          "text_end": "uaries for such medals as were struck by the emperors, to retrieve the memory of their predecessors.\n\nHence, in several medals, we find the letters REST. This practice was first begun by Claudius, by his striking anew several medals of Augustus. Nero did the same; and Titus, after his father's example, struck restitutions of most of his predecessors. Gallienus struck\na general restitution of all the preceding emperors on two medals; the one bearing an altar, the other an eagle, without the REST."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESTORATION",
+        "headword": "RESTORATION",
+        "start_page": 416,
+        "end_page": 416,
+        "word_count": 49,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESTORATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the same with restauration. See RESTAURATION.\n\nIn England, the return of King Charles II. in 1660, is, by way of eminence, called the Restoration; and the 29th of May is kept as an anniversary festival, in commemoration of that event, by which the regal and episcopal government was restored.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESTIVE",
+          "headword": "RESTIVE",
+          "start_page": 416,
+          "end_page": 416,
+          "word_count": 19,
+          "text_end": "or RESTY, in the manege, a stubborn, unruly, ill-broken horse, that flops, or runs back, instead of advancing forward."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESTORATIVE",
+        "headword": "RESTORATIVE",
+        "start_page": 416,
+        "end_page": 416,
+        "word_count": 49,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESTORATIVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Medicine, a remedy proper for restoring and retrieving the strength and vigour both of the body and animal spirits.\n\nAll under this class, says Quincy, are rather nutrimental than medicinal; and are more administered to repair the wastes of the constitution, than to alter and rectify its disorders.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESTORATION",
+          "headword": "RESTORATION",
+          "start_page": 416,
+          "end_page": 416,
+          "word_count": 49,
+          "text_end": "the same with restauration. See RESTAURATION.\n\nIn England, the return of King Charles II. in 1660, is, by way of eminence, called the Restoration; and the 29th of May is kept as an anniversary festival, in commemoration of that event, by which the regal and episcopal government was restored."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESTRICTION",
+        "headword": "RESTRICTION",
+        "start_page": 416,
+        "end_page": 416,
+        "word_count": 17,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESTRICTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "among logicians, is limiting a term, so as to make it signify less than it usually does.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESTORATIVE",
+          "headword": "RESTORATIVE",
+          "start_page": 416,
+          "end_page": 416,
+          "word_count": 49,
+          "text_end": "in Medicine, a remedy proper for restoring and retrieving the strength and vigour both of the body and animal spirits.\n\nAll under this class, says Quincy, are rather nutrimental than medicinal; and are more administered to repair the wastes of the constitution, than to alter and rectify its disorders."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESULT",
+        "headword": "RESULT",
+        "start_page": 416,
+        "end_page": 416,
+        "word_count": 17,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESULT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "what is gathered from a conference, inquiry, meditation, or the like; or the conclusion and effects thereof.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESTRICTION",
+          "headword": "RESTRICTION",
+          "start_page": 416,
+          "end_page": 416,
+          "word_count": 17,
+          "text_end": "among logicians, is limiting a term, so as to make it signify less than it usually does."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESURRECTION",
+        "headword": "RESURRECTION",
+        "start_page": 416,
+        "end_page": 417,
+        "word_count": 1481,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESURRECTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Theology, is a rising again from the state of the dead; and is that event, the belief of which constitutes one of the principal articles in the Christian creed.\n\nIn treating of this object of our faith, it has been usual to mention, first, the resurrection of our Blest Lord, with the character of the witnesses, and the authenticity of the gospel history by which it has been proved, and from which, as a consequence, ours is inferred. But as most of the arguments for his resurrection are contai",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESULT",
+          "headword": "RESULT",
+          "start_page": 416,
+          "end_page": 416,
+          "word_count": 17,
+          "text_end": "what is gathered from a conference, inquiry, meditation, or the like; or the conclusion and effects thereof."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RESUSCITATION",
+        "headword": "RESUSCITATION",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 46,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RESUSCITATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the same with resurrection and revivification. See the preceding article and REANIMATION.\n\nThe term resuscitation, however, is more particularly used by chemists for the reproducing a mixed body from its ashes; an art to which many have pretended, as to reproduce plants, &c. from their ashes.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_METAPHYSICS",
+          "headword": "METAPHYSICS",
+          "start_page": 427,
+          "end_page": 429,
+          "word_count": 2321,
+          "text_end": "e slightest attention, should perplex himself, or disturb the church with idle attempts to prove the identity of the bodies with which we shall die and rise again at the last day. The apostle expressly affirms, that \"flesh and blood cannot inherit the kingdom of God; that we shall all be changed, in a moment, in the twinkling of an eye, at the last trump; that there are celestial bodies and bodies terrestrial; and that the glory of the celestial is one, and the glory of the terrestrial another.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETAIL",
+        "headword": "RETAIL",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 16,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETAIL...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Commerce, is the selling of goods in small parcels, in opposition to wholesale. See COMMERCE.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RESUSCITATION",
+          "headword": "RESUSCITATION",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 46,
+          "text_end": "the same with resurrection and revivification. See the preceding article and REANIMATION.\n\nThe term resuscitation, however, is more particularly used by chemists for the reproducing a mixed body from its ashes; an art to which many have pretended, as to reproduce plants, &c. from their ashes."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETAINER",
+        "headword": "RETAINER",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 19,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETAINER...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a servant who does not continually dwell in the house of his master, but only attends upon special occasions.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETAIL",
+          "headword": "RETAIL",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 16,
+          "text_end": "in Commerce, is the selling of goods in small parcels, in opposition to wholesale. See COMMERCE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETAINING_FEE",
+        "headword": "RETAINING FEE",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 25,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETAINING FEE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the first fee given to a sergeant or counsellor at law, in order to make him sure, and prevent his pleading on the contrary side.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETAINER",
+          "headword": "RETAINER",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 19,
+          "text_end": "a servant who does not continually dwell in the house of his master, but only attends upon special occasions."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETARDATION",
+        "headword": "RETARDATION",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 18,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETARDATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Physics, the act of diminishing the velocity of a moving body. See GUNNERY, MECHANICS, PNEUMATICS, and PROJECTILES.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETAINING_FEE",
+          "headword": "RETAINING FEE",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 25,
+          "text_end": "the first fee given to a sergeant or counsellor at law, in order to make him sure, and prevent his pleading on the contrary side."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETICULA",
+        "headword": "RETICULA",
+        "start_page": 430,
+        "end_page": 431,
+        "word_count": 419,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETICULA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or RETICULE, in Astronomy, a contrivance for measuring very nicely the quantity of eclipses, &c. This instrument, which was introduced by the Academy of Sciences at Paris, is a little frame composed of 13 fine silk threads, parallel to, and at equal distances from each other, placed in the focus of object glasses of telescopes; that is, in the place where the image of the luminary is painted in its full extent. The diameter of the sun or moon is of consequence thus seen divided into 12 equal par",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETARDATION",
+          "headword": "RETARDATION",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 18,
+          "text_end": "in Physics, the act of diminishing the velocity of a moving body. See GUNNERY, MECHANICS, PNEUMATICS, and PROJECTILES."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETICULAR_BODY",
+        "headword": "RETICULAR BODY",
+        "start_page": 431,
+        "end_page": 432,
+        "word_count": 1100,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETICULAR BODY...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Anatomy,** a very fine membrane, perforated, in the manner of a net, with a multitude of foramina. It is placed immediately under the cuticle; and when that is separated from the cutis, whether by art or accident, this adheres firmly to it, and is scarcely possible to be parted from it, seeming rather to be its inner superficies than a distinct substance. In regard to this, we are to observe, first, the places in which it is found, being all those in which the sense of feeling is most acute,",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETICULARIS",
+          "headword": "RETICULARIS",
+          "start_page": 430,
+          "end_page": 430,
+          "word_count": 90,
+          "text_end": "exus or network of vessels in the brain, surrounding the pituitary gland.\n\nRETENTION is defined by Mr Locke to be, a faculty of the mind, whereby it keeps or retains those simple ideas it has once received, by imitation or reflection. See METAPHYSICS, Part I, Chap. ii.\n\nRetention is also used, in medicine, &c. for the state of contraction in the solids or vascular parts of the body, which makes them hold fast their proper contents. In this sense, retention is opposed to evacuation and excretion."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETICULARIS",
+        "headword": "RETICULARIS",
+        "start_page": 430,
+        "end_page": 430,
+        "word_count": 90,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETICULARIS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Anatomy, a small plexus or network of vessels in the brain, surrounding the pituitary gland.\n\nRETENTION is defined by Mr Locke to be, a faculty of the mind, whereby it keeps or retains those simple ideas it has once received, by imitation or reflection. See METAPHYSICS, Part I, Chap. ii.\n\nRetention is also used, in medicine, &c. for the state of contraction in the solids or vascular parts of the body, which makes them hold fast their proper contents. In this sense, retention is opposed to eva",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETICULA",
+          "headword": "RETICULA",
+          "start_page": 430,
+          "end_page": 431,
+          "word_count": 419,
+          "text_end": "sun or moon can ever have in the common focus of two object glasses applied to each other, it is only necessary to remove them from each other, as the star comes to have a less diameter, to have the image fill exactly comprehended in the same Reticule.\n\nAs the silk threads are apt to deviate from the parallelism, &c. by the different temperature of the air, another improvement is, to make the Reticule of a thin looking glass, by drawing lines or circles upon it with the fine point of a diamond."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETORT",
+        "headword": "RETORT",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 478,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETORT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Chemistry, an oblong or globular vessel of glass or porcelain, with its neck bent, proper for distillation.\n\nIn the fifth volume of the Transactions of the London Society for the Encouragement of Arts, p. 96, we find a paper containing a method for preventing stone retorts from breaking; or stopping them when cracked, during any chemical operation, without losing any of the contained subject. \"I have always found it necessary (says the writer) to use a previous coating for filling up the inte",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETICULAR_BODY",
+          "headword": "RETICULAR BODY",
+          "start_page": 431,
+          "end_page": 432,
+          "word_count": 1100,
+          "text_end": "owley might be said to be melancholy mad. He languished for solitude, and wished to hide himself in the wilds of America. But, alas! he was not able to support the solitude of a country village within a few miles of the metropolis!\n\n\"With a virtuous and cheerful family, with a few faithful and good-humoured friends, with a well-selected collection of elegant books, and with a competency, one may enjoy comforts even in the deserted village, which the city, with all its diversions, cannot supply.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETRACTS",
+        "headword": "RETRACTS",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 28,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETRACTS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "among horsemen, pricks in a horse's feet, arising from the fault of the farrier in driving nails that are weak, or in driving them ill-pointed, or otherwise amiss.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETORT",
+          "headword": "RETORT",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 478,
+          "text_end": "it immediately stops the fissure, and prevents any of the distilling matter from pervading; even that subtle penetrating substance the solid phosphorus will not penetrate through it. It may be applied without any danger, even when the retort is red hot; and when it is made a little stiffer, is more proper for luting vessels than any other I ever have tried; because if properly mixed it will never crack, nor will it indurate so as to endanger the breaking the necks of the vessels when taken off.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETREAT_s2",
+        "headword": "RETREAT",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 102,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETREAT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "is also a beat of the drum, at the firing of the evening gun; at which the drum-major, with all the drums of the battalion, except such as are upon duty, beats from the camp-colours on the right to those on the left, on the parade of encampment: the drums of all the guards beat also; the trumpets at the same time sounding at the head of their respective troops. This is to warn the soldiers to forbear firing, and the sentinels to challenge, till the break of day that the reveille is beat. The ret",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETRACTS",
+          "headword": "RETRACTS",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 28,
+          "text_end": "among horsemen, pricks in a horse's feet, arising from the fault of the farrier in driving nails that are weak, or in driving them ill-pointed, or otherwise amiss."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETRENCHMENT",
+        "headword": "RETRENCHMENT",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 48,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETRENCHMENT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the art of war, any kind of work raised to cover a post, and fortify it against the enemy, such as fascines loaded with earth, gabions, barrels of earth, sand-bags, and generally all things that can cover the men and stop the enemy. See FORTIFICATION and WAR.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETREAT_s2",
+          "headword": "RETREAT",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 102,
+          "text_end": "of the evening gun; at which the drum-major, with all the drums of the battalion, except such as are upon duty, beats from the camp-colours on the right to those on the left, on the parade of encampment: the drums of all the guards beat also; the trumpets at the same time sounding at the head of their respective troops. This is to warn the soldiers to forbear firing, and the sentinels to challenge, till the break of day that the reveille is beat. The retreat is likewise called setting the watch."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETRENCHMENT_LITERALLY",
+        "headword": "RETRENCHMENT LITERALLY",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 22,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETRENCHMENT LITERAL...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "T literally signifies something cut off or taken from a thing; in which sense it is the same with subtraction, diminution, &c.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETRENCHMENT",
+          "headword": "RETRENCHMENT",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 48,
+          "text_end": "in the art of war, any kind of work raised to cover a post, and fortify it against the enemy, such as fascines loaded with earth, gabions, barrels of earth, sand-bags, and generally all things that can cover the men and stop the enemy. See FORTIFICATION and WAR."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETRIBUTION",
+        "headword": "RETRIBUTION",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 34,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETRIBUTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a handsome present, gratuity, or acknowledgement, given instead of a formal salary or hire, to persons employed in affairs that do not so immediately fall under estimation, nor within the ordinary commerce in money.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETRENCHMENT_LITERALLY",
+          "headword": "RETRENCHMENT LITERALLY",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 22,
+          "text_end": "T literally signifies something cut off or taken from a thing; in which sense it is the same with subtraction, diminution, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETROMINGENTS",
+        "headword": "RETROMINGENTS",
+        "start_page": 432,
+        "end_page": 432,
+        "word_count": 23,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETROMINGENTS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Natural History, a class or division of animals, whose characteristic is, that they stale or make water backwards, both male and female.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETRIBUTION",
+          "headword": "RETRIBUTION",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 34,
+          "text_end": "a handsome present, gratuity, or acknowledgement, given instead of a formal salary or hire, to persons employed in affairs that do not so immediately fall under estimation, nor within the ordinary commerce in money."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETULINGEN",
+        "headword": "RETULINGEN",
+        "start_page": 433,
+        "end_page": 433,
+        "word_count": 47,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETULINGEN...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a handsome, free, and imperial town of Germany, in the circle of Suabia, and duchy of Wurtemberg; seated in a plain on the river Echez, near the Neckar, adorned with handsome public buildings, and has a well frequented college. E. Long. 9° 10'. N. Lat. 48° 31'.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETURN",
+          "headword": "RETURN",
+          "start_page": 432,
+          "end_page": 433,
+          "word_count": 590,
+          "text_end": "s Sunday, and All-saints, in Michaelmas term, the purification in Hilary, the ascension in Easter, and Midsummer-day, except it should fall on the first day of Trinity term.\n\nReturns, in a military sense, are of various sorts, but all tending to explain the state of the army, regiment, or company; namely, how many capable of doing duty, on duty, sick in quarters, barracks, infirmary, or hospital; prisoners, absent with or without leave; total effective; wanting to complete the establishment, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETURN",
+        "headword": "RETURN",
+        "start_page": 432,
+        "end_page": 433,
+        "word_count": 590,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETURN...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Law, is used in divers senses. 1. Return of writs by sheriffs and bailiffs is a certificate made by them to the court, of what they have done in relation to the execution of the writ directed to them. This is wrote on the back of the writ by the officer, who thus sends the writ back to the court from whence it issued, in order that it may be filed. 2. Return of a commission, is a certificate or ans-\nwere sent to the court from whence the commission issues, concerning what has been done by the",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETROMINGENTS",
+          "headword": "RETROMINGENTS",
+          "start_page": 432,
+          "end_page": 432,
+          "word_count": 23,
+          "text_end": "in Natural History, a class or division of animals, whose characteristic is, that they stale or make water backwards, both male and female."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETUSARI",
+        "headword": "RETUSARI",
+        "start_page": 433,
+        "end_page": 433,
+        "word_count": 118,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETUSARI...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an island in Russia, is a long slip of land, or rather sand, through the middle of which runs a ridge of granite. It is 20 miles from Petersburg by water, four from the shore of Ingria, and nine from the coast of Carelia. It is about 10 miles in circumference, and was overgrown with firs and pines when Peter first conquered it from the Swedes. It contains at present about 30,000 inhabitants, including the sailors and garrison, the former of whom amount to about 12,000, the latter to 1500 men. Th",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETULINGEN",
+          "headword": "RETULINGEN",
+          "start_page": 433,
+          "end_page": 433,
+          "word_count": 47,
+          "text_end": "a handsome, free, and imperial town of Germany, in the circle of Suabia, and duchy of Wurtemberg; seated in a plain on the river Echez, near the Neckar, adorned with handsome public buildings, and has a well frequented college. E. Long. 9° 10'. N. Lat. 48° 31'."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_RETZIA",
+        "headword": "RETZIA",
+        "start_page": 433,
+        "end_page": 433,
+        "word_count": 19,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'RETZIA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a genus of plants belonging to the pentandra class, and to the 29th natural order, Campanaceae. See BOTANY Index.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_RETUSARI",
+          "headword": "RETUSARI",
+          "start_page": 433,
+          "end_page": 433,
+          "word_count": 118,
+          "text_end": "ria, and nine from the coast of Carelia. It is about 10 miles in circumference, and was overgrown with firs and pines when Peter first conquered it from the Swedes. It contains at present about 30,000 inhabitants, including the sailors and garrison, the former of whom amount to about 12,000, the latter to 1500 men. The island affords a small quantity of pasture, produces vegetables, and a few fruits, such as apples, currants, gooseberries, and strawberries, which thrive in this northern climate."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

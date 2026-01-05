@@ -29,6 +29,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from encyclopedia_parser.article_validator import (
     ArticleValidator,
     ValidationResult,
+    ValidationIssue,
     IssueType,
     IssueSeverity,
 )
@@ -36,6 +37,105 @@ from encyclopedia_parser.article_validator import (
 
 # All edition years in the corpus
 ALL_EDITIONS = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]
+
+
+def detect_alphabetical_breaks(articles: list[dict]) -> dict[int, ValidationIssue]:
+    """
+    Detect articles that break alphabetical sequence within their volume.
+
+    The key insight: if an article starting with 'B' appears isolated in the middle
+    of 'C' articles (both before AND after are 'C'), it's likely a mis-parsed
+    section heading within a larger treatise.
+
+    We detect "isolated outliers" - articles whose first letter differs significantly
+    from both their predecessor and successor in page order.
+
+    Args:
+        articles: List of article dicts with 'headword', 'start_page', 'volume_num'
+
+    Returns:
+        Dict mapping article index -> ValidationIssue for articles with breaks
+    """
+    issues = {}
+
+    def get_first_letter(headword: str) -> str:
+        """Extract first alphabetic character from headword."""
+        for char in headword:
+            if char.isalpha():
+                return char.upper()
+        return ''
+
+    # Group articles by volume
+    by_volume = defaultdict(list)
+    for idx, article in enumerate(articles):
+        vol = article.get('volume_num', 0)
+        by_volume[vol].append((idx, article))
+
+    for vol, vol_articles in by_volume.items():
+        # Sort by start_page within volume
+        vol_articles.sort(key=lambda x: x[1].get('start_page', 0))
+
+        # Extract first letters for all articles in page order
+        letters = []
+        for idx, article in vol_articles:
+            headword = article.get('headword', '')
+            letter = get_first_letter(headword)
+            letters.append((idx, article, letter))
+
+        # Check each article against its neighbors
+        for i, (idx, article, letter) in enumerate(letters):
+            if not letter:
+                continue
+
+            # Get neighbors (up to 3 on each side for context)
+            prev_letters = [l for _, _, l in letters[max(0, i-3):i] if l]
+            next_letters = [l for _, _, l in letters[i+1:i+4] if l]
+
+            if not prev_letters and not next_letters:
+                continue
+
+            # Check if this letter is an outlier
+            # An outlier is significantly different from surrounding context
+            is_outlier = False
+            context_letter = None
+
+            # Case 1: Letter comes BEFORE all neighbors
+            # e.g., 'B' surrounded by 'C', 'C', 'C' (all > B)
+            # We flag if ALL neighbors on both sides are strictly later in alphabet
+            if prev_letters and next_letters:
+                min_prev = min(prev_letters)
+                min_next = min(next_letters)
+                # Both sides have letters strictly after this letter
+                # Even 1 letter gap is suspicious when completely surrounded
+                if min_prev > letter and min_next > letter:
+                    is_outlier = True
+                    context_letter = min_prev
+
+            # Case 2: At start of volume but next several articles are much later
+            elif not prev_letters and next_letters and len(next_letters) >= 2:
+                min_next = min(next_letters)
+                if ord(min_next) - ord(letter) >= 3:  # Stronger threshold at edges
+                    is_outlier = True
+                    context_letter = min_next
+
+            # Case 3: At end of volume but previous several articles are much later
+            elif prev_letters and not next_letters and len(prev_letters) >= 2:
+                min_prev = min(prev_letters)
+                if ord(min_prev) - ord(letter) >= 3:  # Stronger threshold at edges
+                    is_outlier = True
+                    context_letter = min_prev
+
+            if is_outlier:
+                headword = article.get('headword', '')
+                page = article.get('start_page', '?')
+                issues[idx] = ValidationIssue(
+                    issue_type=IssueType.ALPHABETICAL_BREAK,
+                    severity=IssueSeverity.HIGH,
+                    reason=f"'{headword[:30]}' starts with '{letter}' but is surrounded by '{context_letter}' articles (p.{page}) - likely mis-parsed section heading",
+                    confidence=0.92  # High but not automatic removal
+                )
+
+    return issues
 
 
 @dataclass
@@ -94,9 +194,28 @@ def cleanup_edition(
     stats = CleanupStats(edition_year=edition_year)
     cleaned_articles = []
 
-    for article in load_articles(input_file):
+    # Load all articles first (needed for alphabetical break detection)
+    articles = list(load_articles(input_file))
+
+    # Detect alphabetical breaks across the edition
+    alphabetical_issues = detect_alphabetical_breaks(articles)
+    if alphabetical_issues:
+        print(f"  Found {len(alphabetical_issues)} alphabetical breaks")
+
+    for idx, article in enumerate(articles):
         stats.total_articles += 1
         result = validator.validate(article)
+
+        # Add alphabetical break issue if detected
+        if idx in alphabetical_issues:
+            result.issues.append(alphabetical_issues[idx])
+            # Re-determine action with the new issue
+            if alphabetical_issues[idx].confidence >= validator.removal_threshold:
+                result.action = "remove"
+                result.is_valid = False
+            elif result.action == "keep" and alphabetical_issues[idx].confidence >= validator.flag_threshold:
+                result.action = "flag"
+                result.is_valid = False
 
         if result.action == "keep":
             stats.kept += 1
@@ -107,7 +226,7 @@ def cleanup_edition(
             for issue in result.issues:
                 stats.by_issue_type[issue.issue_type.value] += 1
 
-            # Save example (first 20 per type)
+            # Save example (first 50)
             if len(stats.removed_examples) < 50:
                 stats.removed_examples.append({
                     "headword": article.get("headword", "")[:80],

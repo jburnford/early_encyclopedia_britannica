@@ -1,0 +1,1587 @@
+{
+  "edition_year": 1823,
+  "batch_num": 2,
+  "total_batches": 6,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1823_v13_CHICKENPOX",
+        "headword": "CHICKENPOX",
+        "start_page": 380,
+        "end_page": 381,
+        "word_count": 1074,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHICKENPOX...' starts with 'C' but volume 13 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CHICKENPOX' starts with 'C' but is surrounded by 'J' articles (p.380) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Varicella, Vog. 42.\nVariola lymphatica, Saur. sp. 1.\nAnglis The CHICKENPOX, Edin. Med. Essays, vol. ii. art. 2. near the end. Heberden, Med. Transac. art. 17. The WATERY-POX.\n\nThis is in general a very slight disease; and it is attended with so little danger, that it would not merit any notice, if it were not apt to be confounded with the smallpox, and thus give occasion to an opinion that a person might have the smallpox twice in his life; or they are apt to deceive into a false security those",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v13_JAMES_HENTHORN_s2",
+          "headword": "JAMES HENTHORN",
+          "start_page": 379,
+          "end_page": 380,
+          "word_count": 334,
+          "text_end": "loy remedies for obviating particular urgent symptoms, such as gargarisms or blisters for affections of the throat.\n\nIn the malignant smallpox, besides the same refrigerant plan of cure which is best accommodated to the mild, as the secondary fever shows evident marks of a putrid tendency, it is necessary to employ those remedies which are accommodated to typhus, and accordingly recourse is not only had to opiates and cardiae, but to wine, cinchona, and the mineral acids.\n\nGENUS XXIX. VARICELLA."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v08_CICINDELA",
+        "headword": "CICINDELA",
+        "start_page": 182,
+        "end_page": 182,
+        "word_count": 446,
+        "volume_num": 8,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CICINDELA...' starts with 'C' but volume 8 covers E-F",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the Sparkler.\n\nAntennae setaceous. Feelers six, filiform; the posterior ones hairy. The jaws prominent and many-toothed. Eyes prominent. Thorax rounded and marginated.\n\nLip divided into three little projections.\n\nThis is, in general, a very beautiful genus of insects; they are found in dry sandy places, and prey with the most ravenous ferocity upon all other insects which come in their way, and which they can overcome. The larva is soft, white, long, and has six feet, with a brown scaly head; an",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v08_BUPRESTIS",
+          "headword": "BUPRESTIS",
+          "start_page": 182,
+          "end_page": 203,
+          "word_count": 20755,
+          "text_end": "the under ones with white dots. 267. A native of Europe; on the *malva* and *althea*. Larva gray; head black; neck marked with four sulphur-coloured dots. It draws together the leaves on which it feeds, by threads which it spins. Pupa hunch-backed and bluish.\n\n876 species of the butterfly have been described in the last edition of the System of Nature published by Gmelin; but a great many more are to be met with in the collections of the curious, which have not yet been described by any author."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v14_CIMOLITE",
+        "headword": "CIMOLITE",
+        "start_page": 229,
+        "end_page": 234,
+        "word_count": 3231,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CIMOLITE...' starts with 'C' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CIMOLITE' starts with 'C' but is surrounded by 'M' articles (p.229) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "This is a mineral which in many of its characters is closely connected with the preceding.\n\nExter. Char.—It is found massive; fracture earthy uneven, or slaty; colour grayish white, pearl gray, and exposed for some time to the air, reddish; opaque; does not stain; adheres strongly to the tongue; is soft, and difficultly frangible; sp. grav. 2.\n\nChem. Char.—Before the blow-pipe it becomes at first of a deep gray colour, but afterwards white.\n\nConstituent Parts. Klaproth.\n\n| Silica | 63 |\n|-------",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v07_CIRCULATING_DECIMALS",
+        "headword": "CIRCULATING DECIMALS",
+        "start_page": 117,
+        "end_page": 117,
+        "word_count": 223,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CIRCULATING DECIMALS' starts with 'C' but is surrounded by 'D' articles (p.117) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "called also recurring or repeating decimals, are those in which a figure or several figures are continually repeated. They are distinguished into single and multiple, and these again into pure and mixed.\n\nA pure single circulate is that in which one figure only is repeated; as '222, &c. and is marked thus '2.\n\nA pure multiple circulate is that in which several figures are continually repeated; as '232323, &c. marked '23; and '524524, &c. marked '524.\n\nA mixed single circulate is that which consi",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v07_DECEMVIRI",
+          "headword": "DECEMVIRI",
+          "start_page": 116,
+          "end_page": 117,
+          "word_count": 493,
+          "text_end": ", because a spear, hasta, was fixed at the door of the place where the goods were exposed to sale. They were called decemviri lictibus judicandis. The officers whom Tarquinius appointed to guard the Sibylline books were also called decemviri. They were originally two in number, called duumviri, till the year of Rome 388, when their number was increased to ten, five of which were chosen from the plebeians and five from the patricians. Sylla increased their number to fifteen, called quindecemviri."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v17_CITIES_OF_REFUGE",
+        "headword": "CITIES OF REFUGE",
+        "start_page": 748,
+        "end_page": 748,
+        "word_count": 397,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CITIES OF REFUGE...' starts with 'C' but volume 17 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CITIES OF REFUGE' starts with 'C' but is surrounded by 'R' articles (p.748) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "were places provided as Asylum, for such as against their will should happen to kill a man. Of these cities there were three on each side Jordan: on this side were Kedesh of Naphtali, Hebron, and Shechem; beyond Jordan were Bezer, Golan, and Ramoth-Gilead. When any of the Hebrews, or strangers that dwelt in their country, happened to spill the blood of a man, they might retire thither to be out of the reach of the violent attempts of the relations of the deceased, and to prepare for their defenc",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v17_REFORMATION",
+          "headword": "REFORMATION",
+          "start_page": 737,
+          "end_page": 747,
+          "word_count": 12650,
+          "text_end": "ipline established by Calvin at Geneva, has had the ascendancy in Scotland. But for an account of the difficulties which the Scottish reformers had to struggle with, and the manner in which these were overcome, &c. see SCOTLAND.\n\nFor further information on the subject of the reformation in general we refer our readers to the works of Burnet and Brandt, to Beausobre's Histoire de la Reformation dans l'Empire, et les Etats de la Confession d'Augsbourg, depuis 1517—1530, in 4 vols 8vo, Berlin 1785."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_III",
+        "headword": "CLASSIS III",
+        "start_page": 114,
+        "end_page": 115,
+        "word_count": 203,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS III...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "TRIANDRIA.\n\nOrdo I. MONOGYNYA.\n\nSect. I. Flores superi.\n\n75. Valeriana. Cor. 5-fida basi gibba. Sem. unicum.\n\n84. Melothria. Cor. 5-fida rotata. Bacca trilocularis.\n\n92. Crocus. Cor. 6-partita, erecto-patula. Stig. convoluta colorata.\n\n95. Antholyza. Cor. 6-fida tubulosa recurvata: laciniis inaequalibus.\n\n94. Gladiolus. Cor. 6-partita tubulosa: laciniis subaequalibus, superioribus convergentibus.\n\n97. Iris. Cor. 6-partita; laciniis alternis reflexis. Stip. petaloideum.\n\n93. Ixia. Cor. 6-partita",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_ZOSTERA",
+          "headword": "ZOSTERA",
+          "start_page": 98,
+          "end_page": 114,
+          "word_count": 11560,
+          "text_end": ". E. Indies. Cape of Good Hope. Piper tetraphyllum of Forster.\n\n51. P. leaves in fours, almost sessile oblong, nerve-pulchellus, very entire; spikes terminating. Jamaica.\n\n52. P. herbaceous, with leaves linear blunt, the filiform highest verticillated, the stem threadlike and creeping. Jamaica. Obs. It is remarkable that of the 53 species of piper here described, 21 species are natives of Jamaica.\n\nIn the class Diandria are,\n\n39 Genera, which include 299 Species; 29 species are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_IV",
+        "headword": "CLASSIS IV",
+        "start_page": 127,
+        "end_page": 127,
+        "word_count": 204,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS IV...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "TETRANDRIA.\n\nORDO I. MONOGYNYIA.\n\nSect. I. Flores monopetali, monospermi, inferi.\n\n169. GLOBULARIA. Cor. 1-petalis, irregulares.\nSem. pappo nudis.\n\nSect. II. Flores monopetali, monospermi, superi, ag-\ngregate.\n\n* 171. DIPSACUS. Cal. communis foliaceus. Recept.\nconicum, paleaceum. Sem. columnaria.\n\n* 172. SCABIOSA. Cal. communis. Recept. elevatum,\nsubpaleaceum. Sem. coronatis, involuta.\n\n173. KNAUTIA. Cal. communis oblongus. Recept.\nplenum, nudum. Sem. apice villosa.\n\n155. MONTIA, or Small Water",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_VI",
+        "headword": "CLASSIS VI",
+        "start_page": 170,
+        "end_page": 170,
+        "word_count": 64,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS VI...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "HEXANDRIA.\n\nORDO I. MONOGYNYIA.\n\nSect. I. Flores calyculati, calyce corellaque instructi, absque spatibus.\n\n602. BROMELIA. Cor. 3-partita. Cal. 3-partitus, superus. Baccia.\n\n603. PITCAIRNIA. Cor. 3-partita. Cal. 3-partitus, semisuperus. Capsula.\n\n604. TILLANDSIA. Cor. 3-petala. Cal. 3-partitus, inferus. Sem. comosa.\n\n606. BURMANNIA. Cor. 3-petala. Cal. 1-phyllus, inferus, triquetro-alatus, coloratus.\n\n607. TRADESCANTIA. Cor. 3-petala. Cal. 3-phyllus, inferus. Filamenta barbata.\n\n686. STEPHANIA.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_VII",
+        "headword": "CLASSIS VII",
+        "start_page": 181,
+        "end_page": 181,
+        "word_count": 91,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS VII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "HEPTANDRIA.\n\nORDO I. MONOGYNIA.\n\nSect. I. Flores completi:\n\n* 712. TRIENTALIS. Cal. 7-phyllus. Cor. 7-partita, plana. Baccia 1-locularis, sicca.\n\n713. DISANDRA. Cal. subseptempartitus. Cor. rotata, subseptempartita. Caps. 2-locularis, polysperma.\n\n717. ÆSCULUS. Cal. 5-dentatus. Cor. 5-petala, inaequalis. Caps. 3-locularis, 2-sperma.\n\n718. PETROCARYA. Cal. 5-fidus. Cor. 5-petala. Drupa carmosa. Nux 2-local.\n\n716. PANCOUIA. Cal. 4-partitus. Cor. 4-petala crispata. Stam. adscendentia.\n\n719. JONESIA",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XI",
+        "headword": "CLASSIS XI",
+        "start_page": 208,
+        "end_page": 208,
+        "word_count": 157,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XI...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "DODECANDRIA (A).\n\nORDO I. MONOGYNIA.\n\n927. Bocconia. Cor. o. Cal. 2-phylus, inferus.\nCaps. 2-valvis, 1-sperma.\n\n925. Asarum. Cor. o. Cal. 3-fidus, superus.\nCaps. 6-locularis.\n\n955. Sterculia. Cor. o. Cal. 5-partit. Nectar-\nstaminiferum. Germen pedicellatum. Caps. 5.\n\n931. Rhizophora. Cor. 4-partita. Cal. 4-parti-\ntus, inferus. Sem. 1, clavatum, receptaculo carnoso.\n\n938. Garcinia. Cor. 4-petala. Cal. 4-phyllos,\ninferus. Bacca 8-sperma, coronata.\n\n943. Cratæva. Cor. 4-petala. Cal. 4-fidus, in-\nfe",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XII",
+        "headword": "CLASSIS XII",
+        "start_page": 212,
+        "end_page": 212,
+        "word_count": 15,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "ISOCANDRIA (B).\n\nORDO I. MONOGYNYIA.\n\n966. CACTUS. Cal. superus, 1-phyllus. Cor. multifa. Bacc 1-locl. polysperma.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XIII",
+        "headword": "CLASSIS XIII",
+        "start_page": 219,
+        "end_page": 231,
+        "word_count": 8042,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XIII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "POLYANDRIA (c).\n\nOrdo I. MONOGYNIA.\n\nSect. I. Monopetali.\n\n1054. Swartzia. Cal. 4-partitus. Petalum plumatum laterale. Legumen.\n\nS. Cal. 4-partite. A flat lateral petal. Leguminous.\n\n(c) The flowers of this class have, as its title implies, many stamens, that is from 20 to 1000 or more; so that it is unnecessary to attempt to count them farther, than to be satisfied that they amount to 20 or upwards. The stamens...\n1006. MARCGRAVIA. Cal. 6-phyllus, imbricatus. Cor. 1-petala, clausa. Bacca multil",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XIV",
+        "headword": "CLASSIS XIV",
+        "start_page": 231,
+        "end_page": 231,
+        "word_count": 213,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XIV...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "DIDYNAMIA (D).\n\nOrdo I. GYMNOSPERMIA.\n\nSect. I. Calyces subquinquefidi.\n\n1102. Perilla. Styli duo. Stam. distantia.\n1103. Glecoma. Antherarum paria cruciata.\n1096. Hyssopus. Filam. distantia, recta. Cor.\nringens, labio inferiore tripartito, subcrenato.\n1098. Elsholtzia. Filam. distantia, recta. Cor.\nringens, labio inferiore indiviso.\n1101. Bystropogon. Filam. distantia, recta. Cor.\nringens, labio inferiore trilobo.\n1102. Mentha. Filam distantia, recta. Cor. sub-\nsequalis.\n1104. Hyptis. Filam. de",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_CLASSIS_XIII",
+          "headword": "CLASSIS XIII",
+          "start_page": 219,
+          "end_page": 231,
+          "word_count": 8042,
+          "text_end": "e remark-\nable yellowness of butter in the spring has been sup-\nposed to be caused by this plant: but cows will not\neat it, unless compelled by extreme hunger, and then,\nas some say, it occasions such an inflammation that\nthey generally die. Upon May-day the country people\nin England strew the flowers before their doors.\n\n1091. Hydrastis, or Yellow-root.\nOne species; viz. canadensis. Carolina, Canada.\n\nIn the class Polyandra are\n85 Genera, including 563 Species, of which 50 are\nfound in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XIX",
+        "headword": "CLASSIS XIX",
+        "start_page": 263,
+        "end_page": 264,
+        "word_count": 159,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XIX...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "SYGENESIS (1).\n\nORDO I. POLYGAMIA ÆQUALIS.\n\nSect. I. Semifloriculi Tournesortii, corellis ligulatis omnibus.\n\n922. SCOLYMUS. Recept. paleaceum. Pappus nulus. Cal. imbricatus, spinosus.\n\n921. CICORIUM. Recept. subpaleaceum. Pappus sub 5-dentatus. Cal. calyculatus.\n\n920. CATANANCHE. Recept. paleaceum. Pappus aristatus, sessilis. Cal. imbricatus, scariosus.\n\n917. SERIOLA. Recept. paleaceum. Pappus sub-pilosus. Cal. simplex.\n\n918. HYPOCHERIS. Recept. paleaceum. Pappus plumosus. Cal. imbricatus.\n\n904",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_CLASSIS_XVIII",
+          "headword": "CLASSIS XVIII",
+          "start_page": 261,
+          "end_page": 263,
+          "word_count": 1483,
+          "text_end": "ential oil. The leaves given in substance are said to destroy worms. The flowers tinge spirits and oils of a fine purple colour, which is probably derived from the little glands upon the anther, and upon the edges of the petals. Cows, goats, and sheep eat it. Horses and swine refuse it.\n\n903. *Ascyrum,* or *St Peter's Wort.*\nThree species; viz. crux andreae, hypericoides, villosum. N. America.\n\nIn the class *Polyadelphia* are\n\n12 Genera, which include 65 species. Of these 8 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XVI",
+        "headword": "CLASSIS XVI",
+        "start_page": 248,
+        "end_page": 248,
+        "word_count": 23,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XVI...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "MONADELPHIA (F).\n\nORDO I. TRIANDRIA.\n\n1253. Galaxia. Monogyna. Spatha 1 s. 2-phyl-la. Cor. 1-petala, 6-fida.\n\n1251. Sisyrinchium. Monogyna. Spatha 2-phyl-la. Petala 6, subaequalia.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XVIII",
+        "headword": "CLASSIS XVIII",
+        "start_page": 261,
+        "end_page": 263,
+        "word_count": 1483,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XVIII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "POLYADELPHIA (H).\n\nORDO I. PENTANDRIA.\n\n900. THEOBROMA. Cal. 3-phyllus. Cor. 5-petala, nectaris 5. Stam. 5. Anther. 3. Pistill. 3.\n\n1418. ABROMA. Pentagyna. Caps. 5-locularis, 1-valvis, apice dehiscens. Semina reniformia, receptaculo hirsuto.\n\nT. Cal. 3-leaved. Cor. 5-petaled. Nectaries 5. Stam. 5. Anthers 3. Pistils 3.\n\nA. Pistils 5. Caps. 5-celled, 1-valved, open at the extremity. Seeds kidney-shaped. Receptacle shaggy.\n\nORDO\n\n(H) This class comprehends the plants whose flowers have stamens un",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XX_s2",
+        "headword": "CLASSIS XX",
+        "start_page": 277,
+        "end_page": 281,
+        "word_count": 1782,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XX...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "GYNANDRIA.\n\nORDO I. DIANDRIA.\n\n* O. Nectary horned.\n* S. Nect. purse-shaped.\n* O. Nect. nearly keel-shaped.\n\n(k) This class is distinguished from the others by the situation of the stamens (male parts of the flower) upon the pistils (female parts). The stamens are either placed upon the style itself, or upon the receptacle, which in that case is lengthened into the appearance of the style which supports the pistil with the stamens, and forms a part of the pistil. The orders are determined by the",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_BOTANY_s3",
+          "headword": "BOTANY",
+          "start_page": 273,
+          "end_page": 277,
+          "word_count": 3603,
+          "text_end": "r, denominated from them violet. They impart their colour and flavour to aqueous liquors: A syrup made from this infusion has long maintained a place in the shops, and proves an agreeable and useful laxative for children.\n\n1008. IMPATIENS, or Balsam, Balsamine.\nSeven species; viz. chinensis, latifolia, oppositiflora, cornuta, balsamina, triflora, noli-tangere. Europe, N. America, E. Indies, China.\n\nIn the class Syngenesia are\n115 Genera, including 1252 Species, of which 113 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XXI",
+        "headword": "CLASSIS XXI",
+        "start_page": 281,
+        "end_page": 288,
+        "word_count": 4823,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XXI...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "MONOEICIA (L).\n\nOrdo I. MONANDRIA.\n\n* 1033. Chara. (1) Cal. nulla. Cor. nulla. (2) Cal. 4-phyllus. Cor. o. Stigma 3-fidum. Sem. 1.\n\n* 1034. Zannichellia. (1) Cal. o. Cor. o. (2) Cal. 1-phyll. Cor. o. Pist. 4. Sem. 4.\n\n1035. Ceratocarpus. (1) Cal. 2-partitus. Cor. o. (2) Cal. 2-phyllus. Cor. o. Styl. 2. Sem. 1. infernum.\n\n1426. Artocarpus. (1) Cal. bivalvis. Cor. o. (2) Cal. o. Cor. o. Styl. 1. Drupa multilocularis. Nipa. (1) Spatha. Cor. 6-petala. (2) Spatha. Cor. o. Drupae angulatae.\n\n1036. Ela",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_CLASSIS_XX_s2",
+          "headword": "CLASSIS XX",
+          "start_page": 277,
+          "end_page": 281,
+          "word_count": 1782,
+          "text_end": "ed by the French to wash the skin, and is sold at a high price under the name of cypress powder. It is undoubtedly a good and an innocent cosmetic. Starch may be made from the roots.\n\n1029. Dracontium, or Dragons.\nFive species; viz. polyphyllum, spinosum, fortidum, camchatcense, pertusum. Ceylon, W. Indies, America.\n\n1030. Calla, or Ethiopian Arum.\nTwo species; viz. ethiopica, palustris. Europe, Cape.\n\nIn the class Gynandria are\n32 Genera, including 270 Species, of which 28 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XXII",
+        "headword": "CLASSIS XXII",
+        "start_page": 292,
+        "end_page": 298,
+        "word_count": 4069,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XXII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "DIOECIA (m).\n\nORDO I. MONANDRIA.\n\n1430. Pandanus. (1) Cal. o. Cor. o. Anthera sessilis, ramificationibus thyrsi inserta. (2) Cal. o. Cor. o. Stigmata 2. Fruct. compositus.\n\n1096. Najas. (1) Cal. 2-fidus. Cor. 4-cleft. Filam. nullum. (2) Cal. nullus. Cor. o. Pist. 3. Caps. 1-locularis.\n\nORDO II. DIANDRIA.\n\n1097. Vallisneria. (1) Spath. multiflora, 2-part. Cor. 3-partita. (2) Spath. 1-flora. Cal. 3-part. Cor. 3-pet. Pist. 1. Caps. 1-locularis.\n\n1099. Cecropia. (1) Spath. recept. comm. Cor. null. (",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_AUCUBA",
+          "headword": "AUCUBA",
+          "start_page": 288,
+          "end_page": 292,
+          "word_count": 3468,
+          "text_end": "ng upon the bushes. The roots are large, sometimes as thick as a man's thigh. Their juice, when fresh, soon excoriates the skin, but in drying they lose much of their acrimony.\n\n1094.\n1694. Sicyos, or Single-seeded Cucumber. Three species; viz. angulata, laciniata, garcini. America.\n\nORDER XI. GYNANDRIA.\n\n1695. Andrachne, or Base Orpine. Two species; viz. telephioides, fruticosa. Italy, Levant, Egypt.\n\nIn the class Monoccia are\n\n78 Genera, including 392 Species, of which 83 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XXIII",
+        "headword": "CLASSIS XXIII",
+        "start_page": 298,
+        "end_page": 302,
+        "word_count": 2543,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XXIII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "POLYGAMIA (o).\n\nORDO I. MONOECIA.\n\n1141. MUSA. (3) Cal. nullus. Cor. 2-petala. Stam. 6, 1 fert. Pist. 1. Baccia infera. (3) Cal. nullus. Cor. 2-petala. Stam. 6, 5 perfect. Pist. 1. Baccia nulla.\n\nM. (3) No cal. Cor. 2-petaled. Stam. 6, 1 fertile. Pist. 1. Berry inferior. (3) No cal. Cor. 2-petaled. Stam. 6, 5 perfect. Pist. 1. No berry.\n\n(o) The character of this class consists of the following circumstances: that every plant belonging to it produces, 1st, Hermaphrodite flowers, that is, flowers",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_CLASSIS_XXII",
+          "headword": "CLASSIS XXII",
+          "start_page": 292,
+          "end_page": 298,
+          "word_count": 4069,
+          "text_end": "ADELIA.\nThree species; viz. bernardia, ricinella, acidota. Jamaica.\n\nORDER XIII. SYNGENESIA.\n\n1139. RUSCUS, or Knee-bolly, or Butchers-broom.\nFive species; viz. *aculeatus, hypophyllam, hypoglossum, androgynus, racemosus*. Hungary, Fr. Italy, Canaries.\n\nORDER XIV. GYNANDRIA.\n\n1140. CLUTIA.\nNine species; viz. alaternoides, polygonoides, pulchella, hirta, tomentosa, retusa, cluteria, stipularis, acuminata.\n\nIn the class Diocia are\n55 Genera, including 219 Species, of which 38 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_CLASSIS_XXIV_s2",
+        "headword": "CLASSIS XXIV",
+        "start_page": 303,
+        "end_page": 308,
+        "word_count": 3578,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XXIV...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "CRYPTOGAMIA.\n\nORDO I. FERNS.\n\nSect. I. Fructificationes spicatae.\n\n* E Spike scattered. Fructifications target-shaped,\nvalved at the base.\n\nC. (1) Catkin tiled. Pollen or dust covering the\nscale. (2) Sheath sword-shaped. Drupe with a woody\nkernel.\n\nZ. (1) A cone with scales covered beneath with\npollen. (2) A cone with scales in each border. Drupe\nsolitary.\n\nO. A 2-rowed spike. Fructifications 5-valved.\n\nO. A jointed spike. Fructifications cut round.\n\nO. Spike branchy. Fructifications 2-valved.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_CLASSIS_XXIII",
+          "headword": "CLASSIS XXIII",
+          "start_page": 298,
+          "end_page": 302,
+          "word_count": 2543,
+          "text_end": "s, religiosa, benjamina, benghalensis, indica, racemosa, pertusa, pumila, toxicaria, maculata, trigona, hispida, heterophylla, microcarpa. S. Europe, India, China, America.—The dried fruit of the F. carica, or ordinary fig-tree, is sometimes used in medicine as a soft emollient sweet substance. It is much esteemed by some as a suppurative; in which case it is applied as warm as it can well be endured.\n\nIn the class Polygamia are\n34 Genera, including 222 Species, of which 15 are found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v14_CLOVEN-FOOTED_WATER-FOWL",
+        "headword": "CLOVEN-FOOTED WATER-FOWL",
+        "start_page": 117,
+        "end_page": 118,
+        "word_count": 446,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLOVEN-FOOTED WATER-...' starts with 'C' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CLOVEN-FOOTED WATER-FOWL' starts with 'C' but is surrounded by 'M' articles (p.117) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "15. Herons. The white heron is an uncommon bird, and visits us at uncertain seasons; the common kind and the bittern never leave us.\n\n16. Curlews. The curlew breeds sometimes on our mountains: but, considering the vast flights that appear in winter, it is probable that the greater part retire to other countries: the whimbrel breeds on the Grampian hills, in the neighbourhood of Invercauld.\n\n17. Snipes. The woodcock breeds in the moist woods of Sweden, and other cold countries. Some snipes breed",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v14_MIGRATION",
+          "headword": "MIGRATION",
+          "start_page": 116,
+          "end_page": 117,
+          "word_count": 953,
+          "text_end": "golden-crested wren braves our severest frosts. The migrants of this genus continue longest in Great Britain in the southern counties, the winter in those parts being later than in those of the north; Mr Stillingfleet having observed several wheat-eats in the isle of Purbeck on the 18th of November. As these birds are incapable of very distant flights, Spain, or the south of France, is probably their winter asylum.\n\n14. Swallows and goatsucker. Every species disappears at the approach of winter."
+        },
+        "semantic": {
+          "article_id": "1823_v14_WATER-FOWL",
+          "headword": "WATER-FOWL",
+          "start_page": 117,
+          "end_page": 117,
+          "word_count": 240,
+          "text_end": "conomy increased in this country, these animals were more and more disturbed; at length, by a series of alarms, they were necessitated to seek, during the summer, some lonely safe habitation.\n\nOn the contrary, those that build or lay in the almost inaccessible rocks that impend over the British seas, breed there still in vast numbers, having little to fear from the approach of mankind: the only disturbance they meet with in general being from the desperate attempts of some few to get their eggs."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v15_COLOURING",
+        "headword": "COLOURING",
+        "start_page": 729,
+        "end_page": 739,
+        "word_count": 10168,
+        "volume_num": 15,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'COLOURING...' starts with 'C' but volume 15 covers N-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'COLOURING' starts with 'C' but is surrounded by 'P' articles (p.729) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "though a subject greatly inferior to many\nothers which the painter must study, is yet of sufficient\nimportance to employ a considerable share of his atten-\ntion; and to excel in it, he must be well acquainted\nwith that part of optics which has the nature of light\nand colours for its object. Light, however simple and\nuncompounded it may appear, is nevertheless made up,\nas it were, of several distinct substances; and the num-\nber, and even dose of these ingredients, has been hap-\npily discovered b",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v15_PAINTING_s4",
+          "headword": "PAINTING",
+          "start_page": 726,
+          "end_page": 729,
+          "word_count": 2715,
+          "text_end": "eculiar turn of mind, often escapes blame; on\nthe contrary, it is sometimes striking and pleasing; but\nit is vain labour to endeavour to imitate it, because no-\nvity and peculiarity being its only merit, when it ceases\nto be new, it ceases to have value.\n\n\"A manner, therefore, being a defect, and every\npainter, however excellent, having a manner, it seems\nto follow that all kinds of faults as well as beauties\nmay be learned under the sanction of the greatest au-\nthority.\"\n\nSect. V. Of Colouring."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v17_COROLLARIES_s9",
+        "headword": "COROLLARIES",
+        "start_page": 460,
+        "end_page": 460,
+        "word_count": 217,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'COROLLARIES...' starts with 'C' but volume 17 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "1. A less circle will be projected into an ellipse, a parabola or hyperbola, according as the distance of its most remote point is less, equal to, or greater than, 90 degrees.\n\n2. If H be the centre, and K k l the focus of the ellipse, hyperbola, or parabola; then HK = \\(\\frac{A d - Af}{2}\\) for the ellipse; \\(H k = \\frac{A d + Af}{2}\\) for the hyperbola; and \\(f n\\) being drawn perpendicular to AE \\(f l = \\frac{nE + Ff}{2}\\) for the parabola.\n\nPROPOSITION V. THEOREM V.\n\nLet the plane TW (fig. 4",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v17_COROLLARY_s3",
+        "headword": "COROLLARY",
+        "start_page": 460,
+        "end_page": 460,
+        "word_count": 286,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'COROLLARY...' starts with 'C' but volume 17 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "If a circle be parallel to the plane of projection, and 45 degrees from the pole, it is projected into a circle equal to a great circle of the sphere; and therefore may be considered as the primitive circle, and its radius the radius of projection.\n\nPROPOSITION IV. THEOREM IV.\n\nA less circle not parallel to the plane of projection is projected into a conic section, whose transverse axis is in the line of measures; and the distance of its nearest vertex from the centre of the plane of projection",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v17_COROLLARIES_s9",
+          "headword": "COROLLARIES",
+          "start_page": 460,
+          "end_page": 460,
+          "word_count": 217,
+          "text_end": "he plane TW. Let the great circle BED be projected into the straight line bck. Draw CQS perpendicular to bck, and Cm parallel to it and equal to CA, and make QS equal to Qm; then any angle QS t is the measure of the arch Qt of the projected circle.\n\nJoin AQ; then because Cm is equal to CA, the angle QC m equal to QCA, each being a right angle, and the side QC common to both triangles; therefore Qm, or its equal QS, is equal QA. Again, since the plane ACQ is perpendicular to the plane TV, and b Q"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v13_COSTIVENESS",
+        "headword": "COSTIVENESS",
+        "start_page": 495,
+        "end_page": 496,
+        "word_count": 707,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'COSTIVENESS...' starts with 'C' but volume 13 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'COSTIVENESS' starts with 'C' but is surrounded by 'E' articles (p.495) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Obstipatio, Lin. 166. Vog. 128. Sag. 221.\n\nCostiveness is sometimes occasioned by debility in dyspeptic persons, sometimes it is the effect of rigidity, and sometimes it is symptomatic of the colic. It may proceed from an affection of the liver; drinking rough red wines, or other astringent liquors; too much exercise, especially on horseback; it may likewise proceed from a long use of cold insipid food, which does not sufficiently stimulate the intestines. Sometimes it is owing to the bile not d",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v17_CREECH",
+        "headword": "CREECH",
+        "start_page": 831,
+        "end_page": 831,
+        "word_count": 119,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CREECH...' starts with 'C' but volume 17 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "These powers of fancy extend wide over animal creation; and it is on this general principle that necromancers and dreamers have in all ages established their trade, that the stories of goblins have at all times so very easily procured belief, and that\n\nThe village matron, round the blazing hearth,\nSuspends the infant audience with her tales,\nBreathing astonishment! Of witching rhymes\nAnd evil spirits; of the deathbed call\nOf him who rob'd the widow and devour'd\nThe orphan's portion; of unquiet s",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v17_AIKENSIDE",
+          "headword": "AIKENSIDE",
+          "start_page": 831,
+          "end_page": 833,
+          "word_count": 2243,
+          "text_end": "o his doctrine,\n\nSome have taught\nThat bees have portions of ethereal thought,\nEndu'd with particles of heav'nly fires;\nFor God the whole created mass inspires:\nThro' heav'n and earth, and ocean's depth, he throws\nHis influence round, and kindles as he goes.\nHence flocks, and herds, and men, and beasts, and fowls,\nWith breath are quicken'd, and attract their souls:\nHence take the forms his prescience did ordain,\nAnd into him at length resolve again.\nNo room is left for death, they mount the sky,"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_CRETA",
+        "headword": "CRETA",
+        "start_page": 837,
+        "end_page": 839,
+        "word_count": 1463,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CRETA...' starts with 'C' but volume 12 covers L-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled wat",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830,
+          "end_page": 837,
+          "word_count": 6021,
+          "text_end": "mployed in medicine as an antacid, and when powdered or prepared, it is applied externally to scalds and burns, and to cancerous sores.\n\nOfficinal Preparations.\n\na. Carbonas Calcis Preparata, E. Creta Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v10_DEFINITION",
+        "headword": "DEFINITION",
+        "start_page": 757,
+        "end_page": 762,
+        "word_count": 7441,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DEFINITION...' starts with 'D' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "70. The absolute weights of different bodies of the same bulk are called their specific gravities or densities; and one body is said to be specifically heavier, or specifically lighter than another, when under the same bulk it contains a greater or less quantity of matter. Brass, for example, is said to have eight times the specific gravity of water, because one cubic inch of brass contains eight times the quantity of matter, or is eight times heavier than a cubic inch of water.\n\nPROP. I.\n\n71. F",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v14_DEFINITIONS",
+        "headword": "DEFINITIONS",
+        "start_page": 555,
+        "end_page": 579,
+        "word_count": 25898,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DEFINITIONS...' starts with 'D' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'DEFINITIONS' starts with 'D' but is surrounded by 'M' articles (p.555) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "I. What is meant by Melody, by Chord, by Harmony, by Interval.\n\n1. Melody is a series of sounds which succeed one to another in a manner agreeable to the ear.\n\n2. A Chord is a combination of several sounds heard together; and Harmony is properly a series of chords, of which the succession pleases the ear. A single chord is...\n\n(k) From my general recommendation of this code, I except the reflections on the principle of sound which are at the end, and which I should not advise any one to read.\n\n(",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v14_PRELIMINARY_DISCOURSE",
+          "headword": "PRELIMINARY DISCOURSE",
+          "start_page": 549,
+          "end_page": 555,
+          "word_count": 6797,
+          "text_end": "ough to essential have familiarized with much application the principles mistress of explained in this treatise? Here can only be learned musical composition alone to accomplish the rest. Without her assistance, it is no more possible to compose agreeable music by having read these elements, than to write verses in a proper manner with the Dictionary of Richelet. In one word, it is the elements of music alone, and not the principles of genius, that the reader may expect to find in this treatise."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v13_DIFFICULTY_OF_DISCHARGING_URINE",
+        "headword": "DIFFICULTY OF DISCHARGING URINE",
+        "start_page": 498,
+        "end_page": 498,
+        "word_count": 138,
+        "volume_num": 13,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DIFFICULTY OF DISCHA...' starts with 'D' but volume 13 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Dysuria, Sauv. gen. 265. Lin. 57. Vog. 164. Sag. 213.\n\nStranguria auctorum.\n\nA difficulty of making water may arise from many different causes; as from some acrid matter in the blood, cantharides, for instance; and hence a strangury very often succeeds the application of blisters. In many cases it arises from a compression of some of the neighbouring parts; of the uterus, for instance, in a state of pregnancy. Or it may arise from a spasmodic affection of the bladder, or rather its sphincter; or",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v13_SUPPRESSION_OF_URINE",
+          "headword": "SUPPRESSION OF URINE",
+          "start_page": 496,
+          "end_page": 498,
+          "word_count": 2660,
+          "text_end": "ur grams of turbithe-mineral, the subulphas hydrargyri flavus of the present pharmacopoeia, which operated gently; and here Dr Home observes, that though these vomits are little used, from a mistaken notion of their severity, he never saw them operate with more violence than other vomits, or than he could have wished. The swelling diminished in consequence of the emetic and some external applications; and the cure was completed by bleeding and a decoction of mezereon root.\n\nGENUS CXXIV. DYSURIA."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v19_DIMENSIONS",
+        "headword": "DIMENSIONS",
+        "start_page": 284,
+        "end_page": 284,
+        "word_count": 801,
+        "volume_num": 19,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DIMENSIONS...' starts with 'D' but volume 19 covers S-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'DIMENSIONS' starts with 'D' but is surrounded by 'S' articles (p.284) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "| Length between the wing transom and a perpendicular from the rabbet of the stem at the height of breadth line | F. In. |\n| --- | --- |\n| Main half breadth moulded | 11 0 |\n| Half breadth at the height of breadth line at the stern | 7 6 |\n| Top-timber half breadth | 10 6 |\n| Height of the stem above the upper edge of the keel | 17 0 |\n| Height of the breadth line at the stem | 13 6 |\n| Height of the breadth line at the stern | 12 3 |\n| Upper height of breadth at the main frame | 7 4 |\n| Lower h",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v05_DISSERTATION_FIRST",
+        "headword": "DISSERTATION FIRST",
+        "start_page": 13,
+        "end_page": 16,
+        "word_count": 802,
+        "volume_num": 5,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'DISSERTATION FIRST' starts with 'D' but is surrounded by 'N' articles (p.13) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "PART II.\n\nIn the farther prosecution of the plan of which I traced the outline in the Preface to the First Part of this Dissertation, I find it necessary to depart considerably from the arrangement which I adopted in treating of the Philosophy of the seventeenth century. During that period, the literary intercourse between the different nations of Europe was comparatively so slight, that it seemed advisable to consider, separately and successively, the progress of the mind in England, in France,",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_DIVISION_BY_LOGARITHMS",
+        "headword": "DIVISION BY LOGARITHMS",
+        "start_page": 99,
+        "end_page": 99,
+        "word_count": 292,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DIVISION BY LOGARITH...' starts with 'D' but volume 12 covers L-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'DIVISION BY LOGARITHMS' starts with 'D' but is surrounded by 'L' articles (p.99) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Rule.\n\nSubtract the logarithm of the divisor from the logarithm of the dividend, and the number answering to the remainder will be the logarithm of the quotient required.\n\nObserving to change the sign of the index of the divisor from positive to negative, or from negative to positive; then take the sum of the indices if they be of the same name, or their difference when they have different signs, with the sign of the greater for the index to the logarithm of the quotient.\n\nAlso, when 1 is borrow",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_MULTIPLICATION_BY_LOGARITHMS",
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "end_page": 98,
+          "word_count": 120,
+          "text_end": "of the table, the natural number answering to their sum, and it will be the product required.\n\nObserving to add what is to be carried from the decimal part of the logarithm to the positive index or indices, or else subtract it from the negative.\n\nAlso adding the indices together when they are of the same kind, that is, both positive or both negative; but subtracting the less from the greater when the one is positive and the other negative, and prefixing the sign of the greater to the remainder."
+        },
+        "semantic": {
+          "article_id": "1823_v12_LOGARITHMS_s13",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "end_page": 100,
+          "word_count": 146,
+          "text_end": "ar, or 365 days, be 4.5, What will be the interest of 279.25l. for 274 days?\n\n| As | 100 | Comp. long. | 8.00000 |\n|----|-----|-------------|---------|\n| 365 |     |             | 7.43771 |\n| To | 279.25 |           | 2.44599 |\n| So is | 4.5 |           | 2.43775 |\n|     |     |           | 0.65321 |\n\nTo 9.4333\n\nHere, instead of subtracting the sum of the logarithms of 100 and 365, we add the arithmetical complement of the logarithms of these numbers, and subtract 20 from the sum of the indices."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_DRARGYRUS_MURIATUS",
+        "headword": "DRARGYRUS MURIATUS",
+        "start_page": 840,
+        "end_page": 840,
+        "word_count": 121,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DRARGYRUS MURIATUS...' starts with 'D' but volume 12 covers L-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "L. Muriate of mer-\ncury. Corrosive muriated mercury. Corrosive subli-\nmate. See Chemistry, N° 1736.\n\nPrepared by boiling two pounds of purified quicksil-\nver in two pounds and a half of sulphuric acid, in a glass\nvessel, over a sand bath, to dryness, triturating the dried\nmass when cold with four pounds of dried muriate of\nsoda, then subliming in a glass cucurbit with a heat\ngradually increased, and separating the sublimed matter\nfrom the scoriae.\n\nUsed as a sialagogue; dose one-eighth to one-fo",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_CALOMELAS",
+          "headword": "CALOMELAS",
+          "start_page": 840,
+          "end_page": 840,
+          "word_count": 77,
+          "text_end": "L. Submuriate of mercury. Sub-\nlimed mild muriate of mercury. Calomel. See Chemis-\ntry, N° 1742, where the process is much the same\nas that of the Edinburgh college.\n\nGiven in most cases where mercury is indicated.\nDose, as a diaphoretic or alterative, about a grain; as\na cathartic or anthelmintic, three to 10 grains; as a\nsialagogue, one or two grains twice a-day.\n\ne. Submuriatas Hydrargyri precipitatus, E. Precipita-\nHYDRARGYRUM MURIATUM MITE PRÆCIPITATUM, D. HYDRARGYRUS MURI-"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v13_DROPSY_OF_THE_ABDOMEN",
+        "headword": "DROPSY OF THE ABDOMEN",
+        "start_page": 461,
+        "end_page": 465,
+        "word_count": 4366,
+        "volume_num": 13,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DROPSY OF THE ABDOME...' starts with 'D' but volume 13 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Ascites, Sauv. gen. 288. Lin. 217. Vog. 314. Sag. gen. 115. Boerh. 1226. Hoffm. III. 322. Janck. 87. Dr Monro on the Dropsy, 1765. Milman, Animadversiones de Hydrope, 1779.\n\nDescription. This disease assumes three different forms: 1. When the water immediately washes the intestines. 2. When it is interposed between the abdominal muscles and peritoneum. Or, 3. When it is contained in sacs and hollow vesicles; in which case it is called the encysted dropsy. Some physicians of great reputation have",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v13_FALLING-SICKNESS",
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "end_page": 461,
+          "word_count": 29971,
+          "text_end": "employed with great caution, and in small doses. A dram of the dried leaves of the digitalis, macerated for four hours in half a pint of warm water, forms an infusion which may be given in doses of an ounce, and the dried powder of the leaves in doses of one or two grains: these doses may be gradually increased, and repeated twice or oftener in the day; but this requires to be done with great caution, lest severe vomiting, or other distressing symptoms, should take place.\n\nGENUS LXXIX. ASCITES."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v19_DRYDEN",
+        "headword": "DRYDEN",
+        "start_page": 176,
+        "end_page": 176,
+        "word_count": 62,
+        "volume_num": 19,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'DRYDEN...' starts with 'D' but volume 19 covers S-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'DRYDEN' starts with 'D' but is surrounded by 'S' articles (p.176) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "This animal was esteemed a delicacy by the ancients,\nand is eaten even at present by the Italians. Rondeleti-\nus gives us two receipts for the dressing, which may\nbe continued to this day. Athenaeus also leaves us the\nmethod of making an antique cuttle fish sausage; and\nwe learn from Aristotle, that those animals are in high-\nest season when pregnant.",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v19_SENTINEL",
+          "headword": "SENTINEL",
+          "start_page": 175,
+          "end_page": 176,
+          "word_count": 296,
+          "text_end": "is to be relie-\nved, and then punished according to the rules and ar-\nticles of war.\n\nA sentinel, on his post in the night, is to know no-\nbody but by the counter-sign: when he challenges, and\nis answered Relief, he calls out, Stand, Relief! ad-\nvance, corporal! upon which the corporal halts his men,\nand advances alone within a yard of the sentry's fire-\nlock (first ordering his party to rest, on which the sen-\ntry does the same), and gives him the counter-sign,\ntaking care that no one hear it."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_EA",
+        "headword": "EA",
+        "start_page": 826,
+        "end_page": 826,
+        "word_count": 192,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EA...' starts with 'E' but volume 12 covers L-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAMÆMELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC",
+        "surrounding_letter": "T"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_BENEDICTUS",
+          "headword": "BENEDICTUS",
+          "start_page": 826,
+          "end_page": 826,
+          "word_count": 15,
+          "text_end": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v15_EH",
+        "headword": "EH",
+        "start_page": 295,
+        "end_page": 340,
+        "word_count": 17871,
+        "volume_num": 15,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EH...' starts with 'E' but volume 15 covers N-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "IK will be a proportionable part of EC (the tri-\nangles HIK and HEC being similar): consequently\nIK will be the 28th part of FC. But MN will be the\nleast space into which the rays will be collected, as ap-\npears by their progress represented in the figure. Now\nMN is but about half of KL; and therefore it is about\nthe 56th part of the breadth of that part of the glass\nthrough which the rays pass; which was to be shown.\n\nSince therefore each point of the object will be re-\npresented in so large a",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v15_BA",
+          "headword": "BA",
+          "start_page": 282,
+          "end_page": 295,
+          "word_count": 15059,
+          "text_end": "ut a 28th\npart of the whole; so that the object-glass of a tele-\nscope cannot collect the rays which flow from any one\npoint in the object into less space than a circle whose\ndiameter is about the 56th part of the breadth of the\nglass.\n\nTo show this, let AB represent a convex lens, and\nlet CDF be a pencil of rays flowing from the point D;\nlet H be the point at which the least refrangible rays\nare collected to a focus; and I, that where the most\nrefrangible concur. Then, if IH be the 28th part of"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+        "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+        "start_page": 830,
+        "end_page": 830,
+        "word_count": 12,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ELECTARIUM MIMOSAE C...' starts with 'E' but volume 12 covers L-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ELECTARIUM MIMOSAE CATECHU COM' starts with 'E' but is surrounded by 'O' articles (p.830) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827,
+          "end_page": 829,
+          "word_count": 787,
+          "text_end": "pint of proof spirit, with a gentle heat for four days, then dissolving in the expressed tincture one ounce and a half of powdered socotrine aloes, and half an ounce of powdered scammony; and lastly drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_ELEMENTS_OF_BOTANY",
+        "headword": "ELEMENTS OF BOTANY",
+        "start_page": 73,
+        "end_page": 74,
+        "word_count": 1073,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ELEMENTS OF BOTANY...' starts with 'E' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "The parts of a plant which it is necessary for the young botanist first to know, are the flower and fruit. These include seven; the calyx, corolla, stamen, pistil, pericarp or seed-vessel, seed, and receptacle. We will describe these in the order which will make them most easily distinguished.\n\n1. The corolla, which in common language is called the flower, and in fruit-trees the blossom, is the part which is most beautifully coloured, which is of the finest texture, and is often odorous. It is t",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v04_BOTALLUS",
+          "headword": "BOTALLUS",
+          "start_page": 72,
+          "end_page": 73,
+          "word_count": 1115,
+          "text_end": "do the same; for we have strong reasons to believe that different writers use the same words in different senses from one another. Linnæus, indeed, has defined his botanical terms; but in his two works, Delineatio Plantarum and Philosophia Botanica, he sometimes defines the same word differently. Now we ought to know which of his definitions succeeding botanists have adopted. Besides almost every botanist introduces terms of his own, which we shall look for in vain in the definitions of Linnæus."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v18_ELIZABETH_HAVING_THUS_FOUND",
+        "headword": "ELIZABETH HAVING THUS FOUND",
+        "start_page": 793,
+        "end_page": 817,
+        "word_count": 25731,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ELIZABETH HAVING THU...' starts with 'E' but volume 18 covers R-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ELIZABETH HAVING THUS FOUND' starts with 'E' but is surrounded by 'S' articles (p.793) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "h having thus found means to sow dissension between the queen of Scots and her son, did not fail to make the best use of the quarrel for her own advantage. The pope, the duke of Guise, and the king of Spain, had concluded an alliance, called the holy league, for the extirpation of the Protestant religion all over Europe. Elizabeth was thrown into the greatest consternation on this account; and the idea of a counter association among the Protestant princes of Europe immediately suggested itself.",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v18_SCOTLAND",
+          "headword": "SCOTLAND",
+          "start_page": 775,
+          "end_page": 793,
+          "word_count": 19913,
+          "text_end": "raised his father from being my subject to be my husband. I ask from him nothing that is his; what I claim is my own; and if he persists in his course of impiety and ingratitude, I will bestow on him my malediction, and deprive him not only of all right to Scotland, but of all the dignity and grandeur to which he might succeed through me. My enemies shall not enjoy the advantages they expect from him. For to the king of Spain I will convey, in the amplest form, my claims, titles, and greatness.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v08_ES",
+        "headword": "ES",
+        "start_page": 777,
+        "end_page": 803,
+        "word_count": 19293,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ES' starts with 'E' but is surrounded by 'F' articles (p.777) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "and right ascension EA, turned into time. Put\nthe arch ES = x, the arch FA = v, which is to be con-\nsidered as a function of x, and put a for the cosine of\nthe angle E = 23° 28'. Then, by Spherical Trigono-\nmetry, in the right-angled spherical triangle EAS, we\nhave tan. EA = cos. E × tan. ES; therefore, to deter-\nmine x we have tan. v = a tan. x, and \\(y = x - v\\), a maxi-\nmum.\n\nFrom the second of these equations we get\n\n\\[\n\\frac{dy}{dx} = -v, \\quad \\text{and} \\quad \\frac{d^2y}{dx^2} = 1 - \\frac",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_EVOLUTION_BY_LOGARITHMS",
+        "headword": "EVOLUTION BY LOGARITHMS",
+        "start_page": 100,
+        "end_page": 100,
+        "word_count": 86,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EVOLUTION BY LOGARIT...' starts with 'E' but volume 12 covers L-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "RULE.\n\nDivide the logarithm of the number by the index of the root, and the number answering to the quotient is the root sought.\n\nWhen the index of the logarithm to be divided is negative, and does not exactly contain the divisor without some remainder, increase the index by such a number as will make it exactly divisible by the index of the root, carrying the units borrowed as so many tens to the left-hand place of the decimal, and then divide as in whole numbers.",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_PROPORTION_BY_LOGARITHMS",
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "end_page": 99,
+          "word_count": 283,
+          "text_end": "d, subtract 10 from the last sum of the indices.\n\nExamples.\n\nEx. 1. Find a fourth proportional to 72.34, 2.519, and 357.48.\n\n| Numbers | Logarithms |\n|---------|------------|\n| As 72.34 | 1.85938 |\n| To 2.519 | 0.40123 |\n| So is 357.48 | 2.55325 |\n|         | 2.95448 |\n| To 12.448 | 1.09510 |\n\nHere the logarithms of the second and third terms are added together, and the logarithm of the first term is subtracted from the sum; but by taking the arithmetical complement, the result will be the same."
+        },
+        "semantic": {
+          "article_id": "1823_v12_LOGARITHMS_s13",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "end_page": 100,
+          "word_count": 146,
+          "text_end": "ar, or 365 days, be 4.5, What will be the interest of 279.25l. for 274 days?\n\n| As | 100 | Comp. long. | 8.00000 |\n|----|-----|-------------|---------|\n| 365 |     |             | 7.43771 |\n| To | 279.25 |           | 2.44599 |\n| So is | 4.5 |           | 2.43775 |\n|     |     |           | 0.65321 |\n\nTo 9.4333\n\nHere, instead of subtracting the sum of the logarithms of 100 and 365, we add the arithmetical complement of the logarithms of these numbers, and subtract 20 from the sum of the indices."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v12_EXAMPLES_s3",
+        "headword": "EXAMPLES",
+        "start_page": 100,
+        "end_page": 114,
+        "word_count": 4581,
+        "volume_num": 12,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXAMPLES...' starts with 'E' but volume 12 covers L-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Ex. 1. Find the square root of 2.\n\n| Number. | Logarithm. |\n|---------|------------|\n| Power   | .2         |\n|         | 2)0.30103  |\n| Root    | 1.4142     |\n|         | 0.15051    |\n\nEx. 2. Find the 10th root of 365.\n\n| Number. | Logarithm. |\n|---------|------------|\n| Power   | 365        |\n|         | 10)2.56229 |\n| Root    | 1.804      |\n|         | 0.25023    |\n\nEx. 3. To find √.093.\n\n| Number. | Logarithm. |\n|---------|------------|\n| Power   | .093       |\n|         | 2)2.96848  |\n| Roo",
+        "surrounding_letter": "L"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v12_EVOLUTION_BY_LOGARITHMS",
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "end_page": 100,
+          "word_count": 86,
+          "text_end": "RULE.\n\nDivide the logarithm of the number by the index of the root, and the number answering to the quotient is the root sought.\n\nWhen the index of the logarithm to be divided is negative, and does not exactly contain the divisor without some remainder, increase the index by such a number as will make it exactly divisible by the index of the root, carrying the units borrowed as so many tens to the left-hand place of the decimal, and then divide as in whole numbers."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v13_EXCESSIVE_SWEATING",
+        "headword": "EXCESSIVE SWEATING",
+        "start_page": 490,
+        "end_page": 490,
+        "word_count": 64,
+        "volume_num": 13,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXCESSIVE SWEATING...' starts with 'E' but volume 13 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Ephidrosis, Sauv. gen. 258. Sag. gen. 194.\nSudor, Lin. 258.\nHydropedesis, Vog. 121.\n\nThis is generally symptomatic; and occurs in almost all fevers, but especially in the latter stages of the hectic. Sometimes it is a primary disease arising merely from weakness; and then easily admits of a cure by the use of the cinchona, the cold bath, and other tonics.\n\nGENUS CXVIII. EPIPHORA.",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v03_EXPLANATION",
+        "headword": "EXPLANATION",
+        "start_page": 812,
+        "end_page": 820,
+        "word_count": 6460,
+        "volume_num": 3,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXPLANATION...' starts with 'E' but volume 3 covers A-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Let A—B be a smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 5 square ledges glued thereon, each being half an inch asunder, half an inch wide, and half an inch high; which rising ledges represent our 5 lines of music, and their spaces: and the 2 outward lines, being made a little lower, may serve as leger lines on occasion. The cyphers represent so many holes bored into every line and space, half an inch asunder; wherein pegs of different shapes are to be set, to represent",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v03_BLIND",
+          "headword": "BLIND",
+          "start_page": 794,
+          "end_page": 812,
+          "word_count": 19776,
+          "text_end": "les and practice, than he would otherwise be.\n\nThere is a hint of such tangible signs given in Tansure's Musical Grammar, p. 93, and which, though (like the rest of the book) obscure and indigested, may be improved and applied with advantage.\n\nFor the sake of those in whose hands it may not be, we quote the passage at length.\n\n\"As it is the pleasure of the Almighty, that some persons are destitute of eye-sight; in like manner it is musical no-his-tation.\"\nA New Music-Table for such as are Blind."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v10_EXPLANATION_OF_FIGURES",
+        "headword": "EXPLANATION OF FIGURES",
+        "start_page": 391,
+        "end_page": 392,
+        "word_count": 340,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXPLANATION OF FIGUR...' starts with 'E' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Fig. 1. Ascaris Lumbricoides, entire, and nearly of its natural size; a, the head; b, the tail; c, the depressed band; d, the punctiform aperture; e, the line extending from the head to the tail; f, the gyrated apparatus as it appears through the skin of the worms.\n\nFig. 2. Represents the viscera of the worm in their natural situation; a, the head; b, the gullet; c, the intestinal canal; d, the lines of the body of the worm; e, the uterus, and its convoluted apparatus.\n\nFig. 3. Ascaris Vermicula",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v10_HELMINTHOLOGY_s4",
+          "headword": "HELMINTHOLOGY",
+          "start_page": 362,
+          "end_page": 391,
+          "word_count": 21696,
+          "text_end": "all into convulsions and die.\n\nThe same rule seems to hold good in these minute creatures, which is observable in the larger animals, viz. that the larger kinds are less numerous than such as are smaller; while the smallest of all are found in such multitudes, that there seem to be myriads for one of the others. They increase in size, like other animals, from their birth until they have attained their full growth; and when deprived of proper nourishment, they in like manner grow thin and perish."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v04_EXPLANATION_OF_SIGNS",
+        "headword": "EXPLANATION OF SIGNS",
+        "start_page": 93,
+        "end_page": 93,
+        "word_count": 20,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXPLANATION OF SIGNS...' starts with 'E' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "- Annual.\n- Biennial.\n- Perennial.\n- Tree or shrub.\n- I, II, III, January, February, March, &c.\n\nK CLASSIFICATION.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1823_v14_EXPLANATION_OF_THE_TABLES",
+        "headword": "EXPLANATION OF THE TABLES",
+        "start_page": 801,
+        "end_page": 810,
+        "word_count": 8410,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'EXPLANATION OF THE T...' starts with 'E' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'EXPLANATION OF THE TABLES' starts with 'E' but is surrounded by 'N' articles (p.801) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "TABLE I. To reduce points of the compass to degrees, and conversely.\n\nThe two first and two last columns of this table contain the several points and quarter-points of the compass; the third column contains the corresponding number of points and quarters; and the fourth, the degrees &c. answering thereto. The manner of using this table is obvious.\n\nTABLE II. The miles and parts of a mile in a degree of longitude at every degree of latitude.\n\nThe first column contains degrees of latitude, and the",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1823_v14_NAVIGATION",
+          "headword": "NAVIGATION",
+          "start_page": 737,
+          "end_page": 801,
+          "word_count": 40241,
+          "text_end": "ut also in resolving most other nautical problems. See Sliding-Gunter.\n\nIt will be found very satisfactory to lay down the ship's place on a chart at the noon of each day, and her situation with respect to the place bound to, and the nearest land, will be obvious. The bearing and distance of the intended or any other port, and other requisites, may be easily found by the chart as already explained; and indeed, every day's work may be performed on the chart; and thus the use of tables superseded."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}

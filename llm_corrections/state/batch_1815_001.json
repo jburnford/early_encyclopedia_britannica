@@ -1,0 +1,1688 @@
+{
+  "edition_year": 1815,
+  "batch_num": 1,
+  "total_batches": 6,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1815_v14_ABCDEF",
+        "headword": "ABCDEF",
+        "start_page": 21,
+        "end_page": 23,
+        "word_count": 2444,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABCDEF...' starts with 'A' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABCDEF' starts with 'A' but is surrounded by 'M' articles (p.21) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "(fig. 24.) represents the body of the solar microscope; one part thereof, ABCD, is conical; the other, CDEF, is cylindrical. The cylindrical part receives the tube G of the opaque box, or the tube Y of the single microscope. At the large end AB of the conical part, there is a lens to receive the rays from the mirror, and reflect them towards the box HIKL. NOP is a brass frame; which is fixed to the moveable circular plate a b c; in this frame there is a plane mirror, to reflect the solar rays on",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v17_ABSOLUTE_IMPULSE",
+        "headword": "ABSOLUTE IMPULSE",
+        "start_page": 794,
+        "end_page": 794,
+        "word_count": 350,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ABSOLUTE IMPULSE...' starts with 'A' but volume 17 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ABSOLUTE IMPULSE' starts with 'A' but is surrounded by 'R' articles (p.794) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e impulse means the actual pressure on the impelled surface, arising from the action of the fluid, whether striking the surface perpendicularly or obliquely; or it is the force impressed on the surface, or tendency to motion which it acquires, and which must be opposed by an equal force in the opposite direction, in order that the surface may be maintained in its place. It is of importance to keep in mind, that this pressure is always perpendicular to the surface. It is a proposition founded on",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v17_RESISTANCE",
+          "headword": "RESISTANCE",
+          "start_page": 790,
+          "end_page": 793,
+          "word_count": 3317,
+          "text_end": "therefore, we shall demonstrate anything concerning the impulsion of a fluid, estimated in the direction of its motion, we must consider it as demonstrated concerning the resistance of a quiescent fluid to the motion of that body, having the same velocity in the opposite direction. The determination of these impulsions being much easier than the determination of the motions communicated by the body to the particles of the fluid, this method will be followed in most of the subsequent discussions."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ACACIA",
+        "headword": "ACACIA",
+        "start_page": 765,
+        "end_page": 774,
+        "word_count": 4962,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACACIA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACACIA' starts with 'A' but is surrounded by 'D' articles (p.765) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "inspissated juice of, 1.5153\nAcid, nitric, muriatic, red acetous, white acetous, distilled acetous, acetic, sulphuric, highly concentrated, nitric, highly concentrated, fluoric, formic, phosphoric, citric, arsenic, of oranges, of gooseberries, of grapes, Actynolite, glassy, Ether, sulphuric, nitric, muriatic, acetic, Agate, oriental, onyx, speckled, cloudy, Kirwan.\n| Substance                                      | Specific Gravity |\n|-----------------------------------------------|-------------",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_ACCORDING_TO_SOME_AUTHORS_THE_WORD_MUSULMAN",
+        "headword": "ACCORDING TO SOME AUTHORS THE WORD MUSULMAN",
+        "start_page": 615,
+        "end_page": 615,
+        "word_count": 112,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 7 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACCORDING TO SOME AU...' starts with 'A' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACCORDING TO SOME AUTHORS THE ' starts with 'A' but is surrounded by 'M' articles (p.615) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "g to some authors the word Musulman signifies saved, that is, predestinated: and hence the Mahometans give themselves the appellation, as believing they are all predestinated to salvation.—Marius is more particular as to the origin of the name; which he derives from the Arabic مسلم, musalem, \"saved, snatched out of danger:\" the Mahometans, he observes, establishing their religion by fire and sword, massacred all those who would not embrace it, and granted life to all that did, calling them Musul",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": {
+          "article_id": "1815_v14_MUSULMAN",
+          "headword": "MUSULMAN",
+          "start_page": 615,
+          "end_page": 615,
+          "word_count": 99,
+          "text_end": "r orthodox.\" See Mahometanism.\n\nIn Arabic, the word is written مسلم, Muslem, or Musolman. The appellation was first given to the Saracens, as is observed by Leunclavins.—There are two kinds of Musulmans, very adverse to each other; the one called Sonnites, and the other Shiites.—The Sonnites follow the interpretation of the Alcoran given by Omar; the Shiites are the followers of Ali. The subjects of the king of Persia are Shiites; and those of the grand signior, Sonnites. See Sonna, and Alcoran."
+        }
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ACTINIA",
+        "headword": "ACTINIA",
+        "start_page": 394,
+        "end_page": 394,
+        "word_count": 229,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ACTINIA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ACTINIA' starts with 'A' but is surrounded by 'E' articles (p.394) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "p. 335 No. 39  \n*Actonium*,  \nib. 77  \n*Amphitrite*,  \nib. 61  \n*Antipathes*,  \nib. 75  \n*Aphrodita*,  \nib. 60  \n*Aculeata*,  \n333  \n*Argus, sea*,  \n337  \n*Ascarides*,  \n334  \n*Ascaris*,  \nlumbricoides,  \nvermicularis,  \nmammalium,  \navium,  \nreptilium,  \npiscium,  \nlumbrii,  \n340  \n*Ascidia*,  \n335  \n*papillosa*,  \n348  \n*intestinalis*,  \nib.  \n*Asterias*,  \n336  \n*caput medusae*,  \n355\n\n### B.\n\n*Bacillaria*,  \n337  \n*Brachionus*,  \nib. 85  \n*striatus*,  \n362  \n*patina*,  \nib.  \n*Barsaria*,  \n3",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_EXPLANATION_OF_FIGURES",
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393,
+          "end_page": 393,
+          "word_count": 333,
+          "text_end": "chin.\n\nFig. 14. Tubularia Magnifica, as it proceeds from its native rocks; a, the animal with its tentacula fully expanded from the tube; b, another with the tentacula collapsed; c, one with the tentacula nearly withdrawn into the tube; d, the animal with the tentacula entirely withdrawn; e, e, e, probably actinia.\n\nFig. 15. Hydra Grisea, or Fresh-water Polype, magnified; a, the mouth; b, the attached part; c, c, c, &c. the arms; c, the transparent body.\n\nFig. 16. Vorticella Polypina, magnified."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v12_ADDENDUM",
+        "headword": "ADDENDUM",
+        "start_page": 847,
+        "end_page": 847,
+        "word_count": 136,
+        "volume_num": 12,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ADDENDUM...' starts with 'A' but volume 12 covers L-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ADDENDUM' starts with 'A' but is surrounded by 'C' articles (p.847) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The following was omitted among the preparations of iron.\n\ng. Carbonas Ferri præcipitatus, E. Precipitated carbonate of iron.\n\nPrepared by decomposing a solution of sulphate of iron by a solution of carbonate of soda; washing and drying the precipitate.\n\nSimilar in its virtues to 961. Dose five to 30 grains.\n\nThe space allotted to this article was so small, and the time for preparing it so short, that it is, of necessity, much less full and complete than it might otherwise have been. As it was i",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v12_SULPHAS_CUPRI",
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845,
+          "end_page": 847,
+          "word_count": 1215,
+          "text_end": "oncentration in which it is applied. When applied under the form of a stream, or continued discharge of electric fluid, its effects are the most gentle; but in general, when applied in the form of sparks, it is more active, but its effects are more confined; and when applied by way of a shock, it acts very powerfully, producing an agitation of the muscles of the part through which the shock is discharged; and if the shock is violent, the whole body partakes of the agitation. Electricity\nPart IV."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_AGO",
+        "headword": "AGO",
+        "start_page": 64,
+        "end_page": 70,
+        "word_count": 6960,
+        "volume_num": 10,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AGO...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AGO' starts with 'A' but is surrounded by 'I' articles (p.64) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "into the past participle AGONE OF GONE. ASUNDER he derives from ASUNDERED, separated; the past participle of the Anglo-Saxon verb asundrian: a word which, in all its varieties, is to be found, he says, in all the northern tongues; and is originally from sond, i.e. sand. TO WIT, from WITTAN to know; as videlicet and scilicet, in Latin, are abbreviations of videor-licet and scire-licet. NEEDS, he resolves into NEED IS, used parenthetically; as, \"I must needs do such a thing;\"—\"I must (need is) do",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_TRISTIOR",
+          "headword": "TRISTIOR",
+          "start_page": 63,
+          "end_page": 64,
+          "word_count": 1692,
+          "text_end": "are resolved into those parts of speech which we have already considered, as honesty into honest-like, vastly, into vast-like, &c. so that when we say of a man he is honestly industrious, we affirm that he is honest-like industrious, or that his industry has the appearance of being honest. Adverbs of a different termination the same acute writer resolves thus; AGHAST into the past participle AGAZED;\n\n\"The French exclaimed,—the devil was in arms.\nAll the whole army stood agazed on him.\" SHAKESPE."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v17_AIKENSIDE",
+        "headword": "AIKENSIDE",
+        "start_page": 827,
+        "end_page": 828,
+        "word_count": 495,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AIKENSIDE...' starts with 'A' but volume 17 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AIKENSIDE' starts with 'A' but is surrounded by 'R' articles (p.827) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Mankind in general would willingly dispense with these troublesome visits of the dead. To prevent the return of the zumbi or the ghoul, some nations of Africa use many superstitious rites*; and Kolben tells us, *Voyage to Angola*, that the frightened Hottentots leave in the hut where a person has died all the utensils and furniture, left the angry ghoul, incensed at their avarice, should haunt them in their dreams, and infest them in the night.\n\nDivines and moralists have laboured to show that t",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v17_RESURRECTION",
+          "headword": "RESURRECTION",
+          "start_page": 826,
+          "end_page": 827,
+          "word_count": 978,
+          "text_end": "w it might be handed down by tradition to very remote ages, among such of his descendants as were not scattered over the face of the earth in small and savage tribes.—In the course of its progress, it would frequently be new.\nAnd softer curs, that lie and sleep at home,\nDo often roufe, and walk about the room,\nAnd bark, as if they saw some strangers come.\nAnd birds will start, and seek the woods, by night;\nWhene'er the fancy'd hawk appears in flight,\nWhene'er they see his wing or hear him fight."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_ALPHABETICAL_EXPLANATION_OF_BOTANICAL_TERMS",
+        "headword": "ALPHABETICAL EXPLANATION OF BOTANICAL TERMS",
+        "start_page": 340,
+        "end_page": 344,
+        "word_count": 3363,
+        "volume_num": 4,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ALPHABETICAL EXPLANA...' starts with 'A' but volume 4 covers B-B",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ALPHABETICAL EXPLANATION OF BO' starts with 'A' but is surrounded by 'C' articles (p.340) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "A.\n\nAbrupt (abruptus), when a winged leaf ends without a little leaf.\n\nAcorn, the seed of the oak.\n\nAcotyledones, seeds without lobes, which produce no seminal leaves.\n\nAcute (acutus), tapering to a slender, but not thorny termination.\n\nAir-bag (folliculus), a distended seed-vessel opening on one side.\n\nAlternate (alternans), applied to branches, leaves, or flowers, springing out regularly one above another.\n\nAndrogynous, having some flowers on the same plant, bearing stamens, but no pistils; an",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_HISTORY_OF_BOTANY",
+          "headword": "HISTORY OF BOTANY",
+          "start_page": 309,
+          "end_page": 340,
+          "word_count": 34201,
+          "text_end": "a good microscope. These plants are very astringent, and some of them are used for stopping violent hemorrhagies. As a vegetable food they are at best suspicious: some of them are rank poison.\n\nDubii ordinis. Under this name Linnæus classes all the other genera which cannot be reduced to any of the above-mentioned orders, and which are near 120 in number.\n\nFor a historical view of the different systems of botany, and of the progress and latest improvements of the science, see Botany, Supplement."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v13_AMONG_OTHER",
+        "headword": "AMONG OTHER",
+        "start_page": 476,
+        "end_page": 476,
+        "word_count": 169,
+        "volume_num": 13,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMONG OTHER...' starts with 'A' but volume 13 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "g other means of preventing scurvy, Captain Cook had also a liberal supply of portable soup; of which the men had generally an ounce, three days in the week, boiled up with their pease; and sometimes it was served to them oftener; and when they could get fresh greens, it was boiled up with them, and made such an agreeable mess, that it was the means of making the people eat a greater quantity of greens than they would otherwise have done. And what was still of further advantage, they were furnis",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v13_WHEN_THE_PATIENT_CAN_BY_NO_OTHER",
+          "headword": "WHEN THE PATIENT CAN BY NO OTHER",
+          "start_page": 465,
+          "end_page": 476,
+          "word_count": 12885,
+          "text_end": "val of a quantity of sour kraut, it was effectually overcome. Care, however, must be bestowed, that this article be properly prepared and properly kept. When due attention is paid to these particulars, it may be preserved in good condition for many months; and is considered both by sailors and soldiers as a very acceptable addition to their salt provisions. But when served out to them in a putrid state, it is not only highly disagreeable to the taste, but probably also pernicious in its effects."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_AMPUTATION_IS_NOT_THE_ONLY",
+        "headword": "AMPUTATION IS NOT THE ONLY",
+        "start_page": 616,
+        "end_page": 616,
+        "word_count": 329,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMPUTATION IS NOT TH...' starts with 'A' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AMPUTATION IS NOT THE ONLY' starts with 'A' but is surrounded by 'M' articles (p.616) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "n is not the only means of accomplishing this end. Formerly, the growth of the testicles was prevented, and their organization destroyed by simple rubbing, while the child was put into a warm bath made of a decoction of plants. Some pretend that by this species of castration the life is in no danger. Amputation of the testicles is not attended with much danger; but complete amputation of the external parts of generation is often fatal. This operation can only be performed on children from seven",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v14_MUTILATION",
+          "headword": "MUTILATION",
+          "start_page": 615,
+          "end_page": 616,
+          "word_count": 201,
+          "text_end": "who have nothing in view but the improvement of a vain talent, or the formation of a voice which disfigures nature, as was the case formerly in Italy, are contented with cutting away the testicles. But in some countries of Asia, especially among the Turks, and in a part of Africa, those whom jealousy inspires with distrust would not think their wives safe in the custody of such eunuchs: They employ no slaves in their feraglions who have not been deprived of all the external parts of generation."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v18_AMUSEMENTS_OF_SCIENCE_s8",
+        "headword": "AMUSEMENTS OF SCIENCE",
+        "start_page": 593,
+        "end_page": 594,
+        "word_count": 632,
+        "volume_num": 18,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AMUSEMENTS OF SCIENC...' starts with 'A' but volume 18 covers R-S",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AMUSEMENTS OF SCIENCE' starts with 'A' but is surrounded by 'S' articles (p.593) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "In our treatise on PNEUMATICS, we have related several entertaining experiments, illustrating the principles of that science, such as experiments proving the fluidity of the air in No 52; that of Hero's fountain in No 54; experiments illustrating the application of Pneumatic hydrostatics to air, No 57, et seq.; a great variety of experiments with the air pump, No 160; the experiment of the syphon fountain, No 178; and experiments on the compressibility and expansibility of the air, No 196, &c. W",
+        "surrounding_letter": "S"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v13_ANGINA_PECTORIS",
+        "headword": "ANGINA PECTORIS",
+        "start_page": 502,
+        "end_page": 504,
+        "word_count": 1946,
+        "volume_num": 13,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANGINA PECTORIS...' starts with 'A' but volume 13 covers M-M",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Dr Heberden was the first who described this disease, though it is an extremely dangerous, and, by his account, not very rare affection. It seizes those who are subject to it when they are walking, and particularly when they walk soon after eating, with a most disagreeable and painful sensation in the breast, which seems to threaten immediate destruction; but the moment they stand still, all the uneasiness vanishes. In all other respects the patients at the beginning of this disorder are well, a",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v13_DIFFICULTY_OF_DISCHARGING_URINE",
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498,
+          "end_page": 502,
+          "word_count": 4544,
+          "text_end": "le use of external applications; and therefore more properly fall under the article Surgery. To this, therefore, we shall refer the genera which fall under the three last orders of the class of locales, viz. the tumores, ectopie, and dialyseis; and we shall add, by way of Appendix, a few observations on some important affections to which Dr Cullen has not given a place in his system, or which practitioners in general are not agreed in referring to any one particular genus which he has mentioned."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ANOMIA",
+        "headword": "ANOMIA",
+        "start_page": 354,
+        "end_page": 355,
+        "word_count": 22,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANOMIA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "PECTEN.\n\n2. Equivalves,\nII. WORMS.\n\nA. Having external organs fitted for respiration.\n\na. Furnished with bristles on the side of the body.",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_HELMINTHOLOGY",
+          "headword": "HELMINTHOLOGY",
+          "start_page": 351,
+          "end_page": 354,
+          "word_count": 1431,
+          "text_end": "s of that celebrated naturalist, supersede the Linnaean classification. Cuvier has given a tabular view of his classification, at the end of the first volume of his Comparative Anatomy, and a more detailed account in his *Tableau Élémentaire d'Histoire Naturelle*. He arranges the vermes of Linnaeus under three heads; MOLLUSCA, Worms, and Zoophytes. The following is a translation of the tables.\n\nI. MOLLUSCA.\n\nA. Head furnished with Tentacula that serve for Feet.\n\nFamily 1. CEPHALOPODA.\n\na. Naked."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v17_ANTISTROPHE_III",
+        "headword": "ANTISTROPHE III",
+        "start_page": 16,
+        "end_page": 16,
+        "word_count": 67,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ANTISTROPHE III...' starts with 'A' but volume 17 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Tho' for long intervals obscure'd, again\nOft-times the seeds of lineal worth appear.\nFor neither can the furrow'd plain\nFull harvest yield with each returning year;\nNor in each period will the pregnant bloom\nInvest the smiling tree with rich perfume.\nSo, barren often, and inglorious, pass\nThe generations of a noble race;\nWhile nature's vigour, working at the root,\nIn after-ages swells, and blossoms into fruit.",
+        "surrounding_letter": "V"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v17_ARGUMENT",
+          "headword": "ARGUMENT",
+          "start_page": 15,
+          "end_page": 15,
+          "word_count": 672,
+          "text_end": "are the empire of the gods!\nO virgin Vesta! to thy dread abodes,\nLo! Arìstagoras directs his pace!\nReceive and hear thy sacred sceptre place\nHim, and his colleagues, who, with honest zeal,\nO'er Tenedos preside, and guard the public weal.\n\nANTISTROPHE I.\n\nAnd lo! with frequent off'rings, they adore\nThee*, first invok'd in every solemn pray'r!\nTo thee unmix'd libations pour,\nAnd fill with od'rous fumes the fragrant air.\n\n* It was usual in solemn sacrifices and prayers to begin with invoking Vesta."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v06_APHORISMS",
+        "headword": "APHORISMS",
+        "start_page": 99,
+        "end_page": 101,
+        "word_count": 2804,
+        "volume_num": 6,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'APHORISMS...' starts with 'A' but volume 6 covers C-C",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'APHORISMS' starts with 'A' but is surrounded by 'C' articles (p.99) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "1. All the colours in nature proceed from the rays of light.\n2. There are seven primary colours; which are red, orange, yellow, green, blue, indigo, and violet.\n3. Every ray of light may be separated into the seven primary colours.\n4. The rays of light in passing through the same medium have different degrees of refrangibility.\n5. The difference in the colours of light arises from its different refrangibility: that which is the least refrangible producing red; and that which is the most refrangi",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_APHRODITA",
+        "headword": "APHRODITA",
+        "start_page": 355,
+        "end_page": 355,
+        "word_count": 23,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'APHRODITA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Terebella.\nNereis.\nSerpula.\nPenicillus.\nSiliquaria.\nAmphitrite.\nDentalium.\n\nB. Having no external organs of respiration.\n\na. With bristles on the sides of the body.",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_SEGARETUS",
+          "headword": "SEGARETUS",
+          "start_page": 354,
+          "end_page": 354,
+          "word_count": 11,
+          "text_end": "APLYSIA.\n\nb. With an apparent Shell.\n\na. In several pieces. Multivalves."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v07_ARCHITECTOR_ROBERTO_ADAM",
+        "headword": "ARCHITECTOR ROBERTO ADAM",
+        "start_page": 578,
+        "end_page": 588,
+        "word_count": 11492,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARCHITECTOR ROBERTO ...' starts with 'A' but volume 7 covers C-E",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARCHITECTOR ROBERTO ADAM' starts with 'A' but is surrounded by 'E' articles (p.578) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Q. F. F. Q. S.\n\nThe building went on rapidly for some time; but the funds being far from sufficient for the extent of the plan, it was necessarily stopped, and remained for many years a useless pile resembling a ruin. At length in 1815, by the exertions of Sir John Marjoribanks, member for the city, a grant of 10,000l. per annum for seven years was obtained from parliament, to be expended under the direction of commissioners appointed in the bill. With this aid the western side of the building h",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v08_AREWELL-CAFE",
+        "headword": "AREWELL-CAFE",
+        "start_page": 441,
+        "end_page": 441,
+        "word_count": 14,
+        "volume_num": 8,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AREWELL-CAFE...' starts with 'A' but volume 8 covers E-F",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AREWELL-CAFE' starts with 'A' but is surrounded by 'F' articles (p.441) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "the most southerly promontory of Greenland, in W. Long. 50°, and N. Lat. 60°.",
+        "surrounding_letter": "F"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v08_FANTASIA",
+          "headword": "FANTASIA",
+          "start_page": 440,
+          "end_page": 441,
+          "word_count": 57,
+          "text_end": "in the Italian music, signifies fancy; and is used for a composition, wherein the composer ties himself to no particular time, but ranges according as his fancy leads, amidst various movements, different airs, &c. This is otherwise called the capricious style: before sonatas were used, there were many of this kind, some of which remain even now."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ARGONAUTA",
+        "headword": "ARGONAUTA",
+        "start_page": 354,
+        "end_page": 354,
+        "word_count": 24,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARGONAUTA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "NAUTILUS.\n\nB. Head free, and crawling on the belly.\n\nFam. 2. GASTEROPODA.\n\na. Having no shell, or having the shell concealed by the flesh.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_ANOMIA",
+          "headword": "ANOMIA",
+          "start_page": 354,
+          "end_page": 355,
+          "word_count": 22,
+          "text_end": "PECTEN.\n\n2. Equivalves,\nII. WORMS.\n\nA. Having external organs fitted for respiration.\n\na. Furnished with bristles on the side of the body."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v17_ARGUMENT",
+        "headword": "ARGUMENT",
+        "start_page": 15,
+        "end_page": 15,
+        "word_count": 672,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARGUMENT...' starts with 'A' but volume 17 covers P-R",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Pindar opens this ode with an invocation to Vesta (the goddess who presided over the courts of justice, and whose statue and altar were for that reason placed in the town-halls, or Prytaneum, as the Greeks called them), beseeching her to receive favourably Arìstagoras and his colleagues, who were then coming to offer sacrifices to her, upon their entering on their office of Prytans or magistrates of Tenedos; which office continuing for a year, he begs the goddess to take Arìstagoras under her pr",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v16_ARMSTRONG",
+        "headword": "ARMSTRONG",
+        "start_page": 506,
+        "end_page": 513,
+        "word_count": 8634,
+        "volume_num": 16,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARMSTRONG...' starts with 'A' but volume 16 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARMSTRONG' starts with 'A' but is surrounded by 'P' articles (p.506) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Even the accurate Dr Whytt, to whom the proper distinction between irritability and sensibility must have been familiar, and by whom it is in general strictly regarded, sometimes falls into this inaccuracy. He speaks, in his work on nervous diseases, of \"a delicate or easily irritable nervous system.\" In fact, this confusion of irritability with sensibility, appears to be a stumbling block to most physiological writers. We shall presently inquire how far they are independent of each other.\n\nThe",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v13_ARTHRODYNAIA",
+        "headword": "ARTHRODYNAIA",
+        "start_page": 358,
+        "end_page": 365,
+        "word_count": 6498,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ARTHRODYNAIA...' starts with 'A' but volume 13 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ARTHRODYNAIA' starts with 'A' but is surrounded by 'M' articles (p.358) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "or Chronic Rheumatism.\n\nRheumatismus chronicus Auctorum.\n\nDescription. When the pyrexia attending the acute rheumatism has ceased; when the swelling and redness of the joints are entirely gone, but pains still continue to affect certain joints, which remain stiff, feel uneasy upon motion, changes of weather, or in the night time only, the disease is then called the chronic rheumatism, as it often continues for a very long time.\n\nThe limits between the acute and chronic rheumatisms are not always",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ASCIDIA",
+        "headword": "ASCIDIA",
+        "start_page": 354,
+        "end_page": 354,
+        "word_count": 23,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASCIDIA...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "SALPA.\n\nPTEROTRACHEA.\n\nTHALIA.\n\nb. With a cloak, and furnished with Shells.\n\na. Open anteriorly, having no reticulated Feelers, nor ciliated arms.\n\n1. Inequivalves.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_ARGONAUTA",
+          "headword": "ARGONAUTA",
+          "start_page": 354,
+          "end_page": 354,
+          "word_count": 24,
+          "text_end": "NAUTILUS.\n\nB. Head free, and crawling on the belly.\n\nFam. 2. GASTEROPODA.\n\na. Having no shell, or having the shell concealed by the flesh."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_ASTERIAS",
+        "headword": "ASTERIAS",
+        "start_page": 355,
+        "end_page": 355,
+        "word_count": 18,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ASTERIAS...' starts with 'A' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Holothuria.\nSipunculus.\n\nb. Having a fleshy or gelatinous covering, and the intestines adhering within the body. Urtica marina.",
+        "surrounding_letter": "O"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_APHRODITA",
+          "headword": "APHRODITA",
+          "start_page": 355,
+          "end_page": 355,
+          "word_count": 23,
+          "text_end": "Terebella.\nNereis.\nSerpula.\nPenicillus.\nSiliquaria.\nAmphitrite.\nDentalium.\n\nB. Having no external organs of respiration.\n\na. With bristles on the sides of the body."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v07_ATMOSPHERICAL_ELECTRICITY",
+        "headword": "ATMOSPHERICAL ELECTRICITY",
+        "start_page": 826,
+        "end_page": 849,
+        "word_count": 25700,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATMOSPHERICAL ELECTR...' starts with 'A' but volume 7 covers C-E",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATMOSPHERICAL ELECTRICITY' starts with 'A' but is surrounded by 'E' articles (p.826) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "THE phenomena of electricity, that we have hitherto described, are sufficiently curious, and many of them extremely interesting; but they are trifling, when compared with those that are now to come under our consideration. In the present part of our article, we are to view the electric fluid as one of the principal agents, employed to produce some of the most remarkable and astonishing phenomena of nature. We are about to prove, by a series of the most satisfactory experiments, that thunder and",
+        "surrounding_letter": "E"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v13_ATROPHIA",
+        "headword": "ATROPHIA",
+        "start_page": 527,
+        "end_page": 527,
+        "word_count": 31,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'ATROPHIA...' starts with 'A' but volume 13 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'ATROPHIA' starts with 'A' but is surrounded by 'M' articles (p.527) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Gen. 70. 333\n\nAbortus,\nAbscess of the lungs,\nAcute rheumatism,\nAcrimony of the blood,\nAdynamia,\nEgyptian physicians,\nEsculapius,\nEtius,\nAlexander,\n\nN° 247\n186\n205\n103\n271\n2\n4\n43\n44\nAmentia,",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v13_MEDICAL_POLICE",
+          "headword": "MEDICAL POLICE",
+          "start_page": 523,
+          "end_page": 527,
+          "word_count": 3774,
+          "text_end": "indulged, particularly in very advanced age.\n\nWith regard to the general regimen of diet, it has always been held as a rule, that the softer and milder kinds of aliment are most proper for children and younger subjects: that grown persons should eat what is more substantial; and old people lessen their quantity of solid food, and increase that of their drink both of the diluent and cordial kind. For full information on the subject of Diet and Regimen, see the article Dietetics in the Supplement."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_AUCUBA",
+        "headword": "AUCUBA",
+        "start_page": 288,
+        "end_page": 298,
+        "word_count": 7082,
+        "volume_num": 4,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AUCUBA...' starts with 'A' but volume 4 covers B-B",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AUCUBA' starts with 'A' but is surrounded by 'C' articles (p.288) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "One species; viz. japonica. Japan.\n\n1328. LITTORELLA.\n\nOne species; viz. * lacustris.\n\n1275. CICCA.\n\nOne species; viz. disticha. India.\n\n1052. BETULA, or Birch-tree.\n\nEight species; viz. * alba, * alnus, * nana, dalecarlica, nigra, lenta, pumila, incana. Europe, N. America.\n\n1053. BUXUS, or Box-tree.\n\nOne species; viz. sempervirens.—The wood is very hard and smooth, and not apt to warp, and therefore well adapted for the use of the turner. Combs, mathematical instruments, knife handles, and butt",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_CLASSIS_XXI",
+          "headword": "CLASSIS XXI",
+          "start_page": 281,
+          "end_page": 288,
+          "word_count": 5173,
+          "text_end": "a, triandra. Jam.\n\n1048. TRAGIA.\n\nSix species; viz. volubilis, involucrata, mercurialis, urens, chamælia, cannabina. India, Virg. Carolina.\n\n1049. HERNANDIA, or Jack in-a-box.\n\nTwo species; viz. sonora, ovigera. W. Indies, S. America.\n\n1050. PHYLLANTHUS, or Sea-side Laurel.\n\nSeven species; viz. grandifolia, niruri, urinaria, baccaiformis, racemosa, emblica, maderaspatensis. Arab. E. and W. Ind. Carolina.\n\nORDER IV. TETRANDRIA.\n\n1274. SERPICULATA.\n\nTwo species; viz. * verticillata, repens. India."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v06_AUFONIUS_PROPOSES_THE_SAME",
+        "headword": "AUFONIUS PROPOSES THE SAME",
+        "start_page": 829,
+        "end_page": 829,
+        "word_count": 275,
+        "volume_num": 6,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AUFONIUS PROPOSES TH...' starts with 'A' but volume 6 covers C-C",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AUFONIUS PROPOSES THE SAME' starts with 'A' but is surrounded by 'C' articles (p.829) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "s proposes the same means to Paulinus in the Cryptography, two following verses:\n\nLaete incide notas; aerefens charta tenebit\nSemper inaspiusas; prudentur scripta favillis.\n\nEpit. xxiii.\n\nBut it would appear, that the commentators on this poet have mistaken the meaning of the word favilla, which is used here to signify fuligo, or soot; and in the same sense it is often employed by other poets. Columella, speaking of the method of preserving plants from insects with soot, calls it nigra favilla.",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v06_CRYPTOGAMIA",
+          "headword": "CRYPTOGAMIA",
+          "start_page": 828,
+          "end_page": 829,
+          "word_count": 32,
+          "text_end": "(from κρυπτός, occultus, \"concealed,\" and νύμφη, nupia, \"nuptials\"), the 24th class in the Linnaean system, comprehending those plants whose fructification is concealed, either through minute-ness, or within the fruit. See Botany Index."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v09_AUGUST",
+        "headword": "AUGUST",
+        "start_page": 470,
+        "end_page": 477,
+        "word_count": 7029,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AUGUST...' starts with 'A' but volume 9 covers F-G",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AUGUST' starts with 'A' but is surrounded by 'F' articles (p.470) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Sect. I. Kitchen Garden.\n\nSow some prickly-seeded, or triangular-leaved spi-Sow nach, for a winter and spring crop; for though the round-seeded produces larger and more succulent leaves, the prickly-seeded is to be preferred now, because it is by much the hardier of the two. After the plants have got their first leaves about an inch broad, they should be thinned to the distance of four inches from one another, and kept free from weeds.\n\nSow some cabbage seed, both of the early and late kinds, to",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v13_AXIOMS",
+        "headword": "AXIOMS",
+        "start_page": 63,
+        "end_page": 79,
+        "word_count": 19904,
+        "volume_num": 13,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'AXIOMS...' starts with 'A' but volume 13 covers M-M",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'AXIOMS' starts with 'A' but is surrounded by 'M' articles (p.63) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "34. AXIOM 1. Equal weights acting at the extremities of equal arms of a straight lever, and having the lines of the direction in which they act at equal angles to these arms, will exert the same effort to turn the lever round its fulcrum. This axiom has been generally restricted to the particular case when the weights act perpendicularly to the arms of the lever; but no reason can be assigned for such limitation. The truth in the axiom is as self-evident when the angles formed by the arms of the",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_BECAUSE_THE_EQUABLE_DESCRIPTION_OF_AREAS",
+        "headword": "BECAUSE THE EQUABLE DESCRIPTION OF AREAS",
+        "start_page": 864,
+        "end_page": 870,
+        "word_count": 7047,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BECAUSE THE EQUABLE ...' starts with 'B' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BECAUSE THE EQUABLE DESCRIPTIO' starts with 'B' but is surrounded by 'N' articles (p.864) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e the equable description of areas indicates that a centre is respected by that force with which the body is most affected, and by which it is drawn back from its rectilinear motion, and retained in its orbit, we may always be allowed to use the equable description of areas as an indication of a centre about which all circular motion is performed in free spaces.\n\nTheor. IV. The centripetal forces of bodies which by equable motions describe different circles, tend to the centres of the same circl",
+        "surrounding_letter": "N"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v14_NEWTON",
+          "headword": "NEWTON",
+          "start_page": 852,
+          "end_page": 864,
+          "word_count": 12934,
+          "text_end": "t line, the action of the centripetal force tending to that other body T is either none at all, or it is mixed and combined with very powerful actions of other forces: and the whole force compounded of them all, if they are many, is directed to another (immovable or moveable) centre. The same thing obtains when the other body is actuated by any other motion whatever; provided that centripetal force is taken which remains after subducting that whole force acting upon that other body T.\n\nScholium."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v16_BEFORE_MAN_HAD_RECOURSE_TO_AGRICULTURE_AS_THE_MOST_CERTAIN",
+        "headword": "BEFORE MAN HAD RECOURSE TO AGRICULTURE AS THE MOST CERTAIN",
+        "start_page": 453,
+        "end_page": 459,
+        "word_count": 6663,
+        "volume_num": 16,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "sentence_fragment",
+            "severity": "medium",
+            "reason": "Headword has 10 words - possible sentence fragment",
+            "confidence": 0.8
+          },
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BEFORE MAN HAD RECOU...' starts with 'B' but volume 16 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BEFORE MAN HAD RECOURSE TO AGR' starts with 'B' but is surrounded by 'P' articles (p.453) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "e man had recourse to agriculture as the most certain means of procuring subsistence, our acquaintance with external substances was principally that of the natural historian; consisting of a knowledge of their fitness for food, medicine, or accommodation, their places of growth or habitation, and the means of procuring them, depending on their manner of life or existence. It required a studied attention to these circumstances to give rise to agriculture, which therefore generally made its appear",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v16_WHILE_THE_CONTEMPLATION_OF_THESE_APPEARANCES",
+          "headword": "WHILE THE CONTEMPLATION OF THESE APPEARANCES",
+          "start_page": 450,
+          "end_page": 452,
+          "word_count": 2097,
+          "text_end": "have not been wanting in all ages men of curiosity who have been struck by the uniformity of the operations of nature in the material world, and were eager to discover their causes.\n\nAccordingly, while the moralists and metaphysicians turned their whole attention to the phenomena of mind, and have produced the sciences of pneumatology, logic, ethics, jurisprudence, and natural theology, these observers of nature have found sufficient employment in considering the phenomena of the material world."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v01_BILL_OF_ADVOCATION",
+        "headword": "BILL OF ADVOCATION",
+        "start_page": 222,
+        "end_page": 222,
+        "word_count": 98,
+        "volume_num": 1,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BILL OF ADVOCATION...' starts with 'B' but volume 1 covers A-A",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Scots Law, a writing drawn up in the form of a petition; whereby a party, in an action before an inferior court, applies to the supreme court, or court of session, for calling the action from the inferior court before itself.\n\nLetters of ADVOCATION, in Scots Law, the decree or warrant of the court of session upon cognizance of the facts set forth in the bill, drawn up in the form of a summons, and passing under the signet, discharging the inferior judge and all others from further procedure i",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v01_ADVOWEE",
+          "headword": "ADVOWEE",
+          "start_page": 222,
+          "end_page": 223,
+          "word_count": 505,
+          "text_end": "bsists, and are sometimes called by their primitive name, advowees, though more usually patrons, were hereditary; as being the founders and endowers of churches, &c., or their heirs.\n\nWomen were sometimes advowees, advocatissæ. And, in effect, the canon law mentions some who had this title, and who had the same right of presentation, &c., in their churches which the advowees themselves had.\nAdvowse. In a stat. 25 Edw. III. we meet with advowse paramount for the highest patron; that is, the king."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_BOTANY",
+        "headword": "BOTANY",
+        "start_page": 116,
+        "end_page": 127,
+        "word_count": 7653,
+        "volume_num": 4,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BOTANY' starts with 'B' but is surrounded by 'C' articles (p.116) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "120. CORNUCOPIÆ. Cal. 2-valvis. Cor. 1-valvis. Involucrum commune r-phyllum multiflorum.\n\n146. ARISTIDA. Cal. 2-valvis. Cor. 1-valvis, apice aristis tribus.\n\n* 129. ALOPECURUS. Cal. 2-valvis. Cor. 1-valvis, apice simplici.\n\n* 128. PHLEUM. Cal. 2-valvis, truncatus, mucronatus, sessilis.\n\n* 125. PHALARIS. Cal. 2-valvis: valvis carinatis æqualibus, corollam includentibus.\n\n126. PASPALUM. Cal. 2-valvis: valvis subtundis figura corollæ.\n\n* 130. MILIUM. Cal. 2-valvis: valvis ventricosis corolla majori",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_CLASSIS_III",
+          "headword": "CLASSIS III",
+          "start_page": 114,
+          "end_page": 115,
+          "word_count": 206,
+          "text_end": "asp. infera trilocularis.\n\n102. Xiphidium. Cor. 6-petala æqualis. Cal. o.\n\n104. Commelina. Cor. 6-petala: Petala 3 s. 4 calyciformibus. Nect. cruciati pedicellata.\n\n76. Oxyaphus. Cor. 5-dentata infundibuliformis. Cal. 3-fid. Nux 5-gona calyce alata!\n\n78. Macrolobium. Cor. 5-petala inaequalis. Cal. duplex: exterior 2-phyll. inter. 5-dentatus. Legumen.\n\n79. Rohria. Cor. 5-petala inaequalis. Cal. 5-partitus. Stig. 3, revoluta. Caps.\n\n89. Hippocratea. Cor. 6-petala. Cal. 5-partit. Caps. 3, bivalves."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_BUCCINUM",
+        "headword": "BUCCINUM",
+        "start_page": 354,
+        "end_page": 354,
+        "word_count": 27,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BUCCINUM...' starts with 'B' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "comprehending cassidea, harpa, buccinum, terebra, purpura, and nassa.\n\nC. Having no distinct Head.\n\nFam. 3. ACEPHALA.\n\na. Having no Shells, but furnished with a membranous leathery cloak.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_ASCIDIA",
+          "headword": "ASCIDIA",
+          "start_page": 354,
+          "end_page": 354,
+          "word_count": 23,
+          "text_end": "SALPA.\n\nPTEROTRACHEA.\n\nTHALIA.\n\nb. With a cloak, and furnished with Shells.\n\na. Open anteriorly, having no reticulated Feelers, nor ciliated arms.\n\n1. Inequivalves."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_BULLA",
+        "headword": "BULLA",
+        "start_page": 354,
+        "end_page": 354,
+        "word_count": 16,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BULLA...' starts with 'B' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "HELIX, comprehending planorbis, helix ampullaria, mellania, bulimus, achatina.\n\n2. With the Aperture sloped towards the bottom.",
+        "surrounding_letter": "A"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v10_BUCCINUM",
+          "headword": "BUCCINUM",
+          "start_page": 354,
+          "end_page": 354,
+          "word_count": 27,
+          "text_end": "comprehending cassidea, harpa, buccinum, terebra, purpura, and nassa.\n\nC. Having no distinct Head.\n\nFam. 3. ACEPHALA.\n\na. Having no Shells, but furnished with a membranous leathery cloak."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_BXX",
+        "headword": "BXX",
+        "start_page": 561,
+        "end_page": 561,
+        "word_count": 408,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'BXX...' starts with 'B' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'BXX' starts with 'B' but is surrounded by 'D' articles (p.561) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "which will be found $\\frac{11}{12}$. This fraction is evidently greater than the number 2, which expresses the\nperfect octave c to its correspondent C: and the octave below BXX would be one half of the same fraction, that\nis to say $\\frac{11}{24} = \\frac{1}{2}$, which is evidently greater than C represented by unity. This last fraction $\\frac{11}{24}$ is compo-\nsed of two numbers; the numerator of the fraction is nothing else but the number 3 multiplied 11 times in succes-\nsion by itself, and th",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v14_DEFINITIONS",
+          "headword": "DEFINITIONS",
+          "start_page": 551,
+          "end_page": 561,
+          "word_count": 10988,
+          "text_end": "the fifth above and the fourth below, in the same octave, you may\nhere see what will be the process of your operation.\n\nC, G, a fifth; D a fourth; A a fifth; E a fourth; B a fifth; FXX a fifth; CXX a fifth; GXX a fourth; 'dXX' a\nfifth; AXX a fourth; 'eXX' or 'fXX' a fifth; BXX a fourth: now it will be found, by a very easy computation, that\nthe first C being represented by 1, G shall be $\\frac{3}{4}$, D $\\frac{5}{12}$, A $\\frac{7}{12}$, E $\\frac{9}{12}$, &c. and so of the rest till you arrive at"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v09_CELLIUS",
+        "headword": "CELLIUS",
+        "start_page": 498,
+        "end_page": 498,
+        "word_count": 80,
+        "volume_num": 9,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CELLIUS...' starts with 'C' but volume 9 covers F-G",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CELLIUS' starts with 'C' but is surrounded by 'G' articles (p.498) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "Aulus, a celebrated grammarian who lived in the 2d century under Marcus Aurelius and some succeeding emperors. He wrote a collection of observations on authors, for the use of his children; and called it Noctes Atticae, because composed in the evenings of a winter he spent at Athens. The chief value of it is for preserving many facts and monuments of antiquity not to be found elsewhere. Critics and grammarians have bestowed much pains on this writer.\n\nGELLY. See Jelly.",
+        "surrounding_letter": "G"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v09_GELLERT",
+          "headword": "GELLERT",
+          "start_page": 497,
+          "end_page": 498,
+          "word_count": 544,
+          "text_end": "him a genius of the first class, he certainly was a most agreeable and fertile writer; the poet to whom religion and virtue are deeply indebted; an able reformer of public manners, and fonder of affording consolation, than of plunging into despondency. Kutner gives him a most excellent and enviable character, in these words: \"As long as the Germans shall understand their present language, will the works of Gellert be read; and his character will be honoured while virtue is known and respected.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v10_CG",
+        "headword": "CG",
+        "start_page": 789,
+        "end_page": 811,
+        "word_count": 22876,
+        "volume_num": 10,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CG...' starts with 'C' but volume 10 covers G-H",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "gravity has caused it to fall through GH. Now, Motion of since the spaces are as the squares of the times in which Fluids, &c., they are described, (Dynamics, 37. 2.) we shall have \\( \\frac{EF}{GH} = \\frac{CE^2}{CG^2} \\). But on account of the parallelograms CEFM, CGHN, EF and GH are equal to CM and CN respectively, and MF, NH to CE, CG respectively; therefore \\( CM : CN = \\frac{MF^2}{NH^2} \\), which is the property of the parabola, CM, CN being the abscissae, and ME, NH the ordinates (Conic Sec",
+        "surrounding_letter": "H"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v16_CHANICS",
+        "headword": "CHANICS",
+        "start_page": 637,
+        "end_page": 637,
+        "word_count": 126,
+        "volume_num": 16,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHANICS...' starts with 'C' but volume 16 covers P-P",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CHANICS' starts with 'C' but is surrounded by 'P' articles (p.637) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "The determining how far any given plane deviates\nfrom a horizontal line, makes the whole business of\nlevelling. See the article LEVELLING.\n\nIn optics, the planes of reflection and refraction are\nthose drawn through the incident and reflected or re-\nfracted rays. See OPTICS.\n\nIn perspective we meet with the perspective plane,\nwhich is supposed to be pellucid, and perpendicular to\nthe horizon; the horizontal plane, supposed to pass\nthrough the spectator's eye, parallel to the horizon;\nthe geometri",
+        "surrounding_letter": "P"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v16_PLAGUE",
+          "headword": "PLAGUE",
+          "start_page": 634,
+          "end_page": 637,
+          "word_count": 3501,
+          "text_end": "or inflame the maws of the blood.\n\nThis interesting discovery merits the attention of all\nmedical men; for if olive oil has been found efficacious\nin curing or preventing against one species of infection,\nit is not absurd to suppose that the same or other kinds\nof oil might be productive of much benefit in other ma-\nlignant infectious diseases. We hope soon to hear of\nsome trial being made with it in this country. Would\nit be of any service in the yellow fever, so prevalent in\nthe western world?"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_CHAP",
+        "headword": "CHAP",
+        "start_page": 581,
+        "end_page": 584,
+        "word_count": 1944,
+        "volume_num": 14,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CHAP...' starts with 'C' but volume 14 covers M-N",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "(3 T) In this chord it is necessary that the C and F should be sharp at the same time; for the chord D F A C, in which C would be sharp without the F, is excluded by art. 179.\n\n(3 U) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if we ascend from the tonic C to the tonic E, the major mode of C, C E G C, will be changed into the minor mode of E, E G B E. We must nev",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v14_RULE_IV",
+          "headword": "RULE IV",
+          "start_page": 580,
+          "end_page": 581,
+          "word_count": 283,
+          "text_end": "dling with the first chord, we render C and F sharp in the second (3 T); or, if we simply render the D of the second chord a tonic dominant, in causing it to carry F instead of F (119, and 122.).\n\nIt is likewise by the same rule that we ought to reject the succession of the two following chords,\n\nD F A C, G B D F;\n\n(see Exam. xviii.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at pleasure, be either a tonic, a tonic dominant, or a sub-dominant."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v14_CIMOLITE",
+        "headword": "CIMOLITE",
+        "start_page": 228,
+        "end_page": 248,
+        "word_count": 14262,
+        "volume_num": 14,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CIMOLITE...' starts with 'C' but volume 14 covers M-N",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CIMOLITE' starts with 'C' but is surrounded by 'F' articles (p.228) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "This is a mineral which in many of its characters is closely connected with the preceding.\n\nExter. Char.—It is found massive; fracture earthy uneven, or flat; colour grayish white, pearl gray, and exposed for some time to the air, reddish; opaque; does not stain; adheres strongly to the tongue; is soft, and difficultly frangible; sp. grav. 2.\n\nChem. Char.—Before the blow-pipe it becomes at first of a deep gray colour, but afterwards white.\n\nConstituent Parts, Klaproth.\n\n| Component       | Perce",
+        "surrounding_letter": "M"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v07_CIRCULATING_DECIMALS",
+        "headword": "CIRCULATING DECIMALS",
+        "start_page": 117,
+        "end_page": 117,
+        "word_count": 226,
+        "volume_num": 7,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CIRCULATING DECIMALS' starts with 'C' but is surrounded by 'D' articles (p.117) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "called also recurring or repeating decimals, are those in which a figure or several figures are continually repeated. They are distinguished into single and multiple, and these again into pure and mixed.\n\nA pure single circulate is that in which one figure only is repeated; as .222, &c. and is marked thus 2̅. A pure multiple circulate is that in which several figures are continually repeated; as 232323, &c. marked 2̅3̅; and .524524, &c. marked .5̅2̅4̅.\n\nA mixed single circulate is that which con",
+        "surrounding_letter": "D"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v07_DECEMVIRI",
+          "headword": "DECEMVIRI",
+          "start_page": 116,
+          "end_page": 117,
+          "word_count": 493,
+          "text_end": "nes, because a spear, hasta, was fixed at the door of the place where the goods were exposed to sale. They were called decemviri lictibus judicandis. The officers whom Tarquin appointed to guard the Sibylline books were also called decemviri. They were originally two in number, called duumviri, till the year of Rome 388, when their number was increased to ten, five of which were chosen from the plebeians and five from the patricians. Sylla increased their number to fifteen, called quindecemviri."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v17_CITIES_OF_REFUGE",
+        "headword": "CITIES OF REFUGE",
+        "start_page": 744,
+        "end_page": 744,
+        "word_count": 395,
+        "volume_num": 17,
+        "primary_issue": "alphabetical_break",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CITIES OF REFUGE...' starts with 'C' but volume 17 covers P-R",
+            "confidence": 0.85
+          },
+          {
+            "issue_type": "alphabetical_break",
+            "severity": "high",
+            "reason": "'CITIES OF REFUGE' starts with 'C' but is surrounded by 'R' articles (p.744) - likely mis-parsed section heading",
+            "confidence": 0.92
+          }
+        ],
+        "text_preview": "were places provided as Asylo, for such as against their will should happen to kill a man. Of these cities there were three on each side Jordan: on this side were Kedesh of Naphtali, Hebron, and Shechem; beyond Jordan were Bezer, Golan, and Ramoth-Gilead. When any of the Hebrews, or strangers that dwelt in their country, happened to spill the blood of a man, they might retire thither to be out of the reach of the violent attempts of the relations of the deceased, and to prepare for their defence",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v17_REFORMATION",
+          "headword": "REFORMATION",
+          "start_page": 733,
+          "end_page": 743,
+          "word_count": 12634,
+          "text_end": "discipline established by Calvin at Geneva, has had the ascendancy in Scotland. But for an account of the difficulties which the Scottish reformers had to struggle with, and the manner in which these were overcome, &c., see SCOTLAND.\n\nFor further information on the subject of the reformation in general we refer our readers to the works of Burnet and Brandt, to Beaufort's Histoire de la Reformation dans l'Empire, et les Etats de la Confession d'Augsbourg, depuis 1517—1530, in 4 vols 8vo, Berlin."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_CLASSIS_II",
+        "headword": "CLASSIS II",
+        "start_page": 99,
+        "end_page": 99,
+        "word_count": 233,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS II...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "DIANDRIA.\n\nORDO I. MONOGYNIA.\n\nSect. I. Flores inferi, monopetali, regulares.\n\n36. OLEA. Cor. 4-fida: laciniis subovatis. Drupa monosperma.\n\n37. CHIONANTHUS. Cor. 4-fida: laciniis longissimis. Drupa monosperma, nuce striata.\n\n35. PHILLYREA. Cor. 4-fida. Bacca monosperma.\n\n34. LIGUSTRUM. Cor. 4-fida. Bacca tetrasperma.\n\n40. PIMELEA. Cor. 4-fida. Cal. nullus. Stam. faucì inserta. Nux corticata unilocularis.\n\n38. SYRINGA. Cor. 4-fida. Caps. bilocularis.\n\n41. ERANTHEMUM. Cor. 4-fida: lacinis obovati",
+        "surrounding_letter": "B"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_ZOSTERA",
+          "headword": "ZOSTERA",
+          "start_page": 98,
+          "end_page": 99,
+          "word_count": 351,
+          "text_end": "ith one nerve, emarginate. Flowers axillary, solitary, sessile, small, white, hermaphrodite or anther-stigmatic, the pistils and stamens sometimes intermingled. Fruit small, sessile, with four keels.\n\nThe variety γ, which has been called Cal. Autumnalis, and considered as a distinct species, is entirely immersed, all the leaves uniform, linear, emarginate; all the flowers anther-stigmatic. It flowers in the beginning of summer.\n\n28. BLITUM.\n\nCal. 3-cleft. Petals none. Seed 1, in a berried calyx."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_CLASSIS_III",
+        "headword": "CLASSIS III",
+        "start_page": 114,
+        "end_page": 115,
+        "word_count": 206,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS III...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "TRIANDRIA.\n\nOrdo I. MONOGYNYIA.\n\nSect. I. Flores superi.\n\n* 75. Valeriana. Cor. 5-fida basi gibba. Sem. unicum.\n\n84. Melothria. Cor. 5-fida rotata. Bacca trilocularis.\n\n* 92. Crocus. Cor. 6-partita, erecto-patula. Stig. convoluta colorata.\n\n95. Antholyza. Cor. 6-fida tubulosa recurvata: lacinii inaequalibus.\n\n94. Gladiolus. Cor. 6-partita tubulosa: lacinii subaequalibus, superioribus convergentibus.\n\n* 97. Iris. Cor. 6-partita; lacinii alternis reflexis. Stylo petaloideum.\n\n93. Ixia. Cor. 6-part",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_CLASSIS_IV",
+        "headword": "CLASSIS IV",
+        "start_page": 127,
+        "end_page": 127,
+        "word_count": 198,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS IV...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "TETRANDRIA.\n\nOrder I. MONOGYNYIA.\n\nSect. I. Flores monopetali, monospermi, inferi.\n\n169. GLOBULARIA. Cor. 1-petale, irregulares. Sem. pappo nudis.\n\nSect. II. Flores monopetali, monospermi, superi, aggregate.\n\n* 171. DIPSACUS. Cal. communis foliaceus. Recept. conicum, paleaceum. Sem. columnaria.\n\n* 172. SCABIOSA. Cal. communis. Recept. elevatum, subpaleaceum. Sem. coronata, involuta.\n\n173. KNAUTIA. Cal. communis oblongus. Recept. planum, nudum. Sem. apice villosa.\n\n155. MONTIA, or Small Water Chi",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_BOTANY",
+          "headword": "BOTANY",
+          "start_page": 116,
+          "end_page": 127,
+          "word_count": 7653,
+          "text_end": "hem when fully grown; cows, sheep, and goats eat them.\n\n* T. cal. pointed, mostly 4-flowered; awns longer than the cor.; spikets upright.\n\n* T. spike simple, compressed; spikets egg-shaped, but pointed; cal. many-flowered.\n\n153. LAPPAGO\n\nHas one species, called racemosa. Europe, India, and Arabia.\n\nOrder III. TRIGYNYIA.\n\n154. ERIOCaulon, or Net-work,\n\nHas eight species; viz., triangulare, quinquangulare, sexangulare, setaceum, decangulare, repens, fasciculatum, umbellatum. India, and S. America."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_CLASSIS_VIII",
+        "headword": "CLASSIS VIII",
+        "start_page": 182,
+        "end_page": 183,
+        "word_count": 239,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS VIII...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "OCTANDRIA.\n\nOrdo I. MONOGYNYA.\n\nSect. I. Flores completi.\n\n743. Minusops. Cor. 8-petala. Cal. 8-phyllus, inferus. Drupa.\n\n745. Cupanica. Cor. 5-petala. Cal. 5-phyllus. Caps. 3-locularis, loculis monospermis. Sem. arillatum.\n\n765. Dimocarpus. Cor. 5-petala. Cal. 5-dentatus. Baccæ 2, monospermæ.\n\n727. Tropæolum. Cor. 5-petala. Cal. 5-fidus, inferus, calcaratus. Nuces 3.\n\n779. Beckea. Cor. 5-petala. Cal. 5-fidus, superus. Caps. 4-locularis.\n\n747. Ephelis. Cor. 5-petala. Cal. 5-partitus. Caps. 1-loc",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1815_v04_PENTANDRIA_s2",
+          "headword": "PENTANDRIA",
+          "start_page": 137,
+          "end_page": 182,
+          "word_count": 32036,
+          "text_end": "One species; viz. cordata. Japan.\n\n**Order II. Digynia.**\n\n723. **Limeum.** Three species; viz. africanum, capense, æthiopicum. C. of G. Hope.\n\n**Order III. Tetragnyia.**\n\n724. **Astranthus.** One species; viz. cochinchimensis.\n\n725. **Saururus,** or Lizard's Tail. One species; viz. cernuus. Virginia.\n\n**Order IV. Heptagynia.**\n\n726. **Septas.** One species; viz. capensis. C. of G. Hope.\n\n---\n\nIn the class Heptandria are 15 Genera, which include 31 Species. Of these only one is found in Britain."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1815_v04_CLASSIS_XI",
+        "headword": "CLASSIS XI",
+        "start_page": 208,
+        "end_page": 212,
+        "word_count": 2644,
+        "volume_num": 4,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'CLASSIS XI...' starts with 'C' but volume 4 covers B-B",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "DODECANDRIA (A).\n\nORDO I. MONOGYNYIA.\n\n927. BOCCONIA. Cor. o. Cal. 2-phyllus, inferus. Caps. 2-valvis, 1-sperma.\n\n* 925. ASARUM. Cor. o. Cal. 3-fidus, superus. Caps. 6-locularis.\n\n955. STERCULIA. Cor. o. Cal. 5-partit. Nectar-staminiferum. Germen pedicellatum. Caps. 5.\n\n931. RHIZOPHORA. Cor. 4-partita. Cal. 4-partitus, inferus. Sem. 1, clavatum, receptaculo carnososo.\n\n938. GARCINIA. Cor. 4-petala. Cal. 4-phyllus, inferus. Bacc. 8-sperma, coronata.\n\n943. CRATÆVA. Cor. 4-petala. Cal. 4-fidus, inf",
+        "surrounding_letter": "C"
+      },
+      "parent_candidates": {
+        "page_adjacent": null,
+        "semantic": null
+      }
+    }
+  ]
+}

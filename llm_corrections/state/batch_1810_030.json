@@ -1,0 +1,1607 @@
+{
+  "edition_year": 1810,
+  "batch_num": 30,
+  "total_batches": 40,
+  "articles": [
+    {
+      "flagged": {
+        "article_id": "1810_v17_REDISTRIBUTION",
+        "headword": "REDISTRIBUTION",
+        "start_page": 317,
+        "end_page": 317,
+        "word_count": 13,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REDISTRIBUTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "is the finding the integral or fluent again from the fluxion. See FLUXIONS.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDI",
+          "headword": "REDI",
+          "start_page": 317,
+          "end_page": 317,
+          "word_count": 100,
+          "text_end": "rn at Arezzo in Tuscany in 1626. His ingenuity and learning recommended him to the office of first physician to Ferdinand II. duke of Tuscany; and he contributed not a little toward the compiling of the Dictionary of La Cruca. He wrote upon vipers, upon the generation of insects, and composed a good deal of poetry. All his writings are in Italian; and his language is so fine and pure, that the authors of the Dictionary of La Cruca have often cited it as a standard of perfection. He died in 1697."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REDOUBT",
+        "headword": "REDOUBT",
+        "start_page": 317,
+        "end_page": 317,
+        "word_count": 33,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REDOUBT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Fortification, a small square fort, without any defence but in front; used in trenches, lines of circumvallation, contravallation, and approach; as also for the lodgings of corps de-gard, and to defend piaffages.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDISTRIBUTION",
+          "headword": "REDISTRIBUTION",
+          "start_page": 317,
+          "end_page": 317,
+          "word_count": 13,
+          "text_end": "is the finding the integral or fluent again from the fluxion. See FLUXIONS."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REDUCTION_s4",
+        "headword": "REDUCTION",
+        "start_page": 317,
+        "end_page": 317,
+        "word_count": 20,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REDUCTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Surgery, denotes an operation whereby a dislocated, luxated, or fractured bone, is restored to its former state or place.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDOUBT",
+          "headword": "REDOUBT",
+          "start_page": 317,
+          "end_page": 317,
+          "word_count": 33,
+          "text_end": "in Fortification, a small square fort, without any defence but in front; used in trenches, lines of circumvallation, contravallation, and approach; as also for the lodgings of corps de-gard, and to defend piaffages."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REDUNDANCY",
+        "headword": "REDUNDANCY",
+        "start_page": 317,
+        "end_page": 317,
+        "word_count": 23,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REDUNDANCY...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a fault in discourse, consisting in the use of a superfluity of words. Words perfectly synonymous are redundant, and ought to be retrenched.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDUCTION_s4",
+          "headword": "REDUCTION",
+          "start_page": 317,
+          "end_page": 317,
+          "word_count": 20,
+          "text_end": "in Surgery, denotes an operation whereby a dislocated, luxated, or fractured bone, is restored to its former state or place."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REDUNDANT",
+        "headword": "REDUNDANT",
+        "start_page": 317,
+        "end_page": 318,
+        "word_count": 146,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REDUNDANT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Music. What the French call une accord superflue, which we have translated a redundant chord in the article MUSIC (from D'Alembert), has by others been rendered a chord extremely flabby, as in the translation of Rameau's Principles of Composition. Their nature will be best understood by a few examples, and an account of the number of tones, semitones, or lesser intervals, contained in each.\n\nThe second redundant is composed of a major tone,\nand a minor semitone; as from fa to sol sharp. Its p",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDUNDANCY",
+          "headword": "REDUNDANCY",
+          "start_page": 317,
+          "end_page": 317,
+          "word_count": 23,
+          "text_end": "a fault in discourse, consisting in the use of a superfluity of words. Words perfectly synonymous are redundant, and ought to be retrenched."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REED",
+        "headword": "REED",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 289,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REED...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Botany. See ARUNDO and BAMBOO.\n\nThere are two sorts of reeds, says Haileknight, growing near the Nile. One of them has scarce any branches; but is furnished with numerous leaves, which are narrow, smooth, channeled on the upper surface; and the plant is about 11 feet high. The Egyptians make ropes of the leaves. They lay them in water like hemp, and then make them into good strong cables. These, with the bark of the date tree, form almost the only cable used in the Nile. The other sort is of",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REDUNDANT",
+          "headword": "REDUNDANT",
+          "start_page": 317,
+          "end_page": 318,
+          "word_count": 146,
+          "text_end": "number of tones, semitones, or lesser intervals, contained in each.\n\nThe second redundant is composed of a major tone,\nand a minor semitone; as from fa to sol sharp. Its proportion is as 64 to 75.\n\nThe third redundant consists of two tones and a semitone, as fa la, harp. Its proportion is as 96 to 125.\n\nThe fourth redundant is the same with the tritone.\n\nFrom these examples compared with the same intervals in their natural state, the reader may form a general idea of what is meant by redundant."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REEF",
+        "headword": "REEF",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 103,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REEF...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a term in navigation. When there is a great gale of wind, they commonly roll up part of the sail below, that by this means it may become the narrower, and not draw so much wind; which contracting or taking up the sail they call a reef, or reefing the sail: so also when a top-mast is sprung, as they call it, that is when it is cracked, or almost broken in the cap, they cut off the lower piece that was near broken off, and setting the other part, now much shorter, in the step again, they call it a",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REED",
+          "headword": "REED",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 289,
+          "text_end": "ing of stiff, unbruised, and unbroken stalks of great length, carefully separated from the straw used for fodder by the thresher, and bound in sheaves or bunches, each of which weighs 28 lb. and are sold from 21s. to 31s. per hundred bunches, according to the season. This is a great improvement in the art of thatching, as it gives a finish to the work which cannot be attained by straw, rough and tumbled together, without any separation of the long and short: it is also a readier mode of working."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REELING",
+        "headword": "REELING",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 59,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REELING...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the manufactories, the winding of silk, cotton, or the like, into a skein, or upon a button, to prevent its entangling. It is also used for the charging or discharging of bobbins, or quills, to use them in the manufacture of different stuffs, as thread, silk, cotton, &c. Reeling is performed in different ways, and on different engines.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REEF",
+          "headword": "REEF",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 103,
+          "text_end": "ion. When there is a great gale of wind, they commonly roll up part of the sail below, that by this means it may become the narrower, and not draw so much wind; which contracting or taking up the sail they call a reef, or reefing the sail: so also when a top-mast is sprung, as they call it, that is when it is cracked, or almost broken in the cap, they cut off the lower piece that was near broken off, and setting the other part, now much shorter, in the step again, they call it a reefed top-mast."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REEVING",
+        "headword": "REEVING",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 22,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REEVING...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in the sea-language, the putting a rope through a block: hence to pull a rope out of a block is called unreveving.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REELING",
+          "headword": "REELING",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 59,
+          "text_end": "in the manufactories, the winding of silk, cotton, or the like, into a skein, or upon a button, to prevent its entangling. It is also used for the charging or discharging of bobbins, or quills, to use them in the manufacture of different stuffs, as thread, silk, cotton, &c. Reeling is performed in different ways, and on different engines."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFERENCE",
+        "headword": "REFERENCE",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 39,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFERENCE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in writing, &c. a mark relative to another similar one in the margin, or at the bottom of the page, where something omitted in the text is added, and which is to be inserted either in reading or copying.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REEVING",
+          "headword": "REEVING",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 22,
+          "text_end": "in the sea-language, the putting a rope through a block: hence to pull a rope out of a block is called unreveving."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFINING",
+        "headword": "REFINING",
+        "start_page": 318,
+        "end_page": 318,
+        "word_count": 149,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFINING...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in general, the art of purifying a thing; including not only the effaying or refining of metals, but likewise the depuration or clarification of liquors. See Clarification; and Pharmacy, under Materia Medica; and Ores, Reduction of.\n\nGold and silver may be refined by several methods, which are all founded on the essential properties of these metals, and acquire different names according to their kinds. Thus, for instance, gold having the property which no other metal, not even silver, has of res",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFERENCE",
+          "headword": "REFERENCE",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 39,
+          "text_end": "in writing, &c. a mark relative to another similar one in the margin, or at the bottom of the page, where something omitted in the text is added, and which is to be inserted either in reading or copying."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFLECTION_s2",
+        "headword": "REFLECTION",
+        "start_page": 318,
+        "end_page": 319,
+        "word_count": 1255,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFLECTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the return or progressive motion of a moving body, occasioned by some obstacle which hindered it from pursuing its former direction.\n\nCircular Instruments of Reflection, an instrument for measuring angles to a very great degree of accuracy. It was invented by the celebrated astronomer Mr Tobias Mayer of Gottingen, principally with a view to do away the errors of the divisions of the limb; and has since been much improved by the Chevalier de Borda, and M. J. H. de Magellan. This instrument is par",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFINING",
+          "headword": "REFINING",
+          "start_page": 318,
+          "end_page": 318,
+          "word_count": 149,
+          "text_end": "having the property which no other metal, not even silver, has of resisting the action of sulphur, of antimony, of nitrous acid, or marine acid, may be purified by these agents from all other metallic substances, and consequently may be refined. These operations are distinguished by proper names, as purification of gold by antimony, parting, concentrated parting, dry parting. The term refining is chiefly applied to the purification of gold and silver by lead in the cupel. See Ores, Reduction of."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFLEX",
+        "headword": "REFLEX",
+        "start_page": 319,
+        "end_page": 319,
+        "word_count": 33,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFLEX...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Painting, means those places in a picture which are supposed to be illuminated by light reflected from some other body in the same piece. See PAINTING, Part I. sect. 2. and 5.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFLECTION_s2",
+          "headword": "REFLECTION",
+          "start_page": 318,
+          "end_page": 319,
+          "word_count": 1255,
+          "text_end": "ment for erecting four light-houses on the northern coast of Great Britain, he instructed Mr Smith in this method of constructing light-houses. Mr Walker's statement of the fact is confirmed by a letter from Mr Crewe, then lord provost of Edinburgh, who informs Mr Walker that the trustees had agreed to pay the premium required for communicating the invention, and that Mr Smith was engaged to go to Lynn Regis to receive instructions from Mr Walker in the method of constructing the new reflectors."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFLUX",
+        "headword": "REFLUX",
+        "start_page": 319,
+        "end_page": 319,
+        "word_count": 29,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFLUX...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the backward course of water, has the same meaning as the ebbing of the sea, and is opposed to flood, flux, or the flowing of the sea. See TIDES.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFLEX",
+          "headword": "REFLEX",
+          "start_page": 319,
+          "end_page": 319,
+          "word_count": 33,
+          "text_end": "in Painting, means those places in a picture which are supposed to be illuminated by light reflected from some other body in the same piece. See PAINTING, Part I. sect. 2. and 5."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFORM",
+        "headword": "REFORM",
+        "start_page": 319,
+        "end_page": 321,
+        "word_count": 1292,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFORM...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "M means a change from worse to better, a re-establishment or revival of former neglected discipline, or a correction of abuses therein. The term is much used in a monastic sense for the reducing an order or congregation of religious to the ancient severity of the rule from which it had gradually diverged, or even for improving on the ancient rule and institution itself, and voluntarily making it more severe. In this sense the order of St Bernard is said to be only a reform of that of St Benedict",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFLUX",
+          "headword": "REFLUX",
+          "start_page": 319,
+          "end_page": 319,
+          "word_count": 29,
+          "text_end": "the backward course of water, has the same meaning as the ebbing of the sea, and is opposed to flood, flux, or the flowing of the sea. See TIDES."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFORMATION",
+        "headword": "REFORMATION",
+        "start_page": 321,
+        "end_page": 331,
+        "word_count": 12655,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFORMATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in general, an act of reforming or correcting an error or abuse in religion, discipline, or the like. By way of eminence the word is used for that great alteration and reformation in the corrupted system of Christianity, begun by Luther in the year 1517.\n\nUnder the article HISTORY (see ii.), the various corruptions in religion, the oppressions and usurpations of the clergy, and the extreme insolence of the popes, have been so fully treated of, that any further detail here is unnecessary. It is s",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFORM",
+          "headword": "REFORM",
+          "start_page": 319,
+          "end_page": 321,
+          "word_count": 1292,
+          "text_end": "est of it. If, after all, however, they should be disposed to doubt the position, we have only further to request them, with the sincerity of men and of Christians, to consult their own breasts, and seriously to consider the probable motives of those who act with them. They will then perhaps see, and they surely ought to acknowledge, that few\nfew men have acted more according to the impulse of\npassion, interest, and ambition, than those who have for\nsome time past founded the doctrine of reform."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFRACTION_s2",
+        "headword": "REFRACTION",
+        "start_page": 332,
+        "end_page": 332,
+        "word_count": 387,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFRACTION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Terrestrial, is that which makes terrestrial objects appear to be raised higher than they are in reality, in observing their altitudes. The quantity of this refraction is estimated at one-tenth by Dr Mafkeleyne; at one-fourteenth by Le Gendre; and by De Lambre at one eleventh. But there can be no fixed quantity of this refraction, since it depends upon the state of the atmosphere, which is extremely variable. Some singular effects of this refraction have been noticed, and in particular the follo",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_CITIES_OF_REFUGE",
+          "headword": "CITIES OF REFUGE",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 397,
+          "text_end": "ted, with an inscription pointing out the road to the cities of refuge. The 15th of Adar, which answers to our February moon, was appointed for the city magistrates to see that the roads were in good condition. No person in any of these cities was allowed to make weapons, lest the relations of the deceased should be furnished with the means of gratifying their revenge. Deut. xix. 3. iv. 41. 43.; Josh. xx. 7. Three other cities of refuge were conditionally promised, but never granted. See Asylum."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFRANGIBILITY_OF_LIGHT",
+        "headword": "REFRANGIBILITY OF LIGHT",
+        "start_page": 332,
+        "end_page": 332,
+        "word_count": 33,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFRANGIBILITY OF LI...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "the disposition of rays to be refracted. The term is chiefly applied to the disposition of rays to produce different colours, according to their different degrees of refrangibility. See Chromatics and Optics posthum.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFRACTION_s2",
+          "headword": "REFRACTION",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 387,
+          "text_end": "e cliffs gradually appearing more elevated, and approaching nearer, as it were, that they pointed out and named to me the different places they had been accustomed to visit; such as the Bay, the Old Head or Man, the Windmill, &c., at Boulogne; St Valery, and other places on the coast of Picardy; which they afterwards confirmed when they viewed them through their telescopes. Their observations were, that the places appeared as near as if they were sailing, at a small distance, into the harbours.\""
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFRIGERATIVE",
+        "headword": "REFRIGERATIVE",
+        "start_page": 332,
+        "end_page": 332,
+        "word_count": 16,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFRIGERATIVE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Medicine, a remedy which refreshes the inward parts by cooling them; as clysters, plasters, &c.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFRANGIBILITY_OF_LIGHT",
+          "headword": "REFRANGIBILITY OF LIGHT",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 33,
+          "text_end": "the disposition of rays to be refracted. The term is chiefly applied to the disposition of rays to produce different colours, according to their different degrees of refrangibility. See Chromatics and Optics posthum."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFRIGERATORY",
+        "headword": "REFRIGERATORY",
+        "start_page": 332,
+        "end_page": 332,
+        "word_count": 30,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFRIGERATORY...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Chemistry, a vessel filled with cold water, through which the worm passes in dilutions; the use of which is to condense the vapours as they pass through the worm.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFRIGERATIVE",
+          "headword": "REFRIGERATIVE",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 16,
+          "text_end": "in Medicine, a remedy which refreshes the inward parts by cooling them; as clysters, plasters, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REFUGEES",
+        "headword": "REFUGEES",
+        "start_page": 332,
+        "end_page": 332,
+        "word_count": 57,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REFUGEES...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a term at first applied to the French Protestants, who, by the revocation of the edict of Nantes, were constrained to fly from persecution, and take refuge in foreign countries. Since that time, however, it has been extended to all such as leave their country in times of distress; and hence, since the revolt of the British",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFRIGERATORY",
+          "headword": "REFRIGERATORY",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 30,
+          "text_end": "in Chemistry, a vessel filled with cold water, through which the worm passes in dilutions; the use of which is to condense the vapours as they pass through the worm."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGALIA",
+        "headword": "REGALIA",
+        "start_page": 332,
+        "end_page": 333,
+        "word_count": 171,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGALIA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Law, the rights and prerogatives of a king. See PREROGATIVE.\n\nRegalia is also used for the apparatus of a coronation; as the crown, the sceptre with the cross, that with the dove, St. Edward's staff, the globe, and the orb with the cross, four several swords, &c.—The regalia of Scotland were deposited in the castle of Edinburgh in the year 1707, in what is called the jewel office. The room was a few years ago opened by some commissioners appointed by the king, when the large chest in which it",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REFUGEES",
+          "headword": "REFUGEES",
+          "start_page": 332,
+          "end_page": 332,
+          "word_count": 57,
+          "text_end": "a term at first applied to the French Protestants, who, by the revocation of the edict of Nantes, were constrained to fly from persecution, and take refuge in foreign countries. Since that time, however, it has been extended to all such as leave their country in times of distress; and hence, since the revolt of the British"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGARDANT",
+        "headword": "REGARDANT",
+        "start_page": 333,
+        "end_page": 333,
+        "word_count": 22,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGARDANT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Heraldry, signifies looking behind; and it is used for a lion, or other beast, with his face turned towards his tail.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGALIA",
+          "headword": "REGALIA",
+          "start_page": 332,
+          "end_page": 333,
+          "word_count": 171,
+          "text_end": "appointed by the king, when the large chest in which it is supposed they were placed was examined; but nothing was found in it. It is very generally thought that the regalia were carried to the Tower of London in the reign of Queen Anne; and a crown is there shown which is called the Scotch crown. This, however, does not appear to be the real crown of Scotland. It seems, therefore, most probable that the Scottish regalia must have been taken away by stealth, and either destroyed or melted down."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGARDER",
+        "headword": "REGARDER",
+        "start_page": 333,
+        "end_page": 333,
+        "word_count": 53,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGARDER...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an ancient officer of the king's forest, sworn to make the regard of the forest every year; that is, to take a view of its limits, to inquire into all offences and defaults committed by the foresters within the forest, and to observe whether all the officers execute their respective duties. See FOREST-LAW.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGARDANT",
+          "headword": "REGARDANT",
+          "start_page": 333,
+          "end_page": 333,
+          "word_count": 22,
+          "text_end": "in Heraldry, signifies looking behind; and it is used for a lion, or other beast, with his face turned towards his tail."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGATA",
+        "headword": "REGATA",
+        "start_page": 333,
+        "end_page": 334,
+        "word_count": 1459,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGATA...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or REGATTA, a species of amusement peculiar to the republic of Venice. This spectacle has the power of exciting the greatest emotions of the heart, admiration, enthusiasm, a sense of glory, and the whole train of our best feelings. The grand regata is only exhibited on particular occasions, as the visits of foreign princes and kings at Venice.\n\nIt is difficult to give a just idea of the ardour that the notice of a regata spreads among all classes of the inhabitants of Venice. Proud of the exclus",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGARDER",
+          "headword": "REGARDER",
+          "start_page": 333,
+          "end_page": 333,
+          "word_count": 53,
+          "text_end": "an ancient officer of the king's forest, sworn to make the regard of the forest every year; that is, to take a view of its limits, to inquire into all offences and defaults committed by the foresters within the forest, and to observe whether all the officers execute their respective duties. See FOREST-LAW."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGEL",
+        "headword": "REGEL",
+        "start_page": 334,
+        "end_page": 334,
+        "word_count": 13,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGEL...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "or Rigel, a fixed star of the first magnitude, in Orion's left foot.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGATA",
+          "headword": "REGATA",
+          "start_page": 333,
+          "end_page": 334,
+          "word_count": 1459,
+          "text_end": "government is ever awake, that it knows and sees everything; its respectful attachment to the body of patricians; the sole aspect of certain officers of the police in their robes, dispersed in different places, at once operate and explain that tranquillity, that security, which we see in the midst of the greatest confusion, and that surprising docility in so lively and fiery a people. Regatas have been attempted on the river Thames, but they were but humble imitations of the Venetian amusement."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGENERATION",
+        "headword": "REGENERATION",
+        "start_page": 334,
+        "end_page": 334,
+        "word_count": 38,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGENERATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Theology, the act of being born again by a spiritual birth, or the change of heart and life experienced by a person who forsakes a course of vice, and sincerely embraces a life of virtue and piety.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGEL",
+          "headword": "REGEL",
+          "start_page": 334,
+          "end_page": 334,
+          "word_count": 13,
+          "text_end": "or Rigel, a fixed star of the first magnitude, in Orion's left foot."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGENSBERG",
+        "headword": "REGENSBERG",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 46,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGENSBERG...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a handsome though small town of Switzerland, in the canton of Zurich, and capital of a bailiwick of the same name, with a strong castle; seated on a hill, which is part of Mount Jura. There is a well sunk through a rock, 36 fathoms deep.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGISTER",
+          "headword": "REGISTER",
+          "start_page": 336,
+          "end_page": 337,
+          "word_count": 371,
+          "text_end": "Saturn, where the public acts were kept. Officers were also appointed as public registrars in the provinces, that recourse might be had to their lists of names, for settling disputes, or proving any person's freedom.\n\nREGISTER Ships, in Commerce, are vessels which obtain a permission, either from the king of Spain, or the council of the Indies, to traffic in the ports of the Spanish West Indies; which are thus called, from their being registered before they set sail from Cadiz for Buenos Ayres."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGENT",
+        "headword": "REGENT",
+        "start_page": 334,
+        "end_page": 335,
+        "word_count": 493,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGENT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "one who governs a kingdom during the minority or absence of the king.\n\nIn France, the queen-mother had the regency of the kingdom during the minority of the king, under the title of queen-regent.\n\nIn England, the methods of appointing this guardian or regent have been so various, and the duration of his power so uncertain, that from hence alone it may be collected that his office is unknown to the common law; and therefore (as Sir Edward Coke says, 4 Inst. 58.) the surest way is to have him made",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGENERATION",
+          "headword": "REGENERATION",
+          "start_page": 334,
+          "end_page": 334,
+          "word_count": 38,
+          "text_end": "in Theology, the act of being born again by a spiritual birth, or the change of heart and life experienced by a person who forsakes a course of vice, and sincerely embraces a life of virtue and piety."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGENT_ALSO",
+        "headword": "REGENT ALSO",
+        "start_page": 335,
+        "end_page": 335,
+        "word_count": 65,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGENT ALSO...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "t also signifies a professor of arts and sciences in a college, having pupils under his care; but it is generally restrained to the lower classes, as to rhetoric, logic, &c., those of philosophy being called professors. In the English universities it is applied to matters of arts under five years standing, and to doctors under two, as non-regent is to those above that standing.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGENT",
+          "headword": "REGENT",
+          "start_page": 334,
+          "end_page": 335,
+          "word_count": 493,
+          "text_end": "en of Frederic late prince of Wales under the age of 18, appointed the princess dowager;—and that of 5 Geo. III. c. 27, in case of a like descent to any of his present majesty's children, empowers the king to name either the queen or princess dowager, or any descendant of King George II. residing in this kingdom;—to be guardian and regent till the successor attains such age, assisted by\nRegent, a council of regency; the powers of them all being expressly defined and set down in the several acts."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGGIO_s2",
+        "headword": "REGGIO",
+        "start_page": 335,
+        "end_page": 335,
+        "word_count": 187,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGGIO...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an ancient, handsome, and strong town of Italy, in the duchy of Modena, with a strong citadel, and a bishop's see. It has been ruined several times by the Goths, and other nations. In the cathedral are paintings by the greatest masters; and in the square is the statue of Brennus, chief of the Gauls. The inhabitants are about 22,000, who carry on a great trade in silk. It was taken by Prince Eugene in 1766, and by the king of Sardinia in 1742. It is seated in a fertile country to the south of the",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGENT_ALSO",
+          "headword": "REGENT ALSO",
+          "start_page": 335,
+          "end_page": 335,
+          "word_count": 65,
+          "text_end": "t also signifies a professor of arts and sciences in a college, having pupils under his care; but it is generally restrained to the lower classes, as to rhetoric, logic, &c., those of philosophy being called professors. In the English universities it is applied to matters of arts under five years standing, and to doctors under two, as non-regent is to those above that standing."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGICIDE",
+        "headword": "REGICIDE",
+        "start_page": 335,
+        "end_page": 335,
+        "word_count": 99,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGICIDE...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "king-killer, a word chiefly used Regicide with us in speaking of the persons concerned in the trial, condemnation, and execution, of Charles I.\n\nREGIFUGIUM was a feast celebrated at Rome on the 24th of February, in commemoration of the expulsion of Tarquinius Superbus, and the abolition of regal power. It was also performed on the 26th of May, when the king of the sacrifices, or Rex Sacrorum, offered bean hour and bacon, in the place where the assemblies were held. The sacrifice being over, the",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGGIO_s2",
+          "headword": "REGGIO",
+          "start_page": 335,
+          "end_page": 335,
+          "word_count": 187,
+          "text_end": "e country to the south of the Apennines, and to the north of a spacious plain, 15 miles north-west of Modena, and 80 south-east of Milan. E. Long. 11° 5' N. Lat. 44° 43'.\n\nThe duchy of this name is bounded on the west by that of Modena, and produces a great deal of silk, and till it fell under the dominion of the French along with the rest of Italy, belonged to the duke of Modena, except the marquisate of St Martin, which belonged to a prince of that name.\n\nREGIAM MAJESTATEM. See Law, No clv. 3."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGIMEN_s2",
+        "headword": "REGIMEN",
+        "start_page": 335,
+        "end_page": 335,
+        "word_count": 27,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGIMEN...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Grammar, that part of syntax, or construction, which regulates the dependency of words, and the alterations which one occasions in another.\n\nREGIMENT for Seamen. See Seamen.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGICIDE",
+          "headword": "REGICIDE",
+          "start_page": 335,
+          "end_page": 335,
+          "word_count": 99,
+          "text_end": "in the trial, condemnation, and execution, of Charles I.\n\nREGIFUGIUM was a feast celebrated at Rome on the 24th of February, in commemoration of the expulsion of Tarquinius Superbus, and the abolition of regal power. It was also performed on the 26th of May, when the king of the sacrifices, or Rex Sacrorum, offered bean hour and bacon, in the place where the assemblies were held. The sacrifice being over, the people hastened away with all speed, to denote the precipitate flight of King Tarquin."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGIMENT",
+        "headword": "REGIMENT",
+        "start_page": 335,
+        "end_page": 336,
+        "word_count": 136,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGIMENT...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "is a body of men, either horse, foot, or artillery, commanded by a colonel, lieutenant-colonel, and major. Each regiment of foot is divided into companies; but the number of companies differs: though in Britain our regiments are generally 10 companies, one of which is always grenadiers, exclusive of the two independent companies. Regiments of horse are commonly fix troops, but there are some of nine. Dragoon regiments are generally in war time 8 troops, and in time of peace but 6. Each regiment",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGIMEN_s2",
+          "headword": "REGIMEN",
+          "start_page": 335,
+          "end_page": 335,
+          "word_count": 27,
+          "text_end": "in Grammar, that part of syntax, or construction, which regulates the dependency of words, and the alterations which one occasions in another.\n\nREGIMENT for Seamen. See Seamen."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGION_s4",
+        "headword": "REGION",
+        "start_page": 336,
+        "end_page": 336,
+        "word_count": 190,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in ancient Rome, was a part or division of the city. The regions were only four in number, till Augustus Caesar's time, who divided the city into fourteen; over each of which he settled two surveyors, called curatores viarum, who were appointed annually, and took their divisions by lot. These fourteen regions contained four hundred and twenty-four streets, thirty-one of which were called greater or royal streets, which began at the gilt pillar that stood at the entry of the open place in the mid",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGIMENT",
+          "headword": "REGIMENT",
+          "start_page": 335,
+          "end_page": 336,
+          "word_count": 136,
+          "text_end": "companies. Regiments of horse are commonly fix troops, but there are some of nine. Dragoon regiments are generally in war time 8 troops, and in time of peace but 6. Each regiment has a chaplain, quarter-master, adjutant, and surgeon. Some German regiments consist of 2000 foot; and the regiment of Picardy in France consisted of 6000, being 120 companies, of 50 men in each company.\nRegiments were first formed in France in the year 1558, and in England in the year 1660.\n\nREGIOMONTANUS. See MULLER."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGIS",
+        "headword": "REGIS",
+        "start_page": 336,
+        "end_page": 336,
+        "word_count": 471,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGIS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "PETER SYLVAIN, a French philosopher, and a great propagator of the doctrines of Des Cartes, was born in Agenois in the year 1632. He studied languages and philosophy under the Jesuits at Cahors; and as his views were then directed to the church, he was afterwards occupied in the study of divinity at the university of that town. His progress in learning was so uncommon, that at the end of four years he was offered a doctor's degree without the usual charges; but he did not think it became him to",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGION_s4",
+          "headword": "REGION",
+          "start_page": 336,
+          "end_page": 336,
+          "word_count": 190,
+          "text_end": "upwards in circumference. Authors, however, are not agreed as to the exact limits of each. The curatores viarum wore the purple, had each two lictors in their proper divisions, had slaves under them to take care of fires that happened to break out. They had also two officers, called denunciatores, in each region, to give account of any disorders. Four vico-magistri also were appointed in each street, who took care of the streets allotted them, and carried the orders of the city to each citizen."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGISTER",
+        "headword": "REGISTER",
+        "start_page": 336,
+        "end_page": 337,
+        "word_count": 371,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGISTER...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a public book, in which are entered and recorded memoirs, acts, and minutes, to be had recourse to occasionally for knowing and proving matters of fact. Of these there are several kinds; as,\n\n1. Register of deeds in Yorkshire and Middlesex, in which are registered all deeds, conveyances, wills, &c., that affect any lands or tenements in those counties, which are otherwise void against any subsequent purchasers or mortgagees, &c.; but this does not extend to any copyhold estate, nor to leases at",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGIS",
+          "headword": "REGIS",
+          "start_page": 336,
+          "end_page": 336,
+          "word_count": 471,
+          "text_end": "hy, containing Logic, Metaphysics, and Morals; in 1692, 3 vols. 4to, being a compilation of the different ideas of Des Cartes.\n\nThe Use of Reason and of Faith.\n\nAn Answer to Huet's Centuries of the Cartesian Philosophy; and an Answer to Du Hamel's Critical Reflections.\n\nSome pieces against Malebranche, to show that the apparent magnitude of an object depends solely on the magnitude of its image, traced on the retina.\n\nA small piece upon the question, Whether pleasure makes our present happiness?"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGISTERS",
+        "headword": "REGISTERS",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 52,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGISTERS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Chemistry, are holes, or chinks with flaps, contrived in the sides of furnaces, to regulate the fire; that is, to make the heat more intense or remiss, by opening them to let in the air, or keeping them close to exclude it. There are also registrars in the steam-engine. See Steam-Engine.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGENSBERG",
+          "headword": "REGENSBERG",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 46,
+          "text_end": "a handsome though small town of Switzerland, in the canton of Zurich, and capital of a bailiwick of the same name, with a strong castle; seated on a hill, which is part of Mount Jura. There is a well sunk through a rock, 36 fathoms deep."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGISTRAR",
+        "headword": "REGISTRAR",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 15,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGISTRAR...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "an officer in the English universities, who has the keeping of all the public records.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGISTERS",
+          "headword": "REGISTERS",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 52,
+          "text_end": "in Chemistry, are holes, or chinks with flaps, contrived in the sides of furnaces, to regulate the fire; that is, to make the heat more intense or remiss, by opening them to let in the air, or keeping them close to exclude it. There are also registrars in the steam-engine. See Steam-Engine."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGIUM",
+        "headword": "REGIUM",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 77,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGIUM...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "REGIUM Lepidum, Regium Lepidum, in Ancient Geography, a town of Cisalpine Gaul, on the Via Emilia, so called from Aemilius Lepidus, who was consul with C. Flaminius; but whence it was named Regium is altogether uncertain. Tacitus relates, that at the battle of Bedriacum, a bird of an unusual size was seen perching in a famous grove near Regium Lepidum. Now called Reggio, a city of Modena. E. Long. ii. o. N. Lat. 44. 45. See Reggio.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGISTRAR",
+          "headword": "REGISTRAR",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 15,
+          "text_end": "an officer in the English universities, who has the keeping of all the public records."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGNARD",
+        "headword": "REGNARD",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 97,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGNARD...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "John Francis, one of the best French comic writers after Molière, was born at Paris in 1647. He had scarcely finished his studies, when an ardent passion for travelling carried him over the greatest part of Europe. When he settled in his own country, he was made a treasurer of France, and lieutenant of the waters and forests: he wrote a great many comedies; and, though naturally of a gay genius, died of chagrin in the 52nd year of his age. His works, consisting of comedies and travels, were prin",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGIUM",
+          "headword": "REGIUM",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 77,
+          "text_end": "REGIUM Lepidum, Regium Lepidum, in Ancient Geography, a town of Cisalpine Gaul, on the Via Emilia, so called from Aemilius Lepidus, who was consul with C. Flaminius; but whence it was named Regium is altogether uncertain. Tacitus relates, that at the battle of Bedriacum, a bird of an unusual size was seen perching in a famous grove near Regium Lepidum. Now called Reggio, a city of Modena. E. Long. ii. o. N. Lat. 44. 45. See Reggio."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGNIER",
+        "headword": "REGNIER",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 94,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGNIER...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Mathurin, the first French poet who succeeded in satire, was born at Chartres in 1573. He was brought up to the church, a place for which his debaucheries rendered him very unfitting; and these by his own confession were so excessive, that at 30 he had all the infirmities of age. Yet he obtained a canonry in the church of Chartres, with other benefices; and died in 1613. There is a neat Elzevir edition of his works, 12mo, 1652, Leyden; but the most elegant is that with notes by M. Brofette, 4to,",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGNARD",
+          "headword": "REGNARD",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 97,
+          "text_end": "comic writers after Molière, was born at Paris in 1647. He had scarcely finished his studies, when an ardent passion for travelling carried him over the greatest part of Europe. When he settled in his own country, he was made a treasurer of France, and lieutenant of the waters and forests: he wrote a great many comedies; and, though naturally of a gay genius, died of chagrin in the 52nd year of his age. His works, consisting of comedies and travels, were printed at Rouen, in 5 vols. 1700, 1732."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGNIER_DES_MARETS",
+        "headword": "REGNIER DES MARETS",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 94,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGNIER DES MARETS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "Seraphin, a French poet, born at Paris in 1632. He distinguished himself early by his poetical talents, and in 1684 was made perpetual secretary to the French academy on the death of Mezeray: it was he who drew up all those papers in the name of the academy against Furetiere: the king gave him the priory of Grammont, and he had also an abbey. He died in 1713, and his works are, French, Italian, Spanish, and Latin poems, 2 vols.; a French grammar; and an Italian translation of Anacreon's odes, wi",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGNIER",
+          "headword": "REGNIER",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 94,
+          "text_end": "first French poet who succeeded in satire, was born at Chartres in 1573. He was brought up to the church, a place for which his debaucheries rendered him very unfitting; and these by his own confession were so excessive, that at 30 he had all the infirmities of age. Yet he obtained a canonry in the church of Chartres, with other benefices; and died in 1613. There is a neat Elzevir edition of his works, 12mo, 1652, Leyden; but the most elegant is that with notes by M. Brofette, 4to, 1729, London."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGNUM",
+        "headword": "REGNUM",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 63,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGNUM...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Ancient Geography, a town of the Regni, a people in Britain, next the Cantii, now Surry, Sussex, and the coast of Hampshire, (Camden); a town situated, by the Itinerary numbers, on the confines of the Belgae, in a place now called Ringwood, in Hampshire, on the rivulet Avon, running down from Salisbury, and about ten miles or more distant from the sea.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGNIER_DES_MARETS",
+          "headword": "REGNIER DES MARETS",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 94,
+          "text_end": "rn at Paris in 1632. He distinguished himself early by his poetical talents, and in 1684 was made perpetual secretary to the French academy on the death of Mezeray: it was he who drew up all those papers in the name of the academy against Furetiere: the king gave him the priory of Grammont, and he had also an abbey. He died in 1713, and his works are, French, Italian, Spanish, and Latin poems, 2 vols.; a French grammar; and an Italian translation of Anacreon's odes, with some other translations."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGULAR_s2",
+        "headword": "REGULAR",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 24,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGULAR...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in a monastery, a person who has taken the vows; because he is bound to observe the rules of the order he has embraced.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGNUM",
+          "headword": "REGNUM",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 63,
+          "text_end": "in Ancient Geography, a town of the Regni, a people in Britain, next the Cantii, now Surry, Sussex, and the coast of Hampshire, (Camden); a town situated, by the Itinerary numbers, on the confines of the Belgae, in a place now called Ringwood, in Hampshire, on the rivulet Avon, running down from Salisbury, and about ten miles or more distant from the sea."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGULATION",
+        "headword": "REGULATION",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 23,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGULATION...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "a rule or order prescribed by a superior, for the proper management of some affair.\n\nREGULATOR of a Watch, the small spring belonging",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGULAR_s2",
+          "headword": "REGULAR",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 24,
+          "text_end": "in a monastery, a person who has taken the vows; because he is bound to observe the rules of the order he has embraced."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGULATOR",
+        "headword": "REGULATOR",
+        "start_page": 337,
+        "end_page": 337,
+        "word_count": 147,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGULATOR...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "signifies him who buys and sells any wares or victuals in the same market or fair; and regators are particularly described to be those who buy, or get into their hands, in fairs or markets, any grain, fish, butter, cheese, sheep, lambs, calves, swine, pigs, geese, capons, hens, chickens, pigeons, conies, or other dead victuals whatsoever, brought to a fair or market to be sold there, and do sell the same again in the same fair, market, or place, or in some other within four miles thereof.\n\nRegra",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGULATION",
+          "headword": "REGULATION",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 23,
+          "text_end": "a rule or order prescribed by a superior, for the proper management of some affair.\n\nREGULATOR of a Watch, the small spring belonging"
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REGULUS_s3",
+        "headword": "REGULUS",
+        "start_page": 338,
+        "end_page": 338,
+        "word_count": 111,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REGULUS...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Chemistry, the metallic matter that falls to the bottom of the crucible, in the melting of ores or impure metallic substances. It is the finest or purest part of the metal; and, according to the alchemists, is denominated regulus, or little king, as being the first-born of the royal metallic blood. According to them, it is really a son, but not a perfect man; i.e. not yet a perfect metal, for want of time and proper nourishment; Rehearsal To procure the regulus of metals, &c., flux powders ar",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGULATOR",
+          "headword": "REGULATOR",
+          "start_page": 337,
+          "end_page": 337,
+          "word_count": 147,
+          "text_end": "old there, and do sell the same again in the same fair, market, or place, or in some other within four miles thereof.\n\nRegrating is a kind of huckstering, by which victuals are made dearer; for every seller will gain something, which must of consequence enhance the price. And, in ancient times, both the engroffer and regator were comprehended under the word forefeller. Regators are punishable by loss and forfeiture of goods, and imprisonment, according to the first, second, or third offence, &c."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REHEARSAL",
+        "headword": "REHEARSAL",
+        "start_page": 338,
+        "end_page": 338,
+        "word_count": 37,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REHEARSAL...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Music and the Drama, an essay or experiment of some composition, generally made in private, previous to its representation or performance in public, in order to render the actors and performers more perfect in their parts.",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REGULUS_s3",
+          "headword": "REGULUS",
+          "start_page": 338,
+          "end_page": 338,
+          "word_count": 111,
+          "text_end": "finest or purest part of the metal; and, according to the alchemists, is denominated regulus, or little king, as being the first-born of the royal metallic blood. According to them, it is really a son, but not a perfect man; i.e. not yet a perfect metal, for want of time and proper nourishment; Rehearsal To procure the regulus of metals, &c., flux powders are commonly used; as nitre, tartar, &c., which purge the sulphurous part adhering to the metal, by attracting and absorbing it to themselves."
+        },
+        "semantic": null
+      }
+    },
+    {
+      "flagged": {
+        "article_id": "1810_v17_REICHENBERG",
+        "headword": "REICHENBERG",
+        "start_page": 338,
+        "end_page": 338,
+        "word_count": 209,
+        "volume_num": 17,
+        "primary_issue": "out_of_range",
+        "issues": [
+          {
+            "issue_type": "out_of_range",
+            "severity": "medium",
+            "reason": "'REICHENBERG...' starts with 'R' but volume 17 covers P-P",
+            "confidence": 0.85
+          }
+        ],
+        "text_preview": "in Bohemia, 95 miles west of Prague, 205 north-west of Vienna, N. Lat 50° 2' E., Long. 12° 25', is only remarkable as the place where the Prussian army defeated the Austrians on the 21st of April 1757. The Austrian army, commanded by Count Königseck, was posted near Reichenberg, and was attacked by the Prussians under the command of the prince of Brunswick Bevern. The Prussians were 20,000, and the Austrians 28,000; the action began at half after six in the morning, when the Prussian lines were",
+        "surrounding_letter": "R"
+      },
+      "parent_candidates": {
+        "page_adjacent": {
+          "article_id": "1810_v17_REHEARSAL",
+          "headword": "REHEARSAL",
+          "start_page": 338,
+          "end_page": 338,
+          "word_count": 37,
+          "text_end": "in Music and the Drama, an essay or experiment of some composition, generally made in private, previous to its representation or performance in public, in order to render the actors and performers more perfect in their parts."
+        },
+        "semantic": null
+      }
+    }
+  ]
+}
