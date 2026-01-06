@@ -1,0 +1,39 @@
+{
+  "total_outliers": 558,
+  "total_batches": 26,
+  "batch_size": 25,
+  "editions": {
+    "1771": {
+      "outliers": 31,
+      "batches": 2
+    },
+    "1778": {
+      "outliers": 39,
+      "batches": 2
+    },
+    "1797": {
+      "outliers": 64,
+      "batches": 3
+    },
+    "1810": {
+      "outliers": 24,
+      "batches": 1
+    },
+    "1815": {
+      "outliers": 53,
+      "batches": 3
+    },
+    "1823": {
+      "outliers": 87,
+      "batches": 4
+    },
+    "1842": {
+      "outliers": 113,
+      "batches": 5
+    },
+    "1860": {
+      "outliers": 147,
+      "batches": 6
+    }
+  }
+}
