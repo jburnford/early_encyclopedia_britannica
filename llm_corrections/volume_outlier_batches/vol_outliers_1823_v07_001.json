@@ -1,0 +1,1656 @@
+{
+  "batch_id": "vol_outliers_1823_v07_001",
+  "created": "2026-01-09T17:22:23.110836",
+  "edition_year": 1823,
+  "volume_num": 7,
+  "item_count": 19,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1823_v07_CARRIERS",
+      "headword": "CARRIERS",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 31,
+      "end_page": 31,
+      "word_count": 14,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'CARRIERS' comes before 'CTE'",
+      "text_preview": "those who dress and colour leather after it comes from the tan-yard. See TANNING.",
+      "text_end": "",
+      "full_text": "those who dress and colour leather after it comes from the tan-yard. See TANNING.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Short text starting with lowercase (sentence fragment)",
+        "merge_target": "CURNOCK"
+      },
+      "prev_articles": [
+        {
+          "headword": "CURNOCK",
+          "start_page": 30,
+          "end_page": 30
+        },
+        {
+          "headword": "CURRANS",
+          "start_page": 30,
+          "end_page": 30
+        },
+        {
+          "headword": "CURRENT",
+          "start_page": 30,
+          "end_page": 31
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CURRICULUS",
+          "start_page": 31
+        },
+        {
+          "headword": "CURRODREPANUS",
+          "start_page": 31
+        },
+        {
+          "headword": "CURRYING",
+          "start_page": 31
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_CURRENT",
+          "headword": "CURRENT",
+          "direction": "previous",
+          "start_page": 30,
+          "text_preview": "or Currant, a term used to express the present time. Thus the year 1804 is the current year, the 20th current is the 20th day of the month now running.\u2014With regard to commerce, the price current of any merchandise is the known and ordinary price accustomed to be given for it. The term is also used for any thing that has course or is received in commerce; in which sense we say, current coin, &c.\n\nCurrent, in Navigation, a certain progressive movement of the water of the sea, by which all bodies floating therein are compelled to alter their course or velocity, or both, and submit to the laws imposed on them by the current.\n\nIn the sea, currents are either natural and general, as arising from the diurnal rotation of the earth about its axis; or accidental and particular, caused by the waters being driven against promontories, or into gulfs and straits, where, wanting room to spread, they are driven back, and thus disturb the ordinary flux of the sea. Currents are various, and directed tow",
+          "text_end": "t was found.\n\nFrom this principle, it is easy to account for that continual indraught of water out of the Atlantic into the Mediterranean through the straits of Gibraltar, a passage about 20 miles broad; yet without any sensible rising of the water along the coasts of Barbary, &c. or any overflowing of the land, which there lies very low.\u2014Dr Halley, however, solves the currents setting in at the straits without overflowing the banks, by the great evaporation, without supposing any under current."
+        },
+        {
+          "article_id": "1823_v07_CURRANS",
+          "headword": "CURRANS",
+          "direction": "previous",
+          "start_page": 30,
+          "text_preview": "or CURRANTS, the fruit of a species of grossularia. See GROSSULARIA, BOTANY Index.\n\nThe white and red sort are mostly used; for the black, and chiefly the leaves, upon first coming out, are in use to flavour English spirits, and counterfeit French brandy. Currants greatly assuage drought, cool and fortify the stomach, and help digestion; and the jelly of black currants is said to be very efficacious in curing inflammations of the throat.\n\nCurrants also signify a smaller kind of grapes, brought principally from Zante and Cephalonia. They are gathered off the bushes, and laid to dry in the sun, and so put up in large butts. They are opening and pectoral; but are more used in the kitchen than in medicine.",
+          "text_end": "lish spirits, and counterfeit French brandy. Currants greatly assuage drought, cool and fortify the stomach, and help digestion; and the jelly of black currants is said to be very efficacious in curing inflammations of the throat.\n\nCurrants also signify a smaller kind of grapes, brought principally from Zante and Cephalonia. They are gathered off the bushes, and laid to dry in the sun, and so put up in large butts. They are opening and pectoral; but are more used in the kitchen than in medicine."
+        },
+        {
+          "article_id": "1823_v07_CURNOCK",
+          "headword": "CURNOCK",
+          "direction": "previous",
+          "start_page": 30,
+          "text_preview": "a measure of corn containing four bushels, or half a quarter.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_CURRICULUS",
+          "headword": "CURRICULUS",
+          "direction": "next",
+          "start_page": 31,
+          "text_preview": "in our ancient writers, denotes the year or course of a year. Actum est hoc annorum Dominice incarnationis quater quinquagenis et quin-\n\nquies quinis lastris, et tribus curriculis, i.e. In the year Cerciculus 1028; for four times fifty make two hundred, and five times two hundred make one thousand; five lustres are twenty-five years, and three curricula are three years.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1823_v07_CIRCULATING_DECIMALS",
+      "headword": "CIRCULATING DECIMALS",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 117,
+      "end_page": 117,
+      "word_count": 223,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'CIRCULATING DECIMALS' comes before 'CTE'",
+      "text_preview": "called also recurring or repeating decimals, are those in which a figure or several figures are continually repeated. They are distinguished into single and multiple, and these again into pure and mixed.\n\nA pure single circulate is that in which one figure only is repeated; as '222, &c. and is marked thus '2.\n\nA pure multiple circulate is that in which several figures are continually repeated; as '232323, &c. marked '23; and '524524, &c. marked '524.\n\nA mixed single circulate is that which consi",
+      "text_end": " first who distinctly considered or treated of infinite circulating decimals, as he himself informs us in his Treatise of Infinites. Since his time many other authors have treated on this part of arithmetic; the principal of those, however, to whom the art is mostly indebted, are Messrs Brown, Cunn,",
+      "full_text": "called also recurring or repeating decimals, are those in which a figure or several figures are continually repeated. They are distinguished into single and multiple, and these again into pure and mixed.\n\nA pure single circulate is that in which one figure only is repeated; as '222, &c. and is marked thus '2.\n\nA pure multiple circulate is that in which several figures are continually repeated; as '232323, &c. marked '23; and '524524, &c. marked '524.\n\nA mixed single circulate is that which consists of a terminate part, and a single repeating figure; as 4'222, &c. or 4'2. And\n\nA mixed multiple circulate is that which contains a terminate part with several repeating figures; as 45'524.\n\nThat part of the circulate which repeats is called the repetend; and the whole repetend, supposed infinitely continued, is equal to a vulgar fraction, whose numerator is the repeating number or figures, and its denominator the same number of nines: so '2 is =\\(\\frac{2}{9}\\); and '23 is =\\(\\frac{23}{99}\\); and '524 is =\\(\\frac{524}{999}\\).\n\nDr Wallis, it appears, was the first who distinctly considered or treated of infinite circulating decimals, as he himself informs us in his Treatise of Infinites. Since his time many other authors have treated on this part of arithmetic; the principal of those, however, to whom the art is mostly indebted, are Messrs Brown, Cunn,",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DECEMPAGI",
+          "start_page": 116,
+          "end_page": 116
+        },
+        {
+          "headword": "DECEMPEDA",
+          "start_page": 116,
+          "end_page": 116
+        },
+        {
+          "headword": "DECEMVIRI",
+          "start_page": 116,
+          "end_page": 117
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DECENNALIA",
+          "start_page": 117
+        },
+        {
+          "headword": "DECHALES",
+          "start_page": 117
+        },
+        {
+          "headword": "DECIATES",
+          "start_page": 117
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DECEMVIRI",
+          "headword": "DECEMVIRI",
+          "direction": "previous",
+          "start_page": 116,
+          "text_preview": "ten magistrates of absolute authority among the Romans. The privileges of the patricians raised dissatisfaction among the plebeians; who, though freed from the power of the Tarquins, still saw\nthat the administration of justice depended upon the will and caprice of their superiors, without any written statute to direct them, and convince them that they were governed with equity and impartiality. The tribunes complained to the senate, and demanded that a code of laws might be framed for the use and benefit of the Roman people. The petition was complied with; and three ambassadors were sent to Athens and all the other Grecian states, to collect the laws of Solon and of all the other celebrated legislators of Greece. Upon the return of the commissioners it was universally agreed, that ten new magistrates called Decemviri should be elected from the senate to put the project into execution. Their power was absolute, all other offices ceased after their election, and they presided over the c",
+          "text_end": ", because a spear, hasta, was fixed at the door of the place where the goods were exposed to sale. They were called decemviri lictibus judicandis. The officers whom Tarquinius appointed to guard the Sibylline books were also called decemviri. They were originally two in number, called duumviri, till the year of Rome 388, when their number was increased to ten, five of which were chosen from the plebeians and five from the patricians. Sylla increased their number to fifteen, called quindecemviri."
+        },
+        {
+          "article_id": "1823_v07_DECEMPEDA",
+          "headword": "DECEMPEDA",
+          "direction": "previous",
+          "start_page": 116,
+          "text_preview": "Amazons, ten-feet rod, an instrument used by the ancients in measuring.\n\nThe decempeda was a rule or rod divided into ten feet; whence its name, from decem, \"ten,\" and pes, pedis, \"foot.\" The foot was subdivided into twelve inches, and each inch into ten digits. The decempeda was used both in measuring of land, like the chain among us; and by architects to give the proper dimensions and proportions to the parts of their buildings, which use it still retains. Horace, lib. ii. od. i5, blaming the magnificence and delicacy of the buildings of his time, observes, that it was otherwise in the times of Romulus and Cato; that in the houses of private persons there were not then known any porticoes measured out with the decempeda, nor turned to the north to take the cool air.",
+          "text_end": "as used both in measuring of land, like the chain among us; and by architects to give the proper dimensions and proportions to the parts of their buildings, which use it still retains. Horace, lib. ii. od. i5, blaming the magnificence and delicacy of the buildings of his time, observes, that it was otherwise in the times of Romulus and Cato; that in the houses of private persons there were not then known any porticoes measured out with the decempeda, nor turned to the north to take the cool air."
+        },
+        {
+          "article_id": "1823_v07_DECEMPAGI",
+          "headword": "DECEMPAGI",
+          "direction": "previous",
+          "start_page": 116,
+          "text_preview": "in Ancient Geography, a town of Belgica: Now Dience, in Lorrain, on the rivulet Scille or Selna, near the lake Lindre, about seven German miles to the north-east of Nancy.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_DECENNALIA",
+          "headword": "DECENNALIA",
+          "direction": "next",
+          "start_page": 117,
+          "text_preview": "ancient Roman festivals, celebrated by the emperors every tenth year of their reign, with sacrifices, games, and largesses for the people. The emperor Augustus first instituted these solemnities, in which he was imitated by his successors. At the same time the people offered up vows for the emperor, and for the perpetuity of the empire; which were therefore called vota decennalia. Augustus's view in establishing the decennalia was to preserve the empire and the sovereign power without offence or restraint to the people. For during the celebration of this feast, that Decennalia prince used to surrender up all his authority into the hands of the people; who filled with joy, and charmed with the goodness of Augustus, immediately delivered it him back again.",
+          "text_end": "ple offered up vows for the emperor, and for the perpetuity of the empire; which were therefore called vota decennalia. Augustus's view in establishing the decennalia was to preserve the empire and the sovereign power without offence or restraint to the people. For during the celebration of this feast, that Decennalia prince used to surrender up all his authority into the hands of the people; who filled with joy, and charmed with the goodness of Augustus, immediately delivered it him back again."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1823_v07_TIGHT",
+      "headword": "TIGHT",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 250,
+      "end_page": 250,
+      "word_count": 620,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'TIGHT' comes after 'ELECTRICITY'",
+      "text_preview": "adj. A term employed in certain circumstances to denote the internal capacity of particular bodies. Nearly synonymous with strait.\n\nThis term is confined entirely to denote the smallness of the internal dimensions of such objects, as are formed to cover or to receive or contain other solid bodies, and can be employed in no other case. And although it agrees with strait, in always denoting confinement, and by being applicable to the same species of objects, yet it differs in the following respect",
+      "text_end": " of these words have others formed from them which might be readily mistaken for their plurals, although they have a very different signification; as clothes, which does not denote any number of pieces of different kinds of cloth, but wearing apparel. The following example will illustrate this head.",
+      "full_text": "adj. A term employed in certain circumstances to denote the internal capacity of particular bodies. Nearly synonymous with strait.\n\nThis term is confined entirely to denote the smallness of the internal dimensions of such objects, as are formed to cover or to receive or contain other solid bodies, and can be employed in no other case. And although it agrees with strait, in always denoting confinement, and by being applicable to the same species of objects, yet it differs in the following respects: 1. If there be any difference of the diameter of the objects to which the term strait can be applied, it always has reference to the smaller; yet tight may be applied to any sort of confinement, whether it regards the length or breadth. 2. Strait can be applied to all bodies of capacity when of small diameter, without any sort of reference to the nature of the substance which it may be capable of containing. For we can say a strait bag, a strait sleeve, a strait mortoise, a strait gate, &c., whereas tight can only be applied to any body when it is considered as having reference to another body which is intended to be contained in it, and is pinched from want of room. Thus we say, the sleeve of a coat is too tight for the arm, the mortoise is too tight for the tenon, &c.; but we cannot say the bag or the gate is too tight, because they are fitted to receive any sort of objects. And hence it happens that in many cases the dimensions of the same body may be expressed by tight or strait when considered in different circumstances. Thus we may say, this sleeve is too strait, when we look at a coat when lying on the table and consider its proportions; but it is not till we have tried it up on the arm that it is intended to cover, that we call it tight. And we may say, a gate is too strait or too tight; but in this first case we consider it as being too confined for admitting objects to pass through it; and in the last, as being too confined with respect to the leaves that are to ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DICTATOR",
+          "start_page": 246,
+          "end_page": 246
+        },
+        {
+          "headword": "DICTION",
+          "start_page": 246,
+          "end_page": 246
+        },
+        {
+          "headword": "DICTIONARY",
+          "start_page": 246,
+          "end_page": 250
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DICTYMNIA",
+          "start_page": 251
+        },
+        {
+          "headword": "DICTYS CRETENSIS",
+          "start_page": 251
+        },
+        {
+          "headword": "DIDACTIC",
+          "start_page": 251
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DICTIONARY",
+          "headword": "DICTIONARY",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "in its original acceptation, is the arranging all the words of a language according to the order of the alphabet, and annexing a definition or explanation to each word. When arts and sciences began to be improved and extended, the multiplicity of technical terms rendered it necessary to compile dictionaries, either of science in general, or of particular sciences, according to the views of the compiler.\n\nDictionary of the English Language. The design of every dictionary of language is to explain, in the most accurate manner, the meaning of every word; and to show the various ways in which it can be combined with others, in as far as this tends to alter its meaning. The dictionary which does this in the most accurate manner is the most complete. Therefore the principal study of a lexicographer ought to be, to discover a method which will be best adapted for that purpose. Dr Johnson, with great labour, has collected the various meanings of every word, and quoted the authorities: but, wou",
+          "text_end": "o denote the smallness of the internal diameter of those small bodies which are fitted to receive or contain others, as any kind of bag, tube, body clothes, mortoises, and others of the same kind; and in all these cases this term may be employed to denote the smallness of their lesser diameter, and never the term narrow. But in certain circumstances the word tight may be substituted for it. See TIGHT.\n\n5. Strait, in a figurative sense, denotes any sort of confinement of sentiment or disposition."
+        },
+        {
+          "article_id": "1823_v07_DICTION",
+          "headword": "DICTION",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "the phrase, elocution or style, of a writer or speaker. See Oratory, No 99-122.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_DICTATOR",
+          "headword": "DICTATOR",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "a magistrate at Rome invested with regal authority. This officer was first chosen during the Roman wars against the Latins. The consuls being unable to raise forces for the defence of the state, because the plebeians refused to enlist if they were not discharged of all the debts they had contracted with the patricians, the senate found it necessary to elect a new magistrate with absolute and uncontrollable power to take care of the state. The dictator remained in office for six months, after which he was again elected if the affairs of the state seemed to be desperate; but if tranquillity was re-established, he generally laid down his power before the time was expired. He knew no superior in the republic, and even the laws were subjected to him. He was called dictator, because dictus, named by the consul, or quoniam dictis ejus parebat populus, because the people implicitly obeyed his command. He was named by the consul in the night viva voce, and his election was confirmed by the augu",
+          "text_end": "uld do nothing without his express order. This subordination, however, was some time after removed; and during the second Punic war the master of the horse was invested with a power equal to that of the dictator. A second dictator was also chosen for the election of magistrates at Rome after the battle of Cannae. The dictatorship was originally confined to the patricians; but the plebeians were afterwards admitted to share it. Titus Lartius Flavus was the first dictator in the year of Rome, 253."
+        },
+        {
+          "article_id": "1823_v07_DICTYMNIA",
+          "headword": "DICTYMNIA",
+          "direction": "next",
+          "start_page": 251,
+          "text_preview": "or **Dictynnia**, in Mythology, were feasts celebrated at Lacedaemon and in Crete, in honour of Diana Dictynnia or Dictynnia, or of a nymph taken for her, who, having plunged herself into the sea, to escape the passion of Minos, was caught in a fisherman's net or *\u03bb\u03ac\u03c3\u03c4\u03c1\u03bf\u03bd*, whence the name.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1823_v07_MOE",
+      "headword": "MOE",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 251,
+      "end_page": 251,
+      "word_count": 122,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'MOE' comes after 'ELECTRICITY'",
+      "text_preview": "or **mo.** adj. An obsolete term still employed in the Scotch dialect, and by them pronounced *mae*; denoting a greater number, and nearly synonymous with *more*: but it differs in this respect, that in the Scotch dialect, *mae* and *mair* (English *more*), are each employed in their distinct sphere, without encroaching upon one another; *mae* being employed to denote number, but never quantity or quality; and *mair*, to denote quantity and quality, but never number: thus they say *mae*, not *ma",
+      "text_end": "ver number: thus they say *mae*, not *mair*, apples, men, &c. and they say *mair*, not *mae*, cloth, earth, courage, &c. See **MAIR**. Both of these terms are supplied by the word *more*; which in the English language is applied indiscriminately to denote quantity, quality, and number. See **MORE**.",
+      "full_text": "or **mo.** adj. An obsolete term still employed in the Scotch dialect, and by them pronounced *mae*; denoting a greater number, and nearly synonymous with *more*: but it differs in this respect, that in the Scotch dialect, *mae* and *mair* (English *more*), are each employed in their distinct sphere, without encroaching upon one another; *mae* being employed to denote number, but never quantity or quality; and *mair*, to denote quantity and quality, but never number: thus they say *mae*, not *mair*, apples, men, &c. and they say *mair*, not *mae*, cloth, earth, courage, &c. See **MAIR**. Both of these terms are supplied by the word *more*; which in the English language is applied indiscriminately to denote quantity, quality, and number. See **MORE**.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DICTYMNIA",
+          "start_page": 251,
+          "end_page": 251
+        },
+        {
+          "headword": "DICTYS CRETENSIS",
+          "start_page": 251,
+          "end_page": 251
+        },
+        {
+          "headword": "DIDACTIC",
+          "start_page": 251,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THIR",
+          "start_page": 251
+        },
+        {
+          "headword": "DIDELPHIS",
+          "start_page": 252
+        },
+        {
+          "headword": "DIDEROT",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DIDACTIC",
+          "headword": "DIDACTIC",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "in the schools, signifies the manner of speaking or writing, adapted to teach or explain the nature of things. The word is formed from the Greek \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9, *doceo*, \"I teach.\"\n\nThere are many words which are only used in the didactic and dogmatic way; and there are many works, ancient and modern, both in prose and verse, written after\nDidactic after this method: such are the Georgics of Virgil, Lucretius's poem De Rerum Natura, and Pope's Essay on Criticism and on Man, &c., &c.\n\nDIDAPPER. See COLOMBUS, ORNITHOLOGY Index.",
+          "text_end": "s the manner of speaking or writing, adapted to teach or explain the nature of things. The word is formed from the Greek \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9, *doceo*, \"I teach.\"\n\nThere are many words which are only used in the didactic and dogmatic way; and there are many works, ancient and modern, both in prose and verse, written after\nDidactic after this method: such are the Georgics of Virgil, Lucretius's poem De Rerum Natura, and Pope's Essay on Criticism and on Man, &c., &c.\n\nDIDAPPER. See COLOMBUS, ORNITHOLOGY Index."
+        },
+        {
+          "article_id": "1823_v07_DICTYS_CRETENSIS",
+          "headword": "DICTYS CRETENSIS",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "a very ancient historian, who serving under Idomeneus king of Crete in the Trojan war, wrote the history of that expedition in nine books; and Tzetzes tells us, that Homer formed his Iliad upon the plan of that history. It is however maintained, that the Latin history of Dictys which we have at present is spurious.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_DICTYMNIA",
+          "headword": "DICTYMNIA",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "or **Dictynnia**, in Mythology, were feasts celebrated at Lacedaemon and in Crete, in honour of Diana Dictynnia or Dictynnia, or of a nymph taken for her, who, having plunged herself into the sea, to escape the passion of Minos, was caught in a fisherman's net or *\u03bb\u03ac\u03c3\u03c4\u03c1\u03bf\u03bd*, whence the name.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_THIR",
+          "headword": "THIR",
+          "direction": "next",
+          "start_page": 251,
+          "text_preview": "pron. Obsolete; still employed in the Scotch dialect: the plural of *this*; and contrasted to *these*, in the same manner as *that* is to *this*.\n\nAs there is no word in the English language equivalent to this, we thus show the manner in which it is employed. In the English language we say, that stone or house, pointing at one at a distance, is larger or more commodious than this stone or this house, which is supposed to be at hand. In the same manner, in the Scotch dialect, they say, these (or, as it is pronounced, *thae*) stones are whiter than thir stones; denoting, that the former are at a distance, and the latter at hand. And, in the same manner, it is invariably applied to denote any present object in the plural manner, as opposed to *these*: as these or thir apples, as at hand, or at a distance; these, or thir trees, &c.; but never in the singular number, as it is always *this* or *that* tree, house, &c.\n\nAs the English language is so exceedingly irregular in the pronunciation, ",
+          "text_end": "uted upon this plan, would convey to his mind a more perfect knowledge of the English language, than those dictionaries that have been hitherto published. These examples were given rather with a view to show the manner in which a work of this kind might be conducted, than as perfect and unexceptionable explanations of the several articles there enumerated; and therefore we did not think it necessary to produce any authorities, although we are sensible that they would be requisite in such a work."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1823_v07_THIR",
+      "headword": "THIR",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 251,
+      "end_page": 251,
+      "word_count": 698,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'THIR' comes after 'ELECTRICITY'",
+      "text_preview": "pron. Obsolete; still employed in the Scotch dialect: the plural of *this*; and contrasted to *these*, in the same manner as *that* is to *this*.\n\nAs there is no word in the English language equivalent to this, we thus show the manner in which it is employed. In the English language we say, that stone or house, pointing at one at a distance, is larger or more commodious than this stone or this house, which is supposed to be at hand. In the same manner, in the Scotch dialect, they say, these (or,",
+      "text_end": "to show the manner in which a work of this kind might be conducted, than as perfect and unexceptionable explanations of the several articles there enumerated; and therefore we did not think it necessary to produce any authorities, although we are sensible that they would be requisite in such a work.",
+      "full_text": "pron. Obsolete; still employed in the Scotch dialect: the plural of *this*; and contrasted to *these*, in the same manner as *that* is to *this*.\n\nAs there is no word in the English language equivalent to this, we thus show the manner in which it is employed. In the English language we say, that stone or house, pointing at one at a distance, is larger or more commodious than this stone or this house, which is supposed to be at hand. In the same manner, in the Scotch dialect, they say, these (or, as it is pronounced, *thae*) stones are whiter than thir stones; denoting, that the former are at a distance, and the latter at hand. And, in the same manner, it is invariably applied to denote any present object in the plural manner, as opposed to *these*: as these or thir apples, as at hand, or at a distance; these, or thir trees, &c.; but never in the singular number, as it is always *this* or *that* tree, house, &c.\n\nAs the English language is so exceedingly irregular in the pronunciation, the same letter in the same situation often assuming sounds totally different in different words, it is impossible to establish any general rules, on this subject, which do not admit of many exceptions: therefore, a dictionary is the best means of ascertaining and pointing out the proper pronunciations of words. For, if the writer first pointed out all the different sounds that the same letter could ever be made to express, and assigned to every particular sound which each letter could be made to assume, a particular mark, which was appropriated to denote that particular sound of the letter whenever it occurred; by placing these particular marks above the letters in the dictionary, the sound of each letter would be pointed out in all cases with the utmost certainty. It would be impossible for us to illustrate this by examples, without first Dictionary ascertaining all the sounds of each letter; which would lead us into a discussion too long for this place.\n\nWe shall only further observ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DICTYS CRETENSIS",
+          "start_page": 251,
+          "end_page": 251
+        },
+        {
+          "headword": "DIDACTIC",
+          "start_page": 251,
+          "end_page": 252
+        },
+        {
+          "headword": "MOE",
+          "start_page": 251,
+          "end_page": 251
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DIDELPHIS",
+          "start_page": 252
+        },
+        {
+          "headword": "DIDEROT",
+          "start_page": 252
+        },
+        {
+          "headword": "DIDO",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_MOE",
+          "headword": "MOE",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "or **mo.** adj. An obsolete term still employed in the Scotch dialect, and by them pronounced *mae*; denoting a greater number, and nearly synonymous with *more*: but it differs in this respect, that in the Scotch dialect, *mae* and *mair* (English *more*), are each employed in their distinct sphere, without encroaching upon one another; *mae* being employed to denote number, but never quantity or quality; and *mair*, to denote quantity and quality, but never number: thus they say *mae*, not *mair*, apples, men, &c. and they say *mair*, not *mae*, cloth, earth, courage, &c. See **MAIR**. Both of these terms are supplied by the word *more*; which in the English language is applied indiscriminately to denote quantity, quality, and number. See **MORE**.",
+          "text_end": "e each employed in their distinct sphere, without encroaching upon one another; *mae* being employed to denote number, but never quantity or quality; and *mair*, to denote quantity and quality, but never number: thus they say *mae*, not *mair*, apples, men, &c. and they say *mair*, not *mae*, cloth, earth, courage, &c. See **MAIR**. Both of these terms are supplied by the word *more*; which in the English language is applied indiscriminately to denote quantity, quality, and number. See **MORE**."
+        },
+        {
+          "article_id": "1823_v07_DIDACTIC",
+          "headword": "DIDACTIC",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "in the schools, signifies the manner of speaking or writing, adapted to teach or explain the nature of things. The word is formed from the Greek \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9, *doceo*, \"I teach.\"\n\nThere are many words which are only used in the didactic and dogmatic way; and there are many works, ancient and modern, both in prose and verse, written after\nDidactic after this method: such are the Georgics of Virgil, Lucretius's poem De Rerum Natura, and Pope's Essay on Criticism and on Man, &c., &c.\n\nDIDAPPER. See COLOMBUS, ORNITHOLOGY Index.",
+          "text_end": "s the manner of speaking or writing, adapted to teach or explain the nature of things. The word is formed from the Greek \u03b4\u03b9\u03b4\u03ac\u03c3\u03ba\u03c9, *doceo*, \"I teach.\"\n\nThere are many words which are only used in the didactic and dogmatic way; and there are many works, ancient and modern, both in prose and verse, written after\nDidactic after this method: such are the Georgics of Virgil, Lucretius's poem De Rerum Natura, and Pope's Essay on Criticism and on Man, &c., &c.\n\nDIDAPPER. See COLOMBUS, ORNITHOLOGY Index."
+        },
+        {
+          "article_id": "1823_v07_DICTYS_CRETENSIS",
+          "headword": "DICTYS CRETENSIS",
+          "direction": "previous",
+          "start_page": 251,
+          "text_preview": "a very ancient historian, who serving under Idomeneus king of Crete in the Trojan war, wrote the history of that expedition in nine books; and Tzetzes tells us, that Homer formed his Iliad upon the plan of that history. It is however maintained, that the Latin history of Dictys which we have at present is spurious.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_DIDELPHIS",
+          "headword": "DIDELPHIS",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "or Opossum, a genus of quadrupeds belonging to the order of fere. See MAMMALIA Index.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1823_v07_APHORISMS",
+      "headword": "APHORISMS",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 267,
+      "end_page": 268,
+      "word_count": 509,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'APHORISMS' comes before 'CTE'",
+      "text_preview": "1. A ray of light passing obliquely out of one medium into another that is denser, will be refracted toward the perpendicular; as the ray \\(AB\\), by passing out of air into glass, is refracted into \\(BF\\), inclined...\nto the perpendicular AF. On the contrary, a ray passing out of a denser into a rarer medium, will be refracted from the perpendicular; as the ray BC, passing out of the glass GH into air, is refracted into DI.\n\n2. The sines of the angles of incidence and refraction, when the lines ",
+      "text_end": "e aberration of the rays of light, the magnifying power will be somewhat greater or less in proportion to the diameter of the object.\n\nBy these aphorisms we are enabled to account for the various effects of dioptric machines, as refracting telescopes, microscopes, the camera obscura, &c. See Optics.",
+      "full_text": "1. A ray of light passing obliquely out of one medium into another that is denser, will be refracted toward the perpendicular; as the ray \\(AB\\), by passing out of air into glass, is refracted into \\(BF\\), inclined...\nto the perpendicular AF. On the contrary, a ray passing out of a denser into a rarer medium, will be refracted from the perpendicular; as the ray BC, passing out of the glass GH into air, is refracted into DI.\n\n2. The sines of the angles of incidence and refraction, when the lines that contain them are all equal, will have a determinate proportion to each other, in the same mediums; which, between air and water, will be as 4 to 3; between air and glass, as 3 to 2, nearly; and in other mediums, in proportion to their densities.\n\n3. Any object viewed through a glass, whose two surfaces are parallel, will appear of its natural shape and dimensions, provided it be only of the size of the pupil of the eye, and the light proceeding from it be received directly through the glass by one eye only. In all other situations an alteration will be perceived not only in its apparent situation, but its dimensions also. This alteration will be greater in proportion to the thickness of the glass, and the obliquity of the rays; in general, it is so small as to be overlooked.\n\n4. All the rays of light which fall upon a convex lens, whether parallel, converging, or diverging to a certain degree, will be made to meet in a focus on the other side; but if they diverge excessively, they will not do so. Thus, if rays diverge from a point placed before the glass, at the focal distance from it, they will become parallel after passing through it; and if the point from which they proceed be nearer the glass than its focal distance, they will still continue to diverge, though in a less degree than before.\n\n5. When parallel rays fall upon a concave lens, they will be made to diverge after passing through it. If they are diverging already before they fall upon the glass, they will div",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DIOMEDIA",
+          "start_page": 265,
+          "end_page": 265
+        },
+        {
+          "headword": "DION",
+          "start_page": 265,
+          "end_page": 266
+        },
+        {
+          "headword": "DIOPHANTINE PROBLEMS",
+          "start_page": 266,
+          "end_page": 267
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DIOPTER",
+          "start_page": 267
+        },
+        {
+          "headword": "DIOPTRICS",
+          "start_page": 267
+        },
+        {
+          "headword": "ENTERTAINING EXPERIMENTS",
+          "start_page": 268
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DIOPHANTINE_PROBLEMS",
+          "headword": "DIOPHANTINE PROBLEMS",
+          "direction": "previous",
+          "start_page": 266,
+          "text_preview": "in Mathematics, certain questions relating to square and cube numbers, and right-angled triangles, &c., the nature of which\nwas determined by Diophantus, a mathematician of Alexandria, who is believed to have lived about the third century. We have his works, which were published with notes at Paris, in 1621, by Bachet de Meziriac; and another edition in 1679, with observations on every question by M. Fermat.\n\nIn these questions it is endeavoured to find commensurable numbers to answer indeterminate problems; which bring out an infinite number of incommensurable quantities. For example, it is proposed to find a right-angled triangle, whose sides, \\(x, y, z\\), are expressed by commensurable numbers; it is known that \\(x^2 + y^2 = z^2\\), \\(z\\) being the supposed hypotenuse. But it is possible to assume \\(x\\) and \\(y\\), so that \\(z\\) will be incommensurable; for if \\(x = 1\\), and \\(y = 2\\), \\(z = \\sqrt{5}\\).\n\nThe art of resolving such problems consists in so managing the unknown quantity o",
+          "text_end": "t be supposed to find \\(x, y, z\\), the sides of a right-angled triangle, such as will give \\(x^2 + y^2 = z^2\\). Suppose \\(z = x + u\\), then \\(x^2 + y^2 = x^2 + 2xu + u^2\\); out of which equation \\(x^2\\) vanishes, and \\(x = \\frac{y^2 - u^2}{2u}\\); then assuming \\(y\\) and \\(u\\) equal to any numbers at pleasure, the sides of the triangle will be \\(y, \\frac{y^2 \\times u^2}{2u}\\), and the hypotenuse \\(x + u = \\frac{y^2 \\times u^2}{2u}\\); if \\(y = 3\\), and \\(u = 1\\), then \\(\\frac{y^2 - u^2}{2u} = 4\\)."
+        },
+        {
+          "article_id": "1823_v07_DION",
+          "headword": "DION",
+          "direction": "previous",
+          "start_page": 265,
+          "text_preview": "a Syracusan, son of Hipparinus, famous for his power and abilities. He was related to Dionysius, and often advised him, together with the philosopher Plato, who at his request had come to reside at the tyrant's court, to lay aside the supreme power. His great popularity rendered him odious in the eyes of the tyrant, who banished him to Greece. There he collected a numerous force, and resolved to free his country from tyranny. This he easily effected on account of his uncommon popularity. He entered the port of Syracuse only in two ships; and in three days reduced under his power an empire which had already subsisted for 50 years, and which was guarded by 500 ships of war, and above 100,000 troops. The tyrant fled to Corinth, and Dion kept the power in his own hands, fearful of the aspiring ambition of some of the friends of Dionysius; but he was shamefully betrayed\nDion Cassius, a native of Nicaea in Bithynia. His father's name was Apronianus. He was raised to the greatest offices of s",
+          "text_end": "Acts of the Apostles.\u2014He is supposed to have suffered martyrdom; but whether under Domitian, Trajan, or Adrian, is not certain. We have nothing remaining under his name, but what there is the greatest reason to believe spurious.\n\nDionysius the Lesser, a Scythian, became abbot of a monastery at Rome; he was the first who computed time from the birth of Dionysius to Christ, and fixed that great event, according to the vulgar era. He was also a learned canon law writer, and died about the year 540."
+        },
+        {
+          "article_id": "1823_v07_DIOMEDIA",
+          "headword": "DIOMEDIA",
+          "direction": "previous",
+          "start_page": 265,
+          "text_preview": "a genus of birds belonging to the order of anseres. See Ornithology Index.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_DIOPTER",
+          "headword": "DIOPTER",
+          "direction": "next",
+          "start_page": 267,
+          "text_preview": "or DIOPTRA, the same with the index or alidade of an astrolabe, or other such instrument. Dioptra was an instrument invented by Hipparchus, which served for several uses; as, to level water-courses; to take the height of towers, or places at a distance; to determine the places, magnitudes, and distances of the planets, &c.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1823_v07_ENTERTAINING_EXPERIMENTS",
+      "headword": "ENTERTAINING EXPERIMENTS",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 268,
+      "end_page": 274,
+      "word_count": 7488,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'ENTERTAINING EXPERIMENTS' comes after 'ELECTRICITY'",
+      "text_preview": "I. Optical Illusions.\n\nOn the bottom of the vessel ABCD, (fig. 4.) place three pieces of money, as a shilling, a half-crown, and crown; the first at E, the second at F, and the last at G. Then place a person at H, where he can see no further into the vessel than I; and tell him, that by pouring water into the vessel you will make him see three different pieces of money; bidding him observe carefully whether any money goes in with the water.\n\nHere you must observe to pour in the water very gently",
+      "text_end": "rawn away, their extremities may not be perceived.\n\nThe larger these subjects are represented, the better effect they will have: the front of the theatre should appear to be about three feet wide; and if some parts of the figures were moveable, it would still add to the variety of the entertainment.",
+      "full_text": "I. Optical Illusions.\n\nOn the bottom of the vessel ABCD, (fig. 4.) place three pieces of money, as a shilling, a half-crown, and crown; the first at E, the second at F, and the last at G. Then place a person at H, where he can see no further into the vessel than I; and tell him, that by pouring water into the vessel you will make him see three different pieces of money; bidding him observe carefully whether any money goes in with the water.\n\nHere you must observe to pour in the water very gently, or contrive to fix the pieces, that they may not move out of their places by its agitation.\n\nWhen the water comes up to K, the piece at E will become visible; when it comes up to L, the pieces at E and F will appear; and when it rises to M, all the three pieces will be visible.\n\nFrom what has been said of the refraction of light, the cause of this phenomenon will be evident: for while the vessel is empty, the ray HI will naturally proceed in a straight line: but in proportion as it becomes immersed in water, it will be necessarily refracted into the several directions, NE, OF, PG, and consequently the several pieces must become visible.\n\nII. Optical Augmentation.\n\nTake a large drinking glass of a conical figure, that is small at bottom and wide at top; in which put a shilling, and fill the glass about half full with water; then place a plate on the top of it, and turn it quickly over, that the water may not get out. You will then see on the plate, a piece of the size of a half-crown; and somewhat higher up, another piece of the size of a shilling.\n\nThis phenomenon arises from seeing the piece through the conical surface of the water at the side of the glass, and through the flat surface at the top of the water, at the same time: for the conical surface dilates the rays, and makes the piece appear larger; but by the flat surface the rays are only refracted, by which the piece is seen higher up in the glass, but still of its natural size. That this is the cause will be furthe",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "APHORISMS",
+          "start_page": 267,
+          "end_page": 268
+        },
+        {
+          "headword": "DIOPTER",
+          "start_page": 267,
+          "end_page": 267
+        },
+        {
+          "headword": "DIOPTRICS",
+          "start_page": 267,
+          "end_page": 267
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DIOSCOREA",
+          "start_page": 274
+        },
+        {
+          "headword": "DIOSCORIDES",
+          "start_page": 277
+        },
+        {
+          "headword": "DIOSCURA",
+          "start_page": 277
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DIOPTRICS",
+          "headword": "DIOPTRICS",
+          "direction": "previous",
+          "start_page": 267,
+          "text_preview": "THAT part of Optics which treats of the laws of refraction, and the effects which the refraction of light has in vision. The word is originally Greek, formed of \u1f41\u03c1\u03ac\u03c9, \"to see,\" and \u1f00\u03c0\u03cc\u03bb\u03b7\u03bc\u03b1, \"I see.\"\n\nAs this and the other branches of Optics are fully treated under the collective name, we shall here, 1. Just give a summary of the general principles of the branch, in a few plain aphorisms, with some preliminary definitions; and, 2. Present our readers with a set of entertaining experiments, illustrative of, or dependent upon, those principles.",
+          "text_end": " refraction, and the effects which the refraction of light has in vision. The word is originally Greek, formed of \u1f41\u03c1\u03ac\u03c9, \"to see,\" and \u1f00\u03c0\u03cc\u03bb\u03b7\u03bc\u03b1, \"I see.\"\n\nAs this and the other branches of Optics are fully treated under the collective name, we shall here, 1. Just give a summary of the general principles of the branch, in a few plain aphorisms, with some preliminary definitions; and, 2. Present our readers with a set of entertaining experiments, illustrative of, or dependent upon, those principles."
+        },
+        {
+          "article_id": "1823_v07_DIOPTER",
+          "headword": "DIOPTER",
+          "direction": "previous",
+          "start_page": 267,
+          "text_preview": "or DIOPTRA, the same with the index or alidade of an astrolabe, or other such instrument. Dioptra was an instrument invented by Hipparchus, which served for several uses; as, to level water-courses; to take the height of towers, or places at a distance; to determine the places, magnitudes, and distances of the planets, &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_APHORISMS",
+          "headword": "APHORISMS",
+          "direction": "previous",
+          "start_page": 267,
+          "text_preview": "1. A ray of light passing obliquely out of one medium into another that is denser, will be refracted toward the perpendicular; as the ray \\(AB\\), by passing out of air into glass, is refracted into \\(BF\\), inclined...\nto the perpendicular AF. On the contrary, a ray passing out of a denser into a rarer medium, will be refracted from the perpendicular; as the ray BC, passing out of the glass GH into air, is refracted into DI.\n\n2. The sines of the angles of incidence and refraction, when the lines that contain them are all equal, will have a determinate proportion to each other, in the same mediums; which, between air and water, will be as 4 to 3; between air and glass, as 3 to 2, nearly; and in other mediums, in proportion to their densities.\n\n3. Any object viewed through a glass, whose two surfaces are parallel, will appear of its natural shape and dimensions, provided it be only of the size of the pupil of the eye, and the light proceeding from it be received directly through the glass",
+          "text_end": " When an object is viewed through two convex lenses, its apparent diameter ought to be to its real one as the distance of the focus of the object glass is to that of the eye glass; but by reason of the aberration of the rays of light, the magnifying power will be somewhat greater or less in proportion to the diameter of the object.\n\nBy these aphorisms we are enabled to account for the various effects of dioptric machines, as refracting telescopes, microscopes, the camera obscura, &c. See Optics."
+        },
+        {
+          "article_id": "1823_v07_DIOSCOREA_s2",
+          "headword": "DIOSCOREA",
+          "direction": "next",
+          "start_page": 274,
+          "text_preview": "a genus of plants belonging to the Dioscia class; and in the natural method ranking under the 11th order, Sarmentaceae. See Botany Index.\n\nThe only remarkable and useful species is the bulbifer or yam. The roots of it are eaten by the inhabitants of both the Indies; and are particularly serviceable in the West India islands, where they make the greatest part of the negroes food. The plant is supposed to have been brought from the East to the West Indies; for it has never been observed to grow wild in any part of America; but in the island of Ceylon, and on the coast of Malabar, it grows in the woods, and there are in those places a great variety of sorts. It is propagated by cutting the root in pieces, observing to preserve an eye in each, as is practised in planting potatoes. One plant will produce three or four large roots. The skin of these roots is pretty thick, rough, unequal, covered with many stringy fibres or filaments, and of a violet colour approaching to black. The inside is",
+          "text_end": "od; and are often preferred to bread by the inhabitants of the West Indies, on account of their lightness and facility of digestion. When first dug out of the ground, the roots are placed in the sun to dry; after which they are either put into sand, dry garrets, or casks; where, if kept from moisture, they may be preserved whole years, without being spoiled or diminished in their goodness. The root commonly weighs two or three pounds; though some yams have been found upwards of 20 pounds weight."
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1823_v07_ISLANDS_OF_DISAPPOINTMENT",
+      "headword": "ISLANDS OF DISAPPOINTMENT",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 282,
+      "end_page": 282,
+      "word_count": 118,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'ISLANDS OF DISAPPOINTMENT' comes after 'ELECTRICITY'",
+      "text_preview": "a cluster of small islands, lying in S. Lat. 14. 10. W. Long. 141. 16. They were discovered by Commodore Byron in 1765, who gave them their name from the shores affording no anchorage for his ships; for which reason he was obliged to quit them without landing, or procuring any refreshments for his crew, who were then languishing with sickness. They are inhabited by Indians, who appeared on the beach with spears in their hands, that were at least 16 feet long. They everywhere discovered hostile i",
+      "text_end": "s, who appeared on the beach with spears in their hands, that were at least 16 feet long. They everywhere discovered hostile intentions, and seemed by signs to threaten the people in the boat with death if they came ashore. There are cocoa trees in great abundance, and the shore abounds with turtle.",
+      "full_text": "a cluster of small islands, lying in S. Lat. 14. 10. W. Long. 141. 16. They were discovered by Commodore Byron in 1765, who gave them their name from the shores affording no anchorage for his ships; for which reason he was obliged to quit them without landing, or procuring any refreshments for his crew, who were then languishing with sickness. They are inhabited by Indians, who appeared on the beach with spears in their hands, that were at least 16 feet long. They everywhere discovered hostile intentions, and seemed by signs to threaten the people in the boat with death if they came ashore. There are cocoa trees in great abundance, and the shore abounds with turtle.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DISCIPLE",
+          "start_page": 282,
+          "end_page": 282
+        },
+        {
+          "headword": "DISCIPLINE",
+          "start_page": 282,
+          "end_page": 282
+        },
+        {
+          "headword": "DISCORD",
+          "start_page": 282,
+          "end_page": 284
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DISCUS",
+          "start_page": 284
+        },
+        {
+          "headword": "DISCUSSION",
+          "start_page": 284
+        },
+        {
+          "headword": "DISCUTIENTS",
+          "start_page": 284
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_DISCORD",
+          "headword": "DISCORD",
+          "direction": "previous",
+          "start_page": 282,
+          "text_preview": "in general, signifies disagreement, or opposition between different persons or things.\n\nDiscord, in Music, every sound which, joined with another, forms an assemblage disagreeable to the ear; or rather, every interval whose extremes do not coalesce. Now, as there are no other concords or consonances, except those which form amongst themselves, and with their fundamental sound, perfect chords, it follows, that every interval must be a real dissonance or discord: even the third and sixth were reckoned such among the ancients, who excluded them from the number of consonant chords.\n\nThe term dissonance, which is synonymous with discord, is compounded of two words, the inseparable position dis and the verb sonare; which, both in a literal and metaphorical sense, signifies disagreement or disunion. In reality, that which renders dissonances grating, is, that the sounds which form them, far from uniting in the ear, seem to repel each other, and are heard each by itself as two distinct sounds,",
+          "text_end": "fection of reason, and a guide to us in all the duties of life; cunning is a kind of instinct, that only looks out after our immediate interest and welfare. Discretion is only found in men of strong sense and good understanding: cunning is often to be met with in brutes themselves, and in persons who are but the fewest removes from them. In short, cunning is only the mimic of discretion, and may pass upon weak men, in the same manner as vivacity is often mistaken for wit, and gravity for wisdom."
+        },
+        {
+          "article_id": "1823_v07_DISCIPLINE",
+          "headword": "DISCIPLINE",
+          "direction": "previous",
+          "start_page": 282,
+          "text_preview": "in a general sense, denotes instruction and government, as military discipline, ecclesiastical discipline, &c.\n\nEcclesiastical discipline consists in putting those laws in execution by which the church is governed, and inflicting the penalties enjoined by them against the several sorts of offenders that profess the religion of Jesus. The primitive church never pretended to exercise discipline upon any but such as are within her pale, in the largest sense, by some act of their own profession; and even upon these she never pretended to exercise her discipline so far as to cancel or disannul their baptism: all that she pretended to was to deprive men of the benefits of external communion, such as public prayer, receiving the eucharist, and other acts of divine worship. The church discipline was only confined to the admonition of the party, and to the lesser and greater excommunication.\n\nAs to the objects of ecclesiastical discipline, they were all such delinquents as fell into great and s",
+          "text_end": "tland, is a common order, drawn up by the assembly of ministers in 1650, for the reformation and uniformity to be observed in the discipline and policy of the church. In this book the government of the church by prelates is set aside, church sessions are established, the superstitions observation of fast days and saints days is condemned, and other regulations for the government of the church are determined. This book was approved by the privy council, and is called the First Book of Discipline."
+        },
+        {
+          "article_id": "1823_v07_DISCIPLE",
+          "headword": "DISCIPLE",
+          "direction": "previous",
+          "start_page": 282,
+          "text_preview": "one who learns anything from another; thus, the followers of any teacher, philosopher, &c. are called disciples. In the Christian sense, they were followers of Jesus Christ, in general; but in a more restrained sense, the disciples denote those alone who were the immediate followers and attendants on his person, of which there were 70 or 72. The names disciples and apostles are often synonymously used in the gospel history; but sometimes the apostles are distinguished from disciples, or persons selected out of the number of disciples, to be the principal ministers of his religion: of these there were only 12. The Latins kept the festival of the 70 or 72 disciples on July 15th, and the Greeks on January 4th.",
+          "text_end": ", the disciples denote those alone who were the immediate followers and attendants on his person, of which there were 70 or 72. The names disciples and apostles are often synonymously used in the gospel history; but sometimes the apostles are distinguished from disciples, or persons selected out of the number of disciples, to be the principal ministers of his religion: of these there were only 12. The Latins kept the festival of the 70 or 72 disciples on July 15th, and the Greeks on January 4th."
+        },
+        {
+          "article_id": "1823_v07_DISCUS",
+          "headword": "DISCUS",
+          "direction": "next",
+          "start_page": 284,
+          "text_preview": "in antiquity. See DISC.\n\nDiscus, in Botany, the middle part of a radiated compound flower, generally consisting of small florets, with a hollow regular petal. It is commonly surrounded by large, plain, or flat, tongue-shaped petals, in the circumference or margin; as in daisy, groundsel, and leopard's-bane; sometimes the circumference is naked, as in cotton-weed and some species of coltsfoot.\n\nDISCUS Foliis, the surface of the leaf.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1823_v07_ARCHITECTO_ROBERTO_ADAM",
+      "headword": "ARCHITECTO ROBERTO ADAM",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 578,
+      "end_page": 588,
+      "word_count": 11456,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'ARCHITECTO ROBERTO ADAM' comes before 'CTE'",
+      "text_preview": "Q. F. F. Q. S.\n\nThe building went on rapidly for some time; but the funds being far from sufficient for the extent of the plan, it was necessarily stopped, and remained for many years a useless pile resembling a ruin. At length in 1815, by the exertions of Sir John Marjoribanks, member for the city, a grant of \u00a310,000 per annum for seven years was obtained from parliament, to be expended under the direction of commissioners appointed in the bill. With this aid the western side of the building ha",
+      "text_end": "om come to attend the public diversions, or to spend their time in such a manner as is most agreeable to them. 4. The vast concourse of travellers from all parts. 5. Most of the money drawn for the rents of country gentlemen is circulated among the bankers or other agents. See Edinburgh, Supplement.",
+      "full_text": "Q. F. F. Q. S.\n\nThe building went on rapidly for some time; but the funds being far from sufficient for the extent of the plan, it was necessarily stopped, and remained for many years a useless pile resembling a ruin. At length in 1815, by the exertions of Sir John Marjoribanks, member for the city, a grant of \u00a310,000 per annum for seven years was obtained from parliament, to be expended under the direction of commissioners appointed in the bill. With this aid the western side of the building has been entirely finished, and great progress is making with the other parts. The east and west fronts extend 255 feet, and the south and north 358. A new plan was adopted, designed by Mr Playfair, and modifying in some degree that of Mr Adams. The library, occupying the south side of the square, is to be divided into two floors, the lower of which is separated into five compartments. The upper floor will form one magnificent saloon. The museum of natural history, which occupies the west side of the area, and is now finished, consists of two floors 90 feet long, and fitted in the most tasteful and beautiful style. The fine collection it contains is in excellent order, and admirably arranged.\n\nThe botanical garden belonging to the university is situated at the distance of about a mile, on the road between Edinburgh and Leith. It consists of about five acres of ground; and is furnished with a great variety of plants, many of them brought from the most distant quarters of the globe. The professor is botanist to the king, and receives a salary of \u00a3120 annually for the support of the garden. A monument to the memory of the celebrated botanist Linn\u00e6us, was erected here by the late Dr Hope, who first planned the garden, and brought it to perfection.\n\nThe university of Edinburgh, like the others in this kingdom, sends one member to the General Assembly of the church of Scotland; and the widows of the professors have a right to the funds of those of ministers, the professors being trus",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EDINBURGH",
+          "start_page": 561,
+          "end_page": 575
+        },
+        {
+          "headword": "EDISH",
+          "start_page": 561,
+          "end_page": 561
+        },
+        {
+          "headword": "EDLINCK",
+          "start_page": 561,
+          "end_page": 561
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ET JAM POST DUO SECULA",
+          "start_page": 578
+        },
+        {
+          "headword": "VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL",
+          "start_page": 578
+        },
+        {
+          "headword": "EDINBURGHSHIRE",
+          "start_page": 588
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_EDLINCK",
+          "headword": "EDLINCK",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "GERARD, a famous engraver, born at Antwerp, where he was instructed in drawing and engraving. He settled at Paris, in the reign of Louis XIV. who made him his engraver in ordinary. Edelinck was also counsellor in the Royal Academy of Painting. His works are particularly esteemed for the neatness of the engraving, their brilliant cast, and the prodigious ease apparent in the execution; and to this facility is owing the great number of plates we have of his; among which are excellent portraits of a great number of illustrious men of his time. Among the most admired of his prints, the following may be specified as holding the chief place.\n\n1. A battle between four horsemen, with three figures lying slain upon the ground, from Leonardo da Vinci.\n\n2. A holy family, with Elizabeth, St John, and two angels, from the famous picture of Raphael in the king of France's collection. The first impressions are before the arms of M. Colbert were added at the bottom of the plate; the second are with th",
+          "text_end": "o plates, from Le Brun. This engraving belongs to the three battles, and triumphal entry of Alexander into Babylon, by Girard Audran, and completes the set. The first impressions have the name of Goyton the printer at the bottom.\n\n5. Alexander entering into the tent of Darius (finished by P. Drevet), from Peter Mignard. Edelinck died in 1707, in an advanced age, at the Hotel Royal at the Gobelins, where he had an apartment. He had a brother named John, who was a skilful engraver, but died young."
+        },
+        {
+          "article_id": "1823_v07_EDISH",
+          "headword": "EDISH",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "or EADISH, the latter pasture or grass that comes after mowing or reaping; otherwise called cogrine or coresh, and etch.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EDINBURGH",
+          "headword": "EDINBURGH",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "Edinburgh, a city of Mid-Lothian, in Scotland, situated in W. Long. 3\u00b0, and N. Lat. 56\u00b0, near the southern bank of the river Forth.\u2014The origin of the name, like that of most other cities, is very uncertain. Some imagine it to be derived from Eth, a supposed king of the Picts; others from Edwin, a Saxon prince of Northumberland, who overran the whole or greatest part of the territories of the Picts, about the year 617; while others choose to derive it from two Gaelic words Dan Edin, signifying the face of a hill. The name Edinburgh itself, however, seems to have been unknown in the time of the Romans. The most ancient title by which we find this city distinguished is that of Castrum Mynyd Agned; which, in the British language, signifies \"the fortress of the hill of St. Agnes.\" Afterwards it was named Castrum Pictarum, because the Pictish princesses were educated in the castle (a necessary protection in those barbarous ages) till they were married.\u2014The ages in which these names were give",
+          "text_end": " The width of the three great arches is 72 feet each; of the piers, 13\u00bd feet; and of the small arches, each 20 feet. The height of the great arches from the top of the parapet to the base, is 68 feet; the breadth of the bridge within the wall over the arches is 40 feet, and the breadth at each end 50 feet.\u2014On the southern extremity of this bridge stands the General Post Office for Scotland; a neat plain building, with a proper number of apartments for the business, and a house for the secretary."
+        },
+        {
+          "article_id": "1823_v07_ET_JAM_POST_DUO_SECULA",
+          "headword": "ET JAM POST DUO SECULA",
+          "direction": "next",
+          "start_page": 578,
+          "text_preview": "FENE RUINOSIS;\nNOVI HUIUS \u00c6DIFICII,\nUBI COMMODITATI SIMUL ET ELEGANTIL\u00c8,",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1823_v07_ET_JAM_POST_DUO_SECULA",
+      "headword": "ET JAM POST DUO SECULA",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 578,
+      "end_page": 578,
+      "word_count": 10,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'ET JAM POST DUO SECULA' comes after 'ELECTRICITY'",
+      "text_preview": "FENE RUINOSIS;\nNOVI HUIUS \u00c6DIFICII,\nUBI COMMODITATI SIMUL ET ELEGANTIL\u00c8,",
+      "text_end": "",
+      "full_text": "FENE RUINOSIS;\nNOVI HUIUS \u00c6DIFICII,\nUBI COMMODITATI SIMUL ET ELEGANTIL\u00c8,",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "EDISH"
+      },
+      "prev_articles": [
+        {
+          "headword": "EDISH",
+          "start_page": 561,
+          "end_page": 561
+        },
+        {
+          "headword": "EDLINCK",
+          "start_page": 561,
+          "end_page": 561
+        },
+        {
+          "headword": "ARCHITECTO ROBERTO ADAM",
+          "start_page": 578,
+          "end_page": 588
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL",
+          "start_page": 578
+        },
+        {
+          "headword": "EDINBURGHSHIRE",
+          "start_page": 588
+        },
+        {
+          "headword": "EDITOR",
+          "start_page": 588
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_ARCHITECTO_ROBERTO_ADAM",
+          "headword": "ARCHITECTO ROBERTO ADAM",
+          "direction": "previous",
+          "start_page": 578,
+          "text_preview": "Q. F. F. Q. S.\n\nThe building went on rapidly for some time; but the funds being far from sufficient for the extent of the plan, it was necessarily stopped, and remained for many years a useless pile resembling a ruin. At length in 1815, by the exertions of Sir John Marjoribanks, member for the city, a grant of \u00a310,000 per annum for seven years was obtained from parliament, to be expended under the direction of commissioners appointed in the bill. With this aid the western side of the building has been entirely finished, and great progress is making with the other parts. The east and west fronts extend 255 feet, and the south and north 358. A new plan was adopted, designed by Mr Playfair, and modifying in some degree that of Mr Adams. The library, occupying the south side of the square, is to be divided into two floors, the lower of which is separated into five compartments. The upper floor will form one magnificent saloon. The museum of natural history, which occupies the west side of ",
+          "text_end": " to town for their education, many of the parents of whom come along with them. 3. The country gentlemen, gentlemen of the army and navy, and people who have made their fortunes abroad, &c., all of whom come to attend the public diversions, or to spend their time in such a manner as is most agreeable to them. 4. The vast concourse of travellers from all parts. 5. Most of the money drawn for the rents of country gentlemen is circulated among the bankers or other agents. See Edinburgh, Supplement."
+        },
+        {
+          "article_id": "1823_v07_EDLINCK",
+          "headword": "EDLINCK",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "GERARD, a famous engraver, born at Antwerp, where he was instructed in drawing and engraving. He settled at Paris, in the reign of Louis XIV. who made him his engraver in ordinary. Edelinck was also counsellor in the Royal Academy of Painting. His works are particularly esteemed for the neatness of the engraving, their brilliant cast, and the prodigious ease apparent in the execution; and to this facility is owing the great number of plates we have of his; among which are excellent portraits of a great number of illustrious men of his time. Among the most admired of his prints, the following may be specified as holding the chief place.\n\n1. A battle between four horsemen, with three figures lying slain upon the ground, from Leonardo da Vinci.\n\n2. A holy family, with Elizabeth, St John, and two angels, from the famous picture of Raphael in the king of France's collection. The first impressions are before the arms of M. Colbert were added at the bottom of the plate; the second are with th",
+          "text_end": "o plates, from Le Brun. This engraving belongs to the three battles, and triumphal entry of Alexander into Babylon, by Girard Audran, and completes the set. The first impressions have the name of Goyton the printer at the bottom.\n\n5. Alexander entering into the tent of Darius (finished by P. Drevet), from Peter Mignard. Edelinck died in 1707, in an advanced age, at the Hotel Royal at the Gobelins, where he had an apartment. He had a brother named John, who was a skilful engraver, but died young."
+        },
+        {
+          "article_id": "1823_v07_EDISH",
+          "headword": "EDISH",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "or EADISH, the latter pasture or grass that comes after mowing or reaping; otherwise called cogrine or coresh, and etch.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_VIR_NOBILISSIMUS\nFRANCISCUS_DOMINUS_NAPEL",
+          "headword": "VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL",
+          "direction": "next",
+          "start_page": 578,
+          "text_preview": "REIFURB. ARCHITECTONICE APUD SCOTOS\nCURIO MAXIMUS:\nXVI. KAL. DECEMB.\nANNO SALUTIS HUMAN\u00c6 MDCCCLXXXIX.\n\u00c6RE ARCHITECTONICE MDCCCLXXXIX.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1823_v07_VIR_NOBILISSIMUS\nFRANCISCUS_DOMINUS_NAPEL",
+      "headword": "VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 578,
+      "end_page": 578,
+      "word_count": 16,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL' comes after 'ELECTRICITY'",
+      "text_preview": "REIFURB. ARCHITECTONICE APUD SCOTOS\nCURIO MAXIMUS:\nXVI. KAL. DECEMB.\nANNO SALUTIS HUMAN\u00c6 MDCCCLXXXIX.\n\u00c6RE ARCHITECTONICE MDCCCLXXXIX.",
+      "text_end": "",
+      "full_text": "REIFURB. ARCHITECTONICE APUD SCOTOS\nCURIO MAXIMUS:\nXVI. KAL. DECEMB.\nANNO SALUTIS HUMAN\u00c6 MDCCCLXXXIX.\n\u00c6RE ARCHITECTONICE MDCCCLXXXIX.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "EDLINCK"
+      },
+      "prev_articles": [
+        {
+          "headword": "EDLINCK",
+          "start_page": 561,
+          "end_page": 561
+        },
+        {
+          "headword": "ARCHITECTO ROBERTO ADAM",
+          "start_page": 578,
+          "end_page": 588
+        },
+        {
+          "headword": "ET JAM POST DUO SECULA",
+          "start_page": 578,
+          "end_page": 578
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EDINBURGHSHIRE",
+          "start_page": 588
+        },
+        {
+          "headword": "EDITOR",
+          "start_page": 588
+        },
+        {
+          "headword": "EDOM",
+          "start_page": 589
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_ET_JAM_POST_DUO_SECULA",
+          "headword": "ET JAM POST DUO SECULA",
+          "direction": "previous",
+          "start_page": 578,
+          "text_preview": "FENE RUINOSIS;\nNOVI HUIUS \u00c6DIFICII,\nUBI COMMODITATI SIMUL ET ELEGANTIL\u00c8,",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_ARCHITECTO_ROBERTO_ADAM",
+          "headword": "ARCHITECTO ROBERTO ADAM",
+          "direction": "previous",
+          "start_page": 578,
+          "text_preview": "Q. F. F. Q. S.\n\nThe building went on rapidly for some time; but the funds being far from sufficient for the extent of the plan, it was necessarily stopped, and remained for many years a useless pile resembling a ruin. At length in 1815, by the exertions of Sir John Marjoribanks, member for the city, a grant of \u00a310,000 per annum for seven years was obtained from parliament, to be expended under the direction of commissioners appointed in the bill. With this aid the western side of the building has been entirely finished, and great progress is making with the other parts. The east and west fronts extend 255 feet, and the south and north 358. A new plan was adopted, designed by Mr Playfair, and modifying in some degree that of Mr Adams. The library, occupying the south side of the square, is to be divided into two floors, the lower of which is separated into five compartments. The upper floor will form one magnificent saloon. The museum of natural history, which occupies the west side of ",
+          "text_end": " to town for their education, many of the parents of whom come along with them. 3. The country gentlemen, gentlemen of the army and navy, and people who have made their fortunes abroad, &c., all of whom come to attend the public diversions, or to spend their time in such a manner as is most agreeable to them. 4. The vast concourse of travellers from all parts. 5. Most of the money drawn for the rents of country gentlemen is circulated among the bankers or other agents. See Edinburgh, Supplement."
+        },
+        {
+          "article_id": "1823_v07_EDLINCK",
+          "headword": "EDLINCK",
+          "direction": "previous",
+          "start_page": 561,
+          "text_preview": "GERARD, a famous engraver, born at Antwerp, where he was instructed in drawing and engraving. He settled at Paris, in the reign of Louis XIV. who made him his engraver in ordinary. Edelinck was also counsellor in the Royal Academy of Painting. His works are particularly esteemed for the neatness of the engraving, their brilliant cast, and the prodigious ease apparent in the execution; and to this facility is owing the great number of plates we have of his; among which are excellent portraits of a great number of illustrious men of his time. Among the most admired of his prints, the following may be specified as holding the chief place.\n\n1. A battle between four horsemen, with three figures lying slain upon the ground, from Leonardo da Vinci.\n\n2. A holy family, with Elizabeth, St John, and two angels, from the famous picture of Raphael in the king of France's collection. The first impressions are before the arms of M. Colbert were added at the bottom of the plate; the second are with th",
+          "text_end": "o plates, from Le Brun. This engraving belongs to the three battles, and triumphal entry of Alexander into Babylon, by Girard Audran, and completes the set. The first impressions have the name of Goyton the printer at the bottom.\n\n5. Alexander entering into the tent of Darius (finished by P. Drevet), from Peter Mignard. Edelinck died in 1707, in an advanced age, at the Hotel Royal at the Gobelins, where he had an apartment. He had a brother named John, who was a skilful engraver, but died young."
+        },
+        {
+          "article_id": "1823_v07_EDINBURGHSHIRE",
+          "headword": "EDINBURGHSHIRE",
+          "direction": "next",
+          "start_page": 588,
+          "text_preview": "or MIDLOTHIAN, is bounded on the north by the frith of Forth, and the river Amond, which divides it from Westlothian or Linlithgow; on the east by Haddingtonshire; on the south by the counties of Lanark, Peebles, and Berwick; and at the west corner by part of the county of Linlithgow. It extends about 30 miles in length, and its breadth varies from 16 to 20: containing in all about 354 square miles, or 226,360 English acres. The surface of the country is pleasant, having much level ground, interspersed with some hills, watered with many agreeable streams, and sheltered and decorated with woods. The arable land, which may be calculated about one third of the whole, is in a state of high cultivation, and affords excellent crops. The two great ridges of hills which pass through the county, called the Moorfoot and the Pentland hills, afford pasture; the former is far superior in quality to the latter: in these hills it is generally remarked that the north side of the hill is the finest and",
+          "text_end": "veins, especially of lead and copper. All the hills contain specimens of zeolites, jaspers, spars, &c. From the vicinity to the metropolis, numerous seats of nobility and gentry are everywhere to be seen. Besides the city of Edinburgh and its suburbs, in which we may include the town of Leith, this county contains several large towns and villages, as Dalkeith, Musselburgh, Lasswade, and Gilmerton, and is divided into 31 parishes, of which the following is the population at two different periods."
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1823_v07_LET_US_GIVE_YET_ANOTHER_INSTANCE_OF_THE",
+      "headword": "LET US GIVE YET ANOTHER INSTANCE OF THE",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 603,
+      "end_page": 616,
+      "word_count": 15307,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'LET US GIVE YET ANOTHER INSTANCE OF THE' comes after 'ELECTRICITY'",
+      "text_preview": "t us give yet another instance of the means by which children may be led to do what we wish, without our imposing any restraint on their will. Suppose Emilius is lazy and inactive, and we wish to make him learn to run. When walking out with the young sluggard after dinner, I would sometimes put a couple of his favourite cakes in my pocket; of these each of us should eat one in the course of our walk. After some time I would show him I had put a third cake in my pocket. This he would not fail to ",
+      "text_end": "lked of the principle of the association of ideas. As no man stands alone in society, say they; so no one idea exists in the mind single and unconnected with others: as you are connected with your parents, your children, your friends, your countrymen; so the idea of a tree, for instance, is connect-",
+      "full_text": "t us give yet another instance of the means by which children may be led to do what we wish, without our imposing any restraint on their will. Suppose Emilius is lazy and inactive, and we wish to make him learn to run. When walking out with the young sluggard after dinner, I would sometimes put a couple of his favourite cakes in my pocket; of these each of us should eat one in the course of our walk. After some time I would show him I had put a third cake in my pocket. This he would not fail to ask after finishing his own: no say I, I can eat it myself, or we will divide it\u2014or stay, we had better let these two little boys there run a race for it. Accordingly I propose the race to the boys; who readily accept the conditions, and one of them carries off the prize. After seeing this several times repeated, Emilius begins to think himself qualified to obtain the third cake as well as any of the little boys, and to look upon running as an accomplishment of some consequence. He seeks an opportunity\nEducation, opportunity of being permitted to enter the lists. He runs; and after being two or three times outstripped, is at length successful, and in a short time attains an undoubted superiority.\n\nDrawing. As children naturally imitate almost whatever they behold, they are often disposed to attempt drawing. In this our pupil might be obliged, not merely for the sake of the art, but to give him a steady hand and a good eye. But he should draw from nature, not from other drawings or from prints. Were he to draw the likeness of a horse, he should look at the animal; if to attempt a representation of a house, he should view the house itself. In this method he will, no doubt, scratch for a long time without producing any likeness; but he will acquire what we proposed as the ends of his attempting to draw; namely, steadiness of hand and justness of sight, by this method, sooner than by any other.\n\nGeometry. Geometry, when taught in the usual way, is certainly above the capacity of ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EDINBURGHSHIRE",
+          "start_page": 588,
+          "end_page": 588
+        },
+        {
+          "headword": "EDITOR",
+          "start_page": 588,
+          "end_page": 589
+        },
+        {
+          "headword": "EDOM",
+          "start_page": 589,
+          "end_page": 589
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EDUCATION",
+          "start_page": 629
+        },
+        {
+          "headword": "EDULCORATION",
+          "start_page": 630
+        },
+        {
+          "headword": "EDWARD",
+          "start_page": 630
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_EDOM_s2",
+          "headword": "EDOM",
+          "direction": "previous",
+          "start_page": 589,
+          "text_preview": "or IDUM\u00c6A, in Ancient Geography, a district of Arabia Petraea; a great part also of the south of Jud\u00e6a was called Idum\u00e6a, because occupied by the Idum\u00e6ans, upon the Jewish captivity, quite to Hebron. But the proper Edom or Idum\u00e6a appears not to have been very extensive, from the march of the Israelites, in which they compassed it on the south eastwards, till they came to the country of the Moabites. Within this compass lies Mount Hor, where Aaron died; marching from which the Israelites fought with King Arad the Canaanite, who came down the wilderness against them (Moses.) And this is the extent of the Idum\u00e6a Propria lying to the south of the Dead sea; but in Solomon's time extending to the Red sea, (1 Kings ix. 26.)\n\nEDMUND I. and II. See (History of) England.",
+          "text_end": "from the march of the Israelites, in which they compassed it on the south eastwards, till they came to the country of the Moabites. Within this compass lies Mount Hor, where Aaron died; marching from which the Israelites fought with King Arad the Canaanite, who came down the wilderness against them (Moses.) And this is the extent of the Idum\u00e6a Propria lying to the south of the Dead sea; but in Solomon's time extending to the Red sea, (1 Kings ix. 26.)\n\nEDMUND I. and II. See (History of) England."
+        },
+        {
+          "article_id": "1823_v07_EDITOR",
+          "headword": "EDITOR",
+          "direction": "previous",
+          "start_page": 588,
+          "text_preview": "a person of learning, who has the care of an impression of any work, particularly that of an ancient author: thus, Erasmus was a great editor; the Louvain doctors, Scaliger, Petavius, F. Sirmond, Bishop Walton, Mr Hearne, Mr Ruddiman, &c. are likewise famous editors.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EDINBURGHSHIRE",
+          "headword": "EDINBURGHSHIRE",
+          "direction": "previous",
+          "start_page": 588,
+          "text_preview": "or MIDLOTHIAN, is bounded on the north by the frith of Forth, and the river Amond, which divides it from Westlothian or Linlithgow; on the east by Haddingtonshire; on the south by the counties of Lanark, Peebles, and Berwick; and at the west corner by part of the county of Linlithgow. It extends about 30 miles in length, and its breadth varies from 16 to 20: containing in all about 354 square miles, or 226,360 English acres. The surface of the country is pleasant, having much level ground, interspersed with some hills, watered with many agreeable streams, and sheltered and decorated with woods. The arable land, which may be calculated about one third of the whole, is in a state of high cultivation, and affords excellent crops. The two great ridges of hills which pass through the county, called the Moorfoot and the Pentland hills, afford pasture; the former is far superior in quality to the latter: in these hills it is generally remarked that the north side of the hill is the finest and",
+          "text_end": "veins, especially of lead and copper. All the hills contain specimens of zeolites, jaspers, spars, &c. From the vicinity to the metropolis, numerous seats of nobility and gentry are everywhere to be seen. Besides the city of Edinburgh and its suburbs, in which we may include the town of Leith, this county contains several large towns and villages, as Dalkeith, Musselburgh, Lasswade, and Gilmerton, and is divided into 31 parishes, of which the following is the population at two different periods."
+        },
+        {
+          "article_id": "1823_v07_EDUCATION_s4",
+          "headword": "EDUCATION",
+          "direction": "next",
+          "start_page": 629,
+          "text_preview": "Education, wish, that, in order to acquire it, young people may be early made acquainted with all the vices and follies of the world, introduced into polite company, carried to public places, and not confined even from the gaming table and the stews. Some knowledge of the world may, no doubt, be gained by these means. But it is surely dearly purchased; nor are the advantages which can be derived from it so considerable, as to tempt the judicious and affectionate parent to expose his child to the infection of vanity, folly, and vice, for their sake. Carry a boy or girl into public life at the age of fourteen or fifteen; show them all the scenes of splendid vanity and dissipation which adorn London or Paris; tell them of the importance of dress, and of the ceremonies of good breeding and the forms of intercourse; teach them that fashionable indifference and assurance which give the ton to the manners of our fine gentlemen and fine ladies of the present age. What effects can you expect th",
+          "text_end": " us warn them of the dangers to which they are about to be exposed; tell them of the glory and the happiness to which they may attain; inspire them, if possible, with disdain for folly, vanity, and vice, whatever dazzling or enchanting forms they may assume; and then dismiss them to enrich their minds with new stores of knowledge by visiting foreign nations; or, if that should be inconvenient, to enter immediately on the duties of some useful employment in active life. See EDUCATION, SUPPLEMENT."
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1823_v07_AEGERIA",
+      "headword": "AEGERIA",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 637,
+      "end_page": 637,
+      "word_count": 111,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'AEGERIA' comes before 'CTE'",
+      "text_preview": "or \u00c6GERIA, a nymph held in great veneration by the Romans. She was courted by Numa Pompilius; and according to Ovid, she became his wife. This prince frequently visited her; and that he might introduce his laws and new regulations into the state, he solemnly declared before the Roman people, that they were previously sanctified and approved by the nymph Egeria. Ovid says, that Egeria was so disconsolate at the death of Numa, that she melted into tears, and was changed into a fountain by Diana. S",
+      "text_end": "ed and approved by the nymph Egeria. Ovid says, that Egeria was so disconsolate at the death of Numa, that she melted into tears, and was changed into a fountain by Diana. She is reckoned by many as a goddess who presided over the pregnancy of women; and some maintain that she is the same as Lucina.",
+      "full_text": "or \u00c6GERIA, a nymph held in great veneration by the Romans. She was courted by Numa Pompilius; and according to Ovid, she became his wife. This prince frequently visited her; and that he might introduce his laws and new regulations into the state, he solemnly declared before the Roman people, that they were previously sanctified and approved by the nymph Egeria. Ovid says, that Egeria was so disconsolate at the death of Numa, that she melted into tears, and was changed into a fountain by Diana. She is reckoned by many as a goddess who presided over the pregnancy of women; and some maintain that she is the same as Lucina.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EFFIGY",
+          "start_page": 636,
+          "end_page": 636
+        },
+        {
+          "headword": "EFFLORESCENCE",
+          "start_page": 636,
+          "end_page": 636
+        },
+        {
+          "headword": "EFFLORESCENTIA",
+          "start_page": 636,
+          "end_page": 637
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EFFLUVIIUM",
+          "start_page": 637
+        },
+        {
+          "headword": "EFFRONTES",
+          "start_page": 637
+        },
+        {
+          "headword": "EFFUSION",
+          "start_page": 637
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_EFFLORESCENTIA",
+          "headword": "EFFLORESCENTIA",
+          "direction": "previous",
+          "start_page": 636,
+          "text_preview": "in Botany, (from efflorescere to bloom); the precise time of the year and month in which every plant shows its first flowers.\n\nSome plants flower twice a-year, as is common between the tropics; others oftener, as the monthly rose. The former are called by botanists biferce; the latter, multiferce.\n\nThe time of flowering is determined by the degree of heat which each species requires. Mezereon and snowdrop produce their flowers in February; primrose, in the beginning of March; the greater number of plants, during the month of May; corn, and other grain, in the beginning of June; the vine, in the middle of the same month; several compound flowers, in the month of July and August; lastly, meadow-saffron flowers in the month of October, and announces the speedy approach of winter.\n\nGrass of Parnassus always flowers about the time of cutting.\n\n(d) This account is extracted from a Narrative of the Building, and a Description of the Construction of the Edystone Lighthouse with stone. By John ",
+          "text_end": "e climates, flower during our summer.\n\nPlants of temperate climates, situated under the same parallel of latitude with certain parts of Europe, but removed much farther to the west, such as Canada, Virginia, and Mississippi, do not produce flowers till autumn.\n\nPlants of temperate climates in the opposite hemisphere to Europe, flower during our winter, which is the summer of these regions.\n\nLinnaeus and Adanson have given a sketch of the different times in which plants flower at Upsal and Paris."
+        },
+        {
+          "article_id": "1823_v07_EFFLORESCENCE",
+          "headword": "EFFLORESCENCE",
+          "direction": "previous",
+          "start_page": 636,
+          "text_preview": "in Chemistry, denotes the formation of a kind of mealy powder on the surface of certain bodies. Efflorescence is occasioned either by decomposition or drying. The efflorescence which happens to cobalt and martial pyrites is of the first; and that observed on the crystals of soda, Glauber's salt, &c. of the latter kind. An efflorescence is sometimes also a species of crystallization; such as the beautiful vegetations which shoot up from different saline substances. See Crystallization.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EFFIGY_s2",
+          "headword": "EFFIGY",
+          "direction": "previous",
+          "start_page": 636,
+          "text_preview": "to execute or degrade in, denotes the execution or degradation of a condemned contumacious criminal, who cannot be apprehended or seized. In France, they hang a picture on a gallows or gibbet, wherein is represented the criminal, with the quality or manner of the punishment: at the bottom is written the sentence of condemnation. Such persons as are sentenced to death are executed in effigy.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EFFLUVIIUM",
+          "headword": "EFFLUVIIUM",
+          "direction": "next",
+          "start_page": 637,
+          "text_preview": "in Physiology, a term much used by philosophers and physicians, to express the minute particles which exhale from most, if not all, terrestrial bodies, in form of sensible vapours.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1823_v07_PHYSCON_HAVING_BY_THIS",
+      "headword": "PHYSCON HAVING BY THIS",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 647,
+      "end_page": 679,
+      "word_count": 36866,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'PHYSCON HAVING BY THIS' comes after 'ELECTRICITY'",
+      "text_preview": "n having by this means got together an army which seemed to him to be sufficient for the accomplishment of his design, landed in Cyprus; but being there encountered by Philometor in person, he was entirely defeated, and obliged to shelter himself in a city called Lophito. Here he was closely besieged, and at last obliged to surrender. Every one now expected that Physcon would have been treated as he deserved; but his brother, instead of punishing, restored him to the government of Libya and Cyre",
+      "text_end": "0 leagues to go, are upwards of a year in returning. The commodities they bring along with them are, India stuffs, shawls, gums, perfumes, pearls, and principally coffee. Besides the profits of this merchandise, considerable sums arise from the duties paid by pilgrims, and the sums expended by them.",
+      "full_text": "n having by this means got together an army which seemed to him to be sufficient for the accomplishment of his design, landed in Cyprus; but being there encountered by Philometor in person, he was entirely defeated, and obliged to shelter himself in a city called Lophito. Here he was closely besieged, and at last obliged to surrender. Every one now expected that Physcon would have been treated as he deserved; but his brother, instead of punishing, restored him to the government of Libya and Cyrene, adding some other territories instead of the island of Cyprus, and promising him his daughter in marriage. Thus an end was put to the war between the two brothers; for the Romans were ashamed any longer to oppose a prince who had given such a signal instance of his justice and clemency.\n\nOn his return to Alexandria, Philometor appointed one Archias governor of Cyprus. But he, soon after the king's departure, agreed with Demetrius king of Syria, to betray the island to him for 500 talents. The treachery was discovered before it took effect; and the traitor, to avoid the punishment due to his crime, laid violent hands on himself. Ptolemy being offended with Demetrius for this attempt on Cyprus, joined Attalus king of Pergamus, and Ariarathes king of Cappadocia, in setting up a pretender to the crown of Syria. This was Alexander Balas; to whom he even gave his daughter Cleopatra in marriage, after he had placed him on the throne of Syria. But he, notwithstanding these and many other favours, being suspected of having entered into a plot against his benefactor, Ptolemy became his greatest enemy; and marching against him, routed his army in the neighbourhood of Antioch. He did not, however, long enjoy his victory; for he died in a few days after the engagement, of the wounds he had received.\n\nOn the death of Philometor, Cleopatra the queen designed to secure the throne for her son. But some\nof the principal nobility declaring for Physcon, a civil war was about to ensue, when m",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EGLON",
+          "start_page": 638,
+          "end_page": 638
+        },
+        {
+          "headword": "EGRET",
+          "start_page": 638,
+          "end_page": 638
+        },
+        {
+          "headword": "EGYPT",
+          "start_page": 638,
+          "end_page": 647
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EHRETIA",
+          "start_page": 683
+        },
+        {
+          "headword": "EHRHARTA",
+          "start_page": 683
+        },
+        {
+          "headword": "EJACULATOR",
+          "start_page": 683
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_EGYPT",
+          "headword": "EGYPT",
+          "direction": "previous",
+          "start_page": 638,
+          "text_preview": "EGYPT, an extensive country of Africa, lying between 30\u00b0 and 33\u00b0 of east longitude, and between 21\u00b0 and 31\u00b0 of north latitude. It is bounded by the Mediterranean on the north; by the Red sea and isthmus of Suez, which divide it from Arabia, on the east; by Abyssinia or Ethiopia, on the south; and by the deserts of Barca and Nubia on the west; being 650 miles in length from north to south, and about 150 in extreme breadth from east to west.\n\nAs a nation, the Egyptians may with justice lay claim to as high antiquity as any in the world. The country was most probably peopled by Mizraim the son of Ham and grandson of Noah. By its ancient inhabitants it was called Chemia, and is still called Chemi in the language of the Copts or native Egyptians; and this name it is supposed to have received from Ham the son of Noah. In scripture, we find it most generally named Misraim; though in the Psalms it is styled the land of Ham.\u2014To us it is best known by the name Egypt, the etymology of which is mo",
+          "text_end": "nate, being offended at his refusing to submit to their decree concerning the island of Cyprus, hearkened to this false accusation; and carried their prejudices so far, that they not only refused to hear what his ambassadors had to say, but ordered them immediately to depart from the city. At the same time, they appointed five commissioners to conduct Physcon to Cyprus, and put him in possession of that island, enjoining all their allies in those parts to supply him with forces for that purpose."
+        },
+        {
+          "article_id": "1823_v07_EGRET",
+          "headword": "EGRET",
+          "direction": "previous",
+          "start_page": 638,
+          "text_preview": "in Ornithology, a species of ardea. See ARDEA, ORNITHOLOGY Index.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EGLON",
+          "headword": "EGLON",
+          "direction": "previous",
+          "start_page": 638,
+          "text_preview": "a king of the Moabites, who oppressed the Israelites for 18 years (Judges iii. 12\u201414). Calmet confounds this servitude of the Hebrews with that under Chus\u00e2n-rishathaim, making it to subsist only eight years, from the year of the world 2591 to 2599; whereas this servitude under Eglon lasted 18 years, and commenced in the year of the world 2661, and 62 years after they had been delivered by Othniel from the subjection of Chus\u00e2n-rishathaim.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_EHRETIA",
+          "headword": "EHRETIA",
+          "direction": "next",
+          "start_page": 683,
+          "text_preview": "a genus of plants belonging to the pentandria class. See Botany Index.\n\n---\n\n**EHU**",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1823_v07_THESE_STATES_OF_ELECTRICITY_ARE_USUALLY_DISTINGUISHED_BY",
+      "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 729,
+      "end_page": 751,
+      "word_count": 23683,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY' comes after 'ELECTRICITY'",
+      "text_preview": "e states of electricity are usually distinguished by means of the common pith-ball electrometer.\n\nExperiment.\u2014Set the machine in motion, while city both conductors are insulated, or without connecting the rubber with contiguous bodies. We have before remarked (44.), that the prime conductor was called the positive, and that to which\nOn presenting a pith-ball electrometer to the cylinder whose electricity we have agreed to call positive, the balls will diverge, and will continue to diverge when b",
+      "text_end": "nated in the dark, in the same manner as the above-described phial.\n\nA beautiful method of expressing geometrical figures with the above powder, is to bend small glass tubes, of about the tenth part of an inch diameter, in the shape of the figure desired, and then to fill them with the phosphoric...",
+      "full_text": "e states of electricity are usually distinguished by means of the common pith-ball electrometer.\n\nExperiment.\u2014Set the machine in motion, while city both conductors are insulated, or without connecting the rubber with contiguous bodies. We have before remarked (44.), that the prime conductor was called the positive, and that to which\nOn presenting a pith-ball electrometer to the cylinder whose electricity we have agreed to call positive, the balls will diverge, and will continue to diverge when brought near that side of the prime conductor which is most remote from the cylinder; but being carried to the other conductor, they will instantly collapse; thus showing that the electricity of the rubber is opposite to that of the other conductor or of the cylinder, i.e., that it is negative. This may be shown in another way. The balls presented to the rubber will diverge with negative electricity, but being brought near the other conductor in this divergent state, they will collapse.\n\nBut should a more precise method be required to determine the quality of the electricity of an electrified body, the following may be used:\u2014First, electrify one of the electrometers C, placed upon the stand fig. 15, either positively, or negatively, at pleasure: touch it, for instance, with an excited glass tube, so that its balls may repel, and stand about two inches distance from one another; then touch the other electrometer C with the electrified body that you desire to examine, so that it may be possessed of the same degree of electricity; lastly, take either of the two electrometers by the top of the glass handle, disengage it from the arm of the stand, and bring it near the other electrometer; if then the balls of one electrometer repel those of the other, you may conclude that they are possessed of the same kind of electricity; but if they attract each other, you may conclude that they have been electrified with contrary electricities; and as you know the electricity of that electromet",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ELECTION",
+          "start_page": 692,
+          "end_page": 692
+        },
+        {
+          "headword": "ELECTIVE",
+          "start_page": 692,
+          "end_page": 692
+        },
+        {
+          "headword": "ELECTOR",
+          "start_page": 692,
+          "end_page": 692
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "start_page": 773
+        },
+        {
+          "headword": "MOST OF THE",
+          "start_page": 777
+        },
+        {
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "start_page": 884
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_ELECTOR",
+          "headword": "ELECTOR",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "a person who has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-",
+          "text_end": "ho has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-"
+        },
+        {
+          "article_id": "1823_v07_ELECTIVE",
+          "headword": "ELECTIVE",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "something that is done, or passes, by election. See ELECTOR.\n\nSome benefices are elective, others collative. Municipal offices in England are generally elective; in Spain, venal. Poland is an elective kingdom.\n\nELECTIVE Attraction. See CHEMISTRY Index.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_ELECTION_s3",
+          "headword": "ELECTION",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "in Theology, signifies the choice which God, of his good pleasure, makes of angels or men, for the objects of mercy and grace.\n\nThe election of the Jews was the choice God made of that people to be more immediately attached to his worship and service, and for the Messiah to be born of them. And thus particular nations were elected to the participation of the outward blessings of Christianity.\n\nELECTION also, in the language of some divines, signifies a predestination to grace and glory, and sometimes to glory only. And it has been enjoined as an article of faith, that predestination to grace is gratuitous, merely and simply so; gratia, quia gratis data. But the divines are much divided as to the point, whether election to glory be gratuitous, or whether it supposes obedience and good works, i.e. whether it be before or after the provision of our obedience. See GRACE and REPROBATION.",
+          "text_end": "\n\nELECTION also, in the language of some divines, signifies a predestination to grace and glory, and sometimes to glory only. And it has been enjoined as an article of faith, that predestination to grace is gratuitous, merely and simply so; gratia, quia gratis data. But the divines are much divided as to the point, whether election to glory be gratuitous, or whether it supposes obedience and good works, i.e. whether it be before or after the provision of our obedience. See GRACE and REPROBATION."
+        },
+        {
+          "article_id": "1823_v07_THEY_MADE_SEVERAL_EXPERIMENTS_TO_GIVE_THE_ELECTRIC_SHOCK_BY",
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "direction": "next",
+          "start_page": 773,
+          "text_preview": "y made several experiments to give the electric shock by means of air, and at length succeeded by suspending large boards of wood covered with tin, with the flat sides parallel to one another, and at some inches asunder; for they found, that upon electrifying one of the boards positively, the other was always negative. But the discovery was made complete and indisputable by a person touching one of the plates with one hand, and bringing his other hand to the other plate; for he then received a shock through his body, exactly like that of the Leyden experiment.\n\nWith this plate of air, they made a variety of curious experiments. The two metal plates, being in opposite states, strongly attracted each other, and would have rushed together, if they had not been kept asunder by strings. Sometimes the electricity of both would be discharged by a strong spark between them, as when a pane of glass bursts with too great a charge. A finger put between them promoted the discharge, and felt the sh",
+          "text_end": " of thick writing paper was pasted, and on the back of which he pasted a piece of tin foil. The upper surface of the paper was varnished only once with shell-lac diffused.\nthe course of experiments, as well as in observations on natural electricity to be related hereafter, the quantity or degree of electricity is so minute, as not to be sensible by means even of this delicate instrument, and is yet capable of being rendered sufficiently obvious by other means. These means we are now to describe."
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1823_v07_THEY_MADE_SEVERAL_EXPERIMENTS_TO_GIVE_THE_ELECTRIC_SHOCK_BY",
+      "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 773,
+      "end_page": 777,
+      "word_count": 3803,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY' comes after 'ELECTRICITY'",
+      "text_preview": "y made several experiments to give the electric shock by means of air, and at length succeeded by suspending large boards of wood covered with tin, with the flat sides parallel to one another, and at some inches asunder; for they found, that upon electrifying one of the boards positively, the other was always negative. But the discovery was made complete and indisputable by a person touching one of the plates with one hand, and bringing his other hand to the other plate; for he then received a s",
+      "text_end": "s well as in observations on natural electricity to be related hereafter, the quantity or degree of electricity is so minute, as not to be sensible by means even of this delicate instrument, and is yet capable of being rendered sufficiently obvious by other means. These means we are now to describe.",
+      "full_text": "y made several experiments to give the electric shock by means of air, and at length succeeded by suspending large boards of wood covered with tin, with the flat sides parallel to one another, and at some inches asunder; for they found, that upon electrifying one of the boards positively, the other was always negative. But the discovery was made complete and indisputable by a person touching one of the plates with one hand, and bringing his other hand to the other plate; for he then received a shock through his body, exactly like that of the Leyden experiment.\n\nWith this plate of air, they made a variety of curious experiments. The two metal plates, being in opposite states, strongly attracted each other, and would have rushed together, if they had not been kept asunder by strings. Sometimes the electricity of both would be discharged by a strong spark between them, as when a pane of glass bursts with too great a charge. A finger put between them promoted the discharge, and felt the shock. If an eminence was made on either of the plates, the self-discharge would always be made through it, and a pointed body fixed upon either of them prevented their being charged at all.\n\nAt the end of the table of conductors given in page 646, it was observed that a Torricellian vacuum was a non-conductor of electricity. Some experiments were made by Mr Walh, which proved the impermeability of a vacuum by the electric light. But the most complete experiments on this subject are those of Mr W. Morgan and Mr Cavallo. The following are Mr Morgan's experiments.\n\nA mercurial gage B, fig. 83, about 15 inches long, Mr Morgan carefully and accurately boiled, till every particle of air was expelled from the inside, was coated with tin foil, five inches down from its sealed end (A), and being inverted into mercury through a perforation D, in the power of a brass cap E, which covered the mouth of the cistern perfectly. The whole was cemented together, and the air was exhausted from the inside ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ELECTIVE",
+          "start_page": 692,
+          "end_page": 692
+        },
+        {
+          "headword": "ELECTOR",
+          "start_page": 692,
+          "end_page": 692
+        },
+        {
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "start_page": 729,
+          "end_page": 751
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MOST OF THE",
+          "start_page": 777
+        },
+        {
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "start_page": 884
+        },
+        {
+          "headword": "ELECTRICITY",
+          "start_page": 885
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_THESE_STATES_OF_ELECTRICITY_ARE_USUALLY_DISTINGUISHED_BY",
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "direction": "previous",
+          "start_page": 729,
+          "text_preview": "e states of electricity are usually distinguished by means of the common pith-ball electrometer.\n\nExperiment.\u2014Set the machine in motion, while city both conductors are insulated, or without connecting the rubber with contiguous bodies. We have before remarked (44.), that the prime conductor was called the positive, and that to which\nOn presenting a pith-ball electrometer to the cylinder whose electricity we have agreed to call positive, the balls will diverge, and will continue to diverge when brought near that side of the prime conductor which is most remote from the cylinder; but being carried to the other conductor, they will instantly collapse; thus showing that the electricity of the rubber is opposite to that of the other conductor or of the cylinder, i.e., that it is negative. This may be shown in another way. The balls presented to the rubber will diverge with negative electricity, but being brought near the other conductor in this divergent state, they will collapse.\n\nBut shou",
+          "text_end": "his powder may be stuck upon a board by means of the white of an egg, so as to represent figures of planets, letters, or anything else, at the pleasure of the operator; and these figures may be illuminated in the dark, in the same manner as the above-described phial.\n\nA beautiful method of expressing geometrical figures with the above powder, is to bend small glass tubes, of about the tenth part of an inch diameter, in the shape of the figure desired, and then to fill them with the phosphoric..."
+        },
+        {
+          "article_id": "1823_v07_ELECTOR",
+          "headword": "ELECTOR",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "a person who has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-",
+          "text_end": "ho has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-"
+        },
+        {
+          "article_id": "1823_v07_ELECTIVE",
+          "headword": "ELECTIVE",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "something that is done, or passes, by election. See ELECTOR.\n\nSome benefices are elective, others collative. Municipal offices in England are generally elective; in Spain, venal. Poland is an elective kingdom.\n\nELECTIVE Attraction. See CHEMISTRY Index.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v07_MOST_OF_THE",
+          "headword": "MOST OF THE",
+          "direction": "next",
+          "start_page": 777,
+          "text_preview": "t of the means which have been devised for rendering sensible minute degrees of electricity have been suggested by the effects of Volta's electrophorus.\n\nThe first process employed for this purpose was invented by Professor Lichtenberg, and the same thought seems to have occurred to Dr Klincock of Prague. It was performed by means of two resinous plates like those of the common electrophorus, and one metallic plate with an insulating handle. One of the resinous plates was first excited by slight friction, and it was then employed to communicate electricity to the metallic plate, which was in its turn made to communicate electricity to the other resinous plate. The electricity possessed by this latter plate was now communicated to the metallic plate; this was again conveyed to the first resinous plate, of which it increased the electricity by communication. By repeatedly applying the metallic plate to each of the resinous plates, without bringing them in contact, the electricity at firs",
+          "text_end": "l plate with the edge of it, that small plate acquired thereby electricity sufficient to make an electrometer diverge.\n\nWhen this secondary condensing apparatus is used, care must be taken to hold the large plate almost vertically while the small plate is touched by it. There is no need of having another inferior plane for the small plate, the large one being sufficient for both; for immediately after taking up the large plate, weakly electrified, with one hand, you lay down the small plate, &c."
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1823_v07_MOST_OF_THE",
+      "headword": "MOST OF THE",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 777,
+      "end_page": 779,
+      "word_count": 2803,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'MOST OF THE' comes after 'ELECTRICITY'",
+      "text_preview": "t of the means which have been devised for rendering sensible minute degrees of electricity have been suggested by the effects of Volta's electrophorus.\n\nThe first process employed for this purpose was invented by Professor Lichtenberg, and the same thought seems to have occurred to Dr Klincock of Prague. It was performed by means of two resinous plates like those of the common electrophorus, and one metallic plate with an insulating handle. One of the resinous plates was first excited by slight",
+      "text_end": " large plate almost vertically while the small plate is touched by it. There is no need of having another inferior plane for the small plate, the large one being sufficient for both; for immediately after taking up the large plate, weakly electrified, with one hand, you lay down the small plate, &c.",
+      "full_text": "t of the means which have been devised for rendering sensible minute degrees of electricity have been suggested by the effects of Volta's electrophorus.\n\nThe first process employed for this purpose was invented by Professor Lichtenberg, and the same thought seems to have occurred to Dr Klincock of Prague. It was performed by means of two resinous plates like those of the common electrophorus, and one metallic plate with an insulating handle. One of the resinous plates was first excited by slight friction, and it was then employed to communicate electricity to the metallic plate, which was in its turn made to communicate electricity to the other resinous plate. The electricity possessed by this latter plate was now communicated to the metallic plate; this was again conveyed to the first resinous plate, of which it increased the electricity by communication. By repeatedly applying the metallic plate to each of the resinous plates, without bringing them in contact, the electricity at first excited was accumulated till it became sufficiently sensible to an ordinary electrometer.\n\nThe next method employed was that of the celebrated Volta, or the condenser. But before we describe the apparatus and the mode of using it, it is necessary that we should give a brief account of the experiments which led to the invention.\n\nMr Volta found that conductors of the same shape were capable of containing more or less electricity, as their surfaces are less or more influenced by homologous atmospheres; and that the capacity of a conductor of the same shape and surface was increased, when, instead of being quite insulated, they were, while insulated, presented to another conductor not insulated, and this increase became more conspicuous according as the two conductors were larger, or approached nearer to each other.\n\nWhen an insulated conductor is thus presented to any other conductor, Signior Volta calls it a Conjugate Conductor.\n\nIn order to shew by experiment the above-mentioned prop",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ELECTOR",
+          "start_page": 692,
+          "end_page": 692
+        },
+        {
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "start_page": 729,
+          "end_page": 751
+        },
+        {
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "start_page": 773,
+          "end_page": 777
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "start_page": 884
+        },
+        {
+          "headword": "ELECTRICITY",
+          "start_page": 885
+        },
+        {
+          "headword": "END OF THE SEVENTH VOLUME",
+          "start_page": 889
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_THEY_MADE_SEVERAL_EXPERIMENTS_TO_GIVE_THE_ELECTRIC_SHOCK_BY",
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "direction": "previous",
+          "start_page": 773,
+          "text_preview": "y made several experiments to give the electric shock by means of air, and at length succeeded by suspending large boards of wood covered with tin, with the flat sides parallel to one another, and at some inches asunder; for they found, that upon electrifying one of the boards positively, the other was always negative. But the discovery was made complete and indisputable by a person touching one of the plates with one hand, and bringing his other hand to the other plate; for he then received a shock through his body, exactly like that of the Leyden experiment.\n\nWith this plate of air, they made a variety of curious experiments. The two metal plates, being in opposite states, strongly attracted each other, and would have rushed together, if they had not been kept asunder by strings. Sometimes the electricity of both would be discharged by a strong spark between them, as when a pane of glass bursts with too great a charge. A finger put between them promoted the discharge, and felt the sh",
+          "text_end": " of thick writing paper was pasted, and on the back of which he pasted a piece of tin foil. The upper surface of the paper was varnished only once with shell-lac diffused.\nthe course of experiments, as well as in observations on natural electricity to be related hereafter, the quantity or degree of electricity is so minute, as not to be sensible by means even of this delicate instrument, and is yet capable of being rendered sufficiently obvious by other means. These means we are now to describe."
+        },
+        {
+          "article_id": "1823_v07_THESE_STATES_OF_ELECTRICITY_ARE_USUALLY_DISTINGUISHED_BY",
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "direction": "previous",
+          "start_page": 729,
+          "text_preview": "e states of electricity are usually distinguished by means of the common pith-ball electrometer.\n\nExperiment.\u2014Set the machine in motion, while city both conductors are insulated, or without connecting the rubber with contiguous bodies. We have before remarked (44.), that the prime conductor was called the positive, and that to which\nOn presenting a pith-ball electrometer to the cylinder whose electricity we have agreed to call positive, the balls will diverge, and will continue to diverge when brought near that side of the prime conductor which is most remote from the cylinder; but being carried to the other conductor, they will instantly collapse; thus showing that the electricity of the rubber is opposite to that of the other conductor or of the cylinder, i.e., that it is negative. This may be shown in another way. The balls presented to the rubber will diverge with negative electricity, but being brought near the other conductor in this divergent state, they will collapse.\n\nBut shou",
+          "text_end": "his powder may be stuck upon a board by means of the white of an egg, so as to represent figures of planets, letters, or anything else, at the pleasure of the operator; and these figures may be illuminated in the dark, in the same manner as the above-described phial.\n\nA beautiful method of expressing geometrical figures with the above powder, is to bend small glass tubes, of about the tenth part of an inch diameter, in the shape of the figure desired, and then to fill them with the phosphoric..."
+        },
+        {
+          "article_id": "1823_v07_ELECTOR",
+          "headword": "ELECTOR",
+          "direction": "previous",
+          "start_page": 692,
+          "text_preview": "a person who has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-",
+          "text_end": "ho has a right to elect or choose another to an office, honour, &c. See ELECTION.\n\nElector is particularly, and by way of eminence, applied to those princes of Germany in whom lies the right of electing the emperor; being all sovereign princes, and the principal members of the empire.\n\nThe electoral college, consisting of all the electors of the empire, is the most illustrious and august body in Europe. Bellarmine and Baronius attribute the institution of it to Pope Gregory V. and the emperor O-"
+        },
+        {
+          "article_id": "1823_v07_AMAUROSIS_HAS_SOMETIMES_BEEN_SUCCESSFULLY_TREATED_BY_THE_SAME",
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "direction": "next",
+          "start_page": 884,
+          "text_preview": "s has sometimes been successfully treated by the same means.\n\nSuppressed menstruation has been relieved, but not retention of the catamenia.\n\nIn a few cases of pain and swelling of the knee, relief has been effectually obtained.\n\nIn chronic rheumatism the success is very frequent.\n\nChorea has been frequently relieved; palsy occasionally. In epilepsy Mr Carpue never found it successful.\n\nIt must, however, be remarked, that the indiscriminate employment of this powerful agent, especially in shocks of inordinate strength sent through the brain or spinal cord, is often productive of great and permanent mischief; so that it is necessary for the medical practitioner to be guarded in the employment of it: and it ought not, without due precaution, to be applied to the human constitution for purposes of curiosity or amusement.\n\nINDEX\n\nACHARD's experiments on ice, No 5 division of the scale of an electrometer, 68 Action, electric, law of, 366\u2014368 shewn by experiment, 368 \u00c6pinus's experiments on ",
+          "text_end": "harged plates, 151\nCoating for cylinders and globes, 40\nfor jars and plates, 107\nCollector of electricity, 254\nColours, experiments on, 193\nCompensated electricity, 411\nCondenser of electricity, 245\nimprovement of, 246\nConductors, table of, 5\ndistinguished from electrics by Grey, p. 646, note (n).\nall imperfect, 4\nprime, of a machine, introduced by Boze, page 661, note (n).\ncapacity of, 243\nconjugate, against lightning, invented by Dr Franklin, 464\nshould be of the best conducting materials, 467"
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1823_v07_AMAUROSIS_HAS_SOMETIMES_BEEN_SUCCESSFULLY_TREATED_BY_THE_SAME",
+      "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 884,
+      "end_page": 885,
+      "word_count": 762,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME' comes before 'CTE'",
+      "text_preview": "s has sometimes been successfully treated by the same means.\n\nSuppressed menstruation has been relieved, but not retention of the catamenia.\n\nIn a few cases of pain and swelling of the knee, relief has been effectually obtained.\n\nIn chronic rheumatism the success is very frequent.\n\nChorea has been frequently relieved; palsy occasionally. In epilepsy Mr Carpue never found it successful.\n\nIt must, however, be remarked, that the indiscriminate employment of this powerful agent, especially in shocks",
+      "text_end": "mprovement of, 246\nConductors, table of, 5\ndistinguished from electrics by Grey, p. 646, note (n).\nall imperfect, 4\nprime, of a machine, introduced by Boze, page 661, note (n).\ncapacity of, 243\nconjugate, against lightning, invented by Dr Franklin, 464\nshould be of the best conducting materials, 467",
+      "full_text": "s has sometimes been successfully treated by the same means.\n\nSuppressed menstruation has been relieved, but not retention of the catamenia.\n\nIn a few cases of pain and swelling of the knee, relief has been effectually obtained.\n\nIn chronic rheumatism the success is very frequent.\n\nChorea has been frequently relieved; palsy occasionally. In epilepsy Mr Carpue never found it successful.\n\nIt must, however, be remarked, that the indiscriminate employment of this powerful agent, especially in shocks of inordinate strength sent through the brain or spinal cord, is often productive of great and permanent mischief; so that it is necessary for the medical practitioner to be guarded in the employment of it: and it ought not, without due precaution, to be applied to the human constitution for purposes of curiosity or amusement.\n\nINDEX\n\nACHARD's experiments on ice, No 5 division of the scale of an electrometer, 68 Action, electric, law of, 366\u2014368 shewn by experiment, 368 \u00c6pinus's experiments on the tourmalin, 21 on sulphur, 27 theory of electricity, 294\u2014347 defect in, supplied, 320 defended, 321 Air, effect of, in electricity, 63 decomposed by electricity, 165 rarefied by an explosion, 168 when hot, a conductor, 227 how excited, 229 by friction, 230 evaporation, 231 of a room, to electrify, 234 plate of, to charge, 235 essential to electrical phenomena, 237 Amalgam, electrical, 13 preparation of, ib. Amber, electricity of, known to Thales, page 645, note (a). gives name to electricity, 1 Ammonia decomposed by electricity, 166 Apparatus, electrical, Part II. Atmosphere, electric, visible, 191 electricity of, constant, 495 always positive in dry weather, ib. strongest in foggy weather, 503 Atmosphere, electricity of, table of observations on the, p. 795 periodical flux and reflux observed in the, No 504 causes affecting the electricity of the, 511\u2014520 Atmospheres, electric, hypothesis of, refuted, 108 Attraction and repulsion, electrical, illustrated, Part III. Ch. i. through g",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "start_page": 729,
+          "end_page": 751
+        },
+        {
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "start_page": 773,
+          "end_page": 777
+        },
+        {
+          "headword": "MOST OF THE",
+          "start_page": 777,
+          "end_page": 779
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ELECTRICITY",
+          "start_page": 885
+        },
+        {
+          "headword": "END OF THE SEVENTH VOLUME",
+          "start_page": 889
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_MOST_OF_THE",
+          "headword": "MOST OF THE",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "t of the means which have been devised for rendering sensible minute degrees of electricity have been suggested by the effects of Volta's electrophorus.\n\nThe first process employed for this purpose was invented by Professor Lichtenberg, and the same thought seems to have occurred to Dr Klincock of Prague. It was performed by means of two resinous plates like those of the common electrophorus, and one metallic plate with an insulating handle. One of the resinous plates was first excited by slight friction, and it was then employed to communicate electricity to the metallic plate, which was in its turn made to communicate electricity to the other resinous plate. The electricity possessed by this latter plate was now communicated to the metallic plate; this was again conveyed to the first resinous plate, of which it increased the electricity by communication. By repeatedly applying the metallic plate to each of the resinous plates, without bringing them in contact, the electricity at firs",
+          "text_end": "l plate with the edge of it, that small plate acquired thereby electricity sufficient to make an electrometer diverge.\n\nWhen this secondary condensing apparatus is used, care must be taken to hold the large plate almost vertically while the small plate is touched by it. There is no need of having another inferior plane for the small plate, the large one being sufficient for both; for immediately after taking up the large plate, weakly electrified, with one hand, you lay down the small plate, &c."
+        },
+        {
+          "article_id": "1823_v07_THEY_MADE_SEVERAL_EXPERIMENTS_TO_GIVE_THE_ELECTRIC_SHOCK_BY",
+          "headword": "THEY MADE SEVERAL EXPERIMENTS TO GIVE THE ELECTRIC SHOCK BY",
+          "direction": "previous",
+          "start_page": 773,
+          "text_preview": "y made several experiments to give the electric shock by means of air, and at length succeeded by suspending large boards of wood covered with tin, with the flat sides parallel to one another, and at some inches asunder; for they found, that upon electrifying one of the boards positively, the other was always negative. But the discovery was made complete and indisputable by a person touching one of the plates with one hand, and bringing his other hand to the other plate; for he then received a shock through his body, exactly like that of the Leyden experiment.\n\nWith this plate of air, they made a variety of curious experiments. The two metal plates, being in opposite states, strongly attracted each other, and would have rushed together, if they had not been kept asunder by strings. Sometimes the electricity of both would be discharged by a strong spark between them, as when a pane of glass bursts with too great a charge. A finger put between them promoted the discharge, and felt the sh",
+          "text_end": " of thick writing paper was pasted, and on the back of which he pasted a piece of tin foil. The upper surface of the paper was varnished only once with shell-lac diffused.\nthe course of experiments, as well as in observations on natural electricity to be related hereafter, the quantity or degree of electricity is so minute, as not to be sensible by means even of this delicate instrument, and is yet capable of being rendered sufficiently obvious by other means. These means we are now to describe."
+        },
+        {
+          "article_id": "1823_v07_THESE_STATES_OF_ELECTRICITY_ARE_USUALLY_DISTINGUISHED_BY",
+          "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          "direction": "previous",
+          "start_page": 729,
+          "text_preview": "e states of electricity are usually distinguished by means of the common pith-ball electrometer.\n\nExperiment.\u2014Set the machine in motion, while city both conductors are insulated, or without connecting the rubber with contiguous bodies. We have before remarked (44.), that the prime conductor was called the positive, and that to which\nOn presenting a pith-ball electrometer to the cylinder whose electricity we have agreed to call positive, the balls will diverge, and will continue to diverge when brought near that side of the prime conductor which is most remote from the cylinder; but being carried to the other conductor, they will instantly collapse; thus showing that the electricity of the rubber is opposite to that of the other conductor or of the cylinder, i.e., that it is negative. This may be shown in another way. The balls presented to the rubber will diverge with negative electricity, but being brought near the other conductor in this divergent state, they will collapse.\n\nBut shou",
+          "text_end": "his powder may be stuck upon a board by means of the white of an egg, so as to represent figures of planets, letters, or anything else, at the pleasure of the operator; and these figures may be illuminated in the dark, in the same manner as the above-described phial.\n\nA beautiful method of expressing geometrical figures with the above powder, is to bend small glass tubes, of about the tenth part of an inch diameter, in the shape of the figure desired, and then to fill them with the phosphoric..."
+        },
+        {
+          "article_id": "1823_v07_ELECTRICITY_s8",
+          "headword": "ELECTRICITY",
+          "direction": "next",
+          "start_page": 885,
+          "text_preview": "Conductors should be of sufficient diameters, No 468\nperfectly contiguous, 469\ninterrupted, effect of, 473\nshould be as straight as possible, 475\npointed, 476\nConfigurations, curious, produced by electricity, 275\nCopper forms the best conductors against lightning, 467\nCotte's axioms on atmospherical electricity, 510\nCotton, electrified, 84\nCoulomb ascertains the law of electric action, 367\nfinds that conductors are electrical only at the surface, 359\nCoulomb's experiments on the density of the electric fluid, 397\nCuncus's experiment, 98\nCuthbertson's proofs of the oxidation of metals by electricity, page 702.\nelectrometer, 203\nexperiments on the effect of breathing into jars, 205\nmode of estimating the power of machines, 224\nmethod of distinguishing the two electricities, 266\nCylinder, advantages of, 39\ndirections for choosing, 16\nstate of the inside of, during excitation, 212\n\nD\n\nDalibard's experiment proving the identity of lightning and electricity, 442\nDancing balls, 61\nDanger from",
+          "text_end": "ding from the wire. At every flash of lightning, an explosive stream, accompanied with brilliant light and a peculiar noise, passes between the balls.\n\n4. A driving fog or smart rain often produces effects nearly to the same extent as a thunder-cloud.\n\n5. In cloudy weather, weak positive electricity usually prevails. If rain falls, it usually changes to negative; and the positive state is resumed when the rain ceases.\n\n6. Positive electricity is stronger in clear frost than in a fine summer day."
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1823_v07_END_OF_THE_SEVENTH_VOLUME",
+      "headword": "END OF THE SEVENTH VOLUME",
+      "edition_year": 1823,
+      "volume_num": 7,
+      "start_page": 889,
+      "end_page": 890,
+      "word_count": 77,
+      "volume_range": "CTE-Electricity",
+      "effective_start": "CTE",
+      "effective_end": "ELECTRICITY",
+      "reason": "'END OF THE SEVENTH VOLUME' comes after 'ELECTRICITY'",
+      "text_preview": "### Directions for Placing the Plates of Vol. VII.\n\n| Part I | Plate CLXVIII. to face | Page 162 |\n|--------|------------------------|----------|\n|        | CLXIX.                 | 180      |\n|        | CLXX.                  | 172      |\n|        | CLXXI.\u2014CLXXIV.         | 214      |\n|        | CLXXV.                 | 250      |\n\n| Part II | Plate CLXXXVI. to face | Page 280 |\n|---------|------------------------|----------|\n|         | CLXXXVII.\u2014CLXXXIII.    | 324      |\n|         | CLXXXIV.\u2014",
+      "text_end": "| 214      |\n|        | CLXXV.                 | 250      |\n\n| Part II | Plate CLXXXVI. to face | Page 280 |\n|---------|------------------------|----------|\n|         | CLXXXVII.\u2014CLXXXIII.    | 324      |\n|         | CLXXXIV.\u2014CLXXXVI.      | 498      |\n|         | CLXXXVII.\u2014CXCIX.       | 808      |",
+      "full_text": "### Directions for Placing the Plates of Vol. VII.\n\n| Part I | Plate CLXVIII. to face | Page 162 |\n|--------|------------------------|----------|\n|        | CLXIX.                 | 180      |\n|        | CLXX.                  | 172      |\n|        | CLXXI.\u2014CLXXIV.         | 214      |\n|        | CLXXV.                 | 250      |\n\n| Part II | Plate CLXXXVI. to face | Page 280 |\n|---------|------------------------|----------|\n|         | CLXXXVII.\u2014CLXXXIII.    | 324      |\n|         | CLXXXIV.\u2014CLXXXVI.      | 498      |\n|         | CLXXXVII.\u2014CXCIX.       | 808      |",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MOST OF THE",
+          "start_page": 777,
+          "end_page": 779
+        },
+        {
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "start_page": 884,
+          "end_page": 885
+        },
+        {
+          "headword": "ELECTRICITY",
+          "start_page": 885,
+          "end_page": 889
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v07_ELECTRICITY_s8",
+          "headword": "ELECTRICITY",
+          "direction": "previous",
+          "start_page": 885,
+          "text_preview": "Conductors should be of sufficient diameters, No 468\nperfectly contiguous, 469\ninterrupted, effect of, 473\nshould be as straight as possible, 475\npointed, 476\nConfigurations, curious, produced by electricity, 275\nCopper forms the best conductors against lightning, 467\nCotte's axioms on atmospherical electricity, 510\nCotton, electrified, 84\nCoulomb ascertains the law of electric action, 367\nfinds that conductors are electrical only at the surface, 359\nCoulomb's experiments on the density of the electric fluid, 397\nCuncus's experiment, 98\nCuthbertson's proofs of the oxidation of metals by electricity, page 702.\nelectrometer, 203\nexperiments on the effect of breathing into jars, 205\nmode of estimating the power of machines, 224\nmethod of distinguishing the two electricities, 266\nCylinder, advantages of, 39\ndirections for choosing, 16\nstate of the inside of, during excitation, 212\n\nD\n\nDalibard's experiment proving the identity of lightning and electricity, 442\nDancing balls, 61\nDanger from",
+          "text_end": "ding from the wire. At every flash of lightning, an explosive stream, accompanied with brilliant light and a peculiar noise, passes between the balls.\n\n4. A driving fog or smart rain often produces effects nearly to the same extent as a thunder-cloud.\n\n5. In cloudy weather, weak positive electricity usually prevails. If rain falls, it usually changes to negative; and the positive state is resumed when the rain ceases.\n\n6. Positive electricity is stronger in clear frost than in a fine summer day."
+        },
+        {
+          "article_id": "1823_v07_AMAUROSIS_HAS_SOMETIMES_BEEN_SUCCESSFULLY_TREATED_BY_THE_SAME",
+          "headword": "AMAUROSIS HAS SOMETIMES BEEN SUCCESSFULLY TREATED BY THE SAME",
+          "direction": "previous",
+          "start_page": 884,
+          "text_preview": "s has sometimes been successfully treated by the same means.\n\nSuppressed menstruation has been relieved, but not retention of the catamenia.\n\nIn a few cases of pain and swelling of the knee, relief has been effectually obtained.\n\nIn chronic rheumatism the success is very frequent.\n\nChorea has been frequently relieved; palsy occasionally. In epilepsy Mr Carpue never found it successful.\n\nIt must, however, be remarked, that the indiscriminate employment of this powerful agent, especially in shocks of inordinate strength sent through the brain or spinal cord, is often productive of great and permanent mischief; so that it is necessary for the medical practitioner to be guarded in the employment of it: and it ought not, without due precaution, to be applied to the human constitution for purposes of curiosity or amusement.\n\nINDEX\n\nACHARD's experiments on ice, No 5 division of the scale of an electrometer, 68 Action, electric, law of, 366\u2014368 shewn by experiment, 368 \u00c6pinus's experiments on ",
+          "text_end": "harged plates, 151\nCoating for cylinders and globes, 40\nfor jars and plates, 107\nCollector of electricity, 254\nColours, experiments on, 193\nCompensated electricity, 411\nCondenser of electricity, 245\nimprovement of, 246\nConductors, table of, 5\ndistinguished from electrics by Grey, p. 646, note (n).\nall imperfect, 4\nprime, of a machine, introduced by Boze, page 661, note (n).\ncapacity of, 243\nconjugate, against lightning, invented by Dr Franklin, 464\nshould be of the best conducting materials, 467"
+        },
+        {
+          "article_id": "1823_v07_MOST_OF_THE",
+          "headword": "MOST OF THE",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "t of the means which have been devised for rendering sensible minute degrees of electricity have been suggested by the effects of Volta's electrophorus.\n\nThe first process employed for this purpose was invented by Professor Lichtenberg, and the same thought seems to have occurred to Dr Klincock of Prague. It was performed by means of two resinous plates like those of the common electrophorus, and one metallic plate with an insulating handle. One of the resinous plates was first excited by slight friction, and it was then employed to communicate electricity to the metallic plate, which was in its turn made to communicate electricity to the other resinous plate. The electricity possessed by this latter plate was now communicated to the metallic plate; this was again conveyed to the first resinous plate, of which it increased the electricity by communication. By repeatedly applying the metallic plate to each of the resinous plates, without bringing them in contact, the electricity at firs",
+          "text_end": "l plate with the edge of it, that small plate acquired thereby electricity sufficient to make an electrometer diverge.\n\nWhen this secondary condensing apparatus is used, care must be taken to hold the large plate almost vertically while the small plate is touched by it. There is no need of having another inferior plane for the small plate, the large one being sufficient for both; for immediately after taking up the large plate, weakly electrified, with one hand, you lay down the small plate, &c."
+        }
+      ]
+    }
+  ]
+}

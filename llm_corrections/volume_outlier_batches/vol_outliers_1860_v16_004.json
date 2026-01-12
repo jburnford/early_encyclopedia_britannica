@@ -1,0 +1,76 @@
+{
+  "batch_id": "vol_outliers_1860_v16_004",
+  "created": "2026-01-09T17:23:06.293608",
+  "edition_year": 1860,
+  "volume_num": 16,
+  "item_count": 1,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v16_TSCHUDI",
+      "headword": "TSCHUDI",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 837,
+      "end_page": 837,
+      "word_count": 24,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'TSCHUDI' comes after 'ORNITHOLOGY'",
+      "text_preview": "Avium Conspectus quae in Republica Peruana repertur et plerique observantur vel collectae sunt in itinere. Wiegmann, arch. 10.\n\n\u2014 (J. V.), Fauna Peruana. 1844-46.",
+      "text_end": "",
+      "full_text": "Avium Conspectus quae in Republica Peruana repertur et plerique observantur vel collectae sunt in itinere. Wiegmann, arch. 10.\n\n\u2014 (J. V.), Fauna Peruana. 1844-46.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "THIENEMANN",
+          "start_page": 837,
+          "end_page": 837
+        },
+        {
+          "headword": "THOMPSON",
+          "start_page": 837,
+          "end_page": 837
+        },
+        {
+          "headword": "TOWNSEND",
+          "start_page": 837,
+          "end_page": 837
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_TOWNSEND",
+          "headword": "TOWNSEND",
+          "direction": "previous",
+          "start_page": 837,
+          "text_preview": "papers on North American Birds in the Journals of the Academy of Sciences of Philadelphia.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_THOMPSON",
+          "headword": "THOMPSON",
+          "direction": "previous",
+          "start_page": 837,
+          "text_preview": "Natural History of Ireland. Vols. 1 and 2 contain Birds. London, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_THIENEMANN",
+          "headword": "THIENEMANN",
+          "direction": "previous",
+          "start_page": 837,
+          "text_preview": "Rhea, a journal devoted to Ornithology.\n\n\u2014 Fortpflanzungsgeschichte der Gesammten Vogel.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

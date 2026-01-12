@@ -1,0 +1,76 @@
+{
+  "batch_id": "vol_outliers_1810_v13_001",
+  "created": "2026-01-09T17:22:09.472256",
+  "edition_year": 1810,
+  "volume_num": 13,
+  "item_count": 1,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1810_v13_END_OF_THE_THIRTEENTH_VOLUME",
+      "headword": "END OF THE THIRTEENTH VOLUME",
+      "edition_year": 1810,
+      "volume_num": 13,
+      "start_page": 433,
+      "end_page": 434,
+      "word_count": 260,
+      "volume_range": "MED-RUL (derived)",
+      "effective_start": "MEDICAL JURISPRUDENCE",
+      "effective_end": "RULE",
+      "reason": "'END OF THE THIRTEENTH VOLUME' comes before 'MEDICAL JURISPRUDENCE'",
+      "text_preview": "ERRATA.\n\nPage. Col. Line.\n511 1 25 from bottom, read, It is numbered each way; from 0 to 90\u00b0 towards the eye end for angles of altitude, and from 0 to 50\u00b0 towards the object end for angles of depression.\n\n\u2014 \u2014 10 from bottom, for into 10\u00b0, read, to every 10\u00b0.\n\nIn the margin, opposite Ex. 7, supply a reference to fig. 10. and opposite to Ex. 8, supply a reference to fig. 11.\n\n515 2 13 and 14 from bottom, for distance between, read distance between them.\n\n517 2 12 for .7844, read .7854.\n\n518 2 22 f",
+      "text_end": "r as EB at A, read as EB at B.\n\n528 2 5 for \\( 39^2 \\times 32^2 \\), read \\( 39 \\times 32^2 \\), and line 6, for \u2014 read \u2014\n\nIn the article Methodists, palam, for Hanlon, read Hampton.\n\nDIRECTIONS FOR PLACING THE PLATES OF VOL. XIII.\n\nPART I.\n\nPlate CCCXVI\u2014CCCXXX. to face page 136\nCCCXXXI. CCCXXXII. 184",
+      "full_text": "ERRATA.\n\nPage. Col. Line.\n511 1 25 from bottom, read, It is numbered each way; from 0 to 90\u00b0 towards the eye end for angles of altitude, and from 0 to 50\u00b0 towards the object end for angles of depression.\n\n\u2014 \u2014 10 from bottom, for into 10\u00b0, read, to every 10\u00b0.\n\nIn the margin, opposite Ex. 7, supply a reference to fig. 10. and opposite to Ex. 8, supply a reference to fig. 11.\n\n515 2 13 and 14 from bottom, for distance between, read distance between them.\n\n517 2 12 for .7844, read .7854.\n\n518 2 22 from bottom, read \\( \\frac{1}{2} D \\times (F + L + 4E + 2R) \\).\n\n519 2 5 read \\( F + L = HI + MD \\).\n\n520 1 6 from bottom, for each lines, read such lines.\n\n\u2014 2 11 from bottom, for cylinder, read pyramid.\n\n521 1 15 for AE, read RE.\n\n523 2 18 for Prob. 3, read Prob. 6.\n\n525 1 31 for .5230, read .5236, and col. 2, line 7, for CA, read CA\u00b2.\n\n526 2 26 for .1077, read .1077; and in line 34, for .009, &c. read .000928371.\n\n527 2 10 from bottom, for as EB at A, read as EB at B.\n\n528 2 5 for \\( 39^2 \\times 32^2 \\), read \\( 39 \\times 32^2 \\), and line 6, for \u2014 read \u2014\n\nIn the article Methodists, palam, for Hanlon, read Hampton.\n\nDIRECTIONS FOR PLACING THE PLATES OF VOL. XIII.\n\nPART I.\n\nPlate CCCXVI\u2014CCCXXX. to face page 136\nCCCXXXI. CCCXXXII. 184",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MICROCOSM",
+          "start_page": 400,
+          "end_page": 401
+        },
+        {
+          "headword": "MICROGRAPHY",
+          "start_page": 401,
+          "end_page": 401
+        },
+        {
+          "headword": "MICROMETER",
+          "start_page": 401,
+          "end_page": 433
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1810_v13_MICROMETER",
+          "headword": "MICROMETER",
+          "direction": "previous",
+          "start_page": 401,
+          "text_preview": "an astronomical instrument, by which small angles, or the apparent magnitudes of objects viewed through telescopes or microscopes are measured with great exactness.\n\n1. The first TELESCOPIC micrometers were only mechanical contrivances for measuring the image of an object in the focus of the object-glass. Before these contrivances were thought of, astronomers were accustomed to measure the field of view in each of their telescopes, by observing how much of the moon they could see through it, the semidiameter being reckoned at 15 or 16 minutes; and other distances were estimated by the eye, comparing them with the field of view. Mr Galcogne, an English gentleman, however, fell upon a much more accurate method before the year 1641, and had a Treatise on Optics prepared for the press; but he was killed during the civil wars in the service of Charles I., and his manuscript was never found. His instrument, however, fell into the hands of Mr R. Townly*, who says, that by the help of it he co",
+          "text_end": "squares divided into 16 must be the sixteen millionth part of an inch surface. See fig. 26, which is a diminished view of the apparent surface exhibited under the magnifier No. 1. of Wilson's microscope. In viewing the smallest lines, Mr Coventry uses No. 2. or 3.; and they are all better seen, he says, by candle than by day-light.\n\nMICR\u00d3PUS, BASTARD CUDWEED: A genus of plants belonging to the syngenesia class, and in the natural method ranking under the 49th order, Compositae. See Botany Index."
+        },
+        {
+          "article_id": "1810_v13_MICROGRAPHY",
+          "headword": "MICROGRAPHY",
+          "direction": "previous",
+          "start_page": 401,
+          "text_preview": "the description of objects viewed with the assistance of a microscope. See Microscopic objects.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1810_v13_MICROCOSM",
+          "headword": "MICROCOSM",
+          "direction": "previous",
+          "start_page": 400,
+          "text_preview": "a Greek term signifying the little world; used by some for man, as being supposed an epitome of the universe or great world.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1769 @@
+{
+  "batch_id": "vol_outliers_1771_v01_003",
+  "created": "2026-01-09T17:21:47.287173",
+  "edition_year": 1771,
+  "volume_num": 1,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1771_v01_POPLITEUS",
+      "headword": "POPLITEUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 250,
+      "end_page": 252,
+      "word_count": 1618,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'POPLITEUS' comes after 'B'",
+      "text_preview": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression obser",
+      "text_end": "nus and soleus, all the way to the inner edge of the upper part of the tendo Achillis; and from thence continuing its course downward, it joins this tendon, and is inserted, together with it, in the outside of the posterior part of the os calcis, without communicating with the aponeurosis plantaris.",
+      "full_text": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression observable on that side.\n\nUses of the Muscles which move the Bones of the Leg on the Os Femoris.\n\nThe two vasti and crureus ought to be looked upon as a true triceps, the uses of which, in relation to the bones, are only to extend the tibia on the os femoris, and the os femoris on the tibia. The extension of the tibia on the os femoris happens chiefly when we sit or lie, and that of the os femoris on the tibia when we stand or walk. All the three muscles move the patella uniformly in the direction of the os femoris, on the pulley at the lower extremity of that bone.\n\nThe insertion of both the vasti immediately in the head of the tibia, prevents the patella from being luxated laterally on some occasions, in which the muscles may act with more force on one side than on the other, or remain without action, in which case the patella is loose and floating.\n\nThe rectus anterior, by its insertion in the patella, is a congener to the last three muscles, and serves to extend the leg. By its insertion in the os ilium, it bends the thigh, and assists the psoas, iliacus, and poctineus, whether the leg be extended or bent. It likewise moves the pelvis forward on the os femoris, and hinders it from falling back when we sit.\n\nThe sartorius performs the rotation of the thigh from before outward, whether extended or bent; being an antagonist to the musculus fasciae latae, and a congener to the quadrigenini.\n\nIt likewise bends the thigh, or raises it forward; it moves the pelvis forward on the femo",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250
+        },
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250
+        },
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRICEPS_TERTIUS",
+          "headword": "TRICEPS TERTIUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+          "text_end": " a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_SECUNDUS",
+          "headword": "TRICEPS SECUNDUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_PYRIFORMIS_ET_PYRAMIDALIS",
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+          "text_end": " and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches."
+        },
+        {
+          "article_id": "1771_v01_SEMI-MEMBRANOSUS",
+          "headword": "SEMI-MEMBRANOSUS",
+          "direction": "next",
+          "start_page": 250,
+          "text_preview": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+          "text_end": "y of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1771_v01_SEMI-MEMBRANOSUS",
+      "headword": "SEMI-MEMBRANOSUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 250,
+      "end_page": 250,
+      "word_count": 139,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'SEMI-MEMBRANOSUS' comes after 'B'",
+      "text_preview": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyl",
+      "text_end": "ondyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+      "full_text": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250
+        },
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252
+        },
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_POPLITEUS",
+          "headword": "POPLITEUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression observable on that side.\n\nUses of the Muscles which move the Bones of the Leg on the Os Femoris.\n\nThe two vasti and crureus ought to be looked upon as a true triceps, the uses of which, in relation to the bones, are only to extend the tibia on the os femoris, and the os femoris on the tibia. The extension of the tibia on the os femoris happens chiefly when we sit or lie, and that of the os femoris on the tibia when we stand or walk. All the three muscles move the patella uniformly in the direction of",
+          "text_end": "us externus. From thence the fleshy body runs obliquely over the edge of the popliteus, and terminates in a very small, long, flat tendon.\n\nThis tendon runs between the body of the gastrocnemius externus and soleus, all the way to the inner edge of the upper part of the tendo Achillis; and from thence continuing its course downward, it joins this tendon, and is inserted, together with it, in the outside of the posterior part of the os calcis, without communicating with the aponeurosis plantaris."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_TERTIUS",
+          "headword": "TRICEPS TERTIUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+          "text_end": " a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_SECUNDUS",
+          "headword": "TRICEPS SECUNDUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_SEMI-NERVOSUS",
+          "headword": "SEMI-NERVOSUS",
+          "direction": "next",
+          "start_page": 250,
+          "text_preview": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps of the arm.\n\nFrom thence it runs down fleshy toward the lower part of the inside of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, imme",
+          "text_end": "e of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1771_v01_SEMI-NERVOSUS",
+      "headword": "SEMI-NERVOSUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 250,
+      "end_page": 250,
+      "word_count": 196,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'SEMI-NERVOSUS' comes after 'B'",
+      "text_preview": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps o",
+      "text_end": "down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates.",
+      "full_text": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps of the arm.\n\nFrom thence it runs down fleshy toward the lower part of the inside of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250,
+          "end_page": 252
+        },
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250,
+          "end_page": 250
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252
+        },
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252
+        },
+        {
+          "headword": "THENAR",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_SEMI-MEMBRANOSUS",
+          "headword": "SEMI-MEMBRANOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+          "text_end": "y of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down."
+        },
+        {
+          "article_id": "1771_v01_POPLITEUS",
+          "headword": "POPLITEUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression observable on that side.\n\nUses of the Muscles which move the Bones of the Leg on the Os Femoris.\n\nThe two vasti and crureus ought to be looked upon as a true triceps, the uses of which, in relation to the bones, are only to extend the tibia on the os femoris, and the os femoris on the tibia. The extension of the tibia on the os femoris happens chiefly when we sit or lie, and that of the os femoris on the tibia when we stand or walk. All the three muscles move the patella uniformly in the direction of",
+          "text_end": "us externus. From thence the fleshy body runs obliquely over the edge of the popliteus, and terminates in a very small, long, flat tendon.\n\nThis tendon runs between the body of the gastrocnemius externus and soleus, all the way to the inner edge of the upper part of the tendo Achillis; and from thence continuing its course downward, it joins this tendon, and is inserted, together with it, in the outside of the posterior part of the os calcis, without communicating with the aponeurosis plantaris."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_TERTIUS",
+          "headword": "TRICEPS TERTIUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+          "text_end": " a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_POLLICIS_LONGUS",
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+          "text_end": "is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1771_v01_EXTENSOR_POLLICIS_LONGUS",
+      "headword": "EXTENSOR POLLICIS LONGUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 252,
+      "end_page": 252,
+      "word_count": 111,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR POLLICIS LONGUS' comes after 'B'",
+      "text_preview": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a",
+      "text_end": "wer extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+      "full_text": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250,
+          "end_page": 252
+        },
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250,
+          "end_page": 250
+        },
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250,
+          "end_page": 250
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252
+        },
+        {
+          "headword": "THENAR",
+          "start_page": 252
+        },
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_SEMI-NERVOSUS",
+          "headword": "SEMI-NERVOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps of the arm.\n\nFrom thence it runs down fleshy toward the lower part of the inside of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, imme",
+          "text_end": "e of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates."
+        },
+        {
+          "article_id": "1771_v01_SEMI-MEMBRANOSUS",
+          "headword": "SEMI-MEMBRANOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+          "text_end": "y of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down."
+        },
+        {
+          "article_id": "1771_v01_POPLITEUS",
+          "headword": "POPLITEUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression observable on that side.\n\nUses of the Muscles which move the Bones of the Leg on the Os Femoris.\n\nThe two vasti and crureus ought to be looked upon as a true triceps, the uses of which, in relation to the bones, are only to extend the tibia on the os femoris, and the os femoris on the tibia. The extension of the tibia on the os femoris happens chiefly when we sit or lie, and that of the os femoris on the tibia when we stand or walk. All the three muscles move the patella uniformly in the direction of",
+          "text_end": "us externus. From thence the fleshy body runs obliquely over the edge of the popliteus, and terminates in a very small, long, flat tendon.\n\nThis tendon runs between the body of the gastrocnemius externus and soleus, all the way to the inner edge of the upper part of the tendo Achillis; and from thence continuing its course downward, it joins this tendon, and is inserted, together with it, in the outside of the posterior part of the os calcis, without communicating with the aponeurosis plantaris."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_POLLICIS_LONGUS_s2",
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+          "text_end": "side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1771_v01_FLEXOR_POLLICIS_LONGUS_s2",
+      "headword": "FLEXOR POLLICIS LONGUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 252,
+      "end_page": 252,
+      "word_count": 145,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'FLEXOR POLLICIS LONGUS' comes after 'B'",
+      "text_preview": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of ",
+      "text_end": "ugh an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+      "full_text": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250,
+          "end_page": 250
+        },
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250,
+          "end_page": 250
+        },
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THENAR",
+          "start_page": 252
+        },
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_POLLICIS_LONGUS",
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+          "text_end": "is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second."
+        },
+        {
+          "article_id": "1771_v01_SEMI-NERVOSUS",
+          "headword": "SEMI-NERVOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps of the arm.\n\nFrom thence it runs down fleshy toward the lower part of the inside of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, imme",
+          "text_end": "e of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates."
+        },
+        {
+          "article_id": "1771_v01_SEMI-MEMBRANOSUS",
+          "headword": "SEMI-MEMBRANOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long thin muscle, partly tendinous, from whence it has its name, and situated on the back-side of the thigh, a little towards the inside.\n\nIt is fixed above, by a broad tendon or long aponeurosis, in the irregular, obtuse, prominent line which goes from the acetabulum to the tuberosity of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down.",
+          "text_end": "y of the ilium, a little above the insertion of the semi-nervosus, and between those of the gemellos inferior and quadratus.\n\nFrom thence it runs down fleshy in an oblique direction behind the inner condyle of the os femoris, below which it terminates in a thick tendon, which is inserted in the posterior and interior side of the inner condyle of the tibia, by three short branches, the first or uppermost of which goes a little toward the inside, the second more backward, and the third lower down."
+        },
+        {
+          "article_id": "1771_v01_THENAR_s2",
+          "headword": "THENAR",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+          "text_end": "ee or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1771_v01_THENAR_s2",
+      "headword": "THENAR",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 252,
+      "end_page": 252,
+      "word_count": 111,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'THENAR' comes after 'B'",
+      "text_preview": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus,",
+      "text_end": "longs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+      "full_text": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250,
+          "end_page": 250
+        },
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_FLEXOR_POLLICIS_LONGUS_s2",
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+          "text_end": "side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_POLLICIS_LONGUS",
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+          "text_end": "is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second."
+        },
+        {
+          "article_id": "1771_v01_SEMI-NERVOSUS",
+          "headword": "SEMI-NERVOSUS",
+          "direction": "previous",
+          "start_page": 250,
+          "text_preview": "This is a long muscle, half fleshy and half tendinous, or like a nerve, from whence it has its name. It is situated a little obliquely, on the posterior and inner part of the thigh.\n\nIt is fixed above to the posterior part of the tuberosity of the ilium, immediately before, and a little more inward than the biceps. It is afterwards fixed, by fleshy fibres, to the tendon of the biceps, for about the breadth of three fingers, much in the same manner as the coracobrachialis is fixed to the biceps of the arm.\n\nFrom thence it runs down fleshy toward the lower part of the inside of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, imme",
+          "text_end": "e of the thigh, having a sort of tendinous intersection in the inner part of its fleshy portion. Having reached below the middle of the thigh, it terminates in a small, long, round tendon, which runs down to the inside of the knee, behind that of the gracilis, where it expands in breadth.\n\nIt is inserted in the inside of the upper part of the tibia, about two or three fingers breadth below the tuberosity or spine, immediately under the tendon of the gracilis internus, with which it communicates."
+        },
+        {
+          "article_id": "1771_v01_TIBIALIS_POSTICUS",
+          "headword": "TIBIALIS POSTICUS",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique line or impression in the tibia, over all the neighbouring part of the interosseous ligament, and through more than the upper half of the internal angle of the fibula.\n\nAfter this, it forms a tendon, which runs down behind the inner malleolus; through a cartilaginous groove and an annular ligament, and, passing under the malleolus, is inserted in the tuberosity or lower part of the os scaphoides.\n\nPERON\u00c6US MAXIMUS vulgo PERON\u00c6US POSTERIOR.\n\nThis is a long penniform muscle, lying on the fibula.\n\n",
+          "text_end": "it forms a considerable tendon, which, running behind the external malleolus, passes through a kind of hollow groove, and through an annular ligament common to it and to the tendon of the peron\u00e6us medius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1771_v01_TIBIALIS_POSTICUS",
+      "headword": "TIBIALIS POSTICUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 252,
+      "end_page": 252,
+      "word_count": 333,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TIBIALIS POSTICUS' comes after 'B'",
+      "text_preview": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique ",
+      "text_end": "ius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes.",
+      "full_text": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique line or impression in the tibia, over all the neighbouring part of the interosseous ligament, and through more than the upper half of the internal angle of the fibula.\n\nAfter this, it forms a tendon, which runs down behind the inner malleolus; through a cartilaginous groove and an annular ligament, and, passing under the malleolus, is inserted in the tuberosity or lower part of the os scaphoides.\n\nPERON\u00c6US MAXIMUS vulgo PERON\u00c6US POSTERIOR.\n\nThis is a long penniform muscle, lying on the fibula.\n\nIt is fixed above to the anterior and outer part of the head of the fibula, and to a small portion of the head of the tibia; then to the outside of the neck of the fibula, to the upper half of the external angle of that bone, and to the aponeurosis tibialis, which at that place makes a februm between this muscle and the extensor pollicis.\n\nFrom thence turning a little backward, according to the direction of the bone, it forms a considerable tendon, which, running behind the external malleolus, passes through a kind of hollow groove, and through an annular ligament common to it and to the tendon of the peron\u00e6us medius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "THENAR",
+          "start_page": 252,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253
+        },
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_THENAR_s2",
+          "headword": "THENAR",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+          "text_end": "ee or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_POLLICIS_LONGUS_s2",
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+          "text_end": "side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_POLLICIS_LONGUS",
+          "headword": "EXTENSOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a thin single muscle, lying between the tibialis anticus and extensor digitorum longus, by which it is almost hid.\n\nIt is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second.",
+          "text_end": "is fixed to the inside of the fibula, near the interosseous ligament, from the neck down to the lowest quarter of that bone; to the interosseous ligament through the same space, and a little to the lower extremity of the tibia next the fibula.\n\nThere it ends in a considerable tendon, which passing through a distinct ring of the common annular ligament, and then through a membranous vagina, is inserted in the basis of the first phalanx of the great toe, and continued from thence up to the second."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_BREVIS",
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted in the upper or convex part of the first phalanx of the great toe. The other three joining with those of the extensor longus, are inserted along the convex sides of all the phalanges of the three following toes.\n\nFLEXOR DIGITORUM BREVIS\n\nThis is the undermost of all the common muscles of the toes, being situated immediately above the aponeurosis plantaris.\n\nIt is fixed by fleshy fibres to the anterior and lower part of the great tuberosity of the os calcis; and to the neighbouring part of the up",
+          "text_end": " ligament which runs down from the middle of the tibia. It afterwards ends in a tendon which passes behind the inner ankle, on one side, and a little behind the tibialis posterior, in a separate annular ligament.\n\nFrom thence it runs under the sole of the foot, sending off a detachment, by which it communicates with the flexor pollicis longus. There it is divided into four small flat tendons, which go to the third phalanges of the four small toes in the same manner, as the perforans of the hand."
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1771_v01_EXTENSOR_DIGITORUM_BREVIS",
+      "headword": "EXTENSOR DIGITORUM BREVIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 392,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR DIGITORUM BREVIS' comes after 'B'",
+      "text_preview": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted ",
+      "text_end": "ar ligament.\n\nFrom thence it runs under the sole of the foot, sending off a detachment, by which it communicates with the flexor pollicis longus. There it is divided into four small flat tendons, which go to the third phalanges of the four small toes in the same manner, as the perforans of the hand.",
+      "full_text": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted in the upper or convex part of the first phalanx of the great toe. The other three joining with those of the extensor longus, are inserted along the convex sides of all the phalanges of the three following toes.\n\nFLEXOR DIGITORUM BREVIS\n\nThis is the undermost of all the common muscles of the toes, being situated immediately above the aponeurosis plantaris.\n\nIt is fixed by fleshy fibres to the anterior and lower part of the great tuberosity of the os calcis; and to the neighbouring part of the upper side of the aponeurosis plantaris.\n\nFrom thence it runs forward, being divided into four fleshy portions, which terminate in the same number of tendons, split at their extremities, in the same manner as those of the sublimis or perforatus of the hand, and inserted in the second phalanges of the four small toes.\n\nFLEXOR DIGITORUM LONGUS\n\nThis is a long muscle, fleshy above, and tendinous below, lying on the backside of the leg between the tibia and the flexor pollicis longus, covered by the soleus, and covering the tibialis posterior.\n\nIt is fixed above, by fleshy fibres, to a little more than the middle third part of the backside of the tibia near its external angle, below the insertion of the soleus; and also to a kind of ligament which runs down from the middle of the tibia. It afterwards ends in a tendon which passes behind the inner ankle, on one side, and a little behind the tibialis posterior, in a separate annular ligament.\n\nFrom thence it runs under the sole of the foot, se",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "THENAR",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252,
+          "end_page": 252
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253
+        },
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253
+        },
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TIBIALIS_POSTICUS",
+          "headword": "TIBIALIS POSTICUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique line or impression in the tibia, over all the neighbouring part of the interosseous ligament, and through more than the upper half of the internal angle of the fibula.\n\nAfter this, it forms a tendon, which runs down behind the inner malleolus; through a cartilaginous groove and an annular ligament, and, passing under the malleolus, is inserted in the tuberosity or lower part of the os scaphoides.\n\nPERON\u00c6US MAXIMUS vulgo PERON\u00c6US POSTERIOR.\n\nThis is a long penniform muscle, lying on the fibula.\n\n",
+          "text_end": "it forms a considerable tendon, which, running behind the external malleolus, passes through a kind of hollow groove, and through an annular ligament common to it and to the tendon of the peron\u00e6us medius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes."
+        },
+        {
+          "article_id": "1771_v01_THENAR_s2",
+          "headword": "THENAR",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+          "text_end": "ee or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_POLLICIS_LONGUS_s2",
+          "headword": "FLEXOR POLLICIS LONGUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a pretty long muscle, situated in the posterior and lower part of the leg.\n\nIt is fixed in the lower half of the back-side of the fibula, its insertion reaching almost as far as the external malleolus. The fleshy body advances on the inside of that bone towards the tibia, according to the oblique direction of that side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second.",
+          "text_end": "side, and ends in a large tendon.\n\nThis tendon passes behind the lower extremity of the tibia, toward the inner ankle, then through a small notch in the inner and back-side of the astragalus, and through an annular ligament or ligamentary vagina, continued under the lateral arch of the os calcis.\n\nFrom thence it advances to the great toe, and passing through the interstice between the two sesamoid bones, in the ligamentary vagina of the first phalanx, is inserted in the lower part of the second."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_LONGUS",
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+          "text_end": "tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes."
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1771_v01_EXTENSOR_DIGITORUM_LONGUS",
+      "headword": "EXTENSOR DIGITORUM LONGUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 126,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR DIGITORUM LONGUS' comes after 'B'",
+      "text_preview": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ",
+      "text_end": "nging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+      "full_text": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "THENAR",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253
+        },
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253
+        },
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_BREVIS",
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted in the upper or convex part of the first phalanx of the great toe. The other three joining with those of the extensor longus, are inserted along the convex sides of all the phalanges of the three following toes.\n\nFLEXOR DIGITORUM BREVIS\n\nThis is the undermost of all the common muscles of the toes, being situated immediately above the aponeurosis plantaris.\n\nIt is fixed by fleshy fibres to the anterior and lower part of the great tuberosity of the os calcis; and to the neighbouring part of the up",
+          "text_end": " ligament which runs down from the middle of the tibia. It afterwards ends in a tendon which passes behind the inner ankle, on one side, and a little behind the tibialis posterior, in a separate annular ligament.\n\nFrom thence it runs under the sole of the foot, sending off a detachment, by which it communicates with the flexor pollicis longus. There it is divided into four small flat tendons, which go to the third phalanges of the four small toes in the same manner, as the perforans of the hand."
+        },
+        {
+          "article_id": "1771_v01_TIBIALIS_POSTICUS",
+          "headword": "TIBIALIS POSTICUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique line or impression in the tibia, over all the neighbouring part of the interosseous ligament, and through more than the upper half of the internal angle of the fibula.\n\nAfter this, it forms a tendon, which runs down behind the inner malleolus; through a cartilaginous groove and an annular ligament, and, passing under the malleolus, is inserted in the tuberosity or lower part of the os scaphoides.\n\nPERON\u00c6US MAXIMUS vulgo PERON\u00c6US POSTERIOR.\n\nThis is a long penniform muscle, lying on the fibula.\n\n",
+          "text_end": "it forms a considerable tendon, which, running behind the external malleolus, passes through a kind of hollow groove, and through an annular ligament common to it and to the tendon of the peron\u00e6us medius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes."
+        },
+        {
+          "article_id": "1771_v01_THENAR_s2",
+          "headword": "THENAR",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This muscle is made up of several portions, and lies on the inner edge of the sole of the foot.\n\nIt is fixed, by three or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis.",
+          "text_end": "ee or four fleshy fasciculi, to the lower and inner part of the os calcis, os scaphoides, and os cuneiforme majus. It is likewise fixed a little in the annular ligament under the inner ankle, which belongs to the tendon of the flexor longus.\n\nFrom all these different insertions, the fleshy fasciculi approach each other as they advance forward under the first bone of the metatarsus, and are fixed, partly in the internal sesamoid bone, and partly in the inside of the first phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_DIGITORUM_ACCESSORIUS",
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+          "text_end": "scle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place."
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1771_v01_FLEXOR_DIGITORUM_ACCESSORIUS",
+      "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 111,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'FLEXOR DIGITORUM ACCESSORIUS' comes after 'B'",
+      "text_preview": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer ed",
+      "text_end": " the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+      "full_text": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TIBIALIS POSTICUS",
+          "start_page": 252,
+          "end_page": 252
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253
+        },
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253
+        },
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_LONGUS",
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+          "text_end": "tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_BREVIS",
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted in the upper or convex part of the first phalanx of the great toe. The other three joining with those of the extensor longus, are inserted along the convex sides of all the phalanges of the three following toes.\n\nFLEXOR DIGITORUM BREVIS\n\nThis is the undermost of all the common muscles of the toes, being situated immediately above the aponeurosis plantaris.\n\nIt is fixed by fleshy fibres to the anterior and lower part of the great tuberosity of the os calcis; and to the neighbouring part of the up",
+          "text_end": " ligament which runs down from the middle of the tibia. It afterwards ends in a tendon which passes behind the inner ankle, on one side, and a little behind the tibialis posterior, in a separate annular ligament.\n\nFrom thence it runs under the sole of the foot, sending off a detachment, by which it communicates with the flexor pollicis longus. There it is divided into four small flat tendons, which go to the third phalanges of the four small toes in the same manner, as the perforans of the hand."
+        },
+        {
+          "article_id": "1771_v01_TIBIALIS_POSTICUS",
+          "headword": "TIBIALIS POSTICUS",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "This is a long, fleshy, penniform muscle, broader above than below, situated between the tibia and fibula, on the back-side of the leg, and covered by the extensor digitorum longus.\n\nIt is fixed above, by fleshy fibres, immediately under the articulation of the tibia and fibula, to the nearest parts of these two bones, chiefly to the tibia, reaching to the lateral parts of that bone, above the interosseous ligament, which is here wanting.\n\nFrom thence its insertion is extended below the oblique line or impression in the tibia, over all the neighbouring part of the interosseous ligament, and through more than the upper half of the internal angle of the fibula.\n\nAfter this, it forms a tendon, which runs down behind the inner malleolus; through a cartilaginous groove and an annular ligament, and, passing under the malleolus, is inserted in the tuberosity or lower part of the os scaphoides.\n\nPERON\u00c6US MAXIMUS vulgo PERON\u00c6US POSTERIOR.\n\nThis is a long penniform muscle, lying on the fibula.\n\n",
+          "text_end": "it forms a considerable tendon, which, running behind the external malleolus, passes through a kind of hollow groove, and through an annular ligament common to it and to the tendon of the peron\u00e6us medius, which lies before it.\n\nAfterwards running through the oblique groove in the lower side of the os cuboides, it is inserted in the side of the basis of the first metatarsal bone, and also a little in the basis of the os cuneiforme majus.\n\nSECT. XII. The Muscles which move the Metatarsus and Toes."
+        },
+        {
+          "article_id": "1771_v01_LUMBRALES",
+          "headword": "LUMBRALES",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+          "text_end": "he first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand."
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1771_v01_LUMBRALES",
+      "headword": "LUMBRALES",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 133,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'LUMBRALES' comes after 'B'",
+      "text_preview": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons",
+      "text_end": " the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+      "full_text": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253
+        },
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255
+        },
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_FLEXOR_DIGITORUM_ACCESSORIUS",
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+          "text_end": "scle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_LONGUS",
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+          "text_end": "tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_BREVIS",
+          "headword": "EXTENSOR DIGITORUM BREVIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small complex muscle, lying obliquely on the convex side of the foot, being likewise termed pedius.\n\nIt is fixed in the upper and outer side of the anterior apophysis of the astragalus, and in the neighbouring part of the upper side of that bone. From thence it runs obliquely from without inwards, under the tendons of the peroneus minimus and extensor digitorum longus, being divided into four fleshy portions, which terminate in the same number of tendons.\n\nThe first tendon is inserted in the upper or convex part of the first phalanx of the great toe. The other three joining with those of the extensor longus, are inserted along the convex sides of all the phalanges of the three following toes.\n\nFLEXOR DIGITORUM BREVIS\n\nThis is the undermost of all the common muscles of the toes, being situated immediately above the aponeurosis plantaris.\n\nIt is fixed by fleshy fibres to the anterior and lower part of the great tuberosity of the os calcis; and to the neighbouring part of the up",
+          "text_end": " ligament which runs down from the middle of the tibia. It afterwards ends in a tendon which passes behind the inner ankle, on one side, and a little behind the tibialis posterior, in a separate annular ligament.\n\nFrom thence it runs under the sole of the foot, sending off a detachment, by which it communicates with the flexor pollicis longus. There it is divided into four small flat tendons, which go to the third phalanges of the four small toes in the same manner, as the perforans of the hand."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_DIGITORUM",
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligaments which connect the heads of the four metatarsal bones next the great toe, laterally to each other.\n\n**INTEROSSEI.**\n\nThese are seven small muscles which fill up the four interstices between the metatarsal bones, much after the same manner as in the hand. The four largest are superior, the other three inferior.\n\n**METATARSUS.**\n\nThis is a fleshy mass, lying under the sole of the foot. It is fixed, by one end, in the fore-part of the great tuberosity of the os calcis; and running forward from the",
+          "text_end": "the metacarpus.\n\nThe transversalis may assist the metatarsius in this\naction, which is supposed to be of use to tilers in climb-\ning. The antitendinous may likewise concur, and the pe-\nronaeus minimus may serve to counterbalance these mus-\ncles, and to bring the metatarsus back to its natural si-\ntuation.\n\nThe paratenar major serves particularly to separate\nthe little toe from the rest; and the paratenar minor\nbends the first phalanx of that toe.\n\nSect. XIII. The Muscles employed in Respiration."
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1771_v01_TRANSVERSALIS_DIGITORUM",
+      "headword": "TRANSVERSALIS DIGITORUM",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 255,
+      "word_count": 1330,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRANSVERSALIS DIGITORUM' comes after 'B'",
+      "text_preview": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligament",
+      "text_end": " may serve to counterbalance these mus-\ncles, and to bring the metatarsus back to its natural si-\ntuation.\n\nThe paratenar major serves particularly to separate\nthe little toe from the rest; and the paratenar minor\nbends the first phalanx of that toe.\n\nSect. XIII. The Muscles employed in Respiration.",
+      "full_text": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligaments which connect the heads of the four metatarsal bones next the great toe, laterally to each other.\n\n**INTEROSSEI.**\n\nThese are seven small muscles which fill up the four interstices between the metatarsal bones, much after the same manner as in the hand. The four largest are superior, the other three inferior.\n\n**METATARSUS.**\n\nThis is a fleshy mass, lying under the sole of the foot. It is fixed, by one end, in the fore-part of the great tuberosity of the os calcis; and running forward from thence, it terminates in a kind of short tendon, which is fixed in the tuberosity and posterior part of the lower side of the fifth bone of the metatarsus.\n\n**PARATHENAR MAJOR.**\n\nThis is a pretty long muscle, forming part of the outer edge of the sole of the foot.\n\nIt is fixed backwards by a fleshy body, to the outer part of the lower side of the os calcis, from the small posterior external tuberosity, all the way to the anterior tuberosity. There it joins the metatarsus, and at the basis of the fifth metatarsal bone separates from it again, and forms a tendon, which is inserted in the outside of the first phalanx of the little toe, near its basis, and near the insertion of the parathenar minor.\n\n**PARATHENAR MINOR.**\n\nThis is a fleshy muscle, fixed along the posterior half of the outer and lower side of the fifth bone of the metatarsus. It terminates under the head of that bone, in a tendon which is inserted in the lower part of the basis of the first phalanx of the little toe.\n\nUses of",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255
+        },
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261
+        },
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_LUMBRALES",
+          "headword": "LUMBRALES",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+          "text_end": "he first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_DIGITORUM_ACCESSORIUS",
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+          "text_end": "scle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_LONGUS",
+          "headword": "EXTENSOR DIGITORUM LONGUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a long muscle, fleshy in the upper part, and tendinous in the lower, lying between the tibialis anticus and peroneus maximus.\n\nIt is fixed above, by fleshy fibres, in the outside of the head of the tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes.",
+          "text_end": "tibia, and inside of the head of the fibula; in the upper part of the interosseous ligament, through three fourths of the length of the fibula; and through the same space, in the tendinous septum belonging to the anterior angle of that bone.\n\nIt contracts in breadth a little above the annular ligament, and, in passing through it, is divided into three tendons; the first of which is afterwards divided into two. These four tendons are inserted along the upper or convex side of the four small toes."
+        },
+        {
+          "article_id": "1771_v01_DIAPHRAGMA",
+          "headword": "DIAPHRAGMA",
+          "direction": "next",
+          "start_page": 255,
+          "text_preview": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, called the great muscle of the diaphragm; the o-\nther small and inferior, appearing like an appendix to the\nother, called the small or inferior muscle of the dia-\nphragm.\n\nThe great or principal muscle is fleshy in its circum-\nference, and tendinous and aponeurotic in the middle,\nwhich, for that reason, is commonly called centrum\nnervosum sine tendinosum.\n\nThe fleshy circumference is radiated, the fibres of\nwhich it is made up being fixed by one extremity to the\nedge of the middle aponeurosis, and b",
+          "text_end": "s fixed to the anterior parts of the transverse apophysis of the third, fourth, fifth, and sixth vertebrae in a digitated manner. From thence it runs obliquely inward toward the lateral parts of the bodies of the vertebrae, passes on the fore-side of the first and second, without being inserted in them; and, approaching gradually towards the same muscle on the other side, it is inserted near it in the fore-part of the lower side of the apophysis basilaris, or great apophysis of the os occipitis."
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1771_v01_DIAPHRAGMA",
+      "headword": "DIAPHRAGMA",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 255,
+      "end_page": 261,
+      "word_count": 3700,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'DIAPHRAGMA' comes after 'B'",
+      "text_preview": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, call",
+      "text_end": "odies of the vertebrae, passes on the fore-side of the first and second, without being inserted in them; and, approaching gradually towards the same muscle on the other side, it is inserted near it in the fore-part of the lower side of the apophysis basilaris, or great apophysis of the os occipitis.",
+      "full_text": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, called the great muscle of the diaphragm; the o-\nther small and inferior, appearing like an appendix to the\nother, called the small or inferior muscle of the dia-\nphragm.\n\nThe great or principal muscle is fleshy in its circum-\nference, and tendinous and aponeurotic in the middle,\nwhich, for that reason, is commonly called centrum\nnervosum sine tendinosum.\n\nThe fleshy circumference is radiated, the fibres of\nwhich it is made up being fixed by one extremity to the\nedge of the middle aponeurosis, and by the other to\nall the basis of the cavity of the thorax, being inserted\nby digitations in the lower parts of the appendix of the\nsternum, of the lowest true ribs, of all the false ribs,\nand in the neighbouring vertebrae.\n\nWe have therefore three kinds of insertions; one ster-\nnal; twelve costal, six on each side; and two vertebral,\none on each side. These last are very small, and some-\ntimes scarcely perceivable. The costal insertions join\nthose of the transversalis abdominis, but do not mix with\nthem, as they seem to do before the membrane which\ncovers them is removed.\n\nThe fibres inserted in the appendix enformis, run\nfrom behind directly forward, and form a small parallel\nplane.\n\nThe first costal insertion runs a little obliquely to-\nwards the cartilage of the seventh true rib, a triangular\nspace being left between this and the sternal insertion, at\nwhich the pleura and peritoneum meet. The insertion\nof these fibres is very broad, taking up about two thirds\nof the cartilage of the ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253,
+          "end_page": 255
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261
+        },
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_DIGITORUM",
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligaments which connect the heads of the four metatarsal bones next the great toe, laterally to each other.\n\n**INTEROSSEI.**\n\nThese are seven small muscles which fill up the four interstices between the metatarsal bones, much after the same manner as in the hand. The four largest are superior, the other three inferior.\n\n**METATARSUS.**\n\nThis is a fleshy mass, lying under the sole of the foot. It is fixed, by one end, in the fore-part of the great tuberosity of the os calcis; and running forward from the",
+          "text_end": "the metacarpus.\n\nThe transversalis may assist the metatarsius in this\naction, which is supposed to be of use to tilers in climb-\ning. The antitendinous may likewise concur, and the pe-\nronaeus minimus may serve to counterbalance these mus-\ncles, and to bring the metatarsus back to its natural si-\ntuation.\n\nThe paratenar major serves particularly to separate\nthe little toe from the rest; and the paratenar minor\nbends the first phalanx of that toe.\n\nSect. XIII. The Muscles employed in Respiration."
+        },
+        {
+          "article_id": "1771_v01_LUMBRALES",
+          "headword": "LUMBRALES",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+          "text_end": "he first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand."
+        },
+        {
+          "article_id": "1771_v01_FLEXOR_DIGITORUM_ACCESSORIUS",
+          "headword": "FLEXOR DIGITORUM ACCESSORIUS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a flat and pretty long fleshy mass, situated obliquely under the sole of the foot.\n\nThis muscle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place.",
+          "text_end": "scle is fixed posteriorly by one fleshy portion, in the lower side of the os calcis, and in the anterior tuberosity on that side, and by the other in the neighbouring ligament which joins this bone to the astragalus.\n\nFrom thence the two portions run obliquely to the middle of the sole of the foot, and there unite in a flat, long, and irregularly square muscular mass, which is fixed to the outer edge of the fasciculus of tendons of the flexor longus, to which it serves as a frenum at that place."
+        },
+        {
+          "article_id": "1771_v01_MUSCULI_ACCESSORII",
+          "headword": "MUSCULI ACCESSORII",
+          "direction": "next",
+          "start_page": 261,
+          "text_preview": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno-mastoidei is different, according as either both muscles, or only one of them, acts, and according to the different situation of the head and trunk.\n\nWhen we keep the head and trunk straight, whether in standing or sitting, both muscles preserve the head in that posture against any force by which it would otherwise be moved backward.\n\nOne of these muscles acting alone, may have the same use, if the force to push the head back be applied between the anterior and lateral parts of it.\n\nThey both s",
+          "text_end": "e uppermost of which is fixed below to the third transverse apophysis of the back, and above to the first spinal apophysis. The lowest is fixed below to the third transverse apophysis of the loins, and above to the last spinal apophysis of the back.\n\nThey may be divided into external, which are first discovered; and internal, which lie immediately on the vertebrae. The external, from the first vertebra to the seventh, inclusively, appear to be longer than the internal, which are covered by them."
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1771_v01_MUSCULI_ACCESSORII",
+      "headword": "MUSCULI ACCESSORII",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 261,
+      "end_page": 263,
+      "word_count": 2183,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'MUSCULI ACCESSORII' comes after 'B'",
+      "text_preview": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno",
+      "text_end": "d above to the last spinal apophysis of the back.\n\nThey may be divided into external, which are first discovered; and internal, which lie immediately on the vertebrae. The external, from the first vertebra to the seventh, inclusively, appear to be longer than the internal, which are covered by them.",
+      "full_text": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno-mastoidei is different, according as either both muscles, or only one of them, acts, and according to the different situation of the head and trunk.\n\nWhen we keep the head and trunk straight, whether in standing or sitting, both muscles preserve the head in that posture against any force by which it would otherwise be moved backward.\n\nOne of these muscles acting alone, may have the same use, if the force to push the head back be applied between the anterior and lateral parts of it.\n\nThey both serve likewise to perform the rotations of the head, that is, to make it turn to either side as on a pivot; and, in this case, when we turn the head to one side, the sternomastoideus on the other side acts, and not that on the same side.\n\nThey both serve, in the next place, to bring the head near the thorax when we lie on the back, or bend backward in sitting. In this case, the sternum, being the fixed point, must remain immoveable; but as its connection with the first rib, and the inflexibility of the cartilage of that rib, are not always sufficient for this, the musculi recti of the abdomen must lend their assistance in great efforts.\n\nThe two splenii serve to support the head in an erect posture, whether in standing or sitting; to moderate the flexion of the head forward, and to bring it back again to its natural posture.\n\nThey serve alternately to co-operate with either of the sternomastoidei, for the rotation of the head: Thus when the right sternomastoideus turns the head, the lef",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "LUMBRALES",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253,
+          "end_page": 255
+        },
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255,
+          "end_page": 261
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_DIAPHRAGMA",
+          "headword": "DIAPHRAGMA",
+          "direction": "previous",
+          "start_page": 255,
+          "text_preview": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, called the great muscle of the diaphragm; the o-\nther small and inferior, appearing like an appendix to the\nother, called the small or inferior muscle of the dia-\nphragm.\n\nThe great or principal muscle is fleshy in its circum-\nference, and tendinous and aponeurotic in the middle,\nwhich, for that reason, is commonly called centrum\nnervosum sine tendinosum.\n\nThe fleshy circumference is radiated, the fibres of\nwhich it is made up being fixed by one extremity to the\nedge of the middle aponeurosis, and b",
+          "text_end": "s fixed to the anterior parts of the transverse apophysis of the third, fourth, fifth, and sixth vertebrae in a digitated manner. From thence it runs obliquely inward toward the lateral parts of the bodies of the vertebrae, passes on the fore-side of the first and second, without being inserted in them; and, approaching gradually towards the same muscle on the other side, it is inserted near it in the fore-part of the lower side of the apophysis basilaris, or great apophysis of the os occipitis."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_DIGITORUM",
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligaments which connect the heads of the four metatarsal bones next the great toe, laterally to each other.\n\n**INTEROSSEI.**\n\nThese are seven small muscles which fill up the four interstices between the metatarsal bones, much after the same manner as in the hand. The four largest are superior, the other three inferior.\n\n**METATARSUS.**\n\nThis is a fleshy mass, lying under the sole of the foot. It is fixed, by one end, in the fore-part of the great tuberosity of the os calcis; and running forward from the",
+          "text_end": "the metacarpus.\n\nThe transversalis may assist the metatarsius in this\naction, which is supposed to be of use to tilers in climb-\ning. The antitendinous may likewise concur, and the pe-\nronaeus minimus may serve to counterbalance these mus-\ncles, and to bring the metatarsus back to its natural si-\ntuation.\n\nThe paratenar major serves particularly to separate\nthe little toe from the rest; and the paratenar minor\nbends the first phalanx of that toe.\n\nSect. XIII. The Muscles employed in Respiration."
+        },
+        {
+          "article_id": "1771_v01_LUMBRALES",
+          "headword": "LUMBRALES",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "These are four small muscles, situated more or less longitudinally under the sole of the foot.\n\nThey are fixed by their fleshy extremities to the four tendons of the flexor digitorum longus near the insertion of the flexor accessorius. The first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand.",
+          "text_end": "he first muscle is fixed to the inside of the first tendon; the second to the tendinous fork formed by the two first tendons; the third, to the tendinous fork made by the second and third tendons; and the fourth, in the same manner to the third and fourth tendons, but commonly most to the third.\n\nFrom thence these four muscles run to the toes, and there terminate in the same number of small tendons, which are inserted in the first phalanges of the toes, much after the same manner as in the hand."
+        },
+        {
+          "article_id": "1771_v01_RECTUS_ANTICUS_BREVIS",
+          "headword": "RECTUS ANTICUS BREVIS",
+          "direction": "next",
+          "start_page": 261,
+          "text_preview": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1771_v01_RECTUS_ANTICUS_BREVIS",
+      "headword": "RECTUS ANTICUS BREVIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 261,
+      "end_page": 261,
+      "word_count": 84,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'RECTUS ANTICUS BREVIS' comes after 'B'",
+      "text_preview": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+      "text_end": "nsverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+      "full_text": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "start_page": 253,
+          "end_page": 255
+        },
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255,
+          "end_page": 261
+        },
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261,
+          "end_page": 263
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "start_page": 263
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_MUSCULI_ACCESSORII",
+          "headword": "MUSCULI ACCESSORII",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno-mastoidei is different, according as either both muscles, or only one of them, acts, and according to the different situation of the head and trunk.\n\nWhen we keep the head and trunk straight, whether in standing or sitting, both muscles preserve the head in that posture against any force by which it would otherwise be moved backward.\n\nOne of these muscles acting alone, may have the same use, if the force to push the head back be applied between the anterior and lateral parts of it.\n\nThey both s",
+          "text_end": "e uppermost of which is fixed below to the third transverse apophysis of the back, and above to the first spinal apophysis. The lowest is fixed below to the third transverse apophysis of the loins, and above to the last spinal apophysis of the back.\n\nThey may be divided into external, which are first discovered; and internal, which lie immediately on the vertebrae. The external, from the first vertebra to the seventh, inclusively, appear to be longer than the internal, which are covered by them."
+        },
+        {
+          "article_id": "1771_v01_DIAPHRAGMA",
+          "headword": "DIAPHRAGMA",
+          "direction": "previous",
+          "start_page": 255,
+          "text_preview": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, called the great muscle of the diaphragm; the o-\nther small and inferior, appearing like an appendix to the\nother, called the small or inferior muscle of the dia-\nphragm.\n\nThe great or principal muscle is fleshy in its circum-\nference, and tendinous and aponeurotic in the middle,\nwhich, for that reason, is commonly called centrum\nnervosum sine tendinosum.\n\nThe fleshy circumference is radiated, the fibres of\nwhich it is made up being fixed by one extremity to the\nedge of the middle aponeurosis, and b",
+          "text_end": "s fixed to the anterior parts of the transverse apophysis of the third, fourth, fifth, and sixth vertebrae in a digitated manner. From thence it runs obliquely inward toward the lateral parts of the bodies of the vertebrae, passes on the fore-side of the first and second, without being inserted in them; and, approaching gradually towards the same muscle on the other side, it is inserted near it in the fore-part of the lower side of the apophysis basilaris, or great apophysis of the os occipitis."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_DIGITORUM",
+          "headword": "TRANSVERSALIS DIGITORUM",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "This is a small muscle, which lies transversely under the basis of the first phalanges, and which at first sight appears to be a simple muscular body fixed by one end to the great toe, and by the other to the little toe.\nWhen this muscle is carefully examined, we find that it is fixed, by a very short common tendon, to the outside of the basis of the first phalanx of the great toe, conjointly with the antithenar; and, by three different portions or digitations, to the three interosseous ligaments which connect the heads of the four metatarsal bones next the great toe, laterally to each other.\n\n**INTEROSSEI.**\n\nThese are seven small muscles which fill up the four interstices between the metatarsal bones, much after the same manner as in the hand. The four largest are superior, the other three inferior.\n\n**METATARSUS.**\n\nThis is a fleshy mass, lying under the sole of the foot. It is fixed, by one end, in the fore-part of the great tuberosity of the os calcis; and running forward from the",
+          "text_end": "the metacarpus.\n\nThe transversalis may assist the metatarsius in this\naction, which is supposed to be of use to tilers in climb-\ning. The antitendinous may likewise concur, and the pe-\nronaeus minimus may serve to counterbalance these mus-\ncles, and to bring the metatarsus back to its natural si-\ntuation.\n\nThe paratenar major serves particularly to separate\nthe little toe from the rest; and the paratenar minor\nbends the first phalanx of that toe.\n\nSect. XIII. The Muscles employed in Respiration."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_PRIMUS",
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "direction": "next",
+          "start_page": 261,
+          "text_preview": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+          "text_end": "tty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula."
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_PRIMUS",
+      "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 261,
+      "end_page": 261,
+      "word_count": 92,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRANSVERSALIS ANTICUS PRIMUS' comes after 'B'",
+      "text_preview": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of ",
+      "text_end": "erior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+      "full_text": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DIAPHRAGMA",
+          "start_page": 255,
+          "end_page": 261
+        },
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261,
+          "end_page": 263
+        },
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261,
+          "end_page": 261
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261
+        },
+        {
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "start_page": 263
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XV",
+          "start_page": 267
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_RECTUS_ANTICUS_BREVIS",
+          "headword": "RECTUS ANTICUS BREVIS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_MUSCULI_ACCESSORII",
+          "headword": "MUSCULI ACCESSORII",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno-mastoidei is different, according as either both muscles, or only one of them, acts, and according to the different situation of the head and trunk.\n\nWhen we keep the head and trunk straight, whether in standing or sitting, both muscles preserve the head in that posture against any force by which it would otherwise be moved backward.\n\nOne of these muscles acting alone, may have the same use, if the force to push the head back be applied between the anterior and lateral parts of it.\n\nThey both s",
+          "text_end": "e uppermost of which is fixed below to the third transverse apophysis of the back, and above to the first spinal apophysis. The lowest is fixed below to the third transverse apophysis of the loins, and above to the last spinal apophysis of the back.\n\nThey may be divided into external, which are first discovered; and internal, which lie immediately on the vertebrae. The external, from the first vertebra to the seventh, inclusively, appear to be longer than the internal, which are covered by them."
+        },
+        {
+          "article_id": "1771_v01_DIAPHRAGMA",
+          "headword": "DIAPHRAGMA",
+          "direction": "previous",
+          "start_page": 255,
+          "text_preview": "This is a very broad and thin muscle, situated at\nthe basis of the thorax, and serving as a transverse\npartition to separate that cavity from the abdomen.\nFor this reason the Greeks termed it diaphragma; and\nthe Latins, septum transversum. It forms an oblique\ninclined arch, the fore-part of which is highest, and the\nposterior part lowest, making a very acute angle with\nthe back.\n\nIt is looked upon as a double and digastric muscle,\nmade up of two different portions, one large and supe-\nrior, called the great muscle of the diaphragm; the o-\nther small and inferior, appearing like an appendix to the\nother, called the small or inferior muscle of the dia-\nphragm.\n\nThe great or principal muscle is fleshy in its circum-\nference, and tendinous and aponeurotic in the middle,\nwhich, for that reason, is commonly called centrum\nnervosum sine tendinosum.\n\nThe fleshy circumference is radiated, the fibres of\nwhich it is made up being fixed by one extremity to the\nedge of the middle aponeurosis, and b",
+          "text_end": "s fixed to the anterior parts of the transverse apophysis of the third, fourth, fifth, and sixth vertebrae in a digitated manner. From thence it runs obliquely inward toward the lateral parts of the bodies of the vertebrae, passes on the fore-side of the first and second, without being inserted in them; and, approaching gradually towards the same muscle on the other side, it is inserted near it in the fore-part of the lower side of the apophysis basilaris, or great apophysis of the os occipitis."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_SECUNDUS",
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "direction": "next",
+          "start_page": 261,
+          "text_preview": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_SECUNDUS",
+      "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 261,
+      "end_page": 261,
+      "word_count": 58,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRANSVERSALIS ANTICUS SECUNDUS' comes after 'B'",
+      "text_preview": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+      "text_end": "is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+      "full_text": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MUSCULI ACCESSORII",
+          "start_page": 261,
+          "end_page": 263
+        },
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261,
+          "end_page": 261
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "start_page": 263
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XV",
+          "start_page": 267
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XVI",
+          "start_page": 268
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_PRIMUS",
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+          "text_end": "tty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula."
+        },
+        {
+          "article_id": "1771_v01_RECTUS_ANTICUS_BREVIS",
+          "headword": "RECTUS ANTICUS BREVIS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_MUSCULI_ACCESSORII",
+          "headword": "MUSCULI ACCESSORII",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "We sometimes meet with a small muscle, fixed, by one end, to the extremity of the first transverse apophysis of the neck, near the insertions of the two obliques, from whence, running up obliquely, it is again inserted behind the mastoid apophysis. This muscle is commonly thought to be a third small transversalis on that side where it is found, but it seems rather to be an additional muscle to the obliquus superior.\n\nUSES of the Muscles which move the Head on the Trunk.\n\nThe action of the sterno-mastoidei is different, according as either both muscles, or only one of them, acts, and according to the different situation of the head and trunk.\n\nWhen we keep the head and trunk straight, whether in standing or sitting, both muscles preserve the head in that posture against any force by which it would otherwise be moved backward.\n\nOne of these muscles acting alone, may have the same use, if the force to push the head back be applied between the anterior and lateral parts of it.\n\nThey both s",
+          "text_end": "e uppermost of which is fixed below to the third transverse apophysis of the back, and above to the first spinal apophysis. The lowest is fixed below to the third transverse apophysis of the loins, and above to the last spinal apophysis of the back.\n\nThey may be divided into external, which are first discovered; and internal, which lie immediately on the vertebrae. The external, from the first vertebra to the seventh, inclusively, appear to be longer than the internal, which are covered by them."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSO-SPINALIS_LUMBORUM",
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "direction": "next",
+          "start_page": 263,
+          "text_preview": "SACER VETERIBUS.**\n\nThis muscle is composed of several oblique converging or transverso-spinal muscles, in the same manner as in the back and neck; and it lies between the spinal and oblique apophyses of the loins, reaching to the os sacrum.\n\nThe lowest of these muscles are fixed to the superior lateral parts of the os sacrum, to the ligamentum sacro-iliacum, and to the posterior superior spine of the os ilium. The rest are fixed to the three lowest transverse apophyses, and to the four lowest oblique apophyses of the loins, and to their lateral tubercles. From thence they run up to all the spinal apophyses of these vertebrae, the external, or those that appear first, being longer than the internal, which lie immediately on the vertebrae, especially toward the lower part.\n\n**SPINALES ET TRANSVERSALES LUMBORUM.**\n\nThere are some fasciculi which run up from the superior false spines of the os sacrum, to the lower spinal apophyses of the loins, which may be looked upon as so many spinales",
+          "text_end": "ommonly observed in complete treatises of myology, the following muscles remain still to be described, viz. The muscles of the forehead, occiput, palpebrae, eye, external ear, nose, lips, tongue, uvula, ductus Eustachianus, pharynx, larynx, parts of generation, anus, and bladder; and to these we ought even to add the heart, as Mr Cowper has done in the late edition of his Myotomy. But the description of these will be better understood when we treat of the parts to which they belong. See Part VI."
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1771_v01_TRANSVERSO-SPINALIS_LUMBORUM",
+      "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 263,
+      "end_page": 267,
+      "word_count": 4084,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRANSVERSO-SPINALIS LUMBORUM' comes after 'B'",
+      "text_preview": "SACER VETERIBUS.**\n\nThis muscle is composed of several oblique converging or transverso-spinal muscles, in the same manner as in the back and neck; and it lies between the spinal and oblique apophyses of the loins, reaching to the os sacrum.\n\nThe lowest of these muscles are fixed to the superior lateral parts of the os sacrum, to the ligamentum sacro-iliacum, and to the posterior superior spine of the os ilium. The rest are fixed to the three lowest transverse apophyses, and to the four lowest o",
+      "text_end": "a, ductus Eustachianus, pharynx, larynx, parts of generation, anus, and bladder; and to these we ought even to add the heart, as Mr Cowper has done in the late edition of his Myotomy. But the description of these will be better understood when we treat of the parts to which they belong. See Part VI.",
+      "full_text": "SACER VETERIBUS.**\n\nThis muscle is composed of several oblique converging or transverso-spinal muscles, in the same manner as in the back and neck; and it lies between the spinal and oblique apophyses of the loins, reaching to the os sacrum.\n\nThe lowest of these muscles are fixed to the superior lateral parts of the os sacrum, to the ligamentum sacro-iliacum, and to the posterior superior spine of the os ilium. The rest are fixed to the three lowest transverse apophyses, and to the four lowest oblique apophyses of the loins, and to their lateral tubercles. From thence they run up to all the spinal apophyses of these vertebrae, the external, or those that appear first, being longer than the internal, which lie immediately on the vertebrae, especially toward the lower part.\n\n**SPINALES ET TRANSVERSALES LUMBORUM.**\n\nThere are some fasciculi which run up from the superior false spines of the os sacrum, to the lower spinal apophyses of the loins, which may be looked upon as so many spinales lumborum majores. There are likewise some spinales minores between the spinal apophyses of the loins, and transversales minores between the transverse apophyses, which are sometimes of a considerable breadth.\nQuadratus Lumborum sive Lumbaris Externus.\n\nThis is a small, oblong, flat muscle, irregularly square, narrower at its upper than at its lower part, lying along the sides of the vertebrae lumborum, between the last false rib and the os ilium.\n\nIt is fixed below to the external labium of almost all the posterior half of the crista ossis ilium, to the ligamentum sacro-iliacum, and a little to the os sacrum, by a fleety plane, the fibres whereof run obliquely backward.\n\nFrom thence it runs up between the sacro-lumbaris and psoas, by both which it is partly hid, and is inserted in the extremities of all the transverse apophyses of the loins by oblique tendinous digitations. It is likewise fixed by a broad insertion in the twelfth rib, on the inside of the ligament that lies between it",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "RECTUS ANTICUS BREVIS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261,
+          "end_page": 261
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXPLANATION OF PLATE XV",
+          "start_page": 267
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XVI",
+          "start_page": 268
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XVII",
+          "start_page": 292
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_SECUNDUS",
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_PRIMUS",
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+          "text_end": "tty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula."
+        },
+        {
+          "article_id": "1771_v01_RECTUS_ANTICUS_BREVIS",
+          "headword": "RECTUS ANTICUS BREVIS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small flat muscle, about the breadth of one finger, situated laterally on the anterior part of the body of the first vertebra. It is fixed below to the basis or root of the transverse apophysis of that vertebra, near the anterior eminence.\n\nFrom thence it runs obliquely upward and inward to a transverse impression in the lower side of the apophysis basilaris of the occipital bone, immediately before the condyle on the same side, being covered by the rectus anticus longus.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_EXPLANATION_OF_PLATE_XV",
+          "headword": "EXPLANATION OF PLATE XV",
+          "direction": "next",
+          "start_page": 267,
+          "text_preview": "Fig. 1. The Muscles immediately under the common teguments on the anterior part of the body, are represented on the right side; and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nA, The frontal muscle. B, The tendinous aponeurosis which joins it to the occipital; hence both named occipito-frontalis. C, Atroens aurem. D, The ear. E, Anterior auris. F F, Orbicularis palpebrarum. G, Levator labii superioris alaeque nasi. H, Levator labiorum communis. I, Zygomaticus minor. K, Zygomaticus major. L, Masseter. M, Orbicularis labiorum. N, Depressor labii inferioris. O, Depressor labiorum communis. P, Buccinator. Q Q, Platysma myoides. R R, Sterno-cleido mastoideus. S, Part of the trapezius. T, Part of the scaleni.\n\nSuperior Extremity.\u2014U, Deltoides. V, Pectoralis major. W, Part of the latissimus dorsi. X X, Biceps flexor cubiti. Y Y, Part of the brachium externus. Z Z, The beginning of the tendinous aponeurosis, (from the biceps) which is spread",
+          "text_end": "rius. i, Sphincter oris. k, Depressor labiorum communis. l, Muscles of the os hyoides. m, Sterno-cleido mastoideus.\n\nFig. 4. Some of the Muscles of the os hyoides, and submaxillary gland.\n\na, Part of the masseter muscle. b, Posterior head of the digastric. c, Its anterior head. d d, Sterno-hyoideus. e, Omo-hyoideus. f, Stylo-hyoideus. g, Submaxillary gland in situ.\n\nFig. 5. The submaxillary gland and duct.\n\na, Musculus mylo-hyoideus. b, Hyo-glossus. c, submaxillary gland extra fixu. d, Its duct."
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1771_v01_EXPLANATION_OF_PLATE_XV",
+      "headword": "EXPLANATION OF PLATE XV",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 267,
+      "end_page": 268,
+      "word_count": 768,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXPLANATION OF PLATE XV' comes after 'B'",
+      "text_preview": "Fig. 1. The Muscles immediately under the common teguments on the anterior part of the body, are represented on the right side; and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nA, The frontal muscle. B, The tendinous aponeurosis which joins it to the occipital; hence both named occipito-frontalis. C, Atroens aurem. D, The ear. E, Anterior auris. F F, Orbicularis palpebrarum. G, Levator labii superioris alaeque nasi. H, Levator labiorum communis",
+      "text_end": "the masseter muscle. b, Posterior head of the digastric. c, Its anterior head. d d, Sterno-hyoideus. e, Omo-hyoideus. f, Stylo-hyoideus. g, Submaxillary gland in situ.\n\nFig. 5. The submaxillary gland and duct.\n\na, Musculus mylo-hyoideus. b, Hyo-glossus. c, submaxillary gland extra fixu. d, Its duct.",
+      "full_text": "Fig. 1. The Muscles immediately under the common teguments on the anterior part of the body, are represented on the right side; and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nA, The frontal muscle. B, The tendinous aponeurosis which joins it to the occipital; hence both named occipito-frontalis. C, Atroens aurem. D, The ear. E, Anterior auris. F F, Orbicularis palpebrarum. G, Levator labii superioris alaeque nasi. H, Levator labiorum communis. I, Zygomaticus minor. K, Zygomaticus major. L, Masseter. M, Orbicularis labiorum. N, Depressor labii inferioris. O, Depressor labiorum communis. P, Buccinator. Q Q, Platysma myoides. R R, Sterno-cleido mastoideus. S, Part of the trapezius. T, Part of the scaleni.\n\nSuperior Extremity.\u2014U, Deltoides. V, Pectoralis major. W, Part of the latissimus dorsi. X X, Biceps flexor cubiti. Y Y, Part of the brachium externus. Z Z, The beginning of the tendinous aponeurosis, (from the biceps) which is spread over the muscles of the fore-arm. a a, Its strong tendon inserted into the tubercle of the radius. b b, Part of the brachium internus. c, Pronator teres. d, Flexor carpi radialis. e, Part of the flexor carpi ulnaris. f, Palmaris longus. g, Aponeurosis palmaris. 3, Palmaris brevis. i, Ligamentum carpi annulare. 2 2, Abductor minimi digiti. h, Supinator longus. i, The tendons of the three extensors of the thumb. k, Abductor pollicis. l, Flexor pollicis longus. m m, The tendons of the flexor digitorum communis.\u2014The sheaths are entire in the right hand,\u2014in the left cut open, to shew the tendons of the flexor profundus perforating the sublimis.\n\nMuscles not referred to\u2014in the left superior extremity.\u2014n, Pectoralis minor, seu serratus anticus minor. o, The two heads of (x x) the biceps. p, Coraco-brachialis. q q, The long head of the triceps extensor cubiti. r r, Teres major. f f, Subscapularis. t t, Extensor radiales. u, Supinator brevis. v, The cut extremity of the pronator teres. w, Flex",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "start_page": 263,
+          "end_page": 267
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXPLANATION OF PLATE XVI",
+          "start_page": 268
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XVII",
+          "start_page": 292
+        },
+        {
+          "headword": "INTESTINUM COLON",
+          "start_page": 306
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRANSVERSO-SPINALIS_LUMBORUM",
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "direction": "previous",
+          "start_page": 263,
+          "text_preview": "SACER VETERIBUS.**\n\nThis muscle is composed of several oblique converging or transverso-spinal muscles, in the same manner as in the back and neck; and it lies between the spinal and oblique apophyses of the loins, reaching to the os sacrum.\n\nThe lowest of these muscles are fixed to the superior lateral parts of the os sacrum, to the ligamentum sacro-iliacum, and to the posterior superior spine of the os ilium. The rest are fixed to the three lowest transverse apophyses, and to the four lowest oblique apophyses of the loins, and to their lateral tubercles. From thence they run up to all the spinal apophyses of these vertebrae, the external, or those that appear first, being longer than the internal, which lie immediately on the vertebrae, especially toward the lower part.\n\n**SPINALES ET TRANSVERSALES LUMBORUM.**\n\nThere are some fasciculi which run up from the superior false spines of the os sacrum, to the lower spinal apophyses of the loins, which may be looked upon as so many spinales",
+          "text_end": "ommonly observed in complete treatises of myology, the following muscles remain still to be described, viz. The muscles of the forehead, occiput, palpebrae, eye, external ear, nose, lips, tongue, uvula, ductus Eustachianus, pharynx, larynx, parts of generation, anus, and bladder; and to these we ought even to add the heart, as Mr Cowper has done in the late edition of his Myotomy. But the description of these will be better understood when we treat of the parts to which they belong. See Part VI."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_SECUNDUS",
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_PRIMUS",
+          "headword": "TRANSVERSALIS ANTICUS PRIMUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small, pretty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula.",
+          "text_end": "tty thick, and wholly fleshy muscle, about the breadth of a finger, situated between the basis of the os occipitis and the transverse apophysis of the first vertebra. It is fixed by one end in the anterior part of that apophysis; and from thence running up a little obliquely, it is inserted, by the other end, in a particular impaction, between the condyle of the os occipitis and the mastoid apophysis of the same side, behind the the apophysis styloides, and under the edge of the jugular fossula."
+        },
+        {
+          "article_id": "1771_v01_EXPLANATION_OF_PLATE_XVI",
+          "headword": "EXPLANATION OF PLATE XVI",
+          "direction": "next",
+          "start_page": 268,
+          "text_preview": "Fig. 1. The Muscles immediately under the common teguments on the posterior part of the body are represented in the right side;\u2014and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nHead.\u2014A A, Occipito-frontalis. B, Attollens aurem. C, Part of the orbicularis palpebrarum. D, Masseter. E, Pterygoideus internus.\n\nTrunk.\u2014Right side. F F F, Trapezius seu cucullaris. G G G G, Latissimus dorsi. H, Part of the obliquus externus abdominis.\n\nTrunk.\u2014Left side. I, Splenius. K, Part of the complexus. L, Levator scapulae. M, Rhomboides. N N, Serratus politicus inferior. O, Part of the longissimus dorsi. P, Part of the sacro-lumbaris. Q, Part of the semi-spinalis dorsi. R, Part of the serratus anticus major. S, Part of the obliquus internus abdominis.\n\nSuperior Extremity.\u2014Right side. T, Deltoides. U, Triceps extensor cubiti. V, Supinator longus. W W, Extensor carpi radialis longior & brevior. X X, Extensor carpi ulnaris. Y Y, Extensor digitorum communis",
+          "text_end": "ndons of the flexor digitorum longus, with the nonus Vealii. h h, The whole of the flexor digitorum brevis.\n\nFig. 4. Muscles of the Anus.\n\na a, An outline of the buttocks, and upper part of the thighs. b, The testes contained in the scrotum. c c, Sphincter ani. d, Anus. e, Levator ani. f f, Erector penis. g g, Accelerator urinae. h, Corpus cavernosum urethrae.\n\nFig. 5. Muscles of the Penis.\n\na a, b, d, e e, f f, h, point the same as in fig. 4. c, Sphincter internus ani. g g, Transversus perin\u00e6i."
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1771_v01_EXPLANATION_OF_PLATE_XVI",
+      "headword": "EXPLANATION OF PLATE XVI",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 268,
+      "end_page": 269,
+      "word_count": 579,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXPLANATION OF PLATE XVI' comes after 'B'",
+      "text_preview": "Fig. 1. The Muscles immediately under the common teguments on the posterior part of the body are represented in the right side;\u2014and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nHead.\u2014A A, Occipito-frontalis. B, Attollens aurem. C, Part of the orbicularis palpebrarum. D, Masseter. E, Pterygoideus internus.\n\nTrunk.\u2014Right side. F F F, Trapezius seu cucullaris. G G G G, Latissimus dorsi. H, Part of the obliquus externus abdominis.\n\nTrunk.\u2014Left side",
+      "text_end": ". b, The testes contained in the scrotum. c c, Sphincter ani. d, Anus. e, Levator ani. f f, Erector penis. g g, Accelerator urinae. h, Corpus cavernosum urethrae.\n\nFig. 5. Muscles of the Penis.\n\na a, b, d, e e, f f, h, point the same as in fig. 4. c, Sphincter internus ani. g g, Transversus perin\u00e6i.",
+      "full_text": "Fig. 1. The Muscles immediately under the common teguments on the posterior part of the body are represented in the right side;\u2014and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nHead.\u2014A A, Occipito-frontalis. B, Attollens aurem. C, Part of the orbicularis palpebrarum. D, Masseter. E, Pterygoideus internus.\n\nTrunk.\u2014Right side. F F F, Trapezius seu cucullaris. G G G G, Latissimus dorsi. H, Part of the obliquus externus abdominis.\n\nTrunk.\u2014Left side. I, Splenius. K, Part of the complexus. L, Levator scapulae. M, Rhomboides. N N, Serratus politicus inferior. O, Part of the longissimus dorsi. P, Part of the sacro-lumbaris. Q, Part of the semi-spinalis dorsi. R, Part of the serratus anticus major. S, Part of the obliquus internus abdominis.\n\nSuperior Extremity.\u2014Right side. T, Deltoides. U, Triceps extensor cubiti. V, Supinator longus. W W, Extensor carpi radialis longior & brevior. X X, Extensor carpi ulnaris. Y Y, Extensor digitorum communis. Z, Abductor indicis. i 2 3, Extensor pollicis.\n\nSuperior Extremity.\u2014Left side. a, Supra-spinatus. b, Intra-spinatus. c, Teres minor. d, Teres major. e, Triceps extensor cubiti. f f, Extensor carpi radialis. g, Supinator brevis. h, Indicator. i 2 3, Extensor pollicis. i, Abductor minimi digiti. k, Interossei.\n\nInferior Extremity.\u2014Right side. l, Gluteus maximus. m, Part of the gluteus medius. n, Fascialis. o, Gracilis. p p, Adductor femoris magnus. q, Part of the vastus internus. r, Semimembranosus. s, Semitendinosus. t, Long head of the biceps flexor cruris. u u, Gastrocnemius externus seu gemellus. v, Tendo Achillis. w, Soleus seu gastrocnemius internus. x x, Peroneus longus & brevis. y, Tendons of the flexor digitorum longus;\u2014and under them * flexor digitorum brevis. z, Abductor minimi digiti.\n\nInferior Extremity.\u2014Left side. m, n, o, p p, q, r, s, t, v, w w, x x, y, z. Point the same parts as in the right side. a, Pyriformis. b b, Gemini. c c, Obturator internus. d, Quadratus femori",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "start_page": 261,
+          "end_page": 261
+        },
+        {
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "start_page": 263,
+          "end_page": 267
+        },
+        {
+          "headword": "EXPLANATION OF PLATE XV",
+          "start_page": 267,
+          "end_page": 268
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXPLANATION OF PLATE XVII",
+          "start_page": 292
+        },
+        {
+          "headword": "INTESTINUM COLON",
+          "start_page": 306
+        },
+        {
+          "headword": "INTESTINUM RECTUM AND ANUS",
+          "start_page": 307
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXPLANATION_OF_PLATE_XV",
+          "headword": "EXPLANATION OF PLATE XV",
+          "direction": "previous",
+          "start_page": 267,
+          "text_preview": "Fig. 1. The Muscles immediately under the common teguments on the anterior part of the body, are represented on the right side; and on the left side the Muscles are seen which come in view when the exterior ones are taken away.\n\nA, The frontal muscle. B, The tendinous aponeurosis which joins it to the occipital; hence both named occipito-frontalis. C, Atroens aurem. D, The ear. E, Anterior auris. F F, Orbicularis palpebrarum. G, Levator labii superioris alaeque nasi. H, Levator labiorum communis. I, Zygomaticus minor. K, Zygomaticus major. L, Masseter. M, Orbicularis labiorum. N, Depressor labii inferioris. O, Depressor labiorum communis. P, Buccinator. Q Q, Platysma myoides. R R, Sterno-cleido mastoideus. S, Part of the trapezius. T, Part of the scaleni.\n\nSuperior Extremity.\u2014U, Deltoides. V, Pectoralis major. W, Part of the latissimus dorsi. X X, Biceps flexor cubiti. Y Y, Part of the brachium externus. Z Z, The beginning of the tendinous aponeurosis, (from the biceps) which is spread",
+          "text_end": "rius. i, Sphincter oris. k, Depressor labiorum communis. l, Muscles of the os hyoides. m, Sterno-cleido mastoideus.\n\nFig. 4. Some of the Muscles of the os hyoides, and submaxillary gland.\n\na, Part of the masseter muscle. b, Posterior head of the digastric. c, Its anterior head. d d, Sterno-hyoideus. e, Omo-hyoideus. f, Stylo-hyoideus. g, Submaxillary gland in situ.\n\nFig. 5. The submaxillary gland and duct.\n\na, Musculus mylo-hyoideus. b, Hyo-glossus. c, submaxillary gland extra fixu. d, Its duct."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSO-SPINALIS_LUMBORUM",
+          "headword": "TRANSVERSO-SPINALIS LUMBORUM",
+          "direction": "previous",
+          "start_page": 263,
+          "text_preview": "SACER VETERIBUS.**\n\nThis muscle is composed of several oblique converging or transverso-spinal muscles, in the same manner as in the back and neck; and it lies between the spinal and oblique apophyses of the loins, reaching to the os sacrum.\n\nThe lowest of these muscles are fixed to the superior lateral parts of the os sacrum, to the ligamentum sacro-iliacum, and to the posterior superior spine of the os ilium. The rest are fixed to the three lowest transverse apophyses, and to the four lowest oblique apophyses of the loins, and to their lateral tubercles. From thence they run up to all the spinal apophyses of these vertebrae, the external, or those that appear first, being longer than the internal, which lie immediately on the vertebrae, especially toward the lower part.\n\n**SPINALES ET TRANSVERSALES LUMBORUM.**\n\nThere are some fasciculi which run up from the superior false spines of the os sacrum, to the lower spinal apophyses of the loins, which may be looked upon as so many spinales",
+          "text_end": "ommonly observed in complete treatises of myology, the following muscles remain still to be described, viz. The muscles of the forehead, occiput, palpebrae, eye, external ear, nose, lips, tongue, uvula, ductus Eustachianus, pharynx, larynx, parts of generation, anus, and bladder; and to these we ought even to add the heart, as Mr Cowper has done in the late edition of his Myotomy. But the description of these will be better understood when we treat of the parts to which they belong. See Part VI."
+        },
+        {
+          "article_id": "1771_v01_TRANSVERSALIS_ANTICUS_SECUNDUS",
+          "headword": "TRANSVERSALIS ANTICUS SECUNDUS",
+          "direction": "previous",
+          "start_page": 261,
+          "text_preview": "This is a small muscle, situated between the transverse apophyses of the first two vertebrae of the neck. It is fixed, by one extremity, very near the middle of the second apophysis, and, by the other, near the root or basis of the first; and therefore it is a muscle of the neck, rather than of the head.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_EXPLANATION_OF_PLATE_XVII",
+          "headword": "EXPLANATION OF PLATE XVII",
+          "direction": "next",
+          "start_page": 292,
+          "text_preview": "This plate represents the heart in situ, all the large arteries and veins, with some of the muscles, &c.\n\nMuscles.\u2014Superior Extremity.\u2014a, Malleter. b, Complexus. c, Diagastroicus. d, Os hyoides. e, Thyroid gland. f, Levator scapulae. g, Cucullaris. h, The clavicles cut. i, The deltoid muscle. k, Biceps flexor cubiti cut. l, Coraco-brachialis. m, Triceps extensor cubiti. n, The heads of the pronator teres, flexor carpi radialis, and flexor digitorum sublimis, cut. o, The flexor carpi ulnaris, cut at its extremity. p, Flexor digitorum profundus. q, Supinator radii longus, cut at its extremity. r, Ligamentum carpi transversale. s, Extensor carpi radiales. t, Latissimus dorsi. u, Anterior edge of the serratus anterior major. v, v, The inferior part of the diaphragm. w, w, Its anterior edge cut. x, x, The kidneys. y, Transversus abdominis. z, Os ilium.\n\nInferior Extremity.\u2014a, Psoas magnus. b, Iliacus internus. c, The fleshy origin of the tensor vaginae femoris. d, d, The osa pubis cut from ",
+          "text_end": "llary vein, covering the artery. 16, 16, The subclavian veins, which, with (6) the jugulars, forms 17, the vena cava superior. 18, The cutaneous arch of veins on the fore-part of the foot. 19, The vena tibialis antica, covering the artery. 20, The vena profunda femoris, covering the artery. 21, The upper part of the vena saphena major. 22, The femoral vein. 23, 23, The iliac veins. 24, 24, Vena cava inferior. 25, 25, The renal veins covering the arteries. 26, 26, The diaphragmatic veins.\nPART V."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1769 @@
+{
+  "batch_id": "vol_outliers_1823_v12_002",
+  "created": "2026-01-09T17:22:26.376374",
+  "edition_year": 1823,
+  "volume_num": 12,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1823_v12_PULEGI",
+      "headword": "PULEGI",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 822,
+      "end_page": 823,
+      "word_count": 45,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'PULEGI' comes after 'MATERIA'",
+      "text_preview": "L. Spirit of pennyroyal.\n\nDistilled in the same manner, and possessing similar\nproperties with the preparations of mint.\n\n171. LAVENDULA SPICA, E. LAVENDULA, L. D. Lavender\nflowers. See Botany, p. 216.\n\nOfficinal Preparations.\n\na. OLEUM VOLATILE LAVANDUL\u00c6 SPICE, E. Oil of la-\nLEUM\nPart IV.",
+      "text_end": "",
+      "full_text": "L. Spirit of pennyroyal.\n\nDistilled in the same manner, and possessing similar\nproperties with the preparations of mint.\n\n171. LAVENDULA SPICA, E. LAVENDULA, L. D. Lavender\nflowers. See Botany, p. 216.\n\nOfficinal Preparations.\n\na. OLEUM VOLATILE LAVANDUL\u00c6 SPICE, E. Oil of la-\nLEUM\nPart IV.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "THIS IS PREPARED BY DECOMPOSING MURIATE OF AMMONIA BY",
+          "start_page": 788,
+          "end_page": 791
+        },
+        {
+          "headword": "IS",
+          "start_page": 822,
+          "end_page": 822
+        },
+        {
+          "headword": "PELLUS",
+          "start_page": 822,
+          "end_page": 822
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BENEDICTUS",
+          "start_page": 826
+        },
+        {
+          "headword": "EA",
+          "start_page": 826
+        },
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_PELLUS",
+          "headword": "PELLUS",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "E. ACONITUM, L. D. Blue monk-\nhood, or aconite. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. SUCCUS SPISSATUS ACONITI NAPPELLI, E. Insip-\nsated juice of aconite.\n\nMade from the fresh leaves of aconite in the usual\nmanner. Dose from half a grain to three grains, twice\nor thrice a day.\n\nOrder 4. TETRGYNYA.\n\n164. WINTERIA AROMATICA, E. Winter's bark.\nSimilar to canella alba.\n\nOrder 6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-",
+          "text_end": "6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-"
+        },
+        {
+          "article_id": "1823_v12_IS",
+          "headword": "IS",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "L. D. Peppermint. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PIPERIT\u00c6, E. AQUA MEN-\nTH\u00c6 PIPERITIDIS, L. Peppermint water.\nPeppermint water.\n\nb. OLEUM VOLATILE MENTH\u00c6 PIPERIT\u00c6 vel OIL OF PEPPERMINT.\nOil of peppermint.\n\nc. SPIRITUS MENTH\u00c6 PIPERIT\u00c6 vel PIPERITIDIS, Spirit of\nE. L. Spirit of peppermint.\n\nAll these are prepared in the same manner as similar\npreparations of mint, possess similar properties, but ra-\nther stronger. Dose of the water, a wine glass full;\nof the oil a drop or two; of the spirit, about an ounce.\n\n170. MENTHA PULEGIUM, E. PULEGIUM, L. Penny-\nroyal. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PULEGI, E. AQUA PULE-",
+          "text_end": " MENTH\u00c6 PIPERIT\u00c6 vel OIL OF PEPPERMINT.\nOil of peppermint.\n\nc. SPIRITUS MENTH\u00c6 PIPERIT\u00c6 vel PIPERITIDIS, Spirit of\nE. L. Spirit of peppermint.\n\nAll these are prepared in the same manner as similar\npreparations of mint, possess similar properties, but ra-\nther stronger. Dose of the water, a wine glass full;\nof the oil a drop or two; of the spirit, about an ounce.\n\n170. MENTHA PULEGIUM, E. PULEGIUM, L. Penny-\nroyal. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PULEGI, E. AQUA PULE-"
+        },
+        {
+          "article_id": "1823_v12_THIS_IS_PREPARED_BY_DECOMPOSING_MURIATE_OF_AMMONIA_BY",
+          "headword": "THIS IS PREPARED BY DECOMPOSING MURIATE OF AMMONIA BY",
+          "direction": "previous",
+          "start_page": 788,
+          "text_preview": "s is prepared by decomposing muriate of ammonia by means of quicklime with the addition of water, and afterwards distilling off the strongest portion with a gentle heat. The preparations of the different colleges vary a little; the Edinburgh Pharmacopoeia ordering one pound of muriate of ammonia to one pound and a half of quicklime; the London one pound to two pounds; and the Dublin 16 ounces to two pounds. No great quantity of water is necessary. The lime is first slaked with part of the water, and after it is cold, the salt and rest of the water are added, and the distillation carried on in well closed vessels. The Edinburgh college directs Woolf's apparatus to be employed as a receiver, and orders all the separate liquors to be mixed together.\n\nThe solution of ammonia should be perfectly limpid and transparent, should have an extremely pungent odour, should not effervesce with acids, and should produce no precipitate on the addition of alcohol or lime water. It should be kept in sma",
+          "text_end": "ion.\n\nIt may be employed in all cases of typhus fevers; in particular, where there is much delirium, subsultus tendinum, &c. It is also employed in febrile eruptions, and in many spasmodic diseases, as the chincough, epilepsy, tetanus, &c.\n\nOfficinal Preparations.\n\na. TINCTURA MOSCH\u00c6, D. Tincture of musk.\n\nThis is prepared by macerating two drams of musk in a pound of rectified spirit of wine for seven days, and straining the liquor.\n\nThe tincture of musk may be given in doses of a dram\nPart IV."
+        },
+        {
+          "article_id": "1823_v12_BENEDICTUS",
+          "headword": "BENEDICTUS",
+          "direction": "next",
+          "start_page": 826,
+          "text_preview": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1823_v12_BENEDICTUS",
+      "headword": "BENEDICTUS",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 826,
+      "end_page": 826,
+      "word_count": 15,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'BENEDICTUS' comes before 'LIE'",
+      "text_preview": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-",
+      "text_end": "",
+      "full_text": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-",
+      "auto_classification": {
+        "decision": "KEEP",
+        "confidence": "medium",
+        "reason": "Short cross-reference entry",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "IS",
+          "start_page": 822,
+          "end_page": 822
+        },
+        {
+          "headword": "PELLUS",
+          "start_page": 822,
+          "end_page": 822
+        },
+        {
+          "headword": "PULEGI",
+          "start_page": 822,
+          "end_page": 823
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EA",
+          "start_page": 826
+        },
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826
+        },
+        {
+          "headword": "TARIA VIRGINIANA",
+          "start_page": 826
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_PULEGI",
+          "headword": "PULEGI",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "L. Spirit of pennyroyal.\n\nDistilled in the same manner, and possessing similar\nproperties with the preparations of mint.\n\n171. LAVENDULA SPICA, E. LAVENDULA, L. D. Lavender\nflowers. See Botany, p. 216.\n\nOfficinal Preparations.\n\na. OLEUM VOLATILE LAVANDUL\u00c6 SPICE, E. Oil of la-\nLEUM\nPart IV.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_PELLUS",
+          "headword": "PELLUS",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "E. ACONITUM, L. D. Blue monk-\nhood, or aconite. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. SUCCUS SPISSATUS ACONITI NAPPELLI, E. Insip-\nsated juice of aconite.\n\nMade from the fresh leaves of aconite in the usual\nmanner. Dose from half a grain to three grains, twice\nor thrice a day.\n\nOrder 4. TETRGYNYA.\n\n164. WINTERIA AROMATICA, E. Winter's bark.\nSimilar to canella alba.\n\nOrder 6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-",
+          "text_end": "6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-"
+        },
+        {
+          "article_id": "1823_v12_IS",
+          "headword": "IS",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "L. D. Peppermint. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PIPERIT\u00c6, E. AQUA MEN-\nTH\u00c6 PIPERITIDIS, L. Peppermint water.\nPeppermint water.\n\nb. OLEUM VOLATILE MENTH\u00c6 PIPERIT\u00c6 vel OIL OF PEPPERMINT.\nOil of peppermint.\n\nc. SPIRITUS MENTH\u00c6 PIPERIT\u00c6 vel PIPERITIDIS, Spirit of\nE. L. Spirit of peppermint.\n\nAll these are prepared in the same manner as similar\npreparations of mint, possess similar properties, but ra-\nther stronger. Dose of the water, a wine glass full;\nof the oil a drop or two; of the spirit, about an ounce.\n\n170. MENTHA PULEGIUM, E. PULEGIUM, L. Penny-\nroyal. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PULEGI, E. AQUA PULE-",
+          "text_end": " MENTH\u00c6 PIPERIT\u00c6 vel OIL OF PEPPERMINT.\nOil of peppermint.\n\nc. SPIRITUS MENTH\u00c6 PIPERIT\u00c6 vel PIPERITIDIS, Spirit of\nE. L. Spirit of peppermint.\n\nAll these are prepared in the same manner as similar\npreparations of mint, possess similar properties, but ra-\nther stronger. Dose of the water, a wine glass full;\nof the oil a drop or two; of the spirit, about an ounce.\n\n170. MENTHA PULEGIUM, E. PULEGIUM, L. Penny-\nroyal. See Botany, p. 217.\n\nOfficinal Preparations.\n\na. AQUA MENTH\u00c6 PULEGI, E. AQUA PULE-"
+        },
+        {
+          "article_id": "1823_v12_EA",
+          "headword": "EA",
+          "direction": "next",
+          "start_page": 826,
+          "text_preview": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAM\u00c6MELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC-\nTUM CHAM\u00c6MELI, D. Decoction of chamomile.\nPrepared by boiling an ounce of chamomile flowers,\nand half an ounce of bruised caraway seeds, in five\npounds of water (E.), or half an ounce of chamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and ant",
+          "text_end": "hamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and anthelmintic.\n\n217. Anthemis pyrethrum, E. PYRETHRUM,\nL. D. Pellitory of Spain.\nUsed chiefly as a masticatory in toothache.\n\nOrder 3. POLYGAMIA FRUSTRANEA.\n\n218. Centaurea benedicta, E. CARDUUS"
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1823_v12_EA",
+      "headword": "EA",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 826,
+      "end_page": 826,
+      "word_count": 192,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'EA' comes before 'LIE'",
+      "text_preview": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAM\u00c6MELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC",
+      "text_end": ". Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and anthelmintic.\n\n217. Anthemis pyrethrum, E. PYRETHRUM,\nL. D. Pellitory of Spain.\nUsed chiefly as a masticatory in toothache.\n\nOrder 3. POLYGAMIA FRUSTRANEA.\n\n218. Centaurea benedicta, E. CARDUUS",
+      "full_text": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAM\u00c6MELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC-\nTUM CHAM\u00c6MELI, D. Decoction of chamomile.\nPrepared by boiling an ounce of chamomile flowers,\nand half an ounce of bruised caraway seeds, in five\npounds of water (E.), or half an ounce of chamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and anthelmintic.\n\n217. Anthemis pyrethrum, E. PYRETHRUM,\nL. D. Pellitory of Spain.\nUsed chiefly as a masticatory in toothache.\n\nOrder 3. POLYGAMIA FRUSTRANEA.\n\n218. Centaurea benedicta, E. CARDUUS",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PELLUS",
+          "start_page": 822,
+          "end_page": 822
+        },
+        {
+          "headword": "PULEGI",
+          "start_page": 822,
+          "end_page": 823
+        },
+        {
+          "headword": "BENEDICTUS",
+          "start_page": 826,
+          "end_page": 826
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826
+        },
+        {
+          "headword": "TARIA VIRGINIANA",
+          "start_page": 826
+        },
+        {
+          "headword": "TINCTURA SERPENTARIAE",
+          "start_page": 826
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_BENEDICTUS",
+          "headword": "BENEDICTUS",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_PULEGI",
+          "headword": "PULEGI",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "L. Spirit of pennyroyal.\n\nDistilled in the same manner, and possessing similar\nproperties with the preparations of mint.\n\n171. LAVENDULA SPICA, E. LAVENDULA, L. D. Lavender\nflowers. See Botany, p. 216.\n\nOfficinal Preparations.\n\na. OLEUM VOLATILE LAVANDUL\u00c6 SPICE, E. Oil of la-\nLEUM\nPart IV.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_PELLUS",
+          "headword": "PELLUS",
+          "direction": "previous",
+          "start_page": 822,
+          "text_preview": "E. ACONITUM, L. D. Blue monk-\nhood, or aconite. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. SUCCUS SPISSATUS ACONITI NAPPELLI, E. Insip-\nsated juice of aconite.\n\nMade from the fresh leaves of aconite in the usual\nmanner. Dose from half a grain to three grains, twice\nor thrice a day.\n\nOrder 4. TETRGYNYA.\n\n164. WINTERIA AROMATICA, E. Winter's bark.\nSimilar to canella alba.\n\nOrder 6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-",
+          "text_end": "6. POLYGYNYA.\n\n165. HELLEBORUS NIGER, E. L. D. MELAM-\nPODIUM. Black hellebore. See Botany, p. 210.\n\nOfficinal Preparation.\n\na. TINCTURA HELLEBORI NIGRI, E. L. D. Tin-\nture of black hellebore.\n\nPrepared by digesting four ounces of black hellebore,\nand about half a dram of powdered cochineal, in two\npounds and a half (E.), or two pints (L.), or two\npounds (D.), of diluted alcohol, for about a week.\nMuch celebrated as an emmenagogue. Dose about\na tea spoonful.\n\n166. HELLEBORUS FOETIDUS. HELLEBORAS-"
+        },
+        {
+          "article_id": "1823_v12_MARITIMUM",
+          "headword": "MARITIMUM",
+          "direction": "next",
+          "start_page": 826,
+          "text_preview": "L. D. Sea wormwood. See Bo-\ntany, p. 251.\n\nOfficinal Preparation.\n\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\n\nPrepared by heating the fresh tops of sea wormwood\nwith three times their weight of double refined sugar\ninto a conserve.\n\nEmployed as a tonic and stomachic in hypochondriasis,\nepilepsy, &c., and as an anthelmintic. Dose\ntwo drams to half an ounce, twice or thrice a-day.\n\n209. Artemisia santonica, E. SANTONI-",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1823_v12_TARIA_VIRGINIANA",
+      "headword": "TARIA VIRGINIANA",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 826,
+      "end_page": 826,
+      "word_count": 39,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'TARIA VIRGINIANA' comes after 'MATERIA'",
+      "text_preview": "L. D. Virginian snake-root.\nSee Duncan's Dispensatory, and the Synopsis\nMateria Medicae.\n\nEmployed as a stimulant and tonic in low fevers,\ngangrene, &c. Dose in substance 10 grains to 30.\n\nOfficinal Preparation.\n\na. Tinctura aristolochiae serpentariae, E. Tincture of",
+      "text_end": "",
+      "full_text": "L. D. Virginian snake-root.\nSee Duncan's Dispensatory, and the Synopsis\nMateria Medicae.\n\nEmployed as a stimulant and tonic in low fevers,\ngangrene, &c. Dose in substance 10 grains to 30.\n\nOfficinal Preparation.\n\na. Tinctura aristolochiae serpentariae, E. Tincture of",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "BENEDICTUS",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "EA",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826,
+          "end_page": 826
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TINCTURA SERPENTARIAE",
+          "start_page": 826
+        },
+        {
+          "headword": "UM VULGARE",
+          "start_page": 826
+        },
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_MARITIMUM",
+          "headword": "MARITIMUM",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Sea wormwood. See Bo-\ntany, p. 251.\n\nOfficinal Preparation.\n\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\n\nPrepared by heating the fresh tops of sea wormwood\nwith three times their weight of double refined sugar\ninto a conserve.\n\nEmployed as a tonic and stomachic in hypochondriasis,\nepilepsy, &c., and as an anthelmintic. Dose\ntwo drams to half an ounce, twice or thrice a-day.\n\n209. Artemisia santonica, E. SANTONI-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_EA",
+          "headword": "EA",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAM\u00c6MELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC-\nTUM CHAM\u00c6MELI, D. Decoction of chamomile.\nPrepared by boiling an ounce of chamomile flowers,\nand half an ounce of bruised caraway seeds, in five\npounds of water (E.), or half an ounce of chamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and ant",
+          "text_end": "hamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and anthelmintic.\n\n217. Anthemis pyrethrum, E. PYRETHRUM,\nL. D. Pellitory of Spain.\nUsed chiefly as a masticatory in toothache.\n\nOrder 3. POLYGAMIA FRUSTRANEA.\n\n218. Centaurea benedicta, E. CARDUUS"
+        },
+        {
+          "article_id": "1823_v12_BENEDICTUS",
+          "headword": "BENEDICTUS",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Blessed thistle. See Bo-\ntany, p. 255.\n\nClass XX. GYNANDRIA. Order 5. HEX-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_SERPENTARIAE",
+          "headword": "TINCTURA SERPENTARIAE",
+          "direction": "next",
+          "start_page": 826,
+          "text_preview": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\nMade by beating a pound and a half of the fresh root of arum bruised, with a pound and a half of double refined sugar, into a conserve. Dose about a dram.\n\nClass XXI. Monoecia. Order i. Monogynia.\n\n221. Myristica moschata, E. MYRISTICA, L. D. Nutmeg tree.\n\nNux moschata. Nutmeg. Macis. Mace. Oleum macis. Oil of mace. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. Spiritus myristici moschati, E. SPIRITUS NUCIS MOSCHAT\u00c6, L. D. Spirit of nutmeg.\n\nA gallon of spirit distilled from two ounces",
+          "text_end": ", three cence ounces of dragon's blood, and two pounds of litharge plaster, adding the resins in powder to the melted litharge plaster.\n\n230. Pinus balsamea. Hemlock fir.\n\nBalsamum Canadense, E. L. D. Balsam of Canada.\n\n231. Pinus larix. The larch.\n\nTerebinthina Veneta, E. D. Venice turpentine. OLEUM VOLATILE PINI, E. OLEUM TEREBINTHIN\u00c6, L. D. Oil of turpentine.\n\nThe oil of turpentine is directed by the London college to be prepared by distillation from common turpentine.\n\nOfficinal Preparation."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1823_v12_TINCTURA_SERPENTARIAE",
+      "headword": "TINCTURA SERPENTARIAE",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 826,
+      "end_page": 827,
+      "word_count": 524,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'TINCTURA SERPENTARIAE' comes after 'MATERIA'",
+      "text_preview": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\n",
+      "text_end": " Balsam of Canada.\n\n231. Pinus larix. The larch.\n\nTerebinthina Veneta, E. D. Venice turpentine. OLEUM VOLATILE PINI, E. OLEUM TEREBINTHIN\u00c6, L. D. Oil of turpentine.\n\nThe oil of turpentine is directed by the London college to be prepared by distillation from common turpentine.\n\nOfficinal Preparation.",
+      "full_text": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\nMade by beating a pound and a half of the fresh root of arum bruised, with a pound and a half of double refined sugar, into a conserve. Dose about a dram.\n\nClass XXI. Monoecia. Order i. Monogynia.\n\n221. Myristica moschata, E. MYRISTICA, L. D. Nutmeg tree.\n\nNux moschata. Nutmeg. Macis. Mace. Oleum macis. Oil of mace. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. Spiritus myristici moschati, E. SPIRITUS NUCIS MOSCHAT\u00c6, L. D. Spirit of nutmeg.\n\nA gallon of spirit distilled from two ounces of well-brushed nutmegs. A good cordial. Dose about half an ounce.\n\nOrder 4. Tetrandria.\n\n222. Betula alba, D. Birch juice.\n\nA gentle diuretic.\n\n223. Morus nigra. Morus, L. Mulberries.\n\nOfficinal Preparation.\n\na. Syrupus succi fructus Mori, L. Syrup of mulberry juice.\n\nPrepared in the same manner as the syrup of black currant juice.\n\nEmployed as a refrigerant and demulcent.\n\n224. Urtica dioica. URTICA, L. Common stinging nettles.\n\nUsed as a rubefacient to paralytic limbs, which are whipped with nettles.\n\nOrder 8. Polyandria.\n\n225. Quercus robur, E. QUERCUS, L. D. Oak bark.\n\nA powerful astringent, employed in passive hemorrhages, diarrhoea, leucorrhoea, and similar cases. Dose in substance 15 grains to half a dram of the powdered bark. Used externally by way of gargle, or lotion.\n\nOfficinal Preparation.\n\na. Extractum Quercus, D. Extract of oak bark.\n\nPrepared like other watery extracts. Dose 10 grains to a scruple.\n\n226. Quercus cerris, E. L. D. GALLA. Gall-nuts. See Duncan's Dispensat",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EA",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "TARIA VIRGINIANA",
+          "start_page": 826,
+          "end_page": 826
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "UM VULGARE",
+          "start_page": 826
+        },
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827
+        },
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_TARIA_VIRGINIANA",
+          "headword": "TARIA VIRGINIANA",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Virginian snake-root.\nSee Duncan's Dispensatory, and the Synopsis\nMateria Medicae.\n\nEmployed as a stimulant and tonic in low fevers,\ngangrene, &c. Dose in substance 10 grains to 30.\n\nOfficinal Preparation.\n\na. Tinctura aristolochiae serpentariae, E. Tincture of",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_MARITIMUM",
+          "headword": "MARITIMUM",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Sea wormwood. See Bo-\ntany, p. 251.\n\nOfficinal Preparation.\n\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\n\nPrepared by heating the fresh tops of sea wormwood\nwith three times their weight of double refined sugar\ninto a conserve.\n\nEmployed as a tonic and stomachic in hypochondriasis,\nepilepsy, &c., and as an anthelmintic. Dose\ntwo drams to half an ounce, twice or thrice a-day.\n\n209. Artemisia santonica, E. SANTONI-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_EA",
+          "headword": "EA",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "D. Golden rod. See Botany, p. 253.\n\n215. Tussilago farfara, E. TUSSILAGO, History of\nL. D. Coltsfoot. See Botany, p. 252.\n\n216. Anthemis nobilis, E. CHAM\u00c6MELUM.\nL. D. Chamomile flowers. See Botany, p. 254.\nAn excellent tonic and anthelmintic. Dose in sub-colts foot-\nstance about a scruple in powder, or one dram in in-\nfusion. Used externally as an emollient and discutient,\nChamomile flowers in the form of olyster or fomentation.\n\nOfficinal Preparations.\n\na. Decoction Anthemidis nobilis, E. DECOC-\nTUM CHAM\u00c6MELI, D. Decoction of chamomile.\nPrepared by boiling an ounce of chamomile flowers,\nand half an ounce of bruised caraway seeds, in five\npounds of water (E.), or half an ounce of chamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and ant",
+          "text_end": "hamomile\nflowers with two drams of sweet fennel seeds, in a pound\nof water (D).\nUsed as a carminative clyster, or stimulant fomen-\ntation.\n\nb. Extractum Anthemidis nobilis, E. EX-\nTRACTUM CHAM\u00c6MELI, L. Extract of cha-\nmomile.\nPrepared as other watery extracts. Dose from a\nscruple to a dram, as a tonic and anthelmintic.\n\n217. Anthemis pyrethrum, E. PYRETHRUM,\nL. D. Pellitory of Spain.\nUsed chiefly as a masticatory in toothache.\n\nOrder 3. POLYGAMIA FRUSTRANEA.\n\n218. Centaurea benedicta, E. CARDUUS"
+        },
+        {
+          "article_id": "1823_v12_UM_VULGARE",
+          "headword": "UM VULGARE",
+          "direction": "next",
+          "start_page": 826,
+          "text_preview": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1823_v12_UM_VULGARE",
+      "headword": "UM VULGARE",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 826,
+      "end_page": 826,
+      "word_count": 81,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'UM VULGARE' comes after 'MATERIA'",
+      "text_preview": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+      "text_end": "lf a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+      "full_text": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MARITIMUM",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "TARIA VIRGINIANA",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "TINCTURA SERPENTARIAE",
+          "start_page": 826,
+          "end_page": 827
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827
+        },
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830
+        },
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_TINCTURA_SERPENTARIAE",
+          "headword": "TINCTURA SERPENTARIAE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\nMade by beating a pound and a half of the fresh root of arum bruised, with a pound and a half of double refined sugar, into a conserve. Dose about a dram.\n\nClass XXI. Monoecia. Order i. Monogynia.\n\n221. Myristica moschata, E. MYRISTICA, L. D. Nutmeg tree.\n\nNux moschata. Nutmeg. Macis. Mace. Oleum macis. Oil of mace. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. Spiritus myristici moschati, E. SPIRITUS NUCIS MOSCHAT\u00c6, L. D. Spirit of nutmeg.\n\nA gallon of spirit distilled from two ounces",
+          "text_end": ", three cence ounces of dragon's blood, and two pounds of litharge plaster, adding the resins in powder to the melted litharge plaster.\n\n230. Pinus balsamea. Hemlock fir.\n\nBalsamum Canadense, E. L. D. Balsam of Canada.\n\n231. Pinus larix. The larch.\n\nTerebinthina Veneta, E. D. Venice turpentine. OLEUM VOLATILE PINI, E. OLEUM TEREBINTHIN\u00c6, L. D. Oil of turpentine.\n\nThe oil of turpentine is directed by the London college to be prepared by distillation from common turpentine.\n\nOfficinal Preparation."
+        },
+        {
+          "article_id": "1823_v12_TARIA_VIRGINIANA",
+          "headword": "TARIA VIRGINIANA",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Virginian snake-root.\nSee Duncan's Dispensatory, and the Synopsis\nMateria Medicae.\n\nEmployed as a stimulant and tonic in low fevers,\ngangrene, &c. Dose in substance 10 grains to 30.\n\nOfficinal Preparation.\n\na. Tinctura aristolochiae serpentariae, E. Tincture of",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_MARITIMUM",
+          "headword": "MARITIMUM",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Sea wormwood. See Bo-\ntany, p. 251.\n\nOfficinal Preparation.\n\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\nConservae of sea worm-\nwood.\n\nPrepared by heating the fresh tops of sea wormwood\nwith three times their weight of double refined sugar\ninto a conserve.\n\nEmployed as a tonic and stomachic in hypochondriasis,\nepilepsy, &c., and as an anthelmintic. Dose\ntwo drams to half an ounce, twice or thrice a-day.\n\n209. Artemisia santonica, E. SANTONI-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "direction": "next",
+          "start_page": 827,
+          "text_preview": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Tar ointment.\n\nPrepared by melting together equal parts of tar and mutton.\nHistory of mutton suet (L.D.), or five parts of tar and two parts simple and of yellow wax (E.).\n\nOfficinal. Esteemed a good application in cutaneous diseases, especially tinea capitis.\n\nCommon B. Terebinthina vulgaris, L.D. Common turpentine. pentine.\n\nThis, like other turpentines, is a stimulant and diuretic.\n\nYellow rosin. C. Resina flava, L. RESINA ALBA, D. Yellow rosin. White rosin.\n\nEmployed chiefly in making stimulat",
+          "text_end": " pint of proof spirit, with a gentle heat for four days, then dissolving in the expressed tincture one ounce and a half of powdered socotrine aloes, and half an ounce of powdered scammony; and lastly drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+      "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 827,
+      "end_page": 829,
+      "word_count": 787,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'OLEUM VOLATILE PINI PURISSIMUM' comes after 'MATERIA'",
+      "text_preview": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Ta",
+      "text_end": "drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV.",
+      "full_text": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Tar ointment.\n\nPrepared by melting together equal parts of tar and mutton.\nHistory of mutton suet (L.D.), or five parts of tar and two parts simple and of yellow wax (E.).\n\nOfficinal. Esteemed a good application in cutaneous diseases, especially tinea capitis.\n\nCommon B. Terebinthina vulgaris, L.D. Common turpentine. pentine.\n\nThis, like other turpentines, is a stimulant and diuretic.\n\nYellow rosin. C. Resina flava, L. RESINA ALBA, D. Yellow rosin. White rosin.\n\nEmployed chiefly in making stimulating ointments and plasters.\n\nOfficinal Preparations.\n\na. Unguentum Resinosum, E. UNGUENTUM RESIN\u00c6 FLAV\u00c6, L.D. Resinous ointment. Yellow basilicon.\n\nPrepared by melting together eight parts of hog's lard, five of white rosin, and two of yellow wax (E.); or by melting together, of yellow rosin and yellow wax, each one pound, over a slow fire, adding a pint or seven ounces of olive oil, and straining the mixture while hot (L.D.).\n\nb. Ceratum Resin\u00e6 flav\u00e6, L.D. Cerate of yellow rosin.\n\nPrepared by melting together half a pound of the preceding ointment, and one ounce of yellow wax.\n\nThese are intended as stimulating applications to ulcers that do not heal or suppurate properly.\n\nc. Emplastrum resinosum, E. EMPLASTRUM LYTHARGYRI CUM RESINA, L. EMPLASTRUM ADHESIVUM. Resinous plaster. Litharge plaster with rosin. Adhesive plaster.\n\nPrepared by melting five parts (E.), or three pounds (L.), of plaster of semivitrified oxide of lead (litharge plaster), and adding one part (E.) or half a pound (",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TARIA VIRGINIANA",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "TINCTURA SERPENTARIAE",
+          "start_page": 826,
+          "end_page": 827
+        },
+        {
+          "headword": "UM VULGARE",
+          "start_page": 826,
+          "end_page": 826
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830
+        },
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830
+        },
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_UM_VULGARE",
+          "headword": "UM VULGARE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_SERPENTARIAE",
+          "headword": "TINCTURA SERPENTARIAE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\nMade by beating a pound and a half of the fresh root of arum bruised, with a pound and a half of double refined sugar, into a conserve. Dose about a dram.\n\nClass XXI. Monoecia. Order i. Monogynia.\n\n221. Myristica moschata, E. MYRISTICA, L. D. Nutmeg tree.\n\nNux moschata. Nutmeg. Macis. Mace. Oleum macis. Oil of mace. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. Spiritus myristici moschati, E. SPIRITUS NUCIS MOSCHAT\u00c6, L. D. Spirit of nutmeg.\n\nA gallon of spirit distilled from two ounces",
+          "text_end": ", three cence ounces of dragon's blood, and two pounds of litharge plaster, adding the resins in powder to the melted litharge plaster.\n\n230. Pinus balsamea. Hemlock fir.\n\nBalsamum Canadense, E. L. D. Balsam of Canada.\n\n231. Pinus larix. The larch.\n\nTerebinthina Veneta, E. D. Venice turpentine. OLEUM VOLATILE PINI, E. OLEUM TEREBINTHIN\u00c6, L. D. Oil of turpentine.\n\nThe oil of turpentine is directed by the London college to be prepared by distillation from common turpentine.\n\nOfficinal Preparation."
+        },
+        {
+          "article_id": "1823_v12_TARIA_VIRGINIANA",
+          "headword": "TARIA VIRGINIANA",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Virginian snake-root.\nSee Duncan's Dispensatory, and the Synopsis\nMateria Medicae.\n\nEmployed as a stimulant and tonic in low fevers,\ngangrene, &c. Dose in substance 10 grains to 30.\n\nOfficinal Preparation.\n\na. Tinctura aristolochiae serpentariae, E. Tincture of",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+      "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 12,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'ELECTARIUM MIMOSAE CATECHU COMPOSITUM' comes before 'LIE'",
+      "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+      "text_end": "",
+      "full_text": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+      "auto_classification": {
+        "decision": "KEEP",
+        "confidence": "medium",
+        "reason": "Short cross-reference entry",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TINCTURA SERPENTARIAE",
+          "start_page": 826,
+          "end_page": 827
+        },
+        {
+          "headword": "UM VULGARE",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827,
+          "end_page": 829
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830
+        },
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830
+        },
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "direction": "previous",
+          "start_page": 827,
+          "text_preview": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Tar ointment.\n\nPrepared by melting together equal parts of tar and mutton.\nHistory of mutton suet (L.D.), or five parts of tar and two parts simple and of yellow wax (E.).\n\nOfficinal. Esteemed a good application in cutaneous diseases, especially tinea capitis.\n\nCommon B. Terebinthina vulgaris, L.D. Common turpentine. pentine.\n\nThis, like other turpentines, is a stimulant and diuretic.\n\nYellow rosin. C. Resina flava, L. RESINA ALBA, D. Yellow rosin. White rosin.\n\nEmployed chiefly in making stimulat",
+          "text_end": " pint of proof spirit, with a gentle heat for four days, then dissolving in the expressed tincture one ounce and a half of powdered socotrine aloes, and half an ounce of powdered scammony; and lastly drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV."
+        },
+        {
+          "article_id": "1823_v12_UM_VULGARE",
+          "headword": "UM VULGARE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_SERPENTARIAE",
+          "headword": "TINCTURA SERPENTARIAE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Tincture snake-root\nof snakeroot.\nPrepared by digesting two ounces of bruised Virgi-\nnian snakeroot, and a dram of powdered cochineal,\nin two pounds and a half of diluted alcohol, for seven days\n(E.), or three ounces of snakeroot in two pints (L.)\nor two pounds (D.) of proof spirit, for seven or eight\ndays. Dose from two drams to half an ounce.\n\nOrder 10. POLYANDRIA.\n\n220. Arum maculatum. ARUM, L. D. Arum, Wake\nor wake robin.\nOfficinal Preparations.\n\na. Conserva Ari, L. Conserve of arum.\n\nMade by beating a pound and a half of the fresh root of arum bruised, with a pound and a half of double refined sugar, into a conserve. Dose about a dram.\n\nClass XXI. Monoecia. Order i. Monogynia.\n\n221. Myristica moschata, E. MYRISTICA, L. D. Nutmeg tree.\n\nNux moschata. Nutmeg. Macis. Mace. Oleum macis. Oil of mace. See Duncan's Dispensatory.\n\nOfficinal Preparations.\n\na. Spiritus myristici moschati, E. SPIRITUS NUCIS MOSCHAT\u00c6, L. D. Spirit of nutmeg.\n\nA gallon of spirit distilled from two ounces",
+          "text_end": ", three cence ounces of dragon's blood, and two pounds of litharge plaster, adding the resins in powder to the melted litharge plaster.\n\n230. Pinus balsamea. Hemlock fir.\n\nBalsamum Canadense, E. L. D. Balsam of Canada.\n\n231. Pinus larix. The larch.\n\nTerebinthina Veneta, E. D. Venice turpentine. OLEUM VOLATILE PINI, E. OLEUM TEREBINTHIN\u00c6, L. D. Oil of turpentine.\n\nThe oil of turpentine is directed by the London college to be prepared by distillation from common turpentine.\n\nOfficinal Preparation."
+        },
+        {
+          "article_id": "1823_v12_FICUS_CARICA",
+          "headword": "FICUS CARICA",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1823_v12_FICUS_CARICA",
+      "headword": "FICUS CARICA",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 22,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'FICUS CARICA' comes before 'LIE'",
+      "text_preview": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+      "text_end": "",
+      "full_text": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "UM VULGARE",
+          "start_page": 826,
+          "end_page": 826
+        },
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827,
+          "end_page": 829
+        },
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830
+        },
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830
+        },
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "direction": "previous",
+          "start_page": 827,
+          "text_preview": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Tar ointment.\n\nPrepared by melting together equal parts of tar and mutton.\nHistory of mutton suet (L.D.), or five parts of tar and two parts simple and of yellow wax (E.).\n\nOfficinal. Esteemed a good application in cutaneous diseases, especially tinea capitis.\n\nCommon B. Terebinthina vulgaris, L.D. Common turpentine. pentine.\n\nThis, like other turpentines, is a stimulant and diuretic.\n\nYellow rosin. C. Resina flava, L. RESINA ALBA, D. Yellow rosin. White rosin.\n\nEmployed chiefly in making stimulat",
+          "text_end": " pint of proof spirit, with a gentle heat for four days, then dissolving in the expressed tincture one ounce and a half of powdered socotrine aloes, and half an ounce of powdered scammony; and lastly drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV."
+        },
+        {
+          "article_id": "1823_v12_UM_VULGARE",
+          "headword": "UM VULGARE",
+          "direction": "previous",
+          "start_page": 826,
+          "text_preview": "L. D. Common wormwood. See\nBotany, p. 251.\n\n211. Tanacetum vulgare, E. TANACETUM,\nL. D. Tansy, leaves and flowers. See Botany, p.\n251.\n\nA good tonic and anthelmintic. Dose half a dram\nto four drams in substance, or a table spoonful of the\nexpressed juice.\n\n212. Arnica montana, E. L. D. German leop-\nard's bane. See Botany, p. 253, and Duncan's Dis-\npensatory.\n\n213. Inula Helenium. INULA CAMPANA,\nL. D. Elecampane. See Botany, p. 253.\n\n214. Solidago virga aurea. VIRGA AUR-",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_FRAXINUS_ORNUS",
+          "headword": "FRAXINUS ORNUS",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1823_v12_FRAXINUS_ORNUS",
+      "headword": "FRAXINUS ORNUS",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 35,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'FRAXINUS ORNUS' comes before 'LIE'",
+      "text_preview": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+      "text_end": "",
+      "full_text": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "start_page": 827,
+          "end_page": 829
+        },
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830
+        },
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_FICUS_CARICA",
+          "headword": "FICUS CARICA",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_OLEUM_VOLATILE_PINI_PURISSIMUM",
+          "headword": "OLEUM VOLATILE PINI PURISSIMUM",
+          "direction": "previous",
+          "start_page": 827,
+          "text_preview": "E. OLEUM TEREBINTHIN\u00c6 RECTIFICATUM, L. D. Purified oil of turpentine. Spirit of turpentine.\n\nDistilled with the addition of water in well fitted vessels till the purest part of the oil has come over.\n\nStimulant and diuretic. Dose from 10 to 30 drops.\n\nMixed with an equal proportion of ether, it is much recommended in calculus. It is an excellent application to chilblains and recent burns.\n\n232. Pinus sylvestris.\n\nA. Pix liquida, E. D. Tar.\n\nOfficinal Preparation.\n\na. Unguentum Picis, E. L. D. Tar ointment.\n\nPrepared by melting together equal parts of tar and mutton.\nHistory of mutton suet (L.D.), or five parts of tar and two parts simple and of yellow wax (E.).\n\nOfficinal. Esteemed a good application in cutaneous diseases, especially tinea capitis.\n\nCommon B. Terebinthina vulgaris, L.D. Common turpentine. pentine.\n\nThis, like other turpentines, is a stimulant and diuretic.\n\nYellow rosin. C. Resina flava, L. RESINA ALBA, D. Yellow rosin. White rosin.\n\nEmployed chiefly in making stimulat",
+          "text_end": " pint of proof spirit, with a gentle heat for four days, then dissolving in the expressed tincture one ounce and a half of powdered socotrine aloes, and half an ounce of powdered scammony; and lastly drawing off the spirit, and adding to the inspsissated extract, a dram of husked cardamom seeds in powder.\n\nA strong cathartic and anthelmintic. Dose from 5 to 30 grains.\n\n237. Bryonia alba, BRYONIA, D. Bryony root. See Botany, p. 271, where it is described under the name of Bryonia dioica.\nPart IV."
+        },
+        {
+          "article_id": "1823_v12_GUMMI_ARABICI_CUM",
+          "headword": "GUMMI ARABICI CUM",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+          "text_end": " about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion."
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1823_v12_GUMMI_ARABICI_CUM",
+      "headword": "GUMMI ARABICI CUM",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 121,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'GUMMI ARABICI CUM' comes before 'LIE'",
+      "text_preview": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added whil",
+      "text_end": "h the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+      "full_text": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_FRAXINUS_ORNUS",
+          "headword": "FRAXINUS ORNUS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_FICUS_CARICA",
+          "headword": "FICUS CARICA",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_ELECTARIUM_MIMOSAE_CATECHU_COMPOSITUM",
+          "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. CONFECTION JAPONICA. Electuary of catechu. Japanica Confection. See preparations of opium.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_INFUSUM_MIMOSAE_CATECHU",
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1823_v12_INFUSUM_MIMOSAE_CATECHU",
+      "headword": "INFUSUM MIMOSAE CATECHU",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 55,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'INFUSUM MIMOSAE CATECHU' comes before 'LIE'",
+      "text_preview": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+      "text_end": "NICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+      "full_text": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FICUS CARICA",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830
+        },
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_GUMMI_ARABICI_CUM",
+          "headword": "GUMMI ARABICI CUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+          "text_end": " about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion."
+        },
+        {
+          "article_id": "1823_v12_FRAXINUS_ORNUS",
+          "headword": "FRAXINUS ORNUS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_FICUS_CARICA",
+          "headword": "FICUS CARICA",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CARICA, L. D. Figs. See Botany, p. 282.\n\nA gentle laxative, used chiefly in composition.\n\nClass XXIV. CRYPTOGAMIA. Order 1. Filices.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_MIMOSA_CATECHU",
+          "headword": "MIMOSA CATECHU",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1823_v12_MIMOSA_CATECHU",
+      "headword": "MIMOSA CATECHU",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 46,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'MIMOSA CATECHU' comes after 'MATERIA'",
+      "text_preview": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+      "text_end": "",
+      "full_text": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FRAXINUS ORNUS",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830
+        },
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830
+        },
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_INFUSUM_MIMOSAE_CATECHU",
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_GUMMI_ARABICI_CUM",
+          "headword": "GUMMI ARABICI CUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+          "text_end": " about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion."
+        },
+        {
+          "article_id": "1823_v12_FRAXINUS_ORNUS",
+          "headword": "FRAXINUS ORNUS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. L. D. Manna-ash. Manna.\n\nA mild purgative, well suited to children, but requiring some gentle aromatic to prevent griping. Dose from a dram to half an ounce. Best in composition with senna.\n\nOfficinal Preparation.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+          "headword": "POLYPODIUM FILIX MAS",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much employed, was used to stop hemorrhage from the mouths of bleeding vessels during surgical operations. It is now out of fashion.\n\nAppendix. PALM\u00c6.\n\n258. Cocos Butyracea. PALMA, E. Mackaw tree. Palm oil. See Botany, p. 289.\n\nA vegetable oily matter, employed as an external emollient.\n\nCHAP. III. MINERAL SUBSTANCES.\n\nSECT. I. Water.\n\n259. Aqua. Water.\n\nThough simple water forms no part of the Materia Medica in the Pharmacopoeia, it is an article of so much importance, both in diet and medicine, th",
+          "text_end": "mployed in medicine as an antacid, and when powdered or prepared, it is applied externally to scalds and burns, and to cancerous sores.\n\nOfficinal Preparations.\n\na. Carbonas Calcis Preparata, E. Creta Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion."
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+      "headword": "POLYPODIUM FILIX MAS",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 837,
+      "word_count": 6021,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'POLYPODIUM FILIX MAS' comes after 'MATERIA'",
+      "text_preview": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much",
+      "text_end": " Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion.",
+      "full_text": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much employed, was used to stop hemorrhage from the mouths of bleeding vessels during surgical operations. It is now out of fashion.\n\nAppendix. PALM\u00c6.\n\n258. Cocos Butyracea. PALMA, E. Mackaw tree. Palm oil. See Botany, p. 289.\n\nA vegetable oily matter, employed as an external emollient.\n\nCHAP. III. MINERAL SUBSTANCES.\n\nSECT. I. Water.\n\n259. Aqua. Water.\n\nThough simple water forms no part of the Materia Medica in the Pharmacopoeia, it is an article of so much importance, both in diet and medicine, that it ought not to be omitted here. We shall therefore make no apology for inserting the following neat account of it, given by Dr. Duncan in the later editions of his Dispensatory.\n\n\"The chemical properties of water have been already enumerated. (See Chemistry, No. 384, et seq.)\n\nThe purest natural water is snow or rain water collected in the open fields; that which falls in towns, or is collected from the roofs of the houses, is contaminated with soot, animal effluvia, and other impurities; although, after it has rained for some time, the quantity of these diminishes so much, that Morveau says that it may be rendered almost perfectly pure by means of a little barytic water, and exposure to the atmosphere.\n\nRain water, after it falls, either remains on the surface of the earth, or penetrates through it, until it meets with some impenetrable obstruction to its progress, when it bursts out at some lower part, forming a spring or well. The water on the surface of the earth, either descen",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GUMMI ARABICI CUM",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830
+        },
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_MIMOSA_CATECHU",
+          "headword": "MIMOSA CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_INFUSUM_MIMOSAE_CATECHU",
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_GUMMI_ARABICI_CUM",
+          "headword": "GUMMI ARABICI CUM",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "L. D. Gum arabic.\n\nA dry mucilage, very useful as an emollient and demulcent.\n\nOfficinal Preparations.\n\nMUCILAGO MIMOSAE Nilotica, E. MUCILAGO ARABICI GUMMI, L. D. Mucilage of gum arabic.\n\nPrepared by dissolving one part of powdered gum arabic in about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion.",
+          "text_end": " about two of boiling water, and straining.\n\nEMULSIO MIMOSAE Nilotica, E. EMULSIO ARABICA, D. Arabic emulsion.\n\nPrepared, according to the Edinburgh process, in the same manner as almond emulsion, with the addition of two ounces of gum arabic, added while beating the almonds. The Dublin emulsion is composed of two drams of powdered gum arabic, half an ounce of large almonds, three drams of double refined sugar, and one pound of decoction of barley.\n\nEmployed in the same cases as almond emulsion."
+        },
+        {
+          "article_id": "1823_v12_SYRUPUS_MANNAE",
+          "headword": "SYRUPUS MANNAE",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1823_v12_SYRUPUS_MANNAE",
+      "headword": "SYRUPUS MANNAE",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 76,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'SYRUPUS MANNAE' comes after 'MATERIA'",
+      "text_preview": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+      "text_end": "ing the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+      "full_text": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830,
+          "end_page": 837
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830
+        },
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830
+        },
+        {
+          "headword": "CRETA",
+          "start_page": 837
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+          "headword": "POLYPODIUM FILIX MAS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much employed, was used to stop hemorrhage from the mouths of bleeding vessels during surgical operations. It is now out of fashion.\n\nAppendix. PALM\u00c6.\n\n258. Cocos Butyracea. PALMA, E. Mackaw tree. Palm oil. See Botany, p. 289.\n\nA vegetable oily matter, employed as an external emollient.\n\nCHAP. III. MINERAL SUBSTANCES.\n\nSECT. I. Water.\n\n259. Aqua. Water.\n\nThough simple water forms no part of the Materia Medica in the Pharmacopoeia, it is an article of so much importance, both in diet and medicine, th",
+          "text_end": "mployed in medicine as an antacid, and when powdered or prepared, it is applied externally to scalds and burns, and to cancerous sores.\n\nOfficinal Preparations.\n\na. Carbonas Calcis Preparata, E. Creta Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion."
+        },
+        {
+          "article_id": "1823_v12_MIMOSA_CATECHU",
+          "headword": "MIMOSA CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_INFUSUM_MIMOSAE_CATECHU",
+          "headword": "INFUSUM MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. INFUSUM JAPONICUM. Infusion of catechu.\n\nPrepared by macerating two drams and a half of powdered extract of catechu, and half a dram of bruised cinnamon, in seven ounces of boiling water, for two hours, in a covered vessel, straining the liquor, and adding one ounce of simple syrup. Dose from one to two ounces.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_MIMOSAE_CATECHU",
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1823_v12_TINCTURA_MIMOSAE_CATECHU",
+      "headword": "TINCTURA MIMOSAE CATECHU",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 51,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'TINCTURA MIMOSAE CATECHU' comes after 'MATERIA'",
+      "text_preview": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+      "text_end": "",
+      "full_text": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MIMOSA CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830,
+          "end_page": 837
+        },
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830
+        },
+        {
+          "headword": "CRETA",
+          "start_page": 837
+        },
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_SYRUPUS_MANNAE",
+          "headword": "SYRUPUS MANNAE",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+          "headword": "POLYPODIUM FILIX MAS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much employed, was used to stop hemorrhage from the mouths of bleeding vessels during surgical operations. It is now out of fashion.\n\nAppendix. PALM\u00c6.\n\n258. Cocos Butyracea. PALMA, E. Mackaw tree. Palm oil. See Botany, p. 289.\n\nA vegetable oily matter, employed as an external emollient.\n\nCHAP. III. MINERAL SUBSTANCES.\n\nSECT. I. Water.\n\n259. Aqua. Water.\n\nThough simple water forms no part of the Materia Medica in the Pharmacopoeia, it is an article of so much importance, both in diet and medicine, th",
+          "text_end": "mployed in medicine as an antacid, and when powdered or prepared, it is applied externally to scalds and burns, and to cancerous sores.\n\nOfficinal Preparations.\n\na. Carbonas Calcis Preparata, E. Creta Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion."
+        },
+        {
+          "article_id": "1823_v12_MIMOSA_CATECHU",
+          "headword": "MIMOSA CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. CATECHU, L. D. Catechu, or Japan earth. See Botany, p. 282.\n\nA powerful astringent, employed in diarrhoeas, uterine hemorrhage; and externally by way of lotion, or lozenge, for excoriations and aphthous ulcers of the mouth. Dose internally from 15 grains to two scruples.\n\nOfficinal Preparations.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TROCHISCI_GUMMOSI",
+          "headword": "TROCHISCI GUMMOSI",
+          "direction": "next",
+          "start_page": 830,
+          "text_preview": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1823_v12_TROCHISCI_GUMMOSI",
+      "headword": "TROCHISCI GUMMOSI",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 830,
+      "end_page": 830,
+      "word_count": 49,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'TROCHISCI GUMMOSI' comes after 'MATERIA'",
+      "text_preview": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+      "text_end": "",
+      "full_text": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "POLYPODIUM FILIX MAS",
+          "start_page": 830,
+          "end_page": 837
+        },
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CRETA",
+          "start_page": 837
+        },
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839
+        },
+        {
+          "headword": "CALOMELAS",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_TINCTURA_MIMOSAE_CATECHU",
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_SYRUPUS_MANNAE",
+          "headword": "SYRUPUS MANNAE",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_POLYPODIUM_FILIX_MAS",
+          "headword": "POLYPODIUM FILIX MAS",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. FILIX, L. Male fern.\nOrder 3. ALGAE.\n\n256. Lichen Islandicus. Iceland liver-wort.\n\nThis lichen has lately become a fashionable remedy as an emollient in pulmonary consumption. It contains a great quantity of farinaceous and mucilaginous matter, and is therefore highly nutritious.\n\nSee Synopsis Materia Medica, and Thesaurus Medicamentum.\n\nOrder 4. FUNGI.\n\n257. Boletus Igniarius, F. Agaricus. Female agaric.\n\nThis substance has been much celebrated as a styptic; and before ligatures were so much employed, was used to stop hemorrhage from the mouths of bleeding vessels during surgical operations. It is now out of fashion.\n\nAppendix. PALM\u00c6.\n\n258. Cocos Butyracea. PALMA, E. Mackaw tree. Palm oil. See Botany, p. 289.\n\nA vegetable oily matter, employed as an external emollient.\n\nCHAP. III. MINERAL SUBSTANCES.\n\nSECT. I. Water.\n\n259. Aqua. Water.\n\nThough simple water forms no part of the Materia Medica in the Pharmacopoeia, it is an article of so much importance, both in diet and medicine, th",
+          "text_end": "mployed in medicine as an antacid, and when powdered or prepared, it is applied externally to scalds and burns, and to cancerous sores.\n\nOfficinal Preparations.\n\na. Carbonas Calcis Preparata, E. Creta Prepared Preparata, L. D. Prepared carbonate of lime, carbonate of lime.\n\nThis is chalk reduced to a very fine powder by trituration, levigation, diffusion in water, filtration, and drying. Ordinary dose, as an antacid, from 15 grains to a dram.\n\nb. Potio Carbonatis Calcis, E. Mistura Chalk potion."
+        },
+        {
+          "article_id": "1823_v12_CRETA",
+          "headword": "CRETA",
+          "direction": "next",
+          "start_page": 837,
+          "text_preview": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled water.\n\nEmployed as an antacid, especially in diarrhoea, accompanied by acidity in the intestinal canal. It may be taken ad libitum.\n\nc. Trochisci Carbonatis Calcis, E. Trochis Troches of CI CRETAE, L. Troches of carbonate of lime, carbonate of lime.\n\nTroches of chalk.\n\nPrepared of four ounces of carbonate of lime, one ounce of gum arabic, one dram of nutmeg, and six ounces of double-refined sugar, powdered together, and formed into a mass with water (F.); or, of four ounces of prepared chalk, two ",
+          "text_end": "then pouring out the mixture, and, when cold, grinding it to powder.\n\nThis is similar to a medicine that was much esteemed by Sir John Pringle, as a remedy in dysentery. Dose from two or three to 20 grains, according to the age and strength of the patient.\n\ne. SULPHUR STIBIATUM FUSCUM, D. KERMES MINERALIS. Brown antimonial sulphur. Kermes mineral.\n\nFor the preparations and nature of this substance, see Chemistry, No 1698.\n\nf. SULPHURETUM ANTIMONII PR\u00c6CIPITATUM, E. SULPHUR ANT. PR\u00c6CIP. L. SULPHUR"
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1823_v12_CRETA",
+      "headword": "CRETA",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 837,
+      "end_page": 839,
+      "word_count": 1463,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'CRETA' comes before 'LIE'",
+      "text_preview": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled wat",
+      "text_end": "rains, according to the age and strength of the patient.\n\ne. SULPHUR STIBIATUM FUSCUM, D. KERMES MINERALIS. Brown antimonial sulphur. Kermes mineral.\n\nFor the preparations and nature of this substance, see Chemistry, No 1698.\n\nf. SULPHURETUM ANTIMONII PR\u00c6CIPITATUM, E. SULPHUR ANT. PR\u00c6CIP. L. SULPHUR",
+      "full_text": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled water.\n\nEmployed as an antacid, especially in diarrhoea, accompanied by acidity in the intestinal canal. It may be taken ad libitum.\n\nc. Trochisci Carbonatis Calcis, E. Trochis Troches of CI CRETAE, L. Troches of carbonate of lime, carbonate of lime.\n\nTroches of chalk.\n\nPrepared of four ounces of carbonate of lime, one ounce of gum arabic, one dram of nutmeg, and six ounces of double-refined sugar, powdered together, and formed into a mass with water (F.); or, of four ounces of prepared chalk, two ounces of prepared crab claws, half an ounce of cinnamon, and three ounces of double-refined sugar, powdered and made into a mass with mucilage of gum arabic (L.). Used as the preceding.\n\nd. Pulvis Carbonatis Calcis Compositus, E. Compound Pulvis Cretae Compositus, L. Compound powder of powder of carbonate of lime. Compound powder of lime.\n\nPrepared of four ounces of prepared carbonate of lime, half a dram of nutmeg, and half a dram of cinnamon powdered together (E.); or, of half a pound of prepared chalk, four ounces of cinnamon, three ounces of tormentil, and the same of gum arabic, and half an ounce of long pepper powdered separately, and mixed together (L.).\n\nUsed as antacids and tonics, in debility of the intestinal canal. Dose from 15 to 30 grains.\n\ne. Aqua Aeris Fixi, D. Water impregnated with fixed air.\n\nWater impregnated with fixed air.\n\nPrepared\nPrepared by passing a stream of carbonic acid gas arising from the decomposition of three ounces of powdered white marble, and one h",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SYRUPUS MANNAE",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830,
+          "end_page": 830
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839
+        },
+        {
+          "headword": "CALOMELAS",
+          "start_page": 840
+        },
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_TROCHISCI_GUMMOSI",
+          "headword": "TROCHISCI GUMMOSI",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_MIMOSAE_CATECHU",
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_SYRUPUS_MANNAE",
+          "headword": "SYRUPUS MANNAE",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "D. Syrup of manna.\n\nPrepared by macerating half an ounce of senna in one pound of boiling water for twelve hours in a covered vessel, straining the liquor, and adding one pound of manna, and one pound of double refined sugar, to make a syrup.\n\nThis forms an excellent purgative for children.\n\nPANAX QUINQUEFOLIUM. GINSENG, L. Ginseng root.\n\nA Chinese root, formerly much in repute as a stimulant, but now out of fashion.\n\nOrder 3. TRIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "direction": "next",
+          "start_page": 839,
+          "text_preview": "D. Precipitated sulphuret of antimony.\n\nPrepared by dissolving two pounds of prepared sulphuret of antimony in four pounds of water of potash, mixed with three pounds of water, adding more, if necessary, in a covered iron pot, over a slow fire for three hours, frequently stirring with an iron spatula, straining the liquor while hot, and precipitating the sulphuret by diluted sulphuric acid; then washing and drying the precipitate. See Chemistry, No 1688.\n\nEmployed like the last as a diaphoretic. Dose two or three grains.\n\ng. MURIAS ANTIMONII, E. ANTINONIUM MURIATUM, L. STIBIUM MURIATUM CAUSTICUM, D. Muriate of antimony. Muriated antimony. Better of antimony. See Chemistry, p. 638.\n\nEmployed sometimes as a caustic, and for preparing the following substance.\n\nh. CALX STIBII PR\u00c6CIPITATA, D. Precipitated calc of antimony. Powder of algaroth.\n\nPrepared by adding eight ounces of muriated antimony to a filtered solution of eight ounces of mild vegetable alkali, in 40 pounds of water, washing ",
+          "text_end": "g a mass with soap jelly.\n\nFormerly in great repute as an alternative.\n\n277. Hydrargyrum, D. HYDRARGYRUS, E.\nL. ARGENTUM VIVUM. Mercury. Quicksilver.\n\nFor an account of the chemical nature and proper-\nties of mercury, and the modes of ascertaining its puri-\nty, see Chemistry, p. 642.\n\nWe shall first notice the several officinal preparations\nof mercury, and then subjoin a sketch of its uses and\nthe cases to which it is best adapted.\n\nOfficinal Preparations.\n\na. Hydrargyrum purificatum, D. HYDRAR-"
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1823_v12_STIBIATUM_RUFUM",
+      "headword": "STIBIATUM RUFUM",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 839,
+      "end_page": 840,
+      "word_count": 733,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'STIBIATUM RUFUM' comes after 'MATERIA'",
+      "text_preview": "D. Precipitated sulphuret of antimony.\n\nPrepared by dissolving two pounds of prepared sulphuret of antimony in four pounds of water of potash, mixed with three pounds of water, adding more, if necessary, in a covered iron pot, over a slow fire for three hours, frequently stirring with an iron spatula, straining the liquor while hot, and precipitating the sulphuret by diluted sulphuric acid; then washing and drying the precipitate. See Chemistry, No 1688.\n\nEmployed like the last as a diaphoretic.",
+      "text_end": "\nties of mercury, and the modes of ascertaining its puri-\nty, see Chemistry, p. 642.\n\nWe shall first notice the several officinal preparations\nof mercury, and then subjoin a sketch of its uses and\nthe cases to which it is best adapted.\n\nOfficinal Preparations.\n\na. Hydrargyrum purificatum, D. HYDRAR-",
+      "full_text": "D. Precipitated sulphuret of antimony.\n\nPrepared by dissolving two pounds of prepared sulphuret of antimony in four pounds of water of potash, mixed with three pounds of water, adding more, if necessary, in a covered iron pot, over a slow fire for three hours, frequently stirring with an iron spatula, straining the liquor while hot, and precipitating the sulphuret by diluted sulphuric acid; then washing and drying the precipitate. See Chemistry, No 1688.\n\nEmployed like the last as a diaphoretic. Dose two or three grains.\n\ng. MURIAS ANTIMONII, E. ANTINONIUM MURIATUM, L. STIBIUM MURIATUM CAUSTICUM, D. Muriate of antimony. Muriated antimony. Better of antimony. See Chemistry, p. 638.\n\nEmployed sometimes as a caustic, and for preparing the following substance.\n\nh. CALX STIBII PR\u00c6CIPITATA, D. Precipitated calc of antimony. Powder of algaroth.\n\nPrepared by adding eight ounces of muriated antimony to a filtered solution of eight ounces of mild vegetable alkali, in 40 pounds of water, washing and drying the precipitated powder.\n\ni. OXIDUM ANTIMONII CUM PHOSPHATE CALCIIS, E. PULVIS ANTINONIALIS, L. PULVIS STIBIATUS, D. Oxide of antimony with phosphate of lime. Antimonial powder.\n\nFor the preparation and nature of this substance, see Chemistry, No 1686. It is considered as nearly the same with James's powder.\n\nAn excellent diaphoretic. Dose from five to ten grains.\n\nk. TARTRAS ANTINONII ET POTASSE, TARTRIS ANTINONII, E. ANTINONIUM TARTARI SATUM, L. TARTARUM STIBIATUM, D. Tartrate of antimony and potash. Tartarized antimony. Stibiated tartar. Emetic tartar or tartar emetic. See Chemistry, No 1687, and Duncan's Dispensatory.\n\nThe Edinburgh and London colleges direct this to be prepared by boiling together three parts of oxide of antimony with sulphur, (see No 891,) and four parts of super-tartrate of potash, for a quarter of an hour, in a glass vessel, straining the liquor, and setting it by to crystallize.\n\nEmetic; dose two or three grains at once, or better half a grain or a ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "CRETA",
+          "start_page": 837,
+          "end_page": 839
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CALOMELAS",
+          "start_page": 840
+        },
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840
+        },
+        {
+          "headword": "GYRUS PURIFICATUS",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_CRETA",
+          "headword": "CRETA",
+          "direction": "previous",
+          "start_page": 837,
+          "text_preview": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled water.\n\nEmployed as an antacid, especially in diarrhoea, accompanied by acidity in the intestinal canal. It may be taken ad libitum.\n\nc. Trochisci Carbonatis Calcis, E. Trochis Troches of CI CRETAE, L. Troches of carbonate of lime, carbonate of lime.\n\nTroches of chalk.\n\nPrepared of four ounces of carbonate of lime, one ounce of gum arabic, one dram of nutmeg, and six ounces of double-refined sugar, powdered together, and formed into a mass with water (F.); or, of four ounces of prepared chalk, two ",
+          "text_end": "then pouring out the mixture, and, when cold, grinding it to powder.\n\nThis is similar to a medicine that was much esteemed by Sir John Pringle, as a remedy in dysentery. Dose from two or three to 20 grains, according to the age and strength of the patient.\n\ne. SULPHUR STIBIATUM FUSCUM, D. KERMES MINERALIS. Brown antimonial sulphur. Kermes mineral.\n\nFor the preparations and nature of this substance, see Chemistry, No 1698.\n\nf. SULPHURETUM ANTIMONII PR\u00c6CIPITATUM, E. SULPHUR ANT. PR\u00c6CIP. L. SULPHUR"
+        },
+        {
+          "article_id": "1823_v12_TROCHISCI_GUMMOSI",
+          "headword": "TROCHISCI GUMMOSI",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_TINCTURA_MIMOSAE_CATECHU",
+          "headword": "TINCTURA MIMOSAE CATECHU",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. TINCTURA CATECHU, L. TINCTURA JAPONICA. Tincture of catechu.\n\nPrepared by digesting three ounces of extract of catechu, and two ounces of bruised cinnamon, in two pounds and a half, or two pints (L.), of diluted alcohol, for seven or ten days, and straining through paper. Dose two or three drams.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_CALOMELAS",
+          "headword": "CALOMELAS",
+          "direction": "next",
+          "start_page": 840,
+          "text_preview": "L. Submuriate of mercury. Sub-\nlimed mild muriate of mercury. Calomel. See Chemis-\ntry, N\u00b0 1742, where the process is much the same\nas that of the Edinburgh college.\n\nGiven in most cases where mercury is indicated.\nDose, as a diaphoretic or alterative, about a grain; as\na cathartic or anthelmintic, three to 10 grains; as a\nsialagogue, one or two grains twice a-day.\n\ne. Submuriatas Hydrargyri precipitatus, E. Precipita-\nHYDRARGYRUM MURIATUM MITE PR\u00c6CIPITATUM, D. HYDRARGYRUS MURI-",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1823_v12_CALOMELAS",
+      "headword": "CALOMELAS",
+      "edition_year": 1823,
+      "volume_num": 12,
+      "start_page": 840,
+      "end_page": 840,
+      "word_count": 77,
+      "volume_range": "LIE-Materia",
+      "effective_start": "LIE",
+      "effective_end": "MATERIA",
+      "reason": "'CALOMELAS' comes before 'LIE'",
+      "text_preview": "L. Submuriate of mercury. Sub-\nlimed mild muriate of mercury. Calomel. See Chemis-\ntry, N\u00b0 1742, where the process is much the same\nas that of the Edinburgh college.\n\nGiven in most cases where mercury is indicated.\nDose, as a diaphoretic or alterative, about a grain; as\na cathartic or anthelmintic, three to 10 grains; as a\nsialagogue, one or two grains twice a-day.\n\ne. Submuriatas Hydrargyri precipitatus, E. Precipita-\nHYDRARGYRUM MURIATUM MITE PR\u00c6CIPITATUM, D. HYDRARGYRUS MURI-",
+      "text_end": "ses where mercury is indicated.\nDose, as a diaphoretic or alterative, about a grain; as\na cathartic or anthelmintic, three to 10 grains; as a\nsialagogue, one or two grains twice a-day.\n\ne. Submuriatas Hydrargyri precipitatus, E. Precipita-\nHYDRARGYRUM MURIATUM MITE PR\u00c6CIPITATUM, D. HYDRARGYRUS MURI-",
+      "full_text": "L. Submuriate of mercury. Sub-\nlimed mild muriate of mercury. Calomel. See Chemis-\ntry, N\u00b0 1742, where the process is much the same\nas that of the Edinburgh college.\n\nGiven in most cases where mercury is indicated.\nDose, as a diaphoretic or alterative, about a grain; as\na cathartic or anthelmintic, three to 10 grains; as a\nsialagogue, one or two grains twice a-day.\n\ne. Submuriatas Hydrargyri precipitatus, E. Precipita-\nHYDRARGYRUM MURIATUM MITE PR\u00c6CIPITATUM, D. HYDRARGYRUS MURI-",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TROCHISCI GUMMOSI",
+          "start_page": 830,
+          "end_page": 830
+        },
+        {
+          "headword": "CRETA",
+          "start_page": 837,
+          "end_page": 839
+        },
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "end_page": 840
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840
+        },
+        {
+          "headword": "GYRUS PURIFICATUS",
+          "start_page": 840
+        },
+        {
+          "headword": "HYDRARGYRUS MURIATUS MITE",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "direction": "previous",
+          "start_page": 839,
+          "text_preview": "D. Precipitated sulphuret of antimony.\n\nPrepared by dissolving two pounds of prepared sulphuret of antimony in four pounds of water of potash, mixed with three pounds of water, adding more, if necessary, in a covered iron pot, over a slow fire for three hours, frequently stirring with an iron spatula, straining the liquor while hot, and precipitating the sulphuret by diluted sulphuric acid; then washing and drying the precipitate. See Chemistry, No 1688.\n\nEmployed like the last as a diaphoretic. Dose two or three grains.\n\ng. MURIAS ANTIMONII, E. ANTINONIUM MURIATUM, L. STIBIUM MURIATUM CAUSTICUM, D. Muriate of antimony. Muriated antimony. Better of antimony. See Chemistry, p. 638.\n\nEmployed sometimes as a caustic, and for preparing the following substance.\n\nh. CALX STIBII PR\u00c6CIPITATA, D. Precipitated calc of antimony. Powder of algaroth.\n\nPrepared by adding eight ounces of muriated antimony to a filtered solution of eight ounces of mild vegetable alkali, in 40 pounds of water, washing ",
+          "text_end": "g a mass with soap jelly.\n\nFormerly in great repute as an alternative.\n\n277. Hydrargyrum, D. HYDRARGYRUS, E.\nL. ARGENTUM VIVUM. Mercury. Quicksilver.\n\nFor an account of the chemical nature and proper-\nties of mercury, and the modes of ascertaining its puri-\nty, see Chemistry, p. 642.\n\nWe shall first notice the several officinal preparations\nof mercury, and then subjoin a sketch of its uses and\nthe cases to which it is best adapted.\n\nOfficinal Preparations.\n\na. Hydrargyrum purificatum, D. HYDRAR-"
+        },
+        {
+          "article_id": "1823_v12_CRETA",
+          "headword": "CRETA",
+          "direction": "previous",
+          "start_page": 837,
+          "text_preview": "L. D. Chalk potion.\n\nPrepared, according to the Edinburgh college, by triturating an ounce of prepared carbonate of lime with two ounces of mucilage of gum arabic, and half an ounce of double-refined sugar; then adding gradually two pounds and a half of water, and two ounces of spirit of cinnamon.\n\nThe London and Dublin mixture is prepared by mixing one ounce of prepared chalk, six drams of double-refined sugar, one ounce of powdered gum arabic, with two pints or 30 ounces (D.), of distilled water.\n\nEmployed as an antacid, especially in diarrhoea, accompanied by acidity in the intestinal canal. It may be taken ad libitum.\n\nc. Trochisci Carbonatis Calcis, E. Trochis Troches of CI CRETAE, L. Troches of carbonate of lime, carbonate of lime.\n\nTroches of chalk.\n\nPrepared of four ounces of carbonate of lime, one ounce of gum arabic, one dram of nutmeg, and six ounces of double-refined sugar, powdered together, and formed into a mass with water (F.); or, of four ounces of prepared chalk, two ",
+          "text_end": "then pouring out the mixture, and, when cold, grinding it to powder.\n\nThis is similar to a medicine that was much esteemed by Sir John Pringle, as a remedy in dysentery. Dose from two or three to 20 grains, according to the age and strength of the patient.\n\ne. SULPHUR STIBIATUM FUSCUM, D. KERMES MINERALIS. Brown antimonial sulphur. Kermes mineral.\n\nFor the preparations and nature of this substance, see Chemistry, No 1698.\n\nf. SULPHURETUM ANTIMONII PR\u00c6CIPITATUM, E. SULPHUR ANT. PR\u00c6CIP. L. SULPHUR"
+        },
+        {
+          "article_id": "1823_v12_TROCHISCI_GUMMOSI",
+          "headword": "TROCHISCI GUMMOSI",
+          "direction": "previous",
+          "start_page": 830,
+          "text_preview": "E. Gum troches.\n\nPrepared of four parts of gum arabic, one of powdered starch, and 12 of double refined sugar, made into a mass for troches with water.\n\nSimilar in uses to the lozenges of starch. See No 369.\n\nPARIETARIA OFFICINALIS. PARIETARIA, Pellitory of the wall.\n\nOrder 2. DIOECIA.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v12_DRARGYRUS_MURIATUS",
+          "headword": "DRARGYRUS MURIATUS",
+          "direction": "next",
+          "start_page": 840,
+          "text_preview": "L. Muriate of mer-\ncury. Corrosive muriated mercury. Corrosive subli-\nmate. See Chemistry, N\u00b0 1736.\n\nPrepared by boiling two pounds of purified quicksil-\nver in two pounds and a half of sulphuric acid, in a glass\nvessel, over a sand bath, to dryness, triturating the dried\nmass when cold with four pounds of dried muriate of\nsoda, then subliming in a glass cucurbit with a heat\ngradually increased, and separating the sublimed matter\nfrom the scoriae.\n\nUsed as a sialagogue; dose one-eighth to one-fourth\nof a grain; as an external stimulus or escharotic to ve-\nneral ulcers, chancres, and herpetic eruptions, in the\nproportion of about a grain or more to the ounce of li-\nquid.\n\nd. Submuriatas Hydrargyri, E. HYDRARGY-",
+          "text_end": ", over a sand bath, to dryness, triturating the dried\nmass when cold with four pounds of dried muriate of\nsoda, then subliming in a glass cucurbit with a heat\ngradually increased, and separating the sublimed matter\nfrom the scoriae.\n\nUsed as a sialagogue; dose one-eighth to one-fourth\nof a grain; as an external stimulus or escharotic to ve-\nneral ulcers, chancres, and herpetic eruptions, in the\nproportion of about a grain or more to the ounce of li-\nquid.\n\nd. Submuriatas Hydrargyri, E. HYDRARGY-"
+        }
+      ]
+    }
+  ]
+}

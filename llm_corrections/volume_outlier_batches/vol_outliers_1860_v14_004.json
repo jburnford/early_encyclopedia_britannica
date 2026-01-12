@@ -1,0 +1,1769 @@
+{
+  "batch_id": "vol_outliers_1860_v14_004",
+  "created": "2026-01-09T17:23:02.395089",
+  "edition_year": 1860,
+  "volume_num": 14,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v14_LEWIS",
+      "headword": "LEWIS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 12,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'LEWIS' comes before 'MAGNETISM'",
+      "text_preview": "On various North American Fossil Mammalia, in Smithsonian Contributions to Knowledge. 1853.",
+      "text_end": "",
+      "full_text": "On various North American Fossil Mammalia, in Smithsonian Contributions to Knowledge. 1853.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "HORSFIELD"
+      },
+      "prev_articles": [
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "KLAUSZ",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "LE CONTE",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAN",
+          "start_page": 253
+        },
+        {
+          "headword": "OWEN",
+          "start_page": 253
+        },
+        {
+          "headword": "PETERS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_LE_CONTE",
+          "headword": "LE CONTE",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Species of American Rodentia, in the Proceedings of the Academy of Natural Sciences of Philadelphia, vol. vi.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_KLAUSZ",
+          "headword": "KLAUSZ",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Das Thierreich in Bildern nach seinen Familien undGattungen dargestellt. Eight parts devoted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HORSFIELD",
+          "headword": "HORSFIELD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_MAN",
+          "headword": "MAN",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "the noblest of all earthly creatures, stands related, on the one hand, through his body, to the world of matter, and on the other, through his mind, to the world of spirit. For until it can be established inductively that the modes of extension and the modes of thought are alike ultimately referable, as some have alleged, to one common substance, the laws of a sound philosophy demand the ascription of the one class of phenomena to one substance termed matter, and of the other class of phenomena to another substance termed mind. With his sensuous nature binding him fast to the present world; and his moral and religious nature raising him towards God,\u2014at the verge of the animal kingdom most remote from its point of contact with the kingdom of organic life, yet the occupant of that other kingdom of pure intelligence where the conscience asserts its authority and dispenses its awards,\u2014man, the only representative of the order Bimana, the \u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1, the voice-dividing, the creature of speech, ",
+          "text_end": "ble of worship. The physical sciences which refer directly to man are Ethnology, Anatomy, and Physiology. In the first we consider man as an object of natural history; in the second we investigate the structure of his body; and in the third we study the doctrine of its vital phenomena.\n\nThese branches of knowledge regard man chiefly in his normal condition. For the abnormal or diseased state of man's mind, see Mental Diseases; and for the abnormal or diseased state of his body, see Medicine, &c."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v14_OWEN",
+      "headword": "OWEN",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 109,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'OWEN' comes after 'MIH'",
+      "text_preview": "A History of British Fossil Mammalia and Birds. London, 1844-46.\n\nDescription of the Skeleton of an extinct gigantic Sloth (Mylodon robustus), &c. 1842.\n\nMany Memoirs on the Anatomy of different Mammalia (such as the Giraffe, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of ",
+      "text_end": "1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to.",
+      "full_text": "A History of British Fossil Mammalia and Birds. London, 1844-46.\n\nDescription of the Skeleton of an extinct gigantic Sloth (Mylodon robustus), &c. 1842.\n\nMany Memoirs on the Anatomy of different Mammalia (such as the Giraffe, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "LE CONTE",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "LEWIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 253,
+          "end_page": 254
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PETERS",
+          "start_page": 253
+        },
+        {
+          "headword": "PICTET",
+          "start_page": 253
+        },
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MAN",
+          "headword": "MAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "the noblest of all earthly creatures, stands related, on the one hand, through his body, to the world of matter, and on the other, through his mind, to the world of spirit. For until it can be established inductively that the modes of extension and the modes of thought are alike ultimately referable, as some have alleged, to one common substance, the laws of a sound philosophy demand the ascription of the one class of phenomena to one substance termed matter, and of the other class of phenomena to another substance termed mind. With his sensuous nature binding him fast to the present world; and his moral and religious nature raising him towards God,\u2014at the verge of the animal kingdom most remote from its point of contact with the kingdom of organic life, yet the occupant of that other kingdom of pure intelligence where the conscience asserts its authority and dispenses its awards,\u2014man, the only representative of the order Bimana, the \u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1, the voice-dividing, the creature of speech, ",
+          "text_end": "ble of worship. The physical sciences which refer directly to man are Ethnology, Anatomy, and Physiology. In the first we consider man as an object of natural history; in the second we investigate the structure of his body; and in the third we study the doctrine of its vital phenomena.\n\nThese branches of knowledge regard man chiefly in his normal condition. For the abnormal or diseased state of man's mind, see Mental Diseases; and for the abnormal or diseased state of his body, see Medicine, &c."
+        },
+        {
+          "article_id": "1860_v14_LEWIS",
+          "headword": "LEWIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "On various North American Fossil Mammalia, in Smithsonian Contributions to Knowledge. 1853.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_LE_CONTE",
+          "headword": "LE CONTE",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Species of American Rodentia, in the Proceedings of the Academy of Natural Sciences of Philadelphia, vol. vi.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PETERS",
+          "headword": "PETERS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v14_PETERS",
+      "headword": "PETERS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 28,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'PETERS' comes after 'MIH'",
+      "text_preview": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+      "text_end": "",
+      "full_text": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "LEWIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 253,
+          "end_page": 254
+        },
+        {
+          "headword": "OWEN",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PICTET",
+          "start_page": 253
+        },
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253
+        },
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_OWEN",
+          "headword": "OWEN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "A History of British Fossil Mammalia and Birds. London, 1844-46.\n\nDescription of the Skeleton of an extinct gigantic Sloth (Mylodon robustus), &c. 1842.\n\nMany Memoirs on the Anatomy of different Mammalia (such as the Giraffe, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to.",
+          "text_end": "e, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to."
+        },
+        {
+          "article_id": "1860_v14_MAN",
+          "headword": "MAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "the noblest of all earthly creatures, stands related, on the one hand, through his body, to the world of matter, and on the other, through his mind, to the world of spirit. For until it can be established inductively that the modes of extension and the modes of thought are alike ultimately referable, as some have alleged, to one common substance, the laws of a sound philosophy demand the ascription of the one class of phenomena to one substance termed matter, and of the other class of phenomena to another substance termed mind. With his sensuous nature binding him fast to the present world; and his moral and religious nature raising him towards God,\u2014at the verge of the animal kingdom most remote from its point of contact with the kingdom of organic life, yet the occupant of that other kingdom of pure intelligence where the conscience asserts its authority and dispenses its awards,\u2014man, the only representative of the order Bimana, the \u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1, the voice-dividing, the creature of speech, ",
+          "text_end": "ble of worship. The physical sciences which refer directly to man are Ethnology, Anatomy, and Physiology. In the first we consider man as an object of natural history; in the second we investigate the structure of his body; and in the third we study the doctrine of its vital phenomena.\n\nThese branches of knowledge regard man chiefly in his normal condition. For the abnormal or diseased state of man's mind, see Mental Diseases; and for the abnormal or diseased state of his body, see Medicine, &c."
+        },
+        {
+          "article_id": "1860_v14_LEWIS",
+          "headword": "LEWIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "On various North American Fossil Mammalia, in Smithsonian Contributions to Knowledge. 1853.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PICTET",
+          "headword": "PICTET",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v14_PICTET",
+      "headword": "PICTET",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 32,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'PICTET' comes after 'MIH'",
+      "text_preview": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+      "text_end": "",
+      "full_text": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MAN",
+          "start_page": 253,
+          "end_page": 254
+        },
+        {
+          "headword": "OWEN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PETERS",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253
+        },
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253
+        },
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_PETERS",
+          "headword": "PETERS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_OWEN",
+          "headword": "OWEN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "A History of British Fossil Mammalia and Birds. London, 1844-46.\n\nDescription of the Skeleton of an extinct gigantic Sloth (Mylodon robustus), &c. 1842.\n\nMany Memoirs on the Anatomy of different Mammalia (such as the Giraffe, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to.",
+          "text_end": "e, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to."
+        },
+        {
+          "article_id": "1860_v14_MAN",
+          "headword": "MAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "the noblest of all earthly creatures, stands related, on the one hand, through his body, to the world of matter, and on the other, through his mind, to the world of spirit. For until it can be established inductively that the modes of extension and the modes of thought are alike ultimately referable, as some have alleged, to one common substance, the laws of a sound philosophy demand the ascription of the one class of phenomena to one substance termed matter, and of the other class of phenomena to another substance termed mind. With his sensuous nature binding him fast to the present world; and his moral and religious nature raising him towards God,\u2014at the verge of the animal kingdom most remote from its point of contact with the kingdom of organic life, yet the occupant of that other kingdom of pure intelligence where the conscience asserts its authority and dispenses its awards,\u2014man, the only representative of the order Bimana, the \u03c0\u03bd\u03b5\u1fe6\u03bc\u03b1, the voice-dividing, the creature of speech, ",
+          "text_end": "ble of worship. The physical sciences which refer directly to man are Ethnology, Anatomy, and Physiology. In the first we consider man as an object of natural history; in the second we investigate the structure of his body; and in the third we study the doctrine of its vital phenomena.\n\nThese branches of knowledge regard man chiefly in his normal condition. For the abnormal or diseased state of man's mind, see Mental Diseases; and for the abnormal or diseased state of his body, see Medicine, &c."
+        },
+        {
+          "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n\nOsteological Specimens in the collection of the British Museum. London, 1847. At that time there were 1766 specimens of 742 species; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, ",
+          "text_end": "; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+      "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 181,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY' comes after 'MIH'",
+      "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n",
+      "text_end": " Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia.",
+      "full_text": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n\nOsteological Specimens in the collection of the British Museum. London, 1847. At that time there were 1766 specimens of 742 species; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OWEN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PETERS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PICTET",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253
+        },
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHINZ",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_PICTET",
+          "headword": "PICTET",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PETERS",
+          "headword": "PETERS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_OWEN",
+          "headword": "OWEN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "A History of British Fossil Mammalia and Birds. London, 1844-46.\n\nDescription of the Skeleton of an extinct gigantic Sloth (Mylodon robustus), &c. 1842.\n\nMany Memoirs on the Anatomy of different Mammalia (such as the Giraffe, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to.",
+          "text_end": "e, &c.), in the Transactions of the Zoological Society of London.\n\nOsteological Contributions to the Natural History of the Chimpanzees. Transactions of Zoological Society of London, vols. iii., iv., 1848, &c.\n\nOdontographic Treatise on the Comparative Anatomy of the Teeth of Vertebrate Animals, iv., royal 8vo. London, 1840-43.\n\nPRAL\u00c9 (Titian R.), Mammalia found during the Voyage of the United States Exploring Expedition, during the years 1838-42, under the command of Captain Wilkes. 1 vol. 4to."
+        },
+        {
+          "article_id": "1860_v14_PUCHERAN",
+          "headword": "PUCHERAN",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v14_PUCHERAN",
+      "headword": "PUCHERAN",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 14,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'PUCHERAN' comes after 'MIH'",
+      "text_preview": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+      "text_end": "",
+      "full_text": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "PETERS"
+      },
+      "prev_articles": [
+        {
+          "headword": "PETERS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PICTET",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHINZ",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n\nOsteological Specimens in the collection of the British Museum. London, 1847. At that time there were 1766 specimens of 742 species; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, ",
+          "text_end": "; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia."
+        },
+        {
+          "article_id": "1860_v14_PICTET",
+          "headword": "PICTET",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PETERS",
+          "headword": "PETERS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturwissenschaftliche Reise nach Mosambique. Zoologie, i. Mammalia. Berlin, 1852, with 46 plates.\n\nMammalia of Mozambique, in the Journal of the Berlin Academy, and other German natural history journals.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_RICHARDSON",
+          "headword": "RICHARDSON",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1860_v14_RICHARDSON",
+      "headword": "RICHARDSON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 46,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'RICHARDSON' comes after 'MIH'",
+      "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+      "text_end": " under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+      "full_text": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PICTET",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SCHINZ",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_PUCHERAN",
+          "headword": "PUCHERAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n\nOsteological Specimens in the collection of the British Museum. London, 1847. At that time there were 1766 specimens of 742 species; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, ",
+          "text_end": "; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia."
+        },
+        {
+          "article_id": "1860_v14_PICTET",
+          "headword": "PICTET",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Mammalia from Brazil, &c., in M\u00e9moires de la Soci\u00e9t\u00e9 de Physique et d'Histoire Naturelle de Gen\u00e8ve, vol. 10, &c.\n\nAnimaux Nouveaux ou peu connus du Mus\u00e9e de Gen\u00e8ve. Geneva, 1841-44. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHINZ",
+          "headword": "SCHINZ",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1860_v14_SCHINZ",
+      "headword": "SCHINZ",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 17,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'SCHINZ' comes after 'MIH'",
+      "text_preview": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+      "text_end": "",
+      "full_text": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+      "auto_classification": {
+        "decision": "KEEP",
+        "confidence": "medium",
+        "reason": "Short cross-reference entry",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253
+        },
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253
+        },
+        {
+          "headword": "SMITH",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_RICHARDSON",
+          "headword": "RICHARDSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PUCHERAN",
+          "headword": "PUCHERAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PRIVATE_WORKS_DISTRIBUTED_BY_THE_KING_OF_DENMARK_AND_DR_GRAY",
+          "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia, in his Zoology of the H.M.S. Erebus and Terror, commanded by Captain Sir James Clarke Ross, C.B. (Chiefly on the Seals of the Southern Hemisphere, and on Cetacea.) London, 1844-46.\n\nMammalia of the Voyage of H.M.S. Sulphur, under the command of Captain Sir Edward Belcher, C.B.\n\nCatalogue of Mammalia in British Museum. Part I. Cetacea, 1850; Part II. Seals, 1850; Part III. Ungulata Furelips, 1852.\n\nList of the Specimens of Mammalia in the collection of the British Museum. London, 1843.\n\nOsteological Specimens in the collection of the British Museum. London, 1847. At that time there were 1766 specimens of 742 species; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, ",
+          "text_end": "; a number greatly added to during the ten years which have elapsed since the publication of this catalogue.\n\nDescriptions of New Species of Mammalia of all Orders, in various volumes of the Annals of Natural History and Proceedings of the Zoological Society of London; the latter often illustrated with figures.\n\nNew Genera, and Fifty Unrecorded Species of Mammalia, Ann. and Mag. Nat. Hist., vol. x. Appendix of Australian Mammalia, in Governor Grey's Journals of Two Expeditions in West Australia."
+        },
+        {
+          "article_id": "1860_v14_SCHLEGEL",
+          "headword": "SCHLEGEL",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1860_v14_SCHLEGEL",
+      "headword": "SCHLEGEL",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 23,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'SCHLEGEL' comes after 'MIH'",
+      "text_preview": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+      "text_end": "",
+      "full_text": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PUCHERAN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHINZ",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253
+        },
+        {
+          "headword": "SMITH",
+          "start_page": 253
+        },
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_SCHINZ",
+          "headword": "SCHINZ",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_RICHARDSON",
+          "headword": "RICHARDSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_PUCHERAN",
+          "headword": "PUCHERAN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Various Species and Orders of Mammalia in Archives du Mus\u00e9um d'Histoire Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHNEIDER",
+          "headword": "SCHNEIDER",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1860_v14_SCHNEIDER",
+      "headword": "SCHNEIDER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 12,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'SCHNEIDER' comes after 'MIH'",
+      "text_preview": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+      "text_end": "",
+      "full_text": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "RICHARDSON"
+      },
+      "prev_articles": [
+        {
+          "headword": "RICHARDSON",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHINZ",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SMITH",
+          "start_page": 253
+        },
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253
+        },
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_SCHLEGEL",
+          "headword": "SCHLEGEL",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHINZ",
+          "headword": "SCHINZ",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_RICHARDSON",
+          "headword": "RICHARDSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Fossil Mammals; Zoology of the Voyages of H.M.S. Herald, under the command of Captain H. Kellett. 4to. London, 1842-44.\n\nR\u00dcPPELL (Dr E.), Many Papers on different Genera of Mammalia in Museum Senckenbergianum.\u2014\"Beschreibung mehrerer neuer S\u00e4ugethiere, in der Zoologischen Sammlung der Senckenbergerischen Naturforschers Gesellschaft.\" 4to. Frankfort, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SMITH",
+          "headword": "SMITH",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1860_v14_SMITH",
+      "headword": "SMITH",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 38,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'SMITH' comes after 'MIH'",
+      "text_preview": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+      "text_end": "",
+      "full_text": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SCHINZ",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253
+        },
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253
+        },
+        {
+          "headword": "SUNDBY",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_SCHNEIDER",
+          "headword": "SCHNEIDER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHLEGEL",
+          "headword": "SCHLEGEL",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHINZ",
+          "headword": "SCHINZ",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monographien der S\u00e4ugethiere. Zurich, 1843-53. 4to.\n\nSynopsis of Mammalia Solothuri. 1844.\n\nSCHLEGEL (H.). See TEMMINCK and M\u00dcLLER.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_ST_HILAIRE",
+          "headword": "ST HILAIRE",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1860_v14_ST_HILAIRE",
+      "headword": "ST HILAIRE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 32,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'ST HILAIRE' comes after 'MIH'",
+      "text_preview": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+      "text_end": "",
+      "full_text": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+      "auto_classification": {
+        "decision": "KEEP",
+        "confidence": "medium",
+        "reason": "Geographic prefix \"ST \" - may be valid subdivision",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SCHLEGEL",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SMITH",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253
+        },
+        {
+          "headword": "SUNDBY",
+          "start_page": 253
+        },
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_SMITH",
+          "headword": "SMITH",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHNEIDER",
+          "headword": "SCHNEIDER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHLEGEL",
+          "headword": "SCHLEGEL",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia portions of Fauna Japonica, sive descriptio Animalium qua in Itinere per Japaniam annis 1823-30 coligit, &c., Ph. Fr. de Siebold. Leyden, 1832.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_STRAUS-DUCELLIER",
+          "headword": "STRAUS-DUCELLIER",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1860_v14_STRAUS-DUCELLIER",
+      "headword": "STRAUS-DUCELLIER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 18,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'STRAUS-DUCELLIER' comes after 'MIH'",
+      "text_preview": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+      "text_end": "",
+      "full_text": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "SCHNEIDER"
+      },
+      "prev_articles": [
+        {
+          "headword": "SCHNEIDER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SMITH",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SUNDBY",
+          "start_page": 253
+        },
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253
+        },
+        {
+          "headword": "TOMLIN",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_ST_HILAIRE",
+          "headword": "ST HILAIRE",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SMITH",
+          "headword": "SMITH",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SCHNEIDER",
+          "headword": "SCHNEIDER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Naturgeschichte der S\u00e4ugethiere. With Supplement by Dr Wagner. Erlangen, 1843, &c. 4to.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SUNDBY",
+          "headword": "SUNDBY",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1860_v14_SUNDBY",
+      "headword": "SUNDBY",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 15,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'SUNDBY' comes after 'MIH'",
+      "text_preview": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+      "text_end": "",
+      "full_text": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "SMITH"
+      },
+      "prev_articles": [
+        {
+          "headword": "SMITH",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253
+        },
+        {
+          "headword": "TOMLIN",
+          "start_page": 253
+        },
+        {
+          "headword": "TURNER",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_STRAUS-DUCELLIER",
+          "headword": "STRAUS-DUCELLIER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_ST_HILAIRE",
+          "headword": "ST HILAIRE",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SMITH",
+          "headword": "SMITH",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Illustrations of the Zoology of South Africa; containing chiefly of figures and descriptions of the objects of Natural History collected during an Expedition into the Interior of South Africa, in the years 1834-36. 4 vols. 4to. London, 1838-49.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TEMMINCK",
+          "headword": "TEMMINCK",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1860_v14_TEMMINCK",
+      "headword": "TEMMINCK",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 23,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'TEMMINCK' comes after 'MIH'",
+      "text_preview": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+      "text_end": "",
+      "full_text": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ST HILAIRE",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SUNDBY",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TOMLIN",
+          "start_page": 253
+        },
+        {
+          "headword": "TURNER",
+          "start_page": 253
+        },
+        {
+          "headword": "VAN DER HOVEN",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_SUNDBY",
+          "headword": "SUNDBY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_STRAUS-DUCELLIER",
+          "headword": "STRAUS-DUCELLIER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_ST_HILAIRE",
+          "headword": "ST HILAIRE",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Articles on Mammalia (e.g., Monograph of Species of Cercopithece), in D'Orbigny's Dictionnaire d'Histoire Naturelle.\n\nNew or imperfectly characterized Mammalia in the Paris Museum, described in Archives du Mus. d'Hist. Naturelle de Paris.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TOMLIN",
+          "headword": "TOMLIN",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1860_v14_TOMLIN",
+      "headword": "TOMLIN",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 18,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'TOMLIN' comes after 'MIH'",
+      "text_preview": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+      "text_end": "",
+      "full_text": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "STRAUS-DUCELLIER"
+      },
+      "prev_articles": [
+        {
+          "headword": "STRAUS-DUCELLIER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "SUNDBY",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TURNER",
+          "start_page": 253
+        },
+        {
+          "headword": "VAN DER HOVEN",
+          "start_page": 253
+        },
+        {
+          "headword": "WAGNER",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_TEMMINCK",
+          "headword": "TEMMINCK",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SUNDBY",
+          "headword": "SUNDBY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_STRAUS-DUCELLIER",
+          "headword": "STRAUS-DUCELLIER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Anatomie Descriptive et Comparative du Chat, type des Mammif\u00e8res en g\u00e9n\u00e9ral et des Carnivores en particulier. Paris, 1846.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TURNER",
+          "headword": "TURNER",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1860_v14_TURNER",
+      "headword": "TURNER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 16,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'TURNER' comes after 'MIH'",
+      "text_preview": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+      "text_end": "",
+      "full_text": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "SUNDBY"
+      },
+      "prev_articles": [
+        {
+          "headword": "SUNDBY",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TOMLIN",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "VAN DER HOVEN",
+          "start_page": 253
+        },
+        {
+          "headword": "WAGNER",
+          "start_page": 253
+        },
+        {
+          "headword": "WAVERHOUSE",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_TOMLIN",
+          "headword": "TOMLIN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TEMMINCK",
+          "headword": "TEMMINCK",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_SUNDBY",
+          "headword": "SUNDBY",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Mammalia of all Orders, particularly Equinae, in the Transactions of the Royal Academy of Stockholm.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_VAN_DER_HOVEN",
+          "headword": "VAN DER HOVEN",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Monograph of Lemuride, in the eighth volume of his \"Tijdschrift voor Natuurlyke Geschiedens en Physiologie.\"",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1860_v14_VAN_DER_HOVEN",
+      "headword": "VAN DER HOVEN",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 15,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'VAN DER HOVEN' comes after 'MIH'",
+      "text_preview": "Monograph of Lemuride, in the eighth volume of his \"Tijdschrift voor Natuurlyke Geschiedens en Physiologie.\"",
+      "text_end": "",
+      "full_text": "Monograph of Lemuride, in the eighth volume of his \"Tijdschrift voor Natuurlyke Geschiedens en Physiologie.\"",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "TEMMINCK"
+      },
+      "prev_articles": [
+        {
+          "headword": "TEMMINCK",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TOMLIN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TURNER",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WAGNER",
+          "start_page": 253
+        },
+        {
+          "headword": "WAVERHOUSE",
+          "start_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 254
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_TURNER",
+          "headword": "TURNER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TOMLIN",
+          "headword": "TOMLIN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TEMMINCK",
+          "headword": "TEMMINCK",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Esquisses Zoologiques sur la C\u00f4te de Guin\u00e9e. Leyden, 1853.\n\nOn various Genera of Chiroptera, in the fifth volume of Van der Hooven's Tijdschrift.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_WAGNER",
+          "headword": "WAGNER",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "New Species of Brazilian and other Mammals, in Wiegmann's \"Archiv f\u00fcr Naturgeschichte,\" 1842.\n\nBericht \u00fcber die Leistungen in der Naturgeschichte der S\u00e4ugethiere. An extremely valuable annual report on the progress of knowledge of Mammalia, published in the \"Archiv f\u00fcr Naturgeschichte.\"",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1860_v14_WAGNER",
+      "headword": "WAGNER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 40,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'WAGNER' comes after 'MIH'",
+      "text_preview": "New Species of Brazilian and other Mammals, in Wiegmann's \"Archiv f\u00fcr Naturgeschichte,\" 1842.\n\nBericht \u00fcber die Leistungen in der Naturgeschichte der S\u00e4ugethiere. An extremely valuable annual report on the progress of knowledge of Mammalia, published in the \"Archiv f\u00fcr Naturgeschichte.\"",
+      "text_end": "",
+      "full_text": "New Species of Brazilian and other Mammals, in Wiegmann's \"Archiv f\u00fcr Naturgeschichte,\" 1842.\n\nBericht \u00fcber die Leistungen in der Naturgeschichte der S\u00e4ugethiere. An extremely valuable annual report on the progress of knowledge of Mammalia, published in the \"Archiv f\u00fcr Naturgeschichte.\"",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TOMLIN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "TURNER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "VAN DER HOVEN",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WAVERHOUSE",
+          "start_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 254
+        },
+        {
+          "headword": "MANAAR",
+          "start_page": 260
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_VAN_DER_HOVEN",
+          "headword": "VAN DER HOVEN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monograph of Lemuride, in the eighth volume of his \"Tijdschrift voor Natuurlyke Geschiedens en Physiologie.\"",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TURNER",
+          "headword": "TURNER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TOMLIN",
+          "headword": "TOMLIN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Many Papers on Chiroptera, in the recent volumes of the Illustrated Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_WAVERHOUSE",
+          "headword": "WAVERHOUSE",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Natural History of Mammalia. 2 vols. 8vo (Rodentia and Marsupialia). 1846-48.\n\nMammalia of the Voyage of H.M.S. Beagle, collected by C. Darwin, Esq.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1860_v14_WAVERHOUSE",
+      "headword": "WAVERHOUSE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 23,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'WAVERHOUSE' comes after 'MIH'",
+      "text_preview": "Natural History of Mammalia. 2 vols. 8vo (Rodentia and Marsupialia). 1846-48.\n\nMammalia of the Voyage of H.M.S. Beagle, collected by C. Darwin, Esq.",
+      "text_end": "",
+      "full_text": "Natural History of Mammalia. 2 vols. 8vo (Rodentia and Marsupialia). 1846-48.\n\nMammalia of the Voyage of H.M.S. Beagle, collected by C. Darwin, Esq.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TURNER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "VAN DER HOVEN",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "WAGNER",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAN",
+          "start_page": 254
+        },
+        {
+          "headword": "MANAAR",
+          "start_page": 260
+        },
+        {
+          "headword": "MANACOR",
+          "start_page": 261
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_WAGNER",
+          "headword": "WAGNER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "New Species of Brazilian and other Mammals, in Wiegmann's \"Archiv f\u00fcr Naturgeschichte,\" 1842.\n\nBericht \u00fcber die Leistungen in der Naturgeschichte der S\u00e4ugethiere. An extremely valuable annual report on the progress of knowledge of Mammalia, published in the \"Archiv f\u00fcr Naturgeschichte.\"",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_VAN_DER_HOVEN",
+          "headword": "VAN DER HOVEN",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monograph of Lemuride, in the eighth volume of his \"Tijdschrift voor Natuurlyke Geschiedens en Physiologie.\"",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_TURNER",
+          "headword": "TURNER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "On the Osteology of various Orders of Mammalia, in Proceedings of the Zoological Society of London.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_MAN_s2",
+          "headword": "MAN",
+          "direction": "next",
+          "start_page": 254,
+          "text_preview": "Isle of, lies between N. Lat. 54\u00b0 and 55\u00b0 W. Long. 4\u00b0 and 5\u00b0; the centre of the island being in N. Lat. 54\u00b0 16', and W. Long. 4\u00b0 30'. It extends lengthwise in a N.N.E. and S.S.W. direction about 31 miles, and varies in breadth from 8 to 12 miles. Its circumference, without following the indentations of a very irregular shore, is about 75 miles; its area contains 209 square miles, or 140,447 statute acres, 30,000 of which are mountains and commons. The island is situate nearly mid-channel in the Irish Sea, about equidistant from England, Scotland, and Ireland.\n\nThe outline and aspect of the island is thus described by the Rev. J. G. Cumming of Lichfield:\u2014\"The northern view is a narrow track of almost level land (which is an almost plane area of 50 square miles), surrounded by an abrupt pile of mountains, rent in chasms, forming the lovely glens of Ravensdale, Sulby Glen, Glen Aldyn, and Ballure. The western view is that of an extended pile of mountains, descending rapidly to the sea on ",
+          "text_end": "t, at the instance of the lords of the Treasury, authorising the lords of the Treasury to treat with the duke for the purchase of his remaining interest in the island. The duke being very unpopular at the time, and much dissatisfied with his position in the island, willingly embraced the proposal, and the valuation was left to arbitrators appointed on both sides. These in the year 1829 awarded him the further sum of \u00a3146,114 for his rights in and over the soil, as lord of the manor, as follows:\u2014"
+        }
+      ]
+    }
+  ]
+}

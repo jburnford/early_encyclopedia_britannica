@@ -1,0 +1,713 @@
+{
+  "batch_id": "vol_outliers_1860_v09_004",
+  "created": "2026-01-09T17:22:56.817955",
+  "edition_year": 1860,
+  "volume_num": 9,
+  "item_count": 8,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v09_RULES_FOR_DETERMINING_THE_DIMENSIONS_OF_PARAPETS",
+      "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 810,
+      "end_page": 815,
+      "word_count": 10507,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS' comes after 'FRA'",
+      "text_preview": "Determination of the Relief of a Parapet.\u2014First, in respect to the protection of troops in a normal position, where the ground is considered horizontal. Now, the minimum for a simple parapet may be here stated at 6' 6\" as a musket ball would penetrate the parapet for about 6' below its crest, and the maximum at 8 feet, a height which gives the defenders perfect security under almost every circumstance of fire, including even that of mounted soldiers.\n\nDeflade.\u2014Secondly, where the ground is uneve",
+      "text_end": " each.\n\nThe remainder of this article will treat of the position, produce, statistics, and mines of the more important and useful metals, under each metal separately. (For additional information respecting gold and silver, not strictly belonging to mines and mining, see the article Precious Metals.)",
+      "full_text": "Determination of the Relief of a Parapet.\u2014First, in respect to the protection of troops in a normal position, where the ground is considered horizontal. Now, the minimum for a simple parapet may be here stated at 6' 6\" as a musket ball would penetrate the parapet for about 6' below its crest, and the maximum at 8 feet, a height which gives the defenders perfect security under almost every circumstance of fire, including even that of mounted soldiers.\n\nDeflade.\u2014Secondly, where the ground is uneven, and it is necessary to deflade the work from the point or points which command it. Now, figure 14, No. 1, explains the first case in which the points A, B, C, are on the same level, the distance AB being the space intended to be protected by the parapet at C. The line CF represents the supposed height at which it is presumed the assailants may fire, or in this case 8 ft.; BE will be the same; and AD cut by the line drawn from F to E will also be 8 ft. In fig. 14, No. 2, A, B are still considered to be in one horizontal plane, but C is considerably elevated; and hence, adopting the same data as to height, and drawing the line FE and the line CB parallel to it, AD, or the height of the parapet, equal to AI + ID; ID being equal to BE, or CF, or N, the normal height. Calling also AB, or the distance to be covered, d; AH, or the distance from the commanding point, D; HC, or the height of C above A and B, H; we have\n\n\\[ \\frac{AI}{CH} = \\frac{AB}{BH} \\]\n\nor \\( AI : H :: d : d + D \\); and hence\n\n\\[ AI = \\frac{d}{d + D} \\cdot H, \\text{ and } AD = N + \\frac{d}{d + D} \\cdot H \\quad (1). \\]\n\nSo that the necessary height of the parapet increases as the height of the commanding point increases, or as the distance AB to be deflated increases; and diminishes as the distance from the commanding point increases. Taking\n\n\\[ D = 600 \\text{ ft., } d = 30 \\text{ ft., } H = 60 \\text{ ft., } AI = \\frac{60}{21}, \\text{ or } 2 \\text{ ft. } 10 \\text{ in., and } AD, \\text{ or the height of the crest ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FORTESCUE",
+          "start_page": 802,
+          "end_page": 803
+        },
+        {
+          "headword": "FORTH",
+          "start_page": 803,
+          "end_page": 807
+        },
+        {
+          "headword": "ELEMENTARY FORTIFICATION",
+          "start_page": 807,
+          "end_page": 810
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "start_page": 815
+        },
+        {
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "start_page": 823
+        },
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_ELEMENTARY_FORTIFICATION",
+          "headword": "ELEMENTARY FORTIFICATION",
+          "direction": "previous",
+          "start_page": 807,
+          "text_preview": "It is often desirable to examine the exact meaning of technical words, as a ready mode of acquiring a distinct notion of the ideas they were intended to convey; and of obtaining a glimpse of the historical progress of the science in which they are used. Fortify, Fortification, Fortress, Fort, are all words depending on the Latin words fortis, forte, strong, and fortifico or forte facio, to make strong; hence the idea they suggest is that, by some artificial or other arrangement, additional strength is bestowed upon one combatant over another, or upon one party of combatants over another party. A shield, the trunk of a tree, or bank of earth, or any other similar contrivance which shelters the body of one soldier from the missiles of his opponent whilst it leaves him free to discharge his own, may be considered a simple element of fortification.\n\nA bank of earth, when reduced to the requisite thickness, and moulded into a proper form, with such slopes as the particular tenacity of the e",
+          "text_end": "dd, that the choice of any particular form must be determined by the engineer from a knowledge of the nature of the ground itself, only remembering that the contents of the ditch, or ditches, must supply material for forming the parapet; and further, that as its depth adds to the difficulty of assault, it should not be diminished except from necessity. After these elementary remarks, the student may be considered prepared to enter on the consideration generally of parapet or field fortification."
+        },
+        {
+          "article_id": "1860_v09_FORTH",
+          "headword": "FORTH",
+          "direction": "previous",
+          "start_page": 803,
+          "text_preview": "one of the largest rivers in Scotland. It is first formed of several small streams rising on the north of Ben Lomond, or flowing from Loch Katrine and the other lakes in the adjacent country. It proceeds easterly in a direct course for above 100 miles, receiving in its progress the tributary waters of the Goodie, the Teith, and the Allan above Stirling, and below it the Devon, the Carron, the Avon, the Almond, the Leith, the Esk, the Leven, the Tyne, and others; and it discharges itself into the German Ocean in about 56\u00b0 10' of north latitude. The windings of the Forth, both above and below Stirling, are extremely beautiful. From its junction with the Teith above Stirling to the earse ground below Gartmore the windings extend about 28 miles, although the distance in a direct line is only about 20. From Stirling harbour to Alloa the length of the river is 10\u00bd miles, although in a straight line it is not more than 5, and here it is comparatively narrow, shallow, and winding. From Alloa t",
+          "text_end": "ction of attack is equally dependent on the skill with which its covering works are constructed and pushed forward towards the fortress attacked, as on its offensive operations, or on the fire of its batteries.\n\nThe principles of defence then should be studied unshackled by any of these limiting distinctions, and the engineer should apply his means to his end, using without restriction the works best suited to his purpose; and it is in this way that the study of the subject will be here treated."
+        },
+        {
+          "article_id": "1860_v09_FORTESCUE",
+          "headword": "FORTESCUE",
+          "direction": "previous",
+          "start_page": 802,
+          "text_preview": "Sir John, an eminent English lawyer in the reign of Henry VI., was descended from an ancient family in Devonshire, though both the time and place of his birth are unknown. He is supposed to have been educated at Oxford, and the great learning displayed in his writings does no discredit to such a supposition; but it is nevertheless altogether uncertain at which university he studied, or whether he ever studied at any. When he turned his views to the legal profession he entered himself of Lincoln's Inn, where he soon distinguished himself by his knowledge of the civil as well as of the common law. In the fourth year of Henry VI. he was appointed one of the governors of Lincoln's Inn, and three years afterwards the same office was again conferred upon him. In 1441 he was made a king's serjeant at law, and the following year chief justice of the King's Bench. As a judge Fortescue is highly commended for his wisdom, gravity, and uprightness; and he seems to have enjoyed great favour with th",
+          "text_end": "; 5. Genealogie Regum Scotiae; 6. A Dialogue between Understanding and Faith; 7. A Prayer Book which savours much of the times we live in; with some others, which, as the author was a man of great knowledge and observation, will, we trust, yet be printed. When lord-chancellor, Fortescue is said to have drawn up the statute of the 28th Henry VI., on the resumption of certain grants of the crown, which, though much relied on by writers on that subject, is not extant in any edition of the statutes."
+        },
+        {
+          "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "direction": "next",
+          "start_page": 815,
+          "text_preview": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch in the social history of any race of mankind rather than to a point in absolute time, there can be little doubt that earth-works would, as might be naturally expected, claim the priority over all other modes of defence. In North America vestiges of circular intrenchments, as well as of works of a more complicated outline, have been discovered, the antiquity of which is unknown; and even now, when a small party of the aboriginal inhabitants have been suddenly encountered by a much greater number",
+          "text_end": "tream, and allowed to float down. More extended intrenchments might be formed of lines of lunettes with intervening intrenchments; but it is unnecessary to pursue the subject in this suggestive manner further, as the engineer must necessarily adapt his works to the nature of the ground, and to the extent of the army for which he is required to prepare in this manner a defensive position, from which it may either advance or retire, without risk or confusion, as the necessities of war may require."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+      "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 815,
+      "end_page": 823,
+      "word_count": 8810,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE' comes before 'ENTOMOLOGY'",
+      "text_preview": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch",
+      "text_end": " further, as the engineer must necessarily adapt his works to the nature of the ground, and to the extent of the army for which he is required to prepare in this manner a defensive position, from which it may either advance or retire, without risk or confusion, as the necessities of war may require.",
+      "full_text": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch in the social history of any race of mankind rather than to a point in absolute time, there can be little doubt that earth-works would, as might be naturally expected, claim the priority over all other modes of defence. In North America vestiges of circular intrenchments, as well as of works of a more complicated outline, have been discovered, the antiquity of which is unknown; and even now, when a small party of the aboriginal inhabitants have been suddenly encountered by a much greater number of a hostile tribe, they have been known to excavate a hollow space in the ground, and, throwing out the earth, to form around them a circular intrenchment, in which they have defended themselves to the last. In Ireland its ancient inhabitants have left similar relics of their earthen defences, as in Great Britain the Romans have left of theirs, but the further consideration of the value of earthen works, when adopted in the defence of extensive fortresses, will be resumed in a future passage, and they will be considered here only in connection with the arrangements adopted by an army in the field for its own immediate security.\nThe art of constructing all kinds of temporary works in the field for this purpose is usually called field fortification, a name here replaced by that of parapet fortification. An army intrenched, or fortified, in the field, produces, in many respects, the same effect as a fortress; for it covers a country, supplies the want of numbers, stops the advance of a ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FORTH",
+          "start_page": 803,
+          "end_page": 807
+        },
+        {
+          "headword": "ELEMENTARY FORTIFICATION",
+          "start_page": 807,
+          "end_page": 810
+        },
+        {
+          "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+          "start_page": 810,
+          "end_page": 815
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "start_page": 823
+        },
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831
+        },
+        {
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_RULES_FOR_DETERMINING_THE_DIMENSIONS_OF_PARAPETS",
+          "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+          "direction": "previous",
+          "start_page": 810,
+          "text_preview": "Determination of the Relief of a Parapet.\u2014First, in respect to the protection of troops in a normal position, where the ground is considered horizontal. Now, the minimum for a simple parapet may be here stated at 6' 6\" as a musket ball would penetrate the parapet for about 6' below its crest, and the maximum at 8 feet, a height which gives the defenders perfect security under almost every circumstance of fire, including even that of mounted soldiers.\n\nDeflade.\u2014Secondly, where the ground is uneven, and it is necessary to deflade the work from the point or points which command it. Now, figure 14, No. 1, explains the first case in which the points A, B, C, are on the same level, the distance AB being the space intended to be protected by the parapet at C. The line CF represents the supposed height at which it is presumed the assailants may fire, or in this case 8 ft.; BE will be the same; and AD cut by the line drawn from F to E will also be 8 ft. In fig. 14, No. 2, A, B are still conside",
+          "text_end": "as, however, found in 1837 at the Fowey Consols Copper Mine, that the average monthly wages of\nMines and 340 tributers were L.3, 7s. 1d. each, while the monthly average of 358 tutmen was L.2, 19s. 2d. each.\n\nThe remainder of this article will treat of the position, produce, statistics, and mines of the more important and useful metals, under each metal separately. (For additional information respecting gold and silver, not strictly belonging to mines and mining, see the article Precious Metals.)"
+        },
+        {
+          "article_id": "1860_v09_ELEMENTARY_FORTIFICATION",
+          "headword": "ELEMENTARY FORTIFICATION",
+          "direction": "previous",
+          "start_page": 807,
+          "text_preview": "It is often desirable to examine the exact meaning of technical words, as a ready mode of acquiring a distinct notion of the ideas they were intended to convey; and of obtaining a glimpse of the historical progress of the science in which they are used. Fortify, Fortification, Fortress, Fort, are all words depending on the Latin words fortis, forte, strong, and fortifico or forte facio, to make strong; hence the idea they suggest is that, by some artificial or other arrangement, additional strength is bestowed upon one combatant over another, or upon one party of combatants over another party. A shield, the trunk of a tree, or bank of earth, or any other similar contrivance which shelters the body of one soldier from the missiles of his opponent whilst it leaves him free to discharge his own, may be considered a simple element of fortification.\n\nA bank of earth, when reduced to the requisite thickness, and moulded into a proper form, with such slopes as the particular tenacity of the e",
+          "text_end": "dd, that the choice of any particular form must be determined by the engineer from a knowledge of the nature of the ground itself, only remembering that the contents of the ditch, or ditches, must supply material for forming the parapet; and further, that as its depth adds to the difficulty of assault, it should not be diminished except from necessity. After these elementary remarks, the student may be considered prepared to enter on the consideration generally of parapet or field fortification."
+        },
+        {
+          "article_id": "1860_v09_FORTH",
+          "headword": "FORTH",
+          "direction": "previous",
+          "start_page": 803,
+          "text_preview": "one of the largest rivers in Scotland. It is first formed of several small streams rising on the north of Ben Lomond, or flowing from Loch Katrine and the other lakes in the adjacent country. It proceeds easterly in a direct course for above 100 miles, receiving in its progress the tributary waters of the Goodie, the Teith, and the Allan above Stirling, and below it the Devon, the Carron, the Avon, the Almond, the Leith, the Esk, the Leven, the Tyne, and others; and it discharges itself into the German Ocean in about 56\u00b0 10' of north latitude. The windings of the Forth, both above and below Stirling, are extremely beautiful. From its junction with the Teith above Stirling to the earse ground below Gartmore the windings extend about 28 miles, although the distance in a direct line is only about 20. From Stirling harbour to Alloa the length of the river is 10\u00bd miles, although in a straight line it is not more than 5, and here it is comparatively narrow, shallow, and winding. From Alloa t",
+          "text_end": "ction of attack is equally dependent on the skill with which its covering works are constructed and pushed forward towards the fortress attacked, as on its offensive operations, or on the fire of its batteries.\n\nThe principles of defence then should be studied unshackled by any of these limiting distinctions, and the engineer should apply his means to his end, using without restriction the works best suited to his purpose; and it is in this way that the study of the subject will be here treated."
+        },
+        {
+          "article_id": "1860_v09_RAMPART_OR_TOWN_FORTIFICATION",
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "direction": "next",
+          "start_page": 823,
+          "text_preview": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the same spot, the law of necessity, springing in this case out of the principle of self-defence, rendered it indispensable for them to adopt some means for securing their families and their property against the sudden inroads of enemies. Hence, when Cain, the son of Adam, built a city, he surrounded it with a wall; and, in like manner, the Babylonians, when they built cities soon after the Deluge, encompassed them with similar defences. In the early ages, men considered themselves as sufficiently prot",
+          "text_end": " octagon, and called the length of the side 360 yards. In constructing a fortification, a figure is determined on, as near that of a regular polygon as possible, within which the enceinte or chain of main works is to be contained. The enceinte or body of the place consists of as many bastions, connected with curtains, as there are sides to the figure, and each of these is made as near 360 yards as possible, so that every part may be within range of such arms as are to be employed in its defence."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v09_RAMPART_OR_TOWN_FORTIFICATION",
+      "headword": "RAMPART OR TOWN FORTIFICATION",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 823,
+      "end_page": 827,
+      "word_count": 5324,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'RAMPART OR TOWN FORTIFICATION' comes after 'FRA'",
+      "text_preview": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the sam",
+      "text_end": "main works is to be contained. The enceinte or body of the place consists of as many bastions, connected with curtains, as there are sides to the figure, and each of these is made as near 360 yards as possible, so that every part may be within range of such arms as are to be employed in its defence.",
+      "full_text": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the same spot, the law of necessity, springing in this case out of the principle of self-defence, rendered it indispensable for them to adopt some means for securing their families and their property against the sudden inroads of enemies. Hence, when Cain, the son of Adam, built a city, he surrounded it with a wall; and, in like manner, the Babylonians, when they built cities soon after the Deluge, encompassed them with similar defences. In the early ages, men considered themselves as sufficiently protected by a single wall, from behind which they could with safety discharge their darts, arrows, and other missiles, against an assailant. But when, in the progress of improvement, new and more powerful means of attack were discovered, it became necessary to increase, in a corresponding degree, the inert force of resistance; and\naccordingly the feeble defensive structures of the primitive ages were in time succeeded by solid ramparts, flanked and commanded by elevated towers. In short, as the power of attacking fortresses or places of strength was augmented by successive devices and inventions, the means of resistance were proportionally increased, until the art of fortification arrived at a state of comparative perfection, in which it remained for many ages nearly stationary.\n\nThe various improvements which were from time to time made in strengthening the walls, and adding to the defences of ancient cities, are recorded in history, and need not be detailed in this place. The first wall",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ELEMENTARY FORTIFICATION",
+          "start_page": 807,
+          "end_page": 810
+        },
+        {
+          "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+          "start_page": 810,
+          "end_page": 815
+        },
+        {
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "start_page": 815,
+          "end_page": 823
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831
+        },
+        {
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832
+        },
+        {
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "start_page": 832
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "direction": "previous",
+          "start_page": 815,
+          "text_preview": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch in the social history of any race of mankind rather than to a point in absolute time, there can be little doubt that earth-works would, as might be naturally expected, claim the priority over all other modes of defence. In North America vestiges of circular intrenchments, as well as of works of a more complicated outline, have been discovered, the antiquity of which is unknown; and even now, when a small party of the aboriginal inhabitants have been suddenly encountered by a much greater number",
+          "text_end": "tream, and allowed to float down. More extended intrenchments might be formed of lines of lunettes with intervening intrenchments; but it is unnecessary to pursue the subject in this suggestive manner further, as the engineer must necessarily adapt his works to the nature of the ground, and to the extent of the army for which he is required to prepare in this manner a defensive position, from which it may either advance or retire, without risk or confusion, as the necessities of war may require."
+        },
+        {
+          "article_id": "1860_v09_RULES_FOR_DETERMINING_THE_DIMENSIONS_OF_PARAPETS",
+          "headword": "RULES FOR DETERMINING THE DIMENSIONS OF PARAPETS",
+          "direction": "previous",
+          "start_page": 810,
+          "text_preview": "Determination of the Relief of a Parapet.\u2014First, in respect to the protection of troops in a normal position, where the ground is considered horizontal. Now, the minimum for a simple parapet may be here stated at 6' 6\" as a musket ball would penetrate the parapet for about 6' below its crest, and the maximum at 8 feet, a height which gives the defenders perfect security under almost every circumstance of fire, including even that of mounted soldiers.\n\nDeflade.\u2014Secondly, where the ground is uneven, and it is necessary to deflade the work from the point or points which command it. Now, figure 14, No. 1, explains the first case in which the points A, B, C, are on the same level, the distance AB being the space intended to be protected by the parapet at C. The line CF represents the supposed height at which it is presumed the assailants may fire, or in this case 8 ft.; BE will be the same; and AD cut by the line drawn from F to E will also be 8 ft. In fig. 14, No. 2, A, B are still conside",
+          "text_end": "as, however, found in 1837 at the Fowey Consols Copper Mine, that the average monthly wages of\nMines and 340 tributers were L.3, 7s. 1d. each, while the monthly average of 358 tutmen was L.2, 19s. 2d. each.\n\nThe remainder of this article will treat of the position, produce, statistics, and mines of the more important and useful metals, under each metal separately. (For additional information respecting gold and silver, not strictly belonging to mines and mining, see the article Precious Metals.)"
+        },
+        {
+          "article_id": "1860_v09_ELEMENTARY_FORTIFICATION",
+          "headword": "ELEMENTARY FORTIFICATION",
+          "direction": "previous",
+          "start_page": 807,
+          "text_preview": "It is often desirable to examine the exact meaning of technical words, as a ready mode of acquiring a distinct notion of the ideas they were intended to convey; and of obtaining a glimpse of the historical progress of the science in which they are used. Fortify, Fortification, Fortress, Fort, are all words depending on the Latin words fortis, forte, strong, and fortifico or forte facio, to make strong; hence the idea they suggest is that, by some artificial or other arrangement, additional strength is bestowed upon one combatant over another, or upon one party of combatants over another party. A shield, the trunk of a tree, or bank of earth, or any other similar contrivance which shelters the body of one soldier from the missiles of his opponent whilst it leaves him free to discharge his own, may be considered a simple element of fortification.\n\nA bank of earth, when reduced to the requisite thickness, and moulded into a proper form, with such slopes as the particular tenacity of the e",
+          "text_end": "dd, that the choice of any particular form must be determined by the engineer from a knowledge of the nature of the ground itself, only remembering that the contents of the ditch, or ditches, must supply material for forming the parapet; and further, that as its depth adds to the difficulty of assault, it should not be diminished except from necessity. After these elementary remarks, the student may be considered prepared to enter on the consideration generally of parapet or field fortification."
+        },
+        {
+          "article_id": "1860_v09_FORTIFICATION",
+          "headword": "FORTIFICATION",
+          "direction": "next",
+          "start_page": 831,
+          "text_preview": "system of all the French schools. In General-Noizet's arrangement the flanks are not made perpendicular to the lines of defence, but, as in Vauban's first system, the flank forms an angle of about 80\u00b0 with the line of defence. In the citadel of Ghent, which is a most beautiful example of this system, with still further modifications, the retrenchment of the bastion is so formed as to take advantage of this construction, and the flanks being casemated and pierced in both directions, they become on one side the flanks of the retrenchment, whilst on the other they are the ordinary flanks of the bastion, thus giving a much longer curtain to the retrenchment than in the form exhibited in fig. 3 of Plate CCLXI., as it occupies the whole gorge of the bastion.\n\n5. Outworks.\n\nPlate CCLXI., fig. 3, shows several kinds of outworks, as a horn-work g, tenailles k & h, bonnet d, lunettes a and d, an entrenched bastion e, barbette f, and caponni\u00e8re h. These, and other works of a similar description, ",
+          "text_end": "nni\u00e8re h. These, and other works of a similar description, are constructed for the purpose of occupying some of the ground which might otherwise be of service to the besiegers, or as in the caponni\u00e8re to cover a communication; but their application must of course depend upon certain localities, and the judgment of the engineer must therefore determine, in each particular place, which is best adapted to the ground, and most proper to be employed with reference to the general defence of the place."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+      "headword": "ARMAMENT OF FORTRESSES",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 832,
+      "end_page": 832,
+      "word_count": 868,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'ARMAMENT OF FORTRESSES' comes before 'ENTOMOLOGY'",
+      "text_preview": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exa",
+      "text_end": "is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chass\u00e9 in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison.",
+      "full_text": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exact rules as to the proportion of ordnance, ammunition, and stores of every kind required for the defence of a fortified place, seeing this must necessarily vary according to the particular situation of each fortress, the system on which its works have been constructed, and the species of attack to which it may be exposed. If, for example, one of the sides be covered by a morass, swamp, or any other obstruction which it is difficult or perhaps impossible to surmount, it must be obvious that, in this case, a smaller proportion of artillery will be required than if the fortress were equally accessible on every side; and, on the other hand, a maritime fortress, accessible at all points, will necessarily require for its defence a larger proportion of ordnance than if it were only assailable on one or a few of these points. Where every front is equally exposed to attack, all must of necessity be equally prepared.\n\nOn this subject, however, there have been established certain maxims, of which the following appear to be the most important: First, the proportion of ordnance, ammunition, and stores, should never exceed the quantity necessary for a brave and resolute defence. Secondly, those points which are considered as being most exposed to attack should be most completely armed, whilst the partial armament of the remaining points may suffice. Thirdly, for each of the faces of the bastions which are liable to be attacked, five or six pieces of ordnance should be allotted; for each of",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "start_page": 815,
+          "end_page": 823
+        },
+        {
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "start_page": 823,
+          "end_page": 827
+        },
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831,
+          "end_page": 832
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "start_page": 832
+        },
+        {
+          "headword": "THESE INCREASED",
+          "start_page": 834
+        },
+        {
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "start_page": 841
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_FORTIFICATION",
+          "headword": "FORTIFICATION",
+          "direction": "previous",
+          "start_page": 831,
+          "text_preview": "system of all the French schools. In General-Noizet's arrangement the flanks are not made perpendicular to the lines of defence, but, as in Vauban's first system, the flank forms an angle of about 80\u00b0 with the line of defence. In the citadel of Ghent, which is a most beautiful example of this system, with still further modifications, the retrenchment of the bastion is so formed as to take advantage of this construction, and the flanks being casemated and pierced in both directions, they become on one side the flanks of the retrenchment, whilst on the other they are the ordinary flanks of the bastion, thus giving a much longer curtain to the retrenchment than in the form exhibited in fig. 3 of Plate CCLXI., as it occupies the whole gorge of the bastion.\n\n5. Outworks.\n\nPlate CCLXI., fig. 3, shows several kinds of outworks, as a horn-work g, tenailles k & h, bonnet d, lunettes a and d, an entrenched bastion e, barbette f, and caponni\u00e8re h. These, and other works of a similar description, ",
+          "text_end": "nni\u00e8re h. These, and other works of a similar description, are constructed for the purpose of occupying some of the ground which might otherwise be of service to the besiegers, or as in the caponni\u00e8re to cover a communication; but their application must of course depend upon certain localities, and the judgment of the engineer must therefore determine, in each particular place, which is best adapted to the ground, and most proper to be employed with reference to the general defence of the place."
+        },
+        {
+          "article_id": "1860_v09_RAMPART_OR_TOWN_FORTIFICATION",
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "direction": "previous",
+          "start_page": 823,
+          "text_preview": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the same spot, the law of necessity, springing in this case out of the principle of self-defence, rendered it indispensable for them to adopt some means for securing their families and their property against the sudden inroads of enemies. Hence, when Cain, the son of Adam, built a city, he surrounded it with a wall; and, in like manner, the Babylonians, when they built cities soon after the Deluge, encompassed them with similar defences. In the early ages, men considered themselves as sufficiently prot",
+          "text_end": " octagon, and called the length of the side 360 yards. In constructing a fortification, a figure is determined on, as near that of a regular polygon as possible, within which the enceinte or chain of main works is to be contained. The enceinte or body of the place consists of as many bastions, connected with curtains, as there are sides to the figure, and each of these is made as near 360 yards as possible, so that every part may be within range of such arms as are to be employed in its defence."
+        },
+        {
+          "article_id": "1860_v09_APPLICATION_OF_THE_PARAPET_IN_COMBINED_OR_RECIPROCAL_DEFENCE",
+          "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE",
+          "direction": "previous",
+          "start_page": 815,
+          "text_preview": "CONSTITUTING PARAPET OR FIELD FORTIFICATION.\n\nThe parapet has been hitherto considered principally in its character as the simplest element of defensive works, affording at once protective cover to the soldiers behind it and an obstruction to the advance of their enemies; but it is now time to consider the manner in which this parapet may be so arranged as to constitute a series of defensive and mutually defending works. Were the antiquity of an invention to be estimated in reference to an epoch in the social history of any race of mankind rather than to a point in absolute time, there can be little doubt that earth-works would, as might be naturally expected, claim the priority over all other modes of defence. In North America vestiges of circular intrenchments, as well as of works of a more complicated outline, have been discovered, the antiquity of which is unknown; and even now, when a small party of the aboriginal inhabitants have been suddenly encountered by a much greater number",
+          "text_end": "tream, and allowed to float down. More extended intrenchments might be formed of lines of lunettes with intervening intrenchments; but it is unnecessary to pursue the subject in this suggestive manner further, as the engineer must necessarily adapt his works to the nature of the ground, and to the extent of the army for which he is required to prepare in this manner a defensive position, from which it may either advance or retire, without risk or confusion, as the necessities of war may require."
+        },
+        {
+          "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "direction": "next",
+          "start_page": 832,
+          "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de cabinet. Elle est une suite naturelle de la sup\u00e9riorit\u00e9 que l'on croit avoir sur ses ennemis; mais leur ex\u00e9cution \u00e9tant une des plus s\u00e9rieuses, des plus importantes, et des plus difficiles parties, elle demande aussi le plus de mesure et de circonspection.\" He then goes on to state that the success of sieges depends on several circumstances, such as, \"1. Du secret, sans lequel il est difficile de r\u00e9ussir : 2. Des forces que l'on a sur pied pour attaquer les places des ennemis, et d\u00e9fendre les s",
+          "text_end": "eneral conduct of the approaches. The real type of an attack is a moring parapet, the besieger carrying on with him his cover, and thus depending for his success not so much on his offensive as on his defensive arrangements. It was by this combination of science and labour, aided by the steady advances of brave and well-trained sappers, that the reduction of fortresses, which would have resisted for ever the rude assaults of the most determined enemy, was rendered comparatively easy and certain."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+      "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 832,
+      "end_page": 834,
+      "word_count": 1654,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'ATTACK AND DEFENCE OF FORTIFIED PLACES' comes before 'ENTOMOLOGY'",
+      "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de",
+      "text_end": " defensive arrangements. It was by this combination of science and labour, aided by the steady advances of brave and well-trained sappers, that the reduction of fortresses, which would have resisted for ever the rude assaults of the most determined enemy, was rendered comparatively easy and certain.",
+      "full_text": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de cabinet. Elle est une suite naturelle de la sup\u00e9riorit\u00e9 que l'on croit avoir sur ses ennemis; mais leur ex\u00e9cution \u00e9tant une des plus s\u00e9rieuses, des plus importantes, et des plus difficiles parties, elle demande aussi le plus de mesure et de circonspection.\" He then goes on to state that the success of sieges depends on several circumstances, such as, \"1. Du secret, sans lequel il est difficile de r\u00e9ussir : 2. Des forces que l'on a sur pied pour attaquer les places des ennemis, et d\u00e9fendre les siennes : 3. De la disposition des ennemis ; car s'ils sont r\u00e9unis, et aussi forts que nous, ils peuvent nous emp\u00eacher d'en faire : 4. De\nFortification.\n\nl'\u00e9tat des magasins les plus \u00e0 port\u00e9e des lieux sur lesquels on peut entreprendre : 6. De la conjoncture des temps, parce que tous ne sont pas propres aux si\u00e8ges, et rien n'\u00e9tant plus ruineux que ceux d'hiver, on les doit \u00e9viter tant qu'on peut ; 6. Des fonds n\u00e9cessaires \u00e0 leurs d\u00e9penses ; car l'argent est le nerf de la guerre, sans lui on ne saurait r\u00e9ussir en rien. Ce sont l\u00e0 des mesures \u00e0 prendre de longue main, qui doivent \u00eatre dirig\u00e9es \u00e0 loisir ; et apr\u00e8s tout cela, quand on croit les avoir bien prises souvent tout \u00e9chappe ; car l'ennemi, qui n'est jamais d'accord avec vous, pourra vous interrompre.... Il faut bien peser toutes ces consid\u00e9rations, avant que de se d\u00e9terminer ; et prendre toujours si bien son temps, que l'ennemi ne puisse vous tomber sur les bras avant vos \u00e9tablissements.\"1\n\nA siege, therefore, being one of the most",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "start_page": 823,
+          "end_page": 827
+        },
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831,
+          "end_page": 832
+        },
+        {
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832,
+          "end_page": 832
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THESE INCREASED",
+          "start_page": 834
+        },
+        {
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "start_page": 841
+        },
+        {
+          "headword": "BOUSMARD",
+          "start_page": 842
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+          "headword": "ARMAMENT OF FORTRESSES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exact rules as to the proportion of ordnance, ammunition, and stores of every kind required for the defence of a fortified place, seeing this must necessarily vary according to the particular situation of each fortress, the system on which its works have been constructed, and the species of attack to which it may be exposed. If, for example, one of the sides be covered by a morass, swamp, or any other obstruction which it is difficult or perhaps impossible to surmount, it must be obvious that, in t",
+          "text_end": "ved, should be within the body of the place, and as they require a great quantity of ammunition, they should be less frequently used, and only upon urgent occasions. A judicious economy of ammunition is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chass\u00e9 in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison."
+        },
+        {
+          "article_id": "1860_v09_FORTIFICATION",
+          "headword": "FORTIFICATION",
+          "direction": "previous",
+          "start_page": 831,
+          "text_preview": "system of all the French schools. In General-Noizet's arrangement the flanks are not made perpendicular to the lines of defence, but, as in Vauban's first system, the flank forms an angle of about 80\u00b0 with the line of defence. In the citadel of Ghent, which is a most beautiful example of this system, with still further modifications, the retrenchment of the bastion is so formed as to take advantage of this construction, and the flanks being casemated and pierced in both directions, they become on one side the flanks of the retrenchment, whilst on the other they are the ordinary flanks of the bastion, thus giving a much longer curtain to the retrenchment than in the form exhibited in fig. 3 of Plate CCLXI., as it occupies the whole gorge of the bastion.\n\n5. Outworks.\n\nPlate CCLXI., fig. 3, shows several kinds of outworks, as a horn-work g, tenailles k & h, bonnet d, lunettes a and d, an entrenched bastion e, barbette f, and caponni\u00e8re h. These, and other works of a similar description, ",
+          "text_end": "nni\u00e8re h. These, and other works of a similar description, are constructed for the purpose of occupying some of the ground which might otherwise be of service to the besiegers, or as in the caponni\u00e8re to cover a communication; but their application must of course depend upon certain localities, and the judgment of the engineer must therefore determine, in each particular place, which is best adapted to the ground, and most proper to be employed with reference to the general defence of the place."
+        },
+        {
+          "article_id": "1860_v09_RAMPART_OR_TOWN_FORTIFICATION",
+          "headword": "RAMPART OR TOWN FORTIFICATION",
+          "direction": "previous",
+          "start_page": 823,
+          "text_preview": "If, as has been stated, the simple lines or works of parapet fortification appear to have been adopted even by the rudest tribes of wandering savages, for their temporary defence or security, the more massive and artistic works of rampart defence would seem to imply a certain amount of civilization. As an art, indeed, fortification is very nearly as ancient as the existence of society. When men first assembled together for the purpose of mutual protection, and placed their habitations on the same spot, the law of necessity, springing in this case out of the principle of self-defence, rendered it indispensable for them to adopt some means for securing their families and their property against the sudden inroads of enemies. Hence, when Cain, the son of Adam, built a city, he surrounded it with a wall; and, in like manner, the Babylonians, when they built cities soon after the Deluge, encompassed them with similar defences. In the early ages, men considered themselves as sufficiently prot",
+          "text_end": " octagon, and called the length of the side 360 yards. In constructing a fortification, a figure is determined on, as near that of a regular polygon as possible, within which the enceinte or chain of main works is to be contained. The enceinte or body of the place consists of as many bastions, connected with curtains, as there are sides to the figure, and each of these is made as near 360 yards as possible, so that every part may be within range of such arms as are to be employed in its defence."
+        },
+        {
+          "article_id": "1860_v09_THESE_INCREASED",
+          "headword": "THESE INCREASED",
+          "direction": "next",
+          "start_page": 834,
+          "text_preview": "e increased means of attack, to which it was found impossible to oppose a successful resistance, caused the art of concealment or covering to be further studied, till at length, in well-constructed fortresses, not a single wall remained exposed to view, and the sap and the mine became as necessary as the gun and the mortar to the success of a besieger. To render this intelligible to the general reader, it may be proper to introduce here a descriptive sketch of the progress of a modern attack, from the excellent work of Sir John Jones, already referred to.\n\n\"The first operation of a besieger,\" says that able and experienced engineer, \"is to establish a force able to cope with the garrison of the town to be attacked, at the distance of six or seven hundred yards from its ramparts. This is effected by approaching the place secretly in the night with a body of men, part carrying entrenching tools, and the remainder armed. The former dig a trench in the ground parallel to the fortifications",
+          "text_end": "oubted that they will, how can the Emperor of Russia expect to keep longer from their grasp the just reward of gallantry and perseverance, almost beyond example, for which they have been contending? The hope of the Russians can now only be formed on success in the field, and as that hope becomes with each successive attempt and failure less bright, so must the gloom of disappointment and despair darken until the end shall come, and Sebastopol, although perhaps in ruins, be abandoned to its fate."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v09_THESE_INCREASED",
+      "headword": "THESE INCREASED",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 834,
+      "end_page": 841,
+      "word_count": 9772,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'THESE INCREASED' comes after 'FRA'",
+      "text_preview": "e increased means of attack, to which it was found impossible to oppose a successful resistance, caused the art of concealment or covering to be further studied, till at length, in well-constructed fortresses, not a single wall remained exposed to view, and the sap and the mine became as necessary as the gun and the mortar to the success of a besieger. To render this intelligible to the general reader, it may be proper to introduce here a descriptive sketch of the progress of a modern attack, fr",
+      "text_end": "he hope of the Russians can now only be formed on success in the field, and as that hope becomes with each successive attempt and failure less bright, so must the gloom of disappointment and despair darken until the end shall come, and Sebastopol, although perhaps in ruins, be abandoned to its fate.",
+      "full_text": "e increased means of attack, to which it was found impossible to oppose a successful resistance, caused the art of concealment or covering to be further studied, till at length, in well-constructed fortresses, not a single wall remained exposed to view, and the sap and the mine became as necessary as the gun and the mortar to the success of a besieger. To render this intelligible to the general reader, it may be proper to introduce here a descriptive sketch of the progress of a modern attack, from the excellent work of Sir John Jones, already referred to.\n\n\"The first operation of a besieger,\" says that able and experienced engineer, \"is to establish a force able to cope with the garrison of the town to be attacked, at the distance of six or seven hundred yards from its ramparts. This is effected by approaching the place secretly in the night with a body of men, part carrying entrenching tools, and the remainder armed. The former dig a trench in the ground parallel to the fortifications to be attacked, and with the earth that comes out of the trench raise a bank on the side next to the enemy, whilst those with arms remain formed in a recumbent posture, in readiness to protect those at work, should the garrison sally out. During the night this trench and bank are made of sufficient depth and extent to cover from the missiles of the place the number of men requisite to cope with the garrison, and the besiegers remain in the trench during the following day, in despite of the fire or sorties of the besieged. This trench is afterwards progressively widened and deepened, and the bank of earth raised till it forms a covered road, called a parallel, embracing all the fortifications to be attacked; and along this road, guns, waggons, and men securely and conveniently move, equally sheltered from the view and the missiles of the garrison. Batteries of guns and mortars are then constructed on the side of the road next the garrison, to oppose the guns of the town, and in a short",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "FORTIFICATION",
+          "start_page": 831,
+          "end_page": 832
+        },
+        {
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832,
+          "end_page": 832
+        },
+        {
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "start_page": 832,
+          "end_page": 834
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "start_page": 841
+        },
+        {
+          "headword": "BOUSMARD",
+          "start_page": 842
+        },
+        {
+          "headword": "FORTIFIED ISLAND",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de cabinet. Elle est une suite naturelle de la sup\u00e9riorit\u00e9 que l'on croit avoir sur ses ennemis; mais leur ex\u00e9cution \u00e9tant une des plus s\u00e9rieuses, des plus importantes, et des plus difficiles parties, elle demande aussi le plus de mesure et de circonspection.\" He then goes on to state that the success of sieges depends on several circumstances, such as, \"1. Du secret, sans lequel il est difficile de r\u00e9ussir : 2. Des forces que l'on a sur pied pour attaquer les places des ennemis, et d\u00e9fendre les s",
+          "text_end": "eneral conduct of the approaches. The real type of an attack is a moring parapet, the besieger carrying on with him his cover, and thus depending for his success not so much on his offensive as on his defensive arrangements. It was by this combination of science and labour, aided by the steady advances of brave and well-trained sappers, that the reduction of fortresses, which would have resisted for ever the rude assaults of the most determined enemy, was rendered comparatively easy and certain."
+        },
+        {
+          "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+          "headword": "ARMAMENT OF FORTRESSES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exact rules as to the proportion of ordnance, ammunition, and stores of every kind required for the defence of a fortified place, seeing this must necessarily vary according to the particular situation of each fortress, the system on which its works have been constructed, and the species of attack to which it may be exposed. If, for example, one of the sides be covered by a morass, swamp, or any other obstruction which it is difficult or perhaps impossible to surmount, it must be obvious that, in t",
+          "text_end": "ved, should be within the body of the place, and as they require a great quantity of ammunition, they should be less frequently used, and only upon urgent occasions. A judicious economy of ammunition is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chass\u00e9 in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison."
+        },
+        {
+          "article_id": "1860_v09_FORTIFICATION",
+          "headword": "FORTIFICATION",
+          "direction": "previous",
+          "start_page": 831,
+          "text_preview": "system of all the French schools. In General-Noizet's arrangement the flanks are not made perpendicular to the lines of defence, but, as in Vauban's first system, the flank forms an angle of about 80\u00b0 with the line of defence. In the citadel of Ghent, which is a most beautiful example of this system, with still further modifications, the retrenchment of the bastion is so formed as to take advantage of this construction, and the flanks being casemated and pierced in both directions, they become on one side the flanks of the retrenchment, whilst on the other they are the ordinary flanks of the bastion, thus giving a much longer curtain to the retrenchment than in the form exhibited in fig. 3 of Plate CCLXI., as it occupies the whole gorge of the bastion.\n\n5. Outworks.\n\nPlate CCLXI., fig. 3, shows several kinds of outworks, as a horn-work g, tenailles k & h, bonnet d, lunettes a and d, an entrenched bastion e, barbette f, and caponni\u00e8re h. These, and other works of a similar description, ",
+          "text_end": "nni\u00e8re h. These, and other works of a similar description, are constructed for the purpose of occupying some of the ground which might otherwise be of service to the besiegers, or as in the caponni\u00e8re to cover a communication; but their application must of course depend upon certain localities, and the judgment of the engineer must therefore determine, in each particular place, which is best adapted to the ground, and most proper to be employed with reference to the general defence of the place."
+        },
+        {
+          "article_id": "1860_v09_BASTIONED_SYSTEMS_OF_THE_NETHERLANDS",
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "direction": "next",
+          "start_page": 841,
+          "text_preview": "The bastioned system of the Italians was soon carried into other countries by their engineers, who were extensively engaged in the service of foreign princes, and it was thus that the celebrated Italian engineer Marchi, coming to Brussels with Margaret of Austria in 1559, appears to have introduced the bastioned system into the Netherlands. It has been shown that in rampart defences, the ordinary earthen scarp adopted in ditches of parapet works had been replaced by a masonry revetment as a security against surprise, in consequence of which, in old Italian fortresses, lofty rev\u00eatements were almost universal; but in a country the soil of which was permeated by water within a few feet of the surface, such a mode of guarding against escalade would have been enormously expensive, and in consequence advantage was taken of the nature of the country to form broad wet ditches round the ramparts, and thus, by securing them from any sudden attack, to render the rev\u00eatement unnecessary. The first ",
+          "text_end": "ges of which were closed by small bastioned fronts constructed of walls which should be easily breached from the main works when the enemy had succeeded in gaining possession of any one of the intervening redans. By this curious combination of the tenaille and bastioned systems, Coehorn gave an undoubted proof of his superiority to the narrow prejudices which prevent many men from adopting the system best suited for the particular place. His example should be followed by every sensible engineer."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1860_v09_BASTIONED_SYSTEMS_OF_THE_NETHERLANDS",
+      "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 841,
+      "end_page": 842,
+      "word_count": 1683,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'BASTIONED SYSTEMS OF THE NETHERLANDS' comes before 'ENTOMOLOGY'",
+      "text_preview": "The bastioned system of the Italians was soon carried into other countries by their engineers, who were extensively engaged in the service of foreign princes, and it was thus that the celebrated Italian engineer Marchi, coming to Brussels with Margaret of Austria in 1559, appears to have introduced the bastioned system into the Netherlands. It has been shown that in rampart defences, the ordinary earthen scarp adopted in ditches of parapet works had been replaced by a masonry revetment as a secu",
+      "text_end": "ning redans. By this curious combination of the tenaille and bastioned systems, Coehorn gave an undoubted proof of his superiority to the narrow prejudices which prevent many men from adopting the system best suited for the particular place. His example should be followed by every sensible engineer.",
+      "full_text": "The bastioned system of the Italians was soon carried into other countries by their engineers, who were extensively engaged in the service of foreign princes, and it was thus that the celebrated Italian engineer Marchi, coming to Brussels with Margaret of Austria in 1559, appears to have introduced the bastioned system into the Netherlands. It has been shown that in rampart defences, the ordinary earthen scarp adopted in ditches of parapet works had been replaced by a masonry revetment as a security against surprise, in consequence of which, in old Italian fortresses, lofty rev\u00eatements were almost universal; but in a country the soil of which was permeated by water within a few feet of the surface, such a mode of guarding against escalade would have been enormously expensive, and in consequence advantage was taken of the nature of the country to form broad wet ditches round the ramparts, and thus, by securing them from any sudden attack, to render the rev\u00eatement unnecessary. The first example of a fortress surrounded by simple earthen ramparts without rev\u00eatements is said to be that of Breda, fortified in 1553 by Count Henry of Nassau, and this arrangement required only to be moulded into the bastioned trace to constitute the ancient system of the Netherlands, as described by Freitag in 1680. Freitag made the flanks of his bastions perpendicular to the curtain, the faces 98 yards long, with a flanked angle not exceeding 90\u00b0, and the length of the curtain 149 yards.\n\nFreitag had strange notions respecting his profiles, regulating the height and thickness of his ramparts not so much by the resistance they were required to make against artillery as by the number of sides of his polygon; but disregarding these vagaries of the systematist, the annexed cut, fig. 40, may be assumed to represent the profile usually adopted by the Dutch engineers, R being the body of the place, F the fausse-braye, D the ditch.\n\nIt will be observed from the profile, that the main rampart is su",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ARMAMENT OF FORTRESSES",
+          "start_page": 832,
+          "end_page": 832
+        },
+        {
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "start_page": 832,
+          "end_page": 834
+        },
+        {
+          "headword": "THESE INCREASED",
+          "start_page": 834,
+          "end_page": 841
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BOUSMARD",
+          "start_page": 842
+        },
+        {
+          "headword": "FORTIFIED ISLAND",
+          "start_page": 847
+        },
+        {
+          "headword": "FORTITUDE",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_THESE_INCREASED",
+          "headword": "THESE INCREASED",
+          "direction": "previous",
+          "start_page": 834,
+          "text_preview": "e increased means of attack, to which it was found impossible to oppose a successful resistance, caused the art of concealment or covering to be further studied, till at length, in well-constructed fortresses, not a single wall remained exposed to view, and the sap and the mine became as necessary as the gun and the mortar to the success of a besieger. To render this intelligible to the general reader, it may be proper to introduce here a descriptive sketch of the progress of a modern attack, from the excellent work of Sir John Jones, already referred to.\n\n\"The first operation of a besieger,\" says that able and experienced engineer, \"is to establish a force able to cope with the garrison of the town to be attacked, at the distance of six or seven hundred yards from its ramparts. This is effected by approaching the place secretly in the night with a body of men, part carrying entrenching tools, and the remainder armed. The former dig a trench in the ground parallel to the fortifications",
+          "text_end": "oubted that they will, how can the Emperor of Russia expect to keep longer from their grasp the just reward of gallantry and perseverance, almost beyond example, for which they have been contending? The hope of the Russians can now only be formed on success in the field, and as that hope becomes with each successive attempt and failure less bright, so must the gloom of disappointment and despair darken until the end shall come, and Sebastopol, although perhaps in ruins, be abandoned to its fate."
+        },
+        {
+          "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de cabinet. Elle est une suite naturelle de la sup\u00e9riorit\u00e9 que l'on croit avoir sur ses ennemis; mais leur ex\u00e9cution \u00e9tant une des plus s\u00e9rieuses, des plus importantes, et des plus difficiles parties, elle demande aussi le plus de mesure et de circonspection.\" He then goes on to state that the success of sieges depends on several circumstances, such as, \"1. Du secret, sans lequel il est difficile de r\u00e9ussir : 2. Des forces que l'on a sur pied pour attaquer les places des ennemis, et d\u00e9fendre les s",
+          "text_end": "eneral conduct of the approaches. The real type of an attack is a moring parapet, the besieger carrying on with him his cover, and thus depending for his success not so much on his offensive as on his defensive arrangements. It was by this combination of science and labour, aided by the steady advances of brave and well-trained sappers, that the reduction of fortresses, which would have resisted for ever the rude assaults of the most determined enemy, was rendered comparatively easy and certain."
+        },
+        {
+          "article_id": "1860_v09_ARMAMENT_OF_FORTRESSES",
+          "headword": "ARMAMENT OF FORTRESSES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus described, though briefly, the systems of fortification which, mainly depending on the principles first adopted by the early Italian engineers, may be considered the result of the gradual development of these principles in the more mature and skilful arrangements of successive engineers, it is right before describing other systems to say a few words respecting the means of defending a place after it has been fortified. And here we may observe, that it is difficult to lay down any exact rules as to the proportion of ordnance, ammunition, and stores of every kind required for the defence of a fortified place, seeing this must necessarily vary according to the particular situation of each fortress, the system on which its works have been constructed, and the species of attack to which it may be exposed. If, for example, one of the sides be covered by a morass, swamp, or any other obstruction which it is difficult or perhaps impossible to surmount, it must be obvious that, in t",
+          "text_end": "ved, should be within the body of the place, and as they require a great quantity of ammunition, they should be less frequently used, and only upon urgent occasions. A judicious economy of ammunition is a duty incumbent upon every governor or commandant of a fortified place attacked. The conduct of General Chass\u00e9 in the defence of the citadel of Antwerp was a model in this respect. From the commencement till the close of the attack, scarcely a single shot was needlessly expended by the garrison."
+        },
+        {
+          "article_id": "1860_v09_BOUSMARD",
+          "headword": "BOUSMARD",
+          "direction": "next",
+          "start_page": 842,
+          "text_preview": "CARNOT, CHASSELOUP, DUPOUR, HAXO, CHOUMARA.\n\nIt would be wrong to dismiss the subject of bastioned systems without at least some more reference to the works of\nthese distinguished engineers than has been given in tracing the history of this subject. Bousnard makes the faces of his bastions as well as their flanks curvilinear, the former convex, and the latter concave outwards; but though from this arrangement the effect of ricochet fire may be diminished, the difficulty of effectually defending the salient from the flanks is much increased. His great innovation, however, consisted in placing the ravelin and its redoubt in advance of the glacis of the body of the place, and forming in front of them a second or advanced covered-way; the object of the arrangement being to close the main ditch entirely, so that the batteries should not fire upon the body of the place through the ditch of the ravelin. The covered-way is made en cremaill\u00e8re, and at each bend there is a sort of redoubt, or ca",
+          "text_end": "e prize, interior intrenchments were yet existing sufficient to check the progress for a time even of victorious soldiers; but the enemy feeling that, commanded by the Malakoff, these intrenchments must have fallen before another day's attack, and that their retreat would have been then cut off, abandoned them, and thus again confirmed the experience of more than 150 years, that the attack, when conducted with skill and bravery by an army of sufficient strength, must finally prevail.\n\n(J. E. P.)"
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1860_v09_BOUSMARD",
+      "headword": "BOUSMARD",
+      "edition_year": 1860,
+      "volume_num": 9,
+      "start_page": 842,
+      "end_page": 847,
+      "word_count": 5784,
+      "volume_range": "Entomology-FRA",
+      "effective_start": "ENTOMOLOGY",
+      "effective_end": "FRA",
+      "reason": "'BOUSMARD' comes before 'ENTOMOLOGY'",
+      "text_preview": "CARNOT, CHASSELOUP, DUPOUR, HAXO, CHOUMARA.\n\nIt would be wrong to dismiss the subject of bastioned systems without at least some more reference to the works of\nthese distinguished engineers than has been given in tracing the history of this subject. Bousnard makes the faces of his bastions as well as their flanks curvilinear, the former convex, and the latter concave outwards; but though from this arrangement the effect of ricochet fire may be diminished, the difficulty of effectually defending ",
+      "text_end": "st have fallen before another day's attack, and that their retreat would have been then cut off, abandoned them, and thus again confirmed the experience of more than 150 years, that the attack, when conducted with skill and bravery by an army of sufficient strength, must finally prevail.\n\n(J. E. P.)",
+      "full_text": "CARNOT, CHASSELOUP, DUPOUR, HAXO, CHOUMARA.\n\nIt would be wrong to dismiss the subject of bastioned systems without at least some more reference to the works of\nthese distinguished engineers than has been given in tracing the history of this subject. Bousnard makes the faces of his bastions as well as their flanks curvilinear, the former convex, and the latter concave outwards; but though from this arrangement the effect of ricochet fire may be diminished, the difficulty of effectually defending the salient from the flanks is much increased. His great innovation, however, consisted in placing the ravelin and its redoubt in advance of the glacis of the body of the place, and forming in front of them a second or advanced covered-way; the object of the arrangement being to close the main ditch entirely, so that the batteries should not fire upon the body of the place through the ditch of the ravelin. The covered-way is made en cremaill\u00e8re, and at each bend there is a sort of redoubt, or casemated traverse, not a simple hollow traverse loop-holed, such as those in the detached works of Corfu. It has been objected to Bousnard's system that his advanced works would be speedily taken by turning the gorges both of the ravelin and its redoubt, but it should be remembered that the interior slope of both is replaced by a loop-holed wall, being the front of an arched gallery running all round, so that the enemy could not remain within exposed to the fire from the galleries, as well as to that from the body of the place. Without advocating the precise form and disposition of the works recommended by Bousnard, it may be reasonably asserted that in every case of a powerful and well appointed garrison the defence will gain by assuming an active character beyond the precincts of the glacis.\n\nIt has been already observed that an unmerited indifference has been manifested by many engineers to the merits of Carnot, principally, it may be believed, from his exaggerated estimate of the ef",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "start_page": 832,
+          "end_page": 834
+        },
+        {
+          "headword": "THESE INCREASED",
+          "start_page": 834,
+          "end_page": 841
+        },
+        {
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "start_page": 841,
+          "end_page": 842
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FORTIFIED ISLAND",
+          "start_page": 847
+        },
+        {
+          "headword": "FORTITUDE",
+          "start_page": 847
+        },
+        {
+          "headword": "FORTROSE",
+          "start_page": 848
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v09_BASTIONED_SYSTEMS_OF_THE_NETHERLANDS",
+          "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS",
+          "direction": "previous",
+          "start_page": 841,
+          "text_preview": "The bastioned system of the Italians was soon carried into other countries by their engineers, who were extensively engaged in the service of foreign princes, and it was thus that the celebrated Italian engineer Marchi, coming to Brussels with Margaret of Austria in 1559, appears to have introduced the bastioned system into the Netherlands. It has been shown that in rampart defences, the ordinary earthen scarp adopted in ditches of parapet works had been replaced by a masonry revetment as a security against surprise, in consequence of which, in old Italian fortresses, lofty rev\u00eatements were almost universal; but in a country the soil of which was permeated by water within a few feet of the surface, such a mode of guarding against escalade would have been enormously expensive, and in consequence advantage was taken of the nature of the country to form broad wet ditches round the ramparts, and thus, by securing them from any sudden attack, to render the rev\u00eatement unnecessary. The first ",
+          "text_end": "ges of which were closed by small bastioned fronts constructed of walls which should be easily breached from the main works when the enemy had succeeded in gaining possession of any one of the intervening redans. By this curious combination of the tenaille and bastioned systems, Coehorn gave an undoubted proof of his superiority to the narrow prejudices which prevent many men from adopting the system best suited for the particular place. His example should be followed by every sensible engineer."
+        },
+        {
+          "article_id": "1860_v09_THESE_INCREASED",
+          "headword": "THESE INCREASED",
+          "direction": "previous",
+          "start_page": 834,
+          "text_preview": "e increased means of attack, to which it was found impossible to oppose a successful resistance, caused the art of concealment or covering to be further studied, till at length, in well-constructed fortresses, not a single wall remained exposed to view, and the sap and the mine became as necessary as the gun and the mortar to the success of a besieger. To render this intelligible to the general reader, it may be proper to introduce here a descriptive sketch of the progress of a modern attack, from the excellent work of Sir John Jones, already referred to.\n\n\"The first operation of a besieger,\" says that able and experienced engineer, \"is to establish a force able to cope with the garrison of the town to be attacked, at the distance of six or seven hundred yards from its ramparts. This is effected by approaching the place secretly in the night with a body of men, part carrying entrenching tools, and the remainder armed. The former dig a trench in the ground parallel to the fortifications",
+          "text_end": "oubted that they will, how can the Emperor of Russia expect to keep longer from their grasp the just reward of gallantry and perseverance, almost beyond example, for which they have been contending? The hope of the Russians can now only be formed on success in the field, and as that hope becomes with each successive attempt and failure less bright, so must the gloom of disappointment and despair darken until the end shall come, and Sebastopol, although perhaps in ruins, be abandoned to its fate."
+        },
+        {
+          "article_id": "1860_v09_ATTACK_AND_DEFENCE_OF_FORTIFIED_PLACES",
+          "headword": "ATTACK AND DEFENCE OF FORTIFIED PLACES",
+          "direction": "previous",
+          "start_page": 832,
+          "text_preview": "Having thus treated of that important branch of fortification which is denominated permanent, and which, being applied solely to the defence of towns, is not liable to be destroyed except by an enemy, we now proceed to consider the attack of fortified places, the general system of which was introduced by Vauban, and so far perfected by that great engineer that it has ever since served as a model for the plans of his successors.\n\n\"La r\u00e9solution des si\u00e8ges,\" says the Mareschal, \"est une affaire de cabinet. Elle est une suite naturelle de la sup\u00e9riorit\u00e9 que l'on croit avoir sur ses ennemis; mais leur ex\u00e9cution \u00e9tant une des plus s\u00e9rieuses, des plus importantes, et des plus difficiles parties, elle demande aussi le plus de mesure et de circonspection.\" He then goes on to state that the success of sieges depends on several circumstances, such as, \"1. Du secret, sans lequel il est difficile de r\u00e9ussir : 2. Des forces que l'on a sur pied pour attaquer les places des ennemis, et d\u00e9fendre les s",
+          "text_end": "eneral conduct of the approaches. The real type of an attack is a moring parapet, the besieger carrying on with him his cover, and thus depending for his success not so much on his offensive as on his defensive arrangements. It was by this combination of science and labour, aided by the steady advances of brave and well-trained sappers, that the reduction of fortresses, which would have resisted for ever the rude assaults of the most determined enemy, was rendered comparatively easy and certain."
+        },
+        {
+          "article_id": "1860_v09_FORTIFIED_ISLAND",
+          "headword": "FORTIFIED ISLAND",
+          "direction": "next",
+          "start_page": 847,
+          "text_preview": "an island in the Indian Seas, lying off the coast of Canara, about a mile from the land, a little way north from the entrance to Lake Onore. The island abounds in cocoa-nut, palm, and plantain trees, and has plenty of fresh water. It produces the best kind of cari, which is used by the natives in painting their houses. Its name is derived from its fortifications, which were greatly strengthened by Tippoo Saib, from whom it was taken in 1792 by three British frigates. It is upwards of a mile in circuit. Long. 74. 27. E.; Lat. 14. 16. N.",
+          "text_end": "he coast of Canara, about a mile from the land, a little way north from the entrance to Lake Onore. The island abounds in cocoa-nut, palm, and plantain trees, and has plenty of fresh water. It produces the best kind of cari, which is used by the natives in painting their houses. Its name is derived from its fortifications, which were greatly strengthened by Tippoo Saib, from whom it was taken in 1792 by three British frigates. It is upwards of a mile in circuit. Long. 74. 27. E.; Lat. 14. 16. N."
+        }
+      ]
+    }
+  ]
+}

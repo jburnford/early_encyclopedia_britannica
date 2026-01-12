@@ -1,0 +1,868 @@
+{
+  "batch_id": "vol_outliers_1815_v01_001",
+  "created": "2026-01-09T17:22:09.937832",
+  "edition_year": 1815,
+  "volume_num": 1,
+  "item_count": 10,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1815_v01_BILL_OF_ADVOCATION",
+      "headword": "BILL OF ADVOCATION",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 222,
+      "end_page": 222,
+      "word_count": 98,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'BILL OF ADVOCATION' comes after 'AME'",
+      "text_preview": "in Scots Law, a writing drawn up in the form of a petition; whereby a party, in an action before an inferior court, applies to the supreme court, or court of session, for calling the action from the inferior court before itself.\n\nLetters of ADVOCATION, in Scots Law, the decree or warrant of the court of session upon cognizance of the facts set forth in the bill, drawn up in the form of a summons, and passing under the signet, discharging the inferior judge and all others from further procedure i",
+      "text_end": "ADVOCATION, in Scots Law, the decree or warrant of the court of session upon cognizance of the facts set forth in the bill, drawn up in the form of a summons, and passing under the signet, discharging the inferior judge and all others from further procedure in the cause, and advocating it to itself.",
+      "full_text": "in Scots Law, a writing drawn up in the form of a petition; whereby a party, in an action before an inferior court, applies to the supreme court, or court of session, for calling the action from the inferior court before itself.\n\nLetters of ADVOCATION, in Scots Law, the decree or warrant of the court of session upon cognizance of the facts set forth in the bill, drawn up in the form of a summons, and passing under the signet, discharging the inferior judge and all others from further procedure in the cause, and advocating it to itself.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ADVOCATE",
+          "start_page": 221,
+          "end_page": 222
+        },
+        {
+          "headword": "ADVOCATES",
+          "start_page": 222,
+          "end_page": 222
+        },
+        {
+          "headword": "ADVOWEE",
+          "start_page": 222,
+          "end_page": 223
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ADUST",
+          "start_page": 223
+        },
+        {
+          "headword": "ADVOWSON",
+          "start_page": 223
+        },
+        {
+          "headword": "ADY",
+          "start_page": 223
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_ADVOWEE",
+          "headword": "ADVOWEE",
+          "direction": "previous",
+          "start_page": 222,
+          "text_preview": "in ancient customs and law books, denotes the advocate of a church, religious house, or the like. There were advowees of cathedrals, abbeys, monasteries, &c. Thus, Charlemagne had the title of advowee of St Peter's; King Hugh, of St Riquier; and Bolandus mentions some letters of Pope Nicholas, by which he constituted King Edward the Confessor, and his successors, advowees of the monastery at Westminster, and of all the churches in England. These advowees were the guardians, protectors, and administrators of the temporal concerns of the churches, &c., and under their authority were passed all contracts which related to them. It appears also, from the most ancient charters, that the donations made to churches were conferred on the persons of the advowees. They always pleaded the causes of the churches in court, and distributed justice for them, in the places under their jurisdiction. They also commanded the forces furnished by their monasteries, &c., for the war; and even were their cham",
+          "text_end": "bsists, and are sometimes called by their primitive name, advowees, though more usually patrons, were hereditary; as being the founders and endowers of churches, &c., or their heirs.\n\nWomen were sometimes advowees, advocatiss\u00e6. And, in effect, the canon law mentions some who had this title, and who had the same right of presentation, &c., in their churches which the advowees themselves had.\nAdvowse. In a stat. 25 Edw. III. we meet with advowse paramount for the highest patron; that is, the king."
+        },
+        {
+          "article_id": "1815_v01_ADVOCATES",
+          "headword": "ADVOCATES",
+          "direction": "previous",
+          "start_page": 222,
+          "text_preview": "in the English courts, are more generally called counsel. See Counsel.\n\nFaculty of ADVOCATES, in Scotland, a respectable body of lawyers, who plead in all causes before the courts of session, judiciary, and exchequer. They are also entitled to plead in the house of peers, and other supreme courts in England.\n\nIn the year 1662, the faculty founded a library upon a very extensive plan, suggested by that learned and eminent lawyer Sir George Mackenzie of Rosehaugh, advocate to King Charles II. and King James VII., who enriched it with many valuable books. It has been daily increasing since that time, and now contains not only the best collection of law books in Europe, but a very large and select collection of books in all subjects. Besides, this library contains a great number of original manuscripts, and a vast variety of Jewish, Grecian, Roman, Scots, and English coins and medals.\n\nA candidate for the office of an advocate undergoes three several trials: The first is in Latin, upon the",
+          "text_end": "ems to have been established about the beginning of the 16th century. Originally he had no power to prosecute crimes without the concurrence of a private party; but, in the year 1597, he was empowered to prosecute crimes at his own instance. He has the privilege of pleading in court with his hat on. This privilege was first granted to Sir Thomas Hope; who having three sons lords of session, it was thought indecent that the father should plead uncovered before the sons, who as judges sat covered."
+        },
+        {
+          "article_id": "1815_v01_ADVOCATE",
+          "headword": "ADVOCATE",
+          "direction": "previous",
+          "start_page": 221,
+          "text_preview": "among the Romans, a person skilled in their law, who undertook the defence of causes at the bar. The Roman advocates answered to one part of the office of a barrister in England, viz. the pleading part; for they never gave counsel, that being the business of the jurifconsulti.\n\nThe Romans, in the first ages of their state, held the profession of an advocate in great honour; and the feats of their bar were crowded with senators and consuls; they, whose voices commanded the people, thinking it an honour to be employed in defending them. They were styled comites, honorarii, clarissimi, and even patroni; as if their clients were not less obliged to them than freed men to their masters. The bar was not at that time venal. Those who aspired to honours and offices took this way of gaining an interest in the people, and always pleaded gratis. But no sooner were luxury and corruption introduced into the commonwealth, than the bar became a sharer in them. Then it was that the senators let out th",
+          "text_end": "reign princes.\n\nSupreme Sovereign ADVOCATES, were those who had the authority in chief; but acted by deputies or subordinate advocates. These were called also principal, greater, and sometimes general advocates. Such in many cases were kings, &c., when either they had been chosen advocates, or became such by being founders or endowers of churches. Princes had also another\nAdvocate, another title to advocate ship, some of them pretending to be advocati nati of the churches within their dominions."
+        },
+        {
+          "article_id": "1815_v01_ADUST",
+          "headword": "ADUST",
+          "direction": "next",
+          "start_page": 223,
+          "text_preview": "ADUSTUS, among physicians, &c. is applied to such humours as by long heat become of a hot and fiery nature. Such is choler supposed to be. Melancholy is usually considered as black and adust bile. Blood is said to be adust, when, by reason of some extraordinary heat, its more subtle parts are all evaporated, leaving the grosser, with all the impurities therein, half torridised.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1815_v01_WINGS_OR_OARS_ARE_THE_ONLY",
+      "headword": "WINGS OR OARS ARE THE ONLY",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 344,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'WINGS OR OARS ARE THE ONLY' comes after 'AME'",
+      "text_preview": "s or oars are the only means of this sort that have been used with some success; and, as Mr Cavalli observes, they seem to be capable of considerable improvement; although great effects are not to be expected from them, when the machine goes at a great rate. The best methods of moving these wings are by the human strength applied similarly to the oars of a waterman. They may be made in general of silk stretched between wires, tubes, or sticks; and when used, must be turned edgewise when they are",
+      "text_end": "ne, because the circumambient air is at rest in respect to the machine. The case is quite different with a vessel at sea, because the water on which it floats stands still whilst the vessel goes on; but it must be time and experience that can realize the expectations suggested by these contrivances.",
+      "full_text": "s or oars are the only means of this sort that have been used with some success; and, as Mr Cavalli observes, they seem to be capable of considerable improvement; although great effects are not to be expected from them, when the machine goes at a great rate. The best methods of moving these wings are by the human strength applied similarly to the oars of a waterman. They may be made in general of silk stretched between wires, tubes, or sticks; and when used, must be turned edgewise when they are moved in the direction in which the machine is intended to be impelled, but flat in the opposite direction. Fig. 8. is the representation of one of Mr Blanchard's wings. Fig. 9. is one of those used by Mr Lunardi, which consists of many silk shutters or valves, ABCD, DECF, &c., every one of which opens on one side only, viz. ADBC opens upon the line AB, DECF opens upon the line DC, &c. In consequence of this construction, this sort of oars does not need being turned edgewise. Fig. 10. represents one of the wings used by the brothers Roberts in the aerial voyage of the 19th September 1784; and fig. 11. represents one of the wings constructed by Count Zambecari, which consists of a piece of silk stretched between two thin tubes set at an angle; but these wings are so contrived as to turn edgewise by themselves when they go on one direction. Other contrivances have been made to direct aerostatic machines, but they have mostly been invented to effect a power upon them as upon a ship. It appears, however, that they can have no effect when a machine is only moved by the wind alone, because the circumambient air is at rest in respect to the machine. The case is quite different with a vessel at sea, because the water on which it floats stands still whilst the vessel goes on; but it must be time and experience that can realize the expectations suggested by these contrivances.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AEM",
+          "start_page": 229,
+          "end_page": 233
+        },
+        {
+          "headword": "AEROSTATION",
+          "start_page": 233,
+          "end_page": 239
+        },
+        {
+          "headword": "AERSCHOT",
+          "start_page": 253,
+          "end_page": 254
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AERY",
+          "start_page": 254
+        },
+        {
+          "headword": "AESCHYLUS",
+          "start_page": 254
+        },
+        {
+          "headword": "AETH",
+          "start_page": 256
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_AERSCHOT",
+          "headword": "AERSCHOT",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "a town of the Austrian Netherlands in the duchy of Brabant, and capital of the duchy of Aerschot. It is seated on the river Demur, ten miles east of Malines or Mechlin, and eight north of Louvain. E. Long. 5\u00b0 44'. N. Lat. 51'.\n\n\u00c6RUGINOUS, an epithet given to such things as resemble or partake of the nature of the rust of copper.\n\n\u00c6RUGO, in Natural History, properly signifies the rust of copper, whether natural or artificial. The former is found about copper mines, and the latter, called verdigris, made by corroding copper plates with acids.\n\n\u00c6RUSCATORES, in Antiquity, a kind of strolling beggars, not unlike gypsies, who drew money from the credulous by fortune-telling, &c. It was also a denomination given to griping exactors, or collectors of the revenue. The Galli, or priests of Cybele, were called \u00e6ruscatores magnae matris; and \u00c6reopagites, on account of their begging or collecting alms in the streets; to which end they had little bells to draw people's attention, similar to some ord",
+          "text_end": "er plates with acids.\n\n\u00c6RUSCATORES, in Antiquity, a kind of strolling beggars, not unlike gypsies, who drew money from the credulous by fortune-telling, &c. It was also a denomination given to griping exactors, or collectors of the revenue. The Galli, or priests of Cybele, were called \u00e6ruscatores magnae matris; and \u00c6reopagites, on account of their begging or collecting alms in the streets; to which end they had little bells to draw people's attention, similar to some orders of mendicants abroad."
+        },
+        {
+          "article_id": "1815_v01_AEROSTATION",
+          "headword": "AEROSTATION",
+          "direction": "previous",
+          "start_page": 233,
+          "text_preview": "In its primitive sense, denotes the science of weights suspended in the air; but in its modern acceptation, it signifies aerial navigation, or the art of navigating through the atmosphere. Hence also the machines which are employed for this purpose are called aerostats, or aerostatic machines; and from their globular shape, air balloons.\n\nThe romances of almost every nation have recorded instances of persons being carried through the air, both by the agency of spirits and by mechanical inventions; but till the time of Friar Bacon, who died in 1292; no rational principle appears ever to have been thought of by which this might be accomplished. He had written upon the subject, and not only affirms of the practicability of the art, but that he knew how to construct a machine in which a man might transport himself through the air like a bird; and he affirms that the experiment had been successfully made by another person. The machine consisted of two large thin shells, or hollow globes of ",
+          "text_end": " it so close, that all attempts of this kind proved ineffectual. It was now, however, become absolutely necessary to give vent to a very considerable quantity of the inflammable air; for which purpose the duke de Chartres himself bored two holes in the balloon, which tore open for the length of seven or eight feet. On this they descended with great rapidity; and would have fallen into a lake, had they not hastily thrown out 60 pounds of ballast, which enabled them just to reach the water's edge."
+        },
+        {
+          "article_id": "1815_v01_AEM",
+          "headword": "AEM",
+          "direction": "previous",
+          "start_page": 229,
+          "text_preview": "AM, or AME, a liquid measure used in most parts of Germany; but different in different towns: the aem commonly contains 20 vertils, or 80 maffes; that of Heidelberg is equal to 48 maffes; and that of W\u00fcrtemberg to 160 maffes. See AAM.\n\n\u00c6MILIUS PAULUS, the son of \u00c6milius Paulus who was killed at the battle of Cannae. He was twice consul. In his first consulate he triumphed over the Ligurians; and in the second subdued Perseus king of Macedonia, and reduced that country to a Roman province, on which he obtained the surname of Macedonicus. He returned to Rome loaded with glory, and triumphed for three days. He died 168 years before Christ.\n\n\u00c6MILIUS, Paulus, a celebrated historian, born at Verona, who obtained such reputation in Italy, that he was invited into France by the cardinal of Bourbon, in the reign of Louis XII. In order to write the history of the kings of France in Latin, and was presented to a canonry in the cathedral of Paris. He was near 30 years in writing that history, whic",
+          "text_end": "caverns or reservoirs of air, supposed to exist in the bowels of the earth. Kircher speaks much of aerophylacea, or huge caverns replete with air, disposed under ground; from whence, through numerous occult passages, that element is conveyed either to subterraneous receptacles of water, which, according to him, are hereby raised into springs or rivers, or into the funds of subterraneous fire, which are hereby fed and kept alive for the restoration of metals, minerals, and the like.\n\nAerostation,"
+        },
+        {
+          "article_id": "1815_v01_AERY",
+          "headword": "AERY",
+          "direction": "next",
+          "start_page": 254,
+          "text_preview": "or AIRY, among sportsmen. See AIRY.\n\n\u00c6S UXORIUM, in Antiquity, a sum paid by bachelors, as a penalty for living single to old age. This tax for not marrying seems to have been first imposed in the year of Rome 359, under the censorship of M. Furius Camillus and M. Posthumus. At the census, or review of the people, each person was asked, Et tu ex anima jententia uxorem habes liberum querendorum caufa? He who had no wife was hereupon fined after a certain rate, called \u00e6s uxoriun.\n\n\u00c6S per et libram was a formula in the Roman law, whereby purchases and sales were ratified. Originally the phrase seems to have been only used in speaking of things sold by weight, or by the scales; but afterwards was used on other occasions. Hence even in adoptions, as there was a kind of imaginary purchase, the formula thereof expressed, that the person adopted was bought per \u00e6s et libram.\n\n\u00c6S Flavum, yellow copper, among the Romans, an appellation given to the coarser kinds of brass.\n\nThe ancients had differ",
+          "text_end": "been the cause of his banishment. His own oration received great praise; but that of Demosthenes was heard with boundless applause. In so trying a moment, when vanity must be supposed to have been deeply wounded, with a noble generosity of sentiment, he said, \"What would you have thought if you had heard him thunder out the words himself.\"\n\n\u00c6schines afterwards removed to Samos, where he died, in the 75th year of his age. Three of his orations only are extant. His eloquence is not without energy,"
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1815_v01_SOME_VEGETABLES_AFFORD_SUBSISTENCE_TO_THE_HUMAN_SPECIES_BY",
+      "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 324,
+      "end_page": 331,
+      "word_count": 8143,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY' comes after 'AME'",
+      "text_preview": "e vegetables afford subsistence to the human species by means of the fruit that grows upon them, which hangs, and is brought to maturity in the air, at the summit of their stems. Other vegetables derive their value from producing roots which come to maturity in the bottom of the soil, and are dug from thence to be consumed by mankind.\n\nOf fruit-bearing vegetables, those called trees, which rise aloft with a strong trunk, are the most permanent and remarkable. It is said that a spot of ground, oc",
+      "text_end": "hich probably would not only answer for fresh fodder during the winter, but might also be cut for hay in summer. This is particularly the case with that species called Sheep's Fescue Grass. \"I had,\" says he, \"a small patch of this grass in winter 1773; which, having been cut in the month...\"\nTheory.",
+      "full_text": "e vegetables afford subsistence to the human species by means of the fruit that grows upon them, which hangs, and is brought to maturity in the air, at the summit of their stems. Other vegetables derive their value from producing roots which come to maturity in the bottom of the soil, and are dug from thence to be consumed by mankind.\n\nOf fruit-bearing vegetables, those called trees, which rise aloft with a strong trunk, are the most permanent and remarkable. It is said that a spot of ground, occupied by some kinds of trees, such as chestnuts or dates, is capable of producing a very great portion of food, useful for the support of the human species. One advantage attending the cultivation of such vegetables, would be that, after the trees are planted, and secured by fences for a few years against animals, they would forever after, or at least for many years, continue to grow and flourish without care or labour. It does not appear, however, that in any nation of ancient or modern times, forests of fruit-bearing trees have been reared with a view to afford subsistence to the community. For this two reasons may be assigned. In the first place, a considerable number of years must elapse, before such plants could arrive at maturity, and fulfill the purpose of their destination. Of whatever use therefore they might be to future ages, it is evident that they could afford little benefit to the generation which planted them. But in a question about subsistence, mankind are usually under the necessity of considering their own immediate wants, and hence they have been led to the cultivation of such plants, as afford the most speedy reward for the efforts of their industry. Another reason for preferring the culture of small annual plants, to the greater and more permanent productions of nature, would arise, in the early ages of the world, from the turbulent state of society and the frequency of wars. A community that should depend for its subsistence upon the fruit of forest tr",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AGRIA",
+          "start_page": 315,
+          "end_page": 315
+        },
+        {
+          "headword": "AGRICA",
+          "start_page": 315,
+          "end_page": 315
+        },
+        {
+          "headword": "AGRICOLA",
+          "start_page": 315,
+          "end_page": 315
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PRACTICE OF AGRICULTURE",
+          "start_page": 356
+        },
+        {
+          "headword": "THIS WILL BE DONE BY",
+          "start_page": 359
+        },
+        {
+          "headword": "AGRICULTURE",
+          "start_page": 363
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_AGRICOLA_s2",
+          "headword": "AGRICOLA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "John, a Saxon divine, born at Eisleben in 1492. He went as chaplain to Count Mansfeld, when that nobleman attended the elector of Saxony to the diet at Spire in 1526, and that of Augsburg in 1530. He was of a restless, ambitious temper, rivalled and wrote",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AGRICA",
+          "headword": "AGRICA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "Cn\u00e6us Julius, born at Frejus in Provence, was, in Vespasian's time, made lieutenant to Vettius Bolanus in Britain; and upon his return, was ranked by that emperor among the patricians, and made governor of Aquitania. This post he held three years; and upon his return was chosen consul, and afterward appointed governor of Britain, where he greatly distinguished himself. He reformed many abuses occasioned by the avarice or negligence of former governors, put a stop to extortion, and caused justice to be impartially administered. Vespasian dying about this time, his son Titus, knowing the great merit of Agricola, continued him in the government. In the spring he marched towards the north, where he made some new conquests, and ordered forts to be built for the Romans to winter in. He spent the following winter in concerting schemes to bring the Britons to conform to the Roman customs. He thought the best way of diverting them from rising and taking arms, was to soften their rough manners, ",
+          "text_end": " strong and eloquent terms. The Romans gained the victory, and 10,000 of the Britons are said to have been killed. This happened in the reign of the emperor Domitian; who, growing jealous of the glory of Agricola, recalled him, under pretence of making him governor of Syria. Agricola died soon after; and his death is suspected to have been occasioned by poison given him by that emperor. Tacitus the historian married his daughter, wrote his life, and laments his death in the most pathetic manner."
+        },
+        {
+          "article_id": "1815_v01_AGRIA",
+          "headword": "AGRIA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "called by the Germans Eger, is a small but strong town in Upper Hungary, and is a bishop's see. It is situated on a river of the same name, and has a citadel called Erizau. It was besieged by the Turks in 1524, with 70,000 men: but they lost 8000 in one day, and were obliged to raise the siege, though the garrison consisted only of 2000 Hungarians, assisted by the women, who performed wonders on this occasion. However, it was afterwards taken by Mahomet III. in 1596; but was retaken by the emperor in 1687: since which time it has continued under the dominion of the house of Austria. It is 47 miles north-east of Buda, and 55 south-west of Calovia. E. Long. 20. 10. N. Lat. 48. 10.",
+          "text_end": "d by the Turks in 1524, with 70,000 men: but they lost 8000 in one day, and were obliged to raise the siege, though the garrison consisted only of 2000 Hungarians, assisted by the women, who performed wonders on this occasion. However, it was afterwards taken by Mahomet III. in 1596; but was retaken by the emperor in 1687: since which time it has continued under the dominion of the house of Austria. It is 47 miles north-east of Buda, and 55 south-west of Calovia. E. Long. 20. 10. N. Lat. 48. 10."
+        },
+        {
+          "article_id": "1815_v01_PRACTICE_OF_AGRICULTURE",
+          "headword": "PRACTICE OF AGRICULTURE",
+          "direction": "next",
+          "start_page": 356,
+          "text_preview": "THE practice of agriculture naturally divides itself into three parts: 1st, The cultivation of vegetable food for men and animals; 2dly, The cultivation of vegetables, such as flax and hemp, which are more properly articles of commerce; and, 3dly, The rearing and management of animals. To these we shall add, as connected with all the branches of agriculture, a short description of the most useful modes of fencing and enclosing lands for cattle and other objects of husbandry.\n\nPART I. OF THE CULTIVATION OF VEGETABLE FOOD.\n\nWe shall consider this branch of the subject under four divisions. In the first we shall present to the reader a statement of the most useful instruments of agriculture: 2dly, We shall state the mode of preparing land for cropping, by removing the physical obstructions to agriculture, and reducing the soil into a proper state: 3dly, We shall explain the culture of particular plants, and the practices of husbandry connected with it; and, lastly, We shall state the prin",
+          "text_end": "ing an angle of 16\u00b0 with the land side of the head, and its outside edge is in the same straight line with the side of the foak. From the point to the heel of the head is about 33 inches, and the extreme breadth of the heel is about nine. The side of the wedge, called the furrow side, is formed by the mouldboard, which is either made of a block or plank of wood, or of a thick iron plate.\n\nThe foak drawn in this figure is called a spear socket, and is chiefly used in coarse or stony ground, which"
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1815_v01_PRACTICE_OF_AGRICULTURE",
+      "headword": "PRACTICE OF AGRICULTURE",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 356,
+      "end_page": 357,
+      "word_count": 1876,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'PRACTICE OF AGRICULTURE' comes after 'AME'",
+      "text_preview": "THE practice of agriculture naturally divides itself into three parts: 1st, The cultivation of vegetable food for men and animals; 2dly, The cultivation of vegetables, such as flax and hemp, which are more properly articles of commerce; and, 3dly, The rearing and management of animals. To these we shall add, as connected with all the branches of agriculture, a short description of the most useful modes of fencing and enclosing lands for cattle and other objects of husbandry.\n\nPART I. OF THE CULT",
+      "text_end": "eme breadth of the heel is about nine. The side of the wedge, called the furrow side, is formed by the mouldboard, which is either made of a block or plank of wood, or of a thick iron plate.\n\nThe foak drawn in this figure is called a spear socket, and is chiefly used in coarse or stony ground, which",
+      "full_text": "THE practice of agriculture naturally divides itself into three parts: 1st, The cultivation of vegetable food for men and animals; 2dly, The cultivation of vegetables, such as flax and hemp, which are more properly articles of commerce; and, 3dly, The rearing and management of animals. To these we shall add, as connected with all the branches of agriculture, a short description of the most useful modes of fencing and enclosing lands for cattle and other objects of husbandry.\n\nPART I. OF THE CULTIVATION OF VEGETABLE FOOD.\n\nWe shall consider this branch of the subject under four divisions. In the first we shall present to the reader a statement of the most useful instruments of agriculture: 2dly, We shall state the mode of preparing land for cropping, by removing the physical obstructions to agriculture, and reducing the soil into a proper state: 3dly, We shall explain the culture of particular plants, and the practices of husbandry connected with it; and, lastly, We shall state the principles and operations of the horsehoeing or drill husbandry.\n\nSECT. I. Instruments of Husbandry.\n\nThe instruments employed in agriculture are various; as the plough, the harrow, the roller, &c., which are again diversified by various constructions adapted to particular uses.\n\n1. Of Ploughs.\n\nThe plough is a machine for turning up the soil by the action of cattle, contrived to save the time, labour, and expense, which, without this instrument, must have been employed in digging the ground, and fitting it to receive all sorts of seed.\n\nAmidst all the varieties which can occur in the manner of ploughing the ground, arising from difference of soil, local habits, and other causes, there is still a sameness in the task which gives a certain uniformity to the chief parts of the instrument, and should therefore furnish principles for its construction. There is not, perhaps, any invention of man that more highly merits our utmost endeavours to bring it to perfection; but it has been too much ne",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AGRICA",
+          "start_page": 315,
+          "end_page": 315
+        },
+        {
+          "headword": "AGRICOLA",
+          "start_page": 315,
+          "end_page": 315
+        },
+        {
+          "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+          "start_page": 324,
+          "end_page": 331
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THIS WILL BE DONE BY",
+          "start_page": 359
+        },
+        {
+          "headword": "AGRICULTURE",
+          "start_page": 363
+        },
+        {
+          "headword": "AGRIGAN",
+          "start_page": 566
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_SOME_VEGETABLES_AFFORD_SUBSISTENCE_TO_THE_HUMAN_SPECIES_BY",
+          "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+          "direction": "previous",
+          "start_page": 324,
+          "text_preview": "e vegetables afford subsistence to the human species by means of the fruit that grows upon them, which hangs, and is brought to maturity in the air, at the summit of their stems. Other vegetables derive their value from producing roots which come to maturity in the bottom of the soil, and are dug from thence to be consumed by mankind.\n\nOf fruit-bearing vegetables, those called trees, which rise aloft with a strong trunk, are the most permanent and remarkable. It is said that a spot of ground, occupied by some kinds of trees, such as chestnuts or dates, is capable of producing a very great portion of food, useful for the support of the human species. One advantage attending the cultivation of such vegetables, would be that, after the trees are planted, and secured by fences for a few years against animals, they would forever after, or at least for many years, continue to grow and flourish without care or labour. It does not appear, however, that in any nation of ancient or modern times,",
+          "text_end": "as on some farms, and in particular circumstances, it may prove a very useful article for the above purposes.\n\nIn Mr Anderson's Essays, we find it recommended to make trial of some kinds of grasses, which probably would not only answer for fresh fodder during the winter, but might also be cut for hay in summer. This is particularly the case with that species called Sheep's Fescue Grass. \"I had,\" says he, \"a small patch of this grass in winter 1773; which, having been cut in the month...\"\nTheory."
+        },
+        {
+          "article_id": "1815_v01_AGRICOLA_s2",
+          "headword": "AGRICOLA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "John, a Saxon divine, born at Eisleben in 1492. He went as chaplain to Count Mansfeld, when that nobleman attended the elector of Saxony to the diet at Spire in 1526, and that of Augsburg in 1530. He was of a restless, ambitious temper, rivalled and wrote",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AGRICA",
+          "headword": "AGRICA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "Cn\u00e6us Julius, born at Frejus in Provence, was, in Vespasian's time, made lieutenant to Vettius Bolanus in Britain; and upon his return, was ranked by that emperor among the patricians, and made governor of Aquitania. This post he held three years; and upon his return was chosen consul, and afterward appointed governor of Britain, where he greatly distinguished himself. He reformed many abuses occasioned by the avarice or negligence of former governors, put a stop to extortion, and caused justice to be impartially administered. Vespasian dying about this time, his son Titus, knowing the great merit of Agricola, continued him in the government. In the spring he marched towards the north, where he made some new conquests, and ordered forts to be built for the Romans to winter in. He spent the following winter in concerting schemes to bring the Britons to conform to the Roman customs. He thought the best way of diverting them from rising and taking arms, was to soften their rough manners, ",
+          "text_end": " strong and eloquent terms. The Romans gained the victory, and 10,000 of the Britons are said to have been killed. This happened in the reign of the emperor Domitian; who, growing jealous of the glory of Agricola, recalled him, under pretence of making him governor of Syria. Agricola died soon after; and his death is suspected to have been occasioned by poison given him by that emperor. Tacitus the historian married his daughter, wrote his life, and laments his death in the most pathetic manner."
+        },
+        {
+          "article_id": "1815_v01_THIS_WILL_BE_DONE_BY",
+          "headword": "THIS WILL BE DONE BY",
+          "direction": "next",
+          "start_page": 359,
+          "text_preview": "s will be done by means of the following very simple tool or instrument. Let IHFK (fig. 5) be a piece of hard wood, such as oak, a foot long, three inches broad, and an inch thick. Plant on this another piece BHFC of the same breadth, four inches long, and half an inch thick. This will leave beyond it a flat 8 inches long. We shall call this the flock of the instrument. Let ABC be a piece of clean oak, half an inch thick, 20 inches long, and three inches broad at the end BC. Let this be fashioned like the style of a sundial, having its angle ABC 74\u00b0. Let it have a part BCE square, to the extent of four inches from C, and the rest EA worked into the form of a straight flender rod.\nLet EFG be a semicircle of clean plane tree or of metal, four inches radius: fasten this by small screws to the square part of the tile CE, so that its centre may be at C. Let this semicircle be divided into 180 degrees, and numbered from G along the arch GFE, so that 0\u00b0 may be at G, and 180\u00b0 at E. Let this ti",
+          "text_end": "g. 5, and is about two feet long. In fitting the stock to the head, the point ought to be turned a little to the land or left side; because otherwise it is apt to come out of the land altogether. When turned to the left, it likewise takes off more land; when turned upwards, the plough goes shallow; and when downwards, it goes deeper.\n\nThe Coulter is fixed to the beam, and is about two feet ten inches long, two inches and a half broad, sharp at the point and before, and thick on the back, like..."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1815_v01_THIS_WILL_BE_DONE_BY",
+      "headword": "THIS WILL BE DONE BY",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 359,
+      "end_page": 363,
+      "word_count": 5224,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'THIS WILL BE DONE BY' comes after 'AME'",
+      "text_preview": "s will be done by means of the following very simple tool or instrument. Let IHFK (fig. 5) be a piece of hard wood, such as oak, a foot long, three inches broad, and an inch thick. Plant on this another piece BHFC of the same breadth, four inches long, and half an inch thick. This will leave beyond it a flat 8 inches long. We shall call this the flock of the instrument. Let ABC be a piece of clean oak, half an inch thick, 20 inches long, and three inches broad at the end BC. Let this be fashione",
+      "text_end": " turned to the left, it likewise takes off more land; when turned upwards, the plough goes shallow; and when downwards, it goes deeper.\n\nThe Coulter is fixed to the beam, and is about two feet ten inches long, two inches and a half broad, sharp at the point and before, and thick on the back, like...",
+      "full_text": "s will be done by means of the following very simple tool or instrument. Let IHFK (fig. 5) be a piece of hard wood, such as oak, a foot long, three inches broad, and an inch thick. Plant on this another piece BHFC of the same breadth, four inches long, and half an inch thick. This will leave beyond it a flat 8 inches long. We shall call this the flock of the instrument. Let ABC be a piece of clean oak, half an inch thick, 20 inches long, and three inches broad at the end BC. Let this be fashioned like the style of a sundial, having its angle ABC 74\u00b0. Let it have a part BCE square, to the extent of four inches from C, and the rest EA worked into the form of a straight flender rod.\nLet EFG be a semicircle of clean plane tree or of metal, four inches radius: fasten this by small screws to the square part of the tile CE, so that its centre may be at C. Let this semicircle be divided into 180 degrees, and numbered from G along the arch GFE, so that 0\u00b0 may be at G, and 180\u00b0 at E. Let this tile and semicircle turn round the line BC by means of small hinges. This instrument may be called the mouldboard gage, or protractor. When the tile is folded down on the stock BIK, the point G will be at F; and when it is raised up to any angle, the degrees will be pointed out on the semicircle by the straight edge CF.\n\nNothing can be more obvious than the manner of employing this instrument once we have determined the most proper position for the sod when the work is completed. Now it seems to be the opinion of the most intelligent farmers, that the best position of the sod is that represented in fig. 6.\n\nFig. 6 represents a section of the ground and the working parts of the plough, as viewed by a person standing straight before it. ABCD is the unploughed ground, and WB the coulter, kneed in Small's manner. FGKB is the section of the plough (or rather of the whole space through which the plough has passed, for no part of the plough has this section). HOFE is the section of a slice, pus",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AGRICOLA",
+          "start_page": 315,
+          "end_page": 315
+        },
+        {
+          "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+          "start_page": 324,
+          "end_page": 331
+        },
+        {
+          "headword": "PRACTICE OF AGRICULTURE",
+          "start_page": 356,
+          "end_page": 357
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AGRICULTURE",
+          "start_page": 363
+        },
+        {
+          "headword": "AGRIGAN",
+          "start_page": 566
+        },
+        {
+          "headword": "AGRIGENTUM",
+          "start_page": 583
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_PRACTICE_OF_AGRICULTURE",
+          "headword": "PRACTICE OF AGRICULTURE",
+          "direction": "previous",
+          "start_page": 356,
+          "text_preview": "THE practice of agriculture naturally divides itself into three parts: 1st, The cultivation of vegetable food for men and animals; 2dly, The cultivation of vegetables, such as flax and hemp, which are more properly articles of commerce; and, 3dly, The rearing and management of animals. To these we shall add, as connected with all the branches of agriculture, a short description of the most useful modes of fencing and enclosing lands for cattle and other objects of husbandry.\n\nPART I. OF THE CULTIVATION OF VEGETABLE FOOD.\n\nWe shall consider this branch of the subject under four divisions. In the first we shall present to the reader a statement of the most useful instruments of agriculture: 2dly, We shall state the mode of preparing land for cropping, by removing the physical obstructions to agriculture, and reducing the soil into a proper state: 3dly, We shall explain the culture of particular plants, and the practices of husbandry connected with it; and, lastly, We shall state the prin",
+          "text_end": "ing an angle of 16\u00b0 with the land side of the head, and its outside edge is in the same straight line with the side of the foak. From the point to the heel of the head is about 33 inches, and the extreme breadth of the heel is about nine. The side of the wedge, called the furrow side, is formed by the mouldboard, which is either made of a block or plank of wood, or of a thick iron plate.\n\nThe foak drawn in this figure is called a spear socket, and is chiefly used in coarse or stony ground, which"
+        },
+        {
+          "article_id": "1815_v01_SOME_VEGETABLES_AFFORD_SUBSISTENCE_TO_THE_HUMAN_SPECIES_BY",
+          "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+          "direction": "previous",
+          "start_page": 324,
+          "text_preview": "e vegetables afford subsistence to the human species by means of the fruit that grows upon them, which hangs, and is brought to maturity in the air, at the summit of their stems. Other vegetables derive their value from producing roots which come to maturity in the bottom of the soil, and are dug from thence to be consumed by mankind.\n\nOf fruit-bearing vegetables, those called trees, which rise aloft with a strong trunk, are the most permanent and remarkable. It is said that a spot of ground, occupied by some kinds of trees, such as chestnuts or dates, is capable of producing a very great portion of food, useful for the support of the human species. One advantage attending the cultivation of such vegetables, would be that, after the trees are planted, and secured by fences for a few years against animals, they would forever after, or at least for many years, continue to grow and flourish without care or labour. It does not appear, however, that in any nation of ancient or modern times,",
+          "text_end": "as on some farms, and in particular circumstances, it may prove a very useful article for the above purposes.\n\nIn Mr Anderson's Essays, we find it recommended to make trial of some kinds of grasses, which probably would not only answer for fresh fodder during the winter, but might also be cut for hay in summer. This is particularly the case with that species called Sheep's Fescue Grass. \"I had,\" says he, \"a small patch of this grass in winter 1773; which, having been cut in the month...\"\nTheory."
+        },
+        {
+          "article_id": "1815_v01_AGRICOLA_s2",
+          "headword": "AGRICOLA",
+          "direction": "previous",
+          "start_page": 315,
+          "text_preview": "John, a Saxon divine, born at Eisleben in 1492. He went as chaplain to Count Mansfeld, when that nobleman attended the elector of Saxony to the diet at Spire in 1526, and that of Augsburg in 1530. He was of a restless, ambitious temper, rivalled and wrote",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AGRICULTURE_s9",
+          "headword": "AGRICULTURE",
+          "direction": "next",
+          "start_page": 363,
+          "text_preview": "Instruments like a knife. It is fixed and directed by wedges, so as to make the point of it equal to, or rather a little before, the point of the foak, and upon a line with the left side of the head. This oblique position enables it to throw roots, &c., out of the land, which requires less force than cutting or pushing them forward.\n\nThe WREST, BD, is fixed to the head, and is about 26 inches long, two broad, and one thick. It is fixed to the head at B, in such a manner as to make the angle contained between the lines AB and BD about 25 degrees. The wrest is seldom or never placed in the same plane with the head, but gradually raised from the place where it is fixed to it; that is, from B to K, as in fig. 8. The position of the wrest determines the nature of the furrow. When the wrest is wide and low set, the furrow is wide; and when it is narrow and high set, the furrow is narrow.\n\nFig. 9. represents the two HANDLES, fixed together by the two rungs. The larger handle has already been ",
+          "text_end": "lants, or their tendency to afford subsistence to mankind, it is to be observed, that some plants are directly useful or valuable, because they are immediately consumed as food by man, such as wheat, oats, or potatoes; whereas mankind derive subsistence from another class of plants, only in an indirect manner, by giving them to cattle, and afterwards eating the flesh of these cattle, as happens with regard to grass and straw of all kinds.\n\nSect. I. Of Vegetables to be cultivated as Food for Man."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1815_v01_HERE_THE_RADICAL_NUMBER_IS_EXPRESSED_BY",
+      "headword": "HERE THE RADICAL NUMBER IS EXPRESSED BY",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 702,
+      "end_page": 721,
+      "word_count": 17451,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'HERE THE RADICAL NUMBER IS EXPRESSED BY' comes after 'AME'",
+      "text_preview": "e the radical number is expressed by means of its hyperbolic logarithm. Again, if we suppose \\( x = \\frac{1}{\\Lambda} \\), then\n\n\\[\nr^{\\frac{1}{\\Lambda}} = 1 + \\frac{1}{1} + \\frac{1}{1 \\cdot 2} + \\frac{1}{1 \\cdot 2 \\cdot 3} + \\ldots\n\\]\n\nThus it appears that the quantity \\( r^{\\frac{1}{\\Lambda}} \\) is equal to a constant number, which, by taking the sum of a sufficient number of terms of the series, will be found \\( = 2.718281828459045 \\ldots \\). Let us denote this number by \\( e \\), then \\( r^{\\f",
+      "text_end": "mer equation by the latter,\n\n\\[\n\\tan(a + b) = \\frac{\\tan a \\times \\tan b + \\cot a \\times \\cot b}{\\cot a \\times \\cot b - \\tan a \\times \\tan b}\n\\]\n\nand hence the tangent of an arch being given, the tangent of any part of that arch, as its half, third, &c. may be found by the resolution of an equation.",
+      "full_text": "e the radical number is expressed by means of its hyperbolic logarithm. Again, if we suppose \\( x = \\frac{1}{\\Lambda} \\), then\n\n\\[\nr^{\\frac{1}{\\Lambda}} = 1 + \\frac{1}{1} + \\frac{1}{1 \\cdot 2} + \\frac{1}{1 \\cdot 2 \\cdot 3} + \\ldots\n\\]\n\nThus it appears that the quantity \\( r^{\\frac{1}{\\Lambda}} \\) is equal to a constant number, which, by taking the sum of a sufficient number of terms of the series, will be found \\( = 2.718281828459045 \\ldots \\). Let us denote this number by \\( e \\), then \\( r^{\\frac{1}{\\Lambda}} = e \\), and hence \\( r = e^\\Lambda \\). Now, if we remark that \\( \\Lambda \\) is the hyp. log. of \\( r \\), it must be evident (\\$ 277. and 278.), that \\( e \\) is the radical number of the hyperbolic system of logarithms.\n\nAgain, since \\( r^{\\frac{1}{\\Lambda}} = e \\), therefore \\( \\frac{1}{\\Lambda} \\times \\log_r e = \\log_e e \\)\n\nand \\( \\Lambda = \\frac{\\log_r r}{\\log_r e} \\), here \\( \\log_r r \\) and \\( \\log_r e \\) denote logarithms taken according to any system whatever.\n\n295. If we now resume the equation\n\n\\[\nr^x = y = 1 + \\frac{xA}{1} + \\frac{x^2A^2}{1 \\cdot 2} + \\frac{x^3A^3}{1 \\cdot 2 \\cdot 3} + \\ldots\n\\]\n\nand substitute for \\( A \\) its value \\( \\frac{\\log_r r}{\\log_r e} \\), we shall have the following general expression for any exponential quantity whatever,\n\n\\[\nr^x = 1 + \\frac{x(\\log_r r)}{1} + \\frac{x^2(\\log_r r)^2}{1 \\cdot 2} + \\frac{x^3(\\log_r r)^3}{1 \\cdot 2 \\cdot 3} + \\ldots\n\\]\n\nwhich, by supposing \\( r = e \\), becomes\n\n\\[\ne^x = 1 + \\frac{x}{1} + \\frac{x^2}{1 \\cdot 2} + \\frac{x^3}{1 \\cdot 2 \\cdot 3} + \\ldots\n\\]\n\nSect. XX. Of Interest and Annuities.\n\n296. The theory of logarithms finds its application in some measure to calculations relating to interest and annuities; these we now proceed to explain. There are two hypotheses according to either of which money compound put out at interest may be supposed to be improved. We may suppose that the interest, which is always proportional to the sum lent, or principal, is also proportional to the time during wh",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ALGAROTTI",
+          "start_page": 646,
+          "end_page": 646
+        },
+        {
+          "headword": "ALGARVA",
+          "start_page": 646,
+          "end_page": 646
+        },
+        {
+          "headword": "ALGEBRA",
+          "start_page": 646,
+          "end_page": 663
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ALGEDO",
+          "start_page": 721
+        },
+        {
+          "headword": "ALGENEB",
+          "start_page": 721
+        },
+        {
+          "headword": "ALGEZIRA",
+          "start_page": 721
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_ALGEBRA",
+          "headword": "ALGEBRA",
+          "direction": "previous",
+          "start_page": 646,
+          "text_preview": "INTRODUCTION.\n\n1. Algebra is a general method of reasoning concerning the relations which magnitudes of every kind bear to each other in respect of quantity. It is sometimes called universal arithmetic; its first principles and operations being similar to those of common arithmetic. The symbols which it employs to denote magnitudes are, however, more general and more extensive in their application than those employed in that science; hence, and from the great facility with which the various relations of magnitudes to one another may be expressed, by means of a few signs or characters, the application of algebra to the resolution of problems is much more extensive than that of common arithmetic.\n\n2. There are various opinions as to the etymology of the name algebra. It is pretty certain, however, that the word is Arabic, and that from the Arabians the name, as well as the art itself, is derived. Lucas de Burgo, the first European author whose treatise on algebra was printed, calls it by",
+          "text_end": "al object of algebraic investigation is to discover certain unknown quantities, by comparing them with other quantities which are given, or supposed to be known. The relation between the known and unknown quantities is either that of equality, or else such as may be reduced to equality; and a proposition which affirms that certain combinations of quantities are equal to one another is called an equation. Such are the following:\n\n\\[\n\\frac{x}{2} + \\frac{x}{3} = \\frac{24}{x}, \\quad 2x + 3y = xy;\n\\]"
+        },
+        {
+          "article_id": "1815_v01_ALGARVA",
+          "headword": "ALGARVA",
+          "direction": "previous",
+          "start_page": 646,
+          "text_preview": "a province in the kingdom of Portugal, 67 miles in length and 20 in breadth; bounded on the west and south by the sea, on the east by the river Guadiana, and on the north by Alentejo. It is very fertile in figs, almonds, dates, olives, and excellent wines; and, besides, has a very abundant and lucrative fishery. The capital town is Pharo. It contains four cities, 12 towns, 67 parishes, and, it is said, above 90,000 inhabitants.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_ALGAROTTI",
+          "headword": "ALGAROTTI",
+          "direction": "previous",
+          "start_page": 646,
+          "text_preview": "Count, a celebrated Italian, was born at Padua; but the year is not mentioned. Led by curiosity, as well as a desire of improvement, he travelled early into foreign countries; and was very young when he arrived in France in 1736. Here he composed his \"Newtonian Philofophy for the Ladies;\" as Fontenelle had done his Cartelian Astronomy in the work entitled \"The Plurality of Worlds.\" He was noticed by the king of Prussia, who gave him marks of the esteem he had for him. He died at Pisa the 23d of May, 1764; and ordered his own mausoleum, with this inscription to be fixed upon it: \"Hic jacet Algariottus, sed non omnis.\" He is allowed to have been a very great connoisseur in painting, sculpture, and architecture. He contributed much to the reformation of the Italian opera. His works, which are numerous, and upon a variety of subjects, abound with vivacity, elegance, and wit: a collection of them has lately been made, and printed at Leghorn in 1765, in 4 vols. 8vo.",
+          "text_end": "e died at Pisa the 23d of May, 1764; and ordered his own mausoleum, with this inscription to be fixed upon it: \"Hic jacet Algariottus, sed non omnis.\" He is allowed to have been a very great connoisseur in painting, sculpture, and architecture. He contributed much to the reformation of the Italian opera. His works, which are numerous, and upon a variety of subjects, abound with vivacity, elegance, and wit: a collection of them has lately been made, and printed at Leghorn in 1765, in 4 vols. 8vo."
+        },
+        {
+          "article_id": "1815_v01_ALGEDO",
+          "headword": "ALGEDO",
+          "direction": "next",
+          "start_page": 721,
+          "text_preview": "a suppressed gonorrhoea, a name which occurs in old authors. Sec Gonorrhoea, Medicine Index.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1815_v01_HERESY_OF_ALMARIC",
+      "headword": "HERESY OF ALMARIC",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 760,
+      "end_page": 760,
+      "word_count": 130,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'HERESY OF ALMARIC' comes after 'AME'",
+      "text_preview": "a tenet broached in France by one Almaric, in the year 1209. It consisted in affirming, that every Christian was actually a member of Christ; and that without this faith no one could be saved. His followers went farther, and affirmed that the power of the Mosaic law; that the coming of Christ introduced a new law; that at the end of this began the reign of the Holy Ghost; and that now confusion and the sacraments were at an end, and that every one is to be saved by the internal operation of the ",
+      "text_end": " sacraments were at an end, and that every one is to be saved by the internal operation of the Holy Spirit alone, without any external act of religion.\u2014Their morals were as infamous as their doctrine was absurd. Their tenets were condemned by a public decree of the council of Sens, in the year 1209.",
+      "full_text": "a tenet broached in France by one Almaric, in the year 1209. It consisted in affirming, that every Christian was actually a member of Christ; and that without this faith no one could be saved. His followers went farther, and affirmed that the power of the Mosaic law; that the coming of Christ introduced a new law; that at the end of this began the reign of the Holy Ghost; and that now confusion and the sacraments were at an end, and that every one is to be saved by the internal operation of the Holy Spirit alone, without any external act of religion.\u2014Their morals were as infamous as their doctrine was absurd. Their tenets were condemned by a public decree of the council of Sens, in the year 1209.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ALMANACK",
+          "start_page": 758,
+          "end_page": 760
+        },
+        {
+          "headword": "ALMANZA",
+          "start_page": 760,
+          "end_page": 760
+        },
+        {
+          "headword": "ALME'",
+          "start_page": 760,
+          "end_page": 761
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ALMEDIA",
+          "start_page": 761
+        },
+        {
+          "headword": "ALMEHRAB",
+          "start_page": 761
+        },
+        {
+          "headword": "ALMEISAR",
+          "start_page": 761
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_ALME'",
+          "headword": "ALME'",
+          "direction": "previous",
+          "start_page": 760,
+          "text_preview": "or ALMA, fingling and dancing girls in Egypt, who, like the Italian Improvvisatori, can occasionally pour forth \"unpremeditated verse.\" They are called Alm\u00e9, from having received a better education than other women. They form a celebrated society in that country. To be received into it, according to M. Savary, it is necessary to have a good voice, to understand the language well, to know the rules of poetry, and be able to compose and sing couplets on the spot, adapted to the circumstances. The Alm\u00e9 know by heart all the new songs. Their memory is furnished with the most beautiful tales. There is no festival without them; no entertainment of which they do not constitute the ornament. They are placed in a rostrum, from whence they sing during the repast. They then descend into the saloon, and form dances which have no resemblance to ours. They are pantomime ballets, in which they represent the usual occurrences of life. The mysteries of love, too, generally\nnerally furnish them with sce",
+          "text_end": "ut amongst the grandees and rich men.\n\nThe common people have also their Alm\u00e9. They are girls of the second class, who try to imitate the former; but they have neither their elegance, their graces, nor their knowledge. They are everywhere to be met with. The public places and the walks about Grand Cairo are full of them. As the populace require allusions still more strongly marked, decency will not permit the relation to what a pitch they carry the licentiousness of their gestures and attitudes."
+        },
+        {
+          "article_id": "1815_v01_ALMANZA",
+          "headword": "ALMANZA",
+          "direction": "previous",
+          "start_page": 760,
+          "text_preview": "a little town of New Castile, on the frontiers of the kingdom of Valencia in Spain, situated in W. Long. 1\u00b0 19'. N. Lat. 38\u00b0 54'. It is remarkable for the defeat of the allies in 1707, under the marquis de las Minas and the earl of Galway. In the beginning of this action the English troops penetrated through the centre of the Spanish army; but the Portuguese cavalry being broken by the Spaniard, and the French infantry making a dreadful fire on their flanks, the allied army was at last broken, and began their retreat when it was almost dark. Colonel Hill carried off the remains of thirteen battalions towards the river Xucar, which, if they could have passed, they might have been safe; but being very much fatigued, they were obliged to halt; by which means they were surrounded, and forced to surrender prisoners of war. In this battle the allies lost 120 standards, together with all their artillery and baggage; a great number were killed, and several thousands taken prisoners. The marqui",
+          "text_end": "ed to halt; by which means they were surrounded, and forced to surrender prisoners of war. In this battle the allies lost 120 standards, together with all their artillery and baggage; a great number were killed, and several thousands taken prisoners. The marquis de las Minas was dangerously wounded; and his mistress, in the garb of an amazon, killed by his side. The earl of Galway had two cuts across the face, which, though not dangerous, had prevented him from seeing, or giving orders properly."
+        },
+        {
+          "article_id": "1815_v01_ALMANACK",
+          "headword": "ALMANACK",
+          "direction": "previous",
+          "start_page": 758,
+          "text_preview": "a book or table, containing a calendar of days and months, the rising and setting of the sun, the age of the moon, the eclipses of both luminaries, &c.\u2014Authors are divided with regard to the etymology of the word; some deriving it from the Arabic particle al and manouch, to count; some from almanach, new-years gifts, because the Arabian astrologers used at the beginning of the year to make presents of their ephemerides; and others, from the Teutonic almaen achte; observations on all the months. Dr Johnfon derives it from the Arabic particle al, and the Greek \u03bc\u03ae\u03bd\u03b7, a month. But the most simple etymology appears from the common spelling; the word being composed of two Arabic ones, Al Manack, which signify the Diary. All the classes of Arabs are commonly much given to the study of astronomy and astrology; to both which a pastoral life, and a sort of husbandry, not only incline them, but afford time and opportunity to cultivate them. They neither sow, reap, plant, travel, buy or sell, or u",
+          "text_end": "cter of Almanfor was formed of very different and even contradictory qualities. His temper conciliated affection and attachment in private life, but in his public character his aspect and demeanour inspired terror. He was well acquainted with the arts of government; he was prudent and brave, but perfidious, covetous, cruel, and implacable; and amid such a variety of character, it is singular that he should have displayed a love of study and literature, and particularly of astronomy. (Gen. Biog.)"
+        },
+        {
+          "article_id": "1815_v01_ALMEDIA",
+          "headword": "ALMEDIA",
+          "direction": "next",
+          "start_page": 761,
+          "text_preview": "a frontier town of Portugal, in the province of Tralos Montes, on the confines of Leon, where there was a very brisk action between the French and Portuguese in 1663; 17 miles north-west of Ciudad Rodrigo. W. Long. 7. 10. N. Lat. 40. 41.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1815_v01_WEST'S_PINDAR",
+      "headword": "WEST'S PINDAR",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 783,
+      "end_page": 783,
+      "word_count": 99,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'WEST'S PINDAR' comes after 'AME'",
+      "text_preview": "Pausanias adds, that the Eleans had a law, which condemned any woman to death that should either appear at the Olympic games, or even cross this river during that solemnity: and the Eleans add, that the only woman who transgressed it, had disguised herself in the habit of a maister or keeper of thele games, and conducted her son thither; but when she saw him come off victorious, her joy made her forget her disguise, so that her sex was discovered. She was pardoned; but from that time a law was m",
+      "text_end": "d herself in the habit of a maister or keeper of thele games, and conducted her son thither; but when she saw him come off victorious, her joy made her forget her disguise, so that her sex was discovered. She was pardoned; but from that time a law was made that the keepers should appear there naked.",
+      "full_text": "Pausanias adds, that the Eleans had a law, which condemned any woman to death that should either appear at the Olympic games, or even cross this river during that solemnity: and the Eleans add, that the only woman who transgressed it, had disguised herself in the habit of a maister or keeper of thele games, and conducted her son thither; but when she saw him come off victorious, her joy made her forget her disguise, so that her sex was discovered. She was pardoned; but from that time a law was made that the keepers should appear there naked.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ALPHERY",
+          "start_page": 783,
+          "end_page": 783
+        },
+        {
+          "headword": "ALPHEUS",
+          "start_page": 783,
+          "end_page": 783
+        },
+        {
+          "headword": "ALPHONSIN",
+          "start_page": 783,
+          "end_page": 791
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ALPHONSUS TOSTATUS",
+          "start_page": 791
+        },
+        {
+          "headword": "ALPINI",
+          "start_page": 791
+        },
+        {
+          "headword": "ALPUXARRAS",
+          "start_page": 794
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_ALPHONSIN",
+          "headword": "ALPHONSIN",
+          "direction": "previous",
+          "start_page": 783,
+          "text_preview": "in Surgery, an instrument for extracting bullets out of gunshot wounds. This instrument derives its name from the inventor Alphonso Ferrier, a physician of Naples. It consists of three branches, which are closed by a ring. When closed and introduced into the wound, the operator draws back the ring towards the handle, upon which the branches...\nAlphonso, branches opening take hold of the hall; and then the ring is pulled from the haft, by which means the branches grasp the ball so firmly as to extract it from the wound.\n\n**ALPHONSO I.** king of Portugal, son of Henry of Burgundy, count of Portugal, grandson of Don Alonzo king of Leon and Castile, who, as the dowry of his wife Theresa, received part of the kingdom of Portugal. One Egas Munitz had the charge of his education from his father, the duties of which he executed with fidelity and success. In the year 1112 his father died, leaving him a boy only three years of age, when the reins of government and the care of the infant son fell",
+          "text_end": "calamity.\" Such was his generosity, that upon hearing an officer who saw his treasurer bringing him 10,000 ducats, exclaiming, \"I should only wish that sum to make me happy,\" \"You shall be so,\" said Alphonso, and gave him the money in a present. He deemed dancing a certain degree of madness; but was strongly addicted to women, which involved him in many dishonourable intrigues, and justly entailed upon him the disgrace of an unfaithful husband to a kind and affectionate queen. (Mod. Univ. Hist.)"
+        },
+        {
+          "article_id": "1815_v01_ALPHEUS",
+          "headword": "ALPHEUS",
+          "direction": "previous",
+          "start_page": 783,
+          "text_preview": "(Strabo); ALPHIEUS, (Ptolemy); a noted and large river of the Peloponnesus; which, rising in, and after several windings running through Arcadia, and by Olympia in Elis, with a south-west course, falls into the Sinus Chelonites, about ten miles to the south of Olympia. It has a common spring with the Eurotas, at the foot of Mount Parthenius, near the village Aeca, (Strabo). The Alpheus and Eurotas mix and run together for 20 stadia; after which, they enter a subterraneous passage at Mantinea; then again emerge, the Eurotas in Laconia, and the Alpheus in the territory of Megalopolis, (Pausanias). The poets relate strange things of this river, particularly, that out of love to the nymph Arethusa, it runs under the sea to Sicily, and bursts out at the fountain of that name in Syracuse, (Virgil). Its waters were reckoned good in the leprosy, which is called \u0391\u03bb\u03c6\u03b5\u03b9\u03bf\u03c2 by the Greeks; and hence the name Alpheus. On the banks of this river the Olympic games were celebrated, to which Pindar allud",
+          "text_end": "anias). The poets relate strange things of this river, particularly, that out of love to the nymph Arethusa, it runs under the sea to Sicily, and bursts out at the fountain of that name in Syracuse, (Virgil). Its waters were reckoned good in the leprosy, which is called \u0391\u03bb\u03c6\u03b5\u03b9\u03bf\u03c2 by the Greeks; and hence the name Alpheus. On the banks of this river the Olympic games were celebrated, to which Pindar alludes.\n\n\"Alpheus, thy immortal flood,\nOn his lord's triumphant brows\nThe Olympic wreath beflow'd.\""
+        },
+        {
+          "article_id": "1815_v01_ALPHERY",
+          "headword": "ALPHERY",
+          "direction": "previous",
+          "start_page": 783,
+          "text_preview": "Mikipher, an English divine, was born in Russia, and of the imperial line. When that country was distracted by intestine commotions, in the latter end of the 16th century, and the royal house particularly was so severely persecuted by impostors, this gentleman and his two brothers were sent over to England, and recommended to the care of Mr Joseph Bidell a Russia merchant. Mr Bidell, when they were of age fit for the university, sent them to Oxford, where the smallpox unhappily prevailing, two of them died of it. We know not whether this surviving brother took any degrees or not, but it is very probable he did, since he entered into holy orders; and in the year 1618, was presented to the rectory of Wooley in Huntingdonshire, a living of no very considerable value, being rated under 10l. in the king's books. Here he did his duty with great cheerfulness and alacrity; and although he was twice invited back to his native country by some who would have ventured their utmost to have set him ",
+          "text_end": "gdonshire, and came and resided at Hammersmith till the Restoration put him in possession of his living again. He returned on this occasion to Huntingdonshire, where he did not stay long; for being upwards of 80, and withal very infirm, he could not perform the duties of his function. Having, therefore, settled a curate, he retired to his eldest son's house at Hammersmith, where soon after he died, much honoured and respected, and affording a remarkable instance of the vicissitudes of the world."
+        },
+        {
+          "article_id": "1815_v01_ALPHONSUS_TOSTATUS",
+          "headword": "ALPHONSUS TOSTATUS",
+          "direction": "next",
+          "start_page": 791,
+          "text_preview": "bishop of Avila, a learned and voluminous Spanish writer. He flourished about the middle of the 15th century, and by his uncommon abilities rose to the highest offices both in the civil and ecclesiastical departments of the state. At the age of 22 years he finished his studies at the university of Salamanca, having made great progress in every branch of learning then in estimation. He was present at the council of Basle, and was afterwards promoted to the bishopric of Avila. He died at the age of 40 years, in 1454, and was buried in the church of Avila. The following epitaph, expressive of his great erudition, was inscribed on his tomb.\n\nHic flupor est mundi qui facile difficilis omnem.\n\n\"This is the wonder of the world who treated of everything that could be known.\"\n\nThe numerous productions of Alphonso are sufficient proofs of his laborious industry; during his life he wrote no less than 27 volumes in folio, of which 24 are commentaries on the Scriptures; the rest are on theological ",
+          "text_end": "criptures; the rest are on theological subjects. By the order of Cardinal Ximenes they were printed at Venice in 1530, and in 1596; and at Cologne in 1612. Several of his pieces on ecclesiastical history, science, and literature in general, were separately printed at Salamanca in 1556, and also his commentary upon the Chronicon of Eusebius. Although high eulogiums have been bestowed upon his works, they have nevertheless in the current of time and human improvement fallen into oblivion, (Dupin.)"
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1815_v01_HAVING_BY_THIS",
+      "headword": "HAVING BY THIS",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 818,
+      "end_page": 819,
+      "word_count": 564,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'HAVING BY THIS' comes after 'AME'",
+      "text_preview": "g by this means provided for the gratification of his vanity, he began to exert himself to act for the general good of his people. It was his constant practice to attend to business in the mornings, and in the evenings he indulged in amusement and pleasure; but in these he sometimes tarnished the dignity of a king. Indeed Amasis loved his wine and his companion so much, previous to his elevation, that it is reported that he lived by theft, and when delaying upon detection, he was carried to the ",
+      "text_end": " but about this time he died, in 525 B.C., after a reign of 44 years. It is reported that after interment, his body was dug up by his enemies, and consumed by fire, which, according to the superstition of the Egyptians, constituted a singular calamity. (Anc. Univ. Hist.)\n\nAMASONIA. See Botany Index.",
+      "full_text": "g by this means provided for the gratification of his vanity, he began to exert himself to act for the general good of his people. It was his constant practice to attend to business in the mornings, and in the evenings he indulged in amusement and pleasure; but in these he sometimes tarnished the dignity of a king. Indeed Amasis loved his wine and his companion so much, previous to his elevation, that it is reported that he lived by theft, and when delaying upon detection, he was carried to the oracle of the place, who sometimes condemned and sometimes acquitted him. Recollecting the conduct of the oracles after he ascended the throne, he conceived a disrespect for them, because they were not able at all times to detect his robberies.\n\nTo prevent the evil consequences of an indolent populace, he enacted a law, that every person, under the penalty of a capital punishment, should appear before the governor of his respective province, and declare by what occupation he acquired his subsistence. Thus, under the prudent government of Amasis, Egypt enjoyed, for many years, great fertility and extensive population. He also employed his industry in the erection of several public works; among which were a portico to the temple of Minerva at Sais, and the removal of a house, all of one stone, to the temple. He also\nalso built the great temple of Isis at Memphis. He likewise erected a colossus before the temple of Vulcan, 75 feet in length, resting on its back, and on the base he erected two statues, each 20 feet high, cut out of the same stone. Besides these he raised several monuments in Greece.\n\nThe liberality and respect for science which Amasis displayed, and the encouragement he gave to learned strangers, particularly to the Greeks, to visit his country, manifested an enlightened mind. And to encourage Grecian strangers to remain in Egypt, he marked out settlements for them on the sea coast, permitted them to build temples, and to observe all the rites of their religion u",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AMARYNTHUS",
+          "start_page": 818,
+          "end_page": 818
+        },
+        {
+          "headword": "AMASIA",
+          "start_page": 818,
+          "end_page": 818
+        },
+        {
+          "headword": "AMASIS",
+          "start_page": 818,
+          "end_page": 818
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AMATHUS",
+          "start_page": 819
+        },
+        {
+          "headword": "AMATIQUES",
+          "start_page": 819
+        },
+        {
+          "headword": "AMATORII MUSCULI",
+          "start_page": 819
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_AMASIS",
+          "headword": "AMASIS",
+          "direction": "previous",
+          "start_page": 818,
+          "text_preview": "king of Egypt, ascended the throne B.C. 569, and commenced his reign with the death of his former master Apries. King Apries having sent an army to the assistance of the Libyans, which was totally routed, and great multitudes put to death, the common people conceived the idea, that the tyrannical prince had sent them to the field of battle, for no other purpose but to destroy great numbers of them, so that he might reign over the remainder with uncontrolled oppression. The consequence was, that a general insurrection arose, and all the multitude were in an uproar. Informed of this tumult, Apries sent Amasis, whom he deemed one of his most faithful adherents; but instead of endeavouring to reconcile the disaffected people to their prince, he secured them to his own interest; and while he was pretending to reproach their disloyalty, and endeavouring to recall them to duty, a soldier stepped in behind him, and, placing a helmet upon his head, saluted him king of Egypt. Amasis instantly to",
+          "text_end": " in which his visitants were accustomed to wash their feet, to be melted and cast in the form of a god, and set it up in the most frequented part of the city, and all the inhabitants did it homage. He then called an assembly of the people, and reminded them, that the gold they now venerated in the form of a god, was once a cistern, and consequently that although he was formerly a person of low rank, yet now that he was their king, they ought to give him the respect and homage due to his station."
+        },
+        {
+          "article_id": "1815_v01_AMASIA_s3",
+          "headword": "AMASIA",
+          "direction": "previous",
+          "start_page": 818,
+          "text_preview": "the name of the northern division of Leffler Asia, lying on the south shore of the Euxine sea in Natolia. It takes its name from Amasia the capital, mentioned in the preceding article.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AMARYNTHUS",
+          "headword": "AMARYNTHUS",
+          "direction": "previous",
+          "start_page": 818,
+          "text_preview": "in Ancient Geography, a hamlet of Eretrias, in the island of Euboea, about seven stadia distant from its walls. Here Diana was worshipped in an annual solemnity, at which those of Carythus assisted; hence the title of the goddess was Amarynthis and Amarysia.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AMATHUS_s2",
+          "headword": "AMATHUS",
+          "direction": "next",
+          "start_page": 819,
+          "text_preview": "in Ancient Geography, a town of the tribe of Gad, beyond Jordan; but whether at a greater or less distance from it, is not easy to determine. Eusebius places it in the lower Persea; Reland, in Ramoth Gilead; Gabinius, proconsul of Syria, established five juridical conventions in Judea; two of which were on the other side Jordan; one at Gadara, the other at Amathus (Josephus).",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1815_v01_END_OF_THE_FIRST_VOLUME",
+      "headword": "END OF THE FIRST VOLUME",
+      "edition_year": 1815,
+      "volume_num": 1,
+      "start_page": 843,
+      "end_page": 844,
+      "word_count": 25,
+      "volume_range": "A-AME",
+      "effective_start": "A",
+      "effective_end": "AME",
+      "reason": "'END OF THE FIRST VOLUME' comes after 'AME'",
+      "text_preview": "DIRECTIONS FOR PLACING THE PLATES OF VOL. I.\n\nPART I.\n\nPlate I. - Page 160\nII. III. - 228\nIV. - 244\nV. - 254",
+      "text_end": "",
+      "full_text": "DIRECTIONS FOR PLACING THE PLATES OF VOL. I.\n\nPART I.\n\nPlate I. - Page 160\nII. III. - 228\nIV. - 244\nV. - 254",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AMENTUM",
+          "start_page": 843,
+          "end_page": 843
+        },
+        {
+          "headword": "AMERADE",
+          "start_page": 843,
+          "end_page": 843
+        },
+        {
+          "headword": "AMERCEMENT",
+          "start_page": 843,
+          "end_page": 843
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v01_AMERCEMENT",
+          "headword": "AMERCEMENT",
+          "direction": "previous",
+          "start_page": 843,
+          "text_preview": "or AMERICIAMENT, in Law, a pecuniary punishment imposed on offenders at the mercy of the court. It differs from a fine in being imposed arbitrarily, in proportion to the fault; whereas a fine is a certain punishment settled expressly by some statute.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AMERADE",
+          "headword": "AMERADE",
+          "direction": "previous",
+          "start_page": 843,
+          "text_preview": "a kind of officers among the Saracens, answering to the governors of provinces among the Europeans. The name is originally the same with that of Emir.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v01_AMENTUM_s2",
+          "headword": "AMENTUM",
+          "direction": "previous",
+          "start_page": 843,
+          "text_preview": "in Roman Antiquity, a thong tied about the middle of a javelin or dart, and fastened to the forefinger, in order to recover the weapon as soon as it was discharged. The ancients made great use of the amentum, thinking it helped to enforce the blow. It also denotes a latchet that bound their sandals.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "batch_id": "vol_outliers_1823_v09_002",
+  "created": "2026-01-09T17:22:24.307096",
+  "edition_year": 1823,
+  "volume_num": 9,
+  "item_count": 1,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1823_v09_END_OF_THE_NINTH_VOLUME",
+      "headword": "END OF THE NINTH VOLUME",
+      "edition_year": 1823,
+      "volume_num": 9,
+      "start_page": 867,
+      "end_page": 868,
+      "word_count": 39,
+      "volume_range": "FOR-GOT",
+      "effective_start": "FOR",
+      "effective_end": "GOT",
+      "reason": "'END OF THE NINTH VOLUME' comes before 'FOR'",
+      "text_preview": "DIRECTIONS FOR PLACING THE PLATES OF VOL. IX.\n\nPART I.\n\n| Plate CCXXI.\u2014CCXXXIII. to face | Page |\n|---------------------------------|------|\n| CCXXXIV.                        | 208  |\n| CCXXXV.\u2014CCXXXVII.               | 304  |\n| CCXXXVIII.                      | 320  |\n| CCXXXIX.                        | 368  |",
+      "text_end": "OR PLACING THE PLATES OF VOL. IX.\n\nPART I.\n\n| Plate CCXXI.\u2014CCXXXIII. to face | Page |\n|---------------------------------|------|\n| CCXXXIV.                        | 208  |\n| CCXXXV.\u2014CCXXXVII.               | 304  |\n| CCXXXVIII.                      | 320  |\n| CCXXXIX.                        | 368  |",
+      "full_text": "DIRECTIONS FOR PLACING THE PLATES OF VOL. IX.\n\nPART I.\n\n| Plate CCXXI.\u2014CCXXXIII. to face | Page |\n|---------------------------------|------|\n| CCXXXIV.                        | 208  |\n| CCXXXV.\u2014CCXXXVII.               | 304  |\n| CCXXXVIII.                      | 320  |\n| CCXXXIX.                        | 368  |",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GOTHIC",
+          "start_page": 866,
+          "end_page": 866
+        },
+        {
+          "headword": "GOTHLAND",
+          "start_page": 866,
+          "end_page": 866
+        },
+        {
+          "headword": "GOTHS",
+          "start_page": 866,
+          "end_page": 867
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v09_GOTHS",
+          "headword": "GOTHS",
+          "direction": "previous",
+          "start_page": 866,
+          "text_preview": "a warlike nation, and above all others famous in the Roman history, came originally out of Scandinavia (the name by which the ancients distinguished the present countries of Sweden, Norway, Lapland, and Finnmark). According to the most probable accounts they were the first inhabitants of those countries; and from thence sent colonies into the islands of the Baltic, the Cimbrian Chersonesus, and the adjacent places yet destitute of inhabitants. The time of their first settling in Scandinavia, and the time when they first peopled with their colonies the above-mentioned islands and Chersonesus, are equally uncertain; though the Gothic annals suppose the latter to have happened in the time of Serug the great grandfather of Abraham. This first migration of the Goths is said to have been conducted by their king Eric; in which all the ancient Gothic chronicles, as well as the Danish and Swedish ones, agree. Their second migration is supposed to have happened many ages after; when, the above-m",
+          "text_end": "nd their dress is described by Apollinaris Sidonius in the following words: \"They are shod (says he) with high shoes made of hair, and reaching up to their ankles; their knees, thighs, and legs, are without any covering; their garments of various colours scarce reaching to the knee; their sleeves only cover the top of their arms; they wear green cassocks with a red border; their belts hang on their shoulders; their ears are covered with twisted locks; they use hooked lances and missile weapons.\""
+        },
+        {
+          "article_id": "1823_v09_GOTHLAND",
+          "headword": "GOTHLAND",
+          "direction": "previous",
+          "start_page": 866,
+          "text_preview": "the most southern province of Sweden, being a peninsula, encompassed on three sides by the Baltic sea, or the channel at the entrance of it. It is divided into several parts, which are, East Gothland, West Gothland, Smaland, Halland, Bleaking, and Schonen. It was a long time in the possession of the kings of Denmark, but was ceded to Sweden in 1654. The principal towns of Gothland are Calmar, Landscreen, Christianople, Daleburg, Gothenburgh, Helmstat, Lundem, Malmone, and Vexio.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v09_GOTHIC",
+          "headword": "GOTHIC",
+          "direction": "previous",
+          "start_page": 866,
+          "text_preview": "in general, whatever has any relation to the Goths; thus we say, Gothic customs, Gothic architecture, &c. See Architecture.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

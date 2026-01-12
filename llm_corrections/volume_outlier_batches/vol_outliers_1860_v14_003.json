@@ -1,0 +1,1769 @@
+{
+  "batch_id": "vol_outliers_1860_v14_003",
+  "created": "2026-01-09T17:23:01.887151",
+  "edition_year": 1860,
+  "volume_num": 14,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v14_GENUS_EDENTATA",
+      "headword": "GENUS EDENTATA",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 205,
+      "end_page": 205,
+      "word_count": 269,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS EDENTATA' comes before 'MAGNETISM'",
+      "text_preview": "Cuv. Teeth entirely wanting, but their functions partly supplied by several rows of small spines upon the palate, directed backwards. Muzzle long, slender, terminated by a small mouth, containing an extensible tongue. Body short and rounded, covered by many strong sharp spines. Legs short, each foot furnished with five strong claws, fit for digging. Tail very short.\n\nOnly two species of this genus have been as yet discovered,\u2014the E. hystric, which occurs in the vicinity of Port Jackson, and is a",
+      "text_end": "d move about chiefly during the rains. They are capable of supporting a long continued abstinence, and seem subject to a kind of numbness or peculiar stiffness (engourdissement), which will sometimes continue for upwards of eighty hours, and is frequently renewed when they are retained in captivity.",
+      "full_text": "Cuv. Teeth entirely wanting, but their functions partly supplied by several rows of small spines upon the palate, directed backwards. Muzzle long, slender, terminated by a small mouth, containing an extensible tongue. Body short and rounded, covered by many strong sharp spines. Legs short, each foot furnished with five strong claws, fit for digging. Tail very short.\n\nOnly two species of this genus have been as yet discovered,\u2014the E. hystric, which occurs in the vicinity of Port Jackson, and is almost entirely covered by strong spines, and the E. setosa, a native of Van Diemen's Land and the islands in Bass's Straits, characterized by fewer species, and a more ample coat of hair. (See Plate XI, figure 1.) Some observers incline to consider them as varieties of the same species, resulting from a difference in age. Both animals are nearly of the size, and somewhat of the aspect, of a hedgehog. They feed on insects, and burrow under ground with great strength and celerity, their feet and claws being admirably adapted to subterranean purposes. It is even said that they will make their way beneath a wall, or under a pretty strong pavement. During these exertions their bodies become greatly lengthened, so as to present a very different appearance from that of their ordinary state. They keep much underground during dry weather, and move about chiefly during the rains. They are capable of supporting a long continued abstinence, and seem subject to a kind of numbness or peculiar stiffness (engourdissement), which will sometimes continue for upwards of eighty hours, and is frequently renewed when they are retained in captivity.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS MYRMECOPHAGA",
+          "start_page": 203,
+          "end_page": 204
+        },
+        {
+          "headword": "GENUS OXYTEROPUS",
+          "start_page": 203,
+          "end_page": 203
+        },
+        {
+          "headword": "GENUS MANIS",
+          "start_page": 204,
+          "end_page": 205
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS ORNITHORHYNCHUS",
+          "start_page": 205
+        },
+        {
+          "headword": "GENUS HIPPOPOTAMUS",
+          "start_page": 208
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 208
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_MANIS",
+          "headword": "GENUS MANIS",
+          "direction": "previous",
+          "start_page": 204,
+          "text_preview": "Linn. In this genus also the teeth are entirely wanting. The body is extremely elongated, low upon the legs, and covered by strong corneous scales. The muzzle is very long, the mouth small and terminal, the tongue of remarkable length, round and extensible. All the feet have five toes, armed with strong talons. The tail is very long, covered with scales, and as broad at its base as the termination of the body.\n\nThe entire range of the animal kingdom scarcely presents us with species of a more marked and peculiar aspect than the manis tribe or pangolins. Instead of hair they are covered by a scaly armour, composed of triangular plates, placed upon each other like slates or tiles; and this remarkable character, combined with their attenuated form, gives them so much the appearance of reptiles, that they are often designated as scaly lizards. (See Plate X., figures 6 and 7.) We possess no very detailed knowledge of their natural history. They seem to be offensive creatures, feeding, like ",
+          "text_end": "aux et aux reptiles par leur \u00e9paulement et par les organes de la g\u00e9n\u00e9ration; ils manquent de m\u00e2choires et paraissent assez vraisemblablement produire des \u0153ufs ou quelque chose d'\u00e9quivalent, au lieu de mettre au jour des petits vivants. Ils semblent vouloir \u00e9chapper \u00e0 nos classifications par leur ost\u00e9ologie comme par leurs autres rapports. On ne peut comparer celle de leur t\u00eate \u00e0 celle d'aucun des ordres de Mammif\u00e8res; cependant c'est une vraie t\u00eate de Mammif\u00e8re et non d'ovipare d'aucune classe.\""
+        },
+        {
+          "article_id": "1860_v14_GENUS_OXYTEROPUS",
+          "headword": "GENUS OXYTEROPUS",
+          "direction": "previous",
+          "start_page": 203,
+          "text_preview": "Geoff. The only known species of this genus is an animal peculiar to Africa, called the Cape ant-eater (*Or. Cepentis*). It is of large dimensions, measuring between three and four feet in length, exclusive of the tail, which is nearly two feet long. Its grinders amount to six on each side of both jaws, or twenty-four in all, and are distinguished by a peculiar structure, being in the form of solid cylinders, traversed throughout their length by an infinity of little canals resembling the interior pores of canes. Its habits are nocturnal and subterranean, and its food consists of ants and termites, which it seizes with its long glutinous tongue, after having disarranged their dwellings with its paws. The ant-eaters properly so called belong to the following genus, and are peculiar to America, so that the species just noticed may be regarded merely as their African representative. Its flesh is used as food, and is indeed held in considerable estimation both by European and Hottentot, no",
+          "text_end": "d consists of ants and termites, which it seizes with its long glutinous tongue, after having disarranged their dwellings with its paws. The ant-eaters properly so called belong to the following genus, and are peculiar to America, so that the species just noticed may be regarded merely as their African representative. Its flesh is used as food, and is indeed held in considerable estimation both by European and Hottentot, notwithstanding the strong colour of formic acid with which it is infected."
+        },
+        {
+          "article_id": "1860_v14_GENUS_MYRMECOPHAGA",
+          "headword": "GENUS MYRMECOPHAGA",
+          "direction": "previous",
+          "start_page": 203,
+          "text_preview": "Linn. Teeth entirely wanting. Head more or less elongated, and terminated by a slender muzzle and a narrow mouth. Eyes and ears small, the latter rounded. Tongue very long, cylindrical, and capable of extension. Toes (varying in number with the spe...\nThis genus consists of the true ant-eaters, all of which are natives of South America, and occur chiefly in the countries bounded on the south-east by the Rio de la Plata, and on the north by the Oronooko. Naturalists are tolerably well acquainted with at least three species. They prey almost exclusively on ants and termites, which they take by means of their long, extensible, gluey tongues, aided, as excavating implements, by their vigorous claws. Like the sloths, there exists among themselves a considerable disparity of structure,\u2014the small two-toed species being provided with strong clavicles, attached to the sternum, while in the larger species these parts are entirely wanting.\n\nOne of the most notable features of the ant-eaters consi",
+          "text_end": "-eater (M. didactyla, Linn., see Plate X., figures 5 and 8) is rather an elegant animal. Its body measures little more in length than six inches, and, besides the great disparity of size, it is distinguished from the two preceding species by having only two claws to the fore feet and four to the hinder ones. It is covered by a beautiful soft fur, of a very pale yellowish-brown colour. It inhabits the woods of Guyana and Brazil, dwelling habitually on trees, and preying on ants and other insects."
+        },
+        {
+          "article_id": "1860_v14_GENUS_ORNITHORHYNCHUS",
+          "headword": "GENUS ORNITHORHYNCHUS",
+          "direction": "next",
+          "start_page": 205,
+          "text_preview": "Blumenbach. Platypus, Shaw. This genus differs from the preceding, in having two fibrous molar teeth placed in the gums on each side of both jaws. The muzzle is prolonged into a broad flattened beak, greatly resembling that of a duck. The head is small and round, with minute eyes, and no external ears. The nostrils are round, close to each other, and placed near the extremity of the upper mandible or jaw. The tongue is in some measure double,\u2014there being one within the beak, beset with villosities, and bearing another at its base, of a thicker form, with two small fleshy anterior points. The legs are very short, directed laterally, the anterior and posterior very distant from each other, owing to the comparatively lengthened form of the body. Each foot has five toes, those of the anterior extremities of nearly equal size, slender, separate, furnished with flattened nails, united by a peculiar membrane which projects beneath them; the posterior toes united as far as the nails. Tail rath",
+          "text_end": ", Mr Forbes informs us that a common price is from 5000 to 6000 rupees, but that he has seen one valued at 20,000. We must now terminate our miscellaneous notices of this interesting genus.\n\nIn the majority of this family the three sorts of teeth exist together, and the number of toes ranges from two to four. Those in which the toes are of an even number have their feet in a measure cloven, and approach the ruminants both in the structure of the skeleton, and the complicated form of the stomach."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v14_GENUS_ORNITHORHYNCHUS",
+      "headword": "GENUS ORNITHORHYNCHUS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 205,
+      "end_page": 208,
+      "word_count": 3880,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS ORNITHORHYNCHUS' comes before 'MAGNETISM'",
+      "text_preview": "Blumenbach. Platypus, Shaw. This genus differs from the preceding, in having two fibrous molar teeth placed in the gums on each side of both jaws. The muzzle is prolonged into a broad flattened beak, greatly resembling that of a duck. The head is small and round, with minute eyes, and no external ears. The nostrils are round, close to each other, and placed near the extremity of the upper mandible or jaw. The tongue is in some measure double,\u2014there being one within the beak, beset with villositi",
+      "text_end": "jority of this family the three sorts of teeth exist together, and the number of toes ranges from two to four. Those in which the toes are of an even number have their feet in a measure cloven, and approach the ruminants both in the structure of the skeleton, and the complicated form of the stomach.",
+      "full_text": "Blumenbach. Platypus, Shaw. This genus differs from the preceding, in having two fibrous molar teeth placed in the gums on each side of both jaws. The muzzle is prolonged into a broad flattened beak, greatly resembling that of a duck. The head is small and round, with minute eyes, and no external ears. The nostrils are round, close to each other, and placed near the extremity of the upper mandible or jaw. The tongue is in some measure double,\u2014there being one within the beak, beset with villosities, and bearing another at its base, of a thicker form, with two small fleshy anterior points. The legs are very short, directed laterally, the anterior and posterior very distant from each other, owing to the comparatively lengthened form of the body. Each foot has five toes, those of the anterior extremities of nearly equal size, slender, separate, furnished with flattened nails, united by a peculiar membrane which projects beneath them; the posterior toes united as far as the nails. Tail rather short, broad at the base. The body is covered with hair.\n\nOf this very singular genus it does not appear that more than a single species has as yet been ascertained,\u2014the Ornithorhynchus paradoxus of modern writers, first described by Dr Shaw under the name of Duck-billed Platypus. It is an animal of a very peculiar aspect (see Plate XI, figure 2), of amphibious habits, and a native of New Holland, where it inhabits marshes, and the banks of rivers, especially in the neighbourhood of Port Jackson. The general belief is, that it lays eggs. We think, however, that that fact has as yet been rather inferred than demonstrated; and it is certainly singular that it should not have been proved in those districts where the species is so often met with, and where so extraordinary a circumstance must have excited a corresponding degree of curiosity and attention. The following detailed particulars were published some time ago in an Italian periodical, but without any indication of the source fr",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS OXYTEROPUS",
+          "start_page": 203,
+          "end_page": 203
+        },
+        {
+          "headword": "GENUS MANIS",
+          "start_page": 204,
+          "end_page": 205
+        },
+        {
+          "headword": "GENUS EDENTATA",
+          "start_page": 205,
+          "end_page": 205
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS HIPPOPOTAMUS",
+          "start_page": 208
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 208
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 212
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_EDENTATA",
+          "headword": "GENUS EDENTATA",
+          "direction": "previous",
+          "start_page": 205,
+          "text_preview": "Cuv. Teeth entirely wanting, but their functions partly supplied by several rows of small spines upon the palate, directed backwards. Muzzle long, slender, terminated by a small mouth, containing an extensible tongue. Body short and rounded, covered by many strong sharp spines. Legs short, each foot furnished with five strong claws, fit for digging. Tail very short.\n\nOnly two species of this genus have been as yet discovered,\u2014the E. hystric, which occurs in the vicinity of Port Jackson, and is almost entirely covered by strong spines, and the E. setosa, a native of Van Diemen's Land and the islands in Bass's Straits, characterized by fewer species, and a more ample coat of hair. (See Plate XI, figure 1.) Some observers incline to consider them as varieties of the same species, resulting from a difference in age. Both animals are nearly of the size, and somewhat of the aspect, of a hedgehog. They feed on insects, and burrow under ground with great strength and celerity, their feet and c",
+          "text_end": "vement. During these exertions their bodies become greatly lengthened, so as to present a very different appearance from that of their ordinary state. They keep much underground during dry weather, and move about chiefly during the rains. They are capable of supporting a long continued abstinence, and seem subject to a kind of numbness or peculiar stiffness (engourdissement), which will sometimes continue for upwards of eighty hours, and is frequently renewed when they are retained in captivity."
+        },
+        {
+          "article_id": "1860_v14_GENUS_MANIS",
+          "headword": "GENUS MANIS",
+          "direction": "previous",
+          "start_page": 204,
+          "text_preview": "Linn. In this genus also the teeth are entirely wanting. The body is extremely elongated, low upon the legs, and covered by strong corneous scales. The muzzle is very long, the mouth small and terminal, the tongue of remarkable length, round and extensible. All the feet have five toes, armed with strong talons. The tail is very long, covered with scales, and as broad at its base as the termination of the body.\n\nThe entire range of the animal kingdom scarcely presents us with species of a more marked and peculiar aspect than the manis tribe or pangolins. Instead of hair they are covered by a scaly armour, composed of triangular plates, placed upon each other like slates or tiles; and this remarkable character, combined with their attenuated form, gives them so much the appearance of reptiles, that they are often designated as scaly lizards. (See Plate X., figures 6 and 7.) We possess no very detailed knowledge of their natural history. They seem to be offensive creatures, feeding, like ",
+          "text_end": "aux et aux reptiles par leur \u00e9paulement et par les organes de la g\u00e9n\u00e9ration; ils manquent de m\u00e2choires et paraissent assez vraisemblablement produire des \u0153ufs ou quelque chose d'\u00e9quivalent, au lieu de mettre au jour des petits vivants. Ils semblent vouloir \u00e9chapper \u00e0 nos classifications par leur ost\u00e9ologie comme par leurs autres rapports. On ne peut comparer celle de leur t\u00eate \u00e0 celle d'aucun des ordres de Mammif\u00e8res; cependant c'est une vraie t\u00eate de Mammif\u00e8re et non d'ovipare d'aucune classe.\""
+        },
+        {
+          "article_id": "1860_v14_GENUS_OXYTEROPUS",
+          "headword": "GENUS OXYTEROPUS",
+          "direction": "previous",
+          "start_page": 203,
+          "text_preview": "Geoff. The only known species of this genus is an animal peculiar to Africa, called the Cape ant-eater (*Or. Cepentis*). It is of large dimensions, measuring between three and four feet in length, exclusive of the tail, which is nearly two feet long. Its grinders amount to six on each side of both jaws, or twenty-four in all, and are distinguished by a peculiar structure, being in the form of solid cylinders, traversed throughout their length by an infinity of little canals resembling the interior pores of canes. Its habits are nocturnal and subterranean, and its food consists of ants and termites, which it seizes with its long glutinous tongue, after having disarranged their dwellings with its paws. The ant-eaters properly so called belong to the following genus, and are peculiar to America, so that the species just noticed may be regarded merely as their African representative. Its flesh is used as food, and is indeed held in considerable estimation both by European and Hottentot, no",
+          "text_end": "d consists of ants and termites, which it seizes with its long glutinous tongue, after having disarranged their dwellings with its paws. The ant-eaters properly so called belong to the following genus, and are peculiar to America, so that the species just noticed may be regarded merely as their African representative. Its flesh is used as food, and is indeed held in considerable estimation both by European and Hottentot, notwithstanding the strong colour of formic acid with which it is infected."
+        },
+        {
+          "article_id": "1860_v14_GENUS_HIPPOPOTAMUS",
+          "headword": "GENUS HIPPOPOTAMUS",
+          "direction": "next",
+          "start_page": 208,
+          "text_preview": "Linn.**\n\n| Incisives | Canines |\n|-----------|---------|\n| 4         | 1       |\n\nMolars:\n\n| 6\u20146 | = 36. |\n\nBody very bulky, legs proportionally short, the feet with four toes terminated by small hoofs. Lower incisives cylindrical, and directed obliquely forwards. Skin extremely thick, and hairless.\n\nOnly one species of this genus is distinctly known to naturalists, the *Hippopotamus amphibius* of systematic writers. Next to the elephant and rhinoceros this is probably the most bulky land animal with which we are acquainted. It is peculiar to Africa, where it inhabits the fresh waters of the central and southern portions of that sultry continent. It appears to have formerly existed in Lower Egypt, but has long since disappeared from that district. It is, however, well known in Abyssinia. Mr Salt had no sooner reached the banks of the Tacazze, a tributary of the Nile, than his attention was raised by the cry of his attendants of \"Gomari! Gomari!\" the native title of the hippopotamus; bu",
+          "text_end": "y of\n\n---\n\n1 Oriental Memoirs.\n2 In addition to the works already quoted, we have in this as in some other parts of our present treatise, availed ourselves of the natural history sketches contained in various volumes of the Edinburgh Cabinet Library.\n3 An additional molar is sometimes found on each side of the upper jaw, but it seems of a temporary nature.\n4 M. Desmoulins regards the species of Senegal as distinct from that of the southern extremity of Africa.\n5 See's Voyages to Algiers, p. 345."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v14_GENUS_HIPPOPOTAMUS",
+      "headword": "GENUS HIPPOPOTAMUS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 208,
+      "end_page": 208,
+      "word_count": 582,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS HIPPOPOTAMUS' comes before 'MAGNETISM'",
+      "text_preview": "Linn.**\n\n| Incisives | Canines |\n|-----------|---------|\n| 4         | 1       |\n\nMolars:\n\n| 6\u20146 | = 36. |\n\nBody very bulky, legs proportionally short, the feet with four toes terminated by small hoofs. Lower incisives cylindrical, and directed obliquely forwards. Skin extremely thick, and hairless.\n\nOnly one species of this genus is distinctly known to naturalists, the *Hippopotamus amphibius* of systematic writers. Next to the elephant and rhinoceros this is probably the most bulky land animal",
+      "text_end": " various volumes of the Edinburgh Cabinet Library.\n3 An additional molar is sometimes found on each side of the upper jaw, but it seems of a temporary nature.\n4 M. Desmoulins regards the species of Senegal as distinct from that of the southern extremity of Africa.\n5 See's Voyages to Algiers, p. 345.",
+      "full_text": "Linn.**\n\n| Incisives | Canines |\n|-----------|---------|\n| 4         | 1       |\n\nMolars:\n\n| 6\u20146 | = 36. |\n\nBody very bulky, legs proportionally short, the feet with four toes terminated by small hoofs. Lower incisives cylindrical, and directed obliquely forwards. Skin extremely thick, and hairless.\n\nOnly one species of this genus is distinctly known to naturalists, the *Hippopotamus amphibius* of systematic writers. Next to the elephant and rhinoceros this is probably the most bulky land animal with which we are acquainted. It is peculiar to Africa, where it inhabits the fresh waters of the central and southern portions of that sultry continent. It appears to have formerly existed in Lower Egypt, but has long since disappeared from that district. It is, however, well known in Abyssinia. Mr Salt had no sooner reached the banks of the Tacazze, a tributary of the Nile, than his attention was raised by the cry of his attendants of \"Gomari! Gomari!\" the native title of the hippopotamus; but he at that time succeeded in obtaining only a momentary glance, which sufficed to show that its action somewhat resembled the rolling of a grampus in the sea. The river was about fifty yards across, and between its folds, at the place alluded to, there are pools of almost immeasurable depth, resembling the wild and beautiful mountain tarns of the north of England, and in these the amphibious giants love to dwell. Mr Salt and his party stationed themselves on a high overhanging rock which commanded a deep translucent pool, and they did not remain long before a hippopotamus rose to the surface at a distance of twenty yards. He came up very confidently, raising his enormous head above the water with a violent snort. The muskets were instantly discharged, their contents seemed to strike directly on the forehead, on which he turned round his head with an angry scowl, and making a sudden plunge, descended to the bottom, with a peculiar noise between a grunt and a roar. The sportsmen for a ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS MANIS",
+          "start_page": 204,
+          "end_page": 205
+        },
+        {
+          "headword": "GENUS EDENTATA",
+          "start_page": 205,
+          "end_page": 205
+        },
+        {
+          "headword": "GENUS ORNITHORHYNCHUS",
+          "start_page": 205,
+          "end_page": 208
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 208
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 212
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 214
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_ORNITHORHYNCHUS",
+          "headword": "GENUS ORNITHORHYNCHUS",
+          "direction": "previous",
+          "start_page": 205,
+          "text_preview": "Blumenbach. Platypus, Shaw. This genus differs from the preceding, in having two fibrous molar teeth placed in the gums on each side of both jaws. The muzzle is prolonged into a broad flattened beak, greatly resembling that of a duck. The head is small and round, with minute eyes, and no external ears. The nostrils are round, close to each other, and placed near the extremity of the upper mandible or jaw. The tongue is in some measure double,\u2014there being one within the beak, beset with villosities, and bearing another at its base, of a thicker form, with two small fleshy anterior points. The legs are very short, directed laterally, the anterior and posterior very distant from each other, owing to the comparatively lengthened form of the body. Each foot has five toes, those of the anterior extremities of nearly equal size, slender, separate, furnished with flattened nails, united by a peculiar membrane which projects beneath them; the posterior toes united as far as the nails. Tail rath",
+          "text_end": ", Mr Forbes informs us that a common price is from 5000 to 6000 rupees, but that he has seen one valued at 20,000. We must now terminate our miscellaneous notices of this interesting genus.\n\nIn the majority of this family the three sorts of teeth exist together, and the number of toes ranges from two to four. Those in which the toes are of an even number have their feet in a measure cloven, and approach the ruminants both in the structure of the skeleton, and the complicated form of the stomach."
+        },
+        {
+          "article_id": "1860_v14_GENUS_EDENTATA",
+          "headword": "GENUS EDENTATA",
+          "direction": "previous",
+          "start_page": 205,
+          "text_preview": "Cuv. Teeth entirely wanting, but their functions partly supplied by several rows of small spines upon the palate, directed backwards. Muzzle long, slender, terminated by a small mouth, containing an extensible tongue. Body short and rounded, covered by many strong sharp spines. Legs short, each foot furnished with five strong claws, fit for digging. Tail very short.\n\nOnly two species of this genus have been as yet discovered,\u2014the E. hystric, which occurs in the vicinity of Port Jackson, and is almost entirely covered by strong spines, and the E. setosa, a native of Van Diemen's Land and the islands in Bass's Straits, characterized by fewer species, and a more ample coat of hair. (See Plate XI, figure 1.) Some observers incline to consider them as varieties of the same species, resulting from a difference in age. Both animals are nearly of the size, and somewhat of the aspect, of a hedgehog. They feed on insects, and burrow under ground with great strength and celerity, their feet and c",
+          "text_end": "vement. During these exertions their bodies become greatly lengthened, so as to present a very different appearance from that of their ordinary state. They keep much underground during dry weather, and move about chiefly during the rains. They are capable of supporting a long continued abstinence, and seem subject to a kind of numbness or peculiar stiffness (engourdissement), which will sometimes continue for upwards of eighty hours, and is frequently renewed when they are retained in captivity."
+        },
+        {
+          "article_id": "1860_v14_GENUS_MANIS",
+          "headword": "GENUS MANIS",
+          "direction": "previous",
+          "start_page": 204,
+          "text_preview": "Linn. In this genus also the teeth are entirely wanting. The body is extremely elongated, low upon the legs, and covered by strong corneous scales. The muzzle is very long, the mouth small and terminal, the tongue of remarkable length, round and extensible. All the feet have five toes, armed with strong talons. The tail is very long, covered with scales, and as broad at its base as the termination of the body.\n\nThe entire range of the animal kingdom scarcely presents us with species of a more marked and peculiar aspect than the manis tribe or pangolins. Instead of hair they are covered by a scaly armour, composed of triangular plates, placed upon each other like slates or tiles; and this remarkable character, combined with their attenuated form, gives them so much the appearance of reptiles, that they are often designated as scaly lizards. (See Plate X., figures 6 and 7.) We possess no very detailed knowledge of their natural history. They seem to be offensive creatures, feeding, like ",
+          "text_end": "aux et aux reptiles par leur \u00e9paulement et par les organes de la g\u00e9n\u00e9ration; ils manquent de m\u00e2choires et paraissent assez vraisemblablement produire des \u0153ufs ou quelque chose d'\u00e9quivalent, au lieu de mettre au jour des petits vivants. Ils semblent vouloir \u00e9chapper \u00e0 nos classifications par leur ost\u00e9ologie comme par leurs autres rapports. On ne peut comparer celle de leur t\u00eate \u00e0 celle d'aucun des ordres de Mammif\u00e8res; cependant c'est une vraie t\u00eate de Mammif\u00e8re et non d'ovipare d'aucune classe.\""
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s6",
+          "headword": "MAMMALIA",
+          "direction": "next",
+          "start_page": 208,
+          "text_preview": "GENUS SUS, Linn.\n\nIncisors $\\frac{4}{6}$ or $\\frac{6}{6}$, canines $\\frac{1}{1}$, molars $\\frac{7}{7} = 42$ or $44$. All the feet furnished with four toes, of which two are anterior or intermediate, and of larger size, and two are lateral or posterior, and so short as scarcely to touch the ground. The lower incisives always project forwards, and the canine teeth, even those of the upper jaw, likewise project and curve upwards. The snout is lengthened, and truncated at the point.\n\nThe wild boar (Sus aper), the supposed origin of our domestic breeds of swine, occurs in many parts of Europe, Asia, Africa, and the islands of the Indian Sea. Its body is of a brownish-black colour, covered with bristles, which are hard and stiff, especially along the spine. It is an animal of great strength, and considerable activity; but its dimensions though large, probably never exceed those of an overgrown individual of the domestic breed. Wherever the boar occurs in a state of nature, he is found in moi",
+          "text_end": "\n\nby Bruce must have been copied, for convenience, from the one-horned species of Buffon, with the addition of a second horn, as the two-horned rhinoceros wants the folds in the skin, which are nevertheless represented by the Abyssinian traveller.\n\n1 Bruce's Travels, Appendix, p. 136, pl. 23. See also the late Dr Scott's Essay in Wernerian Memoirs, vol. vi.\n\n2 Annales des Sciences Nat. 1829, t. i. p. 26.\n\n3 See Linn. Trans. vol. xiii. part 24, and Horsfield's Zoological Researches.\nPachydermata."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v14_GENUS_CAMELUS",
+      "headword": "GENUS CAMELUS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 216,
+      "end_page": 217,
+      "word_count": 719,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS CAMELUS' comes before 'MAGNETISM'",
+      "text_preview": "Linn. Incisives \\( \\frac{2}{6} \\), canines \\( \\frac{1}{1} \\), false molars \\( \\frac{1}{1} \\), molars \\( \\frac{5}{5} \\); \\( = 36 \\). The upper lateral incisors assume the form of canine teeth, and the canines themselves are straight and strong. The head is lengthened, the upper lip cloven, the nostrils consist of two clefts capable of being opened and closed. The eyes are projecting; the ears rather small. The neck and limbs extremely long. The feet are not cloven, but are furnished beneath with ",
+      "text_end": "ancient of the Greek or Roman writers. It has indeed been remarked as a singular circumstance, that the Romans who waged such frequent wars in Africa, should not have thought of mentioning these animals, till Procopius noticed camel-riding Moors in arms against Solomon, the Lieutenant of Belisarius.",
+      "full_text": "Linn. Incisives \\( \\frac{2}{6} \\), canines \\( \\frac{1}{1} \\), false molars \\( \\frac{1}{1} \\), molars \\( \\frac{5}{5} \\); \\( = 36 \\). The upper lateral incisors assume the form of canine teeth, and the canines themselves are straight and strong. The head is lengthened, the upper lip cloven, the nostrils consist of two clefts capable of being opened and closed. The eyes are projecting; the ears rather small. The neck and limbs extremely long. The feet are not cloven, but are furnished beneath with a very broad horny sole, and the two toes are each terminated by a small short somewhat curved nail. There are one or more fatty humps along the dorsal region. The mammae are four in number.\n\nOf this remarkable genus there are two species, or at least two well marked races, usually regarded as distinct. The Bactrian species, or Camel properly so called (C. Bactrianus, Linn.), is distinguished by its pair of humps, one above the shoulders, and another near the rump. It is an animal of Asiatic origin, and is said still to occur in the wild state in the desert of Shamo, on the frontiers of the Celestial Empire. It is used as a beast of burden in Turkestan and Tibet, and even as far north as the shores of Lake Baikal. It is consequently capable of being acclimated without much difficulty in any temperate region, and was introduced into Tuscany by the Grand Duke Leopold, where it still breeds in the maremman of the Pisan district.\n\n---\n\n1 See the article Cerf in the Diction. Classique d'Hist. Nat., t. iii. p. 371; consult also the words Bois and Cornes of the same work.\n2 Comp. Anat. Lect. xiv. p. 623.\nThough useful as a beast of burden, it is not there employed at all extensively for the general purposes of rural labour, being chiefly occupied in carrying stores of firewood to the city. This animal is more restricted in a southern direction than the single humped species.\n\nThe other species of camel usually called the dromedary (C. dromedarius, Linn.), has only a single hump upon",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "MAMMALIA"
+      },
+      "prev_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 208,
+          "end_page": 212
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 212,
+          "end_page": 214
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 214,
+          "end_page": 216
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS AUCHENIA",
+          "start_page": 217
+        },
+        {
+          "headword": "GENUS CERVUS",
+          "start_page": 217
+        },
+        {
+          "headword": "GENUS MOSCHUS",
+          "start_page": 217
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MAMMALIA_s8",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 214,
+          "text_preview": "Pecora. cisive teeth and the molars there is an empty space, in which, in certain genera, are implanted the canines. The molars, almost always six on each side of both jaws, have their crowns marked by two double crosses, of which the convexity is turned inwards in the upper, and outwards in the lower teeth. The four limbs are terminated by two toes (hence the title of BISULCA, bestowed by Illiger), each covered by a hoof, and behind these hoofs there are sometimes two small spur-like projections,\u2014the vestiges of lateral toes. The two bones of the metacarpus and metatarsus are united into one, commonly named the coron bone; but in certain species the vestiges of lateral bones are observable.\n\nThe most singular functional character in the natural economy of the tribes of our present order, consists of that ruminating faculty from which they derive their most familiar appellation. They possess the power of re-chewing their aliments, by bringing back the food for a second time into the mo",
+          "text_end": "a membranous space; at least such is the structure observable in the young giraffe which was transported to Paris by Delalande. These horns are permanent, and in relation to several of their anatomical and physiological characters, may be regarded as intermediate between the antlers of stage, and the horns properly so called, of the other tribes.\n\nWe may observe, in conclusion, that ruminating animals occur in almost all parts of Europe, Asia, Africa, and America. None are native to New Holland."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s7",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 212,
+          "text_preview": "cient for the determination of species in the case of almost all other groups of which we possess an osteological knowledge. We shall devote a few sentences to each of the animals above enumerated.\n\nEquus caballus. The Horse. Our cultivated breeds of this invaluable creature are now so numerous, that a volume would scarcely suffice for their record. We shall here confine ourselves to the few facts within our knowledge which illustrate its natural history, properly so called,\u2014for one great effort of the zoologist should consist in the distinguishing of facts which depend on instinct, and are therefore natural to an animal, from those which result artificially from education and an altered mode of life,\u2014in ascertaining what really appertains to it as a natural inheritance, as well as what it may have derived through the intervention of man,\u2014and in avoiding to confound \"the animal with the slave, the beast of burden with the creature of God.\" In the present case, however, it must be admit",
+          "text_end": "e order are somewhat negative. There are seldom any incisive teeth in the upper jaw, and those of the lower are usually eight in number. Between the in-\n\n---\n\n1 Bewick's Quadrupeds.\n2 Mom. Liturg., 18th livrals.\n3 Dion Cassius, lib. 75, cap. 14.\n4 The Dama or wild Paarde of the Hottentots (Equus Zebra, Linn.) erroneously regarded by Mr Burchell as the newly discovered species.\n5 See a paper entitled \"a Revision of the Equidae,\" in Zoological Journal, vol. I. p. 241.\n6 Regne Animal, t. i. p. 253."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s6",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 208,
+          "text_preview": "GENUS SUS, Linn.\n\nIncisors $\\frac{4}{6}$ or $\\frac{6}{6}$, canines $\\frac{1}{1}$, molars $\\frac{7}{7} = 42$ or $44$. All the feet furnished with four toes, of which two are anterior or intermediate, and of larger size, and two are lateral or posterior, and so short as scarcely to touch the ground. The lower incisives always project forwards, and the canine teeth, even those of the upper jaw, likewise project and curve upwards. The snout is lengthened, and truncated at the point.\n\nThe wild boar (Sus aper), the supposed origin of our domestic breeds of swine, occurs in many parts of Europe, Asia, Africa, and the islands of the Indian Sea. Its body is of a brownish-black colour, covered with bristles, which are hard and stiff, especially along the spine. It is an animal of great strength, and considerable activity; but its dimensions though large, probably never exceed those of an overgrown individual of the domestic breed. Wherever the boar occurs in a state of nature, he is found in moi",
+          "text_end": "\n\nby Bruce must have been copied, for convenience, from the one-horned species of Buffon, with the addition of a second horn, as the two-horned rhinoceros wants the folds in the skin, which are nevertheless represented by the Abyssinian traveller.\n\n1 Bruce's Travels, Appendix, p. 136, pl. 23. See also the late Dr Scott's Essay in Wernerian Memoirs, vol. vi.\n\n2 Annales des Sciences Nat. 1829, t. i. p. 26.\n\n3 See Linn. Trans. vol. xiii. part 24, and Horsfield's Zoological Researches.\nPachydermata."
+        },
+        {
+          "article_id": "1860_v14_GENUS_AUCHENIA",
+          "headword": "GENUS AUCHENIA",
+          "direction": "next",
+          "start_page": 217,
+          "text_preview": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (Camelus llaconia, Linn.), and the Vigogna (Camelus vigognia, Linn.). Of these the former is as large as a stag. It is covered with long coarse chestnut coloured hair, of varying hue, in the domestic state. It lives in troops upon the cold and lofty ranges of the Andes, and was the only native beast of burden in Peru at the time of the discovery of that country by Europeans. The animal known as the Alpaca (see Plate XII., figures 4 and 5) is now regarded as a woolly-haired variety of the lama. The",
+          "text_end": ", and is easily deterred from its accustomed paths of safety by a stretched cord, from which pieces of coloured rags are here and there suspended. In this state of uncertainty and terror it is not only easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that they are massacred, it would probably be more politic rather to sheer than slay them."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v14_GENUS_AUCHENIA",
+      "headword": "GENUS AUCHENIA",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 217,
+      "end_page": 217,
+      "word_count": 380,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS AUCHENIA' comes before 'MAGNETISM'",
+      "text_preview": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (C",
+      "text_end": "y easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that they are massacred, it would probably be more politic rather to sheer than slay them.",
+      "full_text": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (Camelus llaconia, Linn.), and the Vigogna (Camelus vigognia, Linn.). Of these the former is as large as a stag. It is covered with long coarse chestnut coloured hair, of varying hue, in the domestic state. It lives in troops upon the cold and lofty ranges of the Andes, and was the only native beast of burden in Peru at the time of the discovery of that country by Europeans. The animal known as the Alpaca (see Plate XII., figures 4 and 5) is now regarded as a woolly-haired variety of the lama. The Vigogna is of smaller size, and is characterized by a woolly fawn-coloured coat, of a texture so admirably soft and fine as to be highly prized for the fabrication of various stuffs. This species inhabits a vast extent of the Andes in the neighbourhood of the region of perpetual snow. When transported to the lower plains of Chili and Peru it becomes unhealthy, and does not long survive. It is of a more savage nature than the preceding species, and has not yet been effectively reduced to a domestic state. It is alleged never to drink. The Vigogna is of a very fearful disposition, and is easily deterred from its accustomed paths of safety by a stretched cord, from which pieces of coloured rags are here and there suspended. In this state of uncertainty and terror it is not only easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 212,
+          "end_page": 214
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 214,
+          "end_page": 216
+        },
+        {
+          "headword": "GENUS CAMELUS",
+          "start_page": 216,
+          "end_page": 217
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS CERVUS",
+          "start_page": 217
+        },
+        {
+          "headword": "GENUS MOSCHUS",
+          "start_page": 217
+        },
+        {
+          "headword": "GENUS CAPRA",
+          "start_page": 223
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_CAMELUS",
+          "headword": "GENUS CAMELUS",
+          "direction": "previous",
+          "start_page": 216,
+          "text_preview": "Linn. Incisives \\( \\frac{2}{6} \\), canines \\( \\frac{1}{1} \\), false molars \\( \\frac{1}{1} \\), molars \\( \\frac{5}{5} \\); \\( = 36 \\). The upper lateral incisors assume the form of canine teeth, and the canines themselves are straight and strong. The head is lengthened, the upper lip cloven, the nostrils consist of two clefts capable of being opened and closed. The eyes are projecting; the ears rather small. The neck and limbs extremely long. The feet are not cloven, but are furnished beneath with a very broad horny sole, and the two toes are each terminated by a small short somewhat curved nail. There are one or more fatty humps along the dorsal region. The mammae are four in number.\n\nOf this remarkable genus there are two species, or at least two well marked races, usually regarded as distinct. The Bactrian species, or Camel properly so called (C. Bactrianus, Linn.), is distinguished by its pair of humps, one above the shoulders, and another near the rump. It is an animal of Asiatic ori",
+          "text_end": "er in Genesis (chap. xii. v. 16) as among the gifts bestowed by Pharaoh on Abram, and it must therefore have been well known on the banks of the mysterious Nile, at a period prior to that of the most ancient of the Greek or Roman writers. It has indeed been remarked as a singular circumstance, that the Romans who waged such frequent wars in Africa, should not have thought of mentioning these animals, till Procopius noticed camel-riding Moors in arms against Solomon, the Lieutenant of Belisarius."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s8",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 214,
+          "text_preview": "Pecora. cisive teeth and the molars there is an empty space, in which, in certain genera, are implanted the canines. The molars, almost always six on each side of both jaws, have their crowns marked by two double crosses, of which the convexity is turned inwards in the upper, and outwards in the lower teeth. The four limbs are terminated by two toes (hence the title of BISULCA, bestowed by Illiger), each covered by a hoof, and behind these hoofs there are sometimes two small spur-like projections,\u2014the vestiges of lateral toes. The two bones of the metacarpus and metatarsus are united into one, commonly named the coron bone; but in certain species the vestiges of lateral bones are observable.\n\nThe most singular functional character in the natural economy of the tribes of our present order, consists of that ruminating faculty from which they derive their most familiar appellation. They possess the power of re-chewing their aliments, by bringing back the food for a second time into the mo",
+          "text_end": "a membranous space; at least such is the structure observable in the young giraffe which was transported to Paris by Delalande. These horns are permanent, and in relation to several of their anatomical and physiological characters, may be regarded as intermediate between the antlers of stage, and the horns properly so called, of the other tribes.\n\nWe may observe, in conclusion, that ruminating animals occur in almost all parts of Europe, Asia, Africa, and America. None are native to New Holland."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s7",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 212,
+          "text_preview": "cient for the determination of species in the case of almost all other groups of which we possess an osteological knowledge. We shall devote a few sentences to each of the animals above enumerated.\n\nEquus caballus. The Horse. Our cultivated breeds of this invaluable creature are now so numerous, that a volume would scarcely suffice for their record. We shall here confine ourselves to the few facts within our knowledge which illustrate its natural history, properly so called,\u2014for one great effort of the zoologist should consist in the distinguishing of facts which depend on instinct, and are therefore natural to an animal, from those which result artificially from education and an altered mode of life,\u2014in ascertaining what really appertains to it as a natural inheritance, as well as what it may have derived through the intervention of man,\u2014and in avoiding to confound \"the animal with the slave, the beast of burden with the creature of God.\" In the present case, however, it must be admit",
+          "text_end": "e order are somewhat negative. There are seldom any incisive teeth in the upper jaw, and those of the lower are usually eight in number. Between the in-\n\n---\n\n1 Bewick's Quadrupeds.\n2 Mom. Liturg., 18th livrals.\n3 Dion Cassius, lib. 75, cap. 14.\n4 The Dama or wild Paarde of the Hottentots (Equus Zebra, Linn.) erroneously regarded by Mr Burchell as the newly discovered species.\n5 See a paper entitled \"a Revision of the Equidae,\" in Zoological Journal, vol. I. p. 241.\n6 Regne Animal, t. i. p. 253."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CERVUS",
+          "headword": "GENUS CERVUS",
+          "direction": "next",
+          "start_page": 217,
+          "text_preview": "Linn. Teeth of the same amount as in the preceding genus; the canines of the males, however, being shorter. Branched antlers, solid and deciduous, and of greater or less extent, according to age, and the constitution of each particular kind. Mammae four.\n\nThis genus contains those magnificent and diversified species commonly called Deer. These animals are, with\n\n---\n\n1 Griffith's Animal Kingdom, vol. iv. p. 46. See also M. Desmoulins' Memoire sur la Patrie du Chameau, &c. in Mem. du Mus. t. ix.\n2 Historia Naturale del Chili. For the various species, real or supposed, see also the Synopsis of Mammalia (in Griffith's Animal Kingdom, vol. v.), and the article Chameau in Diction. Classique d'Hist. Nat. t. iii. p. 447.\n3 Linn. Trans. vol. xiii.\n4 In his Historical Relation of Ceylon.\nPecora, few exceptions, characterized by extremely graceful forms, by light but strong proportions, and by the energy and activity of their general movements. As constituting the noblest objects of the chase, a",
+          "text_end": "nteresting experiment, not likely to be attended by much difficulty, and which might probably lead to valuable results. The precise extent of its territorial range has not yet been ascertained, but it is known to occur from the 40\u00b0 to the 64\u00b0 or 65\u00b0 of north latitude. It is scarcely ever seen at any distance from the mountains, and is said to be less numerous on the eastern than the western slopes of its native range. Its flesh is rather hard and dry, and somewhat unsavoury from its musky odour."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v14_GENUS_CERVUS",
+      "headword": "GENUS CERVUS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 217,
+      "end_page": 223,
+      "word_count": 7777,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS CERVUS' comes before 'MAGNETISM'",
+      "text_preview": "Linn. Teeth of the same amount as in the preceding genus; the canines of the males, however, being shorter. Branched antlers, solid and deciduous, and of greater or less extent, according to age, and the constitution of each particular kind. Mammae four.\n\nThis genus contains those magnificent and diversified species commonly called Deer. These animals are, with\n\n---\n\n1 Griffith's Animal Kingdom, vol. iv. p. 46. See also M. Desmoulins' Memoire sur la Patrie du Chameau, &c. in Mem. du Mus. t. ix.\n",
+      "text_end": " is known to occur from the 40\u00b0 to the 64\u00b0 or 65\u00b0 of north latitude. It is scarcely ever seen at any distance from the mountains, and is said to be less numerous on the eastern than the western slopes of its native range. Its flesh is rather hard and dry, and somewhat unsavoury from its musky odour.",
+      "full_text": "Linn. Teeth of the same amount as in the preceding genus; the canines of the males, however, being shorter. Branched antlers, solid and deciduous, and of greater or less extent, according to age, and the constitution of each particular kind. Mammae four.\n\nThis genus contains those magnificent and diversified species commonly called Deer. These animals are, with\n\n---\n\n1 Griffith's Animal Kingdom, vol. iv. p. 46. See also M. Desmoulins' Memoire sur la Patrie du Chameau, &c. in Mem. du Mus. t. ix.\n2 Historia Naturale del Chili. For the various species, real or supposed, see also the Synopsis of Mammalia (in Griffith's Animal Kingdom, vol. v.), and the article Chameau in Diction. Classique d'Hist. Nat. t. iii. p. 447.\n3 Linn. Trans. vol. xiii.\n4 In his Historical Relation of Ceylon.\nPecora, few exceptions, characterized by extremely graceful forms, by light but strong proportions, and by the energy and activity of their general movements. As constituting the noblest objects of the chase, as well as affording the choicest subjects for the larder, they have long been regarded with great interest by the human race. The genus is distributed over all the greater divisions of the earth, with the exception of New Holland, and its numerous species have been formed in modern times into many minor groups, an exposition of the detailed complexities of which would be incompatible with the compendious nature of the present treatise.\n\nTwo species (the rein-deer and the elk) seem common to the northern parts of Europe and America; five or six are peculiar to North America; about an equal number occur in the New World, south of the equator; and a much greater variety inhabit India, China, and the great islands of the south-east of Asia. The generality of deer vary in colour according to age and season, and are subject to those constitutional changes which physiologists distinguish by the names of abdimism and melanism,\u2014the former applied to the white, the latter to the black varieties ",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "MAMMALIA"
+      },
+      "prev_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 214,
+          "end_page": 216
+        },
+        {
+          "headword": "GENUS CAMELUS",
+          "start_page": 216,
+          "end_page": 217
+        },
+        {
+          "headword": "GENUS AUCHENIA",
+          "start_page": 217,
+          "end_page": 217
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS MOSCHUS",
+          "start_page": 217
+        },
+        {
+          "headword": "GENUS CAPRA",
+          "start_page": 223
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_AUCHENIA",
+          "headword": "GENUS AUCHENIA",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (Camelus llaconia, Linn.), and the Vigogna (Camelus vigognia, Linn.). Of these the former is as large as a stag. It is covered with long coarse chestnut coloured hair, of varying hue, in the domestic state. It lives in troops upon the cold and lofty ranges of the Andes, and was the only native beast of burden in Peru at the time of the discovery of that country by Europeans. The animal known as the Alpaca (see Plate XII., figures 4 and 5) is now regarded as a woolly-haired variety of the lama. The",
+          "text_end": ", and is easily deterred from its accustomed paths of safety by a stretched cord, from which pieces of coloured rags are here and there suspended. In this state of uncertainty and terror it is not only easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that they are massacred, it would probably be more politic rather to sheer than slay them."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CAMELUS",
+          "headword": "GENUS CAMELUS",
+          "direction": "previous",
+          "start_page": 216,
+          "text_preview": "Linn. Incisives \\( \\frac{2}{6} \\), canines \\( \\frac{1}{1} \\), false molars \\( \\frac{1}{1} \\), molars \\( \\frac{5}{5} \\); \\( = 36 \\). The upper lateral incisors assume the form of canine teeth, and the canines themselves are straight and strong. The head is lengthened, the upper lip cloven, the nostrils consist of two clefts capable of being opened and closed. The eyes are projecting; the ears rather small. The neck and limbs extremely long. The feet are not cloven, but are furnished beneath with a very broad horny sole, and the two toes are each terminated by a small short somewhat curved nail. There are one or more fatty humps along the dorsal region. The mammae are four in number.\n\nOf this remarkable genus there are two species, or at least two well marked races, usually regarded as distinct. The Bactrian species, or Camel properly so called (C. Bactrianus, Linn.), is distinguished by its pair of humps, one above the shoulders, and another near the rump. It is an animal of Asiatic ori",
+          "text_end": "er in Genesis (chap. xii. v. 16) as among the gifts bestowed by Pharaoh on Abram, and it must therefore have been well known on the banks of the mysterious Nile, at a period prior to that of the most ancient of the Greek or Roman writers. It has indeed been remarked as a singular circumstance, that the Romans who waged such frequent wars in Africa, should not have thought of mentioning these animals, till Procopius noticed camel-riding Moors in arms against Solomon, the Lieutenant of Belisarius."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s8",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 214,
+          "text_preview": "Pecora. cisive teeth and the molars there is an empty space, in which, in certain genera, are implanted the canines. The molars, almost always six on each side of both jaws, have their crowns marked by two double crosses, of which the convexity is turned inwards in the upper, and outwards in the lower teeth. The four limbs are terminated by two toes (hence the title of BISULCA, bestowed by Illiger), each covered by a hoof, and behind these hoofs there are sometimes two small spur-like projections,\u2014the vestiges of lateral toes. The two bones of the metacarpus and metatarsus are united into one, commonly named the coron bone; but in certain species the vestiges of lateral bones are observable.\n\nThe most singular functional character in the natural economy of the tribes of our present order, consists of that ruminating faculty from which they derive their most familiar appellation. They possess the power of re-chewing their aliments, by bringing back the food for a second time into the mo",
+          "text_end": "a membranous space; at least such is the structure observable in the young giraffe which was transported to Paris by Delalande. These horns are permanent, and in relation to several of their anatomical and physiological characters, may be regarded as intermediate between the antlers of stage, and the horns properly so called, of the other tribes.\n\nWe may observe, in conclusion, that ruminating animals occur in almost all parts of Europe, Asia, Africa, and America. None are native to New Holland."
+        },
+        {
+          "article_id": "1860_v14_GENUS_MOSCHUS",
+          "headword": "GENUS MOSCHUS",
+          "direction": "next",
+          "start_page": 217,
+          "text_preview": "Linn. (Male) incisives 0 canines 1\u20141 molars 6 6 = 34. (Female) incisives 0 canines 0\u20140 molars 6 6 = 32. The canine teeth in the upper jaw of the males of this genus are long, vertical, compressed, and slightly curved backwards. They protrude considerably from the mouth. (See Plate XII., figure 6.) The feet are hoofed and cloven, like those of the ordinary ruminants. The mammae are two or four in number.\n\nThe musk deer seem confined to the temperate and southern parts of Asia, and the great eastern islands. They are remarkable for their elegant and graceful forms. Although the substance called musk has been known throughout Central Asia from time immemorial, it does not appear that the species which produced it was described by the ancients, or in any way identified till the days of Abuzeid Serassi, an Arabian author, who mentions it as a deer without horns. A knowledge of it seems to have been first introduced into Western Europe by Serapion, a writer of the eighth century. The musk de",
+          "text_end": "ushes. Several other species of this genus have been described by naturalists, such as the nogu or Java musk (M. javanicus, Raffles,* see Plate XII., figure 7), and the beautiful Chevrotain (M. pygmaeus), one of the smallest of the ruminating order. The body of the latter does not measure more than eight inches long. The minima is a Ceylonese species first described by Knox.4\n\nIn all the ensuing genera of the ruminating tribes, the head (at least of the males) is furnished with antlers or horns."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1860_v14_GENUS_MOSCHUS",
+      "headword": "GENUS MOSCHUS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 217,
+      "end_page": 217,
+      "word_count": 398,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS MOSCHUS' comes before 'MAGNETISM'",
+      "text_preview": "Linn. (Male) incisives 0 canines 1\u20141 molars 6 6 = 34. (Female) incisives 0 canines 0\u20140 molars 6 6 = 32. The canine teeth in the upper jaw of the males of this genus are long, vertical, compressed, and slightly curved backwards. They protrude considerably from the mouth. (See Plate XII., figure 6.) The feet are hoofed and cloven, like those of the ordinary ruminants. The mammae are two or four in number.\n\nThe musk deer seem confined to the temperate and southern parts of Asia, and the great easte",
+      "text_end": "us), one of the smallest of the ruminating order. The body of the latter does not measure more than eight inches long. The minima is a Ceylonese species first described by Knox.4\n\nIn all the ensuing genera of the ruminating tribes, the head (at least of the males) is furnished with antlers or horns.",
+      "full_text": "Linn. (Male) incisives 0 canines 1\u20141 molars 6 6 = 34. (Female) incisives 0 canines 0\u20140 molars 6 6 = 32. The canine teeth in the upper jaw of the males of this genus are long, vertical, compressed, and slightly curved backwards. They protrude considerably from the mouth. (See Plate XII., figure 6.) The feet are hoofed and cloven, like those of the ordinary ruminants. The mammae are two or four in number.\n\nThe musk deer seem confined to the temperate and southern parts of Asia, and the great eastern islands. They are remarkable for their elegant and graceful forms. Although the substance called musk has been known throughout Central Asia from time immemorial, it does not appear that the species which produced it was described by the ancients, or in any way identified till the days of Abuzeid Serassi, an Arabian author, who mentions it as a deer without horns. A knowledge of it seems to have been first introduced into Western Europe by Serapion, a writer of the eighth century. The musk deer, properly so called (Moschus moschiferus, Linn.) is nearly as large as a roebuck, and occurs over a vast extent of Central Asia, from Thibet to the vicinity of Lake Baikal. It is also frequent in many parts of India, and the mountainous provinces of the Chinese empire. The prized perfume is obtained from a small bag placed in the lower region of the abdomen of the males. There are various modes of capturing the musk deer or che-kiang, as it is called in the East. It is frequently shot. The sportsman, however, must climb among the mountain fastnesses like a chamois hunter, and ascend towards the most inaccessible places. It is also taken by nets and gins, or by encumbering the sides of some deep and lonesome defile by a kind of palisade of thick and prickly bushes. Several other species of this genus have been described by naturalists, such as the nogu or Java musk (M. javanicus, Raffles,* see Plate XII., figure 7), and the beautiful Chevrotain (M. pygmaeus), one of the smallest of t",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS CAMELUS",
+          "start_page": 216,
+          "end_page": 217
+        },
+        {
+          "headword": "GENUS AUCHENIA",
+          "start_page": 217,
+          "end_page": 217
+        },
+        {
+          "headword": "GENUS CERVUS",
+          "start_page": 217,
+          "end_page": 223
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS CAPRA",
+          "start_page": 223
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238
+        },
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 242
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_CERVUS",
+          "headword": "GENUS CERVUS",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Linn. Teeth of the same amount as in the preceding genus; the canines of the males, however, being shorter. Branched antlers, solid and deciduous, and of greater or less extent, according to age, and the constitution of each particular kind. Mammae four.\n\nThis genus contains those magnificent and diversified species commonly called Deer. These animals are, with\n\n---\n\n1 Griffith's Animal Kingdom, vol. iv. p. 46. See also M. Desmoulins' Memoire sur la Patrie du Chameau, &c. in Mem. du Mus. t. ix.\n2 Historia Naturale del Chili. For the various species, real or supposed, see also the Synopsis of Mammalia (in Griffith's Animal Kingdom, vol. v.), and the article Chameau in Diction. Classique d'Hist. Nat. t. iii. p. 447.\n3 Linn. Trans. vol. xiii.\n4 In his Historical Relation of Ceylon.\nPecora, few exceptions, characterized by extremely graceful forms, by light but strong proportions, and by the energy and activity of their general movements. As constituting the noblest objects of the chase, a",
+          "text_end": "nteresting experiment, not likely to be attended by much difficulty, and which might probably lead to valuable results. The precise extent of its territorial range has not yet been ascertained, but it is known to occur from the 40\u00b0 to the 64\u00b0 or 65\u00b0 of north latitude. It is scarcely ever seen at any distance from the mountains, and is said to be less numerous on the eastern than the western slopes of its native range. Its flesh is rather hard and dry, and somewhat unsavoury from its musky odour."
+        },
+        {
+          "article_id": "1860_v14_GENUS_AUCHENIA",
+          "headword": "GENUS AUCHENIA",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (Camelus llaconia, Linn.), and the Vigogna (Camelus vigognia, Linn.). Of these the former is as large as a stag. It is covered with long coarse chestnut coloured hair, of varying hue, in the domestic state. It lives in troops upon the cold and lofty ranges of the Andes, and was the only native beast of burden in Peru at the time of the discovery of that country by Europeans. The animal known as the Alpaca (see Plate XII., figures 4 and 5) is now regarded as a woolly-haired variety of the lama. The",
+          "text_end": ", and is easily deterred from its accustomed paths of safety by a stretched cord, from which pieces of coloured rags are here and there suspended. In this state of uncertainty and terror it is not only easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that they are massacred, it would probably be more politic rather to sheer than slay them."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CAMELUS",
+          "headword": "GENUS CAMELUS",
+          "direction": "previous",
+          "start_page": 216,
+          "text_preview": "Linn. Incisives \\( \\frac{2}{6} \\), canines \\( \\frac{1}{1} \\), false molars \\( \\frac{1}{1} \\), molars \\( \\frac{5}{5} \\); \\( = 36 \\). The upper lateral incisors assume the form of canine teeth, and the canines themselves are straight and strong. The head is lengthened, the upper lip cloven, the nostrils consist of two clefts capable of being opened and closed. The eyes are projecting; the ears rather small. The neck and limbs extremely long. The feet are not cloven, but are furnished beneath with a very broad horny sole, and the two toes are each terminated by a small short somewhat curved nail. There are one or more fatty humps along the dorsal region. The mammae are four in number.\n\nOf this remarkable genus there are two species, or at least two well marked races, usually regarded as distinct. The Bactrian species, or Camel properly so called (C. Bactrianus, Linn.), is distinguished by its pair of humps, one above the shoulders, and another near the rump. It is an animal of Asiatic ori",
+          "text_end": "er in Genesis (chap. xii. v. 16) as among the gifts bestowed by Pharaoh on Abram, and it must therefore have been well known on the banks of the mysterious Nile, at a period prior to that of the most ancient of the Greek or Roman writers. It has indeed been remarked as a singular circumstance, that the Romans who waged such frequent wars in Africa, should not have thought of mentioning these animals, till Procopius noticed camel-riding Moors in arms against Solomon, the Lieutenant of Belisarius."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CAPRA",
+          "headword": "GENUS CAPRA",
+          "direction": "next",
+          "start_page": 223,
+          "text_preview": "Linn. Incisives 6; canines wanting, molars 6 \u2014 6; 32. Horns directed upwards and backwards, compressed, transversely furrowed, their nucleus communicating by means of cells with the frontal sinus. No lachrymal sinus, nor inguinal pores. Chin generally bearded. Outline of the face straight, or rarely convex. Two inguinal mamme.\n\nThe species which constitute the goat genus, although of less elegant form than many of the antelope tribe, are yet not undistinguished by considerable ease and gracefulness of movement; and the rocky heights on which they are so often seen no doubt add to their picturesque and imposing aspect. Although extremely docile, and fond of being caressed by human associates, they yet cease not to retain a certain degree of independence not observable in other cattle. Considered intellectually, they hold a high station in the animal kingdom. Buffon has greatly embroiled the history of these and the allied genera, by supposing that the species called the boquetin (Capra ",
+          "text_end": "me as the Orca of ancient times. According to Cuvier, it has the facial line of a Delphinus. This opinion, however, rests upon a single sentence of Aristotle, and its existence is very doubtful.\n3 The term Thrasher is also not unfrequently applied to a species of fox-shark (Carcharias capensis), which, in common with the sword-fish, often attacks the whale.\n4 Ann. du Mus., t. 9.\n5 Wern. Mem., vol. lii.\n6 Zoological Journal, iv.\n7 Mammif\u00e8res.\n8 R\u00e9gne Animal, 239.\n9 Spic. Zo\u00f6l., part i., plate ii."
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1860_v14_GENUS_CAPRA",
+      "headword": "GENUS CAPRA",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 223,
+      "end_page": 238,
+      "word_count": 18961,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS CAPRA' comes before 'MAGNETISM'",
+      "text_preview": "Linn. Incisives 6; canines wanting, molars 6 \u2014 6; 32. Horns directed upwards and backwards, compressed, transversely furrowed, their nucleus communicating by means of cells with the frontal sinus. No lachrymal sinus, nor inguinal pores. Chin generally bearded. Outline of the face straight, or rarely convex. Two inguinal mamme.\n\nThe species which constitute the goat genus, although of less elegant form than many of the antelope tribe, are yet not undistinguished by considerable ease and gracefuln",
+      "text_end": " term Thrasher is also not unfrequently applied to a species of fox-shark (Carcharias capensis), which, in common with the sword-fish, often attacks the whale.\n4 Ann. du Mus., t. 9.\n5 Wern. Mem., vol. lii.\n6 Zoological Journal, iv.\n7 Mammif\u00e8res.\n8 R\u00e9gne Animal, 239.\n9 Spic. Zo\u00f6l., part i., plate ii.",
+      "full_text": "Linn. Incisives 6; canines wanting, molars 6 \u2014 6; 32. Horns directed upwards and backwards, compressed, transversely furrowed, their nucleus communicating by means of cells with the frontal sinus. No lachrymal sinus, nor inguinal pores. Chin generally bearded. Outline of the face straight, or rarely convex. Two inguinal mamme.\n\nThe species which constitute the goat genus, although of less elegant form than many of the antelope tribe, are yet not undistinguished by considerable ease and gracefulness of movement; and the rocky heights on which they are so often seen no doubt add to their picturesque and imposing aspect. Although extremely docile, and fond of being caressed by human associates, they yet cease not to retain a certain degree of independence not observable in other cattle. Considered intellectually, they hold a high station in the animal kingdom. Buffon has greatly embroiled the history of these and the allied genera, by supposing that the species called the boquetin (Capra ibex) was the origin not only of all our domesticated sheep and goats, but of the chamois and several other antelopes. His paradoxes were first exposed by Pallas, who traced the separation of the goats from the antelopes on the one hand, and from the sheep on the other, and pointing out the various species of the first named genus, showed that our domesticated kind was derived not from the ibex, but from another wild species called argyrus, an inhabitant of the Caucasian Mountains. He admits, however, in relation to certain varieties, the probability of a cross with the ibex.\n\nThe wild goat (Capra argyrus, Gmelin, see Plate XV., fig. 2), the admitted source of our domestic kinds, although believed by some to inhabit the Alps of Europe, is more distinctly known as a native of the mountains of Persia and the Caucasus, where it is known by the name of pasang, and from whence it spreads through a great extent of northern Asia to the frontiers of the celestial empire. It is also the b\u00e6zoar ",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "GENUS AUCHENIA"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS AUCHENIA",
+          "start_page": 217,
+          "end_page": 217
+        },
+        {
+          "headword": "GENUS CERVUS",
+          "start_page": 217,
+          "end_page": 223
+        },
+        {
+          "headword": "GENUS MOSCHUS",
+          "start_page": 217,
+          "end_page": 217
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238
+        },
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 242
+        },
+        {
+          "headword": "GENUS HYPEROPODON",
+          "start_page": 242
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_MOSCHUS",
+          "headword": "GENUS MOSCHUS",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Linn. (Male) incisives 0 canines 1\u20141 molars 6 6 = 34. (Female) incisives 0 canines 0\u20140 molars 6 6 = 32. The canine teeth in the upper jaw of the males of this genus are long, vertical, compressed, and slightly curved backwards. They protrude considerably from the mouth. (See Plate XII., figure 6.) The feet are hoofed and cloven, like those of the ordinary ruminants. The mammae are two or four in number.\n\nThe musk deer seem confined to the temperate and southern parts of Asia, and the great eastern islands. They are remarkable for their elegant and graceful forms. Although the substance called musk has been known throughout Central Asia from time immemorial, it does not appear that the species which produced it was described by the ancients, or in any way identified till the days of Abuzeid Serassi, an Arabian author, who mentions it as a deer without horns. A knowledge of it seems to have been first introduced into Western Europe by Serapion, a writer of the eighth century. The musk de",
+          "text_end": "ushes. Several other species of this genus have been described by naturalists, such as the nogu or Java musk (M. javanicus, Raffles,* see Plate XII., figure 7), and the beautiful Chevrotain (M. pygmaeus), one of the smallest of the ruminating order. The body of the latter does not measure more than eight inches long. The minima is a Ceylonese species first described by Knox.4\n\nIn all the ensuing genera of the ruminating tribes, the head (at least of the males) is furnished with antlers or horns."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CERVUS",
+          "headword": "GENUS CERVUS",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Linn. Teeth of the same amount as in the preceding genus; the canines of the males, however, being shorter. Branched antlers, solid and deciduous, and of greater or less extent, according to age, and the constitution of each particular kind. Mammae four.\n\nThis genus contains those magnificent and diversified species commonly called Deer. These animals are, with\n\n---\n\n1 Griffith's Animal Kingdom, vol. iv. p. 46. See also M. Desmoulins' Memoire sur la Patrie du Chameau, &c. in Mem. du Mus. t. ix.\n2 Historia Naturale del Chili. For the various species, real or supposed, see also the Synopsis of Mammalia (in Griffith's Animal Kingdom, vol. v.), and the article Chameau in Diction. Classique d'Hist. Nat. t. iii. p. 447.\n3 Linn. Trans. vol. xiii.\n4 In his Historical Relation of Ceylon.\nPecora, few exceptions, characterized by extremely graceful forms, by light but strong proportions, and by the energy and activity of their general movements. As constituting the noblest objects of the chase, a",
+          "text_end": "nteresting experiment, not likely to be attended by much difficulty, and which might probably lead to valuable results. The precise extent of its territorial range has not yet been ascertained, but it is known to occur from the 40\u00b0 to the 64\u00b0 or 65\u00b0 of north latitude. It is scarcely ever seen at any distance from the mountains, and is said to be less numerous on the eastern than the western slopes of its native range. Its flesh is rather hard and dry, and somewhat unsavoury from its musky odour."
+        },
+        {
+          "article_id": "1860_v14_GENUS_AUCHENIA",
+          "headword": "GENUS AUCHENIA",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Illig. Incisives 2 canines 0 0 1 1 false molars 1 1 molars 5 5 32. Feet more cloven than in the camels, but supported behind by a small callous sole. No fatty humps upon the back. Mammee two.\n\nThe species of this genus are peculiar to South America, where they may be said to represent the camels of the Old World. Various species have been described by Molina2 and other writers, but naturalists seem to have failed in establishing the distinctive characters of more than two, the lama or guanaco (Camelus llaconia, Linn.), and the Vigogna (Camelus vigognia, Linn.). Of these the former is as large as a stag. It is covered with long coarse chestnut coloured hair, of varying hue, in the domestic state. It lives in troops upon the cold and lofty ranges of the Andes, and was the only native beast of burden in Peru at the time of the discovery of that country by Europeans. The animal known as the Alpaca (see Plate XII., figures 4 and 5) is now regarded as a woolly-haired variety of the lama. The",
+          "text_end": ", and is easily deterred from its accustomed paths of safety by a stretched cord, from which pieces of coloured rags are here and there suspended. In this state of uncertainty and terror it is not only easily shot, but will even allow itself to be approached and seized by the hind legs. Eighty thousand are said to be killed every season in the higher countries of Chili and Peru. As it is for the wool alone that they are massacred, it would probably be more politic rather to sheer than slay them."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s9",
+          "headword": "MAMMALIA",
+          "direction": "next",
+          "start_page": 238,
+          "text_preview": "Cetacea. Fr. Cuv.1 Beak in a uniform line with the cranium, of moderate length, and large;2 jaws equally projecting;3 teeth 26 in upper and 25 in lower jaw;4 dorsal fin not much elevated, placed somewhat beyond the middle; tail large; pectorals short. Length above five feet; colour generally black, head of a slate-colour, four markings underneath,\u2014one in front of the pectorals, lozenge-shaped, two oval ones immediately behind them, and then a much larger one, covering a great part of the abdomen. The specimen which furnished Mr Gray with this description is in the Museum of the Royal College of Surgeons in London, and was sent thither by Captain Heaviside from the Cape, where M. Quoy again examined the species, in the cabinet of M. Verveaux, a naturalist settled in southern Africa. Their descriptions generally accord, though not in all particulars. Its habitat is presumed to be the neighbourhood of the Cape of Good Hope.\n\nP. (Grampus) obscurus, Gray,2 F. Cuv., Quoy.4 Forehead and beak ",
+          "text_end": "aces of any other teeth in either jaw.\n\n*Anarhucus Groenlandicus?* Lac\u00e9p. Less. *Monodon spurius*, Fab. Bon. *Delphinus Anarhucus*, Desm. No. 780. The two teeth are scarcely an inch in length, obtusely conical, slender, and curved at their summit; body elongated; whole size inconsiderable; a dorsal-fin; colour black; the flesh said to possess a laxative property. This genus rests solely upon the authority of Fabricius. He says it frequents the high northern seas, and seldom approaches the coast."
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1860_v14_GENUS_DIODON",
+      "headword": "GENUS DIODON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 242,
+      "end_page": 242,
+      "word_count": 237,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS DIODON' comes before 'MAGNETISM'",
+      "text_preview": "Lesson. The lower jaw supplied with two teeth only, the upper having none; the lower jaw the longer and stronger, somewhat convex; forehead depressed.\n\n*D. Sowerbyi*, Less. *Delphinus Sowerbyi*, Blainv., Desm., No. 785, Fr. Cuv. *Physeter bidens*, Sowerby. (See Plate XVII., figure 5.) Lower jaw longer than the upper and stronger, with two short lateral teeth; upper jaw sharp, let into the lower, having two impressions corresponding to the teeth; eye small; spiracle lunated, horns pointed forward",
+      "text_end": "f the mouth bluish-black. Risso's specimen was fifteen feet long. According to the naturalist of Nice, who alone has described and drawn this animal, it affects the deep waters of the Mediterranean, and comes towards the coast in the months of May and September. It very much resembles the preceding.",
+      "full_text": "Lesson. The lower jaw supplied with two teeth only, the upper having none; the lower jaw the longer and stronger, somewhat convex; forehead depressed.\n\n*D. Sowerbyi*, Less. *Delphinus Sowerbyi*, Blainv., Desm., No. 785, Fr. Cuv. *Physeter bidens*, Sowerby. (See Plate XVII., figure 5.) Lower jaw longer than the upper and stronger, with two short lateral teeth; upper jaw sharp, let into the lower, having two impressions corresponding to the teeth; eye small; spiracle lunated, horns pointed forward; colour black above, nearly white beneath, marked with streaks. Sowerby's specimen was sixteen feet long and eleven in circumference at the thickest part. Dorsal fin over the vent. This animal was cast ashore near Brodie-House, Elginshire. Its ordinary habitat and habits are wholly unknown.\n\n*D. Desmarestii*, Risso. Less. Fr. Cuv. Upper jaw short and without teeth, lower much longer, convex, and having near its extremity two large conical teeth, three inches long, one broad; eye small; pectorals short; dorsal fin over the vent; tall large and festooned; upper portion of the body of the colour of polished steel, with a number of white streaks arranged without regularity; belly white; inside of the mouth bluish-black. Risso's specimen was fifteen feet long. According to the naturalist of Nice, who alone has described and drawn this animal, it affects the deep waters of the Mediterranean, and comes towards the coast in the months of May and September. It very much resembles the preceding.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS MOSCHUS",
+          "start_page": 217,
+          "end_page": 217
+        },
+        {
+          "headword": "GENUS CAPRA",
+          "start_page": 223,
+          "end_page": 238
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238,
+          "end_page": 242
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS HYPEROPODON",
+          "start_page": 242
+        },
+        {
+          "headword": "GENUS ADELON",
+          "start_page": 243
+        },
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MAMMALIA_s9",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Cetacea. Fr. Cuv.1 Beak in a uniform line with the cranium, of moderate length, and large;2 jaws equally projecting;3 teeth 26 in upper and 25 in lower jaw;4 dorsal fin not much elevated, placed somewhat beyond the middle; tail large; pectorals short. Length above five feet; colour generally black, head of a slate-colour, four markings underneath,\u2014one in front of the pectorals, lozenge-shaped, two oval ones immediately behind them, and then a much larger one, covering a great part of the abdomen. The specimen which furnished Mr Gray with this description is in the Museum of the Royal College of Surgeons in London, and was sent thither by Captain Heaviside from the Cape, where M. Quoy again examined the species, in the cabinet of M. Verveaux, a naturalist settled in southern Africa. Their descriptions generally accord, though not in all particulars. Its habitat is presumed to be the neighbourhood of the Cape of Good Hope.\n\nP. (Grampus) obscurus, Gray,2 F. Cuv., Quoy.4 Forehead and beak ",
+          "text_end": "aces of any other teeth in either jaw.\n\n*Anarhucus Groenlandicus?* Lac\u00e9p. Less. *Monodon spurius*, Fab. Bon. *Delphinus Anarhucus*, Desm. No. 780. The two teeth are scarcely an inch in length, obtusely conical, slender, and curved at their summit; body elongated; whole size inconsiderable; a dorsal-fin; colour black; the flesh said to possess a laxative property. This genus rests solely upon the authority of Fabricius. He says it frequents the high northern seas, and seldom approaches the coast."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CAPRA",
+          "headword": "GENUS CAPRA",
+          "direction": "previous",
+          "start_page": 223,
+          "text_preview": "Linn. Incisives 6; canines wanting, molars 6 \u2014 6; 32. Horns directed upwards and backwards, compressed, transversely furrowed, their nucleus communicating by means of cells with the frontal sinus. No lachrymal sinus, nor inguinal pores. Chin generally bearded. Outline of the face straight, or rarely convex. Two inguinal mamme.\n\nThe species which constitute the goat genus, although of less elegant form than many of the antelope tribe, are yet not undistinguished by considerable ease and gracefulness of movement; and the rocky heights on which they are so often seen no doubt add to their picturesque and imposing aspect. Although extremely docile, and fond of being caressed by human associates, they yet cease not to retain a certain degree of independence not observable in other cattle. Considered intellectually, they hold a high station in the animal kingdom. Buffon has greatly embroiled the history of these and the allied genera, by supposing that the species called the boquetin (Capra ",
+          "text_end": "me as the Orca of ancient times. According to Cuvier, it has the facial line of a Delphinus. This opinion, however, rests upon a single sentence of Aristotle, and its existence is very doubtful.\n3 The term Thrasher is also not unfrequently applied to a species of fox-shark (Carcharias capensis), which, in common with the sword-fish, often attacks the whale.\n4 Ann. du Mus., t. 9.\n5 Wern. Mem., vol. lii.\n6 Zoological Journal, iv.\n7 Mammif\u00e8res.\n8 R\u00e9gne Animal, 239.\n9 Spic. Zo\u00f6l., part i., plate ii."
+        },
+        {
+          "article_id": "1860_v14_GENUS_MOSCHUS",
+          "headword": "GENUS MOSCHUS",
+          "direction": "previous",
+          "start_page": 217,
+          "text_preview": "Linn. (Male) incisives 0 canines 1\u20141 molars 6 6 = 34. (Female) incisives 0 canines 0\u20140 molars 6 6 = 32. The canine teeth in the upper jaw of the males of this genus are long, vertical, compressed, and slightly curved backwards. They protrude considerably from the mouth. (See Plate XII., figure 6.) The feet are hoofed and cloven, like those of the ordinary ruminants. The mammae are two or four in number.\n\nThe musk deer seem confined to the temperate and southern parts of Asia, and the great eastern islands. They are remarkable for their elegant and graceful forms. Although the substance called musk has been known throughout Central Asia from time immemorial, it does not appear that the species which produced it was described by the ancients, or in any way identified till the days of Abuzeid Serassi, an Arabian author, who mentions it as a deer without horns. A knowledge of it seems to have been first introduced into Western Europe by Serapion, a writer of the eighth century. The musk de",
+          "text_end": "ushes. Several other species of this genus have been described by naturalists, such as the nogu or Java musk (M. javanicus, Raffles,* see Plate XII., figure 7), and the beautiful Chevrotain (M. pygmaeus), one of the smallest of the ruminating order. The body of the latter does not measure more than eight inches long. The minima is a Ceylonese species first described by Knox.4\n\nIn all the ensuing genera of the ruminating tribes, the head (at least of the males) is furnished with antlers or horns."
+        },
+        {
+          "article_id": "1860_v14_GENUS_HYPEROPODON",
+          "headword": "GENUS HYPEROPODON",
+          "direction": "next",
+          "start_page": 242,
+          "text_preview": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunterii*,\n\n---\n\n1 See some interesting remarks in a Journal of a Voyage to the Northern Whale-Fishery, 1823.\n2 Sowerby's Brit. Mamm. 1806. We beg to observe that the generic title of Diodon is extremely ill-chosen,\u2014seeing that it has been long ago applied by all naturalists to a genus of plecostomous fishes.\n3 Hist. Naturelle de l'Europe M\u00e9rid. Nice. 1829. T. iii. pl. 3.\n10. **Bottle-headed whale of Dale.** (See Plate XVII., fig. 8). False teeth in the upper jaw, and, allowing these have no existenc",
+          "text_end": "ing Bausard's specimens, very unaccountably assigned to them two teeth in the lower jaw, and thus very naturally misled Lac\u00e9p\u00e8de, Illiger, and for a time even Baron Cuvier. It was probably when holding this opinion, that Cuvier, in visiting Mr Hunter's museum, and examining the head of his *Bidentatus*, came to the conclusion that Bausard's and Hunter's specimens were one and the same species, belonging, however, to a genus distinct from all others. He attached the title of *Hyperoodon* to both."
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1860_v14_GENUS_HYPEROPODON",
+      "headword": "GENUS HYPEROPODON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 242,
+      "end_page": 243,
+      "word_count": 492,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS HYPEROPODON' comes before 'MAGNETISM'",
+      "text_preview": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunte",
+      "text_end": "g this opinion, that Cuvier, in visiting Mr Hunter's museum, and examining the head of his *Bidentatus*, came to the conclusion that Bausard's and Hunter's specimens were one and the same species, belonging, however, to a genus distinct from all others. He attached the title of *Hyperoodon* to both.",
+      "full_text": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunterii*,\n\n---\n\n1 See some interesting remarks in a Journal of a Voyage to the Northern Whale-Fishery, 1823.\n2 Sowerby's Brit. Mamm. 1806. We beg to observe that the generic title of Diodon is extremely ill-chosen,\u2014seeing that it has been long ago applied by all naturalists to a genus of plecostomous fishes.\n3 Hist. Naturelle de l'Europe M\u00e9rid. Nice. 1829. T. iii. pl. 3.\n10. **Bottle-headed whale of Dale.** (See Plate XVII., fig. 8). False teeth in the upper jaw, and, allowing these have no existence, still the name has been affixed by Cuvier to a genus which undoubtedly exists, and which possesses marked peculiarities in the prominence of the forehead, and the shortness and flatness of the beak, produced by the maxillary crest. The head is higher than it is broad; the pectorals are very small; the dorsal fin, but little developed, is within a fifth of the length from the tail. Colour brownish-black above, verging towards white beneath. Usual dimensions from sixteen to forty feet. Vertebrae 7, 9, 26, in all 42 (Jacob); ribs 9 pair. Two strong teeth at the extremity of the lower jaw.\n\nThis genus was admitted upon the authority of M. Bausard, an officer of marine, who examined two individuals, mother and cub, which were stranded near Honfleur, and who, with landable zeal, published an account of them in the year 1789. The circumstance on which rested the claim of these specimens to be considered generic was the total want of teeth in either jaw, and their having the upper jaw and p",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS CAPRA",
+          "start_page": 223,
+          "end_page": 238
+        },
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238,
+          "end_page": 242
+        },
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 242,
+          "end_page": 242
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS ADELON",
+          "start_page": 243
+        },
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243
+        },
+        {
+          "headword": "FALCONER",
+          "start_page": 252
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_DIODON",
+          "headword": "GENUS DIODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lesson. The lower jaw supplied with two teeth only, the upper having none; the lower jaw the longer and stronger, somewhat convex; forehead depressed.\n\n*D. Sowerbyi*, Less. *Delphinus Sowerbyi*, Blainv., Desm., No. 785, Fr. Cuv. *Physeter bidens*, Sowerby. (See Plate XVII., figure 5.) Lower jaw longer than the upper and stronger, with two short lateral teeth; upper jaw sharp, let into the lower, having two impressions corresponding to the teeth; eye small; spiracle lunated, horns pointed forward; colour black above, nearly white beneath, marked with streaks. Sowerby's specimen was sixteen feet long and eleven in circumference at the thickest part. Dorsal fin over the vent. This animal was cast ashore near Brodie-House, Elginshire. Its ordinary habitat and habits are wholly unknown.\n\n*D. Desmarestii*, Risso. Less. Fr. Cuv. Upper jaw short and without teeth, lower much longer, convex, and having near its extremity two large conical teeth, three inches long, one broad; eye small; pectoral",
+          "text_end": " short; dorsal fin over the vent; tall large and festooned; upper portion of the body of the colour of polished steel, with a number of white streaks arranged without regularity; belly white; inside of the mouth bluish-black. Risso's specimen was fifteen feet long. According to the naturalist of Nice, who alone has described and drawn this animal, it affects the deep waters of the Mediterranean, and comes towards the coast in the months of May and September. It very much resembles the preceding."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s9",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Cetacea. Fr. Cuv.1 Beak in a uniform line with the cranium, of moderate length, and large;2 jaws equally projecting;3 teeth 26 in upper and 25 in lower jaw;4 dorsal fin not much elevated, placed somewhat beyond the middle; tail large; pectorals short. Length above five feet; colour generally black, head of a slate-colour, four markings underneath,\u2014one in front of the pectorals, lozenge-shaped, two oval ones immediately behind them, and then a much larger one, covering a great part of the abdomen. The specimen which furnished Mr Gray with this description is in the Museum of the Royal College of Surgeons in London, and was sent thither by Captain Heaviside from the Cape, where M. Quoy again examined the species, in the cabinet of M. Verveaux, a naturalist settled in southern Africa. Their descriptions generally accord, though not in all particulars. Its habitat is presumed to be the neighbourhood of the Cape of Good Hope.\n\nP. (Grampus) obscurus, Gray,2 F. Cuv., Quoy.4 Forehead and beak ",
+          "text_end": "aces of any other teeth in either jaw.\n\n*Anarhucus Groenlandicus?* Lac\u00e9p. Less. *Monodon spurius*, Fab. Bon. *Delphinus Anarhucus*, Desm. No. 780. The two teeth are scarcely an inch in length, obtusely conical, slender, and curved at their summit; body elongated; whole size inconsiderable; a dorsal-fin; colour black; the flesh said to possess a laxative property. This genus rests solely upon the authority of Fabricius. He says it frequents the high northern seas, and seldom approaches the coast."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CAPRA",
+          "headword": "GENUS CAPRA",
+          "direction": "previous",
+          "start_page": 223,
+          "text_preview": "Linn. Incisives 6; canines wanting, molars 6 \u2014 6; 32. Horns directed upwards and backwards, compressed, transversely furrowed, their nucleus communicating by means of cells with the frontal sinus. No lachrymal sinus, nor inguinal pores. Chin generally bearded. Outline of the face straight, or rarely convex. Two inguinal mamme.\n\nThe species which constitute the goat genus, although of less elegant form than many of the antelope tribe, are yet not undistinguished by considerable ease and gracefulness of movement; and the rocky heights on which they are so often seen no doubt add to their picturesque and imposing aspect. Although extremely docile, and fond of being caressed by human associates, they yet cease not to retain a certain degree of independence not observable in other cattle. Considered intellectually, they hold a high station in the animal kingdom. Buffon has greatly embroiled the history of these and the allied genera, by supposing that the species called the boquetin (Capra ",
+          "text_end": "me as the Orca of ancient times. According to Cuvier, it has the facial line of a Delphinus. This opinion, however, rests upon a single sentence of Aristotle, and its existence is very doubtful.\n3 The term Thrasher is also not unfrequently applied to a species of fox-shark (Carcharias capensis), which, in common with the sword-fish, often attacks the whale.\n4 Ann. du Mus., t. 9.\n5 Wern. Mem., vol. lii.\n6 Zoological Journal, iv.\n7 Mammif\u00e8res.\n8 R\u00e9gne Animal, 239.\n9 Spic. Zo\u00f6l., part i., plate ii."
+        },
+        {
+          "article_id": "1860_v14_GENUS_ADELON",
+          "headword": "GENUS ADELON",
+          "direction": "next",
+          "start_page": 243,
+          "text_preview": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat shorter than the lower; no teeth, or only rudimentary; no rugosities on the palate; pectorals and dorsal very small; tail broad; colour shining-grey, dark above, light beneath; vertebrae seven, nine, and from fifteen to twenty more; ribs nine; maxillary and intermaxillary bones rising high above the frontal. This beautiful animal stranded itself near Havre; its resorts, habits, &c., are wholly unknown. The species was originally founded on the *Bottlehead* of Dale, and designated as *B. edentulus",
+          "text_end": "y far the most important animals of the order, yet the number it contains is small, extending to but three genera, and about twice as many ascertained species. All of these, from their extraordinary magnitude, and the majority from their extreme value, have from time immemorial engaged the liveliest and most general interest; and hence, notwithstanding their gigantic size, their structure is better known, and their habits and disposition better ascertained, than those of most others of the race."
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1860_v14_GENUS_ADELON",
+      "headword": "GENUS ADELON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 243,
+      "end_page": 243,
+      "word_count": 398,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS ADELON' comes before 'MAGNETISM'",
+      "text_preview": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat s",
+      "text_end": "agnitude, and the majority from their extreme value, have from time immemorial engaged the liveliest and most general interest; and hence, notwithstanding their gigantic size, their structure is better known, and their habits and disposition better ascertained, than those of most others of the race.",
+      "full_text": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat shorter than the lower; no teeth, or only rudimentary; no rugosities on the palate; pectorals and dorsal very small; tail broad; colour shining-grey, dark above, light beneath; vertebrae seven, nine, and from fifteen to twenty more; ribs nine; maxillary and intermaxillary bones rising high above the frontal. This beautiful animal stranded itself near Havre; its resorts, habits, &c., are wholly unknown. The species was originally founded on the *Bottlehead* of Dale, and designated as *B. edentulus* by Schreber, Blainville, and Desmarest. The name was applied afresh to a specimen stranded near Havre in 1825, and examined by Drs Suriray and Blainville. If Hunter was right in saying that his *Bidentatus* was the same as Dale's, then the authors last quoted were incorrect in associating that name with the Havre specimen. This was Cuvier's opinion, who says (in *Reg. An.*) that the name was \"tr\u00e8s impr\u00e9cise.\" Nevertheless we retain it, as we believe the species has been accurately described under that designation.\n\nThe **GENUS Ziphias** being fossil, we omit. Cuvier states that their craniums ally them to the Cachalots, and still more to the Hyperoodons. He has distinguished three species, all of which appear to be destitute of teeth.\n\n**SUBDIVISION III. GREAT-HEADED WHALES.**\n\nWe now advance to the last subdivision of the ordinary whales, which is distinguished from the others by having the head much larger than the usual proportions, amounting to one-fourth, or even to one-third of",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MAMMALIA",
+          "start_page": 238,
+          "end_page": 242
+        },
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "GENUS HYPEROPODON",
+          "start_page": 242,
+          "end_page": 243
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243
+        },
+        {
+          "headword": "FALCONER",
+          "start_page": 252
+        },
+        {
+          "headword": "FRASER",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_HYPEROPODON",
+          "headword": "GENUS HYPEROPODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunterii*,\n\n---\n\n1 See some interesting remarks in a Journal of a Voyage to the Northern Whale-Fishery, 1823.\n2 Sowerby's Brit. Mamm. 1806. We beg to observe that the generic title of Diodon is extremely ill-chosen,\u2014seeing that it has been long ago applied by all naturalists to a genus of plecostomous fishes.\n3 Hist. Naturelle de l'Europe M\u00e9rid. Nice. 1829. T. iii. pl. 3.\n10. **Bottle-headed whale of Dale.** (See Plate XVII., fig. 8). False teeth in the upper jaw, and, allowing these have no existenc",
+          "text_end": "ing Bausard's specimens, very unaccountably assigned to them two teeth in the lower jaw, and thus very naturally misled Lac\u00e9p\u00e8de, Illiger, and for a time even Baron Cuvier. It was probably when holding this opinion, that Cuvier, in visiting Mr Hunter's museum, and examining the head of his *Bidentatus*, came to the conclusion that Bausard's and Hunter's specimens were one and the same species, belonging, however, to a genus distinct from all others. He attached the title of *Hyperoodon* to both."
+        },
+        {
+          "article_id": "1860_v14_GENUS_DIODON",
+          "headword": "GENUS DIODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lesson. The lower jaw supplied with two teeth only, the upper having none; the lower jaw the longer and stronger, somewhat convex; forehead depressed.\n\n*D. Sowerbyi*, Less. *Delphinus Sowerbyi*, Blainv., Desm., No. 785, Fr. Cuv. *Physeter bidens*, Sowerby. (See Plate XVII., figure 5.) Lower jaw longer than the upper and stronger, with two short lateral teeth; upper jaw sharp, let into the lower, having two impressions corresponding to the teeth; eye small; spiracle lunated, horns pointed forward; colour black above, nearly white beneath, marked with streaks. Sowerby's specimen was sixteen feet long and eleven in circumference at the thickest part. Dorsal fin over the vent. This animal was cast ashore near Brodie-House, Elginshire. Its ordinary habitat and habits are wholly unknown.\n\n*D. Desmarestii*, Risso. Less. Fr. Cuv. Upper jaw short and without teeth, lower much longer, convex, and having near its extremity two large conical teeth, three inches long, one broad; eye small; pectoral",
+          "text_end": " short; dorsal fin over the vent; tall large and festooned; upper portion of the body of the colour of polished steel, with a number of white streaks arranged without regularity; belly white; inside of the mouth bluish-black. Risso's specimen was fifteen feet long. According to the naturalist of Nice, who alone has described and drawn this animal, it affects the deep waters of the Mediterranean, and comes towards the coast in the months of May and September. It very much resembles the preceding."
+        },
+        {
+          "article_id": "1860_v14_MAMMALIA_s9",
+          "headword": "MAMMALIA",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Cetacea. Fr. Cuv.1 Beak in a uniform line with the cranium, of moderate length, and large;2 jaws equally projecting;3 teeth 26 in upper and 25 in lower jaw;4 dorsal fin not much elevated, placed somewhat beyond the middle; tail large; pectorals short. Length above five feet; colour generally black, head of a slate-colour, four markings underneath,\u2014one in front of the pectorals, lozenge-shaped, two oval ones immediately behind them, and then a much larger one, covering a great part of the abdomen. The specimen which furnished Mr Gray with this description is in the Museum of the Royal College of Surgeons in London, and was sent thither by Captain Heaviside from the Cape, where M. Quoy again examined the species, in the cabinet of M. Verveaux, a naturalist settled in southern Africa. Their descriptions generally accord, though not in all particulars. Its habitat is presumed to be the neighbourhood of the Cape of Good Hope.\n\nP. (Grampus) obscurus, Gray,2 F. Cuv., Quoy.4 Forehead and beak ",
+          "text_end": "aces of any other teeth in either jaw.\n\n*Anarhucus Groenlandicus?* Lac\u00e9p. Less. *Monodon spurius*, Fab. Bon. *Delphinus Anarhucus*, Desm. No. 780. The two teeth are scarcely an inch in length, obtusely conical, slender, and curved at their summit; body elongated; whole size inconsiderable; a dorsal-fin; colour black; the flesh said to possess a laxative property. This genus rests solely upon the authority of Fabricius. He says it frequents the high northern seas, and seldom approaches the coast."
+        },
+        {
+          "article_id": "1860_v14_GENUS_CACHALOT",
+          "headword": "GENUS CACHALOT",
+          "direction": "next",
+          "start_page": 243,
+          "text_preview": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23 teeth on each side; a few rudimentary ones hid under the gums in the upper jaw; length 80 feet; colour greenish-black above, whitish beneath. Vertebrae, 7, 14, 38, = 59.\n\nSome of our readers may perhaps be surprised, that under the generic term Cachalot we introduce to their notice only a single species. This we do, not because we deny the existence of others, but because these have not hitherto been accurately described or established. Desmarest some years ago admitted three sub-genera and eig",
+          "text_end": "sting history and description of the northern whale-fishery. Consult also the first volume of the Editor's Cabinet Library, entitled Narrative of Discovery and Adventure in the Polar Seas and Regions. Fourth Edition, 1835. We may further add, that the first tolerable figure of B. Mysticetus ever published was the capital one of Scoresby.\n\nGenus Robqualus, Cuvier., Less., F. Cuv. (See Plate XVII, figure 13.) No teeth; a dorsal-fin; folds under the throat and chest; famous in upper jaw, but short;"
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1860_v14_GENUS_CACHALOT",
+      "headword": "GENUS CACHALOT",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 243,
+      "end_page": 246,
+      "word_count": 3727,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GENUS CACHALOT' comes before 'MAGNETISM'",
+      "text_preview": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23",
+      "text_end": " Fourth Edition, 1835. We may further add, that the first tolerable figure of B. Mysticetus ever published was the capital one of Scoresby.\n\nGenus Robqualus, Cuvier., Less., F. Cuv. (See Plate XVII, figure 13.) No teeth; a dorsal-fin; folds under the throat and chest; famous in upper jaw, but short;",
+      "full_text": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23 teeth on each side; a few rudimentary ones hid under the gums in the upper jaw; length 80 feet; colour greenish-black above, whitish beneath. Vertebrae, 7, 14, 38, = 59.\n\nSome of our readers may perhaps be surprised, that under the generic term Cachalot we introduce to their notice only a single species. This we do, not because we deny the existence of others, but because these have not hitherto been accurately described or established. Desmarest some years ago admitted three sub-genera and eight species; and Lac\u00e9p\u00e8de has three genera and eight species, including his cachalots, physalus, and physeter. Every one who, pre-\n\n---\n\n1 Journal de Physique, 1789.\n2 Phil. Trans. 1787.\n3 Lesson, 130. Though this is clearly asserted by Lesson, we do not find the mistake in the Encycl. Method. It is very apparent in Lac\u00e9p\u00e8de's Cetacea, p. 320.\n4 See Ooz. Foss. t. v. 325. Less. 120. Fr. Cuv. 244.\n5 From Cachou, a tooth, in the Basque tongue.\n6 We shall here exhibit the older classification by copying that of Lac\u00e9p\u00e8de.\n\nI. Genus Cachalot. Having blow-hole at the extremity of the snout.\n   1. Subgenus. Those which have a hump or bumps on their back.\n      1st sp. C. macrocephalus.\n      2nd sp. C. catodon.\n   2. Subgenus. 4th sp. C. albus.\n\nII. Genus Physeter. Having blow-hole on the head, not at the extremity of the snout.\n   5th sp. P. cylindricus. Having a bump on the back.\n\nIII. Genus Physeter. A fin on the back.\n   6th sp. P. Macroptera.\n   7th, P. Orthono\u00eb.\n   8th, P. Mular.\nCetacea,",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "GENUS DIODON"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "GENUS HYPEROPODON",
+          "start_page": 242,
+          "end_page": 243
+        },
+        {
+          "headword": "GENUS ADELON",
+          "start_page": 243,
+          "end_page": 243
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FALCONER",
+          "start_page": 252
+        },
+        {
+          "headword": "FRASER",
+          "start_page": 253
+        },
+        {
+          "headword": "GOULD",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_ADELON",
+          "headword": "GENUS ADELON",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat shorter than the lower; no teeth, or only rudimentary; no rugosities on the palate; pectorals and dorsal very small; tail broad; colour shining-grey, dark above, light beneath; vertebrae seven, nine, and from fifteen to twenty more; ribs nine; maxillary and intermaxillary bones rising high above the frontal. This beautiful animal stranded itself near Havre; its resorts, habits, &c., are wholly unknown. The species was originally founded on the *Bottlehead* of Dale, and designated as *B. edentulus",
+          "text_end": "y far the most important animals of the order, yet the number it contains is small, extending to but three genera, and about twice as many ascertained species. All of these, from their extraordinary magnitude, and the majority from their extreme value, have from time immemorial engaged the liveliest and most general interest; and hence, notwithstanding their gigantic size, their structure is better known, and their habits and disposition better ascertained, than those of most others of the race."
+        },
+        {
+          "article_id": "1860_v14_GENUS_HYPEROPODON",
+          "headword": "GENUS HYPEROPODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunterii*,\n\n---\n\n1 See some interesting remarks in a Journal of a Voyage to the Northern Whale-Fishery, 1823.\n2 Sowerby's Brit. Mamm. 1806. We beg to observe that the generic title of Diodon is extremely ill-chosen,\u2014seeing that it has been long ago applied by all naturalists to a genus of plecostomous fishes.\n3 Hist. Naturelle de l'Europe M\u00e9rid. Nice. 1829. T. iii. pl. 3.\n10. **Bottle-headed whale of Dale.** (See Plate XVII., fig. 8). False teeth in the upper jaw, and, allowing these have no existenc",
+          "text_end": "ing Bausard's specimens, very unaccountably assigned to them two teeth in the lower jaw, and thus very naturally misled Lac\u00e9p\u00e8de, Illiger, and for a time even Baron Cuvier. It was probably when holding this opinion, that Cuvier, in visiting Mr Hunter's museum, and examining the head of his *Bidentatus*, came to the conclusion that Bausard's and Hunter's specimens were one and the same species, belonging, however, to a genus distinct from all others. He attached the title of *Hyperoodon* to both."
+        },
+        {
+          "article_id": "1860_v14_GENUS_DIODON",
+          "headword": "GENUS DIODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lesson. The lower jaw supplied with two teeth only, the upper having none; the lower jaw the longer and stronger, somewhat convex; forehead depressed.\n\n*D. Sowerbyi*, Less. *Delphinus Sowerbyi*, Blainv., Desm., No. 785, Fr. Cuv. *Physeter bidens*, Sowerby. (See Plate XVII., figure 5.) Lower jaw longer than the upper and stronger, with two short lateral teeth; upper jaw sharp, let into the lower, having two impressions corresponding to the teeth; eye small; spiracle lunated, horns pointed forward; colour black above, nearly white beneath, marked with streaks. Sowerby's specimen was sixteen feet long and eleven in circumference at the thickest part. Dorsal fin over the vent. This animal was cast ashore near Brodie-House, Elginshire. Its ordinary habitat and habits are wholly unknown.\n\n*D. Desmarestii*, Risso. Less. Fr. Cuv. Upper jaw short and without teeth, lower much longer, convex, and having near its extremity two large conical teeth, three inches long, one broad; eye small; pectoral",
+          "text_end": " short; dorsal fin over the vent; tall large and festooned; upper portion of the body of the colour of polished steel, with a number of white streaks arranged without regularity; belly white; inside of the mouth bluish-black. Risso's specimen was fifteen feet long. According to the naturalist of Nice, who alone has described and drawn this animal, it affects the deep waters of the Mediterranean, and comes towards the coast in the months of May and September. It very much resembles the preceding."
+        },
+        {
+          "article_id": "1860_v14_FALCONER",
+          "headword": "FALCONER",
+          "direction": "next",
+          "start_page": 252,
+          "text_preview": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1860_v14_FALCONER",
+      "headword": "FALCONER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 252,
+      "end_page": 253,
+      "word_count": 20,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'FALCONER' comes before 'MAGNETISM'",
+      "text_preview": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+      "text_end": "",
+      "full_text": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Short text starting with lowercase (sentence fragment)",
+        "merge_target": "GENUS HYPEROPODON"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS HYPEROPODON",
+          "start_page": 242,
+          "end_page": 243
+        },
+        {
+          "headword": "GENUS ADELON",
+          "start_page": 243,
+          "end_page": 243
+        },
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243,
+          "end_page": 246
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FRASER",
+          "start_page": 253
+        },
+        {
+          "headword": "GOULD",
+          "start_page": 253
+        },
+        {
+          "headword": "HARRIS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GENUS_CACHALOT",
+          "headword": "GENUS CACHALOT",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23 teeth on each side; a few rudimentary ones hid under the gums in the upper jaw; length 80 feet; colour greenish-black above, whitish beneath. Vertebrae, 7, 14, 38, = 59.\n\nSome of our readers may perhaps be surprised, that under the generic term Cachalot we introduce to their notice only a single species. This we do, not because we deny the existence of others, but because these have not hitherto been accurately described or established. Desmarest some years ago admitted three sub-genera and eig",
+          "text_end": "sting history and description of the northern whale-fishery. Consult also the first volume of the Editor's Cabinet Library, entitled Narrative of Discovery and Adventure in the Polar Seas and Regions. Fourth Edition, 1835. We may further add, that the first tolerable figure of B. Mysticetus ever published was the capital one of Scoresby.\n\nGenus Robqualus, Cuvier., Less., F. Cuv. (See Plate XVII, figure 13.) No teeth; a dorsal-fin; folds under the throat and chest; famous in upper jaw, but short;"
+        },
+        {
+          "article_id": "1860_v14_GENUS_ADELON",
+          "headword": "GENUS ADELON",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat shorter than the lower; no teeth, or only rudimentary; no rugosities on the palate; pectorals and dorsal very small; tail broad; colour shining-grey, dark above, light beneath; vertebrae seven, nine, and from fifteen to twenty more; ribs nine; maxillary and intermaxillary bones rising high above the frontal. This beautiful animal stranded itself near Havre; its resorts, habits, &c., are wholly unknown. The species was originally founded on the *Bottlehead* of Dale, and designated as *B. edentulus",
+          "text_end": "y far the most important animals of the order, yet the number it contains is small, extending to but three genera, and about twice as many ascertained species. All of these, from their extraordinary magnitude, and the majority from their extreme value, have from time immemorial engaged the liveliest and most general interest; and hence, notwithstanding their gigantic size, their structure is better known, and their habits and disposition better ascertained, than those of most others of the race."
+        },
+        {
+          "article_id": "1860_v14_GENUS_HYPEROPODON",
+          "headword": "GENUS HYPEROPODON",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "Lac\u00e9p. Cuv. Less. Fr. Cuv. Three great bony maxillary and occipital crests, separated by deep furrows, which rise over the cranium and occasion a remarkably rounded and prominent forehead; beak short and very strong; palate supplied with a number of small false and tuberculated teeth? blow-hole crescent-shaped, horns pointing forward.\n\n*H. Honfleuriensis*, Less. *Delphinus Hyperoodon*, Desm. No. 784. *H. Butchof*, Bon. Lac\u00e9p.; including also *D. bidentatus*, Bonnat. *D. Diodon*, Lac\u00e9p. *D. Hunterii*,\n\n---\n\n1 See some interesting remarks in a Journal of a Voyage to the Northern Whale-Fishery, 1823.\n2 Sowerby's Brit. Mamm. 1806. We beg to observe that the generic title of Diodon is extremely ill-chosen,\u2014seeing that it has been long ago applied by all naturalists to a genus of plecostomous fishes.\n3 Hist. Naturelle de l'Europe M\u00e9rid. Nice. 1829. T. iii. pl. 3.\n10. **Bottle-headed whale of Dale.** (See Plate XVII., fig. 8). False teeth in the upper jaw, and, allowing these have no existenc",
+          "text_end": "ing Bausard's specimens, very unaccountably assigned to them two teeth in the lower jaw, and thus very naturally misled Lac\u00e9p\u00e8de, Illiger, and for a time even Baron Cuvier. It was probably when holding this opinion, that Cuvier, in visiting Mr Hunter's museum, and examining the head of his *Bidentatus*, came to the conclusion that Bausard's and Hunter's specimens were one and the same species, belonging, however, to a genus distinct from all others. He attached the title of *Hyperoodon* to both."
+        },
+        {
+          "article_id": "1860_v14_FRASER",
+          "headword": "FRASER",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1860_v14_FRASER",
+      "headword": "FRASER",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 35,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'FRASER' comes before 'MAGNETISM'",
+      "text_preview": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+      "text_end": "",
+      "full_text": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS ADELON",
+          "start_page": 243,
+          "end_page": 243
+        },
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243,
+          "end_page": 246
+        },
+        {
+          "headword": "FALCONER",
+          "start_page": 252,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GOULD",
+          "start_page": 253
+        },
+        {
+          "headword": "HARRIS",
+          "start_page": 253
+        },
+        {
+          "headword": "HODGSON",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_FALCONER",
+          "headword": "FALCONER",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_GENUS_CACHALOT",
+          "headword": "GENUS CACHALOT",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23 teeth on each side; a few rudimentary ones hid under the gums in the upper jaw; length 80 feet; colour greenish-black above, whitish beneath. Vertebrae, 7, 14, 38, = 59.\n\nSome of our readers may perhaps be surprised, that under the generic term Cachalot we introduce to their notice only a single species. This we do, not because we deny the existence of others, but because these have not hitherto been accurately described or established. Desmarest some years ago admitted three sub-genera and eig",
+          "text_end": "sting history and description of the northern whale-fishery. Consult also the first volume of the Editor's Cabinet Library, entitled Narrative of Discovery and Adventure in the Polar Seas and Regions. Fourth Edition, 1835. We may further add, that the first tolerable figure of B. Mysticetus ever published was the capital one of Scoresby.\n\nGenus Robqualus, Cuvier., Less., F. Cuv. (See Plate XVII, figure 13.) No teeth; a dorsal-fin; folds under the throat and chest; famous in upper jaw, but short;"
+        },
+        {
+          "article_id": "1860_v14_GENUS_ADELON",
+          "headword": "GENUS ADELON",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Lesson. No teeth; no tubercles on the palate; no whalebone; body fusiform; forehead prominent; jaw in a continuous line with the forehead.\n\n*A. Dalei*, Lesson; *Delphinus Dalei*, Blainv., F. Cuv.; *D. edentulus*, Schreber, Desm. 783; *Delphinorhyncus micropterus*, Cuv. (See Plate XVII., figure 6.) Body fusiform; some appearance of a neck; forehead prominent; spiracle curved forwards; jaws prolonged in form of a subcylindrical beak, and in the same plane with the facial line, the upper somewhat shorter than the lower; no teeth, or only rudimentary; no rugosities on the palate; pectorals and dorsal very small; tail broad; colour shining-grey, dark above, light beneath; vertebrae seven, nine, and from fifteen to twenty more; ribs nine; maxillary and intermaxillary bones rising high above the frontal. This beautiful animal stranded itself near Havre; its resorts, habits, &c., are wholly unknown. The species was originally founded on the *Bottlehead* of Dale, and designated as *B. edentulus",
+          "text_end": "y far the most important animals of the order, yet the number it contains is small, extending to but three genera, and about twice as many ascertained species. All of these, from their extraordinary magnitude, and the majority from their extreme value, have from time immemorial engaged the liveliest and most general interest; and hence, notwithstanding their gigantic size, their structure is better known, and their habits and disposition better ascertained, than those of most others of the race."
+        },
+        {
+          "article_id": "1860_v14_GOULD",
+          "headword": "GOULD",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1860_v14_GOULD",
+      "headword": "GOULD",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 12,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GOULD' comes before 'MAGNETISM'",
+      "text_preview": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+      "text_end": "",
+      "full_text": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "GENUS CACHALOT"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS CACHALOT",
+          "start_page": 243,
+          "end_page": 246
+        },
+        {
+          "headword": "FALCONER",
+          "start_page": 252,
+          "end_page": 253
+        },
+        {
+          "headword": "FRASER",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HARRIS",
+          "start_page": 253
+        },
+        {
+          "headword": "HODGSON",
+          "start_page": 253
+        },
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_FRASER",
+          "headword": "FRASER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_FALCONER",
+          "headword": "FALCONER",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_GENUS_CACHALOT",
+          "headword": "GENUS CACHALOT",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "Bon. Desm. Cuv. *Physeter*, Linn. Head nearly one-third of the whole size; blow-hole single; no baleen; no teeth, or only rudimentary, in the upper jaw; lower jaw narrow, elongated, received into a furrow in the upper one, armed on each side with a range of strong teeth. Produces the spermaceti and ambergris of commerce.\n\n*C. macrocephalus*, Cuv. Bon. Lac\u00e9p. *Physeter catodon*, Linn. The *Spermaceti Whale*. (See Plate XVII., fig. 11.) One or more humps on the back; lower jaw having from 20 to 23 teeth on each side; a few rudimentary ones hid under the gums in the upper jaw; length 80 feet; colour greenish-black above, whitish beneath. Vertebrae, 7, 14, 38, = 59.\n\nSome of our readers may perhaps be surprised, that under the generic term Cachalot we introduce to their notice only a single species. This we do, not because we deny the existence of others, but because these have not hitherto been accurately described or established. Desmarest some years ago admitted three sub-genera and eig",
+          "text_end": "sting history and description of the northern whale-fishery. Consult also the first volume of the Editor's Cabinet Library, entitled Narrative of Discovery and Adventure in the Polar Seas and Regions. Fourth Edition, 1835. We may further add, that the first tolerable figure of B. Mysticetus ever published was the capital one of Scoresby.\n\nGenus Robqualus, Cuvier., Less., F. Cuv. (See Plate XVII, figure 13.) No teeth; a dorsal-fin; folds under the throat and chest; famous in upper jaw, but short;"
+        },
+        {
+          "article_id": "1860_v14_HARRIS",
+          "headword": "HARRIS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Portraits of the Game and Wild Animals of South Africa.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1860_v14_HARRIS",
+      "headword": "HARRIS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 10,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'HARRIS' comes before 'MAGNETISM'",
+      "text_preview": "Portraits of the Game and Wild Animals of South Africa.",
+      "text_end": "",
+      "full_text": "Portraits of the Game and Wild Animals of South Africa.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "FALCONER"
+      },
+      "prev_articles": [
+        {
+          "headword": "FALCONER",
+          "start_page": 252,
+          "end_page": 253
+        },
+        {
+          "headword": "FRASER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "GOULD",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HODGSON",
+          "start_page": 253
+        },
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253
+        },
+        {
+          "headword": "KLAUSZ",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_GOULD",
+          "headword": "GOULD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_FRASER",
+          "headword": "FRASER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_FALCONER",
+          "headword": "FALCONER",
+          "direction": "previous",
+          "start_page": 252,
+          "text_preview": "and CAYLEY (Major P. T.), Fauna Antiqua Sivalensis; Fossil Elephants, Siratherium, &c., found in the Sewalik Hills in North India.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HODGSON",
+          "headword": "HODGSON",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1860_v14_HODGSON",
+      "headword": "HODGSON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 28,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'HODGSON' comes before 'MAGNETISM'",
+      "text_preview": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+      "text_end": "",
+      "full_text": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Short text starting with lowercase (sentence fragment)",
+        "merge_target": "FRASER"
+      },
+      "prev_articles": [
+        {
+          "headword": "FRASER",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "GOULD",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HARRIS",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253
+        },
+        {
+          "headword": "KLAUSZ",
+          "start_page": 253
+        },
+        {
+          "headword": "LE CONTE",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_HARRIS",
+          "headword": "HARRIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Portraits of the Game and Wild Animals of South Africa.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_GOULD",
+          "headword": "GOULD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_FRASER",
+          "headword": "FRASER",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Zoologia Typica: or, figures of New and Rare Mammals and Birds described in the Proceedings, or exhibited in the collections, of the Zoological Society of London. 28 of the plates are of Mammalia. London, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HORSFIELD",
+          "headword": "HORSFIELD",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1860_v14_HORSFIELD",
+      "headword": "HORSFIELD",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 13,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'HORSFIELD' comes before 'MAGNETISM'",
+      "text_preview": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+      "text_end": "",
+      "full_text": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "GOULD"
+      },
+      "prev_articles": [
+        {
+          "headword": "GOULD",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HARRIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HODGSON",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "KLAUSZ",
+          "start_page": 253
+        },
+        {
+          "headword": "LE CONTE",
+          "start_page": 253
+        },
+        {
+          "headword": "LEWIS",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_HODGSON",
+          "headword": "HODGSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HARRIS",
+          "headword": "HARRIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Portraits of the Game and Wild Animals of South Africa.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_GOULD",
+          "headword": "GOULD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Monograph of the Macropodidae or Kangaroos; The Fauna of Australia. London, 1854-56.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_KLAUSZ",
+          "headword": "KLAUSZ",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "Das Thierreich in Bildern nach seinen Familien undGattungen dargestellt. Eight parts devoted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1860_v14_KLAUSZ",
+      "headword": "KLAUSZ",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 53,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'KLAUSZ' comes before 'MAGNETISM'",
+      "text_preview": "Das Thierreich in Bildern nach seinen Familien undGattungen dargestellt. Eight parts devoted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+      "text_end": "ted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+      "full_text": "Das Thierreich in Bildern nach seinen Familien undGattungen dargestellt. Eight parts devoted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "HARRIS",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HODGSON",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LE CONTE",
+          "start_page": 253
+        },
+        {
+          "headword": "LEWIS",
+          "start_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_HORSFIELD",
+          "headword": "HORSFIELD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HODGSON",
+          "headword": "HODGSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HARRIS",
+          "headword": "HARRIS",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Portraits of the Game and Wild Animals of South Africa.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_LE_CONTE",
+          "headword": "LE CONTE",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "New Species of American Rodentia, in the Proceedings of the Academy of Natural Sciences of Philadelphia, vol. vi.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1860_v14_LE_CONTE",
+      "headword": "LE CONTE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 253,
+      "end_page": 253,
+      "word_count": 18,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'LE CONTE' comes before 'MAGNETISM'",
+      "text_preview": "New Species of American Rodentia, in the Proceedings of the Academy of Natural Sciences of Philadelphia, vol. vi.",
+      "text_end": "",
+      "full_text": "New Species of American Rodentia, in the Proceedings of the Academy of Natural Sciences of Philadelphia, vol. vi.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "HODGSON"
+      },
+      "prev_articles": [
+        {
+          "headword": "HODGSON",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "HORSFIELD",
+          "start_page": 253,
+          "end_page": 253
+        },
+        {
+          "headword": "KLAUSZ",
+          "start_page": 253,
+          "end_page": 253
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LEWIS",
+          "start_page": 253
+        },
+        {
+          "headword": "MAN",
+          "start_page": 253
+        },
+        {
+          "headword": "OWEN",
+          "start_page": 253
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_KLAUSZ",
+          "headword": "KLAUSZ",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Das Thierreich in Bildern nach seinen Familien undGattungen dargestellt. Eight parts devoted to Mammalia.\n\nM\u00dcLLER (S.), and SCHLEGEL (H.), Mammalia of Borneo, and the East India Archipelago, in the Royal Danish Museum, Verhandelingen over de Natuurlijke Geschiedenis der Nederlandsche overzeesche Bezittingen door de Leden der Natuurkundige Commissie in Indi\u00eb en andere Schrijvers. Leiden.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HORSFIELD",
+          "headword": "HORSFIELD",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "Catalogue of Mammalia in the Museum of the Hon. East India Company, 1851.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_HODGSON",
+          "headword": "HODGSON",
+          "direction": "previous",
+          "start_page": 253,
+          "text_preview": "many different Papers on the Mammalia of Northern India, in the Calcutta Journal of Natural History, the Journal of the Asiatic Society of Bengal, and the Asiatic Researches.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_LEWIS",
+          "headword": "LEWIS",
+          "direction": "next",
+          "start_page": 253,
+          "text_preview": "On various North American Fossil Mammalia, in Smithsonian Contributions to Knowledge. 1853.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

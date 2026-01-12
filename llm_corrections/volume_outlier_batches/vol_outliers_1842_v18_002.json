@@ -1,0 +1,240 @@
+{
+  "batch_id": "vol_outliers_1842_v18_002",
+  "created": "2026-01-09T17:22:45.574826",
+  "edition_year": 1842,
+  "volume_num": 18,
+  "item_count": 3,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1842_v18_QUOINS",
+      "headword": "QUOINS",
+      "edition_year": 1842,
+      "volume_num": 18,
+      "start_page": 812,
+      "end_page": 812,
+      "word_count": 41,
+      "volume_range": "PLA-QUI",
+      "effective_start": "PLA",
+      "effective_end": "QUI",
+      "reason": "'QUOINS' comes after 'QUI'",
+      "text_preview": "in Architecture, denote the corners of brick or stone walls. The word is particularly used for the stones in the corners of brick buildings. When these stand out beyond the brick-work, their edges being chamfered off, they are called rustic quoins.",
+      "text_end": "",
+      "full_text": "in Architecture, denote the corners of brick or stone walls. The word is particularly used for the stones in the corners of brick buildings. When these stand out beyond the brick-work, their edges being chamfered off, they are called rustic quoins.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Short text starting with lowercase (sentence fragment)",
+        "merge_target": "QUITO"
+      },
+      "prev_articles": [
+        {
+          "headword": "QUITO",
+          "start_page": 810,
+          "end_page": 812
+        },
+        {
+          "headword": "END OF VOLUME EIGHTEENTH",
+          "start_page": 812,
+          "end_page": 815
+        },
+        {
+          "headword": "QUOIN",
+          "start_page": 812,
+          "end_page": 812
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "QUORUM",
+          "start_page": 812
+        },
+        {
+          "headword": "QUOTIENT",
+          "start_page": 812
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v18_QUOIN",
+          "headword": "QUOIN",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "or Coin, on board a ship, a wedge fastened on the deck close to the breech of the carriage of a gun, to keep it firm up to the ship's side. Cantic quoins are short, three-legged quoins put between casks to keep them steady.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_END_OF_VOLUME_EIGHTEENTH",
+          "headword": "END OF VOLUME EIGHTEENTH",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "Eatus vir qui non alijt in silio impior\net in via peccatorum non\nstetit: sed in cathedra pesti-\nlentiae non sedet. Sed\nin lege domini voluntas",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_QUITO",
+          "headword": "QUITO",
+          "direction": "previous",
+          "start_page": 810,
+          "text_preview": "or Equator, one of the three republics of South America which formerly constituted Colombia. Its territory chiefly comprehends the ancient Spanish vice-royalty of Quito, extending from 2\u00b0 of north to 6\u00b0 of south latitude, and from 76\u00b0 30' to 80\u00b0 40' of west longitude. Its limits, however, in the direction of Brazil have not been definitely fixed, so that it may extend to the east considerably beyond 76\u00b0 30'. On the south it borders upon Peru and Brazil; the latter country forms its eastern boundary; on the north its limits are New Granada; and the whole of its territory on the west is washed by the Pacific Ocean. Quito is intersected by both chains of the Andes, and consequently presents great diversity of surface and of climate. These parallel mountain ranges, by uniting at Loza, at Asuncion, at Chinchinche, and at Los Pastos, constitute what have been called mountain knots; and again opening up, they form the table-lands of Cuenca, Hambato, and Quito. The circles of snow-covered moun",
+          "text_end": "congress of the nation, consisting of forty-five members, agreed to draw up a plan of a constitution for the country; but it does not appear that they have yet (1839) agreed about the details. (n. s. e.)\n\nQUIT-RENT (quietus redditus, or quiet-rent) is a certain small rent payable by the tenants of manors, in token of subjection, and by which the tenant goes quiet and free. In ancient records it is called white rent, because paid in silver money, to distinguish it from corn-rent, or rent in kind."
+        },
+        {
+          "article_id": "1842_v18_QUORUM",
+          "headword": "QUORUM",
+          "direction": "next",
+          "start_page": 812,
+          "text_preview": "a word frequently mentioned in our statutes, and in commissions of justices of the peace and others. It is so called from the words of the commission, quorum A B unus esse volumus. Where a commission is directed to seven persons, or to any three of them, whereof A B and C D are to be two, in this case they are said to be of the quorum, because the rest cannot proceed without them.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1842_v18_QUORUM",
+      "headword": "QUORUM",
+      "edition_year": 1842,
+      "volume_num": 18,
+      "start_page": 812,
+      "end_page": 812,
+      "word_count": 75,
+      "volume_range": "PLA-QUI",
+      "effective_start": "PLA",
+      "effective_end": "QUI",
+      "reason": "'QUORUM' comes after 'QUI'",
+      "text_preview": "a word frequently mentioned in our statutes, and in commissions of justices of the peace and others. It is so called from the words of the commission, quorum A B unus esse volumus. Where a commission is directed to seven persons, or to any three of them, whereof A B and C D are to be two, in this case they are said to be of the quorum, because the rest cannot proceed without them.",
+      "text_end": "peace and others. It is so called from the words of the commission, quorum A B unus esse volumus. Where a commission is directed to seven persons, or to any three of them, whereof A B and C D are to be two, in this case they are said to be of the quorum, because the rest cannot proceed without them.",
+      "full_text": "a word frequently mentioned in our statutes, and in commissions of justices of the peace and others. It is so called from the words of the commission, quorum A B unus esse volumus. Where a commission is directed to seven persons, or to any three of them, whereof A B and C D are to be two, in this case they are said to be of the quorum, because the rest cannot proceed without them.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "END OF VOLUME EIGHTEENTH",
+          "start_page": 812,
+          "end_page": 815
+        },
+        {
+          "headword": "QUOIN",
+          "start_page": 812,
+          "end_page": 812
+        },
+        {
+          "headword": "QUOINS",
+          "start_page": 812,
+          "end_page": 812
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "QUOTIENT",
+          "start_page": 812
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v18_QUOINS",
+          "headword": "QUOINS",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "in Architecture, denote the corners of brick or stone walls. The word is particularly used for the stones in the corners of brick buildings. When these stand out beyond the brick-work, their edges being chamfered off, they are called rustic quoins.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_QUOIN",
+          "headword": "QUOIN",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "or Coin, on board a ship, a wedge fastened on the deck close to the breech of the carriage of a gun, to keep it firm up to the ship's side. Cantic quoins are short, three-legged quoins put between casks to keep them steady.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_END_OF_VOLUME_EIGHTEENTH",
+          "headword": "END OF VOLUME EIGHTEENTH",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "Eatus vir qui non alijt in silio impior\net in via peccatorum non\nstetit: sed in cathedra pesti-\nlentiae non sedet. Sed\nin lege domini voluntas",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_QUOTIENT",
+          "headword": "QUOTIENT",
+          "direction": "next",
+          "start_page": 812,
+          "text_preview": "in Arithmetic, the number resulting from the division of a greater number by a smaller, and which shows how often the smaller is contained in the greater, or how often the divisor is contained in the dividend. The word is formed from the Latin quoties, which is as much as to say or ask, how often is such a number contained in such another. See Arithmetic.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1842_v18_QUOTIENT",
+      "headword": "QUOTIENT",
+      "edition_year": 1842,
+      "volume_num": 18,
+      "start_page": 812,
+      "end_page": 812,
+      "word_count": 66,
+      "volume_range": "PLA-QUI",
+      "effective_start": "PLA",
+      "effective_end": "QUI",
+      "reason": "'QUOTIENT' comes after 'QUI'",
+      "text_preview": "in Arithmetic, the number resulting from the division of a greater number by a smaller, and which shows how often the smaller is contained in the greater, or how often the divisor is contained in the dividend. The word is formed from the Latin quoties, which is as much as to say or ask, how often is such a number contained in such another. See Arithmetic.",
+      "text_end": "a greater number by a smaller, and which shows how often the smaller is contained in the greater, or how often the divisor is contained in the dividend. The word is formed from the Latin quoties, which is as much as to say or ask, how often is such a number contained in such another. See Arithmetic.",
+      "full_text": "in Arithmetic, the number resulting from the division of a greater number by a smaller, and which shows how often the smaller is contained in the greater, or how often the divisor is contained in the dividend. The word is formed from the Latin quoties, which is as much as to say or ask, how often is such a number contained in such another. See Arithmetic.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "QUOIN",
+          "start_page": 812,
+          "end_page": 812
+        },
+        {
+          "headword": "QUOINS",
+          "start_page": 812,
+          "end_page": 812
+        },
+        {
+          "headword": "QUORUM",
+          "start_page": 812,
+          "end_page": 812
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v18_QUORUM",
+          "headword": "QUORUM",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "a word frequently mentioned in our statutes, and in commissions of justices of the peace and others. It is so called from the words of the commission, quorum A B unus esse volumus. Where a commission is directed to seven persons, or to any three of them, whereof A B and C D are to be two, in this case they are said to be of the quorum, because the rest cannot proceed without them.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_QUOINS",
+          "headword": "QUOINS",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "in Architecture, denote the corners of brick or stone walls. The word is particularly used for the stones in the corners of brick buildings. When these stand out beyond the brick-work, their edges being chamfered off, they are called rustic quoins.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v18_QUOIN",
+          "headword": "QUOIN",
+          "direction": "previous",
+          "start_page": 812,
+          "text_preview": "or Coin, on board a ship, a wedge fastened on the deck close to the breech of the carriage of a gun, to keep it firm up to the ship's side. Cantic quoins are short, three-legged quoins put between casks to keep them steady.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

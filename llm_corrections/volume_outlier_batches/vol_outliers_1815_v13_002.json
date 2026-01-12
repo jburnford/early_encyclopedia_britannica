@@ -1,0 +1,89 @@
+{
+  "batch_id": "vol_outliers_1815_v13_002",
+  "created": "2026-01-09T17:22:17.538366",
+  "edition_year": 1815,
+  "volume_num": 13,
+  "item_count": 1,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1815_v13_END_OF_THE_THIRTEENTH_VOLUME",
+      "headword": "END OF THE THIRTEENTH VOLUME",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 856,
+      "end_page": 861,
+      "word_count": 16,
+      "volume_range": "MAT-MIC",
+      "effective_start": "MAT",
+      "effective_end": "MIC",
+      "reason": "'END OF THE THIRTEENTH VOLUME' comes before 'MAT'",
+      "text_preview": "DIRECTIONS FOR PLACING THE PLATES OF VOL. XIII.\n\nPART I.\n\nPlate CCCXVI\u2014CCCXXX, to face page 136",
+      "text_end": "",
+      "full_text": "DIRECTIONS FOR PLACING THE PLATES OF VOL. XIII.\n\nPART I.\n\nPlate CCCXVI\u2014CCCXXX, to face page 136",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MICROCOSM",
+          "start_page": 842,
+          "end_page": 842
+        },
+        {
+          "headword": "MICROGRAPHY",
+          "start_page": 842,
+          "end_page": 842
+        },
+        {
+          "headword": "MICROMETER",
+          "start_page": 842,
+          "end_page": 856
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MICROPUS",
+          "start_page": 856
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MICROMETER",
+          "headword": "MICROMETER",
+          "direction": "previous",
+          "start_page": 842,
+          "text_preview": "an astronomical instrument, by which small angles, or the apparent magnitudes of objects viewed through telescopes or microscopes are measured with great exactness.\n\n1. The first TELESCOPIC micrometers were only mechanical contrivances for measuring the image of an object in the focus of the object-glass. Before these contrivances were thought of, astronomers were accustomed to measure the field of view in each of their telescopes, by observing how much of the moon they could see through it, the semidiameter being reckoned at 15 or 16 minutes; and other distances were estimated by the eye, comparing them with the field of view. Mr Gascoigne, an English gentleman, however, fell upon a much more accurate method before the year 1647, and had a Treatise on Optics prepared for the press; but he was killed during the civil wars in the service of Charles I. and his manuscript was never found. His instrument, however, fell into the hands of Mr R. Townly*, who says, that by the help of it he co",
+          "text_end": "s divided into sixteen squares; now as 1000 squares in the length of an inch, multiplied by 1000, gives one million in an inch surface; by the same rule, one of those squares divided into 16 must be the sixteen millionth part of an inch surface. See fig. 26. which is a diminished view of the apparent surface exhibited under the magnifier No. 1. of Wilson's microscope. In viewing the smallest lines, Mr Coventry uses No. 2. or 3.; and they are all better seen, he says, by candle than by day-light."
+        },
+        {
+          "article_id": "1815_v13_MICROGRAPHY",
+          "headword": "MICROGRAPHY",
+          "direction": "previous",
+          "start_page": 842,
+          "text_preview": "the description of objects viewed with the assistance of a microscope. See Microscopic objects.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v13_MICROCOSM",
+          "headword": "MICROCOSM",
+          "direction": "previous",
+          "start_page": 842,
+          "text_preview": "a Greek term signifying the little world; used by some for man, as being supposed an epitome of the universe or great world.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1815_v13_MICROPUS",
+          "headword": "MICROPUS",
+          "direction": "next",
+          "start_page": 856,
+          "text_preview": "BASTARD CUDWEED; a genus of plants belonging to the syngenesia class, and in the natural method ranking under the 49th order, Compositae. See BOTANY Index.\n\n(E) It will be necessary, for great accuracy, as well as for comparative observations, that the two-feet rule should always be placed at a certain distance from the eye; eight inches would, in general, be a proper distance.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

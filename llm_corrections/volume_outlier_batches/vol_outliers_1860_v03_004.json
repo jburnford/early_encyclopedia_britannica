@@ -1,0 +1,504 @@
+{
+  "batch_id": "vol_outliers_1860_v03_004",
+  "created": "2026-01-09T17:22:51.131945",
+  "edition_year": 1860,
+  "volume_num": 3,
+  "item_count": 6,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v03_JOHN_WILSON",
+      "headword": "JOHN WILSON",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1061,
+      "end_page": 1061,
+      "word_count": 18,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'JOHN WILSON' comes after 'ASTRONOMY'",
+      "text_preview": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society.",
+      "text_end": "",
+      "full_text": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "GEORGE FARQUHAR GRAHAM"
+      },
+      "prev_articles": [
+        {
+          "headword": "GEORGE FARQUHAR GRAHAM",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "JOHN HILL BURTON",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "JOHN HUTTON BALFOUR",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RICHARD WHATELY",
+          "start_page": 1061
+        },
+        {
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "start_page": 1061
+        },
+        {
+          "headword": "THOMAS ANDERSON",
+          "start_page": 1061
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_JOHN_HUTTON_BALFOUR",
+          "headword": "JOHN HUTTON BALFOUR",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "M.D., Regius Professor of Botany, Edinburgh University.\nJAMES D. FORBES, F.R.S.E., &c. &c., Professor of Natural Philosophy, Edinburgh University.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_HILL_BURTON",
+          "headword": "JOHN HILL BURTON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Advocate, Author of the History of Scotland from the Revolution, &c.\nREV. WM. LINDSAY ALEXANDER, D.D., Author of Connection and Harmony of Old and New Testaments, &c. &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_GEORGE_FARQUHAR_GRAHAM",
+          "headword": "GEORGE FARQUHAR GRAHAM",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Author of various Works on Music.\n\nJ. R. McCULLOCH, Esq., Member of the Institute of France, Author of Commercial Dictionary, &c.\nSir WILLIAM HAMILTON, Bart.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_RICHARD_WHATELY",
+          "headword": "RICHARD WHATELY",
+          "direction": "next",
+          "start_page": 1061,
+          "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v03_RICHARD_WHATELY",
+      "headword": "RICHARD WHATELY",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1061,
+      "end_page": 1061,
+      "word_count": 11,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'RICHARD WHATELY' comes after 'ASTRONOMY'",
+      "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+      "text_end": "",
+      "full_text": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "JOHN HILL BURTON"
+      },
+      "prev_articles": [
+        {
+          "headword": "JOHN HILL BURTON",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "JOHN HUTTON BALFOUR",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "JOHN WILSON",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "start_page": 1061
+        },
+        {
+          "headword": "THOMAS ANDERSON",
+          "start_page": 1061
+        },
+        {
+          "headword": "WILLIAM HOSKING",
+          "start_page": 1061
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_JOHN_WILSON",
+          "headword": "JOHN WILSON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_HUTTON_BALFOUR",
+          "headword": "JOHN HUTTON BALFOUR",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "M.D., Regius Professor of Botany, Edinburgh University.\nJAMES D. FORBES, F.R.S.E., &c. &c., Professor of Natural Philosophy, Edinburgh University.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_HILL_BURTON",
+          "headword": "JOHN HILL BURTON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Advocate, Author of the History of Scotland from the Revolution, &c.\nREV. WM. LINDSAY ALEXANDER, D.D., Author of Connection and Harmony of Old and New Testaments, &c. &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_SPECIMENS_AND_PROSPECTUSES_MAY_BE_HAD_OF_ANY_BOOKSELLER",
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "direction": "next",
+          "start_page": 1061,
+          "text_preview": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v03_SPECIMENS_AND_PROSPECTUSES_MAY_BE_HAD_OF_ANY_BOOKSELLER",
+      "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1061,
+      "end_page": 1061,
+      "word_count": 28,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER' comes after 'ASTRONOMY'",
+      "text_preview": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+      "text_end": "",
+      "full_text": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "JOHN HUTTON BALFOUR",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "JOHN WILSON",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "RICHARD WHATELY",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "THOMAS ANDERSON",
+          "start_page": 1061
+        },
+        {
+          "headword": "WILLIAM HOSKING",
+          "start_page": 1061
+        },
+        {
+          "headword": "EXTRA CLOTH",
+          "start_page": 1062
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_RICHARD_WHATELY",
+          "headword": "RICHARD WHATELY",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_WILSON",
+          "headword": "JOHN WILSON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_HUTTON_BALFOUR",
+          "headword": "JOHN HUTTON BALFOUR",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "M.D., Regius Professor of Botany, Edinburgh University.\nJAMES D. FORBES, F.R.S.E., &c. &c., Professor of Natural Philosophy, Edinburgh University.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_THOMAS_ANDERSON",
+          "headword": "THOMAS ANDERSON",
+          "direction": "next",
+          "start_page": 1061,
+          "text_preview": "M.D., Professor of Chemistry, Glasgow, and Lecturer on Agricultural Chemistry to the Highland and Agricultural Society.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v03_THOMAS_ANDERSON",
+      "headword": "THOMAS ANDERSON",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1061,
+      "end_page": 1061,
+      "word_count": 16,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'THOMAS ANDERSON' comes after 'ASTRONOMY'",
+      "text_preview": "M.D., Professor of Chemistry, Glasgow, and Lecturer on Agricultural Chemistry to the Highland and Agricultural Society.",
+      "text_end": "",
+      "full_text": "M.D., Professor of Chemistry, Glasgow, and Lecturer on Agricultural Chemistry to the Highland and Agricultural Society.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "JOHN WILSON"
+      },
+      "prev_articles": [
+        {
+          "headword": "JOHN WILSON",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "RICHARD WHATELY",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WILLIAM HOSKING",
+          "start_page": 1061
+        },
+        {
+          "headword": "EXTRA CLOTH",
+          "start_page": 1062
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_SPECIMENS_AND_PROSPECTUSES_MAY_BE_HAD_OF_ANY_BOOKSELLER",
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_RICHARD_WHATELY",
+          "headword": "RICHARD WHATELY",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_JOHN_WILSON",
+          "headword": "JOHN WILSON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Farmer, Edlington Mains, Berwickshire, Author of various papers on Agriculture read before the Highland and Agricultural Society.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_WILLIAM_HOSKING",
+          "headword": "WILLIAM HOSKING",
+          "direction": "next",
+          "start_page": 1061,
+          "text_preview": "Esq., Professor of Architecture and Arts of Construction, King's College, London.\nRev. ROBERT MAIN, M.A., F.R.A.S., First Assistant, Royal Observatory, Greenwich.\nLieut.-Col. PORTLOCK, R.M.A., Woolwich.\nRev. WM. SCORESBY, Author of Account of the Arctic Regions, &c. &c.\nJ. H. STOOCQUELL, Esq., Author of British Officer, Military Encyclopaedia, &c. &c.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v03_WILLIAM_HOSKING",
+      "headword": "WILLIAM HOSKING",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1061,
+      "end_page": 1061,
+      "word_count": 49,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'WILLIAM HOSKING' comes after 'ASTRONOMY'",
+      "text_preview": "Esq., Professor of Architecture and Arts of Construction, King's College, London.\nRev. ROBERT MAIN, M.A., F.R.A.S., First Assistant, Royal Observatory, Greenwich.\nLieut.-Col. PORTLOCK, R.M.A., Woolwich.\nRev. WM. SCORESBY, Author of Account of the Arctic Regions, &c. &c.\nJ. H. STOOCQUELL, Esq., Author of British Officer, Military Encyclopaedia, &c. &c.",
+      "text_end": "ion, King's College, London.\nRev. ROBERT MAIN, M.A., F.R.A.S., First Assistant, Royal Observatory, Greenwich.\nLieut.-Col. PORTLOCK, R.M.A., Woolwich.\nRev. WM. SCORESBY, Author of Account of the Arctic Regions, &c. &c.\nJ. H. STOOCQUELL, Esq., Author of British Officer, Military Encyclopaedia, &c. &c.",
+      "full_text": "Esq., Professor of Architecture and Arts of Construction, King's College, London.\nRev. ROBERT MAIN, M.A., F.R.A.S., First Assistant, Royal Observatory, Greenwich.\nLieut.-Col. PORTLOCK, R.M.A., Woolwich.\nRev. WM. SCORESBY, Author of Account of the Arctic Regions, &c. &c.\nJ. H. STOOCQUELL, Esq., Author of British Officer, Military Encyclopaedia, &c. &c.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "RICHARD WHATELY",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "THOMAS ANDERSON",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTRA CLOTH",
+          "start_page": 1062
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_THOMAS_ANDERSON",
+          "headword": "THOMAS ANDERSON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "M.D., Professor of Chemistry, Glasgow, and Lecturer on Agricultural Chemistry to the Highland and Agricultural Society.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_SPECIMENS_AND_PROSPECTUSES_MAY_BE_HAD_OF_ANY_BOOKSELLER",
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_RICHARD_WHATELY",
+          "headword": "RICHARD WHATELY",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "D.D., Archbishop of Dublin.\nR. DICKSON HAMPDEN, D.D., Bishop of Hereford.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_EXTRA_CLOTH_s2",
+          "headword": "EXTRA CLOTH",
+          "direction": "next",
+          "start_page": 1062,
+          "text_preview": "GILT EDGES, 18s.; MOROCCO ELEGANT OR ANTIQUE, GILT EDGES, 25s. On 10th November.\n\n**Library Edition of the Waverley Novels**.\nEach Volume containing a complete Novel or Novels. This Edition is enriched with Portraits after ZUCCHERO, GODFREY KNELLER, VANDYKE, LE TOCQUE, &c., and Illustrations after WILKIE, LANDSEER, FRITH, WARD, PICKERGILL, ELMORE, EGG, HOOK, STONE, PHILLIPS, FAED, HORSEY, &c.\nIN TWENTY-FIVE VOLS. DEMY SVO, CLOTH LETTERED, \u00a311:5s. On 15th November.\n\nWORKS FOR CHRISTMAS GIFTS RECENTLY PUBLISHED:\n\n**Uncle Tom's Cabin**, WITH ONE HUNDRED AND THIRTY ILLUSTRATIONS.\nA Frontispiece by JOHN GILBERT, and Ornamental Title-Page by PHIZ. EXTRA CLOTH, GILT EDGES, PRICE 10s.6d.\nEXTRACT FROM A LETTER FROM MRS. STOWE TO THE PUBLISHERS.\n\"Accept my thanks for the copy of your Illustrated Edition of Uncle Tom's Cabin. From the examination I have been able to give it, I am disposed to regard it as the best in point of execution, particularly in respect to the woodcuts, which I have yet see",
+          "text_end": "ilt edges, 15s.\n\n**Tales of a Grandfather (History of France)**, BY SIR WALTER SCOTT.\nNumerous Illustrations, cloth, lettered, 4s.; extra, gilt edges, 5s.\n\n**Beauties of Sir Walter Scott**, (SELECTIONS FROM HIS WRITINGS).\nTwo Engravings, cloth, lettered, gilt edges, 5s.; extra, gilt sides and edges, 6s.\n\n**Readings for the Young**, FROM THE WORKS OF SIR WALTER SCOTT.\nNumerous Illustrations, 3 vols. in one, cloth, lettered, gilt edges, 7s.; separate vols. 2s. 6d.\n\nADAM & CHARLES BLACK, EDINBURGH."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v03_EXTRA_CLOTH_s2",
+      "headword": "EXTRA CLOTH",
+      "edition_year": 1860,
+      "volume_num": 3,
+      "start_page": 1062,
+      "end_page": 1062,
+      "word_count": 345,
+      "volume_range": "Anatomy-Astronomy",
+      "effective_start": "ANATOMY",
+      "effective_end": "ASTRONOMY",
+      "reason": "'EXTRA CLOTH' comes after 'ASTRONOMY'",
+      "text_preview": "GILT EDGES, 18s.; MOROCCO ELEGANT OR ANTIQUE, GILT EDGES, 25s. On 10th November.\n\n**Library Edition of the Waverley Novels**.\nEach Volume containing a complete Novel or Novels. This Edition is enriched with Portraits after ZUCCHERO, GODFREY KNELLER, VANDYKE, LE TOCQUE, &c., and Illustrations after WILKIE, LANDSEER, FRITH, WARD, PICKERGILL, ELMORE, EGG, HOOK, STONE, PHILLIPS, FAED, HORSEY, &c.\nIN TWENTY-FIVE VOLS. DEMY SVO, CLOTH LETTERED, \u00a311:5s. On 15th November.\n\nWORKS FOR CHRISTMAS GIFTS RECE",
+      "text_end": "S FROM HIS WRITINGS).\nTwo Engravings, cloth, lettered, gilt edges, 5s.; extra, gilt sides and edges, 6s.\n\n**Readings for the Young**, FROM THE WORKS OF SIR WALTER SCOTT.\nNumerous Illustrations, 3 vols. in one, cloth, lettered, gilt edges, 7s.; separate vols. 2s. 6d.\n\nADAM & CHARLES BLACK, EDINBURGH.",
+      "full_text": "GILT EDGES, 18s.; MOROCCO ELEGANT OR ANTIQUE, GILT EDGES, 25s. On 10th November.\n\n**Library Edition of the Waverley Novels**.\nEach Volume containing a complete Novel or Novels. This Edition is enriched with Portraits after ZUCCHERO, GODFREY KNELLER, VANDYKE, LE TOCQUE, &c., and Illustrations after WILKIE, LANDSEER, FRITH, WARD, PICKERGILL, ELMORE, EGG, HOOK, STONE, PHILLIPS, FAED, HORSEY, &c.\nIN TWENTY-FIVE VOLS. DEMY SVO, CLOTH LETTERED, \u00a311:5s. On 15th November.\n\nWORKS FOR CHRISTMAS GIFTS RECENTLY PUBLISHED:\n\n**Uncle Tom's Cabin**, WITH ONE HUNDRED AND THIRTY ILLUSTRATIONS.\nA Frontispiece by JOHN GILBERT, and Ornamental Title-Page by PHIZ. EXTRA CLOTH, GILT EDGES, PRICE 10s.6d.\nEXTRACT FROM A LETTER FROM MRS. STOWE TO THE PUBLISHERS.\n\"Accept my thanks for the copy of your Illustrated Edition of Uncle Tom's Cabin. From the examination I have been able to give it, I am disposed to regard it as the best in point of execution, particularly in respect to the woodcuts, which I have yet seen.\u2014GLASGOW, April 14, 1853.\"\n\n**Life of Sir Walter Scott**, BY J. G. LOCKHART, ESQ.\nNew Edition, in One Vol. 12 Engravings, cloth, 7s. 6d.; extra, gilt edges, 8s. 6d.\nThis contains much new and interesting matter relative to Abbotsford and Sir Walter Scott's Family.\n\n**Poetical Works of Sir Walter Scott**, AUTHOR'S EDITION ILLUSTRATED.\nTwenty-four Engravings from Turner, cloth, lettered, 18s.; morocco, elegant or antique, gilt edges, 32s.\n\n**Poetical Works of Sir Walter Scott**, AUTHOR'S EDITION.\nSix Engravings, cloth, gilt edges, 5s.; morocco antique, 10s. Large paper, cloth, gilt edges, 6s.; morocco antique, 10s. 6d.\n\n**Tales of a Grandfather (History of Scotland)**, BY SIR WALTER SCOTT.\nNumerous Illustrations, 3 vols. cloth, lettered, 12s.; extra, gilt edges, 15s.\n\n**Tales of a Grandfather (History of France)**, BY SIR WALTER SCOTT.\nNumerous Illustrations, cloth, lettered, 4s.; extra, gilt edges, 5s.\n\n**Beauties of Sir Walter Scott**, (SELECTIONS FROM HIS WRITINGS).\nTwo Engravings, ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "THOMAS ANDERSON",
+          "start_page": 1061,
+          "end_page": 1061
+        },
+        {
+          "headword": "WILLIAM HOSKING",
+          "start_page": 1061,
+          "end_page": 1061
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v03_WILLIAM_HOSKING",
+          "headword": "WILLIAM HOSKING",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "Esq., Professor of Architecture and Arts of Construction, King's College, London.\nRev. ROBERT MAIN, M.A., F.R.A.S., First Assistant, Royal Observatory, Greenwich.\nLieut.-Col. PORTLOCK, R.M.A., Woolwich.\nRev. WM. SCORESBY, Author of Account of the Arctic Regions, &c. &c.\nJ. H. STOOCQUELL, Esq., Author of British Officer, Military Encyclopaedia, &c. &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_THOMAS_ANDERSON",
+          "headword": "THOMAS ANDERSON",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "M.D., Professor of Chemistry, Glasgow, and Lecturer on Agricultural Chemistry to the Highland and Agricultural Society.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v03_SPECIMENS_AND_PROSPECTUSES_MAY_BE_HAD_OF_ANY_BOOKSELLER",
+          "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER",
+          "direction": "previous",
+          "start_page": 1061,
+          "text_preview": "EDINBURGH: ADAM AND CHARLES BLACK.\nLONDON: LONGMEN & COMPANY; SIMPKIN & COMPANY; HAMILTON & COMPANY; WHITTAKER & COMPANY; SMITH, ELDER, & COMPANY, CORNHILL; HATCHARD, PICCADILLY; AND ALL BOOKSELLERS.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

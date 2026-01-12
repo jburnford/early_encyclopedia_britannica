@@ -1,0 +1,1769 @@
+{
+  "batch_id": "vol_outliers_1771_v01_002",
+  "created": "2026-01-09T17:21:47.137455",
+  "edition_year": 1771,
+  "volume_num": 1,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1771_v01_PALMARIS_CUTANEUS",
+      "headword": "PALMARIS CUTANEUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 241,
+      "end_page": 241,
+      "word_count": 116,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'PALMARIS CUTANEUS' comes after 'B'",
+      "text_preview": "This muscle is a small thin plane of fleshy fibres, situated transversely, or more or less obliquely, under the skin of the large eminence in the palm of the hand, between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, b",
+      "text_end": "almaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other.",
+      "full_text": "This muscle is a small thin plane of fleshy fibres, situated transversely, or more or less obliquely, under the skin of the large eminence in the palm of the hand, between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TERES MINOR",
+          "start_page": 237,
+          "end_page": 237
+        },
+        {
+          "headword": "ULNARIS EXTERNUS",
+          "start_page": 240,
+          "end_page": 241
+        },
+        {
+          "headword": "METACARPIUS",
+          "start_page": 241,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RADIALIS EXTERNUS",
+          "start_page": 241
+        },
+        {
+          "headword": "ULNARIS GRACILIS",
+          "start_page": 241
+        },
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_METACARPIUS",
+          "headword": "METACARPIUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This is a very small fleshy muscle, situated obliquely between the large internal annular or transverse ligament of the carpus, and the whole inside of the fourth metacarpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger.",
+          "text_end": "rpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger."
+        },
+        {
+          "article_id": "1771_v01_ULNARIS_EXTERNUS",
+          "headword": "ULNARIS EXTERNUS",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "This is a long muscle lying on the outside of the fore-arm, fleshy toward the os humeri, and tendinous toward the carpus.\n\nIt is fixed above to the external condyle of the os humeri, being there united to the ancon\u00e6us minor, to the annular ligament of the head of the radius, and to the upper half of the external angle of the ulna. From thence it advances, and forms a tendon, which passes through the external notch at the lower extremity of this bone, on one side of the styloid apophysis.\n\nThe tendon, having afterward passed under a particular ligament situated near the os cuneiforme of the carpus, is inserted in the outside of the basis of the fourth metacarpal bone, sending some tendinous filaments to the basis of the little finger.",
+          "text_end": "ament of the head of the radius, and to the upper half of the external angle of the ulna. From thence it advances, and forms a tendon, which passes through the external notch at the lower extremity of this bone, on one side of the styloid apophysis.\n\nThe tendon, having afterward passed under a particular ligament situated near the os cuneiforme of the carpus, is inserted in the outside of the basis of the fourth metacarpal bone, sending some tendinous filaments to the basis of the little finger."
+        },
+        {
+          "article_id": "1771_v01_TERES_MINOR",
+          "headword": "TERES MINOR",
+          "direction": "previous",
+          "start_page": 237,
+          "text_preview": "This is a very fleshy muscle, resembling the teres major, but narrower and shorter. It lies above the last named muscle, between the costa inferior of the scapula, and the head of the os humeri.\n\nIt is fixed by one end to all the middle part of the inferior costa of the scapula, and to the long particular surface immediately above that costa, reaching from the great angular surface near the neck of the bone. From thence it runs wholly fleshy, till it changes into a flat tendon, which is inserted in the posterior or inferior surface of the great tuberosity of the head of the bone, and likewise a little lower down.",
+          "text_end": " between the costa inferior of the scapula, and the head of the os humeri.\n\nIt is fixed by one end to all the middle part of the inferior costa of the scapula, and to the long particular surface immediately above that costa, reaching from the great angular surface near the neck of the bone. From thence it runs wholly fleshy, till it changes into a flat tendon, which is inserted in the posterior or inferior surface of the great tuberosity of the head of the bone, and likewise a little lower down."
+        },
+        {
+          "article_id": "1771_v01_RADIALIS_EXTERNUS",
+          "headword": "RADIALIS EXTERNUS",
+          "direction": "next",
+          "start_page": 241,
+          "text_preview": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies run down very close together; and having reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in",
+          "text_end": "ing reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1771_v01_RADIALIS_EXTERNUS",
+      "headword": "RADIALIS EXTERNUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 241,
+      "end_page": 241,
+      "word_count": 180,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'RADIALIS EXTERNUS' comes after 'B'",
+      "text_preview": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies ru",
+      "text_end": "ar annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone.",
+      "full_text": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies run down very close together; and having reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ULNARIS EXTERNUS",
+          "start_page": 240,
+          "end_page": 241
+        },
+        {
+          "headword": "METACARPIUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "PALMARIS CUTANEUS",
+          "start_page": 241,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ULNARIS GRACILIS",
+          "start_page": 241
+        },
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241
+        },
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_PALMARIS_CUTANEUS",
+          "headword": "PALMARIS CUTANEUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This muscle is a small thin plane of fleshy fibres, situated transversely, or more or less obliquely, under the skin of the large eminence in the palm of the hand, between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other.",
+          "text_end": ", between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other."
+        },
+        {
+          "article_id": "1771_v01_METACARPIUS",
+          "headword": "METACARPIUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This is a very small fleshy muscle, situated obliquely between the large internal annular or transverse ligament of the carpus, and the whole inside of the fourth metacarpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger.",
+          "text_end": "rpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger."
+        },
+        {
+          "article_id": "1771_v01_ULNARIS_EXTERNUS",
+          "headword": "ULNARIS EXTERNUS",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "This is a long muscle lying on the outside of the fore-arm, fleshy toward the os humeri, and tendinous toward the carpus.\n\nIt is fixed above to the external condyle of the os humeri, being there united to the ancon\u00e6us minor, to the annular ligament of the head of the radius, and to the upper half of the external angle of the ulna. From thence it advances, and forms a tendon, which passes through the external notch at the lower extremity of this bone, on one side of the styloid apophysis.\n\nThe tendon, having afterward passed under a particular ligament situated near the os cuneiforme of the carpus, is inserted in the outside of the basis of the fourth metacarpal bone, sending some tendinous filaments to the basis of the little finger.",
+          "text_end": "ament of the head of the radius, and to the upper half of the external angle of the ulna. From thence it advances, and forms a tendon, which passes through the external notch at the lower extremity of this bone, on one side of the styloid apophysis.\n\nThe tendon, having afterward passed under a particular ligament situated near the os cuneiforme of the carpus, is inserted in the outside of the basis of the fourth metacarpal bone, sending some tendinous filaments to the basis of the little finger."
+        },
+        {
+          "article_id": "1771_v01_ULNARIS_GRACILIS",
+          "headword": "ULNARIS GRACILIS",
+          "direction": "next",
+          "start_page": 241,
+          "text_preview": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+          "text_end": "ri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1771_v01_ULNARIS_GRACILIS",
+      "headword": "ULNARIS GRACILIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 241,
+      "end_page": 241,
+      "word_count": 134,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'ULNARIS GRACILIS' comes after 'B'",
+      "text_preview": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon pa",
+      "text_end": "ndon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+      "full_text": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "METACARPIUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "PALMARIS CUTANEUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "RADIALIS EXTERNUS",
+          "start_page": 241,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241
+        },
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242
+        },
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_RADIALIS_EXTERNUS",
+          "headword": "RADIALIS EXTERNUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies run down very close together; and having reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in",
+          "text_end": "ing reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone."
+        },
+        {
+          "article_id": "1771_v01_PALMARIS_CUTANEUS",
+          "headword": "PALMARIS CUTANEUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This muscle is a small thin plane of fleshy fibres, situated transversely, or more or less obliquely, under the skin of the large eminence in the palm of the hand, between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other.",
+          "text_end": ", between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other."
+        },
+        {
+          "article_id": "1771_v01_METACARPIUS",
+          "headword": "METACARPIUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This is a very small fleshy muscle, situated obliquely between the large internal annular or transverse ligament of the carpus, and the whole inside of the fourth metacarpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger.",
+          "text_end": "rpal bone.\n\nIt is fixed by a small short tendon to the os orbiculare, and to the neighbouring part of the large ligament of the carpus. From thence its fibres run more or less obliquely toward the inside of the fourth metacarpal bone, in the outer edge of which they are inserted. The fibres of this muscle are of unequal lengths, and extend all the way to the articulation of the first phalanx of the little finger with the fourth metacarpal bone, but they have no manner of relation to that finger."
+        },
+        {
+          "article_id": "1771_v01_USES_OF_THE_MUSCLES_WHICH_MOVE_THE_CARPUS_ON_THE_FORE-ARM",
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "direction": "next",
+          "start_page": 241,
+          "text_preview": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris externus, it turns the outer edge of the hand toward the olecranon.\n\nWhen the ulnaris externus acts with the ulnaris internus, it turns the outer edge of the hand toward the olecranon, as already said.\n\nWith the radiales externi, it turns the back of the hand toward the outer condyle.\n\nWhen this muscle acts alone, it brings the outer edge of the hand obliquely toward the olecranon and the external condyle at the same time.\n\nWith the radialis externus, the internus carries the inner edge of the hand",
+          "text_end": "it seems likewise particularly to assist the radialis internus in the motion of pronation.\n\nThe metacarpus serves to turn the fourth bone of the metacarpus toward the thumb, and at the same time to increase the convexity of the back of the hand, which is called making Diogenes's cup. The fourth bone thus moved carries the third along with it by reason of their connection, which still augments the hollow on one side, and the convexity on the other.\n\nSect. VIII. The Muscles which move the Fingers."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1771_v01_USES_OF_THE_MUSCLES_WHICH_MOVE_THE_CARPUS_ON_THE_FORE-ARM",
+      "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 241,
+      "end_page": 242,
+      "word_count": 417,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM' comes after 'B'",
+      "text_preview": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris ext",
+      "text_end": "crease the convexity of the back of the hand, which is called making Diogenes's cup. The fourth bone thus moved carries the third along with it by reason of their connection, which still augments the hollow on one side, and the convexity on the other.\n\nSect. VIII. The Muscles which move the Fingers.",
+      "full_text": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris externus, it turns the outer edge of the hand toward the olecranon.\n\nWhen the ulnaris externus acts with the ulnaris internus, it turns the outer edge of the hand toward the olecranon, as already said.\n\nWith the radiales externi, it turns the back of the hand toward the outer condyle.\n\nWhen this muscle acts alone, it brings the outer edge of the hand obliquely toward the olecranon and the external condyle at the same time.\n\nWith the radialis externus, the internus carries the inner edge of the hand, or that next the thumb, toward the extremity of the radius, and toward the fold made by the ulna and os humeri.\n\nAlone, it moves that part of the hand which is next the thumb obliquely, toward the internal angle of the radius.\n\nThe radialis externus, together with the radialis internus, turns the inner edge of the hand directly toward the styloid apophysis of the radius.\nWith the ulnaris externus it inverts the hand, turning the convex side of the metacarpus toward the lower extremity of the bones of the fore-arm. It likewise moves the second row of the carpus on the first.\n\nThis muscle, acting alone, draws obliquely, and toward the external angle of the radius, that portion of the hand which answers to the first metacarpal bone, and to the index.\n\nThe ulnaris gracilis, commonly called palmaris longus, seems to be an assistant to the ulnaris and radialis interni in bending the wrist; and it seems likewise particularly to assist the radialis internus in the motion of pronation.\n\nThe m",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PALMARIS CUTANEUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "RADIALIS EXTERNUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "ULNARIS GRACILIS",
+          "start_page": 241,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242
+        },
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_ULNARIS_GRACILIS",
+          "headword": "ULNARIS GRACILIS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+          "text_end": "ri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris."
+        },
+        {
+          "article_id": "1771_v01_RADIALIS_EXTERNUS",
+          "headword": "RADIALIS EXTERNUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies run down very close together; and having reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in",
+          "text_end": "ing reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone."
+        },
+        {
+          "article_id": "1771_v01_PALMARIS_CUTANEUS",
+          "headword": "PALMARIS CUTANEUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "This muscle is a small thin plane of fleshy fibres, situated transversely, or more or less obliquely, under the skin of the large eminence in the palm of the hand, between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other.",
+          "text_end": ", between the carpus and the little finger; its fibres adhering to the skin, and being in some measure interwoven with the membrana adipofa.\n\nThese fibres are fixed along the edge of the aponeurosis palmaris, from the large ligament of the carpus toward the little finger; and they run in for some space on the plane of the aponeurosis, but without any connexion with the bones of the metacarpus. Near the aponeurosis, these fibres are more or less tendinous, and some of them often cross each other."
+        },
+        {
+          "article_id": "1771_v01_EXTENSORES_POLLICIS",
+          "headword": "EXTENSORES POLLICIS",
+          "direction": "next",
+          "start_page": 242,
+          "text_preview": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ulnaris externus; next, to the interosseous ligament under the supinator brevis; and, lastly, to the middle part of the outside of the radius.\n\nFrom thence it runs down and passes anteriorly over the lower part of the radius, and tendons of the supinator longus and radialis externus, and being gradually divided, it terminates in two long flat tendons, more or less subdivided, which pass together under a particular annular ligament, being only parted by septa or fascia belonging to that ligament.",
+          "text_end": "prius, and likewise to the neighbouring part of the interosseous ligament. From thence it runs down obliquely on the middle part of the radius, where it has likewise a small adhesion. Afterwards it passes through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, being parted from them by a small ligamentary septum. It is inserted in the convex part of the third phalanx, near its basis."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1771_v01_EXTENSORES_POLLICIS",
+      "headword": "EXTENSORES POLLICIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 242,
+      "end_page": 242,
+      "word_count": 363,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSORES POLLICIS' comes after 'B'",
+      "text_preview": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ",
+      "text_end": "sses through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, being parted from them by a small ligamentary septum. It is inserted in the convex part of the third phalanx, near its basis.",
+      "full_text": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ulnaris externus; next, to the interosseous ligament under the supinator brevis; and, lastly, to the middle part of the outside of the radius.\n\nFrom thence it runs down and passes anteriorly over the lower part of the radius, and tendons of the supinator longus and radialis externus, and being gradually divided, it terminates in two long flat tendons, more or less subdivided, which pass together under a particular annular ligament, being only parted by septa or fascia belonging to that ligament.\n\nThe first of these two principal tendons is inserted in the edge of the basis of the first phalanx, near the large transverse ligament of the carpus. When this tendon is subdivided, the other portion of it is fixed in that bone of the carpus which sustains the thumb. The other principal tendon, which often belongs to a muscle entirely distinct from the former, is fixed in the convex side of the basis of the second phalanx, where it joins the tendon of the extensor secundus.\n\nThe extensor secundus is shorter than the first. It is fixed to the ulna, below the former, and above the insertion of the extensor indicis proprius, and likewise to the neighbouring part of the interosseous ligament. From thence it runs down obliquely on the middle part of the radius, where it has likewise a small adhesion. Afterwards it passes through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "RADIALIS EXTERNUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "ULNARIS GRACILIS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241,
+          "end_page": 242
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243
+        },
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_USES_OF_THE_MUSCLES_WHICH_MOVE_THE_CARPUS_ON_THE_FORE-ARM",
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris externus, it turns the outer edge of the hand toward the olecranon.\n\nWhen the ulnaris externus acts with the ulnaris internus, it turns the outer edge of the hand toward the olecranon, as already said.\n\nWith the radiales externi, it turns the back of the hand toward the outer condyle.\n\nWhen this muscle acts alone, it brings the outer edge of the hand obliquely toward the olecranon and the external condyle at the same time.\n\nWith the radialis externus, the internus carries the inner edge of the hand",
+          "text_end": "it seems likewise particularly to assist the radialis internus in the motion of pronation.\n\nThe metacarpus serves to turn the fourth bone of the metacarpus toward the thumb, and at the same time to increase the convexity of the back of the hand, which is called making Diogenes's cup. The fourth bone thus moved carries the third along with it by reason of their connection, which still augments the hollow on one side, and the convexity on the other.\n\nSect. VIII. The Muscles which move the Fingers."
+        },
+        {
+          "article_id": "1771_v01_ULNARIS_GRACILIS",
+          "headword": "ULNARIS GRACILIS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+          "text_end": "ri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris."
+        },
+        {
+          "article_id": "1771_v01_RADIALIS_EXTERNUS",
+          "headword": "RADIALIS EXTERNUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "PRIMUS & SECUNDUS.\n\nThese are two muscles closely united together, lying along the external angle of the radius, between the os humeri and the carpus, being fleshy near the former, and tendinous near the latter.\n\nThe first is inserted above, in the crista of the external condyle of the os humeri, below the insertion of the supinator longus. The second is inserted in the same condyle below the insertion of the first; and in the neighbouring articular ligament. From thence the two fleshy bodies run down very close together; and having reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in",
+          "text_end": "ing reached the middle of the outside of the radius, each of them terminates in a long tendon.\n\nThe two tendons accompany each other to the extremity of the radius; and, having passed under a particular annular ligament, they are divided as it were into two cornua; from whence the ancients, who looked upon them as one muscle, gave it the name of bicornis.\n\nOne of these tendons is inserted anteriorly in the basis of the first metacarpal bone, the other nearly in the same place of the second bone."
+        },
+        {
+          "article_id": "1771_v01_MESOTHENAR",
+          "headword": "MESOTHENAR",
+          "direction": "next",
+          "start_page": 242,
+          "text_preview": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+          "text_end": "the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1771_v01_MESOTHENAR",
+      "headword": "MESOTHENAR",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 242,
+      "end_page": 242,
+      "word_count": 146,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'MESOTHENAR' comes after 'B'",
+      "text_preview": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle",
+      "text_end": "angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+      "full_text": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ULNARIS GRACILIS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241,
+          "end_page": 242
+        },
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242,
+          "end_page": 242
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243
+        },
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243
+        },
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSORES_POLLICIS",
+          "headword": "EXTENSORES POLLICIS",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ulnaris externus; next, to the interosseous ligament under the supinator brevis; and, lastly, to the middle part of the outside of the radius.\n\nFrom thence it runs down and passes anteriorly over the lower part of the radius, and tendons of the supinator longus and radialis externus, and being gradually divided, it terminates in two long flat tendons, more or less subdivided, which pass together under a particular annular ligament, being only parted by septa or fascia belonging to that ligament.",
+          "text_end": "prius, and likewise to the neighbouring part of the interosseous ligament. From thence it runs down obliquely on the middle part of the radius, where it has likewise a small adhesion. Afterwards it passes through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, being parted from them by a small ligamentary septum. It is inserted in the convex part of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_USES_OF_THE_MUSCLES_WHICH_MOVE_THE_CARPUS_ON_THE_FORE-ARM",
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris externus, it turns the outer edge of the hand toward the olecranon.\n\nWhen the ulnaris externus acts with the ulnaris internus, it turns the outer edge of the hand toward the olecranon, as already said.\n\nWith the radiales externi, it turns the back of the hand toward the outer condyle.\n\nWhen this muscle acts alone, it brings the outer edge of the hand obliquely toward the olecranon and the external condyle at the same time.\n\nWith the radialis externus, the internus carries the inner edge of the hand",
+          "text_end": "it seems likewise particularly to assist the radialis internus in the motion of pronation.\n\nThe metacarpus serves to turn the fourth bone of the metacarpus toward the thumb, and at the same time to increase the convexity of the back of the hand, which is called making Diogenes's cup. The fourth bone thus moved carries the third along with it by reason of their connection, which still augments the hollow on one side, and the convexity on the other.\n\nSect. VIII. The Muscles which move the Fingers."
+        },
+        {
+          "article_id": "1771_v01_ULNARIS_GRACILIS",
+          "headword": "ULNARIS GRACILIS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "vulgo PALMARIS LONGUS.\n\nThis is a small muscle, lying between the os humeri and the carpus, on the inside of the fore-arm; its body being small and slender, its tendon very long and flat.\n\nIt is fixed by its fleshy portion, in the small crista of the inner condyle of the os humeri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris.",
+          "text_end": "ri, sometimes closely united to the ulnaris internus. From thence it runs down fleshy for some space, turning a little obliquely towards the middle of the fore-arm, and ends in a long, narrow, thin tendon.\n\nThis tendon passes down the middle of the fore-arm, over all the other muscles to which it slightly adheres, and advancing over the large internal annular or transverse ligament of the carpus, is inserted in the surface thereof, sending off some radiated filaments to the aponeurosis palmaris."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_COMMUNIS",
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "direction": "next",
+          "start_page": 243,
+          "text_preview": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perforans, and four long, slender, small tendons.\n\nThree of these tendons pass through the common external annular ligament of the carpus; and the fourth, which goes to the little finger, passes through a particular ring of the same ligament.\n\nAfterwards these four tendons separate as they go to the fingers, and in their passage communicate with each other, by oblique tendinous series, chiefly near the heads of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slight",
+          "text_end": "of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slightly inserted therein by some lateral expansions fixed in each side of the basis. From thence it advances to the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1771_v01_EXTENSOR_DIGITORUM_COMMUNIS",
+      "headword": "EXTENSOR DIGITORUM COMMUNIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 243,
+      "end_page": 243,
+      "word_count": 238,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR DIGITORUM COMMUNIS' comes after 'B'",
+      "text_preview": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perfor",
+      "text_end": " the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis.",
+      "full_text": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perforans, and four long, slender, small tendons.\n\nThree of these tendons pass through the common external annular ligament of the carpus; and the fourth, which goes to the little finger, passes through a particular ring of the same ligament.\n\nAfterwards these four tendons separate as they go to the fingers, and in their passage communicate with each other, by oblique tendinous series, chiefly near the heads of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slightly inserted therein by some lateral expansions fixed in each side of the basis. From thence it advances to the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "start_page": 241,
+          "end_page": 242
+        },
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242,
+          "end_page": 242
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243
+        },
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244
+        },
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_MESOTHENAR",
+          "headword": "MESOTHENAR",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+          "text_end": "the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint."
+        },
+        {
+          "article_id": "1771_v01_EXTENSORES_POLLICIS",
+          "headword": "EXTENSORES POLLICIS",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ulnaris externus; next, to the interosseous ligament under the supinator brevis; and, lastly, to the middle part of the outside of the radius.\n\nFrom thence it runs down and passes anteriorly over the lower part of the radius, and tendons of the supinator longus and radialis externus, and being gradually divided, it terminates in two long flat tendons, more or less subdivided, which pass together under a particular annular ligament, being only parted by septa or fascia belonging to that ligament.",
+          "text_end": "prius, and likewise to the neighbouring part of the interosseous ligament. From thence it runs down obliquely on the middle part of the radius, where it has likewise a small adhesion. Afterwards it passes through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, being parted from them by a small ligamentary septum. It is inserted in the convex part of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_USES_OF_THE_MUSCLES_WHICH_MOVE_THE_CARPUS_ON_THE_FORE-ARM",
+          "headword": "USES OF THE MUSCLES WHICH MOVE THE CARPUS ON THE FORE-ARM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "When the ulnaris internus acts alone, or as the principal mover, it brings the hand obliquely toward the internal condyle, and toward the olecranon, though with difficulty.\n\nWhen it acts together with the radialis internus, it turns the hand equally towards the two extremities of the bones of the fore-arm; and thereby moves not only the carpus in general on the fore-arm, but also the second row of the carpus on the first, and the metacarpal bones on the second.\n\nWhen it acts with the ulnaris externus, it turns the outer edge of the hand toward the olecranon.\n\nWhen the ulnaris externus acts with the ulnaris internus, it turns the outer edge of the hand toward the olecranon, as already said.\n\nWith the radiales externi, it turns the back of the hand toward the outer condyle.\n\nWhen this muscle acts alone, it brings the outer edge of the hand obliquely toward the olecranon and the external condyle at the same time.\n\nWith the radialis externus, the internus carries the inner edge of the hand",
+          "text_end": "it seems likewise particularly to assist the radialis internus in the motion of pronation.\n\nThe metacarpus serves to turn the fourth bone of the metacarpus toward the thumb, and at the same time to increase the convexity of the back of the hand, which is called making Diogenes's cup. The fourth bone thus moved carries the third along with it by reason of their connection, which still augments the hollow on one side, and the convexity on the other.\n\nSect. VIII. The Muscles which move the Fingers."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_INDICIS_PROPRIUS",
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "direction": "next",
+          "start_page": 243,
+          "text_preview": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+          "text_end": "nd outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index."
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1771_v01_EXTENSOR_INDICIS_PROPRIUS",
+      "headword": "EXTENSOR INDICIS PROPRIUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 243,
+      "end_page": 244,
+      "word_count": 102,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR INDICIS PROPRIUS' comes after 'B'",
+      "text_preview": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the ",
+      "text_end": "the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+      "full_text": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSORES POLLICIS",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243,
+          "end_page": 243
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244
+        },
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244
+        },
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_COMMUNIS",
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perforans, and four long, slender, small tendons.\n\nThree of these tendons pass through the common external annular ligament of the carpus; and the fourth, which goes to the little finger, passes through a particular ring of the same ligament.\n\nAfterwards these four tendons separate as they go to the fingers, and in their passage communicate with each other, by oblique tendinous series, chiefly near the heads of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slight",
+          "text_end": "of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slightly inserted therein by some lateral expansions fixed in each side of the basis. From thence it advances to the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_MESOTHENAR",
+          "headword": "MESOTHENAR",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+          "text_end": "the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint."
+        },
+        {
+          "article_id": "1771_v01_EXTENSORES_POLLICIS",
+          "headword": "EXTENSORES POLLICIS",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "These are two very distinct muscles, the first or longest of which is sometimes more, sometimes less, and sometimes altogether divided into two, in which case these muscles are three in number. They are situated obliquely between the ulna and convex side of the thumb.\n\nThe extensor primus is a long muscle, more or less double, in the manner already said. It is fixed above by fleshy fibres, first to the outside of the ulna, near its upper extremity, below the anconeous minor and insertion of the ulnaris externus; next, to the interosseous ligament under the supinator brevis; and, lastly, to the middle part of the outside of the radius.\n\nFrom thence it runs down and passes anteriorly over the lower part of the radius, and tendons of the supinator longus and radialis externus, and being gradually divided, it terminates in two long flat tendons, more or less subdivided, which pass together under a particular annular ligament, being only parted by septa or fascia belonging to that ligament.",
+          "text_end": "prius, and likewise to the neighbouring part of the interosseous ligament. From thence it runs down obliquely on the middle part of the radius, where it has likewise a small adhesion. Afterwards it passes through the small channel in the styloid apophysis of the radius, through the annular ligament belonging to the tendons of the radialis externus, and over these tendons, being parted from them by a small ligamentary septum. It is inserted in the convex part of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_MINIMI_DIGITI_PROPRIUS",
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "direction": "next",
+          "start_page": 244,
+          "text_preview": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1771_v01_EXTENSOR_MINIMI_DIGITI_PROPRIUS",
+      "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 244,
+      "end_page": 244,
+      "word_count": 71,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'EXTENSOR MINIMI DIGITI PROPRIUS' comes after 'B'",
+      "text_preview": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+      "text_end": "hich it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+      "full_text": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MESOTHENAR",
+          "start_page": 242,
+          "end_page": 242
+        },
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243,
+          "end_page": 243
+        },
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243,
+          "end_page": 244
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244
+        },
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244
+        },
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_INDICIS_PROPRIUS",
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+          "text_end": "nd outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_COMMUNIS",
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perforans, and four long, slender, small tendons.\n\nThree of these tendons pass through the common external annular ligament of the carpus; and the fourth, which goes to the little finger, passes through a particular ring of the same ligament.\n\nAfterwards these four tendons separate as they go to the fingers, and in their passage communicate with each other, by oblique tendinous series, chiefly near the heads of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slight",
+          "text_end": "of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slightly inserted therein by some lateral expansions fixed in each side of the basis. From thence it advances to the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_MESOTHENAR",
+          "headword": "MESOTHENAR",
+          "direction": "previous",
+          "start_page": 242,
+          "text_preview": "This is a flat, and nearly triangular muscle, lying between the first phalanx of the thumb, and the bottom of the palm of the hand.\n\nIt is inserted, by a very broad basis, in the ligament which connects the os magnum of the carpus to that which supports the thumb. It is likewise inserted along the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint.",
+          "text_end": "the internal or angular part of that bone of the metacarpus, which supports the middle finger, and in the small extremity of that which answers to the index.\n\nFrom thence the fibres contracting to an angle, terminate in a flat tendon of different breadths, which is inserted in that side of the head of the first phalanx of the thumb which is turned to the hollow of the hand, and in the neighbouring part of the basis of the second phalanx, by means of the second sesamoid bone belonging that joint."
+        },
+        {
+          "article_id": "1771_v01_HYPOTHENAR_MINIMI_DIGITI",
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "direction": "next",
+          "start_page": 244,
+          "text_preview": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little finger which is turned from the thumb.\n\nUses of the Muscles which move the Fingers.\n\nThe perforatus serves to bend the second phalanges of all the fingers except the thumb; and the particular muscles, of which it is made up, may act separately, by reason of their distinct insertions in these phalanges.\n\nThey not only bend the second phalanges on the first, but also the first on the metacarpal bones, and the metacarpus and carpus on the fore-arm.\n\nThe perforans bends particularly the third phalan",
+          "text_end": "cotyloid cavity or acetabulum, running between the anterior inferior spine and the great posterior sinus. It is likewise fixed in the edge of that sinus, in the spine of the ischium, and in the orbicular ligament of the joint of the hip.\n\nFrom thence its fibres, contracting in breadth, form a short tendon, by which the muscle is inserted in the anterior part of the upper edge of the great trochanter, above the great external convex rough surface in which the glut\u00e6us medius is fixed.\n\n**TRICEPS**"
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1771_v01_HYPOTHENAR_MINIMI_DIGITI",
+      "headword": "HYPOTHENAR MINIMI DIGITI",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 244,
+      "end_page": 246,
+      "word_count": 2280,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'HYPOTHENAR MINIMI DIGITI' comes after 'B'",
+      "text_preview": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little ",
+      "text_end": "lar ligament of the joint of the hip.\n\nFrom thence its fibres, contracting in breadth, form a short tendon, by which the muscle is inserted in the anterior part of the upper edge of the great trochanter, above the great external convex rough surface in which the glut\u00e6us medius is fixed.\n\n**TRICEPS**",
+      "full_text": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little finger which is turned from the thumb.\n\nUses of the Muscles which move the Fingers.\n\nThe perforatus serves to bend the second phalanges of all the fingers except the thumb; and the particular muscles, of which it is made up, may act separately, by reason of their distinct insertions in these phalanges.\n\nThey not only bend the second phalanges on the first, but also the first on the metacarpal bones, and the metacarpus and carpus on the fore-arm.\n\nThe perforans bends particularly the third phalanges in which it is inserted; and by the same motion it may likewise bend the first and second phalanges.\n\nIt may likewise be esteemed an assistant to the ulnaris and radialis interni in great efforts; and these muscles many reciprocally be looked upon as assistants to the perforatus and perforans.\n\nThe extensor digitorum communis serves to extend the four fingers, to keep them in any degree of extension, and to moderate their flexion in all the determinate degrees of action of the perforatus and perforans.\n\nEach tendon serves to extend a whole finger, that is,\nall the three phalanges together; and likewise each phalanx by itself, though not with the same facility.\n\nThe proper extensors of the fore and little fingers are assistants to two subaltern muscles of the extensor communis that go to these fingers, which consequently we extend separately with more ease than either of the other two. These muscles likewise serve to bring the fingers, in which they are inserted, near the other fing",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "start_page": 243,
+          "end_page": 243
+        },
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243,
+          "end_page": 244
+        },
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244,
+          "end_page": 244
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244
+        },
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244
+        },
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_EXTENSOR_MINIMI_DIGITI_PROPRIUS",
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_INDICIS_PROPRIUS",
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+          "text_end": "nd outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index."
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_DIGITORUM_COMMUNIS",
+          "headword": "EXTENSOR DIGITORUM COMMUNIS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a compound muscle, very much resembling the perforatus and perforans, lying on the outside of the fore-arm, between the ulnaris externus and radialis externus.\n\nIt is fixed above, by a tendinous extremity, to the posterior and lower part of the external or great condyle of the os humeri, and, by a tendinous adhesion on each side, to the ulnaris and radialis externus. It has likewise sometimes a small insertion in the radius. It is divided into four muscles, like the perforatus and perforans, and four long, slender, small tendons.\n\nThree of these tendons pass through the common external annular ligament of the carpus; and the fourth, which goes to the little finger, passes through a particular ring of the same ligament.\n\nAfterwards these four tendons separate as they go to the fingers, and in their passage communicate with each other, by oblique tendinous series, chiefly near the heads of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slight",
+          "text_end": "of the metacarpal bones.\n\nEach tendon having reached the basis of the first phalanx, is slightly inserted therein by some lateral expansions fixed in each side of the basis. From thence it advances to the head of the same phalanx, where it is divided into two flat portions, which, at the articulation of the first phalanx with the second, leave some distance between them. About the head of the second phalanx, they unite again, and are fixed in the convex side of the third phalanx, near its basis."
+        },
+        {
+          "article_id": "1771_v01_INTEROSSEI",
+          "headword": "INTEROSSEI",
+          "direction": "next",
+          "start_page": 244,
+          "text_preview": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the interstices between the three first metacarpal bones, and surround the middle bone all the way to the hollow of the hand. Their tendons are fixed in both sides of the first phalanx, and in both sides of the second tendon of the extensor communis.\n\nThe third external interosseus lies in the interstice betwixt the two last metacarpal bones, and is most commonly inserted in the ring finger; its tendon being fixed in that side of the first phalanx farthest from the thumb, and in the corresponding edge o",
+          "text_end": " the forefinger, next the little finger, and in the corresponding edge of the extensor communis. The tendon of the second goes in the same manner to the side of the ring-finger next to the thumb; and the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one."
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1771_v01_INTEROSSEI",
+      "headword": "INTEROSSEI",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 244,
+      "end_page": 244,
+      "word_count": 317,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'INTEROSSEI' comes after 'B'",
+      "text_preview": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the inte",
+      "text_end": "the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one.",
+      "full_text": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the interstices between the three first metacarpal bones, and surround the middle bone all the way to the hollow of the hand. Their tendons are fixed in both sides of the first phalanx, and in both sides of the second tendon of the extensor communis.\n\nThe third external interosseus lies in the interstice betwixt the two last metacarpal bones, and is most commonly inserted in the ring finger; its tendon being fixed in that side of the first phalanx farthest from the thumb, and in the corresponding edge of the third tendon of the extensor communis. The fleshy body of this muscle runs in between the two bones toward the hollow of the hand.\n\nThe internal interossei are more simple than the former, and do not lie so much between the bones. The tendon of the first is inserted in the side of the first phalanx of the forefinger, next the little finger, and in the corresponding edge of the extensor communis. The tendon of the second goes in the same manner to the side of the ring-finger next to the thumb; and the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "start_page": 243,
+          "end_page": 244
+        },
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244,
+          "end_page": 246
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244
+        },
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244
+        },
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_HYPOTHENAR_MINIMI_DIGITI",
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little finger which is turned from the thumb.\n\nUses of the Muscles which move the Fingers.\n\nThe perforatus serves to bend the second phalanges of all the fingers except the thumb; and the particular muscles, of which it is made up, may act separately, by reason of their distinct insertions in these phalanges.\n\nThey not only bend the second phalanges on the first, but also the first on the metacarpal bones, and the metacarpus and carpus on the fore-arm.\n\nThe perforans bends particularly the third phalan",
+          "text_end": "cotyloid cavity or acetabulum, running between the anterior inferior spine and the great posterior sinus. It is likewise fixed in the edge of that sinus, in the spine of the ischium, and in the orbicular ligament of the joint of the hip.\n\nFrom thence its fibres, contracting in breadth, form a short tendon, by which the muscle is inserted in the anterior part of the upper edge of the great trochanter, above the great external convex rough surface in which the glut\u00e6us medius is fixed.\n\n**TRICEPS**"
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_MINIMI_DIGITI_PROPRIUS",
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_INDICIS_PROPRIUS",
+          "headword": "EXTENSOR INDICIS PROPRIUS",
+          "direction": "previous",
+          "start_page": 243,
+          "text_preview": "This is a small long muscle, with a long slender tendon, lying a little obliquely on the lower and outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index.",
+          "text_end": "nd outer half of the fore-arm, between the ulna and fore-finger.\n\nIt is fixed, by its fleshy body, a little higher than the lowest\nlowest third part of the outside of the ulna, below the insertion of the extensor pollicis, and it has likewise a small adhesion to the interosseus ligament. From thence it runs down, ending in a distinct tendon, without any communications, which having passed through the annular ligament of the extensor communis, afterwards joins that tendon which goes to the index."
+        },
+        {
+          "article_id": "1771_v01_LUMBRICALES",
+          "headword": "LUMBRICALES",
+          "direction": "next",
+          "start_page": 244,
+          "text_preview": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+          "text_end": "odies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second."
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1771_v01_LUMBRICALES",
+      "headword": "LUMBRICALES",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 244,
+      "end_page": 244,
+      "word_count": 115,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'LUMBRICALES' comes after 'B'",
+      "text_preview": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, ",
+      "text_end": "y those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+      "full_text": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244,
+          "end_page": 246
+        },
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244,
+          "end_page": 244
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244
+        },
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246
+        },
+        {
+          "headword": "GEMELLI",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_INTEROSSEI",
+          "headword": "INTEROSSEI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the interstices between the three first metacarpal bones, and surround the middle bone all the way to the hollow of the hand. Their tendons are fixed in both sides of the first phalanx, and in both sides of the second tendon of the extensor communis.\n\nThe third external interosseus lies in the interstice betwixt the two last metacarpal bones, and is most commonly inserted in the ring finger; its tendon being fixed in that side of the first phalanx farthest from the thumb, and in the corresponding edge o",
+          "text_end": " the forefinger, next the little finger, and in the corresponding edge of the extensor communis. The tendon of the second goes in the same manner to the side of the ring-finger next to the thumb; and the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one."
+        },
+        {
+          "article_id": "1771_v01_HYPOTHENAR_MINIMI_DIGITI",
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little finger which is turned from the thumb.\n\nUses of the Muscles which move the Fingers.\n\nThe perforatus serves to bend the second phalanges of all the fingers except the thumb; and the particular muscles, of which it is made up, may act separately, by reason of their distinct insertions in these phalanges.\n\nThey not only bend the second phalanges on the first, but also the first on the metacarpal bones, and the metacarpus and carpus on the fore-arm.\n\nThe perforans bends particularly the third phalan",
+          "text_end": "cotyloid cavity or acetabulum, running between the anterior inferior spine and the great posterior sinus. It is likewise fixed in the edge of that sinus, in the spine of the ischium, and in the orbicular ligament of the joint of the hip.\n\nFrom thence its fibres, contracting in breadth, form a short tendon, by which the muscle is inserted in the anterior part of the upper edge of the great trochanter, above the great external convex rough surface in which the glut\u00e6us medius is fixed.\n\n**TRICEPS**"
+        },
+        {
+          "article_id": "1771_v01_EXTENSOR_MINIMI_DIGITI_PROPRIUS",
+          "headword": "EXTENSOR MINIMI DIGITI PROPRIUS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a kind of collateral or auxiliary muscle of the extensor communis, of which it appears almost always to be more or less a portion.\n\nIt is fixed along the superior external half of the ulna, from whence its long small tendon runs down in company with the fourth tendon of the extensor communis, all the way to the little finger, where it joins it, and is inserted with it.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_SEMI-INTEROSSEUS_INDICIS",
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "direction": "next",
+          "start_page": 244,
+          "text_preview": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+          "text_end": "all, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb."
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1771_v01_SEMI-INTEROSSEUS_INDICIS",
+      "headword": "SEMI-INTEROSSEUS INDICIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 244,
+      "end_page": 244,
+      "word_count": 98,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'SEMI-INTEROSSEUS INDICIS' comes after 'B'",
+      "text_preview": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side nex",
+      "text_end": "the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+      "full_text": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "start_page": 244,
+          "end_page": 246
+        },
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244,
+          "end_page": 244
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246
+        },
+        {
+          "headword": "GEMELLI",
+          "start_page": 247
+        },
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_LUMBRICALES",
+          "headword": "LUMBRICALES",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+          "text_end": "odies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second."
+        },
+        {
+          "article_id": "1771_v01_INTEROSSEI",
+          "headword": "INTEROSSEI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the interstices between the three first metacarpal bones, and surround the middle bone all the way to the hollow of the hand. Their tendons are fixed in both sides of the first phalanx, and in both sides of the second tendon of the extensor communis.\n\nThe third external interosseus lies in the interstice betwixt the two last metacarpal bones, and is most commonly inserted in the ring finger; its tendon being fixed in that side of the first phalanx farthest from the thumb, and in the corresponding edge o",
+          "text_end": " the forefinger, next the little finger, and in the corresponding edge of the extensor communis. The tendon of the second goes in the same manner to the side of the ring-finger next to the thumb; and the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one."
+        },
+        {
+          "article_id": "1771_v01_HYPOTHENAR_MINIMI_DIGITI",
+          "headword": "HYPOTHENAR MINIMI DIGITI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small and pretty long muscle, lying on the backside of the fourth metacarpal bone opposite to the thumb, where, together with the metacarpus, or hypothanar metacarpi, it forms that large eminence over against the thenar or that of the thumb.\n\nIt is fixed by one end in the os orbiculare of the carpus, and a little to the neighbouring part of the large annular ligament. The other end terminates by a short flatish tendon, fixed to that side of the basis of the first phalanx of the little finger which is turned from the thumb.\n\nUses of the Muscles which move the Fingers.\n\nThe perforatus serves to bend the second phalanges of all the fingers except the thumb; and the particular muscles, of which it is made up, may act separately, by reason of their distinct insertions in these phalanges.\n\nThey not only bend the second phalanges on the first, but also the first on the metacarpal bones, and the metacarpus and carpus on the fore-arm.\n\nThe perforans bends particularly the third phalan",
+          "text_end": "cotyloid cavity or acetabulum, running between the anterior inferior spine and the great posterior sinus. It is likewise fixed in the edge of that sinus, in the spine of the ischium, and in the orbicular ligament of the joint of the hip.\n\nFrom thence its fibres, contracting in breadth, form a short tendon, by which the muscle is inserted in the anterior part of the upper edge of the great trochanter, above the great external convex rough surface in which the glut\u00e6us medius is fixed.\n\n**TRICEPS**"
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_PRIMUS",
+          "headword": "TRICEPS PRIMUS",
+          "direction": "next",
+          "start_page": 246,
+          "text_preview": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the os pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femori",
+          "text_end": " pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris."
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1771_v01_TRICEPS_PRIMUS",
+      "headword": "TRICEPS PRIMUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 246,
+      "end_page": 247,
+      "word_count": 184,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRICEPS PRIMUS' comes after 'B'",
+      "text_preview": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the ",
+      "text_end": "rly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris.",
+      "full_text": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the os pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "INTEROSSEI",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244,
+          "end_page": 244
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GEMELLI",
+          "start_page": 247
+        },
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247
+        },
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_SEMI-INTEROSSEUS_INDICIS",
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+          "text_end": "all, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb."
+        },
+        {
+          "article_id": "1771_v01_LUMBRICALES",
+          "headword": "LUMBRICALES",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+          "text_end": "odies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second."
+        },
+        {
+          "article_id": "1771_v01_INTEROSSEI",
+          "headword": "INTEROSSEI",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are small muscles, lying between the metacarpal bones, and filling the three interstices left between them, both exteriorly, or towards the back of the hand, and interiorly, or toward the palm of the hand. From this situation they have the name of interossei, and have been divided into external and internal. They are commonly reckoned six in number, three external, and three internal.\n\nThe first two external interossei are for the most part inserted in the middle finger. They fill the interstices between the three first metacarpal bones, and surround the middle bone all the way to the hollow of the hand. Their tendons are fixed in both sides of the first phalanx, and in both sides of the second tendon of the extensor communis.\n\nThe third external interosseus lies in the interstice betwixt the two last metacarpal bones, and is most commonly inserted in the ring finger; its tendon being fixed in that side of the first phalanx farthest from the thumb, and in the corresponding edge o",
+          "text_end": " the forefinger, next the little finger, and in the corresponding edge of the extensor communis. The tendon of the second goes in the same manner to the side of the ring-finger next to the thumb; and the third, to the same side of the little finger.\n\nThere are therefore two external interossei for the middle finger, one for the ring finger, but none for the fore and little finger. The middle finger has no internal interosseus; but the index, ring finger, and little finger, have each of them one."
+        },
+        {
+          "article_id": "1771_v01_GEMELLI",
+          "headword": "GEMELLI",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under the acetabulum, where it is bent downward.\n\nThe inferior and largest gemellus is fixed to the superior and back part of the tuberosity of the ischium, and to a rough impression which runs across the outside of the ischium from the lower extremity of the ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particul",
+          "text_end": "ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity."
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1771_v01_GEMELLI",
+      "headword": "GEMELLI",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 247,
+      "word_count": 219,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'GEMELLI' comes after 'B'",
+      "text_preview": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under ",
+      "text_end": "um, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity.",
+      "full_text": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under the acetabulum, where it is bent downward.\n\nThe inferior and largest gemellus is fixed to the superior and back part of the tuberosity of the ischium, and to a rough impression which runs across the outside of the ischium from the lower extremity of the ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "LUMBRICALES",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247
+        },
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247
+        },
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRICEPS_PRIMUS",
+          "headword": "TRICEPS PRIMUS",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the os pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femori",
+          "text_end": " pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris."
+        },
+        {
+          "article_id": "1771_v01_SEMI-INTEROSSEUS_INDICIS",
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+          "text_end": "all, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb."
+        },
+        {
+          "article_id": "1771_v01_LUMBRICALES",
+          "headword": "LUMBRICALES",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "These are four very small slender muscles, lying in the hollow of the hand, in the same direction with the perforatus and perforans.\n\nThey are fixed, by their fleshy bodies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second.",
+          "text_end": "odies, to the tendons of the perforatus on the side next the thumb, near the large annular ligament of the carpus. Near the heads of the metacarpal bones, they become very thin tendons, which accompany those of the perforans through the furcae of the aponeurosis palmaris. Then they pass on to the same sides of the first phalanges, and join the tendons of the extensor communis; each of them being connected with the nearest portion thereof, at the articulation of the first phalanx with the second."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_EXTERNUS",
+          "headword": "OBTURATOR EXTERNUS",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside of the great ramus of the ischium, under the acetabulum, where a tendon is formed, which continues its course behind the neck of the os femoris toward the great trochanter, and is inserted between the gemelli and quadratus, in a small fossula between the apex of the great trochanter, and the basis of the column femoris.\n\n**QUADRATUS.**\n\nThis is a small, flat, flethy muscle, of the figure of an oblong square, from whence it has its name. It is situated transversely between the tuberosity of the i",
+          "text_end": "e knee.\n\nIt is fixed in the edge of the inferior branch of the os pubis, near the lymphatics, by a broad and very short tendon, on one side of the insertion of the triceps secundus, but a little lower down.\n\nFrom thence the flebby fibres contracting a little in breadth, run down to the internal condyle of the os femoris, where they terminate in a thin tendon, which afterwards degenerates into a kind of aponeurosis, and is inserted in the fore-part of the inside of the head of the tibia.\n\nBiceps."
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1771_v01_OBTURATOR_EXTERNUS",
+      "headword": "OBTURATOR EXTERNUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 249,
+      "word_count": 1975,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'OBTURATOR EXTERNUS' comes after 'B'",
+      "text_preview": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside ",
+      "text_end": " down.\n\nFrom thence the flebby fibres contracting a little in breadth, run down to the internal condyle of the os femoris, where they terminate in a thin tendon, which afterwards degenerates into a kind of aponeurosis, and is inserted in the fore-part of the inside of the head of the tibia.\n\nBiceps.",
+      "full_text": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside of the great ramus of the ischium, under the acetabulum, where a tendon is formed, which continues its course behind the neck of the os femoris toward the great trochanter, and is inserted between the gemelli and quadratus, in a small fossula between the apex of the great trochanter, and the basis of the column femoris.\n\n**QUADRATUS.**\n\nThis is a small, flat, flethy muscle, of the figure of an oblong square, from whence it has its name. It is situated transversely between the tuberosity of the ischium and the great trochanter.\n\nIt is fixed by one extremity along that obtuse line which runs from under the acetabulum, toward the lower part of the tuberosity of the ischium. From thence it runs directly toward the great trochanter, and is inserted in almost all the lower half of the oblong eminence in that apophysis; but chiefly in the small rising or tuberosity in the middle of that eminence.\n\n**MUSCULUS FASCIAE LAT\u00c6.**\n\nThis is a small and pretty long muscle, situated a little obliquely upward and downward on the forepart of the hip.\n\nIt is fixed above to the outside of the anterior superior spine of the os ilium, between the insertions of the gluteus medius and sartorius. From thence its flethy fibres run down a little obliquely backward, forming a very flat body, four fingers breadth in length, and two in breadth.\n\nThis body lies between two laminae of the fascia lata, and is inserted therein by short tendinous fibres, which disappear at that place where the fascia adheres to",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "start_page": 244,
+          "end_page": 244
+        },
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246,
+          "end_page": 247
+        },
+        {
+          "headword": "GEMELLI",
+          "start_page": 247,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247
+        },
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247
+        },
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_GEMELLI",
+          "headword": "GEMELLI",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under the acetabulum, where it is bent downward.\n\nThe inferior and largest gemellus is fixed to the superior and back part of the tuberosity of the ischium, and to a rough impression which runs across the outside of the ischium from the lower extremity of the ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particul",
+          "text_end": "ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_PRIMUS",
+          "headword": "TRICEPS PRIMUS",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the os pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femori",
+          "text_end": " pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris."
+        },
+        {
+          "article_id": "1771_v01_SEMI-INTEROSSEUS_INDICIS",
+          "headword": "SEMI-INTEROSSEUS INDICIS",
+          "direction": "previous",
+          "start_page": 244,
+          "text_preview": "This is a small, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb.",
+          "text_end": "all, short, flat, fleshy muscle, very like the antithenar, or internal semi-interosseus of the thumb. It is situated obliquely on one side of that of the thumb, between the first phalanx thereof, and the first metacarpal bone.\n\nIt is fixed by one end to the outside of the basis of the first phalanx of the thumb, and a little to that bone of the carpus by which this phalanx is supported; and by the other end it is fixed near the head of the first phalanx of the index, on that side next the thumb."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_INTERNUS",
+          "headword": "OBTURATOR INTERNUS",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+          "text_end": "schium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli."
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1771_v01_OBTURATOR_INTERNUS",
+      "headword": "OBTURATOR INTERNUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 247,
+      "word_count": 164,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'OBTURATOR INTERNUS' comes after 'B'",
+      "text_preview": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the",
+      "text_end": "elow the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+      "full_text": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "TRICEPS PRIMUS",
+          "start_page": 246,
+          "end_page": 247
+        },
+        {
+          "headword": "GEMELLI",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247,
+          "end_page": 249
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247
+        },
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247
+        },
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_OBTURATOR_EXTERNUS",
+          "headword": "OBTURATOR EXTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside of the great ramus of the ischium, under the acetabulum, where a tendon is formed, which continues its course behind the neck of the os femoris toward the great trochanter, and is inserted between the gemelli and quadratus, in a small fossula between the apex of the great trochanter, and the basis of the column femoris.\n\n**QUADRATUS.**\n\nThis is a small, flat, flethy muscle, of the figure of an oblong square, from whence it has its name. It is situated transversely between the tuberosity of the i",
+          "text_end": "e knee.\n\nIt is fixed in the edge of the inferior branch of the os pubis, near the lymphatics, by a broad and very short tendon, on one side of the insertion of the triceps secundus, but a little lower down.\n\nFrom thence the flebby fibres contracting a little in breadth, run down to the internal condyle of the os femoris, where they terminate in a thin tendon, which afterwards degenerates into a kind of aponeurosis, and is inserted in the fore-part of the inside of the head of the tibia.\n\nBiceps."
+        },
+        {
+          "article_id": "1771_v01_GEMELLI",
+          "headword": "GEMELLI",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under the acetabulum, where it is bent downward.\n\nThe inferior and largest gemellus is fixed to the superior and back part of the tuberosity of the ischium, and to a rough impression which runs across the outside of the ischium from the lower extremity of the ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particul",
+          "text_end": "ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_PRIMUS",
+          "headword": "TRICEPS PRIMUS",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "This, with the two following tricipital muscles, are fleshy and flat, and of different lengths, situated between the os pubis and the whole length of the os femoris. The first and second cross each other in such a manner, as that the muscle, which is the first on the os pubis, becomes the second on the os femoris; and the second on the os pubis, is the first on the os femoris. The third muscle keeps its rank.\n\nThe triceps primus is fixed above by a short tendon to the tuberosity or spine of the os pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femori",
+          "text_end": " pubis, and to the neighbouring part of the symphysis, its fibres mixing a little with those of the pectineus. From thence it runs down, increasing in breadth, and is inserted by fleshy fibres inferiorly in the middle portion of the linea femoris aspera.\n\nAt the lower part of this insertion, a portion of the muscle separates from the rest, and sends off a long tendon, which, together with a like tendon from the triceps tertius, is inserted in the inner condyle of the extremity of the os femoris."
+        },
+        {
+          "article_id": "1771_v01_PYRIFORMIS_ET_PYRAMIDALIS",
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+          "text_end": " and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches."
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1771_v01_PYRIFORMIS_ET_PYRAMIDALIS",
+      "headword": "PYRIFORMIS ET PYRAMIDALIS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 247,
+      "word_count": 145,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'PYRIFORMIS ET PYRAMIDALIS' comes after 'B'",
+      "text_preview": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum",
+      "text_end": "acum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+      "full_text": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GEMELLI",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247,
+          "end_page": 249
+        },
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247
+        },
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247
+        },
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_OBTURATOR_INTERNUS",
+          "headword": "OBTURATOR INTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+          "text_end": "schium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_EXTERNUS",
+          "headword": "OBTURATOR EXTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside of the great ramus of the ischium, under the acetabulum, where a tendon is formed, which continues its course behind the neck of the os femoris toward the great trochanter, and is inserted between the gemelli and quadratus, in a small fossula between the apex of the great trochanter, and the basis of the column femoris.\n\n**QUADRATUS.**\n\nThis is a small, flat, flethy muscle, of the figure of an oblong square, from whence it has its name. It is situated transversely between the tuberosity of the i",
+          "text_end": "e knee.\n\nIt is fixed in the edge of the inferior branch of the os pubis, near the lymphatics, by a broad and very short tendon, on one side of the insertion of the triceps secundus, but a little lower down.\n\nFrom thence the flebby fibres contracting a little in breadth, run down to the internal condyle of the os femoris, where they terminate in a thin tendon, which afterwards degenerates into a kind of aponeurosis, and is inserted in the fore-part of the inside of the head of the tibia.\n\nBiceps."
+        },
+        {
+          "article_id": "1771_v01_GEMELLI",
+          "headword": "GEMELLI",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "These are two small, flat, narrow muscles, situated almost transversely one above the other, between the tuberosity of the ischium and the great trochanter, immediately below the pyriformis, and parted by the tendon of the obturator internus.\n\nThe superior and smallest gemellus is fixed to the lower part of the spine of the ischium, to the superior part of the small ischiatric notch, and to a rough line, which runs across the outside of the ischium, beginning from the spine, and continued under the acetabulum, where it is bent downward.\n\nThe inferior and largest gemellus is fixed to the superior and back part of the tuberosity of the ischium, and to a rough impression which runs across the outside of the ischium from the lower extremity of the ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particul",
+          "text_end": "ischiatric notch, and is bent upward toward the other line, together with which it forms a sort of irregular semi-circle.\n\nBoth these muscles have likewise a small insertion in the inside of the ischium, where, being united together by a particular membrane, one of them joins the upper side, and the other the lower side of the obturator internus, a little after it has passed over the notch: They inclose it as in a bag, and continue to be fixed to it by fleshy fibres all the way to its extremity."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_SECUNDUS",
+          "headword": "TRICEPS SECUNDUS",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1771_v01_TRICEPS_SECUNDUS",
+      "headword": "TRICEPS SECUNDUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 247,
+      "word_count": 75,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRICEPS SECUNDUS' comes after 'B'",
+      "text_preview": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+      "text_end": "ll the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+      "full_text": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OBTURATOR EXTERNUS",
+          "start_page": 247,
+          "end_page": 249
+        },
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "TRICEPS TERTIUS",
+          "start_page": 247
+        },
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250
+        },
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_PYRIFORMIS_ET_PYRAMIDALIS",
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+          "text_end": " and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_INTERNUS",
+          "headword": "OBTURATOR INTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+          "text_end": "schium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_EXTERNUS",
+          "headword": "OBTURATOR EXTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small flat muscle, which fills up the foramen ovale of the os innominatum exteriorly, and reaches\nfrom thence to the great trochanter of the os femoris, behind the neck of that bone.\n\nIt is fixed by flethy fibres to the outer anterior side of the os pubis, all the way to the foramen ovale, to the edge of that hole, next the small ramus of the ischium, and a little to the neighbouring parts of the obturator ligament.\n\nFrom thence its fibres, contrasting in breadth, pass on the foreside of the great ramus of the ischium, under the acetabulum, where a tendon is formed, which continues its course behind the neck of the os femoris toward the great trochanter, and is inserted between the gemelli and quadratus, in a small fossula between the apex of the great trochanter, and the basis of the column femoris.\n\n**QUADRATUS.**\n\nThis is a small, flat, flethy muscle, of the figure of an oblong square, from whence it has its name. It is situated transversely between the tuberosity of the i",
+          "text_end": "e knee.\n\nIt is fixed in the edge of the inferior branch of the os pubis, near the lymphatics, by a broad and very short tendon, on one side of the insertion of the triceps secundus, but a little lower down.\n\nFrom thence the flebby fibres contracting a little in breadth, run down to the internal condyle of the os femoris, where they terminate in a thin tendon, which afterwards degenerates into a kind of aponeurosis, and is inserted in the fore-part of the inside of the head of the tibia.\n\nBiceps."
+        },
+        {
+          "article_id": "1771_v01_TRICEPS_TERTIUS",
+          "headword": "TRICEPS TERTIUS",
+          "direction": "next",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+          "text_end": " a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle."
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1771_v01_TRICEPS_TERTIUS",
+      "headword": "TRICEPS TERTIUS",
+      "edition_year": 1771,
+      "volume_num": 1,
+      "start_page": 247,
+      "end_page": 247,
+      "word_count": 112,
+      "volume_range": "A-B",
+      "effective_start": "A",
+      "effective_end": "B",
+      "reason": "'TRICEPS TERTIUS' comes after 'B'",
+      "text_preview": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down ",
+      "text_end": "It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+      "full_text": "This muscle is fixed above by fleshy fibres to the anterior part of all the short ramus of the ischium, and to a small part of the tuberosity of that bone.\n\nFrom thence it runs down, and is inserted by fleshy fibres in the linea aspera, almost from the little trochanter, down to the middle of the os femoris. It goes lower than the first triceps, sending off a separate portion like that of the muscle last mentioned.\n\nThese two portions join together, and form a common tendon, which, running down to the lower extremity of the os femoris, is inserted in the back part of the tuberosity of the inner condyle.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OBTURATOR INTERNUS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "start_page": 247,
+          "end_page": 247
+        },
+        {
+          "headword": "TRICEPS SECUNDUS",
+          "start_page": 247,
+          "end_page": 247
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "POPLITEUS",
+          "start_page": 250
+        },
+        {
+          "headword": "SEMI-MEMBRANOSUS",
+          "start_page": 250
+        },
+        {
+          "headword": "SEMI-NERVOSUS",
+          "start_page": 250
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1771_v01_TRICEPS_SECUNDUS",
+          "headword": "TRICEPS SECUNDUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This muscle is fixed above by fleshy fibres, below the superior insertion of the triceps primus, in all the outside of the inferior ramus of the os pubis, as low as the foramen ovale, but seldom so low as the ramus of the os ischium.\n\nFrom thence it runs down, and is inserted in the upper part of the linea aspera, between the pectineus and triceps primus, mixing a little with each of these muscles.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1771_v01_PYRIFORMIS_ET_PYRAMIDALIS",
+          "headword": "PYRIFORMIS ET PYRAMIDALIS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a small oblong muscle, of the figure of a flat pear or pyramid, from whence it has its name. It is situated almost transversely, between the os sacrum and ischium, being covered and hid by the first two glutei.\n\nIt is fixed to the inferior lateral part of the os sacrum, by fleshy fibres, and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches.",
+          "text_end": " and to the neighbouring part of the anterior or concave side of that bone, by three digitations lying between the anterior holes. It is likewise fixed by a small insertion to the ligamentum sacro-iliacum and edge of the great sinus of the os ilium.\n\nFrom thence it runs transversely towards the joint of the hip, its fibres contracting in breadth, and ends in a small tendon, which is inserted in the middle of the internal labium of the upper edge of the great trochanter, by two or three branches."
+        },
+        {
+          "article_id": "1771_v01_OBTURATOR_INTERNUS",
+          "headword": "OBTURATOR INTERNUS",
+          "direction": "previous",
+          "start_page": 247,
+          "text_preview": "This is a flat muscle, almost triangular, situated in the bottom of the pelvis. It covers the foramen ovale, and almost all the inside of the os pubis and ischium.\n\nIt is fixed to the internal labium of all the anterior-half of the foramen ovale, a little to the neighbouring part of the obturator ligament; and also both above and below the foramen. It is likewise fixed to the upper half of the inside of the os ischium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli.",
+          "text_end": "schium from the upper oblique notch in the foramen ovale, to the superior part of the great posterior sinus of the os ilium.\n\nFrom all this extent the fleshy fibres, contracting in breadth, run down below the spine of the ischium, where they go out of the pelvis through the posterior notch of the ischium, and afterwards unite in one large flat tendon, which crossing over that of the pyriformis, unites with it, having first received on each side some additional fleshy fibres from the two gemelli."
+        },
+        {
+          "article_id": "1771_v01_POPLITEUS",
+          "headword": "POPLITEUS",
+          "direction": "next",
+          "start_page": 250,
+          "text_preview": "This is a small muscle, obliquely pyramidal, situated under the ham.\n\nIt is fixed above, by a strong narrow tendon, to the outer edge of the inner condyle of the os femoris, and to the neighbouring posterior ligament of the joint. From thence it runs obliquely downward under the inner condyle of the os femoris; it is a flat and pretty thick fleshy body, increasing gradually in breadth, till it is fixed in the back-side of the head of the tibia, all the way to the oblique line or impression observable on that side.\n\nUses of the Muscles which move the Bones of the Leg on the Os Femoris.\n\nThe two vasti and crureus ought to be looked upon as a true triceps, the uses of which, in relation to the bones, are only to extend the tibia on the os femoris, and the os femoris on the tibia. The extension of the tibia on the os femoris happens chiefly when we sit or lie, and that of the os femoris on the tibia when we stand or walk. All the three muscles move the patella uniformly in the direction of",
+          "text_end": "us externus. From thence the fleshy body runs obliquely over the edge of the popliteus, and terminates in a very small, long, flat tendon.\n\nThis tendon runs between the body of the gastrocnemius externus and soleus, all the way to the inner edge of the upper part of the tendo Achillis; and from thence continuing its course downward, it joins this tendon, and is inserted, together with it, in the outside of the posterior part of the os calcis, without communicating with the aponeurosis plantaris."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1764 @@
+{
+  "batch_id": "vol_outliers_1860_v16_001",
+  "created": "2026-01-09T17:23:04.809981",
+  "edition_year": 1860,
+  "volume_num": 16,
+  "item_count": 20,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v16_ASSISTANT-SURGEONS",
+      "headword": "ASSISTANT-SURGEONS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 92,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'ASSISTANT-SURGEONS' comes before 'NAVIGATION'",
+      "text_preview": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+      "text_end": "al officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+      "full_text": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "NAVY",
+          "start_page": 96,
+          "end_page": 106
+        },
+        {
+          "headword": "NAVY",
+          "start_page": 121,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CHAPLAINS",
+          "start_page": 122
+        },
+        {
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "start_page": 122
+        },
+        {
+          "headword": "MATES",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_NAVY_s2",
+          "headword": "NAVY",
+          "direction": "previous",
+          "start_page": 121,
+          "text_preview": "MEDICAL OFFICERS.\n\nPersonnel.\n\nMedical Inspectors of Hospitals and Fleets L.319 7 6 L.0 17 6\nAfter 3 years' service as such 382 5 0 1 0\nPhysicians\u2014After 10 years' service... 382 5 0 1 0\nUnder that time 3 years 373 15 0 0 15 0\nDeputy Medical Inspectors of Hospitals and Fleets from date of promotion, unless entitled to a higher rate by previous service 273 15 0 0 15 0\nAfter 7 years' service as such 319 7 6 0 17 6",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVY",
+          "headword": "NAVY",
+          "direction": "previous",
+          "start_page": 96,
+          "text_preview": "An insular empire, like that of the united kingdom of Great Britain and Ireland, which is so much indebted, and always must be, for that power, prosperity, and renown which she enjoys, to the glorious deeds of her navy, cannot but take a peculiar degree of interest in every thing that concerns it. This vast machine, indeed, has at all times been the pride and boast of Great Britain, the terror of its enemies, and the admiration of the world. It is under the impression of its vast importance that we have been induced to give, under their proper heads, such details of the civil and military branches of the naval departments as may afford, without entering into too minute details, a comprehensive sketch of this great national bulwark, of which it is now proposed to take a general view.\n\nThe term Navy is generally intended to express all ships of commerce as well as those of war, the mercantile as well as the military marine; but the observations contained in the present article are meant ",
+          "text_end": "50 | 30 |\nAssistant-engineers | ... | ... | ... |\n\n* If the officer was killed in action, or died within six months of wounds received in action.\n* If the officer was deemed, or suffered other violent death in an immediate act of duty, or if it shall be proved to the satisfaction of the lords commissioners of the Admiralty that he has died from the effects of any injury or disease caused by extraordinary exposure or exertion on service within six months after his being first certified to be ill."
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS",
+          "headword": "CHAPLAINS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v16_CHAPLAINS",
+      "headword": "CHAPLAINS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 46,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'CHAPLAINS' comes before 'NAVIGATION'",
+      "text_preview": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+      "text_end": "",
+      "full_text": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(CHAP\\.?|CHAPTER)\\s*[IVXLC\\d]+",
+        "merge_target": "NAVY"
+      },
+      "prev_articles": [
+        {
+          "headword": "NAVY",
+          "start_page": 96,
+          "end_page": 106
+        },
+        {
+          "headword": "NAVY",
+          "start_page": 121,
+          "end_page": 122
+        },
+        {
+          "headword": "ASSISTANT-SURGEONS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "start_page": 122
+        },
+        {
+          "headword": "MATES",
+          "start_page": 122
+        },
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_ASSISTANT-SURGEONS",
+          "headword": "ASSISTANT-SURGEONS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVY_s2",
+          "headword": "NAVY",
+          "direction": "previous",
+          "start_page": 121,
+          "text_preview": "MEDICAL OFFICERS.\n\nPersonnel.\n\nMedical Inspectors of Hospitals and Fleets L.319 7 6 L.0 17 6\nAfter 3 years' service as such 382 5 0 1 0\nPhysicians\u2014After 10 years' service... 382 5 0 1 0\nUnder that time 3 years 373 15 0 0 15 0\nDeputy Medical Inspectors of Hospitals and Fleets from date of promotion, unless entitled to a higher rate by previous service 273 15 0 0 15 0\nAfter 7 years' service as such 319 7 6 0 17 6",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVY",
+          "headword": "NAVY",
+          "direction": "previous",
+          "start_page": 96,
+          "text_preview": "An insular empire, like that of the united kingdom of Great Britain and Ireland, which is so much indebted, and always must be, for that power, prosperity, and renown which she enjoys, to the glorious deeds of her navy, cannot but take a peculiar degree of interest in every thing that concerns it. This vast machine, indeed, has at all times been the pride and boast of Great Britain, the terror of its enemies, and the admiration of the world. It is under the impression of its vast importance that we have been induced to give, under their proper heads, such details of the civil and military branches of the naval departments as may afford, without entering into too minute details, a comprehensive sketch of this great national bulwark, of which it is now proposed to take a general view.\n\nThe term Navy is generally intended to express all ships of commerce as well as those of war, the mercantile as well as the military marine; but the observations contained in the present article are meant ",
+          "text_end": "50 | 30 |\nAssistant-engineers | ... | ... | ... |\n\n* If the officer was killed in action, or died within six months of wounds received in action.\n* If the officer was deemed, or suffered other violent death in an immediate act of duty, or if it shall be proved to the satisfaction of the lords commissioners of the Admiralty that he has died from the effects of any injury or disease caused by extraordinary exposure or exertion on service within six months after his being first certified to be ill."
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+      "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 28,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'CHAPLAINS AND NAVAL INSTRUCTORS' comes before 'NAVIGATION'",
+      "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+      "text_end": "",
+      "full_text": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(CHAP\\.?|CHAPTER)\\s*[IVXLC\\d]+",
+        "merge_target": "NAVY"
+      },
+      "prev_articles": [
+        {
+          "headword": "NAVY",
+          "start_page": 121,
+          "end_page": 122
+        },
+        {
+          "headword": "ASSISTANT-SURGEONS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "CHAPLAINS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MATES",
+          "start_page": 122
+        },
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122
+        },
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_CHAPLAINS",
+          "headword": "CHAPLAINS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_ASSISTANT-SURGEONS",
+          "headword": "ASSISTANT-SURGEONS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVY_s2",
+          "headword": "NAVY",
+          "direction": "previous",
+          "start_page": 121,
+          "text_preview": "MEDICAL OFFICERS.\n\nPersonnel.\n\nMedical Inspectors of Hospitals and Fleets L.319 7 6 L.0 17 6\nAfter 3 years' service as such 382 5 0 1 0\nPhysicians\u2014After 10 years' service... 382 5 0 1 0\nUnder that time 3 years 373 15 0 0 15 0\nDeputy Medical Inspectors of Hospitals and Fleets from date of promotion, unless entitled to a higher rate by previous service 273 15 0 0 15 0\nAfter 7 years' service as such 319 7 6 0 17 6",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_MATES",
+          "headword": "MATES",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+          "text_end": ", 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v16_MATES",
+      "headword": "MATES",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 92,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'MATES' comes before 'NAVIGATION'",
+      "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have hel",
+      "text_end": " and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+      "full_text": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ASSISTANT-SURGEONS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "CHAPLAINS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122
+        },
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122
+        },
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS",
+          "headword": "CHAPLAINS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_ASSISTANT-SURGEONS",
+          "headword": "ASSISTANT-SURGEONS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Assistant-Surgeons L.36 10 0 L.0 2 0\nAbove 3 years' service 54 15 0 0 3 0\n\" 10 \" 82 5 0 0 5 0\n\" 20 \" 91 5 0 0 5 0\nDepartors 91 5 0 0 5 0\n\nAll medical officers below the rank of deputy medical inspector who may hereafter be appointed to hospitals, and who may be superseded or retire therefrom, shall, according to their respective ranks, receive the rate of half-pay to which they may be entitled according to length of service, all time included.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVAL_INSTRUCTORS",
+          "headword": "NAVAL INSTRUCTORS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v16_NAVAL_INSTRUCTORS",
+      "headword": "NAVAL INSTRUCTORS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 52,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'NAVAL INSTRUCTORS' comes before 'NAVIGATION'",
+      "text_preview": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+      "text_end": "",
+      "full_text": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "CHAPLAINS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "MATES",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122
+        },
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122
+        },
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_MATES",
+          "headword": "MATES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+          "text_end": ", 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate."
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS",
+          "headword": "CHAPLAINS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 8 years' service at sea L.91 5 0 L.0 5 0\nAfter 10 \" master New Regulations 91 5 0 0 5 0\nFor each year's longer service than 8 at sea, 6d. per diem additional till it reach 182 10 0 0 10 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_PAYMASTERS",
+          "headword": "PAYMASTERS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+          "text_end": "0 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0"
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v16_PAYMASTERS",
+      "headword": "PAYMASTERS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 150,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'PAYMASTERS' comes after 'ORNITHOLOGY'",
+      "text_preview": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or ",
+      "text_end": "hich in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+      "full_text": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "MATES",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122
+        },
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122
+        },
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_NAVAL_INSTRUCTORS",
+          "headword": "NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_MATES",
+          "headword": "MATES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+          "text_end": ", 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate."
+        },
+        {
+          "article_id": "1860_v16_CHAPLAINS_AND_NAVAL_INSTRUCTORS",
+          "headword": "CHAPLAINS AND NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After 15 years' service, one half of the highest rate of half-pay of naval instructors, in addition to the half-pay to which they may be entitled as chaplains.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_RATES_OF_PENSION_TO_BE_GRANTED_TO_INSPECTORS_OF_MACHINERY_AFOAT",
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, having served twelve years as a chief engineer, and being in the first class, a pension of L110 to L130 per annum; having served ten years as a chief engineer, and being in the first or second class, a pension of from L85 to L100 per annum; having served five years as an engineer in the Royal Navy, three of which as a chief engineer, a pension of from L75 to L90 per annum.\n\nIf a chief engineer be found unfit prior to completing three years in that rank, the time so served shall be added to his serv",
+          "text_end": ", having served as such twenty years in the Royal Navy, and being in the first class, a pension of from L65 to L75 per annum; having served as such ten years in the Royal Navy, and being in the first or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1860_v16_RATES_OF_PENSION_TO_BE_GRANTED_TO_INSPECTORS_OF_MACHINERY_AFOAT",
+      "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 299,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT' comes after 'ORNITHOLOGY'",
+      "text_preview": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, hav",
+      "text_end": "or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers.",
+      "full_text": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, having served twelve years as a chief engineer, and being in the first class, a pension of L110 to L130 per annum; having served ten years as a chief engineer, and being in the first or second class, a pension of from L85 to L100 per annum; having served five years as an engineer in the Royal Navy, three of which as a chief engineer, a pension of from L75 to L90 per annum.\n\nIf a chief engineer be found unfit prior to completing three years in that rank, the time so served shall be added to his service as assistant-engineer, and he shall be pensioned on the scale for an assistant-engineer.\n\nTo an assistant-engineer, having served as such twenty years in the Royal Navy, and being in the first class, a pension of from L65 to L75 per annum; having served as such ten years in the Royal Navy, and being in the first or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MATES",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122
+        },
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122
+        },
+        {
+          "headword": "SURGEONS",
+          "start_page": 122
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_PAYMASTERS",
+          "headword": "PAYMASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+          "text_end": "0 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0"
+        },
+        {
+          "article_id": "1860_v16_NAVAL_INSTRUCTORS",
+          "headword": "NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_MATES",
+          "headword": "MATES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate.",
+          "text_end": ", 12s. 6d. per annum, after three years' actual sea service as mates, and when unable to obtain employment in Her Majesty's service, provided their conduct during service shall have been satisfactory, and provided they do not decline or avoid service when called upon.\n\nThe lords commissioners of the Admiralty are empowered to allow any mate to retire from the service, with a pension of 2s. 6d. a day, after ten years' actual service, during ten years of which he must have held the rating of mate."
+        },
+        {
+          "article_id": "1860_v16_SECOND_MASTERS",
+          "headword": "SECOND MASTERS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unless the conduct of the officer whilst serving shall have been in all respects satisfactory.\n\nASSISTANT PAYMASTERS\u2014as Mate.\n\nThe boatswains, gunners, and carpenters of the navy have pensions or superannuations, in lieu of half-pay, according to the following scale, formed on a consideration of the total length of service as warrant officers, with the length of service in commission.\n\nBy proclamation, bearing date 9th March 1854, the following regulations were adopted for the distribution of money p",
+          "text_end": "50 | ... |\n| Gunners warranted prior to 1830 | 25 | ... | ... |\n| Gunners not warranted prior to 1830 | ... | ... | ... |\n| Boatswains warranted prior to 1830 | 25 | ... | ... |\n| Boatswains not warranted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |"
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1860_v16_SECOND_MASTERS",
+      "headword": "SECOND MASTERS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 125,
+      "word_count": 3956,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'SECOND MASTERS' comes after 'ORNITHOLOGY'",
+      "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unles",
+      "text_end": "nted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |",
+      "full_text": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unless the conduct of the officer whilst serving shall have been in all respects satisfactory.\n\nASSISTANT PAYMASTERS\u2014as Mate.\n\nThe boatswains, gunners, and carpenters of the navy have pensions or superannuations, in lieu of half-pay, according to the following scale, formed on a consideration of the total length of service as warrant officers, with the length of service in commission.\n\nBy proclamation, bearing date 9th March 1854, the following regulations were adopted for the distribution of money prize money, viz.\u2014\n\nThe flag-officer or officers shall have one-twentieth part of the whole net proceeds arising from prizes captured from the enemy by any of the ships or vessels under his or their command, and of the rewards conferred for the same, according to the following conditions and modifications, save and except as hereinafter provided and directed; that is to say\u2014\n\nWhen there is but one flag-officer he shall have the entire one-twentieth part; when two flag-officers shall be sharing together, the chief shall have two-thirds, and the other flag-officer shall have the remaining one-third of the one-twentieth part; and when there shall be more than two flag-officers, the chief shall have one-half of the said one-twentieth part, and the remaining half shall be equally divided among the junior flag-officers; commodores of the first class and captains of the fleet to share as flag-officers: Provided always, That no flag-officer, unless actually on board any ship or vessels of war, ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "NAVAL INSTRUCTORS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122
+        },
+        {
+          "headword": "SURGEONS",
+          "start_page": 122
+        },
+        {
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "start_page": 125
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_RATES_OF_PENSION_TO_BE_GRANTED_TO_INSPECTORS_OF_MACHINERY_AFOAT",
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, having served twelve years as a chief engineer, and being in the first class, a pension of L110 to L130 per annum; having served ten years as a chief engineer, and being in the first or second class, a pension of from L85 to L100 per annum; having served five years as an engineer in the Royal Navy, three of which as a chief engineer, a pension of from L75 to L90 per annum.\n\nIf a chief engineer be found unfit prior to completing three years in that rank, the time so served shall be added to his serv",
+          "text_end": ", having served as such twenty years in the Royal Navy, and being in the first class, a pension of from L65 to L75 per annum; having served as such ten years in the Royal Navy, and being in the first or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers."
+        },
+        {
+          "article_id": "1860_v16_PAYMASTERS",
+          "headword": "PAYMASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+          "text_end": "0 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0"
+        },
+        {
+          "article_id": "1860_v16_NAVAL_INSTRUCTORS",
+          "headword": "NAVAL INSTRUCTORS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "After their first entry L.36 10 0 L.0 2 0\nAfter 3 years' service on full pay 54 15 0 0 3 0\n\" 10 \" 82 2 6 0 4 6\n\" 15 \" 91 5 0 0 5 0\n\" 20 \" 137 15 0 0 7 0\n\n(Payable Quarterly)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_SECRETARIES",
+          "headword": "SECRETARIES",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1860_v16_SECRETARIES",
+      "headword": "SECRETARIES",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 18,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'SECRETARIES' comes after 'ORNITHOLOGY'",
+      "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+      "text_end": "",
+      "full_text": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "PAYMASTERS"
+      },
+      "prev_articles": [
+        {
+          "headword": "PAYMASTERS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122,
+          "end_page": 125
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SURGEONS",
+          "start_page": 122
+        },
+        {
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "start_page": 125
+        },
+        {
+          "headword": "ROYAL MARINES",
+          "start_page": 125
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_SECOND_MASTERS",
+          "headword": "SECOND MASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unless the conduct of the officer whilst serving shall have been in all respects satisfactory.\n\nASSISTANT PAYMASTERS\u2014as Mate.\n\nThe boatswains, gunners, and carpenters of the navy have pensions or superannuations, in lieu of half-pay, according to the following scale, formed on a consideration of the total length of service as warrant officers, with the length of service in commission.\n\nBy proclamation, bearing date 9th March 1854, the following regulations were adopted for the distribution of money p",
+          "text_end": "50 | ... |\n| Gunners warranted prior to 1830 | 25 | ... | ... |\n| Gunners not warranted prior to 1830 | ... | ... | ... |\n| Boatswains warranted prior to 1830 | 25 | ... | ... |\n| Boatswains not warranted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |"
+        },
+        {
+          "article_id": "1860_v16_RATES_OF_PENSION_TO_BE_GRANTED_TO_INSPECTORS_OF_MACHINERY_AFOAT",
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, having served twelve years as a chief engineer, and being in the first class, a pension of L110 to L130 per annum; having served ten years as a chief engineer, and being in the first or second class, a pension of from L85 to L100 per annum; having served five years as an engineer in the Royal Navy, three of which as a chief engineer, a pension of from L75 to L90 per annum.\n\nIf a chief engineer be found unfit prior to completing three years in that rank, the time so served shall be added to his serv",
+          "text_end": ", having served as such twenty years in the Royal Navy, and being in the first class, a pension of from L65 to L75 per annum; having served as such ten years in the Royal Navy, and being in the first or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers."
+        },
+        {
+          "article_id": "1860_v16_PAYMASTERS",
+          "headword": "PAYMASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "On the retired list L.155 2 6 L.0 8 6\nTo each of the first 100 127 15 0 0 7 0\nTo each of the next 200 109 10 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0",
+          "text_end": "0 0 0 6 0\nTo the remainder 91 5 0 0 5 0\n\nSuch Paymasters as shall serve three years under the new system will receive half-pay at the following rates:\n\nIf with 12 years' service as a Paymaster, 3 of which in a 1st or 2nd rate L.101 12 6 L.0 10 6\nIf with 6 years' service as Paymaster, 3 of which in a 3rd or 4th rate 164 5 0 0 9 0\nIf with 6 years' service as Paymaster, 3 of which in a 5th or 6th rate 136 17 6 0 7 6\nIf with 3 years' service as Paymaster 102 40 0 0 20 0\nTo the remainder 91 5 0 0 5 0"
+        },
+        {
+          "article_id": "1860_v16_SURGEONS",
+          "headword": "SURGEONS",
+          "direction": "next",
+          "start_page": 122,
+          "text_preview": "Surgeons L.91 5 0 L.0 5 0\nAbove 6 years' service 109 10 0 0 6 0\n\" 10 \" 127 15 0 0 7 0\n\" 15 \" 145 0 0 8 0\n\" 20 \" 182 10 0 0 10 0\n\" 25 \" (with leave to retire) 237 5 0 0 13 0\n\" 30 \" da. 273 15 0 0 15 0",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1860_v16_SURGEONS",
+      "headword": "SURGEONS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 122,
+      "end_page": 122,
+      "word_count": 66,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'SURGEONS' comes after 'ORNITHOLOGY'",
+      "text_preview": "Surgeons L.91 5 0 L.0 5 0\nAbove 6 years' service 109 10 0 0 6 0\n\" 10 \" 127 15 0 0 7 0\n\" 15 \" 145 0 0 8 0\n\" 20 \" 182 10 0 0 10 0\n\" 25 \" (with leave to retire) 237 5 0 0 13 0\n\" 30 \" da. 273 15 0 0 15 0",
+      "text_end": "",
+      "full_text": "Surgeons L.91 5 0 L.0 5 0\nAbove 6 years' service 109 10 0 0 6 0\n\" 10 \" 127 15 0 0 7 0\n\" 15 \" 145 0 0 8 0\n\" 20 \" 182 10 0 0 10 0\n\" 25 \" (with leave to retire) 237 5 0 0 13 0\n\" 30 \" da. 273 15 0 0 15 0",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122,
+          "end_page": 125
+        },
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "start_page": 125
+        },
+        {
+          "headword": "ROYAL MARINES",
+          "start_page": 125
+        },
+        {
+          "headword": "NAVY BAY",
+          "start_page": 128
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_SECRETARIES",
+          "headword": "SECRETARIES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_SECOND_MASTERS",
+          "headword": "SECOND MASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unless the conduct of the officer whilst serving shall have been in all respects satisfactory.\n\nASSISTANT PAYMASTERS\u2014as Mate.\n\nThe boatswains, gunners, and carpenters of the navy have pensions or superannuations, in lieu of half-pay, according to the following scale, formed on a consideration of the total length of service as warrant officers, with the length of service in commission.\n\nBy proclamation, bearing date 9th March 1854, the following regulations were adopted for the distribution of money p",
+          "text_end": "50 | ... |\n| Gunners warranted prior to 1830 | 25 | ... | ... |\n| Gunners not warranted prior to 1830 | ... | ... | ... |\n| Boatswains warranted prior to 1830 | 25 | ... | ... |\n| Boatswains not warranted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |"
+        },
+        {
+          "article_id": "1860_v16_RATES_OF_PENSION_TO_BE_GRANTED_TO_INSPECTORS_OF_MACHINERY_AFOAT",
+          "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "AND TO ENGINEERS OF THE ROYAL NAVY.\n\n(Under Her Majesty's Order in Council of 13th June 1853.)\n\nTo an inspector of machinery afloat, provided he shall have served upwards of five years in that rank, a pension of from L100 to L180 per annum.\n\nIf an inspector of machinery afloat be found unfit prior to completing five years' service in that rank, the time so served shall be added to his service as chief engineer, and he shall be pensioned on the scale for chief engineers.\n\nTo a chief engineer, having served twelve years as a chief engineer, and being in the first class, a pension of L110 to L130 per annum; having served ten years as a chief engineer, and being in the first or second class, a pension of from L85 to L100 per annum; having served five years as an engineer in the Royal Navy, three of which as a chief engineer, a pension of from L75 to L90 per annum.\n\nIf a chief engineer be found unfit prior to completing three years in that rank, the time so served shall be added to his serv",
+          "text_end": ", having served as such twenty years in the Royal Navy, and being in the first class, a pension of from L65 to L75 per annum; having served as such ten years in the Royal Navy, and being in the first or second class, a pension of from L50 to L60 per annum; having served as such three years in the Royal Navy, a pension of from L40 to L50 per annum.\n\nThe time served by assistant-engineers as engineers on the old establishment shall be reckoned as if the same had been served as assistant-engineers."
+        },
+        {
+          "article_id": "1860_v16_PENSIONS_TO_THE_MOTHERS_AND_SISTERS_OF_OFFICERS_KILLED_IN_ACTION",
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "direction": "next",
+          "start_page": 125,
+          "text_preview": "Mothers.\u2014Where an officer is killed in action, and leaves no widow nor legitimate child, but leaves a mother who is a widow in distressed circumstances, and who was dependent upon him, the mother shall receive a pension equal to the ordinary rate of widow's pension attached to the rank which her son held at the time of his death; but if such mother shall herself be in receipt of a pension as a widow, she shall have no other provision of any kind from the public, in that case no allowance will be made to her on account of her son, unless she gives up the other pension or allowance; and the pension given to a mother on account of her son will be forfeited on re-marriage.\n\nSisters.\u2014The allowance made to the sisters of officers is not to exceed that which would be given to a mother, and will not be given in any case unless the officer shall have fallen in action, or shall die of wounds received in action, within six months after being wounded, and shall have left no widow, legitimate child",
+          "text_end": "ons can be provided for them; if not, they are to be taken away by their parents or guardians at the age of fifteen.\n\nThus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.\n\nThe total expense of the navy, including every branch of the service, civil and military, for one whole year, about"
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1860_v16_PENSIONS_TO_THE_MOTHERS_AND_SISTERS_OF_OFFICERS_KILLED_IN_ACTION",
+      "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 125,
+      "end_page": 128,
+      "word_count": 4014,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION' comes after 'ORNITHOLOGY'",
+      "text_preview": "Mothers.\u2014Where an officer is killed in action, and leaves no widow nor legitimate child, but leaves a mother who is a widow in distressed circumstances, and who was dependent upon him, the mother shall receive a pension equal to the ordinary rate of widow's pension attached to the rank which her son held at the time of his death; but if such mother shall herself be in receipt of a pension as a widow, she shall have no other provision of any kind from the public, in that case no allowance will be",
+      "text_end": "in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.\n\nThe total expense of the navy, including every branch of the service, civil and military, for one whole year, about",
+      "full_text": "Mothers.\u2014Where an officer is killed in action, and leaves no widow nor legitimate child, but leaves a mother who is a widow in distressed circumstances, and who was dependent upon him, the mother shall receive a pension equal to the ordinary rate of widow's pension attached to the rank which her son held at the time of his death; but if such mother shall herself be in receipt of a pension as a widow, she shall have no other provision of any kind from the public, in that case no allowance will be made to her on account of her son, unless she gives up the other pension or allowance; and the pension given to a mother on account of her son will be forfeited on re-marriage.\n\nSisters.\u2014The allowance made to the sisters of officers is not to exceed that which would be given to a mother, and will not be given in any case unless the officer shall have fallen in action, or shall die of wounds received in action, within six months after being wounded, and shall have left no widow, legitimate child, nor mother, nor unless the sister shall be an orphan, having no surviving brother, and shall have been dependent for support upon the officer killed. Every pension so granted will cease when the person receiving it shall marry, or be otherwise sufficiently provided for.\n\nThe widows of boatswains, gunners, and carpenters of the royal navy, and masters of naval vessels appointed prior to the 30th of June 1830, will, if otherwise qualified, be entitled to a pension of L25. Widows of warrant-officers, and the widows of engineers who shall have been warranted subsequently to the 30th June 1830, are not entitled to pensions unless their husbands shall have suffered a violent death, and provided they shall be otherwise entitled to the same, in which case the following pensions will be allowed:\n\nArt. 1.\u2014To the widow of a gunner, boatswain, carpenter, or engineer, whose husband shall have been killed in action, a pension of L25 a year.\n\nArt. 2.\u2014To the widow of any of the above-named warrant-o",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SECOND MASTERS",
+          "start_page": 122,
+          "end_page": 125
+        },
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "SURGEONS",
+          "start_page": 122,
+          "end_page": 122
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ROYAL MARINES",
+          "start_page": 125
+        },
+        {
+          "headword": "NAVY BAY",
+          "start_page": 128
+        },
+        {
+          "headword": "NAXOS",
+          "start_page": 129
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_SURGEONS",
+          "headword": "SURGEONS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Surgeons L.91 5 0 L.0 5 0\nAbove 6 years' service 109 10 0 0 6 0\n\" 10 \" 127 15 0 0 7 0\n\" 15 \" 145 0 0 8 0\n\" 20 \" 182 10 0 0 10 0\n\" 25 \" (with leave to retire) 237 5 0 0 13 0\n\" 30 \" da. 273 15 0 0 15 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_SECRETARIES",
+          "headword": "SECRETARIES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_SECOND_MASTERS",
+          "headword": "SECOND MASTERS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "2s. 6d. a day, or L45, 12s. 6d. per annum, after three years' sea service as second masters, provided they cannot obtain employment in the navy, and do not decline or avoid service when it is offered to them.\n\nThe period of actual sea service may be extended in the case of officers who shall have been invalided for sickness or injuries caused by their service, and which shall render them permanently disqualified for further employment.\n\nIn no case will half-pay be allowed to second masters unless the conduct of the officer whilst serving shall have been in all respects satisfactory.\n\nASSISTANT PAYMASTERS\u2014as Mate.\n\nThe boatswains, gunners, and carpenters of the navy have pensions or superannuations, in lieu of half-pay, according to the following scale, formed on a consideration of the total length of service as warrant officers, with the length of service in commission.\n\nBy proclamation, bearing date 9th March 1854, the following regulations were adopted for the distribution of money p",
+          "text_end": "50 | ... |\n| Gunners warranted prior to 1830 | 25 | ... | ... |\n| Gunners not warranted prior to 1830 | ... | ... | ... |\n| Boatswains warranted prior to 1830 | 25 | ... | ... |\n| Boatswains not warranted prior to 1830 | ... | ... | ... |\n| Carpenters warranted prior to 1830 | 25 | ... | ... |\n| Carpenters not warranted prior to 1830 | ... | ... | ... |\n| Masters of naval vessels warranted prior to 1830 | 25 | ... | ... |\n| Masters of naval vessels not warranted prior to 1830 | ... | ... | ... |"
+        },
+        {
+          "article_id": "1860_v16_ROYAL_MARINES",
+          "headword": "ROYAL MARINES",
+          "direction": "next",
+          "start_page": 125,
+          "text_preview": "General officers | 120 | According to circumstances |\nColonels | 90 | 200 | 150 |\nLieutenant-colonels | 80 | 200 | 140 |\nMajors | 70 | 120 | 100 |\nCaptains | 50 | 80 | 65 |\n1st Lieutenants | 40 | 60 | 50 |\n2nd Lieutenants | 35 | 50 | 40 |",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1860_v16_ROYAL_MARINES",
+      "headword": "ROYAL MARINES",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 125,
+      "end_page": 125,
+      "word_count": 59,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'ROYAL MARINES' comes after 'ORNITHOLOGY'",
+      "text_preview": "General officers | 120 | According to circumstances |\nColonels | 90 | 200 | 150 |\nLieutenant-colonels | 80 | 200 | 140 |\nMajors | 70 | 120 | 100 |\nCaptains | 50 | 80 | 65 |\n1st Lieutenants | 40 | 60 | 50 |\n2nd Lieutenants | 35 | 50 | 40 |",
+      "text_end": "",
+      "full_text": "General officers | 120 | According to circumstances |\nColonels | 90 | 200 | 150 |\nLieutenant-colonels | 80 | 200 | 140 |\nMajors | 70 | 120 | 100 |\nCaptains | 50 | 80 | 65 |\n1st Lieutenants | 40 | 60 | 50 |\n2nd Lieutenants | 35 | 50 | 40 |",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "SECRETARIES",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "SURGEONS",
+          "start_page": 122,
+          "end_page": 122
+        },
+        {
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "start_page": 125,
+          "end_page": 128
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "NAVY BAY",
+          "start_page": 128
+        },
+        {
+          "headword": "NAXOS",
+          "start_page": 129
+        },
+        {
+          "headword": "NAYLOR",
+          "start_page": 130
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_PENSIONS_TO_THE_MOTHERS_AND_SISTERS_OF_OFFICERS_KILLED_IN_ACTION",
+          "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION",
+          "direction": "previous",
+          "start_page": 125,
+          "text_preview": "Mothers.\u2014Where an officer is killed in action, and leaves no widow nor legitimate child, but leaves a mother who is a widow in distressed circumstances, and who was dependent upon him, the mother shall receive a pension equal to the ordinary rate of widow's pension attached to the rank which her son held at the time of his death; but if such mother shall herself be in receipt of a pension as a widow, she shall have no other provision of any kind from the public, in that case no allowance will be made to her on account of her son, unless she gives up the other pension or allowance; and the pension given to a mother on account of her son will be forfeited on re-marriage.\n\nSisters.\u2014The allowance made to the sisters of officers is not to exceed that which would be given to a mother, and will not be given in any case unless the officer shall have fallen in action, or shall die of wounds received in action, within six months after being wounded, and shall have left no widow, legitimate child",
+          "text_end": "ons can be provided for them; if not, they are to be taken away by their parents or guardians at the age of fifteen.\n\nThus all the classes of officers, seamen, and marines, who have faithfully served in the navy, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to their condition in life.\n\nThe total expense of the navy, including every branch of the service, civil and military, for one whole year, about"
+        },
+        {
+          "article_id": "1860_v16_SURGEONS",
+          "headword": "SURGEONS",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Surgeons L.91 5 0 L.0 5 0\nAbove 6 years' service 109 10 0 0 6 0\n\" 10 \" 127 15 0 0 7 0\n\" 15 \" 145 0 0 8 0\n\" 20 \" 182 10 0 0 10 0\n\" 25 \" (with leave to retire) 237 5 0 0 13 0\n\" 30 \" da. 273 15 0 0 15 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_SECRETARIES",
+          "headword": "SECRETARIES",
+          "direction": "previous",
+          "start_page": 122,
+          "text_preview": "Per Annum Per Diem Personnel.\n\nAfter 12 years' actual service as Secretaries L.219 0 0 L.0 12 0",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_NAVY_BAY",
+          "headword": "NAVY BAY",
+          "direction": "next",
+          "start_page": 128,
+          "text_preview": "or LIMON BAY, an inlet of the Caribbean Sea, indenting the N. coast of the isthmus of Panama, in the republic of New Granada; N. Lat. 9. 21., W. Long. 80. It is about 5 miles wide at its mouth, stretches 4 miles into the land, gradually diminishing in depth, and can afford safe and convenient anchorage for many large vessels. On the western side there are several projecting headlands, which afford protection to vessels moored behind them, and which might be rendered still more secure by the construction of breakwaters. On the eastern side of the bay lies the island of Manzanilla, a mile and a half long by a mile in breadth; and between it and the mainland is a channel, with excellent anchorage and good shelter for small vessels under repair. This anchorage is capable of accommodating 300 ships, and has a depth of 6 or 7 fathoms in the centre. On the island of Manzanilla stands the town of Aspinwall, near which there is a railway across the isthmus to Panama.",
+          "text_end": "till more secure by the construction of breakwaters. On the eastern side of the bay lies the island of Manzanilla, a mile and a half long by a mile in breadth; and between it and the mainland is a channel, with excellent anchorage and good shelter for small vessels under repair. This anchorage is capable of accommodating 300 ships, and has a depth of 6 or 7 fathoms in the centre. On the island of Manzanilla stands the town of Aspinwall, near which there is a railway across the isthmus to Panama."
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1860_v16_GALILEO_AND_THE_PHILOSOPHERS_OF_THE_ACADEMIA_DEL_CIMENTO_HAD_PROPOSED_TO_MEASURE_THE_VELOCITY_OF_LIGHT_BY",
+      "headword": "GALILEO AND THE PHILOSOPHERS OF THE ACADEMIA DEL CIMENTO HAD PROPOSED TO MEASURE THE VELOCITY OF LIGHT BY",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 542,
+      "end_page": 576,
+      "word_count": 40597,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'GALILEO AND THE PHILOSOPHERS OF THE ACADEMIA DEL CIMENTO HAD PROPOSED TO MEASURE THE VELOCITY OF LIGHT BY' comes before 'NAVIGATION'",
+      "text_preview": "o and the philosophers of the Academia del Cimento had proposed to measure the velocity of light by means of a base on the surface of the globe; but such an attempt was utterly hopeless, and it was only in a wider range that this problem could be solved. Baffled in finding an explanation of some irregularity in the emersion of the first satellite of Jupiter, Cassini and Roemer had concluded that it depended on the distance of Jupiter from the earth, and that in order to explain it, it was necess",
+      "text_end": "ar the eye E as in fig. 47, its angle of apparent magnitude will now be GEF thrice as great as DEF (fig. 46), and it will appear thrice as large as DF. The sixpence has therefore been magnified; and if we interpose a lens between it and the eye, so as to make the rays refracted by the lens parallel,",
+      "full_text": "o and the philosophers of the Academia del Cimento had proposed to measure the velocity of light by means of a base on the surface of the globe; but such an attempt was utterly hopeless, and it was only in a wider range that this problem could be solved. Baffled in finding an explanation of some irregularity in the emersion of the first satellite of Jupiter, Cassini and Roemer had concluded that it depended on the distance of Jupiter from the earth, and that in order to explain it, it was necessary to suppose that the light of the satellite required ten or eleven minutes to move across the earth's orbit. This happy idea seems to have first occurred to Cassini; but he speedily abandoned it, while Roemer pertinaciously cherished the hypothesis, and at last immortalized himself by demonstrating in the most rigorous manner that light moves through the diameter of the earth's orbit, a distance of 190 millions of miles, in eleven minutes.\n\nPassing over the valuable researches of Tschirnhausen, a Saxon nobleman, on caustic curves, which had been previously discovered, and the discoveries of Mariotte and De la Hire, respecting the seat of vision, which have not terminated in any satisfactory conclusions, we are brought to one of the most brilliant periods of optical discovery.\n\nIn the year 1665 Sir Isaac Newton, when only twenty-three years of age, bought three prisms; but he does not seem to have made any particular experiments with them. In 1666, however, he bought another, with which he proposed to repeat Grimaldi's experiment on the elongation of the sun's image produced by the prism. In the course of this and the two or three subsequent years, he made and perfected his great discovery of the different refrangibility of light, which he communicated to the Royal Society on the 6th of February 1672, having, on the 18th of January, announced it as \"the oldest if not the most considerable detection which hath hitherto been made in the operations of nature.\" Having found tha",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OPPIAN",
+          "start_page": 528,
+          "end_page": 528
+        },
+        {
+          "headword": "OPPIDO",
+          "start_page": 528,
+          "end_page": 528
+        },
+        {
+          "headword": "OPTICS",
+          "start_page": 528,
+          "end_page": 542
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OPTICS",
+          "start_page": 576
+        },
+        {
+          "headword": "ORA",
+          "start_page": 706
+        },
+        {
+          "headword": "ORAN",
+          "start_page": 707
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_OPTICS",
+          "headword": "OPTICS",
+          "direction": "previous",
+          "start_page": 528,
+          "text_preview": "The early history of optics, like that of all the sciences cultivated in ancient times, is involved in much obscurity. After the art of glass-making was discovered, lenses and spheres of glass seem to have been used as burning-glasses. In Aristophanes's comedy of The Clouds a burning sphere is distinctly described. Pliny speaks of globes of glass which produced combustion when held to the sun. Lactantius informs us that a globe of glass full of water could, when exposed to the sun, kindle a fire even in the coldest weather. And it appears that globes of glass were used by the Vestal Virgins to kindle the sacred fire, and by surgeons to burn the flesh of sick persons that required to be cauterized.\n\nAmong the earliest speculators on vision were Pythagoras and Plato. The former held that bodies became visible by means of particles projected from their surfaces and entering the eye, while the latter, in order to give the eye some share in the matter, supposed that something emitted from t",
+          "text_end": "th, seventh, or eighth; so that if there be a thin transparent body, that from the greatest thinness requisite to produce colours does by degrees grow to the greatest thickness,\u2014the colours shall be so often repeated, as the weaker pulse does lose pace with its primary or first pulse, and is coincident with a subsequent pulse. And this, as it is coincident or follows from the first hypothesis I took of colours, so upon experiment have I found it in multitudes of instances that seem to prove it.\""
+        },
+        {
+          "article_id": "1860_v16_OPPIDO",
+          "headword": "OPPIDO",
+          "direction": "previous",
+          "start_page": 528,
+          "text_preview": "a town of Naples, in the province of Calabria Ultra I., 4 miles E.S.E. of Palmi. It is the see of a bishop, and is supposed to occupy the site of the ancient Mamerium. It is chiefly remarkable, however, for the great earthquake which took place here in 1783, during which several houses in the town, and an olive grove in the neighbourhood, were engulfed. Pop. 8000.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_OPPIAN",
+          "headword": "OPPIAN",
+          "direction": "previous",
+          "start_page": 528,
+          "text_preview": "a Greek poet, was born at Corycus, or Anazarba, in Cilicia, towards the close of the reign of Marcus Aurelius, in the second century after Christ. His father, Agesilaus, was equally distinguished for rank and learning, and he caused young Oppian to be instructed in music, geometry, and the belles-lettres. Septimius Severus having seized upon the throne, arrived at Anazarba, and immediately the senate of the place threw themselves at the feet of the conqueror. Agesilaus stood aloof upon this occasion, being too much engrossed with his philosophical inquiries,\u2014a circumstance which so irritated Severus that he deprived the philosopher of all his property, and banished him to the island of Melita in the Adriatic. Thither Oppian followed his father, and it was in this compulsory retreat that he conceived and executed his two poems on Fishing (\u0391\u03bb\u03b9\u03b5\u03c5\u03c4\u03b9\u03ba\u03cc\u03bd), and on Hunting (\u039a\u03c5\u03bd\u03b7\u03b3\u03b5\u03c4\u03b9\u03ba\u03cc\u03bd), written in Greek hexameters. When they were finished he went to Rome, and presented them to the son of Seve",
+          "text_end": " had made of the Irenetica (another poem attributed to Oppian, but now lost), Strasbourg, 1776, and Leipzig, 1813. The last edition is that of Didot, Paris, 1846. Both poems were translated into Italian by Salvini, Florence, 1728. Prior to this there were two French translations of the Cynegetica, one by Florent Christian, Paris, 1575; and another by Fermat in 1690. The Halieutica was translated into English heroic verse by Jones and others, Oxford, 1722, 8vo, with a Life of the author prefixed."
+        },
+        {
+          "article_id": "1860_v16_OPTICS_s2",
+          "headword": "OPTICS",
+          "direction": "next",
+          "start_page": 576,
+          "text_preview": "Dioptres, it will appear distinctly magnified, and the lens which we interpose will be a single microscope.\n\nObjects within our reach, and capable of being placed where we please, may be therefore magnified to any extent by placing them very near the eye, and in the anterior focus of a small convex glass, which, by making the diverging rays parallel, render the object as distinctly seen under a great angle as if it were a large object placed at a distance, and subtending the same angle at the eye.\n\nBut when objects are at a distance and beyond our reach, such as remote terrestrial objects, and the planets and stars, we can magnify them, or represent them to our eye under a greater angle of apparent magnitude, by a different principle. If, when the object is the dial-plate of a clock, at the distance of 12,000 feet, we place a lens whose focal distance is six feet in the end of a tube about 6 feet long, and direct it to the dial-plate, a distinct inverted image of the dial-plate will be",
+          "text_end": "is to be found in some form or other in almost all the great speculative schools of antiquity, and especially among the philosophers of the Academy, of the Porch, and of Alexandria. Anselm and Aquinas were its chief advocates in the middle ages; its grandest developments, however, belong to modern times, and, in particular, to the schools of Descartes and Leibnitz. The splendid scheme of optimism advocated by the latter in his Essais de Th\u00e9odic\u00e9e is well known. (See DISSERTATION FIRST, part ii.)"
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1860_v16_GALLINACEOUS_OR_RASORIAL_BIRDS",
+      "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 792,
+      "end_page": 827,
+      "word_count": 43953,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'GALLINACEOUS OR RASORIAL BIRDS' comes before 'NAVIGATION'",
+      "text_preview": "The species of this order, by far the most valuable to the human race of all the feathered tribes (how many, regardless of Ornithology, yet dwell with pleasure on a roasted turkey), are characterized by a rather short and convex bill. The upper mandible is somewhat curved, and furnished with a cere, sometimes naked, sometimes feathered. The head is generally small in proportion to the body. The nostrils are placed on each side of the bill, and usually in a fleshy protecting membrane. The tarsi a",
+      "text_end": "hich has moreover a species peculiar to itself, the hooded merganser (*M. cucullatus*, Plate XVIII., figure 7), of a blackish colour above, white beneath, with a semicircular black crest, white on each side. The females and young of all the species differ greatly in colour from the adult males.\n\n---",
+      "full_text": "The species of this order, by far the most valuable to the human race of all the feathered tribes (how many, regardless of Ornithology, yet dwell with pleasure on a roasted turkey), are characterized by a rather short and convex bill. The upper mandible is somewhat curved, and furnished with a cere, sometimes naked, sometimes feathered. The head is generally small in proportion to the body. The nostrils are placed on each side of the bill, and usually in a fleshy protecting membrane. The tarsi are for the most part elongated. The toes are four in number, three of which are anterior, and united by a membrane more or less extended, at their bases; the fourth, posterior, is articulated higher than the others, and is in some cases very small, or even entirely wanting.\n\nThis order, as we have elsewhere noticed, contains several of the most ornamental, and a great majority of the most highly prized and useful species of the feathered race. While the peacock and golden pheasant stand unrivalled alike for elegance of form and beauty of plumage, the turkey and domestic fowl, the grouse quail and partridge, lay claim to more substantial though less sentimental regard, as conducing in no small degree to the social enjoyments of civilized life. Gallinaceous birds are generally distinguished by a bulky form, and a heavy and somewhat laborious flight. In fact, the sternum or breast-bone is so deeply notched on either side as to diminish the support afforded to the action of the pectoral muscles; and the power of the wings, and consequent duration and velocity of their movements, suffer a corresponding diminution.\n\nWith the exception of the electors or curassoes, few of the gallinaceous species build on trees (in which they differ remarkably from the preceding orders), though all delight in basking on the ground, and scraping in the dry and sultry soil, for which purpose they are provided with muscular limbs and feet. They live upon all sorts of grain and seeds,\u2014occasionally upon ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 766,
+          "end_page": 768
+        },
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 768,
+          "end_page": 782
+        },
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 782,
+          "end_page": 792
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AGASSIZ",
+          "start_page": 836
+        },
+        {
+          "headword": "AUDUBON",
+          "start_page": 836
+        },
+        {
+          "headword": "BLYTH",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s4",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 782,
+          "text_preview": "Sonsores, shaped at the extremity, and admirably fitted for splitting the bark or excavating the decayed portions of trees. The tongue is long, and capable of great protrusion, in consequence of its muscular basis, and the length of the horns of the os hyoidei. It is not only furnished with little spines pointing backwards, but is covered by a glutinous moisture secreted by the salivary glands, which aids in the capture of the smaller insects, the larger, it is said, being usually transfixed by the point itself. The tail-feathers are very stiff and elastic, and greatly aid the motion of the feet in climbing, being pressed upon the bark, so as in some measure to support the body. Woodpeckers are shy and solitary birds. During the breeding season they dwell in pairs, and are only met with in small family flocks throughout the autumn. With the exception of the parrots, they form the most extensive group among scamborial tribes, between one and two hundred species being known to naturalist",
+          "text_end": "ive in snares baited with such fruits as are in season. He adds, that they are excellent eating. Another species of this genus, which it is delightful to look upon, is the Pauline touraco, C. Paulina, also a native of Southern Africa. M. Vieillet, who had occasion to examine one alive in Paris, informs us that its manners were mild and familiar, that it lived on succulent fruits, and was fond of sugar. Its habits were active, its voice sonorous, and apparently ventriloquial.\n\nORDER IV.\u2014RASORES.1"
+        },
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s3",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 768,
+          "text_preview": "fledged, among the Grampian Mountains. The amount Insectores of foreign species is considerable. Of these, one of the most remarkable for its musical powers is the well-known canary (F. canaria, Linn.), a native of the Cape de Verd and other islands, where its natural plumage is green. It breeds readily in confinement with the linnet, goldfinch, siskin, and other species.\n\nThe genus Vidua, Cuv., contains some remarkable species, with the bill more inflated at the base than the preceding, but chiefly characterized by the extreme elongation of the caudal plumage of the males. They inhabit India and Africa, and were placed by Linnaeus among the buntings.\n\nThe genus Coccothraustes, Cuv., containing the gross-beaks, has the bill very conical, but of extreme thickness at the base, and rapidly tapering to the point. The culmen is rounded, the commissure slightly arched. The species occur in America, as well as in the ancient continents. The hawfinch (C. vulgaris,\u2014Loxia coccothraustes, Linn.) ",
+          "text_end": "birds) they are combined in some modern systems.\n\nThe genus Picus, Linn., contains the well-marked, numerous, and extensively distributed tribe of woodpeckers, which occur in all the great divisions of the earth, with the exception of New Holland. The vast and solitary forests of North and South America are, however, their chief dominion, the greatest number, both there and in the old world, being found within the tropics. The bill is rather long, straight, angular, somewhat compressed or wedge-"
+        },
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s2",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 766,
+          "text_preview": "In this tribe are comprehended a considerable variety of genera, exhibiting not a little disparity in size, structure, and habits, but agreeing in their bills being comparatively strong, more or less conical, and without notch. Several of the species, such as crows and magpies, are omnivorous; but, generally speaking, when compared with either of the two preceding tribes, the diet of the Conirostres may be termed granivorous.\n\nThe first little group is constituted by the larks, genus Alauda, Linn., of which the greater number have the bill straight, moderately thick, and pointed. (See Plate VIII., figure 1.) Though their flight is occasionally lofty and sustained, and the sky-lark (A. arvensis) obtains its name\n\nFrom warbling high\nHis trembling thrilling ecstasy,\nAs, lessening from the dazzled sight,\nHe melts in air and liquid light,\n\nyet they haunt, and build their humble nests, habitually in fields of grain or grassy meadows. Even the wood-lark (A. arboria), although it perches and s",
+          "text_end": "apanna d'un pescatore o d'un pecoraro, han domicilio le passe, le quali trovano il loro cibo nella semenza di grano del piccolo campo, ne' frutti dell' orticello, nello scarso beccime gettato alle galline o ai piccioni. E nel modo stesso voi le vedete nel centro delle pi\u00f9 grandi e clamorose citt\u00e0, porre il nido fra gli ornati d'una grandiosa cattedrale, o s\u00ec i tetti d'un giardino di delizie, e cercare le granella o miche di pane in mezzo alle piazze pi\u00f9 popolate. Ma se l'uomo cessa d'abitare...\""
+        },
+        {
+          "article_id": "1860_v16_AGASSIZ",
+          "headword": "AGASSIZ",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1860_v16_AGASSIZ",
+      "headword": "AGASSIZ",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 11,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'AGASSIZ' comes before 'NAVIGATION'",
+      "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+      "text_end": "",
+      "full_text": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "ORNITHOLOGY"
+      },
+      "prev_articles": [
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 768,
+          "end_page": 782
+        },
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 782,
+          "end_page": 792
+        },
+        {
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "start_page": 792,
+          "end_page": 827
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AUDUBON",
+          "start_page": 836
+        },
+        {
+          "headword": "BLYTH",
+          "start_page": 836
+        },
+        {
+          "headword": "BONAPARTE",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_GALLINACEOUS_OR_RASORIAL_BIRDS",
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "direction": "previous",
+          "start_page": 792,
+          "text_preview": "The species of this order, by far the most valuable to the human race of all the feathered tribes (how many, regardless of Ornithology, yet dwell with pleasure on a roasted turkey), are characterized by a rather short and convex bill. The upper mandible is somewhat curved, and furnished with a cere, sometimes naked, sometimes feathered. The head is generally small in proportion to the body. The nostrils are placed on each side of the bill, and usually in a fleshy protecting membrane. The tarsi are for the most part elongated. The toes are four in number, three of which are anterior, and united by a membrane more or less extended, at their bases; the fourth, posterior, is articulated higher than the others, and is in some cases very small, or even entirely wanting.\n\nThis order, as we have elsewhere noticed, contains several of the most ornamental, and a great majority of the most highly prized and useful species of the feathered race. While the peacock and golden pheasant stand unrivall",
+          "text_end": "en; and the smew, *M. albellus*, which is smaller than the golden-eye, varied with black and white, and having a large compressed white crest.\n\nAll these occur also in the northern parts of America, which has moreover a species peculiar to itself, the hooded merganser (*M. cucullatus*, Plate XVIII., figure 7), of a blackish colour above, white beneath, with a semicircular black crest, white on each side. The females and young of all the species differ greatly in colour from the adult males.\n\n---"
+        },
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s4",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 782,
+          "text_preview": "Sonsores, shaped at the extremity, and admirably fitted for splitting the bark or excavating the decayed portions of trees. The tongue is long, and capable of great protrusion, in consequence of its muscular basis, and the length of the horns of the os hyoidei. It is not only furnished with little spines pointing backwards, but is covered by a glutinous moisture secreted by the salivary glands, which aids in the capture of the smaller insects, the larger, it is said, being usually transfixed by the point itself. The tail-feathers are very stiff and elastic, and greatly aid the motion of the feet in climbing, being pressed upon the bark, so as in some measure to support the body. Woodpeckers are shy and solitary birds. During the breeding season they dwell in pairs, and are only met with in small family flocks throughout the autumn. With the exception of the parrots, they form the most extensive group among scamborial tribes, between one and two hundred species being known to naturalist",
+          "text_end": "ive in snares baited with such fruits as are in season. He adds, that they are excellent eating. Another species of this genus, which it is delightful to look upon, is the Pauline touraco, C. Paulina, also a native of Southern Africa. M. Vieillet, who had occasion to examine one alive in Paris, informs us that its manners were mild and familiar, that it lived on succulent fruits, and was fond of sugar. Its habits were active, its voice sonorous, and apparently ventriloquial.\n\nORDER IV.\u2014RASORES.1"
+        },
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s3",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 768,
+          "text_preview": "fledged, among the Grampian Mountains. The amount Insectores of foreign species is considerable. Of these, one of the most remarkable for its musical powers is the well-known canary (F. canaria, Linn.), a native of the Cape de Verd and other islands, where its natural plumage is green. It breeds readily in confinement with the linnet, goldfinch, siskin, and other species.\n\nThe genus Vidua, Cuv., contains some remarkable species, with the bill more inflated at the base than the preceding, but chiefly characterized by the extreme elongation of the caudal plumage of the males. They inhabit India and Africa, and were placed by Linnaeus among the buntings.\n\nThe genus Coccothraustes, Cuv., containing the gross-beaks, has the bill very conical, but of extreme thickness at the base, and rapidly tapering to the point. The culmen is rounded, the commissure slightly arched. The species occur in America, as well as in the ancient continents. The hawfinch (C. vulgaris,\u2014Loxia coccothraustes, Linn.) ",
+          "text_end": "birds) they are combined in some modern systems.\n\nThe genus Picus, Linn., contains the well-marked, numerous, and extensively distributed tribe of woodpeckers, which occur in all the great divisions of the earth, with the exception of New Holland. The vast and solitary forests of North and South America are, however, their chief dominion, the greatest number, both there and in the old world, being found within the tropics. The bill is rather long, straight, angular, somewhat compressed or wedge-"
+        },
+        {
+          "article_id": "1860_v16_AUDUBON",
+          "headword": "AUDUBON",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1860_v16_AUDUBON",
+      "headword": "AUDUBON",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 20,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'AUDUBON' comes before 'NAVIGATION'",
+      "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+      "text_end": "",
+      "full_text": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ORNITHOLOGY",
+          "start_page": 782,
+          "end_page": 792
+        },
+        {
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "start_page": 792,
+          "end_page": 827
+        },
+        {
+          "headword": "AGASSIZ",
+          "start_page": 836,
+          "end_page": 836
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BLYTH",
+          "start_page": 836
+        },
+        {
+          "headword": "BONAPARTE",
+          "start_page": 836
+        },
+        {
+          "headword": "BOUCIERES",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_AGASSIZ",
+          "headword": "AGASSIZ",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_GALLINACEOUS_OR_RASORIAL_BIRDS",
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "direction": "previous",
+          "start_page": 792,
+          "text_preview": "The species of this order, by far the most valuable to the human race of all the feathered tribes (how many, regardless of Ornithology, yet dwell with pleasure on a roasted turkey), are characterized by a rather short and convex bill. The upper mandible is somewhat curved, and furnished with a cere, sometimes naked, sometimes feathered. The head is generally small in proportion to the body. The nostrils are placed on each side of the bill, and usually in a fleshy protecting membrane. The tarsi are for the most part elongated. The toes are four in number, three of which are anterior, and united by a membrane more or less extended, at their bases; the fourth, posterior, is articulated higher than the others, and is in some cases very small, or even entirely wanting.\n\nThis order, as we have elsewhere noticed, contains several of the most ornamental, and a great majority of the most highly prized and useful species of the feathered race. While the peacock and golden pheasant stand unrivall",
+          "text_end": "en; and the smew, *M. albellus*, which is smaller than the golden-eye, varied with black and white, and having a large compressed white crest.\n\nAll these occur also in the northern parts of America, which has moreover a species peculiar to itself, the hooded merganser (*M. cucullatus*, Plate XVIII., figure 7), of a blackish colour above, white beneath, with a semicircular black crest, white on each side. The females and young of all the species differ greatly in colour from the adult males.\n\n---"
+        },
+        {
+          "article_id": "1860_v16_ORNITHOLOGY_s4",
+          "headword": "ORNITHOLOGY",
+          "direction": "previous",
+          "start_page": 782,
+          "text_preview": "Sonsores, shaped at the extremity, and admirably fitted for splitting the bark or excavating the decayed portions of trees. The tongue is long, and capable of great protrusion, in consequence of its muscular basis, and the length of the horns of the os hyoidei. It is not only furnished with little spines pointing backwards, but is covered by a glutinous moisture secreted by the salivary glands, which aids in the capture of the smaller insects, the larger, it is said, being usually transfixed by the point itself. The tail-feathers are very stiff and elastic, and greatly aid the motion of the feet in climbing, being pressed upon the bark, so as in some measure to support the body. Woodpeckers are shy and solitary birds. During the breeding season they dwell in pairs, and are only met with in small family flocks throughout the autumn. With the exception of the parrots, they form the most extensive group among scamborial tribes, between one and two hundred species being known to naturalist",
+          "text_end": "ive in snares baited with such fruits as are in season. He adds, that they are excellent eating. Another species of this genus, which it is delightful to look upon, is the Pauline touraco, C. Paulina, also a native of Southern Africa. M. Vieillet, who had occasion to examine one alive in Paris, informs us that its manners were mild and familiar, that it lived on succulent fruits, and was fond of sugar. Its habits were active, its voice sonorous, and apparently ventriloquial.\n\nORDER IV.\u2014RASORES.1"
+        },
+        {
+          "article_id": "1860_v16_BLYTH",
+          "headword": "BLYTH",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1860_v16_BLYTH",
+      "headword": "BLYTH",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 29,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'BLYTH' comes before 'NAVIGATION'",
+      "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+      "text_end": "",
+      "full_text": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Short text starting with lowercase (sentence fragment)",
+        "merge_target": "GALLINACEOUS OR RASORIAL BIRDS"
+      },
+      "prev_articles": [
+        {
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "start_page": 792,
+          "end_page": 827
+        },
+        {
+          "headword": "AGASSIZ",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "AUDUBON",
+          "start_page": 836,
+          "end_page": 836
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BONAPARTE",
+          "start_page": 836
+        },
+        {
+          "headword": "BOUCIERES",
+          "start_page": 836
+        },
+        {
+          "headword": "BRANDT",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_AUDUBON",
+          "headword": "AUDUBON",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_AGASSIZ",
+          "headword": "AGASSIZ",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_GALLINACEOUS_OR_RASORIAL_BIRDS",
+          "headword": "GALLINACEOUS OR RASORIAL BIRDS",
+          "direction": "previous",
+          "start_page": 792,
+          "text_preview": "The species of this order, by far the most valuable to the human race of all the feathered tribes (how many, regardless of Ornithology, yet dwell with pleasure on a roasted turkey), are characterized by a rather short and convex bill. The upper mandible is somewhat curved, and furnished with a cere, sometimes naked, sometimes feathered. The head is generally small in proportion to the body. The nostrils are placed on each side of the bill, and usually in a fleshy protecting membrane. The tarsi are for the most part elongated. The toes are four in number, three of which are anterior, and united by a membrane more or less extended, at their bases; the fourth, posterior, is articulated higher than the others, and is in some cases very small, or even entirely wanting.\n\nThis order, as we have elsewhere noticed, contains several of the most ornamental, and a great majority of the most highly prized and useful species of the feathered race. While the peacock and golden pheasant stand unrivall",
+          "text_end": "en; and the smew, *M. albellus*, which is smaller than the golden-eye, varied with black and white, and having a large compressed white crest.\n\nAll these occur also in the northern parts of America, which has moreover a species peculiar to itself, the hooded merganser (*M. cucullatus*, Plate XVIII., figure 7), of a blackish colour above, white beneath, with a semicircular black crest, white on each side. The females and young of all the species differ greatly in colour from the adult males.\n\n---"
+        },
+        {
+          "article_id": "1860_v16_BONAPARTE",
+          "headword": "BONAPARTE",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "Nouvelles Esp\u00e8ces Ornithologiques (Comptes Rendus, 1849, &c.); and New Species of Birds described (and several figured), in the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1860_v16_BONAPARTE",
+      "headword": "BONAPARTE",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 64,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'BONAPARTE' comes before 'NAVIGATION'",
+      "text_preview": "Nouvelles Esp\u00e8ces Ornithologiques (Comptes Rendus, 1849, &c.); and New Species of Birds described (and several figured), in the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+      "text_end": "the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+      "full_text": "Nouvelles Esp\u00e8ces Ornithologiques (Comptes Rendus, 1849, &c.); and New Species of Birds described (and several figured), in the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "AGASSIZ",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "AUDUBON",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "BLYTH",
+          "start_page": 836,
+          "end_page": 836
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BOUCIERES",
+          "start_page": 836
+        },
+        {
+          "headword": "BRANDT",
+          "start_page": 836
+        },
+        {
+          "headword": "BURMESTER",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_BLYTH",
+          "headword": "BLYTH",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_AUDUBON",
+          "headword": "AUDUBON",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_AGASSIZ",
+          "headword": "AGASSIZ",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "Nomina Systematica generum Avium, tam viventium quam fossilium. 4to. Soloduri, 1842.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BOUCIERES",
+          "headword": "BOUCIERES",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "New Humming-Birds, in the Annales de la Soci\u00e9t\u00e9 d'Agric. de Lyon. Vol. 10. And Revue Zool. Cuvierienne.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1860_v16_BOUCIERES",
+      "headword": "BOUCIERES",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 17,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'BOUCIERES' comes before 'NAVIGATION'",
+      "text_preview": "New Humming-Birds, in the Annales de la Soci\u00e9t\u00e9 d'Agric. de Lyon. Vol. 10. And Revue Zool. Cuvierienne.",
+      "text_end": "",
+      "full_text": "New Humming-Birds, in the Annales de la Soci\u00e9t\u00e9 d'Agric. de Lyon. Vol. 10. And Revue Zool. Cuvierienne.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "AUDUBON"
+      },
+      "prev_articles": [
+        {
+          "headword": "AUDUBON",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "BLYTH",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "BONAPARTE",
+          "start_page": 836,
+          "end_page": 836
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BRANDT",
+          "start_page": 836
+        },
+        {
+          "headword": "BURMESTER",
+          "start_page": 836
+        },
+        {
+          "headword": "CARANIS",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_BONAPARTE",
+          "headword": "BONAPARTE",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "Nouvelles Esp\u00e8ces Ornithologiques (Comptes Rendus, 1849, &c.); and New Species of Birds described (and several figured), in the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BLYTH",
+          "headword": "BLYTH",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_AUDUBON",
+          "headword": "AUDUBON",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "The Birds of America, from drawings made in the United States and their Territories. 7 vols. 8vo. New York, 1840-1844.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BRANDT",
+          "headword": "BRANDT",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "On Birds of Russian Possessions in Asia, in the Bulletin de l'Academie de St Petersbourg.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 20,
+      "article_id": "1860_v16_BRANDT",
+      "headword": "BRANDT",
+      "edition_year": 1860,
+      "volume_num": 16,
+      "start_page": 836,
+      "end_page": 836,
+      "word_count": 15,
+      "volume_range": "Navigation-Ornithology",
+      "effective_start": "NAVIGATION",
+      "effective_end": "ORNITHOLOGY",
+      "reason": "'BRANDT' comes before 'NAVIGATION'",
+      "text_preview": "On Birds of Russian Possessions in Asia, in the Bulletin de l'Academie de St Petersbourg.",
+      "text_end": "",
+      "full_text": "On Birds of Russian Possessions in Asia, in the Bulletin de l'Academie de St Petersbourg.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "BLYTH"
+      },
+      "prev_articles": [
+        {
+          "headword": "BLYTH",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "BONAPARTE",
+          "start_page": 836,
+          "end_page": 836
+        },
+        {
+          "headword": "BOUCIERES",
+          "start_page": 836,
+          "end_page": 836
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BURMESTER",
+          "start_page": 836
+        },
+        {
+          "headword": "CARANIS",
+          "start_page": 836
+        },
+        {
+          "headword": "CASSIN",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v16_BOUCIERES",
+          "headword": "BOUCIERES",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "New Humming-Birds, in the Annales de la Soci\u00e9t\u00e9 d'Agric. de Lyon. Vol. 10. And Revue Zool. Cuvierienne.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BONAPARTE",
+          "headword": "BONAPARTE",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "Nouvelles Esp\u00e8ces Ornithologiques (Comptes Rendus, 1849, &c.); and New Species of Birds described (and several figured), in the Illustr. Proc. Zool. Soc. of London, and in Cabanis' Journal.\n\n\u2014 and II. SCHLEGEL, Monographie des Loxiers. 1850. 4to.\n\n\u2014 Conspectus Systematis Ornithologiae, in several large sheets.\n\n\u2014 Conspectus generum Avium. 2 tom. 8vo. Leyden, 1850-1857. (Vol. 2 left unfinished by the death of the author.)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BLYTH",
+          "headword": "BLYTH",
+          "direction": "previous",
+          "start_page": 836,
+          "text_preview": "papers on Indian Birds in the Journal of the Asiatic Society of Bengal; and Catalogues of the Birds in the Museum of the Asiatic Society of Bengal. Calcutta, 1849.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v16_BURMESTER",
+          "headword": "BURMESTER",
+          "direction": "next",
+          "start_page": 836,
+          "text_preview": "Systematisches Uebersicht der Thiere Brasilens. 2 th. (Birds).\n\n\u2014 papers on Brazilian Birds, in Cabanis' Journal.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

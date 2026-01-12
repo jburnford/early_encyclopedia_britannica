@@ -1,0 +1,252 @@
+{
+  "batch_id": "vol_outliers_1823_v03_001",
+  "created": "2026-01-09T17:22:21.891471",
+  "edition_year": 1823,
+  "volume_num": 3,
+  "item_count": 3,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1823_v03_NOTWITHSTANDING_ALL_THESE_DISCOVERIES_BY",
+      "headword": "NOTWITHSTANDING ALL THESE DISCOVERIES BY",
+      "edition_year": 1823,
+      "volume_num": 3,
+      "start_page": 29,
+      "end_page": 91,
+      "word_count": 73295,
+      "volume_range": "ASS-BOO",
+      "effective_start": "ASS",
+      "effective_end": "BOO",
+      "reason": "'NOTWITHSTANDING ALL THESE DISCOVERIES BY' comes after 'BOO'",
+      "text_preview": "g all these discoveries by means of telescopes, it was evident that they still continued in a very imperfect state, and their imperfections at the time appeared to be without remedy. One defect was the enormous length requisite to admit of any very considerable magnifying power; and another was the incorrectness of the image arising from the aberration of the rays, as was then supposed, by the spherical figure of the glass. To obviate these inconveniences, Mercenius is said to have first propose",
+      "text_end": ": tang. ES; and rad. : co-sine SEL :: tang. ES : tang. EL; therefore, co-sine SER : co-sine SEL :: tang. ER : tang. EL; whence we readily get\n\n\\[\n\\frac{\\text{co-sine SEL}}{\\text{co-sine SER}} = \\text{the tangent of EL, the longitude.}\n\\]\n\nThen, rad.: sine of EL :: tang. SEL : tang. SL, the latitude.",
+      "full_text": "g all these discoveries by means of telescopes, it was evident that they still continued in a very imperfect state, and their imperfections at the time appeared to be without remedy. One defect was the enormous length requisite to admit of any very considerable magnifying power; and another was the incorrectness of the image arising from the aberration of the rays, as was then supposed, by the spherical figure of the glass. To obviate these inconveniences, Mercenius is said to have first proposed, in a letter to Descartes, the use of reflectors instead of lenses in the construction of telescopes; but this he did in such an obscure manner, that the latter laboured to persuade him of the falsehood of the principle on which his scheme was founded. In 1663, however, James Gregory of Aberdeen showed how such a telescope might be constructed. He showed also, that, in order to form a perfect image of an object in this manner, the figure of the speculum ought to be parabolic; but Sir Isaac Newton, who applied himself to the framing of telescopes of the reflecting kind, found it impracticable to grind them of the desired figure. Laying aside the idea of reflecting telescopes, therefore, he applied himself to the execution of a scheme formed by Descartes, viz. that of grinding lenses of the figure of one of the conic sections. In prosecuting this plan, he discovered, that the greatest errors to which telescopes were subject arose from the different refrangibility of the rays of light, for which he could not then find any remedy. He therefore returned to the scheme he had just abandoned; and, in the year 1672, presented to the Royal Society two reflectors which were constructed with spherical speculums, as he could not procure any other. The inconveniences arising from the different refrangibility of the rays of light, have since been in the fullest manner corrected by Mr Dollond, the excellency of whose achromatic telescopes is too well known to need any encomium.\n\nAbout the ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "ASTROGNOSIA",
+          "start_page": 18,
+          "end_page": 18
+        },
+        {
+          "headword": "ASTROLABE",
+          "start_page": 18,
+          "end_page": 18
+        },
+        {
+          "headword": "ASTROLOGY",
+          "start_page": 18,
+          "end_page": 18
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ASTRONOMY",
+          "start_page": 165
+        },
+        {
+          "headword": "ASTROPE-WELLS",
+          "start_page": 248
+        },
+        {
+          "headword": "ASTROSCOPE",
+          "start_page": 249
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v03_ASTROLOGY",
+          "headword": "ASTROLOGY",
+          "direction": "previous",
+          "start_page": 18,
+          "text_preview": "a conjectural science, which teaches to judge of the effects and influences of the stars, and to foretel future events by the situation and different aspects of the heavenly bodies.\n\nThis science has been divided into two branches, natural and judiciary. To the former belongs the predicting of natural effects; as, the changes of weather, winds, storms, hurricanes, thunder, floods, earthquakes, &c. This art properly belongs to natural philosophy; and is only to be deduced, a posteriori, from phenomena and observations. Judiciary or judicial astrology, is that which pretends to foretel moral events; i.e. such as have a dependency on the free will and agency of man; as if they were directed by the stars. This art, which owed its origin to the practices of knavery on credulity, is now universally exploded by the intelligent part of mankind.\n\nThe professors of this kind of astrology maintain, \"That the heavens are one great volume or book, wherein God has written the history of the world; a",
+          "text_end": "ence, and how each was either strengthened or tempered by some other, to compute what must be the result thereof.\"\n\nThus the astrologers.\u2014But the chief province now remaining to the modern professors, is the making of calendars or almanacks.\n\nJudicial astrology is commonly said to have been invented in Chaldea, and thence transmitted to the Egyptians, Greeks, and Romans; though some will have it of Egyptian origin, and ascribe the invention to Cham. But it is to the Arabs that we owe it. At Rome"
+        },
+        {
+          "article_id": "1823_v03_ASTROLABE_s2",
+          "headword": "ASTROLABE",
+          "direction": "previous",
+          "start_page": 18,
+          "text_preview": "among the ancients, was the same as our armillary sphere.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v03_ASTROGNOSIA",
+          "headword": "ASTROGNOSIA",
+          "direction": "previous",
+          "start_page": 18,
+          "text_preview": "the science of the fixed stars, or the knowledge of their names, constellations, magnitudes, &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1823_v03_ASTRONOMY_s2",
+          "headword": "ASTRONOMY",
+          "direction": "next",
+          "start_page": 165,
+          "text_preview": "Calculation of the mean equation of the true syzygy. (See Table IX.)\n\nAnd the moon's anomaly, when equated by s, &c., may be made the proper argument for taking out this second equation of time; which must be added to the former equated time, when the moon's anomaly is less than six signs, and subtracted when the anomaly is more.\n\nThere are several other inequalities in the moon's motion, which sometimes bring on the true syzygy a little sooner, and at other times keep it back a little later, than it would otherwise be; but they are so small, that they may be all omitted except two; the former of which (see Table X.) depends on the difference between the anomalies of the sun and moon in the syzygies, and the latter (see Table XI.) depends on the sun's distance from the moon's nodes at these times. The greatest difference arising from the former is 4 minutes 53 seconds; and from the latter, 1 minute 34 seconds.\n\nThe tables here inserted being calculated by Mr Ferguson according to the m",
+          "text_end": "t of them, move from west to east, observed by different astronomers, Dunn, Mr, his account of them, appearances of the luminous clouds, two regions of clouds, theory of phenomena, eclipses, beginning and ending, account of one by Dr Halley, his place in the universe, his centre attracts all bodies, moves round the common centre of gravity, Syzygies of the moon, Stars, fixed, number increased by telescopes, difference in magnitude, telescopic, unformed, division in constellations, and uses, Star"
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1823_v03_EXPLANATION",
+      "headword": "EXPLANATION",
+      "edition_year": 1823,
+      "volume_num": 3,
+      "start_page": 812,
+      "end_page": 820,
+      "word_count": 6460,
+      "volume_range": "ASS-BOO",
+      "effective_start": "ASS",
+      "effective_end": "BOO",
+      "reason": "'EXPLANATION' comes after 'BOO'",
+      "text_preview": "Let A\u2014B be a smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 5 square ledges glued thereon, each being half an inch asunder, half an inch wide, and half an inch high; which rising ledges represent our 5 lines of music, and their spaces: and the 2 outward lines, being made a little lower, may serve as leger lines on occasion. The cyphers represent so many holes bored into every line and space, half an inch asunder; wherein pegs of different shapes are to be set, to represent",
+      "text_end": "ise. Dr Lower first showed the cause of the ordinary blindness in horses,\nwhich is a spongy excrescence, growing in one, sometimes in two or three places of the area, which being at length overgrown, covers the pupil when the horse is brought into the light, though in a dark stable it dilates again.",
+      "full_text": "Let A\u2014B be a smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 5 square ledges glued thereon, each being half an inch asunder, half an inch wide, and half an inch high; which rising ledges represent our 5 lines of music, and their spaces: and the 2 outward lines, being made a little lower, may serve as leger lines on occasion. The cyphers represent so many holes bored into every line and space, half an inch asunder; wherein pegs of different shapes are to be set, to represent the several sorts of notes and characters of the tune; which pegs the blind person may know by feeling, as well as he does his keys of the organ or harpsichord: so that, by keeping his fingers on the 5 lines, he feels the several pegs as they come on, and are set to represent the several sorts of notes, on both line and space; whilst his right hand strikes the respective key, &c. he first knowing the names of all his keys, his lines, spaces, and the mark of every peg. Let each peg be about half an inch high, when set in very fast. [N.B. The blind person must first be taught the names of the above lines and spaces in both the treble and bass cliffs; and that he must feel his treble with his right hand, and his bass with the left hand; each being contrary, as you may see by the letters of the above table, A and B; and must learn each part separate.]\n\nOf pegs, he must have a great number of every sort, to set his tune with, which he may mark as follows:\n\nFor a Semibreve, 4 top-notches.\nMinim, 2 top-notches.\nCrotchet, 1 top-notch.\nQuaver, 1 corner cut off.\n\nFor a Semiquaver, 2 corners cut off.\nDemisemiquaver, all 4 corners cut off.\nRests, a notch in the corner.\nA Flat, 1 notch on the side.\nSharp, 2 notches on the side.\nPoint, 3 notches on the side.\nBar, a flat thin top.\nRepeat, a sharp-pointed top, &c. &c. &c.\n\nBut it is best for every performer to make and mark his own pegs; and deliver them one by one as they are called for by the person that sets his tune.\u201d\n\nThus far our auth",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "BLENHEIM",
+          "start_page": 791,
+          "end_page": 793
+        },
+        {
+          "headword": "BLIGHT",
+          "start_page": 793,
+          "end_page": 794
+        },
+        {
+          "headword": "BLIND",
+          "start_page": 794,
+          "end_page": 812
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BLINKING OF BEER",
+          "start_page": 820
+        },
+        {
+          "headword": "BLINKS",
+          "start_page": 820
+        },
+        {
+          "headword": "BLISSOM",
+          "start_page": 820
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v03_BLIND",
+          "headword": "BLIND",
+          "direction": "previous",
+          "start_page": 794,
+          "text_preview": "an epithet applied to a person or sensitive creature deprived of the use of his eyes; or, in other words, to one from whom light, colours, and all the glorious variety of the visible creation, are intercepted by some natural or accidental disease. Such is the literal acceptation of the term: but it is likewise used in a metaphorical sense, to signify mental or intellectual darkness; and frequently implies, at the same time, some moral or spiritual depravity in the soul thus blinded, which is either the efficient or continuing cause of this internal malady. Yet, even in metaphor, the epithet of blind is sometimes applied to a kind of ignorance, which neither involves the idea of real guilt nor of voluntary error. It is, however, our present intention to consider the word, not in its figurative, but in its natural and primary sense. Nor do we mean in this place to regard it as a subject of medical speculation, or to explore its causes and enumerate its cures. These are in the department ",
+          "text_end": "les and practice, than he would otherwise be.\n\nThere is a hint of such tangible signs given in Tansure's Musical Grammar, p. 93, and which, though (like the rest of the book) obscure and indigested, may be improved and applied with advantage.\n\nFor the sake of those in whose hands it may not be, we quote the passage at length.\n\n\"As it is the pleasure of the Almighty, that some persons are destitute of eye-sight; in like manner it is musical no-his-tation.\"\nA New Music-Table for such as are Blind."
+        },
+        {
+          "article_id": "1823_v03_BLIGHT",
+          "headword": "BLIGHT",
+          "direction": "previous",
+          "start_page": 793,
+          "text_preview": "in Husbandry, a disease incident to plants, which affects them variously, the whole plant sometimes perishing by it, and sometimes only the leaves and blossoms, which will be scorched and shrivelled up, the rest remaining green and flourishing.\n\nSome have supposed that blights are usually produced by an easterly wind, which brings vast quantities of insects eggs along with it, from some distant place, that, being lodged upon the surface of the leaves and flowers of fruit-trees, cause them to shrivel up and perish.\n\nTo cure this distemper, they advise the burning of wet litter on the windward side of the plants, that the smoke thereof may be carried to them by the wind, which they suppose will stifle and destroy the insects, and thereby cure the distemper.\n\nOthers direct the use of tobacco-dust, or to wash the trees with water wherein tobacco-stalks have been infused for 12 hours; which they say will destroy those insects, and recover the plants.\n\nPepper-dust scattered over the blossoms",
+          "text_end": "ossible, from this glutinous matter, that their respiration and perspiration may not be obstructed. This operation ought to be performed early in the day, that the moisture may be exhaled before the cold of the night comes on: nor should it be done when the sun shines very hot.\n\nAnother cause of blights in the spring, is sharp hoarfrosts, which are often succeeded by hot sunshine in the day-time. This is the most sudden and certain destroyer of the fruits that is known.\n\nBLIGHTED CORN. See SMUT."
+        },
+        {
+          "article_id": "1823_v03_BLENHEIM",
+          "headword": "BLENHEIM",
+          "direction": "previous",
+          "start_page": 791,
+          "text_preview": "a village of Germany, in the kingdom of Bavaria; situated in E. Long. 2. 30. N. Lat. 48. 40. This village is remarkable for the defeat of the French and Bavarians in 1704, by the English and their confederates under Prince Eugene and the duke of Marlborough. The French army amounted to 60,000 veterans, who had shared in the conquests of their grand monarch; and were now commanded by two generals the most distinguished at that time in France, Blenheim, Marshal Tallard and the duke of Bavaria. The former had established his reputation by many victories. He was active and penetrating; his ardour often rose to impetuosity; but he was so shortsighted as to be incapable of seeing objects at a very small distance. The duke of Bavaria was equally experienced in the field, and had stronger motives for activity: His country was ravaged before his eyes, and nothing remained of his possessions but the army which he commanded. The allied army, commanded by Eugene and Marlborough, amounted to about ",
+          "text_end": " the impressions they feel within themselves, or the motions they observe in the electrometrical instruments which they employ; and if they meet with second accidental causes or complications of electrical spheres, which modify or alter these methods of trial, this will necessarily occasion mistakes in the results of their operations which they may probably rectify; but which, at all events, it would be unjust to lay to their charge, or allege as an objection against the reality of their talent."
+        },
+        {
+          "article_id": "1823_v03_BLINKING_OF_BEER",
+          "headword": "BLINKING OF BEER",
+          "direction": "next",
+          "start_page": 820,
+          "text_preview": "in Lincolnshire, signifies letting the wort stand for some time in the vat, till it hath acquired some degree of acidity, in order to dispose it to fine, and be the sooner ready for drinking.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1823_v03_END_OF_THE_THIRD_VOLUME",
+      "headword": "END OF THE THIRD VOLUME",
+      "edition_year": 1823,
+      "volume_num": 3,
+      "start_page": 871,
+      "end_page": 872,
+      "word_count": 80,
+      "volume_range": "ASS-BOO",
+      "effective_start": "ASS",
+      "effective_end": "BOO",
+      "reason": "'END OF THE THIRD VOLUME' comes after 'BOO'",
+      "text_preview": "DIRECTIONS FOR PLACING THE PLATES OF VOL. III.\n\n| PART I. | Page |\n|---------|------|\n| Plate LIX. to LXXXIII. inclusive, to face LXXXIV. | 184 |\n|         | 342 |\n\n| PART II. |\n|----------|\n| LXXXV.   | 418 |\n| LXXXVI.  |      |\n| LXXXVII. | 442 |\n| LXXXVIII.|      |\n| LXXXIX.  | 470 |\n| XC.       |      |\n| XCI.      | 532 |\n| XCII.     |      |\n| XCIII.    | 712 |\n|          | 736 |",
+      "text_end": "Plate LIX. to LXXXIII. inclusive, to face LXXXIV. | 184 |\n|         | 342 |\n\n| PART II. |\n|----------|\n| LXXXV.   | 418 |\n| LXXXVI.  |      |\n| LXXXVII. | 442 |\n| LXXXVIII.|      |\n| LXXXIX.  | 470 |\n| XC.       |      |\n| XCI.      | 532 |\n| XCII.     |      |\n| XCIII.    | 712 |\n|          | 736 |",
+      "full_text": "DIRECTIONS FOR PLACING THE PLATES OF VOL. III.\n\n| PART I. | Page |\n|---------|------|\n| Plate LIX. to LXXXIII. inclusive, to face LXXXIV. | 184 |\n|         | 342 |\n\n| PART II. |\n|----------|\n| LXXXV.   | 418 |\n| LXXXVI.  |      |\n| LXXXVII. | 442 |\n| LXXXVIII.|      |\n| LXXXIX.  | 470 |\n| XC.       |      |\n| XCI.      | 532 |\n| XCII.     |      |\n| XCIII.    | 712 |\n|          | 736 |",
+      "auto_classification": {
+        "decision": "DELETE",
+        "confidence": "high",
+        "reason": "Headword matches non-content pattern: ^(END\\s+OF|FINIS)",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "BONVINCINO",
+          "start_page": 867,
+          "end_page": 867
+        },
+        {
+          "headword": "BONZES",
+          "start_page": 867,
+          "end_page": 868
+        },
+        {
+          "headword": "BOOK",
+          "start_page": 868,
+          "end_page": 871
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1823_v03_BOOK",
+          "headword": "BOOK",
+          "direction": "previous",
+          "start_page": 868,
+          "text_preview": "the general name of almost every literary composition; but, in a more limited sense, is applied only to such compositions as are large enough to make a volume. As to the origin of books or writing, those of Moses are undoubtedly the most ancient that are extant: But Moses himself cites many books which it behoved to be written before his time.\n\nOf profane books, the oldest extant are Homer's poems, which were so even in the time of Sextus Empiricus; though we find mention in Greek writers of several others prior to Homer; as Hermes, Orpheus, Daphne, Horus, Linus, Mus\u00e6us, Palamedes, Zoroaster, &c.: but of the greater part of these there is not the least fragment remaining; and of others, the pieces which go under their names are generally held, by the learned, to be supposititious.\n\nSeveral sorts of materials were used formerly in making books: Plates of lead and copper, the bark of trees, bricks, stone, and wood, were the first materials employed to engrave such things upon as men were",
+          "text_end": "ng thickened or thinned at pleasure, and in either state equally resisted the fire. The covering of the thinnest kind of this paper with fire, only makes it red hot and very clear, the fire seeming to pass through it without wasting or altering any part of it. Copper, iron, or any other metal except gold or silver, exposed to the same degree of fire in the same thin plates, would be found not to bear it in this manner, but to scale and burn into scorish at the surface, which this stone does not."
+        },
+        {
+          "article_id": "1823_v03_BONZES",
+          "headword": "BONZES",
+          "direction": "previous",
+          "start_page": 867,
+          "text_preview": "Indian priests. The Tonquinese have a pagod or temple in each town; and each pagod has at least two bonzes belonging to it: some have 30 or 40. These bonzes, in order to distinguish themselves from the laity, wear a chaplet about their necks consisting of 100 beads; and carry a staff, at the end of which is a wooden bird. They live upon the alms of the people; yet are very charitably disposed; and maintain several orphans and widows out of their own collections.\nThe bonzes of China are the priests of the Fohists or sect of Fohi. It is one of their established tenets that there are rewards allotted for the righteous, and punishments for the wicked, in the next world; and that there are various mansions in which the souls of men will reside, according to their different degrees of merit. But, in order to deserve the favour of heaven, the bonzes instruct the people to treat the priests with respect and reverence, to support and maintain them, and to erect temples and monasteries for them.",
+          "text_end": "ry.\n\nF. Navarette tells us, that the bonzes are obliged to chastity; and that, on the 2d of April 1667, a petty king of Canton had condemned 11 of them to be burnt alive for incontinence. He adds, that it was reported of an empress of the last reigning family, who had a particular kindness for the bonzes, that she granted them a dispensation for the use of women during three days. The bonzes of China, according to the same author, are computed at 50,000.\n\nBOOBY. See PELICANUS, ORNITHOLOGY Index."
+        },
+        {
+          "article_id": "1823_v03_BONVINCINO",
+          "headword": "BONVINCINO",
+          "direction": "previous",
+          "start_page": 867,
+          "text_preview": "ALESSANDRO, called LE MORETTO, history and portrait painter, was born at Rovato in 1514. He was first the disciple of Titian, under whose direction he studied diligently for some years. But, having accidentally seen the designs of Raphael, he felt an elevation of mind that he never had before experienced. He therefore gave himself up entirely to study those masterpieces of art and genius; and his observations were guided with such judgment, as well as attention, that his improvement was truly surprising, and he became an exceeding good painter. His works were eagerly bought up, as being extremely admired for the tenderness of the penciling; for the correctness and spirited expression of the figures; for the neatness of the finishing; and for the rich variety of his draperies, which usually consisted of velvets, damasks, or satins, all copied after nature, and being wonderfully imitated. He was also equally excellent in portrait, and by many was placed in competition even with Titian. H",
+          "text_end": "re eagerly bought up, as being extremely admired for the tenderness of the penciling; for the correctness and spirited expression of the figures; for the neatness of the finishing; and for the rich variety of his draperies, which usually consisted of velvets, damasks, or satins, all copied after nature, and being wonderfully imitated. He was also equally excellent in portrait, and by many was placed in competition even with Titian. He died in 1564.\n\nBONUS HENRICUS. See Chenopodium, Botany Index."
+        }
+      ]
+    }
+  ]
+}

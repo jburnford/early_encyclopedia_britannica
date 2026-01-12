@@ -1,0 +1,868 @@
+{
+  "batch_id": "vol_outliers_1860_v14_005",
+  "created": "2026-01-09T17:23:02.888002",
+  "edition_year": 1860,
+  "volume_num": 14,
+  "item_count": 10,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1860_v14_MIXED_MATHEMATICS",
+      "headword": "MIXED MATHEMATICS",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 365,
+      "end_page": 366,
+      "word_count": 595,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'MIXED MATHEMATICS' comes after 'MIH'",
+      "text_preview": "d mathematics denotes the application of pure mathematics to natural objects; and presupposes some knowledge of their properties derived from the senses, or of general laws obtained by induction from a sufficient number of observations. The logical, or strictly mathematical processes of deduction in the pure and mixed mathematics are identical; the difference between the two sciences being, that in the one, the first principles are self-evident, while in the other, laws and facts, which are not ",
+      "text_end": "&c. (See Astronomy, &c.) The theory of probabilities is usually included under this head, although it has perhaps equal claims to rank under pure mathematics.\n\n(For the history of mathematical science the reader is referred to the articles Algebra and Geometry, and to the Preliminary Dissertations.)",
+      "full_text": "d mathematics denotes the application of pure mathematics to natural objects; and presupposes some knowledge of their properties derived from the senses, or of general laws obtained by induction from a sufficient number of observations. The logical, or strictly mathematical processes of deduction in the pure and mixed mathematics are identical; the difference between the two sciences being, that in the one, the first principles are self-evident, while in the other, laws and facts, which are not necessarily self-evident, but derived from observation, are admitted, along with the axioms and definitions of pure mathematics, as fundamental principles of the science. Again, in mixed mathematics we are often presented with conclusions derived from hypotheses regarding the constitution of nature. If we ask whether these are correct conclusions from the assumed hypotheses, our investigations must be conducted on principles purely mathematical; but if we inquire whether the conclusions have a real existence in nature, we must appeal to observation; and our reasoning becomes inductive. It is from this mixture of mathematical deduction with experimental processes that the mixed sciences derive their name, and not from any difference between their mathematics and those of pure science.\n\nThus the evidence for the conclusions of mixed mathematical science is inferior to that obtained in pure mathematics, only in so far as the utmost confidence in the truth of laws arising from even the highest degree of probability attained by inductive reasoning, must always fall short of the conviction which follows from the perception of necessary truth. If, however, we estimate the rank of a science by the perfection of its methods,\u2014the power it confers of pursuing the most lengthened and complex processes of reasoning with perfect certainty of the correctness of the results\u2014its consequently perpetually extending and cumulative character\u2014the almost hopeless difficulty of the problems it has s",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MATCHIN",
+          "start_page": 364,
+          "end_page": 364
+        },
+        {
+          "headword": "MATELICA",
+          "start_page": 364,
+          "end_page": 365
+        },
+        {
+          "headword": "MATERA",
+          "start_page": 365,
+          "end_page": 365
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MATHER",
+          "start_page": 366
+        },
+        {
+          "headword": "MATHER",
+          "start_page": 366
+        },
+        {
+          "headword": "MATHEWS",
+          "start_page": 366
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MATERA",
+          "headword": "MATERA",
+          "direction": "previous",
+          "start_page": 365,
+          "text_preview": "a town of Naples, capital of the province of Basilicata, is situated in a deep valley on the right bank of the Gravina, a tributary of the Bradano, 128 miles E. by S. of Naples, and 44 E. from Potenza. The town, which is defended by walls, is generally well built; and contains a cathedral and archiepiscopal palace, which have porticos consisting of granite Corinthian columns, supposed to be the remains of an ancient temple. Not far from the walls stands an old tower known by the name of Torre Metella; and there are also in the town six convents and a college. The neighbouring country is rich in pastures; and the valley is surrounded by hills, which contain many curious caverns. Pop. 12,000.\n\nMATERIA MEDICA. The signification given to this term by different authors has varied very much indeed, some employing it to denote the whole range, and others only a particular department, of that branch of medical science which relates to the means employed for the prevention or in the treatment o",
+          "text_end": "st principles require no special inductive process to convince us of their truth, and scarcely, indeed, demand the evidence of our senses. Whether they are notions inherent in the mind, or deductions from our constant and earliest experience, they are universally allowed to be self-evident, in the sense that we cannot conceive them to have been otherwise than they are. Thus pure mathematics is founded upon definitions of necessary truth, and is pre-eminently the most certain of all the sciences."
+        },
+        {
+          "article_id": "1860_v14_MATELICA",
+          "headword": "MATELICA",
+          "direction": "previous",
+          "start_page": 364,
+          "text_preview": "a town of Italy, in the States of the Church, situated on the River San Angelo, a tributary of the Esina, 23 miles W.S.W. of Macerata. It is an old town, surrounded by walls, and contains several churches and convents. The inhabitants are chiefly occupied in the culti-\nvation of the neighbouring country, and in the manufacture of coarse woollen stuffs. Pop. 7270.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_MATCHIN",
+          "headword": "MATCHIN",
+          "direction": "previous",
+          "start_page": 364,
+          "text_preview": "a town of European Turkey, in Bulgaria, situated on the right bank of the Danube, 32 miles N.E. of Hisrova. It is defended by two forts; and was the scene of a victory gained by the Turks over the Russians on 24th December 1853.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_MATHER",
+          "headword": "MATHER",
+          "direction": "next",
+          "start_page": 366,
+          "text_preview": "Cotton, D.D., a learned American divine, the son of Increase Mather, was born at Boston in February 1663. He received his elementary education under his father's care, and at the age of twelve he entered Harvard College with a considerable knowledge of the classics. There he studied with successful ardour, and at the same time subjected himself to a rigid system of fastings, vigils, self-examinations, and other pious exercises. An impediment in his speech induced him at one time to forego his intention of entering the church, and to commence the study of medicine. This infirmity, however, was soon afterwards overcome; and accordingly, after graduating, he began to preach in 1680. In the same year he was appointed assistant to his father in the North Church of Boston. Cotton Mather now became one of the most zealous of ministers. He discharged his professional duties most faithfully, published numerous sermons and books on practical religion, and assiduously amassed materials for intend",
+          "text_end": " a president to Harvard College. Yet he continued with unabated earnestness to toil for the general welfare of his fellow-men; and in 1721 he was the first to introduce into America the practice of inoculation. He died in February 1728. Cotton Mather was the first American who was elected a fellow of the Royal Society of London. Of his numerous works his Magnalia Christi Americana, London, 1702, is the greatest; and his Directions to a Candidate for the Ministry, Boston, 1726, is the best known."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1860_v14_PA",
+      "headword": "PA",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 397,
+      "end_page": 403,
+      "word_count": 5982,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'PA' comes after 'MIH'",
+      "text_preview": "\\quad PB, \\quad PC,\n\\]\n\nthe respective distances of \\( P \\) from the co-ordinate planes YOZ, ZOX, XOY, measured respectively in directions parallel to the three axes, OX, OY, OZ.\n\nThen are \\( P_x, P_y, P_z \\), called the projections of \\( P \\) on the three axes respectively; their motions are called the components of the motion of \\( P \\) parallel to the three axes; and the operation of determining those component motions is called the resolution of the motion of \\( P \\) relatively to the three ",
+      "text_end": " \\(\u03b8_i\\) the angle made by the line of connection with the plane of rotation, \\(\u03b8_s\\) the angle made by the line of connection with the direction of motion of the shifting piece, \\(v_s\\) the linear velocity of that piece. Then\n\n\\[a_i r_i \\cdot \\cos \u03b8_i = v_s \\cdot \\cos \u03b8_s; \\quad \\ldots \\quad (25)\\]",
+      "full_text": "\\quad PB, \\quad PC,\n\\]\n\nthe respective distances of \\( P \\) from the co-ordinate planes YOZ, ZOX, XOY, measured respectively in directions parallel to the three axes, OX, OY, OZ.\n\nThen are \\( P_x, P_y, P_z \\), called the projections of \\( P \\) on the three axes respectively; their motions are called the components of the motion of \\( P \\) parallel to the three axes; and the operation of determining those component motions is called the resolution of the motion of \\( P \\) relatively to the three axes. The operation of determining the motion of \\( P \\), when its components are given, is called the composition of those components; and the motion of \\( P \\) is called the resultant of the motions of its projections. The following propositions are the main principles of the composition and resolution of motion:\n\n(1.) The straight line joining \\( P \\) and O is the diagonal of the parallelopiped \\( OP_xP_yP_zABC \\), of which \\( x, y, z \\), are the edges.\n\n(2.) If a straight line be drawn representing in direction and magnitude the velocity \\( v = \\frac{ds}{dt} \\) of \\( P \\) at any instant, that straight line will be the diagonal of the parallelopiped whose edges respectively represent in direction and magnitude the component velocities of \\( P_x, P_y, P_z \\); viz.,\n\n\\[\n\\frac{dz}{dt}, \\quad \\frac{dy}{dt}, \\quad \\frac{dx}{dt}.\n\\]\n\n(3.) If the three respective motions of \\( P_x, P_y, P_z \\), during one and the same interval of time, be determined, and if a moving point, starting from O, be made to perform in three\nMechanics. consecutive intervals of time, motions equal and parallel to those three motions respectively, in any order of succession, then will the last-mentioned point arrive at the position occupied by P at the end of the first-mentioned interval of time.\n\n(The path of the last-mentioned point may be any one of the six routes from O to P along the edges of the parallelopiped.)\n\n(4.) If a plane always parallel to one of the co-ordinate planes (such as YOZ) be made t",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MEAUX",
+          "start_page": 390,
+          "end_page": 390
+        },
+        {
+          "headword": "MECCA",
+          "start_page": 390,
+          "end_page": 391
+        },
+        {
+          "headword": "MECHAIN",
+          "start_page": 391,
+          "end_page": 397
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WHICH EQUATION",
+          "start_page": 403
+        },
+        {
+          "headword": "MECHLIN",
+          "start_page": 430
+        },
+        {
+          "headword": "MECKEL",
+          "start_page": 431
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MECHAIN",
+          "headword": "MECHAIN",
+          "direction": "previous",
+          "start_page": 391,
+          "text_preview": "PIERRE FRANCOIS ANDRE, a practical astronomer and geographer, was born at Laon on the 16th April 1744. His father, who was an architect, educated him for his own profession, but he accidentally became acquainted with Lalande, under whose patronage he was subsequently brought forward as an observer, surveyor, and computer. He made two voyages with M. de la Bretonni\u00e8re, and assisted him in surveying some parts of the coast of France. He was afterwards employed in various computations by the Marquis de Chabert and the Duc D'Ayen. Having obtained a prize from the Academy of Sciences in 1782, for a Memoir on Comets, he became a member of the Academy the same year. About the year 1785 he undertook the publication of the Connaissance des Temps, and continued it till he was employed in geodetical operations at a distance from Paris. He was appointed member of a committee, along with Cassini, De Thury, and Legendre, to meet the English astronomers for the determination of the relative situation",
+          "text_end": "e a certain number of feet per second; then\n\n\\[\nv = \\frac{ds}{dt} = n, \\quad \\text{or} \\quad +n,\n\\]\n\nwill express that the velocity of the moving point is \\( n \\) feet per second forwards; and\n\n\\[\nv = \\frac{ds}{dt} = -n\n\\]\n\nwill express that the velocity is of equal magnitude, but backward.\n\n26. Direct Deviation, or Acceleration and Retardation.\u2014When the motion of a point is said to be uniform, without further qualification, it is to be understood to be uniform both in velocity and in direction."
+        },
+        {
+          "article_id": "1860_v14_MECCA",
+          "headword": "MECCA",
+          "direction": "previous",
+          "start_page": 390,
+          "text_preview": "MECCAH, or MEKKA, a city of Arabia, capital of the province of El Hejaz, is situated in a narrow valley stretching N. and S., 70 miles E. of Jiddah, its port on the Red Sea; Lat. 21\u00b0 30' N., Long. 40\u00b0 8' E. It is very closely confined between bare hills from 200 to 500 feet high, and is built in a strong and substantial manner, the principal materials being brick, granite, and sandstone quarried from the neighbouring hills. The length of the city and suburbs from N. to S. is about 2\u00bd miles; and its broadest part is three-quarters of a mile from E. to W. Near the centre stands the famous mosque containing the Kaabah, to which Mecca owes its sanctity in the eyes of the followers of Mohammed. The densest part of the town is on the slope of the hill to the E., called Abu Kubays. Mecca was formerly walled on three sides, but is now only defended by the hills which inclose it, and by a strong square castle situated on a rising ground called Jiyyad, to the S. The position of the city has been",
+          "text_end": "e number fell to 25,000. Another place visited by pilgrims is Mina, between Arafat and Mecca, where there is a rude piece of masonry in a narrow and rugged defile. The ceremony performed here forms the concluding act of the pilgrimage: it consists of throwing small pebbles and muttering certain words, and is called stoning the devil. The inhabitants of Mecca are little employed in manufactures, but a considerable trade is carried on, especially during the season of pilgrimage. Pop. about 45,000."
+        },
+        {
+          "article_id": "1860_v14_MEAUX",
+          "headword": "MEAUX",
+          "direction": "previous",
+          "start_page": 390,
+          "text_preview": "a town of France, capital of an arrondissement of the same name in the department of Seine-et-Marne, is situated on the Marne, 25 miles E.N.E. of Paris. It is well built, though not very regularly laid out; and contains a fine cathedral, built in the eleventh century, and dedicated to St Etienne, but which is in an imperfect state, having only one complete tower in the front. Besides this, the principal buildings are,\u2014the episcopal palace, a library with 13,000 volumes, a college, town-hall, and theatre. The chief articles of manufacture are,\u2014cotton, earthenware, glue, flour, leather, and saltpetre; and the trade is considerable in grain and cheese. Meaux is an ancient city, occupying the site of Latium, the capital of the Medici, from whom the city derives its modern name. It is, however, chiefly notable as the see of the celebrated Bossuet, who became bishop in 1681, and continued in that office till his death in 1704. His remains are deposited in the cathedral, where there is also a",
+          "text_end": "occupying the site of Latium, the capital of the Medici, from whom the city derives its modern name. It is, however, chiefly notable as the see of the celebrated Bossuet, who became bishop in 1681, and continued in that office till his death in 1704. His remains are deposited in the cathedral, where there is also a monument of white marble erected to his memory. When his tomb was opened in 1854, the body of the illustrious prelate was found in a very good state of preservation. Pop. (1851) 8356."
+        },
+        {
+          "article_id": "1860_v14_WHICH_EQUATION",
+          "headword": "WHICH EQUATION",
+          "direction": "next",
+          "start_page": 403,
+          "text_preview": "h equation expresses the comparative motion of the two pieces.\n\n54. Classification of Elementary Combinations in Mechanism.\u2014The first systematic classification of elementary combinations in mechanism was that founded by Monge, and fully developed by Lanz and B\u00e9naudcourt, which has been generally received, and has been adopted in most treatises on applied mechanics. But that classification is founded on the absolute, instead of the comparative motions of the pieces, and is, for that reason, defective, as Mr Willis has pointed out in his admirable treatise On the Principles of Mechanism.\n\nThe classification of Mr Willis is founded, in the first place, on comparative motion, as expressed by velocity-ratio and directional-relation; and, in the second place, on the mode of connection of the driver and follower. He divides the elementary combinations in mechanism into three classes, of which the characters are as follows:\n\nClass A: Directional-relation constant; velocity-ratio constant.\n\nCla",
+          "text_end": "m the absolute zero; that is, from a point 493\u00b02 Fahrenheit, or 274\u00b02 Centigrade, below the temperature of melting ice. (Temperatures so measured are called absolute temperatures.) Then maximum theoretical efficiency of the water or other fluid in a steam-engine or other heat-engine\n\n\\[\n\\frac{t_1 - t_2}{t_1} = \\frac{\\text{heat received}}{\\text{heat converted}}\n\\]\n\nThe necessary loss of heat by the fluid is \\( \\frac{t_2}{t_1} \\) of the whole heat received by it; and any loss beyond this is waste."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1860_v14_WHICH_EQUATION",
+      "headword": "WHICH EQUATION",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 403,
+      "end_page": 430,
+      "word_count": 32368,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'WHICH EQUATION' comes after 'MIH'",
+      "text_preview": "h equation expresses the comparative motion of the two pieces.\n\n54. Classification of Elementary Combinations in Mechanism.\u2014The first systematic classification of elementary combinations in mechanism was that founded by Monge, and fully developed by Lanz and B\u00e9naudcourt, which has been generally received, and has been adopted in most treatises on applied mechanics. But that classification is founded on the absolute, instead of the comparative motions of the pieces, and is, for that reason, defec",
+      "text_end": "tical efficiency of the water or other fluid in a steam-engine or other heat-engine\n\n\\[\n\\frac{t_1 - t_2}{t_1} = \\frac{\\text{heat received}}{\\text{heat converted}}\n\\]\n\nThe necessary loss of heat by the fluid is \\( \\frac{t_2}{t_1} \\) of the whole heat received by it; and any loss beyond this is waste.",
+      "full_text": "h equation expresses the comparative motion of the two pieces.\n\n54. Classification of Elementary Combinations in Mechanism.\u2014The first systematic classification of elementary combinations in mechanism was that founded by Monge, and fully developed by Lanz and B\u00e9naudcourt, which has been generally received, and has been adopted in most treatises on applied mechanics. But that classification is founded on the absolute, instead of the comparative motions of the pieces, and is, for that reason, defective, as Mr Willis has pointed out in his admirable treatise On the Principles of Mechanism.\n\nThe classification of Mr Willis is founded, in the first place, on comparative motion, as expressed by velocity-ratio and directional-relation; and, in the second place, on the mode of connection of the driver and follower. He divides the elementary combinations in mechanism into three classes, of which the characters are as follows:\n\nClass A: Directional-relation constant; velocity-ratio constant.\n\nClass B: Directional-relation constant; velocity-ratio varying.\n\nClass C: Directional-relation changing periodically; velocity-ratio constant or varying.\n\nEach of those classes is subdivided by Mr Willis into five divisions, of which the characters are as follows:\n\nDivision A: connection by rolling contact.\n\nB: sliding contact.\n\nC: wrapping connectors.\n\nD: link-work.\n\nE: reduplication.\n\nIn the present article the principle of the classification of Mr Willis is followed; but the arrangement is modified by taking the mode of connection as the basis of the primary classification, and by removing the subject of connection by reduplication to the section of aggregate combinations. This modified arrangement is adopted as being better suited than the original arrangement to the limits of an article in an Encyclopedia; but it is not disputed that the original arrangement may be the best for a separate treatise.\n\n55. Rolling Contact\u2014Smooth Wheels and Racks.\u2014In order that two pieces may move in rol",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MECCA",
+          "start_page": 390,
+          "end_page": 391
+        },
+        {
+          "headword": "MECHAIN",
+          "start_page": 391,
+          "end_page": 397
+        },
+        {
+          "headword": "PA",
+          "start_page": 397,
+          "end_page": 403
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MECHLIN",
+          "start_page": 430
+        },
+        {
+          "headword": "MECKEL",
+          "start_page": 431
+        },
+        {
+          "headword": "MECKLENBURG",
+          "start_page": 431
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_PA",
+          "headword": "PA",
+          "direction": "previous",
+          "start_page": 397,
+          "text_preview": "\\quad PB, \\quad PC,\n\\]\n\nthe respective distances of \\( P \\) from the co-ordinate planes YOZ, ZOX, XOY, measured respectively in directions parallel to the three axes, OX, OY, OZ.\n\nThen are \\( P_x, P_y, P_z \\), called the projections of \\( P \\) on the three axes respectively; their motions are called the components of the motion of \\( P \\) parallel to the three axes; and the operation of determining those component motions is called the resolution of the motion of \\( P \\) relatively to the three axes. The operation of determining the motion of \\( P \\), when its components are given, is called the composition of those components; and the motion of \\( P \\) is called the resultant of the motions of its projections. The following propositions are the main principles of the composition and resolution of motion:\n\n(1.) The straight line joining \\( P \\) and O is the diagonal of the parallelopiped \\( OP_xP_yP_zABC \\), of which \\( x, y, z \\), are the edges.\n\n(2.) If a straight line be drawn repre",
+          "text_end": "be connected with a turning piece, and at a given instant let \\(a_i\\) be the angular velocity of the turning piece, \\(r_i\\) the common perpendicular of its axis of rotation and the line of connection, \\(\u03b8_i\\) the angle made by the line of connection with the plane of rotation, \\(\u03b8_s\\) the angle made by the line of connection with the direction of motion of the shifting piece, \\(v_s\\) the linear velocity of that piece. Then\n\n\\[a_i r_i \\cdot \\cos \u03b8_i = v_s \\cdot \\cos \u03b8_s; \\quad \\ldots \\quad (25)\\]"
+        },
+        {
+          "article_id": "1860_v14_MECHAIN",
+          "headword": "MECHAIN",
+          "direction": "previous",
+          "start_page": 391,
+          "text_preview": "PIERRE FRANCOIS ANDRE, a practical astronomer and geographer, was born at Laon on the 16th April 1744. His father, who was an architect, educated him for his own profession, but he accidentally became acquainted with Lalande, under whose patronage he was subsequently brought forward as an observer, surveyor, and computer. He made two voyages with M. de la Bretonni\u00e8re, and assisted him in surveying some parts of the coast of France. He was afterwards employed in various computations by the Marquis de Chabert and the Duc D'Ayen. Having obtained a prize from the Academy of Sciences in 1782, for a Memoir on Comets, he became a member of the Academy the same year. About the year 1785 he undertook the publication of the Connaissance des Temps, and continued it till he was employed in geodetical operations at a distance from Paris. He was appointed member of a committee, along with Cassini, De Thury, and Legendre, to meet the English astronomers for the determination of the relative situation",
+          "text_end": "e a certain number of feet per second; then\n\n\\[\nv = \\frac{ds}{dt} = n, \\quad \\text{or} \\quad +n,\n\\]\n\nwill express that the velocity of the moving point is \\( n \\) feet per second forwards; and\n\n\\[\nv = \\frac{ds}{dt} = -n\n\\]\n\nwill express that the velocity is of equal magnitude, but backward.\n\n26. Direct Deviation, or Acceleration and Retardation.\u2014When the motion of a point is said to be uniform, without further qualification, it is to be understood to be uniform both in velocity and in direction."
+        },
+        {
+          "article_id": "1860_v14_MECCA",
+          "headword": "MECCA",
+          "direction": "previous",
+          "start_page": 390,
+          "text_preview": "MECCAH, or MEKKA, a city of Arabia, capital of the province of El Hejaz, is situated in a narrow valley stretching N. and S., 70 miles E. of Jiddah, its port on the Red Sea; Lat. 21\u00b0 30' N., Long. 40\u00b0 8' E. It is very closely confined between bare hills from 200 to 500 feet high, and is built in a strong and substantial manner, the principal materials being brick, granite, and sandstone quarried from the neighbouring hills. The length of the city and suburbs from N. to S. is about 2\u00bd miles; and its broadest part is three-quarters of a mile from E. to W. Near the centre stands the famous mosque containing the Kaabah, to which Mecca owes its sanctity in the eyes of the followers of Mohammed. The densest part of the town is on the slope of the hill to the E., called Abu Kubays. Mecca was formerly walled on three sides, but is now only defended by the hills which inclose it, and by a strong square castle situated on a rising ground called Jiyyad, to the S. The position of the city has been",
+          "text_end": "e number fell to 25,000. Another place visited by pilgrims is Mina, between Arafat and Mecca, where there is a rude piece of masonry in a narrow and rugged defile. The ceremony performed here forms the concluding act of the pilgrimage: it consists of throwing small pebbles and muttering certain words, and is called stoning the devil. The inhabitants of Mecca are little employed in manufactures, but a considerable trade is carried on, especially during the season of pilgrimage. Pop. about 45,000."
+        },
+        {
+          "article_id": "1860_v14_MECHLIN",
+          "headword": "MECHLIN",
+          "direction": "next",
+          "start_page": 430,
+          "text_preview": "a town of Belgium, province of Antwerp, in the midst of a rich level country on both sides of the Dyle, 14 miles S.S.E. of Antwerp. The town is well built, and has broad and clean streets, as well as a large and handsome square called the Place d'Armes. The most remarkable edifice in Mechlin is the cathedral, built in the fifteenth century, and dedicated to St Rombaud. This fine building, which is in the Gothic style of architecture, has a square tower 348 feet in height, with a fine peal of bells; and although in its present state it is nearly as high as St Paul's in London, yet, according to the original design, it was to have been surmounted by a spire which would have made the total height 640 feet. Even the present tower, however, is out of all proportion to the body of the building. The cathedral contains a picture of the Last Supper by Rubens, which, though in some respects a fine picture, is not considered on the whole to be a favourable specimen of its artist, and is not in a ",
+          "text_end": "h century; and in 910 was given over to the Bishop of Li\u00e8ge. In the fourteenth century it had risen to great importance; but in after times it suffered many calamities, especially from the ravages of war. Sacked by the Spanish troops in 1572, it was again taken, six years after, by the Prince of Orange. Mecklin was captured by Marlborough in 1706, and by the French in 1748. Finally, it was again taken by the French in 1792, by whom, in 1804, its fortifications were destroyed. Pop. (1851) 30,372."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1860_v14_HISTORY_OF_LEGAL_MEDICINE",
+      "headword": "HISTORY OF LEGAL MEDICINE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 434,
+      "end_page": 453,
+      "word_count": 24866,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'HISTORY OF LEGAL MEDICINE' comes before 'MAGNETISM'",
+      "text_preview": "Notwithstanding the importance of the objects which it embraces, and their intimate relation to the interests of society, the true origin of Medical Jurisprudence is of comparatively recent date. It is true that traces of its principles may be perceived in very remote times. In the Mosaic institutions the judges are enjoined to consult the priests, who were the sole physicians of that age and country, on the modes of distinguishing leprosy from other diseases, on the marks of deforation, and the",
+      "text_end": "xercise.\u2014Regular exercise in the open air is highly conducive to health; and those who are interested in the improvement and happiness of the lower classes in our towns cannot help lamenting the little that has been done to encourage our artisans and shopkeepers to take outdoor exercise in pure air.",
+      "full_text": "Notwithstanding the importance of the objects which it embraces, and their intimate relation to the interests of society, the true origin of Medical Jurisprudence is of comparatively recent date. It is true that traces of its principles may be perceived in very remote times. In the Mosaic institutions the judges are enjoined to consult the priests, who were the sole physicians of that age and country, on the modes of distinguishing leprosy from other diseases, on the marks of deforation, and the examination of wounds. In the slight notices handed down to us of the ancient code of Egypt, attributed to Menes, we may observe one trace of the influence of medicine on legislation, in the law which forbade the infliction of corporal punishment on a pregnant female; but among the ancient states of Greece the principles of medical science, though successfully cultivated, seem scarcely to have been applied to legislation, except in certain questions respecting the legitimacy of children, a subject on which the notions even of Aristotle were not very definite. In the writings of Galen, however, we find more distinct traces of legal medicine; as in his various remarks on the difference between the lungs of a fetus and of an adult, in his treatise on simulated diseases, and in his observations on the legitimacy of seven months' children.\n\nThe laws of ancient Rome were borrowed from Greece, and we could scarcely expect to find in them a more refined legislation; but it is worthy of notice, that the laws of the Twelve Tables fix on 300 days as the extreme duration of utero-gestation, the precise term fixed by the Code-Napoleon. Some writers contend that the Roman law authorized the inspection of dead bodies by medical men, because of the twenty-three wounds by which Caesar fell, the physician Antistius pronounced one only mortal; and because Tacitus has spoken of the marks of poison on the bodies of Germanicus and Agricola; yet we have no proof that such opinions were required by",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MEDGYES",
+          "start_page": 432,
+          "end_page": 432
+        },
+        {
+          "headword": "MEDIA",
+          "start_page": 432,
+          "end_page": 433
+        },
+        {
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 433,
+          "end_page": 434
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MEDICI",
+          "start_page": 457
+        },
+        {
+          "headword": "MEDICI",
+          "start_page": 459
+        },
+        {
+          "headword": "MEDICINE",
+          "start_page": 460
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MEDICAL_JURISPRUDENCE",
+          "headword": "MEDICAL JURISPRUDENCE",
+          "direction": "previous",
+          "start_page": 433,
+          "text_preview": "The connection between medicine and legislation had been perceived long before it was considered as a peculiar branch of study, or had even obtained a distinctive appellation. Since its importance has been recognized, it is known in Germany, the country in which it took its rise, by the name of State Medicine; in Italy and in France it is termed Legal Medicine, and with us it is usually denominated Medical Jurisprudence, or Forensic Medicine. It is founded on the relations which ought to subsist between human nature and social institutions, and consists in the application of the principles of medical science to the administration of justice, and to the preservation of the public health. Its nature and objects will be best elucidated by a sketch of its progress.",
+          "text_end": "its rise, by the name of State Medicine; in Italy and in France it is termed Legal Medicine, and with us it is usually denominated Medical Jurisprudence, or Forensic Medicine. It is founded on the relations which ought to subsist between human nature and social institutions, and consists in the application of the principles of medical science to the administration of justice, and to the preservation of the public health. Its nature and objects will be best elucidated by a sketch of its progress."
+        },
+        {
+          "article_id": "1860_v14_MEDIA",
+          "headword": "MEDIA",
+          "direction": "previous",
+          "start_page": 432,
+          "text_preview": "a country in the western part of Asia, was bounded, according to Ptolemy, on the N. by part of the Caspian Sea; on the S. by Persia proper, Susiana, and Assyria; on the E. by Parthia and Hyrcania; and on the W. by Armenia and Assyria. It was anciently divided into the provinces of Tropatene, Charonithrene, Darites, Marci\u00e6ne, Amariace, and Syro-Media. In a later division, however, all these were reduced to two\u2014Media Magna, and Media Atropatene, or Atropatene. Media Magna was bounded by Susiana, Parthia, Hyrcania, the Caspian Sea, and Atropatene, and contained the cities of Echataena, Hannadan, Laodicea, Ragae, &c. The greater part of Media Magna is lofty and mountainous, with a cold climate, especially in the northern parts. The southern region, however, consisting of plains and valleys, was in the time of\nMedia productive of all sorts of vegetables, except the olive. This region was also celebrated for its pasturage and for its horses; the Nisean plain especially being devoted to the r",
+          "text_end": ", and were great adepts in archery. The priests of the Median religion were called Magi; and the principal objects of worship were the sun, moon, and five planets. The seven concentric walls of Ecbatana, the capital, were, according to Herodotus, decorated with various colours, which were probably symbolical of these objects of adoration; and the correctness of this description has been recently confirmed by the discovery of similarly coloured terraces at Birs Nimroud, near the ruins of Babylon."
+        },
+        {
+          "article_id": "1860_v14_MEDGYES",
+          "headword": "MEDGYES",
+          "direction": "previous",
+          "start_page": 432,
+          "text_preview": "MEDIASCH, or MEDWISCH, a royal free town of Transylvania, capital of a district of the same name, stands on the left bank of the Great Koked, 38 miles E. of Carlshurg. It is surrounded by walls, with six gates; and has a Roman Catholic, Calvinistic, and Greek churches, a Franciscan monastery, and a gymnasium with small library. It has some trade in wine, the produce of the district. Pop. 6200.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_MEDICI",
+          "headword": "MEDICI",
+          "direction": "next",
+          "start_page": 457,
+          "text_preview": "FAMILY OF, celebrated in the history of Florence and Tuscany during the fifteenth century, was one which, by its extraordinary industry and activity at a time when the Florentines extended their commerce over the known world, rose to be one of the first in the republic. This opulence secured to its members so great an influence in public affairs, that they became the most powerful and the most highly respected of the many citizens whose public virtues were such as free and popular governments alone can develop. It was through the sincere attachment of their ancestors to the more democratic party of the democratic republic of Florence, that the House of Medici, in after generations, acquired its extraordinary popularity. The origin of its influence may be traced to Giovanni de'\nMedici, who in 1342 was in the service of Gauthier de Brienne, Duke of Athens, and tyrant of Florence. Gauthier having been chiefly indebted to him for the power he enjoyed, resolved to get rid of this obligation",
+          "text_end": "en the Duke Alexander having been assassinated by Lorenzino, a descendant of the younger branch, the authority passed to that branch in Cosmo, who was the first of that series of grand dukes who ruled till 1737.\n\nThe Medici first gained absolute preponderance over the Florentine republic by their wealth, their patriotism, and their attachment to the democratic party. When their power was consolidated they became aristocratic, and finally upheld their authority by despotism and tyranny. Their in-"
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1860_v14_GAUGING",
+      "headword": "GAUGING",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 536,
+      "end_page": 537,
+      "word_count": 1757,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'GAUGING' comes before 'MAGNETISM'",
+      "text_preview": "g denotes the measurement of casks or of substances liable to excise duties.\n\n**To Compute the Contents of a Cask from its Length and Diameters at the Middle and End.**\u2014Let the axis of the cask MN be trisected in L and Q; then the usual form of a cask is such that we may assume AB, DE to be straight lines, and BCD the arc of a parabola whose axis is CO. The portions of the cask AI, DF will then be frusta of cones, and DI will be the frustum of a parabolic spindle.\n\nPut \\(CG = a, AH = b, BI = c,\\",
+      "text_end": ".22   | 1.369278 | -47   | 5.33043 | -72  | 899.052 | 97  | 1.506270 |\n| 0.23   | 1.437516 | -48   | 5.47028 | -73  | 916.552 | 98  | 1.525846 |\n| 0.24   | 1.505754 | -49   | 5.61013 | -74  | 934.052 | 99  | 1.545422 |\n| 0.25   | 1.573992 | -50   | 5.74998 | -75  | 951.552 | 100 | 1.565098 |\n\n(w.s.)",
+      "full_text": "g denotes the measurement of casks or of substances liable to excise duties.\n\n**To Compute the Contents of a Cask from its Length and Diameters at the Middle and End.**\u2014Let the axis of the cask MN be trisected in L and Q; then the usual form of a cask is such that we may assume AB, DE to be straight lines, and BCD the arc of a parabola whose axis is CO. The portions of the cask AI, DF will then be frusta of cones, and DI will be the frustum of a parabolic spindle.\n\nPut \\(CG = a, AH = b, BI = c,\\) and \\(ML = LQ = QN = \\frac{1}{3} l.\\)\n\nThen the volume generated by AL or DN\n\n\\[\n= \\frac{\\pi l}{180} (5b^2 + 5bc + 5c^2) \\quad (\\text{art. 65});\n\\]\n\nand the volume generated by BQ\n\n\\[\n= \\frac{\\pi l}{180} (8a^2 + 4ac + 3c^2) \\quad (\\text{art. 113}).\n\\]\n\nNow if AB be produced to T, because TB is a tangent to the parabola BC, TK = 2CK, and by similar triangles TK : BL = AM : BK : ML, or \\(2(a - c) : c - b :: 1 : 2;\\) from which \\(c = \\frac{1}{2}(4a + b).\\) Therefore substituting for \\(c,\\) and adding, we obtain the whole content of the cask\n\n\\[\n= \\frac{l}{360} (39a^2 + 25ab + 25b^2) \\quad \\text{Mensuration.}\n\\]\n\nIf \\(a, b,\\) and \\(l\\) are expressed in inches, since there are 277-3 cubic inches in a gallon, and\n\n\\[\n\\frac{\\pi}{360 \\times 277.3} = 0.0003147,\n\\]\n\nthe contents of the cask in imperial gallons\n\n\\[\n= l (39a^2 + 26ab + 25b^2) \\times 0.0003147 \\quad \\text{(1)}\n\\]\n\nAgain, because \\(39a^2 + 26ab + 25b^2\\)\n\n\\[\n= (39a^2 + 26ab + 26b^2) \\left(1 - \\frac{b^2}{39a^2 + 26ab + 26b^2}\\right);\n\\]\n\nand since \\(b\\) is generally about \\(\\frac{2}{3}a,\\)\n\n\\[\n1 - \\frac{b^2}{39a^2 + 26ab + 26b^2} = 1 - \\frac{1}{129} = \\frac{128}{129};\n\\]\n\ntherefore the content of the cask in gallons\n\n\\[\n= l (39a^2 + 26ab + 26b^2) \\times \\frac{128}{129} \\times 0.0003147\n\\]\n\n\\[\n= l \\left(\\frac{3}{2}a^2 + ab + b^2\\right) \\times 0.000812 \\text{ nearly} \\quad \\text{(2)}\n\\]\n\n**Example.**\u2014Let the bung and head diameters of a cask be 32 and 24 inches respectively, and its length 40 inches; required its content in",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MENSURATION",
+          "start_page": 513,
+          "end_page": 514
+        },
+        {
+          "headword": "MENSURATION",
+          "start_page": 514,
+          "end_page": 524
+        },
+        {
+          "headword": "MENSURATION",
+          "start_page": 524,
+          "end_page": 536
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MENTAL DISEASES",
+          "start_page": 537
+        },
+        {
+          "headword": "MENSCHEIKOFF",
+          "start_page": 551
+        },
+        {
+          "headword": "MEPPEL",
+          "start_page": 552
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MENSURATION_s3",
+          "headword": "MENSURATION",
+          "direction": "previous",
+          "start_page": 524,
+          "text_preview": "64. To find the Surface of a Right Cone.\u2014Putting \\( AB = l \\), the lateral surface of the pyramid described about the cone,\n\n\\[\n= n' \\cdot \\text{BED} = n' \\cdot \\text{AB} \\cdot \\text{AD} = nlr \\tan \\frac{\\pi}{n} = \\pi lr \\cdot \\frac{\\tan \\frac{\\pi}{n}}{\\pi}.\n\\]\n\nBut by increasing \\( n \\) indefinitely,\n\n\\[\n\\tan \\frac{\\pi}{n} = 1;\n\\]\n\nand the surface of the pyramid coincides with that of the cone;\n\n\\[\n\\therefore \\text{surface of cone} = \\pi lr.\n\\]\n\nAlso, if \\( p \\) is the circumference of the base,\n\n\\[\n\\therefore \\pi r^2 + \\pi lr = \\pi r(r + l);\n\\]\n\nHence the convex surface of a cone is equal to half the perimeter of the base multiplied by the slant height.\n\nIf we add the surface of the base, the whole surface,\n\n\\[\n= \\pi r^2 + \\pi lr = \\pi r(r + l).\n\\]\n\nAgain, if \\( h \\) is the vertical height,\n\n\\[\nl = (r^2 + h^2)^{\\frac{1}{2}};\n\\]\n\n\\[\n\\therefore \\text{surface} = \\pi r[r + (r^2 + h^2)^{\\frac{1}{2}}].\n\\]\n\nExample.\u2014Find the surface of a cone whose height is 13, and the radius of its base 3",
+          "text_end": "ctions may be regarded as sensibly similar. Then, since it has been proved in art. 39 that the volume of any prismoidal solid, of which \\(s_1, s_2, s_3\\) are the areas of the ends and middle section, and \\(h\\) half the height, is \\(\\frac{3}{2}(s_1 + 4s_2 + s_3)\\); if we proceed as in art. 125, we shall find that the volume of the solid is expressed by the formula of art. 127, which therefore applies not only to solids of revolution, but approximately to all solids whatever.\n\n---\n\n**ON GAUGING.**"
+        },
+        {
+          "article_id": "1860_v14_MENSURATION_s2",
+          "headword": "MENSURATION",
+          "direction": "previous",
+          "start_page": 514,
+          "text_preview": "or log area = \\log a + \\log b + L \\sin A - 10^8\n\n\\begin{align*}\na &= 36 & \\log a &= 1.5568025 \\\\\nb &= 25.5 & \\log b &= 1.4065402 \\\\\nA &= 58^\\circ & L \\sin A &= 9.9284205\n\\end{align*}\n\nArea = 778.5 \\quad \\text{log area} = 2.8912632\n\n9. (iii.) The area in terms of the diagonals and their contained angle.\n\nIf \\( m, n \\) are the diagonals, and \\( I \\) the contained angle, it follows, from article 17, that the\n\narea = \\(\\frac{1}{2}mn \\sin I\\).\n\nExample.\u2014Find the area of a parallelogram whose diagonals are 30 and 25, which make with each other an angle of 60\u00b0.\n\n\\[\n\\text{Area} = \\frac{1}{2} \\times 30 \\times 25 \\times \\sin 60^\\circ = 15 \\times 25 \\times \\sqrt{3} = 324.76;\n\\]\n\nor \\(\\log \\text{area} = \\log m + \\log n + L \\sin I - \\log_2 - 10\\).\n\n\\begin{align*}\nm &= 30 & \\log m &= 1.4771213 \\\\\nn &= 25 & \\log n &= 1.3979400 \\\\\nI &= 60^\\circ & L \\sin I &= 9.9695306 \\\\\n& & \\log_2 &= 9.6989700\n\\end{align*}\n\nArea = 324.76 \\quad \\text{log area} = 2.5115619\n\nIf the parallelogram is equilateral, or a rho",
+          "text_end": "i.), to be 83.738.\n\n(iv.) Given the chord and height, or versed sine of the segment.\u2014Let \\(2c\\) \\(= \\) the chord, \\(h\\) \\(= \\) the height, \\(r\\) \\(= \\) the radius.\n\n\\[\nr = \\frac{1}{2}(h + \\frac{c^2}{h}) \\quad \\text{(art. 63).}\n\\]\n\nThen A is found as in Rule (iii.), and finally the area is obtained by Rule (ii.)\n\nExample.\u2014Given the chord of a segment 28\u00b0 23' 24\", and its height 4\u00b0 36661, to find its area.\n\n\\( c = 14^\\circ 11607 \\) and \\( h = 4^\\circ 36661,\\) from which \\( r = 25 \\) (see art. 53)."
+        },
+        {
+          "article_id": "1860_v14_MENSURATION",
+          "headword": "MENSURATION",
+          "direction": "previous",
+          "start_page": 513,
+          "text_preview": "1. Mensuration, or the art of measuring, involves the construction of measures, the methods of using them, and the investigation of rules by which magnitudes, which it may be difficult or impossible to measure directly, are calculated from the ascertained value of some associated magnitude. It is usual, however, to employ the term mensuration in the last of these senses; and we may therefore define it to be that department of mathematical science by which the various dimensions of bodies are calculated from the simplest possible measurements.\n\nThe determination of the lengths and directions of straight lines, including what are familiarly known as problems in heights and distances, generally depends on the solution of triangles, and will be discussed in the articles Trigonometry and Surveying. The remaining portions of the subject, which will form the subject of the present article, are the determinations of the lengths of curves, the areas of plane or other figures, and the volumes an",
+          "text_end": "n; or, in the literal sense of the word, to that which bounds or confines something else. Thus in physics it is applied to several instruments or apparatus for measuring the state of a phenomenon; such as the wind-gage, the rain-gage, the barometer-gage for measuring the degree of pressure of the air within the receiver of an air-pump, &c.; in architecture, to the length of a slate below the lap; in railway engineering, to the space between the rails; and the like.\n\nGAUL. See Gallia, and France."
+        },
+        {
+          "article_id": "1860_v14_MENTAL_DISEASES",
+          "headword": "MENTAL DISEASES",
+          "direction": "next",
+          "start_page": 537,
+          "text_preview": "Mental Disease, Mental Derangement, or Mental Alienation, comprises two great and distinct classes of morbid affections of the mind,\u2014the one, the result of disease attacking a person of sound mind, is called Insanity or Lunacy; the other, the result of original or congenital conditions of the individual, is called Idiocy, or, in its lesser degrees, Imbecility.\n\nAll modern physiologists are agreed in regarding the brain as the organ of the mind; it may therefore be stated, that these diseases result from affections of the brain,\u2014the one class (insanity) resulting from diseases of a brain originally healthy; the other (idiocy) arising from original defects in the brain, such as imperfect development, or congenital disease of that organ.\n\nMany attempts have been made to define insanity and idiocy; but as the varieties of the mental diseases classed under those general terms are so numerous, and their distinctions in some instances so great; and in others so minute, it may be questioned wh",
+          "text_end": " 1852; Cumming, Notes on Asylums in Germany, 1852; Parchappe, Construction des Ar\u00e8nes d'Aliens, 1852; J. Falret, Recherches sur la Folie Paralytique, 1853; J. Falret, Lettres Cliniques de M\u00e9decine Mentale, 1854; Wharton, On Mental Unsoundness, 1855; Blackie, On Cretinism, 1855; Report on Insanity and Idiocy in Massachusetts, 1855; Noble, Psychological Medicine, 1856; H\u00f6lder, Lehrbuch der Gerichtlichen Psychologie, 1857; Bertrand, Trait\u00e9 du Suicide, 1857; Morel, Trait\u00e9 de la D\u00e9g\u00e9n\u00e9rescence, 1857."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1860_v14_EDUCATION_IS_CARRIED_ON_BY",
+      "headword": "EDUCATION IS CARRIED ON BY",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 556,
+      "end_page": 556,
+      "word_count": 498,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'EDUCATION IS CARRIED ON BY' comes before 'MAGNETISM'",
+      "text_preview": "n is carried on by means of some hundreds of Sunday schools, and sixty day schools. There are two colleges at Bala for the education of Methodist and Congregational ministers: the former is being endowed as a fitting monument to the great and good Thomas Charles, who was to Welsh Methodism what Wesley was to Wesleyanism, and who lived and laboured in this town for many years.\n\nIn the earliest historical period Merionethshire was included in the territory of the Ordovices, a tribe so called throu",
+      "text_end": "t Britain in 1851:\n\n| Year | Population |\n|------|------------|\n| 1801 | 29,506     |\n| 1811 | 30,854     |\n| 1821 | 31,382     |\n| 1831 | 35,315     |\n| 1841 | 39,332     |\n| 1851 | 38,843     |\n\nIn 1851 there were in the county 8159 houses inhabited, 372 uninhabited, and 31 in process of erection.",
+      "full_text": "n is carried on by means of some hundreds of Sunday schools, and sixty day schools. There are two colleges at Bala for the education of Methodist and Congregational ministers: the former is being endowed as a fitting monument to the great and good Thomas Charles, who was to Welsh Methodism what Wesley was to Wesleyanism, and who lived and laboured in this town for many years.\n\nIn the earliest historical period Merionethshire was included in the territory of the Ordovices, a tribe so called through a Roman corruption of their Celtic designation, *Ardoceyceaid*, or \"dwellers upon the placid stream.\" During the Roman occupation it was included in the province of *Britannia Secunda*, being (some say) called *Mereinia*; if so, it would seem to indicate an earlier origin for the word Merioneth (or Merion's Land) than the fifth century, when the Cantrev, or district situated between the Dofwy and the Mawddach, was bestowed upon Meirion-ab-Tybiawr-ab-Cynedda for his services in expelling the Gwyddelians (Irish) from Gwynedd. Perhaps he may have taken his name from the district allotted to him, as it is still as often called Meirion as Merionydd. The *Via Occidentalis* passed the whole length of the county, being joined at *Herri Mons* (the Mountain of Eryri, now Tomen-y-Mur, near Trawsfynydd) by a branch of the Southern Watling Street. During the Saxon and early Norman period we have not much interesting information respecting it, as it seems to have been to the Kymry a safe and mysterious refuge, into which the Saxon had a wholesome inclination in following. But in proportion as the Anglo-Norman power became consolidated these impregnable fastnesses became the scene of strife. Here Owen Gwynedd defeated Henry II., and brave Glyndwr rose in arms at the call of friendship and patriotism to resist the usurper of the throne of gentle Henry, and the enslaver of his loved Wales. Tradition and records tell of bloody deeds done here in those and later days by freebooters daring an",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MERIDA",
+          "start_page": 554,
+          "end_page": 554
+        },
+        {
+          "headword": "MERIDA",
+          "start_page": 554,
+          "end_page": 554
+        },
+        {
+          "headword": "MERIONETHSHIRE",
+          "start_page": 554,
+          "end_page": 556
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MERLIN",
+          "start_page": 556
+        },
+        {
+          "headword": "MEROE",
+          "start_page": 557
+        },
+        {
+          "headword": "MERRICK",
+          "start_page": 557
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MERIONETHSHIRE",
+          "headword": "MERIONETHSHIRE",
+          "direction": "previous",
+          "start_page": 554,
+          "text_preview": "the most southern county of North Wales, is situated at the middle of the Welsh coast, and is of a triangular form, the apex terminating between Corwen and Llangollen; the base being formed by Cardigan Bay, with a portion of Carnarvonshire; the perpendicular by Carnarvonshire and Denbighshire; and the hypotenuse by Denbighshire, Montgomeryshire, and Cardiganshire. The length from north to south is 56 miles, and its greatest breadth 32 miles. Its area is estimated at 602 square miles, or 385,291 statute acres.\n\nThe coast is iron-bound and dangerous, from shoals and banks, as Sarn-Badrig, Sarn-y-Bwch, Dutchman's Bank, &c. At Aberdowry, however, there is a safe harbour, which might be rendered more so by a little enterprise. Abermaw is another safe creek, though not so safe as Aberdowry. In fine weather large boats can land in Aberdysynwy, Mochras, and Traethbach.\n\nThis county, in its physical aspect, is one of the most interesting in the principality; and while inferior to some others in",
+          "text_end": "ttle influence among the people. The county is ecclesiastically divided between Bangor and St Asaph. The deaneries of Ardwydy, Estimaner, and Talychont, are in the former; and Mawddwy, Penllyn, and Edeyrnion, in the latter. The number of parishes is about thirty-four, and, for a poor country, they are well endowed.\n\nThe dominant non-established church is Presbyterian, in the form called Welsh Calvinistic Methodism. The Wesleyans, Congregationalists, and Baptists have also numerous congregations."
+        },
+        {
+          "article_id": "1860_v14_MERIDA_s3",
+          "headword": "MERIDA",
+          "direction": "previous",
+          "start_page": 554,
+          "text_preview": "a town of Mexico, capital of the state of Yucatan, is situated in a dry plain, 25 miles from the sea, and 90 N.E. of Campeachy. Lat. 20\u00b0 50', N.; Long. 89\u00b0 40', W. The town, which was founded by the Spaniards in 1542 on the site of an earlier native city, is built in the Moorish style. There are eight principal streets, wide and sloping towards the centre; and these are laid out with great regularity, meeting in a large square in the centre of the town, in which stand the cathedral, the bishop's palace, and the government house. The cathedral is ancient, and has a fine appearance, being adorned with domes and pinnacles. The town has also fourteen churches, and the ruins of an old Franciscan convent, which are curious and interesting. The climate is dry and not liable to sudden changes, but it is not very healthy. Merida has a considerable trade. Its port is Sizal, which is but an exposed roadstead with a fort and a sandbank 12 miles in length. Pop. (1851) 40,000.",
+          "text_end": "cathedral, the bishop's palace, and the government house. The cathedral is ancient, and has a fine appearance, being adorned with domes and pinnacles. The town has also fourteen churches, and the ruins of an old Franciscan convent, which are curious and interesting. The climate is dry and not liable to sudden changes, but it is not very healthy. Merida has a considerable trade. Its port is Sizal, which is but an exposed roadstead with a fort and a sandbank 12 miles in length. Pop. (1851) 40,000."
+        },
+        {
+          "article_id": "1860_v14_MERIDA_s2",
+          "headword": "MERIDA",
+          "direction": "previous",
+          "start_page": 554,
+          "text_preview": "a town of Venezuela, capital of a province of the same name, is situated on a plain 5518 feet above the level of the sea. The town is well and regularly built, with straight streets crossing each other at right angles, and having a clear stream of running water in the centre of each. It was formerly one of the largest towns of Venezuela, but having repeatedly suffered from earthquakes, especially in 1812, it has greatly declined. The town has a cathedral, nunnery, a college, several schools, and an hospital. Woollen and cotton stuffs are manufactured; and the surrounding country produces coffee of great excellence. The province occupies an area of 10,758 square miles. Pop. of the province (1854), 23,967; of the town, 6800.",
+          "text_end": "clear stream of running water in the centre of each. It was formerly one of the largest towns of Venezuela, but having repeatedly suffered from earthquakes, especially in 1812, it has greatly declined. The town has a cathedral, nunnery, a college, several schools, and an hospital. Woollen and cotton stuffs are manufactured; and the surrounding country produces coffee of great excellence. The province occupies an area of 10,758 square miles. Pop. of the province (1854), 23,967; of the town, 6800."
+        },
+        {
+          "article_id": "1860_v14_MERLIN",
+          "headword": "MERLIN",
+          "direction": "next",
+          "start_page": 556,
+          "text_preview": "or MERDDIN, the name of two ancient British wizards:\n\nAmbrose Merlin was the reputed son of a demon and of the daughter of a British prince, Demetrius, and flourished about the end of the fifth century. He was brought up at a city called Caer-Merlin (the City of Merlin), and supposed to be the present Caernarvon. When a mere boy he recommended himself by his supernatural powers to the notice of King Vortigern. He was afterwards the inseparable counsellor of that monarch, and of his immediate successors Ambrosius, Uterpendragon, and Arthur. His alleged miraculous insight is supposed by Leland to have been merely a knowledge of mathematics far transcending the comprehension of his contemporaries. Allusion is made to Merlin in the Faery Queen and other old poems. A book of Prophecies attributed to him was printed in French in 1498, in English in 1529, and in Latin in 1554. *The Life of Merlin Ambrosius, his Prophecies and Predictions Interpreted, and their Truth made good by our English A",
+          "text_end": "rical history of Merlin, ascribes this fate to a page whose death Merlin had prophesied in the terms mentioned above.\n\nThe grave of Merlin is still shown beneath an aged thorn at Drummelzier, a village on the Tweed. The book of prophecies which has been generally ascribed to Ambrose Merlin is sometimes attributed to Merlin the Caledonian, and was published at Edinburgh in 1615 under the name of the latter. (See part ii. of \"Thomas the Rhymer\" in Sir W. Scott's Minstrelsy of the Scottish Border.)"
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1860_v14_LET_IT_BE_GRANTED_THAT_EVERY_PHENOMENON",
+      "headword": "LET IT BE GRANTED THAT EVERY PHENOMENON",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 616,
+      "end_page": 618,
+      "word_count": 2085,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'LET IT BE GRANTED THAT EVERY PHENOMENON' comes before 'MAGNETISM'",
+      "text_preview": "t it be granted that every phenomenon implies a corresponding reality; that the phenomena of the *ego* indicate the existence of the human soul; and the phenomena of the *non-ego,* that of a substantial universe; and the relation between the two, that of a being who is beyond relation\u2014still, in no fact of consciousness is the reality given apart from the phenomena which are related to it. The notions\n\n---\n\n1 Wolf, *Ontologia,* sect. 25.\n2 The following summaries, extracted from the works of two ",
+      "text_end": "ative to the absolute,\u2014in identifying that which depends on me with that on which I depend. A conception of the Deity, in his absolute existence, appears to involve a self-contradiction; for conception itself is a limitation, and a conception of the absolute Deity is a limitation of the illimitable.",
+      "full_text": "t it be granted that every phenomenon implies a corresponding reality; that the phenomena of the *ego* indicate the existence of the human soul; and the phenomena of the *non-ego,* that of a substantial universe; and the relation between the two, that of a being who is beyond relation\u2014still, in no fact of consciousness is the reality given apart from the phenomena which are related to it. The notions\n\n---\n\n1 Wolf, *Ontologia,* sect. 25.\n2 The following summaries, extracted from the works of two eminent metaphysicians of the seventeenth and eighteenth centuries, may enable the reader to form some notion of the treatment of ontology, in systems prior to the criticism of Kant. The contents of Bargerdyk's *Institutiones Metaphysicae* are enumerated as follows:\u2014De natura metaphysicae\u2014De communis entis notionis\u2014De eo quod est medium inter ens et nihil in genere\u2014De privatione et denominatione externa\u2014De ente rationalis\u2014De relatione\u2014De modis entium\u2014De principiis incomplexis sive essentia et existentia\u2014De principiis metaphysicis complexis\u2014De entis affectionibus in genere\u2014De unitate et multitudine in genere\u2014De unitate numerica et formalis, de quo principio individuationis\u2014De unitate universali\u2014De speciebus praedictis unitatis\u2014De diversitate sive distinctione et convenientia\u2014De oppositione\u2014De ordine\u2014De veritate et fallacio\u2014De adjuncta veritatis\u2014De bono et malo\u2014De localitate, temporalitate et duraturo\u2014De tota et parte\u2014De causa et casae in genere\u2014De causa materialis\u2014De causa formalis\u2014De causa efficientis\u2014De finibus\u2014De subjectis et objectis\u2014De causis et causis\u2014De causis necessariis, impossibilis et contingens\u2014De perfectis et imperfectis\u2014De perfectionibus\u2014De proprietatibus quae inde consequuntur\u2014De principiis philosophiae primae\u2014De principio contradictionis\u2014De principio rationis sufficientis\u2014De essentia et existentia entis, agnatique nonnullae notionibus\u2014De posibilitatibus et impossibilis\u2014De determinato et indeterminato\u2014De notione entis\u2014De generalitate entis affectionibus\u2014De ident",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MESSINA",
+          "start_page": 562,
+          "end_page": 562
+        },
+        {
+          "headword": "MESTRINO",
+          "start_page": 562,
+          "end_page": 562
+        },
+        {
+          "headword": "METAPHOR",
+          "start_page": 562,
+          "end_page": 572
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "METAPONTUM",
+          "start_page": 636
+        },
+        {
+          "headword": "METASTASIO",
+          "start_page": 637
+        },
+        {
+          "headword": "METELLUS",
+          "start_page": 639
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_METAPHOR",
+          "headword": "METAPHOR",
+          "direction": "previous",
+          "start_page": 562,
+          "text_preview": "a species of rhetorical tropic founded on the resemblance which one object bears to another. It is in reality only comparison or simile expressed in an abridged form. For example, the sentence\u2014\"These men are lambs in the family, but lions in the field,\" is an example of metaphor; but to say, \"These men are like lambs in the family, &c.,\" is an instance of simile or comparison. In short, the peculiar distinction between these two figures is, that in simile we say one object is like another, while in metaphor we drop the word expressing the similitude, and say one object is another. And hence the peculiar boldness which characterizes metaphor; and which is not to be found in the same degree in any of the figures of rhetoric. Those ordinary metaphors which long use has sanctioned have a tendency, in all languages, to sink to the level of common terms.\nAmong the various changes which the language of philosophy has undergone in the gradual progress of human knowledge, there is none more rem",
+          "text_end": " the consciousness of that existence, yet we are by no means warranted in assuming that either can be brought into that state by the operation of an isolated organ of sense. With this preliminary caution as to the relation of the several faculties and acts of consciousness to each other\u2014a caution which must be carefully borne in mind throughout\u2014we shall now proceed to examine and describe the various phenomena of consciousness separately, so far, at least, as separation in this case is possible."
+        },
+        {
+          "article_id": "1860_v14_MESTRINO",
+          "headword": "MESTRINO",
+          "direction": "previous",
+          "start_page": 562,
+          "text_preview": "NICOLO, a famous violinist and excellent composer, was born at Milan in 1748, as is proved by his letter, dated at Brussels 18th August 1786, and addressed to the then governors of the Netherlands, to whom he applied for the vacant post of their master of music. They bestowed the place upon Witzthum, a native of Baden, who had been long employed as a musician at the court of Brussels. At that time Mestrino had been in the service of Prince Esterhazy, and next of Count Ladislas Erd\u00f6dy, as first violin; and had travelled in Italy, Germany, and other countries, with a high musical reputation. Disappointed in his views at Brussels, he proceeded to Paris, where he played one of his concertos at the Concert Spirituel on the 17th December 1786. His extraordinary skill attracted immediate attention, and he was appointed leader of the orchestra of the chief theatre; and, in 1789, director of the excellent orchestra that had been formed by Viotti for the Italian Opera at Paris. He died in Septem",
+          "text_end": "soned, and had practised the violin incessantly during his confinement; stories utterly destitute of foundation. The late celebrated violinist Paganini was assailed by similar stories, and even by atrocious imputations of murder; all mere fabrications of jealousy. The genuine works of Mestrino, which were published at Paris, consist of twelve Concertos for a principal violin and orchestra; four sets of Duets for two violins; Studies and Caprices for a violin alone; Sonatas for a violin and bass."
+        },
+        {
+          "article_id": "1860_v14_MESSINA",
+          "headword": "MESSINA",
+          "direction": "previous",
+          "start_page": 562,
+          "text_preview": "a town and seaport of Sicily, capital of a province of the same name, is situated at the N.E. corner of the island, on the Straits of Faro or Messina, here about 4 miles in breadth, 8 miles N.W. of Reggio, and 120 E. by N. of Palermo; Lat. (of lighthouse) 36\u00b0 18' N., Long. 59\u00b0 35' E. The appearance of Messina from the sea is very grand and beautiful. The town is built on the slope of a hill in the form of an amphitheatre, behind which rise mountains covered with dark forests, which heighten by contrast the beauty of the white buildings in the town. The greatest part of the town is built on the W. side of the harbour; the streets are broad and well paved with lava, and the houses are handsome, and in general two storeys high. The town is defended by walls and bastions, as well as by a citadel and numerous forts; so that Messina is reckoned a first-rate fortress. Among the principal buildings in Messina there are about 50 churches, the most remarkable of which is the cathedral, in the Go",
+          "text_end": "nder.\n\nThe province of Messina is bounded on the N. by the Mediterranean, E. by the Straits of Messina, S. by the province of Catania, and W. by that of Palermo; and is 60 miles in length by 30 in breadth. It is occupied in the interior by the mountain range which traverses the N. of Sicily; and though destitute of large plains, it has many valleys, some of which are very rich and fertile in wine, oil, and fruits of various sorts. Pop. of the town (1850), 97,074; of the province (1854), 380,279."
+        },
+        {
+          "article_id": "1860_v14_METAPONTUM",
+          "headword": "METAPONTUM",
+          "direction": "next",
+          "start_page": 636,
+          "text_preview": "or Metapontium, a city of Magna Graecia, was situated on the Tarentine Gulf, 14 miles from Heraclae, and 24 from Tarentum. It was colonized by Achaeans about the beginning of the seventh century B.C.; but some ascribe it to a much earlier origin. In the early period of its history Metapontum was in all probability in alliance with Sybaris and Crotona, cities likewise of Achaean origin; and it was imbued to a considerable extent with the opinions and doctrines of Pythagoras, who retired to this city and spent there the last days of his life. His tomb was still to be seen there in the time of Cicero. The Metapontines assisted the Athenians in their Sicilian expedition (415 B.C.), being at that time in a flourishing condition of wealth and prosperity. They embraced the side of Pyrrhus in his war with the Romans, and after its conclusion fell under the Roman yoke. When Hannibal invaded Italy the Metapontines, after the battle of Cannae, were well disposed to him; but, on account of a garri",
+          "text_end": "ter its conclusion fell under the Roman yoke. When Hannibal invaded Italy the Metapontines, after the battle of Cannae, were well disposed to him; but, on account of a garrison of Romans, were unable openly to desert to him till 212 B.C., when the city was occupied by a Carthaginian garrison. When Hannibal was compelled to leave Italy he removed, along with his own troops, the inhabitants of Metapontum; and from that time the city disappears from history. Some remains of it are still to be seen."
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1860_v14_VARIOUS_METHODS_HAVE_BEEN_DESCRIBED_FOR_FINDING_THE_OBJECT_BY",
+      "headword": "VARIOUS METHODS HAVE BEEN DESCRIBED FOR FINDING THE OBJECT BY",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 795,
+      "end_page": 800,
+      "word_count": 4224,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'VARIOUS METHODS HAVE BEEN DESCRIBED FOR FINDING THE OBJECT BY' comes after 'MIH'",
+      "text_preview": "s methods have been described for finding the object by means of scales, horizontal and vertical, applied to the slides; but however valuable these may be, the apparatus cannot be called a Microscopic Finder, which should form an integral part of the instrument.\n\n**Nachet's Multocular Microscopes.**\n\nM. Nachet, of whose microscopes we have already spoken in high terms, has adapted the microscope for anatomical demonstrations, so that two or three persons may see at the same time the result of mi",
+      "text_end": "telescope, and of Dr Smith's compound microscope, will readily see that the reflecting microscope, with the perforated speculum, may be converted into a more compound reflector, analogous to Dr Smith's, by making the little speculum s (fig. 78) convex, the figures of d and s being made hyperboloids.",
+      "full_text": "s methods have been described for finding the object by means of scales, horizontal and vertical, applied to the slides; but however valuable these may be, the apparatus cannot be called a Microscopic Finder, which should form an integral part of the instrument.\n\n**Nachet's Multocular Microscopes.**\n\nM. Nachet, of whose microscopes we have already spoken in high terms, has adapted the microscope for anatomical demonstrations, so that two or three persons may see at the same time the result of microscopical dissections, by constructing two microscopes\u2014a double and a triple one. By means of the first, one person can examine the progress and result of a dissection which is performed by another person; and by means of the second, two persons can enjoy this advantage.\n\nIn the microscope for two persons this result is obtained by placing above the object-glass a prism P (fig. 67), the section of which is an equilateral triangle. The rays from the object-glass, shown in the figure by the letter ab, ab', entering the lower face of the prism perpendicularly, the two halves of the pencil are reflected in opposite directions from the other faces of the prism at angles of 45\u00b0, and thus enter the two separate tubes, in each of which they form an image of the object. These images are in a certain sense erect; but in order to seem in exactly their natural position, in which case alone the ann-\n\n---\n\n* See Brewster's Treatise on Optics, p. 486, edit. 1853.\n* Opticians will adopt various modes of applying and withdrawing the concave lens.\ntomist can use his scalpel, a prism is placed in each tube between the former prism and the eye-pieces, so that their planes of reflection are perpendicular to those of the other prisms. By this means the images are perfectly erect, and the demonstrator can proceed with his work without fatigue or difficulty. If the demonstrator and observer should have eyes of different focal lengths, the adjustment is effected by moving the eye-piece to or from t",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MICON",
+          "start_page": 754,
+          "end_page": 754
+        },
+        {
+          "headword": "MICROMETER",
+          "start_page": 754,
+          "end_page": 774
+        },
+        {
+          "headword": "MICROSCOPE",
+          "start_page": 774,
+          "end_page": 775
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WHEN ALL THESE",
+          "start_page": 813
+        },
+        {
+          "headword": "MIDAS",
+          "start_page": 818
+        },
+        {
+          "headword": "MIDDLEBURG",
+          "start_page": 819
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MICROSCOPE",
+          "headword": "MICROSCOPE",
+          "direction": "previous",
+          "start_page": 774,
+          "text_preview": "Microscope, from \u03bc\u03b9\u03ba\u03c1\u03cc\u03c2, a small object, and \u1f40\u03c0\u03c4\u03b9\u03ba\u03cc\u03c2, to see or examine, is the name of a well-known optical instrument for examining and magnifying minute objects, or the minute parts of large ones. Dr Goring has, in his various works on the microscope, used the word engloscope, from \u03b5\u03b3\u03b3\u03bb\u03bf\u03c2, near, and \u03c3\u03ba\u03bf\u03c0\u03b5\u1fd6\u03bd, to see; but the old and venerable term is so associated with the history of optical discovery, and is so expressive of the application of the instrument, that we cannot consent to the proposed change.\n\nSingle microscopes, in the form of glass globes containing water, were used by the ancients. A magnifying lens of rock-crystal was found by Mr Layard among a number of glass bowls in the north-west palace of Nimroud. Hemispheres of glass, and afterwards lenses, were subsequently used, so that no person has pretended to claim the invention of the single microscope. The compound microscope, consisting of two lenses placed at a distance, so that the one next the eye magnifies the enl",
+          "text_end": "f Alkmaar, who then resided in London as mathematician to King James VI.\n\nThere is probably no branch of practical science which has undergone such essential and rapid improvements as that which relates to the microscope. It has become quite a new instrument in modern times, and it promises to be the means of disclosing the structure and laws of matter, and of making as important discoveries in the infinitely minute world as the telescope has done in that which is infinitely distant.\n\nCHAPTER I."
+        },
+        {
+          "article_id": "1860_v14_MICROMETER",
+          "headword": "MICROMETER",
+          "direction": "previous",
+          "start_page": 754,
+          "text_preview": "Micrometer, from \u03bc\u03b9\u03ba\u03c1\u03cc\u03c2, small, and \u03bc\u03ad\u03c4\u03c1\u03bf\u03bd, a measure, is the name of an instrument, generally applied to telescopes and microscopes, for measuring small angular distances within the field of the former, or the size of small objects within that of the latter.\n\nPreviously to the invention of the telescope astronomers experienced great difficulty in measuring small angles in the heavens; but we may safely infer from the observations of Hipparchus, that he had succeeded, either by the actual division of his instruments or by estimation, in determining celestial arcs to one-third of a degree.\n\nWhen the telescope was applied by Galileo and our countryman Harriot to the examination of the solar spots, it does not appear that they executed their drawings from any other than estimated measures. This indeed seems quite certain in the case of Harriot, whose original sketches we have had an opportunity of inspecting. The elaborate solar observations of Scheiner, made in 1611, with a telescope on ",
+          "text_end": ", or $\\frac{1}{1500}$th of an inch, but of what inch is not mentioned. He does not state whether this measure is taken by himself or not. He reckons the thickness of a human hair at $\\frac{1}{1000}$th of a line at its mean thickness, or $\\frac{1}{1500}$th of an inch.\n3 This result was confirmed by Leeuwenhoek, who used the same wire, which was sent to him by Dr Jurin. (Phil. Trans., No. 377.)\n4 Dr Young makes this the 940th of an inch, but he has certainly committed a mistake in his observation."
+        },
+        {
+          "article_id": "1860_v14_MICON",
+          "headword": "MICON",
+          "direction": "previous",
+          "start_page": 754,
+          "text_preview": "an Athenian artist and sculptor, was the son of Phanocchus, and flourished in the fifth century B.C. He assisted in the painting of the Pecile at Athens; and, according to some authors, had a hand in the famous picture of the \"Battle of Marathon.\" He was assisted in some of his works by Polygnotus. He executed several statues; but he was especially famous for his representations of horses.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1860_v14_WHEN_ALL_THESE",
+          "headword": "WHEN ALL THESE",
+          "direction": "next",
+          "start_page": 813,
+          "text_preview": "n all these means and precautions fail in unraveling a mysterious structure, we have often derived advantage, in the case of lined objects, by looking through cylindrical lenses or good prisms; the length of the cylinder, or the refracting edges of the prism, being at right angles to the lines. Narrow slits may also be used with advantage next the eye; but in all these cases, while we improve and give a finer definition to the lines and the spaces between them, we deteriorate vision for other parts of the structure.",
+          "text_end": " precautions fail in unraveling a mysterious structure, we have often derived advantage, in the case of lined objects, by looking through cylindrical lenses or good prisms; the length of the cylinder, or the refracting edges of the prism, being at right angles to the lines. Narrow slits may also be used with advantage next the eye; but in all these cases, while we improve and give a finer definition to the lines and the spaces between them, we deteriorate vision for other parts of the structure."
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1860_v14_WHEN_ALL_THESE",
+      "headword": "WHEN ALL THESE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 813,
+      "end_page": 813,
+      "word_count": 91,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'WHEN ALL THESE' comes after 'MIH'",
+      "text_preview": "n all these means and precautions fail in unraveling a mysterious structure, we have often derived advantage, in the case of lined objects, by looking through cylindrical lenses or good prisms; the length of the cylinder, or the refracting edges of the prism, being at right angles to the lines. Narrow slits may also be used with advantage next the eye; but in all these cases, while we improve and give a finer definition to the lines and the spaces between them, we deteriorate vision for other pa",
+      "text_end": " or the refracting edges of the prism, being at right angles to the lines. Narrow slits may also be used with advantage next the eye; but in all these cases, while we improve and give a finer definition to the lines and the spaces between them, we deteriorate vision for other parts of the structure.",
+      "full_text": "n all these means and precautions fail in unraveling a mysterious structure, we have often derived advantage, in the case of lined objects, by looking through cylindrical lenses or good prisms; the length of the cylinder, or the refracting edges of the prism, being at right angles to the lines. Narrow slits may also be used with advantage next the eye; but in all these cases, while we improve and give a finer definition to the lines and the spaces between them, we deteriorate vision for other parts of the structure.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "MICROMETER",
+          "start_page": 754,
+          "end_page": 774
+        },
+        {
+          "headword": "MICROSCOPE",
+          "start_page": 774,
+          "end_page": 775
+        },
+        {
+          "headword": "VARIOUS METHODS HAVE BEEN DESCRIBED FOR FINDING THE OBJECT BY",
+          "start_page": 795,
+          "end_page": 800
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MIDAS",
+          "start_page": 818
+        },
+        {
+          "headword": "MIDDLEBURG",
+          "start_page": 819
+        },
+        {
+          "headword": "MIDDLESBOROUGH",
+          "start_page": 819
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_VARIOUS_METHODS_HAVE_BEEN_DESCRIBED_FOR_FINDING_THE_OBJECT_BY",
+          "headword": "VARIOUS METHODS HAVE BEEN DESCRIBED FOR FINDING THE OBJECT BY",
+          "direction": "previous",
+          "start_page": 795,
+          "text_preview": "s methods have been described for finding the object by means of scales, horizontal and vertical, applied to the slides; but however valuable these may be, the apparatus cannot be called a Microscopic Finder, which should form an integral part of the instrument.\n\n**Nachet's Multocular Microscopes.**\n\nM. Nachet, of whose microscopes we have already spoken in high terms, has adapted the microscope for anatomical demonstrations, so that two or three persons may see at the same time the result of microscopical dissections, by constructing two microscopes\u2014a double and a triple one. By means of the first, one person can examine the progress and result of a dissection which is performed by another person; and by means of the second, two persons can enjoy this advantage.\n\nIn the microscope for two persons this result is obtained by placing above the object-glass a prism P (fig. 67), the section of which is an equilateral triangle. The rays from the object-glass, shown in the figure by the lett",
+          "text_end": "tics, edit. 1853, p. 494. (See also article Optics.)\nbe necessary to have a counterpoise at D, to balance the weight of the body ABC.\n\nThose who are acquainted with the principle of the Cassegrainian telescope, and of Dr Smith's compound microscope, will readily see that the reflecting microscope, with the perforated speculum, may be converted into a more compound reflector, analogous to Dr Smith's, by making the little speculum s (fig. 78) convex, the figures of d and s being made hyperboloids."
+        },
+        {
+          "article_id": "1860_v14_MICROSCOPE",
+          "headword": "MICROSCOPE",
+          "direction": "previous",
+          "start_page": 774,
+          "text_preview": "Microscope, from \u03bc\u03b9\u03ba\u03c1\u03cc\u03c2, a small object, and \u1f40\u03c0\u03c4\u03b9\u03ba\u03cc\u03c2, to see or examine, is the name of a well-known optical instrument for examining and magnifying minute objects, or the minute parts of large ones. Dr Goring has, in his various works on the microscope, used the word engloscope, from \u03b5\u03b3\u03b3\u03bb\u03bf\u03c2, near, and \u03c3\u03ba\u03bf\u03c0\u03b5\u1fd6\u03bd, to see; but the old and venerable term is so associated with the history of optical discovery, and is so expressive of the application of the instrument, that we cannot consent to the proposed change.\n\nSingle microscopes, in the form of glass globes containing water, were used by the ancients. A magnifying lens of rock-crystal was found by Mr Layard among a number of glass bowls in the north-west palace of Nimroud. Hemispheres of glass, and afterwards lenses, were subsequently used, so that no person has pretended to claim the invention of the single microscope. The compound microscope, consisting of two lenses placed at a distance, so that the one next the eye magnifies the enl",
+          "text_end": "f Alkmaar, who then resided in London as mathematician to King James VI.\n\nThere is probably no branch of practical science which has undergone such essential and rapid improvements as that which relates to the microscope. It has become quite a new instrument in modern times, and it promises to be the means of disclosing the structure and laws of matter, and of making as important discoveries in the infinitely minute world as the telescope has done in that which is infinitely distant.\n\nCHAPTER I."
+        },
+        {
+          "article_id": "1860_v14_MICROMETER",
+          "headword": "MICROMETER",
+          "direction": "previous",
+          "start_page": 754,
+          "text_preview": "Micrometer, from \u03bc\u03b9\u03ba\u03c1\u03cc\u03c2, small, and \u03bc\u03ad\u03c4\u03c1\u03bf\u03bd, a measure, is the name of an instrument, generally applied to telescopes and microscopes, for measuring small angular distances within the field of the former, or the size of small objects within that of the latter.\n\nPreviously to the invention of the telescope astronomers experienced great difficulty in measuring small angles in the heavens; but we may safely infer from the observations of Hipparchus, that he had succeeded, either by the actual division of his instruments or by estimation, in determining celestial arcs to one-third of a degree.\n\nWhen the telescope was applied by Galileo and our countryman Harriot to the examination of the solar spots, it does not appear that they executed their drawings from any other than estimated measures. This indeed seems quite certain in the case of Harriot, whose original sketches we have had an opportunity of inspecting. The elaborate solar observations of Scheiner, made in 1611, with a telescope on ",
+          "text_end": ", or $\\frac{1}{1500}$th of an inch, but of what inch is not mentioned. He does not state whether this measure is taken by himself or not. He reckons the thickness of a human hair at $\\frac{1}{1000}$th of a line at its mean thickness, or $\\frac{1}{1500}$th of an inch.\n3 This result was confirmed by Leeuwenhoek, who used the same wire, which was sent to him by Dr Jurin. (Phil. Trans., No. 377.)\n4 Dr Young makes this the 940th of an inch, but he has certainly committed a mistake in his observation."
+        },
+        {
+          "article_id": "1860_v14_MIDAS",
+          "headword": "MIDAS",
+          "direction": "next",
+          "start_page": 818,
+          "text_preview": "in Greek mythology, a king of Phrygia, was the son of Gordius, and, according to some authorities, of Cybele. He seems to have been a disciple of Orpheus; and, like him, a worshipper of Dionysus. When that deity was passing through Phrygia, on his way from Thrace, Silenus, who accompanied him, having become intoxicated, was found in the gardens of Midas, and brought before the king, who received him hospitably, and sent him back to Dionysus. In return for this, the god desired Midas to ask whatever favour he wished. He accordingly requested that he might have the power of turning whatever he touched into gold. This favour was granted; but Midas finding that he ran the risk of being starved, from his food and drink being changed into gold, begged the god to recall his gift. He was accordingly directed to wash in the river Pactolus, which ever after had gold in great abundance among its sands. Another legend of Midas is, that having been appointed judge in a musical contest between Apoll",
+          "text_end": "ving whispered into it the singular intelligence, closed it up again. But there seemed to be a fate in it, for the very seeds which grew from the spot murmured in a low tone as they rustled in the wind, \"King Midas has the ears of an ass;\" and thus disclosed to the world the deformity and disgrace of the monarch. Midas seems to have been a common title of the reigning dynasty in Phrygia; and a king of that name is mentioned by Herodotus as having sent offerings to the temple of Apollo at Delphi."
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1860_v14_NOTICE",
+      "headword": "NOTICE",
+      "edition_year": 1860,
+      "volume_num": 14,
+      "start_page": 824,
+      "end_page": 861,
+      "word_count": 13,
+      "volume_range": "Magnetism-MIH",
+      "effective_start": "MAGNETISM",
+      "effective_end": "MIH",
+      "reason": "'NOTICE' comes after 'MIH'",
+      "text_preview": "Plate XVIII., containing Figs. 1 to 15, should have been numbered Plate XIX.",
+      "text_end": "",
+      "full_text": "Plate XVIII., containing Figs. 1 to 15, should have been numbered Plate XIX.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "MIDHURST"
+      },
+      "prev_articles": [
+        {
+          "headword": "MIDHURST",
+          "start_page": 823,
+          "end_page": 823
+        },
+        {
+          "headword": "MIDNAPOR",
+          "start_page": 823,
+          "end_page": 823
+        },
+        {
+          "headword": "MIEL",
+          "start_page": 823,
+          "end_page": 824
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1860_v14_MIEL",
+          "headword": "MIEL",
+          "direction": "previous",
+          "start_page": 823,
+          "text_preview": "Jan, called by the Italians Giovanni della Vite, a Flemish painter, was born in 1599 at Vlaenderen, a village in the neighbourhood of Antwerp. He studied under Gerard Seghers; and after making considerable progress\nin his art, he went to Rome, and entered the academy of Andrea Sacchi. But in consequence of a disagreement with his master he left the imperial city for a time, and went to Bologna and Parma, where he further improved himself by the study of the works of the Caracci and of Correggio. Returning to Rome, he executed for the pope several historical paintings of great excellence; but his taste, which seems to have been capricious, now rather inclined to the painting of familiar scenes, after the manner of Bamboccio. He was invited to the court of Charles Emmanuel, Duke of Savoy, whose patronage he enjoyed, and by whom he was honoured with the order of St Maurice. Miel died in 1664 at Turin. His pictures represent chiefly carnivals, fairs, beggars, gypsies, and hunting scenes; a",
+          "text_end": ", represent chiefly flowers, fruit, insects, birds, fish, &c. He died in 1679.\n\nMihiel, St., a town of France, department of Meuse, and arrondissement of Commercy, on the right bank of the River Meuse, 9 miles N.N.W. of Commercy. It is a neat and well laid-out town, and has several remarkable churches, in one of which is a fine bas-relief of the \"Entombment of Christ.\" St Mihiel has also a court of assize, communal college, public library; and manufactures of cloth, yarn, and leather. Pop. 5274."
+        },
+        {
+          "article_id": "1860_v14_MIDNAPOR",
+          "headword": "MIDNAPOR",
+          "direction": "previous",
+          "start_page": 823,
+          "text_preview": "a district of Bengal, in the province of Orissa, containing an area of 4015 square miles, and about half a million of inhabitants. The bulk of the people are Hindus, but there is a greater proportion of Mohammedans than in most other parts of India. Some portion of this extensive district consists of a jungle swarming with noxious animals, and exceedingly unhealthy, although the land is rich and fertile. This district was formally ceded to the East India Company in 1761. It is traversed by numerous rivers, the principal of which are the Soobnureeka and the Kosai. The country produces abundance of grain, sugar, tobacco, cotton, and indigo. On the sea-shore salt is an important object of manufacture. Its principal towns are Midnapore, Jellaisore, Piply, and Narraingur. Midnapore, the capital, formerly possessed a fort, which has been converted into a criminal prison. It is 70 miles W. by S. from Calcutta. Long. 87\u00b0 23' E.; Lat. 22\u00b0 25' N.",
+          "text_end": "st India Company in 1761. It is traversed by numerous rivers, the principal of which are the Soobnureeka and the Kosai. The country produces abundance of grain, sugar, tobacco, cotton, and indigo. On the sea-shore salt is an important object of manufacture. Its principal towns are Midnapore, Jellaisore, Piply, and Narraingur. Midnapore, the capital, formerly possessed a fort, which has been converted into a criminal prison. It is 70 miles W. by S. from Calcutta. Long. 87\u00b0 23' E.; Lat. 22\u00b0 25' N."
+        },
+        {
+          "article_id": "1860_v14_MIDHURST",
+          "headword": "MIDHURST",
+          "direction": "previous",
+          "start_page": 823,
+          "text_preview": "a parliamentary borough and market-town of England, county of Sussex, pleasantly situated on a rising ground on the right bank of the Rother, 11 miles N.N.E. of Chichester, and 50 miles S.W. by S. of London. The town is well built and clean; and the principal buildings are the town-hall, which is neat, and the parish church of St Denis, a plain structure in the Gothic style, which, though formerly small, has been recently considerably enlarged. There are also places of worship for Independents and Baptists. Midhurst has a free grammar school, a national school, several almshouses and other charitable establishments, a literary and scientific institution, and a savings-bank. The remains of the castle of the Bohuns, formerly the lords of Midhurst, are to be seen on an eminence near the river; and in the neighbourhood of the town are the ruins of Cowdray House, the seat of the Montagu family, which was built in the time of Henry VIII., and burnt down in 1793. A new house has been built no",
+          "text_end": " of the Montagu family, which was built in the time of Henry VIII., and burnt down in 1793. A new house has been built not far from the old, and is now in the possession of the Earl of Egmont. From the time of Edward II. till the passing of the Reform Bill, Midhurst returned two members to Parliament, but the number has now been reduced to one. Midhurst is the seat of a county court; and three annual fairs are held here. The market-day is Thursday. Pop. (1851) of the parliamentary borough, 7021."
+        }
+      ]
+    }
+  ]
+}

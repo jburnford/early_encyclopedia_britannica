@@ -1,0 +1,3620 @@
+{
+  "batch_id": "batch_013",
+  "item_count": 50,
+  "items": [
+    {
+      "article_id": "1815_v10_ANOMIA",
+      "headword": "ANOMIA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 354,
+      "word_count": 49,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'ANOMIA' comes before 'GOT'",
+      "text_preview": "PECTEN.\n\n2. Equivalves,\nII. WORMS.\n\nA. Having external organs fitted for respiration.\n\na. Furnished with bristles on the side of the body.\n\ncomprehending cassidea, harpa, buccinum, terebra, purpura, and nassa.\n\nC. Having no distinct Head.\n\nFam. 3. ACEPHALA.\n\na. Having no Shells, but furnished with a membranous leathery cloak.",
+      "text_end": " WORMS.\n\nA. Having external organs fitted for respiration.\n\na. Furnished with bristles on the side of the body.\n\ncomprehending cassidea, harpa, buccinum, terebra, purpura, and nassa.\n\nC. Having no distinct Head.\n\nFam. 3. ACEPHALA.\n\na. Having no Shells, but furnished with a membranous leathery cloak.",
+      "prev_articles": [
+        {
+          "headword": "HELM",
+          "start_page": 350,
+          "end_page": 350
+        },
+        {
+          "headword": "HELMINTHOLOGY",
+          "start_page": 351,
+          "end_page": 354
+        },
+        {
+          "headword": "NL",
+          "start_page": 351,
+          "end_page": 351
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ARGONAUTA",
+          "start_page": 354
+        },
+        {
+          "headword": "ASCIDIA",
+          "start_page": 354
+        },
+        {
+          "headword": "BULLA",
+          "start_page": 354
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_NL",
+          "headword": "NL",
+          "start_page": 351,
+          "word_count": 928,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HELMINTHOLOGY",
+          "headword": "HELMINTHOLOGY",
+          "start_page": 351,
+          "word_count": 1431,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HELM",
+          "headword": "HELM",
+          "start_page": 350,
+          "word_count": 231,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ARGONAUTA",
+          "headword": "ARGONAUTA",
+          "start_page": 354,
+          "word_count": 24,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_ARGONAUTA",
+      "headword": "ARGONAUTA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 354,
+      "word_count": 24,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'ARGONAUTA' comes before 'GOT'",
+      "text_preview": "NAUTILUS.\n\nB. Head free, and crawling on the belly.\n\nFam. 2. GASTEROPODA.\n\na. Having no shell, or having the shell concealed by the flesh.",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "HELMINTHOLOGY",
+          "start_page": 351,
+          "end_page": 354
+        },
+        {
+          "headword": "NL",
+          "start_page": 351,
+          "end_page": 351
+        },
+        {
+          "headword": "ANOMIA",
+          "start_page": 354,
+          "end_page": 355
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ASCIDIA",
+          "start_page": 354
+        },
+        {
+          "headword": "BULLA",
+          "start_page": 354
+        },
+        {
+          "headword": "OVULA",
+          "start_page": 354
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_ANOMIA",
+          "headword": "ANOMIA",
+          "start_page": 354,
+          "word_count": 49,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_NL",
+          "headword": "NL",
+          "start_page": 351,
+          "word_count": 928,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HELMINTHOLOGY",
+          "headword": "HELMINTHOLOGY",
+          "start_page": 351,
+          "word_count": 1431,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ASCIDIA",
+          "headword": "ASCIDIA",
+          "start_page": 354,
+          "word_count": 23,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_ASCIDIA",
+      "headword": "ASCIDIA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 354,
+      "word_count": 23,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'ASCIDIA' comes before 'GOT'",
+      "text_preview": "SALPA.\n\nPTEROTRACHEA.\n\nTHALIA.\n\nb. With a cloak, and furnished with Shells.\n\na. Open anteriorly, having no reticulated Feelers, nor ciliated arms.\n\n1. Inequivalves.",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "NL",
+          "start_page": 351,
+          "end_page": 351
+        },
+        {
+          "headword": "ANOMIA",
+          "start_page": 354,
+          "end_page": 355
+        },
+        {
+          "headword": "ARGONAUTA",
+          "start_page": 354,
+          "end_page": 354
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "BULLA",
+          "start_page": 354
+        },
+        {
+          "headword": "OVULA",
+          "start_page": 354
+        },
+        {
+          "headword": "SEGARETUS",
+          "start_page": 354
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_ARGONAUTA",
+          "headword": "ARGONAUTA",
+          "start_page": 354,
+          "word_count": 24,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ANOMIA",
+          "headword": "ANOMIA",
+          "start_page": 354,
+          "word_count": 49,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_NL",
+          "headword": "NL",
+          "start_page": 351,
+          "word_count": 928,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_BULLA",
+          "headword": "BULLA",
+          "start_page": 354,
+          "word_count": 16,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_APHRODITA",
+      "headword": "APHRODITA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 355,
+      "word_count": 23,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'APHRODITA' comes before 'GOT'",
+      "text_preview": "Terebella.\nNereis.\nSerpula.\nPenicillus.\nSiliquaria.\nAmphitrite.\nDentalium.\n\nB. Having no external organs of respiration.\n\na. With bristles on the sides of the body.",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "BULLA",
+          "start_page": 354,
+          "end_page": 354
+        },
+        {
+          "headword": "OVULA",
+          "start_page": 354,
+          "end_page": 354
+        },
+        {
+          "headword": "SEGARETUS",
+          "start_page": 354,
+          "end_page": 354
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ASTERIAS",
+          "start_page": 355
+        },
+        {
+          "headword": "TRICHOCERCUS",
+          "start_page": 355
+        },
+        {
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_SEGARETUS",
+          "headword": "SEGARETUS",
+          "start_page": 354,
+          "word_count": 11,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_OVULA",
+          "headword": "OVULA",
+          "start_page": 354,
+          "word_count": 11,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_BULLA",
+          "headword": "BULLA",
+          "start_page": 354,
+          "word_count": 16,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ASTERIAS",
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "word_count": 18,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_TRICHOCERCUS",
+      "headword": "TRICHOCERCUS",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 355,
+      "word_count": 21,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'TRICHOCERCUS' comes after 'HYDRODYNAMICS'",
+      "text_preview": "TRICHODA.\nLeucophrus, and the rest of the animacula infusoria.\n\nc. Having a gelatinous body, and propagating by shoots or branches. Polypa.",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "SEGARETUS",
+          "start_page": 354,
+          "end_page": 354
+        },
+        {
+          "headword": "APHRODITA",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "end_page": 355
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356
+        },
+        {
+          "headword": "RIERY",
+          "start_page": 364
+        },
+        {
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_ASTERIAS",
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "word_count": 18,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_APHRODITA",
+          "headword": "APHRODITA",
+          "start_page": 355,
+          "word_count": 23,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_SEGARETUS",
+          "headword": "SEGARETUS",
+          "start_page": 354,
+          "word_count": 11,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_GENERIC_CHARACTERS",
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "word_count": 6562,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_GENERIC_CHARACTERS",
+      "headword": "GENERIC CHARACTERS",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 356,
+      "word_count": 6562,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'GENERIC CHARACTERS' comes before 'GOT'",
+      "text_preview": "Ordo I. INTESTINA; animalia simplicia, nuda, artibus destituta.\n\n* Intra alia animalia degentia, oculis nullis.\n\nGen. 1. Ascaris. Corpus teres, utrinque attenuatum; capite trinodi.\n\n2. Trichuris. Corpus teres, posterius filiforme; capite rostrato.\n\n3. Filaria. Corpus filiforme totum.\n\n4. Uncinaria. Corpus filiforme, elasticum; capite labiato, labiis membranaceis; cauda (feminae) aciformis, (maris) uncis duobus vesic\u00e6 pellucide inclusis armata.\n\n5. Scolex. Corpus minimum, gelatinosum, opacum; cap",
+      "text_end": "t about the middle of the abdomen. It bears some re-\nsemblance to the seed of the common gourd, whence it\nis often called the gourd worm.\n\nThe opinion of flukes being the cause of the rot, has\nbeen ably controverted by several writers, especially by\nDr Harrison. On this subject, see the article FAR-",
+      "prev_articles": [
+        {
+          "headword": "APHRODITA",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "end_page": 355
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RIERY",
+          "start_page": 364
+        },
+        {
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393
+        },
+        {
+          "headword": "ACTINIA",
+          "start_page": 394
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_TRICHOCERCUS",
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "word_count": 21,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ASTERIAS",
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "word_count": 18,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_APHRODITA",
+          "headword": "APHRODITA",
+          "start_page": 355,
+          "word_count": 23,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_RIERY",
+          "headword": "RIERY",
+          "start_page": 364,
+          "word_count": 22257,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_RIERY",
+      "headword": "RIERY",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 364,
+      "word_count": 22257,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'RIERY' comes after 'HYDRODYNAMICS'",
+      "text_preview": "No. 526. This opinion is supposed to be cor-\nroborated by a circumstance related in the first volume\nof the Monthly Magazine, page 101, of a jelly-like\nsubstance being found among the grass, in a pasture\nthat was notorious for rotting sheep. This substance\nbore a striking resemblance to the flukes found in the\nliver of rotten sheep; but we are afterwards told, that\nhaving been washed into a ditch, and attended to daily,\nit was, in process of time, transformed into a small snail,\nwith an ash-colo",
+      "text_end": "ler; while the smallest of all are found in such multitudes, that there seem to be myriads for one of the others. They increase in size, like other animals, from their birth until they have attained their full growth; and when deprived of proper nourishment, they in like manner grow thin and perish.",
+      "prev_articles": [
+        {
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "end_page": 364
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393
+        },
+        {
+          "headword": "ACTINIA",
+          "start_page": 394
+        },
+        {
+          "headword": "HELMONT",
+          "start_page": 394
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_GENERIC_CHARACTERS",
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "word_count": 6562,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_TRICHOCERCUS",
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "word_count": 21,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ASTERIAS",
+          "headword": "ASTERIAS",
+          "start_page": 355,
+          "word_count": 18,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_EXPLANATION_OF_FIGURES",
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393,
+          "word_count": 333,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_EXPLANATION_OF_FIGURES",
+      "headword": "EXPLANATION OF FIGURES",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 393,
+      "word_count": 333,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'EXPLANATION OF FIGURES' comes before 'GOT'",
+      "text_preview": "Fig. 1. Ascaris Lumbricoides, entire, and nearly of its natural size; a, the head; b, the tail; c, the depressed band; d, the punctiform aperture; e, the line extending from the head to the tail; f, the gyrated apparatus as it appears through the skin of the worms.\n\nFig. 2. Represents the viscera of the worm in their natural situation; a, the head; b, the gullet; c, the intestinal canal; d, the lines of the body of the worm; e, the uterus, and its convoluted apparatus.\n\nFig. 3. Ascaris Vermicula",
+      "text_end": "cula nearly withdrawn into the tube; d, the animal with the tentacula entirely withdrawn; e, e, e, probably actinia.\n\nFig. 15. Hydra Grisea, or Fresh-water Polype, magnified; a, the mouth; b, the attached part; c, c, c, &c. the arms; c, the transparent body.\n\nFig. 16. Vorticella Polypina, magnified.",
+      "prev_articles": [
+        {
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "end_page": 355
+        },
+        {
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "end_page": 364
+        },
+        {
+          "headword": "RIERY",
+          "start_page": 364,
+          "end_page": 393
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ACTINIA",
+          "start_page": 394
+        },
+        {
+          "headword": "HELMONT",
+          "start_page": 394
+        },
+        {
+          "headword": "HELMSTADT",
+          "start_page": 395
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_RIERY",
+          "headword": "RIERY",
+          "start_page": 364,
+          "word_count": 22257,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_GENERIC_CHARACTERS",
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "word_count": 6562,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_TRICHOCERCUS",
+          "headword": "TRICHOCERCUS",
+          "start_page": 355,
+          "word_count": 21,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ACTINIA",
+          "headword": "ACTINIA",
+          "start_page": 394,
+          "word_count": 229,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_ACTINIA",
+      "headword": "ACTINIA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 394,
+      "word_count": 229,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'ACTINIA' comes before 'GOT'",
+      "text_preview": "p. 335 No. 39  \n*Actonium*,  \nib. 77  \n*Amphitrite*,  \nib. 61  \n*Antipathes*,  \nib. 75  \n*Aphrodita*,  \nib. 60  \n*Aculeata*,  \n333  \n*Argus, sea*,  \n337  \n*Ascarides*,  \n334  \n*Ascaris*,  \nlumbricoides,  \nvermicularis,  \nmammalium,  \navium,  \nreptilium,  \npiscium,  \nlumbrii,  \n340  \n*Ascidia*,  \n335  \n*papillosa*,  \n348  \n*intestinalis*,  \nib.  \n*Asterias*,  \n336  \n*caput medusae*,  \n355\n\n### B.\n\n*Bacillaria*,  \n337  \n*Brachionus*,  \nib. 85  \n*striatus*,  \n362  \n*patina*,  \nib.  \n*Barsaria*,  \n3",
+      "text_end": "  \n334  \n*Hair-worm*,  \n345  \n*Hare, sea*,  \n350  \n*Hedgehogs, sea*,  \n356  \n*Helminthology*,  \ndefinition of,  \ndivision of,  \nintestina,  \n*mollusca*,  \n*testacea*,  \n*zooaphyta*,  \n*infusoria*,  \n1  \n*Natis*,  \n336  \n*Nereis*,  \nib.  \n*noctiluca*,  \n354  \n*Nettles, sea*,  \nib.  \n*Oncidium*,  \n336",
+      "prev_articles": [
+        {
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "end_page": 364
+        },
+        {
+          "headword": "RIERY",
+          "start_page": 364,
+          "end_page": 393
+        },
+        {
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393,
+          "end_page": 393
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HELMONT",
+          "start_page": 394
+        },
+        {
+          "headword": "HELMSTADT",
+          "start_page": 395
+        },
+        {
+          "headword": "HELOISE",
+          "start_page": 395
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_EXPLANATION_OF_FIGURES",
+          "headword": "EXPLANATION OF FIGURES",
+          "start_page": 393,
+          "word_count": 333,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_RIERY",
+          "headword": "RIERY",
+          "start_page": 364,
+          "word_count": 22257,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_GENERIC_CHARACTERS",
+          "headword": "GENERIC CHARACTERS",
+          "start_page": 356,
+          "word_count": 6562,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HELMONT",
+          "headword": "HELMONT",
+          "start_page": 394,
+          "word_count": 419,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_WHAT_THIS_LEARNED_AND_JUDICIOUS_HERALD",
+      "headword": "WHAT THIS LEARNED AND JUDICIOUS HERALD",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 453,
+      "word_count": 2082,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'WHAT THIS LEARNED AND JUDICIOUS HERALD' comes after 'HYDRODYNAMICS'",
+      "text_preview": "t this learned and judicious herald means by manifest causes in the marshalling of coats-of-arms, are such as betoken marriages, or a sovereign's gift, granted either through the special favour of the prince, or for some eminent services. Concerning marriages it is to be observed,\n\nI. When the coats-of-arms of a married couple, descended of distinct families, are to be put together in one escutcheon, the field of their respective arms is conjoined Paleways, and blazoned parted per pale, Baron an",
+      "text_end": " one of these is placed on the front of the house where the deceased lies; and another on the church in which he is to be buried, which after the burial is fixed above the grave. The pall, too, is generally adorned with these proofs of gentility, and the horses of the hearse with the defunct's arms.",
+      "prev_articles": [
+        {
+          "headword": "HERACLIUS",
+          "start_page": 425,
+          "end_page": 425
+        },
+        {
+          "headword": "HERALD",
+          "start_page": 425,
+          "end_page": 425
+        },
+        {
+          "headword": "HERALDRY",
+          "start_page": 425,
+          "end_page": 453
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HERALDUS",
+          "start_page": 467
+        },
+        {
+          "headword": "HERB",
+          "start_page": 467
+        },
+        {
+          "headword": "HERBACEOUS PLANTS",
+          "start_page": 467
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_HERALDRY",
+          "headword": "HERALDRY",
+          "start_page": 425,
+          "word_count": 27988,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HERALD",
+          "headword": "HERALD",
+          "start_page": 425,
+          "word_count": 355,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HERACLIUS",
+          "headword": "HERACLIUS",
+          "start_page": 425,
+          "word_count": 336,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HERALDUS",
+          "headword": "HERALDUS",
+          "start_page": 467,
+          "word_count": 269,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_DEFINITION",
+      "headword": "DEFINITION",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 759,
+      "word_count": 2497,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'DEFINITION' comes before 'GOT'",
+      "text_preview": "70. The absolute weights of different bodies of the same bulk are called their specific gravities or densities; and one body is said to be specifically heavier, or specifically lighter than another, when under the same bulk it contains a greater or less quantity of matter. Brass, for example, is said to have eight times the specific gravity of water, because one cubic inch of brass contains eight times the quantity of matter, or is eight times heavier than a cubic inch of water.\n\nPROP. I.\n\n71. F",
+      "text_end": "ected the fraud of the goldsmith is not certainly known; but it is probable that he did it in the following manner. A quantity of gold, of the same absolute weight as the crown, would evidently have the same bulk also, if the crown were pure gold, and would have a greater bulk if the crown were made",
+      "prev_articles": [
+        {
+          "headword": "HYDROCEPHALUS",
+          "start_page": 744,
+          "end_page": 744
+        },
+        {
+          "headword": "HYDROCHARIS",
+          "start_page": 744,
+          "end_page": 744
+        },
+        {
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "end_page": 744
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ACACIA",
+          "start_page": 765
+        },
+        {
+          "headword": "CG",
+          "start_page": 789
+        },
+        {
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_HYDROCOTYLE",
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "word_count": 24,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDROCHARIS",
+          "headword": "HYDROCHARIS",
+          "start_page": 744,
+          "word_count": 26,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDROCEPHALUS",
+          "headword": "HYDROCEPHALUS",
+          "start_page": 744,
+          "word_count": 43,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ACACIA",
+          "headword": "ACACIA",
+          "start_page": 765,
+          "word_count": 4962,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_ACACIA",
+      "headword": "ACACIA",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 765,
+      "word_count": 4962,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'ACACIA' comes before 'GOT'",
+      "text_preview": "inspissated juice of, 1.5153\nAcid, nitric, muriatic, red acetous, white acetous, distilled acetous, acetic, sulphuric, highly concentrated, nitric, highly concentrated, fluoric, formic, phosphoric, citric, arsenic, of oranges, of gooseberries, of grapes, Actynolite, glassy, Ether, sulphuric, nitric, muriatic, acetic, Agate, oriental, onyx, speckled, cloudy, Kirwan.\n| Substance                                      | Specific Gravity |\n|-----------------------------------------------|-------------",
+      "text_end": "\n- **blue, or false sapphire,**\n- **greenish blue, or false aquamarine,**\n- **violet, or false amethyst,**\n- **violet, purple,**\n- **English,**\n- **of Auvergne,**\n- **in stalactites,**\n- **pearled,**\n- **calcareous rhomboidal,**\n- **of France,**\n- **prismatic,**\n- **and pyramidal,**\n- **pyramidal,**",
+      "prev_articles": [
+        {
+          "headword": "HYDROCHARIS",
+          "start_page": 744,
+          "end_page": 744
+        },
+        {
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "end_page": 744
+        },
+        {
+          "headword": "DEFINITION",
+          "start_page": 759,
+          "end_page": 760
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CG",
+          "start_page": 789
+        },
+        {
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827
+        },
+        {
+          "headword": "DIRECTIONS FOR PLACING THE PLATES",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_DEFINITION",
+          "headword": "DEFINITION",
+          "start_page": 759,
+          "word_count": 2497,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDROCOTYLE",
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "word_count": 24,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDROCHARIS",
+          "headword": "HYDROCHARIS",
+          "start_page": 744,
+          "word_count": 26,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_CG",
+          "headword": "CG",
+          "start_page": 789,
+          "word_count": 22876,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_CG",
+      "headword": "CG",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 789,
+      "word_count": 22876,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'CG' comes before 'GOT'",
+      "text_preview": "gravity has caused it to fall through GH. Now, Motion of since the spaces are as the squares of the times in which Fluids, &c., they are described, (Dynamics, 37. 2.) we shall have \\( \\frac{EF}{GH} = \\frac{CE^2}{CG^2} \\). But on account of the parallelograms CEFM, CGHN, EF and GH are equal to CM and CN respectively, and MF, NH to CE, CG respectively; therefore \\( CM : CN = \\frac{MF^2}{NH^2} \\), which is the property of the parabola, CM, CN being the abscissae, and ME, NH the ordinates (Conic Sec",
+      "text_end": " the action of the fluid behind the body in the former case.\n\nChap. IV. On the Oscillation of Fluids, and the Undulation of Waves.\n\nProf. I.\n\n250. The oscillations of water in a syphon, consisting of two vertical branches and a horizontal one, are isochronous, and have the same duration in a syphon.",
+      "prev_articles": [
+        {
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "end_page": 744
+        },
+        {
+          "headword": "DEFINITION",
+          "start_page": 759,
+          "end_page": 760
+        },
+        {
+          "headword": "ACACIA",
+          "start_page": 765,
+          "end_page": 774
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827
+        },
+        {
+          "headword": "DIRECTIONS FOR PLACING THE PLATES",
+          "start_page": 840
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_ACACIA",
+          "headword": "ACACIA",
+          "start_page": 765,
+          "word_count": 4962,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_DEFINITION",
+          "headword": "DEFINITION",
+          "start_page": 759,
+          "word_count": 2497,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDROCOTYLE",
+          "headword": "HYDROCOTYLE",
+          "start_page": 744,
+          "word_count": 24,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_HYDRODYNAMICS_s8",
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827,
+          "word_count": 13438,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v10_DIRECTIONS_FOR_PLACING_THE_PLATES",
+      "headword": "DIRECTIONS FOR PLACING THE PLATES",
+      "edition_year": 1815,
+      "volume_num": 10,
+      "start_page": 840,
+      "word_count": 20,
+      "volume_range": "GOT-Hydrodynamics",
+      "reason": "'DIRECTIONS FOR PLACING THE PLATES' comes before 'GOT'",
+      "text_preview": "&c. OF VOL. X.\n\nPART I.\n\nGrammatical Table, to face page 8\nPlate CCXLVIII. CCXLIX. 188\nCCL. 390\nCCLI.\u2014CCLIII. 364",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "ACACIA",
+          "start_page": 765,
+          "end_page": 774
+        },
+        {
+          "headword": "CG",
+          "start_page": 789,
+          "end_page": 811
+        },
+        {
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827,
+          "end_page": 837
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v10_HYDRODYNAMICS_s8",
+          "headword": "HYDRODYNAMICS",
+          "start_page": 827,
+          "word_count": 13438,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_CG",
+          "headword": "CG",
+          "start_page": 789,
+          "word_count": 22876,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v10_ACACIA",
+          "headword": "ACACIA",
+          "start_page": 765,
+          "word_count": 4962,
+          "direction": "previous"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_YPHOBOLE",
+      "headword": "YPHOBOLE",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 26,
+      "word_count": 80,
+      "volume_range": "HYD-LIE",
+      "reason": "'YPHOBOLE' comes after 'LIE'",
+      "text_preview": "or SUBJECTION, (from \u1f51\u03c0\u03bf, and \u03b2\u03ac\u03bb\u03bb\u03c9, I cast), in Rhetoric, a figure, so called, when several things are mentioned, that seem to make for the contrary side, and each of them refuted in order. This figure, when complete, consists of three parts; a proposition, an enumeration of particulars with their answer, and a conclusion. Thus Cicero, upon his return from banishment, vindicates his conduct in withdrawing so quietly, and not opposing the faction that ejected him. See Oratory, No 81.",
+      "text_end": "r. This figure, when complete, consists of three parts; a proposition, an enumeration of particulars with their answer, and a conclusion. Thus Cicero, upon his return from banishment, vindicates his conduct in withdrawing so quietly, and not opposing the faction that ejected him. See Oratory, No 81.",
+      "prev_articles": [
+        {
+          "headword": "HYPNOTICUS SERPENS",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "HYPNUM",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPHEN",
+          "start_page": 26,
+          "end_page": 26
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "YPHOCOUSTUM",
+          "start_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_YPHEN",
+          "headword": "YPHEN",
+          "start_page": 26,
+          "word_count": 47,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_HYPNUM",
+          "headword": "HYPNUM",
+          "start_page": 26,
+          "word_count": 18,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_HYPNOTICUS_SERPENS",
+          "headword": "HYPNOTICUS SERPENS",
+          "start_page": 26,
+          "word_count": 61,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPHOCOUSTUM",
+          "headword": "YPHOCOUSTUM",
+          "start_page": 26,
+          "word_count": 118,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_YPHOCOUSTUM",
+      "headword": "YPHOCOUSTUM",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 26,
+      "word_count": 118,
+      "volume_range": "HYD-LIE",
+      "reason": "'YPHOCOUSTUM' comes after 'LIE'",
+      "text_preview": "among the Greeks and Romans, a subterraneous place, where was a furnace to heat the baths. The word is Greek, formed of the preposition \u1f51\u03c0\u03bf, under; and the verb \u03ba\u03b1\u03cd\u03c9, to burn.\u2014Another sort of hypocaustum was a kind of kiln to heat their winter parlours. The remains of a Roman hypocaustum, or sweating-room, were discovered underground at Lincoln in 1739. We have an account of these remains in the Philosophical Transactions, No 461 \u00a7 29.\u2014Among the moderns, the hypocaustum is that place where the f",
+      "text_end": "hical Transactions, No 461 \u00a7 29.\u2014Among the moderns, the hypocaustum is that place where the fire is kept which warms a stove or hot-house.\n\nYPPOCH\u00c6RIS, Hawk's-eye, a genus of plants belonging to the syngenesia clas, and in the natural method ranking under the 49th order, Composit\u00e6. See Botany Index.",
+      "prev_articles": [
+        {
+          "headword": "HYPNUM",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPHEN",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPHOBOLE",
+          "start_page": 26,
+          "end_page": 26
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26
+        },
+        {
+          "headword": "YPPOCISTIS",
+          "start_page": 26
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_YPHOBOLE",
+          "headword": "YPHOBOLE",
+          "start_page": 26,
+          "word_count": 80,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPHEN",
+          "headword": "YPHEN",
+          "start_page": 26,
+          "word_count": 47,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_HYPNUM",
+          "headword": "HYPNUM",
+          "start_page": 26,
+          "word_count": 18,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOCHONDRIA",
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26,
+          "word_count": 20,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_YPPOCISTIS",
+      "headword": "YPPOCISTIS",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 26,
+      "word_count": 130,
+      "volume_range": "HYD-LIE",
+      "reason": "'YPPOCISTIS' comes after 'LIE'",
+      "text_preview": "in the Materia Medica, an infusorial juice obtained from the febrile affusion, much resembling the true Egyptian acacia. They gather the fruit while unripe, and express the juice, which they evaporate over a very gentle fire, to the consistence of an extract, and then form into cakes, and expose them to the sun to dry. It is an astringent of considerable power; is good against diarrhoeas and haemorrhages of all kinds; and may be used in repellent gargarilms in the manner of the true acacia; but ",
+      "text_end": "nt gargarilms in the manner of the true acacia; but it is very rarely met with genuine in our shops, the German acacia being usually sold under its name.\n\n\u1f10\u03b3\u03ba\u03ad\u03c6\u03b1\u03bb\u03bf\u03bd, in Astrology, is a name given to the celestial houses which are below the horizon; and especially the imum coeli, or bottom of heaven.",
+      "prev_articles": [
+        {
+          "headword": "YPHOCOUSTUM",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26,
+          "end_page": 26
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "YPPOCRISY",
+          "start_page": 26
+        },
+        {
+          "headword": "YPPOGASTRIC",
+          "start_page": 26
+        },
+        {
+          "headword": "HYPOGLOTTIS",
+          "start_page": 27
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_YPPOCHONDRIAC_PASSION",
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26,
+          "word_count": 14,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOCHONDRIA",
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26,
+          "word_count": 20,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPHOCOUSTUM",
+          "headword": "YPHOCOUSTUM",
+          "start_page": 26,
+          "word_count": 118,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOCRISY",
+          "headword": "YPPOCRISY",
+          "start_page": 26,
+          "word_count": 102,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_YPPOCRISY",
+      "headword": "YPPOCRISY",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 26,
+      "word_count": 102,
+      "volume_range": "HYD-LIE",
+      "reason": "'YPPOCRISY' comes after 'LIE'",
+      "text_preview": "\u1f10\u03be\u03bf\u03c7\u03af\u03b1, in Ethics, denotes dissimulation with regard to the moral or religious character. In other words, it signifies one who feigns to be what he is not; and is generally applied to those who assume the appearances of virtue or religion, without having anything in reality of either.\n\nYPPOG\u00c6UM, \u1f10\u03b3\u03ba\u03ad\u03c6\u03b1\u03bb\u03bf\u03bd, formed of \u1f51\u03c0\u03bf, under, and \u03b3\u1fc6, earth, in the ancient architecture, is a name common to all the parts of a building that are underground; as the cellar, butteries, and the like places. The term ",
+      "text_end": "\u03ba\u03ad\u03c6\u03b1\u03bb\u03bf\u03bd, formed of \u1f51\u03c0\u03bf, under, and \u03b3\u1fc6, earth, in the ancient architecture, is a name common to all the parts of a building that are underground; as the cellar, butteries, and the like places. The term hypog\u00e6um was used by the Greeks and Romans for subterraneous tombs in which they buried their dead.",
+      "prev_articles": [
+        {
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26,
+          "end_page": 26
+        },
+        {
+          "headword": "YPPOCISTIS",
+          "start_page": 26,
+          "end_page": 26
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "YPPOGASTRIC",
+          "start_page": 26
+        },
+        {
+          "headword": "HYPOGLOTTIS",
+          "start_page": 27
+        },
+        {
+          "headword": "HYPOPYON",
+          "start_page": 27
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_YPPOCISTIS",
+          "headword": "YPPOCISTIS",
+          "start_page": 26,
+          "word_count": 130,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOCHONDRIAC_PASSION",
+          "headword": "YPPOCHONDRIAC PASSION",
+          "start_page": 26,
+          "word_count": 14,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOCHONDRIA",
+          "headword": "YPPOCHONDRIA",
+          "start_page": 26,
+          "word_count": 20,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_YPPOGASTRIC",
+          "headword": "YPPOGASTRIC",
+          "start_page": 26,
+          "word_count": 11,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_CONCERNING_HIS_RESIDENCE_IN_THE_UNIVERSITY_AND_THE",
+      "headword": "CONCERNING HIS RESIDENCE IN THE UNIVERSITY AND THE",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 337,
+      "word_count": 6012,
+      "volume_range": "HYD-LIE",
+      "reason": "'CONCERNING HIS RESIDENCE IN THE UNIVERSITY AND THE' comes before 'HYD'",
+      "text_preview": "g his residence in the university and the means by which he was there supported, his two principal biographers contradict each other; so that these are points of which we cannot write with certainty. According to Sir John Hawkins, the time of his continuance at Oxford is divisible into two periods: Mr Boswell represents it as only one period, with the usual interval of a long vacation. Sir John says, that he was supported at college by Mr Andrew Corbet in quality of assistant in the studies of h",
+      "text_end": "roughness in his manner which subdued the saucy and terrified the meek: but it was only in his manner; for no man was more loved than Johnston was by those who knew him; and his works will be read with veneration for their author as long as the language in which they are written shall be understood.",
+      "prev_articles": [
+        {
+          "headword": "JOHN",
+          "start_page": 336,
+          "end_page": 336
+        },
+        {
+          "headword": "JOHN'S",
+          "start_page": 336,
+          "end_page": 336
+        },
+        {
+          "headword": "JOHNSON",
+          "start_page": 336,
+          "end_page": 337
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "JOHNSTON",
+          "start_page": 342
+        },
+        {
+          "headword": "IOLAIA",
+          "start_page": 343
+        },
+        {
+          "headword": "IONA",
+          "start_page": 343
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_JOHNSON",
+          "headword": "JOHNSON",
+          "start_page": 336,
+          "word_count": 929,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_JOHN'S_s2",
+          "headword": "JOHN'S",
+          "start_page": 336,
+          "word_count": 42,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_JOHN_s3",
+          "headword": "JOHN",
+          "start_page": 336,
+          "word_count": 156,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_JOHNSTON",
+          "headword": "JOHNSTON",
+          "start_page": 342,
+          "word_count": 565,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v11_POET_LAUREATE",
+      "headword": "POET LAUREATE",
+      "edition_year": 1815,
+      "volume_num": 11,
+      "start_page": 617,
+      "word_count": 878,
+      "volume_range": "HYD-LIE",
+      "reason": "'POET LAUREATE' comes after 'LIE'",
+      "text_preview": "an officer of the household of the kings of Britain, whose business consists only in composing an ode annually on his majesty's birthday, and on the new year; sometimes also, though rarely, on occasion of any remarkable victory.\u2014Of the first institution of poets laureate, Mr Wharton has given the following account in his history of English poetry.\n\n\"Great confusion has entered into this subject, on account of the degrees in grammar, which included rhetoric and versification, anciently taken in o",
+      "text_end": " reformation of religion had begun to diminish the veneration for the Latin language; or, rather, till the love of novelty, and a better sense of things, had banished the narrow pedantry of monastic crudity, and taught us to cultivate our native tongue.\"\n\nLAUREL. See PRUNUS and LAURUS, BOTANY Index.",
+      "prev_articles": [
+        {
+          "headword": "LAVINIUM",
+          "start_page": 616,
+          "end_page": 616
+        },
+        {
+          "headword": "LAVOISIER",
+          "start_page": 616,
+          "end_page": 617
+        },
+        {
+          "headword": "LAURA",
+          "start_page": 617,
+          "end_page": 617
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LAURELS",
+          "start_page": 618
+        },
+        {
+          "headword": "LAURENTALIA",
+          "start_page": 618
+        },
+        {
+          "headword": "LAURENTIUS",
+          "start_page": 618
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v11_LAURA",
+          "headword": "LAURA",
+          "start_page": 617,
+          "word_count": 91,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_LAVOISIER",
+          "headword": "LAVOISIER",
+          "start_page": 616,
+          "word_count": 1169,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_LAVINIUM",
+          "headword": "LAVINIUM",
+          "start_page": 616,
+          "word_count": 88,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v11_LAURELS",
+          "headword": "LAURELS",
+          "start_page": 618,
+          "word_count": 104206,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_LET_US_NOW_SUPPOSE_ANY_NUMBER_OF_GEOMETRICAL",
+      "headword": "LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 80,
+      "word_count": 365,
+      "volume_range": "LIE-Materia",
+      "reason": "'LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL' comes before 'LIE'",
+      "text_preview": "t us now suppose any number of geometrical means to be interposed between each two adjoining terms of the preceding geometrical series, and the same number of arithmetical means between every two adjoining terms of the arithmetical series; then, as the results will still be a geometrical and an arithmetical series, the interpolated terms of the latter will be the logarithms of the corresponding terms of the former, and the two new series will have the very same properties as the original series.",
+      "text_end": "index to the logarithm of the quotient.\n\nAlso, when 1 is borrowed in the left-hand place of the decimal part of the logarithm, add it to the index of the divisor when that index is positive, but subtract it when negative; then let the index arising from thence be changed, and work with it as before.",
+      "prev_articles": [
+        {
+          "headword": "LOCUTIUS",
+          "start_page": 75,
+          "end_page": 75
+        },
+        {
+          "headword": "LODGMENT",
+          "start_page": 75,
+          "end_page": 75
+        },
+        {
+          "headword": "LOG",
+          "start_page": 75,
+          "end_page": 79
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96
+        },
+        {
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98
+        },
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_LOG",
+          "headword": "LOG",
+          "start_page": 75,
+          "word_count": 2972,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LODGMENT",
+          "headword": "LODGMENT",
+          "start_page": 75,
+          "word_count": 32,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOCUTIUS",
+          "headword": "LOCUTIUS",
+          "start_page": 75,
+          "word_count": 35,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_DESCRIPTION_AND_USE_OF_THE_TABLE",
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96,
+          "word_count": 196,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_DESCRIPTION_AND_USE_OF_THE_TABLE",
+      "headword": "DESCRIPTION AND USE OF THE TABLE",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 96,
+      "word_count": 196,
+      "volume_range": "LIE-Materia",
+      "reason": "'DESCRIPTION AND USE OF THE TABLE' comes before 'LIE'",
+      "text_preview": "The common system of logarithms is so constructed, that, o being the logarithm of unity, or 1, the logarithm of 10 is 1; by which it happens that the logarithm of 100 is 2, that of 1000 is 3, and so on. Also, the logarithm of \\(\\frac{1}{10}\\), or .1, is \u20141, that is, 1 considered as substantive; or, in the language of algebra, minus one; and the logarithm of \\(\\frac{1}{100}\\) or .01, is \u20142; and the logarithm of .001 is \u20143, and so on, as in the following short table.\n\n| Numbers | Logarithms |\n|---",
+      "text_end": "ckwards as well as forward, are the only numbers whose logarithms are integers; the logarithms of all other numbers whatever must be either fractions or mixt numbers. Accordingly, the logarithms of all numbers, whether integer or mixt, between 1 and 10 are expressed by decimal fractions less than...",
+      "prev_articles": [
+        {
+          "headword": "LODGMENT",
+          "start_page": 75,
+          "end_page": 75
+        },
+        {
+          "headword": "LOG",
+          "start_page": 75,
+          "end_page": 79
+        },
+        {
+          "headword": "LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL",
+          "start_page": 80,
+          "end_page": 80
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98
+        },
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99
+        },
+        {
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_LET_US_NOW_SUPPOSE_ANY_NUMBER_OF_GEOMETRICAL",
+          "headword": "LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL",
+          "start_page": 80,
+          "word_count": 365,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOG",
+          "headword": "LOG",
+          "start_page": 75,
+          "word_count": 2972,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LODGMENT",
+          "headword": "LODGMENT",
+          "start_page": 75,
+          "word_count": 32,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MULTIPLICATION_BY_LOGARITHMS",
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "word_count": 171,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_MULTIPLICATION_BY_LOGARITHMS",
+      "headword": "MULTIPLICATION BY LOGARITHMS",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 98,
+      "word_count": 171,
+      "volume_range": "LIE-Materia",
+      "reason": "'MULTIPLICATION BY LOGARITHMS' comes after 'MATERIA'",
+      "text_preview": "Rule.\n\nTake out the logarithms of the factors from the table; then add them together, and their sum will be the logarithm of the product required. Then find, by inspection of the table, the natural number answering to their sum, and it will be the product required.\n\nObserving to add what is to be carried from the decimal part of the logarithm to the positive index or indices, or else subtract it from the negative.\n\nAlso adding the indices together when they are of the same kind, that is, both po",
+      "text_end": "1. To multiply 2.314 by 50.62.\n\n| Numbers | Logarithms |\n|---------|------------|\n| 2.314   | 0.36436    |\n| 50.62   | 1.70432    |\n\nProduct 117.13\n\nEx. 2. To multiply 2.5819 by 3.4573.\n\n| Numbers | Logarithms |\n|---------|------------|\n| 2.5819  | 0.41194    |\n| 3.4573  | 0.53874    |\n\nProd. 8.9265",
+      "prev_articles": [
+        {
+          "headword": "LOG",
+          "start_page": 75,
+          "end_page": 79
+        },
+        {
+          "headword": "LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL",
+          "start_page": 80,
+          "end_page": 80
+        },
+        {
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96,
+          "end_page": 96
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99
+        },
+        {
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99
+        },
+        {
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_DESCRIPTION_AND_USE_OF_THE_TABLE",
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96,
+          "word_count": 196,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LET_US_NOW_SUPPOSE_ANY_NUMBER_OF_GEOMETRICAL",
+          "headword": "LET US NOW SUPPOSE ANY NUMBER OF GEOMETRICAL",
+          "start_page": 80,
+          "word_count": 365,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOG",
+          "headword": "LOG",
+          "start_page": 75,
+          "word_count": 2972,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMS_s7",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "word_count": 107,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_PROPORTION_BY_LOGARITHMS",
+      "headword": "PROPORTION BY LOGARITHMS",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 99,
+      "word_count": 200,
+      "volume_range": "LIE-Materia",
+      "reason": "'PROPORTION BY LOGARITHMS' comes after 'MATERIA'",
+      "text_preview": "RULE.\n\nAdd the logarithms of the second and third terms, and from the sum subtract the logarithm of the first term by the foregoing rules, the remainder will be the logarithm of the fourth term required.\n\nOr in any compound proportion whatever, add together the logarithms of all the terms that are to be multiplied; and from that sum take the sum of the others, the remainder will be the logarithm of the answer.\n\nBut, instead of subtracting any logarithm, we may add its arithmetical complement, an",
+      "text_end": " and subtract each figure from 9, except at the last significant figure on the right hand, which must be subtracted from 10. But when the index is negative, it must be added to 9, and the rest subtracted as before; and for every complement that is added, subtract 10 from the last sum of the indices.",
+      "prev_articles": [
+        {
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96,
+          "end_page": 96
+        },
+        {
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "end_page": 98
+        },
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "end_page": 100
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100
+        },
+        {
+          "headword": "EXAMPLES",
+          "start_page": 100
+        },
+        {
+          "headword": "INVOLUTION BY LOGARITHMS",
+          "start_page": 100
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_LOGARITHMS_s7",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "word_count": 107,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MULTIPLICATION_BY_LOGARITHMS",
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "word_count": 171,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_DESCRIPTION_AND_USE_OF_THE_TABLE",
+          "headword": "DESCRIPTION AND USE OF THE TABLE",
+          "start_page": 96,
+          "word_count": 196,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_EVOLUTION_BY_LOGARITHMS",
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "word_count": 86,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_EVOLUTION_BY_LOGARITHMS",
+      "headword": "EVOLUTION BY LOGARITHMS",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 100,
+      "word_count": 86,
+      "volume_range": "LIE-Materia",
+      "reason": "'EVOLUTION BY LOGARITHMS' comes before 'LIE'",
+      "text_preview": "RULE.\n\nDivide the logarithm of the number by the index of the root, and the number answering to the quotient is the root sought.\n\nWhen the index of the logarithm to be divided is negative, and does not exactly contain the divisor without some remainder, increase the index by such a number as will make it exactly divisible by the index of the root, carrying the units borrowed as so many tens to the left-hand place of the decimal, and then divide as in whole numbers.",
+      "text_end": "ivided is negative, and does not exactly contain the divisor without some remainder, increase the index by such a number as will make it exactly divisible by the index of the root, carrying the units borrowed as so many tens to the left-hand place of the decimal, and then divide as in whole numbers.",
+      "prev_articles": [
+        {
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "end_page": 98
+        },
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "end_page": 100
+        },
+        {
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "end_page": 99
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXAMPLES",
+          "start_page": 100
+        },
+        {
+          "headword": "INVOLUTION BY LOGARITHMS",
+          "start_page": 100
+        },
+        {
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_PROPORTION_BY_LOGARITHMS",
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "word_count": 200,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMS_s7",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "word_count": 107,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MULTIPLICATION_BY_LOGARITHMS",
+          "headword": "MULTIPLICATION BY LOGARITHMS",
+          "start_page": 98,
+          "word_count": 171,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_EXAMPLES_s4",
+          "headword": "EXAMPLES",
+          "start_page": 100,
+          "word_count": 216,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_EXAMPLES_s4",
+      "headword": "EXAMPLES",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 100,
+      "word_count": 216,
+      "volume_range": "LIE-Materia",
+      "reason": "'EXAMPLES' comes before 'LIE'",
+      "text_preview": "Ex. 1. Find the square root of 2.\n\nNumber. Logarithm.\nPower .2 2)0.30103\n\nRoot 1.4142 0.15051\n\nEx. 2. Find the 10th root of 365.\n\nNumber. Logarithm.\nPower 365 10)2.56229\n\nRoot 1.804 0.25623\n\nEx. 3. To find \u221a.093.\n\nNumber. Logarithm.\nPower .093 2)2.96848\n\nRoot .30496 1.48424\n\nHere the divisor 2 is contained exactly in the negative index \u20142, and therefore the index of the quotient is \u20141.\n\nEx. 4. To find \u00b3\u221a.00048.\n\nNumber. Logarithm.\nPower .00048 3)4.68124\n\nRoot .078298 2.89375\n\nHere the divisor 3,",
+      "text_end": "     |       |       |       |       |       |       |\n|       |       |       |       |       |       |       |       |       |       |\n|       |       |       |       |       |       |       |       |       |       |\n|       |       |       |       |       |       |       |       |       |       |",
+      "prev_articles": [
+        {
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "end_page": 100
+        },
+        {
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "end_page": 99
+        },
+        {
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "end_page": 100
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "INVOLUTION BY LOGARITHMS",
+          "start_page": 100
+        },
+        {
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101
+        },
+        {
+          "headword": "LOGARITHMIC SINES AND TANGENTS",
+          "start_page": 143
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_EVOLUTION_BY_LOGARITHMS",
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "word_count": 86,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_PROPORTION_BY_LOGARITHMS",
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "word_count": 200,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMS_s7",
+          "headword": "LOGARITHMS",
+          "start_page": 99,
+          "word_count": 107,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_INVOLUTION_BY_LOGARITHMS",
+          "headword": "INVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "word_count": 84,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_INVOLUTION_BY_LOGARITHMS",
+      "headword": "INVOLUTION BY LOGARITHMS",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 100,
+      "word_count": 84,
+      "volume_range": "LIE-Materia",
+      "reason": "'INVOLUTION BY LOGARITHMS' comes before 'LIE'",
+      "text_preview": "RULE.\n\nMultiply the logarithm of the given number by the index of the power, and the number answering to the product will be the power required.\n\nNote.\u2014In multiplying a logarithm with a negative index by a positive number, the product will be negative. But what is to be carried from the decimal part of the logarithm will always be positive. And therefore the difference will be the index of the product, and is always to be made of the same kind with the greater.",
+      "text_end": "g a logarithm with a negative index by a positive number, the product will be negative. But what is to be carried from the decimal part of the logarithm will always be positive. And therefore the difference will be the index of the product, and is always to be made of the same kind with the greater.",
+      "prev_articles": [
+        {
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "end_page": 99
+        },
+        {
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "end_page": 100
+        },
+        {
+          "headword": "EXAMPLES",
+          "start_page": 100,
+          "end_page": 101
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101
+        },
+        {
+          "headword": "LOGARITHMIC SINES AND TANGENTS",
+          "start_page": 143
+        },
+        {
+          "headword": "LOGIC",
+          "start_page": 149
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_EXAMPLES_s4",
+          "headword": "EXAMPLES",
+          "start_page": 100,
+          "word_count": 216,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_EVOLUTION_BY_LOGARITHMS",
+          "headword": "EVOLUTION BY LOGARITHMS",
+          "start_page": 100,
+          "word_count": 86,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_PROPORTION_BY_LOGARITHMS",
+          "headword": "PROPORTION BY LOGARITHMS",
+          "start_page": 99,
+          "word_count": 200,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMS_OF_NUMBERS",
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101,
+          "word_count": 17532,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_REFLECTIONS_ON_THE_UTILITY_OF_LOGIC",
+      "headword": "REFLECTIONS ON THE UTILITY OF LOGIC",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 177,
+      "word_count": 2096,
+      "volume_range": "LIE-Materia",
+      "reason": "'REFLECTIONS ON THE UTILITY OF LOGIC' comes after 'MATERIA'",
+      "text_preview": "If Aristotle was not the inventor of logic, he was certainly the prince of logicians. The whole theory of syllogisms he claims as his own, and as the fruit of much time and labour; and it is universally known, that the later writers on the art have borrowed their materials almost entirely from his Organon and Porphyry's Introduction. But after men had laboured near 2000 years in search of truth by the help of syllogisms, Lord Bacon proposed the method of induction, as a more effectual engine for",
+      "text_end": " age, made the happiest application of the rules of\nLOGIST\u00c6, certain officers at Athens, in number ten, whose business consisted in receiving and passing the accounts of magistrates when they went out of office. The logist\u00e6 were elected by lot, and had ten euthyni or auditors of accounts under them.",
+      "prev_articles": [
+        {
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101,
+          "end_page": 143
+        },
+        {
+          "headword": "LOGARITHMIC SINES AND TANGENTS",
+          "start_page": 143,
+          "end_page": 146
+        },
+        {
+          "headword": "LOGIC",
+          "start_page": 149,
+          "end_page": 177
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LOGOGRAPHY",
+          "start_page": 179
+        },
+        {
+          "headword": "LOHOCH",
+          "start_page": 181
+        },
+        {
+          "headword": "LOINS",
+          "start_page": 182
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_LOGIC",
+          "headword": "LOGIC",
+          "start_page": 149,
+          "word_count": 30677,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMIC_SINES_AND_TANGENTS",
+          "headword": "LOGARITHMIC SINES AND TANGENTS",
+          "start_page": 143,
+          "word_count": 2545,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGARITHMS_OF_NUMBERS",
+          "headword": "LOGARITHMS OF NUMBERS",
+          "start_page": 101,
+          "word_count": 17532,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_LOGOGRAPHY",
+          "headword": "LOGOGRAPHY",
+          "start_page": 179,
+          "word_count": 3093,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_MEANDER",
+      "headword": "MEANDER",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 358,
+      "word_count": 122,
+      "volume_range": "LIE-Materia",
+      "reason": "'MEANDER' comes after 'MATERIA'",
+      "text_preview": "in Ancient Geography, a celebrated river of Asia Minor, rising near Celene. It flows through Caria and Ionia into the Aegean sea between Miletus and Priene, after it has been increased by the waters of the Marsyas, Lycus, Eudon, Lethaeus, &c. It is celebrated among the poets for its windings, which amount to no less than 600, and from which all obliquities have received the name of meanders. It forms in its course, according to the observation of some travellers, the Greek letters \u03b6 \u03be \u03b5 & \u03c9; and",
+      "text_end": "in its course, according to the observation of some travellers, the Greek letters \u03b6 \u03be \u03b5 & \u03c9; and from its windings Daedalus is said to have had the first idea of his famous labyrinth.\n\nMEAT\u00c6, anciently a people of Britain, near Scro's wall, inhabiting the district now called Lauderdale, in Scotland.",
+      "prev_articles": [
+        {
+          "headword": "MADRIGAL",
+          "start_page": 357,
+          "end_page": 358
+        },
+        {
+          "headword": "MADURA",
+          "start_page": 358,
+          "end_page": 358
+        },
+        {
+          "headword": "MAECENAS",
+          "start_page": 358,
+          "end_page": 359
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAELSTROM",
+          "start_page": 359
+        },
+        {
+          "headword": "MAGADA",
+          "start_page": 361
+        },
+        {
+          "headword": "MAGADOXO",
+          "start_page": 361
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_MAECENAS",
+          "headword": "MAECENAS",
+          "start_page": 358,
+          "word_count": 1514,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MADURA",
+          "headword": "MADURA",
+          "start_page": 358,
+          "word_count": 90,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MADRIGAL",
+          "headword": "MADRIGAL",
+          "start_page": 357,
+          "word_count": 122,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MAELSTROM",
+          "headword": "MAELSTROM",
+          "start_page": 359,
+          "word_count": 1131,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_CHARTS\nCHARTS_HAVE_BEEN_CONSTRUCTED_FOR_SHEWING_THE_DECLINATION_OF_THE_NEEDLE_IN_VARIOUS_PARTS_OF_THE_EARTH_BY",
+      "headword": "CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 383,
+      "word_count": 34495,
+      "volume_range": "LIE-Materia",
+      "reason": "'CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY' comes before 'LIE'",
+      "text_preview": "s\nCharts have been constructed for shewing the declination of the needle in various parts of the earth by means of curve lines. Respecting these charts and several other circumstances with regard to this subject, see Variation of the Compass.\n\nIt may not be improper here to point out the general method of applying the polarity of the magnet to the useful purposes of navigation, mining, &c.\n\nA mariner's compass, or magnetic needle in a case, is so placed as to be as little as possible disturbed b",
+      "text_end": "ronger palpitations, and the north pole weaker, than the iron not magnetic. Having constantly noticed, that the metals most susceptible of oxidation excited the strongest palpitations, he inferred, that the south pole possesses a greater affinity for oxygen than simple iron, and the north pole less.",
+      "prev_articles": [
+        {
+          "headword": "MAGNANIMITY",
+          "start_page": 377,
+          "end_page": 378
+        },
+        {
+          "headword": "MAGNESIA",
+          "start_page": 378,
+          "end_page": 379
+        },
+        {
+          "headword": "MAGNETISM",
+          "start_page": 379,
+          "end_page": 383
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MAGNIFYING",
+          "start_page": 424
+        },
+        {
+          "headword": "MAGNITUDE",
+          "start_page": 424
+        },
+        {
+          "headword": "MAGNOLIA",
+          "start_page": 424
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_MAGNETISM",
+          "headword": "MAGNETISM",
+          "start_page": 379,
+          "word_count": 4137,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MAGNESIA_s2",
+          "headword": "MAGNESIA",
+          "start_page": 378,
+          "word_count": 2099,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MAGNANIMITY",
+          "headword": "MAGNANIMITY",
+          "start_page": 377,
+          "word_count": 1223,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MAGNIFYING",
+          "headword": "MAGNIFYING",
+          "start_page": 424,
+          "word_count": 27,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_RHIZA",
+      "headword": "RHIZA",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 825,
+      "word_count": 9223,
+      "volume_range": "LIE-Materia",
+      "reason": "'RHIZA' comes after 'MATERIA'",
+      "text_preview": "L. D. Liquorice root and extract of liquorice.\n\nOfficinal Medicines. Used as an emollient and demulcent, in substance, in decoction, pills, electuaries, &c.\n\nOfficinal Preparation.\n\nExtract of liquorice. a. EXTRACTUM GLYCYRRHIZ\u00c6 GLABR\u00c6, E. EXTRACTUM GLYCYRRHIZ\u00c6, L. D. Extract of liquorice.\n\nPrepared like other watery extracts.\n\nCabbage-tree bark. 197. GEOFFR\u00c6A INERMIS, E. GEOFFR\u00c6A, D. Cabbage-tree bark.\n\nLately introduced into this country from the West Indies as an anthelmintic, in the form of ",
+      "text_end": "ight ounces of soap, 10 ounces of yellow wax, and a pint or 14 ounces (D.) of olive oil, and continuing the heat and agitation till they are united to form a cerate.\n\nd. Emplastrum Saponis, L. EMPLASTRUM SAPONACEUM, E. D. Soap plaster.\n\nPrepared by mixing one part of soap with six of melted\nPart IV.",
+      "prev_articles": [
+        {
+          "headword": "MATCHING",
+          "start_page": 739,
+          "end_page": 740
+        },
+        {
+          "headword": "MATERA",
+          "start_page": 740,
+          "end_page": 740
+        },
+        {
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "end_page": 777
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839
+        },
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840
+        },
+        {
+          "headword": "CUPRUM",
+          "start_page": 845
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_MATERIA_MEDICA_AND_PHARMACY",
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "word_count": 31761,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATERA",
+          "headword": "MATERA",
+          "start_page": 740,
+          "word_count": 6295,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATCHING",
+          "headword": "MATCHING",
+          "start_page": 739,
+          "word_count": 10850,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "word_count": 793,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_STIBIATUM_RUFUM",
+      "headword": "STIBIATUM RUFUM",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 839,
+      "word_count": 793,
+      "volume_range": "LIE-Materia",
+      "reason": "'STIBIATUM RUFUM' comes after 'MATERIA'",
+      "text_preview": "D. Precipitated sulphuret of antimony.\n\nPrepared by dissolving two pounds of prepared sulphuret of antimony in four pounds of water of potash, mixed with three pounds of water, adding more, if necessary, in a covered iron pot, over a slow fire for three hours, frequently stirring with an iron spatula, straining the liquor while hot, and precipitating the sulphuret by diluted sulphuric acid; then washing and drying the precipitate. See Chemistry, No 1688.\n\nEmployed like the last as a diaphoretic.",
+      "text_end": "b. Acetas hydrargyri. Acetis hydrargyri, E. Hydrargyrum acetatum, D. Hydrargyrus acetatus, L. Accetate of mercury. Acetated mercury. See Chemistry, No 1749.\n\nScarcely employed at present, except as an external stimulant or discutient.\n\nc. Murias hydrargyri, E. Hydrargyrum muriatum corrosivum, D. Hy-",
+      "prev_articles": [
+        {
+          "headword": "MATERA",
+          "start_page": 740,
+          "end_page": 740
+        },
+        {
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "end_page": 777
+        },
+        {
+          "headword": "RHIZA",
+          "start_page": 825,
+          "end_page": 837
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840
+        },
+        {
+          "headword": "CUPRUM",
+          "start_page": 845
+        },
+        {
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_RHIZA",
+          "headword": "RHIZA",
+          "start_page": 825,
+          "word_count": 9223,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATERIA_MEDICA_AND_PHARMACY",
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "word_count": 31761,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATERA",
+          "headword": "MATERA",
+          "start_page": 740,
+          "word_count": 6295,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_DRARGYRUS_MURIATUS",
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "word_count": 430,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_DRARGYRUS_MURIATUS",
+      "headword": "DRARGYRUS MURIATUS",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 840,
+      "word_count": 430,
+      "volume_range": "LIE-Materia",
+      "reason": "'DRARGYRUS MURIATUS' comes before 'LIE'",
+      "text_preview": "L. Muriate of mercury. Corrosive muriated mercury. Corrosive sublimated muriate. See Chemistry, No 1736.\n\nPrepared by boiling two pounds of purified quicksilver in two pounds and a half of sulphuric acid, in a glass vessel, over a sand bath, to dryness, triturating the dried mass when cold with four pounds of dried muriate of soda, then subliming in a glass cucurbit with a heat gradually increased, and separating the sublimed matter from the scoriae.\n\nUsed as a sialagogue; dose one-eighth to one",
+      "text_end": "\n\nPrepared by dissolving four parts of purified quicksilver in five parts of diluted nitrous acid; then gradually adding 15 parts of distilled water, and pouring in a sufficient quantity of water of carbonate of ammonia to precipitate the whole of the oxide, which is to be washed and dried.\nPart IV.",
+      "prev_articles": [
+        {
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "end_page": 777
+        },
+        {
+          "headword": "RHIZA",
+          "start_page": 825,
+          "end_page": 837
+        },
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "end_page": 840
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CUPRUM",
+          "start_page": 845
+        },
+        {
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845
+        },
+        {
+          "headword": "ADDENDUM",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "word_count": 793,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_RHIZA",
+          "headword": "RHIZA",
+          "start_page": 825,
+          "word_count": 9223,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATERIA_MEDICA_AND_PHARMACY",
+          "headword": "MATERIA MEDICA AND PHARMACY",
+          "start_page": 740,
+          "word_count": 31761,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_CUPRUM",
+          "headword": "CUPRUM",
+          "start_page": 845,
+          "word_count": 210,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_CUPRUM",
+      "headword": "CUPRUM",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 845,
+      "word_count": 210,
+      "volume_range": "LIE-Materia",
+      "reason": "'CUPRUM' comes before 'LIE'",
+      "text_preview": "E. L. D. Copper. See Chemistry, p. 674.\n\nSUBACETAS CUPRI. SUBACETIS CUPRI, E. \u00c6RUGO. Subacetate of copper. Verdigris. See Chemistry, No 1995.\n\nEmployed chiefly as an escharotic, to destroy callos edges or fungous flesh, or as a stimulant to foul ulcers.\n\nOfficinal Preparations.\n\na. \u00c6RUGO PR\u00c6PARATA, L. D. Prepared verdigris.\n\nPrepared like other substances not soluble in water.\n\nb. OXYMEL \u00c6RUGINIS, L. Oxymel of verdigris.\n\nPrepared by dissolving one ounce of prepared verdigris in seven ounces of ",
+      "text_end": "Water of ammoniated copper. Sapphire water.\n\nPrepared by the Dublin college, by mixing four grains of prepared verdigris, and two scruples of sal ammoniac, with eight ounces of fresh made lime water, digesting for 24 hours, and pouring off the clear liquor.\n\nUsed as a stimulant and detergent lotion.",
+      "prev_articles": [
+        {
+          "headword": "RHIZA",
+          "start_page": 825,
+          "end_page": 837
+        },
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "end_page": 840
+        },
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "end_page": 841
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845
+        },
+        {
+          "headword": "ADDENDUM",
+          "start_page": 847
+        },
+        {
+          "headword": "MATERIA MEDICA",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_DRARGYRUS_MURIATUS",
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "word_count": 430,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "word_count": 793,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_RHIZA",
+          "headword": "RHIZA",
+          "start_page": 825,
+          "word_count": 9223,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_SULPHAS_CUPRI",
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845,
+          "word_count": 1215,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_SULPHAS_CUPRI",
+      "headword": "SULPHAS CUPRI",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 845,
+      "word_count": 1215,
+      "volume_range": "LIE-Materia",
+      "reason": "'SULPHAS CUPRI' comes after 'MATERIA'",
+      "text_preview": "E. CUPRUM VITRIO. Sulphate of copper. Vitriolated copper. Blue or Roman vitriol. Blue stone. See Chemistry, No 1972.\n\nSometimes given internally as an emetic, in the dose of from two to five grains, and as a tonic, a grain or two, several times a-day; but its internal use is dangerous. More frequently employed as an escharotic.\n\nOfficinal Preparations.\n\na. SOLUTIO SULPHATIS CUPRI COMPOSITA, E. QUA STYPTICA. Compound solution of sulphate of copper. Styptic water.\n\nPrepared by boiling three ounces",
+      "text_end": "rks, it is more active, but its effects are more confined; and when applied by way of a shock, it acts very powerfully, producing an agitation of the muscles of the part through which the shock is discharged; and if the shock is violent, the whole body partakes of the agitation. Electricity\nPart IV.",
+      "prev_articles": [
+        {
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "end_page": 840
+        },
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "end_page": 841
+        },
+        {
+          "headword": "CUPRUM",
+          "start_page": 845,
+          "end_page": 845
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ADDENDUM",
+          "start_page": 847
+        },
+        {
+          "headword": "MATERIA MEDICA",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_CUPRUM",
+          "headword": "CUPRUM",
+          "start_page": 845,
+          "word_count": 210,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_DRARGYRUS_MURIATUS",
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "word_count": 430,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_STIBIATUM_RUFUM",
+          "headword": "STIBIATUM RUFUM",
+          "start_page": 839,
+          "word_count": 793,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_ADDENDUM",
+          "headword": "ADDENDUM",
+          "start_page": 847,
+          "word_count": 136,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v12_ADDENDUM",
+      "headword": "ADDENDUM",
+      "edition_year": 1815,
+      "volume_num": 12,
+      "start_page": 847,
+      "word_count": 136,
+      "volume_range": "LIE-Materia",
+      "reason": "'ADDENDUM' comes before 'LIE'",
+      "text_preview": "The following was omitted among the preparations of iron.\n\ng. Carbonas Ferri pr\u00e6cipitatus, E. Precipitated carbonate of iron.\n\nPrepared by decomposing a solution of sulphate of iron by a solution of carbonate of soda; washing and drying the precipitate.\n\nSimilar in its virtues to 961. Dose five to 30 grains.\n\nThe space allotted to this article was so small, and the time for preparing it so short, that it is, of necessity, much less full and complete than it might otherwise have been. As it was i",
+      "text_end": "nder such circumstances, to produce any thing like an original and complete treatise, the compiler has endeavoured to render as useful as possible the selection that he found it necessary to make, and to supply the unavoidable deficiencies by a reference to the most respectable works on the subject.",
+      "prev_articles": [
+        {
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "end_page": 841
+        },
+        {
+          "headword": "CUPRUM",
+          "start_page": 845,
+          "end_page": 845
+        },
+        {
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845,
+          "end_page": 847
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MATERIA MEDICA",
+          "start_page": 847
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v12_SULPHAS_CUPRI",
+          "headword": "SULPHAS CUPRI",
+          "start_page": 845,
+          "word_count": 1215,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_CUPRUM",
+          "headword": "CUPRUM",
+          "start_page": 845,
+          "word_count": 210,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_DRARGYRUS_MURIATUS",
+          "headword": "DRARGYRUS MURIATUS",
+          "start_page": 840,
+          "word_count": 430,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v12_MATERIA_MEDICA_s9",
+          "headword": "MATERIA MEDICA",
+          "start_page": 847,
+          "word_count": 183,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_LET_THE_WHEEL_CD_DRIVE_THE_WHEEL_AB_BY",
+      "headword": "LET THE WHEEL CD DRIVE THE WHEEL AB BY",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 123,
+      "word_count": 18656,
+      "volume_range": "MAT-MIC",
+      "reason": "'LET THE WHEEL CD DRIVE THE WHEEL AB BY' comes before 'MAT'",
+      "text_preview": "t the wheel CD drive the wheel AB by means of the epicycloidal teeth mp, nq, or r, acting upon the infinitely small pins or spindles a, b, c; and let the epicycloids mp, nq, &c. be generated by the circumference of the wheel AB, rolling upon the convex circumference of the wheel CD. From the formation of the epicycloid it is obvious that the arch ab is equal to mn, and the arch ac to mo; for during the formation of the part nb of the epicycloid nq, every point of the arch ab is applied to every ",
+      "text_end": "no danger of sinking. Stephens, a Dutchman, is said to have constructed one of these carriages with wheels, which travelled at the rate of 21 miles an hour with a very strong wind.\n\n458. The carriage represented in fig. 11. is made Fig. 11. so as to sail against the wind by means of the spiral sails",
+      "prev_articles": [
+        {
+          "headword": "MEATH",
+          "start_page": 54,
+          "end_page": 54
+        },
+        {
+          "headword": "MECCA",
+          "start_page": 54,
+          "end_page": 56
+        },
+        {
+          "headword": "MECHANICAL",
+          "start_page": 56,
+          "end_page": 57
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MECHANICS",
+          "start_page": 139
+        },
+        {
+          "headword": "MECKLENBURG",
+          "start_page": 177
+        },
+        {
+          "headword": "MECONIUM",
+          "start_page": 177
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MECHANICAL",
+          "headword": "MECHANICAL",
+          "start_page": 56,
+          "word_count": 367,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MECCA",
+          "headword": "MECCA",
+          "start_page": 54,
+          "word_count": 1325,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEATH",
+          "headword": "MEATH",
+          "start_page": 54,
+          "word_count": 20845,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MECHANICS_s8",
+          "headword": "MECHANICS",
+          "start_page": 139,
+          "word_count": 7147,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_ARTHRODYNAIA",
+      "headword": "ARTHRODYNAIA",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 358,
+      "word_count": 6498,
+      "volume_range": "MAT-MIC",
+      "reason": "'ARTHRODYNAIA' comes before 'MAT'",
+      "text_preview": "or Chronic Rheumatism.\n\nRheumatismus chronicus Auctorum.\n\nDescription. When the pyrexia attending the acute rheumatism has ceased; when the swelling and redness of the joints are entirely gone, but pains still continue to affect certain joints, which remain stiff, feel uneasy upon motion, changes of weather, or in the night time only, the disease is then called the chronic rheumatism, as it often continues for a very long time.\n\nThe limits between the acute and chronic rheumatisms are not always",
+      "text_end": "nes, yet he contends, that a great deal can be done towards\ntowards the cure of the gout by a regimen: and he is firmly persuaded, that any man who, early in life, will enter upon the constant practice of bodily labour, and of abstinence from animal food, will be preserved entirely from the disease.",
+      "prev_articles": [
+        {
+          "headword": "MEDIATOR",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "headword": "MEDICAGO",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "end_page": 230
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365
+        },
+        {
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366
+        },
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MEDICINAL",
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "word_count": 34,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICAGO",
+          "headword": "MEDICAGO",
+          "start_page": 230,
+          "word_count": 40,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDIATOR",
+          "headword": "MEDIATOR",
+          "start_page": 230,
+          "word_count": 25917,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_WHETHER_THERE_BE_ANY_OTHER",
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365,
+          "word_count": 1161,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_WHETHER_THERE_BE_ANY_OTHER",
+      "headword": "WHETHER THERE BE ANY OTHER",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 365,
+      "word_count": 1161,
+      "volume_range": "MAT-MIC",
+      "reason": "'WHETHER THERE BE ANY OTHER' comes after 'MIC'",
+      "text_preview": "r there be any other means of radically curving the gout, the Doctor is not able to say. There are histories of cases of the gout, in which it is said, that by great emotions of mind, by wounds, and by other accidents, the symptoms have been suddenly relieved, and never again returned; but how far these accidental cures might be imitated by art, or would succeed in other cases, is at least extremely uncertain.\n\nThe practices proper and necessary in the treatment of the gout, are to be considered",
+      "text_end": "he gout, blood-letting or scarifications of the feet, frequently repeated, and at stated times, may be practised with advantage; but of this Dr Cullen tells us he has had no experience; and the benefit of the practice is not, as far as we know, confirmed by the observation of any other practitioner.",
+      "prev_articles": [
+        {
+          "headword": "MEDICAGO",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "headword": "ARTHRODYNAIA",
+          "start_page": 358,
+          "end_page": 365
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366
+        },
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376
+        },
+        {
+          "headword": "NETTLE-RASH",
+          "start_page": 388
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_ARTHRODYNAIA",
+          "headword": "ARTHRODYNAIA",
+          "start_page": 358,
+          "word_count": 6498,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICINAL",
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "word_count": 34,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICAGO",
+          "headword": "MEDICAGO",
+          "start_page": 230,
+          "word_count": 40,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_EXERCISE_AND_ABSTINENCE_ARE_THE",
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366,
+          "word_count": 8676,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_EXERCISE_AND_ABSTINENCE_ARE_THE",
+      "headword": "EXERCISE AND ABSTINENCE ARE THE",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 366,
+      "word_count": 8676,
+      "volume_range": "MAT-MIC",
+      "reason": "'EXERCISE AND ABSTINENCE ARE THE' comes before 'MAT'",
+      "text_preview": "e and abstinence are the means of avoiding the plethoric state which gives the disposition to the gout; and are therefore the means proposed for preventing the paroxysms, or at least for rendering them less frequent and more moderate. But many circumstances prevent the steadiness necessary in pursuing these measures; and therefore in such cases, unless great care be taken to avoid the exciting causes, the disease may frequently return, and, in many cases, the preventing of paroxysms is chiefly t",
+      "text_end": "he Inoculation of Cowpox.\n\nOf the efficacy of vaccine inoculation as a preventive of smallpox, few candid men will entertain any doubt, after the following report on vaccination, from the Royal College of Physicians in London, ordered to be printed on the 8th of July 1807, by the British parliament.",
+      "prev_articles": [
+        {
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "headword": "ARTHRODYNAIA",
+          "start_page": 358,
+          "end_page": 365
+        },
+        {
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365,
+          "end_page": 366
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376
+        },
+        {
+          "headword": "NETTLE-RASH",
+          "start_page": 388
+        },
+        {
+          "headword": "GREEN SICKNESS",
+          "start_page": 425
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_WHETHER_THERE_BE_ANY_OTHER",
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365,
+          "word_count": 1161,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_ARTHRODYNAIA",
+          "headword": "ARTHRODYNAIA",
+          "start_page": 358,
+          "word_count": 6498,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICINAL",
+          "headword": "MEDICINAL",
+          "start_page": 230,
+          "word_count": 34,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_LUCAS_PEPYS",
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "word_count": 12,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_NETTLE-RASH",
+      "headword": "NETTLE-RASH",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 388,
+      "word_count": 13692,
+      "volume_range": "MAT-MIC",
+      "reason": "'NETTLE-RASH' comes after 'MIC'",
+      "text_preview": "Febris urticata, Vog. 40.\nUredo, Lin. 8.\nPurpura urticata, Junck. 75.\nScarlatina urticata, Sauv. sp. 2.\nErysipelatis species altera, Sydenham, sect. vi. cap. 6.\nFebris scarlatina, et febris urticata, Meysercy, Mal. des arm\u00e9es, 291 et seq.\n\nDescription. This disease has its English name of nettle-rash from the resemblance of its eruption to that made by the stinging of nettles. These little elevations upon the skin in the nettle-rash often appear instantaneously, especially if the skin be rubbed ",
+      "text_end": "igated, the expectoration facilitated, and the other symptoms relieved, both the patient and the physician will be encouraged to proceed, and to repeat the vomit every second day, or even every day, for several days together, as Dr Simmons has sometimes done when the good effects of it were obvious.",
+      "prev_articles": [
+        {
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365,
+          "end_page": 366
+        },
+        {
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366,
+          "end_page": 374
+        },
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "end_page": 376
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GREEN SICKNESS",
+          "start_page": 425
+        },
+        {
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425
+        },
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_LUCAS_PEPYS",
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "word_count": 12,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_EXERCISE_AND_ABSTINENCE_ARE_THE",
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366,
+          "word_count": 8676,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_WHETHER_THERE_BE_ANY_OTHER",
+          "headword": "WHETHER THERE BE ANY OTHER",
+          "start_page": 365,
+          "word_count": 1161,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_GREEN_SICKNESS",
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "word_count": 20318,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_GREEN_SICKNESS",
+      "headword": "GREEN SICKNESS",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 425,
+      "word_count": 20318,
+      "volume_range": "MAT-MIC",
+      "reason": "'GREEN SICKNESS' comes before 'MAT'",
+      "text_preview": "Chlorosis, Sauv. gen. 309. Lin. 222. Vog. 305.\nSag. gen. 135. Boerh. 1285. Hoffm. iii. 311.\nJunck. 86.\n\nOf this genus also Dr Cullen thinks there is but one idiopathic species: viz. what some distinguish by the title of chlorosis virginea, others of chlorosis amatoria.\n\nDescription. This disease usually attacks girls a little after the time of puberty, and first shows itself by symptoms of dyspepsia. But a distinguishing symptom is, that the appetite is entirely vitiated, and the patient will ea",
+      "text_end": ", it may be preserved in good condition for many months; and is considered both by sailors and soldiers as a very acceptable addition to their salt provisions. But when served out to them in a putrid state, it is not only highly disagreeable to the taste, but probably also pernicious in its effects.",
+      "prev_articles": [
+        {
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366,
+          "end_page": 374
+        },
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "end_page": 376
+        },
+        {
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "end_page": 401
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425
+        },
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433
+        },
+        {
+          "headword": "AMONG OTHER",
+          "start_page": 476
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_NETTLE-RASH",
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "word_count": 13692,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_LUCAS_PEPYS",
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "word_count": 12,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_EXERCISE_AND_ABSTINENCE_ARE_THE",
+          "headword": "EXERCISE AND ABSTINENCE ARE THE",
+          "start_page": 366,
+          "word_count": 8676,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_HYPOCHONDRIAC_AFFECTION",
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "word_count": 417,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_HYPOCHONDRIAC_AFFECTION",
+      "headword": "HYPOCHONDRIAC AFFECTION",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 425,
+      "word_count": 417,
+      "volume_range": "MAT-MIC",
+      "reason": "'HYPOCHONDRIAC AFFECTION' comes before 'MAT'",
+      "text_preview": "Hypocondriasis, Sauv. gen. 220. Lin. 76. Vog. 218. Sag. 332.\nMorbus hypochondriacus, Boerh. 1098.\nMalum hypochondriacum, Hoffm. III. 65. Junck. 36.\n\nAlthough some of the nosological writers, particularly Sauvages, have considered this genus as consisting of different species, Dr Cullen is of opinion, that there is only one idiopathic species, the hypochondriasis melancholica. He considers not only the hypochondriasis hysterica, phthisica, and asthmatica, but also the biliosa, sanguinea, and pitu",
+      "text_end": "eates, the cinchona, and exercise, especially riding on horseback, which in this disease is greatly preferable to any other. When the circumstances of the patient can afford it, a voyage to Spain, Portugal, or some of the warmer countries in Europe, will be of great service.\n\nGENUS XLVII. CHLOROSIS.",
+      "prev_articles": [
+        {
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "end_page": 376
+        },
+        {
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "end_page": 401
+        },
+        {
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "end_page": 432
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433
+        },
+        {
+          "headword": "AMONG OTHER",
+          "start_page": 476
+        },
+        {
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_GREEN_SICKNESS",
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "word_count": 20318,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_NETTLE-RASH",
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "word_count": 13692,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_LUCAS_PEPYS",
+          "headword": "LUCAS PEPYS",
+          "start_page": 376,
+          "word_count": 12,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_FALLING-SICKNESS",
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "word_count": 34253,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_FALLING-SICKNESS",
+      "headword": "FALLING-SICKNESS",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 433,
+      "word_count": 34253,
+      "volume_range": "MAT-MIC",
+      "reason": "'FALLING-SICKNESS' comes before 'MAT'",
+      "text_preview": "Epilepsia, Sauv. gen. 134. Lin. 143. Vog. 188. Sag. gen. 24. Boerh. 1071. Hoffm. III. 9. Junck. 54.\nEclampsia, Sauv. sp. 133. 182. Sag. gen. 240.\n\nSp. I. The CEREBRALIS, or Epilepsy depending on an affection of the Brain.\n\nEpilepsia plethorica, Sauv. sp. 1.\nEclampsia plethorica, Sauv. sp. 7.\nEpilepsia cachectica, Sauv. sp. 2.\n\nSp. II. The SYMPATHICA, or Sympathetic Epilepsy, with a sensation of something rising from a certain part of the body towards the head.\n\nEpilepsia sympathica, Sauv. sp. 8.",
+      "text_end": "e also to be enjoined; and it may be observed, that the use of tonic medicines is by no means to be delayed till a complete evacuation of the water can be obtained. On the contrary, by alternating, and even combining the use of evacuants and tonics, the influence of both is often very much promoted.",
+      "prev_articles": [
+        {
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "end_page": 401
+        },
+        {
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "end_page": 432
+        },
+        {
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "end_page": 425
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "AMONG OTHER",
+          "start_page": 476
+        },
+        {
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498
+        },
+        {
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_HYPOCHONDRIAC_AFFECTION",
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "word_count": 417,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_GREEN_SICKNESS",
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "word_count": 20318,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_NETTLE-RASH",
+          "headword": "NETTLE-RASH",
+          "start_page": 388,
+          "word_count": 13692,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_AMONG_OTHER",
+          "headword": "AMONG OTHER",
+          "start_page": 476,
+          "word_count": 2648,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_AMONG_OTHER",
+      "headword": "AMONG OTHER",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 476,
+      "word_count": 2648,
+      "volume_range": "MAT-MIC",
+      "reason": "'AMONG OTHER' comes before 'MAT'",
+      "text_preview": "g other means of preventing scurvy, Captain Cook had also a liberal supply of portable soup; of which the men had generally an ounce, three days in the week, boiled up with their pease; and sometimes it was served to them oftener; and when they could get fresh greens, it was boiled up with them, and made such an agreeable mess, that it was the means of making the people eat a greater quantity of greens than they would otherwise have done. And what was still of further advantage, they were furnis",
+      "text_end": " may generally be ascertained from the description which has been given, and chiefly by that remarkable tenderness of the abdomen which particularly distinguishes it; yet, as some of its symptoms may be confounded with those arising from other diseases, and which require a different method\nAppendix.",
+      "prev_articles": [
+        {
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "end_page": 432
+        },
+        {
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "end_page": 425
+        },
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "end_page": 465
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498
+        },
+        {
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502
+        },
+        {
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_FALLING-SICKNESS",
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "word_count": 34253,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_HYPOCHONDRIAC_AFFECTION",
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "word_count": 417,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_GREEN_SICKNESS",
+          "headword": "GREEN SICKNESS",
+          "start_page": 425,
+          "word_count": 20318,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_DIFFICULTY_OF_DISCHARGING_URINE",
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498,
+          "word_count": 4544,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_DIFFICULTY_OF_DISCHARGING_URINE",
+      "headword": "DIFFICULTY OF DISCHARGING URINE",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 498,
+      "word_count": 4544,
+      "volume_range": "MAT-MIC",
+      "reason": "'DIFFICULTY OF DISCHARGING URINE' comes before 'MAT'",
+      "text_preview": "Dysuria, Sauv. gen. 265. Lin. 57. Vog. 164. Sag. 213.\n\nStranguria auctorum.\n\nA difficulty of making water may arise from many different causes; as from some acrid matter in the blood, cantharides, for instance; and hence a strangury very often succeeds the application of blisters. In many cases it arises from a compression of some of the neighbouring parts; of the uterus, for instance, in a state of pregnancy. Or it may arise from a spasmodic affection of the bladder, or rather its sphincter; or",
+      "text_end": "s, viz. the tumores, ectopie, and dialyseis; and we shall add, by way of Appendix, a few observations on some important affections to which Dr Cullen has not given a place in his system, or which practitioners in general are not agreed in referring to any one particular genus which he has mentioned.",
+      "prev_articles": [
+        {
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "end_page": 425
+        },
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "end_page": 465
+        },
+        {
+          "headword": "AMONG OTHER",
+          "start_page": 476,
+          "end_page": 476
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502
+        },
+        {
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522
+        },
+        {
+          "headword": "MEDICAL POLICE",
+          "start_page": 523
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_AMONG_OTHER",
+          "headword": "AMONG OTHER",
+          "start_page": 476,
+          "word_count": 2648,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_FALLING-SICKNESS",
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "word_count": 34253,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_HYPOCHONDRIAC_AFFECTION",
+          "headword": "HYPOCHONDRIAC AFFECTION",
+          "start_page": 425,
+          "word_count": 417,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_ANGINA_PECTORIS",
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502,
+          "word_count": 1946,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_ANGINA_PECTORIS",
+      "headword": "ANGINA PECTORIS",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 502,
+      "word_count": 1946,
+      "volume_range": "MAT-MIC",
+      "reason": "'ANGINA PECTORIS' comes before 'MAT'",
+      "text_preview": "Dr Heberden was the first who described this disease, though it is an extremely dangerous, and, by his account, not very rare affection. It seizes those who are subject to it when they are walking, and particularly when they walk soon after eating, with a most disagreeable and painful sensation in the breast, which seems to threaten immediate destruction; but the moment they stand still, all the uneasiness vanishes. In all other respects the patients at the beginning of this disorder are well, a",
+      "text_end": "ple peppermint water may be reckoned one of the safest. But since obesity is justly considered as a principal predisposing cause, he insists strongly on the necessity of preventing an increase of fat, by a vegetable diet, and using every other practicable method of augmenting the thinner secretions.",
+      "prev_articles": [
+        {
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "end_page": 465
+        },
+        {
+          "headword": "AMONG OTHER",
+          "start_page": 476,
+          "end_page": 476
+        },
+        {
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498,
+          "end_page": 502
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522
+        },
+        {
+          "headword": "MEDICAL POLICE",
+          "start_page": 523
+        },
+        {
+          "headword": "ATROPHIA",
+          "start_page": 527
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_DIFFICULTY_OF_DISCHARGING_URINE",
+          "headword": "DIFFICULTY OF DISCHARGING URINE",
+          "start_page": 498,
+          "word_count": 4544,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_AMONG_OTHER",
+          "headword": "AMONG OTHER",
+          "start_page": 476,
+          "word_count": 2648,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_FALLING-SICKNESS",
+          "headword": "FALLING-SICKNESS",
+          "start_page": 433,
+          "word_count": 34253,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICAL_JURISPRUDENCE",
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522,
+          "word_count": 1064,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_ATROPHIA",
+      "headword": "ATROPHIA",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 527,
+      "word_count": 31,
+      "volume_range": "MAT-MIC",
+      "reason": "'ATROPHIA' comes before 'MAT'",
+      "text_preview": "Gen. 70. 333\n\nAbortus,\nAbscess of the lungs,\nAcute rheumatism,\nAcrimony of the blood,\nAdynamia,\nEgyptian physicians,\nEsculapius,\nEtius,\nAlexander,\n\nN\u00b0 247\n186\n205\n103\n271\n2\n4\n43\n44\nAmentia,",
+      "text_end": "",
+      "prev_articles": [
+        {
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502,
+          "end_page": 504
+        },
+        {
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522,
+          "end_page": 523
+        },
+        {
+          "headword": "MEDICAL POLICE",
+          "start_page": 523,
+          "end_page": 527
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MEDICINE",
+          "start_page": 527
+        },
+        {
+          "headword": "MEDICIS",
+          "start_page": 531
+        },
+        {
+          "headword": "MEDINA",
+          "start_page": 535
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MEDICAL_POLICE",
+          "headword": "MEDICAL POLICE",
+          "start_page": 523,
+          "word_count": 3774,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICAL_JURISPRUDENCE",
+          "headword": "MEDICAL JURISPRUDENCE",
+          "start_page": 522,
+          "word_count": 1064,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_ANGINA_PECTORIS",
+          "headword": "ANGINA PECTORIS",
+          "start_page": 502,
+          "word_count": 1946,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEDICINE_s5",
+          "headword": "MEDICINE",
+          "start_page": 527,
+          "word_count": 2225,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_MNEMONICA",
+      "headword": "MNEMONICA",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 549,
+      "word_count": 754,
+      "volume_range": "MAT-MIC",
+      "reason": "'MNEMONICA' comes after 'MIC'",
+      "text_preview": "or the art of memory, as it was called by the ancients, has been lately revived and studied in Germany and France. In some notices concerning this subject which we have seen, it is observed that this science is more intimately connected with the Egyptian hieroglyphics than is generally thought, and that this connection may help to explain them. In Germany this art has been revived by M. Aretin; and a pupil of his, M. Kaestner, has been permitted to teach the new doctrine at Leipsic, but on the e",
+      "text_end": "hout ever thinking any more of them.*\n\nFeainagle afterwards delivered lectures on the same subject to crowded audiences in London, Edinburgh, Glasgow, &c.; but we do not find that any of his pupils received improvement from his instructions, and very few of them could give any account of his method.",
+      "prev_articles": [
+        {
+          "headword": "MEMBRANE",
+          "start_page": 546,
+          "end_page": 546
+        },
+        {
+          "headword": "MEMEL",
+          "start_page": 546,
+          "end_page": 546
+        },
+        {
+          "headword": "MEMNON",
+          "start_page": 546,
+          "end_page": 547
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MEMPHIS",
+          "start_page": 550
+        },
+        {
+          "headword": "MENAGE",
+          "start_page": 550
+        },
+        {
+          "headword": "MENANDER",
+          "start_page": 550
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MEMNON",
+          "headword": "MEMNON",
+          "start_page": 546,
+          "word_count": 542,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEMEL",
+          "headword": "MEMEL",
+          "start_page": 546,
+          "word_count": 124,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEMBRANE",
+          "headword": "MEMBRANE",
+          "start_page": 546,
+          "word_count": 40,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEMPHIS",
+          "headword": "MEMPHIS",
+          "start_page": 550,
+          "word_count": 702,
+          "direction": "next"
+        }
+      ]
+    },
+    {
+      "article_id": "1815_v13_MORE_THAN_THREE-FOURTHS_OF_THE_SILVER_OBTAINED_FROM_AMERICA_IS_EXTRACTED_FROM_THE_ORE_BY",
+      "headword": "MORE THAN THREE-FOURTHS OF THE SILVER OBTAINED FROM AMERICA IS EXTRACTED FROM THE ORE BY",
+      "edition_year": 1815,
+      "volume_num": 13,
+      "start_page": 826,
+      "word_count": 3474,
+      "volume_range": "MAT-MIC",
+      "reason": "'MORE THAN THREE-FOURTHS OF THE SILVER OBTAINED FROM AMERICA IS EXTRACTED FROM THE ORE BY' comes after 'MIC'",
+      "text_preview": "e than three-fourths of the silver obtained from America is extracted from the ore by means of quicksilver; and such is the abundance of the ore in Mexico, that the only limit to the quantity of silver obtained, is the want of mercury for amalgamation. The sale of mercury is a royal monopoly: The quantity consumed annually is 16,000 quintals.\n\nThe chief manufactures of New Spain are woollens, cottons, gold and silver-lace, hats, leather, soap, and earthen-ware; but the total value of the goods t",
+      "text_end": "o. Red was obtained from the seeds of the achiot or rocou, and purple from cochineal. Their yellows were ochre, and a colour extracted from the beautiful flower of a plant resembling artemisia. With nitre these flowers afforded a fine orange colour; and by means of alum they extracted other colours.",
+      "prev_articles": [
+        {
+          "headword": "MEURSIUS",
+          "start_page": 794,
+          "end_page": 795
+        },
+        {
+          "headword": "MEVANIA",
+          "start_page": 794,
+          "end_page": 794
+        },
+        {
+          "headword": "MEWING",
+          "start_page": 795,
+          "end_page": 826
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MEXICO",
+          "start_page": 834
+        },
+        {
+          "headword": "MEZERAY",
+          "start_page": 835
+        },
+        {
+          "headword": "MEZIERS",
+          "start_page": 836
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1815_v13_MEWING",
+          "headword": "MEWING",
+          "start_page": 795,
+          "word_count": 34392,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEVANIA",
+          "headword": "MEVANIA",
+          "start_page": 794,
+          "word_count": 68,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEURSIUS",
+          "headword": "MEURSIUS",
+          "start_page": 794,
+          "word_count": 1032,
+          "direction": "previous"
+        },
+        {
+          "article_id": "1815_v13_MEXICO",
+          "headword": "MEXICO",
+          "start_page": 834,
+          "word_count": 502,
+          "direction": "next"
+        }
+      ]
+    }
+  ]
+}

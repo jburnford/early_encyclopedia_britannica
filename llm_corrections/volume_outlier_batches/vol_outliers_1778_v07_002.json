@@ -1,0 +1,864 @@
+{
+  "batch_id": "vol_outliers_1778_v07_002",
+  "created": "2026-01-09T17:21:51.333425",
+  "edition_year": 1778,
+  "volume_num": 7,
+  "item_count": 10,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1778_v07_REMARK",
+      "headword": "REMARK",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 526,
+      "end_page": 526,
+      "word_count": 115,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'REMARK' comes after 'OPTICS'",
+      "text_preview": "Of the five fundamental rules which have now been given, instead of the three first, one may substitute the three following, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. ",
+      "text_end": " another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant.",
+      "full_text": "Of the five fundamental rules which have now been given, instead of the three first, one may substitute the three following, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "PRELIMINARY DISCOURSE",
+          "start_page": 481,
+          "end_page": 488
+        },
+        {
+          "headword": "DEFINITIONS OF SEVERAL TECHNICAL TERMS",
+          "start_page": 488,
+          "end_page": 489
+        },
+        {
+          "headword": "GENERAL REMARK",
+          "start_page": 521,
+          "end_page": 525
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "REMARK II",
+          "start_page": 526
+        },
+        {
+          "headword": "RULE IV",
+          "start_page": 526
+        },
+        {
+          "headword": "RULE II",
+          "start_page": 529
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_GENERAL_REMARK",
+          "headword": "GENERAL REMARK",
+          "direction": "previous",
+          "start_page": 521,
+          "text_preview": "The diatonic scale or gammut being composed of twelve semitones, it is clear that each of these semitones taken by itself may be the generator of a mode; and that thus there must be twenty-four modes in all, twelve major and twelve minor. We have assumed the major mode of ut, to represent all the major modes in general, and the minor mode of la to represent the modes minor, to avoid the difficulties arising from sharps and flats, of which we must have encountered either a greater or lesser number in the other modes. But the rules we have given for each mode are general, whatever note of the gammut be taken for the generator of a mode.\n\nPart II. Principles and Rules of COMPOSITION.\n\nCHAP. I. Of the Different Names given to the same Interval.\n\n159. In the introduction (art. 9.), which is at the front of this treatise, we have seen a detail of the most common names which are given to the different intervals. But there are particular intervals which have obtained different names, according",
+          "text_end": "ent meanings by different words. A sound may be either estimated by its different degrees of intensity, or by its different quantities of duration.\n\nTo signify both those ideas the word value is employed by D'Alembert. The reader, therefore, will find it of importance to distinguish the value of a note in height from its value in duration. This he may easily do, by considering whether the notes are treated as parts of the diatonic scale, or as continued for a greater or lesser duration.\nPart II."
+        },
+        {
+          "article_id": "1778_v07_DEFINITIONS_OF_SEVERAL_TECHNICAL_TERMS",
+          "headword": "DEFINITIONS OF SEVERAL TECHNICAL TERMS",
+          "direction": "previous",
+          "start_page": 488,
+          "text_preview": "1. What is meant by Melody, by Chord, by Harmony,\nby Interval.\n\n1. Melody is nothing else but a series of sounds\nwhich succeed one to another in a manner agreeable\nto the ear.\n\n2. That is called a chord which arises from the\nmixture of several sounds heard at the same time; and\nharmony is properly a series of chords which in their\nsuccession one to another delights the ear. A single\nchord is likewise sometimes called harmony, to signify\nthe coalescence of sounds which that chord creates, and\nthe sensation produced in the ear by that coales-\ncence. We shall occasionally use the word harmony\nin this last sense, but in such a manner as never to leave\nour meaning ambiguous.\n\n3. In melody and harmony, the distance between\none sound and another is called an interval; and this is\nincreased or diminished as the sounds between which\nit intervenes are higher or lower one than the other.\n\n4. That we may learn to distinguish the intervals,\nand the manner of perceiving them, let us take the\nordinar",
+          "text_end": " notes of the octave sol, la, si, UT, are quite\nsimilar to the first ut, re, mi, fa; infowmuch, that if, after having sung this scale, one would choose to repeat\nit, beginning with ut in the same tone which was occupied by sol in the former scale, the note re of the last\nscale would have the same sound with the note la in the first, the mi with the si, and the fa with the ut.\n\nFrom whence it follows, that the interval between ut and re, is the same as between sol and la; between re\nand\nElements."
+        },
+        {
+          "article_id": "1778_v07_PRELIMINARY_DISCOURSE",
+          "headword": "PRELIMINARY DISCOURSE",
+          "direction": "previous",
+          "start_page": 481,
+          "text_preview": "MUSIC may be considered, either as an art, which has for its object one of the greatest pleasures of which our senses (\u2021) are susceptible; or as a science, by which that art is reduced to principles. This is the double view in which we mean to treat of music in this work.\n\nIt has been the case with music as with all the other arts invented by men: some facts were at first discovered by accident; soon afterwards reflection and observation investigated others; and from these facts, properly disposed and united, philosophers were not slow in forming a body of science, which afterwards increased by degrees.\n\nThe first theories of music were perhaps as ancient as the earliest age which we know to have been distinguished by philosophy, even as the age of Pythagoras; nor does history leave us any room to doubt, that from the period when that philosopher taught, the ancients cultivated music, both as an art and as a science, with great affluence. But there remains to us much uncertainty concer",
+          "text_end": "he elements of music alone, and not\nthe principles of genius, that the reader may expect to\nfind in this treatise.\n\nSuch was the aim I pursued in its composition, and\nsuch should be the ideas of the reader in its perusal.\nOnce more let me add, that to the discovery of its\nfundamental principles I have not the remotest claim.\nThe sole end which I proposed was to be useful; to\nreach that end, I have omitted nothing which appeared\nnecessary, and I should be sorry to find my endeavours\nunsuccessful."
+        },
+        {
+          "article_id": "1778_v07_REMARK_II",
+          "headword": "REMARK II",
+          "direction": "next",
+          "start_page": 526,
+          "text_preview": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if I ascend from the tonic ut to the tonic mi, the major mode of ut, ut mi sol ut, will be changed into the minor mode of mi, mi sol fa mi. For what remains, we must never ascend from one tonic to another, when there is no sound common to both their modes; for example, you cannot rise to the mode of ut, ut mi sol ut, from the minor mode of mi",
+          "text_end": " found in the treble; it is necessary that the note which goes before it in the treble should likewise be an ut.\n\n201. And it is requisite to observe, that, according to the rules which we have given for the fundamental base, ut will always be found in the chord of that note in the fundamental base which precedes the simple dominant re. See XLVIII, XLIX, L. In the first example the dissonance is ut, in the second sol, and in the third mi; and these notes are already in the preceding chord (388)."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1778_v07_REMARK_II",
+      "headword": "REMARK II",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 526,
+      "end_page": 527,
+      "word_count": 519,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'REMARK II' comes after 'OPTICS'",
+      "text_preview": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or ",
+      "text_end": "for the fundamental base, ut will always be found in the chord of that note in the fundamental base which precedes the simple dominant re. See XLVIII, XLIX, L. In the first example the dissonance is ut, in the second sol, and in the third mi; and these notes are already in the preceding chord (388).",
+      "full_text": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if I ascend from the tonic ut to the tonic mi, the major mode of ut, ut mi sol ut, will be changed into the minor mode of mi, mi sol fa mi. For what remains, we must never ascend from one tonic to another, when there is no sound common to both their modes; for example, you cannot rise to the mode of ut, ut mi sol ut, from the minor mode of mi, mi sol fa mi (91.).\n\n(yy) By this we may see, that all the intervals, viz. the third, the fifth, and second, may be admitted in the fundamental bass, except that of a second in descending. For what remains, it is very proper to remark, that the rules immediately given for the fundamental bass are not without exception, as approved compositions in music will certainly discover; but these exceptions being in reality licences, and for the most part in opposition to the great principle of connection, which prefers that there should be at least one note in common between a preceding and a subsequent chord, it does not seem necessary to entertain initiates with a minute detail of these licences in an elementary work, where the first and most essential rules of the art alone ought to be expected.\nRULE I. for the Treble.\n\n200. If the note which forms the seventh in a chord of the simple dominant is found in the treble, the note which precedes it must be the very same. This is what we call a ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "DEFINITIONS OF SEVERAL TECHNICAL TERMS",
+          "start_page": 488,
+          "end_page": 489
+        },
+        {
+          "headword": "GENERAL REMARK",
+          "start_page": 521,
+          "end_page": 525
+        },
+        {
+          "headword": "REMARK",
+          "start_page": 526,
+          "end_page": 526
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RULE IV",
+          "start_page": 526
+        },
+        {
+          "headword": "RULE II",
+          "start_page": 529
+        },
+        {
+          "headword": "RULE III",
+          "start_page": 529
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_REMARK",
+          "headword": "REMARK",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "Of the five fundamental rules which have now been given, instead of the three first, one may substitute the three following, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant.",
+          "text_end": "lowing, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant."
+        },
+        {
+          "article_id": "1778_v07_GENERAL_REMARK",
+          "headword": "GENERAL REMARK",
+          "direction": "previous",
+          "start_page": 521,
+          "text_preview": "The diatonic scale or gammut being composed of twelve semitones, it is clear that each of these semitones taken by itself may be the generator of a mode; and that thus there must be twenty-four modes in all, twelve major and twelve minor. We have assumed the major mode of ut, to represent all the major modes in general, and the minor mode of la to represent the modes minor, to avoid the difficulties arising from sharps and flats, of which we must have encountered either a greater or lesser number in the other modes. But the rules we have given for each mode are general, whatever note of the gammut be taken for the generator of a mode.\n\nPart II. Principles and Rules of COMPOSITION.\n\nCHAP. I. Of the Different Names given to the same Interval.\n\n159. In the introduction (art. 9.), which is at the front of this treatise, we have seen a detail of the most common names which are given to the different intervals. But there are particular intervals which have obtained different names, according",
+          "text_end": "ent meanings by different words. A sound may be either estimated by its different degrees of intensity, or by its different quantities of duration.\n\nTo signify both those ideas the word value is employed by D'Alembert. The reader, therefore, will find it of importance to distinguish the value of a note in height from its value in duration. This he may easily do, by considering whether the notes are treated as parts of the diatonic scale, or as continued for a greater or lesser duration.\nPart II."
+        },
+        {
+          "article_id": "1778_v07_DEFINITIONS_OF_SEVERAL_TECHNICAL_TERMS",
+          "headword": "DEFINITIONS OF SEVERAL TECHNICAL TERMS",
+          "direction": "previous",
+          "start_page": 488,
+          "text_preview": "1. What is meant by Melody, by Chord, by Harmony,\nby Interval.\n\n1. Melody is nothing else but a series of sounds\nwhich succeed one to another in a manner agreeable\nto the ear.\n\n2. That is called a chord which arises from the\nmixture of several sounds heard at the same time; and\nharmony is properly a series of chords which in their\nsuccession one to another delights the ear. A single\nchord is likewise sometimes called harmony, to signify\nthe coalescence of sounds which that chord creates, and\nthe sensation produced in the ear by that coales-\ncence. We shall occasionally use the word harmony\nin this last sense, but in such a manner as never to leave\nour meaning ambiguous.\n\n3. In melody and harmony, the distance between\none sound and another is called an interval; and this is\nincreased or diminished as the sounds between which\nit intervenes are higher or lower one than the other.\n\n4. That we may learn to distinguish the intervals,\nand the manner of perceiving them, let us take the\nordinar",
+          "text_end": " notes of the octave sol, la, si, UT, are quite\nsimilar to the first ut, re, mi, fa; infowmuch, that if, after having sung this scale, one would choose to repeat\nit, beginning with ut in the same tone which was occupied by sol in the former scale, the note re of the last\nscale would have the same sound with the note la in the first, the mi with the si, and the fa with the ut.\n\nFrom whence it follows, that the interval between ut and re, is the same as between sol and la; between re\nand\nElements."
+        },
+        {
+          "article_id": "1778_v07_RULE_IV",
+          "headword": "RULE IV",
+          "direction": "next",
+          "start_page": 526,
+          "text_preview": "194. Every simple or tonic dominant ought to descend by a fifth. In the first case, that is to say, when the dominant is simple, the note which follows can only be a dominant; in the second it may be any one you choose; or, in other words, it may either be a tonic, a tonic dominant, a simple dominant, or a sub-dominant. It is necessary, however, that the conditions prescribed in the second rule should be observed, if it be a simple dominant.\n\nThis last reflection is necessary, as you will presently see. For let us assume the succession of the two chords la at mi sol fa la ut, (see Exam. XIX.) this succession is by no means legitimate, though in it the first dominant descends by a fifth; because the ut which forms the dissonance in the second chord, and which belongs to a simple dominant, is not in the preceding chord. But the succession will be admissible, if, without meddling with the second chord, one should take away the sharp carried by the ut in the first; or if, without meddling ",
+          "text_end": "ut or fa sharp in the second (vu); or in short, if one should simply render the re of the second chord a tonic dominant, in causing it to carry fa instead of fa natural (119. & 122.).\n\nIt is likewise by the same rule that we ought to reject the succession of the two following chords, re fa la ut, sol fa re fa mi; (see Exam. XX.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at your pleasure, be either a tonic, a tonic dominant, or a sub-dominant."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1778_v07_RULE_IV",
+      "headword": "RULE IV",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 526,
+      "end_page": 526,
+      "word_count": 292,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'RULE IV' comes after 'OPTICS'",
+      "text_preview": "194. Every simple or tonic dominant ought to descend by a fifth. In the first case, that is to say, when the dominant is simple, the note which follows can only be a dominant; in the second it may be any one you choose; or, in other words, it may either be a tonic, a tonic dominant, a simple dominant, or a sub-dominant. It is necessary, however, that the conditions prescribed in the second rule should be observed, if it be a simple dominant.\n\nThis last reflection is necessary, as you will presen",
+      "text_end": "by the same rule that we ought to reject the succession of the two following chords, re fa la ut, sol fa re fa mi; (see Exam. XX.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at your pleasure, be either a tonic, a tonic dominant, or a sub-dominant.",
+      "full_text": "194. Every simple or tonic dominant ought to descend by a fifth. In the first case, that is to say, when the dominant is simple, the note which follows can only be a dominant; in the second it may be any one you choose; or, in other words, it may either be a tonic, a tonic dominant, a simple dominant, or a sub-dominant. It is necessary, however, that the conditions prescribed in the second rule should be observed, if it be a simple dominant.\n\nThis last reflection is necessary, as you will presently see. For let us assume the succession of the two chords la at mi sol fa la ut, (see Exam. XIX.) this succession is by no means legitimate, though in it the first dominant descends by a fifth; because the ut which forms the dissonance in the second chord, and which belongs to a simple dominant, is not in the preceding chord. But the succession will be admissible, if, without meddling with the second chord, one should take away the sharp carried by the ut in the first; or if, without meddling with the first chord, one should render ut or fa sharp in the second (vu); or in short, if one should simply render the re of the second chord a tonic dominant, in causing it to carry fa instead of fa natural (119. & 122.).\n\nIt is likewise by the same rule that we ought to reject the succession of the two following chords, re fa la ut, sol fa re fa mi; (see Exam. XX.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at your pleasure, be either a tonic, a tonic dominant, or a sub-dominant.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENERAL REMARK",
+          "start_page": 521,
+          "end_page": 525
+        },
+        {
+          "headword": "REMARK",
+          "start_page": 526,
+          "end_page": 526
+        },
+        {
+          "headword": "REMARK II",
+          "start_page": 526,
+          "end_page": 527
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RULE II",
+          "start_page": 529
+        },
+        {
+          "headword": "RULE III",
+          "start_page": 529
+        },
+        {
+          "headword": "MUSIC",
+          "start_page": 531
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_REMARK_II",
+          "headword": "REMARK II",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if I ascend from the tonic ut to the tonic mi, the major mode of ut, ut mi sol ut, will be changed into the minor mode of mi, mi sol fa mi. For what remains, we must never ascend from one tonic to another, when there is no sound common to both their modes; for example, you cannot rise to the mode of ut, ut mi sol ut, from the minor mode of mi",
+          "text_end": " found in the treble; it is necessary that the note which goes before it in the treble should likewise be an ut.\n\n201. And it is requisite to observe, that, according to the rules which we have given for the fundamental base, ut will always be found in the chord of that note in the fundamental base which precedes the simple dominant re. See XLVIII, XLIX, L. In the first example the dissonance is ut, in the second sol, and in the third mi; and these notes are already in the preceding chord (388)."
+        },
+        {
+          "article_id": "1778_v07_REMARK",
+          "headword": "REMARK",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "Of the five fundamental rules which have now been given, instead of the three first, one may substitute the three following, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant.",
+          "text_end": "lowing, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant."
+        },
+        {
+          "article_id": "1778_v07_GENERAL_REMARK",
+          "headword": "GENERAL REMARK",
+          "direction": "previous",
+          "start_page": 521,
+          "text_preview": "The diatonic scale or gammut being composed of twelve semitones, it is clear that each of these semitones taken by itself may be the generator of a mode; and that thus there must be twenty-four modes in all, twelve major and twelve minor. We have assumed the major mode of ut, to represent all the major modes in general, and the minor mode of la to represent the modes minor, to avoid the difficulties arising from sharps and flats, of which we must have encountered either a greater or lesser number in the other modes. But the rules we have given for each mode are general, whatever note of the gammut be taken for the generator of a mode.\n\nPart II. Principles and Rules of COMPOSITION.\n\nCHAP. I. Of the Different Names given to the same Interval.\n\n159. In the introduction (art. 9.), which is at the front of this treatise, we have seen a detail of the most common names which are given to the different intervals. But there are particular intervals which have obtained different names, according",
+          "text_end": "ent meanings by different words. A sound may be either estimated by its different degrees of intensity, or by its different quantities of duration.\n\nTo signify both those ideas the word value is employed by D'Alembert. The reader, therefore, will find it of importance to distinguish the value of a note in height from its value in duration. This he may easily do, by considering whether the notes are treated as parts of the diatonic scale, or as continued for a greater or lesser duration.\nPart II."
+        },
+        {
+          "article_id": "1778_v07_RULE_II_s4",
+          "headword": "RULE II",
+          "direction": "next",
+          "start_page": 529,
+          "text_preview": "211. Every note carrying the chord of the tritone should descend diatonically upon the subsequent note. Thus in the same example LXV. fa, which carries the chord of the tritone figured with a 4, descends diatonically upon mi. (Art. 202.)",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1778_v07_RULE_II_s4",
+      "headword": "RULE II",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 529,
+      "end_page": 529,
+      "word_count": 40,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'RULE II' comes after 'OPTICS'",
+      "text_preview": "211. Every note carrying the chord of the tritone should descend diatonically upon the subsequent note. Thus in the same example LXV. fa, which carries the chord of the tritone figured with a 4, descends diatonically upon mi. (Art. 202.)",
+      "text_end": "",
+      "full_text": "211. Every note carrying the chord of the tritone should descend diatonically upon the subsequent note. Thus in the same example LXV. fa, which carries the chord of the tritone figured with a 4, descends diatonically upon mi. (Art. 202.)",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "REMARK",
+          "start_page": 526,
+          "end_page": 526
+        },
+        {
+          "headword": "REMARK II",
+          "start_page": 526,
+          "end_page": 527
+        },
+        {
+          "headword": "RULE IV",
+          "start_page": 526,
+          "end_page": 526
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "RULE III",
+          "start_page": 529
+        },
+        {
+          "headword": "MUSIC",
+          "start_page": 531
+        },
+        {
+          "headword": "MUSKET",
+          "start_page": 542
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_RULE_IV",
+          "headword": "RULE IV",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "194. Every simple or tonic dominant ought to descend by a fifth. In the first case, that is to say, when the dominant is simple, the note which follows can only be a dominant; in the second it may be any one you choose; or, in other words, it may either be a tonic, a tonic dominant, a simple dominant, or a sub-dominant. It is necessary, however, that the conditions prescribed in the second rule should be observed, if it be a simple dominant.\n\nThis last reflection is necessary, as you will presently see. For let us assume the succession of the two chords la at mi sol fa la ut, (see Exam. XIX.) this succession is by no means legitimate, though in it the first dominant descends by a fifth; because the ut which forms the dissonance in the second chord, and which belongs to a simple dominant, is not in the preceding chord. But the succession will be admissible, if, without meddling with the second chord, one should take away the sharp carried by the ut in the first; or if, without meddling ",
+          "text_end": "ut or fa sharp in the second (vu); or in short, if one should simply render the re of the second chord a tonic dominant, in causing it to carry fa instead of fa natural (119. & 122.).\n\nIt is likewise by the same rule that we ought to reject the succession of the two following chords, re fa la ut, sol fa re fa mi; (see Exam. XX.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at your pleasure, be either a tonic, a tonic dominant, or a sub-dominant."
+        },
+        {
+          "article_id": "1778_v07_REMARK_II",
+          "headword": "REMARK II",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if I ascend from the tonic ut to the tonic mi, the major mode of ut, ut mi sol ut, will be changed into the minor mode of mi, mi sol fa mi. For what remains, we must never ascend from one tonic to another, when there is no sound common to both their modes; for example, you cannot rise to the mode of ut, ut mi sol ut, from the minor mode of mi",
+          "text_end": " found in the treble; it is necessary that the note which goes before it in the treble should likewise be an ut.\n\n201. And it is requisite to observe, that, according to the rules which we have given for the fundamental base, ut will always be found in the chord of that note in the fundamental base which precedes the simple dominant re. See XLVIII, XLIX, L. In the first example the dissonance is ut, in the second sol, and in the third mi; and these notes are already in the preceding chord (388)."
+        },
+        {
+          "article_id": "1778_v07_REMARK",
+          "headword": "REMARK",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "Of the five fundamental rules which have now been given, instead of the three first, one may substitute the three following, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant.",
+          "text_end": "lowing, which are nothing but consequences from them, and which you may pass unnoticed if you think it proper.\n\nRULE I.\n\nIf a note of the fundamental bass be a tonic, and rise by a fifth or a third to another note, that second note may be either a tonic, (34. & 91.) see Examples XXI. and XXII. (xx); a tonic dominant, (124.) see XXIII. and XXIV.; or a sub-dominant, (124.) see XXV. and XXVI.; or, to express the rule more simply, that second note may be any one you please, except a simple dominant."
+        },
+        {
+          "article_id": "1778_v07_RULE_III_s3",
+          "headword": "RULE III",
+          "direction": "next",
+          "start_page": 529,
+          "text_preview": "212. The chord of the second is commonly put in practice upon notes which are syncopated in descending, because these notes are dissonances which ought to be prepared and resolved (200, 202.) See the example LXVI. where the second ut, which is syncopated, and which descends afterwards upon fa, carries the chord of the second (III).\n\nCHAP. IX. Of some Licences assumed in the Fundamental Basses.\n\n\u00a7 1. Of Broken and Interrupted Cadences.\n\n213. The broken cadence is executed by means of broken cadences which rise diatonically upon another, or descend how upon a tonic by a licence. See, in the example LXXIV., sol la, (132, and 134).\n\n214. The interrupted cadence is formed by a dominant which descends by a third upon another (136), how formed. See, in the example LXXV., sol mi (LLL).\n\nThese cadences ought not to be permitted but rarely.\n\n(HHH) The continued bass being a kind of treble with relation to the fundamental bass, it ought to observe the same rules with respect to that bass as the t",
+          "text_end": "being syncopated, and resolved by descending diatonically upon one of the consonances of the subsequent chord. The sensible note alone can be resolved in ascending; but it is even necessary that this sensible note should be in the chord of the tonic dominant. As to the dissonances which are found in the primitive chord, they should always follow the common rules. (See art. 202.)\n\n(ppp) Several musicians call this last chord the chord of the ninth; and that which, with M. Rameau, we have\nPart II."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1778_v07_RULE_III_s3",
+      "headword": "RULE III",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 529,
+      "end_page": 531,
+      "word_count": 1934,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'RULE III' comes after 'OPTICS'",
+      "text_preview": "212. The chord of the second is commonly put in practice upon notes which are syncopated in descending, because these notes are dissonances which ought to be prepared and resolved (200, 202.) See the example LXVI. where the second ut, which is syncopated, and which descends afterwards upon fa, carries the chord of the second (III).\n\nCHAP. IX. Of some Licences assumed in the Fundamental Basses.\n\n\u00a7 1. Of Broken and Interrupted Cadences.\n\n213. The broken cadence is executed by means of broken caden",
+      "text_end": "sensible note should be in the chord of the tonic dominant. As to the dissonances which are found in the primitive chord, they should always follow the common rules. (See art. 202.)\n\n(ppp) Several musicians call this last chord the chord of the ninth; and that which, with M. Rameau, we have\nPart II.",
+      "full_text": "212. The chord of the second is commonly put in practice upon notes which are syncopated in descending, because these notes are dissonances which ought to be prepared and resolved (200, 202.) See the example LXVI. where the second ut, which is syncopated, and which descends afterwards upon fa, carries the chord of the second (III).\n\nCHAP. IX. Of some Licences assumed in the Fundamental Basses.\n\n\u00a7 1. Of Broken and Interrupted Cadences.\n\n213. The broken cadence is executed by means of broken cadences which rise diatonically upon another, or descend how upon a tonic by a licence. See, in the example LXXIV., sol la, (132, and 134).\n\n214. The interrupted cadence is formed by a dominant which descends by a third upon another (136), how formed. See, in the example LXXV., sol mi (LLL).\n\nThese cadences ought not to be permitted but rarely.\n\n(HHH) The continued bass being a kind of treble with relation to the fundamental bass, it ought to observe the same rules with respect to that bass as the treble. Thus a note, for instance re, carrying a chord of the seventh re fa la ut, to which the chord of the sub-dominant fa la ut re corresponds in the fundamental bass, ought to rise diatonically upon mi, (art. 129, n\u00b0 2. and art. 202.)\n\n(III) When there is a repose in the treble, the note of the continued bass ought to be the same with that of the fundamental bass, (see example LXVII.) In the cloves which are found in the treble at fa and ut (bars third and fourth), the notes in the fundamental and continued bass are the same, viz. sol for the first cadence, and ut for the second. This rule ought above all to be observed in final cadences which terminate a piece or a modulation.\n\nIt is necessary, as much as possible, to prevent coincidences of the same notes in the treble and continued bass, unless the motion of the continued bass should be contrary to that of the treble. For example, in the second note of the second bar in example LXVII. mi is found at the same time in the continued",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "REMARK II",
+          "start_page": 526,
+          "end_page": 527
+        },
+        {
+          "headword": "RULE IV",
+          "start_page": 526,
+          "end_page": 526
+        },
+        {
+          "headword": "RULE II",
+          "start_page": 529,
+          "end_page": 529
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "MUSIC",
+          "start_page": 531
+        },
+        {
+          "headword": "MUSKET",
+          "start_page": 542
+        },
+        {
+          "headword": "MUSKETOON",
+          "start_page": 542
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_RULE_II_s4",
+          "headword": "RULE II",
+          "direction": "previous",
+          "start_page": 529,
+          "text_preview": "211. Every note carrying the chord of the tritone should descend diatonically upon the subsequent note. Thus in the same example LXV. fa, which carries the chord of the tritone figured with a 4, descends diatonically upon mi. (Art. 202.)",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_RULE_IV",
+          "headword": "RULE IV",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "194. Every simple or tonic dominant ought to descend by a fifth. In the first case, that is to say, when the dominant is simple, the note which follows can only be a dominant; in the second it may be any one you choose; or, in other words, it may either be a tonic, a tonic dominant, a simple dominant, or a sub-dominant. It is necessary, however, that the conditions prescribed in the second rule should be observed, if it be a simple dominant.\n\nThis last reflection is necessary, as you will presently see. For let us assume the succession of the two chords la at mi sol fa la ut, (see Exam. XIX.) this succession is by no means legitimate, though in it the first dominant descends by a fifth; because the ut which forms the dissonance in the second chord, and which belongs to a simple dominant, is not in the preceding chord. But the succession will be admissible, if, without meddling with the second chord, one should take away the sharp carried by the ut in the first; or if, without meddling ",
+          "text_end": "ut or fa sharp in the second (vu); or in short, if one should simply render the re of the second chord a tonic dominant, in causing it to carry fa instead of fa natural (119. & 122.).\n\nIt is likewise by the same rule that we ought to reject the succession of the two following chords, re fa la ut, sol fa re fa mi; (see Exam. XX.).\n\nRULE V.\n\n195. Every sub-dominant ought to rise by a fifth; and the note which follows it may, at your pleasure, be either a tonic, a tonic dominant, or a sub-dominant."
+        },
+        {
+          "article_id": "1778_v07_REMARK_II",
+          "headword": "REMARK II",
+          "direction": "previous",
+          "start_page": 526,
+          "text_preview": "197. We must avoid as much as we can, syncopa-syncope-tions in the fundamental bass; that, within the first time only of which a bar is constituted, the ear may be entertained with a harmony different from that which it had before perceived in the last time of the preceding bar, cence.\n\n(vu) In this chord it is necessary that the ut and fa should be sharp at the same time; for the chord re fa la ut, in which ut would be sharp without the fa, is excluded by art. 179.\n\n(xx) When the bass rises or descends from one tonic to another by the interval of a third, the mode is commonly changed; that is to say, from a major it becomes a minor. For instance, if I ascend from the tonic ut to the tonic mi, the major mode of ut, ut mi sol ut, will be changed into the minor mode of mi, mi sol fa mi. For what remains, we must never ascend from one tonic to another, when there is no sound common to both their modes; for example, you cannot rise to the mode of ut, ut mi sol ut, from the minor mode of mi",
+          "text_end": " found in the treble; it is necessary that the note which goes before it in the treble should likewise be an ut.\n\n201. And it is requisite to observe, that, according to the rules which we have given for the fundamental base, ut will always be found in the chord of that note in the fundamental base which precedes the simple dominant re. See XLVIII, XLIX, L. In the first example the dissonance is ut, in the second sol, and in the third mi; and these notes are already in the preceding chord (388)."
+        },
+        {
+          "article_id": "1778_v07_MUSIC_s12",
+          "headword": "MUSIC",
+          "direction": "next",
+          "start_page": 531,
+          "text_preview": "218. What is more, in the chord of the simple dominant, as re fa la ut, when the fifth sol is added they frequently obliterate the sounds fa and la, that too great a number of dissonances may be avoided, which reduces the chord to sol at re. This last is composed only of the fourth and the fifth. It is called a chord of the fourth, and it is figured with a 4. (See LXXX.)\n\n219. Sometimes they only remove the note la, and then the chord ought to be figured with 2 or 4 (qqq). Finally, in the minor mode, for example, in that of la, where the chord of the tonic dominant (109) is mi sol fa re; if we add to this chord the third at below, we shall have mi sol fa re, called the chord of the fifth redundant, and composed of a third, a fifth redundant, a seventh, and a ninth. It is figured with a 5, or +5. See LXXXI. (rrr).\n\n\u00a7 3. Of the Chord of the Diminished Seventh.\n\n221. In the minor mode, for instance, in that of la, mi a fifth from la is the tonic dominant (109), and carries the chord mi so",
+          "text_end": "to give any decision for either the one or the other of these methods of temperament, each of which appears to us to have its particular advantages. We shall only remark, that the choice of the one or the other must be left absolutely to the taste and inclination of the reader; without, however, admitting this choice to have any influence upon the principles of the system of music, which we have followed even till this period, and which must always subsist, whatever temperament we adopt.\nPart I."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1778_v07_BECAUSE_THE_EQUABLE_DESCRIPTION_OF_AREAS",
+      "headword": "BECAUSE THE EQUABLE DESCRIPTION OF AREAS",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 696,
+      "end_page": 701,
+      "word_count": 5586,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'BECAUSE THE EQUABLE DESCRIPTION OF AREAS' comes before 'MEDICINES'",
+      "text_preview": "e the equable description of areas indicates that a centre is respected by that force with which the body is most affected, and by which it is drawn back from its rectilinear motion, and retained in its orbit, we may always be allowed to use the equable description of areas as an indication of a centre about which all circular motion is performed in free spaces.\n\nTheor. IV. The centripetal forces of bodies which by equable motions describe different circles, tend to the centres of the same circl",
+      "text_end": ", they will come to the bottom at the same time; as appears from experiments. And therefore the celestial regions being perfectly void of air and exhalations, the planets and comets meeting no sensible resistance in those spaces, will continue their motions through them for an immense space of time.",
+      "full_text": "e the equable description of areas indicates that a centre is respected by that force with which the body is most affected, and by which it is drawn back from its rectilinear motion, and retained in its orbit, we may always be allowed to use the equable description of areas as an indication of a centre about which all circular motion is performed in free spaces.\n\nTheor. IV. The centripetal forces of bodies which by equable motions describe different circles, tend to the centres of the same circles; and are one to the other as the squares of the arcs described in equal times applied to the radii of circles.\u2014For these forces tend\ntend to the centres of the circles, (by theor. 2. and cor. 2. theor. 1.) and are to one another as the versed sines of the least arcs described in equal times, (by cor. 4. theor. 1.) that is, as the squares of the same arcs applied to the diameters of the circles, by one of the lemmas; and therefore, since those arcs are as arcs described in any equal times, and the diameters are as the radii, the forces will be as the squares of any arcs described in the same time, applied to the radius of the circles. Q. E. D.\n\nCor. 1. Therefore, since those arcs are as the velocities of the bodies, the centripetal forces are in a ratio compounded of the duplicate ratio of the velocities directly, and of the simple ratio of the radii inversely.\n\nCor. 2. And since the periodic times are in a ratio compounded of the ratio of the radii directly, and the ratio of the velocities inversely; the centripetal forces are in a ratio compounded of the ratio of the radii directly, and the duplicate ratio of the periodic times inversely.\n\nCor. 3. Whence, if the periodic times are equal, and the velocities therefore as the radii, the centripetal forces will be also as the radii; and the contrary.\n\nCor. 4. If the periodic times and the velocities are both in the subduplicate ratio of the radii, the centripetal forces will be equal among themselves; and the contrary.\n\nCor. ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "NEWFOREST",
+          "start_page": 686,
+          "end_page": 686
+        },
+        {
+          "headword": "NEWFOUNDLAND",
+          "start_page": 686,
+          "end_page": 687
+        },
+        {
+          "headword": "NEWMARKET",
+          "start_page": 687,
+          "end_page": 687
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "NIAGARA",
+          "start_page": 701
+        },
+        {
+          "headword": "NICARAGUA",
+          "start_page": 703
+        },
+        {
+          "headword": "NICARIA",
+          "start_page": 703
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_NEWMARKET",
+          "headword": "NEWMARKET",
+          "direction": "previous",
+          "start_page": 687,
+          "text_preview": "a town of England, partly in Cambridgeshire, and partly in Suffolk. It consists of one well-built street, seated on the great road, and full of inns. It is chiefly noted for its horse-races. E. Long. o. 25. N. Lat. 52. 16.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_NEWFOUNDLAND",
+          "headword": "NEWFOUNDLAND",
+          "direction": "previous",
+          "start_page": 686,
+          "text_preview": "a large island of North America, belonging to Great Britain, lying between 46\u00b0 50' and 51\u00b0 30' N. Lat. and between 53\u00b0 30' and 58\u00b0 20' W. Long. from London. The form is that of an irregular triangle, the base or south side being 80 leagues in extent; the east side is the longest; and the whole circumference about 150 leagues. It is bounded on the north by the Straits of Belleisle, which separate it from Labrador; on the east and south it hath the Atlantic Ocean, and on the west the Gulph of St Lawrence. The climate is rather severe; and the soil, at least on the sea-coast, which is all that we know of it, is poor and barren. A few kitchen vegetables with strawberries and raspberries are all its produce. The country within land is mountainous, and abounds with timber; there are several rivers which are plentifully stored with various sorts of fish, abundance of deep bays, and many good ports. St John's and Placentia are the two principal settlements, and at each of these there is a fort",
+          "text_end": "and traders employed in building, victualling, and repairing these vessels, are very numerous in the respective ports from which they sail. These circumstances justify the particular attention paid by government to this branch of the public service; in respect to which, that they may be well informed, an annual and very distinct account, by which the whole is seen at one view, is delivered by the proper officer to the governor of Newfoundland, that is, to the commodore of his majesty's squadron."
+        },
+        {
+          "article_id": "1778_v07_NEWFOREST",
+          "headword": "NEWFOREST",
+          "direction": "previous",
+          "start_page": 686,
+          "text_preview": "a part of Hampshire, lying on the English channel, opposite to the Isle of Wight. Newfoundland was made by William the Conqueror, who caused 36 churches, and all the houses belonging thereto, to be pulled down, that there might be no obstruction in hunting the game. It is now appropriated by act of parliament for the production of oaks, to be employed in building the royal navy.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_NIAGARA",
+          "headword": "NIAGARA",
+          "direction": "next",
+          "start_page": 701,
+          "text_preview": "a fort of North America taken from the French during the last war, which in a manner commands all the interior parts of the continent, and is a key to the whole of North America. It is situated on the lake Ontario; and about six leagues from it is the greatest cataract in the world, known by the name of the water-fall of Niagara. The river at this fall runs from S. S. E. to N. N. W., and the rock of the fall crosses it not in a right line, but forming a kind of figure like an hollow semicircle or horseshoe. Above the fall, in the middle of the river, is an island about 800 or 1000 feet long; the lower end of which is just at the perpendicular edge of the fall. On both sides of this island runs all the water that comes from the lakes of Canada; viz. Lake Superior, Lake Michigan, Lake Huron, and Lake Erie, which have some large rivers that open themselves into them. Before the water comes to this island, it runs but slowly compared with its motion afterwards, when it grows the most rapid",
+          "text_end": "of Attalus king of Pergamus, who overcame the Gallo-Greeks. He lived many years in Etolia, of which country he wrote a history. He wrote also many other works, of which only two are now remaining. The one is entitled Theriac\u00e6, describing in verse the accidents attending wounds made by venomous beasts, with the proper remedies; the other bearing the title of Alexipharmaca, wherein he treats poetically of poisons and their antidotes. This Nicander is not to be confounded with Nicander of Thyatira."
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1778_v07_TOBACCO_IS_MADE_UP_INTO_ROLLS_BY_THE_INHABITANTS_OF_THE_INTERIOR_PARTS_OF_AMERICA_BY",
+      "headword": "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 708,
+      "end_page": 708,
+      "word_count": 153,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY' comes after 'OPTICS'",
+      "text_preview": "o is made up into rolls by the inhabitants of the interior parts of America by means of a machine called a tobacco-wheel. With this machine they spin the leaves, after they are cured, into a twist of any size they think fit; and having folded it into rolls of about 20 pounds each, they lay it by for use. In this state it will keep for several years, and be continually improving, as it always grows milder. The Illinois usually form it into carrots; which is done by laying a number of leaves, when",
+      "text_end": "en taken out, and rolling them round with pack-thread till they become cemented together. These rolls commonly measure about 18 or 20 inches long, and nine round in the middle part.\n\nTobacco forms a very considerable article in commerce; for an account of which see the articles Glasgow and Virginia.",
+      "full_text": "o is made up into rolls by the inhabitants of the interior parts of America by means of a machine called a tobacco-wheel. With this machine they spin the leaves, after they are cured, into a twist of any size they think fit; and having folded it into rolls of about 20 pounds each, they lay it by for use. In this state it will keep for several years, and be continually improving, as it always grows milder. The Illinois usually form it into carrots; which is done by laying a number of leaves, when cured, on each other, after the ribs have been taken out, and rolling them round with pack-thread till they become cemented together. These rolls commonly measure about 18 or 20 inches long, and nine round in the middle part.\n\nTobacco forms a very considerable article in commerce; for an account of which see the articles Glasgow and Virginia.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "NIEPER",
+          "start_page": 708,
+          "end_page": 708
+        },
+        {
+          "headword": "NIESTER",
+          "start_page": 708,
+          "end_page": 708
+        },
+        {
+          "headword": "NIEUWENTYTT",
+          "start_page": 708,
+          "end_page": 709
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "NIGELLA",
+          "start_page": 709
+        },
+        {
+          "headword": "NIGER",
+          "start_page": 709
+        },
+        {
+          "headword": "NIGHT",
+          "start_page": 709
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_NIEUWENTYTT",
+          "headword": "NIEUWENTYTT",
+          "direction": "previous",
+          "start_page": 708,
+          "text_preview": "an able philosopher and learned mathematician, was born at Weilgraafstyk, in the year 1654, and became councillor and burgomaster of the town of Purmerend, where he was esteemed for his integrity and learning; and died in 1718. He wrote, in Dutch, 1. An excellent treatise, intitled, The Existence of God demonstrated by the works of nature. 2. A refutation of Spinoza. 3. Some pieces against the Infinitesimals, &c.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_NIESTER",
+          "headword": "NIESTER",
+          "direction": "previous",
+          "start_page": 708,
+          "text_preview": "a large river of Poland, which has its source in the Lake Neider, in the palatinat of Lem burg, where it passes by Halicz. Then it separates Podolia and Oczaikow Tartary from Moldavia and Budziac Tartary; and falls into the Black Sea at Belgorod, between the mouths of the Nieper and the Danube.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_NIEPER",
+          "headword": "NIEPER",
+          "direction": "previous",
+          "start_page": 708,
+          "text_preview": "a large river of Europe, and one of the most considerable of the North, formerly called the Borislavea. Its source is in the middle of Muscovy, running west by Smolenisko, as far as Orfa; and then turns south, passing by Mohilow, Bohaczew, Kiow, Czyrkassy, the fortres of Kudjak, Deffau, and Ocza- kow, falling into the Black Sea; as also in its course it divides Little Tartary from Budziac Tartary.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_NIGELLA",
+          "headword": "NIGELLA",
+          "direction": "next",
+          "start_page": 709,
+          "text_preview": "fennel-flower, or Devil in a bush, a genus of the pentagynia order, belonging to the polyandra clas of plants. There are five species, all of them natives of the warm parts of Europe, and rising from a foot to a foot and an half high, adorned with blue or yellow flowers. They are propagated by seeds, which in a dry and warm situation will thrive very well; and the plants ripen seeds in this country.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1778_v07_OSEL",
+      "headword": "OSEL",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 766,
+      "end_page": 766,
+      "word_count": 57,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'OSEL' comes after 'OPTICS'",
+      "text_preview": "an island of the Baltic sea, at the entrance of the gulf of Livonia. It is about 70 miles in length, and 50 in breadth, and contains 10 parishes. It is defended by the fortresses of Airensburg and Sonneburg. It is in between 22\u00b0 and 24\u00b0 of east longitude; and between 58\u00b0 and 59\u00b0 of north latitude.",
+      "text_end": "",
+      "full_text": "an island of the Baltic sea, at the entrance of the gulf of Livonia. It is about 70 miles in length, and 50 in breadth, and contains 10 parishes. It is defended by the fortresses of Airensburg and Sonneburg. It is in between 22\u00b0 and 24\u00b0 of east longitude; and between 58\u00b0 and 59\u00b0 of north latitude.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OENOTRIA",
+          "start_page": 766,
+          "end_page": 766
+        },
+        {
+          "headword": "OENOTRIDES",
+          "start_page": 766,
+          "end_page": 766
+        },
+        {
+          "headword": "OESOPHAGUS",
+          "start_page": 766,
+          "end_page": 766
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OETA",
+          "start_page": 767
+        },
+        {
+          "headword": "OETING",
+          "start_page": 767
+        },
+        {
+          "headword": "OFFA'S-DYKE",
+          "start_page": 767
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_OESOPHAGUS",
+          "headword": "OESOPHAGUS",
+          "direction": "previous",
+          "start_page": 766,
+          "text_preview": "in anatomy, the GULA, or Gullet, is a membranaceous canal, reaching from the fauces to the stomach, and conveying into it the food taken in at the mouth. See Anatomy, no 353.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_OENOTRIDES",
+          "headword": "OENOTRIDES",
+          "direction": "previous",
+          "start_page": 766,
+          "text_preview": "two small islands in the Tuscan sea, over-against Velia, a town of Lucania, called Pontia and Icilia; now Pensa and Ischia, on the coast of the Principato Citra, or to the west of Naples. So called from the Oenotrii, an ancient people of Italy.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_OENOTRIA",
+          "headword": "OENOTRIA",
+          "direction": "previous",
+          "start_page": 766,
+          "text_preview": "an ancient name of Italy; so called from the Oenotrii (Virgil); inhabiting between Poetum and Tarentum, (Ovid). Originally Arcadians, (Dionysius Halicarnassus), who came under the conduct of Oenotrus son of Lycaon, 17 generations before the war of Troy, or 459 years, at 27 years each generation, and gave name to the people. Cato derives the name from Oenotrus, king of the Sabines and Etruscans; but Varro from Oenotrus, king of the Latins; and Servius from the Greek name for wine, for which Italy was famous; of which opinion is Strabo.",
+          "text_end": " the Oenotrii (Virgil); inhabiting between Poetum and Tarentum, (Ovid). Originally Arcadians, (Dionysius Halicarnassus), who came under the conduct of Oenotrus son of Lycaon, 17 generations before the war of Troy, or 459 years, at 27 years each generation, and gave name to the people. Cato derives the name from Oenotrus, king of the Sabines and Etruscans; but Varro from Oenotrus, king of the Latins; and Servius from the Greek name for wine, for which Italy was famous; of which opinion is Strabo."
+        },
+        {
+          "article_id": "1778_v07_OETA",
+          "headword": "OETA",
+          "direction": "next",
+          "start_page": 767,
+          "text_preview": "a mountain of Thessaly, extending from Thermopylae westward to the Sinus Ambracius, and in some measure cutting at right angles the mountainous country stretching out between Parnassus to the south, and Pindus to the north. At Thermopylae it is very rough and high, rising and ending in sharp and steep rocks, affording a narrow passage between it and the sea from Thessaly to Locris (Strabo): with two paths over it; the one above Trachis, very steep and high; the other through the country of the Aenianes, much easier and readier for travellers; by this it was that Leonidas was attacked in rear by the Persians (Pausanias). Here Hercules laid himself on the funeral pile, (Silius Italicus, Ovid); the spot thence called Pyra, (Livy): who says, that the extreme mountains to the east are called Oeta; and hence the poets allege, that day, night, sun, and stars, arose from Oeta (Seneca, Statius, Silius Italicus, Catullus, Virgil's Culex.) Circumstances which show the height of this mountain.",
+          "text_end": "he Aenianes, much easier and readier for travellers; by this it was that Leonidas was attacked in rear by the Persians (Pausanias). Here Hercules laid himself on the funeral pile, (Silius Italicus, Ovid); the spot thence called Pyra, (Livy): who says, that the extreme mountains to the east are called Oeta; and hence the poets allege, that day, night, sun, and stars, arose from Oeta (Seneca, Statius, Silius Italicus, Catullus, Virgil's Culex.) Circumstances which show the height of this mountain."
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1778_v07_HISTORY_s2",
+      "headword": "HISTORY",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 781,
+      "end_page": 855,
+      "word_count": 73470,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'HISTORY' comes before 'MEDICINES'",
+      "text_preview": "\u00a7 1. Discoveries concerning the Light.\n\nThese are enumerated under the article Light so fully, that there is little room for any further addition here. The nature of that subtle element is indeed very little known as yet, notwithstanding all the endeavours of philosophers; and whatever side is taken with regard to it, whether we suppose it to consist of an infinity of small particles propagated by a repulsive power from the luminous body, or whether we suppose it to consist in the vibrations of ",
+      "text_end": "ts there formed, and consequently the visible area of the objects themselves. These equal rings, by reason of the equal eye-glasses, appear equal, and equally distant when seen separately by each eye; but when they are seen with both eyes, they appear much larger, and more distant also; and\nPart II.",
+      "full_text": "\u00a7 1. Discoveries concerning the Light.\n\nThese are enumerated under the article Light so fully, that there is little room for any further addition here. The nature of that subtle element is indeed very little known as yet, notwithstanding all the endeavours of philosophers; and whatever side is taken with regard to it, whether we suppose it to consist of an infinity of small particles propagated by a repulsive power from the luminous body, or whether we suppose it to consist in the vibrations of a subtle fluid, there are prodigious difficulties, almost, if not totally insuperable, which will attend the explanation of its phenomena. In many parts of this work the identity of light and of the electric fluid is asserted: this, however, doth not in the least interfere with the phenomena of optics; all of which are guided by the same invariable laws, whether we suppose light to be a vibration of that fluid, or any thing else. We shall therefore proceed to,\n\n\u00a7 2. Discoveries concerning the Refraction of Light.\n\nWe find that the ancients, though they made very few optical experiments, nevertheless knew, that when light passed through mediums of different densities, it did not move forward in a straight line, but was bent, or refracted, out of its course. This was probably suggested to them by the appearance of a straight stick partly immersed in water; and we find many questions concerning this and other optical appearances in Aristotle; to which, however, his answers are insignificant. Archimedes is even said to have written a treatise concerning the appearance of a ring or circle under water, and therefore could not have been ignorant of the common phenomena of refraction. But the ancients were not only acquainted with these more ordinary appearances of refraction, but knew also the production of colours by refracted light. Seneca says, that if the light of the sun shines through an angular piece of glass, it will show all the colours of the rainbow. These colours, howeve",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OPOPANAX",
+          "start_page": 780,
+          "end_page": 780
+        },
+        {
+          "headword": "OPPIANUS",
+          "start_page": 780,
+          "end_page": 780
+        },
+        {
+          "headword": "OPPILATION",
+          "start_page": 780,
+          "end_page": 781
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "OPTIC ANGLE",
+          "start_page": 781
+        },
+        {
+          "headword": "BD",
+          "start_page": 858
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_OPPILATION",
+          "headword": "OPPILATION",
+          "direction": "previous",
+          "start_page": 780,
+          "text_preview": "in medicine, the act of obstructing or stopping up the passages of the body, by redundant\nOPTIC\n\nOptative, abundant or peccant humours. This word is chiefly used for obstructions in the lower belly.\n\nOPTATIVE mood, in grammar, that which serves to express an ardent desire or wish for something.\n\nIn most languages, except the Greek, the optative is only expressed by prefixing to the subjunctive an adverb of wishing; as utinam, in Latin; pluit a Dieu, in French; and would to God, in English.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_OPPIANUS",
+          "headword": "OPPIANUS",
+          "direction": "previous",
+          "start_page": 780,
+          "text_preview": "a poet and grammarian of Anazarba in Cilicia, in the second century. He composed a poem of hunting, and another of fishing, for which Antoninus Caracalla gave him as many golden crowns as their were verses in his poems; they were called hence Oppian's golden verses. He died in the 36th year of his age.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_OPOPANAX",
+          "headword": "OPOPANAX",
+          "direction": "previous",
+          "start_page": 780,
+          "text_preview": "in the materia medica, is a gum resin of a tolerably firm texture, usually brought to us in loose granules or drops, and sometimes in large masses, formed of a number of these connected by a quantity of matter of the same kind; but these are usually loaded with extraneous matter, and are greatly inferior to the pure loose kind. The drops or granules of the fine-opopanax, are on the outside of a brownish-red colour, and of a dusky yellowish or whitish colour within: they are of a somewhat unctuous appearance, smooth on the surface; and are to be chosen in clear pieces, of a strong smell and acid taste.\n\nOpopanax is attenuating and diffeicient, and is gently purgative; it dispels flatulencies, and is good in asthmas, in inveterate coughs, and in disorders of the head and nerves. It also promotes the menes, and is good against all obstructions of the viscera.",
+          "text_end": "anax, are on the outside of a brownish-red colour, and of a dusky yellowish or whitish colour within: they are of a somewhat unctuous appearance, smooth on the surface; and are to be chosen in clear pieces, of a strong smell and acid taste.\n\nOpopanax is attenuating and diffeicient, and is gently purgative; it dispels flatulencies, and is good in asthmas, in inveterate coughs, and in disorders of the head and nerves. It also promotes the menes, and is good against all obstructions of the viscera."
+        },
+        {
+          "article_id": "1778_v07_OPTIC_ANGLE",
+          "headword": "OPTIC ANGLE",
+          "direction": "next",
+          "start_page": 781,
+          "text_preview": "the angle which the optic axes of both eyes make with one another, as they tend to meet at some distance before the eye.\n\nOptic Axis, the axis of the eye, or a line going through the middle of the pupil, and the centre of the eye.\n\nOPTICS;\n\nThat science which treats of element of the light, and the various phenomena of vision.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1778_v07_BD",
+      "headword": "BD",
+      "edition_year": 1778,
+      "volume_num": 7,
+      "start_page": 858,
+      "end_page": 858,
+      "word_count": 303,
+      "volume_range": "Medicines-Optics",
+      "effective_start": "MEDICINES",
+      "effective_end": "OPTICS",
+      "reason": "'BD' comes before 'MEDICINES'",
+      "text_preview": "DE, &c. and let the situation of the eye F be\nsuch, that the rays AB being refracted in passing thro'\nthe glass, may enter it in the direction BF, and the rays\nAC in the direction CF. Then will the eye, by means\nof the former, see the object in G, and by the latter in\nH; and by means of the rays AI, the object will ap-\npear also in its proper situation A.\n\nSECT. II. Of the Reflection of Light.\n\nWhen a ray of light falls upon any body, however\ntransparent, the whole of it never passes through the",
+      "text_end": "nsiderable quantity is also un-\naccountably lost or extinguished at each reflecting sur-\nface; insomuch that no body, however transparent, can\ntransmit all the rays which fall upon it; neither, tho'\nit be ever so well fitted for reflection, will it reflect them\nall.\n\n\u00a7 I. Of the Cause of Reflection.",
+      "full_text": "DE, &c. and let the situation of the eye F be\nsuch, that the rays AB being refracted in passing thro'\nthe glass, may enter it in the direction BF, and the rays\nAC in the direction CF. Then will the eye, by means\nof the former, see the object in G, and by the latter in\nH; and by means of the rays AI, the object will ap-\npear also in its proper situation A.\n\nSECT. II. Of the Reflection of Light.\n\nWhen a ray of light falls upon any body, however\ntransparent, the whole of it never passes through the\nbody, but some part is always driven back or reflected\nfrom it; and it is by this reflected light that all bo-\ndies which have no light of their own become visible\nto us. Of that part of the ray which enters, another\npart is also reflected from the second surface, or that\nwhich is farthest from the luminous body. When this\npart arrives again at the first surface, part of it is re-\nflected back from that surface; and thus it continues\nto be reflected between the two surfaces, and to pass\nbackwards and forwards within the substance of the\nmedium, till some part is totally extinguished and lost.\nBesides this inconsiderable quantity, however, which\nis lost in this manner, the second surface often reflects\nmuch more than the first; insomuch that, in certain po-\nsitions, scarce any rays will pass through both sides of\nthe medium. A very considerable quantity is also un-\naccountably lost or extinguished at each reflecting sur-\nface; insomuch that no body, however transparent, can\ntransmit all the rays which fall upon it; neither, tho'\nit be ever so well fitted for reflection, will it reflect them\nall.\n\n\u00a7 I. Of the Cause of Reflection.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "OPPILATION",
+          "start_page": 780,
+          "end_page": 781
+        },
+        {
+          "headword": "HISTORY",
+          "start_page": 781,
+          "end_page": 855
+        },
+        {
+          "headword": "OPTIC ANGLE",
+          "start_page": 781,
+          "end_page": 781
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1778_v07_OPTIC_ANGLE",
+          "headword": "OPTIC ANGLE",
+          "direction": "previous",
+          "start_page": 781,
+          "text_preview": "the angle which the optic axes of both eyes make with one another, as they tend to meet at some distance before the eye.\n\nOptic Axis, the axis of the eye, or a line going through the middle of the pupil, and the centre of the eye.\n\nOPTICS;\n\nThat science which treats of element of the light, and the various phenomena of vision.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1778_v07_HISTORY_s2",
+          "headword": "HISTORY",
+          "direction": "previous",
+          "start_page": 781,
+          "text_preview": "\u00a7 1. Discoveries concerning the Light.\n\nThese are enumerated under the article Light so fully, that there is little room for any further addition here. The nature of that subtle element is indeed very little known as yet, notwithstanding all the endeavours of philosophers; and whatever side is taken with regard to it, whether we suppose it to consist of an infinity of small particles propagated by a repulsive power from the luminous body, or whether we suppose it to consist in the vibrations of a subtle fluid, there are prodigious difficulties, almost, if not totally insuperable, which will attend the explanation of its phenomena. In many parts of this work the identity of light and of the electric fluid is asserted: this, however, doth not in the least interfere with the phenomena of optics; all of which are guided by the same invariable laws, whether we suppose light to be a vibration of that fluid, or any thing else. We shall therefore proceed to,\n\n\u00a7 2. Discoveries concerning the Re",
+          "text_end": " there is another phenomenon observable with this instrument, which is very remarkable. In the foci of the two telescopes there are two equal rings, as usual, which terminate the pictures of the objects there formed, and consequently the visible area of the objects themselves. These equal rings, by reason of the equal eye-glasses, appear equal, and equally distant when seen separately by each eye; but when they are seen with both eyes, they appear much larger, and more distant also; and\nPart II."
+        },
+        {
+          "article_id": "1778_v07_OPPILATION",
+          "headword": "OPPILATION",
+          "direction": "previous",
+          "start_page": 780,
+          "text_preview": "in medicine, the act of obstructing or stopping up the passages of the body, by redundant\nOPTIC\n\nOptative, abundant or peccant humours. This word is chiefly used for obstructions in the lower belly.\n\nOPTATIVE mood, in grammar, that which serves to express an ardent desire or wish for something.\n\nIn most languages, except the Greek, the optative is only expressed by prefixing to the subjunctive an adverb of wishing; as utinam, in Latin; pluit a Dieu, in French; and would to God, in English.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}

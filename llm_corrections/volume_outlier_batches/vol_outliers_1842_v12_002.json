@@ -1,0 +1,1648 @@
+{
+  "batch_id": "vol_outliers_1842_v12_002",
+  "created": "2026-01-09T17:22:40.445157",
+  "edition_year": 1842,
+  "volume_num": 12,
+  "item_count": 19,
+  "items": [
+    {
+      "item_num": 1,
+      "article_id": "1842_v12_GENUS_CALLORHYNCHUS",
+      "headword": "GENUS CALLORHYNCHUS",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 240,
+      "end_page": 241,
+      "word_count": 524,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS CALLORHYNCHUS' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Gronovius. Cuvier separates this from the last genus, to which it was united by Linnaeus. It is distinguished by its snout terminating in a fleshy...\nORDER II.\u2014CHONDROPTERYGII WITH FIXED BRANCHII.\n\nInstead of having the gills free at their external edge, in this order we find them fixed all round; and in respiration water is emitted through as many apertures as there are intervals between the rays. Another peculiarity of this order consists in the small cartilaginous arches suspended from the so",
+      "text_end": "seless, drops off. The males are provided with two peculiar organs, placed at the inner edge of the ventral fins. Some have supposed that these are intimately connected with the generative process; others regard them as mere holders, by means of which the female is more closely embraced by the male.",
+      "full_text": "Gronovius. Cuvier separates this from the last genus, to which it was united by Linnaeus. It is distinguished by its snout terminating in a fleshy...\nORDER II.\u2014CHONDROPTERYGII WITH FIXED BRANCHII.\n\nInstead of having the gills free at their external edge, in this order we find them fixed all round; and in respiration water is emitted through as many apertures as there are intervals between the rays. Another peculiarity of this order consists in the small cartilaginous arches suspended from the soft parts at the outer edge of the branchiae.\n\nThe Linnaean genera Squalus and Raia are the principal members of this order; but Cuvier and the later Ichthyologists have subdivided these into several genera, according to marked peculiarities in their anatomical structure.\n\nFAMILY I.\u2014SELACHII, OR PLAGIOSTOMI.\n\nThe palatal and post-mandibular bones support the teeth, while the bones corresponding to the jaws in other fishes are merely rudimentary. A single bone connects these jaws with the cranium, and represents at the same time tympana, jugal, and temporal bones. The os hyoides is attached to a single pedicle, and, as in ordinary fishes, supports the rays of the gills. The labyrinth is membranous, and included in the cartilaginous substance of the cranium; the sac attached to it does not contain, as in fishes, the porcelaneous concretions, but masses that are easily pulverized. The pancreas has the form of a conglomerate gland. The intestinal canal is short; but one part of the tube is furnished internally with a spiral lamina, that seems intended to prevent the too rapid passage of the food.\n\nThe Selachii have pectoral and ventral fins; the latter placed behind the abdomen, and on the sides of the anus.\n\nIn some respects their sexual intercourse resembles that of Mammalia. The females have well-developed oviducts, which serve the purpose of a matrix in the species whose young are perfected within the body; while in others the ovum is covered by a tough and horny envelope, to ",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "GENUS DIODON"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS DIODON",
+          "start_page": 238,
+          "end_page": 238
+        },
+        {
+          "headword": "GENUS TETRAODON",
+          "start_page": 238,
+          "end_page": 239
+        },
+        {
+          "headword": "GENUS ACIPENSER",
+          "start_page": 240,
+          "end_page": 240
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS CHIMERA",
+          "start_page": 240
+        },
+        {
+          "headword": "GENUS POLYODON",
+          "start_page": 240
+        },
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_ACIPENSER",
+          "headword": "GENUS ACIPENSER",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn.; Sturgeon. The general form of this genus resembles that of the sharks; but they are distinguished by longitudinal rows of bony plates or bosses implanted on the skin; the head is defended by similar plates; the mouth is small, and, as in sharks, placed below the snout; the palatal bones are united to the maxillaries, and vestiges of the inter-maxillaries may be traced in the lips, while the mouth is capable of some degree of projection, by its position on a style with three articulations. Instead of teeth, the mouth is furnished with a sort of horny process on the jaws. The nostrils and eyes are on the sides of the head; the muzzle is furnished with vermiform cirri. There is no vestige of an external ear, but the labyrinth is perfect within the bones of the head. The dorsal fin is behind the ventrals, and the anal immediately below the dorsal. The caudal fin surrounds the extremity of the spine, and its upper lobe is longer than the lower. Internally there exists the spiral inte",
+          "text_end": "w into those seas; but the large sturgeons sometimes caught in the northern seas appear also to belong to the same species. The best isinglass is formed of its air-bladder.\n\nThe following species, which are found in the rivers of North America, appear to be peculiar to that continent: (See Amer. Trans. vol. i.) Acipenser brevoistria, A. oxyrhynchus, A. maculosus, and A. rubicundus. The last of these appears to be the American representative of the A. ruthenus, the preceding one of the A. sturio."
+        },
+        {
+          "article_id": "1842_v12_GENUS_TETRAODON",
+          "headword": "GENUS TETRAODON",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Linn. Jaws divided in the centre by a suture, so as to exhibit the appearance of four teeth (from whence the name), two above and two below. The skin is armed merely by small spines, which project but little. Several species are regarded as poisonous.\n\nThe most anciently known is an Egyptian species, T. lineatus, Linn., which is thrown by the floods in vast numbers over the prolific banks of the Nile, where it afterwards gathered as a plaything by the children. According to Hasselquist, however, the Egyptians hold it in abhorrence, and believe that the use of its flesh as food is followed by death. The prickles of its skin produce a sensation like the stinging of nettles. In many Mahommedan countries another species, called T. hispidus by Lac\u00e9p\u00e9de, is fully inflated, then carefully dried, and afterwards suspended from the pinnacle of the minarets, where it serves the purpose of a weathercock. The hare tetraodon, as it is called (T. lagoecephalus, Linn.), appears to have been described ",
+          "text_end": "ingle dorsal and anal fin, each small of its kind.\n\nThese anomalous-looking fishes are sparingly supplied with flesh; but their liver is large, and yields an abundant supply of oil. Some are suspected of being poisonous. The species are called trunk-fish by our English writers. We here figure the horned trunk-fish, *Ostracion cornutus* of Linn. and Bloch, a native, like most of the genus, of the Indian and American seas. Plate CCCVI. fig. 13.\n\n---\n\n**SECOND GREAT SERIES OF THE CLASS OF FISHES.**"
+        },
+        {
+          "article_id": "1842_v12_GENUS_DIODON",
+          "headword": "GENUS DIODON",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Linn. The undivided jaws exhibit but one piece above and another below,\u2014from whence the generic name, which signifies two teeth. Behind each cutting edge is a rounded portion, transversely grooved, and forming a powerful instrument of mastication. The skin is armed on all sides by strong, pointed spines, so that, when inflated, these creatures bear a resemblance to a gigantic burr of a chestnut tree.\n\nThe species are numerous in the warmer seas. One of the most common is the Diodon atinga of Bloch, which measures about a foot in diameter. It inhabits the seas of India, America, and Southern Africa, and feeds on the smaller fishes, Crustacea, and shell-fish, the calcareous covering of which it breaks with great facility, by means of its robust and bony jaws. It is a dangerous species to meddle with, owing to the sudden and hedgehog-like manner in which it bristles up its spines. It seems synonymous with D. hystricis of Linn., commonly called the sea-porcupine, and was formerly a frequen",
+          "text_end": "n it swells itself up like a balloon, utters a dull sound like that produced by a turkey-cock while making its wheel, and then becomes exceedingly furious. It next has recourse to an opposite mode of action, by lowering its spines, disinflating its body, and becoming as loose and flabby as a wet glove. It resumes its activity, however, as soon as it perceives the fisherman drawing towards it, or feels itself being drawn towards the fisherman. In short it has a particular dislike to being killed."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CHIMERA",
+          "headword": "GENUS CHIMERA",
+          "direction": "next",
+          "start_page": 240,
+          "text_preview": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bones and tympana are merely rudimentary, attached to the sides of the muzzle. Instead of teeth, the mouth is furnished with undivided hard plates, of which four are above and two below. The snout resembles that of the shark, and also has regular ranges of pores. The first dorsal fin is armed with a strong spine, and is placed over the pectorals. The males, as in the Squali, are distinguished by the cartilaginous appendages of the ventral fins, divided into three branches, and have two spiny plates",
+          "text_end": "t is believed to feed on the numerous Mollusca and Crustacea of that sea. It is rarely taken, because it keeps much in deep water; but it has been occasionally caught among our northern islands, and is sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean."
+        }
+      ]
+    },
+    {
+      "item_num": 2,
+      "article_id": "1842_v12_GENUS_CHIMERA",
+      "headword": "GENUS CHIMERA",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 240,
+      "end_page": 240,
+      "word_count": 343,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS CHIMERA' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bon",
+      "text_end": "s sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean.",
+      "full_text": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bones and tympana are merely rudimentary, attached to the sides of the muzzle. Instead of teeth, the mouth is furnished with undivided hard plates, of which four are above and two below. The snout resembles that of the shark, and also has regular ranges of pores. The first dorsal fin is armed with a strong spine, and is placed over the pectorals. The males, as in the Squali, are distinguished by the cartilaginous appendages of the ventral fins, divided into three branches, and have two spiny plates before the base of the ventrals. These fish have also on their front a fleshy cruncle, garnished with a group of small prickles. The intestine of this genus is short, and has a spiral valve. The female lays eggs of a large size and coriaceous consistence, flattened, and hairy. The only species is Chimera borealis, or northern chimera. It is found in the Northern Ocean, where it is believed to feed on the numerous Mollusca and Crustacea of that sea. It is rarely taken, because it keeps much in deep water; but it has been occasionally caught among our northern islands, and is sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "GENUS TETRAODON"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS TETRAODON",
+          "start_page": 238,
+          "end_page": 239
+        },
+        {
+          "headword": "GENUS ACIPENSER",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS CALLORHYNCHUS",
+          "start_page": 240,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS POLYODON",
+          "start_page": 240
+        },
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241
+        },
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_CALLORHYNCHUS",
+          "headword": "GENUS CALLORHYNCHUS",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Gronovius. Cuvier separates this from the last genus, to which it was united by Linnaeus. It is distinguished by its snout terminating in a fleshy...\nORDER II.\u2014CHONDROPTERYGII WITH FIXED BRANCHII.\n\nInstead of having the gills free at their external edge, in this order we find them fixed all round; and in respiration water is emitted through as many apertures as there are intervals between the rays. Another peculiarity of this order consists in the small cartilaginous arches suspended from the soft parts at the outer edge of the branchiae.\n\nThe Linnaean genera Squalus and Raia are the principal members of this order; but Cuvier and the later Ichthyologists have subdivided these into several genera, according to marked peculiarities in their anatomical structure.\n\nFAMILY I.\u2014SELACHII, OR PLAGIOSTOMI.\n\nThe palatal and post-mandibular bones support the teeth, while the bones corresponding to the jaws in other fishes are merely rudimentary. A single bone connects these jaws with the cranium,",
+          "text_end": "egg, intended for the nourishment of the fetus. When the young animal becomes able to collect its own food, the coriaceous egg opens at one end, the creature escapes, and soon the bag, now empty and useless, drops off. The males are provided with two peculiar organs, placed at the inner edge of the ventral fins. Some have supposed that these are intimately connected with the generative process; others regard them as mere holders, by means of which the female is more closely embraced by the male."
+        },
+        {
+          "article_id": "1842_v12_GENUS_ACIPENSER",
+          "headword": "GENUS ACIPENSER",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn.; Sturgeon. The general form of this genus resembles that of the sharks; but they are distinguished by longitudinal rows of bony plates or bosses implanted on the skin; the head is defended by similar plates; the mouth is small, and, as in sharks, placed below the snout; the palatal bones are united to the maxillaries, and vestiges of the inter-maxillaries may be traced in the lips, while the mouth is capable of some degree of projection, by its position on a style with three articulations. Instead of teeth, the mouth is furnished with a sort of horny process on the jaws. The nostrils and eyes are on the sides of the head; the muzzle is furnished with vermiform cirri. There is no vestige of an external ear, but the labyrinth is perfect within the bones of the head. The dorsal fin is behind the ventrals, and the anal immediately below the dorsal. The caudal fin surrounds the extremity of the spine, and its upper lobe is longer than the lower. Internally there exists the spiral inte",
+          "text_end": "w into those seas; but the large sturgeons sometimes caught in the northern seas appear also to belong to the same species. The best isinglass is formed of its air-bladder.\n\nThe following species, which are found in the rivers of North America, appear to be peculiar to that continent: (See Amer. Trans. vol. i.) Acipenser brevoistria, A. oxyrhynchus, A. maculosus, and A. rubicundus. The last of these appears to be the American representative of the A. ruthenus, the preceding one of the A. sturio."
+        },
+        {
+          "article_id": "1842_v12_GENUS_TETRAODON",
+          "headword": "GENUS TETRAODON",
+          "direction": "previous",
+          "start_page": 238,
+          "text_preview": "Linn. Jaws divided in the centre by a suture, so as to exhibit the appearance of four teeth (from whence the name), two above and two below. The skin is armed merely by small spines, which project but little. Several species are regarded as poisonous.\n\nThe most anciently known is an Egyptian species, T. lineatus, Linn., which is thrown by the floods in vast numbers over the prolific banks of the Nile, where it afterwards gathered as a plaything by the children. According to Hasselquist, however, the Egyptians hold it in abhorrence, and believe that the use of its flesh as food is followed by death. The prickles of its skin produce a sensation like the stinging of nettles. In many Mahommedan countries another species, called T. hispidus by Lac\u00e9p\u00e9de, is fully inflated, then carefully dried, and afterwards suspended from the pinnacle of the minarets, where it serves the purpose of a weathercock. The hare tetraodon, as it is called (T. lagoecephalus, Linn.), appears to have been described ",
+          "text_end": "ingle dorsal and anal fin, each small of its kind.\n\nThese anomalous-looking fishes are sparingly supplied with flesh; but their liver is large, and yields an abundant supply of oil. Some are suspected of being poisonous. The species are called trunk-fish by our English writers. We here figure the horned trunk-fish, *Ostracion cornutus* of Linn. and Bloch, a native, like most of the genus, of the Indian and American seas. Plate CCCVI. fig. 13.\n\n---\n\n**SECOND GREAT SERIES OF THE CLASS OF FISHES.**"
+        },
+        {
+          "article_id": "1842_v12_GENUS_POLYODON",
+          "headword": "GENUS POLYODON",
+          "direction": "next",
+          "start_page": 240,
+          "text_preview": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+          "text_end": "ticulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length."
+        }
+      ]
+    },
+    {
+      "item_num": 3,
+      "article_id": "1842_v12_GENUS_POLYODON",
+      "headword": "GENUS POLYODON",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 240,
+      "end_page": 240,
+      "word_count": 162,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS POLYODON' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and fur",
+      "text_end": "ided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+      "full_text": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS ACIPENSER",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS CALLORHYNCHUS",
+          "start_page": 240,
+          "end_page": 241
+        },
+        {
+          "headword": "GENUS CHIMERA",
+          "start_page": 240,
+          "end_page": 240
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241
+        },
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241
+        },
+        {
+          "headword": "GENUS CEPHALOPTERA",
+          "start_page": 246
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_CHIMERA",
+          "headword": "GENUS CHIMERA",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bones and tympana are merely rudimentary, attached to the sides of the muzzle. Instead of teeth, the mouth is furnished with undivided hard plates, of which four are above and two below. The snout resembles that of the shark, and also has regular ranges of pores. The first dorsal fin is armed with a strong spine, and is placed over the pectorals. The males, as in the Squali, are distinguished by the cartilaginous appendages of the ventral fins, divided into three branches, and have two spiny plates",
+          "text_end": "t is believed to feed on the numerous Mollusca and Crustacea of that sea. It is rarely taken, because it keeps much in deep water; but it has been occasionally caught among our northern islands, and is sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CALLORHYNCHUS",
+          "headword": "GENUS CALLORHYNCHUS",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Gronovius. Cuvier separates this from the last genus, to which it was united by Linnaeus. It is distinguished by its snout terminating in a fleshy...\nORDER II.\u2014CHONDROPTERYGII WITH FIXED BRANCHII.\n\nInstead of having the gills free at their external edge, in this order we find them fixed all round; and in respiration water is emitted through as many apertures as there are intervals between the rays. Another peculiarity of this order consists in the small cartilaginous arches suspended from the soft parts at the outer edge of the branchiae.\n\nThe Linnaean genera Squalus and Raia are the principal members of this order; but Cuvier and the later Ichthyologists have subdivided these into several genera, according to marked peculiarities in their anatomical structure.\n\nFAMILY I.\u2014SELACHII, OR PLAGIOSTOMI.\n\nThe palatal and post-mandibular bones support the teeth, while the bones corresponding to the jaws in other fishes are merely rudimentary. A single bone connects these jaws with the cranium,",
+          "text_end": "egg, intended for the nourishment of the fetus. When the young animal becomes able to collect its own food, the coriaceous egg opens at one end, the creature escapes, and soon the bag, now empty and useless, drops off. The males are provided with two peculiar organs, placed at the inner edge of the ventral fins. Some have supposed that these are intimately connected with the generative process; others regard them as mere holders, by means of which the female is more closely embraced by the male."
+        },
+        {
+          "article_id": "1842_v12_GENUS_ACIPENSER",
+          "headword": "GENUS ACIPENSER",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn.; Sturgeon. The general form of this genus resembles that of the sharks; but they are distinguished by longitudinal rows of bony plates or bosses implanted on the skin; the head is defended by similar plates; the mouth is small, and, as in sharks, placed below the snout; the palatal bones are united to the maxillaries, and vestiges of the inter-maxillaries may be traced in the lips, while the mouth is capable of some degree of projection, by its position on a style with three articulations. Instead of teeth, the mouth is furnished with a sort of horny process on the jaws. The nostrils and eyes are on the sides of the head; the muzzle is furnished with vermiform cirri. There is no vestige of an external ear, but the labyrinth is perfect within the bones of the head. The dorsal fin is behind the ventrals, and the anal immediately below the dorsal. The caudal fin surrounds the extremity of the spine, and its upper lobe is longer than the lower. Internally there exists the spiral inte",
+          "text_end": "w into those seas; but the large sturgeons sometimes caught in the northern seas appear also to belong to the same species. The best isinglass is formed of its air-bladder.\n\nThe following species, which are found in the rivers of North America, appear to be peculiar to that continent: (See Amer. Trans. vol. i.) Acipenser brevoistria, A. oxyrhynchus, A. maculosus, and A. rubicundus. The last of these appears to be the American representative of the A. ruthenus, the preceding one of the A. sturio."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SQUALUS",
+          "headword": "GENUS SQUALUS",
+          "direction": "next",
+          "start_page": 241,
+          "text_preview": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+          "text_end": "of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows."
+        }
+      ]
+    },
+    {
+      "item_num": 4,
+      "article_id": "1842_v12_GENUS_SQUALUS",
+      "headword": "GENUS SQUALUS",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 241,
+      "end_page": 241,
+      "word_count": 134,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS SQUALUS' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended i",
+      "text_end": "s suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+      "full_text": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS CALLORHYNCHUS",
+          "start_page": 240,
+          "end_page": 241
+        },
+        {
+          "headword": "GENUS CHIMERA",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS POLYODON",
+          "start_page": 240,
+          "end_page": 240
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241
+        },
+        {
+          "headword": "GENUS CEPHALOPTERA",
+          "start_page": 246
+        },
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_POLYODON",
+          "headword": "GENUS POLYODON",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+          "text_end": "ticulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CHIMERA",
+          "headword": "GENUS CHIMERA",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bones and tympana are merely rudimentary, attached to the sides of the muzzle. Instead of teeth, the mouth is furnished with undivided hard plates, of which four are above and two below. The snout resembles that of the shark, and also has regular ranges of pores. The first dorsal fin is armed with a strong spine, and is placed over the pectorals. The males, as in the Squali, are distinguished by the cartilaginous appendages of the ventral fins, divided into three branches, and have two spiny plates",
+          "text_end": "t is believed to feed on the numerous Mollusca and Crustacea of that sea. It is rarely taken, because it keeps much in deep water; but it has been occasionally caught among our northern islands, and is sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CALLORHYNCHUS",
+          "headword": "GENUS CALLORHYNCHUS",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Gronovius. Cuvier separates this from the last genus, to which it was united by Linnaeus. It is distinguished by its snout terminating in a fleshy...\nORDER II.\u2014CHONDROPTERYGII WITH FIXED BRANCHII.\n\nInstead of having the gills free at their external edge, in this order we find them fixed all round; and in respiration water is emitted through as many apertures as there are intervals between the rays. Another peculiarity of this order consists in the small cartilaginous arches suspended from the soft parts at the outer edge of the branchiae.\n\nThe Linnaean genera Squalus and Raia are the principal members of this order; but Cuvier and the later Ichthyologists have subdivided these into several genera, according to marked peculiarities in their anatomical structure.\n\nFAMILY I.\u2014SELACHII, OR PLAGIOSTOMI.\n\nThe palatal and post-mandibular bones support the teeth, while the bones corresponding to the jaws in other fishes are merely rudimentary. A single bone connects these jaws with the cranium,",
+          "text_end": "egg, intended for the nourishment of the fetus. When the young animal becomes able to collect its own food, the coriaceous egg opens at one end, the creature escapes, and soon the bag, now empty and useless, drops off. The males are provided with two peculiar organs, placed at the inner edge of the ventral fins. Some have supposed that these are intimately connected with the generative process; others regard them as mere holders, by means of which the female is more closely embraced by the male."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SYLLIUM",
+          "headword": "GENUS SYLLIUM",
+          "direction": "next",
+          "start_page": 241,
+          "text_preview": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dorsals; the tail is elongated, truncated, not forked.\n\nThe most common on our coasts are the following species.\n\nSq. conicula, L.; greater spotted dog-fish, P. This common and prolific species is very numerous on the northern and western coasts of Britain. The colour of the male is dusky, with numerous distinct small, blackish spots: the female, of which some naturalists have made another species, is larger than the male, of a more red hue, variegated with deep-brown spots disposed in an ocellated",
+          "text_end": " lbs. It is said to swim with a slow sailing motion, and when captured vibrates its tail with great activity. It yields much fine oil. Inhabits the Mediterranean, the Atlantic, and Indian Oceans. To this division also we must refer the following species:\n\nR. guttata, Shaw, Plate CCCVII. fig. 10, synonymous with the Eel-Tenkee of Russel; R. fasciata, Shaw; Myl. bovinia, and Myl. marginata, Geof.; which last has the snout cleft into two short lobes, and belongs to the sub-genus Rhinoptera of Kuhl."
+        }
+      ]
+    },
+    {
+      "item_num": 5,
+      "article_id": "1842_v12_GENUS_SYLLIUM",
+      "headword": "GENUS SYLLIUM",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 241,
+      "end_page": 246,
+      "word_count": 5759,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS SYLLIUM' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dor",
+      "text_end": "his division also we must refer the following species:\n\nR. guttata, Shaw, Plate CCCVII. fig. 10, synonymous with the Eel-Tenkee of Russel; R. fasciata, Shaw; Myl. bovinia, and Myl. marginata, Geof.; which last has the snout cleft into two short lobes, and belongs to the sub-genus Rhinoptera of Kuhl.",
+      "full_text": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dorsals; the tail is elongated, truncated, not forked.\n\nThe most common on our coasts are the following species.\n\nSq. conicula, L.; greater spotted dog-fish, P. This common and prolific species is very numerous on the northern and western coasts of Britain. The colour of the male is dusky, with numerous distinct small, blackish spots: the female, of which some naturalists have made another species, is larger than the male, of a more red hue, variegated with deep-brown spots disposed in an ocellated pattern on the sides. The ventral fins of this species have the edge cut obliquely.\n\nSq. catulus, et Sq. stellaris, are also the male and female of another species not uncommon on our coasts. This species differs from the last in size. The spots on its surface are fuller and broader; the ventral fins are more square at the edge.\n\nTo this sub-genus belong several other Squali, natives of foreign seas. They are distinguished by the position of the anal fin, which is placed behind the second dorsal; the spiracles are remarkably small; the fifth branchial aperture is often concealed in the fourth, and the lobes of the nostrils are usually prolonged into cirri.\n\nAmong the species are Sq. pendulatus; Sq. Isabella, Shaw; Sq. cirratus, Linn.; Sq. lebetus; and Sq. tigrinus, Lacep., or Squalus fasciatus of Bloch.\n\nThis last is one of the most beautiful of the order, and has been observed of the length of fourteen or fifteen feet, with a large and blunt head, and tapering body. (See Plate CCCVII",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS CHIMERA",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS POLYODON",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241,
+          "end_page": 241
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS CEPHALOPTERA",
+          "start_page": 246
+        },
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        },
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_SQUALUS",
+          "headword": "GENUS SQUALUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+          "text_end": "of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows."
+        },
+        {
+          "article_id": "1842_v12_GENUS_POLYODON",
+          "headword": "GENUS POLYODON",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+          "text_end": "ticulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CHIMERA",
+          "headword": "GENUS CHIMERA",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Linn. This genus has a strong affinity to the Squali in general shape, and in the position of the fins, but the gills have only one aperture on each side; yet, on inspecting more accurately, we see that the rays are attached by most of the edges, and that there are really five holes opening into the bottom of a general cavity. A rudiment of an operculum is found in the skin; the jaws are still less complex than in the Squali; for the upper jaw is represented only by the vomer, and the palate bones and tympana are merely rudimentary, attached to the sides of the muzzle. Instead of teeth, the mouth is furnished with undivided hard plates, of which four are above and two below. The snout resembles that of the shark, and also has regular ranges of pores. The first dorsal fin is armed with a strong spine, and is placed over the pectorals. The males, as in the Squali, are distinguished by the cartilaginous appendages of the ventral fins, divided into three branches, and have two spiny plates",
+          "text_end": "t is believed to feed on the numerous Mollusca and Crustacea of that sea. It is rarely taken, because it keeps much in deep water; but it has been occasionally caught among our northern islands, and is sometimes seen of the length of three or four feet. Its head is the thickest part of the body, whence it tapers uniformly to the tail. It is most common on the coasts of Norway, where its eggs are eaten, and the oil of its liver is used as a stimulant emulsion. It also occurs in the Mediterranean."
+        },
+        {
+          "article_id": "1842_v12_GENUS_CEPHALOPTERA",
+          "headword": "GENUS CEPHALOPTERA",
+          "direction": "next",
+          "start_page": 246,
+          "text_preview": "Dum. The last division of the rays is distinguished by the bifurcation of the appendages to the head, derived from the pectorals, which give the species the appearance of being horned. The head is truncated between these projections; the teeth are less strong than those of Pastinaca, and are finely crenulated on the edges; the tail, spine, and small dorsal fin, resemble those of Myliobatis.\n\nThe best known is the gigantic Chephal, giorna of the Mediterranean, the back of which is blackish, bordered with violet. (Plate CCCVII. fig. 11.) The animals which are mentioned by Shaw as Raia manatia, R. fabroniana, and R. Banksiana, are considered by Cuvier as doubtful species. It is probable that the R. diabolus of Willughby, described by Duhamel, and said also to occur at the Azores, may be a distinct species, or perhaps the same as the Ere-goodoo-Tenkee of Russel, which Cuvier is disposed to consider as a species well established. Ch. massena of Risso is a Mediterranean species, twelve feet ",
+          "text_end": "ecognisable in Squatius and Raia, are in them fully developed, and united together into a sort of lattice. The gills, instead of the pectinated form they have in almost all other fishes, exhibit the appearance of little sacs, from the union of each gill with that adjacent. The labyrinth is enclosed in the cranium, the nostrils have only a single aperture, in front of which is a cul-de-sac, mistaken by some authors for a temporal orifice. The intestine is straight and narrow, with a spiral valve."
+        }
+      ]
+    },
+    {
+      "item_num": 6,
+      "article_id": "1842_v12_GENUS_CEPHALOPTERA",
+      "headword": "GENUS CEPHALOPTERA",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 246,
+      "end_page": 246,
+      "word_count": 428,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS CEPHALOPTERA' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Dum. The last division of the rays is distinguished by the bifurcation of the appendages to the head, derived from the pectorals, which give the species the appearance of being horned. The head is truncated between these projections; the teeth are less strong than those of Pastinaca, and are finely crenulated on the edges; the tail, spine, and small dorsal fin, resemble those of Myliobatis.\n\nThe best known is the gigantic Chephal, giorna of the Mediterranean, the back of which is blackish, borde",
+      "text_end": "ppearance of little sacs, from the union of each gill with that adjacent. The labyrinth is enclosed in the cranium, the nostrils have only a single aperture, in front of which is a cul-de-sac, mistaken by some authors for a temporal orifice. The intestine is straight and narrow, with a spiral valve.",
+      "full_text": "Dum. The last division of the rays is distinguished by the bifurcation of the appendages to the head, derived from the pectorals, which give the species the appearance of being horned. The head is truncated between these projections; the teeth are less strong than those of Pastinaca, and are finely crenulated on the edges; the tail, spine, and small dorsal fin, resemble those of Myliobatis.\n\nThe best known is the gigantic Chephal, giorna of the Mediterranean, the back of which is blackish, bordered with violet. (Plate CCCVII. fig. 11.) The animals which are mentioned by Shaw as Raia manatia, R. fabroniana, and R. Banksiana, are considered by Cuvier as doubtful species. It is probable that the R. diabolus of Willughby, described by Duhamel, and said also to occur at the Azores, may be a distinct species, or perhaps the same as the Ere-goodoo-Tenkee of Russel, which Cuvier is disposed to consider as a species well established. Ch. massena of Risso is a Mediterranean species, twelve feet long and twenty-seven in circumference. The female weighs 1250 lbs., the male about 800 lbs. Top of the horns black, the base bluish externally, and white on their inner sides. Of the pair described by Risso, the female was first taken; and the author adds, that the male continued constantly about the boat for three days, as if bewailing the fate of his companion, and was then found floating dead.\n\nFAMILY II.\u2014CYCLOSTOMI, OR SUCKERS.\n\nThe suckers, as far as their skeleton is concerned, are the most imperfect of all vertebrate animals. The bodies of all their vertebrae are traversed by a single tendinous cord, uniformly tapering from head to tail, which almost reduces the vertebrae to cartilaginous rings, scarcely distinct from one another, and not even cartilaginous through their whole circumference. The body is terminated abruptly in front by a fleshy circular or semicircular mouth, supported on a cartilaginous ring formed by the union of the palatal and maxillary bones. No ribs are di",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "high",
+        "reason": "Headword matches fragment pattern: ^(GENUS|ORDER|CLASS|SPECIES|FAMILY)\\s+[IVXLC\\d]+",
+        "merge_target": "GENUS POLYODON"
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS POLYODON",
+          "start_page": 240,
+          "end_page": 240
+        },
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241,
+          "end_page": 246
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        },
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        },
+        {
+          "headword": "ICHTHYOPHAGI",
+          "start_page": 249
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_SYLLIUM",
+          "headword": "GENUS SYLLIUM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dorsals; the tail is elongated, truncated, not forked.\n\nThe most common on our coasts are the following species.\n\nSq. conicula, L.; greater spotted dog-fish, P. This common and prolific species is very numerous on the northern and western coasts of Britain. The colour of the male is dusky, with numerous distinct small, blackish spots: the female, of which some naturalists have made another species, is larger than the male, of a more red hue, variegated with deep-brown spots disposed in an ocellated",
+          "text_end": " lbs. It is said to swim with a slow sailing motion, and when captured vibrates its tail with great activity. It yields much fine oil. Inhabits the Mediterranean, the Atlantic, and Indian Oceans. To this division also we must refer the following species:\n\nR. guttata, Shaw, Plate CCCVII. fig. 10, synonymous with the Eel-Tenkee of Russel; R. fasciata, Shaw; Myl. bovinia, and Myl. marginata, Geof.; which last has the snout cleft into two short lobes, and belongs to the sub-genus Rhinoptera of Kuhl."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SQUALUS",
+          "headword": "GENUS SQUALUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+          "text_end": "of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows."
+        },
+        {
+          "article_id": "1842_v12_GENUS_POLYODON",
+          "headword": "GENUS POLYODON",
+          "direction": "previous",
+          "start_page": 240,
+          "text_preview": "Lac\u00e9p.; SPATULARIA, Shaw. This genus, which consists but of a single species, is at once recognised by the enormous prolongation of its snout, which has a dilated middle, something resembling the leaf of a tree when viewed from above. The habit of the body resembles the sturgeon; but the spinal column is formed of one piece, as in the lamprey. The upper jaw is formed of the maxillary and palate bones united together, and the pedicle of the mouth has two articulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length.",
+          "text_end": "ticulations; the mouth is small, and furnished with numerous minute teeth. The spiracle is wide, and covered by a very large, soft operculum, extending to the middle of the body. The intestine is provided with the spiral valve, so frequent among the Chondropterygii; but the pancreas exhibits the commencement of a subdivision into lobules. The existence of an air-bladder sufficiently distinguishes it from the Squali. It has only been found in the Mississippi, and does not exceed a foot in length."
+        },
+        {
+          "article_id": "1842_v12_GENUS_PETROMYZON",
+          "headword": "GENUS PETROMYZON",
+          "direction": "next",
+          "start_page": 246,
+          "text_preview": "Linn. This genus is distinguished by seven branchial apertures on each side; the skin above and below the tail is elevated in a rayless fin. The sub-genera are the following:",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 7,
+      "article_id": "1842_v12_GENUS_PETROMYZON",
+      "headword": "GENUS PETROMYZON",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 246,
+      "end_page": 246,
+      "word_count": 30,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS PETROMYZON' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Linn. This genus is distinguished by seven branchial apertures on each side; the skin above and below the tail is elevated in a rayless fin. The sub-genera are the following:",
+      "text_end": "",
+      "full_text": "Linn. This genus is distinguished by seven branchial apertures on each side; the skin above and below the tail is elevated in a rayless fin. The sub-genera are the following:",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS SQUALUS",
+          "start_page": 241,
+          "end_page": 241
+        },
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241,
+          "end_page": 246
+        },
+        {
+          "headword": "GENUS CEPHALOPTERA",
+          "start_page": 246,
+          "end_page": 246
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246
+        },
+        {
+          "headword": "ICHTHYOPHAGI",
+          "start_page": 249
+        },
+        {
+          "headword": "ICHTHYPERIA",
+          "start_page": 250
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_CEPHALOPTERA",
+          "headword": "GENUS CEPHALOPTERA",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "Dum. The last division of the rays is distinguished by the bifurcation of the appendages to the head, derived from the pectorals, which give the species the appearance of being horned. The head is truncated between these projections; the teeth are less strong than those of Pastinaca, and are finely crenulated on the edges; the tail, spine, and small dorsal fin, resemble those of Myliobatis.\n\nThe best known is the gigantic Chephal, giorna of the Mediterranean, the back of which is blackish, bordered with violet. (Plate CCCVII. fig. 11.) The animals which are mentioned by Shaw as Raia manatia, R. fabroniana, and R. Banksiana, are considered by Cuvier as doubtful species. It is probable that the R. diabolus of Willughby, described by Duhamel, and said also to occur at the Azores, may be a distinct species, or perhaps the same as the Ere-goodoo-Tenkee of Russel, which Cuvier is disposed to consider as a species well established. Ch. massena of Risso is a Mediterranean species, twelve feet ",
+          "text_end": "ecognisable in Squatius and Raia, are in them fully developed, and united together into a sort of lattice. The gills, instead of the pectinated form they have in almost all other fishes, exhibit the appearance of little sacs, from the union of each gill with that adjacent. The labyrinth is enclosed in the cranium, the nostrils have only a single aperture, in front of which is a cul-de-sac, mistaken by some authors for a temporal orifice. The intestine is straight and narrow, with a spiral valve."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SYLLIUM",
+          "headword": "GENUS SYLLIUM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dorsals; the tail is elongated, truncated, not forked.\n\nThe most common on our coasts are the following species.\n\nSq. conicula, L.; greater spotted dog-fish, P. This common and prolific species is very numerous on the northern and western coasts of Britain. The colour of the male is dusky, with numerous distinct small, blackish spots: the female, of which some naturalists have made another species, is larger than the male, of a more red hue, variegated with deep-brown spots disposed in an ocellated",
+          "text_end": " lbs. It is said to swim with a slow sailing motion, and when captured vibrates its tail with great activity. It yields much fine oil. Inhabits the Mediterranean, the Atlantic, and Indian Oceans. To this division also we must refer the following species:\n\nR. guttata, Shaw, Plate CCCVII. fig. 10, synonymous with the Eel-Tenkee of Russel; R. fasciata, Shaw; Myl. bovinia, and Myl. marginata, Geof.; which last has the snout cleft into two short lobes, and belongs to the sub-genus Rhinoptera of Kuhl."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SQUALUS",
+          "headword": "GENUS SQUALUS",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Linn.; Shark. This forms the first great genus of our present order. The general form is elongated; the tail is thick, with the spinal column continued into the upper lobe; the pectoral fins are of considerable size; the spiracles are on the sides of the neck; and the eyes on each side of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows.",
+          "text_end": "of the head. The muzzle is supported by three cartilaginous projections, proceeding from the anterior part of the cranium; and we can easily observe in the skeleton the rudimentary jaws. The scapula is suspended in the flesh behind the gills. Some of the sharks are oviparous, while others are viviparous. Distinct but small branchial rays; there are rudiments of ribs along the spine; and that column is divided into regular vertebrae.\n\nThe original genus is numerous, and may be divided as follows."
+        },
+        {
+          "article_id": "1842_v12_GENUS_PETROMYZON_s2",
+          "headword": "GENUS PETROMYZON",
+          "direction": "next",
+          "start_page": 246,
+          "text_preview": "Dum. or LAMPREY properly so called. Maxillary ring armed with strong teeth, within which are tubercles, with a hard enamel lining the lips. This ring is suspended by a piece answering to an inter-maxillary bone. The tongue is furnished with two longitudinal ranges of small teeth, and is capable of vigorous motion. The tongue acting like a piston in the circular mouth, is an essential part of the mechanism by which the fish is enabled to attach itself firmly to stones, or to fasten itself to the larger fishes, which it is thus enabled to suck and devour at its leisure. In respiration, the water is carried from the mouth to the gills by a canal under the gullet, and pierced with lateral apertures. The dorsal fin is farther forward than the anus, and a second unites with the tail. The European species are,\n\nP. marinus, the greater lamprey, which grows to the length of more than three feet. (Plate CCCVII. fig. 12.) It is considered as a delicate food, and is caught as it ascends rivers in ",
+          "text_end": "ros | 169 | Ruffe | 169 |\n| Percinidae | 166 | Salanx | 200 |\n| Jugularis | 170 | Salaris | 192 |\n| Abdominalis | 171 | Sannoidei | 204 |\n| Perch | 167 | Salmonidae | 204 |\n| common | 167 | Salmonidae | 203 |\n| sea | 167 | Sand-smelt | 192 |\n| black | 187 | Sand-eel | 227 |\n| Microstoma | 200 | Percis | 171 |\n| Miller's thumb | 173 | Percophis | 171 |\n| Periophthalmus | 194 | Sauridae | 234 |\n| Peristedion | 173 | Scad | 186 |\n| Petromyzon | 236 | Scampi | 182 |\n| Physicis | 219 | Scarus | 196 |"
+        }
+      ]
+    },
+    {
+      "item_num": 8,
+      "article_id": "1842_v12_GENUS_PETROMYZON_s2",
+      "headword": "GENUS PETROMYZON",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 246,
+      "end_page": 249,
+      "word_count": 3973,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'GENUS PETROMYZON' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Dum. or LAMPREY properly so called. Maxillary ring armed with strong teeth, within which are tubercles, with a hard enamel lining the lips. This ring is suspended by a piece answering to an inter-maxillary bone. The tongue is furnished with two longitudinal ranges of small teeth, and is capable of vigorous motion. The tongue acting like a piston in the circular mouth, is an essential part of the mechanism by which the fish is enabled to attach itself firmly to stones, or to fasten itself to the ",
+      "text_end": " | 203 |\n| sea | 167 | Sand-smelt | 192 |\n| black | 187 | Sand-eel | 227 |\n| Microstoma | 200 | Percis | 171 |\n| Miller's thumb | 173 | Percophis | 171 |\n| Periophthalmus | 194 | Sauridae | 234 |\n| Peristedion | 173 | Scad | 186 |\n| Petromyzon | 236 | Scampi | 182 |\n| Physicis | 219 | Scarus | 196 |",
+      "full_text": "Dum. or LAMPREY properly so called. Maxillary ring armed with strong teeth, within which are tubercles, with a hard enamel lining the lips. This ring is suspended by a piece answering to an inter-maxillary bone. The tongue is furnished with two longitudinal ranges of small teeth, and is capable of vigorous motion. The tongue acting like a piston in the circular mouth, is an essential part of the mechanism by which the fish is enabled to attach itself firmly to stones, or to fasten itself to the larger fishes, which it is thus enabled to suck and devour at its leisure. In respiration, the water is carried from the mouth to the gills by a canal under the gullet, and pierced with lateral apertures. The dorsal fin is farther forward than the anus, and a second unites with the tail. The European species are,\n\nP. marinus, the greater lamprey, which grows to the length of more than three feet. (Plate CCCVII. fig. 12.) It is considered as a delicate food, and is caught as it ascends rivers in the end of winter and spring. Colour yellowish, marbled with brown. First dorsal fin very distinct from the second. This fish is common in the Severn, and in the mouths of many European rivers. Its supposed hermaphroditism is mentioned by Sir Everard Home.\n\nP. fluviatilis, the lampern, or nine-eyed eel. Length from twelve to eighteen inches; olive back, silvery below; first dorsal distinct from the second. Two thick teeth, separate, in the top of the maxillary ring. Ascends rivers from the sea; swarms in the Thames, Severn, and Dee. Vast quantities taken in England are sold to the Dutch for the turbot fishery. It abounds in the rivers on the southern side of\n\n---\n\nThere is no doubt, however, that one or other of those names refers to an existing though obscurely known species, of enormous size. A specimen of the Bankian ray is said to have been found on the coast of Barbadoes, of such a vast weight that seven yoke of oxen were required to draw it. A figure of the Ceph. manitius was sen",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "GENUS SYLLIUM",
+          "start_page": 241,
+          "end_page": 246
+        },
+        {
+          "headword": "GENUS CEPHALOPTERA",
+          "start_page": 246,
+          "end_page": 246
+        },
+        {
+          "headword": "GENUS PETROMYZON",
+          "start_page": 246,
+          "end_page": 246
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "ICHTHYOPHAGI",
+          "start_page": 249
+        },
+        {
+          "headword": "ICHTHYPERIA",
+          "start_page": 250
+        },
+        {
+          "headword": "ICONIUM",
+          "start_page": 250
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_GENUS_PETROMYZON",
+          "headword": "GENUS PETROMYZON",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "Linn. This genus is distinguished by seven branchial apertures on each side; the skin above and below the tail is elevated in a rayless fin. The sub-genera are the following:",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_GENUS_CEPHALOPTERA",
+          "headword": "GENUS CEPHALOPTERA",
+          "direction": "previous",
+          "start_page": 246,
+          "text_preview": "Dum. The last division of the rays is distinguished by the bifurcation of the appendages to the head, derived from the pectorals, which give the species the appearance of being horned. The head is truncated between these projections; the teeth are less strong than those of Pastinaca, and are finely crenulated on the edges; the tail, spine, and small dorsal fin, resemble those of Myliobatis.\n\nThe best known is the gigantic Chephal, giorna of the Mediterranean, the back of which is blackish, bordered with violet. (Plate CCCVII. fig. 11.) The animals which are mentioned by Shaw as Raia manatia, R. fabroniana, and R. Banksiana, are considered by Cuvier as doubtful species. It is probable that the R. diabolus of Willughby, described by Duhamel, and said also to occur at the Azores, may be a distinct species, or perhaps the same as the Ere-goodoo-Tenkee of Russel, which Cuvier is disposed to consider as a species well established. Ch. massena of Risso is a Mediterranean species, twelve feet ",
+          "text_end": "ecognisable in Squatius and Raia, are in them fully developed, and united together into a sort of lattice. The gills, instead of the pectinated form they have in almost all other fishes, exhibit the appearance of little sacs, from the union of each gill with that adjacent. The labyrinth is enclosed in the cranium, the nostrils have only a single aperture, in front of which is a cul-de-sac, mistaken by some authors for a temporal orifice. The intestine is straight and narrow, with a spiral valve."
+        },
+        {
+          "article_id": "1842_v12_GENUS_SYLLIUM",
+          "headword": "GENUS SYLLIUM",
+          "direction": "previous",
+          "start_page": 241,
+          "text_preview": "Cuv. This division is characterized by a short, obtuse muzzle, by nostrils near the mouth, continued in grooves which reach to the edge of the lip, and more or less closed by one or two cuticular lobules. Their teeth have a central point and two lateral prongs. They have spiracles partly over the pectoral fins. Their dorsal fins are placed far back, the anterior not being before the ventrals. All have an anal fin; and, in some species, its position corresponds to the interval between the two dorsals; the tail is elongated, truncated, not forked.\n\nThe most common on our coasts are the following species.\n\nSq. conicula, L.; greater spotted dog-fish, P. This common and prolific species is very numerous on the northern and western coasts of Britain. The colour of the male is dusky, with numerous distinct small, blackish spots: the female, of which some naturalists have made another species, is larger than the male, of a more red hue, variegated with deep-brown spots disposed in an ocellated",
+          "text_end": " lbs. It is said to swim with a slow sailing motion, and when captured vibrates its tail with great activity. It yields much fine oil. Inhabits the Mediterranean, the Atlantic, and Indian Oceans. To this division also we must refer the following species:\n\nR. guttata, Shaw, Plate CCCVII. fig. 10, synonymous with the Eel-Tenkee of Russel; R. fasciata, Shaw; Myl. bovinia, and Myl. marginata, Geof.; which last has the snout cleft into two short lobes, and belongs to the sub-genus Rhinoptera of Kuhl."
+        },
+        {
+          "article_id": "1842_v12_ICHTHYOPHAGI",
+          "headword": "ICHTHYOPHAGI",
+          "direction": "next",
+          "start_page": 249,
+          "text_preview": "Fish-eaters, a name given to those who lived wholly on fishes. The word is Greek, being compounded of \u1f30\u03c7\u03b8\u03cd\u03c2, piscis, fish, and \u1f10\u03b4\u03ad\u03c1\u03b5\u03b9\u03bd, edere, to eat. This name or term has been applied to different people.\n\nThe Ichthyophagi spoken of by Ptolemy are placed by Sanson in the provinces of Nanking and Xantong. Agatharcides calls all the inhabitants between Carmania and Gedrosia by the name of Ichthyophaghi. From the accounts given us of the Ichthyophagi by Herodotus, Strabo, Solinus, Plutarch, and others, it appears indeed that they had cattle, but that they made no use of them, excepting to feed fish withal.",
+          "text_end": "cis, fish, and \u1f10\u03b4\u03ad\u03c1\u03b5\u03b9\u03bd, edere, to eat. This name or term has been applied to different people.\n\nThe Ichthyophagi spoken of by Ptolemy are placed by Sanson in the provinces of Nanking and Xantong. Agatharcides calls all the inhabitants between Carmania and Gedrosia by the name of Ichthyophaghi. From the accounts given us of the Ichthyophagi by Herodotus, Strabo, Solinus, Plutarch, and others, it appears indeed that they had cattle, but that they made no use of them, excepting to feed fish withal."
+        }
+      ]
+    },
+    {
+      "item_num": 9,
+      "article_id": "1842_v12_BEFORE_PROCEEDING_TO_DIRECT_THE_USE_OF_THE_LAST",
+      "headword": "BEFORE PROCEEDING TO DIRECT THE USE OF THE LAST",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 304,
+      "end_page": 305,
+      "word_count": 989,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'BEFORE PROCEEDING TO DIRECT THE USE OF THE LAST' comes before 'HYDRODYNAMICS'",
+      "text_preview": "e proceeding to direct the use of the last means mentioned, viz. tobacco, for destroying insects in turnips, it may be proper to mention an experiment made by Mr Green, of the flower-garden at Kew. He contrived a pair of bellows similar to that employed in recovering people apparently drowned. It had a cavity in the nozzle, in which some tobacco was put, with a live coal over it. The bellows being then worked, the tobacco was set on fire, and the smoke directed to any particular spot. A lady was",
+      "text_end": " as it can across a field of corn, in case of mildew. Here water to wash off the clammy juice, which entices and feeds insects, seems to be the only remedy. The plantation being well ventilated, may at least prevent the frequency of it. The forcing-pump will most effectually wash off this exudation.",
+      "full_text": "e proceeding to direct the use of the last means mentioned, viz. tobacco, for destroying insects in turnips, it may be proper to mention an experiment made by Mr Green, of the flower-garden at Kew. He contrived a pair of bellows similar to that employed in recovering people apparently drowned. It had a cavity in the nozzle, in which some tobacco was put, with a live coal over it. The bellows being then worked, the tobacco was set on fire, and the smoke directed to any particular spot. A lady was fond of having the mosk-rose in her dressing-room, but was prevented having it on account of the green insects which constantly adhere to that plant. To remedy this inconvenience, Mr Green had a box made large enough to contain a pot in which a plant of the mosk-rose grew. In one end of the box was a hole, to admit the nozzle of the bellows; the bellows was worked, and the smoke was received into the box. When the tobacco was consumed, the nozzle was withdrawn, and a cork being put into the hole, the box thus remained till morning, when the insects were all laid dead on the earth. Being swept off, the plant was in a state fit for a dressing-room. Many plants thus infested with insects may be too large, or otherwise so placed as not to be put into a box. In this case it occurred to the writer of these observations, that sprinkling the plants with an infusion of tobacco in water might in some degree answer the same purpose. On trial he found it answer, and he thus freed other plants from their insects. He also used it on trees of easy access with advantage. Train oil is so inimical to tender plants or leaves, that it destroys them if insects have in the least hurt them; whereas the infusion, instead of killing the leaves, promoted a fresh vegetation.\n\nFruit-trees often become the prey of insects. Those trained against a wall, or as espaliers, being easily come at, much of the mischief may be prevented by cutting off the leaves as soon as they are observed to be curled; for the",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "INSRIPTION",
+          "start_page": 300,
+          "end_page": 303
+        },
+        {
+          "headword": "INSCRUTABLE",
+          "start_page": 303,
+          "end_page": 303
+        },
+        {
+          "headword": "INSECTS",
+          "start_page": 303,
+          "end_page": 304
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "INSINUATION",
+          "start_page": 305
+        },
+        {
+          "headword": "INSOLVENT",
+          "start_page": 305
+        },
+        {
+          "headword": "INSPECTOR",
+          "start_page": 305
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_INSECTS",
+          "headword": "INSECTS",
+          "direction": "previous",
+          "start_page": 303,
+          "text_preview": "Insecta, in Natural History. See Entomology.\n\nNoxious Insects; Means of destroying them, or preventing their increase. Of those substances which have been generally observed to be efficacious in driving away or in destroying insects, mercury, and its various preparations, may be reckoned the most generally effectual. Sulphur is also useful. Oils of all kinds have often been deservedly recommended; and tobacco is not less remarkable for its utility.\n\nMercury is known to kill or drive away lice from the human body; and it may probably be of equal efficacy in ridding other animals of insects. For instance, a small quantity of mercurial ointment rubbed upon the skins of sheep, on the sides, between the fore-legs and the body, may kill or drive away the insect peculiar to these animals. Sulphur is recommended to be added to the mercurial ointment. Thus not only the insect peculiar to them, but also the scab, may be cured.1 Allway2 directed that, in the winter, the walls, frames, and other p",
+          "text_end": "softened with water so as to admit the plants. This method will secure their more speedy growth. In the nursery the attack of the fly may be prevented by sprinkling soot or quicklime on the ground. The utility of transplanting turnips is evident by the practice of transplanting the turnip-rooted cabbage. They who are discouraged from having recourse to this practice by the expense attending it, do not reflect that the hoeing is prevented, and the plants grow the better, being set in fresh earth."
+        },
+        {
+          "article_id": "1842_v12_INSCRUTABLE",
+          "headword": "INSCRUTABLE",
+          "direction": "previous",
+          "start_page": 303,
+          "text_preview": "Unsearchable, in Theology, is usually understood of the secrets of Providence, and the judgments of God, into which human reason is unable to penetrate.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_INSRIPTION",
+          "headword": "INSRIPTION",
+          "direction": "previous",
+          "start_page": 300,
+          "text_preview": "in Latin Inscription (a word formed from the preposition in and scribere to write), and signifying something written or engraved on any substance, whether of wood, stone, metal, or other material, and having for its object to transmit to posterity the record of some important event or transaction.\n\nIt is well known that the ancients engraved on temples and columns the principles of science, as well as the events of history. In the early ages of the world this was the only means by which valuable truths could be preserved, and the memory of important transactions transmitted to succeeding ages. Sanchoiantho, a Phoenician historian, born at Berytus in Syria, and who flourished about the time of the Trojan war, is said to have drawn most of the materials of his history from inscriptions which he found in temples and on columns, both in his own country and in Palestine. But however this may have been, the circumstances mentioned by Herodotus shew, that the first method of instructing men, ",
+          "text_end": "t writers of after times. As to the learned antiquary, again, he lives, moves, and has his being amidst these interesting monuments of the past; and whilst pursuing his minute investigations, perchance contributes in no unimportant degree to throw a new light on facts of more pith and moment than any of those which more immediately engage his attention. In a word, we may say to the historian, the scholar, and the antiquary, in regard to inscriptions, Nocturna versate manus, versate diurna.\n\n(a.)"
+        },
+        {
+          "article_id": "1842_v12_INSINUATION",
+          "headword": "INSINUATION",
+          "direction": "next",
+          "start_page": 305,
+          "text_preview": "denotes a cunning and covert way of creeping into any person's favour; or it means something conveyed by implication or innuendo.\n\n**INSINUATION of a Will**, amongst civilians, is the first production of it, or the leaving it with the registrar, in order to its probate.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 10,
+      "article_id": "1842_v12_AFTER_THE_USUAL",
+      "headword": "AFTER THE USUAL",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 340,
+      "end_page": 341,
+      "word_count": 670,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'AFTER THE USUAL' comes before 'HYDRODYNAMICS'",
+      "text_preview": "r the usual means had been employed to recall him to life, it was agreed that his body should be dissected, to discover the cause of so sudden a death; but the supposed dead person overhearing this proposal, opened his eyes, started up, and immediately betook himself to his heels. Cardinal Espinosa, prime minister to Phillip II. was not so fortunate; for, in the memoirs of Amelot de la Houssaye, we are informed that he put his hand to the knife with which he was opened in order to be embalmed. I",
+      "text_end": "ed them to send for the undertaker when they should have had recourse to the succours of medicine. In such cases, volatiles,\nThe Roman history. The patricians alone had the right of electing an interrex; but this office fell with the republic, when the emperors made themselves masters of everything.",
+      "full_text": "r the usual means had been employed to recall him to life, it was agreed that his body should be dissected, to discover the cause of so sudden a death; but the supposed dead person overhearing this proposal, opened his eyes, started up, and immediately betook himself to his heels. Cardinal Espinosa, prime minister to Phillip II. was not so fortunate; for, in the memoirs of Amelot de la Houssaye, we are informed that he put his hand to the knife with which he was opened in order to be embalmed. In short, almost everyone knows that Vesalius, the father of anatomy, having been sent for to open the body of a woman subject to hysterics, who was supposed to be dead, he perceived, on making the first incision, that she was still alive; that this circumstance rendered him so odious, that he was obliged to fly; and that he was so much affected by it, that he died soon afterwards. On this occasion we cannot forbear adding an event more recent, but not less melancholy. The Abb\u00e9 Prevost, so well known by his writings and the singularities of his life, was seized with a fit of apoplexy, in the forest of Chantilly, on the 23d of October 1768. His body was carried to the nearest village, and the officers of justice were proceeding to open it, when a cry which he sent forth terrified all the assistants, and convinced the surgeon that the abb\u00e9 was not dead; but it was too late to save him, as he had already received a mortal wound.\n\nWe shall conclude this article by subjoining, from Dr Hawes's Address to the Public, a few of the cases in which this fallacious appearance of death is most likely to happen, together with the respective modes of treatment which he recommends.\n\nIn apoplectic and fainting fits, and in those arising from any violent agitation of mind, and also when opium or spirituous liquors have been taken in too great quantity, there is reason to believe that the appearance of death has been frequently mistaken for the reality. In these cases, the means recommended by t",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "INTERLOCUTORY DECREES",
+          "start_page": 338,
+          "end_page": 339
+        },
+        {
+          "headword": "INTERLUDE",
+          "start_page": 339,
+          "end_page": 339
+        },
+        {
+          "headword": "INTERMENT",
+          "start_page": 339,
+          "end_page": 340
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "INTERROGATION",
+          "start_page": 341
+        },
+        {
+          "headword": "INTERROGATION",
+          "start_page": 341
+        },
+        {
+          "headword": "INTERSCENDENT",
+          "start_page": 341
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_INTERMENT",
+          "headword": "INTERMENT",
+          "direction": "previous",
+          "start_page": 339,
+          "text_preview": "the act of interring, that is, burying or laying a deceased person in the ground.\n\nAristotle asserted that it was more just to assist the dead than the living. Plato, in his Republic, does not forget, amongst other acts of justice, that which concerns the dead. Cicero establishes three kinds of justice; the first respects the gods, the second the manes or dead, and the third men. These principles seem to be derived from nature; and they appear at least to be necessary for the support of society, since civilized nations have at all times taken care to bury their dead, and to pay the last respects to their remains.\n\nWe find in history several traces of the respect which the Indians, the Egyptians, and the Syrians entertained for the dead. The Syrians embalmed their bodies with myrrh, aloes, honey, salt, wax, bitumen, and resinous gums; and they also dried them with the smoke of the fir and of the pine tree. The Egyptians preserved theirs with the resin of the cedar, with aromatic spices,",
+          "text_end": "e smartly rubbed with a brush dipped in very strong pickle. At the end of three quarters of an hour she was observed to sigh; she was then made to swallow some spirituous liquor; and she was soon afterwards restored to life, much to the joy of her disconsolate parents. A certain man having undertaken a journey in order to see his brother, on his arrival at his house found him dead. This news affected him so much that it brought on syncope, and he himself was supposed to be in the like situation."
+        },
+        {
+          "article_id": "1842_v12_INTERLUDE",
+          "headword": "INTERLUDE",
+          "direction": "previous",
+          "start_page": 339,
+          "text_preview": "an entertainment exhibited on the theatre between the acts of a play, to amuse the spectators, or to give time for changing the scenes and decorations. In the ancient tragedy, the chorus sung the interludes, to show the intervals between the acts. Interludes, amongst us, usually consist of songs, dances, feats of activity, concerts of music, and the like. Aristotle and Horace lay it down as a rule, that the interludes should consist of songs founded on the principal parts of the drama; but since the chorus has been discontinued, dancers, buffoons, and such-like performers, ordinarily furnish the interludes.",
+          "text_end": " changing the scenes and decorations. In the ancient tragedy, the chorus sung the interludes, to show the intervals between the acts. Interludes, amongst us, usually consist of songs, dances, feats of activity, concerts of music, and the like. Aristotle and Horace lay it down as a rule, that the interludes should consist of songs founded on the principal parts of the drama; but since the chorus has been discontinued, dancers, buffoons, and such-like performers, ordinarily furnish the interludes."
+        },
+        {
+          "article_id": "1842_v12_INTERLOCUTORY_DECREES",
+          "headword": "INTERLOCUTORY DECREES",
+          "direction": "previous",
+          "start_page": 338,
+          "text_preview": "in English Law. In a suit in equity, if any matter of fact be strongly controverted, the fact is usually directed to be tried at the bar of the Court of King's Bench, or at the assizes, upon a feigned issue. If a question of mere law arises in the course of a cause, it is the practice of the Court of Chancery to refer it to the opinion of the judges of the Court of King's Bench, upon a case stated for that purpose. In such cases, interlocutory decrees or orders are made.\nINTERLOCUTORY Judgments are such as are given in the middle of a cause, upon some plea, proceeding on default, which is not intermediate, and does not finally determine or complete the suit. But the interlocutory judgments most usually spoken of are those incomplete judgments by which the right of the plaintiff is established, but the quantum of damages sustained by him is not ascertained, which is the province of a jury. In such a case a writ of inquiry issues to the sheriff, who summons a jury, inquires of the damage",
+          "text_end": "ney taxes costs, and signs final judgment.\n\nINTERLOCUTORY Order, that which decides not the cause, but only settles some intervening matter relating to the cause; as where an order is made in chancery, for the plaintiff to have an injunction to quit possession till the hearing of the cause. This order, not being final, is called interlocutory.\n\nINTERLOPERS are properly those who, without due authority, hinder the trade of a company or corporation lawfully established, by dealing in the same way."
+        },
+        {
+          "article_id": "1842_v12_INTERROGATION",
+          "headword": "INTERROGATION",
+          "direction": "next",
+          "start_page": 341,
+          "text_preview": "Erotesis, a figure of rhetoric, in which the passion of the speaker introduces a thing by way of interrogation, to make its truth more conspicuous.\n\nThe interrogation is a kind of apostrophe which the speaker makes to himself; and it must be owned that this figure is suited to express most passions and emotions of the mind, and that it serves also to press and bear down an adversary, and generally adds an uncommon briskness, action, force, and variety, to discourse.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 11,
+      "article_id": "1842_v12_HISTORY",
+      "headword": "HISTORY",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 359,
+      "end_page": 390,
+      "word_count": 41601,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'HISTORY' comes before 'HYDRODYNAMICS'",
+      "text_preview": "The Irish nation is undoubtedly of Celtic origin. This truth is stamped in indelible characters in the names of the rivers, towns, mountains, and other objects of historical notoriety throughout the island; it is proclaimed by marks equally indelible in the relics of antiquity, the tumuli, the cairns, the cromleachs, and the druidical circles, the remains of which, after having triumphed over the ravages of time and repeated revolutions, are now perpetuated in the pages of the antiquary's resear",
+      "text_end": " be an enemy to the country, threw the greater part of the burden of maintaining the Protestant clergy from the rich proprietor, whose land was wholly under pasturage, upon the Roman Catholic cottar, who was obliged to raise some grain on his little patch of ground for the subsistence of his family.",
+      "full_text": "The Irish nation is undoubtedly of Celtic origin. This truth is stamped in indelible characters in the names of the rivers, towns, mountains, and other objects of historical notoriety throughout the island; it is proclaimed by marks equally indelible in the relics of antiquity, the tumuli, the cairns, the cromleachs, and the druidical circles, the remains of which, after having triumphed over the ravages of time and repeated revolutions, are now perpetuated in the pages of the antiquary's researches. The name of the island itself confirms the assertion. Eri or Erin, its most ancient appellation, and that to which the natives still cling with the attachment of veneration, is derived from the Celtic Iar or Eir, which signifies western. Most of its more modern names may be easily traced to this source. By the Grecians, to whom, though unacquainted with its localities, its general geographical position and bearings were not unknown, it was called Ierne, being honoured by them with the rank of the third of the islands of the ocean, and yielding precedence in this respect only to Taprobane and Britain. Ptolemy names it Iouerna; Juvenal and Mela, Inverna. Diodorus Siculus, approaching more nearly to the aboriginal word, calls it Iris. Marcius Heracleota and Eustathius adopt the term used by Ptolemy, but corrupted by the latter into Bernia. By the Britons it was called Iverdon; and the Saxons, attaching to the native name an epithet from their own language, called it Terland or Terland. Its later name, Hibernia, may be traced somewhat more circumspectly to the same source, although much etymological and antiquarian ingenuity has been employed to deduce it from other circumstances. Some choose to derive it from its climate, calling it Hibernus, on account of its wintry temperature, as unjustly in fact as erroneously in etymology; others from Iberus, a Spaniard, or a river of Spain. One writer ventures still further. Postellus, in his strictures on Mela, deduces it from the H",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "IRASCIBLE",
+          "start_page": 358,
+          "end_page": 358
+        },
+        {
+          "headword": "IRBIT",
+          "start_page": 358,
+          "end_page": 358
+        },
+        {
+          "headword": "IRELAND",
+          "start_page": 358,
+          "end_page": 359
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL",
+          "start_page": 390
+        },
+        {
+          "headword": "STATISTICS",
+          "start_page": 399
+        },
+        {
+          "headword": "IRELAND",
+          "start_page": 436
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_IRELAND",
+          "headword": "IRELAND",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "Ireland, one of the largest of the European islands, is situated to the west of Great Britain, from which it is separated by a narrow channel called the Irish Sea and St George's Channel on the east, and is bounded on its other sides by the Atlantic Ocean, through which it can maintain a direct communication with the continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics.",
+          "text_end": "he continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics."
+        },
+        {
+          "article_id": "1842_v12_IRBIT",
+          "headword": "IRBIT",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "or IRBITSKAIA, a town of Russia, in the government of Perm, on the river Irbit, and the frontiers of Siberia. It is noted for a yearly market held in January, the season for travelling on the ice, and is an entrepot for Siberian furs, and other arctic merchandise passing into Europe. The annual fair is frequented by Russians and Siberians, Tartars, Armenians, and Greeks. Near it is a large iron work, which yields nearly 2000 tons of iron a year. It is 142 miles north-east of Ekaterinenburg. Long. 62. 50. E. Lat. 57. 35. N.",
+          "text_end": "sia, in the government of Perm, on the river Irbit, and the frontiers of Siberia. It is noted for a yearly market held in January, the season for travelling on the ice, and is an entrepot for Siberian furs, and other arctic merchandise passing into Europe. The annual fair is frequented by Russians and Siberians, Tartars, Armenians, and Greeks. Near it is a large iron work, which yields nearly 2000 tons of iron a year. It is 142 miles north-east of Ekaterinenburg. Long. 62. 50. E. Lat. 57. 35. N."
+        },
+        {
+          "article_id": "1842_v12_IRASCIBLE",
+          "headword": "IRASCIBLE",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "in the old philosophy, a term applied to an appetite or a part of the soul, where anger and the other passions which animate us against things difficult or odious were supposed to reside.\n\nOf the eleven kinds of passions attributed to the soul, philosophers ascribe five to the irascible appetite, viz. wrath, boldness, fear, hope, and despair; the other six being charged on the concupiscible appetite, viz. pleasure, pain, desire, aversion, love, and hatred.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_WHILST_THE_IRISH_PARLIAMENT_WERE_THUS_VIGILANT_IN_CUTTING_OFF_FROM_THE_CATHOLICS_ALL",
+          "headword": "WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL",
+          "direction": "next",
+          "start_page": 390,
+          "text_preview": "t the Irish parliament were thus vigilant in cutting off from the Catholics all means of regaining political power, they were no less so in preventing any encroachment of the English government upon the rights they themselves possessed. The relations of these two latter parties towards each other after the Revolution were peculiar. The members of the House of Commons held their seats, not, as in Great Britain, by septennial election, but during the pleasure of the crown. Their tenure was therefore generally regarded as tantamount to a life estate, subject only to a dissolution on the demise of the crown. Hence they were virtually unrestrained by popular control. On the other hand, as the lord-lieutenant came over to Ireland but once in two years, to hold a parliament for granting the supplies, the management of the country rested with the lords-justices nominated to hold the reins of government in his absence, who were selected from among the most powerful of the great Protestant famil",
+          "text_end": "nts of the public mind. This last-named subject of irritation has been laid at rest in a manner not so satisfactory to Ireland as to the other great divisions of the empire, but so as to lead to reasonable hopes of its progressive efficacy. The question of repeal has been silenced as far as can be done by an authoritative declaration of one, and that one the more powerful, of the parties interested in its decision; the tithes still remain a question, no longer of Irish, but of imperial interest."
+        }
+      ]
+    },
+    {
+      "item_num": 12,
+      "article_id": "1842_v12_WHILST_THE_IRISH_PARLIAMENT_WERE_THUS_VIGILANT_IN_CUTTING_OFF_FROM_THE_CATHOLICS_ALL",
+      "headword": "WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 390,
+      "end_page": 399,
+      "word_count": 11685,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL' comes after 'KYR'",
+      "text_preview": "t the Irish parliament were thus vigilant in cutting off from the Catholics all means of regaining political power, they were no less so in preventing any encroachment of the English government upon the rights they themselves possessed. The relations of these two latter parties towards each other after the Revolution were peculiar. The members of the House of Commons held their seats, not, as in Great Britain, by septennial election, but during the pleasure of the crown. Their tenure was therefo",
+      "text_end": "nable hopes of its progressive efficacy. The question of repeal has been silenced as far as can be done by an authoritative declaration of one, and that one the more powerful, of the parties interested in its decision; the tithes still remain a question, no longer of Irish, but of imperial interest.",
+      "full_text": "t the Irish parliament were thus vigilant in cutting off from the Catholics all means of regaining political power, they were no less so in preventing any encroachment of the English government upon the rights they themselves possessed. The relations of these two latter parties towards each other after the Revolution were peculiar. The members of the House of Commons held their seats, not, as in Great Britain, by septennial election, but during the pleasure of the crown. Their tenure was therefore generally regarded as tantamount to a life estate, subject only to a dissolution on the demise of the crown. Hence they were virtually unrestrained by popular control. On the other hand, as the lord-lieutenant came over to Ireland but once in two years, to hold a parliament for granting the supplies, the management of the country rested with the lords-justices nominated to hold the reins of government in his absence, who were selected from among the most powerful of the great Protestant families. Their influence, in questions between the two countries, was therefore often directed to thwart the measures of the English cabinet, particularly when these seemed to interfere with their own aggrandizement. The operation of the penal laws, whilst it enslaved the Catholics, pauperized the country. The great mass of the population was deprived by them of the main stimulus to industry, the hope of improving their condition by their own exertions. The great proprietors found their land becoming of less value, from the neglect of agricultural improvement. The supplies for the service of government were therefore granted with a niggardly and reluctant spirit. The English cabinet hoped to cut the knot that thus linked them to the Irish parliament. An attempt was made to obtain a vote for the supplies for twenty-one years. The Irish aristocracy immediately took the alarm. However acquiescent in the general tenor of their votes, they now rallied, and the insidious attempt was rendered abo",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "IRBIT",
+          "start_page": 358,
+          "end_page": 358
+        },
+        {
+          "headword": "IRELAND",
+          "start_page": 358,
+          "end_page": 359
+        },
+        {
+          "headword": "HISTORY",
+          "start_page": 359,
+          "end_page": 390
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "STATISTICS",
+          "start_page": 399
+        },
+        {
+          "headword": "IRELAND",
+          "start_page": 436
+        },
+        {
+          "headword": "IRENE",
+          "start_page": 437
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_HISTORY",
+          "headword": "HISTORY",
+          "direction": "previous",
+          "start_page": 359,
+          "text_preview": "The Irish nation is undoubtedly of Celtic origin. This truth is stamped in indelible characters in the names of the rivers, towns, mountains, and other objects of historical notoriety throughout the island; it is proclaimed by marks equally indelible in the relics of antiquity, the tumuli, the cairns, the cromleachs, and the druidical circles, the remains of which, after having triumphed over the ravages of time and repeated revolutions, are now perpetuated in the pages of the antiquary's researches. The name of the island itself confirms the assertion. Eri or Erin, its most ancient appellation, and that to which the natives still cling with the attachment of veneration, is derived from the Celtic Iar or Eir, which signifies western. Most of its more modern names may be easily traced to this source. By the Grecians, to whom, though unacquainted with its localities, its general geographical position and bearings were not unknown, it was called Ierne, being honoured by them with the rank",
+          "text_end": "y a levy on the goods of Roman Catholics only. A vote of the Commons, declaring any person who took legal steps for the recovery of his tithes of dry cattle, commonly called the tithe of agistment, to be an enemy to the country, threw the greater part of the burden of maintaining the Protestant clergy from the rich proprietor, whose land was wholly under pasturage, upon the Roman Catholic cottar, who was obliged to raise some grain on his little patch of ground for the subsistence of his family."
+        },
+        {
+          "article_id": "1842_v12_IRELAND",
+          "headword": "IRELAND",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "Ireland, one of the largest of the European islands, is situated to the west of Great Britain, from which it is separated by a narrow channel called the Irish Sea and St George's Channel on the east, and is bounded on its other sides by the Atlantic Ocean, through which it can maintain a direct communication with the continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics.",
+          "text_end": "he continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics."
+        },
+        {
+          "article_id": "1842_v12_IRBIT",
+          "headword": "IRBIT",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "or IRBITSKAIA, a town of Russia, in the government of Perm, on the river Irbit, and the frontiers of Siberia. It is noted for a yearly market held in January, the season for travelling on the ice, and is an entrepot for Siberian furs, and other arctic merchandise passing into Europe. The annual fair is frequented by Russians and Siberians, Tartars, Armenians, and Greeks. Near it is a large iron work, which yields nearly 2000 tons of iron a year. It is 142 miles north-east of Ekaterinenburg. Long. 62. 50. E. Lat. 57. 35. N.",
+          "text_end": "sia, in the government of Perm, on the river Irbit, and the frontiers of Siberia. It is noted for a yearly market held in January, the season for travelling on the ice, and is an entrepot for Siberian furs, and other arctic merchandise passing into Europe. The annual fair is frequented by Russians and Siberians, Tartars, Armenians, and Greeks. Near it is a large iron work, which yields nearly 2000 tons of iron a year. It is 142 miles north-east of Ekaterinenburg. Long. 62. 50. E. Lat. 57. 35. N."
+        },
+        {
+          "article_id": "1842_v12_STATISTICS",
+          "headword": "STATISTICS",
+          "direction": "next",
+          "start_page": 399,
+          "text_preview": "The island of Ireland is of a rhomboidal shape, having its longer sides nearly in the direction of the meridian, and its shorter from south-west to north-east. It lies between the latitudes of 51\u00b0 26' and 55\u00b0 20' north, and the longitudes of 5\u00b0 28' and 10\u00b0 28' west. In the direction of its greater diagonal, from Browhead in the south to Fairhead in the north-east, it measures 306 miles. Its extreme length, from its most southern point, already named, to Walinhead, its most northern extremity, is 290 miles; its greatest length on a meridian 235 miles. Its breadth where greatest, measured from Enlough-rash, in the peninsula of the Mullet, to Killard Point, at the entrance of Strangford Lough, is 182 miles; but its least breadth, from the eastern side of Galway Bay, near Oranmore, to Ringsend, near Dublin, is not more than 110 miles. The whole comprises an area of 20,499,550 acres, or 320,312 statute miles. Separated from the adjacent island of Great Britain by an arm of the sea not more ",
+          "text_end": "owing table, which exhibits the relative proportion, or rather disproportion, of the means of internal communication, by means of inland navigation and railways, in that country and in England.\n\n|                | Ireland | England |\n|----------------|---------|---------|\n| Acreage contents | 20,499,500 | 37,094,960 |\n| Population in 1831 | 7,734,365 | 16,537,398 |\n| Canals (miles)    | 280     | 2400    |\n| Navigable rivers (miles) | 380     | 2000    |\n| Railways (miles)  | 5\u00bd      | 400     |"
+        }
+      ]
+    },
+    {
+      "item_num": 13,
+      "article_id": "1842_v12_STATISTICS",
+      "headword": "STATISTICS",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 399,
+      "end_page": 424,
+      "word_count": 25927,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'STATISTICS' comes after 'KYR'",
+      "text_preview": "The island of Ireland is of a rhomboidal shape, having its longer sides nearly in the direction of the meridian, and its shorter from south-west to north-east. It lies between the latitudes of 51\u00b0 26' and 55\u00b0 20' north, and the longitudes of 5\u00b0 28' and 10\u00b0 28' west. In the direction of its greater diagonal, from Browhead in the south to Fairhead in the north-east, it measures 306 miles. Its extreme length, from its most southern point, already named, to Walinhead, its most northern extremity, is",
+      "text_end": "            | Ireland | England |\n|----------------|---------|---------|\n| Acreage contents | 20,499,500 | 37,094,960 |\n| Population in 1831 | 7,734,365 | 16,537,398 |\n| Canals (miles)    | 280     | 2400    |\n| Navigable rivers (miles) | 380     | 2000    |\n| Railways (miles)  | 5\u00bd      | 400     |",
+      "full_text": "The island of Ireland is of a rhomboidal shape, having its longer sides nearly in the direction of the meridian, and its shorter from south-west to north-east. It lies between the latitudes of 51\u00b0 26' and 55\u00b0 20' north, and the longitudes of 5\u00b0 28' and 10\u00b0 28' west. In the direction of its greater diagonal, from Browhead in the south to Fairhead in the north-east, it measures 306 miles. Its extreme length, from its most southern point, already named, to Walinhead, its most northern extremity, is 290 miles; its greatest length on a meridian 235 miles. Its breadth where greatest, measured from Enlough-rash, in the peninsula of the Mullet, to Killard Point, at the entrance of Strangford Lough, is 182 miles; but its least breadth, from the eastern side of Galway Bay, near Oranmore, to Ringsend, near Dublin, is not more than 110 miles. The whole comprises an area of 20,499,550 acres, or 320,312 statute miles. Separated from the adjacent island of Great Britain by an arm of the sea not more than forty-nine miles across at its southern extremity, and narrowing to twelve miles at the north, but expanding in its intermediate space into the Irish Sea, it is washed on its three other sides by the Atlantic Ocean, whose waves have indented its western and southern shores with many large bays and inlets, trenching far into the country; so that the whole outline of the coast, including that of the estuaries of the great rivers, to the boundary of the tide, is estimated to measure upwards of 2200 miles.\n\nThis extended line contains a great number of fine harbours and roadsteads. The eastern coast has but one; that of Strangford or Lough Cone, which forms a very deep bay, with sufficient depth of water for every kind of ship. The bays of Carrickfergus, Dundalk, and Carlingford, are adapted only for vessels of lesser draught; Dublin is so defective as to require the construction of two safety harbours; one to the north, at Howth, and the other to the south, at Kingstown. The coast to",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "IRELAND",
+          "start_page": 358,
+          "end_page": 359
+        },
+        {
+          "headword": "HISTORY",
+          "start_page": 359,
+          "end_page": 390
+        },
+        {
+          "headword": "WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL",
+          "start_page": 390,
+          "end_page": 399
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "IRELAND",
+          "start_page": 436
+        },
+        {
+          "headword": "IRENE",
+          "start_page": 437
+        },
+        {
+          "headword": "IRENEUS",
+          "start_page": 437
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_WHILST_THE_IRISH_PARLIAMENT_WERE_THUS_VIGILANT_IN_CUTTING_OFF_FROM_THE_CATHOLICS_ALL",
+          "headword": "WHILST THE IRISH PARLIAMENT WERE THUS VIGILANT IN CUTTING OFF FROM THE CATHOLICS ALL",
+          "direction": "previous",
+          "start_page": 390,
+          "text_preview": "t the Irish parliament were thus vigilant in cutting off from the Catholics all means of regaining political power, they were no less so in preventing any encroachment of the English government upon the rights they themselves possessed. The relations of these two latter parties towards each other after the Revolution were peculiar. The members of the House of Commons held their seats, not, as in Great Britain, by septennial election, but during the pleasure of the crown. Their tenure was therefore generally regarded as tantamount to a life estate, subject only to a dissolution on the demise of the crown. Hence they were virtually unrestrained by popular control. On the other hand, as the lord-lieutenant came over to Ireland but once in two years, to hold a parliament for granting the supplies, the management of the country rested with the lords-justices nominated to hold the reins of government in his absence, who were selected from among the most powerful of the great Protestant famil",
+          "text_end": "nts of the public mind. This last-named subject of irritation has been laid at rest in a manner not so satisfactory to Ireland as to the other great divisions of the empire, but so as to lead to reasonable hopes of its progressive efficacy. The question of repeal has been silenced as far as can be done by an authoritative declaration of one, and that one the more powerful, of the parties interested in its decision; the tithes still remain a question, no longer of Irish, but of imperial interest."
+        },
+        {
+          "article_id": "1842_v12_HISTORY",
+          "headword": "HISTORY",
+          "direction": "previous",
+          "start_page": 359,
+          "text_preview": "The Irish nation is undoubtedly of Celtic origin. This truth is stamped in indelible characters in the names of the rivers, towns, mountains, and other objects of historical notoriety throughout the island; it is proclaimed by marks equally indelible in the relics of antiquity, the tumuli, the cairns, the cromleachs, and the druidical circles, the remains of which, after having triumphed over the ravages of time and repeated revolutions, are now perpetuated in the pages of the antiquary's researches. The name of the island itself confirms the assertion. Eri or Erin, its most ancient appellation, and that to which the natives still cling with the attachment of veneration, is derived from the Celtic Iar or Eir, which signifies western. Most of its more modern names may be easily traced to this source. By the Grecians, to whom, though unacquainted with its localities, its general geographical position and bearings were not unknown, it was called Ierne, being honoured by them with the rank",
+          "text_end": "y a levy on the goods of Roman Catholics only. A vote of the Commons, declaring any person who took legal steps for the recovery of his tithes of dry cattle, commonly called the tithe of agistment, to be an enemy to the country, threw the greater part of the burden of maintaining the Protestant clergy from the rich proprietor, whose land was wholly under pasturage, upon the Roman Catholic cottar, who was obliged to raise some grain on his little patch of ground for the subsistence of his family."
+        },
+        {
+          "article_id": "1842_v12_IRELAND",
+          "headword": "IRELAND",
+          "direction": "previous",
+          "start_page": 358,
+          "text_preview": "Ireland, one of the largest of the European islands, is situated to the west of Great Britain, from which it is separated by a narrow channel called the Irish Sea and St George's Channel on the east, and is bounded on its other sides by the Atlantic Ocean, through which it can maintain a direct communication with the continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics.",
+          "text_end": "he continents of Europe, Africa, and America. The advantageous position, the fertility of the soil, and the salubrity of the climate, have conferred upon Ireland commercial facilities, which are capable of being greatly increased. How far these natural advantages have been made available towards the internal improvement of the island itself, and the general benefit of the empire of which it forms an important part, may be best ascertained from the following details of its history and statistics."
+        },
+        {
+          "article_id": "1842_v12_IRELAND_s2",
+          "headword": "IRELAND",
+          "direction": "next",
+          "start_page": 436,
+          "text_preview": "New, an island in the eastern seas, north from New Britain. It is long and narrow, and extends from north-west to south-east about 190 miles. Its aspect from the sea is very mountainous, and appears to be covered with thick woods, which abound in pigeons, parrots, and other birds. The inhabitants are in a state of barbarity, black and woolly headed like negroes; but without the flat nose and thick lips. Their canoes are very long and narrow; one of them, that was formed of a single tree, was not less than ninety feet in length. It is situated between Long. 150\u00b0 30' and 153\u00b0 5' E. and Lat. 33\u00b0 40' and 50\u00b0 S.",
+          "text_end": "south-east about 190 miles. Its aspect from the sea is very mountainous, and appears to be covered with thick woods, which abound in pigeons, parrots, and other birds. The inhabitants are in a state of barbarity, black and woolly headed like negroes; but without the flat nose and thick lips. Their canoes are very long and narrow; one of them, that was formed of a single tree, was not less than ninety feet in length. It is situated between Long. 150\u00b0 30' and 153\u00b0 5' E. and Lat. 33\u00b0 40' and 50\u00b0 S."
+        }
+      ]
+    },
+    {
+      "item_num": 14,
+      "article_id": "1842_v12_ADVANTAGES_OF_WATER-MEADOWS_AND_WARPING",
+      "headword": "ADVANTAGES OF WATER-MEADOWS AND WARPING",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 461,
+      "end_page": 466,
+      "word_count": 6944,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'ADVANTAGES OF WATER-MEADOWS AND WARPING' comes before 'HYDRODYNAMICS'",
+      "text_preview": "The advantages derived from water-meadows and warping, as stated by authors who have written on those subjects, almost exceed credibility. One author of some standing says:\u2014\u201cHaving heard that the proprietor of an old floated meadow at South Cerney (in Gloucestershire), had disposed of the produce of it, in the year 1795, in a way well calculated to ascertain its real value, I wrote to a person who resides on the spot, requesting him to send me a particular account of the product, and I received ",
+      "text_end": "tive powers of things being as at present constituted, man employs irrigation as the instrument of his will, and attains the maintenance of his live-stock by inducing Nature to assist him in a work in which she undoubtedly displays her superiority over him both in industry and dexterity.\n\n(K. K. K.)",
+      "full_text": "The advantages derived from water-meadows and warping, as stated by authors who have written on those subjects, almost exceed credibility. One author of some standing says:\u2014\u201cHaving heard that the proprietor of an old floated meadow at South Cerney (in Gloucestershire), had disposed of the produce of it, in the year 1795, in a way well calculated to ascertain its real value, I wrote to a person who resides on the spot, requesting him to send me a particular account of the product, and I received the following statement.\u2014In order to make the most of the spring feed, the proprietor kept the grass untouched till the 2d day of April, from which time he let it to the neighbouring farmers, to be eaten off in five weeks (which ran a week into May), by the undermentioned stock, at the following rates per head, viz., a sheep threepence per week; a cow three shillings and sixpence; a colt four shillings. The quantity of land is eight acres.\n\n| Item          | Quantity | Cost |\n|---------------|----------|------|\n| 107 wether sheep one week | L. 4 9 2 |\n| 8 cows        |          | L. 1 8 0 |\n| 4 colts       |          | L. 0 16 0 |\n\nTotal: L. 6 13 2\n\nWhich for five weeks amount to L. 33 5 10\n\nAdd three colts for three weeks L. 1 16 0\n\nEqual to L. 4 : 7 : 8 per acre, L. 35 1 10\n\nThe hay crop was, as usual, about fifteen tons, and was five weeks in growing.\n\n15 tons, suppose at 50s. per ton, L. 37 10 0\n\nAftermath, 15s. per acre, L. 6 0 0\n\nTotal, equal to L. 9 : 16 : 5 per acre, L. 78 11 10\n\nThe L. 4 : 7 : 8 were made at a time when other grass-lands are in a dormant state, or exhibit but feeble symptoms of vegetation. But the reader will perhaps see the advantages of this art in a still stronger light, when he is told that this meadow, which is now in the occupation of a miller, was a few years ago in the hands of a farmer, who, being at variance with the miller, was entirely deprived of the use of the water for a whole winter, which, unfortunately, was succeeded by a very dry s",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "IRRIGATION",
+          "start_page": 455,
+          "end_page": 459
+        },
+        {
+          "headword": "IRRIGATION",
+          "start_page": 459,
+          "end_page": 460
+        },
+        {
+          "headword": "IRRIGATION",
+          "start_page": 460,
+          "end_page": 461
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "IRRITABILITY",
+          "start_page": 466
+        },
+        {
+          "headword": "IRROGATIO",
+          "start_page": 467
+        },
+        {
+          "headword": "IRROMANGO",
+          "start_page": 467
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_IRRIGATION_s3",
+          "headword": "IRRIGATION",
+          "direction": "previous",
+          "start_page": 460,
+          "text_preview": "This latter acquisition is the principal object of warping, and it excites astonishment to witness how soon a new soil may be formed. From June to September, a soil of three feet in depth may be formed under favourable circumstances. These circumstances are summer, and the very driest season and longest drought. In winter and in floods warping ceases to be beneficial. In ordinary circumstances, a soil from six to sixteen inches in depth may be obtained, and inequalities of three feet filled up. But every tide generally leaves only one-eighth of an inch of silt, and the field which has only one sluice can only be warped every other tide. The silt, as deposited in each tide, does not mix into a uniform mass, but remains in distinct layers. The water should be made to run completely off, and the ditches should become dry, before the influx of the next tide; otherwise the silt will not incrust, and the tide not have the same effect. Warp soil is of surpassing fertility. The expense of form",
+          "text_end": "irrigate effectually in this manner, it is necessary to build the mouths of the main drains with strong masonry, and erect sluices for the retention of the water in the drains. This species of irrigation may also be attempted on any flat piece of ground resting on a gravelly bottom, by means of ditches which surround it, and which can command water from a lake or river. Turnips or potatoes, or any kind of crop, whether drilled or not, might be beneficially watered in this manner in a dry summer."
+        },
+        {
+          "article_id": "1842_v12_IRRIGATION_s2",
+          "headword": "IRRIGATION",
+          "direction": "previous",
+          "start_page": 459,
+          "text_preview": "Irrigation should be used largely during the winter, and scantily during the spring. It is possible that the benefits derived from early irrigation, especially after rains, may arise from the good effects of manure of various kinds, accumulated on the land during summer, being washed down by the rains, and mixed with the irrigating water; and it is certain that abundant irrigation in winter protects the grass from cold, as the temperature of grass under water in winter is seldom under 40\u00b0 Fahrenheit. The signs of early and luxuriant vegetation observable on water-meadows in spring, when the rest of the ground may be covered with snow, evince the protective power of water. After the hay is carried off, the water is sometimes let on, to promote the growth of the aftermath, which it will no doubt do; but the rank grass encouraged by this summer irrigation will undoubtedly rot sheep. Where sheep are kept, and intended to depasture meadows, there should be no irrigation in summer. Cattle ar",
+          "text_end": "the tide flows into the field, and shut by the pressure of the confined water when the tide recedes. These sluices are placed on as low a level as possible, to permit the most turbid water at the bottom of the tide to pass through a channel in the base of the embankment. The silt deposited after warping is exceedingly rich, and capable of carrying any species of crop. It may be admitted in so small a quantity as only to act as a manure to arable soil, or in such a large quantity as to form a new"
+        },
+        {
+          "article_id": "1842_v12_IRRIGATION",
+          "headword": "IRRIGATION",
+          "direction": "previous",
+          "start_page": 455,
+          "text_preview": "A hasty inspection of irrigation and draining would lead to the belief that they are founded on opposite principles. It is seen that draining deprives the land of water, and that irrigation, on the contrary, supplies it with water. It is obvious that the great object of draining, and particularly of furrow-draining, is to present surface water which descends through the upper soil to the retentive substrata below it, with frequent opportunities of egress; and it is also obvious, that the great object of irrigation is to supply the upper soil, the firm foundation on which plants rear their superstructures, as much of surface-water as it can retain, for the purpose of promoting increased vegetation. Notwithstanding this apparent difference in principle between them, both induce similar effects, but the origin of which, lying deeper than the surface of the ground, might easily escape the notice of superficial observers. Both operations, in the first place, are meant to prevent all stagnat",
+          "text_end": "ce. It may occasionally be observed on the sides of mountains near wells, having a sparkling appearance. This lace is a rapid promoter of rot in sheep.\n\nWhen it is determined to irrigate, the drains and feeders should be previously inspected, all obstructions removed, and dilapidations amended. Whatever difference of opinion may exist on irrigating at this particular period of the season, all irrigators are agreed that early irrigation in autumn produces greater effects than late, and that water"
+        },
+        {
+          "article_id": "1842_v12_IRRITABILITY",
+          "headword": "IRRITABILITY",
+          "direction": "next",
+          "start_page": 466,
+          "text_preview": "in Anatomy and Medicine, a term first invented by Glisson, and adopted by Haller, to denote an essential property of all animal bodies, which exists independently of, and in contradistinction to, sensibility. This ingenious author calls that part of the human body irritable, which becomes shorter upon being touched; very irritable, if it contracts upon a slight touch; and the contrary, if by a violent touch it contracts but little. He calls that\na sensible part of the human body, which, upon being touched, transmits the impression thereof to the soul; and in brutes, he calls those parts sensible, the irritation of which occasions evident signs of pain and disquiet in the animal. On the contrary, he calls that insensible, which being burned, torn, pricked, or cut till it is quite destroyed, occasions no sign of pain or convulsion, nor any sort of change in the situation of the body. From the result of many cruel experiments, Haller concludes that the epidermis is insensible; that the sk",
+          "text_end": "and more especially by the use of opium in living animals. The physiological system, of which an abstract has now been given, has been adopted and confirmed by Castell and Zimmermann, and also by Brocklesby, who suggests, that irritability, as distinguished from sensibility, may depend upon a series of nerves different from such as serve either for voluntary motion or sensation. This doctrine, however, has been controverted by M. le Cat, and particularly by Dr Whytt, in his Physiological Essays."
+        }
+      ]
+    },
+    {
+      "item_num": 15,
+      "article_id": "1842_v12_STOCK-JOBBING",
+      "headword": "STOCK-JOBBING",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 598,
+      "end_page": 598,
+      "word_count": 73,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'STOCK-JOBBING' comes after 'KYR'",
+      "text_preview": "g denotes the practice of trafficking in the public funds, or of buying and selling stock with a view to its rise or fall. The term is commonly applied to the illegal practice of buying and selling stock for time, or of accounting for the differences in the rise or fall of any particular stock for a stipulated time, whether the buyer or seller be possessed of any such real stock or not.",
+      "text_end": " with a view to its rise or fall. The term is commonly applied to the illegal practice of buying and selling stock for time, or of accounting for the differences in the rise or fall of any particular stock for a stipulated time, whether the buyer or seller be possessed of any such real stock or not.",
+      "full_text": "g denotes the practice of trafficking in the public funds, or of buying and selling stock with a view to its rise or fall. The term is commonly applied to the illegal practice of buying and selling stock for time, or of accounting for the differences in the rise or fall of any particular stock for a stipulated time, whether the buyer or seller be possessed of any such real stock or not.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "JOEL",
+          "start_page": 598,
+          "end_page": 598
+        },
+        {
+          "headword": "JOGHIS",
+          "start_page": 598,
+          "end_page": 598
+        },
+        {
+          "headword": "JOGUES",
+          "start_page": 598,
+          "end_page": 599
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "JOHANN-GEORGENSTADT",
+          "start_page": 599
+        },
+        {
+          "headword": "JOHANNISBERG",
+          "start_page": 599
+        },
+        {
+          "headword": "JOHN",
+          "start_page": 599
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_JOGUES",
+          "headword": "JOGUES",
+          "direction": "previous",
+          "start_page": 598,
+          "text_preview": "or Yugs, certain ages, eras, or periods of extraordinary length in the fabulous chronology of the Hindus. They are (see Halhed's Preface to the Code of Gentoos Laws, p. xxxvi.) four in number, viz.\n\n1. The Suttee Yug, or age of purity, which is said to have lasted three millions two hundred thousand years; and they hold that the life of man was extended in that age to one hundred thousand years, and that his stature was twenty-one cubits.\n\n2. The Tirtah Yug, in which one third of mankind was corrupted, they suppose to have consisted of two millions four hundred thousand years, during which men lived to the age of ten thousand years.\n\n3. The Dwapaar Yug, in which half of the human race became depraved, endured one million six hundred thousand years, during which the life of man was reduced to a thousand years.\n\n4. The Collee Yug, in which all mankind were corrupted, or rather lessened (for that is the true meaning of the word Collee), is the present era, which they suppose ordained to s",
+          "text_end": "tand more thoroughly the principles upon which the fictitious eras or jogues of the Hindus have been formed, that we may be more able to reconcile their chronology to the true mode of computing time, founded on the authority of the Old Testament; and may likewise find reason to conclude, that the account given by their astronomers, of the situation of the heavenly bodies at the beginning of the Collee Jogue, is not established by actual observation, but the result of a retrospective calculation."
+        },
+        {
+          "article_id": "1842_v12_JOGHIS",
+          "headword": "JOGHIS",
+          "direction": "previous",
+          "start_page": 598,
+          "text_preview": "a sect of religious persons in the East Indies, who never marry, nor hold any private property, but live on alms, and practise strange severities or mortifications. They are subject to a general, who sends them from one country to another to preach. They are, properly, a kind of penitent pilgrims, and supposed to be a remnant of the ancient Gymnosopists. They principally frequent such places as are consecrated by the devotion of the people, and pretend to live several days together without either eating or drinking. After having gone through a course of discipline for a certain time, they look upon themselves as impeccable, and privileged to do any thing; in consequence of which they give a loose rein to their passions, and run into all manner of debauchery.",
+          "text_end": ", a kind of penitent pilgrims, and supposed to be a remnant of the ancient Gymnosopists. They principally frequent such places as are consecrated by the devotion of the people, and pretend to live several days together without either eating or drinking. After having gone through a course of discipline for a certain time, they look upon themselves as impeccable, and privileged to do any thing; in consequence of which they give a loose rein to their passions, and run into all manner of debauchery."
+        },
+        {
+          "article_id": "1842_v12_JOEL",
+          "headword": "JOEL",
+          "direction": "previous",
+          "start_page": 598,
+          "text_preview": "or the Prophecy of Joel, a canonical book of the Old Testament. Joel was the son of Pethuel, and the second of the twelve lesser prophets. The style of this prophet is bold, figurative, and expressive. He upbraids the Israelites for their idolatry, and foretells the calamities which they should suffer as the punishment of that sin; but he endeavours to support them with the comfort that their miseries would have an end upon their reformation and repentance. Some writers, inferring the order of time in which the minor prophets lived from the order in which they are placed in the Hebrew copies, conclude that Joel prophesied before Amos, who was contemporary with Uzziah, king of Judah. Archbishop Usher draws this inference from Joel's foretelling the drought (chap. iv. 7, 8, 9). But if we consider the main design of Joel's prophecy, we shall be apt to conclude that it was uttered after the captivity of the ten tribes; for he directs his discourse to Judah alone, and speaks distinctly of t",
+          "text_end": "are placed in the Hebrew copies, conclude that Joel prophesied before Amos, who was contemporary with Uzziah, king of Judah. Archbishop Usher draws this inference from Joel's foretelling the drought (chap. iv. 7, 8, 9). But if we consider the main design of Joel's prophecy, we shall be apt to conclude that it was uttered after the captivity of the ten tribes; for he directs his discourse to Judah alone, and speaks distinctly of the sacrifices and oblations which were daily offered in the temple."
+        },
+        {
+          "article_id": "1842_v12_JOHANN-GEORGENSTADT",
+          "headword": "JOHANN-GEORGENSTADT",
+          "direction": "next",
+          "start_page": 599,
+          "text_preview": "a city of the mining district of the kingdom of Saxony, in the circle of Freiburg, upon the frontiers of Bohemia. It contains 396 houses, and 3000 inhabitants, who are employed in extracting silver, tin, vitriol, sulphur, iron, and manganese, from the surrounding mines.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 16,
+      "article_id": "1842_v12_FRAMING",
+      "headword": "FRAMING",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 621,
+      "end_page": 623,
+      "word_count": 2596,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'FRAMING' comes before 'HYDRODYNAMICS'",
+      "text_preview": "27. Frames in joinery are usually connected by mortise tenon joints, with grooves to receive panels. Doors, window-shutters, &c., are framed in this manner. The object in framing is, to reduce the wood into narrow pieces, so that the work may not be sensibly affected by its shrink-\nage; and, at the same time, it enables us to vary the surface without much labour.\n\nFrom this view of the subject, the joiner will readily perceive, that neither the parts of the frame nor the pannels should be wide. ",
+      "text_end": "most always the guide for the plasterer. Where the plasterer's work joins the grounds, they should have a small groove ploughed in the edge to form a key for the plaster.\n\n36. In our remarks on construction, we must not omit Laying to say a few words on laying floors, because it will give us floors.",
+      "full_text": "27. Frames in joinery are usually connected by mortise tenon joints, with grooves to receive panels. Doors, window-shutters, &c., are framed in this manner. The object in framing is, to reduce the wood into narrow pieces, so that the work may not be sensibly affected by its shrink-\nage; and, at the same time, it enables us to vary the surface without much labour.\n\nFrom this view of the subject, the joiner will readily perceive, that neither the parts of the frame nor the pannels should be wide. And as the frame should be composed of narrow pieces, it follows, that the pannels should not be very long, otherwise the frame will want strength. The pannels of framing should not be more than 15 inches wide, and 4 feet long, and pannels so large as this should be avoided as much as possible. The width of the framing is commonly about one-third of the width of the panel.\n\nIt is of the utmost importance, in framing, that the tenons and mortises should be truly made. After a mortise has been made with the mortise chisel, it should be rendered perfectly even with a float; an instrument which differs from a single cut, or float file, only by having larger teeth. An inexperienced workman often makes his work fit too tight in one place, and too easy in another, hence the mortise is split by driving the parts together, and the work is never firm; whereas if the tenon fill the mortise equally, without using any considerable force in driving the work together, is is found to be firm and sound. The thickness of tenons should be about one-fourth of that of the framing, and the width of a tenon should never exceed about five times its thickness, otherwise, in wedging, the tenon will become bent, and bulge out of the sides of the mortise. If the rail be wide, two mortises should be made, with a space of solid wood between; fig. 22 shews the tenons for a wide rail.\n\nIn thick framing, the strength and firmness of the joint is much increased by putting a cross or feather tongue in on each ",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "JOINERY",
+          "start_page": 614,
+          "end_page": 617
+        },
+        {
+          "headword": "JOINERY",
+          "start_page": 618,
+          "end_page": 620
+        },
+        {
+          "headword": "JOINTS",
+          "start_page": 620,
+          "end_page": 621
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "JOINING ANGLES",
+          "start_page": 621
+        },
+        {
+          "headword": "JOINERY",
+          "start_page": 623
+        },
+        {
+          "headword": "JOINT",
+          "start_page": 628
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_JOINTS",
+          "headword": "JOINTS",
+          "direction": "previous",
+          "start_page": 620,
+          "text_preview": "25. The goodness of joiners' work depends chiefly upon the care that has been bestowed in joining the materials. In carpentry, framing owes its strength to the form and position of its parts; but in joinery, the strength of a frame depends upon the strength of the joinings. The importance, therefore, of fitting the joints together as accurately as possible, is obvious. It is very desirable, that a joiner should be a quick workman; but it is still more so that he should be a good one; that he should join his materials with firmness and accuracy; that he should make surfaces even and smooth, mouldings true and regular, and the parts intended to move so that they may be used with ease and freedom.\n\nWhere dispatch is considered as the chief excellence of a workman, it is not probable that he will strive to improve himself in his art, further than to produce the greatest quantity of barely tolerable work with the least quantity of labour. In some articles of short duration, dispatch in the ",
+          "text_end": "t duration, dispatch in the manufacture may be of greater importance; but in works that ought to remain firm for years, it certainly is bad economy to spare a few shillings' worth of labour at the risk of being annoyed with a piece of bad work as long as it will hold together.\n\nWe have seen, with no small degree of pleasure, the effect of encouraging good workmanship in the construction of machinery, and would recommend that a like encouragement should be given to superior workmen in other arts."
+        },
+        {
+          "article_id": "1842_v12_JOINERY_s2",
+          "headword": "JOINERY",
+          "direction": "previous",
+          "start_page": 618,
+          "text_preview": "half its base; to find the development, produce AB, and from the vertex C let fall the perpendicular CD. Divide the circumference of the base into any number of equal parts, and from each point of division describe an arc from D, as a centre, to cut the line AB at 1, 2, 3, &c. From C, as a centre, describe the arcs AA', 11, 22, &c., and with a radius equal to one of the divisions of the circumference of the base, and the centre B cross the arc 55, which determines the point 5 in the development, with the same radius, and the point 5, as a centre cross the arc 44, and so on for the remainder of the arcs. Join A'C, and draw a curve line through the points A', 1, 2, &c., which gives the covering for half an oblique cone.\n\nIf the cone be cut by a plane, ab, parallel to the base, the surface Bb'a'A' will be the covering of a soffit for a conical arch cutting obliquely into a straight wall.\n\nAs it often happens that there is not a sufficient space between the head of a door, or a window, and",
+          "text_end": "e other.\n\nIn that part of the cornice marked AB, set off a sufficient number of points; and from each of these points draw a line parallel to the rake, or inclination of the pediment. Also, let a verticle line be drawn to each of the same points from the horizontal line rs. Make s't perpendicular to the inclination of the pediment, and with a slip of paper, or by\n\n---\n\n1 On this subject the reader may consult Monge's G\u00e9om\u00e9trie Descriptive, Art. 19 et 20, par. 23 and 24, 4th edition, Paris, 1820."
+        },
+        {
+          "article_id": "1842_v12_JOINERY",
+          "headword": "JOINERY",
+          "direction": "previous",
+          "start_page": 614,
+          "text_preview": "Is one of the useful arts which contributes most materially to the comfort and convenience of man. As the arts of joinery and carpentry are often followed by the same individual, it appears, at first view, natural to conclude, that the same principles are common to both these arts. But a closer examination of their objects leads us to a different conclusion.\n\nThe art of Carpentry is directed almost wholly to the support of weight or pressure; and, therefore, its principles must be found in the mechanical sciences. In a building, it includes all the rough timber-work necessary for support, division, or connection; and its proper object is to give firmness and stability. See the Article CARPENTRY.\n\nThe art of Joinery has for its object the addition in a building of all the fixed wood-work necessary for convenience or ornament. It is the Intestinum opus of Vitruvius, and the Menuiserie des b\u00e2timents of the French.\n\nThe joiner's works are many of them of a complicated nature, and require t",
+          "text_end": " will represent the\nplane upon which the section is to be projected. Set off\n\nany convenient number of points, 1, 2, 3, 4, &c. in the given\ncurve FD, from each of these points\ndraw a line perpendicular to ED,\nto meet BA; and from the points\nin BA, thus determined, erect per-\npendiculars, which will cut HE at\nright angles. Make GH equal to\n\n[Merged from FRAMING, p.820]\n\nin Joinery, a kind of case, in which a set of tools are kept, or even supported; as a window is placed in a frame, and the like."
+        },
+        {
+          "article_id": "1842_v12_JOINING_ANGLES",
+          "headword": "JOINING ANGLES",
+          "direction": "next",
+          "start_page": 621,
+          "text_preview": "26. When the length of a joint at an angle is not considerable, it is sufficient to cut the joint, so that when the parts are joined, the plane of the joint shall bisect the angle. This kind of joint is shown for two different angles, by fig. 16.\n\nWhen an angle of considerable length is to be joined, and the kind of work does not require a jointing should be concealed, fig. 17 is often employed; the small bead renders the appearance of the joint less objectionable, because any irregularities, from shrinkage, are not seen in the shade of the quirk of the bead.\n\nA bead upon an angle, where the nature of the thing does not determine it to be an arris, is attended with many advantages; it is less liable to be injured, and admits of a secure joint, without the appearance of one. Fig. 18 shows a joint of this description, which should always be used in passages.\n\nFig. 19 represents a very good joint for an exterior angle, whether it be a long or short one. Such a joint may be nailed both way",
+          "text_end": "h more accuracy, and joined with certainty. The angles of pilasters are often joined, as fig. 20.\n\nInterior angles are commonly joined, as shown by fig. 21.\n\nIf the upper or lower edge be visible, the joint is mitred, as in fig. 16, at the edge only, the other part of the joint being grooved, as in fig. 21. In this manner are put together the skirting and dado at the interior angles of rooms, the backs, and backlinings of windows, the jambs of door-ways, and various other parts of joiners' work."
+        }
+      ]
+    },
+    {
+      "item_num": 17,
+      "article_id": "1842_v12_BLAST_ENGINE",
+      "headword": "BLAST ENGINE",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 853,
+      "end_page": 853,
+      "word_count": 15,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'BLAST ENGINE' comes before 'HYDRODYNAMICS'",
+      "text_preview": "Erected at Wylam Iron Works, by R.&W. HAWTHON, Civil Engineers, NEWCASTLE upon TYNE.\n\nELEVATION. Fig.1.",
+      "text_end": "",
+      "full_text": "Erected at Wylam Iron Works, by R.&W. HAWTHON, Civil Engineers, NEWCASTLE upon TYNE.\n\nELEVATION. Fig.1.",
+      "auto_classification": {
+        "decision": "MERGE",
+        "confidence": "medium",
+        "reason": "Very short entry, likely fragment",
+        "merge_target": "KYRAHGUR"
+      },
+      "prev_articles": [
+        {
+          "headword": "KYRAHGUR",
+          "start_page": 777,
+          "end_page": 777
+        },
+        {
+          "headword": "KYRAUT",
+          "start_page": 777,
+          "end_page": 777
+        },
+        {
+          "headword": "KYREEGHUR",
+          "start_page": 777,
+          "end_page": 777
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "CROSS SECTION",
+          "start_page": 853
+        },
+        {
+          "headword": "SCALE",
+          "start_page": 853
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_KYREEGHUR",
+          "headword": "KYREEGHUR",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a town of Hindustan, in the province of Oude, situated on the east side of the Goggrah river, 102 miles north from Lucknow. Long. 80. 51. E. Lat. 28. 18. N.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_KYRAUT",
+          "headword": "KYRAUT",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a district of Northern Hindustan, situated between the twenty-seventh and twenty-eighth degrees of north latitude. It is bounded on the north by the Himalaya ridge, on the east by Bootan, on the south by Morung, and on the west by Nepaul, from which it is separated by a large tract little known to Europeans. The river Teesta is the principal river, and Damsong the chief town. It was conquered in 1769 by the rajah of Gorcah.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_KYRAHGUR",
+          "headword": "KYRAHGUR",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a town of Hindustan, belonging to the grand rajahs tributary to the Nagpoor Maharrats, in the province of Gundwana, eighty-six miles south-west from Ruttunpoor. Long. 81. 32. E. Lat. 21. 27. N.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_CROSS_SECTION",
+          "headword": "CROSS SECTION",
+          "direction": "next",
+          "start_page": 853,
+          "text_preview": "REFERENCE.\nA.A... Represents the Pillar on which the Engine is fixed.\nB.B... The Blast Cylinder.\nC.C... The Wind Boxes in which are fixed the discharging valves.\nd.d... The Blast Pipe leading to the Furnaces.\nE.E... The Steam Cylinder.\nf.f... The Force Pumps.\ng.g... The Hand or Working Gear.\nh.h... The Cross heads.\ni.i.i... The Slides for guiding the Piston Rods.\nk.k... The Banging Boxes.\n\nPLAN. Fig.2.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 18,
+      "article_id": "1842_v12_CROSS_SECTION",
+      "headword": "CROSS SECTION",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 853,
+      "end_page": 853,
+      "word_count": 66,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'CROSS SECTION' comes before 'HYDRODYNAMICS'",
+      "text_preview": "REFERENCE.\nA.A... Represents the Pillar on which the Engine is fixed.\nB.B... The Blast Cylinder.\nC.C... The Wind Boxes in which are fixed the discharging valves.\nd.d... The Blast Pipe leading to the Furnaces.\nE.E... The Steam Cylinder.\nf.f... The Force Pumps.\ng.g... The Hand or Working Gear.\nh.h... The Cross heads.\ni.i.i... The Slides for guiding the Piston Rods.\nk.k... The Banging Boxes.\n\nPLAN. Fig.2.",
+      "text_end": "he Wind Boxes in which are fixed the discharging valves.\nd.d... The Blast Pipe leading to the Furnaces.\nE.E... The Steam Cylinder.\nf.f... The Force Pumps.\ng.g... The Hand or Working Gear.\nh.h... The Cross heads.\ni.i.i... The Slides for guiding the Piston Rods.\nk.k... The Banging Boxes.\n\nPLAN. Fig.2.",
+      "full_text": "REFERENCE.\nA.A... Represents the Pillar on which the Engine is fixed.\nB.B... The Blast Cylinder.\nC.C... The Wind Boxes in which are fixed the discharging valves.\nd.d... The Blast Pipe leading to the Furnaces.\nE.E... The Steam Cylinder.\nf.f... The Force Pumps.\ng.g... The Hand or Working Gear.\nh.h... The Cross heads.\ni.i.i... The Slides for guiding the Piston Rods.\nk.k... The Banging Boxes.\n\nPLAN. Fig.2.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "KYRAUT",
+          "start_page": 777,
+          "end_page": 777
+        },
+        {
+          "headword": "KYREEGHUR",
+          "start_page": 777,
+          "end_page": 777
+        },
+        {
+          "headword": "BLAST ENGINE",
+          "start_page": 853,
+          "end_page": 853
+        }
+      ],
+      "next_articles": [
+        {
+          "headword": "SCALE",
+          "start_page": 853
+        }
+      ],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_BLAST_ENGINE",
+          "headword": "BLAST ENGINE",
+          "direction": "previous",
+          "start_page": 853,
+          "text_preview": "Erected at Wylam Iron Works, by R.&W. HAWTHON, Civil Engineers, NEWCASTLE upon TYNE.\n\nELEVATION. Fig.1.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_KYREEGHUR",
+          "headword": "KYREEGHUR",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a town of Hindustan, in the province of Oude, situated on the east side of the Goggrah river, 102 miles north from Lucknow. Long. 80. 51. E. Lat. 28. 18. N.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_KYRAUT",
+          "headword": "KYRAUT",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a district of Northern Hindustan, situated between the twenty-seventh and twenty-eighth degrees of north latitude. It is bounded on the north by the Himalaya ridge, on the east by Bootan, on the south by Morung, and on the west by Nepaul, from which it is separated by a large tract little known to Europeans. The river Teesta is the principal river, and Damsong the chief town. It was conquered in 1769 by the rajah of Gorcah.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_SCALE",
+          "headword": "SCALE",
+          "direction": "next",
+          "start_page": 853,
+          "text_preview": "PLAN. Fig.2.\nPLAN AND SECTION OF A CUPOLA FURNACE.\n\nFig. 1.\n\nFig. 2.\n\nFig. 3.\n\nFig. 4.\n\nSCALE: 10 feet\n\nPlate CCCXVII.",
+          "text_end": ""
+        }
+      ]
+    },
+    {
+      "item_num": 19,
+      "article_id": "1842_v12_SCALE",
+      "headword": "SCALE",
+      "edition_year": 1842,
+      "volume_num": 12,
+      "start_page": 853,
+      "end_page": 881,
+      "word_count": 22,
+      "volume_range": "Hydrodynamics-KYR",
+      "effective_start": "HYDRODYNAMICS",
+      "effective_end": "KYR",
+      "reason": "'SCALE' comes after 'KYR'",
+      "text_preview": "PLAN. Fig.2.\nPLAN AND SECTION OF A CUPOLA FURNACE.\n\nFig. 1.\n\nFig. 2.\n\nFig. 3.\n\nFig. 4.\n\nSCALE: 10 feet\n\nPlate CCCXVII.",
+      "text_end": "",
+      "full_text": "PLAN. Fig.2.\nPLAN AND SECTION OF A CUPOLA FURNACE.\n\nFig. 1.\n\nFig. 2.\n\nFig. 3.\n\nFig. 4.\n\nSCALE: 10 feet\n\nPlate CCCXVII.",
+      "auto_classification": {
+        "decision": "REVIEW",
+        "confidence": "low",
+        "reason": "Could not auto-classify - needs manual review",
+        "merge_target": null
+      },
+      "prev_articles": [
+        {
+          "headword": "KYREEGHUR",
+          "start_page": 777,
+          "end_page": 777
+        },
+        {
+          "headword": "BLAST ENGINE",
+          "start_page": 853,
+          "end_page": 853
+        },
+        {
+          "headword": "CROSS SECTION",
+          "start_page": 853,
+          "end_page": 853
+        }
+      ],
+      "next_articles": [],
+      "merge_candidates": [
+        {
+          "article_id": "1842_v12_CROSS_SECTION",
+          "headword": "CROSS SECTION",
+          "direction": "previous",
+          "start_page": 853,
+          "text_preview": "REFERENCE.\nA.A... Represents the Pillar on which the Engine is fixed.\nB.B... The Blast Cylinder.\nC.C... The Wind Boxes in which are fixed the discharging valves.\nd.d... The Blast Pipe leading to the Furnaces.\nE.E... The Steam Cylinder.\nf.f... The Force Pumps.\ng.g... The Hand or Working Gear.\nh.h... The Cross heads.\ni.i.i... The Slides for guiding the Piston Rods.\nk.k... The Banging Boxes.\n\nPLAN. Fig.2.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_BLAST_ENGINE",
+          "headword": "BLAST ENGINE",
+          "direction": "previous",
+          "start_page": 853,
+          "text_preview": "Erected at Wylam Iron Works, by R.&W. HAWTHON, Civil Engineers, NEWCASTLE upon TYNE.\n\nELEVATION. Fig.1.",
+          "text_end": ""
+        },
+        {
+          "article_id": "1842_v12_KYREEGHUR",
+          "headword": "KYREEGHUR",
+          "direction": "previous",
+          "start_page": 777,
+          "text_preview": "a town of Hindustan, in the province of Oude, situated on the east side of the Goggrah river, 102 miles north from Lucknow. Long. 80. 51. E. Lat. 28. 18. N.",
+          "text_end": ""
+        }
+      ]
+    }
+  ]
+}
