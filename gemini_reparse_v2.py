@@ -17,7 +17,7 @@ import sys
 import time
 import argparse
 from pathlib import Path
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 from glob import glob
 
 try:
@@ -52,61 +52,40 @@ def configure_gemini():
 
 
 class RawOCRLoader:
-    """Load raw OCR text with page number mappings from original OCR results."""
+    """Load raw OCR text with page number mappings from OCR result files."""
 
-    # Map (edition, volume) to OCR result file
-    # These are in ocr_results/{edition}_britannica_{nth}/output_*.jsonl
-    OCR_FILE_MAP = {
-        # 1771 1st Edition
-        ('1771', 1): 'ocr_results/1771_britannica_1st/output_114aa9270857798ee869db8d06996ca185bd7105.jsonl',
-        ('1771', 2): 'ocr_results/1771_britannica_1st/output_1718f3a66eab1422763966bf5470b3b3906faa08.jsonl',
-        ('1771', 3): 'ocr_results/1771_britannica_1st/output_1455a43ee23170019c3b9c5052be80106e7aaf8e.jsonl',
-        # Add more mappings as needed
-    }
-
-    def __init__(self, ocr_dir: str = "ocr_results"):
-        self.ocr_dir = Path(ocr_dir)
+    def __init__(self, mapping_file: str = "ocr_edition_mapping.json"):
         self.cache = {}  # (edition, volume) -> {text, page_map}
+
+        # Load comprehensive mapping from file
+        mapping_path = Path(mapping_file)
+        if mapping_path.exists():
+            with open(mapping_path) as f:
+                self.edition_mapping = json.load(f)
+        else:
+            # Fallback to minimal hardcoded mapping
+            self.edition_mapping = {
+                '1771': {
+                    '1': 'ocr_results/1771_britannica_1st/output_114aa9270857798ee869db8d06996ca185bd7105.jsonl',
+                    '2': 'ocr_results/1771_britannica_1st/output_1718f3a66eab1422763966bf5470b3b3906faa08.jsonl',
+                    '3': 'ocr_results/1771_britannica_1st/output_1455a43ee23170019c3b9c5052be80106e7aaf8e.jsonl',
+                }
+            }
 
     def _find_ocr_file(self, edition: str, volume: int) -> Optional[Path]:
         """Find the OCR result file for a given edition/volume."""
-        # First check explicit mapping
-        key = (edition, volume)
-        if key in self.OCR_FILE_MAP:
-            return Path(self.OCR_FILE_MAP[key])
-
-        # Otherwise try to find by scanning directory
-        edition_dirs = {
-            '1771': '1771_britannica_1st',
-            '1778': '1778_britannica_2nd',
-            '1797': '1797_britannica_3rd',
-            '1810': '1810_britannica_4th',
-        }
-
-        ed_dir = edition_dirs.get(edition)
-        if not ed_dir:
+        if edition not in self.edition_mapping:
             return None
 
-        # Scan files and check Source-File metadata for volume number
-        dir_path = self.ocr_dir / ed_dir
-        if not dir_path.exists():
-            return None
+        vol_mapping = self.edition_mapping[edition]
+        vol_key = str(volume)
 
-        for f in dir_path.glob('output_*.jsonl'):
-            try:
-                with open(f) as fh:
-                    content = fh.read()
-                if content.strip().startswith('['):
-                    data = json.loads(content)
-                    entry = data[0] if isinstance(data, list) else data
-                else:
-                    entry = json.loads(content.split('\n')[0])
+        if vol_key in vol_mapping:
+            return Path(vol_mapping[vol_key])
 
-                source = entry.get('metadata', {}).get('Source-File', '')
-                if f'Volume {volume}' in source or f'Volume{volume}' in source:
-                    return f
-            except:
-                continue
+        # Try integer key (JSON may have converted)
+        if volume in vol_mapping:
+            return Path(vol_mapping[volume])
 
         return None
 
@@ -180,6 +159,32 @@ class RawOCRLoader:
         return text[start_char:end_char]
 
 
+def convert_range_to_sample_errors(r: Dict) -> List[dict]:
+    """
+    Convert a range dict to sample_errors format for prompt building.
+    Handles both reparse_ranges.json and repair_manifest.json formats.
+    """
+    # If already has sample_errors, use it directly
+    if 'sample_errors' in r and r['sample_errors']:
+        return r['sample_errors']
+
+    # Convert from reparse_ranges.json format (sample_titles + reasons)
+    sample_errors = []
+    sample_titles = r.get('sample_titles', [])
+    reasons = r.get('reasons', [])
+    start_page = r.get('start_page', '?')
+
+    for i, title in enumerate(sample_titles):
+        error = {
+            'title': title,
+            'page': start_page,  # Approximate - we don't have exact page in this format
+            'reason': reasons[i] if i < len(reasons) else 'unknown'
+        }
+        sample_errors.append(error)
+
+    return sample_errors
+
+
 def build_reparse_prompt(edition: str, volume: str,
                          start_page: int, end_page: int,
                          raw_text: str, sample_errors: List[dict]) -> str:
@@ -206,7 +211,7 @@ KNOWN PARSING ERRORS IN THIS RANGE (these were incorrectly identified as article
     prompt += f"""
 RAW OCR TEXT (pages {start_page}-{end_page}):
 ---
-{raw_text[:12000]}
+{raw_text}
 ---
 
 INSTRUCTIONS:
@@ -264,35 +269,161 @@ def call_gemini(model, prompt: str) -> Optional[dict]:
     return None
 
 
+def merge_overlapping_ranges(ranges: List[Dict]) -> List[Dict]:
+    """
+    Merge overlapping page ranges within the same volume to avoid redundant processing.
+    Returns a new list with merged ranges.
+    """
+    if not ranges:
+        return []
+
+    # Group by volume
+    by_volume = {}
+    for r in ranges:
+        vol = r['volume']
+        if vol not in by_volume:
+            by_volume[vol] = []
+        by_volume[vol].append(r)
+
+    merged_ranges = []
+
+    for vol in sorted(by_volume.keys()):
+        vol_ranges = by_volume[vol]
+        # Sort by start page
+        vol_ranges.sort(key=lambda x: x['start_page'])
+
+        merged = []
+        for r in vol_ranges:
+            if merged and r['start_page'] <= merged[-1]['end_page'] + 5:  # Allow small gaps
+                # Merge with previous range
+                merged[-1]['end_page'] = max(merged[-1]['end_page'], r['end_page'])
+                # Combine sample_errors if present
+                if 'sample_errors' in r and 'sample_errors' in merged[-1]:
+                    merged[-1]['sample_errors'].extend(r.get('sample_errors', []))
+            else:
+                # Start new range (copy to avoid modifying original)
+                merged.append({
+                    'edition': r['edition'],
+                    'volume': r['volume'],
+                    'start_page': r['start_page'],
+                    'end_page': r['end_page'],
+                    'sample_errors': r.get('sample_errors', [])
+                })
+        merged_ranges.extend(merged)
+
+    return merged_ranges
+
+
+def split_large_ranges(ranges: List[Dict], max_pages: int = 20, overlap: int = 2) -> List[Dict]:
+    """
+    Split large page ranges into smaller chunks for API processing.
+
+    Args:
+        ranges: List of page ranges
+        max_pages: Maximum pages per chunk (default 20)
+        overlap: Pages to overlap between chunks to catch boundary articles (default 2)
+
+    Returns:
+        List of smaller page ranges
+    """
+    split_ranges = []
+
+    for r in ranges:
+        start = r['start_page']
+        end = r['end_page']
+        pages = end - start + 1
+
+        if pages <= max_pages:
+            # Range is small enough, keep as-is
+            split_ranges.append(r)
+        else:
+            # Split into chunks
+            chunk_start = start
+            while chunk_start < end:
+                chunk_end = min(chunk_start + max_pages - 1, end)
+                split_ranges.append({
+                    'edition': r['edition'],
+                    'volume': r['volume'],
+                    'start_page': chunk_start,
+                    'end_page': chunk_end,
+                    'sample_errors': r.get('sample_errors', [])
+                })
+                # Move to next chunk with overlap
+                chunk_start = chunk_end - overlap + 1
+                # Avoid infinite loop if overlap >= max_pages
+                if chunk_start <= split_ranges[-1]['start_page']:
+                    break
+
+    return split_ranges
+
+
 def main():
     parser = argparse.ArgumentParser(description="Re-parse OCR with Gemini (v2 - raw OCR)")
     parser.add_argument("--edition", required=True, help="Edition year (e.g., 1771)")
-    parser.add_argument("--volume", required=True, help="Volume (e.g., vol2)")
-    parser.add_argument("--range", type=int, help="Specific range index to process")
-    parser.add_argument("--limit", type=int, default=5, help="Max ranges to process")
+    parser.add_argument("--volume", help="Volume (e.g., vol2) - if omitted, processes all volumes")
+    parser.add_argument("--range", type=int, help="Specific range index to process (after merging/splitting)")
+    parser.add_argument("--limit", type=int, help="Max ranges to process (default: all)")
+    parser.add_argument("--chunk-size", type=int, default=20, help="Max pages per API call (default: 20)")
+    parser.add_argument("--save-every", type=int, default=25, help="Save results every N chunks (default: 25)")
     parser.add_argument("--dry-run", action="store_true", help="Show prompt without API call")
-    parser.add_argument("--output", default="gemini_corrections_v2.json", help="Output file")
+    parser.add_argument("--output", help="Output file (default: gemini_{edition}_{volume}.json)")
+    parser.add_argument("--manifest", default="reparse_ranges.json",
+                        help="Manifest file with page ranges (default: reparse_ranges.json)")
     args = parser.parse_args()
 
-    # Load reparse ranges
-    with open('reparse_ranges.json') as f:
-        all_ranges = json.load(f)
+    # Load reparse ranges from manifest file
+    # Supports both reparse_ranges.json (list format) and repair_manifest.json (dict with 'pages' key)
+    manifest_path = Path(args.manifest)
+    if not manifest_path.exists():
+        print(f"ERROR: Manifest file not found: {args.manifest}")
+        sys.exit(1)
+
+    with open(manifest_path) as f:
+        manifest_data = json.load(f)
+
+    # Handle both formats
+    if isinstance(manifest_data, list):
+        # reparse_ranges.json format: direct list of ranges
+        all_ranges = manifest_data
+    elif isinstance(manifest_data, dict):
+        # repair_manifest.json format: dict with 'pages' key
+        all_ranges = manifest_data.get('pages', [])
+    else:
+        print(f"ERROR: Unknown manifest format in {args.manifest}")
+        sys.exit(1)
+
+    print(f"Loaded {len(all_ranges)} ranges from {args.manifest}")
 
     # Filter to requested edition/volume
-    vol_num = int(args.volume.replace('vol', ''))
-    ranges = [r for r in all_ranges
-              if r['edition'] == args.edition and r['volume'] == args.volume]
+    ranges = [r for r in all_ranges if r['edition'] == args.edition]
+
+    if args.volume:
+        ranges = [r for r in ranges if r['volume'] == args.volume]
+
+    # Merge overlapping ranges to avoid redundant processing
+    original_count = len(ranges)
+    ranges = merge_overlapping_ranges(ranges)
+    if original_count != len(ranges):
+        print(f"Merged {original_count} overlapping ranges into {len(ranges)} merged ranges")
+
+    # Split large ranges into manageable chunks
+    merged_count = len(ranges)
+    ranges = split_large_ranges(ranges, max_pages=args.chunk_size, overlap=2)
+    if merged_count != len(ranges):
+        print(f"Split into {len(ranges)} chunks of max {args.chunk_size} pages each")
 
     if args.range is not None:
         ranges = [ranges[args.range]] if args.range < len(ranges) else []
-    else:
+    elif args.limit:
         ranges = ranges[:args.limit]
 
     if not ranges:
-        print(f"No ranges found for {args.edition} {args.volume}")
+        vol_str = args.volume if args.volume else "all volumes"
+        print(f"No ranges found for {args.edition} {vol_str}")
         sys.exit(1)
 
-    print(f"Processing {len(ranges)} ranges for {args.edition} {args.volume}")
+    vol_str = args.volume if args.volume else "all volumes"
+    print(f"Processing {len(ranges)} ranges for {args.edition} {vol_str}")
 
     # Initialize
     ocr_loader = RawOCRLoader()
@@ -303,8 +434,10 @@ def main():
     for idx, r in enumerate(ranges):
         start_page = r['start_page']
         end_page = r['end_page']
+        volume = r['volume']
+        vol_num = int(volume.replace('vol', ''))
 
-        print(f"\n  [{idx+1}/{len(ranges)}] Pages {start_page}-{end_page}...", flush=True)
+        print(f"\n  [{idx+1}/{len(ranges)}] {volume} pages {start_page}-{end_page}...", flush=True)
 
         # Get raw OCR text for this page range
         try:
@@ -322,9 +455,10 @@ def main():
         print(f"    Raw text: {len(raw_text)} chars", flush=True)
 
         # Build prompt
+        sample_errors = convert_range_to_sample_errors(r)
         prompt = build_reparse_prompt(
-            args.edition, args.volume, start_page, end_page,
-            raw_text, r.get('sample_errors', [])
+            args.edition, volume, start_page, end_page,
+            raw_text, sample_errors
         )
 
         if args.dry_run:
@@ -349,11 +483,28 @@ def main():
 
         time.sleep(1)  # Rate limiting
 
-    # Save results
-    with open(args.output, 'w') as f:
+        # Incremental save
+        if not args.dry_run and args.save_every and (idx + 1) % args.save_every == 0:
+            if args.output:
+                output_file = args.output
+            else:
+                vol_suffix = args.volume if args.volume else "all"
+                output_file = f"gemini_{args.edition}_{vol_suffix}.json"
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=2)
+            print(f"    [Saved {len(results)} results to {output_file}]")
+
+    # Final save
+    if args.output:
+        output_file = args.output
+    else:
+        vol_suffix = args.volume if args.volume else "all"
+        output_file = f"gemini_{args.edition}_{vol_suffix}.json"
+
+    with open(output_file, 'w') as f:
         json.dump(results, f, indent=2)
 
-    print(f"\nSaved {len(results)} results to {args.output}")
+    print(f"\nSaved {len(results)} results to {output_file}")
 
 
 if __name__ == "__main__":

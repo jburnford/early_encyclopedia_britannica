@@ -76,56 +76,6 @@ nav a:hover { text-decoration: underline; }
 .breadcrumb a { color: var(--accent); text-decoration: none; }
 .breadcrumb a:hover { text-decoration: underline; }
 
-.edition-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.edition-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-.edition-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-}
-
-.edition-card h2 {
-    color: var(--accent);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-}
-
-.edition-card .year {
-    font-size: 2rem;
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-}
-
-.edition-card .stats {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.edition-card a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--bg-secondary);
-    background: var(--accent);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.edition-card a:hover { background: var(--accent-light); }
-
 .volume-list {
     list-style: none;
 }
@@ -237,36 +187,29 @@ nav a:hover { text-decoration: underline; }
     font-style: italic;
 }
 
-.search-box {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    border: 2px solid var(--border);
-    border-radius: 8px;
+.filter-bar {
     margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+    flex-grow: 1;
+    min-width: 200px;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
     font-family: inherit;
 }
-
-.search-box:focus {
-    outline: none;
-    border-color: var(--accent);
-}
-
-.search-results {
-    margin-top: 1rem;
-}
-
-.search-result {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-}
-
-.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
-.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
-.search-result a { color: var(--accent); }
 
 /* Cross-reference links within article text */
 .xref {
@@ -281,43 +224,6 @@ nav a:hover { text-decoration: underline; }
     border-bottom-style: solid;
 }
 
-.stats-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-.stats-table th, .stats-table td {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-}
-
-.stats-table th { background: var(--bg-primary); color: var(--accent); }
-.stats-table tr:hover { background: var(--bg-primary); }
-
-.filter-bar {
-    margin-bottom: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.filter-bar input {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
-.filter-bar select {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
 footer {
     text-align: center;
     padding: 2rem;
@@ -330,7 +236,6 @@ footer {
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
-    .edition-grid { grid-template-columns: 1fr; }
 }
 </style>
 </head>
@@ -348,8 +253,8 @@ footer {
         <a href="../search.html">Search</a>
     </nav>
 
-    <p>The Third Edition contains <strong>21,134 articles</strong>
-    including <strong>1,413 treatises</strong> across
+    <p>The Third Edition contains <strong>18,176 articles</strong>
+    including <strong>2,412 treatises</strong> across
     <strong>18 volumes</strong>.</p>
 
     <h2>Volumes</h2>
@@ -358,144 +263,126 @@ footer {
         <li>
             <a href="vol1.html">
                 <strong>Volume 1</strong>
-                : A-ANG
-                <div class="meta">1,408 articles, 74 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol2.html">
-                <strong>Volume 2</strong>
-                : ANG-BAR
-                <div class="meta">1,447 articles, 63 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol3.html">
-                <strong>Volume 3</strong>
-                : BAR-BZO
-                <div class="meta">1,508 articles, 102 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol4.html">
-                <strong>Volume 4</strong>
-                : CAA-CIC
-                <div class="meta">1,251 articles, 74 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol5.html">
-                <strong>Volume 5</strong>
-                : CIC-DIA
-                <div class="meta">1,583 articles, 100 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol6.html">
-                <strong>Volume 6</strong>
-                : DIA-ETH
-                <div class="meta">918 articles, 57 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol7.html">
-                <strong>Volume 7</strong>
-                : ETM-GOA
-                <div class="meta">1,111 articles, 118 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol8.html">
-                <strong>Volume 8</strong>
-                : GOB-HYD
-                <div class="meta">1,008 articles, 85 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol9.html">
-                <strong>Volume 9</strong>
-                : Hydrostatics-LES
-                <div class="meta">1,116 articles, 74 treatises</div>
+                <div class="meta">1,411 articles, 134 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol10.html">
                 <strong>Volume 10</strong>
-                : LES-MEC
-                <div class="meta">832 articles, 76 treatises</div>
+                <div class="meta">830 articles, 130 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol11.html">
                 <strong>Volume 11</strong>
-                : Medals-Midwifery
-                <div class="meta">273 articles, 50 treatises</div>
+                <div class="meta">263 articles, 56 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol12.html">
                 <strong>Volume 12</strong>
-                : MEI-NEG
-                <div class="meta">587 articles, 78 treatises</div>
+                <div class="meta">587 articles, 105 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol13.html">
                 <strong>Volume 13</strong>
-                : NEH-PAS
-                <div class="meta">891 articles, 79 treatises</div>
+                <div class="meta">890 articles, 151 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol14.html">
                 <strong>Volume 14</strong>
-                : PAS-PLA
-                <div class="meta">610 articles, 65 treatises</div>
+                <div class="meta">612 articles, 133 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol15.html">
                 <strong>Volume 15</strong>
-                : PLA-RAM
-                <div class="meta">738 articles, 79 treatises</div>
+                <div class="meta">763 articles, 114 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol16.html">
                 <strong>Volume 16</strong>
-                : RAN-SCO
-                <div class="meta">767 articles, 60 treatises</div>
+                <div class="meta">758 articles, 121 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol17.html">
                 <strong>Volume 17</strong>
-                : SCO-STR
-                <div class="meta">782 articles, 78 treatises</div>
+                <div class="meta">768 articles, 125 treatises</div>
             </a>
         </li>
         
         <li>
             <a href="vol18.html">
                 <strong>Volume 18</strong>
-                : STR-ZYM
-                <div class="meta">1,155 articles, 101 treatises</div>
+                <div class="meta">1,183 articles, 170 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol2.html">
+                <strong>Volume 2</strong>
+                <div class="meta">1,481 articles, 136 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol3.html">
+                <strong>Volume 3</strong>
+                <div class="meta">1,525 articles, 149 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol4.html">
+                <strong>Volume 4</strong>
+                <div class="meta">1,265 articles, 123 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol5.html">
+                <strong>Volume 5</strong>
+                <div class="meta">1,569 articles, 184 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol6.html">
+                <strong>Volume 6</strong>
+                <div class="meta">1,015 articles, 130 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol7.html">
+                <strong>Volume 7</strong>
+                <div class="meta">1,107 articles, 163 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol8.html">
+                <strong>Volume 8</strong>
+                <div class="meta">1,035 articles, 151 treatises</div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="vol9.html">
+                <strong>Volume 9</strong>
+                <div class="meta">1,114 articles, 137 treatises</div>
             </a>
         </li>
         
@@ -503,7 +390,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-06</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-20</p>
         </footer>
     </div>
     
