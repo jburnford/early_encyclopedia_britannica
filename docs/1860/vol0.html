@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volume 0 - 1860 - Encyclopaedia Britannica Historical Corpus</title>
+    <title>VOL0 - 8th Edition Alt (1860) - Encyclopaedia Britannica</title>
     <style>
 :root {
     --bg-primary: #faf8f5;
@@ -14,503 +14,451 @@
     --accent-light: #d4a574;
     --border: #e0d8d0;
 }
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.7;
-    min-height: 100vh;
 }
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-header {
-    text-align: center;
-    padding: 3rem 0;
-    border-bottom: 2px solid var(--border);
-    margin-bottom: 2rem;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-    letter-spacing: 0.05em;
-}
-
-header .subtitle {
-    color: var(--text-secondary);
-    font-style: italic;
-}
-
-nav {
-    background: var(--bg-secondary);
-    padding: 1rem;
-    border-radius: 4px;
-    margin-bottom: 2rem;
-    border: 1px solid var(--border);
-}
-
-nav a {
-    color: var(--accent);
-    text-decoration: none;
-    margin-right: 1.5rem;
-}
-
-nav a:hover { text-decoration: underline; }
-
-.breadcrumb {
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-}
-
-.breadcrumb a { color: var(--accent); text-decoration: none; }
-.breadcrumb a:hover { text-decoration: underline; }
-
-.edition-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.edition-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-.edition-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-}
-
-.edition-card h2 {
-    color: var(--accent);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-}
-
-.edition-card .year {
-    font-size: 2rem;
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-}
-
-.edition-card .stats {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.edition-card a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--bg-secondary);
-    background: var(--accent);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.edition-card a:hover { background: var(--accent-light); }
-
-.volume-list {
-    list-style: none;
-}
-
-.volume-list li {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-}
-
-.volume-list a {
-    display: block;
-    padding: 1rem;
-    color: var(--text-primary);
-    text-decoration: none;
-}
-
-.volume-list a:hover { background: var(--bg-primary); }
-
-.volume-list .meta {
-    color: var(--text-secondary);
-    font-size: 0.85rem;
-}
-
-.article-list {
-    list-style: none;
-}
-
-.article-item {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
-    overflow: hidden;
-}
-
-.article-header {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background 0.2s;
-}
-
-.article-header:hover { background: var(--bg-primary); }
-
-.article-header h3 {
-    font-size: 1rem;
-    font-weight: normal;
-    color: var(--accent);
-}
-
-.article-header .meta {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-}
-
-.article-header .badge {
-    background: var(--accent-light);
-    color: white;
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    margin-left: 0.5rem;
-}
-
-.article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
-
-.article-content {
-    padding: 1rem;
-    border-top: 1px solid var(--border);
-    display: none;
-    background: #fffef8;
-}
-
-.article-content.show { display: block; }
-
-.article-text {
-    white-space: pre-wrap;
-    font-size: 0.95rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-}
-
-.article-actions {
-    padding-top: 0.5rem;
-    border-top: 1px dashed var(--border);
-}
-
-.article-actions button {
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 0.4rem 0.8rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.85rem;
-    margin-right: 0.5rem;
-}
-
-.article-actions button:hover { background: var(--accent-light); }
-
-.loading {
-    color: var(--text-secondary);
-    font-style: italic;
-}
-
-.search-box {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    border: 2px solid var(--border);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    font-family: inherit;
-}
-
-.search-box:focus {
-    outline: none;
-    border-color: var(--accent);
-}
-
-.search-results {
-    margin-top: 1rem;
-}
-
-.search-result {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-}
-
-.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
-.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
-.search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
-
-.stats-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-.stats-table th, .stats-table td {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-}
-
-.stats-table th { background: var(--bg-primary); color: var(--accent); }
-.stats-table tr:hover { background: var(--bg-primary); }
-
-.filter-bar {
-    margin-bottom: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.filter-bar input {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
-.filter-bar select {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
-footer {
-    text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
-    border-top: 1px solid var(--border);
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-}
-
-@media (max-width: 600px) {
-    .container { padding: 1rem; }
-    header h1 { font-size: 1.8rem; }
-    .edition-grid { grid-template-columns: 1fr; }
-}
+.container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+header { background: var(--accent); color: white; padding: 1rem 2rem; }
+header h1 { font-size: 1.5rem; }
+header a { color: white; text-decoration: none; }
+.article { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+.article h2 { color: var(--accent); margin-bottom: 0.5rem; font-size: 1.3rem; }
+.article-meta { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem; }
+.article-content { text-align: justify; }
+.toc { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.toc h3 { margin-bottom: 0.5rem; }
+.toc-list { column-count: 3; column-gap: 1rem; }
+.toc-list a { display: block; padding: 0.2rem 0; color: var(--accent); text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+nav { background: var(--bg-secondary); border-bottom: 1px solid var(--border); padding: 0.5rem 2rem; }
+nav a { color: var(--accent); margin-right: 1rem; text-decoration: none; }
+.stats { background: #f0f0f0; padding: 1rem; border-radius: 8px; margin: 1rem 0; }
 </style>
 </head>
 <body>
-    <div class="container">
-        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; <a href="index.html">1860 Edition</a> &raquo; Volume 0</div>
-        
     <header>
-        <h1>Volume 0</h1>
-        <p class="subtitle">Eighth Edition (1860) </p>
+        <h1><a href="../index.html">Encyclopaedia Britannica</a> - 8th Edition Alt (1860)</h1>
     </header>
-
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="index.html">1860 Edition</a>
-        <a href="../search.html">Search</a>
+        <a href="index.html">← Edition Index</a>
     </nav>
+    <div class="container">
+        <h1>VOL0 - 1 Articles</h1>
 
-    <p>This volume contains <strong>1 articles</strong>.
-    Click on an article to view its full text.</p>
+        <div class="toc">
+            <h3>Table of Contents</h3>
+            <div class="toc-list">
+                <a href="#NOTICE">NOTICE</a>
+            </div>
+        </div>
 
-    <div class="filter-bar">
-        <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
-        <select id="typeFilter" onchange="filterArticles()">
-            <option value="all">All Types</option>
-            <option value="treatise">Treatises</option>
-            <option value="biographical">Biographical</option>
-            <option value="geographical">Geographical</option>
-            <option value="dictionary">Dictionary</option>
-        </select>
-    </div>
-
-    <ul class="article-list" id="articleList">
         
-        <li class="article-item" id="article-NOTICE" data-idx="0" data-type="treatise">
-            <div class="article-header" onclick="toggleArticle(0)">
-                <h3>NOTICE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 275-286 | 4,135 words</span>
-            </div>
-            <div class="article-content" id="content-0">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-    </ul>
-    
-        <footer>
-            <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-06</p>
-        </footer>
+<div class="article" id="NOTICE">
+    <h2>NOTICE</h2>
+    <div class="article-meta">Pages 275-286</div>
+    <div class="article-content"><p>The Article on Wine, Vol. XXI., was in &lt;a class=&quot;xref&quot; href=&quot;../1842/vol21.html#article-TYPE&quot;&gt;type&lt;/a&gt; before the passing of the &lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-ACT&quot;&gt;Act&lt;/a&gt; 23 and 24 Vict. c. 110, &quot;to consolidate the Duties of Customs,&quot; which received the &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-ROYAL&quot;&gt;royal&lt;/a&gt; assent on the 28th August 1860. Hence the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol19.html#article-SCHEDULE&quot;&gt;schedule&lt;/a&gt; of duties which appears at p. 891, being that which was embodied in the Commercial &lt;a class=&quot;xref&quot; href=&quot;../1842/vol21.html#article-TREATY&quot;&gt;Treaty&lt;/a&gt; with France, ratified in the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol20.html#article-SPRING&quot;&gt;spring&lt;/a&gt; of the same year, differs somewhat from the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol19.html#article-RATES&quot;&gt;rates&lt;/a&gt; as finally adjusted by &lt;a class=&quot;xref&quot; href=&quot;../1842/vol17.html#article-PARLIAMENT&quot;&gt;Parliament&lt;/a&gt;. The following &lt;a class=&quot;xref&quot; href=&quot;../1842/vol21.html#article-TABLE&quot;&gt;table&lt;/a&gt; exhibits the amounts as they came into force on the 1st &lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-JANUARY&quot;&gt;January&lt;/a&gt; 1861:
+
+Wine containing less than the following rates of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol18.html#article-PROOF&quot;&gt;proof&lt;/a&gt; Spirit, verified by Sykes&#x27; Hydrometer.
+
+| From and after 1st January 1861. | 18 Degrees. | 26 Degrees. | 40 Degrees. | 45 Degrees. |
+|----------------------------------|-------------|-------------|-------------|-------------|
+| Of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-OR&quot;&gt;or&lt;/a&gt; from Foreign Countries—     | £ s. d.    | £ s. d.    | £ s. d.    | £ s. d.    |
+| &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-RED&quot;&gt;Red&lt;/a&gt;, (gallon)                    | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+| &lt;a class=&quot;xref&quot; href=&quot;vol15.html#article-WHITE&quot;&gt;White&lt;/a&gt;,                           | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+| &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-LEES&quot;&gt;Lees&lt;/a&gt;,                            | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+
+The growth and produce of a British Possession—
+
+| Red, (gallon)                    | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+| White,                           | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+| Lees,                            | 0 1 0       | 0 1 9       | 0 2 5       | 0 2 11      |
+
+When imported in bottles, and containing less than 40 degrees of strength, to be &lt;a class=&quot;xref&quot; href=&quot;../1842/vol6.html#article-CHARGED&quot;&gt;charged&lt;/a&gt; 2s. 5d. per gallon.
+## &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-INDEX&quot;&gt;INDEX&lt;/a&gt; TO THE NAMES OF AUTHORS WHOSE INITIALS ARE AFFIXED TO CONTRIBUTIONS.
+
+| Initials | Names |
+|----------|-------|
+| W.H.D.A. | Adams, W. H. D. |
+| T.A.     | Aitken, Thomas, M.D. |
+| W.A.     | Alexander, William, Mining Engineer, and one of the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol10.html#article-GOVERNMENT&quot;&gt;Government&lt;/a&gt; Inspectors of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol15.html#article-MINES&quot;&gt;Mines&lt;/a&gt;, Scotland. |
+| W.L.A.   | Alexander, W. Lindsay, D.D., Author of &quot;The Connection and &lt;a class=&quot;xref&quot; href=&quot;../1842/vol11.html#article-HARMONY&quot;&gt;Harmony&lt;/a&gt; of the Old and New Testaments.&quot; |
+| W.P.A.   | Alison, William P., M.D., late Professor of Practice of Physic in the University of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol8.html#article-EDINBURGH&quot;&gt;Edinburgh&lt;/a&gt;. |
+| T.A—L—N.| Allan, Thomas, F.R.S.E. |
+| J.A—N.  | Allen, John, late &lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MASTER&quot;&gt;Master&lt;/a&gt; of Dulwich &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COLLEGE&quot;&gt;College&lt;/a&gt;. |
+| A.A—N.  | Anderson, &lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-ADAM&quot;&gt;Adam&lt;/a&gt;, LL.D., late Professor of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol3.html#article-NATURAL_PHILOSOPHY&quot;&gt;&lt;a class=&quot;xref&quot; hr&lt;/a&gt;ef=&quot;../1842/vol15.html#article-NATURAL&quot;&gt;Natural&lt;/a&gt; &lt;a class=&quot;xref&quot; href=&quot;../1842/vol17.html#article-PHILOSOPHY&quot;&gt;Philosophy&lt;/a&gt;, St Andrews. |
+| T.A—N.  | Anderson, Thomas, M.D., Professor of &lt;a class=&quot;xref&quot; href=&quot;vol6.html#article-CHEMISTRY&quot;&gt;Chemistry&lt;/a&gt; in the University of Glasgow. |
+| C.A.    | Apperley, &lt;a class=&quot;xref&quot; href=&quot;vol6.html#article-CHARLES&quot;&gt;Charles&lt;/a&gt;, Author of &quot;Treatise on the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol11.html#article-HORSE&quot;&gt;Horse&lt;/a&gt; and &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HOUND&quot;&gt;Hound&lt;/a&gt;,&quot; and other works on Sporting. |
+| T.C.A.  | Archie, Thomas Croxen, Author of &quot;Popular Economic &lt;a class=&quot;xref&quot; href=&quot;../1842/vol5.html#article-BOTANY&quot;&gt;Botany&lt;/a&gt;,&quot; and Regius Keeper of the Industrial &lt;a class=&quot;xref&quot; href=&quot;vol15.html#article-MUSEUM&quot;&gt;Museum&lt;/a&gt;, Edinburgh. |
+
+| Initials | Names |
+|----------|-------|
+| F.A.     | Arnold, Frederick. |
+| A.A.     | Ashpitel, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol3.html#article-ARTHUR&quot;&gt;Arthur&lt;/a&gt;, F.S.A. |
+| J.A.     | Aylen, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-JONATHAN&quot;&gt;Jonathan&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-GREENWICH&quot;&gt;Greenwich&lt;/a&gt;. |
+| W.E.A.   | Aytoun, William E., D.C.L., Professor of &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-RHETORIC&quot;&gt;Rhetoric&lt;/a&gt; and Belles Lettres in the University of Edinburgh. |
+| C.C.B.   | Babington, C. C., &lt;a class=&quot;xref&quot; href=&quot;vol6.html#article-CAMBRIDGE&quot;&gt;Cambridge&lt;/a&gt;. |
+| W.B—T.   | Bagehot, Walter, Author of &quot;Estimates of some Englishmen and Scotchmen,&quot; &amp;c. |
+| J.H.B—R.| Balfour, John Hutton, M.D., Professor of Botany and Medicine in the University of Edinburgh. |
+| J.B.     | Ballantyne, James, Author of &quot;The Gaberlunzie&#x27;s Wallet,&quot; &amp;c. |
+| D.B—E.   | Bannatyne, Dugald. |
+| J.B—W.   | &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BARROW&quot;&gt;Barrow&lt;/a&gt;, Sir John, Bart. |
+| J—NB—W.  | Barrow, John, F.R.S., F.R.G.S., &amp;c. |
+| C.B.     | &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BATHURST&quot;&gt;Bathurst&lt;/a&gt;, Hon. and Rev. Chas., LL.D. |
+| T.B—Y.   | Bazley, Thomas, M.P. |
+| J.H.B—T.| Bennett, John Hughes, M.D., F.R.S.E., Professor of the Institutes of Medicine in the University of Edinburgh. |
+| H.J.B—P.| Bishop, Henry J., St Petersburg. |
+| Initials | Names                                                                 |
+|----------|-----------------------------------------------------------------------|
+| A.B.     | &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BLACK&quot;&gt;Black&lt;/a&gt;, Adam.                                                          |
+| C.B.B.   | Black, Charles B., &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-SANTIAGO&quot;&gt;Santiago&lt;/a&gt;, Chile.                                   |
+| J.S.B.   | Blackie, John Stuart, Professor of Greek in the University of Edinburgh. |
+| W.B—R.   | Blair, William, late Member of the Supreme &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COUNCIL&quot;&gt;Council&lt;/a&gt; of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol2.html#article-JUSTICE&quot;&gt;Justice&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-IONIAN_ISLANDS&quot;&gt;Ionian &lt;a clas&lt;/a&gt;s=&quot;xref&quot; href=&quot;../1797/vol0.html#article-ISLANDS&quot;&gt;Islands&lt;/a&gt;. |
+| L.B.     | Blodget, &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LOUIS&quot;&gt;Louis&lt;/a&gt;.                                                       |
+| J.D.B.DeB.| Bow, J. D. B. De, Professor of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol18.html#article-POLITICAL&quot;&gt;Political&lt;/a&gt; Economy, &amp;c., in the University of &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LOUISIANA&quot;&gt;Louisiana&lt;/a&gt;, U.S., and Superintendent of the United States Census for 1850. |
+| W.B.B.   | Boyce, Rev. W. B.                                                      |
+| W.B.     | Boyd, Rev. William.                                                   |
+| D.B.     | Brewster, Sir &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-DAVID&quot;&gt;David&lt;/a&gt;, K.H., &lt;a class=&quot;xref&quot; href=&quot;../1842/vol18.html#article-PRINCIPAL&quot;&gt;Principal&lt;/a&gt; of the University of Edinburgh.   |
+| J.B—N.   | &lt;a class=&quot;xref&quot; href=&quot;vol5.html#article-BROWN&quot;&gt;Brown&lt;/a&gt;, John, M.D., Author of &quot;Horae Subsecivae,&quot; &amp;c.                  |
+| J.B.B.   | Brown, J. B., Author of &quot;Views of &lt;a class=&quot;xref&quot; href=&quot;vol6.html#article-CANADA&quot;&gt;Canada&lt;/a&gt;.&quot;                            |
+| W.B—N.   | Brown, William, M.D., Author of &quot;Propagation of Christianity among the Heathen.&quot; |
+| J.B—E.   | Browne, James, LL.D., Advocate.                                       |
+| A.H.B.   | Bryce, A. H., A.B., one of the Classical Masters of the &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-HIGH&quot;&gt;High&lt;/a&gt; School, Edinburgh. |
+| D.B—N.   | Buchanan, David, Author of &quot;Inquiry into &lt;a class=&quot;xref&quot; href=&quot;vol21.html#article-TAXATION&quot;&gt;Taxation&lt;/a&gt; and Commercial Policy of &lt;a class=&quot;xref&quot; href=&quot;vol8.html#article-GREAT&quot;&gt;Great&lt;/a&gt; &lt;a class=&quot;xref&quot; href=&quot;vol5.html#article-BRITAIN&quot;&gt;Britain&lt;/a&gt;.&quot; |
+| G.B.     | Buchanan, George, C.E., F.R.S.E.                                      |
+| J.B—N., (Should be J.B—K—N.) | Beckman, J., Professor of &lt;a class=&quot;xref&quot; href=&quot;vol15.html#article-GEOLOGY&quot;&gt;Geology&lt;/a&gt; and Botany in the Royal Agricultural College, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol6.html#article-CIRENCESTER&quot;&gt;Cirencester&lt;/a&gt;. |
+| J.T.B.   | Bunce, J.T., Editor of &quot;Aris&#x27;s &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BIRMINGHAM&quot;&gt;Birmingham&lt;/a&gt; Gazette.&quot;                    |
+| C.C.J.B. | Bunsen, Chevalier Christian Karl Josias Von, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol8.html#article-EGYPT&quot;&gt;Egypt&lt;/a&gt;&#x27;s &lt;a class=&quot;xref&quot; href=&quot;../1842/vol17.html#article-PLACE&quot;&gt;Place&lt;/a&gt; in Universal &lt;a class=&quot;xref&quot; href=&quot;vol8.html#article-HISTORY&quot;&gt;History&lt;/a&gt;;&quot; and late Prussian &lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-AMBASSADOR&quot;&gt;Ambassador&lt;/a&gt; at the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol7.html#article-COURT&quot;&gt;Court&lt;/a&gt; of England. |
+| G.V.B.   | Bunsen, Dr G. Von.                                                    |
+| H.B.     | &lt;a class=&quot;xref&quot; href=&quot;vol5.html#article-BURGESS&quot;&gt;Burgess&lt;/a&gt;, Henry, LL.D.                                                 |
+| J.W.B.   | Burgon, Rev. J. W., Author of &quot;Memoir of Patrick Fraser Tytler,&quot; &amp;c.   |
+| J.D.B.   | Burns, Rev. James D., Author of &quot;Vision of Prophecy;&quot; and other Poems. |
+| J.H.B.   | Burton, John Hill, Advocate, Author of &quot;History of Scotland, 1689–1748.&quot; |
+| W.A.C.   | Cadell, William Archibald, F.R.S.S.                                    |
+| J.C—RD.  | Caird, James, M.P., Author of &quot;English &lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-AGRICULTURE&quot;&gt;Agriculture&lt;/a&gt; in 1850–51,&quot; &amp;c.    |
+| J.C—S.   | Cairns, John, D.D., Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-LIFE&quot;&gt;Life&lt;/a&gt; of Dr John Brown,&quot; &amp;c.             |
+| F.C.C.   | Calvert, F. Crace, Professor of Chemistry, Royal &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-INSTITUTION&quot;&gt;Institution&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MANCHESTER&quot;&gt;Manchester&lt;/a&gt;. |
+| G.T.C.   | Cameron, George T.                                                    |
+| J.S.C.   | Candlish, James Smith, M.A.                                           |
+| J.C—R.   | Capper, John, Ceylonese &lt;a class=&quot;xref&quot; href=&quot;../1842/vol7.html#article-COMMISSIONER&quot;&gt;Commissioner&lt;/a&gt; to the Great &lt;a class=&quot;xref&quot; href=&quot;vol9.html#article-EXHIBITION&quot;&gt;Exhibition&lt;/a&gt; of 1851.  |
+| J.C—I.   | Carmichael, James, one of the Classical Masters of the Edinburgh Academy. |
+| F.C.     | Carrington, Frederick, &lt;a class=&quot;xref&quot; href=&quot;vol5.html#article-BRISTOL&quot;&gt;Bristol&lt;/a&gt;.                                        |
+| R.C—S.   | Carruthers, Robert, Author of &quot;Life of Pope,&quot; &amp;c.                      |
+| S.C.     | Cave, Stephen, M.P., F.R.S.S.                                         |
+| C.H.C.   | Cay, Charles Hope.                                                    |
+| J.G.C.   | Cazenove, Rev. J. G., M.A.                                            |
+| W.H.C.   | Chalmers, William &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HAMILTON&quot;&gt;Hamilton&lt;/a&gt;, M.A., late Assistant Librarian, &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-ADVOCATES&quot;&gt;Advocates&lt;/a&gt;&#x27; Library, Edinburgh. |
+| R.CH—S.  | Chambers, Robert, F.R.S.E.                                            |
+| R.C.     | Christison, Robert, M.D., F.R.S.E., Professor of &lt;a class=&quot;xref&quot; href=&quot;../1778/vol6.html#article-MATERIA_MEDICA&quot;&gt;Materia Medica&lt;/a&gt;, Edinburgh University. |
+| D.K.C.   | Clark, D. K., C.E., Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MECHANICAL&quot;&gt;Mechanical&lt;/a&gt; Engineering of &lt;a class=&quot;xref&quot; href=&quot;vol18.html#article-RAILWAYS&quot;&gt;Railways&lt;/a&gt;.&quot;    |
+| H.C.     | Cockburn (Henry), &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LORD&quot;&gt;Lord&lt;/a&gt;, Author of &quot;Life of Jeffrey.&quot;                  |
+| J.C.     | Colquhoun, John, F.R.S.E., Advocate.                                   |
+| G.C.     | Coode, George, Author of &quot;Irish &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-POOR&quot;&gt;Poor&lt;/a&gt; &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LAW&quot;&gt;Law&lt;/a&gt; Act.&quot;                        |
+| W.C—R.   | &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COOPER&quot;&gt;Cooper&lt;/a&gt;, William, Author of &quot;Glass-&lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-CUTTER&quot;&gt;Cutter&lt;/a&gt; and Glazier&#x27;s &lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MANUAL&quot;&gt;Manual&lt;/a&gt;.&quot;        |
+| C.C.     | Cowan, Charles, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol17.html#article-PAPER&quot;&gt;Paper&lt;/a&gt; &lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MANUFACTURER&quot;&gt;Manufacturer&lt;/a&gt;.                                   |
+| Initials | Names |
+|----------|-------|
+| J.C—E.   | Cowie, James, Halkerton Mains. |
+| R.C—X.   | Cox, Robert, Author of &quot;Sabbath Laws and Sabbath Duties.&quot; |
+| D.C.     | Craigie, David, M.D., F.R.S.E., Author of &quot;Practice of Physic,&quot; &amp;c. |
+| J—N.C.   | Crawford, John, F.R.S., F.R.G.S., Author of &quot;A Descriptive &lt;a class=&quot;xref&quot; href=&quot;vol8.html#article-DICTIONARY&quot;&gt;Dictionary&lt;/a&gt; of the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-INDIAN&quot;&gt;Indian&lt;/a&gt; Islands.&quot; |
+| E.S.D.   | Dallas, Enreas S., Author of &quot;Poetics, an &lt;a class=&quot;xref&quot; href=&quot;../1842/vol9.html#article-ESSAY&quot;&gt;Essay&lt;/a&gt; on &lt;a class=&quot;xref&quot; href=&quot;vol18.html#article-POETRY&quot;&gt;Poetry&lt;/a&gt;.&quot; |
+| J.G.D.   | Dalzell, Sir John Graham, Bart. |
+| A.D—N.   | Davidson, Arthur. |
+| G.J.D.   | Davie, G. J. |
+| J.B.D.   | Davies, J. B. |
+| E.B.D.   | Denison, Edmund B., M.A., Q.C., Author of &quot;Clock and Watch Making,&quot; &amp;c. |
+| H.D.     | Dewar, Henry, M.D., F.R.S.E. |
+| J.D—R.   | Dewar, J. |
+| W.D.     | Dick, William, Professor of &lt;a class=&quot;xref&quot; href=&quot;vol21.html#article-VETERINARY_SCIENCE&quot;&gt;Veterinary Science&lt;/a&gt;, Veterinary College, Edinburgh. |
+| H.D.     | Dixon, Hepworth, F.S.A., Author of &quot;Personal History of Lord &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BACON&quot;&gt;Bacon&lt;/a&gt;,&quot; &amp;c. |
+| D.D.     | Doig, David, LL.D., late Rector of the &lt;a class=&quot;xref&quot; href=&quot;vol10.html#article-GRAMMAR&quot;&gt;Grammar&lt;/a&gt; School, Stirling. |
+| J.D.     | Donaldson, James, Author of a &lt;a class=&quot;xref&quot; href=&quot;../1797/vol18.html#article-WORK&quot;&gt;work&lt;/a&gt; &quot;On &lt;a class=&quot;xref&quot; href=&quot;vol6.html#article-CHESS&quot;&gt;Chess&lt;/a&gt;.&quot; |
+| J.W.D.   | Donaldson, John William, D.D., Author of &quot;The New Cratylus,&quot; &amp;c. |
+| J.D—R—N.| &lt;a class=&quot;xref&quot; href=&quot;../1842/vol8.html#article-DORAN&quot;&gt;Doran&lt;/a&gt;, Dr John, Author of &quot;Habits and Men,&quot; &amp;c. |
+| H.M.D.   | Douglas, Rev. Henry M. |
+| P.E.D.   | Dove, Patrick Edward, Author of the &quot;&lt;a class=&quot;xref&quot; href=&quot;vol21.html#article-THEORY&quot;&gt;Theory&lt;/a&gt; of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol2.html#article-HUMAN&quot;&gt;Human&lt;/a&gt; Progression.&quot; |
+| J.D—S.   | Downes, John, M.A. |
+| S.S.D.   | Drake, Samuel S. |
+| A.D.     | Duncan, Andrew, M.D., F.R.S.E., late Professor of Medical &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-JURISPRUDENCE&quot;&gt;Jurisprudence&lt;/a&gt; in the University of Edinburgh. |
+| J—SD—N. | Duncan, Rev. James. |
+| J.D—N.   | Duncan, John. |
+| J.C.D.   | Dunlop, John C., F.R.S.E., Advocate. |
+
+| Initials | Names |
+|----------|-------|
+| E.B.E.   | Eastwick, Edward B., Author of &quot;Murray&#x27;s Handbook for &lt;a class=&quot;xref&quot; href=&quot;../1842/vol16.html#article-INDIA&quot;&gt;India&lt;/a&gt;,&quot; and late Secretary to the H.E.I.C. |
+| E.E.     | Edwards, Edward, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-MEMOIRS&quot;&gt;Memoirs&lt;/a&gt; of &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LIBRARIES&quot;&gt;Libraries&lt;/a&gt;,&quot; &amp;c. |
+| S.E.     | Eliot, Prof. Samuel, Trinity College, Harford, U.S. |
+| W.E—S.   | Ellis, William, late Editor of the &quot;Border Advertiser.&quot; |
+| W.E.     | Ellis, Rev. William, Author of &quot;Polynesian Researches,&quot; &amp;c. |
+| E.E—T.   | Everett, Hon. Edward, D.C.L., &amp;c., Author of the &quot;Mount &lt;a class=&quot;xref&quot; href=&quot;vol21.html#article-VERNON&quot;&gt;Vernon&lt;/a&gt; Papers,&quot; and other works. |
+| W.F.     | Fairbairn, William, LL.D., C.E., Manchester. |
+| F.W.F.   | Farrar, Frederic W., Fellow of Trinity College, Cambridge, Author of &quot;Eric, or Little by Little,&quot; &amp;c. |
+| W.F—N.   | Felkin, W., &lt;a class=&quot;xref&quot; href=&quot;vol16.html#article-NOTTINGHAM&quot;&gt;Nottingham&lt;/a&gt;. |
+| G.F.     | Ferguson, George, LL.D., late Professor of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol2.html#article-HUMANITY&quot;&gt;Humanity&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-KING&quot;&gt;King&lt;/a&gt;&#x27;s College, Aberdeen. |
+| J.F.     | Fleming, John, D.D., late Professor of Natural Science, New College, Edinburgh. |
+| J.D.F.   | Forbes, James David, D.C.L., Principal of the United College, St Andrews. |
+| R.W.F.   | Fraser, Rev. Robert W., M.A. |
+| E.F.     | Fusco, Eduardo. |
+
+| Initials | Names |
+|----------|-------|
+| W.T.G.   | Gardiner, William Tennent, M.D. |
+| T.G.     | &lt;a class=&quot;xref&quot; href=&quot;vol10.html#article-GALLOWAY&quot;&gt;Galloway&lt;/a&gt;, Thomas, F.R.S. |
+| R.G.     | Garnett, Richard, Author of &quot;Io, and other Poems.&quot; |
+| J.G—E.   | Geikie, Rev. John. |
+| J.G.     | Gillies, John, M.D. |
+| W.S.G.   | Gilly, Rev. William S., D.D. |
+| J.G—W—D.| Girdwood, John. |
+| J.G—D.   | Glassford, James, Advocate. |
+| Initials | Names |
+|----------|-------|
+| G.R.G.   | Gleig, Rev. George Robert, Chaplain-General to the Forces. |
+| R.M.G.   | Glover, Robert Mortimer, Author of &quot;Mineral Waters.&quot; |
+| W.H.G.   | Goold, William H., D.D., Professor of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol6.html#article-CHURCH&quot;&gt;Church&lt;/a&gt; History to the Reformed Presbyterian Church, Edinburgh. |
+| J.T.G.   | Gowanslock, John Tait. |
+| G.F.G.   | Graham, George Farquhar, Author of &quot;Essay on Musical &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COMPOSITION&quot;&gt;Composition&lt;/a&gt;,&quot; &amp;c. |
+| W.G.     | Gregory, William, M.D., late Professor of Chemistry, University of Edinburgh. |
+| W.H.     | Hamilton, Sir William, Bart., late Professor of Logic and &lt;a class=&quot;xref&quot; href=&quot;../1842/vol14.html#article-METAPHYSICS&quot;&gt;Metaphysics&lt;/a&gt;, in the University of Edinburgh. |
+| J.T.H    | Hammack, James T., Superintendent, General &lt;a class=&quot;xref&quot; href=&quot;../1842/vol19.html#article-REGISTER&quot;&gt;Register&lt;/a&gt; Office, &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LONDON&quot;&gt;London&lt;/a&gt;. |
+| R.D.H.   | Hampden, &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-RIGHT&quot;&gt;Right&lt;/a&gt; Rev. Renn Dickson, D.D., Bishop of &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HEREFORD&quot;&gt;Hereford&lt;/a&gt;. |
+| W.H.—A.  | Hanna, Rev. William, LL.D., Author of &quot;Memoirs of Dr Chalmers.&quot; |
+| T.C.H.   | Hansard, T. C., Barrister-at-Law. |
+| R.S.H.   | Hardy, Rev. Robert Spence, Author of &quot;Eastern Monachism.&quot; |
+| A.H.     | Hay, Adam. |
+| B.R.H.   | Haydon, B. R. |
+| W.H—Z—T.| Hazlitt, William, Author of &quot;Critical Essays on Art,&quot; &amp;c. |
+| T.H.     | Henderson, Thomas, F.R.S.E., late Professor of Practical &lt;a class=&quot;xref&quot; href=&quot;vol3.html#article-ASTRONOMY&quot;&gt;Astronomy&lt;/a&gt; in the University of Edinburgh. |
+| J.F.W.H. | Herschel, Sir John F. W., Bart. |
+| W.M.H.   | Hetherington, William M., D.D., LL.D., Professor of &lt;a class=&quot;xref&quot; href=&quot;vol8.html#article-DIVINITY&quot;&gt;Divinity&lt;/a&gt;, Free Church College, Glasgow. |
+| J.H.H.   | Hinde, J. Hodgson. (Signed J.H.) |
+| T.J.H.   | Hogg, Thos. Jefferson. |
+| S.H.     | Holmes, Samuel, &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LIVERPOOL&quot;&gt;Liverpool&lt;/a&gt;. |
+| J.S.H.   | Homans, J. Smith, &lt;a class=&quot;xref&quot; href=&quot;vol16.html#article-NEW_YORK&quot;&gt;New &lt;a c&lt;/a&gt;lass=&quot;xref&quot; href=&quot;vol21.html#article-YORK&quot;&gt;York&lt;/a&gt;, U.S. |
+| J.D.H.   | &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HOOKER&quot;&gt;Hooker&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-JOSEPH&quot;&gt;Joseph&lt;/a&gt; Dalton, M.D., Author of &quot;Flora Antarctica,&quot; &amp;c. |
+
+| Initials | Names |
+|----------|-------|
+| W.H—G.   | Hosking, Professor William, F.S.A., King&#x27;s College, London. |
+| W.H—T.   | Howitt, William, Author of &quot;The Literature and &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-ROMANCE&quot;&gt;Romance&lt;/a&gt; of Northern &lt;a class=&quot;xref&quot; href=&quot;../1842/vol16.html#article-EUROPE&quot;&gt;Europe&lt;/a&gt;,&quot; &amp;c., &amp;c. |
+| F.H.     | Hunt, Freeman, late Editor of &quot;Hunt&#x27;s Merchant&#x27;s &lt;a class=&quot;xref&quot; href=&quot;../1771/vol3.html#article-MAGAZINE&quot;&gt;Magazine&lt;/a&gt;.&quot; |
+| J.H—T.   | Hunt, James, M.D. |
+| J.I—M.   | Ingram, Rev. James. |
+| D.I.     | Irving, David, LL.D., late Librarian of Advocates&#x27; Library, Edinburgh. |
+| A.K.I.   | Ishibee, A. K. |
+| J.I.     | &lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-IVORY&quot;&gt;Ivory&lt;/a&gt;, James, F.R.S., late Corresponding Member of the Institute of France. |
+| W.J.     | &lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-JACOB&quot;&gt;Jacob&lt;/a&gt;, William, F.R.S. |
+| J.J.     | James, John, Author of a &quot;History of the Worsted Manufacture.&quot; |
+| R.J.     | Jameson, Robert, F.R.S.S., London and Edinburgh, late Regius Professor of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-NATURAL_HISTORY&quot;&gt;Natural History&lt;/a&gt; in the University of Edinburgh. |
+| J.M.J.   | Jarvie, Rev. J. M., &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-GREENOCK&quot;&gt;Greenock&lt;/a&gt;. |
+| F.J.     | Jeffrey (Francis), Lord. |
+| J.Y.J.   | Johnson, James Yates, Author of &quot;Handbook of &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-MADEIRA&quot;&gt;Madeira&lt;/a&gt;.&quot; |
+| G.J.     | Johnston, George, LL.D., Author of &quot;British Zoophytes.&quot; |
+| W.B.J.   | Johnston, W. B., R.S.A. |
+| H.B.J.   | Jones, Rev. H. B. |
+| J.B.J.   | Jukes, J. Breeve, M.A., F.R.S., Local &lt;a class=&quot;xref&quot; href=&quot;../1842/vol8.html#article-DIRECTOR&quot;&gt;Director&lt;/a&gt; of the Geol. Survey, &lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-IRELAND&quot;&gt;Ireland&lt;/a&gt;. |
+| D.K.     | Kay, David, F.R.G.S. |
+| T.L.K.   | Kemp, Thos. Lindley, M.D. |
+| T.W.K.   | King, Thomas W., York &lt;a class=&quot;xref&quot; href=&quot;../1842/vol11.html#article-HERALD&quot;&gt;Herald&lt;/a&gt;. |
+| C.K.     | Kingsley, Rev. Charles, Professor of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol15.html#article-MODERN&quot;&gt;Modern&lt;/a&gt; History, University of Cambridge, and Rector of Eversley, &amp;c.; Author of &quot;Westward, Ho!&quot; |
+| A.V.K.   | Kirwan, A. V., Barrister-at-Law. |
+| Initials | Names |
+|----------|-------|
+| W.K.     | &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-KNIGHTON&quot;&gt;Knighton&lt;/a&gt;, William, Author of &quot;History of Ceylon.&quot; |
+| V.K.     | Krasinski, Valerian, &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COUNT&quot;&gt;Count&lt;/a&gt;. |
+| L        | Lacaita, Sir J. P., LL.D., K.C.M.G. |
+| D.L.     | Laing, David. |
+| W.H.L—Y. | &lt;a class=&quot;xref&quot; href=&quot;../1842/vol13.html#article-LANGLEY&quot;&gt;Langley&lt;/a&gt;, W. H., Editor of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BELL&quot;&gt;Bell&lt;/a&gt;&#x27;s Life in London.&quot; |
+| E.L.     | Lankester, Edwin, M.D. |
+| R.G.L.   | &lt;a class=&quot;xref&quot; href=&quot;../1842/vol13.html#article-LATHAM&quot;&gt;Latham&lt;/a&gt;, Robert Gordon, Author of &quot;Natural History of the Varieties of &lt;a class=&quot;xref&quot; href=&quot;vol14.html#article-MAN&quot;&gt;Man&lt;/a&gt;.&quot; |
+| W.L.     | Law, William. |
+| J.L—IE.  | Lawrie, James. |
+| A.H.L.   | Layard, Austin Henry, D.C.L., Author of &quot;Nimrod,&quot; &amp;c. |
+| T.L.     | Laycock, Thomas, M.D., Professor of Clinical Medicine in the University of Edinburgh. |
+| R.L.     | Leader, Robert. |
+| J.R.L.   | Leifchild, J. R., Author of &quot;Our Coal-fields and our Coal-pits.&quot; |
+| J.L.     | Leslie, Sir John. |
+| H.L.     | Lethaby, Henry, M.B. |
+| T.H.L.   | Listen, T. H. |
+| M.L.     | &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LOTHIAN&quot;&gt;Lothian&lt;/a&gt;, Maurice. |
+| J.C.L.   | Loudon, J. C., Author of &quot;Encyclopedia of &lt;a class=&quot;xref&quot; href=&quot;vol18.html#article-GARDENING&quot;&gt;Gardening&lt;/a&gt;.&quot; |
+| J.L—E.   | Lowe, Joseph. |
+| T.B.M.   | Macaulay, Thos. Babington (Lord). |
+| S.M—L.I. | MacCall, Rev. Samuel. |
+| J.R.M.   | McCulloch, John Ramsay, Foreign Associate of the Institute of France. |
+| G.M&#x27;D.   | McDonald, George, Author of &quot;Within and Without,&quot; &amp;c. |
+| R.A.M.   | Macfie, R. A. |
+| J.M&#x27;G.   | Macgregor, Rev. James. |
+| C.M&#x27;L    | Macintosh, Charles, Author of the &quot;Book of the Garden.&quot; |
+| C.M.K.   | Mackenzie, Charles. |
+| C.M.     | Maclean, Charles, F.R.S.E., &amp;c. |
+| J.F.M&#x27;L. | McLennan, John Ferguson, M.A., Advocate. |
+| J.M—LL.  | McNeill, Sir John, G.C.B., M.D. |
+| S.S.M.   | Madders, S. S. |
+| R.M—N.   | Main, Rev. Robert, Greenwich &lt;a class=&quot;xref&quot; href=&quot;../1842/vol16.html#article-OBSERVATORY&quot;&gt;Observatory&lt;/a&gt;. |
+| T.R.M.   | Malthus, Rev. Thomas Robert, late Professor of Political Economy in the East India College, &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HERTFORD&quot;&gt;Hertford&lt;/a&gt;. |
+| H.L.M.   | Mansel, Rev. Henry Longueville, B.D. and LL.D., Waynfielde Professor of Moral and Metaphysical Philosophy, &lt;a class=&quot;xref&quot; href=&quot;vol17.html#article-OXFORD&quot;&gt;Oxford&lt;/a&gt;, and Author of the &quot;Bampton Lecture for 1858,&quot; &amp;c. |
+| C.M—L.   | Martel, Charles. |
+| T.M—N.   | Martin, Theodore, Author of a &quot;Translation of the Odes of Horace,&quot; &amp;c. |
+| D.M—N.   | Masson, David, M.A., Professor of the English &lt;a class=&quot;xref&quot; href=&quot;vol13.html#article-LANGUAGE&quot;&gt;Language&lt;/a&gt; and Literature, University College, London. |
+| G.M—N.   | Masson, Gustave, B.A., &lt;a class=&quot;xref&quot; href=&quot;../1842/vol11.html#article-HARROW&quot;&gt;Harrow&lt;/a&gt; School. |
+| R.M—M.   | Maugham, Robert, Barrister-at-Law. |
+| H.M—E.   | Mickle, Henry, Civil Engineer. |
+| G.M.     | Melly, George. |
+| C.M—E.   | Merivale, Rev. Charles, B.D., Author of &quot;History of Rome under the Empire.&quot; |
+| J.M—L.   | Mill, James, Author of the &quot;History of India.&quot; |
+| J.M—R.   | Miller, James, Professor of &lt;a class=&quot;xref&quot; href=&quot;vol20.html#article-SURGERY&quot;&gt;Surgery&lt;/a&gt; in the University of Edinburgh. |
+| J.M.     | Milne, Joshua, late Actuary to the &lt;a class=&quot;xref&quot; href=&quot;../1771/vol0.html#article-SUN&quot;&gt;Sun&lt;/a&gt; Life Assurance &lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-COMPANY&quot;&gt;Company&lt;/a&gt;. |
+| R.M.M.   | Milnes, Richard Monckton, M.P. |
+| G.M—R.   | Moir, George, Advocate. |
+| J.M—Y.   | &lt;a class=&quot;xref&quot; href=&quot;vol15.html#article-MONTGOMERY&quot;&gt;Montgomery&lt;/a&gt;, James, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-GREENLAND&quot;&gt;Greenland&lt;/a&gt;, and other Poems,&quot; &amp;c. |
+| R.M.     | Morehead, Robert. |
+| J.D.M.   | Morell, J. D., LL.D., one of H.M. Inspectors of &lt;a class=&quot;xref&quot; href=&quot;../1778/vol0.html#article-SCHOOLS&quot;&gt;Schools&lt;/a&gt;. |
+| W.O&#x27;C.M. | Morris, W. O&#x27;Connor, M.A., Barrister-at-Law. |
+| S.M.     | Mossman, Samuel, Author of &quot;Goldfields of Australia.&quot; |
+| L.M.     | Muirhead, Lockhart, late Professor of Natural Philosophy in the University of Glasgow. |
+| Initials | Names |
+|----------|-------|
+| A.M.     | Mure, Andrew, M.A., Advocate. |
+| A.M.—Y.  | Murray, Andrew, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol6.html#article-CHIEF&quot;&gt;Chief&lt;/a&gt; Engineer and Inspector of Machinery, &lt;a class=&quot;xref&quot; href=&quot;vol18.html#article-PORTSMOUTH&quot;&gt;Portsmouth&lt;/a&gt;. |
+| H.M.     | Murray, Hugh. |
+| R.M.—Y.  | Murray, Robert, Engineer Surveyor to the Board of Trade. |
+| T.M.     | Murray, Thomas, LL.D. |
+| R.M.—T.  | Muthet, Robert, of the Royal Mint. |
+| J.N.—R.  | Napier, James. |
+| M.N.     | Napier, Macvey, Editor of the Seventh Edition of the &quot;Ency. Brit.&quot;, and Professor of Conveyancing in the University of Edinburgh. |
+| P.N.     | Neill, Patrick, LL.D., Author of the &quot;Fruit, Flower, and &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-KITCHEN&quot;&gt;Kitchen&lt;/a&gt; Garden,&quot; &amp;c. |
+| J.N.     | Newlands, James, C.E., Liverpool. |
+| J.N.     | Nicol, James, Professor of Natural History, Marischal College, Aberdeen. |
+| A.N.     | Nicolson, Alexander, M.A., Advocate. |
+| O.S.C.   | &quot;Oakleigh &lt;a class=&quot;xref&quot; href=&quot;vol20.html#article-SHOOTING&quot;&gt;Shooting&lt;/a&gt; Code,&quot; Author of the. |
+| L.O.     | Oliphant, Laurence, Author of the &quot;Russian Shores of the &lt;a class=&quot;xref&quot; href=&quot;vol4.html#article-BLACK_SEA&quot;&gt;Black &lt;a &lt;/a&gt;class=&quot;xref&quot; href=&quot;../1842/vol20.html#article-SEA&quot;&gt;Sea&lt;/a&gt;.&quot; |
+| R.O.     | Owen, Richard, F.R.S., D.C.L., Superintendent of the Natural History Department in the British Museum. |
+| A.P.     | Panizzi, Antonio, D.C.L., British Museum. |
+| E.P.     | Parry, Rev. Edward. |
+| J.P.—N.  | Paterson, James, M.A., Barrister-at-Law, Author of &quot;Compendium of English and Scotch Law.&quot; |
+| A.P.     | Peterman, Augustus, Ph.D., Editor of the &quot;Gotha Geographical Journal.&quot; |
+| W.P.—S.  | Peters, William. |
+| J.P.—S.  | Pillans, James, M.A., Professor of Humanity in the University of Edinburgh. |
+
+| Initials | Names |
+|----------|-------|
+| B.C.P.   | Pine, Sir Benjamin C., &lt;a class=&quot;xref&quot; href=&quot;../1842/vol13.html#article-LIEUTENANT&quot;&gt;Lieutenant&lt;/a&gt;-Governor of St Christopher. |
+| I.P.     | Pitman, &lt;a class=&quot;xref&quot; href=&quot;../1842/vol12.html#article-ISAAC&quot;&gt;Isaac&lt;/a&gt;, Author of the &quot;Phonographic Reporter&#x27;s &lt;a class=&quot;xref&quot; href=&quot;../1797/vol5.html#article-COMPANION&quot;&gt;Companion&lt;/a&gt;.&quot; |
+| W.P.—E.  | Plate, W., LL.D. |
+| J.P.     | Playfair, John, late Professor of &lt;a class=&quot;xref&quot; href=&quot;vol1.html#article-MATHEMATICS&quot;&gt;Mathematics&lt;/a&gt; in the University of Edinburgh. |
+| T.P.     | Plint, Thomas. |
+| R.S.P.   | Poole, Reginald Stuart, British Museum, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol10.html#article-GENESIS&quot;&gt;Genesis&lt;/a&gt; of the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol8.html#article-EARTH&quot;&gt;Earth&lt;/a&gt; and Man.&quot; |
+| J.L.P.   | Porter, Rev. J. L., Author of the &quot;Handbook to &lt;a class=&quot;xref&quot; href=&quot;vol20.html#article-SYRIA&quot;&gt;Syria&lt;/a&gt; and &lt;a class=&quot;xref&quot; href=&quot;vol17.html#article-PALESTINE&quot;&gt;Palestine&lt;/a&gt;.&quot; |
+| J.E.P.   | Portlock, J. E. (&lt;a class=&quot;xref&quot; href=&quot;vol14.html#article-MAJOR&quot;&gt;Major&lt;/a&gt;-General), R.E., Member of the Council of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol15.html#article-MILITARY&quot;&gt;Military&lt;/a&gt; &lt;a class=&quot;xref&quot; href=&quot;../1842/vol8.html#article-EDUCATION&quot;&gt;Education&lt;/a&gt;. |
+| W.P.     | Pyphe, William, LL.D., late Professor of Humanity in the University of St Andrews. |
+| T. de Q. | Quincey, Thomas de, Author of the &quot;Confessions of an Opium-Eater,&quot; &amp;c. |
+| C.T.R.   | Ramage, C. Tait, LL.D. |
+| W.R.     | Ramsay, William, Rear-&lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-ADMIRAL&quot;&gt;Admiral&lt;/a&gt; of the Blue. |
+| W.J.M.R. | Rankine, W. J. Macquornne, LL.D., Professor of Civil Engineering, University of Glasgow. |
+| S.R.     | Redgrave, Samuel, Author of &quot;The Official Handbook of Church and State.&quot; |
+| D.B.R.   | Reid, D. B., M.D., Author of &quot;The Theory and Practice of Ventilation.&quot; |
+| H.G.R.   | Reid, H. G. |
+| D.R.     | Ricardo, David, Author of &quot;Principles of Political Economy and Taxation.&quot; |
+| J.L.R.   | Ricardo, J. L., M.P. |
+| J.R.—N.  | Richardson, Sir John, M.D., Author of &quot;The Polar Regions.&quot; |
+| Initials | Names |
+|----------|-------|
+| H.T.R.   | Riley, Henry T., M.A. |
+| J.R.     | Robison, John, LL.D., late Professor of Natural Philosophy in the University of Edinburgh. |
+| H.R.     | Rogers, Henry, Author of the &quot;Eclipse of &lt;a class=&quot;xref&quot; href=&quot;../1842/vol9.html#article-FAITH&quot;&gt;Faith&lt;/a&gt;,&quot; &amp;c. |
+| P.M.R.   | Roget, &lt;a class=&quot;xref&quot; href=&quot;vol17.html#article-PETER&quot;&gt;Peter&lt;/a&gt; Mark, Author of &quot;Thesaurus of English Words and Phrases.&quot; |
+| A.R.     | Russel, Alexander, Editor of &quot;The Scotsman.&quot; |
+| C.W.R.   | Russell, Charles W., D.D., Author of &quot;A Life of Mezzofanti.&quot; |
+| W.H.R.   | Russell, William Howard, LL.D., Editor of the &quot;&lt;a class=&quot;xref&quot; href=&quot;../1771/vol1.html#article-ARMY&quot;&gt;Army&lt;/a&gt; and &lt;a class=&quot;xref&quot; href=&quot;vol16.html#article-NAVY&quot;&gt;Navy&lt;/a&gt; Gazette.&quot; |
+| J.E.R.   | Ryland, Jonathan Edwards, Author of &quot;Life of John Foster.&quot; |
+
+| Initials | Names |
+|----------|-------|
+| G.S.     | Smith, Goldwin, M.A., Professor of Modern History, Oxford. |
+| J.E.S.   | Smith, Sir James Edward. |
+| J.F.S.   | Smith, John Francis. |
+| W.S.     | &lt;a class=&quot;xref&quot; href=&quot;vol20.html#article-SPALDING&quot;&gt;Spalding&lt;/a&gt;, William, M.A., late Professor of Logic, &amp;c., St Andrews. |
+| J.M.S.   | Spearman, J. M. (&lt;a class=&quot;xref&quot; href=&quot;../1842/vol6.html#article-CAPTAIN&quot;&gt;Captain&lt;/a&gt;.) |
+| E.G.S.   | Squier, E. G., Author of &quot;Notes on Central &lt;a class=&quot;xref&quot; href=&quot;vol2.html#article-AMERICA&quot;&gt;America&lt;/a&gt;.&quot; |
+| J.S—K.   | Stark, James, M.D. |
+| H.S.     | Stephens, Henry. |
+| R.S.     | Stephenson, Robert, C.E., late &lt;a class=&quot;xref&quot; href=&quot;vol18.html#article-PRESIDENT&quot;&gt;President&lt;/a&gt; of the Institute of Civil Engineers. |
+| A.S.     | Stevenson, Alan, C.E., Author of &quot;Account of the Skerryvore &lt;a class=&quot;xref&quot; href=&quot;../1778/vol0.html#article-LIGHTHOUSE&quot;&gt;Lighthouse&lt;/a&gt;,&quot; &amp;c. |
+| D.S—N.   | Stevenson, David, C.E., Author of &quot;Canal and River Engineering,&quot; &amp;c. |
+| R.S.     | Stevenson, Robert, C.E. |
+| T.S.     | Stevenson, Thomas, C.E. |
+| W.S—N.   | Stevenson, William. |
+| W.S—G.   | &lt;a class=&quot;xref&quot; href=&quot;vol20.html#article-STERLING&quot;&gt;Sterling&lt;/a&gt;, William, M.P., Author of &quot;Annals of the Artists of &lt;a class=&quot;xref&quot; href=&quot;../1771/vol3.html#article-SPAIN&quot;&gt;Spain&lt;/a&gt;.&quot; |
+| J.H.S.   | Stocqueler, J. H., Author of the &quot;Military Encyclopaedia,&quot; &amp;c. |
+| J.S—T.   | Stoddart, James, F.R.S. |
+| J.S—G.   | Strang, John, LL.D., Author of &quot;Glasgow and its Clubs,&quot; &amp;c. |
+| J.S.     | Sullivan, John, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol7.html#article-CUMBERLAND&quot;&gt;Cumberland&lt;/a&gt; and &lt;a class=&quot;xref&quot; href=&quot;../1842/vol21.html#article-WESTMORELAND&quot;&gt;Westmoreland&lt;/a&gt;, &lt;a class=&quot;xref&quot; href=&quot;../1778/vol1.html#article-ANCIENT&quot;&gt;Ancient&lt;/a&gt; and Modern,&quot; &amp;c. |
+| W—M.S.   | Swan, William, Professor of Natural Philosophy, St Andrews. |
+| C.S—R.   | Sylvester, Charles, C.E. |
+| E.S—D.   | Szabad, Emeric, Author of &quot;&lt;a class=&quot;xref&quot; href=&quot;vol12.html#article-HUNGARY&quot;&gt;Hungary&lt;/a&gt; Past and Present.&quot; |
+
+| Initials | Names |
+|----------|-------|
+| I.T—R.   | Taylor, Isaac, Author of &quot;The Natural History of Enthusiasm.&quot; |
+| J.T—R.   | Taylor, James, D.D., Author of a &quot;History of Scotland.&quot; |
+| J.E.T.   | Tennent, Sir James Emerson, LL.D. |
+| Initials | Names |
+|----------|-------|
+| A.T.—N.  | Thomson, Allen, M.D., Professor of Anatomy, University of Glasgow. |
+| A.T.     | Thomson, Rev. Andrew, D.D. |
+| J.T.     | Thomson, John. |
+| J.T.—N.  | Thomson, J., M.D. |
+| T.T.     | Thomson, Thomas, M.D., late Professor of Chemistry, University of Glasgow. |
+| T.T.—N.  | Thomson, Rev. Thomas. |
+| W.T.     | Thomson, William, LL.D., Professor of Natural Philosophy, University of Glasgow. |
+| W.T.—Y.  | Thornbury, Walter, Author of &quot;Monarchs of the Main,&quot; &amp;c. |
+| E.T.     | Thornton, Edward, Author of &quot;Gazetteer of India.&quot; |
+| J.T.—D.  | Tilleard, John, one of Her Majesty&#x27;s Inspectors of Schools. |
+| C.T.     | Tomlinson, Charles, Lecturer on Natural Science, King&#x27;s College School, London, &amp;c., Author of the &quot;Cyclopedia of the Useful Arts.&quot; |
+| T.S.T.   | Traill, Thomas Stewart, M.D., Professor of Medical Jurisprudence in the University of Edinburgh. |
+| T.S.T.—L.| Traill, Thomas Stuart. |
+| T.T.—D.  | Tredgold, Thomas, C.E. |
+| J.T.—H.  | Tulloch, John, D.D., Principal of St &lt;a class=&quot;xref&quot; href=&quot;../1778/vol0.html#article-MARY&quot;&gt;Mary&lt;/a&gt;&#x27;s College, St Andrews. |
+| P.F.T.   | Tytler, Patrick Fraser, Author of a &quot;History of Scotland,&quot; &amp;c. |
+
+| Initials | Names |
+|----------|-------|
+| W.W.     | Wallace, William, LL.D., late Professor of Mathematics in the University of Edinburgh. |
+| J.W—E.   | Wallace, Rev. John. |
+| J.W—K.   | Warrack, John. |
+| R.W—N.   | Waterston, Rev. Richard, B.A. |
+| D.W.     | Welsh, David, D.D., late Professor of Church History, New College, Edinburgh. |
+| W.W—H.   | Westgarth, William, Author of &quot;The &lt;a class=&quot;xref&quot; href=&quot;vol15.html#article-GOLD&quot;&gt;Gold&lt;/a&gt; Fields of Australia.&quot; |
+| R.W—T.   | Westmacott, Richard, Professor of &lt;a class=&quot;xref&quot; href=&quot;vol19.html#article-SCULPTURE&quot;&gt;Sculpture&lt;/a&gt;, R.A., F.R.S. |
+| W.J.W.   | Whitty, W. J. |
+| A.W—K.   | Whytock, Alexander. |
+| G.B.W.   | Wilding, Rev. G. B., A.M., Oxford. |
+| D.W—N.   | Wilson, Daniel, LL.D., Professor of History and English Literature, University College, Toronto. |
+| G.W.     | Wilson, George, M.D., late Professor of Technology in the University of Edinburgh. |
+| J.W.     | Wilson, James, F.R.S.E., Author of &quot;A Voyage Round the &lt;a class=&quot;xref&quot; href=&quot;../1842/vol7.html#article-COAST&quot;&gt;Coast&lt;/a&gt; of Scotland,&quot; &amp;c. |
+| J.W—N.   | Wilson, John (of Edington Mains). |
+| S.P.W.   | Woodward, S. P. (British Museum.) |
+| J.W—Y.   | Woolley, Rev. Joseph, LL.D., one of H.M. Inspectors of Schools. |
+
+| Initials | Names |
+|----------|-------|
+| V        | Young, John, The &lt;a class=&quot;xref&quot; href=&quot;vol11.html#article-HONOURABLE&quot;&gt;Honourable&lt;/a&gt;. |
+| J.Y.     | Young, Thomas, M.D., Author of &quot;Lectures on Natural Philosophy.&quot; |
+
+| Initials | Names |
+|----------|-------|
+| J.V.     | Veitch, John, M.A., Professor of Logic, &amp;c., St Andrews. |</p></div>
+</div>
+
     </div>
-    
-    <script>
-    const YEAR = 1860;
-    const VOL = 0;
-    let articlesData = null;
-    let loadedArticles = new Set();
-
-    async function loadArticleData() {
-        if (articlesData) return;
-        try {
-            const response = await fetch('data/vol0.json');
-            articlesData = await response.json();
-        } catch (err) {
-            console.error('Failed to load article data:', err);
-        }
-    }
-
-    async function toggleArticle(idx) {
-        const content = document.getElementById('content-' + idx);
-        const isShown = content.classList.contains('show');
-
-        if (isShown) {
-            content.classList.remove('show');
-            return;
-        }
-
-        content.classList.add('show');
-
-        if (loadedArticles.has(idx)) return;
-
-        await loadArticleData();
-        if (!articlesData || !articlesData[idx]) {
-            content.innerHTML = '<div class="article-text">Error loading article.</div>';
-            return;
-        }
-
-        const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
-
-        content.innerHTML = `
-            <div class="article-text">${renderArticleHtml(article.t)}</div>
-            <div class="article-actions">
-                <button onclick="downloadMd(${idx})">Download .md</button>
-                <button onclick="copyText(${idx})">Copy Text</button>
-            </div>
-        `;
-        loadedArticles.add(idx);
-    }
-
-    function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
-    }
-
-    function renderArticleHtml(text) {
-        let safe = escapeHtml(text);
-        // Match escaped HTML anchor tags (quotes stay as quotes, only < and > are escaped)
-        safe = safe.replace(
-            /&lt;a class="xref" href="([^"]+)"&gt;([^&]+)&lt;\/a&gt;/g,
-            '<a class="xref" href="$1">$2</a>'
-        );
-        return safe;
-    }
-
-    function downloadMd(idx) {
-        const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
-        const header = `# ${article.h}\n\n**Edition:** 1860 Eighth Edition\n**Volume:** 0\n**Pages:** ${pages}\n\n---\n\n`;
-        const blob = new Blob([header + article.t], {type: 'text/markdown'});
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = article.h.replace(/[^a-zA-Z0-9]/g, '_') + '.md';
-        a.click();
-        URL.revokeObjectURL(url);
-    }
-
-    function copyText(idx) {
-        const article = articlesData[idx];
-        navigator.clipboard.writeText(article.t).then(() => {
-            alert('Copied to clipboard!');
-        });
-    }
-
-    function filterArticles() {
-        const query = document.getElementById('filterInput').value.toLowerCase();
-        const typeFilter = document.getElementById('typeFilter').value;
-        const items = document.querySelectorAll('.article-item');
-
-        items.forEach(item => {
-            const header = item.querySelector('h3').textContent.toLowerCase();
-            const articleType = item.dataset.type;
-
-            let show = header.includes(query);
-            if (typeFilter !== 'all') {
-                show = show && (articleType === typeFilter);
-            }
-
-            item.style.display = show ? '' : 'none';
-        });
-    }
-
-    window.addEventListener('load', function() {
-        const hash = window.location.hash;
-        if (hash && hash.startsWith('#article-')) {
-            const article = document.querySelector(hash);
-            if (article) {
-                const idx = parseInt(article.dataset.idx);
-                toggleArticle(idx);
-                setTimeout(() => {
-                    article.scrollIntoView({behavior: 'smooth', block: 'start'});
-                }, 100);
-            }
-        }
-    });
-
-    window.addEventListener('hashchange', function() {
-        const hash = window.location.hash;
-        if (hash && hash.startsWith('#article-')) {
-            const article = document.querySelector(hash);
-            if (article) {
-                const idx = parseInt(article.dataset.idx);
-                toggleArticle(idx);
-                article.scrollIntoView({behavior: 'smooth', block: 'start'});
-            }
-        }
-    });
-    </script>
-    
+    <footer style="text-align: center; padding: 2rem; color: var(--text-secondary);">
+        Generated 2026-01-22 14:59 |
+        <a href="https://github.com/TBD">View on GitHub</a>
+    </footer>
 </body>
 </html>

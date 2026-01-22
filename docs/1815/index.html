@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1815 Edition - Encyclopaedia Britannica Historical Corpus</title>
+    <title>5th Edition (1815) - Encyclopaedia Britannica</title>
     <style>
 :root {
     --bg-primary: #faf8f5;
@@ -14,506 +14,67 @@
     --accent-light: #d4a574;
     --border: #e0d8d0;
 }
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
-
 body {
     font-family: 'Georgia', 'Times New Roman', serif;
     background: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.7;
-    min-height: 100vh;
 }
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-header {
-    text-align: center;
-    padding: 3rem 0;
-    border-bottom: 2px solid var(--border);
-    margin-bottom: 2rem;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: var(--accent);
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-    letter-spacing: 0.05em;
-}
-
-header .subtitle {
-    color: var(--text-secondary);
-    font-style: italic;
-}
-
-nav {
-    background: var(--bg-secondary);
-    padding: 1rem;
-    border-radius: 4px;
-    margin-bottom: 2rem;
-    border: 1px solid var(--border);
-}
-
-nav a {
-    color: var(--accent);
-    text-decoration: none;
-    margin-right: 1.5rem;
-}
-
-nav a:hover { text-decoration: underline; }
-
-.breadcrumb {
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-    font-size: 0.9rem;
-}
-
-.breadcrumb a { color: var(--accent); text-decoration: none; }
-.breadcrumb a:hover { text-decoration: underline; }
-
-.edition-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
-}
-
-.edition-card {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem;
-    transition: box-shadow 0.2s, transform 0.2s;
-}
-
-.edition-card:hover {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transform: translateY(-2px);
-}
-
-.edition-card h2 {
-    color: var(--accent);
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-}
-
-.edition-card .year {
-    font-size: 2rem;
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-}
-
-.edition-card .stats {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-}
-
-.edition-card a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--bg-secondary);
-    background: var(--accent);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.edition-card a:hover { background: var(--accent-light); }
-
-.volume-list {
-    list-style: none;
-}
-
-.volume-list li {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-}
-
-.volume-list a {
-    display: block;
-    padding: 1rem;
-    color: var(--text-primary);
-    text-decoration: none;
-}
-
-.volume-list a:hover { background: var(--bg-primary); }
-
-.volume-list .meta {
-    color: var(--text-secondary);
-    font-size: 0.85rem;
-}
-
-.article-list {
-    list-style: none;
-}
-
-.article-item {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
-    overflow: hidden;
-}
-
-.article-header {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background 0.2s;
-}
-
-.article-header:hover { background: var(--bg-primary); }
-
-.article-header h3 {
-    font-size: 1rem;
-    font-weight: normal;
-    color: var(--accent);
-}
-
-.article-header .meta {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-}
-
-.article-header .badge {
-    background: var(--accent-light);
-    color: white;
-    padding: 0.1rem 0.4rem;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    margin-left: 0.5rem;
-}
-
-.article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
-
-.article-content {
-    padding: 1rem;
-    border-top: 1px solid var(--border);
-    display: none;
-    background: #fffef8;
-}
-
-.article-content.show { display: block; }
-
-.article-text {
-    white-space: pre-wrap;
-    font-size: 0.95rem;
-    line-height: 1.8;
-    margin-bottom: 1rem;
-}
-
-.article-actions {
-    padding-top: 0.5rem;
-    border-top: 1px dashed var(--border);
-}
-
-.article-actions button {
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 0.4rem 0.8rem;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.85rem;
-    margin-right: 0.5rem;
-}
-
-.article-actions button:hover { background: var(--accent-light); }
-
-.loading {
-    color: var(--text-secondary);
-    font-style: italic;
-}
-
-.search-box {
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.1rem;
-    border: 2px solid var(--border);
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    font-family: inherit;
-}
-
-.search-box:focus {
-    outline: none;
-    border-color: var(--accent);
-}
-
-.search-results {
-    margin-top: 1rem;
-}
-
-.search-result {
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 4px;
-}
-
-.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
-.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
-.search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
-
-.stats-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-.stats-table th, .stats-table td {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-}
-
-.stats-table th { background: var(--bg-primary); color: var(--accent); }
-.stats-table tr:hover { background: var(--bg-primary); }
-
-.filter-bar {
-    margin-bottom: 1rem;
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.filter-bar input {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
-.filter-bar select {
-    padding: 0.5rem;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    font-family: inherit;
-}
-
-footer {
-    text-align: center;
-    padding: 2rem;
-    margin-top: 3rem;
-    border-top: 1px solid var(--border);
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-}
-
-@media (max-width: 600px) {
-    .container { padding: 1rem; }
-    header h1 { font-size: 1.8rem; }
-    .edition-grid { grid-template-columns: 1fr; }
-}
+.container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+header { background: var(--accent); color: white; padding: 1rem 2rem; }
+header h1 { font-size: 1.5rem; }
+header a { color: white; text-decoration: none; }
+.article { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 1rem 0; }
+.article h2 { color: var(--accent); margin-bottom: 0.5rem; font-size: 1.3rem; }
+.article-meta { color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem; }
+.article-content { text-align: justify; }
+.toc { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+.toc h3 { margin-bottom: 0.5rem; }
+.toc-list { column-count: 3; column-gap: 1rem; }
+.toc-list a { display: block; padding: 0.2rem 0; color: var(--accent); text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+nav { background: var(--bg-secondary); border-bottom: 1px solid var(--border); padding: 0.5rem 2rem; }
+nav a { color: var(--accent); margin-right: 1rem; text-decoration: none; }
+.stats { background: #f0f0f0; padding: 1rem; border-radius: 8px; margin: 1rem 0; }
 </style>
 </head>
 <body>
-    <div class="container">
-        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; 1815 Edition</div>
-        
     <header>
-        <h1>Encyclopaedia Britannica</h1>
-        <p class="subtitle">Fifth Edition (1815)</p>
+        <h1><a href="../index.html">Encyclopaedia Britannica</a></h1>
     </header>
+    <div class="container">
+        <h1>5th Edition (1815)</h1>
 
-    <nav>
-        <a href="../index.html">Home</a>
-        <a href="../search.html">Search</a>
-    </nav>
+        <div class="stats">
+            <strong>Total Articles:</strong> 16,837<br>
+            <strong>Volumes:</strong> 19
+        </div>
 
-    <p>The Fifth Edition contains <strong>18,582 articles</strong>
-    including <strong>1,309 treatises</strong> across
-    <strong>19 volumes</strong>.</p>
-
-    <h2>Volumes</h2>
-    <ul class="volume-list">
-        
-        <li>
-            <a href="vol1.html">
-                <strong>Volume 1</strong>
-                : A-AME
-                <div class="meta">1,187 articles, 53 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol2.html">
-                <strong>Volume 2</strong>
-                : America-ASS
-                <div class="meta">1,086 articles, 60 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol3.html">
-                <strong>Volume 3</strong>
-                : ASS-BOO
-                <div class="meta">1,314 articles, 75 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol4.html">
-                <strong>Volume 4</strong>
-                : BOO-BUR
-                <div class="meta">534 articles, 64 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol5.html">
-                <strong>Volume 5</strong>
-                : BUR-CHI
-                <div class="meta">1,114 articles, 56 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol6.html">
-                <strong>Volume 6</strong>
-                : CHI-Crystallization
-                <div class="meta">1,212 articles, 93 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol7.html">
-                <strong>Volume 7</strong>
-                : CTE-Electricity
-                <div class="meta">1,015 articles, 63 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol8.html">
-                <strong>Volume 8</strong>
-                : ELE-FOR
-                <div class="meta">938 articles, 54 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol9.html">
-                <strong>Volume 9</strong>
-                : FOR-GOT
-                <div class="meta">645 articles, 71 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol10.html">
-                <strong>Volume 10</strong>
-                : GOT-Hydrodynamics
-                <div class="meta">891 articles, 100 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol11.html">
-                <strong>Volume 11</strong>
-                : HYD-LIE
-                <div class="meta">1,247 articles, 67 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol12.html">
-                <strong>Volume 12</strong>
-                : LIE-Materia
-                <div class="meta">630 articles, 69 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol13.html">
-                <strong>Volume 13</strong>
-                : MAT-MIC
-                <div class="meta">311 articles, 40 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol14.html">
-                <strong>Volume 14</strong>
-                : MIC-NIC
-                <div class="meta">631 articles, 85 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol15.html">
-                <strong>Volume 15</strong>
-                : NIC-PAR
-                <div class="meta">753 articles, 63 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol16.html">
-                <strong>Volume 16</strong>
-                : PAR-Poetry
-                <div class="meta">696 articles, 73 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol17.html">
-                <strong>Volume 17</strong>
-                : Poetry-RHI
-                <div class="meta">996 articles, 81 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol18.html">
-                <strong>Volume 18</strong>
-                : RHI-Scripture
-                <div class="meta">545 articles, 55 treatises</div>
-            </a>
-        </li>
-        
-        <li>
-            <a href="vol20.html">
-                <strong>Volume 20</strong>
-                : SUI-ZYM
-                <div class="meta">1,090 articles, 87 treatises</div>
-            </a>
-        </li>
-        
-    </ul>
-    
-        <footer>
-            <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-06</p>
-        </footer>
+        <div class="toc">
+            <h3>Volumes</h3>
+            <div class="toc-list" style="column-count: 1;">
+                <a href="vol1.html">VOL1: 1184 articles</a>
+<a href="vol10.html">VOL10: 904 articles</a>
+<a href="vol11.html">VOL11: 1276 articles</a>
+<a href="vol12.html">VOL12: 628 articles</a>
+<a href="vol13.html">VOL13: 308 articles</a>
+<a href="vol14.html">VOL14: 602 articles</a>
+<a href="vol15.html">VOL15: 751 articles</a>
+<a href="vol16.html">VOL16: 687 articles</a>
+<a href="vol17.html">VOL17: 993 articles</a>
+<a href="vol18.html">VOL18: 558 articles</a>
+<a href="vol2.html">VOL2: 1085 articles</a>
+<a href="vol20.html">VOL20: 1090 articles</a>
+<a href="vol3.html">VOL3: 1289 articles</a>
+<a href="vol4.html">VOL4: 535 articles</a>
+<a href="vol5.html">VOL5: 1117 articles</a>
+<a href="vol6.html">VOL6: 1215 articles</a>
+<a href="vol7.html">VOL7: 1000 articles</a>
+<a href="vol8.html">VOL8: 962 articles</a>
+<a href="vol9.html">VOL9: 653 articles</a>
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>
