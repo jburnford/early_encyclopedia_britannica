@@ -19,7 +19,8 @@ from datetime import datetime
 # Configuration
 INPUT_DIR = Path("output_v2")
 OUTPUT_DIR = Path("docs")
-EDITIONS_TO_INCLUDE = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]  # All 8 editions
+EDITIONS_TO_INCLUDE = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]
+USE_CORRECTED_FILES = False  # Use JSONL files from output_v2/articles_*.jsonl
 
 EDITION_NAMES = {
     1771: ("1st Edition", "First"),
@@ -513,8 +514,54 @@ def inject_hyperlinks(text: str, current_headword: str, edition_year: int,
         return text
 
 
+def load_articles_from_corrected(year):
+    """Load articles from Gemini-corrected JSON files in docs/{year}/data/."""
+    corrected_dir = OUTPUT_DIR / str(year) / "data"
+    if not corrected_dir.exists():
+        return []
+
+    articles = []
+    # Find all *_corrected.json files
+    corrected_files = sorted(corrected_dir.glob("vol*_corrected.json"),
+                             key=lambda p: int(p.stem.replace('vol', '').replace('_corrected', '')))
+
+    for cfile in corrected_files:
+        # Extract volume number from filename (e.g., vol1_corrected.json -> 1)
+        vol_num = int(cfile.stem.replace('vol', '').replace('_corrected', ''))
+
+        with open(cfile, 'r', encoding='utf-8') as f:
+            vol_articles = json.load(f)
+
+        # Transform from corrected format (h, t, sp, ep) to expected format
+        for art in vol_articles:
+            headword = art.get('h', '')
+            articles.append({
+                'article_id': f"{year}_corrected_{headword}",
+                'headword': headword,
+                'text': art.get('t', ''),
+                'source': 'gemini_corrected',
+                'match_type': 'corrected',
+                'confidence': 1.0,
+                'ocr_matched': headword,
+                'start_page': art.get('sp'),
+                'end_page': art.get('ep'),
+                'volume_num': vol_num,
+                'article_type': 'article'  # Could be enhanced later
+            })
+
+    return articles
+
+
 def load_articles(year):
     """Load articles for a given edition year."""
+    # Try corrected files first if enabled
+    if USE_CORRECTED_FILES:
+        articles = load_articles_from_corrected(year)
+        if articles:
+            print(f"    Loaded {len(articles):,} articles from corrected files")
+            return articles
+
+    # Fall back to JSONL
     path = INPUT_DIR / f"articles_{year}.jsonl"
     if not path.exists():
         return []
@@ -837,7 +884,7 @@ def generate_volume_page(year, vol_num, articles, vol_info):
         let safe = escapeHtml(text);
         // Restore xref anchor tags (we only generate these with class="xref")
         safe = safe.replace(
-            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
+            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\\/a&gt;/g,
             '<a class="xref" href="$1">$2</a>'
         );
         return safe;
@@ -1160,13 +1207,15 @@ def main():
         json.dump(search_index, f, separators=(',', ':'))  # Compact JSON
     print(f"    {len(search_index):,} entries")
 
-    # Load index headwords and build article lookup for hyperlinking
-    print("  Building hyperlink lookup...")
-    index_headwords = load_index_headwords()
-    article_lookup = build_article_lookup(all_articles)
-    # Filter to only headwords that exist in articles
-    valid_headwords = index_headwords & set(article_lookup.keys())
-    print(f"    {len(index_headwords):,} index headwords, {len(valid_headwords):,} linkable")
+    # Skip hyperlink injection for now (too slow - re-enable once optimized)
+    # print("  Building hyperlink lookup...")
+    # index_headwords = load_index_headwords()
+    # article_lookup = build_article_lookup(all_articles)
+    # valid_headwords = index_headwords & set(article_lookup.keys())
+    # print(f"    {len(index_headwords):,} index headwords, {len(valid_headwords):,} linkable")
+    valid_headwords = None
+    article_lookup = None
+    print("  Hyperlinks disabled (will re-enable once optimized)")
 
     # Generate edition pages
     for year in EDITIONS_TO_INCLUDE:
@@ -1186,10 +1235,11 @@ def main():
         with open(edition_dir / "index.html", 'w', encoding='utf-8') as f:
             f.write(generate_edition_page(year, volumes, articles))
 
-        # Group articles by volume
+        # Group articles by volume (check both 'volume_num' and 'volume' for compatibility)
         vol_articles = defaultdict(list)
         for a in articles:
-            vol_articles[a.get('volume_num', 0)].append(a)
+            vol_num = a.get('volume_num') or a.get('volume', 0)
+            vol_articles[vol_num].append(a)
 
         # Volume pages and data files
         for vol_num, vol_arts in vol_articles.items():

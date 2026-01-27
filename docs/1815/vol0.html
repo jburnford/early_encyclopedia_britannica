@@ -17839,7 +17839,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-06</p>
+            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
         </footer>
     </div>
     
@@ -17898,10 +17898,11 @@ footer {
     }
 
     function renderArticleHtml(text) {
+        // First escape all HTML, then restore our safe xref links
         let safe = escapeHtml(text);
-        // Match escaped HTML anchor tags (quotes stay as quotes, only < and > are escaped)
+        // Restore xref anchor tags (we only generate these with class="xref")
         safe = safe.replace(
-            /&lt;a class="xref" href="([^"]+)"&gt;([^&]+)&lt;\/a&gt;/g,
+            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
             '<a class="xref" href="$1">$2</a>'
         );
         return safe;
@@ -17945,6 +17946,7 @@ footer {
         });
     }
 
+    // Hash navigation: auto-expand and scroll to article on page load
     window.addEventListener('load', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {
@@ -17952,6 +17954,7 @@ footer {
             if (article) {
                 const idx = parseInt(article.dataset.idx);
                 toggleArticle(idx);
+                // Small delay to ensure content is loaded before scrolling
                 setTimeout(() => {
                     article.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }, 100);
@@ -17959,6 +17962,7 @@ footer {
         }
     });
 
+    // Also handle hash changes (e.g., clicking internal links)
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {
