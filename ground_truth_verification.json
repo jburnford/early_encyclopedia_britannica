@@ -1,0 +1,282 @@
+{
+  "total_clean_articles": 17802,
+  "samples_reviewed": 30,
+  "summary": {
+    "likely_valid": 8,
+    "needs_review": 22,
+    "invalid": 0
+  },
+  "details": [
+    {
+      "year": 1823,
+      "headword": "SHIRAUZ",
+      "text_length": 12,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1810,
+      "headword": "HOUSA",
+      "text_length": 1457,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_with_whitespace",
+        "headword_not_in_opening"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "BILACH",
+      "text_length": 569,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1815,
+      "headword": "BARDANA",
+      "text_length": 373,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1797,
+      "headword": "APODTERIUM",
+      "text_length": 73,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1778,
+      "headword": "DANAE",
+      "text_length": 384,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "O",
+      "text_length": 2138,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1797,
+      "headword": "PICRAMNIA",
+      "text_length": 1055,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1771,
+      "headword": "CHERRY",
+      "text_length": 96617,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "possible_merged_articles(74 headers found)"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "CACHALONG",
+      "text_length": 302,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1771,
+      "headword": "GENICULI",
+      "text_length": 108,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "SACMARA",
+      "text_length": 255,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1810,
+      "headword": "MARVEL OF PERU",
+      "text_length": 28,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1815,
+      "headword": "ERINGO",
+      "text_length": 27,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1810,
+      "headword": "HUGO CAPEL",
+      "text_length": 180,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1860,
+      "headword": "MARYSVILLE",
+      "text_length": 327,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1860,
+      "headword": "KALOCSA",
+      "text_length": 305,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1778,
+      "headword": "ROSSEAU",
+      "text_length": 3541,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1771,
+      "headword": "ESSORANT",
+      "text_length": 122,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1797,
+      "headword": "AMPHRYSUS",
+      "text_length": 539,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "ORNITHLÆ",
+      "text_length": 12,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1842,
+      "headword": "EPISTLE",
+      "text_length": 1320,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1771,
+      "headword": "EXCLAMATION",
+      "text_length": 103,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1815,
+      "headword": "MARSII",
+      "text_length": 1385,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening"
+      ]
+    },
+    {
+      "year": 1842,
+      "headword": "CUPAR",
+      "text_length": 2578,
+      "assessment": "LIKELY_VALID",
+      "issues": []
+    },
+    {
+      "year": 1778,
+      "headword": "ARGIPPEANS",
+      "text_length": 1115,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1810,
+      "headword": "ZANCUS",
+      "text_length": 100000,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_with_whitespace",
+        "headword_not_in_opening"
+      ]
+    },
+    {
+      "year": 1823,
+      "headword": "SAND-STONE",
+      "text_length": 100000,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "starts_with_whitespace",
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    },
+    {
+      "year": 1860,
+      "headword": "POTTERY AND PORCELAIN",
+      "text_length": 95409,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening"
+      ]
+    },
+    {
+      "year": 1797,
+      "headword": "GUNNERA",
+      "text_length": 220,
+      "assessment": "NEEDS_REVIEW",
+      "issues": [
+        "headword_not_in_opening",
+        "starts_lowercase"
+      ]
+    }
+  ]
+}
