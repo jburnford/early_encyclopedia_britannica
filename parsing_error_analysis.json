@@ -1,0 +1,2801 @@
+{
+  "summary": {
+    "total_single_edition": 18103,
+    "total_with_any_error": 460,
+    "total_clean": 17643,
+    "definite_errors": 232,
+    "probable_errors": 193,
+    "possible_errors": 35
+  },
+  "by_error_type": {
+    "all_caps_long": {
+      "count": 265,
+      "examples": [
+        [
+          1778,
+          "THIS IS INDEED THE ONLY RATIONAL END WHICH CAN BY ANY OF THESE",
+          61066
+        ],
+        [
+          1778,
+          "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY",
+          110058
+        ],
+        [
+          1778,
+          "ALTHOUGH THIS OPERATION IS BY NO",
+          18763
+        ],
+        [
+          1778,
+          "WHEN THE COLOUR OF GOLD IS BY ANY",
+          3337
+        ],
+        [
+          1778,
+          "EXEMPLIFICATION OF LETTERS-PATENT",
+          100
+        ],
+        [
+          1778,
+          "PUSTULES ARE SELDOM PERFECTLY CURED BY",
+          32655
+        ],
+        [
+          1778,
+          "SPECTATOR FASTIDIOSUS\nSIBI MOLESTUS",
+          24790
+        ],
+        [
+          1778,
+          "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY",
+          845
+        ],
+        [
+          1778,
+          "STORAX MAY BE EXCELLENTLY PURIFIED BY",
+          40116
+        ],
+        [
+          1797,
+          "ANDREW BELL\n\nAND\n\nCOLIN MACFARQUHAR",
+          52768
+        ],
+        [
+          1797,
+          "INFLAMMABLE AIR HAVING BEEN AT FIRST PRODUCED ONLY FROM METALS BY",
+          13957
+        ],
+        [
+          1797,
+          "RAW-FISH PRODUCES DEPHLOGISTICATED AIR BY",
+          36375
+        ],
+        [
+          1797,
+          "ANOTHER METHOD OF ACCUMULATING FORCE IS BY",
+          129035
+        ],
+        [
+          1797,
+          "ACCOMMODATES ITSELF TO DIFFERENT CIRCUMSTANCES BY",
+          86768
+        ],
+        [
+          1797,
+          "BOTH CALAMINE AND TUTTY ACT ONLY BY",
+          6745
+        ],
+        [
+          1797,
+          "STORAX WAS FORMERLY DIRECTED TO BE PURIFIED BY",
+          694
+        ],
+        [
+          1797,
+          "WHEREVER THE ECONOMY OF LIVING BODIES",
+          43623
+        ],
+        [
+          1797,
+          "ALL THE EFFUSED BLOOD OUGHT THEN TO BE WIPED OFF BY",
+          106722
+        ],
+        [
+          1797,
+          "WHERE IT IS INTENDED TO TREAT HYDROCELE BY",
+          22808
+        ],
+        [
+          1797,
+          "CHURCHING OF WOMEN AFTER CHILD-BIRTH",
+          238
+        ]
+      ]
+    },
+    "ends_with_function_word": {
+      "count": 140,
+      "examples": [
+        [
+          1778,
+          "THESE ARE THE",
+          7071
+        ],
+        [
+          1778,
+          "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY",
+          110058
+        ],
+        [
+          1778,
+          "EVAPORATION BY",
+          7110
+        ],
+        [
+          1778,
+          "PUSTULES ARE SELDOM PERFECTLY CURED BY",
+          32655
+        ],
+        [
+          1778,
+          "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY",
+          845
+        ],
+        [
+          1778,
+          "STORAX MAY BE EXCELLENTLY PURIFIED BY",
+          40116
+        ],
+        [
+          1797,
+          "INFLAMMABLE AIR HAVING BEEN AT FIRST PRODUCED ONLY FROM METALS BY",
+          13957
+        ],
+        [
+          1797,
+          "INFLAMMABLE AIR PROCURED BY",
+          124909
+        ],
+        [
+          1797,
+          "RAW-FISH PRODUCES DEPHLOGISTICATED AIR BY",
+          36375
+        ],
+        [
+          1797,
+          "ANOTHER METHOD OF ACCUMULATING FORCE IS BY",
+          129035
+        ],
+        [
+          1797,
+          "OBSERVATIONS ON THE",
+          16442
+        ],
+        [
+          1797,
+          "ACCOMMODATES ITSELF TO DIFFERENT CIRCUMSTANCES BY",
+          86768
+        ],
+        [
+          1797,
+          "BOTH CALAMINE AND TUTTY ACT ONLY BY",
+          6745
+        ],
+        [
+          1797,
+          "OPIUM WAS FORMERLY PURIFIED BY",
+          232260
+        ],
+        [
+          1797,
+          "STORAX WAS FORMERLY DIRECTED TO BE PURIFIED BY",
+          694
+        ],
+        [
+          1797,
+          "THERE ARE THE",
+          8888
+        ],
+        [
+          1797,
+          "ALL THE EFFUSED BLOOD OUGHT THEN TO BE WIPED OFF BY",
+          106722
+        ],
+        [
+          1797,
+          "WHERE IT IS INTENDED TO TREAT HYDROCELE BY",
+          22808
+        ],
+        [
+          1797,
+          "CONDUCTING POWER OF VARIOUS SUBSTANCES ASCERTAINED BY",
+          14299
+        ],
+        [
+          1797,
+          "GEOMETRICAL FIGURES BEAUTIFULLY SHOWN BY",
+          10055
+        ]
+      ]
+    },
+    "text_over_100k": {
+      "count": 125,
+      "examples": [
+        [
+          1771,
+          "AIR-THREAD",
+          273591
+        ],
+        [
+          1771,
+          "AIREBA",
+          273237
+        ],
+        [
+          1771,
+          "ANSWER",
+          324605
+        ],
+        [
+          1771,
+          "ANTICHRORUS",
+          178360
+        ],
+        [
+          1771,
+          "ARCION",
+          147609
+        ],
+        [
+          1771,
+          "FEET",
+          210875
+        ],
+        [
+          1771,
+          "FOREIGN MINISTER",
+          137683
+        ],
+        [
+          1771,
+          "FRIEDBURG",
+          195968
+        ],
+        [
+          1771,
+          "FRIO",
+          189304
+        ],
+        [
+          1771,
+          "FROG",
+          187162
+        ],
+        [
+          1771,
+          "FUNERAL",
+          173460
+        ],
+        [
+          1771,
+          "FURCHE'",
+          165182
+        ],
+        [
+          1771,
+          "GALERIA",
+          153236
+        ],
+        [
+          1771,
+          "GALLY-BANK",
+          144465
+        ],
+        [
+          1771,
+          "HYOTHYROIDEUS",
+          100924
+        ],
+        [
+          1771,
+          "HYPERBOLIC",
+          100319
+        ],
+        [
+          1771,
+          "HYPERBOLOID",
+          100319
+        ],
+        [
+          1771,
+          "LEAVES",
+          457371
+        ],
+        [
+          1771,
+          "MAGDELENA",
+          196347
+        ],
+        [
+          1771,
+          "SUCCTION",
+          123596
+        ]
+      ]
+    },
+    "headword_too_long": {
+      "count": 84,
+      "examples": [
+        [
+          1778,
+          "THIS IS INDEED THE ONLY RATIONAL END WHICH CAN BY ANY OF THESE",
+          61066
+        ],
+        [
+          1778,
+          "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY",
+          110058
+        ],
+        [
+          1778,
+          "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY",
+          845
+        ],
+        [
+          1797,
+          "INFLAMMABLE AIR HAVING BEEN AT FIRST PRODUCED ONLY FROM METALS BY",
+          13957
+        ],
+        [
+          1797,
+          "ALL THE EFFUSED BLOOD OUGHT THEN TO BE WIPED OFF BY",
+          106722
+        ],
+        [
+          1797,
+          "CONDUCTING POWER OF VARIOUS SUBSTANCES ASCERTAINED BY",
+          14299
+        ],
+        [
+          1797,
+          "GARTH-MEN IS USED IN OUR STATUTES FOR THOSE WHO CATCH FISH BY",
+          59753
+        ],
+        [
+          1810,
+          "HAVING SOME YEARS AGO ATTEMPTED TO MAKE AN ACCURATE AND SENSIBLE HYGROMETER BY",
+          60620
+        ],
+        [
+          1810,
+          "THIS IS PREPARED BY DECOMPOSING MURIATE OF AMMONIA BY",
+          19556
+        ],
+        [
+          1810,
+          "BEFORE MAN HAD RECOURSE TO AGRICULTURE AS THE MOST CERTAIN",
+          36833
+        ],
+        [
+          1810,
+          "THIS ASSEMBLING OF THE INDIVIDUAL OBJECTS WHICH COMPOSE THE UNIVERSE INTO ONE SYSTEM IS BY NO",
+          22340
+        ],
+        [
+          1810,
+          "THIS COMBINATION OF AIR WITH WATER IS VERY DISTINCTLY SEEN BY",
+          28998
+        ],
+        [
+          1810,
+          "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY",
+          72711
+        ],
+        [
+          1810,
+          "HENCE IT APPEARS THAT WHATEVER BE THE MAGNITUDE OF THE QUANTITY THAT",
+          240524
+        ],
+        [
+          1810,
+          "GARTH MEN IS USED IN OUR STATUTES FOR THOSE WHO CATCH FISH BY",
+          4024
+        ],
+        [
+          1815,
+          "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY",
+          45922
+        ],
+        [
+          1815,
+          "CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY",
+          194198
+        ],
+        [
+          1815,
+          "MANY CHEMISTS EXAMINED THE NATURE OF THIS SUBSTANCE BY",
+          124564
+        ],
+        [
+          1815,
+          "MANY OF THE METALLIC SOLUTIONS AND METALLIC SALTS ARE DECOMPOSED BY",
+          12603
+        ],
+        [
+          1815,
+          "FIND THE FIRST TERM OF EACH OF THE ASCENDING SERIES WHICH",
+          134401
+        ]
+      ]
+    },
+    "sentence_fragment": {
+      "count": 61,
+      "examples": [
+        [
+          1778,
+          "THIS IS INDEED THE ONLY RATIONAL END WHICH CAN BY ANY OF THESE",
+          61066
+        ],
+        [
+          1778,
+          "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY",
+          110058
+        ],
+        [
+          1778,
+          "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY",
+          845
+        ],
+        [
+          1797,
+          "INFLAMMABLE AIR HAVING BEEN AT FIRST PRODUCED ONLY FROM METALS BY",
+          13957
+        ],
+        [
+          1797,
+          "ALL THE EFFUSED BLOOD OUGHT THEN TO BE WIPED OFF BY",
+          106722
+        ],
+        [
+          1810,
+          "WHILE THE ROMANS THUS EMPLOYED ALL",
+          157442
+        ],
+        [
+          1810,
+          "BEFORE MAN HAD RECOURSE TO AGRICULTURE AS THE MOST CERTAIN",
+          36833
+        ],
+        [
+          1810,
+          "THIS ASSEMBLING OF THE INDIVIDUAL OBJECTS WHICH COMPOSE THE UNIVERSE INTO ONE SYSTEM IS BY NO",
+          22340
+        ],
+        [
+          1810,
+          "THIS COMBINATION OF AIR WITH WATER IS VERY DISTINCTLY SEEN BY",
+          28998
+        ],
+        [
+          1810,
+          "WHILE THE CONTEMPLATION OF THESE APPEARANCES",
+          12767
+        ],
+        [
+          1810,
+          "HENCE IT APPEARS THAT WHATEVER BE THE MAGNITUDE OF THE QUANTITY THAT",
+          240524
+        ],
+        [
+          1815,
+          "CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY",
+          194198
+        ],
+        [
+          1815,
+          "MANY CHEMISTS EXAMINED THE NATURE OF THIS SUBSTANCE BY",
+          124564
+        ],
+        [
+          1815,
+          "FIND THE FIRST TERM OF EACH OF THE ASCENDING SERIES WHICH",
+          134401
+        ],
+        [
+          1823,
+          "STRENGTH OF THE CENTRE OF THE CIRCLE IS BY NO",
+          3386
+        ],
+        [
+          1823,
+          "TABLE\nOF THE\nARTICLES AND TREATISES\nCONTAINED IN THIS VOLUME",
+          1257
+        ],
+        [
+          1823,
+          "WHILE THE SERVANTS OF THE COMPANY IN INDIA WERE THUS EAGERLY DEVISING THE",
+          114000
+        ],
+        [
+          1823,
+          "SUCH ARE THE PRETENSIONS OF THE DUTCH TO THE HONOUR OF THE INVENTION OF PRINTING BY",
+          72087
+        ],
+        [
+          1823,
+          "TABLE\nOF THE\nARTICLES AND TREATISES\nCONTAINED IN THIS WORK",
+          11734
+        ],
+        [
+          1842,
+          "BEFORE PROCEEDING TO DIRECT THE USE OF THE LAST",
+          7688
+        ]
+      ]
+    },
+    "starts_with_sentence_word": {
+      "count": 45,
+      "examples": [
+        [
+          1778,
+          "THESE ARE THE",
+          7071
+        ],
+        [
+          1778,
+          "THIS IS INDEED THE ONLY RATIONAL END WHICH CAN BY ANY OF THESE",
+          61066
+        ],
+        [
+          1778,
+          "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY",
+          110058
+        ],
+        [
+          1778,
+          "WHEN THE COLOUR OF GOLD IS BY ANY",
+          3337
+        ],
+        [
+          1797,
+          "WHERE IT IS INTENDED TO TREAT HYDROCELE BY",
+          22808
+        ],
+        [
+          1810,
+          "HAVING BY THIS",
+          1322
+        ],
+        [
+          1810,
+          "NOW AS THIS FORMULA",
+          110905
+        ],
+        [
+          1810,
+          "WHILE THE ROMANS THUS EMPLOYED ALL",
+          157442
+        ],
+        [
+          1810,
+          "HAVING SOME YEARS AGO ATTEMPTED TO MAKE AN ACCURATE AND SENSIBLE HYGROMETER BY",
+          60620
+        ],
+        [
+          1810,
+          "THIS IS PREPARED BY DECOMPOSING MURIATE OF AMMONIA BY",
+          19556
+        ],
+        [
+          1810,
+          "BEFORE MAN HAD RECOURSE TO AGRICULTURE AS THE MOST CERTAIN",
+          36833
+        ],
+        [
+          1810,
+          "THIS ASSEMBLING OF THE INDIVIDUAL OBJECTS WHICH COMPOSE THE UNIVERSE INTO ONE SYSTEM IS BY NO",
+          22340
+        ],
+        [
+          1810,
+          "THIS COMBINATION OF AIR WITH WATER IS VERY DISTINCTLY SEEN BY",
+          28998
+        ],
+        [
+          1810,
+          "THIS EXAMINATION MAY BE MANAGED MORE EASILY BY",
+          238
+        ],
+        [
+          1810,
+          "THIS IS BY NO",
+          64399
+        ],
+        [
+          1810,
+          "WHILE THE CONTEMPLATION OF THESE APPEARANCES",
+          12767
+        ],
+        [
+          1810,
+          "THIS MOTION MAY BE EASILY PRODUCED BY",
+          4114
+        ],
+        [
+          1810,
+          "THIS ARTIFICE MIGHT BE CONCEALED BY",
+          20869
+        ],
+        [
+          1810,
+          "THIS WAS STILL AN EMPLOYMENT BY NO",
+          8813
+        ],
+        [
+          1810,
+          "WHEN THE SENATE OF VENICE WERE DELIBERATING ON THE",
+          31332
+        ]
+      ]
+    },
+    "multiple_punctuation": {
+      "count": 42,
+      "examples": [
+        [
+          1771,
+          "ADATAIS, ADATIS, or ADATYS",
+          232
+        ],
+        [
+          1842,
+          "ABRAHAM, OR ABRAM, NICHOLAS",
+          458
+        ],
+        [
+          1842,
+          "ACA, ACE, or ACOX",
+          122
+        ],
+        [
+          1842,
+          "AILANA, AILATH, or AHELOTH",
+          197
+        ],
+        [
+          1842,
+          "BALI, BALIY, OR LITTLE JAVA",
+          2507
+        ],
+        [
+          1842,
+          "BARTH, OR BART, JOHN",
+          205
+        ],
+        [
+          1842,
+          "BECCARIA, CÆSAR BONESANA, MARQUIS OF",
+          25424
+        ],
+        [
+          1842,
+          "BERCHEM, or BERGHEM, NICHOLAS",
+          729
+        ],
+        [
+          1842,
+          "BERNERA, BERNERAY, or BARNERA",
+          898
+        ],
+        [
+          1842,
+          "BESOZZI, or BEZUTIUS, AMBROGIO",
+          297
+        ],
+        [
+          1842,
+          "BETHUNE, Maximilian de, Duke of Sully",
+          81
+        ],
+        [
+          1842,
+          "BUAT-NANCAY, LOUIS GABRIEL, COUNT DU",
+          9063
+        ],
+        [
+          1842,
+          "BUCKINGHAM, GEORGE VILLIERS, DUKE OF",
+          51
+        ],
+        [
+          1842,
+          "BUCKINGHAM, JOHN SHEFFIELD, DUKE OF",
+          51
+        ],
+        [
+          1842,
+          "BUFFON, GEORGE LOUIS LE CLERC, COUNT OF",
+          4511
+        ],
+        [
+          1842,
+          "CANCAR, CANCAO, PONTIHAMES",
+          454
+        ],
+        [
+          1842,
+          "CANGIAGIO, or CAMBIASI, LUDOVICO",
+          227
+        ],
+        [
+          1842,
+          "CHALONER, SIR THOMAS, THE YOUNGER",
+          14869
+        ],
+        [
+          1842,
+          "COOPER, ANTHONY ASHLEY, EARL OF SHAFTESBURY",
+          16928
+        ],
+        [
+          1842,
+          "COOPER, ANTHONY ASHLEY, FIRST EARL OF SHAFTESBURY",
+          9950
+        ]
+      ]
+    },
+    "text_over_200k": {
+      "count": 38,
+      "examples": [
+        [
+          1771,
+          "AIR-THREAD",
+          273591
+        ],
+        [
+          1771,
+          "AIREBA",
+          273237
+        ],
+        [
+          1771,
+          "ANSWER",
+          324605
+        ],
+        [
+          1771,
+          "FEET",
+          210875
+        ],
+        [
+          1771,
+          "LEAVES",
+          457371
+        ],
+        [
+          1797,
+          "OPIUM WAS FORMERLY PURIFIED BY",
+          232260
+        ],
+        [
+          1797,
+          "JOHN BALIOL",
+          380658
+        ],
+        [
+          1797,
+          "SPECIAL TERMS",
+          302985
+        ],
+        [
+          1797,
+          "LAW OF SCOTLAND",
+          481075
+        ],
+        [
+          1810,
+          "PHYSON HAVING BY THIS",
+          212604
+        ],
+        [
+          1810,
+          "HENCE IT APPEARS THAT WHATEVER BE THE MAGNITUDE OF THE QUANTITY THAT",
+          240524
+        ],
+        [
+          1815,
+          "GUNDELIA",
+          216065
+        ],
+        [
+          1815,
+          "PLATINA HAS ALSO BEEN OXIDATED BY",
+          393301
+        ],
+        [
+          1815,
+          "FARREY",
+          379861
+        ],
+        [
+          1823,
+          "ATOMIC THEORY",
+          247930
+        ],
+        [
+          1842,
+          "DRAMATURGY",
+          305671
+        ],
+        [
+          1842,
+          "GENUS GYPAEOS",
+          360748
+        ],
+        [
+          1842,
+          "LEGISLATION",
+          312581
+        ],
+        [
+          1842,
+          "WHILE MAGNETISM WAS MAKING SLOW ADVANCES BY",
+          533177
+        ],
+        [
+          1842,
+          "SYSTEM OF ARRANGEMENT OF SIMPLE MINERALS",
+          206701
+        ]
+      ]
+    },
+    "volume_marker": {
+      "count": 22,
+      "examples": [
+        [
+          1778,
+          "END OF THE THIRD VOLUME",
+          7863
+        ],
+        [
+          1778,
+          "END OF THE FOURTH VOLUME",
+          638
+        ],
+        [
+          1810,
+          "END OF THE TWELFTH VOLUME",
+          173
+        ],
+        [
+          1810,
+          "END OF THE FOURTEENTH VOLUME",
+          182
+        ],
+        [
+          1810,
+          "END OF THE SIXTEENTH VOLUME",
+          256
+        ],
+        [
+          1810,
+          "END OF THE SEVENTEENTH VOLUME",
+          215
+        ],
+        [
+          1810,
+          "END OF THE EIGHTEENTH VOLUME",
+          481
+        ],
+        [
+          1810,
+          "END OF THE NINETEENTH VOLUME",
+          301
+        ],
+        [
+          1810,
+          "END OF THE SECOND VOLUME",
+          511
+        ],
+        [
+          1810,
+          "END OF THE SEVENTH VOLUME",
+          201
+        ],
+        [
+          1810,
+          "END OF THE NINTH VOLUME",
+          292
+        ],
+        [
+          1823,
+          "ADDENDUM\n\nTO\n\nVOLUME FIFTH",
+          4714
+        ],
+        [
+          1823,
+          "TABLE\nOF THE\nARTICLES AND TREATISES\nCONTAINED IN THIS VOLUME",
+          1257
+        ],
+        [
+          1842,
+          "END OF VOLUME EIGHTH",
+          1648
+        ],
+        [
+          1842,
+          "END OF VOLUME FIFTEENTH",
+          1313
+        ],
+        [
+          1842,
+          "END OF VOLUME FOURTH",
+          386
+        ],
+        [
+          1842,
+          "END OF VOLUME SECOND",
+          3436
+        ],
+        [
+          1842,
+          "END OF VOLUME SEVENTEENTH",
+          252
+        ],
+        [
+          1842,
+          "END OF VOLUME SEVENTH",
+          155
+        ],
+        [
+          1842,
+          "END OF VOLUME THIRD",
+          4283
+        ]
+      ]
+    },
+    "mixed_case_long": {
+      "count": 12,
+      "examples": [
+        [
+          1842,
+          "AGUIRRA, Joseph Sáenz de",
+          409
+        ],
+        [
+          1842,
+          "AMERICA, United States of",
+          45
+        ],
+        [
+          1842,
+          "BERGAMO, James Philip de",
+          15698
+        ],
+        [
+          1842,
+          "BERWICK, the Duke of",
+          13677
+        ],
+        [
+          1842,
+          "BETHORON, UPPER and NETHER",
+          618
+        ],
+        [
+          1842,
+          "BETHUNE, Maximilian de, Duke of Sully",
+          81
+        ],
+        [
+          1842,
+          "BEVELAND, North and South",
+          705
+        ],
+        [
+          1842,
+          "CLAUDIA or Clodia Via",
+          215
+        ],
+        [
+          1842,
+          "DEPRESSION of a Star",
+          11928
+        ],
+        [
+          1842,
+          "DEPRESSION of the Pole",
+          466
+        ],
+        [
+          1842,
+          "DEPRESSION of the Visible Horizon",
+          271
+        ],
+        [
+          1842,
+          "HOOKER, alias VOWELL, JOHN",
+          2430
+        ]
+      ]
+    },
+    "headword_extremely_long": {
+      "count": 10,
+      "examples": [
+        [
+          1815,
+          "CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY",
+          194198
+        ],
+        [
+          1842,
+          "EVEN THESE EVILS MIGHT BE AGGRAVATED BY PARCELLING THE COUNTRY OUT INTO DISTRICTS TOO SMALL TO ALLOW OF THE PROCUR- ING OF THE NECESSARY",
+          15353
+        ],
+        [
+          1842,
+          "NOTHING HAS GIVEN RISE TO GREATER DISCONTENT AND HEART-BURNINGS THAN THE PROVISION MADE FOR THE SUPPORT OF THE CHURCH BY",
+          7664
+        ],
+        [
+          1842,
+          "APOLLONIUS OF PERGA SOLVED THE IMPORTANT PROBLEM OF THE APOLLONIANS AND RETROGRADATIONS OF THE PLANETS BY",
+          161241
+        ],
+        [
+          1860,
+          "SIR WILLIAM HERSCHEL HAVING FOUND IT REQUISITE IN THE COURSE OF HIS ARDUOUS OBSERVATIONS ON THE SUN TO DEVISE",
+          25242
+        ],
+        [
+          1860,
+          "GALILEO AND THE PHILOSOPHERS OF THE ACADEMIA DEL CIMENTO HAD PROPOSED TO MEASURE THE VELOCITY OF LIGHT BY",
+          236632
+        ],
+        [
+          1860,
+          "EVEN THESE EVILS MIGHT BE AGGRAVATED BY PARCELLING THE COUNTRY OUT INTO DISTRICTS TOO SMALL TO ALLOW OF THE PROCURING OF THE NECESSARY",
+          4365
+        ],
+        [
+          1860,
+          "APOLLONIUS OF PERGA SOLVED THE IMPORTANT PROBLEM OF THE APOLLON STATIONS AND RETROGRADATIONS OF THE PLANETS BY",
+          225857
+        ],
+        [
+          1860,
+          "CATECHISM IS NOW GENERALLY USED TO DENOTE AN ELEMENTARY BOOK IN WHICH THE PRINCIPLES OF RELIGION ARE SUMMARILY DELIVERED BY",
+          147
+        ],
+        [
+          1860,
+          "WHEN POPULATION HAS SO FAR MULTIPLIED AS TO RENDER THE PRODUCE OF FLOCKS AND HERDS INSUFFICIENT FOR THE",
+          6561
+        ]
+      ]
+    },
+    "contains_see_reference": {
+      "count": 1,
+      "examples": [
+        [
+          1842,
+          "SEE BERGOO ISLE",
+          334
+        ]
+      ]
+    },
+    "text_over_500k": {
+      "count": 1,
+      "examples": [
+        [
+          1842,
+          "WHILE MAGNETISM WAS MAKING SLOW ADVANCES BY",
+          533177
+        ]
+      ]
+    }
+  },
+  "definite_errors": [
+    {
+      "year": 1771,
+      "headword": "AIR-THREAD"
+    },
+    {
+      "year": 1771,
+      "headword": "AIREBA"
+    },
+    {
+      "year": 1771,
+      "headword": "ANSWER"
+    },
+    {
+      "year": 1771,
+      "headword": "FEET"
+    },
+    {
+      "year": 1771,
+      "headword": "LEAVES"
+    },
+    {
+      "year": 1778,
+      "headword": "END OF THE FOURTH VOLUME"
+    },
+    {
+      "year": 1778,
+      "headword": "END OF THE THIRD VOLUME"
+    },
+    {
+      "year": 1778,
+      "headword": "EVAPORATION BY"
+    },
+    {
+      "year": 1778,
+      "headword": "PUSTULES ARE SELDOM PERFECTLY CURED BY"
+    },
+    {
+      "year": 1778,
+      "headword": "STORAX MAY BE EXCELLENTLY PURIFIED BY"
+    },
+    {
+      "year": 1778,
+      "headword": "THESE ARE THE"
+    },
+    {
+      "year": 1778,
+      "headword": "THIS IS INDEED THE ONLY RATIONAL END WHICH CAN BY ANY OF THESE"
+    },
+    {
+      "year": 1778,
+      "headword": "TOBACCO IS MADE UP INTO ROLLS BY THE INHABITANTS OF THE INTERIOR PARTS OF AMERICA BY"
+    },
+    {
+      "year": 1778,
+      "headword": "WHEN THE COLOUR OF GOLD IS BY ANY"
+    },
+    {
+      "year": 1778,
+      "headword": "WHEN THE DOCTOR WANTED TO EXTRACT INFLAMMABLE AIR FROM METALS BY"
+    },
+    {
+      "year": 1797,
+      "headword": "ACCOMMODATES ITSELF TO DIFFERENT CIRCUMSTANCES BY"
+    },
+    {
+      "year": 1797,
+      "headword": "ALL THE EFFUSED BLOOD OUGHT THEN TO BE WIPED OFF BY"
+    },
+    {
+      "year": 1797,
+      "headword": "ANOTHER METHOD OF ACCUMULATING FORCE IS BY"
+    },
+    {
+      "year": 1797,
+      "headword": "BOTH CALAMINE AND TUTTY ACT ONLY BY"
+    },
+    {
+      "year": 1797,
+      "headword": "CONDUCTING POWER OF VARIOUS SUBSTANCES ASCERTAINED BY"
+    },
+    {
+      "year": 1797,
+      "headword": "GARTH-MEN IS USED IN OUR STATUTES FOR THOSE WHO CATCH FISH BY"
+    },
+    {
+      "year": 1797,
+      "headword": "GEOMETRICAL FIGURES BEAUTIFULLY SHOWN BY"
+    },
+    {
+      "year": 1797,
+      "headword": "INFLAMMABLE AIR HAVING BEEN AT FIRST PRODUCED ONLY FROM METALS BY"
+    },
+    {
+      "year": 1797,
+      "headword": "INFLAMMABLE AIR PROCURED BY"
+    },
+    {
+      "year": 1797,
+      "headword": "JOHN BALIOL"
+    },
+    {
+      "year": 1797,
+      "headword": "LAW OF SCOTLAND"
+    },
+    {
+      "year": 1797,
+      "headword": "OBSERVATIONS ON THE"
+    },
+    {
+      "year": 1797,
+      "headword": "OPIUM WAS FORMERLY PURIFIED BY"
+    },
+    {
+      "year": 1797,
+      "headword": "RAW-FISH PRODUCES DEPHLOGISTICATED AIR BY"
+    },
+    {
+      "year": 1797,
+      "headword": "SPECIAL TERMS"
+    },
+    {
+      "year": 1797,
+      "headword": "STORAX WAS FORMERLY DIRECTED TO BE PURIFIED BY"
+    },
+    {
+      "year": 1797,
+      "headword": "THERE ARE THE"
+    },
+    {
+      "year": 1797,
+      "headword": "WHERE IT IS INTENDED TO TREAT HYDROCELE BY"
+    },
+    {
+      "year": 1810,
+      "headword": "ARCHIMEDES BY"
+    },
+    {
+      "year": 1810,
+      "headword": "BEFORE MAN HAD RECOURSE TO AGRICULTURE AS THE MOST CERTAIN"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE EIGHTEENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE FOURTEENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE NINETEENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE NINTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE SECOND VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE SEVENTEENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE SEVENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE SIXTEENTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "END OF THE TWELFTH VOLUME"
+    },
+    {
+      "year": 1810,
+      "headword": "GARTH MEN IS USED IN OUR STATUTES FOR THOSE WHO CATCH FISH BY"
+    },
+    {
+      "year": 1810,
+      "headword": "HAVING BY THIS"
+    },
+    {
+      "year": 1810,
+      "headword": "HAVING SOME YEARS AGO ATTEMPTED TO MAKE AN ACCURATE AND SENSIBLE HYGROMETER BY"
+    },
+    {
+      "year": 1810,
+      "headword": "HENCE IT APPEARS THAT WHATEVER BE THE MAGNITUDE OF THE QUANTITY THAT"
+    },
+    {
+      "year": 1810,
+      "headword": "NOTWITHSTANDING ALL THESE DISCOVERIES BY"
+    },
+    {
+      "year": 1810,
+      "headword": "NOW AS THIS FORMULA"
+    },
+    {
+      "year": 1810,
+      "headword": "PHYSON HAVING BY THIS"
+    },
+    {
+      "year": 1810,
+      "headword": "THESE STATES OF ELECTRICITY ARE USUALLY DISTINGUISHED BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS ARTIFICE MIGHT BE CONCEALED BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS ASSEMBLING OF THE INDIVIDUAL OBJECTS WHICH COMPOSE THE UNIVERSE INTO ONE SYSTEM IS BY NO"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS COMBINATION OF AIR WITH WATER IS VERY DISTINCTLY SEEN BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS EQUATION EVIDENTLY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS EXAMINATION MAY BE MANAGED MORE EASILY BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS FLUENT CAN ONLY BE EXPRESSED BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS IS BY NO"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS IS PREPARED BY DECOMPOSING MURIATE OF AMMONIA BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS MOTION MAY BE EASILY PRODUCED BY"
+    },
+    {
+      "year": 1810,
+      "headword": "THIS WAS STILL AN EMPLOYMENT BY NO"
+    },
+    {
+      "year": 1810,
+      "headword": "WHEN BY"
+    },
+    {
+      "year": 1810,
+      "headword": "WHEN THE SENATE OF VENICE WERE DELIBERATING ON THE"
+    },
+    {
+      "year": 1810,
+      "headword": "WHILE THE CONTEMPLATION OF THESE APPEARANCES"
+    },
+    {
+      "year": 1810,
+      "headword": "WHILE THE ROMANS THUS EMPLOYED ALL"
+    },
+    {
+      "year": 1815,
+      "headword": "ALL THE METALLIC ACIDS ARE DECOMPOSED BY"
+    },
+    {
+      "year": 1815,
+      "headword": "ANOTHER MODE OF ANALYSIS IS BY"
+    },
+    {
+      "year": 1815,
+      "headword": "CHARTS\nCHARTS HAVE BEEN CONSTRUCTED FOR SHEWING THE DECLINATION OF THE NEEDLE IN VARIOUS PARTS OF THE EARTH BY"
+    },
+    {
+      "year": 1815,
+      "headword": "FARREY"
+    },
+    {
+      "year": 1815,
+      "headword": "FIND THE FIRST TERM OF EACH OF THE ASCENDING SERIES WHICH"
+    },
+    {
+      "year": 1815,
+      "headword": "GUNDELIA"
+    },
+    {
+      "year": 1815,
+      "headword": "MANY CHEMISTS EXAMINED THE NATURE OF THIS SUBSTANCE BY"
+    },
+    {
+      "year": 1815,
+      "headword": "MANY OF THE METALLIC SOLUTIONS AND METALLIC SALTS ARE DECOMPOSED BY"
+    },
+    {
+      "year": 1815,
+      "headword": "PLATINA HAS ALSO BEEN OXIDATED BY"
+    },
+    {
+      "year": 1815,
+      "headword": "SOME VEGETABLES AFFORD SUBSISTENCE TO THE HUMAN SPECIES BY"
+    },
+    {
+      "year": 1823,
+      "headword": "ADDENDUM\n\nTO\n\nVOLUME FIFTH"
+    },
+    {
+      "year": 1823,
+      "headword": "ANALYSIS OF"
+    },
+    {
+      "year": 1823,
+      "headword": "ATOMIC THEORY"
+    },
+    {
+      "year": 1823,
+      "headword": "EVERY INCREASE OF THE POWERS OF INDUSTRY AFFORDS THE"
+    },
+    {
+      "year": 1823,
+      "headword": "HAVING IN THE PREVIOUS SECTIONS ENDEAVOURED TO EXPLAIN THE"
+    },
+    {
+      "year": 1823,
+      "headword": "IS"
+    },
+    {
+      "year": 1823,
+      "headword": "NOR ARE THE"
+    },
+    {
+      "year": 1823,
+      "headword": "SPONGES ARE COMPOSED OF HORNY FIBRES CONNECTED TOGETHER BY"
+    },
+    {
+      "year": 1823,
+      "headword": "STRENGTH OF THE CENTRE OF THE CIRCLE IS BY NO"
+    },
+    {
+      "year": 1823,
+      "headword": "SUCH ARE THE PRETENSIONS OF THE DUTCH TO THE HONOUR OF THE INVENTION OF PRINTING BY"
+    },
+    {
+      "year": 1823,
+      "headword": "TABLE\nOF THE\nARTICLES AND TREATISES\nCONTAINED IN THIS VOLUME"
+    },
+    {
+      "year": 1823,
+      "headword": "TABLE\nOF THE\nARTICLES AND TREATISES\nCONTAINED IN THIS WORK"
+    },
+    {
+      "year": 1823,
+      "headword": "THESE DROITS AND PERQUISITES ARE BY NO"
+    },
+    {
+      "year": 1823,
+      "headword": "THIS COUNTY BY NO"
+    },
+    {
+      "year": 1823,
+      "headword": "THIS COUNTY IS BY NO"
+    },
+    {
+      "year": 1823,
+      "headword": "THIS SIMPLE MACHINE MIGHT BE MADE THE"
+    },
+    {
+      "year": 1823,
+      "headword": "WHILE THE SERVANTS OF THE COMPANY IN INDIA WERE THUS EAGERLY DEVISING THE"
+    },
+    {
+      "year": 1842,
+      "headword": "ADMIRALTY, HIGH COURT OF"
+    },
+    {
+      "year": 1842,
+      "headword": "ALL THE DIFFICULT QUESTIONS OF GOVERNMENT RELATE TO THE"
+    },
+    {
+      "year": 1842,
+      "headword": "AMERICA, United States of"
+    },
+    {
+      "year": 1842,
+      "headword": "AMMONIA MAY BE OBTAINED IN THE STATE OF GAS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "AMONG THE OTHER WORKS WHICH BY THIS"
+    },
+    {
+      "year": 1842,
+      "headword": "ANATOMY OF THE ORGANS OF THE ANIMAL"
+    },
+    {
+      "year": 1842,
+      "headword": "APOLLONIUS OF PERGA SOLVED THE IMPORTANT PROBLEM OF THE APOLLONIANS AND RETROGRADATIONS OF THE PLANETS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "ARC, JOAN OF"
+    },
+    {
+      "year": 1842,
+      "headword": "ARTS, MASTER OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BARUCH, THE PROPHECY OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BASS, ISLE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BASTARDY, ARMS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BE"
+    },
+    {
+      "year": 1842,
+      "headword": "BECCARIA, CÆSAR BONESANA, MARQUIS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BEFORE PROCEEDING TO DIRECT THE USE OF THE LAST"
+    },
+    {
+      "year": 1842,
+      "headword": "BER THAT"
+    },
+    {
+      "year": 1842,
+      "headword": "BERWICK, the Duke of"
+    },
+    {
+      "year": 1842,
+      "headword": "BERZELIUS ANALYSED IT BY CONSUMING TANNATE OF LEAD BY"
+    },
+    {
+      "year": 1842,
+      "headword": "BEVERLEY, John of"
+    },
+    {
+      "year": 1842,
+      "headword": "BUCKINGHAM, GEORGE VILLIERS, DUKE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BUCKINGHAM, JOHN SHEFFIELD, DUKE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "BUFFON, GEORGE LOUIS LE CLERC, COUNT OF"
+    },
+    {
+      "year": 1842,
+      "headword": "CASTRIES, BAY OF"
+    },
+    {
+      "year": 1842,
+      "headword": "CHEMISTS AND NATURAL PHILOSOPHERS HAD IN VAIN ENDEAVOURED TO PRODUCE CHEMICAL EFFECTS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "CONNECTED BEFORE AND ON THE OUTSIDE TO THE STRIATED BODY BY"
+    },
+    {
+      "year": 1842,
+      "headword": "DISAPPOINTMENT, ISLANDS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "DISCORD, THE GODDESS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "DRAMATURGY"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME EIGHTH"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME FIFTEENTH"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME FOURTH"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME SECOND"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME SEVENTEENTH"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME SEVENTH"
+    },
+    {
+      "year": 1842,
+      "headword": "END OF VOLUME THIRD"
+    },
+    {
+      "year": 1842,
+      "headword": "EVEN THESE EVILS MIGHT BE AGGRAVATED BY PARCELLING THE COUNTRY OUT INTO DISTRICTS TOO SMALL TO ALLOW OF THE PROCUR- ING OF THE NECESSARY"
+    },
+    {
+      "year": 1842,
+      "headword": "GARTER, ORDER OF THE"
+    },
+    {
+      "year": 1842,
+      "headword": "GENERAL VIEW OF CIRCUMSTANCES ATTENDING THE DEPOSITION OF THE OOLITIC SYSTEM"
+    },
+    {
+      "year": 1842,
+      "headword": "GENUS GYPAEOS"
+    },
+    {
+      "year": 1842,
+      "headword": "GOOD HOPE, CAPE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "GRAHAM HAD PROPOSED TO INCREASE THE EFFECT OF THE DIFFERENCE BETWEEN THE EXPANSIONS OF TWO METALS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "HENCE WE MAY FIND THE DIP BY"
+    },
+    {
+      "year": 1842,
+      "headword": "INSTANCES OF VOLCANIC ERUPTIONS ARE BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "IT MAY WELL BE QUESTIONED WHETHER THIS NEHEMIAH BE THE SAME THAT IS MENTIONED IN EZRA"
+    },
+    {
+      "year": 1842,
+      "headword": "LEGISLATION"
+    },
+    {
+      "year": 1842,
+      "headword": "LOUIS, OR ST LOUIS, KNIGHTS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "MANGERAY, STRAITS OF"
+    },
+    {
+      "year": 1842,
+      "headword": "MANY ANATOMISTS HAVE ATTEMPTED THE INVESTIGATION OF THE MINUTE STRUCTURE OF NERVOUS FIBRILS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "MANY OTHER CIRCUMSTANCES MIGHT BE ADDUCED TO SHOW THE ADVANTAGES OF SUPPLYING THE NATURAL"
+    },
+    {
+      "year": 1842,
+      "headword": "MITHRAS, Feasts of"
+    },
+    {
+      "year": 1842,
+      "headword": "MORPHIN HAS BEEN REPEATEDLY ANALYSED BY"
+    },
+    {
+      "year": 1842,
+      "headword": "MOST OF THE RIVERS OF PRUSSIA ARE SO ADVANTAGEOUSLY CONNECTED WITH EACH OTHER BY"
+    },
+    {
+      "year": 1842,
+      "headword": "NOTHING HAS GIVEN RISE TO GREATER DISCONTENT AND HEART-BURNINGS THAN THE PROVISION MADE FOR THE SUPPORT OF THE CHURCH BY"
+    },
+    {
+      "year": 1842,
+      "headword": "OPHIDIAN REPTILES"
+    },
+    {
+      "year": 1842,
+      "headword": "OUR INFORMATION CONCERNING THE ENCEPHALIC PORTION OF THE ENCEPHALIC SYSTEM IS BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "PARIA, GULF OF"
+    },
+    {
+      "year": 1842,
+      "headword": "PESTUM"
+    },
+    {
+      "year": 1842,
+      "headword": "PINES, ISLAND OF"
+    },
+    {
+      "year": 1842,
+      "headword": "ROSCOMMON, WENTWORTH DILLON, EARL OF"
+    },
+    {
+      "year": 1842,
+      "headword": "SEVERAL OF THEIR RAILROADS ARE CARRIED ACROSS VALLEYS BY"
+    },
+    {
+      "year": 1842,
+      "headword": "SHEPPEY, ISLE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "SOCOTARA"
+    },
+    {
+      "year": 1842,
+      "headword": "STATE OF THE GLOBE DURING THE CARBONIFEROUS PERIOD"
+    },
+    {
+      "year": 1842,
+      "headword": "STATE OF THE GLOBE DURING THE FORMATION OF THE NEW RED SANDSTONES"
+    },
+    {
+      "year": 1842,
+      "headword": "SUCCESS IN GENERAL WILL BE PROPORTIONED TO THE"
+    },
+    {
+      "year": 1842,
+      "headword": "SYSTEM OF ARRANGEMENT OF SIMPLE MINERALS"
+    },
+    {
+      "year": 1842,
+      "headword": "TABERNACLES, Feast of"
+    },
+    {
+      "year": 1842,
+      "headword": "THERE ARE TWO CLASSES OF"
+    },
+    {
+      "year": 1842,
+      "headword": "THERE IS ALSO EVERY REASON TO BELIEVE THAT IT WAS THE PRINCIPAL"
+    },
+    {
+      "year": 1842,
+      "headword": "THIS ASSUMED IDENTITY NECESSARILY"
+    },
+    {
+      "year": 1842,
+      "headword": "THIS FIRST PLAN OF MOVING THE VALVES BY"
+    },
+    {
+      "year": 1842,
+      "headword": "THIS FORMULA GIVES THE"
+    },
+    {
+      "year": 1842,
+      "headword": "USE OF THE PENDULUM IN DETERMINING THE OBLATENESS OF THE EARTH"
+    },
+    {
+      "year": 1842,
+      "headword": "VERY LARGE BLOCKS OF STONE ARE CLEARED AWAY BY"
+    },
+    {
+      "year": 1842,
+      "headword": "WE READ IN THE BOOKS OF THE MACCABEES THAT NEHEMIAH SENT TO SEARCH FOR THE HOLY FIRE"
+    },
+    {
+      "year": 1842,
+      "headword": "WHEN IT WAS DISCOVERED THAT THE MEASUREMENT BY"
+    },
+    {
+      "year": 1842,
+      "headword": "WHETHER AN OBSERVER HAVE OR HAVE NOT THE"
+    },
+    {
+      "year": 1842,
+      "headword": "WHILE MAGNETISM WAS MAKING SLOW ADVANCES BY"
+    },
+    {
+      "year": 1842,
+      "headword": "WHY THIS BARBARY STATE SHOULD BE DIGNIFIED WITH THE NAME OF EMPIRE IS BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "WIGHT, ISLE OF"
+    },
+    {
+      "year": 1842,
+      "headword": "WORDS THE"
+    },
+    {
+      "year": 1860,
+      "headword": "ACCORDING TO OBSERVATIONS MADE ON MOVING BODIES BY"
+    },
+    {
+      "year": 1860,
+      "headword": "ANOTHER PRE-EMINENT ADVANTAGE WE HAVE ACQUIRED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "APOLLONIUS OF PERGA SOLVED THE IMPORTANT PROBLEM OF THE APOLLON STATIONS AND RETROGRADATIONS OF THE PLANETS BY"
+    },
+    {
+      "year": 1860,
+      "headword": "ASHTON-UNDER-LYNE"
+    },
+    {
+      "year": 1860,
+      "headword": "ASSUMING THAT GOD AND THE THINGS OF GOD CAN BE KNOWN ONLY BY"
+    },
+    {
+      "year": 1860,
+      "headword": "BEAUTIFUL REDS AND PINKS ARE PRODUCED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "BONAPARTE WAS NOW PROVIDED WITH ADDITIONAL"
+    },
+    {
+      "year": 1860,
+      "headword": "BOTH SERIES OF TAPES ARE KEPT TIGHTLY STRETCHED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "BREWING\n\nBREWING IS THE ART OF PREPARING AN EXHILARATING OR INTOXICATING BEVERAGE BY"
+    },
+    {
+      "year": 1860,
+      "headword": "BRISTOL IS DIRECTLY CONNECTED WITH THE METROPOLIS BY"
+    },
+    {
+      "year": 1860,
+      "headword": "CATECHISM IS NOW GENERALLY USED TO DENOTE AN ELEMENTARY BOOK IN WHICH THE PRINCIPLES OF RELIGION ARE SUMMARILY DELIVERED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "CHANGES IN THE OVUM WHICH FOLLOW FECUNDATION"
+    },
+    {
+      "year": 1860,
+      "headword": "CHICHESTER COMMUNICATES WITH THE SEA BY"
+    },
+    {
+      "year": 1860,
+      "headword": "CLOSELY CONNECTED WITH THE PROPER SEASON IS THE BEST"
+    },
+    {
+      "year": 1860,
+      "headword": "COMBINATION BY VOLUMES"
+    },
+    {
+      "year": 1860,
+      "headword": "DISTRIBUTION OF THE SUBJECT"
+    },
+    {
+      "year": 1860,
+      "headword": "EDUCATION IS CARRIED ON BY"
+    },
+    {
+      "year": 1860,
+      "headword": "EDUCATION IS IMPARTED TO THE PEOPLE BY"
+    },
+    {
+      "year": 1860,
+      "headword": "EMBROIDERY IS WROUGHT UPON STUFFS OR MUSLIN BY"
+    },
+    {
+      "year": 1860,
+      "headword": "END OF VOLUME SIXTH"
+    },
+    {
+      "year": 1860,
+      "headword": "EVEN THESE EVILS MIGHT BE AGGRAVATED BY PARCELLING THE COUNTRY OUT INTO DISTRICTS TOO SMALL TO ALLOW OF THE PROCURING OF THE NECESSARY"
+    },
+    {
+      "year": 1860,
+      "headword": "EXTENSIVE TRACTS OF MARSHY LAND HAVE BEEN RECLAIMED AND BROUGHT INTO CULTIVATION BY"
+    },
+    {
+      "year": 1860,
+      "headword": "FEW OF THE RIVERS OF EUROPE ARE OF MUCH IMPORTANCE AS"
+    },
+    {
+      "year": 1860,
+      "headword": "FUNERALS OF THE NOBILITY AND GENTRY DURING THE MIDDLE AGES WERE THE"
+    },
+    {
+      "year": 1860,
+      "headword": "GALILEO AND THE PHILOSOPHERS OF THE ACADEMIA DEL CIMENTO HAD PROPOSED TO MEASURE THE VELOCITY OF LIGHT BY"
+    },
+    {
+      "year": 1860,
+      "headword": "GEOFFROY SAINT-HILAIRE"
+    },
+    {
+      "year": 1860,
+      "headword": "GLAMORGAN IS WELL SUPPLIED WITH"
+    },
+    {
+      "year": 1860,
+      "headword": "INVERSION OF BEDS IS OCCASIONALLY TO BE DETECTED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "LEGISLATORS ON THE"
+    },
+    {
+      "year": 1860,
+      "headword": "LET US LOOK NOW AT THE"
+    },
+    {
+      "year": 1860,
+      "headword": "LIST OF SOME OF THE CONTRIBUTORS TO THE EIGHTH EDITION"
+    },
+    {
+      "year": 1860,
+      "headword": "MANY OXIDES MAY BE REDUCED FROM THEIR SOLUTIONS BY"
+    },
+    {
+      "year": 1860,
+      "headword": "MENTAL CULTIVATION AND THE GENERAL DIFFUSION OF KNOWLEDGE ARE LARGELY PROMOTED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "MINERALOGICAL SCIENCE"
+    },
+    {
+      "year": 1860,
+      "headword": "NOR DID THE EGYPTIAN KING CONTENT HIMSELF WITH INFLUENCING OPINION IN HIS FAVOUR BY"
+    },
+    {
+      "year": 1860,
+      "headword": "NOT ONLY THE MOST ANCIENT BUT ALSO THE MOST GENERAL"
+    },
+    {
+      "year": 1860,
+      "headword": "NOW THE SERIES WHICH"
+    },
+    {
+      "year": 1860,
+      "headword": "ODONTOLOGY"
+    },
+    {
+      "year": 1860,
+      "headword": "ONE OF THE MOST EFFICACIOUS"
+    },
+    {
+      "year": 1860,
+      "headword": "PAISLEY IS ABUNDANTLY SUPPLIED WITH THE"
+    },
+    {
+      "year": 1860,
+      "headword": "PAISLEY IS WELL SUPPLIED WITH THE"
+    },
+    {
+      "year": 1860,
+      "headword": "PIPES OR OPEN CANALS OR RIVERS"
+    },
+    {
+      "year": 1860,
+      "headword": "PROFESSOR PHILLIPS HAS REMARKED THAT THE FACT OF INTERNAL HEAT BY NO"
+    },
+    {
+      "year": 1860,
+      "headword": "SCOURING IS PERFORMED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "SESSING THE POWER OF EXTRACTING AIR FROM WATER BY"
+    },
+    {
+      "year": 1860,
+      "headword": "SIR WILLIAM HERSCHEL HAVING FOUND IT REQUISITE IN THE COURSE OF HIS ARDUOUS OBSERVATIONS ON THE SUN TO DEVISE"
+    },
+    {
+      "year": 1860,
+      "headword": "SKETCH OF THE HISTORY OF THE ORDER"
+    },
+    {
+      "year": 1860,
+      "headword": "STAFFORDSHIRE IS ADMIRABLY SUPPLIED WITH THE"
+    },
+    {
+      "year": 1860,
+      "headword": "STONES ARE USUALLY CUT OR POLISHED BY"
+    },
+    {
+      "year": 1860,
+      "headword": "SUCH ARE THE CHRONOLOGICAL ELEMENTS BY"
+    },
+    {
+      "year": 1860,
+      "headword": "TABLES RELATIVE TO THE MONEY OF GREAT BRITAIN AND OTHER COUNTRIES"
+    },
+    {
+      "year": 1860,
+      "headword": "TELEGRAPHIC COMMUNICATIONS ARE PRINCIPALLY MADE BY"
+    },
+    {
+      "year": 1860,
+      "headword": "THERE ARE FEW GENERA OF EXTINCT REPTILES OF WHICH IT IS MORE DESIRABLE TO OBTAIN THE"
+    },
+    {
+      "year": 1860,
+      "headword": "THESE SEVERE LAWS ARE BY NO"
+    },
+    {
+      "year": 1860,
+      "headword": "VARIOUS METHODS HAVE BEEN DESCRIBED FOR FINDING THE OBJECT BY"
+    },
+    {
+      "year": 1860,
+      "headword": "VERY LARGE QUANTITIES OF COALS NOW REACH LONDON BY"
+    },
+    {
+      "year": 1860,
+      "headword": "WHAT THE POLITICAL RELATIONS OF THE TWELVE CITIES WERE TO\nEACH OTHER WE HAVE NO"
+    },
+    {
+      "year": 1860,
+      "headword": "WHEN POPULATION HAS SO FAR MULTIPLIED AS TO RENDER THE PRODUCE OF FLOCKS AND HERDS INSUFFICIENT FOR THE"
+    }
+  ],
+  "probable_errors": [
+    {
+      "year": 1771,
+      "headword": "ANTICHRORUS"
+    },
+    {
+      "year": 1771,
+      "headword": "ARCION"
+    },
+    {
+      "year": 1771,
+      "headword": "FOREIGN MINISTER"
+    },
+    {
+      "year": 1771,
+      "headword": "FRIEDBURG"
+    },
+    {
+      "year": 1771,
+      "headword": "FRIO"
+    },
+    {
+      "year": 1771,
+      "headword": "FROG"
+    },
+    {
+      "year": 1771,
+      "headword": "FUNERAL"
+    },
+    {
+      "year": 1771,
+      "headword": "FURCHE'"
+    },
+    {
+      "year": 1771,
+      "headword": "GALERIA"
+    },
+    {
+      "year": 1771,
+      "headword": "GALLY-BANK"
+    },
+    {
+      "year": 1771,
+      "headword": "HYOTHYROIDEUS"
+    },
+    {
+      "year": 1771,
+      "headword": "HYPERBOLIC"
+    },
+    {
+      "year": 1771,
+      "headword": "HYPERBOLOID"
+    },
+    {
+      "year": 1771,
+      "headword": "MAGDELENA"
+    },
+    {
+      "year": 1771,
+      "headword": "SUCCTION"
+    },
+    {
+      "year": 1778,
+      "headword": "ALTHOUGH THIS OPERATION IS BY NO"
+    },
+    {
+      "year": 1778,
+      "headword": "AMERICA IS BY NO"
+    },
+    {
+      "year": 1778,
+      "headword": "EXEMPLIFICATION OF LETTERS-PATENT"
+    },
+    {
+      "year": 1778,
+      "headword": "SPECTATOR FASTIDIOSUS\nSIBI MOLESTUS"
+    },
+    {
+      "year": 1797,
+      "headword": "ANDREW BELL\n\nAND\n\nCOLIN MACFARQUHAR"
+    },
+    {
+      "year": 1797,
+      "headword": "CHURCHING OF WOMEN AFTER CHILD-BIRTH"
+    },
+    {
+      "year": 1797,
+      "headword": "DELPNUS"
+    },
+    {
+      "year": 1797,
+      "headword": "DIALING"
+    },
+    {
+      "year": 1797,
+      "headword": "PART\nPART II"
+    },
+    {
+      "year": 1797,
+      "headword": "THOUGH IT IS BY NO"
+    },
+    {
+      "year": 1797,
+      "headword": "VERY SIMPLE"
+    },
+    {
+      "year": 1797,
+      "headword": "WHEREVER THE ECONOMY OF LIVING BODIES"
+    },
+    {
+      "year": 1810,
+      "headword": "JEWELL"
+    },
+    {
+      "year": 1810,
+      "headword": "OPHIOLOGY"
+    },
+    {
+      "year": 1810,
+      "headword": "SOME MYTHOLOGISTS SUPPOSE THAT JUNO"
+    },
+    {
+      "year": 1815,
+      "headword": "ALPHABETICAL EXPLANATION OF BOTANICAL TERMS"
+    },
+    {
+      "year": 1815,
+      "headword": "CHARACTERS\nCHARACTERS OF INSECTS"
+    },
+    {
+      "year": 1815,
+      "headword": "CONSERVATOR OF SCOTS PRIVILEGES"
+    },
+    {
+      "year": 1815,
+      "headword": "DESCRIPTION AND USE OF THE TABLE"
+    },
+    {
+      "year": 1815,
+      "headword": "RIERY"
+    },
+    {
+      "year": 1815,
+      "headword": "WHENEVER THE ECONOMY OF LIVING BODIES"
+    },
+    {
+      "year": 1823,
+      "headword": "ACCORDING TO SOME AUTHORS THE WORD MUSSULMAN"
+    },
+    {
+      "year": 1823,
+      "headword": "ANONYMOUS PARTNERSHIPS IN TRADE"
+    },
+    {
+      "year": 1823,
+      "headword": "DIRECTIONS\nDIRECTIONS FOR PLACING THE PLATES"
+    },
+    {
+      "year": 1823,
+      "headword": "ELECTARIUM MIMOSAE CATECHU COMPOSITUM"
+    },
+    {
+      "year": 1823,
+      "headword": "ES"
+    },
+    {
+      "year": 1823,
+      "headword": "EXPLANATION\nEXPLANATION OF PLATE CCCCXVIII"
+    },
+    {
+      "year": 1823,
+      "headword": "GENERAL OBSERVATIONS ON THE AGRICULTURE OF BRITAIN"
+    },
+    {
+      "year": 1823,
+      "headword": "LEVEL OF MR HUYGENS'S INVENTION"
+    },
+    {
+      "year": 1823,
+      "headword": "ME"
+    },
+    {
+      "year": 1823,
+      "headword": "NATURAL HISTORY OF SIMPLE MINERALS"
+    },
+    {
+      "year": 1823,
+      "headword": "NOR ARE THE WORDS EXPERIMENTAL AND EMPIRICAL BY ANY"
+    },
+    {
+      "year": 1823,
+      "headword": "STONE-MASONRY AND STONE-CUTTING"
+    },
+    {
+      "year": 1823,
+      "headword": "TABLE OF ARTICLES AND TREATISES"
+    },
+    {
+      "year": 1823,
+      "headword": "VIR NOBILISSIMUS\nFRANCISCUS DOMINUS NAPEL"
+    },
+    {
+      "year": 1842,
+      "headword": "ABOUT SIX WEEKS WERE PASSED IN ASSEMBLING THE FORCE AND"
+    },
+    {
+      "year": 1842,
+      "headword": "ACCORDING TO THE FIRST OF THESE"
+    },
+    {
+      "year": 1842,
+      "headword": "ANDREW, OR KNIGHTS OF ST ANDREW"
+    },
+    {
+      "year": 1842,
+      "headword": "ANTONINUS PHILOSOPHUS, MARCUS AURELIUS"
+    },
+    {
+      "year": 1842,
+      "headword": "ANVILLE, JEAN BAPTISTE BOURGUIGNON D'"
+    },
+    {
+      "year": 1842,
+      "headword": "ARCHAEOLOGICAL CRITICS ARE BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "ARRANGEMENT AND CHARACTERS OF THE NATURAL ORDERS"
+    },
+    {
+      "year": 1842,
+      "headword": "BEAULIEU, SEBASTIAN DE PONTAULT DE"
+    },
+    {
+      "year": 1842,
+      "headword": "BEAUMARCHAIS, PIERRE AUGUSTIN CARON DE"
+    },
+    {
+      "year": 1842,
+      "headword": "BENTINCK, WILLIAM HENRY CAVENDISH"
+    },
+    {
+      "year": 1842,
+      "headword": "BUAT-NANCAY, LOUIS GABRIEL, COUNT DU"
+    },
+    {
+      "year": 1842,
+      "headword": "BURNING GLASSES"
+    },
+    {
+      "year": 1842,
+      "headword": "CASTIGLIONE, GIOVANNI BENEDETTO"
+    },
+    {
+      "year": 1842,
+      "headword": "CATO, MARCUS PORCIUS (OF UTICA)"
+    },
+    {
+      "year": 1842,
+      "headword": "CHALONER, SIR THOMAS, THE YOUNGER"
+    },
+    {
+      "year": 1842,
+      "headword": "CLERK OF THE CROWN, IN CHANCERY"
+    },
+    {
+      "year": 1842,
+      "headword": "COLONIZATION"
+    },
+    {
+      "year": 1842,
+      "headword": "COMMERCE AND MANUFACTURES HAVE BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "COMMODUS, L. AURELIUS ANTONINUS"
+    },
+    {
+      "year": 1842,
+      "headword": "COMPARISON OF THE STRATIFIED AND UNSTRATIFIED ROCKS"
+    },
+    {
+      "year": 1842,
+      "headword": "COOPER, ANTHONY ASHLEY, EARL OF SHAFTESBURY"
+    },
+    {
+      "year": 1842,
+      "headword": "COOPER, ANTHONY ASHLEY, FIRST EARL OF SHAFTESBURY"
+    },
+    {
+      "year": 1842,
+      "headword": "CORDAY D’ARMANS, MARIE-ANNE-CHARLOTTE"
+    },
+    {
+      "year": 1842,
+      "headword": "DECLINATION OF THE SEA COMPASS OR NEEDLE"
+    },
+    {
+      "year": 1842,
+      "headword": "DIOCLETIANUS, CAESAR VALERIUS JOVIVS"
+    },
+    {
+      "year": 1842,
+      "headword": "DISTRIBUTION OF ORGANIC REMAINS IN THE EARTH"
+    },
+    {
+      "year": 1842,
+      "headword": "DISTURBANCES OF THE CARBONIFEROUS SYSTEM"
+    },
+    {
+      "year": 1842,
+      "headword": "DISTURBANCES OF THE RED SANDSTONE SYSTEM"
+    },
+    {
+      "year": 1842,
+      "headword": "DUHAMEL, DE VRIGNE LE MONCEAU, HENRI LOUIS"
+    },
+    {
+      "year": 1842,
+      "headword": "EQUIANGULAR OR SIMILAR\nEQUILATERAL\nAN ANGLE\nRIGHT ANGLE\nPERPENDICULAR"
+    },
+    {
+      "year": 1842,
+      "headword": "EXPLANATIONS OF REFERENCES TO TABLES OF MOUNTAINS"
+    },
+    {
+      "year": 1842,
+      "headword": "FB"
+    },
+    {
+      "year": 1842,
+      "headword": "FIRST GREAT SERIES OF THE CLASS OF FISHES"
+    },
+    {
+      "year": 1842,
+      "headword": "GENERAL VIEWS CONCERNING PRIMARY STRATA"
+    },
+    {
+      "year": 1842,
+      "headword": "GENUS LYSTRA"
+    },
+    {
+      "year": 1842,
+      "headword": "GROUTHEAD, OR GREATHEED, ROBERT"
+    },
+    {
+      "year": 1842,
+      "headword": "GUARDIAN, OR WARDEN, OF THE CINQUE PORTS"
+    },
+    {
+      "year": 1842,
+      "headword": "GUYON, JEANNE BOUVIERS DE LA MOTTE"
+    },
+    {
+      "year": 1842,
+      "headword": "HIERARCHY LIKEWISE"
+    },
+    {
+      "year": 1842,
+      "headword": "HISTORY OF ANCIENT EGYPT"
+    },
+    {
+      "year": 1842,
+      "headword": "HUSKISSON, RIGHT HONOURABLE WILLIAM"
+    },
+    {
+      "year": 1842,
+      "headword": "HUYPGENS DE ZUYLICHEM, CHRISTIAN"
+    },
+    {
+      "year": 1842,
+      "headword": "JESUITS, OR THE SOCIETY OF JESUS"
+    },
+    {
+      "year": 1842,
+      "headword": "LEMONNIER, PETER (CLAUDE) CHARLES"
+    },
+    {
+      "year": 1842,
+      "headword": "LIGATURES"
+    },
+    {
+      "year": 1842,
+      "headword": "LIMITATIONS TO FREEDOM OF DISCUSSION"
+    },
+    {
+      "year": 1842,
+      "headword": "MACROBIUS, AMBROSIUS AURELIUS THEODOSIUS"
+    },
+    {
+      "year": 1842,
+      "headword": "MAILLA, JOSEPH-ANNE-MARIE DE MOYRIAC DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MAIRAN, JEAN JACQUES D'ORTOUS DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MALESHERBES, CHRISTIAN-WILLIAM DE LAMOIGNON DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MANUFACTURE OF FLINT-GLASS OR CRYSTAL"
+    },
+    {
+      "year": 1842,
+      "headword": "MARIVAUX, PIERRE CARLET DE CHAMBLAIN DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MIRABEAU, HONORÉ-GABRIEL RIQUETTI, COMTE DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MIRABEAU, VICTOR RIQUETTI, MARQUIS DE"
+    },
+    {
+      "year": 1842,
+      "headword": "MONUMENTAL AND OTHER ANTIQUITIES OF EGYPT"
+    },
+    {
+      "year": 1842,
+      "headword": "NATURAL CLASSIFICATION OF PLANTS"
+    },
+    {
+      "year": 1842,
+      "headword": "NEDERSEL FALSE PROPHETS TO FAVOUR HIS DESIGNS"
+    },
+    {
+      "year": 1842,
+      "headword": "PARASITES, OR PARASITICAL PLANTS"
+    },
+    {
+      "year": 1842,
+      "headword": "POLARISATION OF LIGHT"
+    },
+    {
+      "year": 1842,
+      "headword": "POSTEA AD HORTOS FARNESIANOS TRADUCTA EST"
+    },
+    {
+      "year": 1842,
+      "headword": "PROPHETIC"
+    },
+    {
+      "year": 1842,
+      "headword": "PROTESTANT DISSENTERS ARE BY NO"
+    },
+    {
+      "year": 1842,
+      "headword": "RELATION OF TERTIARY TO HISTORICAL PERIODS"
+    },
+    {
+      "year": 1842,
+      "headword": "SEA-LIGHTS"
+    },
+    {
+      "year": 1842,
+      "headword": "SPECULATIVE MATHEMATICS"
+    },
+    {
+      "year": 1842,
+      "headword": "STATISTICAL VIEW OF INDEPENDENT GREECE"
+    },
+    {
+      "year": 1842,
+      "headword": "SUCCESSION OF ORGANIC LIFE ON THE GLOBE"
+    },
+    {
+      "year": 1842,
+      "headword": "SUPERFICIAL AQUEOUS DEPOSITS"
+    },
+    {
+      "year": 1842,
+      "headword": "TABLE IV"
+    },
+    {
+      "year": 1842,
+      "headword": "TELEMACUS"
+    },
+    {
+      "year": 1842,
+      "headword": "VINCENT, JOHN JERVIS, EARL OF ST"
+    },
+    {
+      "year": 1860,
+      "headword": "AERTSEN"
+    },
+    {
+      "year": 1860,
+      "headword": "AFRICANS AND SOUTH-WESTERN ASIATICS"
+    },
+    {
+      "year": 1860,
+      "headword": "ALPHABETICAL INDEX OF MINERAL SPECIES"
+    },
+    {
+      "year": 1860,
+      "headword": "ALPHABETICAL INDEX TO THE GENERA OF ARACHNIDES"
+    },
+    {
+      "year": 1860,
+      "headword": "AMERIA"
+    },
+    {
+      "year": 1860,
+      "headword": "ANALYTICAL GEOMETRY OF TWO DIMENSIONS"
+    },
+    {
+      "year": 1860,
+      "headword": "APPLICATION OF THE PARAPET IN COMBINED OR RECIPROCAL DEFENCE"
+    },
+    {
+      "year": 1860,
+      "headword": "ASSISTED BY NUMEROUS CONTRIBUTORS"
+    },
+    {
+      "year": 1860,
+      "headword": "BASTIONED SYSTEMS OF THE NETHERLANDS"
+    },
+    {
+      "year": 1860,
+      "headword": "BLACK'S GUIDE TO THE LAKES OF CUMBERLAND"
+    },
+    {
+      "year": 1860,
+      "headword": "BLACK'S PICTURESQUE TOURISTS' GUIDES"
+    },
+    {
+      "year": 1860,
+      "headword": "CHILE"
+    },
+    {
+      "year": 1860,
+      "headword": "CHURCH ALLEGIANCE AND SEPARATIONS"
+    },
+    {
+      "year": 1860,
+      "headword": "COMBINATION IN DEFINITE PROPORTIONS"
+    },
+    {
+      "year": 1860,
+      "headword": "CONSIDERABLE ATTENTION IS PAID TO EDUCATION BY THE ESTABLISHMENT OF SCHOOLS AND OTHER"
+    },
+    {
+      "year": 1860,
+      "headword": "CONSTRUCTION AS APPLIED TO CIVIC STRUCTURES GENERALLY"
+    },
+    {
+      "year": 1860,
+      "headword": "CONTENTS OF THE SIXTH DISSERTATION"
+    },
+    {
+      "year": 1860,
+      "headword": "CORRUPTIONS OF CHRISTIANITY"
+    },
+    {
+      "year": 1860,
+      "headword": "EACH NOVEL MAY BE HAD SEPARATELY AT THE FOLLOWING PRICES"
+    },
+    {
+      "year": 1860,
+      "headword": "EDITED BY\nTHOMAS STEWART TRAILL"
+    },
+    {
+      "year": 1860,
+      "headword": "ESTABLISHMENT OF CHRIST'S KINGDOM"
+    },
+    {
+      "year": 1860,
+      "headword": "FUNCTION OF NUTRITION"
+    },
+    {
+      "year": 1860,
+      "headword": "GENERAL CONDITION OF EQUILIBRIUM"
+    },
+    {
+      "year": 1860,
+      "headword": "GENERAL PATHOLOGY OF THE NERVOUS SYSTEM"
+    },
+    {
+      "year": 1860,
+      "headword": "GENERAL PHENOMENA OF THE HEAVENS"
+    },
+    {
+      "year": 1860,
+      "headword": "GENERAL PROPERTIES OF LIVING BEINGS"
+    },
+    {
+      "year": 1860,
+      "headword": "GEOGRAPHICAL DISTRIBUTION OF PLEISTOCENE MAMMALS"
+    },
+    {
+      "year": 1860,
+      "headword": "GEOLOGICAL FORMATIONS IN WHICH FOSSIL FISHES ARE FOUND"
+    },
+    {
+      "year": 1860,
+      "headword": "GREIPAR"
+    },
+    {
+      "year": 1860,
+      "headword": "GUNDWANA"
+    },
+    {
+      "year": 1860,
+      "headword": "HELLEBORE"
+    },
+    {
+      "year": 1860,
+      "headword": "HIS INCESSANT ACTIVITY OF MIND WAS BY NO"
+    },
+    {
+      "year": 1860,
+      "headword": "HISTORY AND INFLUENCE OF BILLS OF EXCHANGE"
+    },
+    {
+      "year": 1860,
+      "headword": "HOLKAR"
+    },
+    {
+      "year": 1860,
+      "headword": "INTRODUCTORY CHAPTER"
+    },
+    {
+      "year": 1860,
+      "headword": "ISOMERISM IN ORGANIC COMPOUNDS"
+    },
+    {
+      "year": 1860,
+      "headword": "KNIGHTS AND KNIGHTHOOD"
+    },
+    {
+      "year": 1860,
+      "headword": "LET IT BE GRANTED THAT EVERY PHENOMENON"
+    },
+    {
+      "year": 1860,
+      "headword": "LIST OF\n\nNEW WORKS AND NEW EDITIONS"
+    },
+    {
+      "year": 1860,
+      "headword": "LOWER OR CAMBRO-SILURIAN PERIOD"
+    },
+    {
+      "year": 1860,
+      "headword": "MACHINES AND IMPLEMENTS OF HUSBANDRY"
+    },
+    {
+      "year": 1860,
+      "headword": "MANURES"
+    },
+    {
+      "year": 1860,
+      "headword": "MR BICKFORD'S IMPROVED DEVONSHIRE SYSTEM"
+    },
+    {
+      "year": 1860,
+      "headword": "NARRATIVE OF THE GREEK REVOLUTION"
+    },
+    {
+      "year": 1860,
+      "headword": "NOTICES REGARDING THE PRINCIPAL AUTHORS IN ENTOMOLOGY AND THEIR WORKS"
+    },
+    {
+      "year": 1860,
+      "headword": "NUMISMATICS"
+    },
+    {
+      "year": 1860,
+      "headword": "OBSERVATIONS ON DR YOUNG'S ANALYSIS"
+    },
+    {
+      "year": 1860,
+      "headword": "PARKHURST"
+    },
+    {
+      "year": 1860,
+      "headword": "PENSIONS TO THE MOTHERS AND SISTERS OF OFFICERS KILLED IN ACTION"
+    },
+    {
+      "year": 1860,
+      "headword": "POETS BELONGING GENERALLY TO THE NEW SCHOOL"
+    },
+    {
+      "year": 1860,
+      "headword": "PRIVATE WORKS DISTRIBUTED BY THE KING OF DENMARK AND DR GRAY"
+    },
+    {
+      "year": 1860,
+      "headword": "PROTOZOA"
+    },
+    {
+      "year": 1860,
+      "headword": "PUBLISHED BY\n\nADAM AND CHARLES BLACK"
+    },
+    {
+      "year": 1860,
+      "headword": "RAILWAY SPEEDS AND LOCOMOTIVE PERFORMANCES"
+    },
+    {
+      "year": 1860,
+      "headword": "RATES OF PENSION TO BE GRANTED TO INSPECTORS OF MACHINERY AFOAT"
+    },
+    {
+      "year": 1860,
+      "headword": "RESINS"
+    },
+    {
+      "year": 1860,
+      "headword": "RISE AND PROGRESS OF NAVAL ARCHITECTURE"
+    },
+    {
+      "year": 1860,
+      "headword": "RIVE-DE-GIER"
+    },
+    {
+      "year": 1860,
+      "headword": "SPECIFICATION FOR STEADING OF FARM-OFFICES"
+    },
+    {
+      "year": 1860,
+      "headword": "SPECIMENS AND PROSPECTUSES MAY BE HAD OF ANY BOOKSELLER"
+    },
+    {
+      "year": 1860,
+      "headword": "STABILITY OF FLOATING BODIES"
+    },
+    {
+      "year": 1860,
+      "headword": "STEAMING APPARATUS FOR COOKING CATTLE FOOD"
+    },
+    {
+      "year": 1860,
+      "headword": "TERMINATION OF THE FRENCH SCHOOL IN SWEDEN"
+    },
+    {
+      "year": 1860,
+      "headword": "THERE ARE NO CANALS OR EXTENDED"
+    },
+    {
+      "year": 1860,
+      "headword": "THOMAS MOUFFET"
+    },
+    {
+      "year": 1860,
+      "headword": "TRADE MUSEUMS AND TRADE SCHOOLS"
+    },
+    {
+      "year": 1860,
+      "headword": "UNIVERSITY AND SCHOOL CLASS-BOOKS"
+    },
+    {
+      "year": 1860,
+      "headword": "VEGETABLE ORGANOGRAPHY AND PHYSIOLOGY"
+    },
+    {
+      "year": 1860,
+      "headword": "VESZPRIM"
+    },
+    {
+      "year": 1860,
+      "headword": "WEEDON-BECK"
+    },
+    {
+      "year": 1860,
+      "headword": "WHAT HERODOTUS RELATES OF THE SONG OF MANEROS"
+    },
+    {
+      "year": 1860,
+      "headword": "WOOLLEN AND WORSTED MANUFACTURES"
+    }
+  ]
+}
