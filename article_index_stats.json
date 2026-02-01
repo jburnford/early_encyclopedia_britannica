@@ -1,0 +1,77 @@
+{
+  "total_articles": 155176,
+  "editions": [
+    1771,
+    1778,
+    1797,
+    1810,
+    1815,
+    1823,
+    1842,
+    1860
+  ],
+  "by_edition": {
+    "1771": {
+      "total": 15528,
+      "green": 14996,
+      "yellow": 528,
+      "red": 4
+    },
+    "1778": {
+      "total": 18960,
+      "green": 18847,
+      "yellow": 71,
+      "red": 42
+    },
+    "1797": {
+      "total": 21021,
+      "green": 20856,
+      "yellow": 122,
+      "red": 43
+    },
+    "1810": {
+      "total": 14781,
+      "green": 14654,
+      "yellow": 70,
+      "red": 57
+    },
+    "1815": {
+      "total": 18452,
+      "green": 18264,
+      "yellow": 139,
+      "red": 49
+    },
+    "1823": {
+      "total": 15833,
+      "green": 15641,
+      "yellow": 138,
+      "red": 54
+    },
+    "1842": {
+      "total": 35236,
+      "green": 34504,
+      "yellow": 626,
+      "red": 106
+    },
+    "1860": {
+      "total": 15365,
+      "green": 15071,
+      "yellow": 223,
+      "red": 71
+    }
+  },
+  "by_quality": {
+    "green": 152833,
+    "yellow": 1917,
+    "red": 426
+  },
+  "by_issue": {
+    "possibly_merged": 1138,
+    "very_short_text": 716,
+    "ends_with_function_word": 266,
+    "long_headword": 71,
+    "mid_sentence_headword": 70,
+    "volume_marker": 45,
+    "headword_too_long": 45
+  }
+}
