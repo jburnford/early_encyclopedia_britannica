@@ -114,7 +114,7 @@ nav a:hover { text-decoration: underline; }
     color: var(--text-secondary);
 }
 
-.edition-card a {
+.edition-card a.btn {
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-secondary);
@@ -124,11 +124,9 @@ nav a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-.edition-card a:hover { background: var(--accent-light); }
+.edition-card a.btn:hover { background: var(--accent-light); }
 
-.volume-list {
-    list-style: none;
-}
+.volume-list { list-style: none; }
 
 .volume-list li {
     background: var(--bg-secondary);
@@ -151,9 +149,7 @@ nav a:hover { text-decoration: underline; }
     font-size: 0.85rem;
 }
 
-.article-list {
-    list-style: none;
-}
+.article-list { list-style: none; }
 
 .article-item {
     background: var(--bg-secondary);
@@ -183,6 +179,8 @@ nav a:hover { text-decoration: underline; }
 .article-header .meta {
     font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .article-header .badge {
@@ -195,8 +193,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
+.article-header .badge.xref { background: #6a5acd; }
 
 .article-content {
     padding: 1rem;
@@ -252,9 +249,7 @@ nav a:hover { text-decoration: underline; }
     border-color: var(--accent);
 }
 
-.search-results {
-    margin-top: 1rem;
-}
+.search-results { margin-top: 1rem; }
 
 .search-result {
     background: var(--bg-secondary);
@@ -267,19 +262,6 @@ nav a:hover { text-decoration: underline; }
 .search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
 
 .stats-table {
     width: 100%;
@@ -295,6 +277,7 @@ nav a:hover { text-decoration: underline; }
 
 .stats-table th { background: var(--bg-primary); color: var(--accent); }
 .stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .filter-bar {
     margin-bottom: 1rem;
@@ -318,6 +301,76 @@ nav a:hover { text-decoration: underline; }
     font-family: inherit;
 }
 
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -331,6 +384,9 @@ footer {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
     .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
 }
 </style>
 </head>
@@ -340,547 +396,2298 @@ footer {
         
     <header>
         <h1>Volume 1</h1>
-        <p class="subtitle">Sixth Edition (1823) </p>
+        <p class="subtitle">Sixth Edition (1823)</p>
     </header>
 
+    
     <nav>
         <a href="../index.html">Home</a>
-        <a href="index.html">1823 Edition</a>
         <a href="../search.html">Search</a>
+        <a href="../stats.html">Statistics</a>
+        <a href="../about.html">About</a>
     </nav>
 
-    <p>This volume contains <strong>52 articles</strong>.
+    <p>This volume contains <strong>227 entries</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
+            <option value="article">Articles</option>
+            <option value="cross_reference">Cross-references</option>
             <option value="treatise">Treatises</option>
-            <option value="biographical">Biographical</option>
-            <option value="geographical">Geographical</option>
-            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" id="article-ACOSTA" data-idx="0" data-type="dictionary">
+        <li class="article-item" id="article-FRONT_MATTER" data-idx="0" data-type="front_matter">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ACOSTA</h3>
-                <span class="meta">pp. 260-261 | 1,044 words</span>
+                <h3>FRONT MATTER</h3>
+                <span class="meta">409 words</span>
             </div>
             <div class="article-content" id="content-0">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ADEN" data-idx="1" data-type="geographical">
+        <li class="article-item" id="article-DISSERTATION_SECOND" data-idx="1" data-type="article">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>ADEN<span class="badge geographical">Place</span></h3>
-                <span class="meta">pp. 278 | 215 words</span>
+                <h3>DISSERTATION SECOND<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,488 words</span>
             </div>
             <div class="article-content" id="content-1">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ADHESION" data-idx="2" data-type="treatise">
+        <li class="article-item" id="article-DEMOIVRE" data-idx="2" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>ADHESION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 278-280 | 1,760 words</span>
+                <h3>Demoivre<span class="badge xref">Cross-ref &rarr; Miscellanea Analytica</span></h3>
+                <span class="meta">1,331 words</span>
             </div>
             <div class="article-content" id="content-2">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ADMIRAL" data-idx="3" data-type="dictionary">
+        <li class="article-item" id="article-BERKELEY" data-idx="3" data-type="article">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>ADMIRAL</h3>
-                <span class="meta">pp. 280-281 | 1,603 words</span>
+                <h3>BERKELEY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,445 words</span>
             </div>
             <div class="article-content" id="content-3">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ADMIRAL_OF_THE_FLEET" data-idx="4" data-type="dictionary">
+        <li class="article-item" id="article-OPTICS" data-idx="4" data-type="article">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>ADMIRAL OF THE FLEET</h3>
-                <span class="meta">pp. 280 | 167 words</span>
+                <h3>OPTICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">48,570 words</span>
             </div>
             <div class="article-content" id="content-4">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AEPINUS" data-idx="5" data-type="treatise">
+        <li class="article-item" id="article-EDUCATION" data-idx="5" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>AEPINUS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 285-287 | 1,942 words</span>
+                <h3>EDUCATION<span class="badge xref">Cross-ref &rarr; EDUCATION</span></h3>
+                <span class="meta">22 words</span>
             </div>
             <div class="article-content" id="content-5">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AERONAUTICS" data-idx="6" data-type="treatise">
+        <li class="article-item" id="article-EDWARDS_BRYAN" data-idx="6" data-type="article">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>AERONAUTICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 296-305 | 9,398 words</span>
+                <h3>EDWARDS (Bryan)<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">32,747 words</span>
             </div>
             <div class="article-content" id="content-6">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AFRICA" data-idx="7" data-type="treatise">
+        <li class="article-item" id="article-HIEROGLYPHICS" data-idx="7" data-type="article">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>AFRICA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 315-322 | 6,946 words</span>
+                <h3>HIEROGLYPHICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">8,614 words</span>
             </div>
             <div class="article-content" id="content-7">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AFRICAN_PRODUCE" data-idx="8" data-type="treatise">
+        <li class="article-item" id="article-ELECTRICITY" data-idx="8" data-type="article">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>AFRICAN PRODUCE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 322-335 | 10,819 words</span>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,125 words</span>
             </div>
             <div class="article-content" id="content-8">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AGNESI" data-idx="9" data-type="dictionary">
+        <li class="article-item" id="article-ELLIPTIC_TURNING" data-idx="9" data-type="article">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>AGNESI</h3>
-                <span class="meta">pp. 335-336 | 1,098 words</span>
+                <h3>ELLIPTIC TURNING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,623 words</span>
             </div>
             <div class="article-content" id="content-9">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AGUESSEAU" data-idx="10" data-type="treatise">
+        <li class="article-item" id="article-EMBANKMENT" data-idx="10" data-type="article">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>AGUESSEAU<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 429-460 | 2,283 words</span>
+                <h3>EMBANKMENT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,412 words</span>
             </div>
             <div class="article-content" id="content-10">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALBANIA" data-idx="11" data-type="treatise">
+        <li class="article-item" id="article-EMIGRATION" data-idx="11" data-type="article">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>ALBANIA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 460-463 | 3,456 words</span>
+                <h3>EMIGRATION</h3>
+                <span class="meta">1,393 words</span>
             </div>
             <div class="article-content" id="content-11">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALCARRAZAS" data-idx="12" data-type="dictionary">
+        <li class="article-item" id="article-ENGLAND" data-idx="12" data-type="article">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>ALCARRAZAS</h3>
-                <span class="meta">pp. 463 | 22 words</span>
+                <h3>ENGLAND<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">8,533 words</span>
             </div>
             <div class="article-content" id="content-12">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALCOOMETER" data-idx="13" data-type="dictionary">
+        <li class="article-item" id="article-TIN_MINES" data-idx="13" data-type="article">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>ALCOOMETER</h3>
-                <span class="meta">pp. 463 | 16 words</span>
+                <h3>TIN-MINES</h3>
+                <span class="meta">25 words</span>
             </div>
             <div class="article-content" id="content-13">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALEUTIAN" data-idx="14" data-type="treatise">
+        <li class="article-item" id="article-LEAD_MINES" data-idx="14" data-type="article">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>ALEUTIAN<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 463-470 | 6,846 words</span>
+                <h3>LEAD MINES</h3>
+                <span class="meta">51 words</span>
             </div>
             <div class="article-content" id="content-14">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALFARABIIUS" data-idx="15" data-type="dictionary">
+        <li class="article-item" id="article-SALT" data-idx="15" data-type="article">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>ALFARABIIUS</h3>
-                <span class="meta">pp. 470 | 655 words</span>
+                <h3>SALT</h3>
+                <span class="meta">294 words</span>
             </div>
             <div class="article-content" id="content-15">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALFERGAN" data-idx="16" data-type="dictionary">
+        <li class="article-item" id="article-FISHERIES" data-idx="16" data-type="article">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>ALFERGAN</h3>
-                <span class="meta">pp. 470-471 | 200 words</span>
+                <h3>FISHERIES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,970 words</span>
             </div>
             <div class="article-content" id="content-16">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALFIERI" data-idx="17" data-type="treatise">
+        <li class="article-item" id="article-SILK" data-idx="17" data-type="article">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>ALFIERI<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 471-473 | 2,768 words</span>
+                <h3>SILK<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,718 words</span>
             </div>
             <div class="article-content" id="content-17">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALHAZEN" data-idx="18" data-type="dictionary">
+        <li class="article-item" id="article-CANADA" data-idx="18" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>ALHAZEN</h3>
-                <span class="meta">pp. 473-474 | 547 words</span>
+                <h3>Canada<span class="badge xref">Cross-ref &rarr; Canada</span></h3>
+                <span class="meta">5,839 words</span>
             </div>
             <div class="article-content" id="content-18">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALKALIMETER" data-idx="19" data-type="dictionary">
+        <li class="article-item" id="article-ESPERIENZE_INTORNO_ALLA_GENERAZIONE_DEGL_INSETTI" data-idx="19" data-type="article">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>ALKALIMETER</h3>
-                <span class="meta">pp. 474 | 46 words</span>
+                <h3>Esperienze intorno alla Generazione degl&#x27; Insetti<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,887 words</span>
             </div>
             <div class="article-content" id="content-19">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALLAN" data-idx="20" data-type="dictionary">
+        <li class="article-item" id="article-N_TZLICHES_ALLERLEY_AUS_DER_NATUR_UND_DEM_GEMEINEN_LEBEN" data-idx="20" data-type="article">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>ALLAN</h3>
-                <span class="meta">pp. 474 | 764 words</span>
+                <h3>NÜTZLICHES ALLERLEY AUS DER NATUR UND DEM GEMEINEN LEBEN</h3>
+                <span class="meta">597 words</span>
             </div>
             <div class="article-content" id="content-20">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ALUM" data-idx="21" data-type="treatise">
+        <li class="article-item" id="article-ALPHABETISCHES_VERZEICHNISS_DER_BISHER_BEHAUNTEN_SCHMETTERLINGE_C_VON_C_C_JUNG_MARKTBREIT" data-idx="21" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>ALUM<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 474-482 | 8,827 words</span>
+                <h3>Alphabetisches Verzeichniss der Bisher Behaunten Schmetterlinge, &amp;c. Von C. C. Jung. Marktbreit.<span class="badge xref">Cross-ref &rarr; Jung, C. C.</span></h3>
+                <span class="meta">14 words</span>
             </div>
             <div class="article-content" id="content-21">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AMBOYNA" data-idx="22" data-type="treatise">
+        <li class="article-item" id="article-NATURGESCHICHTE_KLASSIFICATION_UND_NOMENCLATUR_DER_INSECTEN_VON_BEINEN_WESPEN_UND_AMEISENGESCHLECHT_FRANKFORT_AM_MAIN_VON_C_J_LUDWIG" data-idx="22" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>AMBOYNA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 482-483 | 417 words</span>
+                <h3>Naturgeschichte, Klassification und Nomenclatur der Insecten von Beinen, Wespen und Ameisengeschlecht. Frankfort am Main; von C. J. Ludwig.<span class="badge xref">Cross-ref &rarr; Ludwig, C. J.</span></h3>
+                <span class="meta">27 words</span>
             </div>
             <div class="article-content" id="content-22">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AMERICA" data-idx="23" data-type="dictionary">
+        <li class="article-item" id="article-NATURAL_HISTORY_OF_BRITISH_INSECTS" data-idx="23" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>AMERICA</h3>
-                <span class="meta">pp. 493-494 | 26 words</span>
+                <h3>Natural History of British Insects<span class="badge xref">Cross-ref &rarr; Donovan, Edward</span></h3>
+                <span class="meta">52 words</span>
             </div>
             <div class="article-content" id="content-23">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AMMAN" data-idx="24" data-type="biographical">
+        <li class="article-item" id="article-THE_ENGLISH_ENTOMOLOGIST" data-idx="24" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>AMMAN<span class="badge biographical">Biography</span></h3>
-                <span class="meta">pp. 499 | 373 words</span>
+                <h3>The English Entomologist<span class="badge xref">Cross-ref &rarr; Martyn, Thomas</span></h3>
+                <span class="meta">70 words</span>
             </div>
             <div class="article-content" id="content-24">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ANGLESEY" data-idx="25" data-type="treatise">
+        <li class="article-item" id="article-ENTOMOLOGIA_SYSTEMATICA" data-idx="25" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>ANGLESEY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 634-636 | 2,165 words</span>
+                <h3>Entomologia Systematica<span class="badge xref">Cross-ref &rarr; Fabricius, J. C.</span></h3>
+                <span class="meta">25 words</span>
             </div>
             <div class="article-content" id="content-25">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ANIMAL_ANATOMY" data-idx="26" data-type="treatise">
+        <li class="article-item" id="article-MONOGRAPHIA_CURCULIONUM_SUECIC" data-idx="26" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>ANIMAL ANATOMY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 510 | 2,098 words</span>
+                <h3>Monographia Curculionum Suecic<span class="badge xref">Cross-ref &rarr; Paykull, G.</span></h3>
+                <span class="meta">8 words</span>
             </div>
             <div class="article-content" id="content-26">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ANNUITIES" data-idx="27" data-type="treatise">
+        <li class="article-item" id="article-ENTOMOSTROACA_SEU_INSECTA_TESTACEA_QUE_IN_AQUIS_DANIAE_ET_NORVEGIAE_REPERTIS_DESCRIPTIS_ET_ICONIBUS_ILLUSTRAVIT_O_F_M_LLER_FRACTFURTI" data-idx="27" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>ANNUITIES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 661-671 | 8,031 words</span>
+                <h3>Entomostroaca seu Insecta testacea que in aquis Daniae et Norvegiae repertis, descriptis et Iconibus illustravit, O. F. Müller. Fractfurti<span class="badge xref">Cross-ref &rarr; Müller, O. F.</span></h3>
+                <span class="meta">53 words</span>
             </div>
             <div class="article-content" id="content-27">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ANQUETIL" data-idx="28" data-type="dictionary">
+        <li class="article-item" id="article-BEITR_GE_ZUR_GESCHICHTE_DER_INSECTEN_ERLANG" data-idx="28" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>ANQUETIL</h3>
-                <span class="meta">pp. 735-736 | 591 words</span>
+                <h3>Beiträge zur Geschichte der Insecten Erlang<span class="badge xref">Cross-ref &rarr; Panzer, G. W. F.</span></h3>
+                <span class="meta">81 words</span>
             </div>
             <div class="article-content" id="content-28">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-AQUA_TOFANA" data-idx="29" data-type="treatise">
+        <li class="article-item" id="article-NEUESTES_MAGAZINE_F_R_DIE_LIBHABER_DES_ENTOMOLOGIE_HERAUSGEGEBEN_VON_D_H_SCHNEIDER_STRALSUND" data-idx="29" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>AQUA TOFANA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 754-760 | 5,210 words</span>
+                <h3>Neuestes Magazine für die Libhaber des Entomologie herausgegeben, von D. H. Schneider. Stralsund.<span class="badge xref">Cross-ref &rarr; Schneider, D. H.</span></h3>
+                <span class="meta">14 words</span>
             </div>
             <div class="article-content" id="content-29">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARABLE_LAND" data-idx="30" data-type="treatise">
+        <li class="article-item" id="article-TRANSACTIONS_OF_THE_LINNEAN_SOCIETY" data-idx="30" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>ARABLE LAND<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 337-338 | 1,167 words</span>
+                <h3>Transactions of the Linnean Society<span class="badge xref">Cross-ref &rarr; Linnean Society</span></h3>
+                <span class="meta">68 words</span>
             </div>
             <div class="article-content" id="content-30">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARAUCANIA" data-idx="31" data-type="treatise">
+        <li class="article-item" id="article-JOURNAL_DE_ROZIER" data-idx="31" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(31)">
-                <h3>ARAUCANIA<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 760-765 | 5,706 words</span>
+                <h3>Journal de Rozier<span class="badge xref">Cross-ref &rarr; Rozier</span></h3>
+                <span class="meta">34 words</span>
             </div>
             <div class="article-content" id="content-31">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARCON" data-idx="32" data-type="biographical">
+        <li class="article-item" id="article-ENTOMOLOGISCHES_BILDERBUCH_F_R_JUNGE_INSECTENSAMLER" data-idx="32" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(32)">
-                <h3>ARCON<span class="badge biographical">Biography</span></h3>
-                <span class="meta">pp. 765-766 | 995 words</span>
+                <h3>Entomologisches Bilderbuch für junge Insectensamler<span class="badge xref">Cross-ref &rarr; Dunker, J. H. A.</span></h3>
+                <span class="meta">18 words</span>
             </div>
             <div class="article-content" id="content-32">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARGYRESHIRE" data-idx="33" data-type="treatise">
+        <li class="article-item" id="article-ENUMERATIO_INSECTORUM_CIRCA_ERLANGANI_INDIGENORUM_C_OBSERVATIONIBUS_ICONIBUSQUE_ILLUSTRATA_ERLANGE" data-idx="33" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(33)">
-                <h3>ARGYRESHIRE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 766-768 | 2,405 words</span>
+                <h3>Enumeratio Insectorum circa Erlangani indigenorum, &amp;c.; Observationibus Iconibusque illustrata, Erlange.<span class="badge xref">Cross-ref &rarr; Hoppe, D. H.</span></h3>
+                <span class="meta">14 words</span>
             </div>
             <div class="article-content" id="content-33">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARTICLE_II" data-idx="34" data-type="treatise">
+        <li class="article-item" id="article-THE_PAPILIOS_OF_GREAT_BRITAIN" data-idx="34" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(34)">
-                <h3>ARTICLE II<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 574 | 34 words</span>
+                <h3>The Papilios of Great Britain<span class="badge xref">Cross-ref &rarr; Lewin, W.</span></h3>
+                <span class="meta">33 words</span>
             </div>
             <div class="article-content" id="content-34">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARTICLE_III" data-idx="35" data-type="treatise">
+        <li class="article-item" id="article-BESCHREIBUNG_EINIGER_OSTINDISCHEN_INSECTEN_VON_MISSIONARIUS_JOHN_IN_TANKEBAR" data-idx="35" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(35)">
-                <h3>ARTICLE III<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 541-544 | 3,740 words</span>
+                <h3>Beschreibung einiger ostindischen Insecten, von Missionarius John in Tankebar.<span class="badge xref">Cross-ref &rarr; John in Tankebar, Missionarius</span></h3>
+                <span class="meta">22 words</span>
             </div>
             <div class="article-content" id="content-35">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARTICLE_VI" data-idx="36" data-type="treatise">
+        <li class="article-item" id="article-PRECIS_DU_CARACT_RES_DES_GENRES" data-idx="36" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(36)">
-                <h3>ARTICLE VI<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 548-554 | 7,604 words</span>
+                <h3>Precis du caractères des Genres<span class="badge xref">Cross-ref &rarr; Latreille, P. A.</span></h3>
+                <span class="meta">74 words</span>
             </div>
             <div class="article-content" id="content-36">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ARTS" data-idx="37" data-type="treatise">
+        <li class="article-item" id="article-DESCRIPTION_OF_A_RARE_SCARABAEUS_FROM_POTOSI" data-idx="37" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>ARTS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 833-852 | 19,209 words</span>
+                <h3>Description of a rare Scarabaeus, from Potosi.<span class="badge xref">Cross-ref &rarr; Francillon, John</span></h3>
+                <span class="meta">86 words</span>
             </div>
             <div class="article-content" id="content-37">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ASSAM" data-idx="38" data-type="treatise">
+        <li class="article-item" id="article-ENTOMOLOGY" data-idx="38" data-type="article">
             <div class="article-header" onclick="toggleArticle(38)">
-                <h3>ASSAM<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 852-857 | 4,802 words</span>
+                <h3>ENTOMOLOGY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,447 words</span>
             </div>
             <div class="article-content" id="content-38">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ASSAYING" data-idx="39" data-type="dictionary">
+        <li class="article-item" id="article-J_C_FABRICII_SYSTEMA_ELEUTHERATORIUM" data-idx="39" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(39)">
-                <h3>ASSAYING</h3>
-                <span class="meta">pp. 857-858 | 719 words</span>
+                <h3>J. C. Fabricii Systema Eleutheratorium<span class="badge xref">Cross-ref &rarr; Fabricii</span></h3>
+                <span class="meta">10 words</span>
             </div>
             <div class="article-content" id="content-39">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ASTACINI" data-idx="40" data-type="treatise">
+        <li class="article-item" id="article-NATURSYSTEM_ALLER_BEKANNTER_UND_UNBESTIMMTER_INSECTEN" data-idx="40" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>ASTACINI<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 671 | 21 words</span>
+                <h3>Natursystem aller bekannter und unbestimmter Insecten<span class="badge xref">Cross-ref &rarr; Insecten</span></h3>
+                <span class="meta">17 words</span>
             </div>
             <div class="article-content" id="content-40">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ATMOMETER" data-idx="41" data-type="dictionary">
+        <li class="article-item" id="article-BEITR_GE_ZUR_INSECTENHUNDE" data-idx="41" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(41)">
-                <h3>ATMOMETER</h3>
-                <span class="meta">pp. 888-891 | 755 words</span>
+                <h3>Beiträge zur Insectenhunde<span class="badge xref">Cross-ref &rarr; Insectenhunde</span></h3>
+                <span class="meta">37 words</span>
             </div>
             <div class="article-content" id="content-41">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ATOMIC_THEORY" data-idx="42" data-type="treatise">
+        <li class="article-item" id="article-D_LEHMANN_DE_ANTENNIS_INSECTORUM" data-idx="42" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(42)">
-                <h3>ATOMIC THEORY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 891-940 | 44,109 words</span>
+                <h3>D. Lehmann de Antennis Insectorum<span class="badge xref">Cross-ref &rarr; Insectorum</span></h3>
+                <span class="meta">5 words</span>
             </div>
             <div class="article-content" id="content-42">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-CANCERIDES" data-idx="43" data-type="treatise">
+        <li class="article-item" id="article-F_WEBERI_OBSERVATIONES_ENTOMOLOGICAE" data-idx="43" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>CANCERIDES<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 671 | 40 words</span>
+                <h3>F. Weberi Observationes Entomologicae<span class="badge xref">Cross-ref &rarr; Entomologicae</span></h3>
+                <span class="meta">7 words</span>
             </div>
             <div class="article-content" id="content-43">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-GENERAL_OBSERVATIONS_ON_THE_AGRICULTURE_OF_BRITAIN" data-idx="44" data-type="treatise">
+        <li class="article-item" id="article-ILLUSTRATIO_ICONOGRAPHICA_INSECTORUM" data-idx="44" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(44)">
-                <h3>GENERAL OBSERVATIONS ON THE AGRICULTURE OF BRITAIN<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 414-420 | 7,433 words</span>
+                <h3>Illustratio Iconographica Insectorum<span class="badge xref">Cross-ref &rarr; Insectorum</span></h3>
+                <span class="meta">15 words</span>
             </div>
             <div class="article-content" id="content-44">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-OXYRHYNCI" data-idx="45" data-type="treatise">
+        <li class="article-item" id="article-SYSTEMATISCHES_VERZEICHNISS_VON_DER_SCHMETTERLINGE" data-idx="45" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(45)">
-                <h3>OXYRHYNCI<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 671 | 21 words</span>
+                <h3>Systematisches Verzeichniss von der Schmetterlinge<span class="badge xref">Cross-ref &rarr; Schmetterlinge</span></h3>
+                <span class="meta">5 words</span>
             </div>
             <div class="article-content" id="content-45">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-PAGURII" data-idx="46" data-type="treatise">
+        <li class="article-item" id="article-ENTOMOLOGY" data-idx="46" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(46)">
-                <h3>PAGURII<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 671 | 19 words</span>
+                <h3>Entomology<span class="badge xref">Cross-ref &rarr; Entomology</span></h3>
+                <span class="meta">9 words</span>
             </div>
             <div class="article-content" id="content-46">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-PALPABLE_ARITHMETIC" data-idx="47" data-type="treatise">
+        <li class="article-item" id="article-KLEINER_BEYTRAG_ZUR_ENTOMOLOGIE" data-idx="47" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(47)">
-                <h3>PALPABLE ARITHMETIC<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 769-789 | 15,097 words</span>
+                <h3>Kleiner Beytrag zur Entomologie<span class="badge xref">Cross-ref &rarr; Entomologie</span></h3>
+                <span class="meta">12 words</span>
             </div>
             <div class="article-content" id="content-47">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-PLATE_VII" data-idx="48" data-type="treatise">
+        <li class="article-item" id="article-DER_GESELLSCHAFT_NATURFORSCHENDER_FREUNDE_ZU_BERLIN" data-idx="48" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(48)">
-                <h3>PLATE VII<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 427-428 | 28 words</span>
+                <h3>Der Gesellschaft Naturforschender Freunde zu Berlin<span class="badge xref">Cross-ref &rarr; Berlin</span></h3>
+                <span class="meta">22 words</span>
             </div>
             <div class="article-content" id="content-48">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-PLATE_VIII" data-idx="49" data-type="treatise">
+        <li class="article-item" id="article-SESIA_EUROPAE" data-idx="49" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(49)">
-                <h3>PLATE VIII<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 428 | 1,228 words</span>
+                <h3>Sesia Europae<span class="badge xref">Cross-ref &rarr; Europae</span></h3>
+                <span class="meta">20 words</span>
             </div>
             <div class="article-content" id="content-49">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-THESE_DROITS_AND_PERQUISITES_ARE_BY_NO" data-idx="50" data-type="treatise">
+        <li class="article-item" id="article-ILLIGER_S_MAGAZIN" data-idx="50" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>THESE DROITS AND PERQUISITES ARE BY NO<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 281-285 | 4,324 words</span>
+                <h3>Illiger&#x27;s Magazin<span class="badge xref">Cross-ref &rarr; Magazin</span></h3>
+                <span class="meta">19 words</span>
             </div>
             <div class="article-content" id="content-50">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-THIS_COUNTY_BY_NO" data-idx="51" data-type="dictionary">
+        <li class="article-item" id="article-J_STURM_S_ABBILDUNGEN" data-idx="51" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(51)">
-                <h3>THIS COUNTY BY NO</h3>
-                <span class="meta">pp. 745-746 | 744 words</span>
+                <h3>J. Sturm&#x27;s Abbildungen<span class="badge xref">Cross-ref &rarr; Abbildungen</span></h3>
+                <span class="meta">13 words</span>
             </div>
             <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGAZIN_F_R_INSEKTENKUNDE" data-idx="52" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>Magazin für Insektenkunde<span class="badge xref">Cross-ref &rarr; Insektenkunde</span></h3>
+                <span class="meta">67 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_SAME_WORK" data-idx="53" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>The same work<span class="badge xref">Cross-ref &rarr; work</span></h3>
+                <span class="meta">94 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MONOGRAPHIA_APUM_ANGLIAE" data-idx="54" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>Monographia apum Angliae<span class="badge xref">Cross-ref &rarr; Angliae</span></h3>
+                <span class="meta">297 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FAUNE_PARISIENNE_INSECTES" data-idx="55" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>Faune Parisienne (Insectes)<span class="badge xref">Cross-ref &rarr; Insectes</span></h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OBSERVATIONES_ENTOMOLOGICAE" data-idx="56" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>Observationes Entomologicae<span class="badge xref">Cross-ref &rarr; Entomologicae</span></h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENTOMOLOGISCHE_BEYTRAGE" data-idx="57" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>Entomologische Beytrage<span class="badge xref">Cross-ref &rarr; Beytrage</span></h3>
+                <span class="meta">589 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VORSCHLAG_ZU_EINER_NEUEN_IN_DIE_CLASSE_DER_GLOSSATEN_EINZUF_HRENDEN_GATTUNG_PLATYPTERYX" data-idx="58" data-type="article">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>Vorschlag zu einer neuen in die Classe der Glossaten einzuführenden Gattung Platypteryx</h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INDEX_ALPHABETICUS_IN_J_C_FABRICII_SYSTEMA_ELEUTHERATERUM" data-idx="59" data-type="article">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>Index Alphabeticus in J. C. Fabricii Systema Eleutheraterum</h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DER_GESELLSCHAFT_NATURFORSCHENDER_FREUNDE_ZU_BERLIN_VIETER_BAND" data-idx="60" data-type="article">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>Der Gesellschaft Naturforschender Freunde zu Berlin. Vieter Band</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VERSUCHE_BER_DIE_INSECTEN" data-idx="61" data-type="article">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>Versuche über die Insecten</h3>
+                <span class="meta">23 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENTOMOLOGISCHE_HEFTE" data-idx="62" data-type="article">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>Entomologische Hefte</h3>
+                <span class="meta">49 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGAZIN_F_R_INSECTENKUNDE" data-idx="63" data-type="article">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>Magazin für Insectenkunde</h3>
+                <span class="meta">101 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEPIDOPTERA_BRITANNICA" data-idx="64" data-type="article">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>Lepidoptera Britannica</h3>
+                <span class="meta">69 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VOYAGE_EN_HONGRIE" data-idx="65" data-type="article">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>Voyage en Hongrie</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HANDBUCH_DER_NATURGESCHICHTE" data-idx="66" data-type="article">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>Handbuch der Naturgeschichte</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ANNALES_DU_MUSEUM" data-idx="67" data-type="article">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>Annales du Museum</h3>
+                <span class="meta">37 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SYSTEMA_PIEZATORUM" data-idx="68" data-type="article">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>Systema Piezatorum</h3>
+                <span class="meta">11 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-KLASSIFICAZION_UND_BESCHREIBUNG_DER_EUROP_ISCHEN_ZWEIFLUGLICHEN_INSECTEN" data-idx="69" data-type="article">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>Klassificazion und Beschreibung der Europäischen Zweifluglichen Insecten</h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ARCHIV_F_R_DIE_SYSTEMATISCHE_NATURGESCHICHTE" data-idx="70" data-type="article">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>Archiv für die Systematische Naturgeschichte</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ICONES_CINICUM" data-idx="71" data-type="article">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>Icones Cinicum</h3>
+                <span class="meta">11 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRITISH_MISCELLANY" data-idx="72" data-type="article">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>British Miscellany</h3>
+                <span class="meta">36 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TRANSACTIONS_OF_THE_LINNEAN_SOCIETY_OF_LONDON" data-idx="73" data-type="article">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>Transactions of the Linnean Society of London</h3>
+                <span class="meta">58 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DICTIONNAIRE_DES_SCIENCES_NATURELLES" data-idx="74" data-type="article">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>Dictionnaire des Sciences Naturelles</h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JOURNAL_DE_PHYSIQUE" data-idx="75" data-type="article">
+            <div class="article-header" onclick="toggleArticle(75)">
+                <h3>Journal de Physique</h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ILLUSTRATIONES_INSECTORUM_ICONOGRAPHICA" data-idx="76" data-type="article">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>Illustrationes Insectorum Iconographica</h3>
+                <span class="meta">31 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTICE_DES_ABEILLES" data-idx="77" data-type="article">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>Notice des Abeilles</h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NATURSYSTEM_ALLER_BEKANNTER_IN_UND_AUSL_NDISCHEN_INSECTEN" data-idx="78" data-type="article">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>Natursystem aller bekannter In-und Ausländischen Insecten</h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGAZIN" data-idx="79" data-type="article">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>Magazin</h3>
+                <span class="meta">196 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHORESCENTIA_MARIS" data-idx="80" data-type="article">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>Phosphorescentia maris</h3>
+                <span class="meta">54 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TABLEAU_DES_ARANEIDES" data-idx="81" data-type="article">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>Tableau des Araneides</h3>
+                <span class="meta">39 words</span>
+            </div>
+            <div class="article-content" id="content-81">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-KRITISCHE_REVISION_DER_INSECTENFAUNA_DEUTSCHLANDS" data-idx="82" data-type="article">
+            <div class="article-header" onclick="toggleArticle(82)">
+                <h3>Kritische Revision der Insectenfauna Deutschlands</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-82">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SYSTEMA_ANTLIATORUM" data-idx="83" data-type="article">
+            <div class="article-header" onclick="toggleArticle(83)">
+                <h3>Systema Antliatorum</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-83">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENUMERATIO_INSECTORUM_ELEUTHERATORIUM" data-idx="84" data-type="article">
+            <div class="article-header" onclick="toggleArticle(84)">
+                <h3>Enumeratio Insectorum Eleutheratorium</h3>
+                <span class="meta">25 words</span>
+            </div>
+            <div class="article-content" id="content-84">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FAUNA_AUSTRIAE" data-idx="85" data-type="article">
+            <div class="article-header" onclick="toggleArticle(85)">
+                <h3>Fauna Austriae</h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-85">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DEUTSCHLANDS_INSECTEN" data-idx="86" data-type="article">
+            <div class="article-header" onclick="toggleArticle(86)">
+                <h3>Deutschlands Insecten</h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-86">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INSECTES_RECUEILLES_EN_AFRIQUE_ET_EN_AMERIQUE" data-idx="87" data-type="article">
+            <div class="article-header" onclick="toggleArticle(87)">
+                <h3>Insectes recueilles en Afrique et en Amerique<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,652 words</span>
+            </div>
+            <div class="article-content" id="content-87">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ASILICI_SUECIAE" data-idx="88" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(88)">
+                <h3>Asilici Sueciae<span class="badge xref">Cross-ref &rarr; J. G. Waldenstréèm</span></h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-88">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SPECIMEN_NOVUM_HEMIPTERA_DISPONENDI_METHODUM_EXHIBENS" data-idx="89" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(89)">
+                <h3>Specimen novum Hemiptera disponendi methodum exhibens<span class="badge xref">Cross-ref &rarr; M. Rodhe</span></h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-89">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-L_ART_ENTOMOLOGIQUE" data-idx="90" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(90)">
+                <h3>L&#x27;Art Entomologique<span class="badge xref">Cross-ref &rarr; Mr Le Roux</span></h3>
+                <span class="meta">29 words</span>
+            </div>
+            <div class="article-content" id="content-90">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FAUNA_INSECTORUM_EUROPAE" data-idx="91" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(91)">
+                <h3>Fauna Insectorum Europae<span class="badge xref">Cross-ref &rarr; A. Ahensis</span></h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-91">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DE_PARTIBUS_QUIBUS_INSECTA_SPIRITUS_DUCUNT" data-idx="92" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(92)">
+                <h3>De partibus quibus Insecta spiritus ducunt<span class="badge xref">Cross-ref &rarr; C. L. G. Læèwe</span></h3>
+                <span class="meta">16 words</span>
+            </div>
+            <div class="article-content" id="content-92">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BULLETIN_DES_SCIENCES" data-idx="93" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(93)">
+                <h3>Bulletin des Sciences<span class="badge xref">Cross-ref &rarr; Le Sueur</span></h3>
+                <span class="meta">30 words</span>
+            </div>
+            <div class="article-content" id="content-93">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERLIN_MAGAZINE" data-idx="94" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(94)">
+                <h3>Berlin Magazine<span class="badge xref">Cross-ref &rarr; P. F. Bouché</span></h3>
+                <span class="meta">47 words</span>
+            </div>
+            <div class="article-content" id="content-94">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_ZOOLOGICAL_MISCELLANY" data-idx="95" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(95)">
+                <h3>The Zoological Miscellany<span class="badge xref">Cross-ref &rarr; William Elford Leach</span></h3>
+                <span class="meta">49 words</span>
+            </div>
+            <div class="article-content" id="content-95">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EMPIDAE_SUECIAE" data-idx="96" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(96)">
+                <h3>Empidae Sueciae<span class="badge xref">Cross-ref &rarr; P. N. Rhodin</span></h3>
+                <span class="meta">11 words</span>
+            </div>
+            <div class="article-content" id="content-96">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLATYPEZINAE_ET_BOMBYLIARII_SUECIAE" data-idx="97" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(97)">
+                <h3>Platypezinae et Bombyliarii Sueciae<span class="badge xref">Cross-ref &rarr; L. F. Flodin</span></h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-97">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COMMENTARIUS_DE_PARTIBUS_QUIBUS_INSECTA_SPIRITUS_DUCUNT" data-idx="98" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(98)">
+                <h3>Commentarius de partibus quibus Insecta spiritus ducunt<span class="badge xref">Cross-ref &rarr; C. Spengel</span></h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-98">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DEUTSCHLANDS_FAUNA" data-idx="99" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(99)">
+                <h3>Deutschlands Fauna<span class="badge xref">Cross-ref &rarr; J. Sturm</span></h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-99">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MONOGRAPHIA_ICHNEUMONUM_PEDESTRIUM" data-idx="100" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(100)">
+                <h3>Monographia Ichneumonum Pedestrium<span class="badge xref">Cross-ref &rarr; J. L. C. Gravenhorst</span></h3>
+                <span class="meta">11 words</span>
+            </div>
+            <div class="article-content" id="content-100">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEITR_GE_ZUR_ANATOMIE_DER_INSEKTEN" data-idx="101" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(101)">
+                <h3>Beiträge zur Anatomie der Insekten<span class="badge xref">Cross-ref &rarr; H. M. Gaede</span></h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-101">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENTWICKLUNGSGESCHICHTE_DER_SCHMETTERLINGE" data-idx="102" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(102)">
+                <h3>Entwicklungsgeschichte der Schmetterlinge<span class="badge xref">Cross-ref &rarr; Dr Herold</span></h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-102">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-M_MOIRES_DU_MUS_UM_D_HISTOIRE_NATURELLE" data-idx="103" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(103)">
+                <h3>Mémoires du Muséum d&#x27;histoire naturelle<span class="badge xref">Cross-ref &rarr; La Billardiere</span></h3>
+                <span class="meta">30 words</span>
+            </div>
+            <div class="article-content" id="content-103">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-M_MOIRS_DE_L_ACAD_MIE_IMPERIALE_DES_SCIENCES_DE_ST_P_TERSBOURG" data-idx="104" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(104)">
+                <h3>Mémoirs de l&#x27;Académie Imperiale des Sciences de St Pétersbourg<span class="badge xref">Cross-ref &rarr; C. P. Thunberg</span></h3>
+                <span class="meta">43 words</span>
+            </div>
+            <div class="article-content" id="content-104">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGAZIN_DER_ENTOMOLOGIE" data-idx="105" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(105)">
+                <h3>Magazin der Entomologie<span class="badge xref">Cross-ref &rarr; Dr E. F. Germar</span></h3>
+                <span class="meta">57 words</span>
+            </div>
+            <div class="article-content" id="content-105">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERLIN_MAGAZINE" data-idx="106" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(106)">
+                <h3>Berlin Magazine<span class="badge xref">Cross-ref &rarr; Nees von Esenbeck</span></h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-106">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INTRODUCTION_TO_ENTOMOLOGY" data-idx="107" data-type="article">
+            <div class="article-header" onclick="toggleArticle(107)">
+                <h3>Introduction to Entomology</h3>
+                <span class="meta">46 words</span>
+            </div>
+            <div class="article-content" id="content-107">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TRANSACTIONS_OF_THE_LINNEAN_SOCIETY_OF_LONDON" data-idx="108" data-type="article">
+            <div class="article-header" onclick="toggleArticle(108)">
+                <h3>Transactions of the Linnean Society of London</h3>
+                <span class="meta">95 words</span>
+            </div>
+            <div class="article-content" id="content-108">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-M_MOIRES_SUR_LES_ANIMAUX_SANS_VERT_BRES" data-idx="109" data-type="article">
+            <div class="article-header" onclick="toggleArticle(109)">
+                <h3>Mémoires sur les Animaux sans Vertébres</h3>
+                <span class="meta">208 words</span>
+            </div>
+            <div class="article-content" id="content-109">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EMPIDES_SUECIC" data-idx="110" data-type="article">
+            <div class="article-header" onclick="toggleArticle(110)">
+                <h3>Empides Suecicæ</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-110">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OBSERVATIONS_SUR_LE_XENOS_VESPARUM" data-idx="111" data-type="article">
+            <div class="article-header" onclick="toggleArticle(111)">
+                <h3>Observations sur le Xenos Vesparum</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-111">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HISTOIRE_NATURELLE_DES_CRUSTAC_S_DES_ENVIRONS_DE_NICE" data-idx="112" data-type="article">
+            <div class="article-header" onclick="toggleArticle(112)">
+                <h3>Histoire naturelle des Crustacés des Environs de Nice</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-112">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DIE_SCHMETTERLINGE_VON_EUROPA" data-idx="113" data-type="article">
+            <div class="article-header" onclick="toggleArticle(113)">
+                <h3>Die Schmetterlinge von Europa</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-113">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MONOGRAPHIA_PSELAPHORIUM" data-idx="114" data-type="article">
+            <div class="article-header" onclick="toggleArticle(114)">
+                <h3>Monographia Pselaphorium</h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-114">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELEMENTARBUCH_DER_INSECTENKUNDE" data-idx="115" data-type="article">
+            <div class="article-header" onclick="toggleArticle(115)">
+                <h3>Elementarbuch der Insectenkunde</h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-115">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOUVEAU_DICTIONNAIRE_D_HISTOIRE_NATURELLE" data-idx="116" data-type="article">
+            <div class="article-header" onclick="toggleArticle(116)">
+                <h3>Nouveau Dictionnaire d&#x27;Histoire Naturelle</h3>
+                <span class="meta">95 words</span>
+            </div>
+            <div class="article-content" id="content-116">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JOURNAL_DE_PHYSIQUE" data-idx="117" data-type="article">
+            <div class="article-header" onclick="toggleArticle(117)">
+                <h3>Journal de Physique</h3>
+                <span class="meta">121 words</span>
+            </div>
+            <div class="article-content" id="content-117">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BULLETIN_DES_SCIENCES" data-idx="118" data-type="article">
+            <div class="article-header" onclick="toggleArticle(118)">
+                <h3>Bulletin des Sciences</h3>
+                <span class="meta">39 words</span>
+            </div>
+            <div class="article-content" id="content-118">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SYNOPSIS_OF_FOUR_NEW_SPECIES_OF_CRUSTACEA" data-idx="119" data-type="article">
+            <div class="article-header" onclick="toggleArticle(119)">
+                <h3>Synopsis of four new species of Crustacea</h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-119">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INSECTES_DE_L_AMERIQUE_EQUINOCTIALES" data-idx="120" data-type="article">
+            <div class="article-header" onclick="toggleArticle(120)">
+                <h3>Insectes de l&#x27;Amerique Equinoctiales</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-120">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SYNONYMIA_INSECTORUM" data-idx="121" data-type="article">
+            <div class="article-header" onclick="toggleArticle(121)">
+                <h3>Synonymia Insectorum</h3>
+                <span class="meta">25 words</span>
+            </div>
+            <div class="article-content" id="content-121">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MASSACHUSETTS_AGRICULTURAL_REPOSITORY_AND_JOURNAL" data-idx="122" data-type="article">
+            <div class="article-header" onclick="toggleArticle(122)">
+                <h3>Massachusetts Agricultural Repository and Journal</h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-122">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TRANSACTIONS_OF_THE_LINNEAN_SOCIETY" data-idx="123" data-type="article">
+            <div class="article-header" onclick="toggleArticle(123)">
+                <h3>Transactions of the Linnean Society</h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-123">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JOURNAL_OF_THE_ACADEMY_OF_NATURAL_SCIENCES_OF_PHILADELPHIA" data-idx="124" data-type="article">
+            <div class="article-header" onclick="toggleArticle(124)">
+                <h3>Journal of the Academy of Natural Sciences of Philadelphia</h3>
+                <span class="meta">50 words</span>
+            </div>
+            <div class="article-content" id="content-124">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DEUTSCHLANDS_INSECTEN" data-idx="125" data-type="article">
+            <div class="article-header" onclick="toggleArticle(125)">
+                <h3>Deutschlands Insecten<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,365 words</span>
+            </div>
+            <div class="article-content" id="content-125">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CEVENNES" data-idx="126" data-type="article">
+            <div class="article-header" onclick="toggleArticle(126)">
+                <h3>CEVENNES</h3>
+                <span class="meta">74 words</span>
+            </div>
+            <div class="article-content" id="content-126">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRITAIN" data-idx="127" data-type="article">
+            <div class="article-header" onclick="toggleArticle(127)">
+                <h3>BRITAIN</h3>
+                <span class="meta">75 words</span>
+            </div>
+            <div class="article-content" id="content-127">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VOLCANOES" data-idx="128" data-type="article">
+            <div class="article-header" onclick="toggleArticle(128)">
+                <h3>VOLCANOES</h3>
+                <span class="meta">132 words</span>
+            </div>
+            <div class="article-content" id="content-128">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RIVERS" data-idx="129" data-type="article">
+            <div class="article-header" onclick="toggleArticle(129)">
+                <h3>RIVERS</h3>
+                <span class="meta">810 words</span>
+            </div>
+            <div class="article-content" id="content-129">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MEDITERRANEAN" data-idx="130" data-type="article">
+            <div class="article-header" onclick="toggleArticle(130)">
+                <h3>MEDITERRANEAN</h3>
+                <span class="meta">175 words</span>
+            </div>
+            <div class="article-content" id="content-130">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BALTIC" data-idx="131" data-type="article">
+            <div class="article-header" onclick="toggleArticle(131)">
+                <h3>BALTIC</h3>
+                <span class="meta">228 words</span>
+            </div>
+            <div class="article-content" id="content-131">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLACK_SEA" data-idx="132" data-type="article">
+            <div class="article-header" onclick="toggleArticle(132)">
+                <h3>BLACK SEA</h3>
+                <span class="meta">63 words</span>
+            </div>
+            <div class="article-content" id="content-132">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WHITE_SEA" data-idx="133" data-type="article">
+            <div class="article-header" onclick="toggleArticle(133)">
+                <h3>WHITE SEA</h3>
+                <span class="meta">36 words</span>
+            </div>
+            <div class="article-content" id="content-133">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAKES" data-idx="134" data-type="article">
+            <div class="article-header" onclick="toggleArticle(134)">
+                <h3>LAKES</h3>
+                <span class="meta">91 words</span>
+            </div>
+            <div class="article-content" id="content-134">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SOIL" data-idx="135" data-type="article">
+            <div class="article-header" onclick="toggleArticle(135)">
+                <h3>SOIL</h3>
+                <span class="meta">431 words</span>
+            </div>
+            <div class="article-content" id="content-135">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUGAR_CANE" data-idx="136" data-type="article">
+            <div class="article-header" onclick="toggleArticle(136)">
+                <h3>SUGAR CANE</h3>
+                <span class="meta">287 words</span>
+            </div>
+            <div class="article-content" id="content-136">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRITAIN" data-idx="137" data-type="article">
+            <div class="article-header" onclick="toggleArticle(137)">
+                <h3>BRITAIN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,181 words</span>
+            </div>
+            <div class="article-content" id="content-137">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FRANCE" data-idx="138" data-type="article">
+            <div class="article-header" onclick="toggleArticle(138)">
+                <h3>FRANCE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,289 words</span>
+            </div>
+            <div class="article-content" id="content-138">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AUSTRIA" data-idx="139" data-type="article">
+            <div class="article-header" onclick="toggleArticle(139)">
+                <h3>AUSTRIA</h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-139">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PRUSSIA" data-idx="140" data-type="article">
+            <div class="article-header" onclick="toggleArticle(140)">
+                <h3>PRUSSIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,584 words</span>
+            </div>
+            <div class="article-content" id="content-140">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GERMANY" data-idx="141" data-type="article">
+            <div class="article-header" onclick="toggleArticle(141)">
+                <h3>Germany<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">30,470 words</span>
+            </div>
+            <div class="article-content" id="content-141">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FAROE" data-idx="142" data-type="article">
+            <div class="article-header" onclick="toggleArticle(142)">
+                <h3>FAROE</h3>
+                <span class="meta">3,603 words</span>
+            </div>
+            <div class="article-content" id="content-142">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FERMANAGH" data-idx="143" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(143)">
+                <h3>Fermanagh<span class="badge xref">Cross-ref &rarr; Young&#x27;s Tour in Ireland</span></h3>
+                <span class="meta">71 words</span>
+            </div>
+            <div class="article-content" id="content-143">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FERMAT_PETER_DE" data-idx="144" data-type="article">
+            <div class="article-header" onclick="toggleArticle(144)">
+                <h3>FERMAT (PETER DE)<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">36,643 words</span>
+            </div>
+            <div class="article-content" id="content-144">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INTEGRAL_CALCULUS" data-idx="145" data-type="article">
+            <div class="article-header" onclick="toggleArticle(145)">
+                <h3>INTEGRAL CALCULUS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,867 words</span>
+            </div>
+            <div class="article-content" id="content-145">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-R" data-idx="146" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(146)">
+                <h3>R<span class="badge xref">Cross-ref &rarr; Méc. Cél.</span></h3>
+                <span class="meta">561 words</span>
+            </div>
+            <div class="article-content" id="content-146">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INTEGRAL_CALCULUS" data-idx="147" data-type="article">
+            <div class="article-header" onclick="toggleArticle(147)">
+                <h3>INTEGRAL CALCULUS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">9,176 words</span>
+            </div>
+            <div class="article-content" id="content-147">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FLUID" data-idx="148" data-type="article">
+            <div class="article-header" onclick="toggleArticle(148)">
+                <h3>FLUID</h3>
+                <span class="meta">4,441 words</span>
+            </div>
+            <div class="article-content" id="content-148">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FONTANA_FELIX" data-idx="149" data-type="article">
+            <div class="article-header" onclick="toggleArticle(149)">
+                <h3>FONTANA (Felix)</h3>
+                <span class="meta">21 words</span>
+            </div>
+            <div class="article-content" id="content-149">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FONTANA_GREGORY" data-idx="150" data-type="article">
+            <div class="article-header" onclick="toggleArticle(150)">
+                <h3>FONTANA (Gregory)<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,858 words</span>
+            </div>
+            <div class="article-content" id="content-150">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_HIS_ACCOUNT_OF_THE_ARCTIC_REGIONS_WITH_A_HISTORY_AND_DESCRIPTION_OF_THE_NORTHERN_WHALE_FISHERY" data-idx="151" data-type="article">
+            <div class="article-header" onclick="toggleArticle(151)">
+                <h3>See his Account of the Arctic Regions, with a History and Description of the Northern Whale Fishery<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,201 words</span>
+            </div>
+            <div class="article-content" id="content-151">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FISH" data-idx="152" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(152)">
+                <h3>FISH<span class="badge xref">Cross-ref &rarr; FISHERY</span></h3>
+                <span class="meta">30,462 words</span>
+            </div>
+            <div class="article-content" id="content-152">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WE_REFER_OUR_FARTHER_REMARKS_ON_THIS_VALUATION_TO_THE_SECTION_ON_AGRICULTURE" data-idx="153" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(153)">
+                <h3>We refer our farther remarks on this valuation to the section on Agriculture.<span class="badge xref">Cross-ref &rarr; Agriculture</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-153">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FRANCE" data-idx="154" data-type="article">
+            <div class="article-header" onclick="toggleArticle(154)">
+                <h3>FRANCE</h3>
+                <span class="meta">630 words</span>
+            </div>
+            <div class="article-content" id="content-154">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_NECKER_S_FINANCIAL_WORKS" data-idx="155" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(155)">
+                <h3>* See Necker&#x27;s Financial Works<span class="badge xref">Cross-ref &rarr; Necker&#x27;s Financial Works</span></h3>
+                <span class="meta">33,721 words</span>
+            </div>
+            <div class="article-content" id="content-155">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SINKING_FUND" data-idx="156" data-type="article">
+            <div class="article-header" onclick="toggleArticle(156)">
+                <h3>Sinking Fund<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">17,567 words</span>
+            </div>
+            <div class="article-content" id="content-156">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELECTRICITY" data-idx="157" data-type="article">
+            <div class="article-header" onclick="toggleArticle(157)">
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,208 words</span>
+            </div>
+            <div class="article-content" id="content-157">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GALWAY" data-idx="158" data-type="article">
+            <div class="article-header" onclick="toggleArticle(158)">
+                <h3>GALWAY</h3>
+                <span class="meta">250 words</span>
+            </div>
+            <div class="article-content" id="content-158">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GARVE_CHRISTIAN" data-idx="159" data-type="article">
+            <div class="article-header" onclick="toggleArticle(159)">
+                <h3>GARVE (CHRISTIAN)</h3>
+                <span class="meta">614 words</span>
+            </div>
+            <div class="article-content" id="content-159">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GARVE" data-idx="160" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(160)">
+                <h3>GARVE<span class="badge xref">Cross-ref &rarr; Biographie Universelle, Tom. XVI. Art. Garve</span></h3>
+                <span class="meta">3,386 words</span>
+            </div>
+            <div class="article-content" id="content-160">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COAL_GAS" data-idx="161" data-type="article">
+            <div class="article-header" onclick="toggleArticle(161)">
+                <h3>COAL GAS</h3>
+                <span class="meta">3,560 words</span>
+            </div>
+            <div class="article-content" id="content-161">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GAS_LIGHTING" data-idx="162" data-type="article">
+            <div class="article-header" onclick="toggleArticle(162)">
+                <h3>GAS LIGHTING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">996 words</span>
+            </div>
+            <div class="article-content" id="content-162">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COUNT_RUMFORD" data-idx="163" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(163)">
+                <h3>Count Rumford<span class="badge xref">Cross-ref &rarr; RUMFORD</span></h3>
+                <span class="meta">180 words</span>
+            </div>
+            <div class="article-content" id="content-163">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PREPARATION_OF_OIL_GAS" data-idx="164" data-type="article">
+            <div class="article-header" onclick="toggleArticle(164)">
+                <h3>Preparation of Oil-Gas<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,295 words</span>
+            </div>
+            <div class="article-content" id="content-164">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FABRONI" data-idx="165" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(165)">
+                <h3>Fabroni<span class="badge xref">Cross-ref &rarr; Fabroni</span></h3>
+                <span class="meta">6,188 words</span>
+            </div>
+            <div class="article-content" id="content-165">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GERMANY" data-idx="166" data-type="article">
+            <div class="article-header" onclick="toggleArticle(166)">
+                <h3>GERMANY</h3>
+                <span class="meta">2,074 words</span>
+            </div>
+            <div class="article-content" id="content-166">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BADEN" data-idx="167" data-type="article">
+            <div class="article-header" onclick="toggleArticle(167)">
+                <h3>BADEN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">8,031 words</span>
+            </div>
+            <div class="article-content" id="content-167">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GLAMORGANSHIRE" data-idx="168" data-type="article">
+            <div class="article-header" onclick="toggleArticle(168)">
+                <h3>GLAMORGANSHIRE</h3>
+                <span class="meta">160 words</span>
+            </div>
+            <div class="article-content" id="content-168">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_REES_S_SOUTH_WALES_MALKIN_S_SCENERY_OF_SOUTH_WALES_PARLIAMENTARY_RETURNS_OF_POPULATION_FOR_1811" data-idx="169" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(169)">
+                <h3>See Rees&#x27;s South Wales; Malkin&#x27;s Scenery of South Wales; Parliamentary Returns of Population for 1811.<span class="badge xref">Cross-ref &rarr; REES&#x27;S SOUTH WALES</span></h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-169">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GLASGOW" data-idx="170" data-type="article">
+            <div class="article-header" onclick="toggleArticle(170)">
+                <h3>GLASGOW</h3>
+                <span class="meta">4,604 words</span>
+            </div>
+            <div class="article-content" id="content-170">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GLOUCESTERSHIRE" data-idx="171" data-type="article">
+            <div class="article-header" onclick="toggleArticle(171)">
+                <h3>GLOUCESTERSHIRE</h3>
+                <span class="meta">276 words</span>
+            </div>
+            <div class="article-content" id="content-171">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRISTOL" data-idx="172" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(172)">
+                <h3>Bristol<span class="badge xref">Cross-ref &rarr; Bristol</span></h3>
+                <span class="meta">80 words</span>
+            </div>
+            <div class="article-content" id="content-172">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENUMERATION_OF_THE_INHABITANTS_OF_GLASGOW" data-idx="173" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(173)">
+                <h3>Enumeration of the Inhabitants of Glasgow<span class="badge xref">Cross-ref &rarr; Glasgow</span></h3>
+                <span class="meta">67 words</span>
+            </div>
+            <div class="article-content" id="content-173">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIVERPOOL" data-idx="174" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(174)">
+                <h3>Liverpool<span class="badge xref">Cross-ref &rarr; Liverpool</span></h3>
+                <span class="meta">100 words</span>
+            </div>
+            <div class="article-content" id="content-174">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NORTH_AMERICA" data-idx="175" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(175)">
+                <h3>North America<span class="badge xref">Cross-ref &rarr; North America</span></h3>
+                <span class="meta">90 words</span>
+            </div>
+            <div class="article-content" id="content-175">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WORCESTERSHIRE" data-idx="176" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(176)">
+                <h3>Worcestershire<span class="badge xref">Cross-ref &rarr; Worcestershire</span></h3>
+                <span class="meta">139 words</span>
+            </div>
+            <div class="article-content" id="content-176">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STAFFORDSHIRE" data-idx="177" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(177)">
+                <h3>Staffordshire<span class="badge xref">Cross-ref &rarr; Staffordshire</span></h3>
+                <span class="meta">358 words</span>
+            </div>
+            <div class="article-content" id="content-177">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HEREFORD" data-idx="178" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(178)">
+                <h3>Hereford<span class="badge xref">Cross-ref &rarr; Hereford</span></h3>
+                <span class="meta">81 words</span>
+            </div>
+            <div class="article-content" id="content-178">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LANCASTER" data-idx="179" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(179)">
+                <h3>Lancaster<span class="badge xref">Cross-ref &rarr; Lancaster</span></h3>
+                <span class="meta">297 words</span>
+            </div>
+            <div class="article-content" id="content-179">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-YORK" data-idx="180" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(180)">
+                <h3>York<span class="badge xref">Cross-ref &rarr; York</span></h3>
+                <span class="meta">297 words</span>
+            </div>
+            <div class="article-content" id="content-180">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERKLEY" data-idx="181" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(181)">
+                <h3>Berkley<span class="badge xref">Cross-ref &rarr; Berkley</span></h3>
+                <span class="meta">84 words</span>
+            </div>
+            <div class="article-content" id="content-181">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COPPER" data-idx="182" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(182)">
+                <h3>Copper<span class="badge xref">Cross-ref &rarr; Copper</span></h3>
+                <span class="meta">116 words</span>
+            </div>
+            <div class="article-content" id="content-182">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COTSWOLD_HILLS" data-idx="183" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(183)">
+                <h3>Cotswold Hills<span class="badge xref">Cross-ref &rarr; Cotswold Hills</span></h3>
+                <span class="meta">643 words</span>
+            </div>
+            <div class="article-content" id="content-183">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EVESHAM" data-idx="184" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(184)">
+                <h3>Evesham<span class="badge xref">Cross-ref &rarr; Evesham</span></h3>
+                <span class="meta">1,761 words</span>
+            </div>
+            <div class="article-content" id="content-184">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LABOUR" data-idx="185" data-type="article">
+            <div class="article-header" onclick="toggleArticle(185)">
+                <h3>LABOUR<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">77,969 words</span>
+            </div>
+            <div class="article-content" id="content-185">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PIASTRE" data-idx="186" data-type="article">
+            <div class="article-header" onclick="toggleArticle(186)">
+                <h3>PIASTRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,312 words</span>
+            </div>
+            <div class="article-content" id="content-186">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLANTS" data-idx="187" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(187)">
+                <h3>PLANTS<span class="badge xref">Cross-ref &rarr; Walpole&#x27;s Memoirs</span></h3>
+                <span class="meta">6,929 words</span>
+            </div>
+            <div class="article-content" id="content-187">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MILITARY_FORCE" data-idx="188" data-type="article">
+            <div class="article-header" onclick="toggleArticle(188)">
+                <h3>MILITARY FORCE</h3>
+                <span class="meta">2,241 words</span>
+            </div>
+            <div class="article-content" id="content-188">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POPULATION" data-idx="189" data-type="article">
+            <div class="article-header" onclick="toggleArticle(189)">
+                <h3>POPULATION</h3>
+                <span class="meta">1,390 words</span>
+            </div>
+            <div class="article-content" id="content-189">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALBANIA" data-idx="190" data-type="article">
+            <div class="article-header" onclick="toggleArticle(190)">
+                <h3>ALBANIA</h3>
+                <span class="meta">2,749 words</span>
+            </div>
+            <div class="article-content" id="content-190">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GREECE" data-idx="191" data-type="article">
+            <div class="article-header" onclick="toggleArticle(191)">
+                <h3>GREECE</h3>
+                <span class="meta">675 words</span>
+            </div>
+            <div class="article-content" id="content-191">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MINERVA" data-idx="192" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(192)">
+                <h3>MINERVA<span class="badge xref">Cross-ref &rarr; GREECE</span></h3>
+                <span class="meta">1,287 words</span>
+            </div>
+            <div class="article-content" id="content-192">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ANTIQUITIES" data-idx="193" data-type="article">
+            <div class="article-header" onclick="toggleArticle(193)">
+                <h3>ANTIQUITIES</h3>
+                <span class="meta">1,197 words</span>
+            </div>
+            <div class="article-content" id="content-193">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ANTIQUITIES_OF_GREECE" data-idx="194" data-type="article">
+            <div class="article-header" onclick="toggleArticle(194)">
+                <h3>ANTIQUITIES OF GREECE</h3>
+                <span class="meta">88 words</span>
+            </div>
+            <div class="article-content" id="content-194">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ROMAIC" data-idx="195" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(195)">
+                <h3>ROMAIC<span class="badge xref">Cross-ref &rarr; GREECE</span></h3>
+                <span class="meta">209 words</span>
+            </div>
+            <div class="article-content" id="content-195">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GREEK_LUTE" data-idx="196" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(196)">
+                <h3>GREEK LUTE<span class="badge xref">Cross-ref &rarr; MUSIC</span></h3>
+                <span class="meta">225 words</span>
+            </div>
+            <div class="article-content" id="content-196">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ROMAIKA" data-idx="197" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(197)">
+                <h3>ROMAIKA<span class="badge xref">Cross-ref &rarr; DANCE</span></h3>
+                <span class="meta">361 words</span>
+            </div>
+            <div class="article-content" id="content-197">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GREECE" data-idx="198" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(198)">
+                <h3>GREECE<span class="badge xref">Cross-ref &rarr; GREECE</span></h3>
+                <span class="meta">26,076 words</span>
+            </div>
+            <div class="article-content" id="content-198">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SOUTHAMPTON" data-idx="199" data-type="article">
+            <div class="article-header" onclick="toggleArticle(199)">
+                <h3>Southampton</h3>
+                <span class="meta">67 words</span>
+            </div>
+            <div class="article-content" id="content-199">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WINCHESTER" data-idx="200" data-type="article">
+            <div class="article-header" onclick="toggleArticle(200)">
+                <h3>Winchester<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">441 words</span>
+            </div>
+            <div class="article-content" id="content-200">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HAMPSHIRE" data-idx="201" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(201)">
+                <h3>Hampshire<span class="badge xref">Cross-ref &rarr; Brayley and Britton&#x27;s Beauties of England and Wales</span></h3>
+                <span class="meta">28 words</span>
+            </div>
+            <div class="article-content" id="content-201">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HANOVER" data-idx="202" data-type="article">
+            <div class="article-header" onclick="toggleArticle(202)">
+                <h3>Hanover<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">34,330 words</span>
+            </div>
+            <div class="article-content" id="content-202">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPE_BROCCOLI" data-idx="203" data-type="article">
+            <div class="article-header" onclick="toggleArticle(203)">
+                <h3>Cape Broccoli</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-203">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-KNIGHT_S_MARROW_PEA" data-idx="204" data-type="article">
+            <div class="article-header" onclick="toggleArticle(204)">
+                <h3>Knight&#x27;s Marrow Pea</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-204">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MOUSE_PEA" data-idx="205" data-type="article">
+            <div class="article-header" onclick="toggleArticle(205)">
+                <h3>Mouse Pea</h3>
+                <span class="meta">119 words</span>
+            </div>
+            <div class="article-content" id="content-205">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ONIONS" data-idx="206" data-type="article">
+            <div class="article-header" onclick="toggleArticle(206)">
+                <h3>Onions</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-206">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTATOES" data-idx="207" data-type="article">
+            <div class="article-header" onclick="toggleArticle(207)">
+                <h3>Potatoes</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-207">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TURNIPS" data-idx="208" data-type="article">
+            <div class="article-header" onclick="toggleArticle(208)">
+                <h3>Turnips.</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-208">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TURNIP_ROOTED_CABBAGE" data-idx="209" data-type="article">
+            <div class="article-header" onclick="toggleArticle(209)">
+                <h3>Turnip-rooted Cabbage.</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-209">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUCCORY" data-idx="210" data-type="article">
+            <div class="article-header" onclick="toggleArticle(210)">
+                <h3>Succory</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-210">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AMERICAN_CRESS" data-idx="211" data-type="article">
+            <div class="article-header" onclick="toggleArticle(211)">
+                <h3>American Cress,</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-211">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MELONS" data-idx="212" data-type="article">
+            <div class="article-header" onclick="toggleArticle(212)">
+                <h3>Melons.</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-212">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUCCADA" data-idx="213" data-type="article">
+            <div class="article-header" onclick="toggleArticle(213)">
+                <h3>Succada.</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-213">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MUSHROOMS" data-idx="214" data-type="article">
+            <div class="article-header" onclick="toggleArticle(214)">
+                <h3>Mushrooms.</h3>
+                <span class="meta">4,734 words</span>
+            </div>
+            <div class="article-content" id="content-214">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NEW_VARIETIES_OF_FRUITS" data-idx="215" data-type="article">
+            <div class="article-header" onclick="toggleArticle(215)">
+                <h3>New Varieties of Fruits<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,831 words</span>
+            </div>
+            <div class="article-content" id="content-215">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EQUATIONS" data-idx="216" data-type="article">
+            <div class="article-header" onclick="toggleArticle(216)">
+                <h3>EQUATIONS</h3>
+                <span class="meta">2,573 words</span>
+            </div>
+            <div class="article-content" id="content-216">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POLYNOMIAL" data-idx="217" data-type="article">
+            <div class="article-header" onclick="toggleArticle(217)">
+                <h3>POLYNOMIAL</h3>
+                <span class="meta">1,462 words</span>
+            </div>
+            <div class="article-content" id="content-217">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EQUATION" data-idx="218" data-type="article">
+            <div class="article-header" onclick="toggleArticle(218)">
+                <h3>EQUATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,293 words</span>
+            </div>
+            <div class="article-content" id="content-218">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALGEBRA" data-idx="219" data-type="article">
+            <div class="article-header" onclick="toggleArticle(219)">
+                <h3>ALGEBRA</h3>
+                <span class="meta">251 words</span>
+            </div>
+            <div class="article-content" id="content-219">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GN_X_Y_2" data-idx="220" data-type="article">
+            <div class="article-header" onclick="toggleArticle(220)">
+                <h3>Gn(x,-y^2)</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-220">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EQUATION" data-idx="221" data-type="article">
+            <div class="article-header" onclick="toggleArticle(221)">
+                <h3>Equation</h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-221">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-H_N_X_Y_2" data-idx="222" data-type="article">
+            <div class="article-header" onclick="toggleArticle(222)">
+                <h3>H_n(x,-y^2)<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">4,101 words</span>
+            </div>
+            <div class="article-content" id="content-222">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALGEBRA" data-idx="223" data-type="article">
+            <div class="article-header" onclick="toggleArticle(223)">
+                <h3>ALGEBRA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,346 words</span>
+            </div>
+            <div class="article-content" id="content-223">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RESOLUTION_OF_ALGEBRAIC_EQUATIONS" data-idx="224" data-type="article">
+            <div class="article-header" onclick="toggleArticle(224)">
+                <h3>Resolution of Algebraic Equations</h3>
+                <span class="meta">394 words</span>
+            </div>
+            <div class="article-content" id="content-224">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CUBIC_EQUATION" data-idx="225" data-type="article">
+            <div class="article-header" onclick="toggleArticle(225)">
+                <h3>CUBIC EQUATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,167 words</span>
+            </div>
+            <div class="article-content" id="content-225">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BACK_MATTER" data-idx="226" data-type="back_matter">
+            <div class="article-header" onclick="toggleArticle(226)">
+                <h3>BACK MATTER</h3>
+                <span class="meta">331 words</span>
+            </div>
+            <div class="article-content" id="content-226">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -889,13 +2696,11 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
         </footer>
     </div>
     
     <script>
-    const YEAR = 1823;
-    const VOL = 1;
     let articlesData = null;
     let loadedArticles = new Set();
 
@@ -929,10 +2734,9 @@ footer {
         }
 
         const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
 
         content.innerHTML = `
-            <div class="article-text">${renderArticleHtml(article.t)}</div>
+            <div class="article-text">${escapeHtml(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
@@ -947,21 +2751,9 @@ footer {
         return div.innerHTML;
     }
 
-    function renderArticleHtml(text) {
-        // First escape all HTML, then restore our safe xref links
-        let safe = escapeHtml(text);
-        // Restore xref anchor tags (we only generate these with class="xref")
-        safe = safe.replace(
-            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
-            '<a class="xref" href="$1">$2</a>'
-        );
-        return safe;
-    }
-
     function downloadMd(idx) {
         const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
-        const header = `# ${article.h}\n\n**Edition:** 1823 Sixth Edition\n**Volume:** 1\n**Pages:** ${pages}\n\n---\n\n`;
+        const header = `# ${article.h}\n\n**Edition:** 1823 Sixth Edition\n**Volume:** 1\n**Words:** ${article.wc}\n\n---\n\n`;
         const blob = new Blob([header + article.t], {type: 'text/markdown'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -986,9 +2778,12 @@ footer {
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
             const articleType = item.dataset.type;
+            const isTreatise = item.querySelector('.badge.treatise') !== null;
 
             let show = header.includes(query);
-            if (typeFilter !== 'all') {
+            if (typeFilter === 'treatise') {
+                show = show && isTreatise;
+            } else if (typeFilter !== 'all') {
                 show = show && (articleType === typeFilter);
             }
 
@@ -1004,7 +2799,6 @@ footer {
             if (article) {
                 const idx = parseInt(article.dataset.idx);
                 toggleArticle(idx);
-                // Small delay to ensure content is loaded before scrolling
                 setTimeout(() => {
                     article.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }, 100);
@@ -1012,7 +2806,6 @@ footer {
         }
     });
 
-    // Also handle hash changes (e.g., clicking internal links)
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {

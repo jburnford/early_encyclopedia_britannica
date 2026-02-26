@@ -114,7 +114,7 @@ nav a:hover { text-decoration: underline; }
     color: var(--text-secondary);
 }
 
-.edition-card a {
+.edition-card a.btn {
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-secondary);
@@ -124,11 +124,9 @@ nav a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-.edition-card a:hover { background: var(--accent-light); }
+.edition-card a.btn:hover { background: var(--accent-light); }
 
-.volume-list {
-    list-style: none;
-}
+.volume-list { list-style: none; }
 
 .volume-list li {
     background: var(--bg-secondary);
@@ -151,9 +149,7 @@ nav a:hover { text-decoration: underline; }
     font-size: 0.85rem;
 }
 
-.article-list {
-    list-style: none;
-}
+.article-list { list-style: none; }
 
 .article-item {
     background: var(--bg-secondary);
@@ -183,6 +179,8 @@ nav a:hover { text-decoration: underline; }
 .article-header .meta {
     font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .article-header .badge {
@@ -195,8 +193,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
+.article-header .badge.xref { background: #6a5acd; }
 
 .article-content {
     padding: 1rem;
@@ -252,9 +249,7 @@ nav a:hover { text-decoration: underline; }
     border-color: var(--accent);
 }
 
-.search-results {
-    margin-top: 1rem;
-}
+.search-results { margin-top: 1rem; }
 
 .search-result {
     background: var(--bg-secondary);
@@ -267,19 +262,6 @@ nav a:hover { text-decoration: underline; }
 .search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
 
 .stats-table {
     width: 100%;
@@ -295,6 +277,7 @@ nav a:hover { text-decoration: underline; }
 
 .stats-table th { background: var(--bg-primary); color: var(--accent); }
 .stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .filter-bar {
     margin-bottom: 1rem;
@@ -318,6 +301,76 @@ nav a:hover { text-decoration: underline; }
     font-family: inherit;
 }
 
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -331,6 +384,9 @@ footer {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
     .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
 }
 </style>
 </head>
@@ -340,16 +396,19 @@ footer {
         
     <header>
         <h1>Search the Corpus</h1>
-        <p class="subtitle">Find articles across all editions</p>
+        <p class="subtitle">Find articles across all eight editions</p>
     </header>
 
+    
     <nav>
         <a href="index.html">Home</a>
         <a href="search.html">Search</a>
+        <a href="stats.html">Statistics</a>
+        <a href="about.html">About</a>
     </nav>
 
     <input type="text" class="search-box" id="searchInput"
-           placeholder="Enter a headword to search..."
+           placeholder="Enter an article title to search..."
            onkeyup="performSearch()">
 
     <div id="searchResults" class="search-results"></div>
@@ -382,8 +441,8 @@ footer {
 
         results.innerHTML = matches.map(m => `
             <div class="search-result">
-                <h4><a href="${m[1]}/vol${m[2]}.html">${m[0]}</a></h4>
-                <span class="edition">${m[1]} Edition, Volume ${m[2]}, pp. ${m[3]}</span>
+                <h4><a href="${m[1]}/vol${m[2]}.html#article-${m[0].toUpperCase().replace(/[^A-Z0-9]+/g, '_').replace(/^_|_$/g, '')}">${m[0]}</a></h4>
+                <span class="edition">${m[1]} Edition, Volume ${m[2]} &mdash; ${m[3].toLocaleString()} words</span>
             </div>
         `).join('');
     }
@@ -391,7 +450,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
         </footer>
     </div>
     

@@ -114,7 +114,7 @@ nav a:hover { text-decoration: underline; }
     color: var(--text-secondary);
 }
 
-.edition-card a {
+.edition-card a.btn {
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-secondary);
@@ -124,11 +124,9 @@ nav a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-.edition-card a:hover { background: var(--accent-light); }
+.edition-card a.btn:hover { background: var(--accent-light); }
 
-.volume-list {
-    list-style: none;
-}
+.volume-list { list-style: none; }
 
 .volume-list li {
     background: var(--bg-secondary);
@@ -151,9 +149,7 @@ nav a:hover { text-decoration: underline; }
     font-size: 0.85rem;
 }
 
-.article-list {
-    list-style: none;
-}
+.article-list { list-style: none; }
 
 .article-item {
     background: var(--bg-secondary);
@@ -183,6 +179,8 @@ nav a:hover { text-decoration: underline; }
 .article-header .meta {
     font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .article-header .badge {
@@ -195,8 +193,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
+.article-header .badge.xref { background: #6a5acd; }
 
 .article-content {
     padding: 1rem;
@@ -252,9 +249,7 @@ nav a:hover { text-decoration: underline; }
     border-color: var(--accent);
 }
 
-.search-results {
-    margin-top: 1rem;
-}
+.search-results { margin-top: 1rem; }
 
 .search-result {
     background: var(--bg-secondary);
@@ -267,19 +262,6 @@ nav a:hover { text-decoration: underline; }
 .search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
 
 .stats-table {
     width: 100%;
@@ -295,6 +277,7 @@ nav a:hover { text-decoration: underline; }
 
 .stats-table th { background: var(--bg-primary); color: var(--accent); }
 .stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .filter-bar {
     margin-bottom: 1rem;
@@ -318,6 +301,76 @@ nav a:hover { text-decoration: underline; }
     font-family: inherit;
 }
 
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -331,6 +384,9 @@ footer {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
     .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
 }
 </style>
 </head>
@@ -340,18 +396,21 @@ footer {
         
     <header>
         <h1>Encyclopaedia Britannica</h1>
-        <p class="subtitle">Historical Corpus (1771-1860)</p>
+        <p class="subtitle">Historical Corpus (1771&ndash;1860) &mdash; 104,491 entries, 119.7M words</p>
     </header>
 
+    
     <nav>
         <a href="index.html">Home</a>
         <a href="search.html">Search</a>
+        <a href="stats.html">Statistics</a>
         <a href="about.html">About</a>
     </nav>
 
-    <p>Browse the complete text of seven editions of the Encyclopaedia Britannica,
+    <p>Browse the complete text of eight editions of the Encyclopaedia Britannica,
     spanning nearly a century of knowledge from 1771 to 1860. This corpus contains
-    over 174,000 articles extracted from OCR-processed historical volumes.</p>
+    <strong>81,256 articles</strong> and <strong>22,975 cross-references</strong>,
+    totalling <strong>119,742,802 words</strong>.</p>
 
     <div class="edition-grid">
         
@@ -360,10 +419,12 @@ footer {
             <h2>First Edition</h2>
             <div class="stats">
                 <div>3 volumes</div>
-                <div>7,764 articles</div>
-                <div>106 treatises</div>
+                <div>8,285 articles</div>
+                <div>2,537 cross-references</div>
+                <div>324 treatises</div>
+                <div>3.0M words</div>
             </div>
-            <a href="1771/index.html">Browse Edition</a>
+            <a class="btn" href="1771/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
@@ -371,181 +432,188 @@ footer {
             <h2>Second Edition</h2>
             <div class="stats">
                 <div>10 volumes</div>
-                <div>16,986 articles</div>
-                <div>780 treatises</div>
+                <div>15,461 articles</div>
+                <div>4,148 cross-references</div>
+                <div>1,304 treatises</div>
+                <div>17.2M words</div>
             </div>
-            <a href="1778/index.html">Browse Edition</a>
+            <a class="btn" href="1778/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
             <div class="year">1797</div>
             <h2>Third Edition</h2>
             <div class="stats">
-                <div>18 volumes</div>
-                <div>21,021 articles</div>
-                <div>1,318 treatises</div>
+                <div>19 volumes</div>
+                <div>16,561 articles</div>
+                <div>4,838 cross-references</div>
+                <div>1,737 treatises</div>
+                <div>23.4M words</div>
             </div>
-            <a href="1797/index.html">Browse Edition</a>
+            <a class="btn" href="1797/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
             <div class="year">1810</div>
             <h2>Fourth Edition</h2>
             <div class="stats">
-                <div>20 volumes</div>
-                <div>14,781 articles</div>
-                <div>709 treatises</div>
+                <div>4 volumes</div>
+                <div>10,436 articles</div>
+                <div>3,567 cross-references</div>
+                <div>1,172 treatises</div>
+                <div>16.0M words</div>
             </div>
-            <a href="1810/index.html">Browse Edition</a>
+            <a class="btn" href="1810/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
-            <div class="year">1815</div>
+            <div class="year">1817</div>
             <h2>Fifth Edition</h2>
             <div class="stats">
-                <div>19 volumes</div>
-                <div>18,452 articles</div>
-                <div>1,199 treatises</div>
+                <div>11 volumes</div>
+                <div>7,458 articles</div>
+                <div>1,909 cross-references</div>
+                <div>708 treatises</div>
+                <div>9.2M words</div>
             </div>
-            <a href="1815/index.html">Browse Edition</a>
+            <a class="btn" href="1817/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
             <div class="year">1823</div>
             <h2>Sixth Edition</h2>
             <div class="stats">
-                <div>20 volumes</div>
-                <div>15,833 articles</div>
-                <div>1,215 treatises</div>
+                <div>21 volumes</div>
+                <div>11,127 articles</div>
+                <div>3,628 cross-references</div>
+                <div>1,291 treatises</div>
+                <div>19.8M words</div>
             </div>
-            <a href="1823/index.html">Browse Edition</a>
+            <a class="btn" href="1823/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
             <div class="year">1842</div>
             <h2>Seventh Edition</h2>
             <div class="stats">
-                <div>22 volumes</div>
-                <div>18,638 articles</div>
-                <div>1,935 treatises</div>
+                <div>15 volumes</div>
+                <div>5,532 articles</div>
+                <div>922 cross-references</div>
+                <div>713 treatises</div>
+                <div>13.2M words</div>
             </div>
-            <a href="1842/index.html">Browse Edition</a>
+            <a class="btn" href="1842/index.html">Browse Edition</a>
         </div>
         
         <div class="edition-card">
             <div class="year">1860</div>
             <h2>Eighth Edition</h2>
             <div class="stats">
-                <div>22 volumes</div>
-                <div>15,365 articles</div>
-                <div>2,053 treatises</div>
+                <div>19 volumes</div>
+                <div>6,396 articles</div>
+                <div>1,426 cross-references</div>
+                <div>902 treatises</div>
+                <div>18.0M words</div>
             </div>
-            <a href="1860/index.html">Browse Edition</a>
+            <a class="btn" href="1860/index.html">Browse Edition</a>
         </div>
         
     </div>
 
-    <h2>Corpus Statistics</h2>
+    <h2>Corpus Summary</h2>
     <table class="stats-table">
         <thead>
             <tr>
                 <th>Edition</th>
-                <th>Year</th>
                 <th>Volumes</th>
                 <th>Articles</th>
+                <th>Cross-refs</th>
                 <th>Treatises</th>
-                <th>Biographical</th>
-                <th>Geographical</th>
+                <th>Words</th>
             </tr>
         </thead>
         <tbody>
         
             <tr>
                 <td>1st Edition</td>
-                <td>1771</td>
-                <td>3</td>
-                <td>7,764</td>
-                <td>106</td>
-                <td>0</td>
-                <td>1,301</td>
+                <td class="num">3</td>
+                <td class="num">8,285</td>
+                <td class="num">2,537</td>
+                <td class="num">324</td>
+                <td class="num">2,959,081</td>
             </tr>
-        
             <tr>
                 <td>2nd Edition</td>
-                <td>1778</td>
-                <td>10</td>
-                <td>16,986</td>
-                <td>780</td>
-                <td>733</td>
-                <td>2,273</td>
+                <td class="num">10</td>
+                <td class="num">15,461</td>
+                <td class="num">4,148</td>
+                <td class="num">1,304</td>
+                <td class="num">17,183,503</td>
             </tr>
-        
             <tr>
                 <td>3rd Edition</td>
-                <td>1797</td>
-                <td>18</td>
-                <td>21,021</td>
-                <td>1,318</td>
-                <td>790</td>
-                <td>2,717</td>
+                <td class="num">19</td>
+                <td class="num">16,561</td>
+                <td class="num">4,838</td>
+                <td class="num">1,737</td>
+                <td class="num">23,437,894</td>
             </tr>
-        
             <tr>
                 <td>4th Edition</td>
-                <td>1810</td>
-                <td>20</td>
-                <td>14,781</td>
-                <td>709</td>
-                <td>345</td>
-                <td>1,348</td>
+                <td class="num">4</td>
+                <td class="num">10,436</td>
+                <td class="num">3,567</td>
+                <td class="num">1,172</td>
+                <td class="num">15,959,284</td>
             </tr>
-        
             <tr>
                 <td>5th Edition</td>
-                <td>1815</td>
-                <td>19</td>
-                <td>18,452</td>
-                <td>1,199</td>
-                <td>650</td>
-                <td>2,624</td>
+                <td class="num">11</td>
+                <td class="num">7,458</td>
+                <td class="num">1,909</td>
+                <td class="num">708</td>
+                <td class="num">9,205,707</td>
             </tr>
-        
             <tr>
                 <td>6th Edition</td>
-                <td>1823</td>
-                <td>20</td>
-                <td>15,833</td>
-                <td>1,215</td>
-                <td>538</td>
-                <td>2,126</td>
+                <td class="num">21</td>
+                <td class="num">11,127</td>
+                <td class="num">3,628</td>
+                <td class="num">1,291</td>
+                <td class="num">19,832,305</td>
             </tr>
-        
             <tr>
                 <td>7th Edition</td>
-                <td>1842</td>
-                <td>22</td>
-                <td>18,638</td>
-                <td>1,935</td>
-                <td>584</td>
-                <td>4,081</td>
+                <td class="num">15</td>
+                <td class="num">5,532</td>
+                <td class="num">922</td>
+                <td class="num">713</td>
+                <td class="num">13,150,390</td>
             </tr>
-        
             <tr>
                 <td>8th Edition</td>
-                <td>1860</td>
-                <td>22</td>
-                <td>15,365</td>
-                <td>2,053</td>
-                <td>1,084</td>
-                <td>2,312</td>
+                <td class="num">19</td>
+                <td class="num">6,396</td>
+                <td class="num">1,426</td>
+                <td class="num">902</td>
+                <td class="num">18,014,638</td>
             </tr>
-        
         </tbody>
+        <tfoot>
+            <tr style="font-weight:bold; border-top:2px solid var(--border);">
+                <td>Total</td>
+                <td class="num">102</td>
+                <td class="num">81,256</td>
+                <td class="num">22,975</td>
+                <td class="num">8,151</td>
+                <td class="num">119,742,802</td>
+            </tr>
+        </tfoot>
     </table>
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
         </footer>
     </div>
     

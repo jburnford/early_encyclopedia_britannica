@@ -114,7 +114,7 @@ nav a:hover { text-decoration: underline; }
     color: var(--text-secondary);
 }
 
-.edition-card a {
+.edition-card a.btn {
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-secondary);
@@ -124,11 +124,9 @@ nav a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-.edition-card a:hover { background: var(--accent-light); }
+.edition-card a.btn:hover { background: var(--accent-light); }
 
-.volume-list {
-    list-style: none;
-}
+.volume-list { list-style: none; }
 
 .volume-list li {
     background: var(--bg-secondary);
@@ -151,9 +149,7 @@ nav a:hover { text-decoration: underline; }
     font-size: 0.85rem;
 }
 
-.article-list {
-    list-style: none;
-}
+.article-list { list-style: none; }
 
 .article-item {
     background: var(--bg-secondary);
@@ -183,6 +179,8 @@ nav a:hover { text-decoration: underline; }
 .article-header .meta {
     font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .article-header .badge {
@@ -195,8 +193,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
+.article-header .badge.xref { background: #6a5acd; }
 
 .article-content {
     padding: 1rem;
@@ -252,9 +249,7 @@ nav a:hover { text-decoration: underline; }
     border-color: var(--accent);
 }
 
-.search-results {
-    margin-top: 1rem;
-}
+.search-results { margin-top: 1rem; }
 
 .search-result {
     background: var(--bg-secondary);
@@ -267,19 +262,6 @@ nav a:hover { text-decoration: underline; }
 .search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
 
 .stats-table {
     width: 100%;
@@ -295,6 +277,7 @@ nav a:hover { text-decoration: underline; }
 
 .stats-table th { background: var(--bg-primary); color: var(--accent); }
 .stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .filter-bar {
     margin-bottom: 1rem;
@@ -318,6 +301,76 @@ nav a:hover { text-decoration: underline; }
     font-family: inherit;
 }
 
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -331,6 +384,9 @@ footer {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
     .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
 }
 </style>
 </head>
@@ -340,217 +396,3408 @@ footer {
         
     <header>
         <h1>Volume 1</h1>
-        <p class="subtitle">Seventh Edition (1842) | Preliminary</p>
+        <p class="subtitle">Seventh Edition (1842)</p>
     </header>
 
+    
     <nav>
         <a href="../index.html">Home</a>
-        <a href="index.html">1842 Edition</a>
         <a href="../search.html">Search</a>
+        <a href="../stats.html">Statistics</a>
+        <a href="../about.html">About</a>
     </nav>
 
-    <p>This volume contains <strong>19 articles</strong>.
+    <p>This volume contains <strong>338 entries</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
         <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
         <select id="typeFilter" onchange="filterArticles()">
             <option value="all">All Types</option>
+            <option value="article">Articles</option>
+            <option value="cross_reference">Cross-references</option>
             <option value="treatise">Treatises</option>
-            <option value="biographical">Biographical</option>
-            <option value="geographical">Geographical</option>
-            <option value="dictionary">Dictionary</option>
         </select>
     </div>
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" id="article-ADAM_SMITH" data-idx="0" data-type="treatise">
+        <li class="article-item" id="article-FRONT_MATTER" data-idx="0" data-type="front_matter">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ADAM SMITH<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 584-585 | 1,226 words</span>
+                <h3>FRONT MATTER</h3>
+                <span class="meta">1,424 words</span>
             </div>
             <div class="article-content" id="content-0">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-BACON" data-idx="1" data-type="treatise">
+        <li class="article-item" id="article-ENCYCLOP_DIA_BRITANNICA" data-idx="1" data-type="article">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>BACON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 258-269 | 8,583 words</span>
+                <h3>ENCYCLOPÆDIA BRITANNICA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,937 words</span>
             </div>
             <div class="article-content" id="content-1">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-CLARKE" data-idx="2" data-type="treatise">
+        <li class="article-item" id="article-CIVIL_ENGINEERING" data-idx="2" data-type="article">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>CLARKE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 553-554 | 1,026 words</span>
+                <h3>Civil Engineering</h3>
+                <span class="meta">131 words</span>
             </div>
             <div class="article-content" id="content-2">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-CUDWORTH" data-idx="3" data-type="treatise">
+        <li class="article-item" id="article-GENERAL_POLITICS" data-idx="3" data-type="article">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>CUDWORTH<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 550-553 | 1,776 words</span>
+                <h3>General Politics</h3>
+                <span class="meta">219 words</span>
             </div>
             <div class="article-content" id="content-3">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DAVID_HARTLEY" data-idx="4" data-type="treatise">
+        <li class="article-item" id="article-GEOGRAPHY_AND_STATISTICS" data-idx="4" data-type="article">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>DAVID HARTLEY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 588-598 | 7,608 words</span>
+                <h3>Geography and Statistics</h3>
+                <span class="meta">314 words</span>
             </div>
             <div class="article-content" id="content-4">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DAVID_HUME" data-idx="5" data-type="treatise">
+        <li class="article-item" id="article-HISTORY_AND_BIOGRAPHY" data-idx="5" data-type="article">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>DAVID HUME<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 578-584 | 4,441 words</span>
+                <h3>History and Biography</h3>
+                <span class="meta">150 words</span>
             </div>
             <div class="article-content" id="content-5">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISSERTATION_THIRD" data-idx="6" data-type="treatise">
+        <li class="article-item" id="article-BIOGRAPHY" data-idx="6" data-type="article">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>DISSERTATION THIRD<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 741-743 | 255 words</span>
+                <h3>Biography</h3>
+                <span class="meta">199 words</span>
             </div>
             <div class="article-content" id="content-6">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DUGALD_STEWART" data-idx="7" data-type="treatise">
+        <li class="article-item" id="article-MISCELLANEOUS" data-idx="7" data-type="article">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>DUGALD STEWART<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 612-620 | 5,932 words</span>
+                <h3>Miscellaneous</h3>
+                <span class="meta">129 words</span>
             </div>
             <div class="article-content" id="content-7">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-HUTCHESON" data-idx="8" data-type="treatise">
+        <li class="article-item" id="article-GENERAL_INDEX" data-idx="8" data-type="article">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>HUTCHESON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 573-578 | 2,988 words</span>
+                <h3>General Index</h3>
+                <span class="meta">367 words</span>
             </div>
             <div class="article-content" id="content-8">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-JEREMY_BENTHAM" data-idx="9" data-type="treatise">
+        <li class="article-item" id="article-EDITOR" data-idx="9" data-type="article">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>JEREMY BENTHAM<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 602-612 | 7,652 words</span>
+                <h3>Editor</h3>
+                <span class="meta">200 words</span>
             </div>
             <div class="article-content" id="content-9">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-JONATHAN_EDWARDS" data-idx="10" data-type="treatise">
+        <li class="article-item" id="article-SIGNATURES" data-idx="10" data-type="article">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>JONATHAN EDWARDS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 566-568 | 1,275 words</span>
+                <h3>Signatures</h3>
+                <span class="meta">302 words</span>
             </div>
             <div class="article-content" id="content-10">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-LEIBNITZ" data-idx="11" data-type="treatise">
+        <li class="article-item" id="article-OMISSIONS" data-idx="11" data-type="article">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>LEIBNITZ<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 348-365 | 14,229 words</span>
+                <h3>Omissions</h3>
+                <span class="meta">80 words</span>
             </div>
             <div class="article-content" id="content-11">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-LEIBNITZ" data-idx="12" data-type="treatise">
+        <li class="article-item" id="article-WOODCUTS_ENGRAVINGS_AND_MAPS" data-idx="12" data-type="article">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>LEIBNITZ<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 563-566 | 2,386 words</span>
+                <h3>Woodcuts, Engravings, and Maps</h3>
+                <span class="meta">56 words</span>
             </div>
             <div class="article-content" id="content-12">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-MATHEMATICS" data-idx="13" data-type="treatise">
+        <li class="article-item" id="article-BIOGRAPHIE_UNIVERSELLE_TOM_X_ART_DAMILAVILLE" data-idx="13" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>MATHEMATICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 660-700 | 29,180 words</span>
+                <h3>Biographie Universelle, Tom. X. Art. Damilaville<span class="badge xref">Cross-ref &rarr; Biographie Universelle</span></h3>
+                <span class="meta">52 words</span>
             </div>
             <div class="article-content" id="content-13">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-NOTES_AND_ILLUSTRATIONS" data-idx="14" data-type="treatise">
+        <li class="article-item" id="article-LITERARY_UNDERTAKING" data-idx="14" data-type="article">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>NOTES AND ILLUSTRATIONS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 642-655 | 8,195 words</span>
+                <h3>Literary Undertaking</h3>
+                <span class="meta">229 words</span>
             </div>
             <div class="article-content" id="content-14">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-RICHARD_PRICE" data-idx="15" data-type="treatise">
+        <li class="article-item" id="article-BACK_MATTER" data-idx="15" data-type="back_matter">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>RICHARD PRICE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 587-588 | 390 words</span>
+                <h3>BACK MATTER</h3>
+                <span class="meta">1,305 words</span>
             </div>
             <div class="article-content" id="content-15">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-SPECULATIVE_MATHEMATICS" data-idx="16" data-type="treatise">
+        <li class="article-item" id="article-SIGNATURES" data-idx="16" data-type="article">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>SPECULATIVE MATHEMATICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 806-828 | 18,398 words</span>
+                <h3>Signatures</h3>
+                <span class="meta">178 words</span>
             </div>
             <div class="article-content" id="content-16">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-THOMAS_BROWN" data-idx="17" data-type="treatise">
+        <li class="article-item" id="article-SIGNATURES_APPLICATION" data-idx="17" data-type="article">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>THOMAS BROWN<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 620-626 | 4,575 words</span>
+                <h3>Signatures Application</h3>
+                <span class="meta">1,264 words</span>
             </div>
             <div class="article-content" id="content-17">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-WILLIAM_PALEY" data-idx="18" data-type="treatise">
+        <li class="article-item" id="article-INDEX" data-idx="18" data-type="article">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>WILLIAM PALEY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">pp. 598-602 | 2,916 words</span>
+                <h3>Index</h3>
+                <span class="meta">156 words</span>
             </div>
             <div class="article-content" id="content-18">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CORRECTIONS" data-idx="19" data-type="article">
+            <div class="article-header" onclick="toggleArticle(19)">
+                <h3>Corrections<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,162 words</span>
+            </div>
+            <div class="article-content" id="content-19">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BODIN" data-idx="20" data-type="article">
+            <div class="article-header" onclick="toggleArticle(20)">
+                <h3>BODIN</h3>
+                <span class="meta">57 words</span>
+            </div>
+            <div class="article-content" id="content-20">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MELANCHTHON" data-idx="21" data-type="article">
+            <div class="article-header" onclick="toggleArticle(21)">
+                <h3>MELANCHTHON</h3>
+                <span class="meta">114 words</span>
+            </div>
+            <div class="article-content" id="content-21">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BODIN" data-idx="22" data-type="article">
+            <div class="article-header" onclick="toggleArticle(22)">
+                <h3>BODIN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">322 words</span>
+            </div>
+            <div class="article-content" id="content-22">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DR_JOHNSON" data-idx="23" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(23)">
+                <h3>Dr. Johnson<span class="badge xref">Cross-ref &rarr; Rambler</span></h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-23">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BODIN" data-idx="24" data-type="article">
+            <div class="article-header" onclick="toggleArticle(24)">
+                <h3>BODIN</h3>
+                <span class="meta">501 words</span>
+            </div>
+            <div class="article-content" id="content-24">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EPIST_AD_CORDATUM" data-idx="25" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(25)">
+                <h3>Epist. ad Cordatum<span class="badge xref">Cross-ref &rarr; Bayle</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-25">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JORAN_S_LIFE_OF_ERASMUS" data-idx="26" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(26)">
+                <h3>JORAN&#x27;S Life of Erasmus<span class="badge xref">Cross-ref &rarr; Erasmus</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-26">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTE_E" data-idx="27" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(27)">
+                <h3>Note E<span class="badge xref">Cross-ref &rarr; E</span></h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-27">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIFE_OF_TYCHO_BRAHE" data-idx="28" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(28)">
+                <h3>Life of Tycho Brahe<span class="badge xref">Cross-ref &rarr; Tycho Brahe</span></h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-28">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BODIN" data-idx="29" data-type="article">
+            <div class="article-header" onclick="toggleArticle(29)">
+                <h3>BODIN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,670 words</span>
+            </div>
+            <div class="article-content" id="content-29">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1_CUM_MUNDUS_SENSIBILIS_SIT_ANIMA_RATIONALI_DIGNITATE_INFERIOR_VIDETUR_PO_SIS_H_C_HUMANAE_NATUR_LARGIRI_QU_HISTORIA_DENEGAT_ATQUE_ANIMO_UMBRIS_RERUM_UTCUMQUE_SATISFACERE_CUM_SOLIDA_HABERI_NON_POSSINT_SI_QUIS_ENIM_REM_ACUTISSIMAM_TROPICATAM_FIRMUM_EX_PO_SI_SUMITUR_ARGUMENTUM_MAGNITUDINEM_RER" data-idx="30" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(30)">
+                <h3>1 &quot;Cum mundus sensibilis sit anima rationali dignitate inferior, videtur Poësis hæc humanae naturæ largiri quæ historia denegat; atque animo umbris rerum utcumque satisfacere, cum solida haberi non possint. Si quis enim rem acutissimam tropicatam, firmum ex Poësi sumitur argumentum, magnitudinem rer<span class="badge xref">Cross-ref &rarr; Poetry</span></h3>
+                <span class="meta">164 words</span>
+            </div>
+            <div class="article-content" id="content-30">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_TO_THIS_BRANCH_OF_THE_PHILOSOPHY_OF_MIND_BACON_GIVES_THE_TITLE_OF_DOCTRINA_DE_FIDEBRE_SIVE_DE_COMMUNI_VINCULO_ANIM_ET_CORPORIS_DE_AUG_SCIENT_LIB_IV_CAP_I_UNDER_THIS_ARTICLE_HE_MENTIONS_AMONG_OTHER_DESIDERATA_AN_INQUIRY_WHICH_HE_RECOMMENDS_TO_PHYSICIANS_CONCERNING_THE_INFLUENCE_OF" data-idx="31" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(31)">
+                <h3>2 To this branch of the philosophy of mind, Bacon gives the title of Doctrina de fidebre, sive de communi vinculo animæ et corporis.—(De Aug. Scient. Lib. iv. cap. i.) Under this article, he mentions, among other desiderata, an inquiry (which he recommends to physicians) concerning the influence of <span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">352 words</span>
+            </div>
+            <div class="article-content" id="content-31">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WHILE_BACON_HOWEVER_SO_CAUTIOUSLY_AVOIDS_THESE_UNPROFITABLE_DISCUSSIONS_ABOUT_THE_NATURE_OF_MIND_HE_DECIDEDLY_STATES_HIS_CONVICTION_THAT_THE_FACULTIES_OF_MAN_DIFFER_NOT_MERELY_IN_DEGREE_BUT_IN_KIND_FROM_THE_INSTINCTS_OF_THE_BRUTES_I_DO_NOT_THEREFORE_HE_OBSERVES_ON_ONE_OCCASION_APPROVE_O" data-idx="32" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(32)">
+                <h3>While Bacon, however, so cautiously avoids these unprofitable discussions about the nature of Mind, he decidedly states his conviction, that the faculties of Man differ not merely in degree, but in kind, from the instincts of the brutes. &quot;I do not, therefore,&quot; he observes on one occasion, &quot;approve o<span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">86 words</span>
+            </div>
+            <div class="article-content" id="content-32">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AMONG_THE_VARIOUS_TOPICS_STARTED_BY_BACON_FOR_THE_CONSIDERATION_OF_FUTURE_LOGICIANS_HE_DID_NOT_OVERLOOK_WHAT_MAY_BE_JUSTLY_REGARDED_IN_A_PRACTICAL_VIEW_AS_THE_MOST_INTERESTING_OF_ALL_LOGICAL_PROBLEMS_THE_QUESTION_CONCERNING_THE_MUTUAL_INFLUENCE_OF_THOUGHT_AND_OF_LANGUAGE_ON_EACH_OTHER_MEN_BEL" data-idx="33" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(33)">
+                <h3>Among the various topics started by Bacon for the consideration of future logicians, he did not overlook (what may be justly regarded, in a practical view, as the most interesting of all logical problems) the question concerning the mutual influence of Thought and of Language on each other. &quot;Men bel<span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">147 words</span>
+            </div>
+            <div class="article-content" id="content-33">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_ANTICIPATIONS_FORMED_BY_BACON_OF_THAT_BRANCH_OF_MODERN_LOGIC_WHICH_RELATES_TO_UNIVERSAL_GRAMMAR_DO_NO_LESS_HONOUR_TO_HIS_SAGACITY_GRAMMAR_HE_OBSERVES_IS_OF_TWO_KINDS_THE_ONE_LITERARY_THE_OTHER_PHILOSOPHICAL_THE_FORMER_HAS_FOR_ITS_OBJECT_TO_TRACE_THE_ANALOGIES_RUNNING_THROUGH_THE_STRUC" data-idx="34" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(34)">
+                <h3>The anticipations formed by Bacon, of that branch of modern logic which relates to Universal Grammar, do no less honour to his sagacity. &quot;Grammar,&quot; he observes, &quot;is of two kinds, the one literary, the other philosophical. The former has for its object to trace the analogies running through the struc<span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">237 words</span>
+            </div>
+            <div class="article-content" id="content-34">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WITH_THESE_SOUND_AND_ENLARGED_VIEWS_CONCERNING_THE_PHILOSOPHY_OF_THE_MIND_IT_WILL_NOT_APPEAR_SURPRISING_TO_THOSE_WHO_HAVE_ATTENDED_TO_THE_SLOW_AND_IRREGULAR_ADVANCES_OF_HUMAN_REASON_THAT_BACON_SHOULD_OCCASIONALLY_BLEND_INCIDENTAL" data-idx="35" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(35)">
+                <h3>With these sound and enlarged views concerning the philosophy of the Mind, it will not appear surprising to those who have attended to the slow and irregular advances of human reason, that Bacon should occasionally blend incidental<span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">37 words</span>
+            </div>
+            <div class="article-content" id="content-35">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1_NOTWITHSTANDING_THE_EXTRAVAGANCE_OF_SPINOZA_S_OWN_PHILOSOPHICAL_CREED_HE_IS_ONE_OF_THE_VERY_FEW_AMONG_BACON_S_SUCCESSORS_WHO_SEEM_TO_HAVE_BEEN_FULLY_AWARE_OF_THE_JUSTNESS_IMPORTANCE_AND_ORIGINALITY_OF_THE_METHOD_POINTED_OUT_IN_THE_NOVUM_ORGANUM_FOR_THE_STUDY_OF_THE_MIND" data-idx="36" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(36)">
+                <h3>1 Notwithstanding the extravagance of Spinoza&#x27;s own philosophical creed, he is one of the very few among Bacon&#x27;s successors, who seem to have been fully aware of the justness, importance, and originality of the method pointed out in the Novum Organum for the study of the Mind.<span class="badge xref">Cross-ref &rarr; Bacon</span></h3>
+                <span class="meta">1,430 words</span>
+            </div>
+            <div class="article-content" id="content-36">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1_EXEMPLUM_TRACTATUS_DE_FONTIBUS_JURIS_APHOR_5" data-idx="37" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(37)">
+                <h3>1 Exemplum Tractatus de Fontibus Juris, Aphor. 5.<span class="badge xref">Cross-ref &rarr; Smith&#x27;s ideas on the same subject, as expressed by himself in the concluding sentence of his Theory of Moral Sentiments.</span></h3>
+                <span class="meta">97 words</span>
+            </div>
+            <div class="article-content" id="content-37">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_DE_AUG_SCIENT_LIB_VIII_CAP_III" data-idx="38" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(38)">
+                <h3>2 De Aug. Scient. Lib. viii. cap. iii.<span class="badge xref">Cross-ref &rarr; De Aug. Scient. Lib. viii. cap. iii.</span></h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-38">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-3_DE_FONTIBUS_JURIS_APHOR_6" data-idx="39" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(39)">
+                <h3>3 De Fontibus Juris, Aphor. 6.<span class="badge xref">Cross-ref &rarr; De Fontibus Juris, Aphor. 6.</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-39">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FROM_THE_PREFACE_TO_A_SMALL_TRACT_OF_BACON_S_ENTITLED_THE_ELEMENTS_OF_THE_COMMON_LAWS_OF_ENGLAND_WRITTEN_WHILE_HE_WAS_SOLICITOR_GENERAL_TO_QUEEN_ELIZABETH_WE_LEARN_THAT_THE_PHRASE_LEGES_LEGUM_HAD_BEEN_PREVIOUSLY_USED_BY_SOME_GREAT_CIVILIAN" data-idx="40" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(40)">
+                <h3>From the preface to a small tract of Bacon&#x27;s entitled, The Elements of the Common Laws of England, written while he was Solicitor-General to Queen Elizabeth, we learn, that the phrase leges legum had been previously used by some “great civilian.”<span class="badge xref">Cross-ref &rarr; Bacon&#x27;s tract</span></h3>
+                <span class="meta">299 words</span>
+            </div>
+            <div class="article-content" id="content-40">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_SAGACITY_HOWEVER_DISPLAYED_IN_THESE_AND_VARIOUS_OTHER_PASSAGES_OF_A_SIMILAR_IMPORT_CAN_BY_NO_MEANS_BE_DULY_APPRECIATED_WITHOUT_ATTENDING_AT_THE_SAME_TIME_TO_THE_CAUTIOUS_AND_TEMPERATE_MAXIMS_SO_FREQUENTLY_INCULCATED_BY_THE_AUTHOR_ON_THE_SUBJECT_OF_POLITICAL_INNOVATION" data-idx="41" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(41)">
+                <h3>The sagacity, however, displayed in these, and various other passages of a similar import, can by no means be duly appreciated, without attending, at the same time, to the cautious and temperate maxims so frequently inculcated by the author, on the subject of political innovation.<span class="badge xref">Cross-ref &rarr; Bacon&#x27;s maxims</span></h3>
+                <span class="meta">152 words</span>
+            </div>
+            <div class="article-content" id="content-41">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_REMARK_OF_BACON_ON_THE_SYSTEMATICAL_POLICY_OF_HENRY_VII_WAS_MANIFESTLY_SUGGESTED_BY_THE_SAME_TRAIN_OF_THINKING" data-idx="42" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(42)">
+                <h3>The remark of Bacon on the systematical policy of Henry VII. was manifestly suggested by the same train of thinking.<span class="badge xref">Cross-ref &rarr; Bacon&#x27;s remark</span></h3>
+                <span class="meta">6,017 words</span>
+            </div>
+            <div class="article-content" id="content-42">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1" data-idx="43" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(43)">
+                <h3>1<span class="badge xref">Cross-ref &rarr; The Intellectual System was published in 1670. The Treatise concerning Eternal and Immutable Morality did not appear till a considerable number of years after the author&#x27;s death.</span></h3>
+                <span class="meta">92 words</span>
+            </div>
+            <div class="article-content" id="content-43">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2" data-idx="44" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(44)">
+                <h3>2<span class="badge xref">Cross-ref &rarr; In a note annexed to an English translation of the Cardinal Maury&#x27;s Principles of Eloquence, it is stated, upon the authority of a manuscript of Dr Doddridge, that most of Barrow&#x27;s sermons were transcribed three times, and some much oftener. They seem to me to contain very strong intrinsic evidenc</span></h3>
+                <span class="meta">72 words</span>
+            </div>
+            <div class="article-content" id="content-44">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-3" data-idx="45" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(45)">
+                <h3>3<span class="badge xref">Cross-ref &rarr; Of these two opposite and irreconcilable opinions, the latter is incomparably the least wide of the truth; and accordingly Mr Locke, and his innumerable followers, both in England and on the Continent, have maintained, that virtue and an enlightened self-love are one and the same. I shall afterwards</span></h3>
+                <span class="meta">192 words</span>
+            </div>
+            <div class="article-content" id="content-45">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-4" data-idx="46" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(46)">
+                <h3>4<span class="badge xref">Cross-ref &rarr; The name of Wilkins (although he too wrote with some reputation against the Epicureans of his day), is now remembered chiefly in consequence of his treatises concerning a universal language and a real character. Of these treatises, I shall hereafter have occasion to take some notice, under a differe</span></h3>
+                <span class="meta">100 words</span>
+            </div>
+            <div class="article-content" id="content-46">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-5" data-idx="47" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(47)">
+                <h3>5<span class="badge xref">Cross-ref &rarr; A few years before the death of Hobbes, Dr Cumberland (afterwards Bishop of Peterborough) published a book, entitled, De Legibus Naturae, Disquisitio Philosophica; the principal aim of which was to confirm and illustrate, in opposition to Hobbes, the conclusions of Grotius, concerning Natural Law. T</span></h3>
+                <span class="meta">214 words</span>
+            </div>
+            <div class="article-content" id="content-47">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-6" data-idx="48" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(48)">
+                <h3>6<span class="badge xref">Cross-ref &rarr; From the writings of Hobbes to those of Locke, the transition is easy and obvious; but before prosecuting farther the history of philosophy in England, it will be proper to turn our attention to its progress abroad, since the period at which this section commences. In the first place, however, I sha</span></h3>
+                <span class="meta">83 words</span>
+            </div>
+            <div class="article-content" id="content-48">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-7" data-idx="49" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(49)">
+                <h3>7<span class="badge xref">Cross-ref &rarr; Among these events, that which is most immediately connected with our present subject, is the establishment of the Royal Society of London in 1662, which was followed a few years afterwards by that of the Royal Academy of Sciences at Paris. The professed object of both institutions was the improveme</span></h3>
+                <span class="meta">144 words</span>
+            </div>
+            <div class="article-content" id="content-49">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-8" data-idx="50" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(50)">
+                <h3>8<span class="badge xref">Cross-ref &rarr; The chief advantage of learned societies, is the philosophical spirit to which they may be expected to give birth, and which they cannot fail to diffuse over all the various pursuits of the nations among whom they are established. The insulated scholar may without dread abandon himself to the spiri</span></h3>
+                <span class="meta">255 words</span>
+            </div>
+            <div class="article-content" id="content-50">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-9" data-idx="51" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(51)">
+                <h3>9<span class="badge xref">Cross-ref &rarr; In confirmation of these judicious remarks, it</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1" data-idx="52" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>1<span class="badge xref">Cross-ref &rarr; Throughout the whole of this Discourse, I have avoided touching on the discussions which, on various occasions, have arisen with regard to the theory of government, and the comparative advantages or disadvantages of different political forms.</span></h3>
+                <span class="meta">217 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2" data-idx="53" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>2<span class="badge xref">Cross-ref &rarr; A remark which Hume has elsewhere made on the Oceana, appears to me so striking and so instructive, that I shall give it a place in this note.</span></h3>
+                <span class="meta">110 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-3" data-idx="54" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>3<span class="badge xref">Cross-ref &rarr; How much nearer the truth, even in the science of politics, is Bacon&#x27;s cardinal principle, that knowledge is power!—a principle, which applies to Man not less in his corporate than in his individual capacity; and which may be safely trusted to as the most solid of all foundations for our reasonings</span></h3>
+                <span class="meta">58 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-4" data-idx="55" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>4<span class="badge xref">Cross-ref &rarr; The Royal Society of London, though not incorporated by charter till 1662, may be considered as virtually existing, at least as far back as 1638, when some of the most eminent of the original members began first to hold regular meetings at Gresham College, for the purpose of philosophical discussi</span></h3>
+                <span class="meta">864 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PROGRESS_OF_PHILOSOPHY_IN_FRANCE_DURING_THE_SEVENTEENTH_CENTURY" data-idx="56" data-type="article">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>Progress of Philosophy in France during the Seventeenth Century.</h3>
+                <span class="meta">3,175 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEATTIE_S_ESSAY_ON_FABLE_AND_ROMANCE" data-idx="57" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>Beattie&#x27;s Essay on Fable and Romance<span class="badge xref">Cross-ref &rarr; Beattie&#x27;s Essay on Fable and Romance</span></h3>
+                <span class="meta">13,507 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_SEE_HIS_DICTIONARY_ARTICLE_AMELIUS" data-idx="58" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>2. See his Dictionary, article Amelius.<span class="badge xref">Cross-ref &rarr; Amelius</span></h3>
+                <span class="meta">5,055 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_EDITION_OF_PUFFENDORFF_DE_OFFICIO_HOMINIS_ET_CIVIS_BY_PROFESSOR_GERSCHOM_CARMICHAEL" data-idx="59" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>See the edition of Puffendorff, De Officio Hominis et Civis, by Professor Gerschom Carmichael<span class="badge xref">Cross-ref &rarr; Puffendorff</span></h3>
+                <span class="meta">79 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_EDITION_OF_PUFFENDORFF_DE_OFFICIO_HOMINIS_ET_CIVIS_BY_PROFESSOR_GERSCHOM_CARMICHAEL" data-idx="60" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>See the edition of Puffendorff, De Officio Hominis et Civis, by Professor Gerschom Carmichael<span class="badge xref">Cross-ref &rarr; Puffendorff</span></h3>
+                <span class="meta">149 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_EDITION_OF_PUFFENDORFF_DE_OFFICIO_HOMINIS_ET_CIVIS_BY_PROFESSOR_GERSCHOM_CARMICHAEL" data-idx="61" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>See the edition of Puffendorff, De Officio Hominis et Civis, by Professor Gerschom Carmichael<span class="badge xref">Cross-ref &rarr; Puffendorff</span></h3>
+                <span class="meta">287 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_EDITION_OF_PUFFENDORFF_DE_OFFICIO_HOMINIS_ET_CIVIS_BY_PROFESSOR_GERSCHOM_CARMICHAEL" data-idx="62" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>See the edition of Puffendorff, De Officio Hominis et Civis, by Professor Gerschom Carmichael<span class="badge xref">Cross-ref &rarr; Puffendorff</span></h3>
+                <span class="meta">248 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_EDITION_OF_PUFFENDORFF_DE_OFFICIO_HOMINIS_ET_CIVIS_BY_PROFESSOR_GERSCHOM_CARMICHAEL" data-idx="63" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>See the edition of Puffendorff, De Officio Hominis et Civis, by Professor Gerschom Carmichael<span class="badge xref">Cross-ref &rarr; Puffendorff</span></h3>
+                <span class="meta">17,921 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE" data-idx="64" data-type="article">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>Locke<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,435 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEIBNITZ" data-idx="65" data-type="article">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>LEIBNITZ.<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,070 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_SOME_FINE_VERSES_ON_THESE_BUSTS_IN_A_POEM_CALLED_THE_GROTTO_BY_MATTHEW_GREEN" data-idx="66" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>See some fine verses on these busts in a poem called the Grotto, by Matthew Green.<span class="badge xref">Cross-ref &rarr; Matthew Green</span></h3>
+                <span class="meta">95 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_MOSHEIM_S_TRANSL_OF_CUDWORTH_TOM_II_P_356" data-idx="67" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>See Mosheim&#x27;s Transl. of Cudworth, Tom. II. p. 356.<span class="badge xref">Cross-ref &rarr; Mosheim&#x27;s Transl. of Cudworth</span></h3>
+                <span class="meta">279 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FIRST_PART_OF_THIS_DISSERTATION_NOTE_I" data-idx="68" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>First Part of this Dissertation, Note I<span class="badge xref">Cross-ref &rarr; Locke&#x27;s Essay, Book ii. Chap. 13. §§ 16, 17, 18</span></h3>
+                <span class="meta">1,552 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DR_REID_S_OPINION_ON_THIS_POINT_COINCIDES_EXACTLY_WITH_THAT_OF_CLARKE" data-idx="69" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>Dr Reid&#x27;s opinion on this point coincides exactly with that of Clarke<span class="badge xref">Cross-ref &rarr; his Essays on the Active Powers of Man, (p. 289, 4th Edition)</span></h3>
+                <span class="meta">44 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BORN_1632_DIED_1677" data-idx="70" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>Born 1632, died 1677<span class="badge xref">Cross-ref &rarr; Bayle</span></h3>
+                <span class="meta">76 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IT_IS_ASSERTED_BY_A_LATE_GERMAN_WRITER" data-idx="71" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>It is asserted by a late German writer<span class="badge xref">Cross-ref &rarr; Spinoza</span></h3>
+                <span class="meta">75 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IS_IT_POSSIBLE_THAT_AN_AUTHOR_WHO_PRONOUNCES_SO_DOGMATICALLY_UPON_THE_PHILOSOPHY_OF_ENGLAND_SHOULD_NEVER_HAVE_HEARD_THE_NAME_OF_DR_CLARKE" data-idx="72" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>Is it possible that an author who pronounces so dogmatically upon the philosophy of England, should never have heard the name of Dr Clarke?<span class="badge xref">Cross-ref</span></h3>
+                <span class="meta">1,441 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAYLE" data-idx="73" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>Bayle<span class="badge xref">Cross-ref &rarr; Gibbon&#x27;s Memoirs</span></h3>
+                <span class="meta">2,144 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FONTENELLE" data-idx="74" data-type="article">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>FONTENELLE</h3>
+                <span class="meta">86 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTE_Q_Q" data-idx="75" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(75)">
+                <h3>Note Q.Q.<span class="badge xref">Cross-ref &rarr; Q.Q.</span></h3>
+                <span class="meta">1,183 words</span>
+            </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE" data-idx="76" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>Locke<span class="badge xref">Cross-ref &rarr; Locke</span></h3>
+                <span class="meta">23 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE" data-idx="77" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>Locke<span class="badge xref">Cross-ref &rarr; Locke</span></h3>
+                <span class="meta">298 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WEALTH_OF_NATIONS" data-idx="78" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>Wealth of Nations<span class="badge xref">Cross-ref &rarr; Wealth of Nations</span></h3>
+                <span class="meta">209 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POLITICAL_FRAGMENTS" data-idx="79" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>Political Fragments<span class="badge xref">Cross-ref &rarr; Franklin</span></h3>
+                <span class="meta">45 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-UNTITLED" data-idx="80" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>UNTITLED<span class="badge xref">Cross-ref &rarr; James Hutton</span></h3>
+                <span class="meta">70 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SERMONS" data-idx="81" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>Sermons<span class="badge xref">Cross-ref &rarr; Trinity College, Dublin</span></h3>
+                <span class="meta">183 words</span>
+            </div>
+            <div class="article-content" id="content-81">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERKELEY_S_THEORY" data-idx="82" data-type="article">
+            <div class="article-header" onclick="toggleArticle(82)">
+                <h3>Berkeley&#x27;s Theory</h3>
+                <span class="meta">53 words</span>
+            </div>
+            <div class="article-content" id="content-82">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HARTLEIAN_SCHOOL" data-idx="83" data-type="article">
+            <div class="article-header" onclick="toggleArticle(83)">
+                <h3>Hartleian School</h3>
+                <span class="meta">1,007 words</span>
+            </div>
+            <div class="article-content" id="content-83">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENIAL_ANALYTIQUE_DE_L_AME" data-idx="84" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(84)">
+                <h3>Enial Analytique de l&#x27;Ame<span class="badge xref">Cross-ref &rarr; Contemplation de la Nature</span></h3>
+                <span class="meta">2,921 words</span>
+            </div>
+            <div class="article-content" id="content-84">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHILOSOPHY" data-idx="85" data-type="article">
+            <div class="article-header" onclick="toggleArticle(85)">
+                <h3>PHILOSOPHY</h3>
+                <span class="meta">111 words</span>
+            </div>
+            <div class="article-content" id="content-85">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELEMENTS_OF_THE_PHILOSOPHY_OF_THE_HUMAN_MIND" data-idx="86" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(86)">
+                <h3>Elements of the Philosophy of the Human Mind<span class="badge xref">Cross-ref &rarr; PHILOSOPHY</span></h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-86">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ROUSSEAU" data-idx="87" data-type="article">
+            <div class="article-header" onclick="toggleArticle(87)">
+                <h3>ROUSSEAU</h3>
+                <span class="meta">109 words</span>
+            </div>
+            <div class="article-content" id="content-87">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHILOSOPHY" data-idx="88" data-type="article">
+            <div class="article-header" onclick="toggleArticle(88)">
+                <h3>PHILOSOPHY</h3>
+                <span class="meta">101 words</span>
+            </div>
+            <div class="article-content" id="content-88">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEIBNITZ" data-idx="89" data-type="article">
+            <div class="article-header" onclick="toggleArticle(89)">
+                <h3>LEIBNITZ</h3>
+                <span class="meta">53 words</span>
+            </div>
+            <div class="article-content" id="content-89">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HUARTE" data-idx="90" data-type="article">
+            <div class="article-header" onclick="toggleArticle(90)">
+                <h3>HUARTE</h3>
+                <span class="meta">136 words</span>
+            </div>
+            <div class="article-content" id="content-90">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VAUVENARGUES" data-idx="91" data-type="article">
+            <div class="article-header" onclick="toggleArticle(91)">
+                <h3>VAUVENARGUES</h3>
+                <span class="meta">164 words</span>
+            </div>
+            <div class="article-content" id="content-91">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REID" data-idx="92" data-type="article">
+            <div class="article-header" onclick="toggleArticle(92)">
+                <h3>REID</h3>
+                <span class="meta">51 words</span>
+            </div>
+            <div class="article-content" id="content-92">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHILIP" data-idx="93" data-type="article">
+            <div class="article-header" onclick="toggleArticle(93)">
+                <h3>PHILIP<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,322 words</span>
+            </div>
+            <div class="article-content" id="content-93">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_A_REVIEW_OF_THE_PRINCIPAL_QUESTIONS_AND_DIFFICULTIES_RELATING_TO_MORALS_BY_RICHARD_PRICE_D_D_LONDON_1758" data-idx="94" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(94)">
+                <h3>See a review of the Principal Questions and Difficulties relating to Morals, by Richard Price, D.D. London, 1758.<span class="badge xref">Cross-ref &rarr; Principal Questions and Difficulties relating to Morals</span></h3>
+                <span class="meta">1,007 words</span>
+            </div>
+            <div class="article-content" id="content-94">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1_SEE_SOME_VERY_VALUABLE_STRICTURES_ON_KANT_IN_THE_LEARNED_AND_ELEGANT_SKETCH_OF_THE_PRESENT_STATE_OF_PHILOSOPHY_SUBJOINED_TO_MR_PREVOST_S_FRENCH_TRANSLATION_OF_MR_SMITH_S_POSTHUMOUS_WORKS_THE_LATIN_PANEGYRIC_ON_THE_CRITICAL_PHILOSOPHY_IS_QUOTED_FROM_A_WORK_WITH_WHICH_I_AM_UNACQUAINTED_FRED_GO" data-idx="95" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(95)">
+                <h3>1 See some very valuable strictures on Kant, in the learned and elegant sketch of the present state of philosophy, subjoined to Mr. Prevost&#x27;s French translation of Mr Smith&#x27;s posthumous works. The Latin panegyric on the critical philosophy is quoted from a work with which I am unacquainted, Fred. Go<span class="badge xref">Cross-ref &rarr; Kant</span></h3>
+                <span class="meta">55 words</span>
+            </div>
+            <div class="article-content" id="content-95">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_ON_THIS_SUBJECT_SEE_DEGERANDO_TOM_II_P_333" data-idx="96" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(96)">
+                <h3>2 On this subject, see DEGERANDO, Tom. II. p. 333.<span class="badge xref">Cross-ref &rarr; DEGERANDO</span></h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-96">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-3_SEE_DEGERANDO_AND_DE_BONALD" data-idx="97" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(97)">
+                <h3>3 See DEGERANDO and DE BONALD.<span class="badge xref">Cross-ref &rarr; DEGERANDO and DE BONALD</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-97">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OF_THIS_LAST_PERFORMANCE_ROUSSEAU_IS_REPORTED_TO_HAVE_SAID_VOILA_L_UNIQUE_CRIT_PUBLIC_CONTRE_MOI_QUE_J_AI_TROUV_DIGNE_D_TRE_LU_EN_ENTIER_NOUVEAU_DICT_HIST_ARTICLE_GERDL_IN_THE_SAME_ARTICLE_A_REFERENCE_IS_MADE_TO_A_PUBLIC_DISCOURSE_OF_THE_CELEBRATED_M_MAIRAN_OF_THE_ACADEMY_OF_SCIENC" data-idx="98" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(98)">
+                <h3>Of this last performance, Rousseau is reported to have said, &quot;Voila l’unique écrit public contre moi que j’ai trouvé digne d’être lu en entier.&quot; (*Nouveau Dict. Hist.* article Gerdl.) In the same article, a reference is made to a public discourse of the celebrated M. Mairan, of the Academy of Scienc<span class="badge xref">Cross-ref &rarr; Rousseau</span></h3>
+                <span class="meta">80 words</span>
+            </div>
+            <div class="article-content" id="content-98">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_BORN_1712_DIED_1769" data-idx="99" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(99)">
+                <h3>2 Born 1712, died 1769.<span class="badge xref">Cross-ref &rarr; 1712</span></h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-99">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REVUE_ENCYCLOP_DIQUE_OU_ANALES_RAISONN_S_DES_PRODUCTIONS_LES_PLUS_REMARQUABLES_DANS_LA_LITT_RATURE_LES_SCIENCES_ET_LES_ARTS_I_VOL_3ME_LIVRAISON_P_515_PARIS_MARS_1819_THE_WRITER_OF_THE_ARTICLE_QUOTED_IN_THE_TEXT_IS_M_SARPI_AN_ITALIAN_BY_BIRTH_WHO_AFTER_HAVING_DISTINGUISHED_HIMSELF_BY" data-idx="100" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(100)">
+                <h3>*Revue Encyclopédique, ou Anales Raisonnés des Productions les plus Remarquables dans la Littérature, les Sciences, et les Arts.* I Vol. 3me livraison, p. 515. Paris, Mars 1819. (The writer of the article quoted in the text is M. Sarpi, an Italian by birth, who, after having distinguished himself by<span class="badge xref">Cross-ref &rarr; Revue Encyclopédique</span></h3>
+                <span class="meta">146 words</span>
+            </div>
+            <div class="article-content" id="content-100">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GENOVESI_IS_CONSIDERED_BY_AN_HISTORIAN_OF_HIGH_REPUTATION_AS_THE_REFORMER_OF_ITALIAN_PHILOSOPHY_IF_THE_EXECUTION_OF_HIS_TREATISE_ON_LOGIC_CORRESPONDS_AT_ALL_TO_THE_ENLIGHTENED_VIEWS_WITH_WHICH_THE_DESIGN_SEEMS_TO_HAVE_BEEN_CONCEIVED_IT_CANNOT_FAIL_TO_BE_A_WORK_OF_MUCH_PRACTICAL_UTILITY_MA_CH" data-idx="101" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(101)">
+                <h3>Genovesi is considered, by an historian of high reputation, as the reformer of Italian philosophy. If the execution of his *Treatise on Logic* corresponds at all to the enlightened views with which the design seems to have been conceived, it cannot fail to be a work of much practical utility. &quot;Ma ch&quot;<span class="badge xref">Cross-ref &rarr; Genovesi</span></h3>
+                <span class="meta">274 words</span>
+            </div>
+            <div class="article-content" id="content-101">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_SCIENCES_OF_ETHICS_AND_OF_POLITICAL_ECONOMY_SEEM_TO_BE_MORE_SUITED_TO_THE_TASTE_OF_THE_MODERN_ITALIANS_THAN_LOGIC_OR_METAPHYSICS_PROPERLY_SO_CALLED_AND_IN_THE_TWO_FORMER_BRANCHES_OF_KNOWLEDGE_THEY_HAVE_CERTAINLY_CONTRIBUTED_MUCH_TO_THE_INSTRUCTION_AND_IMPROVEMENT_OF_THE_EIGHTEENTH_CENTURY" data-idx="102" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(102)">
+                <h3>The sciences of ethics, and of political economy, seem to be more suited to the taste of the modern Italians, than logic or metaphysics, properly so called. And in the two former branches of knowledge, they have certainly contributed much to the instruction and improvement of the eighteenth century.<span class="badge xref">Cross-ref &rarr; Italians</span></h3>
+                <span class="meta">60 words</span>
+            </div>
+            <div class="article-content" id="content-102">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IN_THE_NEW_WORLD_THE_STATE_OF_SOCIETY_AND_OF_MANNERS_HAS_NOT_HITHERTO_BEEN_SO_FAVOURABLE_TO_ABSTRACT_SCIENCE_AS_TO_PURSUITS_WHICH_COME_HOME_DIRECTLY_TO_THE_BUSINESS_OF_HUMAN_LIFE_THERE_IS_HOWEVER_ONE_METAPHYSICIAN_OF_WHOM_AMERICA_HAS_TO_BOAST_WHO_IN_LOGICAL_ACUTENESS_AND_SUBTILTY_DOES_NOT_YIE" data-idx="103" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(103)">
+                <h3>In the New World, the state of society and of manners has not hitherto been so favourable to abstract science as to pursuits which come home directly to the business of human life. There is, however, one metaphysician of whom America has to boast, who, in logical acuteness and subtilty, does not yie<span class="badge xref">Cross-ref &rarr; America</span></h3>
+                <span class="meta">180 words</span>
+            </div>
+            <div class="article-content" id="content-103">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IN_THE_MEAN_TIME_A_NEW_AND_UNEXPECTED_MINE_OF_INTELLECTUAL_WEALTH_HAS_BEEN_OPENED_TO_THE_LEARNED_OF_EUROPE_IN_THOSE_REGIONS_OF_THE_EAST_WHICH_ALTHOUGH_IN_ALL_PROBABILITY_THE_CRADLE_OF_CIVILISATION_AND_SCIENCE_WERE_TILL_VERY_LATELY_BETTER_KNOWN_IN_THE_ANNALS_OF_COMMERCE_THAN_OF_PHILOSOPHY_THE" data-idx="104" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(104)">
+                <h3>In the mean time, a new and unexpected mine of intellectual wealth has been opened to the learned of Europe, in those regions of the East, which, although in all probability the cradle of civilisation and science, were, till very lately, better known in the annals of commerce than of philosophy. The<span class="badge xref">Cross-ref &rarr; East</span></h3>
+                <span class="meta">163 words</span>
+            </div>
+            <div class="article-content" id="content-104">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TO_THESE_REMAINS_OF_ANCIENT_SCIENCE_IN_THE" data-idx="105" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(105)">
+                <h3>To these remains of ancient science in the<span class="badge xref">Cross-ref &rarr; ancient science</span></h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-105">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1_SEE_A_MOST_INTERESTING_ACCOUNT_OF_GALILEO_S_TASTE_FOR_POETRY_AND_POLITE_LITERATURE_IN_GINGUEN_HISTOIRE_LITT_RAIRE_D_ITALIE_TOME_V_PP_331_ET_SEQ_PARIS_1812" data-idx="106" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(106)">
+                <h3>1 See a most interesting account of Galileo&#x27;s taste for poetry and polite literature in Ginguené, Histoire Littéraire d&#x27;Italie. Tome V. pp. 331, et seq. à Paris, 1812.<span class="badge xref">Cross-ref &rarr; Ginguené, Histoire Littéraire d&#x27;Italie</span></h3>
+                <span class="meta">28 words</span>
+            </div>
+            <div class="article-content" id="content-106">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2_WHILE_THIS_DISSERTATION_WAS_IN_THE_PRESS_I_RECEIVED_A_NEW_AMERICAN_PUBLICATION_ENTITLED_TRANSACTIONS_OF_THE_HISTORICAL_AND_LITERARY_COMMITTEE_OF_THE_AMERICAN_PHILOSOPHICAL_SOCIETY_HELD_AT_PHILADELPHIA_FOR_PROMOTING_USEFUL_KNOWLEDGE_VOL_I_PHILADELPHIA_1819_FROM_AN_ADVERTISEMENT_PREFIXED" data-idx="107" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(107)">
+                <h3>2 While this Dissertation was in the press, I received a new American publication, entitled, &quot;Transactions of the Historical and Literary Committee of the American Philosophical Society, held at Philadelphia, for Promoting Useful Knowledge,&quot; Vol. I. Philadelphia, 1819. From an advertisement prefixed<span class="badge xref">Cross-ref &rarr; Transactions of the Historical and Literary Committee of the American Philosophical Society</span></h3>
+                <span class="meta">203 words</span>
+            </div>
+            <div class="article-content" id="content-107">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_RAPID_PROGRESS_WHICH_THE_AMERICANS_HAVE_LATELY_MADE_IN_THE_ART_OF_WRITING_HAS_BEEN_REMARKED_BY_VARIOUS_CRITICS_AND_IT_IS_CERTAINLY_A_VERY_IMPORTANT_FACT_IN_THE_HISTORY_OF_THEIR_LITERATURE_THEIR_STATE_PAPERS_WERE_INDEED_ALWAYS_DISTINGUISHED_BY_A_STRAIN_OF_ANIMATED_AND_VIGOROUS_ELOQUENCE_BUT" data-idx="108" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(108)">
+                <h3>The rapid progress which the Americans have lately made in the art of writing has been remarked by various critics, and it is certainly a very important fact in the history of their literature. Their state papers were, indeed, always distinguished by a strain of animated and vigorous eloquence; but <span class="badge xref">Cross-ref &rarr; American Philosophical Society</span></h3>
+                <span class="meta">175 words</span>
+            </div>
+            <div class="article-content" id="content-108">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTE_OF_MASON_ON_A_LETTER_OF_GRAY_S_TO_DR_WHARTON_ON_THE_DEATH_OF_DR_MIDDLETON_EAST_THE_ATTENTION_OF_EUROPE_WAS_FIRST_CALLED_BY_BERNIER_A_MOST_INTELLIGENT_AND_AUTHENTIC_TRAVELLER_OF_WHOM_I_FORMERLY_TOOK_NOTICE_AS_A_FAVOURITE_PUPIL_OF_GASSENDI_BUT_IT_IS_CHIEFLY_BY_OUR_OWN_COUNTRYMEN_THAT_THE" data-idx="109" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(109)">
+                <h3>* Note of Mason on a Letter of Gray&#x27;s to Dr Wharton, on the death of Dr Middleton. East, the attention of Europe was first called by Bernier, a most intelligent and authentic traveller, of whom I formerly took notice as a favourite pupil of Gassendi. But it is chiefly by our own countrymen that the <span class="badge xref">Cross-ref &rarr; Bernier</span></h3>
+                <span class="meta">92 words</span>
+            </div>
+            <div class="article-content" id="content-109">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MUCH_MORE_HOWEVER_MAY_BE_YET_EXPECTED_IF_SUCH_A_PRODIGY_AS_SIR_WILLIAM_JONES_SHOULD_AGAIN_APPEAR_UNITING_IN_AS_MIRACULOUS_A_DEGREE_THE_GIFT_OF_TONGUES_WITH_THE_SPIRIT_OF_PHILOSOPHY_THE_STRUCTURE_OF_THE_SANSCRIT_IN_ITSELF_INDEPENDENTLY_OF_THE_TREASURES_LOCKED_UP_IN_IT_AFFORDS_ONE_OF_THE_MOS" data-idx="110" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(110)">
+                <h3>Much more, however, may be yet expected, if such a prodigy as Sir William Jones should again appear, uniting, in as miraculous a degree, the gift of tongues with the spirit of philosophy. The structure of the Sanscrit, in itself, independently of the treasures locked up in it, affords one of the mos<span class="badge xref">Cross-ref &rarr; Sir William Jones</span></h3>
+                <span class="meta">276 words</span>
+            </div>
+            <div class="article-content" id="content-110">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LETTER_FROM_THE_REVEREND_DAVID_BROWN" data-idx="111" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(111)">
+                <h3>Letter from the Reverend David Brown<span class="badge xref">Cross-ref &rarr; Note B B B</span></h3>
+                <span class="meta">964 words</span>
+            </div>
+            <div class="article-content" id="content-111">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WARBURTON_S_DIVINE_LEGATION_OF_MOSES_DEMONSTRATED" data-idx="112" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(112)">
+                <h3>Warburton&#x27;s Divine Legation of Moses demonstrated<span class="badge xref">Cross-ref &rarr; Moses</span></h3>
+                <span class="meta">362 words</span>
+            </div>
+            <div class="article-content" id="content-112">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-APPENDIX_TO_THE_FIRST_PART_OF_THE_INQUIRY_INTO_THE_NATURE_OF_THE_HUMAN_SOUL" data-idx="113" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(113)">
+                <h3>Appendix to the first part of the Inquiry into the Nature of the Human Soul<span class="badge xref">Cross-ref &rarr; Human Soul</span></h3>
+                <span class="meta">317 words</span>
+            </div>
+            <div class="article-content" id="content-113">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ADVERTISEMENT" data-idx="114" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(114)">
+                <h3>Advertisement<span class="badge xref">Cross-ref &rarr; Essays and Treatises</span></h3>
+                <span class="meta">2,211 words</span>
+            </div>
+            <div class="article-content" id="content-114">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_THE_PASSAGE_QUOTED_FROM_BAYLE_IN_PAGE_86_OF_THIS_DISSERTATION" data-idx="115" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(115)">
+                <h3>See the passage quoted from Bayle, in page 86 of this Dissertation.<span class="badge xref">Cross-ref &rarr; Bayle</span></h3>
+                <span class="meta">3,941 words</span>
+            </div>
+            <div class="article-content" id="content-115">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MEMOIRS_OF_THE_LIFE_AND_WRITINGS_OF_LORD_KAMES" data-idx="116" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(116)">
+                <h3>Memoirs of the Life and Writings of Lord Kames<span class="badge xref">Cross-ref &rarr; Lord Kames</span></h3>
+                <span class="meta">161 words</span>
+            </div>
+            <div class="article-content" id="content-116">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DR_BUTLER" data-idx="117" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(117)">
+                <h3>Dr Butler<span class="badge xref">Cross-ref &rarr; Butler</span></h3>
+                <span class="meta">555 words</span>
+            </div>
+            <div class="article-content" id="content-117">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MEMOIRS_OF_THE_LIFE_AND_WRITINGS_OF_LORD_KAMES" data-idx="118" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(118)">
+                <h3>Memoirs of the Life and Writings of Lord Kames<span class="badge xref">Cross-ref &rarr; Memoirs of the Life and Writings of Lord Kames</span></h3>
+                <span class="meta">6,134 words</span>
+            </div>
+            <div class="article-content" id="content-118">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="119" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(119)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Gray</span></h3>
+                <span class="meta">297 words</span>
+            </div>
+            <div class="article-content" id="content-119">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="120" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(120)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Lord Bacon</span></h3>
+                <span class="meta">195 words</span>
+            </div>
+            <div class="article-content" id="content-120">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="121" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(121)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Mr Godwin&#x27;s Inquiry</span></h3>
+                <span class="meta">400 words</span>
+            </div>
+            <div class="article-content" id="content-121">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="122" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(122)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Ibid.</span></h3>
+                <span class="meta">78 words</span>
+            </div>
+            <div class="article-content" id="content-122">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="123" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(123)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Port Royal Society</span></h3>
+                <span class="meta">99 words</span>
+            </div>
+            <div class="article-content" id="content-123">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="124" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(124)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Mr Gibbon</span></h3>
+                <span class="meta">261 words</span>
+            </div>
+            <div class="article-content" id="content-124">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="125" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(125)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; M. Degerando</span></h3>
+                <span class="meta">389 words</span>
+            </div>
+            <div class="article-content" id="content-125">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE" data-idx="126" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(126)">
+                <h3>See<span class="badge xref">Cross-ref &rarr; Bossuet&#x27;s celebrated History</span></h3>
+                <span class="meta">1,621 words</span>
+            </div>
+            <div class="article-content" id="content-126">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MACHIAVEL" data-idx="127" data-type="article">
+            <div class="article-header" onclick="toggleArticle(127)">
+                <h3>MACHIAVEL</h3>
+                <span class="meta">459 words</span>
+            </div>
+            <div class="article-content" id="content-127">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CATILINA" data-idx="128" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(128)">
+                <h3>Catilina<span class="badge xref">Cross-ref &rarr; Catiline</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-128">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1" data-idx="129" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(129)">
+                <h3>1<span class="badge xref">Cross-ref &rarr; Birch</span></h3>
+                <span class="meta">144 words</span>
+            </div>
+            <div class="article-content" id="content-129">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-2" data-idx="130" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(130)">
+                <h3>2<span class="badge xref">Cross-ref &rarr; Pignotti</span></h3>
+                <span class="meta">448 words</span>
+            </div>
+            <div class="article-content" id="content-130">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTE_U" data-idx="131" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(131)">
+                <h3>Note U<span class="badge xref">Cross-ref &rarr; Bayle</span></h3>
+                <span class="meta">1,949 words</span>
+            </div>
+            <div class="article-content" id="content-131">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHILOSOPHY" data-idx="132" data-type="article">
+            <div class="article-header" onclick="toggleArticle(132)">
+                <h3>PHILOSOPHY</h3>
+                <span class="meta">3,433 words</span>
+            </div>
+            <div class="article-content" id="content-132">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE" data-idx="133" data-type="article">
+            <div class="article-header" onclick="toggleArticle(133)">
+                <h3>LOCKE</h3>
+                <span class="meta">136 words</span>
+            </div>
+            <div class="article-content" id="content-133">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REFLECTION" data-idx="134" data-type="article">
+            <div class="article-header" onclick="toggleArticle(134)">
+                <h3>REFLECTION</h3>
+                <span class="meta">83 words</span>
+            </div>
+            <div class="article-content" id="content-134">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GRAY" data-idx="135" data-type="article">
+            <div class="article-header" onclick="toggleArticle(135)">
+                <h3>GRAY</h3>
+                <span class="meta">31 words</span>
+            </div>
+            <div class="article-content" id="content-135">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE" data-idx="136" data-type="article">
+            <div class="article-header" onclick="toggleArticle(136)">
+                <h3>LOCKE</h3>
+                <span class="meta">28 words</span>
+            </div>
+            <div class="article-content" id="content-136">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEE" data-idx="137" data-type="article">
+            <div class="article-header" onclick="toggleArticle(137)">
+                <h3>LEE</h3>
+                <span class="meta">55 words</span>
+            </div>
+            <div class="article-content" id="content-137">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EPISTLE_DEDICATORY" data-idx="138" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(138)">
+                <h3>Epistle Dedicatory<span class="badge xref">Cross-ref &rarr; Epistle Dedicatory</span></h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-138">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-INFLUX" data-idx="139" data-type="article">
+            <div class="article-header" onclick="toggleArticle(139)">
+                <h3>INFLUX</h3>
+                <span class="meta">113 words</span>
+            </div>
+            <div class="article-content" id="content-139">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PRIMITIVE_ORIGINATION_OF_MANKIND" data-idx="140" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(140)">
+                <h3>Primitive Origination of Mankind<span class="badge xref">Cross-ref &rarr; Primitive Origination of Mankind</span></h3>
+                <span class="meta">2,175 words</span>
+            </div>
+            <div class="article-content" id="content-140">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTE_E_E_P_134" data-idx="141" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(141)">
+                <h3>Note E E, p. 134.<span class="badge xref">Cross-ref &rarr; Note E E, p. 134.</span></h3>
+                <span class="meta">8,014 words</span>
+            </div>
+            <div class="article-content" id="content-141">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-KNOWLEDGE" data-idx="142" data-type="article">
+            <div class="article-header" onclick="toggleArticle(142)">
+                <h3>KNOWLEDGE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,438 words</span>
+            </div>
+            <div class="article-content" id="content-142">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DISSERTATION_SECOND" data-idx="143" data-type="article">
+            <div class="article-header" onclick="toggleArticle(143)">
+                <h3>DISSERTATION SECOND<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,469 words</span>
+            </div>
+            <div class="article-content" id="content-143">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SCHOOLMEN" data-idx="144" data-type="article">
+            <div class="article-header" onclick="toggleArticle(144)">
+                <h3>SCHOOLMEN</h3>
+                <span class="meta">3,692 words</span>
+            </div>
+            <div class="article-content" id="content-144">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HOBBES_THOMAS" data-idx="145" data-type="article">
+            <div class="article-header" onclick="toggleArticle(145)">
+                <h3>Hobbes, Thomas</h3>
+                <span class="meta">2,358 words</span>
+            </div>
+            <div class="article-content" id="content-145">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DE_CORPORE_POLITICO" data-idx="146" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(146)">
+                <h3>De Corpore Politico<span class="badge xref">Cross-ref &rarr; Hobbes, Thomas</span></h3>
+                <span class="meta">26 words</span>
+            </div>
+            <div class="article-content" id="content-146">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEVIATHAN" data-idx="147" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(147)">
+                <h3>Leviathan<span class="badge xref">Cross-ref &rarr; Hobbes, Thomas</span></h3>
+                <span class="meta">57 words</span>
+            </div>
+            <div class="article-content" id="content-147">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DISSERTATION_FIRST" data-idx="148" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(148)">
+                <h3>Dissertation First<span class="badge xref">Cross-ref &rarr; Hobbes, Thomas</span></h3>
+                <span class="meta">23 words</span>
+            </div>
+            <div class="article-content" id="content-148">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EUPHEMUS" data-idx="149" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(149)">
+                <h3>Euphemus<span class="badge xref">Cross-ref &rarr; Hobbes, Thomas</span></h3>
+                <span class="meta">1,576 words</span>
+            </div>
+            <div class="article-content" id="content-149">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-1" data-idx="150" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(150)">
+                <h3>1<span class="badge xref">Cross-ref &rarr; Voluntas semper sequitur ultimum indicium intellectus practici</span></h3>
+                <span class="meta">3,102 words</span>
+            </div>
+            <div class="article-content" id="content-150">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EARL_OF_SHAFTESBURY" data-idx="151" data-type="article">
+            <div class="article-header" onclick="toggleArticle(151)">
+                <h3>EARL OF SHAFTESBURY</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-151">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEIBNITZ" data-idx="152" data-type="article">
+            <div class="article-header" onclick="toggleArticle(152)">
+                <h3>LEIBNITZ</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-152">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_NOTES_AND_ILLUSTRATIONS_NOTE_N" data-idx="153" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(153)">
+                <h3>See Notes and Illustrations, note N.<span class="badge xref">Cross-ref &rarr; Notes and Illustrations</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-153">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MALEBRANCHE" data-idx="154" data-type="article">
+            <div class="article-header" onclick="toggleArticle(154)">
+                <h3>MALEBRANCHE</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-154">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JONATHAN_EDWARDS" data-idx="155" data-type="article">
+            <div class="article-header" onclick="toggleArticle(155)">
+                <h3>JONATHAN EDWARDS</h3>
+                <span class="meta">930 words</span>
+            </div>
+            <div class="article-content" id="content-155">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUFFIER" data-idx="156" data-type="article">
+            <div class="article-header" onclick="toggleArticle(156)">
+                <h3>BUFFIER</h3>
+                <span class="meta">356 words</span>
+            </div>
+            <div class="article-content" id="content-156">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERKELEY" data-idx="157" data-type="article">
+            <div class="article-header" onclick="toggleArticle(157)">
+                <h3>BERKELEY</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-157">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DAVID_HUME" data-idx="158" data-type="article">
+            <div class="article-header" onclick="toggleArticle(158)">
+                <h3>DAVID HUME</h3>
+                <span class="meta">4,728 words</span>
+            </div>
+            <div class="article-content" id="content-158">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REMARKS" data-idx="159" data-type="article">
+            <div class="article-header" onclick="toggleArticle(159)">
+                <h3>REMARKS</h3>
+                <span class="meta">1,390 words</span>
+            </div>
+            <div class="article-content" id="content-159">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RICHARD_PRICE" data-idx="160" data-type="article">
+            <div class="article-header" onclick="toggleArticle(160)">
+                <h3>RICHARD PRICE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,999 words</span>
+            </div>
+            <div class="article-content" id="content-160">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WILLIAM_PALEY" data-idx="161" data-type="article">
+            <div class="article-header" onclick="toggleArticle(161)">
+                <h3>WILLIAM PALEY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,240 words</span>
+            </div>
+            <div class="article-content" id="content-161">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ESSAY_ON_GOVERNMENT" data-idx="162" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(162)">
+                <h3>Essay on Government<span class="badge xref">Cross-ref &rarr; Encyclopaedia Britannica</span></h3>
+                <span class="meta">120 words</span>
+            </div>
+            <div class="article-content" id="content-162">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUMONT" data-idx="163" data-type="article">
+            <div class="article-header" onclick="toggleArticle(163)">
+                <h3>Dumont</h3>
+                <span class="meta">209 words</span>
+            </div>
+            <div class="article-content" id="content-163">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUGALD_STEWART" data-idx="164" data-type="article">
+            <div class="article-header" onclick="toggleArticle(164)">
+                <h3>Dugald Stewart</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-164">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DISSERTATION" data-idx="165" data-type="article">
+            <div class="article-header" onclick="toggleArticle(165)">
+                <h3>Dissertation</h3>
+                <span class="meta">86 words</span>
+            </div>
+            <div class="article-content" id="content-165">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUGALD_STEWART" data-idx="166" data-type="article">
+            <div class="article-header" onclick="toggleArticle(166)">
+                <h3>Dugald Stewart</h3>
+                <span class="meta">119 words</span>
+            </div>
+            <div class="article-content" id="content-166">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OFFICE" data-idx="167" data-type="article">
+            <div class="article-header" onclick="toggleArticle(167)">
+                <h3>Office</h3>
+                <span class="meta">154 words</span>
+            </div>
+            <div class="article-content" id="content-167">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BURNS" data-idx="168" data-type="article">
+            <div class="article-header" onclick="toggleArticle(168)">
+                <h3>Burns</h3>
+                <span class="meta">242 words</span>
+            </div>
+            <div class="article-content" id="content-168">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REID" data-idx="169" data-type="article">
+            <div class="article-header" onclick="toggleArticle(169)">
+                <h3>Reid<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,807 words</span>
+            </div>
+            <div class="article-content" id="content-169">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-THE_PURSUIT_OF_KNOWLEDGE_UNDER_DIFFICULTIES" data-idx="170" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(170)">
+                <h3>The Pursuit of Knowledge under Difficulties<span class="badge xref">Cross-ref &rarr; Library of Entertaining Knowledge</span></h3>
+                <span class="meta">906 words</span>
+            </div>
+            <div class="article-content" id="content-170">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUPRA" data-idx="171" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(171)">
+                <h3>supra<span class="badge xref">Cross-ref &rarr; p. 347</span></h3>
+                <span class="meta">1,447 words</span>
+            </div>
+            <div class="article-content" id="content-171">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUPRA" data-idx="172" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(172)">
+                <h3>supra<span class="badge xref">Cross-ref &rarr; p. 268, 369</span></h3>
+                <span class="meta">8,465 words</span>
+            </div>
+            <div class="article-content" id="content-172">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SELF_LOVE" data-idx="173" data-type="article">
+            <div class="article-header" onclick="toggleArticle(173)">
+                <h3>SELF-LOVE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">4,834 words</span>
+            </div>
+            <div class="article-content" id="content-173">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALGEBRA" data-idx="174" data-type="article">
+            <div class="article-header" onclick="toggleArticle(174)">
+                <h3>ALGEBRA</h3>
+                <span class="meta">878 words</span>
+            </div>
+            <div class="article-content" id="content-174">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARDAN" data-idx="175" data-type="article">
+            <div class="article-header" onclick="toggleArticle(175)">
+                <h3>CARDAN</h3>
+                <span class="meta">100 words</span>
+            </div>
+            <div class="article-content" id="content-175">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FERREI" data-idx="176" data-type="article">
+            <div class="article-header" onclick="toggleArticle(176)">
+                <h3>FERREI</h3>
+                <span class="meta">306 words</span>
+            </div>
+            <div class="article-content" id="content-176">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARDAN" data-idx="177" data-type="article">
+            <div class="article-header" onclick="toggleArticle(177)">
+                <h3>CARDAN</h3>
+                <span class="meta">166 words</span>
+            </div>
+            <div class="article-content" id="content-177">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALGEBRA" data-idx="178" data-type="article">
+            <div class="article-header" onclick="toggleArticle(178)">
+                <h3>ALGEBRA</h3>
+                <span class="meta">131 words</span>
+            </div>
+            <div class="article-content" id="content-178">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STIPHELIUS" data-idx="179" data-type="article">
+            <div class="article-header" onclick="toggleArticle(179)">
+                <h3>STIPHELIUS</h3>
+                <span class="meta">88 words</span>
+            </div>
+            <div class="article-content" id="content-179">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RECORDE" data-idx="180" data-type="article">
+            <div class="article-header" onclick="toggleArticle(180)">
+                <h3>RECORDE</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-180">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PELITARIUS" data-idx="181" data-type="article">
+            <div class="article-header" onclick="toggleArticle(181)">
+                <h3>PELITARIUS</h3>
+                <span class="meta">70 words</span>
+            </div>
+            <div class="article-content" id="content-181">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOMBELLI" data-idx="182" data-type="article">
+            <div class="article-header" onclick="toggleArticle(182)">
+                <h3>BOMBELLI</h3>
+                <span class="meta">62 words</span>
+            </div>
+            <div class="article-content" id="content-182">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VIETA" data-idx="183" data-type="article">
+            <div class="article-header" onclick="toggleArticle(183)">
+                <h3>VIETA</h3>
+                <span class="meta">137 words</span>
+            </div>
+            <div class="article-content" id="content-183">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOMBELLI" data-idx="184" data-type="article">
+            <div class="article-header" onclick="toggleArticle(184)">
+                <h3>BOMBELLI</h3>
+                <span class="meta">218 words</span>
+            </div>
+            <div class="article-content" id="content-184">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VIETA" data-idx="185" data-type="article">
+            <div class="article-header" onclick="toggleArticle(185)">
+                <h3>VIETA</h3>
+                <span class="meta">80 words</span>
+            </div>
+            <div class="article-content" id="content-185">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GIRARD" data-idx="186" data-type="article">
+            <div class="article-header" onclick="toggleArticle(186)">
+                <h3>GIRARD</h3>
+                <span class="meta">229 words</span>
+            </div>
+            <div class="article-content" id="content-186">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HARRIOT" data-idx="187" data-type="article">
+            <div class="article-header" onclick="toggleArticle(187)">
+                <h3>HARRIOT</h3>
+                <span class="meta">348 words</span>
+            </div>
+            <div class="article-content" id="content-187">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EGREMONT" data-idx="188" data-type="article">
+            <div class="article-header" onclick="toggleArticle(188)">
+                <h3>EGREMONT</h3>
+                <span class="meta">180 words</span>
+            </div>
+            <div class="article-content" id="content-188">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DESCARTES" data-idx="189" data-type="article">
+            <div class="article-header" onclick="toggleArticle(189)">
+                <h3>DESCARTES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">22,903 words</span>
+            </div>
+            <div class="article-content" id="content-189">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ASTRONOMY" data-idx="190" data-type="article">
+            <div class="article-header" onclick="toggleArticle(190)">
+                <h3>ASTRONOMY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,286 words</span>
+            </div>
+            <div class="article-content" id="content-190">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ENGLAND" data-idx="191" data-type="article">
+            <div class="article-header" onclick="toggleArticle(191)">
+                <h3>ENGLAND</h3>
+                <span class="meta">76 words</span>
+            </div>
+            <div class="article-content" id="content-191">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ROYAL_SOCIETY" data-idx="192" data-type="article">
+            <div class="article-header" onclick="toggleArticle(192)">
+                <h3>ROYAL SOCIETY</h3>
+                <span class="meta">175 words</span>
+            </div>
+            <div class="article-content" id="content-192">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ACADEMY_OF_SCIENCES" data-idx="193" data-type="article">
+            <div class="article-header" onclick="toggleArticle(193)">
+                <h3>ACADEMY OF SCIENCES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,272 words</span>
+            </div>
+            <div class="article-content" id="content-193">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OPTICAL_KNOWLEDGE_OF_THE_ANCIENTS" data-idx="194" data-type="article">
+            <div class="article-header" onclick="toggleArticle(194)">
+                <h3>OPTICAL KNOWLEDGE OF THE ANCIENTS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">36,253 words</span>
+            </div>
+            <div class="article-content" id="content-194">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NEWTON" data-idx="195" data-type="article">
+            <div class="article-header" onclick="toggleArticle(195)">
+                <h3>NEWTON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,452 words</span>
+            </div>
+            <div class="article-content" id="content-195">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DISSERTATION" data-idx="196" data-type="article">
+            <div class="article-header" onclick="toggleArticle(196)">
+                <h3>DISSERTATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">26,434 words</span>
+            </div>
+            <div class="article-content" id="content-196">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPILLARY_ACTION" data-idx="197" data-type="article">
+            <div class="article-header" onclick="toggleArticle(197)">
+                <h3>CAPILLARY ACTION</h3>
+                <span class="meta">282 words</span>
+            </div>
+            <div class="article-content" id="content-197">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAROMETRICAL_MEASUREMENT" data-idx="198" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(198)">
+                <h3>Barometrical Measurement<span class="badge xref">Cross-ref &rarr; Elements of Geometry</span></h3>
+                <span class="meta">667 words</span>
+            </div>
+            <div class="article-content" id="content-198">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPILLARY_ACTION" data-idx="199" data-type="article">
+            <div class="article-header" onclick="toggleArticle(199)">
+                <h3>Capillary Action</h3>
+                <span class="meta">111 words</span>
+            </div>
+            <div class="article-content" id="content-199">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELECTRICITY" data-idx="200" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(200)">
+                <h3>Electricity<span class="badge xref">Cross-ref &rarr; Supplement to the fourth, fifth, and sixth editions</span></h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-200">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELECTRICITY" data-idx="201" data-type="article">
+            <div class="article-header" onclick="toggleArticle(201)">
+                <h3>Electricity<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">1,235 words</span>
+            </div>
+            <div class="article-content" id="content-201">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELECTRICITY" data-idx="202" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(202)">
+                <h3>Electricity<span class="badge xref">Cross-ref &rarr; Lightning</span></h3>
+                <span class="meta">50 words</span>
+            </div>
+            <div class="article-content" id="content-202">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JOHN_ANTHONY_NOLLET" data-idx="203" data-type="article">
+            <div class="article-header" onclick="toggleArticle(203)">
+                <h3>John Anthony Nollet<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,638 words</span>
+            </div>
+            <div class="article-content" id="content-203">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OPTICS" data-idx="204" data-type="article">
+            <div class="article-header" onclick="toggleArticle(204)">
+                <h3>OPTICS</h3>
+                <span class="meta">336 words</span>
+            </div>
+            <div class="article-content" id="content-204">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOTOMETRY" data-idx="205" data-type="article">
+            <div class="article-header" onclick="toggleArticle(205)">
+                <h3>PHOTOMETRY</h3>
+                <span class="meta">710 words</span>
+            </div>
+            <div class="article-content" id="content-205">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DOCTRINE_OF_HEAT" data-idx="206" data-type="article">
+            <div class="article-header" onclick="toggleArticle(206)">
+                <h3>DOCTRINE OF HEAT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">15,854 words</span>
+            </div>
+            <div class="article-content" id="content-206">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AUCUNE_DE_CES_QUALITES_N_A_MANQUE_A_M_CLAIRAUT" data-idx="207" data-type="article">
+            <div class="article-header" onclick="toggleArticle(207)">
+                <h3>AUCUNE DE CES QUALITES N&#x27;A MANQUE A M. CLAIRAUT</h3>
+                <span class="meta">340 words</span>
+            </div>
+            <div class="article-content" id="content-207">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COMETS" data-idx="208" data-type="article">
+            <div class="article-header" onclick="toggleArticle(208)">
+                <h3>COMETS</h3>
+                <span class="meta">393 words</span>
+            </div>
+            <div class="article-content" id="content-208">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GENIUS" data-idx="209" data-type="article">
+            <div class="article-header" onclick="toggleArticle(209)">
+                <h3>GENIUS</h3>
+                <span class="meta">162 words</span>
+            </div>
+            <div class="article-content" id="content-209">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAGRANGE" data-idx="210" data-type="article">
+            <div class="article-header" onclick="toggleArticle(210)">
+                <h3>LAGRANGE</h3>
+                <span class="meta">122 words</span>
+            </div>
+            <div class="article-content" id="content-210">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-JUPITER_S_SATELLITES" data-idx="211" data-type="article">
+            <div class="article-header" onclick="toggleArticle(211)">
+                <h3>JUPITER&#x27;S SATELLITES</h3>
+                <span class="meta">123 words</span>
+            </div>
+            <div class="article-content" id="content-211">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LUNAR_THEORY" data-idx="212" data-type="article">
+            <div class="article-header" onclick="toggleArticle(212)">
+                <h3>LUNAR THEORY</h3>
+                <span class="meta">239 words</span>
+            </div>
+            <div class="article-content" id="content-212">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAPLACE" data-idx="213" data-type="article">
+            <div class="article-header" onclick="toggleArticle(213)">
+                <h3>LAPLACE</h3>
+                <span class="meta">360 words</span>
+            </div>
+            <div class="article-content" id="content-213">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAGRANGE" data-idx="214" data-type="article">
+            <div class="article-header" onclick="toggleArticle(214)">
+                <h3>LAGRANGE</h3>
+                <span class="meta">76 words</span>
+            </div>
+            <div class="article-content" id="content-214">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAPLACE" data-idx="215" data-type="article">
+            <div class="article-header" onclick="toggleArticle(215)">
+                <h3>LAPLACE</h3>
+                <span class="meta">241 words</span>
+            </div>
+            <div class="article-content" id="content-215">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAGRANGE" data-idx="216" data-type="article">
+            <div class="article-header" onclick="toggleArticle(216)">
+                <h3>LAGRANGE</h3>
+                <span class="meta">71 words</span>
+            </div>
+            <div class="article-content" id="content-216">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LAPLACE" data-idx="217" data-type="article">
+            <div class="article-header" onclick="toggleArticle(217)">
+                <h3>LAPLACE</h3>
+                <span class="meta">25 words</span>
+            </div>
+            <div class="article-content" id="content-217">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COTES" data-idx="218" data-type="article">
+            <div class="article-header" onclick="toggleArticle(218)">
+                <h3>COTES</h3>
+                <span class="meta">163 words</span>
+            </div>
+            <div class="article-content" id="content-218">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CELESTIAL_REFRACTION" data-idx="219" data-type="article">
+            <div class="article-header" onclick="toggleArticle(219)">
+                <h3>CELESTIAL REFRACTION</h3>
+                <span class="meta">120 words</span>
+            </div>
+            <div class="article-content" id="content-219">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HAWKSBEE" data-idx="220" data-type="article">
+            <div class="article-header" onclick="toggleArticle(220)">
+                <h3>HAWKSBEE</h3>
+                <span class="meta">64 words</span>
+            </div>
+            <div class="article-content" id="content-220">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOUGUER" data-idx="221" data-type="article">
+            <div class="article-header" onclick="toggleArticle(221)">
+                <h3>BOUGUER</h3>
+                <span class="meta">103 words</span>
+            </div>
+            <div class="article-content" id="content-221">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LUNAR_AND_SOLAR_PARALLAXES" data-idx="222" data-type="article">
+            <div class="article-header" onclick="toggleArticle(222)">
+                <h3>LUNAR AND SOLAR PARALLAXES</h3>
+                <span class="meta">199 words</span>
+            </div>
+            <div class="article-content" id="content-222">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EULER" data-idx="223" data-type="article">
+            <div class="article-header" onclick="toggleArticle(223)">
+                <h3>EULER</h3>
+                <span class="meta">3,385 words</span>
+            </div>
+            <div class="article-content" id="content-223">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DESCARTES_THEORY_OF_THE_UNIVERSE_SEE_DESCARTES" data-idx="224" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(224)">
+                <h3>Descartes&#x27; theory of the universe, see Descartes.<span class="badge xref">Cross-ref &rarr; Descartes</span></h3>
+                <span class="meta">3,308 words</span>
+            </div>
+            <div class="article-content" id="content-224">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CESAR_REMARKS_ON_HIS_TRIUMPH_OVER_THE_NOBILITY_305" data-idx="225" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(225)">
+                <h3>Cesar, remarks on his triumph over the nobility 305<span class="badge xref">Cross-ref &rarr; Cesar</span></h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-225">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAILLE_LA_MEASUREMENT_OF_DEGREES_OF_LATITUDE_BY_658" data-idx="226" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(226)">
+                <h3>Caille, La, measurement of degrees of latitude by 658<span class="badge xref">Cross-ref &rarr; Caille, La</span></h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-226">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALANDRINI_THE_FIRST_WHO_EXPANDED_AND_IMPROVED_THE_NEWTONIAN_THEORY_OF_THE_MOON_663" data-idx="227" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(227)">
+                <h3>Calandrini, the first who expanded and improved the Newtonian theory of the moon 663<span class="badge xref">Cross-ref &rarr; Calandrini</span></h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-227">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALCULUS_DIFFERENTIAL_SEE_GEOMETRY_NEW_10" data-idx="228" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(228)">
+                <h3>Calculus, differential, see Geometry, New 10<span class="badge xref">Cross-ref &rarr; Geometry, New</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-228">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALVIN_JOHN_HIS_DISREGARD_OF_THE_AUTHORITY_OF_ARISTOTLE_HIS_ARGUMENT_UPON_THE_SUBJECT_OF_USURY_QUOTED_NOTE_B_233" data-idx="229" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(229)">
+                <h3>Calvin, John, his disregard of the authority of Aristotle His argument upon the subject of usury quoted, Note B 233<span class="badge xref">Cross-ref &rarr; Calvin, John</span></h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-229">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMERA_OBSCURA_INVENTED_BY_BAPTISTA_PORTA_508" data-idx="230" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(230)">
+                <h3>Camera obscura, invented by Baptista Porta 508<span class="badge xref">Cross-ref &rarr; Camera obscura</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-230">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMPANELLA_COMPARED_BY_LEIBNITZ_TO_BACON_CHARACTER_OF_HIS_WRITINGS_IBID" data-idx="231" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(231)">
+                <h3>Campanella, compared by Leibnitz to Bacon Character of his writings ibid.<span class="badge xref">Cross-ref &rarr; Campanella</span></h3>
+                <span class="meta">11 words</span>
+            </div>
+            <div class="article-content" id="content-231">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMPBELL_DR_COMPREHENSIVE_SENSE_IN_WHICH_HE_MAKES_USE_OF_THE_WORDS_PHYSICS_AND_PHYSIOLOGY_9" data-idx="232" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(232)">
+                <h3>Campbell, Dr, comprehensive sense in which he makes use of the words physics and physiology 9<span class="badge xref">Cross-ref &rarr; Campbell, Dr</span></h3>
+                <span class="meta">16 words</span>
+            </div>
+            <div class="article-content" id="content-232">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MERITS_OF_AS_A_WRITER_220_222" data-idx="233" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(233)">
+                <h3>Merits of, as a writer 220-222<span class="badge xref">Cross-ref &rarr; Campbell, Dr</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-233">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CANTON_MR_WAS_THE_FIRST_TO_DETERMINE_EXPERIMENTALLY_THE_COMPRESSIBILITY_OF_WATER_607" data-idx="234" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(234)">
+                <h3>Canton, Mr, was the first to determine experimentally the compressibility of water 607<span class="badge xref">Cross-ref &rarr; Canton, Mr</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-234">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SKETCH_OF_HIS_LIFE_AND_CHARACTER_AS_A_PHILOSOPHER_IBID" data-idx="235" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(235)">
+                <h3>Sketch of his life and character as a philosopher ibid.<span class="badge xref">Cross-ref &rarr; Canton, Mr</span></h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-235">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPILLARY_ACTION_COMPLETEST_SET_OF_EXPERIMENTS_MADE_BY_HAUKSBEE_ON_EXPERIMENTS_AND_EXPLANATION_OF_THE_PRINCIPLE_UPON_WHICH_IT_DEPENDS_BY_BROOK_TAYLOR_GUYTON_MORVEAU_DR_JURIN_CLAIRAUT_DR_THOMAS_YOUNG_AND_LAPLACE_615" data-idx="236" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(236)">
+                <h3>Capillary action, completest set of experiments made by Hauksbee on Experiments and explanation of the principle upon which it depends, by Brook Taylor, Guyton-Morveau, Dr Jurin, Clairaut, Dr Thomas Young, and Laplace 615<span class="badge xref">Cross-ref &rarr; Capillary action</span></h3>
+                <span class="meta">33 words</span>
+            </div>
+            <div class="article-content" id="content-236">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_ALSO_THESE_HEADS" data-idx="237" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(237)">
+                <h3>See also these heads:<span class="badge xref">Cross-ref &rarr; See also these heads</span></h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-237">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARDAN_OF_MILAN_A_REMARKABLE_INSTANCE_OF_THE_UNION_OF_GREAT_GENIUS_WITH_WEAKNESS_441" data-idx="238" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(238)">
+                <h3>Cardan of Milan, a remarkable instance of the union of great genius with weakness 441<span class="badge xref">Cross-ref &rarr; Cardan of Milan</span></h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-238">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_ALSO_ALGEBRA" data-idx="239" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(239)">
+                <h3>See also Algebra.<span class="badge xref">Cross-ref &rarr; Algebra</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-239">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARMICHAEL_PROFESSOR_OF_GLASGOW_HIS_OPINION_OF_THE_WORKS_OF_GROTIUS_AND_HIS_FOLLOWERS_33" data-idx="240" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(240)">
+                <h3>Carmichael, Professor, of Glasgow, his opinion of the works of Grotius and his followers 33<span class="badge xref">Cross-ref &rarr; Carmichael, Professor, of Glasgow</span></h3>
+                <span class="meta">15 words</span>
+            </div>
+            <div class="article-content" id="content-240">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARNADES_ESTIMATE_WHICH_GROTIUS_FORMED_OF_HIS_ETHICS_315" data-idx="241" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(241)">
+                <h3>Carnades, estimate which Grotius formed of his ethics 315<span class="badge xref">Cross-ref &rarr; Carnades</span></h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-241">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARTESIAN_PHILOSOPHY" data-idx="242" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(242)">
+                <h3>Cartesian philosophy<span class="badge xref">Cross-ref &rarr; Descartes</span></h3>
+                <span class="meta">58 words</span>
+            </div>
+            <div class="article-content" id="content-242">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CATOPTRIES" data-idx="243" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(243)">
+                <h3>Catoptries<span class="badge xref">Cross-ref &rarr; Optics</span></h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-243">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAUSATION" data-idx="244" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(244)">
+                <h3>Causation<span class="badge xref">Cross-ref &rarr; Hume</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-244">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAUSATION" data-idx="245" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(245)">
+                <h3>Causation<span class="badge xref">Cross-ref &rarr; Malebranche</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-245">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAVALIERI" data-idx="246" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(246)">
+                <h3>Cavalieri<span class="badge xref">Cross-ref &rarr; Kepler</span></h3>
+                <span class="meta">61 words</span>
+            </div>
+            <div class="article-content" id="content-246">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CERVANTES" data-idx="247" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(247)">
+                <h3>Cervantes<span class="badge xref">Cross-ref &rarr; Don Quixote</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-247">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHAPELLE" data-idx="248" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(248)">
+                <h3>Chapelle<span class="badge xref">Cross-ref &rarr; M. Chapelle</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-248">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHARBON" data-idx="249" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(249)">
+                <h3>Charbon<span class="badge xref">Cross-ref &rarr; Montaigne</span></h3>
+                <span class="meta">16 words</span>
+            </div>
+            <div class="article-content" id="content-249">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHARBON" data-idx="250" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(250)">
+                <h3>Charbon<span class="badge xref">Cross-ref &rarr; Montaigne</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-250">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHARBON" data-idx="251" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(251)">
+                <h3>Charbon<span class="badge xref">Cross-ref &rarr; Montaigne</span></h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-251">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHASTELET_MADAME_DU" data-idx="252" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(252)">
+                <h3>Chastelet, Madame du<span class="badge xref">Cross-ref &rarr; force of a moving body</span></h3>
+                <span class="meta">5,134 words</span>
+            </div>
+            <div class="article-content" id="content-252">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-UNTITLED" data-idx="253" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(253)">
+                <h3>UNTITLED<span class="badge xref">Cross-ref</span></h3>
+                <span class="meta">1,130 words</span>
+            </div>
+            <div class="article-content" id="content-253">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ACCOUNT_OF_THE_CONTROVERSY_RELATIVE_TO_THE_NEW_CALCULUS" data-idx="254" data-type="article">
+            <div class="article-header" onclick="toggleArticle(254)">
+                <h3>ACCOUNT OF THE CONTROVERSY RELATIVE TO THE NEW CALCULUS</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-254">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EXPLANATION_OF_THE_PRINCIPLE_OF_A_SUFFICIENT_REASON" data-idx="255" data-type="article">
+            <div class="article-header" onclick="toggleArticle(255)">
+                <h3>EXPLANATION OF THE PRINCIPLE OF A SUFFICIENT REASON</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-255">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SOMETIMES_CARRIED_HIS_PRINCIPLE_TOO_FAR" data-idx="256" data-type="article">
+            <div class="article-header" onclick="toggleArticle(256)">
+                <h3>SOMETIMES CARRIED HIS PRINCIPLE TOO FAR</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-256">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STATEMENT_OF_THE_LAW_OF_CONTINUITY" data-idx="257" data-type="article">
+            <div class="article-header" onclick="toggleArticle(257)">
+                <h3>STATEMENT OF THE LAW OF CONTINUITY</h3>
+                <span class="meta">37 words</span>
+            </div>
+            <div class="article-content" id="content-257">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_DEMONSTRATION_OF_THE_FORCE_OF_MOVING_BODIES" data-idx="258" data-type="article">
+            <div class="article-header" onclick="toggleArticle(258)">
+                <h3>HIS DEMONSTRATION OF THE FORCE OF MOVING BODIES</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-258">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COMPARISON_BETWEEN_HIM_AND_NEWTON" data-idx="259" data-type="article">
+            <div class="article-header" onclick="toggleArticle(259)">
+                <h3>COMPARISON BETWEEN HIM AND NEWTON</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-259">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOTICE_OF_HIS_ALGEBRAICAL_DISCOVERIES" data-idx="260" data-type="article">
+            <div class="article-header" onclick="toggleArticle(260)">
+                <h3>NOTICE OF HIS ALGEBRAICAL DISCOVERIES</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-260">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEONARDO_A_MERCHANT_OF_PISA_FIRST_INTRODUCED_ALGEBRA_INTO_EUROPE" data-idx="261" data-type="article">
+            <div class="article-header" onclick="toggleArticle(261)">
+                <h3>LEONARDO, A MERCHANT OF PISA, FIRST INTRODUCED ALGEBRA INTO EUROPE</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-261">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LETTERS_THE_PERIOD_FROM_WHICH_THE_REVIVAL_OF_MAY_BE_DATED" data-idx="262" data-type="article">
+            <div class="article-header" onclick="toggleArticle(262)">
+                <h3>LETTERS, THE PERIOD FROM WHICH THE REVIVAL OF, MAY BE DATED</h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-262">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-L_H_PITAL_CHANCELLOR_DE_CHARACTER_OF" data-idx="263" data-type="article">
+            <div class="article-header" onclick="toggleArticle(263)">
+                <h3>L&#x27;HÔPITAL, CHANCELLOR DE, CHARACTER OF</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-263">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PUBLISHED_A_WORK_OF_MERIT_ON_THE_NEW_ANALYSIS" data-idx="264" data-type="article">
+            <div class="article-header" onclick="toggleArticle(264)">
+                <h3>PUBLISHED A WORK OF MERIT ON THE NEW ANALYSIS</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-264">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEVIATHAN_ANECDOTE_RELATIVE_TO_HOBBES_S_WORK_SO_ENTITLED_NOTE_H" data-idx="265" data-type="article">
+            <div class="article-header" onclick="toggleArticle(265)">
+                <h3>LEVIATHAN, ANECDOTE RELATIVE TO HOBBES&#x27;S WORK SO ENTITLED, NOTE H</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-265">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEYDEN_JAR_INVENTION_AND_DESCRIPTION_OF" data-idx="266" data-type="article">
+            <div class="article-header" onclick="toggleArticle(266)">
+                <h3>LEYDEN JAR, INVENTION AND DESCRIPTION OF</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-266">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIBERTY_AND_NECESSITY" data-idx="267" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(267)">
+                <h3>Liberty and necessity<span class="badge xref">Cross-ref &rarr; Necessity</span></h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-267">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LINES" data-idx="268" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(268)">
+                <h3>Lines<span class="badge xref">Cross-ref &rarr; Geometry</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-268">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT" data-idx="269" data-type="article">
+            <div class="article-header" onclick="toggleArticle(269)">
+                <h3>Light</h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-269">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT" data-idx="270" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(270)">
+                <h3>Light<span class="badge xref">Cross-ref &rarr; Optics</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-270">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POLARIZATION_OF_LIGHT" data-idx="271" data-type="article">
+            <div class="article-header" onclick="toggleArticle(271)">
+                <h3>Polarization of light</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-271">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT_HOUSES" data-idx="272" data-type="article">
+            <div class="article-header" onclick="toggleArticle(272)">
+                <h3>Light-houses</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-272">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHTNING" data-idx="273" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(273)">
+                <h3>Lightning<span class="badge xref">Cross-ref &rarr; Electricity</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-273">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOCKE_JOHN" data-idx="274" data-type="article">
+            <div class="article-header" onclick="toggleArticle(274)">
+                <h3>Locke, John</h3>
+                <span class="meta">372 words</span>
+            </div>
+            <div class="article-content" id="content-274">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REMARKS_OF_CONCERNING_THE_SCALE_OF_BEINGS" data-idx="275" data-type="article">
+            <div class="article-header" onclick="toggleArticle(275)">
+                <h3>Remarks of, concerning the scale of beings</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-275">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_ARGUMENT_IN_FAVOUR_OF_FREE_WILL" data-idx="276" data-type="article">
+            <div class="article-header" onclick="toggleArticle(276)">
+                <h3>His argument in favour of free will</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-276">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-QUOTATION_FROM_A_LETTER_OF_HIS_TO_ANTHONY_COLLIGS_NOTE_K_K" data-idx="277" data-type="article">
+            <div class="article-header" onclick="toggleArticle(277)">
+                <h3>Quotation from a letter of his to Anthony Colligs, Note K K</h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-277">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-EFFECTS_OF_HIS_WRITINGS_IN_PROMOTING_THE_CAUSE_OF_EDUCATION_NOTE_N_N" data-idx="278" data-type="article">
+            <div class="article-header" onclick="toggleArticle(278)">
+                <h3>Effects of his writings in promoting the cause of education, Note N N</h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-278">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-QUOTATION_FROM_ON_THE_PERCEPTION_OF_COLOUR_AND_FIGURE" data-idx="279" data-type="article">
+            <div class="article-header" onclick="toggleArticle(279)">
+                <h3>Quotation from, on the perception of colour and figure</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-279">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOGARITHMS_INVENTION_OF_BY_NAPIER_OF_MERCHISTON" data-idx="280" data-type="article">
+            <div class="article-header" onclick="toggleArticle(280)">
+                <h3>Logarithms, invention of, by Napier of Merchiston</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-280">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_ALSO_NAPIER" data-idx="281" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(281)">
+                <h3>See also Napier.<span class="badge xref">Cross-ref &rarr; Napier</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-281">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOUIS_XIV_CHARACTER_OF_THE_COURT_OF" data-idx="282" data-type="article">
+            <div class="article-header" onclick="toggleArticle(282)">
+                <h3>Louis XIV., character of the court of</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-282">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LOWTH_DR_HIS_OPINION_OF_THE_COMMON_ENGLISH_TRANSLATION_OF_THE_BIBLE" data-idx="283" data-type="article">
+            <div class="article-header" onclick="toggleArticle(283)">
+                <h3>Lowth, Dr, his opinion of the common English translation of the Bible</h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-283">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_OPINION_OF_HOOKER_S_STYLE" data-idx="284" data-type="article">
+            <div class="article-header" onclick="toggleArticle(284)">
+                <h3>His opinion of Hooker&#x27;s style</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-284">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LUCRETIUS_NOTICE_OF_HIS_PHILOSOPHY" data-idx="285" data-type="article">
+            <div class="article-header" onclick="toggleArticle(285)">
+                <h3>Lucretius, notice of his philosophy</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-285">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LUTHER_MARTIN_HIS_CONTEMPT_FOR_ARISTOTLE" data-idx="286" data-type="article">
+            <div class="article-header" onclick="toggleArticle(286)">
+                <h3>Luther, Martin, his contempt for Aristotle</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-286">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REMARKABLE_CREDULITY_OF_NOTE_E" data-idx="287" data-type="article">
+            <div class="article-header" onclick="toggleArticle(287)">
+                <h3>Remarkable credulity of, Note E</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-287">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MOSHEIM_ON_HIS_THEOLOGICAL_SYSTEM" data-idx="288" data-type="article">
+            <div class="article-header" onclick="toggleArticle(288)">
+                <h3>Mosheim on his theological system</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-288">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MACHIAVELLI_MORAL_AND_INTELLECTUAL_CHARACTER_OF" data-idx="289" data-type="article">
+            <div class="article-header" onclick="toggleArticle(289)">
+                <h3>Machiavelli, moral and intellectual character of</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-289">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PRINCIPLES_OF_AS_LAID_DOWN_IN_HIS_PRINCE" data-idx="290" data-type="article">
+            <div class="article-header" onclick="toggleArticle(290)">
+                <h3>Principles of, as laid down in his Prince</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-290">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PRACTICAL_EFFECTS_OF_HIS_PRECEPTS" data-idx="291" data-type="article">
+            <div class="article-header" onclick="toggleArticle(291)">
+                <h3>Practical effects of his precepts</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-291">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-REAL_INTENTIONS_OF_IN_WRITING_HIS_PRINCE_NOTE_C" data-idx="292" data-type="article">
+            <div class="article-header" onclick="toggleArticle(292)">
+                <h3>Real intentions of, in writing his Prince, Note C</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-292">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_MAXIMS_HAVE_BEEN_SUBSEQUENTLY_REFUTED" data-idx="293" data-type="article">
+            <div class="article-header" onclick="toggleArticle(293)">
+                <h3>His maxims have been subsequently refuted</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-293">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NO_FRIEND_TO_THE_PRIESTHOOD" data-idx="294" data-type="article">
+            <div class="article-header" onclick="toggleArticle(294)">
+                <h3>NO FRIEND TO THE PRIESTHOOD</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-294">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HUME_S_ESTIMATE_OF_HIS_CHARACTER" data-idx="295" data-type="article">
+            <div class="article-header" onclick="toggleArticle(295)">
+                <h3>HUME&#x27;S ESTIMATE OF HIS CHARACTER</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-295">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SURPASSED_ALL_HIS_CONTEMPORARIES_IN_GENIUS" data-idx="296" data-type="article">
+            <div class="article-header" onclick="toggleArticle(296)">
+                <h3>SURPASSED ALL HIS CONTEMPORARIES IN GENIUS</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-296">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LETTERS_OF" data-idx="297" data-type="article">
+            <div class="article-header" onclick="toggleArticle(297)">
+                <h3>LETTERS OF</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-297">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MACHIAVELISM_RELIGIOUS_BAD_EFFECTS_OF_ON_PHILOSOPHY_AND_MORALS" data-idx="298" data-type="article">
+            <div class="article-header" onclick="toggleArticle(298)">
+                <h3>MACHIAVELISM, RELIGIOUS, BAD EFFECTS OF, ON PHILOSOPHY AND MORALS</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-298">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MACHIN_JOHN_MATHEMATICAL_TALENTS_OF" data-idx="299" data-type="article">
+            <div class="article-header" onclick="toggleArticle(299)">
+                <h3>MACHIN, JOHN, MATHEMATICAL TALENTS OF</h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-299">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MACLAURIN_HIS_STEADY_OPPOSITION_TO_LEIBNITZ_S_LAW_OF_CONTINUITY" data-idx="300" data-type="article">
+            <div class="article-header" onclick="toggleArticle(300)">
+                <h3>MACLAURIN, HIS STEADY OPPOSITION TO LEIBNITZ&#x27;S LAW OF CONTINUITY</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-300">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CONTRIBUTED_TO_THE_ADVANCEMENT_OF_SCIENCE_BY_EXPOUNDING_NEWTON_S_PRINCIPIA" data-idx="301" data-type="article">
+            <div class="article-header" onclick="toggleArticle(301)">
+                <h3>CONTRIBUTED TO THE ADVANCEMENT OF SCIENCE BY EXPOUNDING NEWTON&#x27;S PRINCIPIA</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-301">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_METHOD_OF_EXPOUNDING_FORCES_BY_CO_ORDINATES_ADVANCED_THE_SCIENCE_OF_DYNAMICS" data-idx="302" data-type="article">
+            <div class="article-header" onclick="toggleArticle(302)">
+                <h3>HIS METHOD OF EXPOUNDING FORCES BY CO-ORDINATES ADVANCED THE SCIENCE OF DYNAMICS</h3>
+                <span class="meta">12 words</span>
+            </div>
+            <div class="article-content" id="content-302">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HIS_VIEW_OF_THE_FIGURE_OF_THE_EARTH" data-idx="303" data-type="article">
+            <div class="article-header" onclick="toggleArticle(303)">
+                <h3>HIS VIEW OF THE FIGURE OF THE EARTH</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-303">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGNET_GILBERT_S_TREATISE_ON_THE" data-idx="304" data-type="article">
+            <div class="article-header" onclick="toggleArticle(304)">
+                <h3>MAGNET, GILBERT&#x27;S TREATISE ON THE</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-304">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MAGNETISM_PHENOMENA_AND_ORIGIN_OF" data-idx="305" data-type="article">
+            <div class="article-header" onclick="toggleArticle(305)">
+                <h3>MAGNETISM, PHENOMENA AND ORIGIN OF</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-305">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IMPORTATION_OF_THE_COMPASS_INTO_EUROPE" data-idx="306" data-type="article">
+            <div class="article-header" onclick="toggleArticle(306)">
+                <h3>IMPORTATION OF THE COMPASS INTO EUROPE</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-306">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FIRST_NOTICE_OF_ITS_VARIATION" data-idx="307" data-type="article">
+            <div class="article-header" onclick="toggleArticle(307)">
+                <h3>FIRST NOTICE OF ITS VARIATION</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-307">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ACCOUNT_OF_THE_DISCOVERIES_MADE_BY_DR_GILBERT" data-idx="308" data-type="article">
+            <div class="article-header" onclick="toggleArticle(308)">
+                <h3>ACCOUNT OF THE DISCOVERIES MADE BY DR GILBERT</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-308">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HALLEY_S_HYPOTHESIS" data-idx="309" data-type="article">
+            <div class="article-header" onclick="toggleArticle(309)">
+                <h3>HALLEY&#x27;S HYPOTHESIS</h3>
+                <span class="meta">181 words</span>
+            </div>
+            <div class="article-content" id="content-309">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAUSE" data-idx="310" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(310)">
+                <h3>Cause<span class="badge xref">Cross-ref &rarr; INDEX</span></h3>
+                <span class="meta">844 words</span>
+            </div>
+            <div class="article-content" id="content-310">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MICROMETER" data-idx="311" data-type="article">
+            <div class="article-header" onclick="toggleArticle(311)">
+                <h3>Micrometer</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-311">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MICROSCOPE" data-idx="312" data-type="article">
+            <div class="article-header" onclick="toggleArticle(312)">
+                <h3>Microscope</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-312">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MILL" data-idx="313" data-type="article">
+            <div class="article-header" onclick="toggleArticle(313)">
+                <h3>Mill<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">103 words</span>
+            </div>
+            <div class="article-content" id="content-313">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SEE_ALSO_NOTE_C_C" data-idx="314" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(314)">
+                <h3>See also Note C C<span class="badge xref">Cross-ref &rarr; 130</span></h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-314">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MONTAIGNE_M" data-idx="315" data-type="article">
+            <div class="article-header" onclick="toggleArticle(315)">
+                <h3>Montaigne, M.</h3>
+                <span class="meta">1,295 words</span>
+            </div>
+            <div class="article-content" id="content-315">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OPTICS" data-idx="316" data-type="article">
+            <div class="article-header" onclick="toggleArticle(316)">
+                <h3>OPTICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">101 words</span>
+            </div>
+            <div class="article-content" id="content-316">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ORBIT" data-idx="317" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(317)">
+                <h3>Orbit<span class="badge xref">Cross-ref &rarr; Astronomy</span></h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-317">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OSCILLATION" data-idx="318" data-type="article">
+            <div class="article-header" onclick="toggleArticle(318)">
+                <h3>Oscillation</h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-318">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OSYMANDIAS" data-idx="319" data-type="article">
+            <div class="article-header" onclick="toggleArticle(319)">
+                <h3>Osymandias</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-319">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-P" data-idx="320" data-type="article">
+            <div class="article-header" onclick="toggleArticle(320)">
+                <h3>P</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-320">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PALEY" data-idx="321" data-type="article">
+            <div class="article-header" onclick="toggleArticle(321)">
+                <h3>Paley<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">483 words</span>
+            </div>
+            <div class="article-content" id="content-321">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PITY" data-idx="322" data-type="article">
+            <div class="article-header" onclick="toggleArticle(322)">
+                <h3>PITY</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-322">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLATO" data-idx="323" data-type="article">
+            <div class="article-header" onclick="toggleArticle(323)">
+                <h3>PLATO</h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-323">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHILOSOPHY" data-idx="324" data-type="article">
+            <div class="article-header" onclick="toggleArticle(324)">
+                <h3>PHILOSOPHY</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-324">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLAYFAIR" data-idx="325" data-type="article">
+            <div class="article-header" onclick="toggleArticle(325)">
+                <h3>PLAYFAIR</h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-325">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLENUM" data-idx="326" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(326)">
+                <h3>PLENUM<span class="badge xref">Cross-ref &rarr; LEIBNITZ</span></h3>
+                <span class="meta">7 words</span>
+            </div>
+            <div class="article-content" id="content-326">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLUTARCH" data-idx="327" data-type="article">
+            <div class="article-header" onclick="toggleArticle(327)">
+                <h3>PLUTARCH</h3>
+                <span class="meta">37 words</span>
+            </div>
+            <div class="article-content" id="content-327">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PNEUMATICS" data-idx="328" data-type="article">
+            <div class="article-header" onclick="toggleArticle(328)">
+                <h3>PNEUMATICS</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-328">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-Q" data-idx="329" data-type="article">
+            <div class="article-header" onclick="toggleArticle(329)">
+                <h3>Q</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-329">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-QUANTITIES" data-idx="330" data-type="article">
+            <div class="article-header" onclick="toggleArticle(330)">
+                <h3>QUANTITIES</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-330">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-R" data-idx="331" data-type="article">
+            <div class="article-header" onclick="toggleArticle(331)">
+                <h3>R</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-331">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RAINBOW" data-idx="332" data-type="article">
+            <div class="article-header" onclick="toggleArticle(332)">
+                <h3>RAINBOW</h3>
+                <span class="meta">624 words</span>
+            </div>
+            <div class="article-content" id="content-332">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-S" data-idx="333" data-type="article">
+            <div class="article-header" onclick="toggleArticle(333)">
+                <h3>S</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-333">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SAGE" data-idx="334" data-type="article">
+            <div class="article-header" onclick="toggleArticle(334)">
+                <h3>SAGE</h3>
+                <span class="meta">1,256 words</span>
+            </div>
+            <div class="article-content" id="content-334">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STEREOMETRY" data-idx="335" data-type="article">
+            <div class="article-header" onclick="toggleArticle(335)">
+                <h3>STEREOMETRY</h3>
+                <span class="meta">480 words</span>
+            </div>
+            <div class="article-content" id="content-335">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TARTAL_A" data-idx="336" data-type="article">
+            <div class="article-header" onclick="toggleArticle(336)">
+                <h3>TARTALÆA</h3>
+                <span class="meta">740 words</span>
+            </div>
+            <div class="article-content" id="content-336">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VOLTAIRE" data-idx="337" data-type="article">
+            <div class="article-header" onclick="toggleArticle(337)">
+                <h3>VOLTAIRE</h3>
+                <span class="meta">311 words</span>
+            </div>
+            <div class="article-content" id="content-337">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -559,13 +3806,11 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
         </footer>
     </div>
     
     <script>
-    const YEAR = 1842;
-    const VOL = 1;
     let articlesData = null;
     let loadedArticles = new Set();
 
@@ -599,10 +3844,9 @@ footer {
         }
 
         const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
 
         content.innerHTML = `
-            <div class="article-text">${renderArticleHtml(article.t)}</div>
+            <div class="article-text">${escapeHtml(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
@@ -617,21 +3861,9 @@ footer {
         return div.innerHTML;
     }
 
-    function renderArticleHtml(text) {
-        // First escape all HTML, then restore our safe xref links
-        let safe = escapeHtml(text);
-        // Restore xref anchor tags (we only generate these with class="xref")
-        safe = safe.replace(
-            /&lt;a class=&quot;xref&quot; href=&quot;([^&]+)&quot;&gt;([^&]+)&lt;\/a&gt;/g,
-            '<a class="xref" href="$1">$2</a>'
-        );
-        return safe;
-    }
-
     function downloadMd(idx) {
         const article = articlesData[idx];
-        const pages = article.sp === article.ep ? article.sp : article.sp + '-' + article.ep;
-        const header = `# ${article.h}\n\n**Edition:** 1842 Seventh Edition\n**Volume:** 1\n**Pages:** ${pages}\n\n---\n\n`;
+        const header = `# ${article.h}\n\n**Edition:** 1842 Seventh Edition\n**Volume:** 1\n**Words:** ${article.wc}\n\n---\n\n`;
         const blob = new Blob([header + article.t], {type: 'text/markdown'});
         const url = URL.createObjectURL(blob);
         const a = document.createElement('a');
@@ -656,9 +3888,12 @@ footer {
         items.forEach(item => {
             const header = item.querySelector('h3').textContent.toLowerCase();
             const articleType = item.dataset.type;
+            const isTreatise = item.querySelector('.badge.treatise') !== null;
 
             let show = header.includes(query);
-            if (typeFilter !== 'all') {
+            if (typeFilter === 'treatise') {
+                show = show && isTreatise;
+            } else if (typeFilter !== 'all') {
                 show = show && (articleType === typeFilter);
             }
 
@@ -674,7 +3909,6 @@ footer {
             if (article) {
                 const idx = parseInt(article.dataset.idx);
                 toggleArticle(idx);
-                // Small delay to ensure content is loaded before scrolling
                 setTimeout(() => {
                     article.scrollIntoView({behavior: 'smooth', block: 'start'});
                 }, 100);
@@ -682,7 +3916,6 @@ footer {
         }
     });
 
-    // Also handle hash changes (e.g., clicking internal links)
     window.addEventListener('hashchange', function() {
         const hash = window.location.hash;
         if (hash && hash.startsWith('#article-')) {

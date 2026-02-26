@@ -1,0 +1,2793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume 501 - 1823 - Encyclopaedia Britannica Historical Corpus</title>
+    <style>
+:root {
+    --bg-primary: #faf8f5;
+    --bg-secondary: #fff;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --accent: #8b4513;
+    --accent-light: #d4a574;
+    --border: #e0d8d0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+header .subtitle {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.breadcrumb {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.edition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.edition-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.edition-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.edition-card h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.edition-card .year {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.edition-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.edition-card a.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--bg-secondary);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edition-card a.btn:hover { background: var(--accent-light); }
+
+.volume-list { list-style: none; }
+
+.volume-list li {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.volume-list a {
+    display: block;
+    padding: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.volume-list a:hover { background: var(--bg-primary); }
+
+.volume-list .meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.article-list { list-style: none; }
+
+.article-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.article-header:hover { background: var(--bg-primary); }
+
+.article-header h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+}
+
+.article-header .meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.article-header .badge {
+    background: var(--accent-light);
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.xref { background: #6a5acd; }
+
+.article-content {
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+    display: none;
+    background: #fffef8;
+}
+
+.article-content.show { display: block; }
+
+.article-text {
+    white-space: pre-wrap;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.article-actions {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+.article-actions button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.article-actions button:hover { background: var(--accent-light); }
+
+.loading {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.search-box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-results { margin-top: 1rem; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
+.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
+.search-result a { color: var(--accent); }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.stats-table th, .stats-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-table th { background: var(--bg-primary); color: var(--accent); }
+.stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.filter-bar {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    .container { padding: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; <a href="index.html">1823 Edition</a> &raquo; Volume 501</div>
+        
+    <header>
+        <h1>Volume 501</h1>
+        <p class="subtitle">Sixth Edition (1823)</p>
+    </header>
+
+    
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../search.html">Search</a>
+        <a href="../stats.html">Statistics</a>
+        <a href="../about.html">About</a>
+    </nav>
+
+    <p>This volume contains <strong>224 entries</strong>.
+    Click on an article to view its full text.</p>
+
+    <div class="filter-bar">
+        <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
+        <select id="typeFilter" onchange="filterArticles()">
+            <option value="all">All Types</option>
+            <option value="article">Articles</option>
+            <option value="cross_reference">Cross-references</option>
+            <option value="treatise">Treatises</option>
+        </select>
+    </div>
+
+    <ul class="article-list" id="articleList">
+        
+        <li class="article-item" id="article-FRONT_MATTER" data-idx="0" data-type="front_matter">
+            <div class="article-header" onclick="toggleArticle(0)">
+                <h3>FRONT MATTER</h3>
+                <span class="meta">367 words</span>
+            </div>
+            <div class="article-content" id="content-0">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GENERAL_VIEW_OF_THE_PROGRESS_OF_CHEMICAL_SCIENCE_FROM_THE_EARLY_AGES_TO_THE_END_OF_THE_SEVENTEENTH_CENTURY" data-idx="1" data-type="article">
+            <div class="article-header" onclick="toggleArticle(1)">
+                <h3>GENERAL VIEW OF THE PROGRESS OF CHEMICAL SCIENCE, FROM THE EARLY AGES TO THE END OF THE SEVENTEENTH CENTURY.</h3>
+                <span class="meta">3,318 words</span>
+            </div>
+            <div class="article-content" id="content-1">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-RAYMOND_LULLY" data-idx="2" data-type="article">
+            <div class="article-header" onclick="toggleArticle(2)">
+                <h3>RAYMOND LULLY</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-2">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BASIL_VALENTINE" data-idx="3" data-type="article">
+            <div class="article-header" onclick="toggleArticle(3)">
+                <h3>BASIL VALENTINE</h3>
+                <span class="meta">71 words</span>
+            </div>
+            <div class="article-content" id="content-3">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BASIL_VALENTINE" data-idx="4" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(4)">
+                <h3>BASIL VALENTINE<span class="badge xref">Cross-ref &rarr; CHALMERS&#x27;S BIOGRAPH. DICT.</span></h3>
+                <span class="meta">236 words</span>
+            </div>
+            <div class="article-content" id="content-4">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PARACELSUS" data-idx="5" data-type="article">
+            <div class="article-header" onclick="toggleArticle(5)">
+                <h3>PARACELSUS</h3>
+                <span class="meta">312 words</span>
+            </div>
+            <div class="article-content" id="content-5">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VAN_HELMONT" data-idx="6" data-type="article">
+            <div class="article-header" onclick="toggleArticle(6)">
+                <h3>VAN HELMONT</h3>
+                <span class="meta">140 words</span>
+            </div>
+            <div class="article-content" id="content-6">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AGRICOLA" data-idx="7" data-type="article">
+            <div class="article-header" onclick="toggleArticle(7)">
+                <h3>AGRICOLA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,904 words</span>
+            </div>
+            <div class="article-content" id="content-7">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SANTORIO" data-idx="8" data-type="article">
+            <div class="article-header" onclick="toggleArticle(8)">
+                <h3>SANTORIO<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">32,601 words</span>
+            </div>
+            <div class="article-content" id="content-8">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MURIATIC_ACID" data-idx="9" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(9)">
+                <h3>Muriatic Acid<span class="badge xref">Cross-ref &rarr; Davy&#x27;s Paper, Phil. Trans. 1811.</span></h3>
+                <span class="meta">379 words</span>
+            </div>
+            <div class="article-content" id="content-9">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IODINE" data-idx="10" data-type="article">
+            <div class="article-header" onclick="toggleArticle(10)">
+                <h3>Iodine</h3>
+                <span class="meta">344 words</span>
+            </div>
+            <div class="article-content" id="content-10">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HYDROGEN" data-idx="11" data-type="article">
+            <div class="article-header" onclick="toggleArticle(11)">
+                <h3>Hydrogen</h3>
+                <span class="meta">3,025 words</span>
+            </div>
+            <div class="article-content" id="content-11">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHURIC_ACID" data-idx="12" data-type="article">
+            <div class="article-header" onclick="toggleArticle(12)">
+                <h3>SULPHURIC ACID<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">568 words</span>
+            </div>
+            <div class="article-content" id="content-12">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHORUS" data-idx="13" data-type="article">
+            <div class="article-header" onclick="toggleArticle(13)">
+                <h3>Phosphorus</h3>
+                <span class="meta">45 words</span>
+            </div>
+            <div class="article-content" id="content-13">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHOROUS_ACID" data-idx="14" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(14)">
+                <h3>Phosphorous Acid<span class="badge xref">Cross-ref &rarr; Chloride of Phosphorus</span></h3>
+                <span class="meta">7,109 words</span>
+            </div>
+            <div class="article-content" id="content-14">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ARSENIC" data-idx="15" data-type="article">
+            <div class="article-header" onclick="toggleArticle(15)">
+                <h3>Arsenic</h3>
+                <span class="meta">316 words</span>
+            </div>
+            <div class="article-content" id="content-15">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MOLYBDENUM" data-idx="16" data-type="article">
+            <div class="article-header" onclick="toggleArticle(16)">
+                <h3>Molybdenum</h3>
+                <span class="meta">211 words</span>
+            </div>
+            <div class="article-content" id="content-16">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHROME" data-idx="17" data-type="article">
+            <div class="article-header" onclick="toggleArticle(17)">
+                <h3>Chrome</h3>
+                <span class="meta">4,407 words</span>
+            </div>
+            <div class="article-content" id="content-17">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MANGANESE" data-idx="18" data-type="article">
+            <div class="article-header" onclick="toggleArticle(18)">
+                <h3>MANGANESE</h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-18">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTASSIUM" data-idx="19" data-type="article">
+            <div class="article-header" onclick="toggleArticle(19)">
+                <h3>POTASSIUM</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-19">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IODE_OF_POTASSIUM" data-idx="20" data-type="article">
+            <div class="article-header" onclick="toggleArticle(20)">
+                <h3>Iode of Potassium</h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-20">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTASSIUM_AND_HYDROGEN" data-idx="21" data-type="article">
+            <div class="article-header" onclick="toggleArticle(21)">
+                <h3>Potassium and Hydrogen</h3>
+                <span class="meta">63 words</span>
+            </div>
+            <div class="article-content" id="content-21">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NITRATE_OF_POTASH" data-idx="22" data-type="article">
+            <div class="article-header" onclick="toggleArticle(22)">
+                <h3>Nitrate of Potash</h3>
+                <span class="meta">140 words</span>
+            </div>
+            <div class="article-content" id="content-22">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NITRIC_ACID" data-idx="23" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(23)">
+                <h3>Nitric Acid<span class="badge xref">Cross-ref &rarr; Nitric Acid</span></h3>
+                <span class="meta">26 words</span>
+            </div>
+            <div class="article-content" id="content-23">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTASSIUM_AND_SULPHUR" data-idx="24" data-type="article">
+            <div class="article-header" onclick="toggleArticle(24)">
+                <h3>Potassium and Sulphur</h3>
+                <span class="meta">17 words</span>
+            </div>
+            <div class="article-content" id="content-24">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTASH_AND_SULPHUR" data-idx="25" data-type="article">
+            <div class="article-header" onclick="toggleArticle(25)">
+                <h3>Potash and Sulphur</h3>
+                <span class="meta">182 words</span>
+            </div>
+            <div class="article-content" id="content-25">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHITE_OF_POTASH" data-idx="26" data-type="article">
+            <div class="article-header" onclick="toggleArticle(26)">
+                <h3>Sulphite of Potash</h3>
+                <span class="meta">44 words</span>
+            </div>
+            <div class="article-content" id="content-26">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHATE_OF_POTASH" data-idx="27" data-type="article">
+            <div class="article-header" onclick="toggleArticle(27)">
+                <h3>Sulphate of Potash</h3>
+                <span class="meta">74 words</span>
+            </div>
+            <div class="article-content" id="content-27">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUPERSULPHATE_OR_BISULPHATE_OF_POTASH" data-idx="28" data-type="article">
+            <div class="article-header" onclick="toggleArticle(28)">
+                <h3>Supersulphate or Bisulphate of Potash</h3>
+                <span class="meta">43 words</span>
+            </div>
+            <div class="article-content" id="content-28">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHURET_OF_POTASSIUM" data-idx="29" data-type="article">
+            <div class="article-header" onclick="toggleArticle(29)">
+                <h3>Phosphuret of Potassium</h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-29">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHITE_OF_POTASH" data-idx="30" data-type="article">
+            <div class="article-header" onclick="toggleArticle(30)">
+                <h3>Phosphite of Potash</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-30">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHATE_OF_POTASH" data-idx="31" data-type="article">
+            <div class="article-header" onclick="toggleArticle(31)">
+                <h3>Phosphate of Potash</h3>
+                <span class="meta">16 words</span>
+            </div>
+            <div class="article-content" id="content-31">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-POTASH_AND_CARBONIC_ACID" data-idx="32" data-type="article">
+            <div class="article-header" onclick="toggleArticle(32)">
+                <h3>Potash and Carbonic Acid</h3>
+                <span class="meta">17 words</span>
+            </div>
+            <div class="article-content" id="content-32">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUBCARBONATE_OF_POTASH" data-idx="33" data-type="article">
+            <div class="article-header" onclick="toggleArticle(33)">
+                <h3>Subcarbonate of Potash</h3>
+                <span class="meta">261 words</span>
+            </div>
+            <div class="article-content" id="content-33">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SODIUM" data-idx="34" data-type="article">
+            <div class="article-header" onclick="toggleArticle(34)">
+                <h3>SODIUM</h3>
+                <span class="meta">354 words</span>
+            </div>
+            <div class="article-content" id="content-34">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHURET_OF_SODIUM_AND_OF_SODA" data-idx="35" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(35)">
+                <h3>SULPHURET OF SODIUM AND OF SODA<span class="badge xref">Cross-ref &rarr; POTASSIUM</span></h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-35">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHITE_OF_SODA" data-idx="36" data-type="article">
+            <div class="article-header" onclick="toggleArticle(36)">
+                <h3>SULPHITE OF SODA</h3>
+                <span class="meta">20 words</span>
+            </div>
+            <div class="article-content" id="content-36">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHATE_OF_SODA" data-idx="37" data-type="article">
+            <div class="article-header" onclick="toggleArticle(37)">
+                <h3>SULPHATE OF SODA</h3>
+                <span class="meta">146 words</span>
+            </div>
+            <div class="article-content" id="content-37">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHATE_OF_SODA" data-idx="38" data-type="article">
+            <div class="article-header" onclick="toggleArticle(38)">
+                <h3>PHOSPHATE OF SODA</h3>
+                <span class="meta">30 words</span>
+            </div>
+            <div class="article-content" id="content-38">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SUBCARBONATE_OF_SODA" data-idx="39" data-type="article">
+            <div class="article-header" onclick="toggleArticle(39)">
+                <h3>SUBCARBONATE OF SODA</h3>
+                <span class="meta">44 words</span>
+            </div>
+            <div class="article-content" id="content-39">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BICARBONATE_OF_SODA" data-idx="40" data-type="article">
+            <div class="article-header" onclick="toggleArticle(40)">
+                <h3>BICARBONATE OF SODA</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-40">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARIUM" data-idx="41" data-type="article">
+            <div class="article-header" onclick="toggleArticle(41)">
+                <h3>BARIUM</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-41">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OXIDE_OF_BARIUM" data-idx="42" data-type="article">
+            <div class="article-header" onclick="toggleArticle(42)">
+                <h3>OXIDE OF BARIUM</h3>
+                <span class="meta">219 words</span>
+            </div>
+            <div class="article-content" id="content-42">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHLORIDE_OF_BARIUM" data-idx="43" data-type="article">
+            <div class="article-header" onclick="toggleArticle(43)">
+                <h3>CHLORIDE OF BARIUM<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,125 words</span>
+            </div>
+            <div class="article-content" id="content-43">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ANIMAL_SUBSTANCES" data-idx="44" data-type="article">
+            <div class="article-header" onclick="toggleArticle(44)">
+                <h3>ANIMAL SUBSTANCES</h3>
+                <span class="meta">1,644 words</span>
+            </div>
+            <div class="article-content" id="content-44">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ANIMAL_CHEMISTRY" data-idx="45" data-type="article">
+            <div class="article-header" onclick="toggleArticle(45)">
+                <h3>ANIMAL CHEMISTRY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">4,238 words</span>
+            </div>
+            <div class="article-content" id="content-45">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHILI" data-idx="46" data-type="article">
+            <div class="article-header" onclick="toggleArticle(46)">
+                <h3>CHILI</h3>
+                <span class="meta">209 words</span>
+            </div>
+            <div class="article-content" id="content-46">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHILI" data-idx="47" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(47)">
+                <h3>CHILI<span class="badge xref">Cross-ref &rarr; Holland&#x27;s Agriculture of Cheshire</span></h3>
+                <span class="meta">18 words</span>
+            </div>
+            <div class="article-content" id="content-47">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHILI" data-idx="48" data-type="article">
+            <div class="article-header" onclick="toggleArticle(48)">
+                <h3>CHILI<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">750 words</span>
+            </div>
+            <div class="article-content" id="content-48">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ARAUCANIANS" data-idx="49" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(49)">
+                <h3>Araucanians<span class="badge xref">Cross-ref &rarr; Araucanians</span></h3>
+                <span class="meta">17,339 words</span>
+            </div>
+            <div class="article-content" id="content-49">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHINA" data-idx="50" data-type="article">
+            <div class="article-header" onclick="toggleArticle(50)">
+                <h3>CHINA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">53,831 words</span>
+            </div>
+            <div class="article-content" id="content-50">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANNERET" data-idx="51" data-type="article">
+            <div class="article-header" onclick="toggleArticle(51)">
+                <h3>BANNERET</h3>
+                <span class="meta">856 words</span>
+            </div>
+            <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TEMPLARS" data-idx="52" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>Templars<span class="badge xref">Cross-ref &rarr; Templars</span></h3>
+                <span class="meta">424 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ORDER_OF_THE_GARTER" data-idx="53" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>Order of the Garter<span class="badge xref">Cross-ref &rarr; Order of the Garter</span></h3>
+                <span class="meta">278 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARONET" data-idx="54" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>Baronet<span class="badge xref">Cross-ref &rarr; Baronet</span></h3>
+                <span class="meta">360 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-KNIGHT" data-idx="55" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>Knight<span class="badge xref">Cross-ref &rarr; Knight</span></h3>
+                <span class="meta">411 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SIR_ANDREW_HARCLAY" data-idx="56" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>Sir Andrew Harclay<span class="badge xref">Cross-ref &rarr; Sir Andrew Harclay</span></h3>
+                <span class="meta">984 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GENS_D_ARMES" data-idx="57" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>Gens-d&#x27;armes<span class="badge xref">Cross-ref &rarr; Gens-d&#x27;armes</span></h3>
+                <span class="meta">654 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WARS_OF_YORK_AND_LANCASTER" data-idx="58" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>Wars of York and Lancaster<span class="badge xref">Cross-ref &rarr; Wars of York and Lancaster</span></h3>
+                <span class="meta">314 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HUGUENOTS" data-idx="59" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>Huguenots<span class="badge xref">Cross-ref &rarr; Huguenots</span></h3>
+                <span class="meta">269 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NOBLES" data-idx="60" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>Nobles<span class="badge xref">Cross-ref &rarr; Nobles</span></h3>
+                <span class="meta">500 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LA_NOUE" data-idx="61" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>La Noue<span class="badge xref">Cross-ref &rarr; La Noue</span></h3>
+                <span class="meta">13,010 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ROCK_CRYSTAL" data-idx="62" data-type="article">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>Rock crystal</h3>
+                <span class="meta">144 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GLASS_CUBES" data-idx="63" data-type="article">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>Glass cubes</h3>
+                <span class="meta">345 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT_REFLECTION" data-idx="64" data-type="article">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>Light reflection</h3>
+                <span class="meta">264 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT_AND_COLOURS" data-idx="65" data-type="article">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>Light and colours</h3>
+                <span class="meta">319 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_1_SECT_I" data-idx="66" data-type="article">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>Art. 1. (Sect. I.)</h3>
+                <span class="meta">744 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_2_SECT_IV_A" data-idx="67" data-type="article">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>Art. 2. (Sect. IV. A.)</h3>
+                <span class="meta">339 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-UNDULATORY_THEORY" data-idx="68" data-type="article">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>Undulatory theory</h3>
+                <span class="meta">398 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_3_SECT_IV_C" data-idx="69" data-type="article">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>Art. 3. (Sect. IV. C.)</h3>
+                <span class="meta">104 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_4_SECT_IV_C" data-idx="70" data-type="article">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>Art. 4. (Sect. IV. C.)</h3>
+                <span class="meta">647 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_5_SECT_IV_D_SECT_XIII" data-idx="71" data-type="article">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>Art. 5. (Sect. IV. D.; Sect. XIII.)</h3>
+                <span class="meta">349 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-WAVE_MOTION" data-idx="72" data-type="article">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>Wave motion</h3>
+                <span class="meta">787 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TRANSVERSE_MOTION" data-idx="73" data-type="article">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>Transverse motion</h3>
+                <span class="meta">326 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIGHT_REFLECTION" data-idx="74" data-type="article">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>Light reflection</h3>
+                <span class="meta">203 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_6_SECT_V" data-idx="75" data-type="article">
+            <div class="article-header" onclick="toggleArticle(75)">
+                <h3>Art. 6. (Sect. V.)</h3>
+                <span class="meta">774 words</span>
+            </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COLLISION_EFFECTS" data-idx="76" data-type="article">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>Collision effects</h3>
+                <span class="meta">370 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ART_7_SECT_XIII" data-idx="77" data-type="article">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>Art. 7. (Sect. XIII.)</h3>
+                <span class="meta">444 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ELLIPTIC_REFRACTION" data-idx="78" data-type="article">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>Elliptic refraction</h3>
+                <span class="meta">658 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHRONICLE_PARIAX" data-idx="79" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>CHRONICLE, PARIAX<span class="badge xref">Cross-ref &rarr; PARIAN CHRONICLE</span></h3>
+                <span class="meta">17 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON" data-idx="80" data-type="article">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>CINNAMON</h3>
+                <span class="meta">91 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VASCO_DI_GAMA" data-idx="81" data-type="article">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>VASCO DI GAMA</h3>
+                <span class="meta">117 words</span>
+            </div>
+            <div class="article-content" id="content-81">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUTCH_CINNAMON_TRADE" data-idx="82" data-type="article">
+            <div class="article-header" onclick="toggleArticle(82)">
+                <h3>DUTCH CINNAMON TRADE</h3>
+                <span class="meta">98 words</span>
+            </div>
+            <div class="article-content" id="content-82">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_YIELDS" data-idx="83" data-type="article">
+            <div class="article-header" onclick="toggleArticle(83)">
+                <h3>CINNAMON YIELDS</h3>
+                <span class="meta">43 words</span>
+            </div>
+            <div class="article-content" id="content-83">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CEYLON_CINNAMON" data-idx="84" data-type="article">
+            <div class="article-header" onclick="toggleArticle(84)">
+                <h3>CEYLON CINNAMON</h3>
+                <span class="meta">107 words</span>
+            </div>
+            <div class="article-content" id="content-84">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHINA_CULTIVATION" data-idx="85" data-type="article">
+            <div class="article-header" onclick="toggleArticle(85)">
+                <h3>CHINA CULTIVATION</h3>
+                <span class="meta">82 words</span>
+            </div>
+            <div class="article-content" id="content-85">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CEYLON_CINNAMON_TRADE" data-idx="86" data-type="article">
+            <div class="article-header" onclick="toggleArticle(86)">
+                <h3>CEYLON CINNAMON TRADE</h3>
+                <span class="meta">69 words</span>
+            </div>
+            <div class="article-content" id="content-86">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_PRODUCTION" data-idx="87" data-type="article">
+            <div class="article-header" onclick="toggleArticle(87)">
+                <h3>CINNAMON PRODUCTION</h3>
+                <span class="meta">61 words</span>
+            </div>
+            <div class="article-content" id="content-87">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_EXPORTS" data-idx="88" data-type="article">
+            <div class="article-header" onclick="toggleArticle(88)">
+                <h3>CINNAMON EXPORTS</h3>
+                <span class="meta">97 words</span>
+            </div>
+            <div class="article-content" id="content-88">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_SALES" data-idx="89" data-type="article">
+            <div class="article-header" onclick="toggleArticle(89)">
+                <h3>CINNAMON SALES</h3>
+                <span class="meta">27 words</span>
+            </div>
+            <div class="article-content" id="content-89">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUTCH_CINNAMON_SALES" data-idx="90" data-type="article">
+            <div class="article-header" onclick="toggleArticle(90)">
+                <h3>DUTCH CINNAMON SALES</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-90">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_PRICES" data-idx="91" data-type="article">
+            <div class="article-header" onclick="toggleArticle(91)">
+                <h3>CINNAMON PRICES</h3>
+                <span class="meta">109 words</span>
+            </div>
+            <div class="article-content" id="content-91">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CEYLON_CINNAMON_QUALITY" data-idx="92" data-type="article">
+            <div class="article-header" onclick="toggleArticle(92)">
+                <h3>CEYLON CINNAMON QUALITY</h3>
+                <span class="meta">60 words</span>
+            </div>
+            <div class="article-content" id="content-92">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_ORIGINS" data-idx="93" data-type="article">
+            <div class="article-header" onclick="toggleArticle(93)">
+                <h3>CINNAMON ORIGINS</h3>
+                <span class="meta">63 words</span>
+            </div>
+            <div class="article-content" id="content-93">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CINNAMON_OIL" data-idx="94" data-type="article">
+            <div class="article-header" onclick="toggleArticle(94)">
+                <h3>CINNAMON OIL</h3>
+                <span class="meta">50 words</span>
+            </div>
+            <div class="article-content" id="content-94">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CASSIA_BUDS" data-idx="95" data-type="article">
+            <div class="article-header" onclick="toggleArticle(95)">
+                <h3>CASSIA-BUDS</h3>
+                <span class="meta">33 words</span>
+            </div>
+            <div class="article-content" id="content-95">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CIRCARS_NORTHERN" data-idx="96" data-type="article">
+            <div class="article-header" onclick="toggleArticle(96)">
+                <h3>CIRCARS (NORTHERN)</h3>
+                <span class="meta">179 words</span>
+            </div>
+            <div class="article-content" id="content-96">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BACK_MATTER" data-idx="97" data-type="back_matter">
+            <div class="article-header" onclick="toggleArticle(97)">
+                <h3>BACK MATTER</h3>
+                <span class="meta">443 words</span>
+            </div>
+            <div class="article-content" id="content-97">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CIRCASSIA" data-idx="98" data-type="article">
+            <div class="article-header" onclick="toggleArticle(98)">
+                <h3>CIRCASSIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,184 words</span>
+            </div>
+            <div class="article-content" id="content-98">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CIRRIPEDES" data-idx="99" data-type="article">
+            <div class="article-header" onclick="toggleArticle(99)">
+                <h3>CIRRIPEDES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">31,513 words</span>
+            </div>
+            <div class="article-content" id="content-99">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CLOUD" data-idx="100" data-type="article">
+            <div class="article-header" onclick="toggleArticle(100)">
+                <h3>CLOUD<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">35,748 words</span>
+            </div>
+            <div class="article-content" id="content-100">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MINT" data-idx="101" data-type="article">
+            <div class="article-header" onclick="toggleArticle(101)">
+                <h3>MINT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,165 words</span>
+            </div>
+            <div class="article-content" id="content-101">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COLD" data-idx="102" data-type="article">
+            <div class="article-header" onclick="toggleArticle(102)">
+                <h3>COLD<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">15,201 words</span>
+            </div>
+            <div class="article-content" id="content-102">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NEW_SOUTH_WALES" data-idx="103" data-type="article">
+            <div class="article-header" onclick="toggleArticle(103)">
+                <h3>NEW SOUTH WALES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">30,873 words</span>
+            </div>
+            <div class="article-content" id="content-103">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CABOCHOON" data-idx="104" data-type="article">
+            <div class="article-header" onclick="toggleArticle(104)">
+                <h3>CABOCHOON</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-104">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_LAPLYSIENS" data-idx="105" data-type="article">
+            <div class="article-header" onclick="toggleArticle(105)">
+                <h3>LES LAPLYSIENS</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-105">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-D_BRANCHIES" data-idx="106" data-type="article">
+            <div class="article-header" onclick="toggleArticle(106)">
+                <h3>D. BRANCHIES</h3>
+                <span class="meta">23 words</span>
+            </div>
+            <div class="article-content" id="content-106">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_LINACIENS" data-idx="107" data-type="article">
+            <div class="article-header" onclick="toggleArticle(107)">
+                <h3>LES LINACIENS</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-107">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MOLLUSQUES_CEPHALOS_TRACHELIPODES" data-idx="108" data-type="article">
+            <div class="article-header" onclick="toggleArticle(108)">
+                <h3>MOLLUSQUES CEPHALOS TRACHELIPODES</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-108">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-A_SANS_SIPHON_SAILLANT" data-idx="109" data-type="article">
+            <div class="article-header" onclick="toggleArticle(109)">
+                <h3>A. SANS SIPHON SAILLANT</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-109">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-A_NE_RESPIRANT_QUE_L_AIR" data-idx="110" data-type="article">
+            <div class="article-header" onclick="toggleArticle(110)">
+                <h3>A. NE RESPIRANT QUE L&#x27;AIR</h3>
+                <span class="meta">21 words</span>
+            </div>
+            <div class="article-content" id="content-110">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TENTACLES_CYLINDRES" data-idx="111" data-type="article">
+            <div class="article-header" onclick="toggleArticle(111)">
+                <h3>TENTACLES CYLINDRES</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-111">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_COLIMACES" data-idx="112" data-type="article">
+            <div class="article-header" onclick="toggleArticle(112)">
+                <h3>LES COLIMACES</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-112">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CYCLOSTOME_VERTIGO" data-idx="113" data-type="article">
+            <div class="article-header" onclick="toggleArticle(113)">
+                <h3>CYCLOSTOME VERTIGO</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-113">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TENTACLES_APPLATIS" data-idx="114" data-type="article">
+            <div class="article-header" onclick="toggleArticle(114)">
+                <h3>TENTACLES APPLATIS</h3>
+                <span class="meta">21 words</span>
+            </div>
+            <div class="article-content" id="content-114">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_LYMN_EENS" data-idx="115" data-type="article">
+            <div class="article-header" onclick="toggleArticle(115)">
+                <h3>LES LYMN EENS</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-115">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-B_NE_RESPIRANT_QUE_L_EAU" data-idx="116" data-type="article">
+            <div class="article-header" onclick="toggleArticle(116)">
+                <h3>B. NE RESPIRANT QUE L&#x27;EAU</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-116">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COQUILLE_FLUVIATILE" data-idx="117" data-type="article">
+            <div class="article-header" onclick="toggleArticle(117)">
+                <h3>COQUILLE FLUVIATILE</h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-117">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COQUILLE_OPERCUL_E" data-idx="118" data-type="article">
+            <div class="article-header" onclick="toggleArticle(118)">
+                <h3>Coquille operculée</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-118">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_MELANIENS" data-idx="119" data-type="article">
+            <div class="article-header" onclick="toggleArticle(119)">
+                <h3>Les Melaniens</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-119">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MELANIE_PIR_NE_MELANOPSIDE" data-idx="120" data-type="article">
+            <div class="article-header" onclick="toggleArticle(120)">
+                <h3>Melanie Pirène Melanopside</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-120">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COQUILLE_OPERCUL_E" data-idx="121" data-type="article">
+            <div class="article-header" onclick="toggleArticle(121)">
+                <h3>Coquille operculée</h3>
+                <span class="meta">10 words</span>
+            </div>
+            <div class="article-content" id="content-121">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_PERISTOMIENS" data-idx="122" data-type="article">
+            <div class="article-header" onclick="toggleArticle(122)">
+                <h3>Les Peristomiens</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-122">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PALUDINE_AMPULLAIRE_VALV_E" data-idx="123" data-type="article">
+            <div class="article-header" onclick="toggleArticle(123)">
+                <h3>Paludine Ampullaire Valvée</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-123">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COQUILLES_FLUVIATILES_OU_MARINE" data-idx="124" data-type="article">
+            <div class="article-header" onclick="toggleArticle(124)">
+                <h3>Coquilles fluviatiles ou marine</h3>
+                <span class="meta">22 words</span>
+            </div>
+            <div class="article-content" id="content-124">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NAVICELLE_FLUVIALE" data-idx="125" data-type="article">
+            <div class="article-header" onclick="toggleArticle(125)">
+                <h3>Navicelle fluviale</h3>
+                <span class="meta">6 words</span>
+            </div>
+            <div class="article-content" id="content-125">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COQUILLES_MARINE" data-idx="126" data-type="article">
+            <div class="article-header" onclick="toggleArticle(126)">
+                <h3>Coquilles marine</h3>
+                <span class="meta">16 words</span>
+            </div>
+            <div class="article-content" id="content-126">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DES_PLIS_LA_COLUMELLE" data-idx="127" data-type="article">
+            <div class="article-header" onclick="toggleArticle(127)">
+                <h3>Des plis à la columelle</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-127">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_PLICACES" data-idx="128" data-type="article">
+            <div class="article-header" onclick="toggleArticle(128)">
+                <h3>Les Plicaces</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-128">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TORNATILLE_PYRAMIDELLE" data-idx="129" data-type="article">
+            <div class="article-header" onclick="toggleArticle(129)">
+                <h3>Tornatille Pyramidelle</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-129">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OUVERTURE_OBRONDE_BORDS_R_UNIS" data-idx="130" data-type="article">
+            <div class="article-header" onclick="toggleArticle(130)">
+                <h3>Ouverture obronde à bords réunis</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-130">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_SCALARIENS" data-idx="131" data-type="article">
+            <div class="article-header" onclick="toggleArticle(131)">
+                <h3>Les Scalariens</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-131">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VERMET_DAUPHINULE_SCALARE" data-idx="132" data-type="article">
+            <div class="article-header" onclick="toggleArticle(132)">
+                <h3>Vermet Dauphinule Scalare</h3>
+                <span class="meta">3 words</span>
+            </div>
+            <div class="article-content" id="content-132">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OUVERTURE_VAS_E_BORD_D_SUNIS" data-idx="133" data-type="article">
+            <div class="article-header" onclick="toggleArticle(133)">
+                <h3>Ouverture évasée, à bord désunis</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-133">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_MACROSTOMES" data-idx="134" data-type="article">
+            <div class="article-header" onclick="toggleArticle(134)">
+                <h3>Les Macrostomes</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-134">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STOMATE_STOMATELLE" data-idx="135" data-type="article">
+            <div class="article-header" onclick="toggleArticle(135)">
+                <h3>Stomate Stomatelle</h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-135">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OUVERTURE_NON_VAS_E_BORD_DISUNIS" data-idx="136" data-type="article">
+            <div class="article-header" onclick="toggleArticle(136)">
+                <h3>Ouverture non évasée, à bord disunis</h3>
+                <span class="meta">194 words</span>
+            </div>
+            <div class="article-content" id="content-136">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LES_ENROUL_ES" data-idx="137" data-type="article">
+            <div class="article-header" onclick="toggleArticle(137)">
+                <h3>Les Enroulées<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">4,016 words</span>
+            </div>
+            <div class="article-content" id="content-137">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHITON" data-idx="138" data-type="article">
+            <div class="article-header" onclick="toggleArticle(138)">
+                <h3>CHITON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">26,214 words</span>
+            </div>
+            <div class="article-content" id="content-138">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COPYRIGHT" data-idx="139" data-type="article">
+            <div class="article-header" onclick="toggleArticle(139)">
+                <h3>COPYRIGHT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,742 words</span>
+            </div>
+            <div class="article-content" id="content-139">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FISTULOUS" data-idx="140" data-type="article">
+            <div class="article-header" onclick="toggleArticle(140)">
+                <h3>FISTULOUS</h3>
+                <span class="meta">5 words</span>
+            </div>
+            <div class="article-content" id="content-140">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GMELIN" data-idx="141" data-type="article">
+            <div class="article-header" onclick="toggleArticle(141)">
+                <h3>GMELIN</h3>
+                <span class="meta">51 words</span>
+            </div>
+            <div class="article-content" id="content-141">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GALAXAURA_RIGIDA" data-idx="142" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(142)">
+                <h3>Galaxaura rigida<span class="badge xref">Cross-ref &rarr; Lamouroux, 265</span></h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-142">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GEN_6_JANIA" data-idx="143" data-type="article">
+            <div class="article-header" onclick="toggleArticle(143)">
+                <h3>Gen. 6. Jania<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">76 words</span>
+            </div>
+            <div class="article-content" id="content-143">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GEN_7_CORALLINA" data-idx="144" data-type="article">
+            <div class="article-header" onclick="toggleArticle(144)">
+                <h3>Gen. 7. Corallina<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">189 words</span>
+            </div>
+            <div class="article-content" id="content-144">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CORALLINA_SIMPLEX" data-idx="145" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(145)">
+                <h3>Corallina simplex<span class="badge xref">Cross-ref &rarr; Lamouroux, 290</span></h3>
+                <span class="meta">4 words</span>
+            </div>
+            <div class="article-content" id="content-145">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GEN_8_CYMOPOLIA" data-idx="146" data-type="article">
+            <div class="article-header" onclick="toggleArticle(146)">
+                <h3>Gen. 8. Cymopolia</h3>
+                <span class="meta">196 words</span>
+            </div>
+            <div class="article-content" id="content-146">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HALIMEDA_IRREGULARIS" data-idx="147" data-type="article">
+            <div class="article-header" onclick="toggleArticle(147)">
+                <h3>Halimeda irregularis</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-147">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MELOBESIA" data-idx="148" data-type="article">
+            <div class="article-header" onclick="toggleArticle(148)">
+                <h3>Melobesia</h3>
+                <span class="meta">103 words</span>
+            </div>
+            <div class="article-content" id="content-148">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CORK" data-idx="149" data-type="article">
+            <div class="article-header" onclick="toggleArticle(149)">
+                <h3>Cork<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">61,568 words</span>
+            </div>
+            <div class="article-content" id="content-149">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COTTON_MANUFACTURE" data-idx="150" data-type="article">
+            <div class="article-header" onclick="toggleArticle(150)">
+                <h3>COTTON MANUFACTURE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,258 words</span>
+            </div>
+            <div class="article-content" id="content-150">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CRANIOSCOPY" data-idx="151" data-type="article">
+            <div class="article-header" onclick="toggleArticle(151)">
+                <h3>CRANIOSCOPY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">62,495 words</span>
+            </div>
+            <div class="article-content" id="content-151">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DEAF_AND_DUMB" data-idx="152" data-type="article">
+            <div class="article-header" onclick="toggleArticle(152)">
+                <h3>DEAF AND DUMB<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">4,184 words</span>
+            </div>
+            <div class="article-content" id="content-152">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DECOMPOSITION_CHEMICAL" data-idx="153" data-type="article">
+            <div class="article-header" onclick="toggleArticle(153)">
+                <h3>DECOMPOSITION, CHEMICAL</h3>
+                <span class="meta">3,782 words</span>
+            </div>
+            <div class="article-content" id="content-153">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-R" data-idx="154" data-type="article">
+            <div class="article-header" onclick="toggleArticle(154)">
+                <h3>R&#x27;&#x27;</h3>
+                <span class="meta">282 words</span>
+            </div>
+            <div class="article-content" id="content-154">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-N" data-idx="155" data-type="article">
+            <div class="article-header" onclick="toggleArticle(155)">
+                <h3>N =</h3>
+                <span class="meta">32 words</span>
+            </div>
+            <div class="article-content" id="content-155">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IT" data-idx="156" data-type="article">
+            <div class="article-header" onclick="toggleArticle(156)">
+                <h3>It</h3>
+                <span class="meta">46 words</span>
+            </div>
+            <div class="article-content" id="content-156">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-F" data-idx="157" data-type="article">
+            <div class="article-header" onclick="toggleArticle(157)">
+                <h3>f =<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,802 words</span>
+            </div>
+            <div class="article-content" id="content-157">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OLEFIANT_GAS" data-idx="158" data-type="article">
+            <div class="article-header" onclick="toggleArticle(158)">
+                <h3>OLEFIANT GAS</h3>
+                <span class="meta">137 words</span>
+            </div>
+            <div class="article-content" id="content-158">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHURETED_HYDROGEN" data-idx="159" data-type="article">
+            <div class="article-header" onclick="toggleArticle(159)">
+                <h3>PHOSPHURETED HYDROGEN</h3>
+                <span class="meta">306 words</span>
+            </div>
+            <div class="article-content" id="content-159">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SULPHURETED_HYDROGEN" data-idx="160" data-type="article">
+            <div class="article-header" onclick="toggleArticle(160)">
+                <h3>SULPHURETED HYDROGEN</h3>
+                <span class="meta">155 words</span>
+            </div>
+            <div class="article-content" id="content-160">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-TELLUATED_HYDROGEN" data-idx="161" data-type="article">
+            <div class="article-header" onclick="toggleArticle(161)">
+                <h3>TELLUATED HYDROGEN</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-161">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARBONIC_OXIDE" data-idx="162" data-type="article">
+            <div class="article-header" onclick="toggleArticle(162)">
+                <h3>CARBONIC OXIDE</h3>
+                <span class="meta">173 words</span>
+            </div>
+            <div class="article-content" id="content-162">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-HYDRO_CARBONIC_OXIDE" data-idx="163" data-type="article">
+            <div class="article-header" onclick="toggleArticle(163)">
+                <h3>HYDRO-CARBONIC OXIDE</h3>
+                <span class="meta">191 words</span>
+            </div>
+            <div class="article-content" id="content-163">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AZOTIC_GAS" data-idx="164" data-type="article">
+            <div class="article-header" onclick="toggleArticle(164)">
+                <h3>AZOTIC GAS</h3>
+                <span class="meta">220 words</span>
+            </div>
+            <div class="article-content" id="content-164">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARBONIC_ACID" data-idx="165" data-type="article">
+            <div class="article-header" onclick="toggleArticle(165)">
+                <h3>CARBONIC ACID</h3>
+                <span class="meta">208 words</span>
+            </div>
+            <div class="article-content" id="content-165">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AMMONIACAL_GAS" data-idx="166" data-type="article">
+            <div class="article-header" onclick="toggleArticle(166)">
+                <h3>AMMONIACAL GAS</h3>
+                <span class="meta">264 words</span>
+            </div>
+            <div class="article-content" id="content-166">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CYANOGEN_GAS" data-idx="167" data-type="article">
+            <div class="article-header" onclick="toggleArticle(167)">
+                <h3>CYANOGEN GAS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">3,465 words</span>
+            </div>
+            <div class="article-content" id="content-167">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DECOMPOSITION_CHEMICAL" data-idx="168" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(168)">
+                <h3>DECOMPOSITION, CHEMICAL<span class="badge xref">Cross-ref &rarr; CHEMICAL DECOMPOSITION</span></h3>
+                <span class="meta">10,869 words</span>
+            </div>
+            <div class="article-content" id="content-168">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MINERAL_WATERS" data-idx="169" data-type="article">
+            <div class="article-header" onclick="toggleArticle(169)">
+                <h3>MINERAL WATERS</h3>
+                <span class="meta">19 words</span>
+            </div>
+            <div class="article-content" id="content-169">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-FOR_THE_MODE_OF_DETERMINING_THE_QUANTITIES_AND_SPECIES_OF_THESE_GASES_WHEN_EXTRICATED_WE_REFER_TO_THE_FIRST_CHAPTER_OF_THIS_ARTICLE" data-idx="170" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(170)">
+                <h3>For the mode of determining the quantities and species of these gases when extricated, we refer to the first chapter of this article.<span class="badge xref">Cross-ref &rarr; CHAPTER I.</span></h3>
+                <span class="meta">13,300 words</span>
+            </div>
+            <div class="article-content" id="content-170">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COBALT" data-idx="171" data-type="article">
+            <div class="article-header" onclick="toggleArticle(171)">
+                <h3>COBALT</h3>
+                <span class="meta">14 words</span>
+            </div>
+            <div class="article-content" id="content-171">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ZINC" data-idx="172" data-type="article">
+            <div class="article-header" onclick="toggleArticle(172)">
+                <h3>ZINC</h3>
+                <span class="meta">9 words</span>
+            </div>
+            <div class="article-content" id="content-172">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEAD" data-idx="173" data-type="article">
+            <div class="article-header" onclick="toggleArticle(173)">
+                <h3>LEAD</h3>
+                <span class="meta">13 words</span>
+            </div>
+            <div class="article-content" id="content-173">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SALTS" data-idx="174" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(174)">
+                <h3>SALTS<span class="badge xref">Cross-ref &rarr; SALTS</span></h3>
+                <span class="meta">33 words</span>
+            </div>
+            <div class="article-content" id="content-174">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VEGETABLE_SUBSTANCES" data-idx="175" data-type="article">
+            <div class="article-header" onclick="toggleArticle(175)">
+                <h3>VEGETABLE SUBSTANCES</h3>
+                <span class="meta">215 words</span>
+            </div>
+            <div class="article-content" id="content-175">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DRYING_VEGETABLE_BODIES" data-idx="176" data-type="article">
+            <div class="article-header" onclick="toggleArticle(176)">
+                <h3>DRYING VEGETABLE BODIES</h3>
+                <span class="meta">160 words</span>
+            </div>
+            <div class="article-content" id="content-176">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ALTERABILITY_OF_VEGETABLE_BODIES" data-idx="177" data-type="article">
+            <div class="article-header" onclick="toggleArticle(177)">
+                <h3>ALTERABILITY OF VEGETABLE BODIES</h3>
+                <span class="meta">83 words</span>
+            </div>
+            <div class="article-content" id="content-177">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-METHOD_OF_DRYING_VEGETABLE_BODIES" data-idx="178" data-type="article">
+            <div class="article-header" onclick="toggleArticle(178)">
+                <h3>METHOD OF DRYING VEGETABLE BODIES</h3>
+                <span class="meta">184 words</span>
+            </div>
+            <div class="article-content" id="content-178">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GLYCYRRHIZA_GLABRA" data-idx="179" data-type="article">
+            <div class="article-header" onclick="toggleArticle(179)">
+                <h3>GLYCYRRHIZA GLABRA</h3>
+                <span class="meta">111 words</span>
+            </div>
+            <div class="article-content" id="content-179">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIQUORICE_ROOT_ANALYSIS" data-idx="180" data-type="article">
+            <div class="article-header" onclick="toggleArticle(180)">
+                <h3>LIQUORICE ROOT ANALYSIS</h3>
+                <span class="meta">50 words</span>
+            </div>
+            <div class="article-content" id="content-180">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-STARCH_PRECIPITATION" data-idx="181" data-type="article">
+            <div class="article-header" onclick="toggleArticle(181)">
+                <h3>STARCH PRECIPITATION</h3>
+                <span class="meta">21 words</span>
+            </div>
+            <div class="article-content" id="content-181">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LIQUID_PROPERTIES" data-idx="182" data-type="article">
+            <div class="article-header" onclick="toggleArticle(182)">
+                <h3>LIQUID PROPERTIES</h3>
+                <span class="meta">24 words</span>
+            </div>
+            <div class="article-content" id="content-182">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-VEGETABLE_ALBUMEN" data-idx="183" data-type="article">
+            <div class="article-header" onclick="toggleArticle(183)">
+                <h3>VEGETABLE ALBUMEN</h3>
+                <span class="meta">92 words</span>
+            </div>
+            <div class="article-content" id="content-183">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-OXALATE_OF_AMMONIA" data-idx="184" data-type="article">
+            <div class="article-header" onclick="toggleArticle(184)">
+                <h3>OXALATE OF AMMONIA</h3>
+                <span class="meta">33 words</span>
+            </div>
+            <div class="article-content" id="content-184">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ACETATE_OF_LEAD" data-idx="185" data-type="article">
+            <div class="article-header" onclick="toggleArticle(185)">
+                <h3>ACETATE OF LEAD</h3>
+                <span class="meta">33 words</span>
+            </div>
+            <div class="article-content" id="content-185">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PHOSPHORIC_ACID" data-idx="186" data-type="article">
+            <div class="article-header" onclick="toggleArticle(186)">
+                <h3>PHOSPHORIC ACID</h3>
+                <span class="meta">26 words</span>
+            </div>
+            <div class="article-content" id="content-186">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PRINCIPLE_SEPARATION" data-idx="187" data-type="article">
+            <div class="article-header" onclick="toggleArticle(187)">
+                <h3>PRINCIPLE SEPARATION</h3>
+                <span class="meta">168 words</span>
+            </div>
+            <div class="article-content" id="content-187">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-YELLOW_PRINCIPLE" data-idx="188" data-type="article">
+            <div class="article-header" onclick="toggleArticle(188)">
+                <h3>YELLOW PRINCIPLE</h3>
+                <span class="meta">116 words</span>
+            </div>
+            <div class="article-content" id="content-188">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SACCHARINE_MATTER" data-idx="189" data-type="article">
+            <div class="article-header" onclick="toggleArticle(189)">
+                <h3>SACCHARINE MATTER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">41,992 words</span>
+            </div>
+            <div class="article-content" id="content-189">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DIETETICS" data-idx="190" data-type="article">
+            <div class="article-header" onclick="toggleArticle(190)">
+                <h3>DIETETICS</h3>
+                <span class="meta">3,102 words</span>
+            </div>
+            <div class="article-content" id="content-190">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DIFFERENTIAL_CALCULUS" data-idx="191" data-type="article">
+            <div class="article-header" onclick="toggleArticle(191)">
+                <h3>DIFFERENTIAL CALCULUS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">27,985 words</span>
+            </div>
+            <div class="article-content" id="content-191">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MARINES" data-idx="192" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(192)">
+                <h3>Marines<span class="badge xref">Cross-ref &rarr; Royal Marines</span></h3>
+                <span class="meta">30 words</span>
+            </div>
+            <div class="article-content" id="content-192">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHATHAM_DOCK_YARD" data-idx="193" data-type="article">
+            <div class="article-header" onclick="toggleArticle(193)">
+                <h3>CHATHAM DOCK-YARD</h3>
+                <span class="meta">100 words</span>
+            </div>
+            <div class="article-content" id="content-193">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SHEERNESS_DOCK_YARD" data-idx="194" data-type="article">
+            <div class="article-header" onclick="toggleArticle(194)">
+                <h3>Sheerness Dock-Yard<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,360 words</span>
+            </div>
+            <div class="article-content" id="content-194">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NAVY" data-idx="195" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(195)">
+                <h3>Navy<span class="badge xref">Cross-ref &rarr; Navy</span></h3>
+                <span class="meta">38 words</span>
+            </div>
+            <div class="article-content" id="content-195">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MA" data-idx="196" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(196)">
+                <h3>Ma<span class="badge xref">Cross-ref &rarr; Marines</span></h3>
+                <span class="meta">46 words</span>
+            </div>
+            <div class="article-content" id="content-196">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PLYMOUTH_DOCK_YARD" data-idx="197" data-type="article">
+            <div class="article-header" onclick="toggleArticle(197)">
+                <h3>Plymouth Dock-Yard<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">763 words</span>
+            </div>
+            <div class="article-content" id="content-197">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NAVY" data-idx="198" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(198)">
+                <h3>Navy<span class="badge xref">Cross-ref &rarr; Navy</span></h3>
+                <span class="meta">36 words</span>
+            </div>
+            <div class="article-content" id="content-198">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MARINES" data-idx="199" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(199)">
+                <h3>Marines<span class="badge xref">Cross-ref &rarr; Marines</span></h3>
+                <span class="meta">28 words</span>
+            </div>
+            <div class="article-content" id="content-199">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-PEMBROKE_DOCK_YARD" data-idx="200" data-type="article">
+            <div class="article-header" onclick="toggleArticle(200)">
+                <h3>Pembroke Dock-Yard</h3>
+                <span class="meta">603 words</span>
+            </div>
+            <div class="article-content" id="content-200">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-COMMISSIONERS_OF_THE_NAVY" data-idx="201" data-type="article">
+            <div class="article-header" onclick="toggleArticle(201)">
+                <h3>Commissioners of the Navy<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">22,047 words</span>
+            </div>
+            <div class="article-content" id="content-201">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ST_DOMINGO" data-idx="202" data-type="article">
+            <div class="article-header" onclick="toggleArticle(202)">
+                <h3>ST DOMINGO</h3>
+                <span class="meta">425 words</span>
+            </div>
+            <div class="article-content" id="content-202">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DONEGAL" data-idx="203" data-type="article">
+            <div class="article-header" onclick="toggleArticle(203)">
+                <h3>DONEGAL<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,212 words</span>
+            </div>
+            <div class="article-content" id="content-203">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DORSETSHIRE" data-idx="204" data-type="article">
+            <div class="article-header" onclick="toggleArticle(204)">
+                <h3>DORSETSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">9,606 words</span>
+            </div>
+            <div class="article-content" id="content-204">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-GREEK_DRAMA" data-idx="205" data-type="article">
+            <div class="article-header" onclick="toggleArticle(205)">
+                <h3>GREEK DRAMA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,080 words</span>
+            </div>
+            <div class="article-content" id="content-205">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MODERN_DRAMA" data-idx="206" data-type="article">
+            <div class="article-header" onclick="toggleArticle(206)">
+                <h3>MODERN DRAMA</h3>
+                <span class="meta">1,127 words</span>
+            </div>
+            <div class="article-content" id="content-206">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MODERN_DRAMA" data-idx="207" data-type="article">
+            <div class="article-header" onclick="toggleArticle(207)">
+                <h3>MODERN DRAMA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">49,481 words</span>
+            </div>
+            <div class="article-content" id="content-207">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUBLIN" data-idx="208" data-type="article">
+            <div class="article-header" onclick="toggleArticle(208)">
+                <h3>DUBLIN</h3>
+                <span class="meta">973 words</span>
+            </div>
+            <div class="article-content" id="content-208">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUCLOS" data-idx="209" data-type="article">
+            <div class="article-header" onclick="toggleArticle(209)">
+                <h3>DUCLOS</h3>
+                <span class="meta">852 words</span>
+            </div>
+            <div class="article-content" id="content-209">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUHAMEL" data-idx="210" data-type="article">
+            <div class="article-header" onclick="toggleArticle(210)">
+                <h3>DUHAMEL<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">9,330 words</span>
+            </div>
+            <div class="article-content" id="content-210">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LORD_ASHBURTON" data-idx="211" data-type="article">
+            <div class="article-header" onclick="toggleArticle(211)">
+                <h3>LORD ASHBURTON</h3>
+                <span class="meta">142 words</span>
+            </div>
+            <div class="article-content" id="content-211">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-SIR_WILLIAM_JONES" data-idx="212" data-type="article">
+            <div class="article-header" onclick="toggleArticle(212)">
+                <h3>SIR WILLIAM JONES</h3>
+                <span class="meta">442 words</span>
+            </div>
+            <div class="article-content" id="content-212">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUPUIS" data-idx="213" data-type="article">
+            <div class="article-header" onclick="toggleArticle(213)">
+                <h3>DUPUIS</h3>
+                <span class="meta">115 words</span>
+            </div>
+            <div class="article-content" id="content-213">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CONDORCET" data-idx="214" data-type="article">
+            <div class="article-header" onclick="toggleArticle(214)">
+                <h3>CONDORCET</h3>
+                <span class="meta">107 words</span>
+            </div>
+            <div class="article-content" id="content-214">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-NATIONAL_CONVENTION" data-idx="215" data-type="article">
+            <div class="article-header" onclick="toggleArticle(215)">
+                <h3>NATIONAL CONVENTION</h3>
+                <span class="meta">116 words</span>
+            </div>
+            <div class="article-content" id="content-215">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-ORIGINE_DE_TOUS_LES_CULTES" data-idx="216" data-type="article">
+            <div class="article-header" onclick="toggleArticle(216)">
+                <h3>ORIGINE DE TOUS LES CULTES</h3>
+                <span class="meta">193 words</span>
+            </div>
+            <div class="article-content" id="content-216">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DUPUIS" data-idx="217" data-type="article">
+            <div class="article-header" onclick="toggleArticle(217)">
+                <h3>DUPUIS</h3>
+                <span class="meta">89 words</span>
+            </div>
+            <div class="article-content" id="content-217">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DURHAM" data-idx="218" data-type="article">
+            <div class="article-header" onclick="toggleArticle(218)">
+                <h3>DURHAM<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">739 words</span>
+            </div>
+            <div class="article-content" id="content-218">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-LEAD" data-idx="219" data-type="article">
+            <div class="article-header" onclick="toggleArticle(219)">
+                <h3>LEAD</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-219">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-DURHAM" data-idx="220" data-type="article">
+            <div class="article-header" onclick="toggleArticle(220)">
+                <h3>DURHAM</h3>
+                <span class="meta">70 words</span>
+            </div>
+            <div class="article-content" id="content-220">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IRON" data-idx="221" data-type="article">
+            <div class="article-header" onclick="toggleArticle(221)">
+                <h3>IRON</h3>
+                <span class="meta">1 words</span>
+            </div>
+            <div class="article-content" id="content-221">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-IRONSTONE" data-idx="222" data-type="article">
+            <div class="article-header" onclick="toggleArticle(222)">
+                <h3>IRONSTONE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">2,080 words</span>
+            </div>
+            <div class="article-content" id="content-222">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-MARIE_JEANNE_LIEUTAU" data-idx="223" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(223)">
+                <h3>Marie-Jeanne Lieutau<span class="badge xref">Cross-ref &rarr; Palissot, Memoires sur la Litterature; and Biog. Universelle</span></h3>
+                <span class="meta">18,748 words</span>
+            </div>
+            <div class="article-content" id="content-223">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+    </ul>
+    
+        <footer>
+            <p>Encyclopaedia Britannica Historical Corpus</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
+        </footer>
+    </div>
+    
+    <script>
+    let articlesData = null;
+    let loadedArticles = new Set();
+
+    async function loadArticleData() {
+        if (articlesData) return;
+        try {
+            const response = await fetch('data/vol501.json');
+            articlesData = await response.json();
+        } catch (err) {
+            console.error('Failed to load article data:', err);
+        }
+    }
+
+    async function toggleArticle(idx) {
+        const content = document.getElementById('content-' + idx);
+        const isShown = content.classList.contains('show');
+
+        if (isShown) {
+            content.classList.remove('show');
+            return;
+        }
+
+        content.classList.add('show');
+
+        if (loadedArticles.has(idx)) return;
+
+        await loadArticleData();
+        if (!articlesData || !articlesData[idx]) {
+            content.innerHTML = '<div class="article-text">Error loading article.</div>';
+            return;
+        }
+
+        const article = articlesData[idx];
+
+        content.innerHTML = `
+            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-actions">
+                <button onclick="downloadMd(${idx})">Download .md</button>
+                <button onclick="copyText(${idx})">Copy Text</button>
+            </div>
+        `;
+        loadedArticles.add(idx);
+    }
+
+    function escapeHtml(text) {
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    function downloadMd(idx) {
+        const article = articlesData[idx];
+        const header = `# ${article.h}\n\n**Edition:** 1823 Sixth Edition\n**Volume:** 501\n**Words:** ${article.wc}\n\n---\n\n`;
+        const blob = new Blob([header + article.t], {type: 'text/markdown'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = article.h.replace(/[^a-zA-Z0-9]/g, '_') + '.md';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    function copyText(idx) {
+        const article = articlesData[idx];
+        navigator.clipboard.writeText(article.t).then(() => {
+            alert('Copied to clipboard!');
+        });
+    }
+
+    function filterArticles() {
+        const query = document.getElementById('filterInput').value.toLowerCase();
+        const typeFilter = document.getElementById('typeFilter').value;
+        const items = document.querySelectorAll('.article-item');
+
+        items.forEach(item => {
+            const header = item.querySelector('h3').textContent.toLowerCase();
+            const articleType = item.dataset.type;
+            const isTreatise = item.querySelector('.badge.treatise') !== null;
+
+            let show = header.includes(query);
+            if (typeFilter === 'treatise') {
+                show = show && isTreatise;
+            } else if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
+
+            item.style.display = show ? '' : 'none';
+        });
+    }
+
+    // Hash navigation: auto-expand and scroll to article on page load
+    window.addEventListener('load', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                setTimeout(() => {
+                    article.scrollIntoView({behavior: 'smooth', block: 'start'});
+                }, 100);
+            }
+        }
+    });
+
+    window.addEventListener('hashchange', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                article.scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+        }
+    });
+    </script>
+    
+</body>
+</html>

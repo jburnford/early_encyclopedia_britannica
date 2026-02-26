@@ -114,7 +114,7 @@ nav a:hover { text-decoration: underline; }
     color: var(--text-secondary);
 }
 
-.edition-card a {
+.edition-card a.btn {
     display: inline-block;
     margin-top: 1rem;
     color: var(--bg-secondary);
@@ -124,11 +124,9 @@ nav a:hover { text-decoration: underline; }
     text-decoration: none;
 }
 
-.edition-card a:hover { background: var(--accent-light); }
+.edition-card a.btn:hover { background: var(--accent-light); }
 
-.volume-list {
-    list-style: none;
-}
+.volume-list { list-style: none; }
 
 .volume-list li {
     background: var(--bg-secondary);
@@ -151,9 +149,7 @@ nav a:hover { text-decoration: underline; }
     font-size: 0.85rem;
 }
 
-.article-list {
-    list-style: none;
-}
+.article-list { list-style: none; }
 
 .article-item {
     background: var(--bg-secondary);
@@ -183,6 +179,8 @@ nav a:hover { text-decoration: underline; }
 .article-header .meta {
     font-size: 0.8rem;
     color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .article-header .badge {
@@ -195,8 +193,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .article-header .badge.treatise { background: #8b4513; }
-.article-header .badge.biographical { background: #2e7d32; }
-.article-header .badge.geographical { background: #1565c0; }
+.article-header .badge.xref { background: #6a5acd; }
 
 .article-content {
     padding: 1rem;
@@ -252,9 +249,7 @@ nav a:hover { text-decoration: underline; }
     border-color: var(--accent);
 }
 
-.search-results {
-    margin-top: 1rem;
-}
+.search-results { margin-top: 1rem; }
 
 .search-result {
     background: var(--bg-secondary);
@@ -267,19 +262,6 @@ nav a:hover { text-decoration: underline; }
 .search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
 .search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
 .search-result a { color: var(--accent); }
-
-/* Cross-reference links within article text */
-.xref {
-    color: #8b4513;
-    text-decoration: none;
-    border-bottom: 1px dotted #8b4513;
-    transition: background 0.2s;
-}
-
-.xref:hover {
-    background: #fff3cd;
-    border-bottom-style: solid;
-}
 
 .stats-table {
     width: 100%;
@@ -295,6 +277,7 @@ nav a:hover { text-decoration: underline; }
 
 .stats-table th { background: var(--bg-primary); color: var(--accent); }
 .stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .filter-bar {
     margin-bottom: 1rem;
@@ -318,6 +301,76 @@ nav a:hover { text-decoration: underline; }
     font-family: inherit;
 }
 
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
 footer {
     text-align: center;
     padding: 2rem;
@@ -331,6 +384,9 @@ footer {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
     .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
 }
 </style>
 </head>
@@ -343,159 +399,228 @@ footer {
         <p class="subtitle">Third Edition (1797)</p>
     </header>
 
+    
     <nav>
         <a href="../index.html">Home</a>
         <a href="../search.html">Search</a>
+        <a href="../stats.html">Statistics</a>
+        <a href="../about.html">About</a>
     </nav>
 
-    <p>The Third Edition contains <strong>21,021 articles</strong>
-    including <strong>1,318 treatises</strong> across
-    <strong>18 volumes</strong>.</p>
+    <p>The Third Edition contains <strong>16,561 articles</strong>
+    and <strong>4,838 cross-references</strong> across
+    <strong>19 volumes</strong>
+    (23,437,894 words total).</p>
 
     <h2>Volumes</h2>
     <ul class="volume-list">
         
         <li>
+            <a href="vol0.html">
+                <strong>Volume 0</strong>: MIEL (Jan)&ndash;BACK MATTER
+                <div class="meta">
+                    864 articles, 267 cross-refs
+                    , 134 treatises
+                    &mdash; 1.6M words
+                </div>
+            </a>
+        </li>
+        
+        <li>
             <a href="vol1.html">
-                <strong>Volume 1</strong>
-                : A-ANG
-                <div class="meta">1,399 articles, 65 treatises</div>
+                <strong>Volume 1</strong>: FRONT MATTER&ndash;MAGNETISM
+                <div class="meta">
+                    2,115 articles, 324 cross-refs
+                    , 200 treatises
+                    &mdash; 2.3M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol2.html">
-                <strong>Volume 2</strong>
-                : ANG-BAR
-                <div class="meta">1,446 articles, 62 treatises</div>
+                <strong>Volume 2</strong>: FRONT MATTER&ndash;BARBADDOES
+                <div class="meta">
+                    1,270 articles, 280 cross-refs
+                    , 138 treatises
+                    &mdash; 1.6M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol3.html">
-                <strong>Volume 3</strong>
-                : BAR-BZO
-                <div class="meta">1,504 articles, 98 treatises</div>
+                <strong>Volume 3</strong>: FRONT MATTER&ndash;BUTTER
+                <div class="meta">
+                    842 articles, 186 cross-refs
+                    , 52 treatises
+                    &mdash; 834.3K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol4.html">
-                <strong>Volume 4</strong>
-                : CAA-CIC
-                <div class="meta">1,245 articles, 70 treatises</div>
+                <strong>Volume 4</strong>: FRONT MATTER&ndash;Fig. 8
+                <div class="meta">
+                    858 articles, 340 cross-refs
+                    , 55 treatises
+                    &mdash; 827.8K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol5.html">
-                <strong>Volume 5</strong>
-                : CIC-DIA
-                <div class="meta">1,579 articles, 97 treatises</div>
+                <strong>Volume 5</strong>: FRONT MATTER&ndash;BACK MATTER
+                <div class="meta">
+                    927 articles, 195 cross-refs
+                    , 66 treatises
+                    &mdash; 812.4K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol6.html">
-                <strong>Volume 6</strong>
-                : DIA-ETH
-                <div class="meta">913 articles, 53 treatises</div>
+                <strong>Volume 6</strong>: FRONT MATTER&ndash;ABYSSINIA
+                <div class="meta">
+                    475 articles, 126 cross-refs
+                    , 35 treatises
+                    &mdash; 828.8K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol7.html">
-                <strong>Volume 7</strong>
-                : ETM-GOA
-                <div class="meta">1,081 articles, 88 treatises</div>
+                <strong>Volume 7</strong>: FRONT MATTER&ndash;GOAT-Sucker
+                <div class="meta">
+                    1,153 articles, 481 cross-refs
+                    , 113 treatises
+                    &mdash; 1.6M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol8.html">
-                <strong>Volume 8</strong>
-                : GOB-HYD
-                <div class="meta">1,001 articles, 82 treatises</div>
+                <strong>Volume 8</strong>: FRONT MATTER&ndash;HYDroscope
+                <div class="meta">
+                    1,201 articles, 355 cross-refs
+                    , 116 treatises
+                    &mdash; 1.6M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol9.html">
-                <strong>Volume 9</strong>
-                : Hydrostatics-LES
-                <div class="meta">1,113 articles, 73 treatises</div>
+                <strong>Volume 9</strong>: FRONT MATTER&ndash;BACK MATTER
+                <div class="meta">
+                    2,441 articles, 628 cross-refs
+                    , 241 treatises
+                    &mdash; 3.2M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol10.html">
-                <strong>Volume 10</strong>
-                : LES-MEC
-                <div class="meta">830 articles, 75 treatises</div>
+                <strong>Volume 10</strong>: FRONT MATTER&ndash;RATIO
+                <div class="meta">
+                    867 articles, 293 cross-refs
+                    , 91 treatises
+                    &mdash; 1.5M words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol11.html">
-                <strong>Volume 11</strong>
-                : Medals-Midwifery
-                <div class="meta">262 articles, 40 treatises</div>
+                <strong>Volume 11</strong>: FRONT MATTER&ndash;LABOUR
+                <div class="meta">
+                    311 articles, 142 cross-refs
+                    , 56 treatises
+                    &mdash; 760.0K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol12.html">
-                <strong>Volume 12</strong>
-                : MEI-NEG
-                <div class="meta">584 articles, 75 treatises</div>
+                <strong>Volume 12</strong>: FRONT MATTER&ndash;NAVIGATION
+                <div class="meta">
+                    371 articles, 141 cross-refs
+                    , 77 treatises
+                    &mdash; 729.8K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol13.html">
-                <strong>Volume 13</strong>
-                : NEH-PAS
-                <div class="meta">889 articles, 77 treatises</div>
+                <strong>Volume 13</strong>: FRONT MATTER&ndash;BACK MATTER
+                <div class="meta">
+                    562 articles, 147 cross-refs
+                    , 64 treatises
+                    &mdash; 827.6K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol14.html">
-                <strong>Volume 14</strong>
-                : PAS-PLA
-                <div class="meta">605 articles, 61 treatises</div>
+                <strong>Volume 14</strong>: FRONT MATTER&ndash;Mercury
+                <div class="meta">
+                    453 articles, 151 cross-refs
+                    , 64 treatises
+                    &mdash; 775.3K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol15.html">
-                <strong>Volume 15</strong>
-                : PLA-RAM
-                <div class="meta">726 articles, 69 treatises</div>
+                <strong>Volume 15</strong>: FRONT MATTER&ndash;QUANGSI
+                <div class="meta">
+                    348 articles, 131 cross-refs
+                    , 46 treatises
+                    &mdash; 827.3K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol16.html">
-                <strong>Volume 16</strong>
-                : RAN-SCO
-                <div class="meta">763 articles, 57 treatises</div>
+                <strong>Volume 16</strong>: FRONT MATTER&ndash;SCOTLAND
+                <div class="meta">
+                    438 articles, 125 cross-refs
+                    , 51 treatises
+                    &mdash; 861.1K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol17.html">
-                <strong>Volume 17</strong>
-                : SCO-STR
-                <div class="meta">778 articles, 75 treatises</div>
+                <strong>Volume 17</strong>: FRONT MATTER&ndash;STRATA
+                <div class="meta">
+                    476 articles, 182 cross-refs
+                    , 56 treatises
+                    &mdash; 853.2K words
+                </div>
             </a>
         </li>
         
         <li>
             <a href="vol18.html">
-                <strong>Volume 18</strong>
-                : STR-ZYM
-                <div class="meta">1,154 articles, 101 treatises</div>
+                <strong>Volume 18</strong>: FRONT MATTER&ndash;AMPHIBIA
+                <div class="meta">
+                    589 articles, 344 cross-refs
+                    , 82 treatises
+                    &mdash; 1.1M words
+                </div>
             </a>
         </li>
         
@@ -503,7 +628,7 @@ footer {
     
         <footer>
             <p>Encyclopaedia Britannica Historical Corpus</p>
-            <p>OCR processed with OLMoCR | Generated 2026-01-27</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-02-26</p>
         </footer>
     </div>
     
