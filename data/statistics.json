@@ -1,0 +1,1022 @@
+{
+  "overall": {
+    "total_articles": 138170,
+    "total_cross_references": 3295,
+    "total_entries": 141465,
+    "total_words": 120180153,
+    "total_volumes": 134,
+    "editions": 8
+  },
+  "per_edition": {
+    "1st": {
+      "year": 1771,
+      "articles": 9703,
+      "cross_references": 164,
+      "total_entries": 9867,
+      "word_count": 1764280,
+      "volume_count": 3
+    },
+    "2nd": {
+      "year": 1778,
+      "articles": 15325,
+      "cross_references": 296,
+      "total_entries": 15621,
+      "word_count": 9361978,
+      "volume_count": 10
+    },
+    "3rd": {
+      "year": 1797,
+      "articles": 18411,
+      "cross_references": 473,
+      "total_entries": 18884,
+      "word_count": 16001066,
+      "volume_count": 18
+    },
+    "4th": {
+      "year": 1810,
+      "articles": 21235,
+      "cross_references": 538,
+      "total_entries": 21773,
+      "word_count": 17668271,
+      "volume_count": 20
+    },
+    "5th": {
+      "year": 1815,
+      "articles": 21741,
+      "cross_references": 522,
+      "total_entries": 22263,
+      "word_count": 17363093,
+      "volume_count": 20
+    },
+    "6th": {
+      "year": 1823,
+      "articles": 18938,
+      "cross_references": 472,
+      "total_entries": 19410,
+      "word_count": 17529995,
+      "volume_count": 21
+    },
+    "7th": {
+      "year": 1842,
+      "articles": 17959,
+      "cross_references": 193,
+      "total_entries": 18152,
+      "word_count": 19177746,
+      "volume_count": 21
+    },
+    "8th": {
+      "year": 1860,
+      "articles": 14858,
+      "cross_references": 637,
+      "total_entries": 15495,
+      "word_count": 21313724,
+      "volume_count": 21
+    }
+  },
+  "per_volume": {
+    "1st_vol01": {
+      "edition": "1st",
+      "volume": 1,
+      "articles": 1,
+      "cross_references": 0,
+      "word_count": 4135
+    },
+    "1st_vol02": {
+      "edition": "1st",
+      "volume": 2,
+      "articles": 4891,
+      "cross_references": 96,
+      "word_count": 947381
+    },
+    "1st_vol03": {
+      "edition": "1st",
+      "volume": 3,
+      "articles": 4811,
+      "cross_references": 68,
+      "word_count": 812764
+    },
+    "2nd_vol01": {
+      "edition": "2nd",
+      "volume": 1,
+      "articles": 2207,
+      "cross_references": 28,
+      "word_count": 828029
+    },
+    "2nd_vol02": {
+      "edition": "2nd",
+      "volume": 2,
+      "articles": 1823,
+      "cross_references": 34,
+      "word_count": 777118
+    },
+    "2nd_vol03": {
+      "edition": "2nd",
+      "volume": 3,
+      "articles": 2147,
+      "cross_references": 44,
+      "word_count": 893409
+    },
+    "2nd_vol04": {
+      "edition": "2nd",
+      "volume": 4,
+      "articles": 1721,
+      "cross_references": 32,
+      "word_count": 890496
+    },
+    "2nd_vol05": {
+      "edition": "2nd",
+      "volume": 5,
+      "articles": 1495,
+      "cross_references": 37,
+      "word_count": 961253
+    },
+    "2nd_vol06": {
+      "edition": "2nd",
+      "volume": 6,
+      "articles": 991,
+      "cross_references": 30,
+      "word_count": 1071281
+    },
+    "2nd_vol07": {
+      "edition": "2nd",
+      "volume": 7,
+      "articles": 1000,
+      "cross_references": 21,
+      "word_count": 873084
+    },
+    "2nd_vol08": {
+      "edition": "2nd",
+      "volume": 8,
+      "articles": 832,
+      "cross_references": 11,
+      "word_count": 875416
+    },
+    "2nd_vol09": {
+      "edition": "2nd",
+      "volume": 9,
+      "articles": 1174,
+      "cross_references": 20,
+      "word_count": 918839
+    },
+    "2nd_vol10": {
+      "edition": "2nd",
+      "volume": 10,
+      "articles": 1935,
+      "cross_references": 39,
+      "word_count": 1273053
+    },
+    "3rd_vol01": {
+      "edition": "3rd",
+      "volume": 1,
+      "articles": 1534,
+      "cross_references": 10,
+      "word_count": 865282
+    },
+    "3rd_vol02": {
+      "edition": "3rd",
+      "volume": 2,
+      "articles": 1498,
+      "cross_references": 33,
+      "word_count": 892112
+    },
+    "3rd_vol03": {
+      "edition": "3rd",
+      "volume": 3,
+      "articles": 1395,
+      "cross_references": 31,
+      "word_count": 900413
+    },
+    "3rd_vol04": {
+      "edition": "3rd",
+      "volume": 4,
+      "articles": 1261,
+      "cross_references": 32,
+      "word_count": 880412
+    },
+    "3rd_vol05": {
+      "edition": "3rd",
+      "volume": 5,
+      "articles": 1722,
+      "cross_references": 32,
+      "word_count": 888216
+    },
+    "3rd_vol06": {
+      "edition": "3rd",
+      "volume": 6,
+      "articles": 944,
+      "cross_references": 26,
+      "word_count": 899062
+    },
+    "3rd_vol07": {
+      "edition": "3rd",
+      "volume": 7,
+      "articles": 1197,
+      "cross_references": 37,
+      "word_count": 896583
+    },
+    "3rd_vol08": {
+      "edition": "3rd",
+      "volume": 8,
+      "articles": 972,
+      "cross_references": 23,
+      "word_count": 888789
+    },
+    "3rd_vol09": {
+      "edition": "3rd",
+      "volume": 9,
+      "articles": 1071,
+      "cross_references": 37,
+      "word_count": 869546
+    },
+    "3rd_vol10": {
+      "edition": "3rd",
+      "volume": 10,
+      "articles": 772,
+      "cross_references": 30,
+      "word_count": 819690
+    },
+    "3rd_vol11": {
+      "edition": "3rd",
+      "volume": 11,
+      "articles": 243,
+      "cross_references": 5,
+      "word_count": 865684
+    },
+    "3rd_vol12": {
+      "edition": "3rd",
+      "volume": 12,
+      "articles": 611,
+      "cross_references": 23,
+      "word_count": 824610
+    },
+    "3rd_vol13": {
+      "edition": "3rd",
+      "volume": 13,
+      "articles": 850,
+      "cross_references": 17,
+      "word_count": 897405
+    },
+    "3rd_vol14": {
+      "edition": "3rd",
+      "volume": 14,
+      "articles": 632,
+      "cross_references": 14,
+      "word_count": 854320
+    },
+    "3rd_vol15": {
+      "edition": "3rd",
+      "volume": 15,
+      "articles": 811,
+      "cross_references": 24,
+      "word_count": 890424
+    },
+    "3rd_vol16": {
+      "edition": "3rd",
+      "volume": 16,
+      "articles": 825,
+      "cross_references": 25,
+      "word_count": 907927
+    },
+    "3rd_vol17": {
+      "edition": "3rd",
+      "volume": 17,
+      "articles": 818,
+      "cross_references": 24,
+      "word_count": 819886
+    },
+    "3rd_vol18": {
+      "edition": "3rd",
+      "volume": 18,
+      "articles": 1255,
+      "cross_references": 50,
+      "word_count": 1140705
+    },
+    "4th_vol01": {
+      "edition": "4th",
+      "volume": 1,
+      "articles": 950,
+      "cross_references": 20,
+      "word_count": 859609
+    },
+    "4th_vol02": {
+      "edition": "4th",
+      "volume": 2,
+      "articles": 1683,
+      "cross_references": 58,
+      "word_count": 901704
+    },
+    "4th_vol03": {
+      "edition": "4th",
+      "volume": 3,
+      "articles": 1506,
+      "cross_references": 40,
+      "word_count": 876631
+    },
+    "4th_vol04": {
+      "edition": "4th",
+      "volume": 4,
+      "articles": 577,
+      "cross_references": 14,
+      "word_count": 768763
+    },
+    "4th_vol05": {
+      "edition": "4th",
+      "volume": 5,
+      "articles": 1861,
+      "cross_references": 61,
+      "word_count": 1271023
+    },
+    "4th_vol06": {
+      "edition": "4th",
+      "volume": 6,
+      "articles": 649,
+      "cross_references": 12,
+      "word_count": 353756
+    },
+    "4th_vol07": {
+      "edition": "4th",
+      "volume": 7,
+      "articles": 179,
+      "cross_references": 10,
+      "word_count": 419818
+    },
+    "4th_vol08": {
+      "edition": "4th",
+      "volume": 8,
+      "articles": 1156,
+      "cross_references": 11,
+      "word_count": 866204
+    },
+    "4th_vol09": {
+      "edition": "4th",
+      "volume": 9,
+      "articles": 367,
+      "cross_references": 7,
+      "word_count": 421445
+    },
+    "4th_vol10": {
+      "edition": "4th",
+      "volume": 10,
+      "articles": 410,
+      "cross_references": 5,
+      "word_count": 420311
+    },
+    "4th_vol11": {
+      "edition": "4th",
+      "volume": 11,
+      "articles": 1347,
+      "cross_references": 22,
+      "word_count": 879267
+    },
+    "4th_vol12": {
+      "edition": "4th",
+      "volume": 12,
+      "articles": 316,
+      "cross_references": 10,
+      "word_count": 389757
+    },
+    "4th_vol13": {
+      "edition": "4th",
+      "volume": 13,
+      "articles": 389,
+      "cross_references": 6,
+      "word_count": 823447
+    },
+    "4th_vol14": {
+      "edition": "4th",
+      "volume": 14,
+      "articles": 406,
+      "cross_references": 14,
+      "word_count": 411436
+    },
+    "4th_vol15": {
+      "edition": "4th",
+      "volume": 15,
+      "articles": 755,
+      "cross_references": 13,
+      "word_count": 840650
+    },
+    "4th_vol16": {
+      "edition": "4th",
+      "volume": 16,
+      "articles": 707,
+      "cross_references": 19,
+      "word_count": 871787
+    },
+    "4th_vol17": {
+      "edition": "4th",
+      "volume": 17,
+      "articles": 5640,
+      "cross_references": 141,
+      "word_count": 4479843
+    },
+    "4th_vol18": {
+      "edition": "4th",
+      "volume": 18,
+      "articles": 352,
+      "cross_references": 7,
+      "word_count": 419051
+    },
+    "4th_vol19": {
+      "edition": "4th",
+      "volume": 19,
+      "articles": 520,
+      "cross_references": 14,
+      "word_count": 462195
+    },
+    "4th_vol20": {
+      "edition": "4th",
+      "volume": 20,
+      "articles": 1465,
+      "cross_references": 54,
+      "word_count": 931574
+    },
+    "5th_vol01": {
+      "edition": "5th",
+      "volume": 1,
+      "articles": 1443,
+      "cross_references": 13,
+      "word_count": 877733
+    },
+    "5th_vol02": {
+      "edition": "5th",
+      "volume": 2,
+      "articles": 1189,
+      "cross_references": 42,
+      "word_count": 808002
+    },
+    "5th_vol03": {
+      "edition": "5th",
+      "volume": 3,
+      "articles": 1961,
+      "cross_references": 48,
+      "word_count": 896870
+    },
+    "5th_vol04": {
+      "edition": "5th",
+      "volume": 4,
+      "articles": 570,
+      "cross_references": 14,
+      "word_count": 789956
+    },
+    "5th_vol05": {
+      "edition": "5th",
+      "volume": 5,
+      "articles": 1246,
+      "cross_references": 44,
+      "word_count": 841869
+    },
+    "5th_vol06": {
+      "edition": "5th",
+      "volume": 6,
+      "articles": 1392,
+      "cross_references": 39,
+      "word_count": 805766
+    },
+    "5th_vol07": {
+      "edition": "5th",
+      "volume": 7,
+      "articles": 1412,
+      "cross_references": 34,
+      "word_count": 915436
+    },
+    "5th_vol08": {
+      "edition": "5th",
+      "volume": 8,
+      "articles": 1049,
+      "cross_references": 24,
+      "word_count": 837222
+    },
+    "5th_vol09": {
+      "edition": "5th",
+      "volume": 9,
+      "articles": 858,
+      "cross_references": 18,
+      "word_count": 889024
+    },
+    "5th_vol10": {
+      "edition": "5th",
+      "volume": 10,
+      "articles": 1257,
+      "cross_references": 27,
+      "word_count": 878236
+    },
+    "5th_vol11": {
+      "edition": "5th",
+      "volume": 11,
+      "articles": 1370,
+      "cross_references": 26,
+      "word_count": 883592
+    },
+    "5th_vol12": {
+      "edition": "5th",
+      "volume": 12,
+      "articles": 891,
+      "cross_references": 22,
+      "word_count": 812067
+    },
+    "5th_vol13": {
+      "edition": "5th",
+      "volume": 13,
+      "articles": 395,
+      "cross_references": 5,
+      "word_count": 879183
+    },
+    "5th_vol14": {
+      "edition": "5th",
+      "volume": 14,
+      "articles": 693,
+      "cross_references": 24,
+      "word_count": 803125
+    },
+    "5th_vol15": {
+      "edition": "5th",
+      "volume": 15,
+      "articles": 890,
+      "cross_references": 12,
+      "word_count": 922507
+    },
+    "5th_vol16": {
+      "edition": "5th",
+      "volume": 16,
+      "articles": 804,
+      "cross_references": 17,
+      "word_count": 893839
+    },
+    "5th_vol17": {
+      "edition": "5th",
+      "volume": 17,
+      "articles": 1093,
+      "cross_references": 20,
+      "word_count": 875528
+    },
+    "5th_vol18": {
+      "edition": "5th",
+      "volume": 18,
+      "articles": 587,
+      "cross_references": 17,
+      "word_count": 907844
+    },
+    "5th_vol19": {
+      "edition": "5th",
+      "volume": 19,
+      "articles": 1141,
+      "cross_references": 25,
+      "word_count": 919503
+    },
+    "5th_vol20": {
+      "edition": "5th",
+      "volume": 20,
+      "articles": 1500,
+      "cross_references": 51,
+      "word_count": 925791
+    },
+    "6th_vol01": {
+      "edition": "6th",
+      "volume": 1,
+      "articles": 97,
+      "cross_references": 1,
+      "word_count": 640460
+    },
+    "6th_vol02": {
+      "edition": "6th",
+      "volume": 2,
+      "articles": 1250,
+      "cross_references": 41,
+      "word_count": 848796
+    },
+    "6th_vol03": {
+      "edition": "6th",
+      "volume": 3,
+      "articles": 1544,
+      "cross_references": 40,
+      "word_count": 876045
+    },
+    "6th_vol04": {
+      "edition": "6th",
+      "volume": 4,
+      "articles": 649,
+      "cross_references": 16,
+      "word_count": 764451
+    },
+    "6th_vol05": {
+      "edition": "6th",
+      "volume": 5,
+      "articles": 1285,
+      "cross_references": 48,
+      "word_count": 833707
+    },
+    "6th_vol06": {
+      "edition": "6th",
+      "volume": 6,
+      "articles": 1395,
+      "cross_references": 38,
+      "word_count": 867304
+    },
+    "6th_vol07": {
+      "edition": "6th",
+      "volume": 7,
+      "articles": 1263,
+      "cross_references": 22,
+      "word_count": 897391
+    },
+    "6th_vol08": {
+      "edition": "6th",
+      "volume": 8,
+      "articles": 1039,
+      "cross_references": 23,
+      "word_count": 818796
+    },
+    "6th_vol09": {
+      "edition": "6th",
+      "volume": 9,
+      "articles": 775,
+      "cross_references": 19,
+      "word_count": 877546
+    },
+    "6th_vol10": {
+      "edition": "6th",
+      "volume": 10,
+      "articles": 1008,
+      "cross_references": 20,
+      "word_count": 854873
+    },
+    "6th_vol11": {
+      "edition": "6th",
+      "volume": 11,
+      "articles": 1358,
+      "cross_references": 27,
+      "word_count": 871212
+    },
+    "6th_vol12": {
+      "edition": "6th",
+      "volume": 12,
+      "articles": 760,
+      "cross_references": 18,
+      "word_count": 814836
+    },
+    "6th_vol13": {
+      "edition": "6th",
+      "volume": 13,
+      "articles": 333,
+      "cross_references": 5,
+      "word_count": 846257
+    },
+    "6th_vol14": {
+      "edition": "6th",
+      "volume": 14,
+      "articles": 719,
+      "cross_references": 23,
+      "word_count": 780869
+    },
+    "6th_vol15": {
+      "edition": "6th",
+      "volume": 15,
+      "articles": 766,
+      "cross_references": 12,
+      "word_count": 896815
+    },
+    "6th_vol16": {
+      "edition": "6th",
+      "volume": 16,
+      "articles": 738,
+      "cross_references": 17,
+      "word_count": 888664
+    },
+    "6th_vol17": {
+      "edition": "6th",
+      "volume": 17,
+      "articles": 1055,
+      "cross_references": 21,
+      "word_count": 863154
+    },
+    "6th_vol18": {
+      "edition": "6th",
+      "volume": 18,
+      "articles": 591,
+      "cross_references": 16,
+      "word_count": 892984
+    },
+    "6th_vol19": {
+      "edition": "6th",
+      "volume": 19,
+      "articles": 990,
+      "cross_references": 25,
+      "word_count": 845233
+    },
+    "6th_vol20": {
+      "edition": "6th",
+      "volume": 20,
+      "articles": 1260,
+      "cross_references": 38,
+      "word_count": 900958
+    },
+    "6th_vol501": {
+      "edition": "6th",
+      "volume": 501,
+      "articles": 63,
+      "cross_references": 2,
+      "word_count": 649644
+    },
+    "7th_vol01": {
+      "edition": "7th",
+      "volume": 1,
+      "articles": 25,
+      "cross_references": 0,
+      "word_count": 501269
+    },
+    "7th_vol02": {
+      "edition": "7th",
+      "volume": 2,
+      "articles": 2,
+      "cross_references": 0,
+      "word_count": 919
+    },
+    "7th_vol03": {
+      "edition": "7th",
+      "volume": 3,
+      "articles": 882,
+      "cross_references": 8,
+      "word_count": 919962
+    },
+    "7th_vol04": {
+      "edition": "7th",
+      "volume": 4,
+      "articles": 1373,
+      "cross_references": 23,
+      "word_count": 861678
+    },
+    "7th_vol05": {
+      "edition": "7th",
+      "volume": 5,
+      "articles": 636,
+      "cross_references": 9,
+      "word_count": 980508
+    },
+    "7th_vol06": {
+      "edition": "7th",
+      "volume": 6,
+      "articles": 1329,
+      "cross_references": 22,
+      "word_count": 982294
+    },
+    "7th_vol07": {
+      "edition": "7th",
+      "volume": 7,
+      "articles": 1375,
+      "cross_references": 18,
+      "word_count": 958346
+    },
+    "7th_vol08": {
+      "edition": "7th",
+      "volume": 8,
+      "articles": 861,
+      "cross_references": 10,
+      "word_count": 985674
+    },
+    "7th_vol09": {
+      "edition": "7th",
+      "volume": 9,
+      "articles": 886,
+      "cross_references": 6,
+      "word_count": 947239
+    },
+    "7th_vol10": {
+      "edition": "7th",
+      "volume": 10,
+      "articles": 735,
+      "cross_references": 7,
+      "word_count": 959640
+    },
+    "7th_vol11": {
+      "edition": "7th",
+      "volume": 11,
+      "articles": 928,
+      "cross_references": 10,
+      "word_count": 969215
+    },
+    "7th_vol12": {
+      "edition": "7th",
+      "volume": 12,
+      "articles": 1005,
+      "cross_references": 6,
+      "word_count": 929819
+    },
+    "7th_vol13": {
+      "edition": "7th",
+      "volume": 13,
+      "articles": 850,
+      "cross_references": 12,
+      "word_count": 966126
+    },
+    "7th_vol14": {
+      "edition": "7th",
+      "volume": 14,
+      "articles": 651,
+      "cross_references": 7,
+      "word_count": 1000498
+    },
+    "7th_vol15": {
+      "edition": "7th",
+      "volume": 15,
+      "articles": 651,
+      "cross_references": 4,
+      "word_count": 925747
+    },
+    "7th_vol16": {
+      "edition": "7th",
+      "volume": 16,
+      "articles": 876,
+      "cross_references": 4,
+      "word_count": 971625
+    },
+    "7th_vol17": {
+      "edition": "7th",
+      "volume": 17,
+      "articles": 710,
+      "cross_references": 7,
+      "word_count": 1013171
+    },
+    "7th_vol18": {
+      "edition": "7th",
+      "volume": 18,
+      "articles": 709,
+      "cross_references": 7,
+      "word_count": 1024874
+    },
+    "7th_vol19": {
+      "edition": "7th",
+      "volume": 19,
+      "articles": 1034,
+      "cross_references": 9,
+      "word_count": 1019131
+    },
+    "7th_vol20": {
+      "edition": "7th",
+      "volume": 20,
+      "articles": 987,
+      "cross_references": 10,
+      "word_count": 1058945
+    },
+    "7th_vol21": {
+      "edition": "7th",
+      "volume": 21,
+      "articles": 1454,
+      "cross_references": 14,
+      "word_count": 1201066
+    },
+    "8th_vol01": {
+      "edition": "8th",
+      "volume": 1,
+      "articles": 25,
+      "cross_references": 0,
+      "word_count": 717977
+    },
+    "8th_vol02": {
+      "edition": "8th",
+      "volume": 2,
+      "articles": 1567,
+      "cross_references": 35,
+      "word_count": 1034172
+    },
+    "8th_vol03": {
+      "edition": "8th",
+      "volume": 3,
+      "articles": 791,
+      "cross_references": 26,
+      "word_count": 1031717
+    },
+    "8th_vol04": {
+      "edition": "8th",
+      "volume": 4,
+      "articles": 1221,
+      "cross_references": 30,
+      "word_count": 1081890
+    },
+    "8th_vol05": {
+      "edition": "8th",
+      "volume": 5,
+      "articles": 551,
+      "cross_references": 15,
+      "word_count": 984398
+    },
+    "8th_vol06": {
+      "edition": "8th",
+      "volume": 6,
+      "articles": 1284,
+      "cross_references": 29,
+      "word_count": 972763
+    },
+    "8th_vol07": {
+      "edition": "8th",
+      "volume": 7,
+      "articles": 1138,
+      "cross_references": 44,
+      "word_count": 1009068
+    },
+    "8th_vol08": {
+      "edition": "8th",
+      "volume": 8,
+      "articles": 730,
+      "cross_references": 14,
+      "word_count": 1036412
+    },
+    "8th_vol09": {
+      "edition": "8th",
+      "volume": 9,
+      "articles": 691,
+      "cross_references": 25,
+      "word_count": 1047186
+    },
+    "8th_vol10": {
+      "edition": "8th",
+      "volume": 10,
+      "articles": 611,
+      "cross_references": 17,
+      "word_count": 789754
+    },
+    "8th_vol11": {
+      "edition": "8th",
+      "volume": 11,
+      "articles": 688,
+      "cross_references": 14,
+      "word_count": 1016714
+    },
+    "8th_vol12": {
+      "edition": "8th",
+      "volume": 12,
+      "articles": 229,
+      "cross_references": 16,
+      "word_count": 981895
+    },
+    "8th_vol13": {
+      "edition": "8th",
+      "volume": 13,
+      "articles": 778,
+      "cross_references": 33,
+      "word_count": 1027508
+    },
+    "8th_vol14": {
+      "edition": "8th",
+      "volume": 14,
+      "articles": 507,
+      "cross_references": 16,
+      "word_count": 946390
+    },
+    "8th_vol15": {
+      "edition": "8th",
+      "volume": 15,
+      "articles": 440,
+      "cross_references": 18,
+      "word_count": 985679
+    },
+    "8th_vol16": {
+      "edition": "8th",
+      "volume": 16,
+      "articles": 423,
+      "cross_references": 17,
+      "word_count": 1029543
+    },
+    "8th_vol17": {
+      "edition": "8th",
+      "volume": 17,
+      "articles": 601,
+      "cross_references": 45,
+      "word_count": 1046263
+    },
+    "8th_vol18": {
+      "edition": "8th",
+      "volume": 18,
+      "articles": 545,
+      "cross_references": 59,
+      "word_count": 1065869
+    },
+    "8th_vol19": {
+      "edition": "8th",
+      "volume": 19,
+      "articles": 531,
+      "cross_references": 39,
+      "word_count": 1108990
+    },
+    "8th_vol20": {
+      "edition": "8th",
+      "volume": 20,
+      "articles": 626,
+      "cross_references": 61,
+      "word_count": 1092149
+    },
+    "8th_vol21": {
+      "edition": "8th",
+      "volume": 21,
+      "articles": 881,
+      "cross_references": 84,
+      "word_count": 1307387
+    }
+  },
+  "dedup": {
+    "total_files": 210,
+    "canonical_files": 166,
+    "duplicate_files": 44,
+    "duplicate_groups": 31
+  }
+}

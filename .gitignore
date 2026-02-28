@@ -1,8 +1,12 @@
-# Data files (too large for GitHub)
-output/
-output_v2/
-ocr_results/
-json/
+# Large data (not tracked in git)
+data/articles/
+data/ocr/organized/
+data/vlm/
+old/
+
+# Generated outputs
+graphrag/concept_index.json
+*.db
 
 # Python
 __pycache__/
@@ -14,4 +18,3 @@ venv/
 .DS_Store
 *.log
 .env
-llm_corrections/backups/
