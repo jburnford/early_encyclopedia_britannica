@@ -8,15 +8,15 @@ A parsed and searchable corpus of the first eight editions of the Encyclopaedia 
 
 | Edition | Year | Volumes | Articles | Words |
 |---------|------|---------|----------|-------|
-| 1st | 1771 | 3 | 9,336 | 1.6M |
-| 2nd | 1778 | 10 | 14,415 | 5.9M |
-| 3rd | 1797 | 18 | 17,312 | 10.0M |
-| 4th (Supplement) | 1810 | 20 | 19,151 | 11.1M |
-| 5th | 1815 | 20 | 19,208 | 11.0M |
-| 6th | 1823 | 21 | 17,115 | 10.9M |
-| 7th | 1842 | 21 | 16,160 | 12.0M |
-| 8th | 1860 | 21 | 13,445 | 13.2M |
-| **Total** | | **134** | **126,142** | **120M** |
+| 1st | 1771 | 3 | 9,335 | 1.6M |
+| 2nd | 1778 | 10 | 14,411 | 5.9M |
+| 3rd | 1797 | 18 | 17,309 | 10.0M |
+| 4th (Supplement) | 1810 | 20 | 19,144 | 11.1M |
+| 5th | 1815 | 20 | 19,188 | 11.0M |
+| 6th | 1823 | 21 | 17,108 | 10.9M |
+| 7th | 1842 | 21 | 16,157 | 12.0M |
+| 8th | 1860 | 21 | 13,436 | 13.2M |
+| **Total** | | **134** | **126,088** | **120M** |
 
 ## Project Structure
 
@@ -33,8 +33,9 @@ docs/                 Generated static site (GitHub Pages)
 
 graphrag/             Cross-edition knowledge graph tools
   clean_headword_dict.py    Headword dictionary cleanup
+  clean_article_artifacts.py  Remove parser artifacts (publisher names, volume markers)
   build_concept_index.py    Cross-edition concept index builder
-  concept_index.json        38,073 concepts linked across editions
+  concept_index.json        38,054 concepts linked across editions
 ```
 
 ## Data Sources
@@ -47,7 +48,7 @@ Articles were extracted using a custom LIS (Longest Increasing Subsequence) pars
 
 ## Cross-Edition Concept Index
 
-The `graphrag/concept_index.json` maps 38,073 concepts across editions, enabling temporal analysis of how knowledge evolved:
+The `graphrag/concept_index.json` maps 38,054 concepts across editions, enabling temporal analysis of how knowledge evolved:
 
 - **7,931 core concepts** appear in 6 or more editions
 - Track article growth (e.g., ICHTHYOLOGY grew from 16 words in 1771 to 162,498 in 1860)
