@@ -21,17 +21,15 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
-_STANDALONE = False
 try:
-    from config import EXPORT_DIR, OUTPUT_DIR, EDITIONS
+    from config import EXPORT_DIR, SITE_DIR, EDITIONS
 except ImportError:
     # Standalone mode: run from the repository root without config.py
-    _STANDALONE = True
     _REPO = Path(__file__).resolve().parent
     if _REPO.name == "scripts":
         _REPO = _REPO.parent
     EXPORT_DIR = _REPO / "data" / "export"
-    OUTPUT_DIR = _REPO
+    SITE_DIR = _REPO / "docs"
     EDITIONS = {
         "1st": {"year": 1771, "name": "1st", "full_name": "First Edition"},
         "2nd": {"year": 1778, "name": "2nd", "full_name": "Second Edition"},
@@ -44,8 +42,6 @@ except ImportError:
     }
 
 log = logging.getLogger(__name__)
-
-SITE_DIR = (OUTPUT_DIR / "docs") if _STANDALONE else (OUTPUT_DIR / "site")
 
 EDITION_YEARS = {v['year']: k for k, v in EDITIONS.items()}  # year -> edition name
 
