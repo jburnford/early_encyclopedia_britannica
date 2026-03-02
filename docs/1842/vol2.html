@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,7 +456,9 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>This volume contains <strong>2 entries</strong>.
+    
+
+    <p>This volume contains <strong>1 entries</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
@@ -422,22 +473,12 @@ footer {
 
     <ul class="article-list" id="articleList">
         
-        <li class="article-item" id="article-ADAM_AND_CHARLES_BLACK" data-idx="0" data-type="article">
+        <li class="article-item" id="article-GENERAL_INDEX" data-idx="0" data-type="article">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>ADAM AND CHARLES BLACK</h3>
-                <span class="meta">2 words</span>
-            </div>
-            <div class="article-content" id="content-0">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-GENERAL_INDEX" data-idx="1" data-type="article">
-            <div class="article-header" onclick="toggleArticle(1)">
                 <h3>GENERAL INDEX</h3>
                 <span class="meta">917 words</span>
             </div>
-            <div class="article-content" id="content-1">
+            <div class="article-content" id="content-0">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -464,6 +505,43 @@ footer {
         }
     }
 
+    function renderMarkdown(text) {
+        // Escape HTML first
+        const div = document.createElement('div');
+        div.textContent = text;
+        let s = div.innerHTML;
+
+        // Markdown tables: detect lines with | delimiters
+        s = s.replace(/((?:^|\n)\|.+\|(?:\n\|.+\|)+)/g, function(table) {
+            const rows = table.trim().split('\n').filter(r => r.trim());
+            // Skip separator rows (e.g. |---|---|)
+            const dataRows = rows.filter(r => !/^\|[\s\-:|]+\|$/.test(r.trim()));
+            if (dataRows.length === 0) return table;
+            let html = '<table>';
+            dataRows.forEach(function(row, i) {
+                const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                const tag = i === 0 ? 'th' : 'td';
+                html += '<tr>' + cells.map(c => '<' + tag + '>' + c + '</' + tag + '>').join('') + '</tr>';
+            });
+            html += '</table>';
+            return html;
+        });
+
+        // Bold: **text**
+        s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Italic: *text* (but not inside words like "don*t")
+        s = s.replace(/(^|[\s(])\*([^*]+?)\*([\s).,;:!?]|$)/g, '$1<em>$2</em>$3');
+        // Strip LaTeX markers \( ... \) — leave content visible
+        s = s.replace(/\\\((.+?)\\\)/g, '$1');
+
+        // Paragraphs: double newline
+        s = s.replace(/\n\n+/g, '</p><p>');
+        // Single newlines to <br> (but not inside tables)
+        s = s.replace(/\n/g, '<br>');
+
+        return '<p>' + s + '</p>';
+    }
+
     async function toggleArticle(idx) {
         const content = document.getElementById('content-' + idx);
         const isShown = content.classList.contains('show');
@@ -486,19 +564,13 @@ footer {
         const article = articlesData[idx];
 
         content.innerHTML = `
-            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-text">${renderMarkdown(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
             </div>
         `;
         loadedArticles.add(idx);
-    }
-
-    function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
     }
 
     function downloadMd(idx) {

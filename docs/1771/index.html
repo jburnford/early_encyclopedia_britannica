@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,45 +456,36 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>The First Edition contains <strong>15,341 articles</strong>
-    and <strong>3,277 cross-references</strong> across
-    <strong>3 volumes</strong>
-    (3,258,550 words total).</p>
+    <p>The First Edition contains <strong>7,721 articles</strong>
+    and <strong>1,614 cross-references</strong> across
+    <strong>2 volumes</strong>
+    (1,760,147 words total).</p>
 
     <h2>Volumes</h2>
     <ul class="volume-list">
         
         <li>
-            <a href="vol1.html">
-                <strong>Volume 1</strong>: NOTICE&ndash;NOTICE
-                <div class="meta">
-                    1 articles, 0 cross-refs
-                    
-                    &mdash; 4.1K words
-                </div>
-            </a>
-        </li>
-        
-        <li>
             <a href="vol2.html">
-                <strong>Volume 2</strong>: ACANES&ndash;LINSEED
+                <strong>Volume 2</strong>: CALCINATION&ndash;LOOF
                 <div class="meta">
-                    7,343 articles, 1,553 cross-refs
-                    , 42 treatises
-                    &mdash; 1.6M words
+                    3,876 articles, 832 cross-refs
+                    , 24 treatises
+                    &mdash; 947.4K words
                 </div>
             </a>
+            <div class="volume-splits"><a href="vol2_C.html">C</a> <a href="vol2_D-E.html">D-E</a> <a href="vol2_F-J.html">F-J</a> <a href="vol2_K-L.html">K-L</a></div>
         </li>
         
         <li>
             <a href="vol3.html">
-                <strong>Volume 3</strong>: MANOR&ndash;WORMS
+                <strong>Volume 3</strong>: MANSION&ndash;WOOD COCK
                 <div class="meta">
-                    7,997 articles, 1,724 cross-refs
-                    , 46 treatises
-                    &mdash; 1.6M words
+                    3,845 articles, 782 cross-refs
+                    , 18 treatises
+                    &mdash; 812.8K words
                 </div>
             </a>
+            <div class="volume-splits"><a href="vol3_M-O.html">M-O</a> <a href="vol3_P-R.html">P-R</a> <a href="vol3_S.html">S</a> <a href="vol3_T-Z.html">T-Z</a></div>
         </li>
         
     </ul>

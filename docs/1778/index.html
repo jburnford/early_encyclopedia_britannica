@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,98 +456,100 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>The Second Edition contains <strong>29,085 articles</strong>
-    and <strong>2,193 cross-references</strong> across
+    <p>The Second Edition contains <strong>13,218 articles</strong>
+    and <strong>1,193 cross-references</strong> across
     <strong>10 volumes</strong>
-    (18,210,560 words total).</p>
+    (9,350,009 words total).</p>
 
     <h2>Volumes</h2>
     <ul class="volume-list">
         
         <li>
             <a href="vol1.html">
-                <strong>Volume 1</strong>: ABBEY-BOYLE&ndash;ASSIGNING
+                <strong>Volume 1</strong>: ABATOR&ndash;ASSAYING
                 <div class="meta">
-                    4,206 articles, 280 cross-refs
-                    , 51 treatises
-                    &mdash; 1.7M words
+                    1,914 articles, 129 cross-refs
+                    , 23 treatises
+                    &mdash; 821.5K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol2.html">
-                <strong>Volume 2</strong>: ATHERINA&ndash;BUSBY
+                <strong>Volume 2</strong>: ATHENREE&ndash;BURTON
                 <div class="meta">
-                    1,970 articles, 111 cross-refs
-                    , 23 treatises
-                    &mdash; 827.1K words
+                    1,642 articles, 87 cross-refs
+                    , 21 treatises
+                    &mdash; 776.9K words
                 </div>
             </a>
+            <div class="volume-splits"><a href="vol2_A.html">A</a> <a href="vol2_B.html">B</a></div>
         </li>
         
         <li>
             <a href="vol3.html">
-                <strong>Volume 3</strong>: CADE&ndash;CYAXARES
+                <strong>Volume 3</strong>: CACTUS&ndash;CYAXARES
                 <div class="meta">
-                    4,305 articles, 352 cross-refs
-                    , 42 treatises
-                    &mdash; 1.8M words
+                    1,865 articles, 143 cross-refs
+                    , 24 treatises
+                    &mdash; 891.1K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol4.html">
-                <strong>Volume 4</strong>: DAMASK&ndash;FUND
+                <strong>Volume 4</strong>: DAMASCENUS&ndash;FULLING
                 <div class="meta">
-                    3,389 articles, 398 cross-refs
-                    , 64 treatises
-                    &mdash; 1.8M words
+                    1,477 articles, 152 cross-refs
+                    , 34 treatises
+                    &mdash; 890.3K words
                 </div>
             </a>
+            <div class="volume-splits"><a href="vol4_D-E.html">D-E</a> <a href="vol4_F.html">F</a></div>
         </li>
         
         <li>
             <a href="vol5.html">
-                <strong>Volume 5</strong>: GALLERY&ndash;JUJUBES
+                <strong>Volume 5</strong>: GALLAND&ndash;JUGERUM
                 <div class="meta">
-                    3,132 articles, 279 cross-refs
-                    , 54 treatises
-                    &mdash; 1.9M words
+                    1,296 articles, 126 cross-refs
+                    , 28 treatises
+                    &mdash; 960.3K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol6.html">
-                <strong>Volume 6</strong>: KEDRON&ndash;MEDICINAL
+                <strong>Volume 6</strong>: KEDES&ndash;MEAD
                 <div class="meta">
-                    3,169 articles, 293 cross-refs
-                    , 113 treatises
-                    &mdash; 3.2M words
+                    840 articles, 89 cross-refs
+                    , 23 treatises
+                    &mdash; 1.1M words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol7.html">
-                <strong>Volume 7</strong>: MELASTOMA&ndash;OPALIA
+                <strong>Volume 7</strong>: MELANCTHON&ndash;OPERA
                 <div class="meta">
-                    1,940 articles, 182 cross-refs
-                    , 79 treatises
-                    &mdash; 1.7M words
+                    858 articles, 77 cross-refs
+                    , 27 treatises
+                    &mdash; 873.1K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol8.html">
-                <strong>Volume 8</strong>: ORBIT&ndash;PNEUMONICS
+                <strong>Volume 8</strong>: ORCHIS&ndash;PNEUMATICS
                 <div class="meta">
-                    1,651 articles, 165 cross-refs
-                    , 63 treatises
-                    &mdash; 1.7M words
+                    708 articles, 69 cross-refs
+                    , 27 treatises
+                    &mdash; 875.4K words
                 </div>
             </a>
         </li>
@@ -507,22 +558,23 @@ footer {
             <a href="vol9.html">
                 <strong>Volume 9</strong>: POLISHER&ndash;SCORPENA
                 <div class="meta">
-                    1,175 articles, 124 cross-refs
+                    1,007 articles, 106 cross-refs
                     , 25 treatises
-                    &mdash; 918.4K words
+                    &mdash; 918.8K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol10.html">
-                <strong>Volume 10</strong>: LEUCOMA&ndash;ZANGUEBAR
+                <strong>Volume 10</strong>: SEDLEY&ndash;ZAARA
                 <div class="meta">
-                    4,148 articles, 9 cross-refs
-                    , 81 treatises
-                    &mdash; 2.6M words
+                    1,611 articles, 215 cross-refs
+                    , 31 treatises
+                    &mdash; 1.3M words
                 </div>
             </a>
+            <div class="volume-splits"><a href="vol10_S-U.html">S-U</a> <a href="vol10_V-Z.html">V-Z</a></div>
         </li>
         
     </ul>

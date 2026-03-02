@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,7 +456,9 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>This volume contains <strong>190 entries</strong>.
+    
+
+    <p>This volume contains <strong>137 entries</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
@@ -424,647 +475,647 @@ footer {
         
         <li class="article-item" id="article-DYEING" data-idx="0" data-type="article">
             <div class="article-header" onclick="toggleArticle(0)">
-                <h3>DYEING</h3>
-                <span class="meta">1,023 words</span>
+                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">33,130 words</span>
             </div>
             <div class="article-content" id="content-0">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="1" data-type="article">
+        <li class="article-item" id="article-DYNAMICS" data-idx="1" data-type="article">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>DYEING</h3>
-                <span class="meta">2,315 words</span>
+                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">42,718 words</span>
             </div>
             <div class="article-content" id="content-1">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="2" data-type="article">
+        <li class="article-item" id="article-DYNASTY" data-idx="2" data-type="article">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>DYEING</h3>
-                <span class="meta">1,238 words</span>
+                <h3>DYNASTY</h3>
+                <span class="meta">72 words</span>
             </div>
             <div class="article-content" id="content-2">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="3" data-type="article">
+        <li class="article-item" id="article-DYRRACHIUM" data-idx="3" data-type="article">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>DYEING</h3>
-                <span class="meta">1,196 words</span>
+                <h3>DYRRACHIUM</h3>
+                <span class="meta">201 words</span>
             </div>
             <div class="article-content" id="content-3">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="4" data-type="article">
+        <li class="article-item" id="article-DYSCRASY" data-idx="4" data-type="article">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>DYEING<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">24,511 words</span>
+                <h3>DYSCRASY</h3>
+                <span class="meta">17 words</span>
             </div>
             <div class="article-content" id="content-4">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="5" data-type="article">
+        <li class="article-item" id="article-DYSENTERY" data-idx="5" data-type="article">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>DYEING</h3>
-                <span class="meta">1,894 words</span>
+                <h3>DYSENTERY</h3>
+                <span class="meta">53 words</span>
             </div>
             <div class="article-content" id="content-5">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="6" data-type="article">
+        <li class="article-item" id="article-DYSOREXY" data-idx="6" data-type="article">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>DYEING</h3>
-                <span class="meta">671 words</span>
+                <h3>DYSOREXY</h3>
+                <span class="meta">12 words</span>
             </div>
             <div class="article-content" id="content-6">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYEING" data-idx="7" data-type="article">
+        <li class="article-item" id="article-DYSPEPSY" data-idx="7" data-type="article">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>DYEING</h3>
-                <span class="meta">282 words</span>
+                <h3>DYSPEPSY</h3>
+                <span class="meta">4 words</span>
             </div>
             <div class="article-content" id="content-7">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="8" data-type="article">
+        <li class="article-item" id="article-DYSPNOEA" data-idx="8" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,099 words</span>
+                <h3>DYSPNOEA<span class="badge xref">Cross-ref &rarr; Medicine Index</span></h3>
+                <span class="meta">10 words</span>
             </div>
             <div class="article-content" id="content-8">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="9" data-type="article">
+        <li class="article-item" id="article-DYSURY" data-idx="9" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">2,245 words</span>
+                <h3>DYSURY<span class="badge xref">Cross-ref &rarr; Medicine Index</span></h3>
+                <span class="meta">18 words</span>
             </div>
             <div class="article-content" id="content-9">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="10" data-type="article">
+        <li class="article-item" id="article-DYTISCUS" data-idx="10" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">2,226 words</span>
+                <h3>DYTISCUS<span class="badge xref">Cross-ref &rarr; Entomology Index</span></h3>
+                <span class="meta">4 words</span>
             </div>
             <div class="article-content" id="content-10">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="11" data-type="article">
+        <li class="article-item" id="article-DYVOUR" data-idx="11" data-type="article">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">4,727 words</span>
+                <h3>DYVOUR</h3>
+                <span class="meta">444 words</span>
             </div>
             <div class="article-content" id="content-11">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="12" data-type="article">
+        <li class="article-item" id="article-EACHARD" data-idx="12" data-type="article">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">3,657 words</span>
+                <h3>EACHARD</h3>
+                <span class="meta">192 words</span>
             </div>
             <div class="article-content" id="content-12">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="13" data-type="article">
+        <li class="article-item" id="article-EADMERUS" data-idx="13" data-type="article">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">2,474 words</span>
+                <h3>EADMERUS</h3>
+                <span class="meta">1,258 words</span>
             </div>
             <div class="article-content" id="content-13">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="14" data-type="article">
+        <li class="article-item" id="article-EAGLE" data-idx="14" data-type="article">
             <div class="article-header" onclick="toggleArticle(14)">
-                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">5,659 words</span>
+                <h3>EAGLE</h3>
+                <span class="meta">290 words</span>
             </div>
             <div class="article-content" id="content-14">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="15" data-type="article">
+        <li class="article-item" id="article-EAGLET" data-idx="15" data-type="article">
             <div class="article-header" onclick="toggleArticle(15)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">4,191 words</span>
+                <h3>EAGLET</h3>
+                <span class="meta">24 words</span>
             </div>
             <div class="article-content" id="content-15">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="16" data-type="article">
+        <li class="article-item" id="article-EALDERMAN" data-idx="16" data-type="article">
             <div class="article-header" onclick="toggleArticle(16)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,212 words</span>
+                <h3>EALDERMAN</h3>
+                <span class="meta">50 words</span>
             </div>
             <div class="article-content" id="content-16">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="17" data-type="article">
+        <li class="article-item" id="article-EAR" data-idx="17" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(17)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,676 words</span>
+                <h3>EAR<span class="badge xref">Cross-ref &rarr; ANATOMY Index</span></h3>
+                <span class="meta">32 words</span>
             </div>
             <div class="article-content" id="content-17">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="18" data-type="article">
+        <li class="article-item" id="article-EAR" data-idx="18" data-type="article">
             <div class="article-header" onclick="toggleArticle(18)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,218 words</span>
+                <h3>EAR</h3>
+                <span class="meta">414 words</span>
             </div>
             <div class="article-content" id="content-18">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="19" data-type="article">
+        <li class="article-item" id="article-EARING" data-idx="19" data-type="article">
             <div class="article-header" onclick="toggleArticle(19)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,162 words</span>
+                <h3>EARING</h3>
+                <span class="meta">144 words</span>
             </div>
             <div class="article-content" id="content-19">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="20" data-type="article">
+        <li class="article-item" id="article-EARL" data-idx="20" data-type="article">
             <div class="article-header" onclick="toggleArticle(20)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">1,090 words</span>
+                <h3>EARL</h3>
+                <span class="meta">396 words</span>
             </div>
             <div class="article-content" id="content-20">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="21" data-type="article">
+        <li class="article-item" id="article-EARTH" data-idx="21" data-type="article">
             <div class="article-header" onclick="toggleArticle(21)">
-                <h3>DYNAMICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">9,263 words</span>
+                <h3>EARTH</h3>
+                <span class="meta">104 words</span>
             </div>
             <div class="article-content" id="content-21">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNAMICS" data-idx="22" data-type="article">
+        <li class="article-item" id="article-EARTHQUAKE" data-idx="22" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(22)">
-                <h3>DYNAMICS</h3>
-                <span class="meta">819 words</span>
+                <h3>EARTHQUAKE<span class="badge xref">Cross-ref &rarr; GEOLOGY INDEX</span></h3>
+                <span class="meta">4 words</span>
             </div>
             <div class="article-content" id="content-22">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYNASTY" data-idx="23" data-type="article">
+        <li class="article-item" id="article-EASEL_PIECES" data-idx="23" data-type="article">
             <div class="article-header" onclick="toggleArticle(23)">
-                <h3>DYNASTY</h3>
-                <span class="meta">72 words</span>
+                <h3>EASEL PIECES</h3>
+                <span class="meta">38 words</span>
             </div>
             <div class="article-content" id="content-23">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYRRACHIUM" data-idx="24" data-type="article">
+        <li class="article-item" id="article-EASEMENT" data-idx="24" data-type="article">
             <div class="article-header" onclick="toggleArticle(24)">
-                <h3>DYRRACHIUM</h3>
-                <span class="meta">201 words</span>
+                <h3>EASEMENT</h3>
+                <span class="meta">38 words</span>
             </div>
             <div class="article-content" id="content-24">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSCRASY" data-idx="25" data-type="article">
+        <li class="article-item" id="article-EASING" data-idx="25" data-type="article">
             <div class="article-header" onclick="toggleArticle(25)">
-                <h3>DYSCRASY</h3>
-                <span class="meta">41 words</span>
+                <h3>EASING</h3>
+                <span class="meta">45 words</span>
             </div>
             <div class="article-content" id="content-25">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSENTERIC_FEVER" data-idx="26" data-type="article">
+        <li class="article-item" id="article-EAST" data-idx="26" data-type="article">
             <div class="article-header" onclick="toggleArticle(26)">
-                <h3>DYSENTERIC FEVER</h3>
-                <span class="meta">28 words</span>
+                <h3>EAST</h3>
+                <span class="meta">63 words</span>
             </div>
             <div class="article-content" id="content-26">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSOREXY" data-idx="27" data-type="article">
+        <li class="article-item" id="article-EASTER" data-idx="27" data-type="article">
             <div class="article-header" onclick="toggleArticle(27)">
-                <h3>DYSOREXY</h3>
-                <span class="meta">12 words</span>
+                <h3>EASTER</h3>
+                <span class="meta">134 words</span>
             </div>
             <div class="article-content" id="content-27">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSPEPSY" data-idx="28" data-type="article">
+        <li class="article-item" id="article-EASTER_ISLAND" data-idx="28" data-type="article">
             <div class="article-header" onclick="toggleArticle(28)">
-                <h3>DYSPEPSY</h3>
-                <span class="meta">4 words</span>
+                <h3>EASTER ISLAND</h3>
+                <span class="meta">1,526 words</span>
             </div>
             <div class="article-content" id="content-28">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSPNOEA" data-idx="29" data-type="cross_reference">
+        <li class="article-item" id="article-EATON" data-idx="29" data-type="article">
             <div class="article-header" onclick="toggleArticle(29)">
-                <h3>DYSPNOEA<span class="badge xref">Cross-ref &rarr; Medicine Index</span></h3>
-                <span class="meta">10 words</span>
+                <h3>EATON</h3>
+                <span class="meta">44 words</span>
             </div>
             <div class="article-content" id="content-29">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYSURY" data-idx="30" data-type="cross_reference">
+        <li class="article-item" id="article-EAU_DE_CARMES" data-idx="30" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(30)">
-                <h3>DYSURY<span class="badge xref">Cross-ref &rarr; Medicine Index</span></h3>
-                <span class="meta">18 words</span>
+                <h3>EAU DE CARMES<span class="badge xref">Cross-ref &rarr; PHARMACY</span></h3>
+                <span class="meta">36 words</span>
             </div>
             <div class="article-content" id="content-30">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYTISCUS" data-idx="31" data-type="cross_reference">
+        <li class="article-item" id="article-EAVES" data-idx="31" data-type="article">
             <div class="article-header" onclick="toggleArticle(31)">
-                <h3>DYTISCUS<span class="badge xref">Cross-ref &rarr; Entomology Index</span></h3>
-                <span class="meta">4 words</span>
+                <h3>EAVES</h3>
+                <span class="meta">631 words</span>
             </div>
             <div class="article-content" id="content-31">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DYVOUR" data-idx="32" data-type="article">
+        <li class="article-item" id="article-EAVES_DROPPERS" data-idx="32" data-type="article">
             <div class="article-header" onclick="toggleArticle(32)">
-                <h3>DYVOUR</h3>
-                <span class="meta">444 words</span>
+                <h3>EAVES-DROPPERS</h3>
+                <span class="meta">80 words</span>
             </div>
             <div class="article-content" id="content-32">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EACHARD" data-idx="33" data-type="article">
+        <li class="article-item" id="article-EBDOMARIUS" data-idx="33" data-type="article">
             <div class="article-header" onclick="toggleArticle(33)">
-                <h3>EACHARD</h3>
-                <span class="meta">191 words</span>
+                <h3>EBDOMARIUS</h3>
+                <span class="meta">71 words</span>
             </div>
             <div class="article-content" id="content-33">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EADMERUS" data-idx="34" data-type="article">
+        <li class="article-item" id="article-EBDOME" data-idx="34" data-type="article">
             <div class="article-header" onclick="toggleArticle(34)">
-                <h3>EADMERUS</h3>
-                <span class="meta">569 words</span>
+                <h3>EBDOME</h3>
+                <span class="meta">51 words</span>
             </div>
             <div class="article-content" id="content-34">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAGLE" data-idx="35" data-type="article">
+        <li class="article-item" id="article-EBENUS" data-idx="35" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(35)">
-                <h3>EAGLE</h3>
-                <span class="meta">976 words</span>
+                <h3>EBENUS<span class="badge xref">Cross-ref &rarr; BOTANY Index</span></h3>
+                <span class="meta">6 words</span>
             </div>
             <div class="article-content" id="content-35">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAGLET" data-idx="36" data-type="article">
+        <li class="article-item" id="article-EBION" data-idx="36" data-type="article">
             <div class="article-header" onclick="toggleArticle(36)">
-                <h3>EAGLET</h3>
-                <span class="meta">24 words</span>
+                <h3>EBION</h3>
+                <span class="meta">81 words</span>
             </div>
             <div class="article-content" id="content-36">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EALDERMAN" data-idx="37" data-type="article">
+        <li class="article-item" id="article-EBIONITES" data-idx="37" data-type="article">
             <div class="article-header" onclick="toggleArticle(37)">
-                <h3>EALDERMAN</h3>
-                <span class="meta">50 words</span>
+                <h3>EBIONITES</h3>
+                <span class="meta">1,169 words</span>
             </div>
             <div class="article-content" id="content-37">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAR" data-idx="38" data-type="cross_reference">
+        <li class="article-item" id="article-EBORACUM" data-idx="38" data-type="article">
             <div class="article-header" onclick="toggleArticle(38)">
-                <h3>EAR<span class="badge xref">Cross-ref &rarr; ANATOMY Index</span></h3>
-                <span class="meta">32 words</span>
+                <h3>EBORACUM</h3>
+                <span class="meta">48 words</span>
             </div>
             <div class="article-content" id="content-38">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAR" data-idx="39" data-type="article">
+        <li class="article-item" id="article-EBRO" data-idx="39" data-type="article">
             <div class="article-header" onclick="toggleArticle(39)">
-                <h3>EAR</h3>
-                <span class="meta">414 words</span>
+                <h3>EBRO</h3>
+                <span class="meta">44 words</span>
             </div>
             <div class="article-content" id="content-39">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EARING" data-idx="40" data-type="article">
+        <li class="article-item" id="article-EBUDE" data-idx="40" data-type="article">
             <div class="article-header" onclick="toggleArticle(40)">
-                <h3>EARING</h3>
-                <span class="meta">144 words</span>
+                <h3>EBUDE</h3>
+                <span class="meta">70 words</span>
             </div>
             <div class="article-content" id="content-40">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EARL" data-idx="41" data-type="article">
+        <li class="article-item" id="article-EBULLITION" data-idx="41" data-type="article">
             <div class="article-header" onclick="toggleArticle(41)">
-                <h3>EARL</h3>
-                <span class="meta">312 words</span>
+                <h3>EBULLITION</h3>
+                <span class="meta">15 words</span>
             </div>
             <div class="article-content" id="content-41">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EARNEST" data-idx="42" data-type="article">
+        <li class="article-item" id="article-EBUSUS" data-idx="42" data-type="article">
             <div class="article-header" onclick="toggleArticle(42)">
-                <h3>EARNEST</h3>
-                <span class="meta">83 words</span>
+                <h3>EBUSUS</h3>
+                <span class="meta">52 words</span>
             </div>
             <div class="article-content" id="content-42">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EARTH" data-idx="43" data-type="article">
+        <li class="article-item" id="article-ECALESIA" data-idx="43" data-type="article">
             <div class="article-header" onclick="toggleArticle(43)">
-                <h3>EARTH</h3>
-                <span class="meta">104 words</span>
+                <h3>ECALESIA</h3>
+                <span class="meta">23 words</span>
             </div>
             <div class="article-content" id="content-43">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EARTHWORM" data-idx="44" data-type="cross_reference">
+        <li class="article-item" id="article-ECASTOR" data-idx="44" data-type="article">
             <div class="article-header" onclick="toggleArticle(44)">
-                <h3>EARTHWORM<span class="badge xref">Cross-ref &rarr; HELMINTHOLOGY INDEX</span></h3>
-                <span class="meta">3 words</span>
+                <h3>ECASTOR</h3>
+                <span class="meta">25 words</span>
             </div>
             <div class="article-content" id="content-44">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EASEL_PIECES" data-idx="45" data-type="article">
+        <li class="article-item" id="article-ECATEA" data-idx="45" data-type="article">
             <div class="article-header" onclick="toggleArticle(45)">
-                <h3>EASEL PIECES</h3>
-                <span class="meta">38 words</span>
+                <h3>ECATEA</h3>
+                <span class="meta">32 words</span>
             </div>
             <div class="article-content" id="content-45">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EASEMENT" data-idx="46" data-type="article">
+        <li class="article-item" id="article-ECATESIA" data-idx="46" data-type="article">
             <div class="article-header" onclick="toggleArticle(46)">
-                <h3>EASEMENT</h3>
-                <span class="meta">38 words</span>
+                <h3>ECATESIA</h3>
+                <span class="meta">158 words</span>
             </div>
             <div class="article-content" id="content-46">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EASING" data-idx="47" data-type="article">
+        <li class="article-item" id="article-ECAVESSADE" data-idx="47" data-type="article">
             <div class="article-header" onclick="toggleArticle(47)">
-                <h3>EASING</h3>
-                <span class="meta">45 words</span>
+                <h3>ECAVESSADE</h3>
+                <span class="meta">11 words</span>
             </div>
             <div class="article-content" id="content-47">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAST" data-idx="48" data-type="article">
+        <li class="article-item" id="article-ECBATANA" data-idx="48" data-type="article">
             <div class="article-header" onclick="toggleArticle(48)">
-                <h3>EAST</h3>
-                <span class="meta">63 words</span>
+                <h3>ECBATANA</h3>
+                <span class="meta">130 words</span>
             </div>
             <div class="article-content" id="content-48">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EASTER" data-idx="49" data-type="article">
+        <li class="article-item" id="article-ECCENTRICITY" data-idx="49" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(49)">
-                <h3>EASTER</h3>
-                <span class="meta">134 words</span>
+                <h3>ECCENTRICITY<span class="badge xref">Cross-ref &rarr; EXCENTRICITY</span></h3>
+                <span class="meta">33 words</span>
             </div>
             <div class="article-content" id="content-49">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EASTER_ISLAND" data-idx="50" data-type="article">
+        <li class="article-item" id="article-ECCLESIASTES" data-idx="50" data-type="article">
             <div class="article-header" onclick="toggleArticle(50)">
-                <h3>EASTER ISLAND</h3>
-                <span class="meta">1,526 words</span>
+                <h3>ECCLESIASTES</h3>
+                <span class="meta">92 words</span>
             </div>
             <div class="article-content" id="content-50">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EATON" data-idx="51" data-type="article">
+        <li class="article-item" id="article-ECCLESIASTICAL" data-idx="51" data-type="article">
             <div class="article-header" onclick="toggleArticle(51)">
-                <h3>EATON</h3>
-                <span class="meta">44 words</span>
+                <h3>ECCLESIASTICAL</h3>
+                <span class="meta">1,329 words</span>
             </div>
             <div class="article-content" id="content-51">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAU_DE_CARMES" data-idx="52" data-type="cross_reference">
+        <li class="article-item" id="article-ECHINITES" data-idx="52" data-type="article">
             <div class="article-header" onclick="toggleArticle(52)">
-                <h3>EAU DE CARMES<span class="badge xref">Cross-ref &rarr; PHARMACY</span></h3>
-                <span class="meta">36 words</span>
+                <h3>ECHINITES</h3>
+                <span class="meta">27 words</span>
             </div>
             <div class="article-content" id="content-52">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAVES" data-idx="53" data-type="article">
+        <li class="article-item" id="article-ECHINUS" data-idx="53" data-type="article">
             <div class="article-header" onclick="toggleArticle(53)">
-                <h3>EAVES</h3>
-                <span class="meta">631 words</span>
+                <h3>ECHINUS</h3>
+                <span class="meta">29 words</span>
             </div>
             <div class="article-content" id="content-53">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EAVES_DROPPERS" data-idx="54" data-type="article">
+        <li class="article-item" id="article-ECHIUM" data-idx="54" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(54)">
-                <h3>EAVES-DROPPERS</h3>
-                <span class="meta">80 words</span>
+                <h3>ECHIUM<span class="badge xref">Cross-ref &rarr; BOTANY Index</span></h3>
+                <span class="meta">5 words</span>
             </div>
             <div class="article-content" id="content-54">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBDOMARIUS" data-idx="55" data-type="article">
+        <li class="article-item" id="article-ECHO" data-idx="55" data-type="article">
             <div class="article-header" onclick="toggleArticle(55)">
-                <h3>EBDOMARIUS</h3>
-                <span class="meta">71 words</span>
+                <h3>ECHO</h3>
+                <span class="meta">1,651 words</span>
             </div>
             <div class="article-content" id="content-55">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBDOME" data-idx="56" data-type="article">
+        <li class="article-item" id="article-ECHOMETER" data-idx="56" data-type="article">
             <div class="article-header" onclick="toggleArticle(56)">
-                <h3>EBDOME</h3>
-                <span class="meta">51 words</span>
+                <h3>ECHOMETER</h3>
+                <span class="meta">32 words</span>
             </div>
             <div class="article-content" id="content-56">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBENUS" data-idx="57" data-type="cross_reference">
+        <li class="article-item" id="article-ECKIUS" data-idx="57" data-type="article">
             <div class="article-header" onclick="toggleArticle(57)">
-                <h3>EBENUS<span class="badge xref">Cross-ref &rarr; BOTANY Index</span></h3>
-                <span class="meta">6 words</span>
+                <h3>ECKIUS</h3>
+                <span class="meta">353 words</span>
             </div>
             <div class="article-content" id="content-57">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBION" data-idx="58" data-type="article">
+        <li class="article-item" id="article-ECLIPSE" data-idx="58" data-type="article">
             <div class="article-header" onclick="toggleArticle(58)">
-                <h3>EBION</h3>
-                <span class="meta">81 words</span>
+                <h3>ECLIPSE</h3>
+                <span class="meta">30 words</span>
             </div>
             <div class="article-content" id="content-58">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBIONITES" data-idx="59" data-type="article">
+        <li class="article-item" id="article-ECLIPTA" data-idx="59" data-type="article">
             <div class="article-header" onclick="toggleArticle(59)">
-                <h3>EBIONITES</h3>
-                <span class="meta">695 words</span>
+                <h3>ECLIPTA</h3>
+                <span class="meta">31 words</span>
             </div>
             <div class="article-content" id="content-59">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBONY_OF_CRETE" data-idx="60" data-type="article">
+        <li class="article-item" id="article-ECLIPTIC" data-idx="60" data-type="article">
             <div class="article-header" onclick="toggleArticle(60)">
-                <h3>EBONY OF CRETE</h3>
-                <span class="meta">471 words</span>
+                <h3>ECLIPTIC</h3>
+                <span class="meta">121 words</span>
             </div>
             <div class="article-content" id="content-60">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBORACUM" data-idx="61" data-type="article">
+        <li class="article-item" id="article-ECLOGUE" data-idx="61" data-type="article">
             <div class="article-header" onclick="toggleArticle(61)">
-                <h3>EBORACUM</h3>
-                <span class="meta">48 words</span>
+                <h3>ECLOGUE</h3>
+                <span class="meta">128 words</span>
             </div>
             <div class="article-content" id="content-61">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBRO" data-idx="62" data-type="article">
+        <li class="article-item" id="article-ECLUSE" data-idx="62" data-type="article">
             <div class="article-header" onclick="toggleArticle(62)">
-                <h3>EBRO</h3>
-                <span class="meta">44 words</span>
+                <h3>ECLUSE</h3>
+                <span class="meta">68 words</span>
             </div>
             <div class="article-content" id="content-62">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBUDE" data-idx="63" data-type="article">
+        <li class="article-item" id="article-ECONOMY" data-idx="63" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(63)">
-                <h3>EBUDE</h3>
-                <span class="meta">70 words</span>
+                <h3>ECONOMY<span class="badge xref">Cross-ref &rarr; Political Economy</span></h3>
+                <span class="meta">4 words</span>
             </div>
             <div class="article-content" id="content-63">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EBULLITION" data-idx="64" data-type="article">
+        <li class="article-item" id="article-ECPHRACTICS" data-idx="64" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(64)">
-                <h3>EBULLITION</h3>
+                <h3>ECPHRACTICS<span class="badge xref">Cross-ref &rarr; Attenuants</span></h3>
                 <span class="meta">15 words</span>
             </div>
             <div class="article-content" id="content-64">
@@ -1072,1252 +1123,722 @@ footer {
             </div>
         </li>
         
-        <li class="article-item" id="article-EBUSUS" data-idx="65" data-type="article">
+        <li class="article-item" id="article-ECSTATICI" data-idx="65" data-type="article">
             <div class="article-header" onclick="toggleArticle(65)">
-                <h3>EBUSUS</h3>
-                <span class="meta">52 words</span>
+                <h3>ECSTATICI</h3>
+                <span class="meta">177 words</span>
             </div>
             <div class="article-content" id="content-65">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECALESIA" data-idx="66" data-type="article">
+        <li class="article-item" id="article-ECTROPIUM" data-idx="66" data-type="article">
             <div class="article-header" onclick="toggleArticle(66)">
-                <h3>ECALESIA</h3>
-                <span class="meta">23 words</span>
+                <h3>ECTROPIUM</h3>
+                <span class="meta">25 words</span>
             </div>
             <div class="article-content" id="content-66">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECASTOR" data-idx="67" data-type="article">
+        <li class="article-item" id="article-ECTYLOTICS" data-idx="67" data-type="article">
             <div class="article-header" onclick="toggleArticle(67)">
-                <h3>ECASTOR</h3>
-                <span class="meta">25 words</span>
+                <h3>ECTYLOTICS</h3>
+                <span class="meta">7 words</span>
             </div>
             <div class="article-content" id="content-67">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECATEA" data-idx="68" data-type="article">
+        <li class="article-item" id="article-ECU" data-idx="68" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(68)">
-                <h3>ECATEA</h3>
-                <span class="meta">32 words</span>
+                <h3>ECU<span class="badge xref">Cross-ref &rarr; Money</span></h3>
+                <span class="meta">12 words</span>
             </div>
             <div class="article-content" id="content-68">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECATESIA" data-idx="69" data-type="article">
+        <li class="article-item" id="article-EDAY" data-idx="69" data-type="article">
             <div class="article-header" onclick="toggleArticle(69)">
-                <h3>ECATESIA</h3>
-                <span class="meta">158 words</span>
+                <h3>EDAY</h3>
+                <span class="meta">31 words</span>
             </div>
             <div class="article-content" id="content-69">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECAVESSADE" data-idx="70" data-type="article">
+        <li class="article-item" id="article-EDDA" data-idx="70" data-type="article">
             <div class="article-header" onclick="toggleArticle(70)">
-                <h3>ECAVESSADE</h3>
-                <span class="meta">11 words</span>
+                <h3>EDDA</h3>
+                <span class="meta">856 words</span>
             </div>
             <div class="article-content" id="content-70">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECBATANA" data-idx="71" data-type="article">
+        <li class="article-item" id="article-EDDISH" data-idx="71" data-type="article">
             <div class="article-header" onclick="toggleArticle(71)">
-                <h3>ECBATANA</h3>
-                <span class="meta">130 words</span>
+                <h3>EDDISH</h3>
+                <span class="meta">20 words</span>
             </div>
             <div class="article-content" id="content-71">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECCENTRICITY" data-idx="72" data-type="cross_reference">
+        <li class="article-item" id="article-EDDOES" data-idx="72" data-type="article">
             <div class="article-header" onclick="toggleArticle(72)">
-                <h3>ECCENTRICITY<span class="badge xref">Cross-ref &rarr; EXCENTRICITY</span></h3>
-                <span class="meta">33 words</span>
+                <h3>EDDOES</h3>
+                <span class="meta">419 words</span>
             </div>
             <div class="article-content" id="content-72">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECCLESIASTES" data-idx="73" data-type="article">
+        <li class="article-item" id="article-EDEN" data-idx="73" data-type="article">
             <div class="article-header" onclick="toggleArticle(73)">
-                <h3>ECCLESIASTES</h3>
-                <span class="meta">92 words</span>
+                <h3>EDEN</h3>
+                <span class="meta">150 words</span>
             </div>
             <div class="article-content" id="content-73">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECCLESIASTICAL" data-idx="74" data-type="article">
+        <li class="article-item" id="article-EDGINGS" data-idx="74" data-type="article">
             <div class="article-header" onclick="toggleArticle(74)">
-                <h3>ECCLESIASTICAL</h3>
-                <span class="meta">1,053 words</span>
+                <h3>EDGINGS</h3>
+                <span class="meta">160 words</span>
             </div>
             <div class="article-content" id="content-74">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECCLESIASTICUS" data-idx="75" data-type="article">
+        <li class="article-item" id="article-EDHILLING" data-idx="75" data-type="article">
             <div class="article-header" onclick="toggleArticle(75)">
-                <h3>ECCLESIASTICUS</h3>
-                <span class="meta">114 words</span>
+                <h3>EDHILLING</h3>
+                <span class="meta">73 words</span>
             </div>
             <div class="article-content" id="content-75">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHAPE" data-idx="76" data-type="article">
+        <li class="article-item" id="article-EDICT" data-idx="76" data-type="article">
             <div class="article-header" onclick="toggleArticle(76)">
-                <h3>ECHAPE</h3>
-                <span class="meta">16 words</span>
+                <h3>EDICT</h3>
+                <span class="meta">128 words</span>
             </div>
             <div class="article-content" id="content-76">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHAPER" data-idx="77" data-type="article">
+        <li class="article-item" id="article-EDILE" data-idx="77" data-type="article">
             <div class="article-header" onclick="toggleArticle(77)">
-                <h3>ECHAPER</h3>
-                <span class="meta">125 words</span>
+                <h3>EDILE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,591 words</span>
             </div>
             <div class="article-content" id="content-77">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHINATE" data-idx="78" data-type="article">
+        <li class="article-item" id="article-EDINBURGH" data-idx="78" data-type="article">
             <div class="article-header" onclick="toggleArticle(78)">
-                <h3>ECHINATE</h3>
-                <span class="meta">12 words</span>
+                <h3>EDINBURGH<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">17,946 words</span>
             </div>
             <div class="article-content" id="content-78">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHINITES" data-idx="79" data-type="article">
+        <li class="article-item" id="article-EDINBURGHSHIRE" data-idx="79" data-type="article">
             <div class="article-header" onclick="toggleArticle(79)">
-                <h3>ECHINITES</h3>
-                <span class="meta">26 words</span>
+                <h3>EDINBURGHSHIRE</h3>
+                <span class="meta">621 words</span>
             </div>
             <div class="article-content" id="content-79">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHINUS" data-idx="80" data-type="article">
+        <li class="article-item" id="article-EDITOR" data-idx="80" data-type="article">
             <div class="article-header" onclick="toggleArticle(80)">
-                <h3>ECHINUS</h3>
-                <span class="meta">29 words</span>
+                <h3>EDITOR</h3>
+                <span class="meta">44 words</span>
             </div>
             <div class="article-content" id="content-80">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHIUM" data-idx="81" data-type="cross_reference">
+        <li class="article-item" id="article-EDOM" data-idx="81" data-type="article">
             <div class="article-header" onclick="toggleArticle(81)">
-                <h3>ECHIUM<span class="badge xref">Cross-ref &rarr; BOTANY Index</span></h3>
-                <span class="meta">5 words</span>
+                <h3>EDOM</h3>
+                <span class="meta">204 words</span>
             </div>
             <div class="article-content" id="content-81">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHO" data-idx="82" data-type="article">
+        <li class="article-item" id="article-EDUCATION" data-idx="82" data-type="article">
             <div class="article-header" onclick="toggleArticle(82)">
-                <h3>ECHO</h3>
-                <span class="meta">1,645 words</span>
+                <h3>EDUCATION<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">47,452 words</span>
             </div>
             <div class="article-content" id="content-82">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHOMETER" data-idx="83" data-type="article">
+        <li class="article-item" id="article-EDULCORATION" data-idx="83" data-type="article">
             <div class="article-header" onclick="toggleArticle(83)">
-                <h3>ECHOMETER</h3>
-                <span class="meta">28 words</span>
+                <h3>EDULCORATION</h3>
+                <span class="meta">77 words</span>
             </div>
             <div class="article-content" id="content-83">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECHOUERIES" data-idx="84" data-type="article">
+        <li class="article-item" id="article-EDWARD" data-idx="84" data-type="article">
             <div class="article-header" onclick="toggleArticle(84)">
-                <h3>ECHOUERIES</h3>
-                <span class="meta">3 words</span>
+                <h3>EDWARD</h3>
+                <span class="meta">11 words</span>
             </div>
             <div class="article-content" id="content-84">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECKIUS" data-idx="85" data-type="article">
+        <li class="article-item" id="article-EDWARDS" data-idx="85" data-type="article">
             <div class="article-header" onclick="toggleArticle(85)">
-                <h3>ECKIUS</h3>
-                <span class="meta">73 words</span>
+                <h3>EDWARDS</h3>
+                <span class="meta">1,387 words</span>
             </div>
             <div class="article-content" id="content-85">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLECTICS" data-idx="86" data-type="article">
+        <li class="article-item" id="article-EDYSTONE" data-idx="86" data-type="article">
             <div class="article-header" onclick="toggleArticle(86)">
-                <h3>ECLECTICS</h3>
-                <span class="meta">279 words</span>
+                <h3>EDYSTONE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,883 words</span>
             </div>
             <div class="article-content" id="content-86">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLIPSE" data-idx="87" data-type="article">
+        <li class="article-item" id="article-EFFLUVIVM" data-idx="87" data-type="article">
             <div class="article-header" onclick="toggleArticle(87)">
-                <h3>ECLIPSE</h3>
-                <span class="meta">30 words</span>
+                <h3>EFFLUVIVM</h3>
+                <span class="meta">29 words</span>
             </div>
             <div class="article-content" id="content-87">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLIPTA" data-idx="88" data-type="article">
+        <li class="article-item" id="article-EFFRONTES" data-idx="88" data-type="article">
             <div class="article-header" onclick="toggleArticle(88)">
-                <h3>ECLIPTA</h3>
-                <span class="meta">31 words</span>
+                <h3>EFFRONTES</h3>
+                <span class="meta">46 words</span>
             </div>
             <div class="article-content" id="content-88">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLIPTIC" data-idx="89" data-type="article">
+        <li class="article-item" id="article-EFFUSION" data-idx="89" data-type="article">
             <div class="article-header" onclick="toggleArticle(89)">
-                <h3>ECLIPTIC</h3>
-                <span class="meta">121 words</span>
+                <h3>EFFUSION</h3>
+                <span class="meta">56 words</span>
             </div>
             <div class="article-content" id="content-89">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLOGUE" data-idx="90" data-type="article">
+        <li class="article-item" id="article-EFT" data-idx="90" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(90)">
-                <h3>ECLOGUE</h3>
-                <span class="meta">128 words</span>
+                <h3>EFT<span class="badge xref">Cross-ref &rarr; Lacerta</span></h3>
+                <span class="meta">7 words</span>
             </div>
             <div class="article-content" id="content-90">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECLUSE" data-idx="91" data-type="article">
+        <li class="article-item" id="article-EGERIA" data-idx="91" data-type="article">
             <div class="article-header" onclick="toggleArticle(91)">
-                <h3>ECLUSE</h3>
-                <span class="meta">68 words</span>
+                <h3>EGERIA</h3>
+                <span class="meta">111 words</span>
             </div>
             <div class="article-content" id="content-91">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECONOMY" data-idx="92" data-type="cross_reference">
+        <li class="article-item" id="article-EGG" data-idx="92" data-type="article">
             <div class="article-header" onclick="toggleArticle(92)">
-                <h3>ECONOMY<span class="badge xref">Cross-ref &rarr; Political Economy</span></h3>
-                <span class="meta">4 words</span>
+                <h3>EGG</h3>
+                <span class="meta">813 words</span>
             </div>
             <div class="article-content" id="content-92">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECPHRACTICS" data-idx="93" data-type="cross_reference">
+        <li class="article-item" id="article-EGINIART" data-idx="93" data-type="article">
             <div class="article-header" onclick="toggleArticle(93)">
-                <h3>ECPHRACTICS<span class="badge xref">Cross-ref &rarr; Attenuants</span></h3>
-                <span class="meta">15 words</span>
+                <h3>EGINIART</h3>
+                <span class="meta">108 words</span>
             </div>
             <div class="article-content" id="content-93">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECSTATICI" data-idx="94" data-type="article">
+        <li class="article-item" id="article-EGLON" data-idx="94" data-type="article">
             <div class="article-header" onclick="toggleArticle(94)">
-                <h3>ECSTATICI</h3>
-                <span class="meta">177 words</span>
+                <h3>EGLON</h3>
+                <span class="meta">74 words</span>
             </div>
             <div class="article-content" id="content-94">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECTROPIUM" data-idx="95" data-type="article">
+        <li class="article-item" id="article-EGRA" data-idx="95" data-type="article">
             <div class="article-header" onclick="toggleArticle(95)">
-                <h3>ECTROPIUM</h3>
-                <span class="meta">25 words</span>
+                <h3>EGRA</h3>
+                <span class="meta">95 words</span>
             </div>
             <div class="article-content" id="content-95">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECTYLOTICS" data-idx="96" data-type="article">
+        <li class="article-item" id="article-EGRET" data-idx="96" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(96)">
-                <h3>ECTYLOTICS</h3>
-                <span class="meta">7 words</span>
+                <h3>EGRET<span class="badge xref">Cross-ref &rarr; ARDEA</span></h3>
+                <span class="meta">10 words</span>
             </div>
             <div class="article-content" id="content-96">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-ECU" data-idx="97" data-type="cross_reference">
+        <li class="article-item" id="article-EGYPT" data-idx="97" data-type="article">
             <div class="article-header" onclick="toggleArticle(97)">
-                <h3>ECU<span class="badge xref">Cross-ref &rarr; Money</span></h3>
-                <span class="meta">12 words</span>
+                <h3>EGYPT<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">52,481 words</span>
             </div>
             <div class="article-content" id="content-97">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDAY" data-idx="98" data-type="article">
+        <li class="article-item" id="article-EGYPTIANS" data-idx="98" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(98)">
-                <h3>EDAY</h3>
-                <span class="meta">31 words</span>
+                <h3>EGYPTIANS<span class="badge xref">Cross-ref &rarr; Gypsies</span></h3>
+                <span class="meta">17 words</span>
             </div>
             <div class="article-content" id="content-98">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDDA" data-idx="99" data-type="article">
+        <li class="article-item" id="article-EHRHARTA" data-idx="99" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(99)">
-                <h3>EDDA</h3>
-                <span class="meta">856 words</span>
+                <h3>EHRHARTA<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">12 words</span>
             </div>
             <div class="article-content" id="content-99">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDDISH" data-idx="100" data-type="article">
+        <li class="article-item" id="article-EHUD" data-idx="100" data-type="article">
             <div class="article-header" onclick="toggleArticle(100)">
-                <h3>EDDISH</h3>
-                <span class="meta">20 words</span>
+                <h3>EHUD</h3>
+                <span class="meta">238 words</span>
             </div>
             <div class="article-content" id="content-100">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDDOES" data-idx="101" data-type="article">
+        <li class="article-item" id="article-EIA" data-idx="101" data-type="article">
             <div class="article-header" onclick="toggleArticle(101)">
-                <h3>EDDOES</h3>
-                <span class="meta">11 words</span>
+                <h3>EIA</h3>
+                <span class="meta">56 words</span>
             </div>
             <div class="article-content" id="content-101">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDDY" data-idx="102" data-type="article">
+        <li class="article-item" id="article-EJACULATOR" data-idx="102" data-type="article">
             <div class="article-header" onclick="toggleArticle(102)">
-                <h3>EDDY</h3>
-                <span class="meta">407 words</span>
+                <h3>EJACULATOR</h3>
+                <span class="meta">26 words</span>
             </div>
             <div class="article-content" id="content-102">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDEN" data-idx="103" data-type="article">
+        <li class="article-item" id="article-EICETAE" data-idx="103" data-type="article">
             <div class="article-header" onclick="toggleArticle(103)">
-                <h3>EDEN</h3>
-                <span class="meta">150 words</span>
+                <h3>EICETAE</h3>
+                <span class="meta">128 words</span>
             </div>
             <div class="article-content" id="content-103">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDGINGS" data-idx="104" data-type="article">
+        <li class="article-item" id="article-EICK" data-idx="104" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(104)">
-                <h3>EDGINGS</h3>
-                <span class="meta">160 words</span>
+                <h3>EICK<span class="badge xref">Cross-ref &rarr; BRUGES</span></h3>
+                <span class="meta">33 words</span>
             </div>
             <div class="article-content" id="content-104">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDHILLING" data-idx="105" data-type="article">
+        <li class="article-item" id="article-EJECTA" data-idx="105" data-type="article">
             <div class="article-header" onclick="toggleArticle(105)">
-                <h3>EDHILLING</h3>
-                <span class="meta">73 words</span>
+                <h3>EJECTA</h3>
+                <span class="meta">29 words</span>
             </div>
             <div class="article-content" id="content-105">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDICT" data-idx="106" data-type="article">
+        <li class="article-item" id="article-EJECTION" data-idx="106" data-type="article">
             <div class="article-header" onclick="toggleArticle(106)">
-                <h3>EDICT</h3>
-                <span class="meta">128 words</span>
+                <h3>EJECTION</h3>
+                <span class="meta">74 words</span>
             </div>
             <div class="article-content" id="content-106">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDILE" data-idx="107" data-type="article">
+        <li class="article-item" id="article-EJECTMENT" data-idx="107" data-type="article">
             <div class="article-header" onclick="toggleArticle(107)">
-                <h3>EDILE</h3>
-                <span class="meta">4 words</span>
+                <h3>EJECTMENT</h3>
+                <span class="meta">482 words</span>
             </div>
             <div class="article-content" id="content-107">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDINBURGH" data-idx="108" data-type="article">
+        <li class="article-item" id="article-EKRON" data-idx="108" data-type="article">
             <div class="article-header" onclick="toggleArticle(108)">
-                <h3>EDINBURGH<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">29,531 words</span>
+                <h3>EKRON</h3>
+                <span class="meta">127 words</span>
             </div>
             <div class="article-content" id="content-108">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDINBURGHSHIRE" data-idx="109" data-type="article">
+        <li class="article-item" id="article-ELAEAGNUS" data-idx="109" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(109)">
-                <h3>EDINBURGHSHIRE</h3>
-                <span class="meta">622 words</span>
+                <h3>ELAEAGNUS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">16 words</span>
             </div>
             <div class="article-content" id="content-109">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDITOR" data-idx="110" data-type="article">
+        <li class="article-item" id="article-ELAEOCARPUS" data-idx="110" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(110)">
-                <h3>EDITOR</h3>
-                <span class="meta">44 words</span>
+                <h3>ELAEOCARPUS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">12 words</span>
             </div>
             <div class="article-content" id="content-110">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDOM" data-idx="111" data-type="article">
+        <li class="article-item" id="article-ELAEOTHESIUM" data-idx="111" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(111)">
-                <h3>EDOM</h3>
-                <span class="meta">203 words</span>
+                <h3>ELAEOTHESIUM<span class="badge xref">Cross-ref &rarr; Gymnasium</span></h3>
+                <span class="meta">20 words</span>
             </div>
             <div class="article-content" id="content-111">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDUCATION" data-idx="112" data-type="article">
+        <li class="article-item" id="article-ELAIS" data-idx="112" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(112)">
-                <h3>EDUCATION<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">47,453 words</span>
+                <h3>ELAIS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">14 words</span>
             </div>
             <div class="article-content" id="content-112">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDULCORATION" data-idx="113" data-type="article">
+        <li class="article-item" id="article-ELAM" data-idx="113" data-type="article">
             <div class="article-header" onclick="toggleArticle(113)">
-                <h3>EDULCORATION</h3>
-                <span class="meta">77 words</span>
+                <h3>ELAM</h3>
+                <span class="meta">224 words</span>
             </div>
             <div class="article-content" id="content-113">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDWARD" data-idx="114" data-type="article">
+        <li class="article-item" id="article-ELAPHEBOLIA" data-idx="114" data-type="article">
             <div class="article-header" onclick="toggleArticle(114)">
-                <h3>EDWARD</h3>
-                <span class="meta">11 words</span>
+                <h3>ELAPHEBOLIA</h3>
+                <span class="meta">139 words</span>
             </div>
             <div class="article-content" id="content-114">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDWARDS" data-idx="115" data-type="article">
+        <li class="article-item" id="article-ELAPHEBOLIUM" data-idx="115" data-type="article">
             <div class="article-header" onclick="toggleArticle(115)">
-                <h3>EDWARDS</h3>
-                <span class="meta">1,387 words</span>
+                <h3>ELAPHEBOLIUM</h3>
+                <span class="meta">50 words</span>
             </div>
             <div class="article-content" id="content-115">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EDYSTONE" data-idx="116" data-type="article">
+        <li class="article-item" id="article-ELASMIS" data-idx="116" data-type="article">
             <div class="article-header" onclick="toggleArticle(116)">
-                <h3>EDYSTONE<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">5,035 words</span>
+                <h3>ELASMIS</h3>
+                <span class="meta">59 words</span>
             </div>
             <div class="article-content" id="content-116">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EFFEMINATE" data-idx="117" data-type="article">
+        <li class="article-item" id="article-ELASTIC" data-idx="117" data-type="article">
             <div class="article-header" onclick="toggleArticle(117)">
-                <h3>EFFEMINATE</h3>
-                <span class="meta">847 words</span>
+                <h3>ELASTIC</h3>
+                <span class="meta">1,996 words</span>
             </div>
             <div class="article-content" id="content-117">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EFFLUVIVM" data-idx="118" data-type="article">
+        <li class="article-item" id="article-ELASTICITY" data-idx="118" data-type="article">
             <div class="article-header" onclick="toggleArticle(118)">
-                <h3>EFFLUVIVM</h3>
-                <span class="meta">29 words</span>
+                <h3>ELASTICITY</h3>
+                <span class="meta">941 words</span>
             </div>
             <div class="article-content" id="content-118">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EFFRONTES" data-idx="119" data-type="article">
+        <li class="article-item" id="article-ELATE" data-idx="119" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(119)">
-                <h3>EFFRONTES</h3>
-                <span class="meta">46 words</span>
+                <h3>ELATE<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">14 words</span>
             </div>
             <div class="article-content" id="content-119">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EFFUSION" data-idx="120" data-type="article">
+        <li class="article-item" id="article-ELATER" data-idx="120" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(120)">
-                <h3>EFFUSION</h3>
-                <span class="meta">56 words</span>
+                <h3>ELATER<span class="badge xref">Cross-ref &rarr; Entomology Index</span></h3>
+                <span class="meta">13 words</span>
             </div>
             <div class="article-content" id="content-120">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EFT" data-idx="121" data-type="cross_reference">
+        <li class="article-item" id="article-ELATERIUM" data-idx="121" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(121)">
-                <h3>EFT<span class="badge xref">Cross-ref &rarr; Lacerta</span></h3>
-                <span class="meta">7 words</span>
+                <h3>ELATERIUM<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">23 words</span>
             </div>
             <div class="article-content" id="content-121">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGERIA" data-idx="122" data-type="article">
+        <li class="article-item" id="article-ELATH" data-idx="122" data-type="article">
             <div class="article-header" onclick="toggleArticle(122)">
-                <h3>EGERIA</h3>
-                <span class="meta">111 words</span>
+                <h3>ELATH</h3>
+                <span class="meta">143 words</span>
             </div>
             <div class="article-content" id="content-122">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGG" data-idx="123" data-type="article">
+        <li class="article-item" id="article-ELATINE" data-idx="123" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(123)">
-                <h3>EGG</h3>
-                <span class="meta">813 words</span>
+                <h3>ELATINE<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">11 words</span>
             </div>
             <div class="article-content" id="content-123">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGINIART" data-idx="124" data-type="article">
+        <li class="article-item" id="article-ELATOSTEMA" data-idx="124" data-type="cross_reference">
             <div class="article-header" onclick="toggleArticle(124)">
-                <h3>EGINIART</h3>
-                <span class="meta">103 words</span>
+                <h3>ELATOSTEMA<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
+                <span class="meta">11 words</span>
             </div>
             <div class="article-content" id="content-124">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGLANTINE" data-idx="125" data-type="cross_reference">
+        <li class="article-item" id="article-ELBE" data-idx="125" data-type="article">
             <div class="article-header" onclick="toggleArticle(125)">
-                <h3>EGLANTINE<span class="badge xref">Cross-ref &rarr; ROSA</span></h3>
-                <span class="meta">4 words</span>
+                <h3>ELBE</h3>
+                <span class="meta">60 words</span>
             </div>
             <div class="article-content" id="content-125">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGLON" data-idx="126" data-type="article">
+        <li class="article-item" id="article-ELBING" data-idx="126" data-type="article">
             <div class="article-header" onclick="toggleArticle(126)">
-                <h3>EGLON</h3>
-                <span class="meta">74 words</span>
+                <h3>ELBING</h3>
+                <span class="meta">144 words</span>
             </div>
             <div class="article-content" id="content-126">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGRA" data-idx="127" data-type="article">
+        <li class="article-item" id="article-ELBOW" data-idx="127" data-type="article">
             <div class="article-header" onclick="toggleArticle(127)">
-                <h3>EGRA</h3>
-                <span class="meta">95 words</span>
+                <h3>ELBOW</h3>
+                <span class="meta">61 words</span>
             </div>
             <div class="article-content" id="content-127">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGRET" data-idx="128" data-type="cross_reference">
+        <li class="article-item" id="article-ELCESAITES" data-idx="128" data-type="article">
             <div class="article-header" onclick="toggleArticle(128)">
-                <h3>EGRET<span class="badge xref">Cross-ref &rarr; ARDEA</span></h3>
-                <span class="meta">10 words</span>
+                <h3>ELCESAITES</h3>
+                <span class="meta">76 words</span>
             </div>
             <div class="article-content" id="content-128">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGYPT" data-idx="129" data-type="article">
+        <li class="article-item" id="article-ELDERS" data-idx="129" data-type="article">
             <div class="article-header" onclick="toggleArticle(129)">
-                <h3>EGYPT<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">52,481 words</span>
+                <h3>ELDERS</h3>
+                <span class="meta">174 words</span>
             </div>
             <div class="article-content" id="content-129">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EGYPTIANS" data-idx="130" data-type="cross_reference">
+        <li class="article-item" id="article-ELEA" data-idx="130" data-type="article">
             <div class="article-header" onclick="toggleArticle(130)">
-                <h3>EGYPTIANS<span class="badge xref">Cross-ref &rarr; Gypsies</span></h3>
-                <span class="meta">17 words</span>
+                <h3>ELEA</h3>
+                <span class="meta">33 words</span>
             </div>
             <div class="article-content" id="content-130">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EHRHARTA" data-idx="131" data-type="cross_reference">
+        <li class="article-item" id="article-ELEATIC_PHILOSOPHY" data-idx="131" data-type="article">
             <div class="article-header" onclick="toggleArticle(131)">
-                <h3>EHRHARTA<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">12 words</span>
+                <h3>ELEATIC PHILOSOPHY</h3>
+                <span class="meta">355 words</span>
             </div>
             <div class="article-content" id="content-131">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EHUD" data-idx="132" data-type="article">
+        <li class="article-item" id="article-ELECT" data-idx="132" data-type="article">
             <div class="article-header" onclick="toggleArticle(132)">
-                <h3>EHUD</h3>
-                <span class="meta">238 words</span>
+                <h3>ELECT</h3>
+                <span class="meta">128 words</span>
             </div>
             <div class="article-content" id="content-132">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EIA" data-idx="133" data-type="article">
+        <li class="article-item" id="article-ELECTION" data-idx="133" data-type="article">
             <div class="article-header" onclick="toggleArticle(133)">
-                <h3>EIA</h3>
-                <span class="meta">56 words</span>
+                <h3>ELECTION</h3>
+                <span class="meta">4,753 words</span>
             </div>
             <div class="article-content" id="content-133">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EJACULATOR" data-idx="134" data-type="article">
+        <li class="article-item" id="article-ELECTORATE" data-idx="134" data-type="article">
             <div class="article-header" onclick="toggleArticle(134)">
-                <h3>EJACULATOR</h3>
-                <span class="meta">26 words</span>
+                <h3>ELECTORATE</h3>
+                <span class="meta">28 words</span>
             </div>
             <div class="article-content" id="content-134">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EICETAE" data-idx="135" data-type="article">
+        <li class="article-item" id="article-ELECTRIC" data-idx="135" data-type="article">
             <div class="article-header" onclick="toggleArticle(135)">
-                <h3>EICETAE</h3>
-                <span class="meta">128 words</span>
+                <h3>ELECTRIC</h3>
+                <span class="meta">34 words</span>
             </div>
             <div class="article-content" id="content-135">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-EICK" data-idx="136" data-type="cross_reference">
+        <li class="article-item" id="article-ELECTRICITY" data-idx="136" data-type="article">
             <div class="article-header" onclick="toggleArticle(136)">
-                <h3>EICK<span class="badge xref">Cross-ref &rarr; BRUGES</span></h3>
-                <span class="meta">5 words</span>
+                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">179,506 words</span>
             </div>
             <div class="article-content" id="content-136">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-EIDER_DOWN" data-idx="137" data-type="article">
-            <div class="article-header" onclick="toggleArticle(137)">
-                <h3>EIDER-DOWN</h3>
-                <span class="meta">41 words</span>
-            </div>
-            <div class="article-content" id="content-137">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-EJECTA" data-idx="138" data-type="article">
-            <div class="article-header" onclick="toggleArticle(138)">
-                <h3>EJECTA</h3>
-                <span class="meta">14 words</span>
-            </div>
-            <div class="article-content" id="content-138">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-EJECTION" data-idx="139" data-type="article">
-            <div class="article-header" onclick="toggleArticle(139)">
-                <h3>EJECTION</h3>
-                <span class="meta">74 words</span>
-            </div>
-            <div class="article-content" id="content-139">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-EJECTMENT" data-idx="140" data-type="article">
-            <div class="article-header" onclick="toggleArticle(140)">
-                <h3>EJECTMENT</h3>
-                <span class="meta">482 words</span>
-            </div>
-            <div class="article-content" id="content-140">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-EKRON" data-idx="141" data-type="article">
-            <div class="article-header" onclick="toggleArticle(141)">
-                <h3>EKRON</h3>
-                <span class="meta">127 words</span>
-            </div>
-            <div class="article-content" id="content-141">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAEAGNUS" data-idx="142" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(142)">
-                <h3>ELAEAGNUS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">16 words</span>
-            </div>
-            <div class="article-content" id="content-142">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAEOCARPUS" data-idx="143" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(143)">
-                <h3>ELAEOCARPUS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">12 words</span>
-            </div>
-            <div class="article-content" id="content-143">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAEOTHESIUM" data-idx="144" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(144)">
-                <h3>ELAEOTHESIUM<span class="badge xref">Cross-ref &rarr; Gymnasium</span></h3>
-                <span class="meta">20 words</span>
-            </div>
-            <div class="article-content" id="content-144">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAIS" data-idx="145" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(145)">
-                <h3>ELAIS<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">14 words</span>
-            </div>
-            <div class="article-content" id="content-145">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAM" data-idx="146" data-type="article">
-            <div class="article-header" onclick="toggleArticle(146)">
-                <h3>ELAM</h3>
-                <span class="meta">224 words</span>
-            </div>
-            <div class="article-content" id="content-146">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAPHEBOLIA" data-idx="147" data-type="article">
-            <div class="article-header" onclick="toggleArticle(147)">
-                <h3>ELAPHEBOLIA</h3>
-                <span class="meta">139 words</span>
-            </div>
-            <div class="article-content" id="content-147">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELAPHEBOLIUM" data-idx="148" data-type="article">
-            <div class="article-header" onclick="toggleArticle(148)">
-                <h3>ELAPHEBOLIUM</h3>
-                <span class="meta">50 words</span>
-            </div>
-            <div class="article-content" id="content-148">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELASMIS" data-idx="149" data-type="article">
-            <div class="article-header" onclick="toggleArticle(149)">
-                <h3>ELASMIS</h3>
-                <span class="meta">59 words</span>
-            </div>
-            <div class="article-content" id="content-149">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELASTIC" data-idx="150" data-type="article">
-            <div class="article-header" onclick="toggleArticle(150)">
-                <h3>ELASTIC</h3>
-                <span class="meta">1,996 words</span>
-            </div>
-            <div class="article-content" id="content-150">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELASTICITY" data-idx="151" data-type="article">
-            <div class="article-header" onclick="toggleArticle(151)">
-                <h3>ELASTICITY</h3>
-                <span class="meta">941 words</span>
-            </div>
-            <div class="article-content" id="content-151">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATE" data-idx="152" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(152)">
-                <h3>ELATE<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">14 words</span>
-            </div>
-            <div class="article-content" id="content-152">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATER" data-idx="153" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(153)">
-                <h3>ELATER<span class="badge xref">Cross-ref &rarr; Entomology Index</span></h3>
-                <span class="meta">13 words</span>
-            </div>
-            <div class="article-content" id="content-153">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATERIUM" data-idx="154" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(154)">
-                <h3>ELATERIUM<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">23 words</span>
-            </div>
-            <div class="article-content" id="content-154">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATH" data-idx="155" data-type="article">
-            <div class="article-header" onclick="toggleArticle(155)">
-                <h3>ELATH</h3>
-                <span class="meta">143 words</span>
-            </div>
-            <div class="article-content" id="content-155">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATINE" data-idx="156" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(156)">
-                <h3>ELATINE<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">11 words</span>
-            </div>
-            <div class="article-content" id="content-156">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELATOSTEMA" data-idx="157" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(157)">
-                <h3>ELATOSTEMA<span class="badge xref">Cross-ref &rarr; Botany Index</span></h3>
-                <span class="meta">11 words</span>
-            </div>
-            <div class="article-content" id="content-157">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELBE" data-idx="158" data-type="article">
-            <div class="article-header" onclick="toggleArticle(158)">
-                <h3>ELBE</h3>
-                <span class="meta">60 words</span>
-            </div>
-            <div class="article-content" id="content-158">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELBING" data-idx="159" data-type="article">
-            <div class="article-header" onclick="toggleArticle(159)">
-                <h3>ELBING</h3>
-                <span class="meta">144 words</span>
-            </div>
-            <div class="article-content" id="content-159">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELBOW" data-idx="160" data-type="article">
-            <div class="article-header" onclick="toggleArticle(160)">
-                <h3>ELBOW</h3>
-                <span class="meta">61 words</span>
-            </div>
-            <div class="article-content" id="content-160">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELCESAITES" data-idx="161" data-type="article">
-            <div class="article-header" onclick="toggleArticle(161)">
-                <h3>ELCESAITES</h3>
-                <span class="meta">246 words</span>
-            </div>
-            <div class="article-content" id="content-161">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELDER" data-idx="162" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(162)">
-                <h3>ELDER<span class="badge xref">Cross-ref &rarr; Sambucus</span></h3>
-                <span class="meta">4 words</span>
-            </div>
-            <div class="article-content" id="content-162">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELEA" data-idx="163" data-type="article">
-            <div class="article-header" onclick="toggleArticle(163)">
-                <h3>ELEA</h3>
-                <span class="meta">33 words</span>
-            </div>
-            <div class="article-content" id="content-163">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELEATIC_PHILOSOPHY" data-idx="164" data-type="article">
-            <div class="article-header" onclick="toggleArticle(164)">
-                <h3>ELEATIC PHILOSOPHY</h3>
-                <span class="meta">350 words</span>
-            </div>
-            <div class="article-content" id="content-164">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECAMPANE" data-idx="165" data-type="cross_reference">
-            <div class="article-header" onclick="toggleArticle(165)">
-                <h3>ELECAMPANE<span class="badge xref">Cross-ref &rarr; INULA</span></h3>
-                <span class="meta">4 words</span>
-            </div>
-            <div class="article-content" id="content-165">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECT" data-idx="166" data-type="article">
-            <div class="article-header" onclick="toggleArticle(166)">
-                <h3>ELECT</h3>
-                <span class="meta">126 words</span>
-            </div>
-            <div class="article-content" id="content-166">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTION" data-idx="167" data-type="article">
-            <div class="article-header" onclick="toggleArticle(167)">
-                <h3>ELECTION</h3>
-                <span class="meta">4,150 words</span>
-            </div>
-            <div class="article-content" id="content-167">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTIVE" data-idx="168" data-type="article">
-            <div class="article-header" onclick="toggleArticle(168)">
-                <h3>ELECTIVE</h3>
-                <span class="meta">36 words</span>
-            </div>
-            <div class="article-content" id="content-168">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTOR" data-idx="169" data-type="article">
-            <div class="article-header" onclick="toggleArticle(169)">
-                <h3>ELECTOR</h3>
-                <span class="meta">562 words</span>
-            </div>
-            <div class="article-content" id="content-169">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTORATE" data-idx="170" data-type="article">
-            <div class="article-header" onclick="toggleArticle(170)">
-                <h3>ELECTORATE</h3>
-                <span class="meta">28 words</span>
-            </div>
-            <div class="article-content" id="content-170">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRIC" data-idx="171" data-type="article">
-            <div class="article-header" onclick="toggleArticle(171)">
-                <h3>ELECTRIC</h3>
-                <span class="meta">34 words</span>
-            </div>
-            <div class="article-content" id="content-171">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="172" data-type="article">
-            <div class="article-header" onclick="toggleArticle(172)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">2,823 words</span>
-            </div>
-            <div class="article-content" id="content-172">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="173" data-type="article">
-            <div class="article-header" onclick="toggleArticle(173)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">18,860 words</span>
-            </div>
-            <div class="article-content" id="content-173">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="174" data-type="article">
-            <div class="article-header" onclick="toggleArticle(174)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">5,713 words</span>
-            </div>
-            <div class="article-content" id="content-174">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="175" data-type="article">
-            <div class="article-header" onclick="toggleArticle(175)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">3,491 words</span>
-            </div>
-            <div class="article-content" id="content-175">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="176" data-type="article">
-            <div class="article-header" onclick="toggleArticle(176)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">20,167 words</span>
-            </div>
-            <div class="article-content" id="content-176">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="177" data-type="article">
-            <div class="article-header" onclick="toggleArticle(177)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">16,656 words</span>
-            </div>
-            <div class="article-content" id="content-177">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="178" data-type="article">
-            <div class="article-header" onclick="toggleArticle(178)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">1,648 words</span>
-            </div>
-            <div class="article-content" id="content-178">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="179" data-type="article">
-            <div class="article-header" onclick="toggleArticle(179)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">7,278 words</span>
-            </div>
-            <div class="article-content" id="content-179">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="180" data-type="article">
-            <div class="article-header" onclick="toggleArticle(180)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">2,310 words</span>
-            </div>
-            <div class="article-content" id="content-180">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="181" data-type="article">
-            <div class="article-header" onclick="toggleArticle(181)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">4,883 words</span>
-            </div>
-            <div class="article-content" id="content-181">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="182" data-type="article">
-            <div class="article-header" onclick="toggleArticle(182)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">1,190 words</span>
-            </div>
-            <div class="article-content" id="content-182">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="183" data-type="article">
-            <div class="article-header" onclick="toggleArticle(183)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">14,568 words</span>
-            </div>
-            <div class="article-content" id="content-183">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="184" data-type="article">
-            <div class="article-header" onclick="toggleArticle(184)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">45,954 words</span>
-            </div>
-            <div class="article-content" id="content-184">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="185" data-type="article">
-            <div class="article-header" onclick="toggleArticle(185)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">7,975 words</span>
-            </div>
-            <div class="article-content" id="content-185">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="186" data-type="article">
-            <div class="article-header" onclick="toggleArticle(186)">
-                <h3>ELECTRICITY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">25,352 words</span>
-            </div>
-            <div class="article-content" id="content-186">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-ELECTRICITY" data-idx="187" data-type="article">
-            <div class="article-header" onclick="toggleArticle(187)">
-                <h3>ELECTRICITY</h3>
-                <span class="meta">475 words</span>
-            </div>
-            <div class="article-content" id="content-187">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-STEAM" data-idx="188" data-type="article">
-            <div class="article-header" onclick="toggleArticle(188)">
-                <h3>STEAM</h3>
-                <span class="meta">51 words</span>
-            </div>
-            <div class="article-content" id="content-188">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-TALC" data-idx="189" data-type="article">
-            <div class="article-header" onclick="toggleArticle(189)">
-                <h3>TALC</h3>
-                <span class="meta">151 words</span>
-            </div>
-            <div class="article-content" id="content-189">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -2344,6 +1865,43 @@ footer {
         }
     }
 
+    function renderMarkdown(text) {
+        // Escape HTML first
+        const div = document.createElement('div');
+        div.textContent = text;
+        let s = div.innerHTML;
+
+        // Markdown tables: detect lines with | delimiters
+        s = s.replace(/((?:^|\n)\|.+\|(?:\n\|.+\|)+)/g, function(table) {
+            const rows = table.trim().split('\n').filter(r => r.trim());
+            // Skip separator rows (e.g. |---|---|)
+            const dataRows = rows.filter(r => !/^\|[\s\-:|]+\|$/.test(r.trim()));
+            if (dataRows.length === 0) return table;
+            let html = '<table>';
+            dataRows.forEach(function(row, i) {
+                const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                const tag = i === 0 ? 'th' : 'td';
+                html += '<tr>' + cells.map(c => '<' + tag + '>' + c + '</' + tag + '>').join('') + '</tr>';
+            });
+            html += '</table>';
+            return html;
+        });
+
+        // Bold: **text**
+        s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Italic: *text* (but not inside words like "don*t")
+        s = s.replace(/(^|[\s(])\*([^*]+?)\*([\s).,;:!?]|$)/g, '$1<em>$2</em>$3');
+        // Strip LaTeX markers \( ... \) — leave content visible
+        s = s.replace(/\\\((.+?)\\\)/g, '$1');
+
+        // Paragraphs: double newline
+        s = s.replace(/\n\n+/g, '</p><p>');
+        // Single newlines to <br> (but not inside tables)
+        s = s.replace(/\n/g, '<br>');
+
+        return '<p>' + s + '</p>';
+    }
+
     async function toggleArticle(idx) {
         const content = document.getElementById('content-' + idx);
         const isShown = content.classList.contains('show');
@@ -2366,19 +1924,13 @@ footer {
         const article = articlesData[idx];
 
         content.innerHTML = `
-            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-text">${renderMarkdown(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
             </div>
         `;
         loadedArticles.add(idx);
-    }
-
-    function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
     }
 
     function downloadMd(idx) {

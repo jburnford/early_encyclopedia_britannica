@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,64 +456,64 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>The Seventh Edition contains <strong>18,409 articles</strong>
-    and <strong>397 cross-references</strong> across
+    <p>The Seventh Edition contains <strong>15,818 articles</strong>
+    and <strong>339 cross-references</strong> across
     <strong>21 volumes</strong>
-    (20,266,770 words total).</p>
+    (19,173,464 words total).</p>
 
     <h2>Volumes</h2>
     <ul class="volume-list">
         
         <li>
             <a href="vol1.html">
-                <strong>Volume 1</strong>: ANTAGONISTS OF HOBBI&ndash;YOUNG
+                <strong>Volume 1</strong>: ANTAGONISTS OF HOBBI&ndash;SPECULATIVE MATHEMAT
                 <div class="meta">
-                    24 articles, 0 cross-refs
-                    , 18 treatises
-                    &mdash; 501.3K words
+                    14 articles, 0 cross-refs
+                    , 13 treatises
+                    &mdash; 501.2K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol2.html">
-                <strong>Volume 2</strong>: ADAM AND CHARLES BLA&ndash;GENERAL INDEX
+                <strong>Volume 2</strong>: GENERAL INDEX&ndash;GENERAL INDEX
                 <div class="meta">
-                    2 articles, 0 cross-refs
+                    1 articles, 0 cross-refs
                     
-                    &mdash; 919 words
+                    &mdash; 917 words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol3.html">
-                <strong>Volume 3</strong>: ANAXAGORAS&ndash;ASTROLABE
+                <strong>Volume 3</strong>: ANCIENT DEMESNE&ndash;ASTRABAD
                 <div class="meta">
-                    849 articles, 19 cross-refs
-                    , 46 treatises
-                    &mdash; 919.9K words
+                    750 articles, 15 cross-refs
+                    , 28 treatises
+                    &mdash; 920.0K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol4.html">
-                <strong>Volume 4</strong>: ATHERTON&ndash;BOMBUS
+                <strong>Volume 4</strong>: ATHERTON&ndash;BOONDEE
                 <div class="meta">
-                    2,513 articles, 105 cross-refs
-                    , 81 treatises
-                    &mdash; 1.9M words
+                    1,221 articles, 23 cross-refs
+                    , 39 treatises
+                    &mdash; 861.7K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol5.html">
-                <strong>Volume 5</strong>: BOROUGHBRIDGE&ndash;CALATRAVA
+                <strong>Volume 5</strong>: BOROUGH&ndash;CALAYAN
                 <div class="meta">
-                    581 articles, 20 cross-refs
-                    , 30 treatises
+                    552 articles, 13 cross-refs
+                    , 22 treatises
                     &mdash; 980.5K words
                 </div>
             </a>
@@ -472,32 +521,32 @@ footer {
         
         <li>
             <a href="vol6.html">
-                <strong>Volume 6</strong>: CALIFORNIA&ndash;CLERMONT
+                <strong>Volume 6</strong>: CALIGA&ndash;CLERK OF THE BAILS
                 <div class="meta">
-                    1,300 articles, 0 cross-refs
-                    , 32 treatises
-                    &mdash; 983.6K words
+                    1,170 articles, 22 cross-refs
+                    , 29 treatises
+                    &mdash; 982.3K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol7.html">
-                <strong>Volume 7</strong>: COAZZO&ndash;DIABETES
+                <strong>Volume 7</strong>: COASTING&ndash;DIABETES
                 <div class="meta">
-                    1,330 articles, 39 cross-refs
-                    , 44 treatises
-                    &mdash; 958.2K words
+                    1,197 articles, 31 cross-refs
+                    , 39 treatises
+                    &mdash; 958.3K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol8.html">
-                <strong>Volume 8</strong>: DICKER&ndash;ENERGY
+                <strong>Volume 8</strong>: DIAPENTE&ndash;ENERGUMENS
                 <div class="meta">
-                    779 articles, 17 cross-refs
-                    , 44 treatises
+                    749 articles, 16 cross-refs
+                    , 29 treatises
                     &mdash; 985.7K words
                 </div>
             </a>
@@ -505,10 +554,10 @@ footer {
         
         <li>
             <a href="vol9.html">
-                <strong>Volume 9</strong>: ENS&ndash;FOURCROY
+                <strong>Volume 9</strong>: ENSEELED&ndash;FOURCROY
                 <div class="meta">
-                    805 articles, 27 cross-refs
-                    , 35 treatises
+                    767 articles, 27 cross-refs
+                    , 26 treatises
                     &mdash; 947.2K words
                 </div>
             </a>
@@ -516,9 +565,9 @@ footer {
         
         <li>
             <a href="vol10.html">
-                <strong>Volume 10</strong>: FRANKENSTEIN&ndash;GROGRAM
+                <strong>Volume 10</strong>: FRANKENTHAL&ndash;GROIN
                 <div class="meta">
-                    665 articles, 22 cross-refs
+                    628 articles, 19 cross-refs
                     , 21 treatises
                     &mdash; 959.6K words
                 </div>
@@ -527,21 +576,21 @@ footer {
         
         <li>
             <a href="vol11.html">
-                <strong>Volume 11</strong>: GUADALCANAL&ndash;HYACINTHUS
+                <strong>Volume 11</strong>: GUADARRAMA&ndash;HUY
                 <div class="meta">
-                    873 articles, 2 cross-refs
-                    , 31 treatises
-                    &mdash; 969.3K words
+                    833 articles, 18 cross-refs
+                    , 23 treatises
+                    &mdash; 968.3K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol12.html">
-                <strong>Volume 12</strong>: HYGIEINE&ndash;KUNEE
+                <strong>Volume 12</strong>: HYGROSCOPE&ndash;KUOPIO
                 <div class="meta">
-                    899 articles, 21 cross-refs
-                    , 39 treatises
+                    862 articles, 21 cross-refs
+                    , 23 treatises
                     &mdash; 928.9K words
                 </div>
             </a>
@@ -549,21 +598,21 @@ footer {
         
         <li>
             <a href="vol13.html">
-                <strong>Volume 13</strong>: LABRADOR&ndash;MAGIC
+                <strong>Volume 13</strong>: LABRADOR&ndash;MAGELLANIC CLOUDS
                 <div class="meta">
-                    849 articles, 0 cross-refs
-                    , 38 treatises
-                    &mdash; 966.1K words
+                    764 articles, 20 cross-refs
+                    , 36 treatises
+                    &mdash; 965.2K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol14.html">
-                <strong>Volume 14</strong>: MAHOMMED&ndash;MEXICO
+                <strong>Volume 14</strong>: MAHOMMED&ndash;METZ
                 <div class="meta">
-                    650 articles, 10 cross-refs
-                    , 42 treatises
+                    569 articles, 8 cross-refs
+                    , 21 treatises
                     &mdash; 1.0M words
                 </div>
             </a>
@@ -573,8 +622,8 @@ footer {
             <a href="vol15.html">
                 <strong>Volume 15</strong>: MICA&ndash;NAUCRARI
                 <div class="meta">
-                    638 articles, 9 cross-refs
-                    , 45 treatises
+                    569 articles, 10 cross-refs
+                    , 34 treatises
                     &mdash; 925.7K words
                 </div>
             </a>
@@ -582,21 +631,21 @@ footer {
         
         <li>
             <a href="vol16.html">
-                <strong>Volume 16</strong>: NAZARETH&ndash;PANIC
+                <strong>Volume 16</strong>: NAXOS&ndash;PANGOOTARRAN
                 <div class="meta">
-                    904 articles, 14 cross-refs
-                    , 38 treatises
-                    &mdash; 971.5K words
+                    806 articles, 13 cross-refs
+                    , 32 treatises
+                    &mdash; 971.6K words
                 </div>
             </a>
         </li>
         
         <li>
             <a href="vol17.html">
-                <strong>Volume 17</strong>: PAPIAS&ndash;PLANETARIUM
+                <strong>Volume 17</strong>: PAPIAS&ndash;PLANE
                 <div class="meta">
-                    689 articles, 11 cross-refs
-                    , 41 treatises
+                    634 articles, 9 cross-refs
+                    , 31 treatises
                     &mdash; 1.0M words
                 </div>
             </a>
@@ -604,10 +653,10 @@ footer {
         
         <li>
             <a href="vol18.html">
-                <strong>Volume 18</strong>: PLENARY&ndash;QUINTILIANS
+                <strong>Volume 18</strong>: PLEIADES&ndash;QUINTILIAN
                 <div class="meta">
-                    644 articles, 11 cross-refs
-                    , 46 treatises
+                    621 articles, 11 cross-refs
+                    , 39 treatises
                     &mdash; 1.0M words
                 </div>
             </a>
@@ -615,10 +664,10 @@ footer {
         
         <li>
             <a href="vol19.html">
-                <strong>Volume 19</strong>: RADNOR&ndash;SCORE
+                <strong>Volume 19</strong>: RADIES&ndash;SCONE
                 <div class="meta">
-                    1,019 articles, 18 cross-refs
-                    , 38 treatises
+                    923 articles, 14 cross-refs
+                    , 34 treatises
                     &mdash; 1.0M words
                 </div>
             </a>
@@ -626,10 +675,10 @@ footer {
         
         <li>
             <a href="vol20.html">
-                <strong>Volume 20</strong>: SEAL&ndash;SUPERLATIVE
+                <strong>Volume 20</strong>: SEAMANSHIP&ndash;SUPERPARTICULAR PROP
                 <div class="meta">
-                    959 articles, 17 cross-refs
-                    , 41 treatises
+                    903 articles, 16 cross-refs
+                    , 37 treatises
                     &mdash; 1.1M words
                 </div>
             </a>
@@ -637,10 +686,10 @@ footer {
         
         <li>
             <a href="vol21.html">
-                <strong>Volume 21</strong>: SYDNEY&ndash;ZETLAND
+                <strong>Volume 21</strong>: SYDNEY&ndash;ZEUGMA
                 <div class="meta">
-                    1,437 articles, 35 cross-refs
-                    , 48 treatises
+                    1,285 articles, 33 cross-refs
+                    , 46 treatises
                     &mdash; 1.2M words
                 </div>
             </a>

@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -415,23 +464,23 @@ footer {
             <div class="label">Editions</div>
         </div>
         <div class="stat-card">
-            <div class="value">182,548</div>
+            <div class="value">126,088</div>
             <div class="label">Total Entries</div>
         </div>
         <div class="stat-card">
-            <div class="value">165,343</div>
+            <div class="value">114,359</div>
             <div class="label">Articles</div>
         </div>
         <div class="stat-card">
-            <div class="value">17,205</div>
+            <div class="value">11,729</div>
             <div class="label">Cross-references</div>
         </div>
         <div class="stat-card">
-            <div class="value">5,235</div>
+            <div class="value">3,512</div>
             <div class="label">Treatises</div>
         </div>
         <div class="stat-card">
-            <div class="value">145.8M</div>
+            <div class="value">120.0M</div>
             <div class="label">Total Words</div>
         </div>
     </div>
@@ -442,43 +491,43 @@ footer {
         
         <div class="bar-row">
             <div class="bar-label">1771</div>
-            <div class="bar-track"><div class="bar-fill" style="width:48.8%"></div></div>
-            <div class="bar-value">15,341</div>
+            <div class="bar-track"><div class="bar-fill" style="width:45.6%"></div></div>
+            <div class="bar-value">7,721</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1778</div>
-            <div class="bar-track"><div class="bar-fill" style="width:92.4%"></div></div>
-            <div class="bar-value">29,085</div>
+            <div class="bar-track"><div class="bar-fill" style="width:78.0%"></div></div>
+            <div class="bar-value">13,218</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1797</div>
-            <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
-            <div class="bar-value">31,468</div>
+            <div class="bar-track"><div class="bar-fill" style="width:94.5%"></div></div>
+            <div class="bar-value">16,017</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1810</div>
-            <div class="bar-track"><div class="bar-fill" style="width:61.5%"></div></div>
-            <div class="bar-value">19,358</div>
+            <div class="bar-track"><div class="bar-fill" style="width:99.5%"></div></div>
+            <div class="bar-value">16,858</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1815</div>
-            <div class="bar-track"><div class="bar-fill" style="width:60.2%"></div></div>
-            <div class="bar-value">18,957</div>
+            <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+            <div class="bar-value">16,946</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1823</div>
-            <div class="bar-track"><div class="bar-fill" style="width:56.6%"></div></div>
-            <div class="bar-value">17,805</div>
+            <div class="bar-track"><div class="bar-fill" style="width:88.5%"></div></div>
+            <div class="bar-value">15,000</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1842</div>
-            <div class="bar-track"><div class="bar-fill" style="width:58.5%"></div></div>
-            <div class="bar-value">18,409</div>
+            <div class="bar-track"><div class="bar-fill" style="width:93.3%"></div></div>
+            <div class="bar-value">15,818</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1860</div>
-            <div class="bar-track"><div class="bar-fill" style="width:47.4%"></div></div>
-            <div class="bar-value">14,920</div>
+            <div class="bar-track"><div class="bar-fill" style="width:75.4%"></div></div>
+            <div class="bar-value">12,781</div>
         </div>
     </div>
 
@@ -487,43 +536,43 @@ footer {
         
         <div class="bar-row">
             <div class="bar-label">1771</div>
-            <div class="bar-track"><div class="bar-fill" style="width:12.2%"></div></div>
-            <div class="bar-value">3,258,550</div>
+            <div class="bar-track"><div class="bar-fill" style="width:8.3%"></div></div>
+            <div class="bar-value">1,760,147</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1778</div>
-            <div class="bar-track"><div class="bar-fill" style="width:68.1%"></div></div>
-            <div class="bar-value">18,210,560</div>
+            <div class="bar-track"><div class="bar-fill" style="width:44.0%"></div></div>
+            <div class="bar-value">9,350,009</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1797</div>
-            <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
-            <div class="bar-value">26,725,169</div>
+            <div class="bar-track"><div class="bar-fill" style="width:75.4%"></div></div>
+            <div class="bar-value">15,999,831</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1810</div>
-            <div class="bar-track"><div class="bar-fill" style="width:66.1%"></div></div>
-            <div class="bar-value">17,675,849</div>
+            <div class="bar-track"><div class="bar-fill" style="width:83.1%"></div></div>
+            <div class="bar-value">17,641,664</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1815</div>
-            <div class="bar-track"><div class="bar-fill" style="width:65.1%"></div></div>
-            <div class="bar-value">17,406,732</div>
+            <div class="bar-track"><div class="bar-fill" style="width:81.8%"></div></div>
+            <div class="bar-value">17,357,973</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1823</div>
-            <div class="bar-track"><div class="bar-fill" style="width:77.7%"></div></div>
-            <div class="bar-value">20,763,238</div>
+            <div class="bar-track"><div class="bar-fill" style="width:82.6%"></div></div>
+            <div class="bar-value">17,526,334</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1842</div>
-            <div class="bar-track"><div class="bar-fill" style="width:75.8%"></div></div>
-            <div class="bar-value">20,266,770</div>
+            <div class="bar-track"><div class="bar-fill" style="width:90.3%"></div></div>
+            <div class="bar-value">19,173,464</div>
         </div>
         <div class="bar-row">
             <div class="bar-label">1860</div>
-            <div class="bar-track"><div class="bar-fill" style="width:80.3%"></div></div>
-            <div class="bar-value">21,451,244</div>
+            <div class="bar-track"><div class="bar-fill" style="width:100.0%"></div></div>
+            <div class="bar-value">21,230,370</div>
         </div>
     </div>
 
@@ -547,103 +596,103 @@ footer {
             <tr>
                 <td><a href="1771/index.html">1st Edition</a></td>
                 <td class="num">1771</td>
-                <td class="num">3</td>
-                <td class="num">15,341</td>
-                <td class="num">3,277</td>
-                <td class="num">18,618</td>
-                <td class="num">88</td>
-                <td class="num">3,258,550</td>
-                <td class="num">212</td>
+                <td class="num">2</td>
+                <td class="num">7,721</td>
+                <td class="num">1,614</td>
+                <td class="num">9,335</td>
+                <td class="num">42</td>
+                <td class="num">1,760,147</td>
+                <td class="num">227</td>
             </tr>
             <tr>
                 <td><a href="1778/index.html">2nd Edition</a></td>
                 <td class="num">1778</td>
                 <td class="num">10</td>
-                <td class="num">29,085</td>
-                <td class="num">2,193</td>
-                <td class="num">31,278</td>
-                <td class="num">595</td>
-                <td class="num">18,210,560</td>
-                <td class="num">626</td>
+                <td class="num">13,218</td>
+                <td class="num">1,193</td>
+                <td class="num">14,411</td>
+                <td class="num">263</td>
+                <td class="num">9,350,009</td>
+                <td class="num">707</td>
             </tr>
             <tr>
                 <td><a href="1797/index.html">3rd Edition</a></td>
                 <td class="num">1797</td>
                 <td class="num">18</td>
-                <td class="num">31,468</td>
-                <td class="num">2,508</td>
-                <td class="num">33,976</td>
-                <td class="num">950</td>
-                <td class="num">26,725,169</td>
-                <td class="num">849</td>
+                <td class="num">16,017</td>
+                <td class="num">1,292</td>
+                <td class="num">17,309</td>
+                <td class="num">507</td>
+                <td class="num">15,999,831</td>
+                <td class="num">998</td>
             </tr>
             <tr>
                 <td><a href="1810/index.html">4th Edition</a></td>
                 <td class="num">1810</td>
                 <td class="num">20</td>
-                <td class="num">19,358</td>
-                <td class="num">2,881</td>
-                <td class="num">22,239</td>
-                <td class="num">673</td>
-                <td class="num">17,675,849</td>
-                <td class="num">913</td>
+                <td class="num">16,858</td>
+                <td class="num">2,286</td>
+                <td class="num">19,144</td>
+                <td class="num">500</td>
+                <td class="num">17,641,664</td>
+                <td class="num">1,046</td>
             </tr>
             <tr>
                 <td><a href="1815/index.html">1815</a></td>
                 <td class="num">1815</td>
                 <td class="num">20</td>
-                <td class="num">18,957</td>
-                <td class="num">2,748</td>
-                <td class="num">21,705</td>
-                <td class="num">596</td>
-                <td class="num">17,406,732</td>
-                <td class="num">918</td>
+                <td class="num">16,946</td>
+                <td class="num">2,242</td>
+                <td class="num">19,188</td>
+                <td class="num">457</td>
+                <td class="num">17,357,973</td>
+                <td class="num">1,024</td>
             </tr>
             <tr>
                 <td><a href="1823/index.html">6th Edition</a></td>
                 <td class="num">1823</td>
                 <td class="num">21</td>
-                <td class="num">17,805</td>
-                <td class="num">2,465</td>
-                <td class="num">20,270</td>
-                <td class="num">789</td>
-                <td class="num">20,763,238</td>
-                <td class="num">1,166</td>
+                <td class="num">15,000</td>
+                <td class="num">2,108</td>
+                <td class="num">17,108</td>
+                <td class="num">494</td>
+                <td class="num">17,526,334</td>
+                <td class="num">1,168</td>
             </tr>
             <tr>
                 <td><a href="1842/index.html">7th Edition</a></td>
                 <td class="num">1842</td>
                 <td class="num">21</td>
-                <td class="num">18,409</td>
-                <td class="num">397</td>
-                <td class="num">18,806</td>
-                <td class="num">798</td>
-                <td class="num">20,266,770</td>
-                <td class="num">1,100</td>
+                <td class="num">15,818</td>
+                <td class="num">339</td>
+                <td class="num">16,157</td>
+                <td class="num">602</td>
+                <td class="num">19,173,464</td>
+                <td class="num">1,212</td>
             </tr>
             <tr>
                 <td><a href="1860/index.html">8th Edition</a></td>
                 <td class="num">1860</td>
                 <td class="num">21</td>
-                <td class="num">14,920</td>
-                <td class="num">736</td>
-                <td class="num">15,656</td>
-                <td class="num">746</td>
-                <td class="num">21,451,244</td>
-                <td class="num">1,437</td>
+                <td class="num">12,781</td>
+                <td class="num">655</td>
+                <td class="num">13,436</td>
+                <td class="num">647</td>
+                <td class="num">21,230,370</td>
+                <td class="num">1,661</td>
             </tr>
         </tbody>
         <tfoot>
             <tr style="font-weight:bold; border-top:2px solid var(--border);">
                 <td>Total</td>
                 <td></td>
-                <td class="num">134</td>
-                <td class="num">165,343</td>
-                <td class="num">17,205</td>
-                <td class="num">182,548</td>
-                <td class="num">5,235</td>
-                <td class="num">145,758,112</td>
-                <td class="num">881</td>
+                <td class="num">133</td>
+                <td class="num">114,359</td>
+                <td class="num">11,729</td>
+                <td class="num">126,088</td>
+                <td class="num">3,512</td>
+                <td class="num">120,039,792</td>
+                <td class="num">1,049</td>
             </tr>
         </tfoot>
     </table>

@@ -205,7 +205,6 @@ nav a:hover { text-decoration: underline; }
 .article-content.show { display: block; }
 
 .article-text {
-    white-space: pre-wrap;
     font-size: 0.95rem;
     line-height: 1.8;
     margin-bottom: 1rem;
@@ -380,6 +379,54 @@ footer {
     font-size: 0.9rem;
 }
 
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
 @media (max-width: 600px) {
     .container { padding: 1rem; }
     header h1 { font-size: 1.8rem; }
@@ -387,6 +434,8 @@ footer {
     .stat-cards { grid-template-columns: 1fr 1fr; }
     .bar-label { width: 80px; font-size: 0.8rem; }
     .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
 }
 </style>
 </head>
@@ -407,7 +456,9 @@ footer {
         <a href="../about.html">About</a>
     </nav>
 
-    <p>This volume contains <strong>24 entries</strong>.
+    
+
+    <p>This volume contains <strong>14 entries</strong>.
     Click on an article to view its full text.</p>
 
     <div class="filter-bar">
@@ -425,239 +476,139 @@ footer {
         <li class="article-item" id="article-ANTAGONISTS_OF_HOBBIESTS" data-idx="0" data-type="article">
             <div class="article-header" onclick="toggleArticle(0)">
                 <h3>ANTAGONISTS OF HOBBIESTS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">51,003 words</span>
+                <span class="meta">74,413 words</span>
             </div>
             <div class="article-content" id="content-0">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-BERNIER" data-idx="1" data-type="article">
+        <li class="article-item" id="article-BONNET" data-idx="1" data-type="article">
             <div class="article-header" onclick="toggleArticle(1)">
-                <h3>BERNIER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">23,409 words</span>
+                <h3>BONNET<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">124,650 words</span>
             </div>
             <div class="article-content" id="content-1">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-BONNET" data-idx="2" data-type="article">
+        <li class="article-item" id="article-BY_THE_RIGHT_HONOURABLE_SIR_JAMES_MACKINTOSH" data-idx="2" data-type="article">
             <div class="article-header" onclick="toggleArticle(2)">
-                <h3>BONNET<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">7,829 words</span>
+                <h3>BY THE RIGHT HONOURABLE SIR JAMES MACKINTOSH<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">24,971 words</span>
             </div>
             <div class="article-content" id="content-2">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-CONCLUSION" data-idx="3" data-type="article">
+        <li class="article-item" id="article-CLARKE" data-idx="3" data-type="article">
             <div class="article-header" onclick="toggleArticle(3)">
-                <h3>CONCLUSION</h3>
-                <span class="meta">1,894 words</span>
+                <h3>CLARKE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">18,152 words</span>
             </div>
             <div class="article-content" id="content-3">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="4" data-type="article">
+        <li class="article-item" id="article-DAVID" data-idx="4" data-type="article">
             <div class="article-header" onclick="toggleArticle(4)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">13,909 words</span>
+                <h3>DAVID<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,503 words</span>
             </div>
             <div class="article-content" id="content-4">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="5" data-type="article">
+        <li class="article-item" id="article-DAVID_HARTLEY" data-idx="5" data-type="article">
             <div class="article-header" onclick="toggleArticle(5)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">34,543 words</span>
+                <h3>DAVID HARTLEY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">18,180 words</span>
             </div>
             <div class="article-content" id="content-5">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="6" data-type="article">
+        <li class="article-item" id="article-DUGALD_STEWART" data-idx="6" data-type="article">
             <div class="article-header" onclick="toggleArticle(6)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">49,606 words</span>
+                <h3>DUGALD STEWART<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">30,995 words</span>
             </div>
             <div class="article-content" id="content-6">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="7" data-type="article">
+        <li class="article-item" id="article-FELLOW_OF_THE_ROYAL_SOCIETY_OF_LONDON" data-idx="7" data-type="article">
             <div class="article-header" onclick="toggleArticle(7)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">79,225 words</span>
+                <h3>FELLOW OF THE ROYAL SOCIETY OF LONDON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">26,007 words</span>
             </div>
             <div class="article-content" id="content-7">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="8" data-type="article">
+        <li class="article-item" id="article-GALILEO" data-idx="8" data-type="article">
             <div class="article-header" onclick="toggleArticle(8)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">18,230 words</span>
+                <h3>GALILEO<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">18,820 words</span>
             </div>
             <div class="article-content" id="content-8">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-DISS" data-idx="9" data-type="article">
+        <li class="article-item" id="article-GASSENDI" data-idx="9" data-type="article">
             <div class="article-header" onclick="toggleArticle(9)">
-                <h3>DISS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">19,221 words</span>
+                <h3>GASSENDI<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,521 words</span>
             </div>
             <div class="article-content" id="content-9">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-END_OF_THE_SECOND_DISSERTATION" data-idx="10" data-type="article">
+        <li class="article-item" id="article-HOWE" data-idx="10" data-type="article">
             <div class="article-header" onclick="toggleArticle(10)">
-                <h3>END OF THE SECOND DISSERTATION</h3>
-                <span class="meta">33 words</span>
+                <h3>HOWE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">39,228 words</span>
             </div>
             <div class="article-content" id="content-10">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-FELLOW_OF_THE_ROYAL_SOCIETY_OF_LONDON" data-idx="11" data-type="article">
+        <li class="article-item" id="article-KEPLER" data-idx="11" data-type="article">
             <div class="article-header" onclick="toggleArticle(11)">
-                <h3>FELLOW OF THE ROYAL SOCIETY OF LONDON<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">26,007 words</span>
+                <h3>KEPLER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,418 words</span>
             </div>
             <div class="article-content" id="content-11">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-GALILEO" data-idx="12" data-type="article">
+        <li class="article-item" id="article-NEWTON" data-idx="12" data-type="article">
             <div class="article-header" onclick="toggleArticle(12)">
-                <h3>GALILEO<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">18,820 words</span>
+                <h3>NEWTON</h3>
+                <span class="meta">2,971 words</span>
             </div>
             <div class="article-content" id="content-12">
                 <div class="loading">Loading...</div>
             </div>
         </li>
         
-        <li class="article-item" id="article-GASSENDI" data-idx="13" data-type="article">
+        <li class="article-item" id="article-SPECULATIVE_MATHEMATICS" data-idx="13" data-type="article">
             <div class="article-header" onclick="toggleArticle(13)">
-                <h3>GASSENDI<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">13,970 words</span>
+                <h3>SPECULATIVE MATHEMATICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">97,403 words</span>
             </div>
             <div class="article-content" id="content-13">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-GREGORY" data-idx="14" data-type="article">
-            <div class="article-header" onclick="toggleArticle(14)">
-                <h3>GREGORY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">10,350 words</span>
-            </div>
-            <div class="article-content" id="content-14">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-HOMOGENEOUS" data-idx="15" data-type="article">
-            <div class="article-header" onclick="toggleArticle(15)">
-                <h3>HOMOGENEOUS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">6,534 words</span>
-            </div>
-            <div class="article-content" id="content-15">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-JOHN" data-idx="16" data-type="article">
-            <div class="article-header" onclick="toggleArticle(16)">
-                <h3>JOHN<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">14,891 words</span>
-            </div>
-            <div class="article-content" id="content-16">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-KEPLER" data-idx="17" data-type="article">
-            <div class="article-header" onclick="toggleArticle(17)">
-                <h3>KEPLER<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">11,418 words</span>
-            </div>
-            <div class="article-content" id="content-17">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-NEWTON" data-idx="18" data-type="article">
-            <div class="article-header" onclick="toggleArticle(18)">
-                <h3>NEWTON</h3>
-                <span class="meta">2,971 words</span>
-            </div>
-            <div class="article-content" id="content-18">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-SPECULATIVE_MATHEMATICS" data-idx="19" data-type="article">
-            <div class="article-header" onclick="toggleArticle(19)">
-                <h3>SPECULATIVE MATHEMATICS<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">14,286 words</span>
-            </div>
-            <div class="article-content" id="content-19">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-WAY" data-idx="20" data-type="article">
-            <div class="article-header" onclick="toggleArticle(20)">
-                <h3>WAY<span class="badge treatise">Treatise</span></h3>
-                <span class="meta">78,454 words</span>
-            </div>
-            <div class="article-content" id="content-20">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-WORK" data-idx="21" data-type="article">
-            <div class="article-header" onclick="toggleArticle(21)">
-                <h3>WORK</h3>
-                <span class="meta">4,625 words</span>
-            </div>
-            <div class="article-content" id="content-21">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-WRITING" data-idx="22" data-type="article">
-            <div class="article-header" onclick="toggleArticle(22)">
-                <h3>WRITING</h3>
-                <span class="meta">7 words</span>
-            </div>
-            <div class="article-content" id="content-22">
-                <div class="loading">Loading...</div>
-            </div>
-        </li>
-        
-        <li class="article-item" id="article-YOUNG" data-idx="23" data-type="article">
-            <div class="article-header" onclick="toggleArticle(23)">
-                <h3>YOUNG</h3>
-                <span class="meta">31 words</span>
-            </div>
-            <div class="article-content" id="content-23">
                 <div class="loading">Loading...</div>
             </div>
         </li>
@@ -684,6 +635,43 @@ footer {
         }
     }
 
+    function renderMarkdown(text) {
+        // Escape HTML first
+        const div = document.createElement('div');
+        div.textContent = text;
+        let s = div.innerHTML;
+
+        // Markdown tables: detect lines with | delimiters
+        s = s.replace(/((?:^|\n)\|.+\|(?:\n\|.+\|)+)/g, function(table) {
+            const rows = table.trim().split('\n').filter(r => r.trim());
+            // Skip separator rows (e.g. |---|---|)
+            const dataRows = rows.filter(r => !/^\|[\s\-:|]+\|$/.test(r.trim()));
+            if (dataRows.length === 0) return table;
+            let html = '<table>';
+            dataRows.forEach(function(row, i) {
+                const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                const tag = i === 0 ? 'th' : 'td';
+                html += '<tr>' + cells.map(c => '<' + tag + '>' + c + '</' + tag + '>').join('') + '</tr>';
+            });
+            html += '</table>';
+            return html;
+        });
+
+        // Bold: **text**
+        s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Italic: *text* (but not inside words like "don*t")
+        s = s.replace(/(^|[\s(])\*([^*]+?)\*([\s).,;:!?]|$)/g, '$1<em>$2</em>$3');
+        // Strip LaTeX markers \( ... \) — leave content visible
+        s = s.replace(/\\\((.+?)\\\)/g, '$1');
+
+        // Paragraphs: double newline
+        s = s.replace(/\n\n+/g, '</p><p>');
+        // Single newlines to <br> (but not inside tables)
+        s = s.replace(/\n/g, '<br>');
+
+        return '<p>' + s + '</p>';
+    }
+
     async function toggleArticle(idx) {
         const content = document.getElementById('content-' + idx);
         const isShown = content.classList.contains('show');
@@ -706,19 +694,13 @@ footer {
         const article = articlesData[idx];
 
         content.innerHTML = `
-            <div class="article-text">${escapeHtml(article.t)}</div>
+            <div class="article-text">${renderMarkdown(article.t)}</div>
             <div class="article-actions">
                 <button onclick="downloadMd(${idx})">Download .md</button>
                 <button onclick="copyText(${idx})">Copy Text</button>
             </div>
         `;
         loadedArticles.add(idx);
-    }
-
-    function escapeHtml(text) {
-        const div = document.createElement('div');
-        div.textContent = text;
-        return div.innerHTML;
     }
 
     function downloadMd(idx) {
