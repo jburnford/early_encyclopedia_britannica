@@ -1,0 +1,651 @@
+==========================================================================================
+NER-GUIDED PARSING AUDIT REPORT
+==========================================================================================
+
+Bloated articles detected:     412
+With absorbed headwords found:  277
+OCR candidates generated:       140
+  HIGH confidence:   23
+  MEDIUM confidence: 117
+  LOW confidence:    0
+
+     Edition | Bloated | Candidates
+----------------------------------------
+        1771 |       6 |          9
+        1778 |      38 |         21
+        1797 |      85 |         32
+        1810 |      33 |         13
+        1815 |      21 |         14
+        1823 |      39 |         37
+        1842 |      94 |          8
+        1860 |      96 |          6
+
+
+==========================================================================================
+TOP CANDIDATES (ranked by bloat_ratio * expected_word_count)
+==========================================================================================
+
+--- #1 [HIGH] impact=167,398,887 ---
+  Absorbed headword: FRANCE
+  Containing article: FRAME (1823)
+  Bloat ratio: 617.0x | Expected word count: 271,311
+  File: eb_6th_1823_v09_FOR-DIR.jsonl @ position 332521 (6.6%)
+  Context: ...re watch-towers. Population 1965 in 1811.\n\nFranc. See Frank.[\n\nFrance.\n\nFrance,] a large kingdom of Europe, situated between 5° W. and 8° E....
+
+--- #2 [HIGH] impact=138,547,311 ---
+  Absorbed headword: MEDICINE
+  Containing article: MEDIATE (1771)
+  Bloat ratio: 421.0x | Expected word count: 329,091
+  File: eb_1st_1771_v03_INT-COR.jsonl @ position 361891 (7.8%)
+  Context: ...at stands between and connects two or more terms, considered[\nMEDICINE\n\n]Medicine is generally defined to be, The art of preserving h...
+
+--- #3 [HIGH] impact=137,006,331 ---
+  Absorbed headword: BOTANY
+  Containing article: BOSWORTH-MARKET (1842)
+  Bloat ratio: 706.2x | Expected word count: 194,005
+  File: eb_7th_1842_v05_BOR-CAL.jsonl @ position 393061 (6.7%)
+  Context: ...eous or in spikes, and are composed of roundish cap-diacces.[\nBotany\n\n]Glossology-sules or thecae, that are from one to three celle...
+
+--- #4 [HIGH] impact=105,268,668 ---
+  Absorbed headword: FRANCE
+  Containing article: FRAISE (1778)
+  Bloat ratio: 388.0x | Expected word count: 271,311
+  File: eb_2nd_1778_v04_BYW-FUZ.jsonl @ position 4758107 (93.1%)
+  Context: ... on the contrary, to augment their size from small to great.[\n\nFrance, a ]large kingdom of Europe, situated between 5° W. and 7° E. Lo...
+
+--- #5 [HIGH] impact=100,200,412 ---
+  Absorbed headword: LAW
+  Containing article: LAURENTIUS (1815)
+  Bloat ratio: 700.1x | Expected word count: 143,123
+  File: eb_5th_1815_v11_ENL-LIE.jsonl @ position 3745161 (72.8%)
+  Context: ...Savoy, styled\nLAW\n\nPART I. OF THE NATURE OF LAWS IN GENERAL.[\n\nLaw, in ]its most general and comprehensive sense, signifies a rule o...
+
+--- #6 [MEDIUM] impact=98,086,110 ---
+  Absorbed headword: LAUSANNE
+  Containing article: LAURENTIUS (1815)
+  Bloat ratio: 700.1x | Expected word count: 140,103
+  File: eb_5th_1815_v11_ENL-LIE.jsonl @ position 3744268 (72.8%)
+  Context: ...ns, at some distance off. E. Long. 10° 15'. N. Lat. 45° 22'.[\n\nLausanne, a ]large, ancient, and handsome town of Switzerland, capital of...
+
+--- #7 [MEDIUM] impact=63,510,375 ---
+  Absorbed headword: FARRIERY
+  Containing article: FARRIER (1797)
+  Bloat ratio: 375.0x | Expected word count: 169,361
+  File: eb_3rd_1797_v07_TRE-GOA.jsonl @ position 684989 (13.4%)
+  Context: ...ment is to shoe horses, and cure them when diseased or lame.[\n\n**FARRIERY**\n\n]The art of preventing, curing, or palliating, the diseases o...
+
+--- #8 [MEDIUM] impact=59,537,048 ---
+  Absorbed headword: FRAME
+  Containing article: FRAISE (1778)
+  Bloat ratio: 388.0x | Expected word count: 153,446
+  File: eb_2nd_1778_v04_BYW-FUZ.jsonl @ position 4757211 (93.1%)
+  Context: ...er the musqueteers from the shock, and serve as a barricade.[\n\nFrame, in ]joinery, a kind of case, wherein a thing is set or inclosed,...
+
+--- #9 [HIGH] impact=58,433,641 ---
+  Absorbed headword: CHEMISTRY
+  Containing article: CHEMISE (1842)
+  Bloat ratio: 162.8x | Expected word count: 358,929
+  File: eb_7th_1842_v06_SEV-CLO.jsonl @ position 2509408 (43.6%)
+  Context: ... matters, used at sea for setting fire to an enemy's vessel.[\nCHEMISTRY\n\n]Is a science, the object of which is to determine the consti...
+
+--- #10 [HIGH] impact=52,225,583 ---
+  Absorbed headword: LAW
+  Containing article: LAUSANNE (1823)
+  Bloat ratio: 364.9x | Expected word count: 143,123
+  File: eb_6th_1823_v11_ENL-LIE.jsonl @ position 3705667 (73.2%)
+  Context: ...Savoy, styled\nLAW\n\nPART I. OF THE NATURE OF LAWS IN GENERAL.[\n\nLaw, in ]its most general and comprehensive sense, signifies a rule o...
+
+--- #11 [HIGH] impact=35,495,624 ---
+  Absorbed headword: OPTICS
+  Containing article: OPTIC ANGLE (1778)
+  Bloat ratio: 184.0x | Expected word count: 192,911
+  File: eb_2nd_1778_v07_BYW-OPT.jsonl @ position 4473571 (89.3%)
+  Context: ... through the middle of the pupil, and the centre of the eye.[\n\nOPTICS;\n\n]THAT science which treats of element of the light, and the v...
+
+--- #12 [MEDIUM] impact=29,613,660 ---
+  Absorbed headword: HISTORY
+  Containing article: HISTORIOGRAPHER (1815)
+  Bloat ratio: 255.0x | Expected word count: 116,132
+  File: eb_5th_1815_v10_GOT-HYD.jsonl @ position 3282728 (64.3%)
+  Context: ...n office of the same kind in Scotland, with the same salary.[\n\nHistory.\n\nHistory,] in general, signifies an account of some remarkable facts w...
+
+--- #13 [HIGH] impact=22,909,612 ---
+  Absorbed headword: ORODES
+  Containing article: ORLEANS (1815)
+  Bloat ratio: 2634.5x | Expected word count: 8,696
+  File: eb_5th_1815_v15_NIC-CCC.jsonl @ position 3738528 (70.7%)
+  Context: ...anking under the 32d order, Papilionaceae. See BOTANY Index.[\n\nORODES, ]a prince of Parthia, who murdered his brother Mithridates, a...
+
+--- #14 [MEDIUM] impact=17,332,376 ---
+  Absorbed headword: ORMUS
+  Containing article: ORLEANS (1815)
+  Bloat ratio: 2634.5x | Expected word count: 6,579
+  File: eb_5th_1815_v15_NIC-CCC.jsonl @ position 3088932 (58.4%)
+  Context: ...r Thomas Bootle, who built a very magnificent house upon it.[\n\nORMUS, ]a small island of Asia, at the bottom of the gulf of the sam...
+
+--- #15 [HIGH] impact=14,895,554 ---
+  Absorbed headword: CHEMISTRY
+  Containing article: CHEMISE (1778)
+  Bloat ratio: 41.5x | Expected word count: 358,929
+  File: eb_2nd_1778_v03_BYW-CRI.jsonl @ position 1641002 (31.8%)
+  Context: ...ble matters, used at sea, to set fire to an enemy's vessel.\n[\nCHEMISTRY\n\n]May be defined, The study of such phenomena or properties of...
+
+--- #16 [MEDIUM] impact=12,856,968 ---
+  Absorbed headword: BLEACHING
+  Containing article: BLAZONING (1842)
+  Bloat ratio: 216.0x | Expected word count: 59,523
+  File: eb_7th_1842_v04_SEV-BOR.jsonl @ position 4890871 (84.7%)
+  Context: ...en they explained and recorded the achievements of knights.\n[\nBLEACHING\n\n]Is the art of depriving cotton, linen, silk, wool, wax, &c.,...
+
+--- #17 [MEDIUM] impact=6,636,598 ---
+  Absorbed headword: SCOTLAND
+  Containing article: SCOT (1860)
+  Bloat ratio: 30.1x | Expected word count: 220,485
+  File: eb_8th_1860_v19_ADA-SCY.jsonl @ position 5922698 (90.3%)
+  Context: ...arl of Arran James VI. A.D.1578. Morton resigns the regency.[\n\nScotland.\n\nA].D.1579.\n\nRise of Esmé, duke of Lennox, and the earl of Arra...
+
+--- #18 [HIGH] impact=4,725,824 ---
+  Absorbed headword: SURGERY
+  Containing article: SURGEON (1810)
+  Bloat ratio: 32.0x | Expected word count: 147,682
+  File: eb_4th_1810_v20_SUI-PRE.jsonl @ position 344308 (6.3%)
+  Context: ...appens, particularly in young people, that after:\nChap. III.[\n\nSurgery.\n\nG]leet. after having used injections some time with advantage,...
+
+--- #19 [MEDIUM] impact=4,475,433 ---
+  Absorbed headword: DELUGE
+  Containing article: DELPHINUS (1797)
+  Bloat ratio: 167.0x | Expected word count: 26,799
+  File: eb_3rd_1797_v05_TRE-DIA.jsonl @ position 4627364 (89.6%)
+  Context: ....\n\nDeltoides, in anatomy. See Anatomy, Table of the Muscles.[\n\nDeluge, an ]inundation or overflowing of the earth, either wholly or in ...
+
+--- #20 [MEDIUM] impact=4,296,514 ---
+  Absorbed headword: LAURUS
+  Containing article: LAURENTIUS (1815)
+  Bloat ratio: 700.1x | Expected word count: 6,137
+  File: eb_5th_1815_v11_ENL-LIE.jsonl @ position 3743108 (72.8%)
+  Context: ...Now Lorigne, five leagues to the north of Liria in Valencia.[\n\nLaurus, the ]Bay Tree, a genus of plants belonging to the eneandra clas; ...
+
+--- #21 [HIGH] impact=4,187,893 ---
+  Absorbed headword: GEOMETRY
+  Containing article: GEOMANCY (1842)
+  Bloat ratio: 56.5x | Expected word count: 74,122
+  File: eb_7th_1842_v10_SEV-GRO.jsonl @ position 3130599 (55.4%)
+  Context: ...y were not, however, neglected; for, unlike the modern peri-[\nGeometry\n\n]Although the mathematics received but little addition from t...
+
+--- #22 [HIGH] impact=3,418,742 ---
+  Absorbed headword: MIDWIFERY
+  Containing article: MIDWIFE (1815)
+  Bloat ratio: 67.0x | Expected word count: 51,026
+  File: eb_5th_1815_v14_ENL-NIC.jsonl @ position 275163 (5.9%)
+  Context: ...ose profession is to deliver women in labour. See MIDWIFERY.[\n\n**MIDWIFERY**\n\n]1. **Definition.**\n   The art of assisting women in labour. ...
+
+--- #23 [HIGH] impact=3,318,449 ---
+  Absorbed headword: AGRICULTURE
+  Containing article: AGRIA (1778)
+  Bloat ratio: 11.4x | Expected word count: 291,092
+  File: eb_2nd_1778_v01_AA-AND.jsonl @ position 807470 (16.9%)
+  Context: ...ade so much noise in the world." He died at Berlin in 1566.\n[\nAGRICULTURE\n\n]Definition. May be defined, The art of disposing the earth i...
+
+--- #24 [MEDIUM] impact=3,243,676 ---
+  Absorbed headword: WEAVING
+  Containing article: WEATHER (1797)
+  Bloat ratio: 206.0x | Expected word count: 15,746
+  File: eb_3rd_1797_v18_IND-ER.jsonl @ position 5966192 (88.4%)
+  Context: ...ifies the doubling or failing by a head-land or other place.[\n\nWeaving, the ]art of working a web of cloth, silk, or other stuff, in a lo...
+
+--- #25 [HIGH] impact=3,117,326 ---
+  Absorbed headword: CHRONOLOGY
+  Containing article: CHRONOGRAM (1778)
+  Bloat ratio: 71.0x | Expected word count: 43,906
+  File: eb_2nd_1778_v03_BYW-CRI.jsonl @ position 2593451 (50.2%)
+  Context: ...ielmus Adolphus in 1632:\n\nChrIftVs DVX; ergo trIVMphVs.\n\n---[\n\n**CHRONOLOGY**\n\n]Is the science that teaches the method of measuring time and...
+
+--- #26 [MEDIUM] impact=3,073,368 ---
+  Absorbed headword: EARTHQUAKE
+  Containing article: EARTH (1778)
+  Bloat ratio: 111.0x | Expected word count: 27,688
+  File: eb_2nd_1778_v04_BYW-FUZ.jsonl @ position 1442445 (28.2%)
+  Context: ...at food for the roots of grass.\n\nEarth-Worms. See Lumbricus.[\n\nEarthquake, in ]natural history, a sudden and violent concussion of the eart...
+
+--- #27 [MEDIUM] impact=1,951,290 ---
+  Absorbed headword: COLONY
+  Containing article: COLONEL (1810)
+  Bloat ratio: 90.0x | Expected word count: 21,681
+  File: eb_4th_1810_v17_OBS-GEN.jsonl @ position 1730913 (68.7%)
+  Context: ...ence comes the word clown, who is called by the Dutch, boor.[\n\nColony, a ]company of people transplanted into a remote province in ord...
+
+--- #28 [MEDIUM] impact=1,909,325 ---
+  Absorbed headword: METAPHYSICS
+  Containing article: MEROPS (1771)
+  Bloat ratio: 12.8x | Expected word count: 149,166
+  File: eb_1st_1771_v03_INT-COR.jsonl @ position 1071173 (23.1%)
+  Context: ...kind. There six species, viz. 1. The a-\n\nVol. III. Numb. 76.[\nMETAPHYSICS\n\n]Metaphysics is that part of philosophy which considers the n...
+
+--- #29 [MEDIUM] impact=1,767,900 ---
+  Absorbed headword: PHAROS
+  Containing article: PHARMACY (1778)
+  Bloat ratio: 710.0x | Expected word count: 2,490
+  File: eb_2nd_1778_v08_BYW-GRE.jsonl @ position 3691026 (73.4%)
+  Context: ... name, is become an appellative, to denote all light-houses.[\n\nPharos, or ]Phare, a light-house; a pile raised near a port, where fire ...
+
+--- #30 [MEDIUM] impact=1,705,877 ---
+  Absorbed headword: SPA
+  Containing article: SOZOMENUS (1860)
+  Bloat ratio: 92.6x | Expected word count: 18,422
+  File: eb_8th_1860_v20_ADA-FRO.jsonl @ position 3367158 (50.5%)
+  Context: ...r at Constantinople. He wrote an abridgment of *Ecclesiast-*[\nSPA\n\n]That the Spanish Peninsula was peopled at a very early perio...
+
+--- #31 [MEDIUM] impact=1,565,124 ---
+  Absorbed headword: POLE
+  Containing article: POLARITY (1797)
+  Bloat ratio: 142.0x | Expected word count: 11,022
+  File: eb_3rd_1797_v15_IND-RAN.jsonl @ position 1951698 (37.8%)
+  Context: ...d temperate vindication of the doctrines of the Reformation.[\n\nPole, in ]astronomy, that point in the heavens round which the whole s...
+
+--- #32 [MEDIUM] impact=1,264,491 ---
+  Absorbed headword: SWIMMING
+  Containing article: SWERTIA (1797)
+  Bloat ratio: 81.0x | Expected word count: 15,611
+  File: eb_3rd_1797_v18_IND-ER.jsonl @ position 1738613 (25.8%)
+  Context: ...istencies of the other.\n\nSwift, in ornithology. See Hirundo.[\n\nSwimming, the ]art of suspending one's self on water, and at the same time ...
+
+--- #33 [MEDIUM] impact=985,203 ---
+  Absorbed headword: SWIFT
+  Containing article: SWERTIA (1797)
+  Bloat ratio: 81.0x | Expected word count: 12,163
+  File: eb_3rd_1797_v18_IND-ER.jsonl @ position 1738576 (25.8%)
+  Context: ...e one, and the absurdities and inconsistencies of the other.[\n\nSwift, in ]ornithology. See Hirundo.\n\nSwimming, the art of suspending o...
+
+--- #34 [MEDIUM] impact=966,900 ---
+  Absorbed headword: BIBERSBERG
+  Containing article: BIA (1823)
+  Bloat ratio: 100.0x | Expected word count: 9,669
+  File: eb_6th_1823_v03_ENL-BOO.jsonl @ position 3799226 (75.8%)
+  Context: ... is seated on the river Russ. E. Long. 10. 2. N. Lat. 48. 4.[\n\nBibersberg, a ]town of Upper Hungary, situated in E. Long. 17. 25. N. Lat. ...
+
+--- #35 [HIGH] impact=953,131 ---
+  Absorbed headword: INDIA
+  Containing article: INDEPENDENTS (1810)
+  Bloat ratio: 15.7x | Expected word count: 60,709
+  File: eb_4th_1810_v11_HYD-JUN.jsonl @ position 1143773 (44.6%)
+  Context: ...dexes printed at Rome and Naples, and particularly in Spain.[\n\nINDIA. S]ee Hindostan.—By the name of India the ancients understood o...
+
+--- #36 [HIGH] impact=811,540 ---
+  Absorbed headword: ORE
+  Containing article: ORDINATION (1815)
+  Bloat ratio: 20.0x | Expected word count: 40,577
+  File: eb_5th_1815_v15_NIC-CCC.jsonl @ position 2730744 (51.6%)
+  Context: ...d in the Roman province which was called Britannia Secunda."[\n\nORE, ]a mineral body, partly or entirely composed of metallic subs...
+
+--- #37 [MEDIUM] impact=786,408 ---
+  Absorbed headword: DALMATIA
+  Containing article: DACTYLIS (1771)
+  Bloat ratio: 62.0x | Expected word count: 12,684
+  File: eb_1st_1771_v02_INT-LOG.jsonl @ position 1828232 (33.5%)
+  Context: ...r-lake, on the south by Gothland, and on the west by Norway.[\n\nDalmatia, a ]frontier province of Europe, mostly subject to the Turks, bu...
+
+--- #38 [MEDIUM] impact=767,887 ---
+  Absorbed headword: ARSURA
+  Containing article: ARROW (1810)
+  Bloat ratio: 73.0x | Expected word count: 10,519
+  File: eb_4th_1810_v02_ANT-ASS.jsonl @ position 1777704 (70.7%)
+  Context: ... intended to be hurt by him, and friends as well as enemies.[\n\nArsura, in ]ancient customs, a term used for the melting of gold or silv...
+
+--- #39 [MEDIUM] impact=729,343 ---
+  Absorbed headword: ARSON
+  Containing article: ARROW (1810)
+  Bloat ratio: 73.0x | Expected word count: 9,991
+  File: eb_4th_1810_v02_ANT-ASS.jsonl @ position 1776716 (70.6%)
+  Context: ...and the other falls.\n\nArsmart. See Persicaria, Botany Index.[\n\nArson, in ]English Law, is the malicious and willful burning of the hou...
+
+--- #40 [MEDIUM] impact=706,160 ---
+  Absorbed headword: CONNECTICUT
+  Containing article: CONICHTHYODONTES (1810)
+  Bloat ratio: 70.0x | Expected word count: 10,088
+  File: eb_4th_1810_v06_CON-CRY.jsonl @ position 870361 (34.5%)
+  Context: ...ade; besides a few fishermen, and 40 or 50 coasting vessels.[\n\nConnecticut, one ]of the five states of New England in America; bounded on the...
+
+--- #41 [MEDIUM] impact=528,808 ---
+  Absorbed headword: SACRIFICE
+  Containing article: SACKBUT (1778)
+  Bloat ratio: 71.0x | Expected word count: 7,448
+  File: eb_2nd_1778_v09_BYW-SCU.jsonl @ position 3638274 (68.3%)
+  Context: ...ered and consecrated to God, with benedictions, uncions, &c.[\n\nSacrifice, a ]solemn act of religious worship, which consisted in dedicati...
+
+--- #42 [MEDIUM] impact=467,856 ---
+  Absorbed headword: AUGUST
+  Containing article: AUGURY (1797)
+  Bloat ratio: 108.0x | Expected word count: 4,332
+  File: eb_3rd_1797_v02_IND-BAR.jsonl @ position 4350645 (85.3%)
+  Context: ...increase," tanquam fupra humanam fortam autus. See Augustus.[\n\nAugust, in ]chronology, the eighth month of our year, containing 31 days...
+
+--- #43 [MEDIUM] impact=448,400 ---
+  Absorbed headword: TUSCANY
+  Containing article: TURQUOISE (1797)
+  Bloat ratio: 59.0x | Expected word count: 7,600
+  File: eb_3rd_1797_v18_IND-ER.jsonl @ position 4341323 (64.3%)
+  Context: ... the surface. It is supposed to have an astringent property.[\n\nTuscany, a ]duchy of Italy, which makes part of the ancient Etruria, exc...
+
+--- #44 [MEDIUM] impact=431,745 ---
+  Absorbed headword: SARDINIA
+  Containing article: SARDANAPALUS (1842)
+  Bloat ratio: 30.3x | Expected word count: 14,249
+  File: eb_7th_1842_v19_SEV-SCU.jsonl @ position 4857961 (81.0%)
+  Context: ...the Scriptures, and the first to be the Saracus of Abdyenus.[\n\nSARDINIA. T]his kingdom is composed of two portions. One is the island b...
+
+--- #45 [MEDIUM] impact=413,960 ---
+  Absorbed headword: GEM
+  Containing article: GELLERT (1823)
+  Bloat ratio: 40.0x | Expected word count: 10,349
+  File: eb_6th_1823_v09_FOR-DIR.jsonl @ position 3026479 (59.8%)
+  Context: ...as a demigod. His brother Hiero succeeded him. See Syracuse.[\n\nGem, in ]Natural History, a common name for all precious stones; of w...
+
+--- #46 [HIGH] impact=411,586 ---
+  Absorbed headword: BREWING
+  Containing article: BREWER (1860)
+  Bloat ratio: 14.0x | Expected word count: 29,399
+  File: eb_8th_1860_v05_ADA-BUR.jsonl @ position 2190671 (37.3%)
+  Context: ... of Table Beer | 400 | 272 9 6 | 22 | 28 7 0 | 2 | 2 12 6 |\n[\nBrewing\n\n]Brewing is the art of preparing an exhilarating or intoxicat...
+
+--- #47 [HIGH] impact=375,024 ---
+  Absorbed headword: BRIDGE
+  Containing article: BRIDEWELL (1823)
+  Bloat ratio: 13.0x | Expected word count: 28,848
+  File: eb_6th_1823_v04_ENL-BUR.jsonl @ position 2191085 (46.3%)
+  Context: ...ation of 10l. each, for carrying on their respective trades.[\n\nBRIDGE. A] bridge is a mode of conveyance from one part of space to an...
+
+--- #48 [MEDIUM] impact=352,702 ---
+  Absorbed headword: WINE
+  Containing article: WINDWARD (1778)
+  Bloat ratio: 59.0x | Expected word count: 5,978
+  File: eb_2nd_1778_v10_IND-WOO_alt2.jsonl @ position 5786851 (79.3%)
+  Context: ...thus windward-tide, is the tide which runs against the wind.[\n\nWine, a ]brisk, agreeable, spirituous, and cordial liquor, drawn from...
+
+--- #49 [MEDIUM] impact=334,656 ---
+  Absorbed headword: JAMES
+  Containing article: IAMBUS (1797)
+  Bloat ratio: 84.0x | Expected word count: 3,984
+  File: eb_3rd_1797_v09_IND-LES.jsonl @ position 366111 (7.1%)
+  Context: ... in all the provinces of Spain, but especially in Catalonia.[\n\nJames, the ]name of several kings of Scotland and of Great Britain. See ...
+
+--- #50 [MEDIUM] impact=267,948 ---
+  Absorbed headword: AUGUSTINS
+  Containing article: AUGURY (1797)
+  Bloat ratio: 108.0x | Expected word count: 2,481
+  File: eb_3rd_1797_v02_IND-BAR.jsonl @ position 4360975 (85.6%)
+  Context: ...ne, a cape of South America W. Long. 35° 4', S. Lat. 8° 30'.[\n\nAugustins, or ]Augustinians, an order of religious; thus called from St Aug...
+
+--- #51 [MEDIUM] impact=266,324 ---
+  Absorbed headword: TURKEY
+  Containing article: TURIN (1823)
+  Bloat ratio: 13.9x | Expected word count: 19,160
+  File: eb_6th_1823_v20_ENL-ZYG.jsonl @ position 3206460 (61.8%)
+  Context: ...nd 280 north-west of Rome. E. Long. 7° 45'. N. Lat. 44° 50'.[\n\nTurkey, an ]extensive empire, situated partly in Europe, and partly in A...
+
+--- #52 [MEDIUM] impact=255,688 ---
+  Absorbed headword: DAMPS
+  Containing article: DACTYLIS (1771)
+  Bloat ratio: 62.0x | Expected word count: 4,124
+  File: eb_1st_1771_v02_INT-LOG.jsonl @ position 1830373 (33.6%)
+  Context: ...rra, among chemists, the same with caput mortuum. See Caput.[\n\nDamps, in ]natural history, noxious steams and exhalations, frequently ...
+
+--- #53 [MEDIUM] impact=255,573 ---
+  Absorbed headword: PLAGUE
+  Containing article: PLAGIARY (1842)
+  Bloat ratio: 73.0x | Expected word count: 3,501
+  File: eb_7th_1842_v17_SEV-CON.jsonl @ position 5814920 (96.4%)
+  Context: ... the right which authors have to use one another's writings.[\n\nPLAGUE. T]he terms pest, pestilence, and plague, were long employed in...
+
+--- #54 [MEDIUM] impact=224,979 ---
+  Absorbed headword: MYTHOLOGY
+  Containing article: MYSTRUM (1842)
+  Bloat ratio: 19.0x | Expected word count: 11,841
+  File: eb_7th_1842_v15_SEV-NAV.jsonl @ position 4730574 (85.7%)
+  Context: ... of water or wine. It answers nearly to a spoonful with us.\n[\nMYTHOLOGY\n\n]Is a term compounded of two Greek words, and in its original...
+
+--- #55 [MEDIUM] impact=215,289 ---
+  Absorbed headword: DISTILLATION
+  Containing article: DISTICHIASIS (1797)
+  Bloat ratio: 17.1x | Expected word count: 12,590
+  File: eb_3rd_1797_v06_IND-ETH.jsonl @ position 343976 (6.6%)
+  Context: ...nippers, and cauterizing the pores out of which they issued.[\n\nDISTILLATION. S]ee Chemistry, Index.\n\nThe objects of distillation, considere...
+
+--- #56 [MEDIUM] impact=210,253 ---
+  Absorbed headword: DISTILLATION
+  Containing article: DISTICHIASIS (1815)
+  Bloat ratio: 16.7x | Expected word count: 12,590
+  File: eb_5th_1815_v07_CUB-DIR.jsonl @ position 1710493 (32.5%)
+  Context: ...nippers, and cauterizing the pores out of which they issued.[\n\nDISTILLATION. F]or the principles of this process, see Chemistry Index.\n\nThe...
+
+--- #57 [MEDIUM] impact=202,710 ---
+  Absorbed headword: KINGSTON
+  Containing article: KINGDOM (1823)
+  Bloat ratio: 87.0x | Expected word count: 2,330
+  File: eb_6th_1823_v11_ENL-LIE.jsonl @ position 2970278 (58.7%)
+  Context: ...° 20'. N. Lat. 53° 15'. It is otherwise called Philips-Town.[\n\nKingston, a ]town of Jamaica, seated on the north side of the bay of Port...
+
+--- #58 [MEDIUM] impact=198,400 ---
+  Absorbed headword: DAMASCUS
+  Containing article: DACTYLIS (1771)
+  Bloat ratio: 62.0x | Expected word count: 3,200
+  File: eb_1st_1771_v02_INT-LOG.jsonl @ position 1828913 (33.5%)
+  Context: ...0' E. long. and 20° N. lat. It is subject to the Portuguese.[\n\nDamascus, or ]Scham, the capital city of the south part of Syria, situated...
+
+--- #59 [HIGH] impact=191,464 ---
+  Absorbed headword: LIGHT
+  Containing article: LIGATURE (1797)
+  Bloat ratio: 14.0x | Expected word count: 13,676
+  File: eb_3rd_1797_v10_IND-MEC.jsonl @ position 236942 (5.0%)
+  Context: ...een rendered almost impracticable to the learned themselves.[\n\nLight, in ]the most common acceptation of the word, signifies that invi...
+
+--- #60 [MEDIUM] impact=184,139 ---
+  Absorbed headword: INK
+  Containing article: INJUNCTION (1860)
+  Bloat ratio: 29.5x | Expected word count: 6,242
+  File: eb_8th_1860_v12_PRI-JOM.jsonl @ position 2707437 (46.2%)
+  Context: ...terwards determined. It is then called an interim interdict.[\n\nINK. T]he term ink is usually restricted to the fluid employed in w...
+
+--- #61 [HIGH] impact=181,296 ---
+  Absorbed headword: DISTILLATION
+  Containing article: DISTICHIASIS (1823)
+  Bloat ratio: 14.4x | Expected word count: 12,590
+  File: eb_6th_1823_v07_ENL-ELE.jsonl @ position 1662892 (32.3%)
+  Context: ...nippers, and cauterizing the pores out of which they issued.[\n\nDISTILLATION. F]or the principles of this process, see Distillation, Supplem...
+
+--- #62 [MEDIUM] impact=167,350 ---
+  Absorbed headword: INTEREST
+  Containing article: INTERDICT (1842)
+  Bloat ratio: 13.2x | Expected word count: 12,678
+  File: eb_7th_1842_v12_DEF-PLA.jsonl @ position 2244032 (40.7%)
+  Context: ...life, they were doubtless under a sentence of proscription.\n[\nINTEREST\n\n]Is the sum which the borrower of a capital obliges himself t...
+
+--- #63 [MEDIUM] impact=131,563 ---
+  Absorbed headword: MAGDEBURG
+  Containing article: MAGDALENA (1797)
+  Bloat ratio: 71.0x | Expected word count: 1,853
+  File: eb_3rd_1797_v10_IND-MEC.jsonl @ position 2430383 (51.5%)
+  Context: ...ded with magnificent pillars, some entire and others broken.[\n\nMagdeburg, a ]duchy of Germany, in the circle of Lower Saxony; bounded on ...
+
+--- #64 [MEDIUM] impact=131,378 ---
+  Absorbed headword: DAMASK
+  Containing article: DACTYLIS (1771)
+  Bloat ratio: 62.0x | Expected word count: 2,119
+  File: eb_1st_1771_v02_INT-LOG.jsonl @ position 1829111 (33.5%)
+  Context: ..., and fruitful plain; E. long. 37° 20', and N. lat. 33° 15'.[\n\nDamask, a ]silk-stuff, with a raised pattern, so as that the right side...
+
+--- #65 [MEDIUM] impact=129,033 ---
+  Absorbed headword: GRASSHOPPER
+  Containing article: GRASS (1797)
+  Bloat ratio: 59.0x | Expected word count: 2,187
+  File: eb_3rd_1797_v08_IND-HYD.jsonl @ position 697999 (13.7%)
+  Context: ... will rarely continue handsome more than eight or ten years.[\n\nGrasshopper, in ]zoology, a species of gryllus. See Gryllus.\n\nGratarolus (Wil...
+
+--- #66 [MEDIUM] impact=125,928 ---
+  Absorbed headword: AUGUSTIN
+  Containing article: AUGURY (1797)
+  Bloat ratio: 108.0x | Expected word count: 1,166
+  File: eb_3rd_1797_v02_IND-BAR.jsonl @ position 4354002 (85.4%)
+  Context: ...er provinces.\n\nAugustan Confession. See Augsburg Confession.[\n\nAugustin, or ]Austin, (St.), the first archbishop of Canterbury, was origi...
+
+--- #67 [MEDIUM] impact=111,022 ---
+  Absorbed headword: HIPPOPOTAMUS
+  Containing article: HIPPOMANE (1771)
+  Bloat ratio: 16.7x | Expected word count: 6,648
+  File: eb_1st_1771_v02_INT-LOG.jsonl @ position 4077500 (74.8%)
+  Context: ...es, fallow-thorn, or sea buck-thorn, is a native of Britain.[\n\nHippopotamus, the ]river horse, a genus of quadrupeds, belonging to the order o...
+
+--- #68 [MEDIUM] impact=109,916 ---
+  Absorbed headword: LAURO
+  Containing article: LAURENTIUS (1815)
+  Bloat ratio: 700.1x | Expected word count: 157
+  File: eb_5th_1815_v11_ENL-LIE.jsonl @ position 3742909 (72.8%)
+  Context: ... works are eagerly bought up at high prices all over Europe.[\n\nLauro, or ]Lauron, in Ancient Geography, a town of the Hither Spain, wh...
+
+--- #69 [MEDIUM] impact=104,670 ---
+  Absorbed headword: AURORA BOREALIS
+  Containing article: AURORA (1810)
+  Bloat ratio: 10.0x | Expected word count: 10,467
+  File: eb_4th_1810_v03_ASS-BAR.jsonl @ position 1753777 (69.3%)
+  Context: ..., and very probably does, ascend much higher. Dr Blagden, in[\nAurora Borealis\n\n]deed, informs us, that instances are recorded, where the nor...
+
+--- #70 [MEDIUM] impact=99,532 ---
+  Absorbed headword: DELPHOS
+  Containing article: DELPHINUS (1797)
+  Bloat ratio: 167.0x | Expected word count: 596
+  File: eb_3rd_1797_v05_TRE-DIA.jsonl @ position 4623307 (89.6%)
+  Context: ...s, in astronomy, a constellation of the northern hemisphere.[\n\nDelphos, a ]town, or rather village, of Turkey in Asia, in the province ...
+
+--- #71 [MEDIUM] impact=97,944 ---
+  Absorbed headword: SILESIA
+  Containing article: SIGNATURE (1823)
+  Bloat ratio: 56.0x | Expected word count: 1,749
+  File: eb_6th_1823_v19_ENL-SUG.jsonl @ position 2189318 (42.8%)
+  Context: ...nged under the 2nd order, Caryophyllaceae. See Botany Index.[\n\nSilesia, a ]duchy of Germany, bounded on the east by Poland; on the west...
+
+--- #72 [MEDIUM] impact=93,636 ---
+  Absorbed headword: AUGUSTINE
+  Containing article: AUGURY (1797)
+  Bloat ratio: 108.0x | Expected word count: 867
+  File: eb_3rd_1797_v02_IND-BAR.jsonl @ position 4360906 (85.5%)
+  Context: ...as since been restored to Spain by the treaty of peace 1783.[\n\nAugustine, a ]cape of South America W. Long. 35° 4', S. Lat. 8° 30'.\n\nAugu...
+
+--- #73 [MEDIUM] impact=92,550 ---
+  Absorbed headword: FRAMLINGHAM
+  Containing article: FRAME (1823)
+  Bloat ratio: 617.0x | Expected word count: 150
+  File: eb_6th_1823_v09_FOR-DIR.jsonl @ position 332191 (6.6%)
+  Context: ...eat to small; or, to augment their size from small to great.[\n\nFramlingham, a ]town in Sussex, 88 miles from London. It is a large old plac...
+
+--- #74 [MEDIUM] impact=92,342 ---
+  Absorbed headword: TREE
+  Containing article: TREASURY (1823)
+  Bloat ratio: 18.3x | Expected word count: 5,046
+  File: eb_6th_1823_v20_ENL-ZYG.jsonl @ position 2955631 (57.0%)
+  Context: ...g stool. Also a great engine to cast stones to batter walls.[\n\nTree, a ]large vegetable, rising with one woody stem to a considerabl...
+
+--- #75 [MEDIUM] impact=89,915 ---
+  Absorbed headword: HUSSITES
+  Containing article: HUSBANDRY (1797)
+  Bloat ratio: 92.6x | Expected word count: 971
+  File: eb_3rd_1797_v08_IND-HYD.jsonl @ position 5035754 (98.8%)
+  Context: ... greatest number of troops under this name in their service.[\n\nHussites, in ]ecclesiastical history, a party of reformers, the followers ...
+
+--- #76 [MEDIUM] impact=74,802 ---
+  Absorbed headword: NUTRITION
+  Containing article: NUTMEG (1860)
+  Bloat ratio: 42.0x | Expected word count: 1,781
+  File: eb_8th_1860_v16_ADA-TSC.jsonl @ position 2990284 (49.1%)
+  Context: ...s.) The duty on nutmegs is one shilling per pound.\n\n(T.C.A.)[\n\nNUTRITION. S]ee Food, and Dietetics.\n\nNUTS. The term nut is applied to th...
+
+--- #77 [MEDIUM] impact=71,859 ---
+  Absorbed headword: MARBLING
+  Containing article: MARASMUS (1771)
+  Bloat ratio: 51.0x | Expected word count: 1,409
+  File: eb_1st_1771_v03_INT-COR.jsonl @ position 156288 (3.4%)
+  Context: ...ersity of Oxford by Thomas earl of Arundel, whence the name.[\n\nMarbling, in ]general, the painting anything with veins and clouds, so as ...
+
+--- #78 [MEDIUM] impact=70,316 ---
+  Absorbed headword: SERPENT
+  Containing article: SERPENS (1797)
+  Bloat ratio: 10.9x | Expected word count: 6,451
+  File: eb_3rd_1797_v17_TRE-STR.jsonl @ position 1997661 (37.3%)
+  Context: ...ppliants, much benefited by the serpent’s supposed embraces.[\n\nSerpent, a ]musical instrument, serving as a bass to the cornet, or smal...
+
+--- #79 [MEDIUM] impact=68,972 ---
+  Absorbed headword: AUGUSTINS
+  Containing article: AUGUST (1810)
+  Bloat ratio: 27.8x | Expected word count: 2,481
+  File: eb_4th_1810_v03_ASS-BAR.jsonl @ position 1701664 (67.3%)
+  Context: ...e, a cape of South America. W. Long. 35° 4'. S. Lat. 8° 30'.[\n\nAugustins, or ]Augustinians, an order of religious; thus called from St Aug...
+
+--- #80 [MEDIUM] impact=61,184 ---
+  Absorbed headword: DISTRESS
+  Containing article: DISTICHIASIS (1797)
+  Bloat ratio: 17.1x | Expected word count: 3,578
+  File: eb_3rd_1797_v06_IND-ETH.jsonl @ position 401070 (7.7%)
+  Context: ...ert eternal Providence,\nAnd justify the ways of God to man."[\n\nDistress, in ]law, the seizing or distraining any thing for rent in arrear...
+
+
+==========================================================================================
+UNRESOLVED BLOATED ARTICLES (329 — no OCR match found)
+==========================================================================================
+  20068.7x | 3rd v16 |  238 ents (med 3) | RIVERS                              | expected: 
+  18992.3x | 6th v18 |  204 ents (med 3) | RIVERS                              | expected: 
+  6134.0x | 7th v15 |  408 ents (med 5) | MINES                               | expected: MINGRELIA(2,247wc)
+  2202.0x | 8th v21 |  220 ents (med 10) | WELLINGTON                          | expected: 
+  2097.8x | 3rd v 6 |  397 ents (med 31) | ETHIOPIA                            | expected: MEDICINE(329,091wc), FRANCE(271,311wc), ZURICH(221
+  1325.7x | 7th v20 |  475 ents (med 32) | SPAHIS                              | expected: SPAIN(67,223wc), SPALATRO(2,981wc)
+   999.0x | 3rd v14 |  999 ents (med 0) | PHARMACY                            | expected: PHAROS(2,490wc)
+   860.0x | 7th v17 |  860 ents (med 0) | PHYSIC                              | expected: PHYSICAL GEOGRAPHY(99,074wc), PHYSICAL(41wc)
+   437.5x | 7th v 8 |  992 ents (med 294) | EGREMONT                            | expected: EGYPT(124,241wc), EGRET(11wc)
+   419.0x | 3rd v16 |  419 ents (med 1) | REVERSION                           | expected: REVIVIFICATION(878wc)
+   389.0x | 8th v15 |  389 ents (med 0) | MOLLUSCA                            | expected: 
+   302.1x | 4th v11 |  203 ents (med 384) | LAUSANNE                            | expected: 
+   291.0x | 6th v13 |  291 ents (med 0) | MEWING                              | expected: MEXICO(60,496wc)
+   273.2x | 8th v11 |  317 ents (med 152) | HINDU COOSH                         | expected: 
+   266.0x | 7th v19 |  266 ents (med 0) | REPTILIA                            | expected: 
+   263.0x | 3rd v11 |  263 ents (med 0) | METALLURGY                          | expected: 
+   262.8x | 8th v12 | 1051 ents (med 4) | IVORY                               | expected: JURISPRUDENCE(20,136wc), JUSTIN(14,340wc), JUSTICE
+   236.0x | 4th v17 |  236 ents (med 0) | MONETARIUS                          | expected: 
+   233.6x | 8th v13 |  378 ents (med 227) | LIEGNITZ                            | expected: LIGATURE(19,948wc), LIGHTNING(18,352wc), LIGHT(13,
+   216.0x | 8th v17 |  216 ents (med 1) | OUTLAW                              | expected: 
+   212.0x | 3rd v 6 |  212 ents (med 0) | EARTHQUAKE                          | expected: 
+   197.0x | 7th v15 |  197 ents (med 0) | MONETARIUS                          | expected: MONEY(91,190wc)
+   195.0x | 7th v18 |  195 ents (med 0) | POLYHEDRON                          | expected: POLYMNIA(60wc), POLYMATHY(20wc)
+   194.0x | 8th v14 |  194 ents (med 0) | METEMPSYCHOSIS                      | expected: METEOR(17,382wc), METEOROLOGICAL(537wc)
+   188.0x | 7th v21 |  188 ents (med 0) | TIMBER                              | expected: TIMBUCTOO(1,558wc), TIMBERS(365wc)
+   182.0x | 7th v19 |  182 ents (med 0) | RITUAL                              | expected: RIVER(59,418wc), RIVAL(123wc)
+   180.0x | 7th v15 |  180 ents (med 0) | MOLLUSCA                            | expected: 
+   176.0x | 8th v21 |  176 ents (med 0) | TIMBER                              | expected: TIMBERS(365wc)
+   173.0x | 8th v18 |  173 ents (med 0) | POSTLIMINIUM                        | expected: 
+   171.0x | 7th v20 |  171 ents (med 0) | SURD                                | expected: SURGERY(147,682wc), SURGEON(56,507wc), SURFEIT(110
+   170.0x | 6th v13 |  170 ents (med 0) | METEMPSYCHOSIS                      | expected: METEOR(17,382wc)
+   150.0x | 7th v19 |  150 ents (med 1) | SCOTAL                              | expected: 
+   144.0x | 7th v14 |  144 ents (med 0) | METEMPSYCHOSIS                      | expected: METEOR(17,382wc), METEOROLOGICAL(537wc)
+   140.0x | 7th v 8 |  140 ents (med 0) | DOMINATION                          | expected: DOMINGO(11,099wc)
+   140.0x | 2nd v 1 |  140 ents (med 0) | ADZE                                | expected: AE(5,833wc)
+   135.0x | 6th v501 |  135 ents (med 0) | DRAMA                               | expected: DRYDEN(51,592wc), DRYANDER(15,950wc), DRONE(10,263
+   135.0x | 3rd v 3 |  135 ents (med 0) | BOYAU                               | expected: BOYLE(12,649wc), BOYNE(7,637wc), BOYER(5,931wc)
+   131.0x | 4th v16 |  393 ents (med 3) | PRESCRIPTION                        | expected: 
+   129.0x | 6th v13 |  129 ents (med 0) | MEASLES                             | expected: MEASURE(8,950wc)
+   125.0x | 2nd v 7 |  125 ents (med 0) | METALLURGY                          | expected: 
+   123.0x | 7th v21 |  123 ents (med 0) | VALVE                               | expected: VAN(7,794wc)
+   115.0x | 8th v 8 |  115 ents (med 0) | DRAMA                               | expected: DRAMATIC(13wc)
+   114.0x | 7th v16 |  114 ents (med 0) | CANAL                               | expected: CANADA(36,373wc)
+   114.0x | 3rd v 1 |  114 ents (med 0) | AMERCEMENT                          | expected: 
+   108.0x | 8th v21 |  108 ents (med 1) | VAN                                 | expected: 
+   108.0x | 8th v 3 |  108 ents (med 0) | ARABESQUE                           | expected: 
+   107.0x | 8th v 9 |  107 ents (med 1) | FORESTALLING                        | expected: FORFAR(3,733wc), FORESTER(142wc), FORETHOUGHT FELO
+   107.0x | 6th v 1 |  107 ents (med 0) | ANTE                                | expected: ANTEDILUVIANS(17,954wc), ANTIQUITIES(15,149wc), AN
+   106.0x | 3rd v 1 |  106 ents (med 0) | AFRANIUS                            | expected: AFRICA(25,288wc)
+   106.0x | 6th v14 |  106 ents (med 0) | NAVEL                               | expected: 
+   103.0x | 5th v 5 |  103 ents (med 0) | CANAL                               | expected: CANARA(10,115wc), CANARY(6,128wc)
+   101.0x | 8th v 4 |  101 ents (med 1) | BENEDICTION                         | expected: BENGAL(8,228wc), BENEVENTO(1,389wc), BENEFICE(849w
+    98.0x | 3rd v17 |   98 ents (med 1) | SILPHIUM                            | expected: 
+    94.0x | 8th v19 |   94 ents (med 0) | REPTILIA                            | expected: 
+    92.0x | 8th v11 |   92 ents (med 1) | HORSEMANSHIP                        | expected: 
+    92.0x | 2nd v 9 |   92 ents (med 1) | SALMO                               | expected: 
+    91.5x | 6th v 1 |  183 ents (med 2) | ARITHMETIC                          | expected: ASIA(82,340wc), ARMY(46,348wc), ARMUYDEN(32,180wc)
+    90.0x | 4th v18 |   90 ents (med 1) | SCIENCE                             | expected: 
+    90.0x | 8th v21 |   90 ents (med 1) | TOBACCO                             | expected: 
+    89.0x | 7th v 9 |   89 ents (med 0) | ENGRAILED                           | expected: ENGRAVING(13,798wc)

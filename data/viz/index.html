@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head><title>Encyclopedia Britannica Commodity-Place Co-occurrence</title>
+<style>
+body { font-family: Georgia, serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; }
+h1 { border-bottom: 2px solid #8B4513; padding-bottom: 10px; }
+h2 { color: #8B4513; margin-top: 30px; }
+a { color: #8B4513; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.grid a { padding: 8px 12px; background: #f5f0eb; border-radius: 4px; text-decoration: none; }
+.grid a:hover { background: #e8ddd3; }
+p.method { font-size: 0.9em; color: #666; line-height: 1.6; }
+</style></head><body>
+<h1>Commodity-Place Co-occurrence in the Encyclopedia Britannica</h1>
+<p class="method">
+Analysis of 1.15 million named entities extracted from 8 editions (1771-1860) using
+<a href="https://github.com/jacobpol/earlymodernner">EarlyModernNER</a>.
+Co-occurrence is measured within a 150-word window in the article text,
+providing paragraph-level locality rather than article-level association.
+</p>
+
+<h2>Commodity Geography Over Time</h2>
+<p>How does the geography of each commodity shift across editions?</p>
+<div class="grid">
+<a href="bump_sugar.html">Sugar</a>
+<a href="bump_cotton.html">Cotton</a>
+<a href="bump_opium.html">Opium</a>
+<a href="bump_indigo.html">Indigo</a>
+<a href="bump_tea.html">Tea</a>
+<a href="bump_slaves.html">Slaves</a>
+<a href="bump_wool.html">Wool</a>
+<a href="bump_gold.html">Gold</a>
+<a href="bump_coffee.html">Coffee</a>
+<a href="bump_ivory.html">Ivory</a>
+<a href="bump_tobacco.html">Tobacco</a>
+<a href="bump_silk.html">Silk</a>
+</div>
+
+<h2>Place Commodity Profiles</h2>
+<p>What commodities does the Britannica associate with each place?</p>
+<div class="grid">
+<a href="place_china.html">China</a>
+<a href="place_india.html">India</a>
+<a href="place_jamaica.html">Jamaica</a>
+<a href="place_brazil.html">Brazil</a>
+<a href="place_canada.html">Canada</a>
+<a href="place_gold_coast.html">Gold Coast</a>
+<a href="place_egypt.html">Egypt</a>
+<a href="place_turkey.html">Turkey</a>
+<a href="place_mexico.html">Mexico</a>
+<a href="place_west_indies.html">West Indies</a>
+</div>
+
+<h2>Heatmap Overview</h2>
+<p><a href="heatmap_places.html">Combined heatmap</a> — Six key places side by side</p>
+
+</body></html>

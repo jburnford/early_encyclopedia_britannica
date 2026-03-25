@@ -33,8 +33,9 @@ cd "$REPO"
 total=0
 for year in 1771 1778 1797 1810 1815 1823 1842 1860; do
     # Get volume list for this edition
+    # Output format: "Volumes for 1771: [2, 3]" — extract numbers from inside brackets
     volumes=$(python graphrag/run_ner.py --edition-year "$year" --list-volumes 2>/dev/null \
-        | grep -oP '\d+' | tr '\n' ' ')
+        | sed 's/.*\[//;s/\]//' | tr ',' '\n' | tr -d ' ' | grep -v '^$')
 
     if [[ -z "$volumes" ]]; then
         echo "WARNING: No volumes found for $year, submitting whole-edition job"

@@ -3,6 +3,7 @@ data/articles/
 data/export/
 data/ocr/organized/
 data/vlm/
+data/ner/
 old/
 
 # Generated outputs
@@ -19,3 +20,5 @@ venv/
 .DS_Store
 *.log
 .env
+.claude/
+*.out

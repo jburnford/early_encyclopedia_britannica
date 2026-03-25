@@ -6,7 +6,7 @@ from pathlib import Path
 REPO_DIR = Path(__file__).resolve().parent.parent
 
 # Paths — relative to repo root
-INPUT_DIR = REPO_DIR / "data" / "ocr"
+INPUT_DIR = REPO_DIR / "data" / "ocr" / "organized"
 OUTPUT_DIR = REPO_DIR / "data"
 PARAGRAPHS_DIR = OUTPUT_DIR / "paragraphs"
 CLASSIFICATIONS_DIR = OUTPUT_DIR / "classifications"
@@ -14,7 +14,7 @@ ARTICLES_DIR = OUTPUT_DIR / "articles"
 EXPORT_DIR = OUTPUT_DIR / "export"
 SITE_DIR = REPO_DIR / "docs"
 DEDUP_MANIFEST = OUTPUT_DIR / "dedup_manifest.json"
-OCR_MANIFEST = INPUT_DIR / "ocr_manifest.json"
+OCR_MANIFEST = REPO_DIR / "data" / "ocr" / "ocr_manifest.json"
 COMPARISON_REPORT = OUTPUT_DIR / "comparison_report.json"
 ORDER_AUDIT_REPORT = OUTPUT_DIR / "order_audit_report.json"
 
