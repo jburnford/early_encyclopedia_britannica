@@ -3,7 +3,11 @@ data/articles/
 data/export/
 data/ocr/organized/
 data/vlm/
-data/ner/
+data/ner/*
+!data/ner/person_matches.jsonl
+!data/ner/person_clusters.jsonl
+!data/ner/person_candidates.jsonl
+!data/ner/person_lookup_queue.jsonl
 old/
 
 # Generated outputs
