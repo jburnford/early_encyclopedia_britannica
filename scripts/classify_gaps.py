@@ -312,24 +312,29 @@ def main():
             variant_match = None
             swallowed_by = None
 
-            # Signal 1: Variant headword
-            variant = find_variant(norm, title, missing_year, by_year_norm)
-            if variant:
-                vt, vwc, vtype = variant
-                classification = 'VARIANT'
-                confidence = 0.85
-                evidence = f'{vtype}: found as "{vt}" ({vwc:,}w)'
-                variant_match = {'title': vt, 'word_count': vwc, 'match_type': vtype}
+            # Signal 1: Swallowed article detection (strongest signal, check first)
+            # Prefix matches like STEAM→STEAM-ENGINE are the host that swallowed it
+            swallowed = find_swallowed(title, missing_year, mega)
+            if swallowed:
+                st, swc, sdesc = swallowed
+                classification = 'SWALLOWED'
+                confidence = 0.90
+                evidence = f'Found inside "{st}" ({swc:,}w) — {sdesc}'
+                swallowed_by = {'title': st, 'word_count': swc}
 
-            # Signal 2: Swallowed (only if not already classified)
+            # Signal 2: Variant headword (only if not swallowed)
             if not classification:
-                swallowed = find_swallowed(title, missing_year, mega)
-                if swallowed:
-                    st, swc, sdesc = swallowed
-                    classification = 'SWALLOWED'
-                    confidence = 0.90
-                    evidence = f'Found inside "{st}" ({swc:,}w) — {sdesc}'
-                    swallowed_by = {'title': st, 'word_count': swc}
+                variant = find_variant(norm, title, missing_year, by_year_norm)
+                if variant:
+                    vt, vwc, vtype = variant
+                    # Reject variant if matched article is tiny compared to expected
+                    if median_wc > 5000 and vwc < median_wc * 0.1:
+                        pass  # reject — too small to be a real variant
+                    else:
+                        classification = 'VARIANT'
+                        confidence = 0.85
+                        evidence = f'{vtype}: found as "{vt}" ({vwc:,}w)'
+                        variant_match = {'title': vt, 'word_count': vwc, 'match_type': vtype}
 
             # Signal 3: OCR coverage
             if not classification:
