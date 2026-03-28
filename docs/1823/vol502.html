@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume 502 - 1823 - Encyclopaedia Britannica Historical Corpus</title>
+    <style>
+:root {
+    --bg-primary: #faf8f5;
+    --bg-secondary: #fff;
+    --text-primary: #2c2c2c;
+    --text-secondary: #666;
+    --accent: #8b4513;
+    --accent-light: #d4a574;
+    --border: #e0d8d0;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 0;
+    border-bottom: 2px solid var(--border);
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+}
+
+header .subtitle {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+nav {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+}
+
+nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+
+nav a:hover { text-decoration: underline; }
+
+.breadcrumb {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a { color: var(--accent); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+
+.edition-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.edition-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.edition-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.edition-card h2 {
+    color: var(--accent);
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.edition-card .year {
+    font-size: 2rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.edition-card .stats {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.edition-card a.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--bg-secondary);
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.edition-card a.btn:hover { background: var(--accent-light); }
+
+.volume-list { list-style: none; }
+
+.volume-list li {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.volume-list a {
+    display: block;
+    padding: 1rem;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.volume-list a:hover { background: var(--bg-primary); }
+
+.volume-list .meta {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.article-list { list-style: none; }
+
+.article-item {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+
+.article-header {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s;
+}
+
+.article-header:hover { background: var(--bg-primary); }
+
+.article-header h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--accent);
+}
+
+.article-header .meta {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    margin-left: 1rem;
+}
+
+.article-header .badge {
+    background: var(--accent-light);
+    color: white;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.article-header .badge.treatise { background: #8b4513; }
+.article-header .badge.xref { background: #6a5acd; }
+
+.article-content {
+    padding: 1rem;
+    border-top: 1px solid var(--border);
+    display: none;
+    background: #fffef8;
+}
+
+.article-content.show { display: block; }
+
+.article-text {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.article-actions {
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--border);
+}
+
+.article-actions button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-right: 0.5rem;
+}
+
+.article-actions button:hover { background: var(--accent-light); }
+
+.loading {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.search-box {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-family: inherit;
+}
+
+.search-box:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.search-results { margin-top: 1rem; }
+
+.search-result {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+}
+
+.search-result h4 { color: var(--accent); margin-bottom: 0.3rem; }
+.search-result .edition { color: var(--text-secondary); font-size: 0.85rem; }
+.search-result a { color: var(--accent); }
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.stats-table th, .stats-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.stats-table th { background: var(--bg-primary); color: var(--accent); }
+.stats-table tr:hover { background: var(--bg-primary); }
+.stats-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.filter-bar {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.filter-bar input {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.filter-bar select {
+    padding: 0.5rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+/* Bar charts for stats page */
+.bar-chart { margin: 1.5rem 0; }
+
+.bar-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.bar-label {
+    width: 120px;
+    font-size: 0.9rem;
+    text-align: right;
+    padding-right: 1rem;
+    color: var(--text-secondary);
+}
+
+.bar-track {
+    flex: 1;
+    background: var(--bg-primary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    height: 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.3s;
+    min-width: 2px;
+}
+
+.bar-value {
+    width: 100px;
+    font-size: 0.85rem;
+    padding-left: 0.75rem;
+    color: var(--text-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+.stat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.stat-card .value {
+    font-size: 2rem;
+    color: var(--accent);
+    font-weight: bold;
+}
+
+.stat-card .label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Letter-range navigation for split volumes */
+.letter-nav {
+    background: var(--bg-secondary);
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.letter-nav a {
+    color: var(--accent);
+    text-decoration: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.letter-nav a:hover { background: var(--bg-primary); text-decoration: underline; }
+.letter-nav a.current { background: var(--accent); color: white; }
+.letter-nav .sep { color: var(--text-secondary); margin: 0 0.2rem; }
+
+/* Split volume sub-links on edition index */
+.volume-splits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.volume-splits a {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.volume-splits a:hover { background: var(--bg-primary); }
+
+/* Markdown-rendered article text */
+.article-text p { margin-bottom: 0.8em; }
+.article-text table { border-collapse: collapse; margin: 1em 0; width: 100%; font-size: 0.9rem; }
+.article-text th, .article-text td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; }
+.article-text th { background: var(--bg-primary); }
+
+@media (max-width: 600px) {
+    .container { padding: 1rem; }
+    header h1 { font-size: 1.8rem; }
+    .edition-grid { grid-template-columns: 1fr; }
+    .stat-cards { grid-template-columns: 1fr 1fr; }
+    .bar-label { width: 80px; font-size: 0.8rem; }
+    .bar-value { width: 80px; }
+    .letter-nav { font-size: 0.85rem; }
+    .letter-nav a { padding: 0.2rem 0.4rem; }
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="breadcrumb"><a href="../index.html">Home</a> &raquo; <a href="index.html">1823 Edition</a> &raquo; Volume 502</div>
+        
+    <header>
+        <h1>Volume 502</h1>
+        <p class="subtitle">Sixth Edition (1823)</p>
+    </header>
+
+    
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../search.html">Search</a>
+        <a href="../stats.html">Statistics</a>
+        <a href="../about.html">About</a>
+    </nav>
+
+    
+
+    <p>This volume contains <strong>127 entries</strong>.
+    Click on an article to view its full text.</p>
+
+    <div class="filter-bar">
+        <input type="text" id="filterInput" placeholder="Filter articles..." onkeyup="filterArticles()">
+        <select id="typeFilter" onchange="filterArticles()">
+            <option value="all">All Types</option>
+            <option value="article">Articles</option>
+            <option value="cross_reference">Cross-references</option>
+            <option value="treatise">Treatises</option>
+        </select>
+    </div>
+
+    <ul class="article-list" id="articleList">
+        
+        <li class="article-item" id="article-AND_SECRETARY_OF_THE_ROYAL_SOCIETY_OF_EDINBURGH" data-idx="0" data-type="article">
+            <div class="article-header" onclick="toggleArticle(0)">
+                <h3>AND SECRETARY OF THE ROYAL SOCIETY OF EDINBURGH<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">60,093 words</span>
+            </div>
+            <div class="article-content" id="content-0">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AUSTRALASIA" data-idx="1" data-type="article">
+            <div class="article-header" onclick="toggleArticle(1)">
+                <h3>AUSTRALASIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">19,107 words</span>
+            </div>
+            <div class="article-content" id="content-1">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AUSTRIA" data-idx="2" data-type="article">
+            <div class="article-header" onclick="toggleArticle(2)">
+                <h3>AUSTRIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,637 words</span>
+            </div>
+            <div class="article-content" id="content-2">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AYRSHIRE" data-idx="3" data-type="article">
+            <div class="article-header" onclick="toggleArticle(3)">
+                <h3>AYRSHIRE</h3>
+                <span class="meta">1,791 words</span>
+            </div>
+            <div class="article-content" id="content-3">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-AZORES" data-idx="4" data-type="article">
+            <div class="article-header" onclick="toggleArticle(4)">
+                <h3>AZORES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,290 words</span>
+            </div>
+            <div class="article-content" id="content-4">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BACON" data-idx="5" data-type="article">
+            <div class="article-header" onclick="toggleArticle(5)">
+                <h3>BACON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,904 words</span>
+            </div>
+            <div class="article-content" id="content-5">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BALANCE_OF_POWER" data-idx="6" data-type="article">
+            <div class="article-header" onclick="toggleArticle(6)">
+                <h3>BALANCE OF POWER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">8,484 words</span>
+            </div>
+            <div class="article-content" id="content-6">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BALDINGER" data-idx="7" data-type="article">
+            <div class="article-header" onclick="toggleArticle(7)">
+                <h3>BALDINGER</h3>
+                <span class="meta">472 words</span>
+            </div>
+            <div class="article-content" id="content-7">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BALM_OF_GILEAD" data-idx="8" data-type="article">
+            <div class="article-header" onclick="toggleArticle(8)">
+                <h3>BALM OF GILEAD<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,486 words</span>
+            </div>
+            <div class="article-content" id="content-8">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAMBOO" data-idx="9" data-type="article">
+            <div class="article-header" onclick="toggleArticle(9)">
+                <h3>BAMBOO</h3>
+                <span class="meta">2,470 words</span>
+            </div>
+            <div class="article-content" id="content-9">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANDA_ISLANDS" data-idx="10" data-type="article">
+            <div class="article-header" onclick="toggleArticle(10)">
+                <h3>BANDA ISLANDS</h3>
+                <span class="meta">3,086 words</span>
+            </div>
+            <div class="article-content" id="content-10">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANDELLO" data-idx="11" data-type="article">
+            <div class="article-header" onclick="toggleArticle(11)">
+                <h3>BANDELLO</h3>
+                <span class="meta">1,303 words</span>
+            </div>
+            <div class="article-content" id="content-11">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANDINI" data-idx="12" data-type="article">
+            <div class="article-header" onclick="toggleArticle(12)">
+                <h3>BANDINI</h3>
+                <span class="meta">754 words</span>
+            </div>
+            <div class="article-content" id="content-12">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANFFSHIRE" data-idx="13" data-type="article">
+            <div class="article-header" onclick="toggleArticle(13)">
+                <h3>BANFFSHIRE</h3>
+                <span class="meta">1,201 words</span>
+            </div>
+            <div class="article-content" id="content-13">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANKING" data-idx="14" data-type="article">
+            <div class="article-header" onclick="toggleArticle(14)">
+                <h3>BANKING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">15,476 words</span>
+            </div>
+            <div class="article-content" id="content-14">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANKS_FOR_SAVINGS" data-idx="15" data-type="article">
+            <div class="article-header" onclick="toggleArticle(15)">
+                <h3>BANKS FOR SAVINGS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,944 words</span>
+            </div>
+            <div class="article-content" id="content-15">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BANNOCKBURN" data-idx="16" data-type="article">
+            <div class="article-header" onclick="toggleArticle(16)">
+                <h3>BANNOCKBURN</h3>
+                <span class="meta">3,246 words</span>
+            </div>
+            <div class="article-content" id="content-16">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARBARY_STATES" data-idx="17" data-type="article">
+            <div class="article-header" onclick="toggleArticle(17)">
+                <h3>BARBARY STATES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,578 words</span>
+            </div>
+            <div class="article-content" id="content-17">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARLOW" data-idx="18" data-type="article">
+            <div class="article-header" onclick="toggleArticle(18)">
+                <h3>BARLOW</h3>
+                <span class="meta">1,510 words</span>
+            </div>
+            <div class="article-content" id="content-18">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAROMETER" data-idx="19" data-type="article">
+            <div class="article-header" onclick="toggleArticle(19)">
+                <h3>BAROMETER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">22,192 words</span>
+            </div>
+            <div class="article-content" id="content-19">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARRACKS" data-idx="20" data-type="article">
+            <div class="article-header" onclick="toggleArticle(20)">
+                <h3>BARRACKS</h3>
+                <span class="meta">1,414 words</span>
+            </div>
+            <div class="article-content" id="content-20">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARRY" data-idx="21" data-type="article">
+            <div class="article-header" onclick="toggleArticle(21)">
+                <h3>BARRY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,228 words</span>
+            </div>
+            <div class="article-content" id="content-21">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BARTHEZ" data-idx="22" data-type="article">
+            <div class="article-header" onclick="toggleArticle(22)">
+                <h3>BARTHEZ</h3>
+                <span class="meta">4,517 words</span>
+            </div>
+            <div class="article-content" id="content-22">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BASEDOW" data-idx="23" data-type="article">
+            <div class="article-header" onclick="toggleArticle(23)">
+                <h3>BASEDOW</h3>
+                <span class="meta">2,640 words</span>
+            </div>
+            <div class="article-content" id="content-23">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BASKET_MAKING" data-idx="24" data-type="article">
+            <div class="article-header" onclick="toggleArticle(24)">
+                <h3>BASKET-MAKING</h3>
+                <span class="meta">4,337 words</span>
+            </div>
+            <div class="article-content" id="content-24">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BATHING" data-idx="25" data-type="article">
+            <div class="article-header" onclick="toggleArticle(25)">
+                <h3>BATHING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,035 words</span>
+            </div>
+            <div class="article-content" id="content-25">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BATNEARS" data-idx="26" data-type="article">
+            <div class="article-header" onclick="toggleArticle(26)">
+                <h3>BATNEARS</h3>
+                <span class="meta">2,301 words</span>
+            </div>
+            <div class="article-content" id="content-26">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAVARIA" data-idx="27" data-type="article">
+            <div class="article-header" onclick="toggleArticle(27)">
+                <h3>BAVARIA</h3>
+                <span class="meta">1,920 words</span>
+            </div>
+            <div class="article-content" id="content-27">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAYEN" data-idx="28" data-type="article">
+            <div class="article-header" onclick="toggleArticle(28)">
+                <h3>BAYEN</h3>
+                <span class="meta">703 words</span>
+            </div>
+            <div class="article-content" id="content-28">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BAZEEGURS" data-idx="29" data-type="article">
+            <div class="article-header" onclick="toggleArticle(29)">
+                <h3>BAZEEGURS</h3>
+                <span class="meta">2,906 words</span>
+            </div>
+            <div class="article-content" id="content-29">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEATTIE" data-idx="30" data-type="article">
+            <div class="article-header" onclick="toggleArticle(30)">
+                <h3>BEATTIE</h3>
+                <span class="meta">3,399 words</span>
+            </div>
+            <div class="article-content" id="content-30">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEAUMARCHAIS" data-idx="31" data-type="article">
+            <div class="article-header" onclick="toggleArticle(31)">
+                <h3>BEAUMARCHAIS</h3>
+                <span class="meta">1,773 words</span>
+            </div>
+            <div class="article-content" id="content-31">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEAUTY" data-idx="32" data-type="article">
+            <div class="article-header" onclick="toggleArticle(32)">
+                <h3>BEAUTY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">27,578 words</span>
+            </div>
+            <div class="article-content" id="content-32">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BECCARIA" data-idx="33" data-type="article">
+            <div class="article-header" onclick="toggleArticle(33)">
+                <h3>BECCARIA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,399 words</span>
+            </div>
+            <div class="article-content" id="content-33">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BECKMANN" data-idx="34" data-type="article">
+            <div class="article-header" onclick="toggleArticle(34)">
+                <h3>BECKMANN</h3>
+                <span class="meta">1,948 words</span>
+            </div>
+            <div class="article-content" id="content-34">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEDDOES" data-idx="35" data-type="article">
+            <div class="article-header" onclick="toggleArticle(35)">
+                <h3>BEDDOES</h3>
+                <span class="meta">4,149 words</span>
+            </div>
+            <div class="article-content" id="content-35">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEDFORDSHIRE" data-idx="36" data-type="article">
+            <div class="article-header" onclick="toggleArticle(36)">
+                <h3>BEDFORDSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">43,130 words</span>
+            </div>
+            <div class="article-content" id="content-36">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BEJAPOUR" data-idx="37" data-type="article">
+            <div class="article-header" onclick="toggleArticle(37)">
+                <h3>BEJAPOUR</h3>
+                <span class="meta">4,412 words</span>
+            </div>
+            <div class="article-content" id="content-37">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BELL_ROCK_LIGHT_HOUSE" data-idx="38" data-type="article">
+            <div class="article-header" onclick="toggleArticle(38)">
+                <h3>BELL ROCK LIGHT-HOUSE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,779 words</span>
+            </div>
+            <div class="article-content" id="content-38">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BELOOCHISTAN" data-idx="39" data-type="article">
+            <div class="article-header" onclick="toggleArticle(39)">
+                <h3>BELOOCHISTAN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,053 words</span>
+            </div>
+            <div class="article-content" id="content-39">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BENEFIT_SOCIETIES" data-idx="40" data-type="article">
+            <div class="article-header" onclick="toggleArticle(40)">
+                <h3>BENEFIT SOCIETIES<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,182 words</span>
+            </div>
+            <div class="article-content" id="content-40">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERKSHIRE" data-idx="41" data-type="article">
+            <div class="article-header" onclick="toggleArticle(41)">
+                <h3>BERKSHIRE</h3>
+                <span class="meta">3,164 words</span>
+            </div>
+            <div class="article-content" id="content-41">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERTHOUD" data-idx="42" data-type="article">
+            <div class="article-header" onclick="toggleArticle(42)">
+                <h3>BERTHOUD</h3>
+                <span class="meta">603 words</span>
+            </div>
+            <div class="article-content" id="content-42">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BERWICKSHIRE" data-idx="43" data-type="article">
+            <div class="article-header" onclick="toggleArticle(43)">
+                <h3>BERWICKSHIRE</h3>
+                <span class="meta">1,978 words</span>
+            </div>
+            <div class="article-content" id="content-43">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BETEL" data-idx="44" data-type="article">
+            <div class="article-header" onclick="toggleArticle(44)">
+                <h3>BETEL</h3>
+                <span class="meta">1,720 words</span>
+            </div>
+            <div class="article-content" id="content-44">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BETTINELLI" data-idx="45" data-type="article">
+            <div class="article-header" onclick="toggleArticle(45)">
+                <h3>BETTINELLI<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">19,401 words</span>
+            </div>
+            <div class="article-content" id="content-45">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BICHAT" data-idx="46" data-type="article">
+            <div class="article-header" onclick="toggleArticle(46)">
+                <h3>BICHAT</h3>
+                <span class="meta">2,930 words</span>
+            </div>
+            <div class="article-content" id="content-46">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BILFINGER" data-idx="47" data-type="article">
+            <div class="article-header" onclick="toggleArticle(47)">
+                <h3>BILFINGER</h3>
+                <span class="meta">1,266 words</span>
+            </div>
+            <div class="article-content" id="content-47">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BILLS_OF_MORTALITY" data-idx="48" data-type="article">
+            <div class="article-header" onclick="toggleArticle(48)">
+                <h3>BILLS OF MORTALITY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">9,475 words</span>
+            </div>
+            <div class="article-content" id="content-48">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLACK_SEA" data-idx="49" data-type="article">
+            <div class="article-header" onclick="toggleArticle(49)">
+                <h3>BLACK SEA</h3>
+                <span class="meta">4,963 words</span>
+            </div>
+            <div class="article-content" id="content-49">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLASTING" data-idx="50" data-type="article">
+            <div class="article-header" onclick="toggleArticle(50)">
+                <h3>BLASTING</h3>
+                <span class="meta">4,153 words</span>
+            </div>
+            <div class="article-content" id="content-50">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLEACHING" data-idx="51" data-type="article">
+            <div class="article-header" onclick="toggleArticle(51)">
+                <h3>BLEACHING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">16,469 words</span>
+            </div>
+            <div class="article-content" id="content-51">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLOCK" data-idx="52" data-type="article">
+            <div class="article-header" onclick="toggleArticle(52)">
+                <h3>BLOCK</h3>
+                <span class="meta">253 words</span>
+            </div>
+            <div class="article-content" id="content-52">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLOCK_MACHINERY" data-idx="53" data-type="article">
+            <div class="article-header" onclick="toggleArticle(53)">
+                <h3>BLOCK-MACHINERY</h3>
+                <span class="meta">4,746 words</span>
+            </div>
+            <div class="article-content" id="content-53">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BLOW_PIPE" data-idx="54" data-type="article">
+            <div class="article-header" onclick="toggleArticle(54)">
+                <h3>BLOW-PIPE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,764 words</span>
+            </div>
+            <div class="article-content" id="content-54">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOGALCUND" data-idx="55" data-type="article">
+            <div class="article-header" onclick="toggleArticle(55)">
+                <h3>BOGALCUND</h3>
+                <span class="meta">1,470 words</span>
+            </div>
+            <div class="article-content" id="content-55">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOHADDIN" data-idx="56" data-type="article">
+            <div class="article-header" onclick="toggleArticle(56)">
+                <h3>BOHADDIN</h3>
+                <span class="meta">954 words</span>
+            </div>
+            <div class="article-content" id="content-56">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOMBAY" data-idx="57" data-type="article">
+            <div class="article-header" onclick="toggleArticle(57)">
+                <h3>BOMBAY</h3>
+                <span class="meta">4,481 words</span>
+            </div>
+            <div class="article-content" id="content-57">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BORDA" data-idx="58" data-type="article">
+            <div class="article-header" onclick="toggleArticle(58)">
+                <h3>BORDA</h3>
+                <span class="meta">2,319 words</span>
+            </div>
+            <div class="article-content" id="content-58">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BORING" data-idx="59" data-type="article">
+            <div class="article-header" onclick="toggleArticle(59)">
+                <h3>BORING<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,318 words</span>
+            </div>
+            <div class="article-content" id="content-59">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BORNEO" data-idx="60" data-type="article">
+            <div class="article-header" onclick="toggleArticle(60)">
+                <h3>BORNEO</h3>
+                <span class="meta">2,661 words</span>
+            </div>
+            <div class="article-content" id="content-60">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BORROMEAN_ISLANDS" data-idx="61" data-type="article">
+            <div class="article-header" onclick="toggleArticle(61)">
+                <h3>BORROMEAN ISLANDS</h3>
+                <span class="meta">944 words</span>
+            </div>
+            <div class="article-content" id="content-61">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOSWELL" data-idx="62" data-type="article">
+            <div class="article-header" onclick="toggleArticle(62)">
+                <h3>BOSWELL</h3>
+                <span class="meta">3,910 words</span>
+            </div>
+            <div class="article-content" id="content-62">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOTANY" data-idx="63" data-type="article">
+            <div class="article-header" onclick="toggleArticle(63)">
+                <h3>BOTANY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">48,591 words</span>
+            </div>
+            <div class="article-content" id="content-63">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOTANY_BAY" data-idx="64" data-type="article">
+            <div class="article-header" onclick="toggleArticle(64)">
+                <h3>BOTANY BAY</h3>
+                <span class="meta">34 words</span>
+            </div>
+            <div class="article-content" id="content-64">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOUGAINVILLE" data-idx="65" data-type="article">
+            <div class="article-header" onclick="toggleArticle(65)">
+                <h3>BOUGAINVILLE</h3>
+                <span class="meta">1,479 words</span>
+            </div>
+            <div class="article-content" id="content-65">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOUGUER" data-idx="66" data-type="article">
+            <div class="article-header" onclick="toggleArticle(66)">
+                <h3>BOUGUER</h3>
+                <span class="meta">2,033 words</span>
+            </div>
+            <div class="article-content" id="content-66">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOULTON" data-idx="67" data-type="article">
+            <div class="article-header" onclick="toggleArticle(67)">
+                <h3>BOULTON</h3>
+                <span class="meta">3,566 words</span>
+            </div>
+            <div class="article-content" id="content-67">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BOURGOING" data-idx="68" data-type="article">
+            <div class="article-header" onclick="toggleArticle(68)">
+                <h3>BOURGOING</h3>
+                <span class="meta">568 words</span>
+            </div>
+            <div class="article-content" id="content-68">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRAMAH" data-idx="69" data-type="article">
+            <div class="article-header" onclick="toggleArticle(69)">
+                <h3>BRAMAH</h3>
+                <span class="meta">2,603 words</span>
+            </div>
+            <div class="article-content" id="content-69">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRASIL" data-idx="70" data-type="article">
+            <div class="article-header" onclick="toggleArticle(70)">
+                <h3>BRASIL<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">11,352 words</span>
+            </div>
+            <div class="article-content" id="content-70">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRASS" data-idx="71" data-type="article">
+            <div class="article-header" onclick="toggleArticle(71)">
+                <h3>BRASS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,681 words</span>
+            </div>
+            <div class="article-content" id="content-71">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BREAKWATER" data-idx="72" data-type="article">
+            <div class="article-header" onclick="toggleArticle(72)">
+                <h3>BREAKWATER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">12,460 words</span>
+            </div>
+            <div class="article-content" id="content-72">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRECONSHIRE" data-idx="73" data-type="article">
+            <div class="article-header" onclick="toggleArticle(73)">
+                <h3>BRECONSHIRE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">31,873 words</span>
+            </div>
+            <div class="article-content" id="content-73">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BREWERY" data-idx="74" data-type="article">
+            <div class="article-header" onclick="toggleArticle(74)">
+                <h3>BREWERY</h3>
+                <span class="meta">4,450 words</span>
+            </div>
+            <div class="article-content" id="content-74">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRIDGE" data-idx="75" data-type="article">
+            <div class="article-header" onclick="toggleArticle(75)">
+                <h3>BRIDGE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">26,517 words</span>
+            </div>
+            <div class="article-content" id="content-75">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRISSOT" data-idx="76" data-type="article">
+            <div class="article-header" onclick="toggleArticle(76)">
+                <h3>BRISSOT</h3>
+                <span class="meta">1,501 words</span>
+            </div>
+            <div class="article-content" id="content-76">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRITAIN" data-idx="77" data-type="article">
+            <div class="article-header" onclick="toggleArticle(77)">
+                <h3>BRITAIN</h3>
+                <span class="meta">94 words</span>
+            </div>
+            <div class="article-content" id="content-77">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BROCKLESBY" data-idx="78" data-type="article">
+            <div class="article-header" onclick="toggleArticle(78)">
+                <h3>BROCKLESBY</h3>
+                <span class="meta">1,012 words</span>
+            </div>
+            <div class="article-content" id="content-78">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BROKER" data-idx="79" data-type="article">
+            <div class="article-header" onclick="toggleArticle(79)">
+                <h3>BROKER</h3>
+                <span class="meta">2,627 words</span>
+            </div>
+            <div class="article-content" id="content-79">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRONZING" data-idx="80" data-type="article">
+            <div class="article-header" onclick="toggleArticle(80)">
+                <h3>BRONZING</h3>
+                <span class="meta">2,231 words</span>
+            </div>
+            <div class="article-content" id="content-80">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BROSSES" data-idx="81" data-type="article">
+            <div class="article-header" onclick="toggleArticle(81)">
+                <h3>BROSSES</h3>
+                <span class="meta">604 words</span>
+            </div>
+            <div class="article-content" id="content-81">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BROUSSONET" data-idx="82" data-type="article">
+            <div class="article-header" onclick="toggleArticle(82)">
+                <h3>BROUSSONET</h3>
+                <span class="meta">836 words</span>
+            </div>
+            <div class="article-content" id="content-82">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRUCKER" data-idx="83" data-type="article">
+            <div class="article-header" onclick="toggleArticle(83)">
+                <h3>BRUCKER</h3>
+                <span class="meta">2,816 words</span>
+            </div>
+            <div class="article-content" id="content-83">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BRYANT" data-idx="84" data-type="article">
+            <div class="article-header" onclick="toggleArticle(84)">
+                <h3>BRYANT</h3>
+                <span class="meta">1,514 words</span>
+            </div>
+            <div class="article-content" id="content-84">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUAT_NANCAY" data-idx="85" data-type="article">
+            <div class="article-header" onclick="toggleArticle(85)">
+                <h3>BUAT-NANCAY</h3>
+                <span class="meta">2,592 words</span>
+            </div>
+            <div class="article-content" id="content-85">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUDUKSHAUN" data-idx="86" data-type="article">
+            <div class="article-header" onclick="toggleArticle(86)">
+                <h3>BUDUKSHAUN<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">13,052 words</span>
+            </div>
+            <div class="article-content" id="content-86">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUKHARA" data-idx="87" data-type="article">
+            <div class="article-header" onclick="toggleArticle(87)">
+                <h3>BUKHARA</h3>
+                <span class="meta">711 words</span>
+            </div>
+            <div class="article-content" id="content-87">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BULKH" data-idx="88" data-type="article">
+            <div class="article-header" onclick="toggleArticle(88)">
+                <h3>BULKH</h3>
+                <span class="meta">436 words</span>
+            </div>
+            <div class="article-content" id="content-88">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUNDELCUND" data-idx="89" data-type="article">
+            <div class="article-header" onclick="toggleArticle(89)">
+                <h3>BUNDELCUND</h3>
+                <span class="meta">3,109 words</span>
+            </div>
+            <div class="article-content" id="content-89">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BURGER" data-idx="90" data-type="article">
+            <div class="article-header" onclick="toggleArticle(90)">
+                <h3>BURGER</h3>
+                <span class="meta">2,323 words</span>
+            </div>
+            <div class="article-content" id="content-90">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUSCHING" data-idx="91" data-type="article">
+            <div class="article-header" onclick="toggleArticle(91)">
+                <h3>BUSCHING</h3>
+                <span class="meta">1,217 words</span>
+            </div>
+            <div class="article-content" id="content-91">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-BUTE" data-idx="92" data-type="article">
+            <div class="article-header" onclick="toggleArticle(92)">
+                <h3>BUTE</h3>
+                <span class="meta">1,306 words</span>
+            </div>
+            <div class="article-content" id="content-92">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CABANIS" data-idx="93" data-type="article">
+            <div class="article-header" onclick="toggleArticle(93)">
+                <h3>CABANIS</h3>
+                <span class="meta">2,762 words</span>
+            </div>
+            <div class="article-content" id="content-93">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CABINET_MAKING" data-idx="94" data-type="cross_reference">
+            <div class="article-header" onclick="toggleArticle(94)">
+                <h3>CABINET-MAKING<span class="badge xref">Cross-ref &rarr; JOINERY</span></h3>
+                <span class="meta">2 words</span>
+            </div>
+            <div class="article-content" id="content-94">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAERMARTHENSHIRE" data-idx="95" data-type="article">
+            <div class="article-header" onclick="toggleArticle(95)">
+                <h3>CAERMARTHENSHIRE</h3>
+                <span class="meta">1,043 words</span>
+            </div>
+            <div class="article-content" id="content-95">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAERNARVONSHIRE" data-idx="96" data-type="article">
+            <div class="article-header" onclick="toggleArticle(96)">
+                <h3>CAERNARVONSHIRE</h3>
+                <span class="meta">3,860 words</span>
+            </div>
+            <div class="article-content" id="content-96">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAITHNESS" data-idx="97" data-type="article">
+            <div class="article-header" onclick="toggleArticle(97)">
+                <h3>CAITHNESS</h3>
+                <span class="meta">2,165 words</span>
+            </div>
+            <div class="article-content" id="content-97">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALCUTTA" data-idx="98" data-type="article">
+            <div class="article-header" onclick="toggleArticle(98)">
+                <h3>CALCUTTA</h3>
+                <span class="meta">3,733 words</span>
+            </div>
+            <div class="article-content" id="content-98">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALEDONIAN_CANAL" data-idx="99" data-type="article">
+            <div class="article-header" onclick="toggleArticle(99)">
+                <h3>CALEDONIAN CANAL<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,251 words</span>
+            </div>
+            <div class="article-content" id="content-99">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALENDER" data-idx="100" data-type="article">
+            <div class="article-header" onclick="toggleArticle(100)">
+                <h3>CALENDER<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,993 words</span>
+            </div>
+            <div class="article-content" id="content-100">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALENDER_PLATE_XLV" data-idx="101" data-type="article">
+            <div class="article-header" onclick="toggleArticle(101)">
+                <h3>CALENDER PLATE XLV</h3>
+                <span class="meta">8 words</span>
+            </div>
+            <div class="article-content" id="content-101">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CALICO_PRINTING" data-idx="102" data-type="article">
+            <div class="article-header" onclick="toggleArticle(102)">
+                <h3>CALICO-PRINTING</h3>
+                <span class="meta">2,758 words</span>
+            </div>
+            <div class="article-content" id="content-102">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMERA_LUCIDA" data-idx="103" data-type="article">
+            <div class="article-header" onclick="toggleArticle(103)">
+                <h3>CAMERA LUCIDA</h3>
+                <span class="meta">2,724 words</span>
+            </div>
+            <div class="article-content" id="content-103">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMPER" data-idx="104" data-type="article">
+            <div class="article-header" onclick="toggleArticle(104)">
+                <h3>CAMPER</h3>
+                <span class="meta">3,749 words</span>
+            </div>
+            <div class="article-content" id="content-104">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMPOMANES" data-idx="105" data-type="article">
+            <div class="article-header" onclick="toggleArticle(105)">
+                <h3>CAMPOMANES</h3>
+                <span class="meta">679 words</span>
+            </div>
+            <div class="article-content" id="content-105">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAMUS" data-idx="106" data-type="article">
+            <div class="article-header" onclick="toggleArticle(106)">
+                <h3>CAMUS</h3>
+                <span class="meta">1,394 words</span>
+            </div>
+            <div class="article-content" id="content-106">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CANADA" data-idx="107" data-type="article">
+            <div class="article-header" onclick="toggleArticle(107)">
+                <h3>CANADA<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,728 words</span>
+            </div>
+            <div class="article-content" id="content-107">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CANARY_ISLANDS" data-idx="108" data-type="article">
+            <div class="article-header" onclick="toggleArticle(108)">
+                <h3>CANARY ISLANDS</h3>
+                <span class="meta">2,748 words</span>
+            </div>
+            <div class="article-content" id="content-108">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CANNON" data-idx="109" data-type="article">
+            <div class="article-header" onclick="toggleArticle(109)">
+                <h3>CANNON<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">5,881 words</span>
+            </div>
+            <div class="article-content" id="content-109">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPILLARY_ATTRACTION" data-idx="110" data-type="article">
+            <div class="article-header" onclick="toggleArticle(110)">
+                <h3>CAPILLARY ATTRACTION</h3>
+                <span class="meta">40 words</span>
+            </div>
+            <div class="article-content" id="content-110">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAPMANY" data-idx="111" data-type="article">
+            <div class="article-header" onclick="toggleArticle(111)">
+                <h3>CAPMANY</h3>
+                <span class="meta">384 words</span>
+            </div>
+            <div class="article-content" id="content-111">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARACCAS" data-idx="112" data-type="article">
+            <div class="article-header" onclick="toggleArticle(112)">
+                <h3>CARACCAS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">8,357 words</span>
+            </div>
+            <div class="article-content" id="content-112">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARLOW" data-idx="113" data-type="article">
+            <div class="article-header" onclick="toggleArticle(113)">
+                <h3>CARLOW</h3>
+                <span class="meta">1,466 words</span>
+            </div>
+            <div class="article-content" id="content-113">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARLYLE" data-idx="114" data-type="article">
+            <div class="article-header" onclick="toggleArticle(114)">
+                <h3>CARLYLE</h3>
+                <span class="meta">1,070 words</span>
+            </div>
+            <div class="article-content" id="content-114">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARNATIC" data-idx="115" data-type="article">
+            <div class="article-header" onclick="toggleArticle(115)">
+                <h3>CARNATIC</h3>
+                <span class="meta">499 words</span>
+            </div>
+            <div class="article-content" id="content-115">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CARPENTRY" data-idx="116" data-type="article">
+            <div class="article-header" onclick="toggleArticle(116)">
+                <h3>CARPENTRY<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">29,035 words</span>
+            </div>
+            <div class="article-content" id="content-116">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CASTE" data-idx="117" data-type="article">
+            <div class="article-header" onclick="toggleArticle(117)">
+                <h3>CASTE<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">7,794 words</span>
+            </div>
+            <div class="article-content" id="content-117">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CASTI" data-idx="118" data-type="article">
+            <div class="article-header" onclick="toggleArticle(118)">
+                <h3>CASTI</h3>
+                <span class="meta">2,278 words</span>
+            </div>
+            <div class="article-content" id="content-118">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CATOPTRICS" data-idx="119" data-type="article">
+            <div class="article-header" onclick="toggleArticle(119)">
+                <h3>CATOPTRICS<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">10,010 words</span>
+            </div>
+            <div class="article-content" id="content-119">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAVAN" data-idx="120" data-type="article">
+            <div class="article-header" onclick="toggleArticle(120)">
+                <h3>CAVAN</h3>
+                <span class="meta">1,557 words</span>
+            </div>
+            <div class="article-content" id="content-120">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAVANILLES" data-idx="121" data-type="article">
+            <div class="article-header" onclick="toggleArticle(121)">
+                <h3>CAVANILLES</h3>
+                <span class="meta">1,454 words</span>
+            </div>
+            <div class="article-content" id="content-121">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CAVENDISH" data-idx="122" data-type="article">
+            <div class="article-header" onclick="toggleArticle(122)">
+                <h3>CAVENDISH<span class="badge treatise">Treatise</span></h3>
+                <span class="meta">6,755 words</span>
+            </div>
+            <div class="article-content" id="content-122">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CELEBES" data-idx="123" data-type="article">
+            <div class="article-header" onclick="toggleArticle(123)">
+                <h3>CELEBES</h3>
+                <span class="meta">750 words</span>
+            </div>
+            <div class="article-content" id="content-123">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CESAROTTI" data-idx="124" data-type="article">
+            <div class="article-header" onclick="toggleArticle(124)">
+                <h3>CESAROTTI</h3>
+                <span class="meta">1,204 words</span>
+            </div>
+            <div class="article-content" id="content-124">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CEYLON" data-idx="125" data-type="article">
+            <div class="article-header" onclick="toggleArticle(125)">
+                <h3>CEYLON</h3>
+                <span class="meta">4,181 words</span>
+            </div>
+            <div class="article-content" id="content-125">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+        <li class="article-item" id="article-CHEMICAL_ANALYSIS" data-idx="126" data-type="article">
+            <div class="article-header" onclick="toggleArticle(126)">
+                <h3>CHEMICAL ANALYSIS</h3>
+                <span class="meta">355 words</span>
+            </div>
+            <div class="article-content" id="content-126">
+                <div class="loading">Loading...</div>
+            </div>
+        </li>
+        
+    </ul>
+    
+        <footer>
+            <p>Encyclopaedia Britannica Historical Corpus</p>
+            <p>Parsed with LLM-based article boundary detection | Generated 2026-03-27</p>
+        </footer>
+    </div>
+    
+    <script>
+    let articlesData = null;
+    let loadedArticles = new Set();
+
+    async function loadArticleData() {
+        if (articlesData) return;
+        try {
+            const response = await fetch('data/vol502.json');
+            articlesData = await response.json();
+        } catch (err) {
+            console.error('Failed to load article data:', err);
+        }
+    }
+
+    function renderMarkdown(text) {
+        // Escape HTML first
+        const div = document.createElement('div');
+        div.textContent = text;
+        let s = div.innerHTML;
+
+        // Markdown tables: detect lines with | delimiters
+        s = s.replace(/((?:^|\n)\|.+\|(?:\n\|.+\|)+)/g, function(table) {
+            const rows = table.trim().split('\n').filter(r => r.trim());
+            // Skip separator rows (e.g. |---|---|)
+            const dataRows = rows.filter(r => !/^\|[\s\-:|]+\|$/.test(r.trim()));
+            if (dataRows.length === 0) return table;
+            let html = '<table>';
+            dataRows.forEach(function(row, i) {
+                const cells = row.split('|').slice(1, -1).map(c => c.trim());
+                const tag = i === 0 ? 'th' : 'td';
+                html += '<tr>' + cells.map(c => '<' + tag + '>' + c + '</' + tag + '>').join('') + '</tr>';
+            });
+            html += '</table>';
+            return html;
+        });
+
+        // Bold: **text**
+        s = s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+        // Italic: *text* (but not inside words like "don*t")
+        s = s.replace(/(^|[\s(])\*([^*]+?)\*([\s).,;:!?]|$)/g, '$1<em>$2</em>$3');
+        // Strip LaTeX markers \( ... \) — leave content visible
+        s = s.replace(/\\\((.+?)\\\)/g, '$1');
+
+        // Paragraphs: double newline
+        s = s.replace(/\n\n+/g, '</p><p>');
+        // Single newlines to <br> (but not inside tables)
+        s = s.replace(/\n/g, '<br>');
+
+        return '<p>' + s + '</p>';
+    }
+
+    async function toggleArticle(idx) {
+        const content = document.getElementById('content-' + idx);
+        const isShown = content.classList.contains('show');
+
+        if (isShown) {
+            content.classList.remove('show');
+            return;
+        }
+
+        content.classList.add('show');
+
+        if (loadedArticles.has(idx)) return;
+
+        await loadArticleData();
+        if (!articlesData || !articlesData[idx]) {
+            content.innerHTML = '<div class="article-text">Error loading article.</div>';
+            return;
+        }
+
+        const article = articlesData[idx];
+
+        content.innerHTML = `
+            <div class="article-text">${renderMarkdown(article.t)}</div>
+            <div class="article-actions">
+                <button onclick="downloadMd(${idx})">Download .md</button>
+                <button onclick="copyText(${idx})">Copy Text</button>
+            </div>
+        `;
+        loadedArticles.add(idx);
+    }
+
+    function downloadMd(idx) {
+        const article = articlesData[idx];
+        const header = `# ${article.h}\n\n**Edition:** 1823 Sixth Edition\n**Volume:** 502\n**Words:** ${article.wc}\n\n---\n\n`;
+        const blob = new Blob([header + article.t], {type: 'text/markdown'});
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = article.h.replace(/[^a-zA-Z0-9]/g, '_') + '.md';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+
+    function copyText(idx) {
+        const article = articlesData[idx];
+        navigator.clipboard.writeText(article.t).then(() => {
+            alert('Copied to clipboard!');
+        });
+    }
+
+    function filterArticles() {
+        const query = document.getElementById('filterInput').value.toLowerCase();
+        const typeFilter = document.getElementById('typeFilter').value;
+        const items = document.querySelectorAll('.article-item');
+
+        items.forEach(item => {
+            const header = item.querySelector('h3').textContent.toLowerCase();
+            const articleType = item.dataset.type;
+            const isTreatise = item.querySelector('.badge.treatise') !== null;
+
+            let show = header.includes(query);
+            if (typeFilter === 'treatise') {
+                show = show && isTreatise;
+            } else if (typeFilter !== 'all') {
+                show = show && (articleType === typeFilter);
+            }
+
+            item.style.display = show ? '' : 'none';
+        });
+    }
+
+    // Hash navigation: auto-expand and scroll to article on page load
+    window.addEventListener('load', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                setTimeout(() => {
+                    article.scrollIntoView({behavior: 'smooth', block: 'start'});
+                }, 100);
+            }
+        }
+    });
+
+    window.addEventListener('hashchange', function() {
+        const hash = window.location.hash;
+        if (hash && hash.startsWith('#article-')) {
+            const article = document.querySelector(hash);
+            if (article) {
+                const idx = parseInt(article.dataset.idx);
+                toggleArticle(idx);
+                article.scrollIntoView({behavior: 'smooth', block: 'start'});
+            }
+        }
+    });
+    </script>
+    
+</body>
+</html>

@@ -5426,6 +5426,45 @@
       "headword_count": 1526,
       "first_headword": "AALHUS",
       "last_headword": "DESCRIPTIVE"
+    },
+    {
+      "filename": "eb_6th_1823_v502_AUS-CEL.jsonl",
+      "new_filename": "eb_6th_1823_v502_AUS-CEL.jsonl",
+      "edition_year": 1823,
+      "edition_name": "6th",
+      "best_volume": 502,
+      "metadata_volume": 502,
+      "is_canonical": true,
+      "duplicate_of": null,
+      "range_label": "AUS-CEL",
+      "source_file": "output_1c3467959e01fe9b69431f24b955bab725908005.jsonl",
+      "text_length": 5116374
+    },
+    {
+      "filename": "eb_6th_1823_v01_ART-AME.jsonl",
+      "new_filename": "eb_6th_1823_v01_ART-AME.jsonl",
+      "edition_year": 1823,
+      "edition_name": "6th",
+      "best_volume": 1,
+      "metadata_volume": 1,
+      "is_canonical": true,
+      "duplicate_of": null,
+      "range_label": "ART-AME",
+      "source_file": "output_e5e25d0a9ecb1e7bcbaed21e1ca88c5a93392bac.jsonl",
+      "text_length": 5116374
+    },
+    {
+      "filename": "eb_6th_1823_v504_FOU-HOL.jsonl",
+      "new_filename": "eb_6th_1823_v504_FOU-HOL.jsonl",
+      "edition_year": 1823,
+      "edition_name": "6th",
+      "best_volume": 504,
+      "metadata_volume": 504,
+      "is_canonical": true,
+      "duplicate_of": null,
+      "range_label": "FOU-HOL",
+      "source_file": "output_13dd0ebf0b01c39ea23b8fb36a66e82cfa2d7eed.jsonl",
+      "text_length": 4632283
     }
   ],
   "canonical_count": 155
