@@ -243,8 +243,8 @@
       "vol_from_position": 1,
       "best_volume": 1,
       "vol_source": "metadata",
-      "duplicate_of": null,
-      "is_canonical": true,
+      "duplicate_of": "junk_binder_directions",
+      "is_canonical": false,
       "new_filename": "eb_1st_1771_v01_ADA-NOT.jsonl",
       "old_filename": "britannica_1st_1771_vol01_unknown.jsonl"
     },
@@ -5340,6 +5340,30 @@
       "new_filename": "eb_4th_1810_v20_SUI-PRE.jsonl",
       "duplicate_of": null,
       "source": "olmocr_plato"
+    },
+    {
+      "filename": "eb_1st_1771_v01_AAB-BOO.jsonl",
+      "edition_year": 1771,
+      "edition_name": "1st",
+      "metadata_volume": 1,
+      "metadata_range": null,
+      "source_file": "output_c53c63e263d2c709904db26048cf29aaa9c66b47.jsonl",
+      "first_headword": "AABAM",
+      "last_headword": "BOOK-KEEPING",
+      "range_label": "AAB-BOO",
+      "headword_count": 4096,
+      "text_length": 3906807,
+      "vol_from_end": 1,
+      "vol_from_header": 2,
+      "vol_from_overlap": 1,
+      "vol_from_position": 2,
+      "best_volume": 1,
+      "vol_source": "metadata",
+      "duplicate_of": null,
+      "is_canonical": true,
+      "similarity_to_canonical": 0.9268,
+      "new_filename": "eb_1st_1771_v01_AAB-BOO.jsonl",
+      "old_filename": "britannica_1st_1771_vol02_part3_unknown.jsonl"
     }
   ],
   "canonical_count": 155
