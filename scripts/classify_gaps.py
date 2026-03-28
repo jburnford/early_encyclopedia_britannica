@@ -63,9 +63,12 @@ def load_edition_articles():
     return by_year, by_year_norm
 
 
-def load_mega_articles():
-    """Load text of articles >10K words for swallowed detection."""
-    mega = defaultdict(list)  # year -> [{title, text, word_count, volume}]
+def load_articles_with_text():
+    """Load articles with text for swallowed detection.
+
+    Only loads articles >=3000 words (potential hosts for swallowed articles).
+    """
+    by_year = defaultdict(list)
     for fp in sorted(ARTICLES_DIR.glob("*.articles.jsonl")):
         if '.bak' in fp.name or '.junk' in fp.name:
             continue
@@ -74,17 +77,17 @@ def load_mega_articles():
                 if not line.strip():
                     continue
                 a = json.loads(line)
-                if a.get('word_count', 0) < 10000:
+                if a.get('word_count', 0) < 3000:
                     continue
                 if a.get('type') == 'cross_reference':
                     continue
-                mega[a['edition_year']].append({
+                by_year[a['edition_year']].append({
                     'title': a['title'],
                     'text': a['text'],
                     'word_count': a['word_count'],
                     'volume': a.get('volume', 0),
                 })
-    return mega
+    return by_year
 
 
 def load_ocr_ranges():
@@ -180,38 +183,82 @@ def find_variant(missing_norm, missing_title, year, by_year_norm):
 # Signal 2: Swallowed article detection
 # -----------------------------------------------------------------------
 
-def find_swallowed(missing_title, year, mega_articles):
-    """Check if article text is buried inside a mega-article.
+def find_swallowed(missing_title, missing_norm, year, all_articles_by_year):
+    """Check if article is swallowed by a neighbor in its alphabetical range.
 
-    Only matches headword-like patterns (HEADWORD, followed by lowercase text
-    that looks like a definition), not casual mentions.
+    Only searches articles that are alphabetically BEFORE the missing headword
+    (the parser reads sequentially, so a swallowed article must follow its host).
+    Requires:
+    - Host is alphabetically before (or same first 3 chars as) missing
+    - Match appears at 5-95% through the host (not intro mention or appendix)
+    - Text after match looks like an article definition, not a sub-section
+    - At least 300 words follow the match
     """
-    megas = mega_articles.get(year, [])
     target = missing_title.upper()
 
-    # Skip very short or common headwords that appear everywhere as mentions
+    # Skip structural headwords (GENUS IX, ORDER II, etc.)
+    if re.match(r'^(GENUS|CLASSIS|ORDER|SECT|PART|CHAPTER|PROPOSITION)\s', target):
+        return None
+
+    # Skip very short headwords (too many false matches)
     if len(target) <= 4:
         return None
 
-    # Require: \n\nHEADWORD, lowercase_text (article opening pattern)
-    # or \n\nHEADWORD. Capitalized (treatise pattern)
+    articles = all_articles_by_year.get(year, [])
+
+    # Only check articles that are alphabetically near the missing one
+    # (within same first letter, or the letter before)
+    missing_letter = missing_norm[0] if missing_norm else ''
+    prev_letter = chr(ord(missing_letter) - 1) if missing_letter > 'A' else ''
+
+    # Article opening patterns: "HEADWORD, definition..." or "HEADWORD. Sentence..."
     pattern = re.compile(
         r'\n\n' + re.escape(target) + r',\s+[a-z]'
-        r'|\n\n' + re.escape(target) + r'\.\s+[A-Z]',
-        re.IGNORECASE
+        r'|\n\n' + re.escape(target) + r'\.\s+[A-Z]'
+        r'|\n\n' + re.escape(target) + r',\s+[A-Z]',
     )
 
-    for m in megas:
-        if m['title'].upper() == target:
+    for a in articles:
+        # Only check articles large enough to plausibly contain another
+        if a['word_count'] < 3000:
             continue
-        match = pattern.search(m['text'])
-        if match:
-            # Verify there's substantial text after the match (not just a passing mention)
-            after = m['text'][match.end():match.end() + 500]
-            # Count words in the next 500 chars — if there's a paragraph, it's likely an article
-            if len(after.split()) >= 30:
-                pos_pct = match.start() / len(m['text']) * 100
-                return m['title'], m['word_count'], f'at {pos_pct:.0f}% in {m["title"]}'
+
+        # Host must be alphabetically before or at same position as missing
+        host_norm = re.sub(r'[^A-Z ]', '', a['title'].upper()).strip()
+        if not host_norm:
+            continue
+
+        # Must be in the same letter range
+        host_letter = host_norm[0]
+        if host_letter != missing_letter and host_letter != prev_letter:
+            continue
+
+        # Host must sort before missing
+        if host_norm >= missing_norm:
+            continue
+
+        match = pattern.search(a['text'])
+        if not match:
+            continue
+
+        pos_pct = match.start() / len(a['text']) * 100
+
+        # Reject matches at the very start (<5%) or very end (>95%)
+        # These are usually intro mentions or appendix sub-sections
+        if pos_pct < 5 or pos_pct > 95:
+            continue
+
+        remaining = len(a['text'][match.start():].split())
+        if remaining < 300:
+            continue
+
+        # Check that what follows looks like an article definition
+        after_text = a['text'][match.end():match.end() + 200].strip()
+        # Reject if it's a taxonomic pattern (ORDER II. DIGYNIA)
+        if re.match(r'^[IVX]+\.?\s', after_text):
+            continue
+
+        return a['title'], a['word_count'], f'at {pos_pct:.0f}% in {a["title"]} ({remaining:,}w after)'
 
     return None
 
@@ -276,9 +323,9 @@ def main():
     by_year, by_year_norm = load_edition_articles()
     print(f"  Articles loaded: {sum(len(v) for v in by_year.values()):,}")
 
-    print("  Loading mega-articles for swallowed detection...")
-    mega = load_mega_articles()
-    print(f"  Mega-articles: {sum(len(v) for v in mega.values())}")
+    print("  Loading articles with text for swallowed detection...")
+    articles_with_text = load_articles_with_text()
+    print(f"  Articles with text (>=3Kw): {sum(len(v) for v in articles_with_text.values())}")
 
     print("  Loading OCR ranges...")
     ocr_ranges = load_ocr_ranges()
@@ -313,8 +360,8 @@ def main():
             swallowed_by = None
 
             # Signal 1: Swallowed article detection (strongest signal, check first)
-            # Prefix matches like STEAM→STEAM-ENGINE are the host that swallowed it
-            swallowed = find_swallowed(title, missing_year, mega)
+            # Only searches alphabetical neighbors, not the whole edition
+            swallowed = find_swallowed(title, norm, missing_year, articles_with_text)
             if swallowed:
                 st, swc, sdesc = swallowed
                 classification = 'SWALLOWED'
