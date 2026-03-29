@@ -39,7 +39,6 @@ FIXED_BODIES,FIXED BODIES,1810,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,8064,
 FIXED_BODIES,FIXED BODIES,1815,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,8064,4,1778|1797|1823|1842
 FEODAL_SYSTEM,FEODAL SYSTEM,1797,EDITORIAL,0.60,Pattern: early_editions_only,,,7986,2,1778|1810
 PELICANUS,PELICANUS,1810,EDITORIAL,0.60,Pattern: early_editions_only,,,7634,3,1778|1797|1815
-ROUSSILLON,ROUSSILLON,1842,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,7354,3,1815|1823|1860
 GRYLLUS,GRYLLUS,1810,EDITORIAL,0.60,Pattern: early_editions_only,,,6665,4,1771|1778|1797|1823
 GRYLLUS,GRYLLUS,1815,EDITORIAL,0.60,Pattern: early_editions_only,,,6665,4,1771|1778|1797|1823
 THEBAID,THEBAID,1797,EDITORIAL,0.60,Pattern: early_editions_only,,,6557,5,1771|1778|1810|1815|1823
@@ -75,11 +74,11 @@ POWERS,POWERS,1810,EDITORIAL,0.60,Pattern: early_editions_only,,,4437,2,1771|182
 POWERS,POWERS,1815,EDITORIAL,0.60,Pattern: early_editions_only,,,4437,2,1771|1823
 RHINOCEROS,RHINOCEROS,1778,EDITORIAL,0.60,Pattern: early_editions_only,,,4387,2,1771|1797
 TIME-KEEPERS,TIME-KEEPERS,1797,EDITORIAL,0.60,Pattern: early_editions_only,,,3776,2,1778|1810
-CAMMIN,CAMMIN,1815,EDITORIAL,0.60,Pattern: early_editions_only,,,3596,5,1771|1778|1797|1810|1823
 SLEEP,SLEEP,1797,EDITORIAL,0.60,Pattern: early_editions_only,,,3259,5,1771|1778|1810|1815|1823
 CINCTURE,CINCTURE,1778,EDITORIAL,0.60,Pattern: early_editions_only,,,3105,5,1771|1797|1810|1815|1823
 MALLICOLLO,MALLICOLLO,1810,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,3053,4,1778|1797|1815|1842
 MALLICOLLO,MALLICOLLO,1823,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,3053,4,1778|1797|1815|1842
+CAMMIN,CAMMIN,1815,EDITORIAL,0.60,Pattern: early_editions_only,,,3038,5,1771|1778|1797|1810|1823
 DEPHLOGISTICATED_AIR,DEPHLOGISTICATED AIR,1810,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,3031,3,1797|1815|1860
 DEPHLOGISTICATED_AIR,DEPHLOGISTICATED AIR,1823,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,3031,3,1797|1815|1860
 DEPHLOGISTICATED_AIR,DEPHLOGISTICATED AIR,1842,EDITORIAL,0.60,Pattern: shrinking_to_stub,,,3031,3,1797|1815|1860
@@ -218,14 +217,14 @@ DECIUS,DECIUS,1810,EDITORIAL,0.60,Pattern: early_editions_only,,,1007,3,1778|181
 AMERICA,AMERICA,1810,OCR_GAP,0.80,"Headword ""AMERICA"" not in any OCR range for 1810",,,148943,6,1771|1778|1797|1815|1823|1842
 STRAIN,STRAIN,1778,OCR_GAP,0.80,"Headword ""STRAIN"" not in any OCR range for 1778",,,84821,6,1771|1797|1810|1815|1823|1842
 STEAM-ENGINE,STEAM-ENGINE,1810,OCR_GAP,0.80,"Headword ""STEAMENGINE"" not in any OCR range for 1810",,,62211,5,1778|1797|1815|1823|1860
-CHARLES_V,CHARLES V,1810,OCR_GAP,0.80,"Headword ""CHARLES V"" not in any OCR range for 1810",,,56106,4,1778|1797|1823|1842
+CHARLES_V,CHARLES V,1810,OCR_GAP,0.80,"Headword ""CHARLES V"" not in any OCR range for 1810",,,56106,5,1778|1797|1815|1823|1842
 ANNUITIES,ANNUITIES,1797,OCR_GAP,0.80,"Headword ""ANNUITIES"" not in any OCR range for 1797",,,54228,6,1771|1778|1815|1823|1842|1860
 ANNUITIES,ANNUITIES,1810,OCR_GAP,0.80,"Headword ""ANNUITIES"" not in any OCR range for 1810",,,54228,6,1771|1778|1815|1823|1842|1860
 BOSWELL,BOSWELL,1810,OCR_GAP,0.80,"Headword ""BOSWELL"" not in any OCR range for 1810",,,51994,4,1797|1823|1842|1860
 WORK-HOUSE,WORK-HOUSE,1810,OCR_GAP,0.80,"Headword ""WORKHOUSE"" not in any OCR range for 1810",,,33947,4,1797|1815|1823|1842
 ARISTOXENUS,ARISTOXENUS,1823,OCR_GAP,0.80,"Headword ""ARISTOXENUS"" not in any OCR range for 1823",,,28323,6,1778|1797|1810|1815|1842|1860
 ROOF,ROOF,1810,OCR_GAP,0.80,"Headword ""ROOF"" not in any OCR range for 1810",,,27732,5,1797|1815|1823|1842|1860
-SCULPTURE,SCULPTURE,1778,OCR_GAP,0.80,"Headword ""SCULPTURE"" not in any OCR range for 1778",,,25820,6,1771|1797|1810|1815|1823|1860
+SCULPTURE,SCULPTURE,1778,OCR_GAP,0.80,"Headword ""SCULPTURE"" not in any OCR range for 1778",,,25820,7,1771|1797|1810|1815|1823|1842|1860
 BEDWIN,BEDWIN,1778,OCR_GAP,0.80,"Headword ""BEDWIN"" not in any OCR range for 1778",,,25293,2,1771|1842
 TIMBER,TIMBER,1778,OCR_GAP,0.80,"Headword ""TIMBER"" not in any OCR range for 1778",,,23015,4,1771|1810|1842|1860
 AERONAUTICA,AERONAUTICA,1815,OCR_GAP,0.80,"Headword ""AERONAUTICA"" not in any OCR range for 1815",,,22913,5,1797|1810|1823|1842|1860
@@ -235,7 +234,8 @@ WELLINGTON,WELLINGTON,1778,OCR_GAP,0.80,"Headword ""WELLINGTON"" not in any OCR 
 WELLINGTON,WELLINGTON,1810,OCR_GAP,0.80,"Headword ""WELLINGTON"" not in any OCR range for 1810",,,22020,2,1771|1860
 WEIGHTS_AND_MEASURES,WEIGHTS AND MEASURES,1810,OCR_GAP,0.80,"Headword ""WEIGHTS AND MEASURES"" not in any OCR range for 1810",,,20926,4,1797|1823|1842|1860
 PATHOLOGY,PATHOLOGY,1778,OCR_GAP,0.80,"Headword ""PATHOLOGY"" not in any OCR range for 1778",,,20768,3,1771|1842|1860
-AETNA,AETNA,1797,OCR_GAP,0.80,"Headword ""AETNA"" not in any OCR range for 1797",,,20517,2,1778|1810
+AETNA,AETNA,1797,OCR_GAP,0.80,"Headword ""AETNA"" not in any OCR range for 1797",,,20517,3,1778|1810|1823
+AETNA,AETNA,1815,OCR_GAP,0.80,"Headword ""AETNA"" not in any OCR range for 1815",,,20517,3,1778|1810|1823
 ARCHIMEDES,ARCHIMEDES,1797,OCR_GAP,0.80,"Headword ""ARCHIMEDES"" not in any OCR range for 1797",,,20144,6,1778|1810|1815|1823|1842|1860
 BOOK-KEEPING,BOOK-KEEPING,1810,OCR_GAP,0.80,"Headword ""BOOKKEEPING"" not in any OCR range for 1810",,,19553,6,1778|1797|1815|1823|1842|1860
 AEROSTATION,AEROSTATION,1810,OCR_GAP,0.80,"Headword ""AEROSTATION"" not in any OCR range for 1810",,,19227,3,1797|1815|1823
@@ -268,6 +268,7 @@ ALPHONSO_II,ALPHONSO II,1815,OCR_GAP,0.80,"Headword ""ALPHONSO II"" not in any O
 SWERTIA,SWERTIA,1778,OCR_GAP,0.80,"Headword ""SWERTIA"" not in any OCR range for 1778",,,7302,2,1771|1797
 MONSTER,MONSTER,1778,OCR_GAP,0.80,"Headword ""MONSTER"" not in any OCR range for 1778",,,7220,6,1771|1797|1815|1823|1842|1860
 BURNS,BURNS,1810,OCR_GAP,0.80,"Headword ""BURNS"" not in any OCR range for 1810",,,7215,5,1797|1815|1823|1842|1860
+CAMPBELL,CAMPBELL,1810,OCR_GAP,0.80,"Headword ""CAMPBELL"" not in any OCR range for 1810",,,7041,6,1778|1797|1815|1823|1842|1860
 ABDC,ABDC,1815,OCR_GAP,0.80,"Headword ""ABDC"" not in any OCR range for 1815",,,6949,2,1810|1823
 MONSOON,MONSOON,1778,OCR_GAP,0.80,"Headword ""MONSOON"" not in any OCR range for 1778",,,6856,7,1771|1797|1810|1815|1823|1842|1860
 TYTLER,TYTLER,1810,OCR_GAP,0.80,"Headword ""TYTLER"" not in any OCR range for 1810",,,6716,3,1797|1842|1860
@@ -280,7 +281,6 @@ CLAY,CLAY,1810,OCR_GAP,0.80,"Headword ""CLAY"" not in any OCR range for 1810",,,
 ADDISON,ADDISON,1810,OCR_GAP,0.80,"Headword ""ADDISON"" not in any OCR range for 1810",,,6038,4,1778|1797|1842|1860
 ADDISON,ADDISON,1815,OCR_GAP,0.80,"Headword ""ADDISON"" not in any OCR range for 1815",,,6038,4,1778|1797|1842|1860
 ADDISON,ADDISON,1823,OCR_GAP,0.80,"Headword ""ADDISON"" not in any OCR range for 1823",,,6038,4,1778|1797|1842|1860
-CAMPBELL,CAMPBELL,1810,OCR_GAP,0.80,"Headword ""CAMPBELL"" not in any OCR range for 1810",,,5788,4,1778|1797|1842|1860
 SPAHIS,SPAHIS,1810,OCR_GAP,0.80,"Headword ""SPAHIS"" not in any OCR range for 1810",,,5769,2,1778|1842
 LINLITHGOW,LINLITHGOW,1778,OCR_GAP,0.80,"Headword ""LINLITHGOW"" not in any OCR range for 1778",,,5715,7,1771|1797|1810|1815|1823|1842|1860
 AERY,AERY,1810,OCR_GAP,0.80,"Headword ""AERY"" not in any OCR range for 1810",,,5663,3,1797|1815|1823
@@ -308,6 +308,7 @@ SELKIRK,SELKIRK,1778,OCR_GAP,0.80,"Headword ""SELKIRK"" not in any OCR range for
 CHAUCER,CHAUCER,1810,OCR_GAP,0.80,"Headword ""CHAUCER"" not in any OCR range for 1810",,,3692,4,1797|1815|1823|1842
 SHEFFIELD,SHEFFIELD,1778,OCR_GAP,0.80,"Headword ""SHEFFIELD"" not in any OCR range for 1778",,,3617,5,1771|1810|1815|1842|1860
 LORN,LORN,1778,OCR_GAP,0.80,"Headword ""LORN"" not in any OCR range for 1778",,,3585,2,1771|1860
+CAMOENS,CAMOENS,1810,OCR_GAP,0.80,"Headword ""CAMOENS"" not in any OCR range for 1810",,,3581,4,1778|1823|1842|1860
 SHARP,SHARP,1810,OCR_GAP,0.80,"Headword ""SHARP"" not in any OCR range for 1810",,,3560,6,1778|1797|1815|1823|1842|1860
 THRASHING,THRASHING,1778,OCR_GAP,0.80,"Headword ""THRASHING"" not in any OCR range for 1778",,,3556,6,1771|1797|1810|1815|1823|1842
 ALOE,ALOE,1810,OCR_GAP,0.80,"Headword ""ALOE"" not in any OCR range for 1810",,,3517,4,1771|1778|1797|1860
@@ -403,7 +404,6 @@ MACCABEES,MACCABEES,1778,OCR_GAP,0.80,"Headword ""MACCABEES"" not in any OCR ran
 AGRIGENTUM,AGRIGENTUM,1823,OCR_GAP,0.80,"Headword ""AGRIGENTUM"" not in any OCR range for 1823",,,2057,5,1797|1810|1815|1842|1860
 SANQUHAR,SANQUHAR,1810,OCR_GAP,0.80,"Headword ""SANQUHAR"" not in any OCR range for 1810",,,2049,3,1771|1842|1860
 ARGUMENT,ARGUMENT,1815,OCR_GAP,0.80,"Headword ""ARGUMENT"" not in any OCR range for 1815",,,2030,5,1771|1778|1797|1810|1823
-CAMOENS,CAMOENS,1810,OCR_GAP,0.80,"Headword ""CAMOENS"" not in any OCR range for 1810",,,2028,3,1778|1842|1860
 SECOND_SIGHT,SECOND SIGHT,1810,OCR_GAP,0.80,"Headword ""SECOND SIGHT"" not in any OCR range for 1810",,,1961,4,1797|1815|1823|1842
 CENSURE,CENSURE,1810,OCR_GAP,0.80,"Headword ""CENSURE"" not in any OCR range for 1810",,,1945,5,1771|1778|1797|1842|1860
 ARGYLLSHIRE,ARGYLLSHIRE,1797,OCR_GAP,0.80,"Headword ""ARGYLLSHIRE"" not in any OCR range for 1797",,,1901,4,1778|1810|1815|1823
@@ -552,13 +552,10 @@ NAVIGATION,NAVIGATION,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed
 DYEING,DYEING,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,79386,7,1771|1797|1810|1815|1823|1842|1860
 ORDER,ORDER,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,79138,6,1771|1778|1797|1815|1823|1842
 POLITICAL_ECONOMY,POLITICAL ECONOMY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,63445,3,1815|1842|1860
-MATERA,MATERA,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,63391,6,1778|1797|1810|1815|1823|1860
 INDIA,INDIA,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,63390,7,1771|1797|1810|1815|1823|1842|1860
 STEAM-ENGINE,STEAM-ENGINE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,62211,5,1778|1797|1815|1823|1860
 KITCHEN_GARDEN,KITCHEN GARDEN,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,59017,4,1810|1823|1842|1860
 MATERIA_MEDICA,MATERIA MEDICA,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,57531,6,1778|1797|1810|1815|1823|1860
-MICROSCOPE,MICROSCOPE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,56423,6,1778|1797|1810|1815|1842|1860
-CHARLES_V,CHARLES V,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,56106,4,1778|1797|1823|1842
 INDIAN,INDIAN,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,52087,2,1810|1842
 INDIAN,INDIAN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,52087,2,1810|1842
 BOSWELL,BOSWELL,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,51994,4,1797|1823|1842|1860
@@ -568,10 +565,10 @@ RHETORIC,RHETORIC,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed —
 RHETORIC,RHETORIC,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,49611,3,1771|1842|1860
 RHETORIC,RHETORIC,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,49611,3,1771|1842|1860
 RHETORIC,RHETORIC,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,49611,3,1771|1842|1860
+MATERA,MATERA,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,46112,6,1778|1797|1810|1815|1823|1860
 DRAMA,DRAMA,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,45711,7,1771|1778|1797|1810|1815|1823|1860
 PYROTECHNY,PYROTECHNY,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,43301,6,1778|1810|1815|1823|1842|1860
 BEDFORDSHIRE,BEDFORDSHIRE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,43130,6,1778|1810|1815|1823|1842|1860
-MEDALS,MEDALS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,42468,3,1810|1815|1842
 TELESCOPE,TELESCOPE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,41821,6,1778|1797|1810|1815|1823|1860
 ORES,ORES,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,40775,3,1815|1823|1860
 THEOGNIS,THEOGNIS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,40207,5,1778|1810|1815|1842|1860
@@ -594,16 +591,12 @@ SHAKESPEARE,SHAKESPEARE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not pars
 SHAKESPEARE,SHAKESPEARE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,27502,5,1778|1810|1815|1823|1860
 BUENOS_AYRES,BUENOS AYRES,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,27184,5,1797|1815|1823|1842|1860
 STONE-MASONRY,STONE-MASONRY,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,26255,2,1823|1860
-SCULPTURE,SCULPTURE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,25820,6,1771|1797|1810|1815|1823|1860
 BEDWIN,BEDWIN,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,25293,2,1771|1842
 BEDWIN,BEDWIN,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,25293,2,1771|1842
 BEDWIN,BEDWIN,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,25293,2,1771|1842
 BEDWIN,BEDWIN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,25293,2,1771|1842
 PERSIA,PERSIA,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,24802,7,1771|1778|1797|1815|1823|1842|1860
 CONSTANTINOPOLITAN_HISTORY,CONSTANTINOPOLITAN HISTORY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,24697,3,1815|1842|1860
-PERSPECTIVE,PERSPECTIVE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23293,4,1771|1778|1823|1842
-PERSPECTIVE,PERSPECTIVE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23293,4,1771|1778|1823|1842
-PERSPECTIVE,PERSPECTIVE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23293,4,1771|1778|1823|1842
 CONCORDAT,CONCORDAT,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23166,4,1797|1810|1842|1860
 CONCORDAT,CONCORDAT,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23166,4,1797|1810|1842|1860
 TIMBER,TIMBER,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,23015,4,1771|1810|1842|1860
@@ -617,6 +610,9 @@ WELLINGTON,WELLINGTON,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed
 WELLINGTON,WELLINGTON,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,22020,2,1771|1860
 WELLINGTON,WELLINGTON,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,22020,2,1771|1860
 PARTNERSHIP,PARTNERSHIP,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,22008,5,1778|1810|1815|1842|1860
+PERSPECTIVE,PERSPECTIVE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,21724,4,1771|1778|1823|1842
+PERSPECTIVE,PERSPECTIVE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,21724,4,1771|1778|1823|1842
+PERSPECTIVE,PERSPECTIVE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,21724,4,1771|1778|1823|1842
 DOCK,DOCK,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,21463,5,1778|1810|1815|1823|1842
 SILK,SILK,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,21194,7,1771|1778|1797|1810|1815|1842|1860
 WEIGHTS_AND_MEASURES,WEIGHTS AND MEASURES,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,20926,4,1797|1823|1842|1860
@@ -642,6 +638,9 @@ MINIATURE_PAINTING,MINIATURE PAINTING,1815,PARSING_OR_EDITORIAL,0.50,In OCR rang
 MALTA,MALTA,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15421,7,1771|1778|1810|1815|1823|1842|1860
 LIVERPOOL,LIVERPOOL,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15309,6,1771|1797|1810|1815|1842|1860
 JENA,JENA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15283,7,1771|1778|1797|1810|1815|1842|1860
+LESLIE,LESLIE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15013,4,1778|1797|1842|1860
+LESLIE,LESLIE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15013,4,1778|1797|1842|1860
+LESLIE,LESLIE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,15013,4,1778|1797|1842|1860
 POLYTHEISM,POLYTHEISM,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,14649,6,1778|1797|1815|1823|1842|1860
 AUSTRIA,AUSTRIA,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,14438,7,1771|1778|1797|1815|1823|1842|1860
 JAPAN,JAPAN,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,13733,7,1771|1778|1797|1810|1815|1823|1860
@@ -655,14 +654,12 @@ CHRIST-CHURCH,CHRIST-CHURCH,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not 
 ASSAYING,ASSAYING,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12970,4,1797|1823|1842|1860
 GOUT,GOUT,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12912,5,1778|1797|1815|1823|1860
 GOUT,GOUT,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12912,5,1778|1797|1815|1823|1860
-PERTH,PERTH,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12723,7,1771|1778|1797|1810|1815|1842|1860
 PENN,PENN,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12618,3,1778|1797|1860
 PENN,PENN,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12618,3,1778|1797|1860
 PENN,PENN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12618,3,1778|1797|1860
 PENN,PENN,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12618,3,1778|1797|1860
 CATHEDRAL,CATHEDRAL,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12613,4,1771|1778|1823|1842
 CATHEDRAL,CATHEDRAL,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12613,4,1771|1778|1823|1842
-BREAKWATER,BREAKWATER,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12460,2,1823|1860
 MOSS,MOSS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12388,6,1771|1778|1797|1810|1815|1842
 AUXONNE,AUXONNE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12200,6,1778|1797|1815|1823|1842|1860
 INSTINCT,INSTINCT,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,12198,6,1771|1778|1797|1810|1815|1860
@@ -706,13 +703,10 @@ LEIGHTON,LEIGHTON,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed —
 LEIGHTON,LEIGHTON,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,9030,4,1778|1797|1842|1860
 LEIGHTON,LEIGHTON,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,9030,4,1778|1797|1842|1860
 PARAGUAY,PARAGUAY,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8906,7,1771|1778|1797|1815|1823|1842|1860
-VERMIN,VERMIN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8627,7,1771|1778|1797|1810|1815|1842|1860
 MASSINGER,MASSINGER,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8617,5,1797|1815|1823|1842|1860
 POTASH,POTASH,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8380,6,1771|1797|1810|1815|1823|1842
-VERMILION,VERMILION,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8261,7,1771|1778|1797|1810|1823|1842|1860
 AUSONIUS,AUSONIUS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8260,6,1778|1797|1815|1823|1842|1860
 PORISM,PORISM,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,8071,5,1797|1810|1815|1842|1860
-ROUSSEAU,ROUSSEAU,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7885,6,1778|1797|1810|1823|1842|1860
 OILS,OILS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7841,2,1797|1860
 OILS,OILS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7841,2,1797|1860
 OILS,OILS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7841,2,1797|1860
@@ -726,7 +720,6 @@ YOUNG,YOUNG,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possi
 POTATO,POTATO,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7630,4,1797|1810|1815|1860
 CRETE,CRETE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7613,6,1778|1797|1810|1815|1842|1860
 HONDURAS,HONDURAS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7521,7,1771|1778|1797|1815|1823|1842|1860
-LALANDE,LALANDE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7261,2,1823|1860
 MONSTER,MONSTER,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7220,6,1771|1797|1815|1823|1842|1860
 CANARY_ISLANDS,CANARY ISLANDS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7167,2,1823|1860
 GOOD_FRIDAY,GOOD FRIDAY,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7129,3,1797|1815|1860
@@ -734,7 +727,6 @@ GOOD_FRIDAY,GOOD FRIDAY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not pars
 GOOD_FRIDAY,GOOD FRIDAY,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7129,3,1797|1815|1860
 BAUTZEN,BAUTZEN,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7114,7,1771|1778|1797|1815|1823|1842|1860
 FIFE,FIFE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,7112,7,1771|1778|1797|1810|1815|1823|1860
-JOHNSON,JOHNSON,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6941,2,1815|1860
 LINDSAY,LINDSAY,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6936,4,1797|1815|1842|1860
 LINDSAY,LINDSAY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6936,4,1797|1815|1842|1860
 LAPITHUS,LAPITHUS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6889,4,1797|1810|1815|1842
@@ -745,10 +737,8 @@ STENOGRAPHY,STENOGRAPHY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not pars
 COPERNICUS,COPERNICUS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6637,7,1771|1778|1797|1810|1815|1823|1860
 ISCHURIA,ISCHURIA,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6620,3,1797|1810|1842
 ISCHURIA,ISCHURIA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6620,3,1797|1810|1842
-CLARKE,CLARKE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6589,6,1778|1797|1810|1815|1842|1860
 GUATIMALA,GUATIMALA,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6496,5,1778|1797|1815|1823|1842
 BRICK,BRICK,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6462,6,1771|1797|1815|1823|1842|1860
-JONES,JONES,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6417,6,1778|1797|1810|1815|1823|1860
 FUEL,FUEL,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6370,7,1771|1778|1797|1810|1815|1842|1860
 POMPEII,POMPEII,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6264,6,1778|1797|1815|1823|1842|1860
 CHRISTOPHERS,CHRISTOPHERS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,6247,5,1771|1778|1823|1842|1860
@@ -763,15 +753,9 @@ FELIX,FELIX,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possi
 ERASMUS,ERASMUS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5909,4,1778|1797|1842|1860
 ERASMUS,ERASMUS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5909,4,1778|1797|1842|1860
 ERASMUS,ERASMUS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5909,4,1778|1797|1842|1860
-CAMPBELL,CAMPBELL,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5788,4,1778|1797|1842|1860
-CAMPBELL,CAMPBELL,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5788,4,1778|1797|1842|1860
 SPAHIS,SPAHIS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5769,2,1778|1842
 SPAHIS,SPAHIS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5769,2,1778|1842
 SPAHIS,SPAHIS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5769,2,1778|1842
-LESLIE,LESLIE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5651,3,1778|1797|1860
-LESLIE,LESLIE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5651,3,1778|1797|1860
-LESLIE,LESLIE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5651,3,1778|1797|1860
-LESLIE,LESLIE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5651,3,1778|1797|1860
 BUNYAN,BUNYAN,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5605,6,1778|1797|1815|1823|1842|1860
 STOCKPORT,STOCKPORT,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5594,2,1771|1860
 STOCKPORT,STOCKPORT,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,5594,2,1771|1860
@@ -830,6 +814,8 @@ PHOTOMETER,PHOTOMETER,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed
 RICHMOND,RICHMOND,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4631,4,1771|1823|1842|1860
 RICHMOND,RICHMOND,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4631,4,1771|1823|1842|1860
 RICHMOND,RICHMOND,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4631,4,1771|1823|1842|1860
+MONTESQUIEU,MONTESQUIEU,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4609,5,1778|1797|1823|1842|1860
+MONTESQUIEU,MONTESQUIEU,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4609,5,1778|1797|1823|1842|1860
 BOGOMILI,BOGOMILI,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4607,7,1771|1778|1810|1815|1823|1842|1860
 SHEERNESS,SHEERNESS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4582,3,1815|1842|1860
 REDRUTH,REDRUTH,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4570,3,1771|1842|1860
@@ -856,9 +842,6 @@ SEMIPELAGIANS,SEMIPELAGIANS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not 
 SIAM,SIAM,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4189,4,1771|1778|1842|1860
 SIAM,SIAM,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4189,4,1771|1778|1842|1860
 SIAM,SIAM,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4189,4,1771|1778|1842|1860
-MONTESQUIEU,MONTESQUIEU,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4128,4,1778|1797|1823|1860
-MONTESQUIEU,MONTESQUIEU,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4128,4,1778|1797|1823|1860
-MONTESQUIEU,MONTESQUIEU,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4128,4,1778|1797|1823|1860
 TARSHISH,TARSHISH,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4085,2,1797|1860
 TARSHISH,TARSHISH,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4085,2,1797|1860
 TARSHISH,TARSHISH,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,4085,2,1797|1860
@@ -877,7 +860,6 @@ BLANC,BLANC,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possi
 PALERMO,PALERMO,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3775,7,1771|1778|1797|1810|1815|1823|1860
 FERMANAGH,FERMANAGH,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3767,6,1778|1810|1815|1823|1842|1860
 CARTES,CARTES,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3756,5,1778|1797|1810|1815|1860
-PLAYHOUSE,PLAYHOUSE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3754,4,1797|1810|1823|1842
 CLARE,CLARE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3733,6,1771|1778|1797|1823|1842|1860
 EZEKIEL,EZEKIEL,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3733,7,1771|1797|1810|1815|1823|1842|1860
 BEAN,BEAN,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3727,5,1778|1815|1823|1842|1860
@@ -899,8 +881,8 @@ SHEFFIELD,SHEFFIELD,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed �
 SHEFFIELD,SHEFFIELD,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3617,5,1771|1810|1815|1842|1860
 NOTTINGHAM,NOTTINGHAM,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3601,5,1771|1815|1823|1842|1860
 LORN,LORN,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3585,2,1771|1860
-RAINBOW,RAINBOW,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3576,6,1771|1778|1810|1823|1842|1860
-RAINBOW,RAINBOW,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3576,6,1771|1778|1810|1823|1842|1860
+CAMOENS,CAMOENS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3581,4,1778|1823|1842|1860
+CAMOENS,CAMOENS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3581,4,1778|1823|1842|1860
 DUEL,DUEL,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3551,7,1771|1778|1797|1815|1823|1842|1860
 MOSQUE,MOSQUE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3493,7,1771|1778|1797|1810|1823|1842|1860
 LUC,LUC,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3477,4,1771|1823|1842|1860
@@ -912,7 +894,6 @@ VENEZUELA,VENEZUELA,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed �
 VENEZUELA,VENEZUELA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3380,3,1771|1842|1860
 MILLENIUM,MILLENIUM,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3364,3,1797|1842|1860
 CHARISTIA,CHARISTIA,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3360,7,1771|1797|1810|1815|1823|1842|1860
-MEAN,MEAN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3359,6,1771|1778|1797|1810|1815|1842
 METASTASIO,METASTASIO,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3358,5,1797|1810|1823|1842|1860
 FORSTER,FORSTER,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3346,4,1797|1823|1842|1860
 FORSTER,FORSTER,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3346,4,1797|1823|1842|1860
@@ -952,12 +933,12 @@ FUND,FUND,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possibl
 FUND,FUND,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3049,5,1778|1797|1815|1842|1860
 LACCA,LACCA,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3044,6,1771|1778|1797|1815|1823|1842
 CHANCELLOR,CHANCELLOR,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3020,6,1771|1778|1797|1815|1823|1860
+DANTE,DANTE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3019,5,1778|1797|1815|1823|1842
 WATSON,WATSON,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3011,5,1778|1810|1815|1823|1860
 WATSON,WATSON,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3011,5,1778|1810|1815|1823|1860
 APIARY,APIARY,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,3008,7,1771|1797|1810|1815|1823|1842|1860
 FILTRATION,FILTRATION,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2998,3,1797|1815|1842
 FILTRATION,FILTRATION,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2998,3,1797|1815|1842
-RICHARDSON,RICHARDSON,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2995,6,1778|1797|1810|1815|1842|1860
 MILLE_PASSUS,MILLE PASSUS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2979,4,1797|1815|1823|1842
 MAINE,MAINE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2971,3,1771|1842|1860
 MAINE,MAINE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2971,3,1771|1842|1860
@@ -1008,8 +989,7 @@ FLEURY,FLEURY,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — pos
 FLEURY,FLEURY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2721,3,1771|1842|1860
 ASPERIFOLIATE,ASPERIFOLIATE,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2717,6,1771|1797|1810|1815|1823|1842
 GHENT,GHENT,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2703,7,1771|1778|1797|1810|1815|1823|1860
-ROSA,ROSA,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2699,6,1771|1778|1797|1810|1842|1860
-ROSA,ROSA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2699,6,1771|1778|1797|1810|1842|1860
+ROSA,ROSA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2699,7,1771|1778|1797|1810|1815|1842|1860
 REVELATION,REVELATION,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2692,7,1771|1778|1810|1815|1823|1842|1860
 WILLIAM_OF_WYKEHAM,WILLIAM OF WYKEHAM,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2690,2,1823|1860
 WARTON,WARTON,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2659,3,1797|1842|1860
@@ -1052,8 +1032,6 @@ MARITIME,MARITIME,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed —
 MARITIME,MARITIME,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2418,5,1771|1778|1815|1823|1842
 LINEN,LINEN,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2413,5,1778|1797|1810|1815|1860
 LINEN,LINEN,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2413,5,1778|1797|1810|1815|1860
-DANTE,DANTE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2406,4,1778|1797|1815|1842
-DANTE,DANTE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2406,4,1778|1797|1815|1842
 CAMUS,CAMUS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2400,7,1771|1778|1797|1810|1815|1823|1860
 WESLEY,WESLEY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2387,5,1797|1810|1815|1842|1860
 VENTRILLOQUIST,VENTRILLOQUIST,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2374,2,1797|1860
@@ -1064,8 +1042,7 @@ WINTON,WINTON,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — pos
 FIRMICUS,FIRMICUS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2362,3,1810|1842|1860
 FIRMICUS,FIRMICUS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2362,3,1810|1842|1860
 BASSORA,BASSORA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2352,3,1810|1815|1842
-PLAUTUS,PLAUTUS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2349,5,1778|1810|1823|1842|1860
-PLAUTUS,PLAUTUS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2349,5,1778|1810|1823|1842|1860
+PLAUTUS,PLAUTUS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2349,6,1778|1810|1815|1823|1842|1860
 COLLISION,COLLISION,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2337,5,1778|1797|1815|1823|1860
 MENDOZA,MENDOZA,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2333,3,1778|1797|1860
 MENDOZA,MENDOZA,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2333,3,1778|1797|1860
@@ -1075,7 +1052,6 @@ IVORY,IVORY,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possi
 EXCHEQUER,EXCHEQUER,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2315,6,1771|1778|1797|1810|1815|1842
 PARACELSIUS,PARACELSIUS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2300,5,1797|1810|1823|1842|1860
 GRAVINA,GRAVINA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2281,7,1771|1778|1797|1810|1815|1842|1860
-BAILLY,BAILLY,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2277,5,1797|1815|1823|1842|1860
 BRONTOLOGY,BRONTOLOGY,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2277,3,1778|1842|1860
 BRONTOLOGY,BRONTOLOGY,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2277,3,1778|1842|1860
 BRONTOLOGY,BRONTOLOGY,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2277,3,1778|1842|1860
@@ -1093,8 +1069,8 @@ ILDEFONSO,ILDEFONSO,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed �
 THESSALY,THESSALY,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2242,6,1771|1778|1810|1815|1823|1842
 FOSTER,FOSTER,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2232,5,1797|1815|1823|1842|1860
 BRONZE,BRONZE,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2231,6,1778|1797|1810|1815|1823|1860
+ROUSSILLON,ROUSSILLON,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2205,3,1815|1823|1860
 SENATE,SENATE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2204,7,1771|1778|1797|1810|1815|1842|1860
-MECCA,MECCA,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2200,7,1771|1778|1797|1810|1815|1842|1860
 GARNET,GARNET,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2199,7,1771|1778|1797|1810|1815|1823|1860
 CAERMARTHEN,CAERMARTHEN,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2186,5,1771|1778|1815|1842|1860
 STEPHANUS,STEPHANUS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2182,4,1778|1797|1842|1860
@@ -1150,9 +1126,6 @@ MILO,MILO,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possibl
 FAGUS,FAGUS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2037,6,1778|1797|1810|1815|1823|1860
 ZENO,ZENO,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2037,6,1778|1797|1810|1815|1823|1860
 CIRRIPEDES,CIRRIPEDES,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2034,2,1823|1860
-CAMOENS,CAMOENS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2028,3,1778|1842|1860
-CAMOENS,CAMOENS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2028,3,1778|1842|1860
-CAMOENS,CAMOENS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2028,3,1778|1842|1860
 KEATE,KEATE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2013,3,1797|1810|1842
 KEATE,KEATE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,2013,3,1797|1810|1842
 MURATORI,MURATORI,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1992,6,1778|1797|1810|1815|1823|1860
@@ -1375,7 +1348,6 @@ EMOUY,EMOUY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possi
 AIX-LA-CHAPELLE,AIX-LA-CHAPELLE,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1281,6,1771|1810|1815|1823|1842|1860
 SCOUGAL,SCOUGAL,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1274,4,1810|1815|1842|1860
 ATOOL,ATOOL,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1272,4,1797|1810|1815|1842
-DENNIS,DENNIS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1271,7,1771|1778|1797|1815|1823|1842|1860
 RIO_GRANDE,RIO GRANDE,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1271,3,1771|1842|1860
 RIO_GRANDE,RIO GRANDE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1271,3,1771|1842|1860
 RIO_GRANDE,RIO GRANDE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1271,3,1771|1842|1860
@@ -1414,12 +1386,11 @@ HALLELUJAH,HALLELUJAH,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed
 HALLELUJAH,HALLELUJAH,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1201,3,1797|1842|1860
 CAPIAS,CAPIAS,1778,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1200,6,1771|1797|1810|1815|1823|1860
 CAPIAS,CAPIAS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1200,6,1771|1797|1810|1815|1823|1860
+MIEL,MIEL,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1195,5,1797|1810|1815|1823|1860
 BEALE,BEALE,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1192,6,1778|1797|1815|1823|1842|1860
 BEAM,BEAM,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1190,6,1771|1778|1815|1823|1842|1860
 BEAM,BEAM,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1190,6,1771|1778|1815|1823|1842|1860
 COLLINS,COLLINS,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1188,6,1778|1810|1815|1823|1842|1860
-MIEL,MIEL,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1188,4,1797|1815|1823|1860
-MIEL,MIEL,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1188,4,1797|1815|1823|1860
 HIPPARCHUS,HIPPARCHUS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1187,5,1797|1815|1823|1842|1860
 NUREMBERG,NUREMBERG,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1185,6,1778|1797|1810|1815|1823|1860
 RHAMNUS,RHAMNUS,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1184,7,1771|1778|1797|1810|1815|1823|1860
@@ -1487,6 +1458,7 @@ SHOT,SHOT,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possibl
 MUTIUS,MUTIUS,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1104,6,1778|1797|1815|1823|1842|1860
 PRIMOGENITURE,PRIMOGENITURE,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1095,5,1797|1810|1815|1842|1860
 DECIPHERING,DECIPHERING,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1093,7,1771|1778|1797|1810|1815|1823|1860
+JONAH,JONAH,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1090,7,1771|1778|1797|1810|1815|1823|1860
 CONSTANCY,CONSTANCY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1084,3,1797|1810|1842
 THOMAS,THOMAS,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1084,2,1797|1860
 THOMAS,THOMAS,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1084,2,1797|1860
@@ -1527,7 +1499,6 @@ HUYSUM,HUYSUM,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — pos
 ORESTES,ORESTES,1810,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1027,6,1778|1797|1815|1823|1842|1860
 PLUMMET,PLUMMET,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1027,5,1771|1778|1797|1810|1842
 PLUMMET,PLUMMET,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1027,5,1771|1778|1797|1810|1842
-MORNAY,MORNAY,1823,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1024,5,1778|1797|1810|1815|1842
 SCHOMBERG,SCHOMBERG,1842,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1023,4,1797|1815|1823|1860
 CANNE,CANNE,1797,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1019,2,1778|1842
 CANNE,CANNE,1815,PARSING_OR_EDITORIAL,0.50,In OCR range but not parsed — possible parsing error or editorial removal,,,1019,2,1778|1842
@@ -1551,7 +1522,7 @@ DALRYMPLE,DALRYMPLE,1842,SWALLOWED,0.90,"Found inside ""DALMATIA"" (12,684w) —
 SPIRITUAL,SPIRITUAL,1797,SWALLOWED,0.90,"Found inside ""SPECIFICS"" (9,715w) — at 88% in SPECIFICS (1,071w after)",,SPECIFICS,10016,5,1771|1778|1810|1815|1823
 DRAYTON,DRAYTON,1815,SWALLOWED,0.90,"Found inside ""DRAWING"" (8,966w) — at 93% in DRAWING (677w after)",,DRAWING,9429,6,1778|1797|1810|1823|1842|1860
 EVIDENCE,EVIDENCE,1842,SWALLOWED,0.90,"Found inside ""EUXINUS PONTUS"" (14,510w) — at 94% in EUXINUS PONTUS (886w after)",,EUXINUS PONTUS,8790,7,1771|1778|1797|1810|1815|1823|1860
-JOHNSON,JOHNSON,1842,SWALLOWED,0.90,"Found inside ""JOACHIMITES"" (22,367w) — at 42% in JOACHIMITES (12,980w after)",,JOACHIMITES,6941,2,1815|1860
+JOHNSON,JOHNSON,1842,SWALLOWED,0.90,"Found inside ""JOACHIMITES"" (22,367w) — at 42% in JOACHIMITES (12,980w after)",,JOACHIMITES,6945,3,1815|1823|1860
 FOUNDERY,FOUNDERY,1815,SWALLOWED,0.90,"Found inside ""FORTIFICATION"" (5,410w) — at 86% in FORTIFICATION (771w after)",,FORTIFICATION,4829,3,1771|1842|1860
 JEROME,JEROME,1842,SWALLOWED,0.90,"Found inside ""JENA"" (15,283w) — at 17% in JENA (12,649w after)",,JENA,3065,6,1778|1797|1810|1815|1823|1860
 KING'S_COUNTY,KING'S COUNTY,1842,SWALLOWED,0.90,"Found inside ""KING"" (6,642w) — at 63% in KING (2,367w after)",,KING,2782,2,1823|1860
@@ -1563,14 +1534,13 @@ NORTHAMPTON,NORTHAMPTON,1810,SWALLOWED,0.90,"Found inside ""NORTH"" (5,027w) —
 STARCH,STARCH,1823,SWALLOWED,0.90,"Found inside ""SQUARE-RIGGED"" (8,961w) — at 12% in SQUARE-RIGGED (7,859w after)",,SQUARE-RIGGED,2244,4,1797|1810|1815|1842
 CUSTOMS,CUSTOMS,1778,SWALLOWED,0.90,"Found inside ""CUSTOM"" (8,992w) — at 86% in CUSTOM (1,277w after)",,CUSTOM,1977,3,1771|1797|1815
 CUSTOMS,CUSTOMS,1810,SWALLOWED,0.90,"Found inside ""CUSTOM"" (8,979w) — at 86% in CUSTOM (1,273w after)",,CUSTOM,1977,3,1771|1797|1815
-JOSEPHUS,JOSEPHUS,1842,SWALLOWED,0.90,"Found inside ""JOINTS"" (13,947w) — at 91% in JOINTS (1,151w after)",,JOINTS,1788,5,1778|1810|1815|1823|1860
+JOSEPHUS,JOSEPHUS,1842,SWALLOWED,0.90,"Found inside ""JONES"" (5,245w) — at 78% in JONES (1,151w after)",,JONES,1788,5,1778|1810|1815|1823|1860
 NORTHAMPTONSHIRE,NORTHAMPTONSHIRE,1810,SWALLOWED,0.90,"Found inside ""NORTH"" (5,027w) — at 93% in NORTH (365w after)",,NORTH,1767,5,1778|1815|1823|1842|1860
 ASSUMPSIT,ASSUMPSIT,1823,SWALLOWED,0.90,"Found inside ""ASSOCIATION"" (3,261w) — at 45% in ASSOCIATION (1,849w after)",,ASSOCIATION,1627,6,1771|1778|1797|1815|1842|1860
 PARTISAN,PARTISAN,1797,SWALLOWED,0.90,"Found inside ""PARR"" (11,729w) — at 60% in PARR (4,769w after)",,PARR,1598,5,1778|1810|1815|1823|1842
 PARTRIDGE,PARTRIDGE,1797,SWALLOWED,0.90,"Found inside ""PARR"" (11,729w) — at 74% in PARR (3,168w after)",,PARR,1578,5,1778|1810|1815|1823|1842
 MEDIA,MEDIA,1823,SWALLOWED,0.90,"Found inside ""MEDALLIONS"" (9,918w) — at 9% in MEDALLIONS (9,040w after)",,MEDALLIONS,1375,5,1778|1810|1815|1842|1860
 ICE-HOUSE,ICE-HOUSE,1815,SWALLOWED,0.90,"Found inside ""ICE ICE"" (5,906w) — at 65% in ICE ICE (2,089w after)",,ICE ICE,1214,5,1771|1797|1810|1823|1842
-JONAH,JONAH,1842,SWALLOWED,0.90,"Found inside ""JOINTS"" (13,947w) — at 58% in JOINTS (5,584w after)",,JOINTS,1090,7,1771|1778|1797|1810|1815|1823|1860
 PHILOLOGY,PHILOLOGY,1842,VARIANT,0.85,"substring: found as ""PHILO"" (89,478w)",PHILO,,89951,7,1771|1778|1797|1810|1815|1823|1860
 BLEACHING,BLEACHING,1778,VARIANT,0.85,"substring: found as ""BLEA"" (12,460w)",BLEA,,59523,7,1771|1797|1810|1815|1823|1842|1860
 RIVERS,RIVERS,1797,VARIANT,0.85,"singular: found as ""RIVER"" (60,280w)",RIVER,,56977,2,1778|1823
@@ -1603,7 +1573,6 @@ STATIC,STATIC,1842,VARIANT,0.85,"plural: found as ""STATICS"" (1,658w)",STATICS,
 HARMONICA,HARMONICA,1810,VARIANT,0.85,"prefix_sim=0.94: found as ""HARMONIC"" (7,396w)",HARMONIC,,11634,5,1797|1815|1823|1842|1860
 PETERSBURG,PETERSBURG,1823,VARIANT,0.85,"prefix_sim=0.95: found as ""PETERSBURGH"" (4,879w)",PETERSBURGH,,10171,6,1778|1797|1810|1815|1842|1860
 MEDALLIONS,MEDALLIONS,1815,VARIANT,0.85,"substring: found as ""MEDAL"" (33,444w)",MEDAL,,9918,3,1771|1778|1823
-PLATONISM,PLATONISM,1797,VARIANT,0.85,"substring: found as ""PLATO"" (3,505w)",PLATO,,9771,4,1778|1810|1815|1823
 LOUISIANA,LOUISIANA,1778,VARIANT,0.85,"substring: found as ""LOUIS"" (1,089w)",LOUIS,,9377,7,1771|1797|1810|1815|1823|1842|1860
 EDWARD,EDWARD,1797,VARIANT,0.85,"plural: found as ""EDWARDS"" (1,396w)",EDWARDS,,9325,6,1778|1810|1815|1823|1842|1860
 FORTESCUE,FORTESCUE,1797,VARIANT,0.85,"substring: found as ""FORT"" (6,382w)",FORT,,8391,5,1778|1815|1823|1842|1860
@@ -1619,6 +1588,7 @@ HANDS,HANDS,1810,VARIANT,0.85,"singular: found as ""HAND"" (6,484w)",HAND,,6035,
 MIRACLES,MIRACLES,1823,VARIANT,0.85,"singular: found as ""MIRACLE"" (5,138w)",MIRACLE,,5926,4,1797|1810|1815|1860
 MIRACLES,MIRACLES,1842,VARIANT,0.85,"singular: found as ""MIRACLE"" (5,093w)",MIRACLE,,5926,4,1797|1810|1815|1860
 GENUS_LXXXIV,GENUS LXXXIV,1815,VARIANT,0.85,"prefix_sim=0.96: found as ""GENUS LXXXV"" (3,979w)",GENUS LXXXV,,5888,3,1797|1810|1823
+PLATONISM,PLATONISM,1797,VARIANT,0.85,"substring: found as ""PLATO"" (3,505w)",PLATO,,5842,4,1778|1810|1815|1823
 STOCKPORT,STOCKPORT,1823,VARIANT,0.85,"substring: found as ""STOCK"" (1,072w)",STOCK,,5594,2,1771|1860
 NORTHWICH,NORTHWICH,1797,VARIANT,0.85,"substring: found as ""NORTH"" (4,607w)",NORTH,,5200,3,1771|1842|1860
 NORTHWICH,NORTHWICH,1810,VARIANT,0.85,"substring: found as ""NORTH"" (5,027w)",NORTH,,5200,3,1771|1842|1860

@@ -477,6 +477,104 @@ FIXES = [
         ('YORKSHIRE', r'an English county', 0),
         ('YORK', r'very ancient city, the capital of the county', 60),
     ]),
+
+    # ================================================================
+    # PARSING_OR_EDITORIAL → SWALLOWED (found Mar 28-29, 2026)
+    # These are articles the parser missed, swallowed by adjacent entries.
+    # ================================================================
+
+    # --- 1797 3rd edition ---
+    (1797, 'RAIN', 'eb_3rd_1797_v15', [
+        ('RAINBOW', r'Rainbow', 70),
+    ]),
+
+    # --- 1810 4th edition ---
+    (1810, 'BAILLIE', 'eb_4th_1810_v03', [
+        ('BAILLY', r'Bailly, Jean Sylvain', 25),
+    ]),
+    (1810, 'DENMARK', 'eb_4th_1810_v17', [
+        ('DENNIS', r'Dennis, John', 85),
+    ]),
+    (1810, 'MIDWIFERY', 'eb_4th_1810_v17', [
+        ('MIEL', r'Miel, Jan', 90),
+    ]),
+
+    # --- 1815 5th edition ---
+    (1815, 'CAMPANULA', 'eb_5th_1815_v05', [
+        ('CAMPBELL', r'Campbell, Archibald', 0),
+    ]),
+    (1815, 'CHARLES MARTEL', 'eb_5th_1815_v05', [
+        ('CHARLES V', r'Charles V.*emperor.*king of Spain.*was son of Philip', 0),
+    ]),
+    (1815, 'PLATONISM', 'eb_5th_1815_v16', [
+        ('PLAUTUS', r'Plautus, Marcus', 50),
+        ('PLAYHOUSE', r'Playhouse', 55),
+    ]),
+    (1815, 'RAIN', 'eb_5th_1815_v17', [
+        ('RAINBOW', r'Rainbow', 70),
+    ]),
+    (1815, 'ROPES', 'eb_5th_1815_v18', [
+        ('ROSA', r'Rosa, Salvator', 90),
+    ]),
+    (1815, 'ROUSSILLON', 'eb_5th_1815_v18', [
+        ('ROUSSEAU', r'Rousseau, John-James', 20),
+    ]),
+
+    # --- 1823 6th edition ---
+    (1823, 'ABYSS', 'eb_6th_1823_v01', [
+        ('ABYSSINIA', r'Abyssinia', 0),
+    ]),
+    (1823, 'AETIUS', 'eb_6th_1823_v01', [
+        ('AETNA', r'Aetna', 0),
+    ]),
+    # GASSENDI was recovered from OCR by recover_from_ocr.py
+    (1823, 'CAMMIN', 'eb_6th_1823_v05', [
+        ('CAMOENS', r'Camoens, Louis', 0),
+    ]),
+    (1823, 'CAMPANULA', 'eb_6th_1823_v05', [
+        ('CAMPBELL', r'Campbell, Archibald', 0),
+    ]),
+    (1823, 'CLARK', 'eb_6th_1823_v06', [
+        ('CLARKE', r'Clarke, William', 80),
+    ]),
+    (1823, 'DANMONII', 'eb_6th_1823_v07', [
+        ('DANTE', r'Dante, Aligheri', 5),
+    ]),
+    (1823, 'JOHN', 'eb_6th_1823_v11', [
+        ('JOHNSON', r'Johnson, Ben', 10),
+    ]),
+    (1823, 'MATERA', 'eb_6th_1823_v12', [
+        ('MATERIA MEDICA AND PHARMACY', r'MATERIA MEDICA AND PHARMACY', 0),
+    ]),
+    (1823, 'MORLACHIA', 'eb_6th_1823_v14', [
+        ('MORNAY', r'Mornay, Philippe', 60),
+    ]),
+    (1823, 'PERSPECTIVE', 'eb_6th_1823_v16', [
+        ('PERTH', r'Perth, the capital', 85),
+    ]),
+    (1823, 'RICE', 'eb_6th_1823_v18', [
+        ('RICHARDSON', r'Richardson, Jonathan', 60),
+    ]),
+    (1823, 'VERMILION', 'eb_6th_1823_v20', [
+        ('VERMIN', r'Vermin,', 0),
+    ]),
+
+    # --- 1842 7th edition ---
+    (1842, 'BREAKERS', 'eb_7th_1842_v05', [
+        ('BREAKWATER', r'Breakwater', 70),
+    ]),
+    (1842, 'JOINTS', 'eb_7th_1842_v12', [
+        ('JONES', r'Jones, Inigo', 50),
+    ]),
+    (1842, 'LAKE', 'eb_7th_1842_v13', [
+        ('LALANDE', r'Lalande, Joseph Jerome', 20),
+    ]),
+    (1842, 'LESLEY', 'eb_7th_1842_v13', [
+        ('LESLIE', r'Leslie, Charles', 30),
+    ]),
+    (1842, 'MONTE MAGGIORE', 'eb_7th_1842_v15', [
+        ('MONTESQUIEU', r'Montesquieu, Charles', 0),
+    ]),
 ]
 
 
