@@ -31,8 +31,8 @@ def normalize(title):
 
 
 def load_existing_articles():
-    """Load existing article titles per edition year."""
-    by_year = defaultdict(set)
+    """Load existing article titles and max word counts per edition year."""
+    by_year = defaultdict(dict)  # year -> {norm: max_wc}
     for fp in sorted(ARTICLES_DIR.glob("*.articles.jsonl")):
         if '.bak' in fp.name or '.junk' in fp.name:
             continue
@@ -40,7 +40,11 @@ def load_existing_articles():
             if not line.strip():
                 continue
             a = json.loads(line)
-            by_year[a['edition_year']].add(normalize(a['title']))
+            norm = normalize(a['title'])
+            year = a['edition_year']
+            wc = a.get('word_count', 0)
+            if norm not in by_year[year] or wc > by_year[year][norm]:
+                by_year[year][norm] = wc
     return by_year
 
 
@@ -75,30 +79,53 @@ def find_article_in_ocr(title, ocr_text):
     escaped = re.escape(title)
 
     # Try patterns in order of confidence:
-    # 1. ALLCAPS headword: \n\nTITLE, (strongest signal)
-    # 2. Mixed-case with definition: \n\nTitle, a/an/the/in/or ...
+    # 1. ALLCAPS headword after \n\n: strongest signal
+    # 2. ALLCAPS headword after \n: still strong for encyclopedias
+    # 3. Mixed-case compound titles after \n\n with definition pattern
+    # 4. Mixed-case single words after \n\n with topic validation
     candidates = []
 
-    # Pattern 1: ALLCAPS
+    # Pattern 1: ALLCAPS after double newline
     for m in re.finditer(r'\n\n(' + escaped + r')\s*[,;.]\s', ocr_text):
         hw = m.group(1)
         if hw.isupper():
             candidates.append(m)
             break
 
-    # Pattern 2: case-insensitive but must look like a definition start
-    # Only use for multi-word titles or titles with special chars (hyphen, apostrophe)
-    # Single common words like "Major", "Robert", "Matter" match too many false positives
-    title_words = title.split()
-    is_compound = len(title_words) > 1 or '-' in title or "'" in title
-    if not candidates and is_compound:
-        for m in re.finditer(r'\n\n(' + escaped + r')\s*[,;.]\s', ocr_text, re.IGNORECASE):
+    # Pattern 1b: ALLCAPS after single newline
+    if not candidates:
+        for m in re.finditer(r'\n(' + escaped + r')\s*[,;.]\s', ocr_text):
             hw = m.group(1)
-            after = ocr_text[m.end():m.end()+30].lstrip()
-            if re.match(r'(?:a |an |the |in |or |one |from |of |is |was |are |[a-z])', after):
-                if hw[0].isupper():
+            if hw.isupper():
+                # Validate: topic must recur
+                check_region = ocr_text[m.start():m.start()+3000]
+                mentions = len(re.findall(escaped, check_region, re.IGNORECASE))
+                if mentions >= 3:
                     candidates.append(m)
                     break
+
+    # Pattern 2: mixed-case headword with topic validation
+    # For single words, verify the extracted text is actually about that topic
+    # by checking the headword recurs in the first 500 words.
+    if not candidates:
+        is_compound = len(title.split()) > 1 or '-' in title or "'" in title
+        for m in re.finditer(r'\n\n(' + escaped + r')\s*[,;.]\s', ocr_text, re.IGNORECASE):
+            hw = m.group(1)
+            if not hw[0].isupper():
+                continue
+            after = ocr_text[m.end():m.end()+60].lstrip()
+            if not re.match(r'(?:a |an |the |in |or |one |from |of |is |was |are |[a-z])', after):
+                continue
+
+            if not is_compound:
+                # Single word: validate topic by checking headword recurs
+                check_region = ocr_text[m.start():m.start()+3000]
+                mentions = len(re.findall(escaped, check_region, re.IGNORECASE))
+                if mentions < 3:
+                    continue  # headword barely appears — probably false match
+
+            candidates.append(m)
+            break
 
     if not candidates:
         return None
@@ -152,8 +179,9 @@ def main():
         year = int(gap['missing_year'])
         norm = normalize(title)
 
-        # Skip if already exists (e.g., tiny cross-ref)
-        if norm in existing[year]:
+        # Skip if already exists with substantial content (>500w)
+        existing_wc = existing[year].get(norm, 0)
+        if existing_wc > 500:
             continue
 
         # Search OCR files for this year
@@ -165,6 +193,15 @@ def main():
                 
                 # Skip if extracted text is tiny (< 50 words) — probably a false match
                 if wc < 50:
+                    continue
+
+                # Skip if extracted text is a cross-reference (< 200w with "See" pattern)
+                median_wc = int(gap['median_wc']) if gap['median_wc'] else 0
+                if wc < 200 and median_wc > 1000:
+                    continue
+
+                # Skip if absurdly large (>5x expected) — probably overshot boundary
+                if median_wc > 0 and wc > median_wc * 5:
                     continue
 
                 # Build article dict
@@ -197,7 +234,7 @@ def main():
                 art_fname = ocr_info['filename'].replace('.jsonl', '.articles.jsonl')
                 by_file[art_fname].append(art)
                 recovered.append((year, title, wc, ocr_info['filename']))
-                existing[year].add(norm)  # prevent duplicates
+                existing[year][norm] = wc  # prevent duplicates
                 break
 
         if args.limit and len(recovered) >= args.limit:
