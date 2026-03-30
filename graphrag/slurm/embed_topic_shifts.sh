@@ -1,7 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=eb_topic_shift
-#SBATCH --partition=plato_gpu
-#SBATCH --gres=gpu:a100:1
+#SBATCH --gpus-per-node=a100:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=0:30:00
