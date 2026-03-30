@@ -36,7 +36,7 @@ def find_split_point(text, pattern, after_pct=0):
             # Back up to start of the line (after previous \n\n)
             pos = text.rfind('\n\n', 0, m.start())
             if pos == -1:
-                pos = 0
+                pos = m.start()  # no paragraph break — split at match
             else:
                 pos += 2  # skip the \n\n
             return pos
@@ -575,6 +575,292 @@ FIXES = [
     (1842, 'MONTE MAGGIORE', 'eb_7th_1842_v15', [
         ('MONTESQUIEU', r'Montesquieu, Charles', 0),
     ]),
+
+    # ================================================================
+    # MEGA-ARTICLE SWALLOWERS — Session Mar 29, 2026
+    # Large articles that swallowed significant adjacent content.
+    # ================================================================
+
+    # SCOT (1860) — Reginald Scot bio (759 chars) + SCOTLAND history (63K)
+    (1860, 'SCOT', 'eb_8th_1860_v19', [
+        ('SCOTLAND', r'HISTORY OF SCOTLAND', 0),
+    ]),
+
+    # ROMANO (1823) — Giulio Romano bio (~1477 chars) + ROME history (42K)
+    (1823, 'ROMANO', 'eb_6th_1823_v18', [
+        ('ROME', r'ROM[EÈ],.*(?:ancient|celebrated).*city.*Italy', 0),
+    ]),
+
+    # BOND (1771) — 40w definition swallowed everything through BOOK-KEEPING (42K)
+    (1771, 'BOND', 'eb_1st_1771_v01_AAB', [
+        ('BOOK-KEEPING', r'BOOK-KEEPING', 1),
+    ]),
+
+    # MATERA (1810) — 32w town swallowed MATERIA MEDICA (v12, not v13)
+    (1810, 'MATERA', 'eb_4th_1810_v12', [
+        ('MATERIA MEDICA AND PHARMACY', r'MATERIA MEDICA', 0),
+    ]),
+    # MATERA (1815) — same pattern
+    (1815, 'MATERA', 'eb_5th_1815_v12', [
+        ('MATERIA MEDICA AND PHARMACY', r'MATERIA MEDICA', 0),
+    ]),
+
+    # ENGRAILED (1842) — heraldry term swallowed ENGRAVING (~15K)
+    (1842, 'ENGRAILED', 'eb_7th_1842_v09', [
+        ('ENGRAVING', r'Engraving being properly a branch of sculpture', 0),
+    ]),
+    # ENGRAILED (1860) — same pattern
+    (1860, 'ENGRAILED', 'eb_8th_1860_v08', [
+        ('ENGRAVING', r'Engraving,', 1),
+    ]),
+
+    # PERSHORE (1842) — market town swallowed PERSIA (~20K)
+    (1842, 'PERSHORE', 'eb_7th_1842_v17', [
+        ('PERSIA', r'From the remotest period of antiquity Persia', 0),
+    ]),
+    # PERSHORE (1860) — same
+    (1860, 'PERSHORE', 'eb_8th_1860_v17', [
+        ('PERSIA', r'In illustration of this remark', 0),
+    ]),
+
+    # NET (1842) — net definition (~200w) swallowed NETHERLANDS (~32K)
+    (1842, 'NET', 'eb_7th_1842_v16', [
+        ('NETHERLANDS', r'The decisive battle of Gembloux', 0),
+    ]),
+
+    # ZYGOMATICUS (1778) — swallowed entire Vol 10 Appendix (146K)
+    # Real ZYGOMATICUS is ~18w definition. Rest is Appendix.
+    (1778, 'ZYGOMATICUS', 'eb_2nd_1778_v10_IND-WOO_alt2', [
+        ('APPENDIX', r'APPENDIX:', 0),
+    ]),
+
+    # PERSONIFYING (1797) — swallowed PERSPECTIVE (~18K)
+    (1797, 'PERSONIFYING', 'eb_3rd_1797_v14', [
+        ('PERSPECTIVE', r'\*\*PERSPECTIVE\.\*\*', 0),
+    ]),
+
+    # BURNING (1810) — swallowed BURNISHING, BURNLEY, BURNS
+    (1810, 'BURNING', 'eb_4th_1810_v05', [
+        ('BURNS', r'\*\*Burns, Robert\*\*', 30),
+    ]),
+
+    # SLAUGHTER (1810-1823) — actually SLAVERY content
+    # SLAVE is 37w stub, SLAUGHTER is 14K of slavery content
+    # Relabel handled in RELABELS section below
+
+    # INDIAN (1810) — tail of INDIA, merge handled in MERGES section below
+
+    # ================================================================
+    # SWALLOWED ARTICLES — Session Mar 29, 2026
+    # These 28 gaps were classified SWALLOWED in gap_classifications.
+    # 2 false positives excluded (FORTIFICATION/FOUNDERY plate label,
+    # SQUARE-RIGGED/STARCH plate label).
+    # ================================================================
+
+    # --- ABEL (1810, 1815, 1823) swallowed ABELARD ---
+    (1810, 'ABEL', 'eb_4th_1810_v08', [
+        ('ABELARD', r'ABELARD, Peter', 5),
+    ]),
+    (1815, 'ABEL', 'eb_5th_1815_v01', [
+        ('ABELARD', r'ABELARD, Peter', 5),
+    ]),
+    (1823, 'ABEL', 'eb_6th_1823_v01', [
+        ('ABELARD', r'ABELARD, Peter', 5),
+    ]),
+
+    # --- NORTH (1797) swallowed NORTHAMPTON + NORTHAMPTONSHIRE ---
+    (1797, 'NORTH', 'eb_3rd_1797_v13', [
+        ('NORTHAMPTON', r'NORTHAMPTON, a town in England', 80),
+        ('NORTHAMPTONSHIRE', r'Northamptonshire, a county of England', 90),
+    ]),
+    # --- NORTH (1810) swallowed NORTHAMPTON + NORTHAMPTONSHIRE ---
+    (1810, 'NORTH', 'eb_4th_1810_v15', [
+        ('NORTHAMPTON', r'NORTHAMPTON, a town in England', 75),
+        ('NORTHAMPTONSHIRE', r'NORTHAMPTONSHIRE, a county of England', 90),
+    ]),
+
+    # --- CUSTOM (1778, 1810) swallowed CUSTOMS ---
+    (1778, 'CUSTOM', 'eb_2nd_1778_v03', [
+        ('CUSTOMS', r'CUSTOMS, in political economy', 80),
+    ]),
+    (1810, 'CUSTOM', 'eb_4th_1810_v17', [
+        ('CUSTOMS', r'CUSTOMS, in political economy', 80),
+    ]),
+
+    # --- PARR (1797) swallowed PARTISAN, PARTNERSHIP, PARTRIDGE ---
+    (1797, 'PARR', 'eb_3rd_1797_v13', [
+        ('PARTISAN', r'PARTISAN, in the art', 55),
+        ('PARTNERSHIP', r'PARTNERSHIP, is a contract', 58),
+        ('PARTRIDGE', r'PARTRIDGE, in ornithology', 70),
+    ]),
+
+    # --- ICE ICE (1815) swallowed ICE-HOUSE ---
+    (1815, 'ICE ICE', 'eb_5th_1815_v11', [
+        ('ICE-HOUSE', r'ICE-HOUSE, a repository', 60),
+    ]),
+
+    # --- MEDICAL JURISPRUDENCE (1842) swallowed MEDICINE ---
+    (1842, 'MEDICAL JURISPRUDENCE', 'eb_7th_1842_v14', [
+        ('MEDICINE', r'\nMEDICINE\.\n\nMedicine, in its most extended', 55),
+    ]),
+
+    # --- MEASURE (1823) swallowed MECHANICS + MECHANISM ---
+    (1823, 'MEASURE', 'eb_6th_1823_v13', [
+        ('MECHANICS', r'\nMECHANICS\.\n\n1\. Mechanics is the science', 5),
+        ('MECHANISM', r'MECHANISM, either the construction', 65),
+    ]),
+
+    # --- JENA (1842) swallowed JEROME + JERSEY ---
+    (1842, 'JENA', 'eb_7th_1842_v12', [
+        ('JEROME', r'JEROME, St, in Latin', 15),
+        ('JERSEY', r'JERSEY, one of a group of islands', 20),
+    ]),
+
+    # --- DALMATIA (1842) swallowed DALRYMPLE ---
+    (1842, 'DALMATIA', 'eb_7th_1842_v07', [
+        ('DALRYMPLE', r'DALRYMPLE, JAMES, Viscount', 3),
+    ]),
+
+    # --- SPECIFICS (1797) swallowed SPIRITUAL ---
+    (1797, 'SPECIFICS', 'eb_3rd_1797_v17', [
+        ('SPIRITUAL', r'SPIRITUAL, in general', 85),
+    ]),
+
+    # --- DRAWING (1815) swallowed DRAYTON ---
+    (1815, 'DRAWING', 'eb_5th_1815_v07', [
+        ('DRAYTON', r'DRAYTON, MICHAEL', 90),
+    ]),
+
+    # --- EUXINUS PONTUS (1842) swallowed EVIDENCE ---
+    (1842, 'EUXINUS PONTUS', 'eb_7th_1842_v09', [
+        ('EVIDENCE', r'EVIDENCE, in Philosophy', 90),
+    ]),
+
+    # --- ORDEAL (1797) swallowed ORDER ---
+    (1797, 'ORDEAL', 'eb_3rd_1797_v13', [
+        ('ORDER', r'ORDER, in architecture', 90),
+    ]),
+
+    # --- JOACHIMITES (1842) swallowed JOHNSON ---
+    (1842, 'JOACHIMITES', 'eb_7th_1842_v12', [
+        ('JOHNSON', r'JOHNSON, or Jonson, Ben', 40),
+    ]),
+
+    # --- KING (1842) swallowed KING'S COUNTY ---
+    (1842, 'KING', 'eb_7th_1842_v12', [
+        ("KING'S COUNTY", r"KING'S COUNTY, an inland county", 60),
+    ]),
+
+    # --- JONES (1842) swallowed JOSEPHUS ---
+    (1842, 'JONES', 'eb_7th_1842_v12', [
+        ('JOSEPHUS', r'JOSEPHUS, the celebrated historian', 75),
+    ]),
+
+    # --- ASSOCIATION (1823) swallowed ASSUAN + ASSUMPSIT ---
+    (1823, 'ASSOCIATION', 'eb_6th_1823_v03', [
+        ('ASSUAN', r'ASSUAN See SYENE', 40),
+        ('ASSUMPSIT', r'ASSUMPSIT, in the Law of England', 43),
+    ]),
+
+    # --- MEDALLIONS (1823) swallowed MEDIA ---
+    (1823, 'MEDALLIONS', 'eb_6th_1823_v13', [
+        ('MEDIA', r'MEDIA, now the province of Ghilan', 5),
+    ]),
+
+    # --- STORK (1797, 1810, 1815) swallowed STOVE ---
+    (1797, 'STORK', 'eb_3rd_1797_v17', [
+        ('STOVE', r'STOVE for heating apartments', 0),
+    ]),
+    (1810, 'STORK', 'eb_4th_1810_v19', [
+        ('STOVE', r'STOVE for heating apartments', 0),
+    ]),
+    (1815, 'STORK', 'eb_5th_1815_v19', [
+        ('STOVE', r'STOVE for heating apartments', 0),
+    ]),
+]
+
+
+# ============================================================================
+# MERGE specifications: (year, source_title, target_title, file_pattern)
+# Source article text is appended to target article, then source is deleted.
+# Used when the parser split a single article at a mid-text heading.
+# ============================================================================
+
+MERGES = [
+    # ORDER is the tail of ORATORY — parser split at "§ 2. Of Order."
+    (1778, 'ORDER', 'ORATORY', 'eb_2nd_1778_v08'),
+    (1797, 'ORDER', 'ORATORY', 'eb_3rd_1797_v13'),
+    (1815, 'ORDER', 'ORATORY', 'eb_5th_1815_v15'),
+    (1823, 'ORDER', 'ORATORY', 'eb_6th_1823_v15'),
+
+    # PART (1810) is the tail of ORATORY in the same volume
+    (1810, 'PART', 'ORATORY', 'eb_4th_1810_v15_NIC'),
+
+    # INDIAN (1810) is the tail of INDIA
+    (1810, 'INDIAN', 'INDIA', 'eb_4th_1810_v11'),
+]
+
+
+# ============================================================================
+# DELETE specifications: (year, title, file_pattern, min_word_count)
+# Removes misattributed articles that are fragments of other articles.
+# Only deletes if word_count >= min_word_count (safety check).
+# ============================================================================
+
+DELETES = [
+    # WEEK (1810 v13) — 88K fragment of MEDICINE article (MEDICINE already exists at 26K)
+    (1810, 'WEEK', 'eb_4th_1810_v13_MAT', 50000),
+
+    # STRAIN (1842 v16) — 85K fragment of ORNITHOLOGY (ORNITHOLOGY already 24K in same file)
+    (1842, 'STRAIN', 'eb_7th_1842_v16', 50000),
+
+    # WHITE (1842 v13) — 62K fragment of MAGNETISM article
+    (1842, 'WHITE', 'eb_7th_1842_v13_SEV', 50000),
+
+    # AAA (1823) — contributor key + Dissertations, not a real article
+    (1823, 'AAA', 'eb_6th_1823_v01', 50000),
+
+    # VOCAL (1842 v08) — 37K fragment of English history (mid-sentence, about Henry)
+    (1842, 'VOCAL', 'eb_7th_1842_v08', 30000),
+
+    # THUS (1797 v06) — 62K false headword, tail of ETHIOPIA
+    (1797, 'THUS', 'eb_3rd_1797_v06', 50000),
+
+    # THUS (1810 v17) — 21K false headword, tail of RUSSIA content
+    (1810, 'THUS', 'eb_4th_1810_v17_RHI', 15000),
+
+    # THUS (1797 v16) — 7.4K false headword, tail of SCOTLAND
+    (1797, 'THUS', 'eb_3rd_1797_v16', 5000),
+
+    # GENUS IX — medical subsection, not a standalone article
+    (1797, 'GENUS IX', 'eb_3rd_1797_v11', 50000),
+    (1823, 'GENUS IX', 'eb_6th_1823_v13', 10000),
+
+    # LOGARITHMS OF NUMBERS — numerical log tables, not articles
+    (1810, 'LOGARITHMS OF NUMBERS', 'eb_4th_1810_v17_LIE', 10000),
+    (1815, 'LOGARITHMS OF NUMBERS', 'eb_5th_1815_v12', 10000),
+    (1823, 'LOGARITHMS OF NUMBERS', 'eb_6th_1823_v12', 10000),
+]
+
+
+# ============================================================================
+# RELABEL specifications: (year, old_title, new_title, file_pattern, min_wc)
+# Renames an article that has the wrong headword.
+# ============================================================================
+
+RELABELS = [
+    # SWEDEN IS BY NO (1815, 1823) — broken headword, should be SWEDEN
+    (1815, 'SWEDEN IS BY NO', 'SWEDEN', 'eb_5th_1815_v20', 10000),
+    (1823, 'SWEDEN IS BY NO', 'SWEDEN', 'eb_6th_1823_v20', 10000),
+
+    # SLAUGHTER (1810-1823) — actually SLAVERY content (14K each)
+    # SLAVE is a 37w stub; SLAUGHTER got all the slavery article text
+    (1810, 'SLAUGHTER', 'SLAVERY', 'eb_4th_1810_v17_OLD', 10000),
+    (1815, 'SLAUGHTER', 'SLAVERY', 'eb_5th_1815_v19', 10000),
+    (1823, 'SLAUGHTER', 'SLAVERY', 'eb_6th_1823_v19', 10000),
+
+    # AMERICA IS BY NO (1778) — broken headword, should be AMERICA
+    (1778, 'AMERICA IS BY NO', 'AMERICA', 'eb_2nd_1778_v01_AA', 10000),
 ]
 
 
@@ -677,20 +963,152 @@ def process_fix(year, title, file_pattern, splits, dry_run=False):
     return 0
 
 
+def process_merge(year, source_title, target_title, file_pattern, dry_run=False):
+    """Merge source article text into target article, then delete source."""
+    matches = list(ARTICLES_DIR.glob(f"{file_pattern}*.articles.jsonl"))
+    if not matches:
+        print(f"  WARNING: No file matching {file_pattern}")
+        return 0
+
+    for filepath in matches:
+        if filepath.suffix == '.bak':
+            continue
+        with open(filepath, 'r') as f:
+            articles = [json.loads(line) for line in f if line.strip()]
+
+        source_idx = target_idx = None
+        for i, a in enumerate(articles):
+            if a['title'] == source_title and a['edition_year'] == year:
+                source_idx = i
+            if a['title'] == target_title and a['edition_year'] == year:
+                target_idx = i
+
+        if source_idx is None or target_idx is None:
+            continue
+
+        source = articles[source_idx]
+        target = articles[target_idx]
+
+        old_target_wc = target['word_count']
+        new_text = target['text'] + '\n\n' + source['text']
+        new_wc = len(new_text.split())
+
+        print(f"  MERGE: '{source_title}' ({source['word_count']:,}w) → '{target_title}' "
+              f"({old_target_wc:,}w → {new_wc:,}w)")
+
+        if not dry_run:
+            articles[target_idx]['text'] = new_text
+            articles[target_idx]['word_count'] = new_wc
+            articles[target_idx]['char_end'] = source['char_end']
+            del articles[source_idx]
+            with open(filepath, 'w') as f:
+                for a in articles:
+                    f.write(json.dumps(a, ensure_ascii=False) + '\n')
+        return 1
+
+    print(f"  WARNING: Could not find both '{source_title}' and '{target_title}' in {file_pattern}")
+    return 0
+
+
+def process_delete(year, title, file_pattern, min_wc, dry_run=False):
+    """Delete a misattributed article (only if word_count >= min_wc)."""
+    matches = list(ARTICLES_DIR.glob(f"{file_pattern}*.articles.jsonl"))
+    if not matches:
+        print(f"  WARNING: No file matching {file_pattern}")
+        return 0
+
+    for filepath in matches:
+        if filepath.suffix == '.bak':
+            continue
+        with open(filepath, 'r') as f:
+            articles = [json.loads(line) for line in f if line.strip()]
+
+        target_idx = None
+        for i, a in enumerate(articles):
+            if a['title'] == title and a['edition_year'] == year and a['word_count'] >= min_wc:
+                target_idx = i
+                break
+
+        if target_idx is None:
+            continue
+
+        art = articles[target_idx]
+        print(f"  DELETE: '{title}' ({art['word_count']:,}w) — misattributed fragment")
+
+        if not dry_run:
+            del articles[target_idx]
+            with open(filepath, 'w') as f:
+                for a in articles:
+                    f.write(json.dumps(a, ensure_ascii=False) + '\n')
+        return 1
+
+    print(f"  WARNING: '{title}' not found (or below {min_wc}w threshold) in {file_pattern}")
+    return 0
+
+
+def process_relabel(year, old_title, new_title, file_pattern, min_wc, dry_run=False):
+    """Rename a mislabeled article."""
+    matches = list(ARTICLES_DIR.glob(f"{file_pattern}*.articles.jsonl"))
+    if not matches:
+        print(f"  WARNING: No file matching {file_pattern}")
+        return 0
+
+    for filepath in matches:
+        if filepath.suffix == '.bak':
+            continue
+        with open(filepath, 'r') as f:
+            articles = [json.loads(line) for line in f if line.strip()]
+
+        for i, a in enumerate(articles):
+            if a['title'] == old_title and a['edition_year'] == year and a['word_count'] >= min_wc:
+                print(f"  RELABEL: '{old_title}' → '{new_title}' ({a['word_count']:,}w)")
+                if not dry_run:
+                    articles[i]['title'] = new_title
+                    with open(filepath, 'w') as f:
+                        for a in articles:
+                            f.write(json.dumps(a, ensure_ascii=False) + '\n')
+                return 1
+
+    print(f"  WARNING: '{old_title}' not found in {file_pattern}")
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fix mega-articles")
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
 
-    print(f"{'DRY RUN: ' if args.dry_run else ''}Fixing {len(FIXES)} mega-articles...\n")
-
     total_changes = 0
+
+    # Phase 1: Splits
+    print(f"{'DRY RUN: ' if args.dry_run else ''}Phase 1: Splitting {len(FIXES)} mega-articles...\n")
     for year, title, file_pattern, splits in FIXES:
         print(f"\n{year} {title}:")
         changes = process_fix(year, title, file_pattern, splits, dry_run=args.dry_run)
         total_changes += changes
 
-    print(f"\nTotal changes: {total_changes}")
+    # Phase 2: Merges (must run after splits since splits may affect same files)
+    print(f"\n\n{'DRY RUN: ' if args.dry_run else ''}Phase 2: Merging {len(MERGES)} split articles...\n")
+    for year, source, target, file_pattern in MERGES:
+        print(f"\n{year} {source} → {target}:")
+        changes = process_merge(year, source, target, file_pattern, dry_run=args.dry_run)
+        total_changes += changes
+
+    # Phase 3: Deletes
+    print(f"\n\n{'DRY RUN: ' if args.dry_run else ''}Phase 3: Deleting {len(DELETES)} misattributed articles...\n")
+    for year, title, file_pattern, min_wc in DELETES:
+        print(f"\n{year} {title}:")
+        changes = process_delete(year, title, file_pattern, min_wc, dry_run=args.dry_run)
+        total_changes += changes
+
+    # Phase 4: Relabels
+    print(f"\n\n{'DRY RUN: ' if args.dry_run else ''}Phase 4: Relabeling {len(RELABELS)} mislabeled articles...\n")
+    for year, old_title, new_title, file_pattern, min_wc in RELABELS:
+        print(f"\n{year} {old_title} → {new_title}:")
+        changes = process_relabel(year, old_title, new_title, file_pattern, min_wc, dry_run=args.dry_run)
+        total_changes += changes
+
+    print(f"\n\nTotal changes: {total_changes}")
 
 
 if __name__ == "__main__":
