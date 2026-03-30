@@ -44,7 +44,7 @@ DETECTIONS_PATH = EMBEDDINGS_DIR / "topic_shift_detections.md"
 
 MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
 OPENING_WORDS = 500
-DEFAULT_THRESHOLD = 0.55
+DEFAULT_THRESHOLD = 0.75
 EMBED_DIM = 768
 BATCH_SIZE = 64
 
@@ -247,6 +247,11 @@ def analyze_topic_shifts(embeddings: np.ndarray, metadata: list[dict],
 
         needs_split = min_sim < threshold
 
+        # Classify the type of shift
+        shift_type = "ok"
+        if needs_split:
+            shift_type = classify_shift(pairs, members, threshold)
+
         # Cluster editions by similarity if flagged
         clusters = []
         if needs_split and len(members) >= 2:
@@ -257,6 +262,7 @@ def analyze_topic_shifts(embeddings: np.ndarray, metadata: list[dict],
             "edition_count": len(members),
             "min_similarity": round(min_sim, 4),
             "needs_split": needs_split,
+            "shift_type": shift_type,
             "clusters": clusters,
             "pairs": sorted(pairs, key=lambda p: p["sim"]),
             "editions": {m[1]["edition_year"]: {
@@ -268,6 +274,49 @@ def analyze_topic_shifts(embeddings: np.ndarray, metadata: list[dict],
 
     results.sort(key=lambda r: r["min_similarity"])
     return results
+
+
+SHORT_DEFINITION_THRESHOLD = 200  # words — 1771 entries below this are just definitions
+
+
+def classify_shift(pairs: list[dict], members: list[tuple],
+                   threshold: float) -> str:
+    """Classify a flagged entry into one of three categories.
+
+    Returns:
+        "topic_shift"    — multiple editions have genuinely different topics
+        "single_outlier" — one edition has different content (swallowed/misparse)
+        "short_expansion" — short definition (typically 1771) vs later long article
+    """
+    from collections import Counter
+
+    low_pairs = [p for p in pairs if p["sim"] < threshold]
+    if not low_pairs:
+        return "ok"
+
+    edition_count = len(members)
+
+    # Count which editions appear in low-similarity pairs
+    ed_counts = Counter()
+    for p in low_pairs:
+        ed_counts[p["a"]] += 1
+        ed_counts[p["b"]] += 1
+
+    most_common_ed, mc_count = ed_counts.most_common(1)[0]
+    is_single = mc_count / len(low_pairs) > 0.8 and edition_count >= 3
+
+    if is_single:
+        # Check if the outlier is a short definition
+        outlier_wc = 0
+        for _, meta in members:
+            if meta["edition_year"] == most_common_ed:
+                outlier_wc = meta["word_count"]
+                break
+        if outlier_wc < SHORT_DEFINITION_THRESHOLD:
+            return "short_expansion"
+        return "single_outlier"
+
+    return "topic_shift"
 
 
 def cluster_editions(sim_matrix: np.ndarray, years: list[int],
@@ -324,10 +373,43 @@ def write_analysis(results: list[dict]):
     print(f"Analysis written: {ANALYSIS_PATH}")
 
 
+def _render_entry(r: dict, threshold: float) -> list[str]:
+    """Render a single flagged entry as markdown lines."""
+    lines = []
+    known_marker = " **[KNOWN]**" if r["cross_edition_id"] in KNOWN_SHIFTS else ""
+    lines.append(f"### {r['cross_edition_id']}{known_marker}")
+    lines.append("")
+    lines.append(f"Min similarity: **{r['min_similarity']:.3f}** "
+                  f"({r['edition_count']} editions)")
+    if r["clusters"]:
+        cluster_strs = [str(c) for c in r["clusters"]]
+        lines.append(f"Suggested clusters: {' | '.join(cluster_strs)}")
+    lines.append("")
+
+    lines.append("| Year | Title | Words | Opening |")
+    lines.append("|------|-------|-------|---------|")
+    for year in sorted(r["editions"].keys()):
+        ed = r["editions"][year]
+        preview = ed["preview"].replace("|", "\\|").replace("\n", " ")
+        lines.append(f"| {year} | {ed['title']} | {ed['word_count']:,} | {preview}... |")
+    lines.append("")
+
+    low_pairs = [p for p in r["pairs"] if p["sim"] < threshold][:3]
+    if low_pairs:
+        lines.append("Lowest similarity pairs:")
+        for p in low_pairs:
+            lines.append(f"- {p['a']} vs {p['b']}: **{p['sim']:.3f}**")
+        lines.append("")
+    return lines
+
+
 def write_detections_report(results: list[dict], threshold: float,
                             validation: dict):
     """Write human-readable markdown report of detected topic shifts."""
     flagged = [r for r in results if r["needs_split"]]
+    topic_shifts = [r for r in flagged if r["shift_type"] == "topic_shift"]
+    single_outliers = [r for r in flagged if r["shift_type"] == "single_outlier"]
+    short_expansions = [r for r in flagged if r["shift_type"] == "short_expansion"]
 
     lines = [
         "# Detected Topic Shifts in Cross-Edition Index",
@@ -337,47 +419,69 @@ def write_detections_report(results: list[dict], threshold: float,
         f"**Method:** First {OPENING_WORDS} words embedded, "
         f"pairwise cosine similarity, threshold={threshold}",
         f"**Entries analyzed:** {len(results):,}",
-        f"**Entries flagged:** {len(flagged):,}",
+        "",
+        "## Summary",
+        "",
+        f"| Category | Count | Description |",
+        f"|----------|-------|-------------|",
+        f"| **Topic shifts** | {len(topic_shifts)} | Multiple editions cover different topics — need index splits |",
+        f"| **Single-edition outliers** | {len(single_outliers)} | One edition has different content — likely swallowed/misparse |",
+        f"| **Short expansions** | {len(short_expansions)} | Short definition expanded in later editions — noise |",
+        f"| **Total flagged** | {len(flagged)} | |",
         "",
         "## Validation Against Known Shifts",
         "",
         f"- Known topic shifts: {validation['known']}",
         f"- Detected (true positives): {validation['true_positives']}",
         f"- Missed (false negatives): {validation['false_negatives']} — {validation['missed']}",
-        f"- New candidates (potential false positives): {validation['false_positive_candidates']}",
         f"- Recall: {validation['recall']:.0%}",
         "",
-        "## Flagged Entries (sorted by severity)",
+        "---",
+        "",
+        f"## 1. Topic Shifts ({len(topic_shifts)} entries)",
+        "",
+        "These entries have multiple editions with genuinely different topics.",
+        "Each should be split into separate cross-edition index entries.",
         "",
     ]
 
-    for r in flagged:
-        known_marker = " **[KNOWN]**" if r["cross_edition_id"] in KNOWN_SHIFTS else ""
-        lines.append(f"### {r['cross_edition_id']}{known_marker}")
-        lines.append(f"")
-        lines.append(f"Min similarity: **{r['min_similarity']:.3f}** "
-                      f"({r['edition_count']} editions)")
-        if r["clusters"]:
-            cluster_strs = [str(c) for c in r["clusters"]]
-            lines.append(f"Suggested clusters: {' | '.join(cluster_strs)}")
-        lines.append("")
+    for r in topic_shifts:
+        lines.extend(_render_entry(r, threshold))
 
-        # Show edition openings
-        lines.append("| Year | Title | Words | Opening |")
-        lines.append("|------|-------|-------|---------|")
-        for year in sorted(r["editions"].keys()):
-            ed = r["editions"][year]
-            preview = ed["preview"].replace("|", "\\|").replace("\n", " ")
-            lines.append(f"| {year} | {ed['title']} | {ed['word_count']:,} | {preview}... |")
-        lines.append("")
+    lines.extend([
+        "---",
+        "",
+        f"## 2. Single-Edition Outliers ({len(single_outliers)} entries)",
+        "",
+        "One edition has different content, likely a swallowed article or parser error.",
+        "The outlier edition should be investigated and potentially removed or fixed.",
+        "",
+    ])
 
-        # Show lowest pairs
-        low_pairs = [p for p in r["pairs"] if p["sim"] < threshold][:3]
-        if low_pairs:
-            lines.append("Lowest similarity pairs:")
-            for p in low_pairs:
-                lines.append(f"- {p['a']} vs {p['b']}: **{p['sim']:.3f}**")
-            lines.append("")
+    for r in single_outliers:
+        lines.extend(_render_entry(r, threshold))
+
+    lines.extend([
+        "---",
+        "",
+        f"## 3. Short Expansions ({len(short_expansions)} entries)",
+        "",
+        "Short definitions (typically 1771, <200 words) that expanded into full articles",
+        "in later editions. These are not topic shifts — just editorial growth. Listed",
+        "here for completeness but no action needed.",
+        "",
+    ])
+
+    # Just list these as a compact table, no full detail
+    lines.append("| Entry | Min Sim | 1st Ed Words | Max Words |")
+    lines.append("|-------|---------|-------------|-----------|")
+    for r in short_expansions:
+        eds = r["editions"]
+        wcs = {y: eds[y]["word_count"] for y in eds}
+        min_year = min(eds.keys())
+        lines.append(f"| {r['cross_edition_id']} | {r['min_similarity']:.3f} | "
+                      f"{wcs.get(min_year, 0):,} | {max(wcs.values()):,} |")
+    lines.append("")
 
     EMBEDDINGS_DIR.mkdir(parents=True, exist_ok=True)
     with open(DETECTIONS_PATH, "w") as f:
@@ -449,7 +553,14 @@ def main():
     results = analyze_topic_shifts(embeddings, metadata, args.threshold)
 
     flagged = [r for r in results if r["needs_split"]]
-    print(f"  {len(results):,} entries analyzed, {len(flagged):,} flagged")
+    topic_shifts = [r for r in flagged if r["shift_type"] == "topic_shift"]
+    single_outliers = [r for r in flagged if r["shift_type"] == "single_outlier"]
+    short_expansions = [r for r in flagged if r["shift_type"] == "short_expansion"]
+
+    print(f"  {len(results):,} entries analyzed")
+    print(f"  {len(topic_shifts):,} topic shifts (need index splits)")
+    print(f"  {len(single_outliers):,} single-edition outliers (likely swallowed/misparse)")
+    print(f"  {len(short_expansions):,} short expansions (noise)")
 
     validation = validate_against_known(results)
     print(f"\nValidation: {validation['true_positives']}/{validation['known']} "
@@ -460,9 +571,9 @@ def main():
     write_analysis(results)
     write_detections_report(results, args.threshold, validation)
 
-    # Quick summary of top detections
-    print(f"\nTop 15 most shifted entries:")
-    for r in results[:15]:
+    # Quick summary of top topic shifts
+    print(f"\nTop 15 topic shifts:")
+    for r in topic_shifts[:15]:
         marker = " *" if r["cross_edition_id"] in KNOWN_SHIFTS else ""
         clusters = " | ".join(str(c) for c in r["clusters"]) if r["clusters"] else ""
         print(f"  {r['cross_edition_id']:30s} min_sim={r['min_similarity']:.3f} "

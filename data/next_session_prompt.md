@@ -1,108 +1,95 @@
-# Next Session: Continuing Article Recovery and Parser Fixes
+# Next Session: Topic Shift Fixes + GraphRAG Pipeline
 
-## Session Summary (Mar 29, 2026 — Session 2)
+## Session Summary (Mar 30, 2026)
 
-Reduced gaps from 1,788 → 1,777 (-11) and fixed major content attribution issues:
+### Swallowed Article Fixes (28→2 SWALLOWED gaps)
+- Added 26 split specs to `fix_mega_articles.py` for all confirmed SWALLOWED gaps
+- STORK→STOVE splits added for 1797, 1810, 1815 (user-reported)
+- 2 false positives identified (FOUNDERY, STARCH are plate labels)
+- **Gaps: 1,777 → 1,749** (-28)
 
-### Splits (11 new)
-- **SCOT (1860)** → SCOT bio (129w) + SCOTLAND history (63K)
-- **ROMANO (1823)** → ROMANO bio (246w) + ROME history (42K)
-- **BOND (1771)** → BOND (1.6K) + BOOK-KEEPING (42K)
-- **MATERA (1810, 1815)** → MATERA (32w) + MATERIA MEDICA (46K, 29K)
-- **ENGRAILED (1842, 1860)** → ENGRAILED + ENGRAVING (14K, 19K)
-- **PERSHORE (1842, 1860)** → PERSHORE + PERSIA (20K, 15K)
-- **NET (1842)** → NET (408w) + NETHERLANDS (31K)
-- **ZYGOMATICUS (1778)** → ZYGOMATICUS (22w) + APPENDIX (146K)
-- **PERSONIFYING (1797)** → PERSONIFYING (1.2K) + PERSPECTIVE (19K)
-- **BURNING (1810)** → BURNING (5.8K) + BURNS (7.2K)
+### GraphRAG Pipeline (Phases 1-2 complete)
+- **Phase 1**: `graphrag/build_article_manifest.py` — SHA-256 fingerprinting of 143,954 articles
+- **Phase 2**: `graphrag/embed_topic_shifts.py` — nomic-embed-text-v1.5 on Plato A100 (4 min 17 sec)
+  - 23,096 article-edition openings embedded (first 500 words each)
+  - Results at `data/embeddings/topic_shift_analysis.jsonl`
 
-### Merges (6)
-- **ORDER (1778, 1797, 1815, 1823)** → merged back into ORATORY (~113K each)
-- **PART (1810)** → merged into ORATORY (81K → 86K total)
-- **INDIAN (1810)** → merged into INDIA (52K → 60K total)
+### Topic Shift Analysis Results (threshold=0.75)
+| Category | Count | Description |
+|----------|-------|-------------|
+| **Topic shifts** | 342 | Multiple editions cover genuinely different topics |
+| **Single-edition outliers** | 387 | One edition empty/missing in export (gap, not error) |
+| **Short expansions** | 435 | 1771 short definitions expanded later (noise) |
 
-### Deletes (12)
-- **WEEK (1810, 88K)** — misattributed MEDICINE fragment
-- **STRAIN (1842, 85K)** — misattributed ORNITHOLOGY fragment
-- **WHITE (1842, 62K)** — misattributed MAGNETISM fragment
-- **AAA (1823, 87K)** — contributor key, not article
-- **VOCAL (1842, 37K)** — misattributed English history fragment
-- **THUS (1797×2, 1810)** — false headword fragments (62K + 7K + 21K)
-- **GENUS IX (1797, 1823)** — medical subsection, not standalone (104K + 19K)
-- **LOGARITHMS OF NUMBERS (1810-1823)** — numerical tables, not articles (60K total)
+The 387 single-edition outliers all have 0-word content — they're just missing editions, not parser errors.
 
-### Relabels (6)
-- **SLAUGHTER (1810, 1815, 1823)** → SLAVERY (14K each)
-- **SWEDEN IS BY NO (1815, 1823)** → SWEDEN (23K, 24K)
-- **AMERICA IS BY NO (1778)** → AMERICA (22.5K)
+### Mid-Word Fragment Analysis (26 confirmed)
+Of the 342 topic shifts, 251 are clean 2-way splits. Within those, **26 entries start mid-word** (clearly the tail of the previous article). These are directly fixable as merges:
 
-### Current Gap Status
-| Classification | Count | Change |
-|----------------|-------|--------|
-| PARSING_OR_EDITORIAL | 967 | -5 |
-| OCR_GAP | 326 | -2 |
-| VARIANT | 245 | -1 |
-| EDITORIAL | 211 | -4 |
-| SWALLOWED | 28 | +1 |
+| Fragment | Years | Predecessor | Fragment text |
+|----------|-------|-------------|---------------|
+| PORTRAIT | 1815,1823 | PORTO | "d safe, that Columbus..." (PORTO-BELLO tail) |
+| TENCE | 1810 | VALUE | "o death a single highway robber" |
+| NUSANCE | 1797-1823 | NURSING OF CHILDREN | "per shape. The child should be laid" |
+| GAUL | 1810-1823 | GAUGING | "oot long and about three-eighths" |
+| VERDEN | 1797 | VEGETABLES | "r, in stating the following plan" |
+| CERES | 1810,1823 | BROWN | "nce saw, and blest the happy swain" |
+| CAPRA | 1810-1823 | CAPPARIS | "eful as detergents and aperients" |
+| IMPOTENCE | 1810 | MALACIA | "o Venery. Anaphrodisia..." |
+| ORISSA | 1842 | ORION | "ade his illustrious guest drunk" |
+| PALAMEDEA | 1823 | PALACE-COURT | "s of a weaver; but attending" |
+| MOUNTAINS | 1778,1797 | MOUNTAIN | "ith flat summits" / "ppear to many" |
+| DIFFERENT | 1823 | DIDACTIC | "heir bulk, their distance" |
 
-**Total: 1,777 gaps** (was 1,788). Index: 4,354 substantive articles.
+Other fragments that look broken but are actually valid articles: BEATING ("or Pulsation"), CONI ("a strong town"), COPPER, SPAIN, THEOLOGY, VARIATION — these are topic changes or legitimate articles starting with common words.
 
-## What Still Needs Doing
+### What Needs Doing Next
 
-### 1. Remaining Mega-Article Swallowers (Medium Value)
+#### 1. Fix 26 Mid-Word Fragments (High Priority)
+Add merge specs to `fix_mega_articles.py` MERGES section. Each fragment should be merged into its predecessor article. Use char_start/char_end to verify adjacency.
 
-From the original list, these were analyzed and determined to be **legitimate long articles** (not swallowed):
-- STONE-MASONRY (1860, 26K) — genuine masonry article
-- CENTER (1810-1823, ~15K each) — legitimate geometry/engineering article
-- FLUX (1860, 74K) — legitimate FLUXIONS (calculus) article
-- PHYSIC (1842, 83K) — legitimate "Practice of Physic" article
-- HOUND (1860, 13K) — legitimate article about dogs/hunting
-- LOGARITHMIC CURVE (1797, 28K) — mostly legitimate, slight tail from LOGIC
+**Caution**: Some entries appear in multiple volume files (1810 4th ed is a supplement with duplicates). CERES appears twice in 1810, THEOLOGY 3× — need to handle each file occurrence.
 
-These may need Wikidata matching but no parser fixes.
+#### 2. Topic Change Index Splits (~89 entries, Medium Priority)
+These are legitimate editorial decisions where the encyclopedia changed what a headword covers:
+- FALCONER: falconry profession (1771-1823) → William Falconer poet (1842-1860)
+- LAWRENCE: St. Lawrence River (most eds) → Sir Thomas Lawrence painter (1842)
+- LIBERIA: Roman festival (1771-1823) → African republic (1842-1860)
+- BASIL: botany/joinery (1771,1778,1842,1860) → St. Basil/Basel city (1797-1823)
+- ROSA: botany (1771-1810) → Salvator Rosa painter (1815-1860)
 
-### 2. Handle the 253 Articles Swallowed in Mega-Articles (Medium Value)
+Need a mapping file + logic in `rebuild_cross_edition_index.py` to split these into separate entries (e.g., FALCONER_PROFESSION and FALCONER_WILLIAM).
 
-Analysis found 253 articles exist as mentions inside parsed mega-articles. The biggest swallowers:
-- AGRICULTURE (144K 1810, 296K 1823) → swallowed 14 and 10 articles
-- BRITAIN (326K 1810, 324K 1823) → swallowed 9 and 7 articles
-- FRANCE (175K 1810) → swallowed 8 articles
+#### 3. Full Corpus Embedding (Phase 3, Lower Priority)
+- `graphrag/embed_articles.py` — 1500-word chunks with 200-word overlap
+- Run on Plato A100, ~2-4 hours total
+- Incremental via `article_manifest.diff.json`
 
-**Challenge**: These are genuinely massive articles. Some "swallowed" content is legitimate sub-sections.
+### Plato Setup
+- **Repo**: `~/projects/def-jic823/1815EncyclopediaBritannicaNLS` (cloned from GitHub)
+- **Venv**: `~/projects/def-jic823/embed_venv` (sentence-transformers, einops, scipy)
+- **Export data**: rsynced to `data/export/` (gitignored)
+- **SLURM**: use `--gpus-per-node=a100:1` (NOT --partition or --gres)
+- **SSH key**: configured for GitHub access
 
-### 3. Recover More Mixed-Case OCR Headwords
-
-`recover_from_ocr.py` currently handles ALLCAPS and topic-validated mixed-case. ~400 single-word articles in mixed case still fail.
-
-### 4. Partial-OCR Edition Gaps (Blocked)
-
-401 gaps in editions with missing volumes (1815, 1842, 1860). Unrecoverable without new OCR.
-
-### 5. Cross-Edition Index Quality
-
-Remaining non-article entries to review:
-- Small THUS entries (67-94w in multiple editions) — legitimate cross-references, harmless
-- ORDER still appears in index (135w 1771, 8K 1815 religious orders, 782w 1842)
-- CLASSIS IV — check if still in article files
-
-## Key Files
-
-| File | Purpose |
-|------|---------|
-| `scripts/fix_mega_articles.py` | Manual article fixes — **108 split specs, 6 merges, 12 deletes, 6 relabels** |
-| `scripts/recover_from_ocr.py` | Extract articles from raw OCR by headword search |
-| `scripts/classify_gaps.py` | Gap classification pipeline |
-| `scripts/rebuild_cross_edition_index.py` | Rebuild cross-edition index from article files |
-| `data/gap_classifications.csv` | Current gap triage — 1,777 gaps |
-| `data/cross_edition_index.jsonl` | 4,354 substantive articles tracked across editions |
-| `data/ambiguous_headwords.md` | 95 problem headwords with per-edition analysis |
-
-## Pipeline After Fixes
-
+### Pipeline After Fixes
 ```bash
 python scripts/fix_mega_articles.py
 python scripts/merge_fragments.py
 python scripts/parse_britannica.py --phase export
 python scripts/rebuild_cross_edition_index.py
 python scripts/classify_gaps.py
+python graphrag/build_article_manifest.py
+# Then rsync exports to Plato and run embedding
 ```
+
+## Key Files
+| File | Purpose |
+|------|---------|
+| `scripts/fix_mega_articles.py` | Manual article fixes — splits, merges, deletes, relabels |
+| `graphrag/build_article_manifest.py` | Content fingerprinting for incremental processing |
+| `graphrag/embed_topic_shifts.py` | Topic shift detection via embeddings |
+| `graphrag/slurm/embed_topic_shifts.sh` | SLURM wrapper for Plato A100 |
+| `data/embeddings/topic_shift_analysis.jsonl` | Per-entry similarity scores + clusters |
+| `data/embeddings/topic_shift_detections.md` | Human-readable report (342 shifts + 387 outliers + 435 expansions) |
+| `data/graphrag_pipeline_plan_2026-03-30.md` | Full 6-phase GraphRAG plan |
