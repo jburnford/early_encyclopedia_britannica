@@ -38,15 +38,14 @@ MODEL_NAME = "Qwen/Qwen3-Embedding-8B"
 CHUNK_WORDS = 1500
 CHUNK_OVERLAP = 200
 MIN_WORDS = 10
-BATCH_SIZE = 64
+BATCH_SIZE = 16  # 8B model on A100 80GB — conservative for 1500-word chunks
 EMBED_DIM = 1024  # Matryoshka: use 1024 for quality/storage balance
 EDITION_YEARS = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]
 
 # Instruction prefix for Qwen3-Embedding (improves retrieval 1-5%)
-DOCUMENT_INSTRUCTION = (
-    "Instruct: Represent this passage from an 18th-19th century "
-    "Encyclopedia Britannica article for retrieval\nQuery: "
-)
+# Qwen3-Embedding: documents get NO prompt prefix.
+# Queries use prompt_name="query" at search time.
+# Custom query instruction for this domain (used at search time, not here):
 QUERY_INSTRUCTION = (
     "Instruct: Find relevant passages from historical Encyclopedia "
     "Britannica articles about this topic\nQuery: "
@@ -118,8 +117,11 @@ def load_model(model_name: str):
     model = SentenceTransformer(
         model_name,
         trust_remote_code=True,
-        device=device,
-        model_kwargs={"torch_dtype": "float16"},
+        model_kwargs={
+            "torch_dtype": "bfloat16",
+            "attn_implementation": "flash_attention_2",
+        },
+        tokenizer_kwargs={"padding_side": "left"},
     )
     return model, device
 
@@ -202,7 +204,7 @@ def process_edition(edition_year: int, model, device: str,
                 "char_end": chunk["char_end"],
                 "word_count": chunk["word_count"],
             }
-            texts_to_embed.append(f"{DOCUMENT_INSTRUCTION}{chunk['text']}")
+            texts_to_embed.append(chunk["text"])
             chunk_metas.append(meta)
 
     if not texts_to_embed:

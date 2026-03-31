@@ -122,12 +122,8 @@ def build_embedding_inputs(index: list[dict], articles: dict[str, dict],
                 continue
 
             opening = get_opening_text(art["text"])
-            # Qwen3-Embedding instruction-aware prefix
-            texts.append(
-                "Instruct: Represent this opening passage from an "
-                "18th-19th century Encyclopedia Britannica article\n"
-                f"Query: {opening}"
-            )
+            # Qwen3-Embedding: no prefix for documents
+            texts.append(opening)
             metadata.append({
                 "article_id": article_id,
                 "cross_edition_id": entry["id"],
@@ -158,8 +154,11 @@ def embed_texts(texts: list[str], model_name: str = MODEL_NAME,
     model = SentenceTransformer(
         model_name,
         trust_remote_code=True,
-        device=device,
-        model_kwargs={"torch_dtype": "float16"},
+        model_kwargs={
+            "torch_dtype": "bfloat16",
+            "attn_implementation": "flash_attention_2",
+        },
+        tokenizer_kwargs={"padding_side": "left"},
     )
 
     batch_size = BATCH_SIZE if device != "cpu" else 32
