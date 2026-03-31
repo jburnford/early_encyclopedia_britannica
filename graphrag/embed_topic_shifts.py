@@ -155,7 +155,12 @@ def embed_texts(texts: list[str], model_name: str = MODEL_NAME,
             device = "cpu"
 
     print(f"Loading model {model_name} on {device}...")
-    model = SentenceTransformer(model_name, trust_remote_code=True, device=device)
+    model = SentenceTransformer(
+        model_name,
+        trust_remote_code=True,
+        device=device,
+        model_kwargs={"torch_dtype": "float16"},
+    )
 
     batch_size = BATCH_SIZE if device != "cpu" else 32
     print(f"Embedding {len(texts):,} texts in batches of {batch_size} on {device}...")

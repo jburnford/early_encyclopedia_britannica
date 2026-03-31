@@ -115,7 +115,12 @@ def load_model(model_name: str):
         device = "cpu"
 
     print(f"Loading {model_name} on {device}...")
-    model = SentenceTransformer(model_name, trust_remote_code=True, device=device)
+    model = SentenceTransformer(
+        model_name,
+        trust_remote_code=True,
+        device=device,
+        model_kwargs={"torch_dtype": "float16"},
+    )
     return model, device
 
 
