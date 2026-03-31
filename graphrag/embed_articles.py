@@ -107,16 +107,9 @@ def load_model(model_name: str):
     from sentence_transformers import SentenceTransformer
 
     print(f"Loading {model_name}...")
-    # Follow exact HuggingFace docs: device_map="auto" in model_kwargs, NOT device= param
-    model = SentenceTransformer(
-        model_name,
-        model_kwargs={
-            "attn_implementation": "flash_attention_2",
-            "device_map": "auto",
-        },
-        tokenizer_kwargs={"padding_side": "left"},
-    )
-    device = "cuda" if next(model.parameters()).is_cuda else "cpu"
+    # Simple load — let sentence-transformers handle device placement
+    model = SentenceTransformer(model_name)
+    device = str(model.device)
     print(f"  Model loaded on {device}")
     return model, device
 
