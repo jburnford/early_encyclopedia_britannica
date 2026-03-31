@@ -34,7 +34,7 @@ EXPORT_DIR = REPO_ROOT / "data" / "export"
 EMBEDDINGS_DIR = REPO_ROOT / "data" / "embeddings"
 MANIFEST_DIFF_PATH = REPO_ROOT / "data" / "article_manifest.diff.json"
 
-MODEL_NAME = "Qwen/Qwen3-Embedding-8B"
+MODEL_NAME = "Qwen/Qwen3-Embedding-4B"
 CHUNK_WORDS = 1500
 CHUNK_OVERLAP = 200
 MIN_WORDS = 10
