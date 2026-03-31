@@ -44,11 +44,10 @@ EDITION_YEARS = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]
 
 # Instruction prefix for Qwen3-Embedding (improves retrieval 1-5%)
 # Qwen3-Embedding: documents get NO prompt prefix.
-# Queries use prompt_name="query" at search time.
-# Custom query instruction for this domain (used at search time, not here):
-QUERY_INSTRUCTION = (
-    "Instruct: Find relevant passages from historical Encyclopedia "
-    "Britannica articles about this topic\nQuery: "
+# At search time, queries should use prompt_name="query" or a custom instruct:
+QUERY_TASK = (
+    "Given a search query about historical topics, retrieve relevant passages "
+    "from 18th-19th century Encyclopedia Britannica articles"
 )
 
 
@@ -105,60 +104,35 @@ def load_changed_ids() -> set[str] | None:
 
 
 def load_model(model_name: str):
-    import torch
-    from transformers import AutoTokenizer, AutoModel
+    from sentence_transformers import SentenceTransformer
 
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"Loading {model_name} on {device}...")
-
-    tokenizer = AutoTokenizer.from_pretrained(
-        model_name, padding_side="left", trust_remote_code=True,
-    )
-    model = AutoModel.from_pretrained(
+    print(f"Loading {model_name}...")
+    # Follow exact HuggingFace docs: device_map="auto" in model_kwargs, NOT device= param
+    model = SentenceTransformer(
         model_name,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        trust_remote_code=True,
-    ).to(device).eval()
-
-    print(f"  Model loaded ({sum(p.numel() for p in model.parameters())/1e9:.1f}B params)")
-    return (model, tokenizer), device
-
-
-def _last_token_pool(hidden_states, attention_mask):
-    """Pool the last non-padding token (Qwen3-Embedding pooling strategy)."""
-    import torch
-    seq_lengths = attention_mask.sum(dim=1) - 1
-    return hidden_states[
-        torch.arange(hidden_states.shape[0], device=hidden_states.device),
-        seq_lengths,
-    ]
+        model_kwargs={
+            "attn_implementation": "flash_attention_2",
+            "device_map": "auto",
+        },
+        tokenizer_kwargs={"padding_side": "left"},
+    )
+    device = "cuda" if next(model.parameters()).is_cuda else "cpu"
+    print(f"  Model loaded on {device}")
+    return model, device
 
 
-def embed_batch(model_tuple, texts: list[str], batch_size: int = BATCH_SIZE) -> np.ndarray:
-    import torch
-    import torch.nn.functional as F
-
-    model, tokenizer = model_tuple
-    all_embs = []
-
-    for i in range(0, len(texts), batch_size):
-        batch_texts = texts[i:i + batch_size]
-        inputs = tokenizer(
-            batch_texts, padding=True, truncation=True,
-            max_length=8192, return_tensors="pt",
-        ).to(model.device)
-
-        with torch.no_grad():
-            outputs = model(**inputs)
-            embs = _last_token_pool(outputs.last_hidden_state, inputs["attention_mask"])
-            embs = F.normalize(embs[:, :EMBED_DIM], p=2, dim=1)
-            all_embs.append(embs.cpu().float().numpy())
-
-    return np.vstack(all_embs) if len(all_embs) > 1 else all_embs[0]
+def embed_batch(model, texts: list[str], batch_size: int = BATCH_SIZE) -> np.ndarray:
+    return model.encode(
+        texts,
+        batch_size=batch_size,
+        show_progress_bar=False,
+        convert_to_numpy=True,
+        normalize_embeddings=True,
+        truncate_dim=EMBED_DIM,
+    )
 
 
-def process_edition(edition_year: int, model_tuple, device: str,
+def process_edition(edition_year: int, model, device: str,
                     max_articles: int = None,
                     changed_ids: set[str] | None = None) -> int:
     """Process one edition. Returns number of chunks embedded."""
@@ -238,7 +212,7 @@ def process_edition(edition_year: int, model_tuple, device: str,
     all_embeddings = []
     for i in range(0, len(texts_to_embed), BATCH_SIZE):
         batch = texts_to_embed[i:i + BATCH_SIZE]
-        embs = embed_batch(model_tuple, batch)
+        embs = embed_batch(model, batch)
         all_embeddings.append(embs)
 
         # Progress
@@ -309,7 +283,7 @@ def main():
             print("No changes detected, nothing to embed.")
             return
 
-    model_tuple, device = load_model(args.model)
+    model, device = load_model(args.model)
 
     total_chunks = 0
     t_total = time.time()
@@ -318,7 +292,7 @@ def main():
         print(f"\n{'='*60}")
         print(f"Edition {year}")
         print(f"{'='*60}")
-        chunks = process_edition(year, model_tuple, device, args.max_articles, changed_ids)
+        chunks = process_edition(year, model, device, args.max_articles, changed_ids)
         total_chunks += chunks
 
     elapsed = time.time() - t_total
