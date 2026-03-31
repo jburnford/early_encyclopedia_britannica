@@ -289,8 +289,9 @@ def process_edition(edition_year: int, client, model_name: str,
     with open(output_path, "w") as f:
         for rec in kept.values():
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-        for meta, emb in zip(chunk_metas, embeddings):
+        for idx, (meta, emb) in enumerate(zip(chunk_metas, embeddings)):
             meta["embedding"] = emb.tolist()
+            meta["text"] = texts_to_embed[idx]
             f.write(json.dumps(meta, ensure_ascii=False) + "\n")
 
     total = len(kept) + len(chunk_metas)
