@@ -105,40 +105,60 @@ def load_changed_ids() -> set[str] | None:
 
 
 def load_model(model_name: str):
-    from sentence_transformers import SentenceTransformer
     import torch
+    from transformers import AutoTokenizer, AutoModel
 
-    if torch.cuda.is_available():
-        device = "cuda"
-    else:
-        device = "cpu"
-
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Loading {model_name} on {device}...")
-    model = SentenceTransformer(
+
+    tokenizer = AutoTokenizer.from_pretrained(
+        model_name, padding_side="left", trust_remote_code=True,
+    )
+    model = AutoModel.from_pretrained(
         model_name,
+        torch_dtype=torch.bfloat16,
+        attn_implementation="flash_attention_2",
         trust_remote_code=True,
-        model_kwargs={
-            "torch_dtype": "bfloat16",
-            "attn_implementation": "flash_attention_2",
-        },
-        tokenizer_kwargs={"padding_side": "left"},
-    )
-    return model, device
+    ).to(device).eval()
+
+    print(f"  Model loaded ({sum(p.numel() for p in model.parameters())/1e9:.1f}B params)")
+    return (model, tokenizer), device
 
 
-def embed_batch(model, texts: list[str], batch_size: int = BATCH_SIZE) -> np.ndarray:
-    # Qwen3-Embedding supports truncate_dim for Matryoshka
-    return model.encode(
-        texts,
-        batch_size=batch_size,
-        show_progress_bar=False,
-        convert_to_numpy=True,
-        normalize_embeddings=True,
-        truncate_dim=EMBED_DIM,
-    )
+def _last_token_pool(hidden_states, attention_mask):
+    """Pool the last non-padding token (Qwen3-Embedding pooling strategy)."""
+    import torch
+    seq_lengths = attention_mask.sum(dim=1) - 1
+    return hidden_states[
+        torch.arange(hidden_states.shape[0], device=hidden_states.device),
+        seq_lengths,
+    ]
 
 
-def process_edition(edition_year: int, model, device: str,
+def embed_batch(model_tuple, texts: list[str], batch_size: int = BATCH_SIZE) -> np.ndarray:
+    import torch
+    import torch.nn.functional as F
+
+    model, tokenizer = model_tuple
+    all_embs = []
+
+    for i in range(0, len(texts), batch_size):
+        batch_texts = texts[i:i + batch_size]
+        inputs = tokenizer(
+            batch_texts, padding=True, truncation=True,
+            max_length=8192, return_tensors="pt",
+        ).to(model.device)
+
+        with torch.no_grad():
+            outputs = model(**inputs)
+            embs = _last_token_pool(outputs.last_hidden_state, inputs["attention_mask"])
+            embs = F.normalize(embs[:, :EMBED_DIM], p=2, dim=1)
+            all_embs.append(embs.cpu().float().numpy())
+
+    return np.vstack(all_embs) if len(all_embs) > 1 else all_embs[0]
+
+
+def process_edition(edition_year: int, model_tuple, device: str,
                     max_articles: int = None,
                     changed_ids: set[str] | None = None) -> int:
     """Process one edition. Returns number of chunks embedded."""
@@ -218,7 +238,7 @@ def process_edition(edition_year: int, model, device: str,
     all_embeddings = []
     for i in range(0, len(texts_to_embed), BATCH_SIZE):
         batch = texts_to_embed[i:i + BATCH_SIZE]
-        embs = embed_batch(model, batch)
+        embs = embed_batch(model_tuple, batch)
         all_embeddings.append(embs)
 
         # Progress
@@ -289,7 +309,7 @@ def main():
             print("No changes detected, nothing to embed.")
             return
 
-    model, device = load_model(args.model)
+    model_tuple, device = load_model(args.model)
 
     total_chunks = 0
     t_total = time.time()
@@ -298,7 +318,7 @@ def main():
         print(f"\n{'='*60}")
         print(f"Edition {year}")
         print(f"{'='*60}")
-        chunks = process_edition(year, model, device, args.max_articles, changed_ids)
+        chunks = process_edition(year, model_tuple, device, args.max_articles, changed_ids)
         total_chunks += chunks
 
     elapsed = time.time() - t_total
