@@ -42,10 +42,10 @@ METADATA_PATH = EMBEDDINGS_DIR / "topic_shift_metadata.jsonl"
 ANALYSIS_PATH = EMBEDDINGS_DIR / "topic_shift_analysis.jsonl"
 DETECTIONS_PATH = EMBEDDINGS_DIR / "topic_shift_detections.md"
 
-MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
+MODEL_NAME = "Qwen/Qwen3-Embedding-8B"
 OPENING_WORDS = 500
 DEFAULT_THRESHOLD = 0.75
-EMBED_DIM = 768
+EMBED_DIM = 1024
 BATCH_SIZE = 64
 
 # Known topic shifts from manual analysis (data/topic_shift_report.md)
@@ -122,8 +122,12 @@ def build_embedding_inputs(index: list[dict], articles: dict[str, dict],
                 continue
 
             opening = get_opening_text(art["text"])
-            # nomic-embed uses search_document: prefix for documents
-            texts.append(f"search_document: {opening}")
+            # Qwen3-Embedding instruction-aware prefix
+            texts.append(
+                "Instruct: Represent this opening passage from an "
+                "18th-19th century Encyclopedia Britannica article\n"
+                f"Query: {opening}"
+            )
             metadata.append({
                 "article_id": article_id,
                 "cross_edition_id": entry["id"],
@@ -162,6 +166,7 @@ def embed_texts(texts: list[str], model_name: str = MODEL_NAME,
         show_progress_bar=True,
         convert_to_numpy=True,
         normalize_embeddings=True,  # L2-normalize for cosine = dot product
+        truncate_dim=EMBED_DIM,
     )
     elapsed = time.time() - t0
     print(f"  Done in {elapsed:.1f}s ({len(texts)/elapsed:.0f} texts/sec)")

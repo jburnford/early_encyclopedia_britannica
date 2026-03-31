@@ -34,12 +34,23 @@ EXPORT_DIR = REPO_ROOT / "data" / "export"
 EMBEDDINGS_DIR = REPO_ROOT / "data" / "embeddings"
 MANIFEST_DIFF_PATH = REPO_ROOT / "data" / "article_manifest.diff.json"
 
-MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
+MODEL_NAME = "Qwen/Qwen3-Embedding-8B"
 CHUNK_WORDS = 1500
 CHUNK_OVERLAP = 200
 MIN_WORDS = 10
 BATCH_SIZE = 64
+EMBED_DIM = 1024  # Matryoshka: use 1024 for quality/storage balance
 EDITION_YEARS = [1771, 1778, 1797, 1810, 1815, 1823, 1842, 1860]
+
+# Instruction prefix for Qwen3-Embedding (improves retrieval 1-5%)
+DOCUMENT_INSTRUCTION = (
+    "Instruct: Represent this passage from an 18th-19th century "
+    "Encyclopedia Britannica article for retrieval\nQuery: "
+)
+QUERY_INSTRUCTION = (
+    "Instruct: Find relevant passages from historical Encyclopedia "
+    "Britannica articles about this topic\nQuery: "
+)
 
 
 def find_export_file(edition_year: int) -> Path:
@@ -99,8 +110,7 @@ def load_model(model_name: str):
     import torch
 
     if torch.cuda.is_available():
-        vram = torch.cuda.get_device_properties(0).total_memory / 1e9
-        device = "cuda" if vram >= 6 else "cpu"
+        device = "cuda"
     else:
         device = "cpu"
 
@@ -110,12 +120,14 @@ def load_model(model_name: str):
 
 
 def embed_batch(model, texts: list[str], batch_size: int = BATCH_SIZE) -> np.ndarray:
+    # Qwen3-Embedding supports truncate_dim for Matryoshka
     return model.encode(
         texts,
         batch_size=batch_size,
         show_progress_bar=False,
         convert_to_numpy=True,
         normalize_embeddings=True,
+        truncate_dim=EMBED_DIM,
     )
 
 
@@ -185,7 +197,7 @@ def process_edition(edition_year: int, model, device: str,
                 "char_end": chunk["char_end"],
                 "word_count": chunk["word_count"],
             }
-            texts_to_embed.append(f"search_document: {chunk['text']}")
+            texts_to_embed.append(f"{DOCUMENT_INSTRUCTION}{chunk['text']}")
             chunk_metas.append(meta)
 
     if not texts_to_embed:
