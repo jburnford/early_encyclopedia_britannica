@@ -1,95 +1,170 @@
-# Next Session: Topic Shift Fixes + GraphRAG Pipeline
+# Next Session: GraphRAG Build + Ongoing Data Improvement
 
 ## Session Summary (Mar 30, 2026)
 
-### Swallowed Article Fixes (28→2 SWALLOWED gaps)
-- Added 26 split specs to `fix_mega_articles.py` for all confirmed SWALLOWED gaps
-- STORK→STOVE splits added for 1797, 1810, 1815 (user-reported)
-- 2 false positives identified (FOUNDERY, STARCH are plate labels)
-- **Gaps: 1,777 → 1,749** (-28)
+### Swallowed Article Fixes
+- 26 split specs added to `fix_mega_articles.py` (ABELARD, STOVE, MEDICINE, MECHANICS, etc.)
+- Gaps: 1,777 → 1,749 (-28), SWALLOWED: 28 → 2 (false positives)
+
+### ASTRONOMY 1778 Recovery
+- Recovered 59,869 words of ASTRONOMY treatise opening from raw OCR
+- Merged with SATURN section (15,703w) + continuation (50,241w) = 125,813w total
+- The parser had skipped from vol 2 title page to a section heading, missing everything between
 
 ### GraphRAG Pipeline (Phases 1-2 complete)
-- **Phase 1**: `graphrag/build_article_manifest.py` — SHA-256 fingerprinting of 143,954 articles
-- **Phase 2**: `graphrag/embed_topic_shifts.py` — nomic-embed-text-v1.5 on Plato A100 (4 min 17 sec)
-  - 23,096 article-edition openings embedded (first 500 words each)
-  - Results at `data/embeddings/topic_shift_analysis.jsonl`
+- Phase 1: Content fingerprinting manifest (143,954 articles, SHA-256 hashes)
+- Phase 2: Topic shift detection (nomic-embed on Plato A100, 4 min 17 sec)
+  - 342 real topic shifts, 387 missing-edition artifacts, 435 short-expansion noise
+  - 26 confirmed mid-word fragments (tails of predecessor articles)
 
-### Topic Shift Analysis Results (threshold=0.75)
-| Category | Count | Description |
-|----------|-------|-------------|
-| **Topic shifts** | 342 | Multiple editions cover genuinely different topics |
-| **Single-edition outliers** | 387 | One edition empty/missing in export (gap, not error) |
-| **Short expansions** | 435 | 1771 short definitions expanded later (noise) |
+### Plato Cluster Setup
+- Repo cloned at `~/projects/def-jic823/1815EncyclopediaBritannicaNLS`
+- Venv at `~/projects/def-jic823/embed_venv` (sentence-transformers, einops, scipy)
+- SSH key configured for GitHub, export data rsynced
+- SLURM: `--gpus-per-node=a100:1` (NOT --partition or --gres)
 
-The 387 single-edition outliers all have 0-word content — they're just missing editions, not parser errors.
+---
 
-### Mid-Word Fragment Analysis (26 confirmed)
-Of the 342 topic shifts, 251 are clean 2-way splits. Within those, **26 entries start mid-word** (clearly the tail of the previous article). These are directly fixable as merges:
+## Parallel Work Tracks
 
-| Fragment | Years | Predecessor | Fragment text |
-|----------|-------|-------------|---------------|
-| PORTRAIT | 1815,1823 | PORTO | "d safe, that Columbus..." (PORTO-BELLO tail) |
-| TENCE | 1810 | VALUE | "o death a single highway robber" |
-| NUSANCE | 1797-1823 | NURSING OF CHILDREN | "per shape. The child should be laid" |
-| GAUL | 1810-1823 | GAUGING | "oot long and about three-eighths" |
-| VERDEN | 1797 | VEGETABLES | "r, in stating the following plan" |
-| CERES | 1810,1823 | BROWN | "nce saw, and blest the happy swain" |
-| CAPRA | 1810-1823 | CAPPARIS | "eful as detergents and aperients" |
-| IMPOTENCE | 1810 | MALACIA | "o Venery. Anaphrodisia..." |
-| ORISSA | 1842 | ORION | "ade his illustrious guest drunk" |
-| PALAMEDEA | 1823 | PALACE-COURT | "s of a weaver; but attending" |
-| MOUNTAINS | 1778,1797 | MOUNTAIN | "ith flat summits" / "ppear to many" |
-| DIFFERENT | 1823 | DIDACTIC | "heir bulk, their distance" |
+The key architectural insight: the **manifest diff system** (Phase 1) means we can keep fixing articles without re-embedding the whole corpus. After each fix cycle, only changed articles get re-embedded. This enables parallel progress on all fronts.
 
-Other fragments that look broken but are actually valid articles: BEATING ("or Pulsation"), CONI ("a strong town"), COPPER, SPAIN, THEOLOGY, VARIATION — these are topic changes or legitimate articles starting with common words.
+### Track A: Full-Corpus Embedding + GraphRAG Assembly
 
-### What Needs Doing Next
+**Goal**: Get the GraphRAG working end-to-end, even with imperfect data.
 
-#### 1. Fix 26 Mid-Word Fragments (High Priority)
-Add merge specs to `fix_mega_articles.py` MERGES section. Each fragment should be merged into its predecessor article. Use char_start/char_end to verify adjacency.
+#### A1. Full-corpus embedding (Phase 3)
+- Write `graphrag/embed_articles.py` — 1500-word chunks, 200-word overlap
+- Run on Plato A100 (~2-4 hours for 143K articles)
+- Output: `data/embeddings/eb_{ed}_{year}.chunks.jsonl`
+- Incremental mode reads `article_manifest.diff.json`
 
-**Caution**: Some entries appear in multiple volume files (1810 4th ed is a supplement with duplicates). CERES appears twice in 1810, THEOLOGY 3× — need to handle each file occurrence.
+#### A2. Vector storage (Phase 4)
+- JSONL + numpy brute-force (103K vectors × 768d = ~300MB, <100ms search)
+- `graphrag/load_embeddings.py` — consolidate per-edition files into single index
 
-#### 2. Topic Change Index Splits (~89 entries, Medium Priority)
-These are legitimate editorial decisions where the encyclopedia changed what a headword covers:
-- FALCONER: falconry profession (1771-1823) → William Falconer poet (1842-1860)
-- LAWRENCE: St. Lawrence River (most eds) → Sir Thomas Lawrence painter (1842)
-- LIBERIA: Roman festival (1771-1823) → African republic (1842-1860)
-- BASIL: botany/joinery (1771,1778,1842,1860) → St. Basil/Basel city (1797-1823)
-- ROSA: botany (1771-1810) → Salvator Rosa painter (1815-1860)
+#### A3. Neo4j graph assembly (Phase 5)
+- `graphrag/load_neo4j_graphrag.py` — load to existing Neo4j at bolt://206.12.90.118:7687
+- Nodes: EB_Article (144K), EB_Entry (4,353), EB_Entity (from NER), WikidataItem
+- Relationships: IN_ENTRY, MENTIONS, SAME_AS, GROUNDED_TO
+- Use MERGE for idempotent loads — safe to re-run after fixes
 
-Need a mapping file + logic in `rebuild_cross_edition_index.py` to split these into separate entries (e.g., FALCONER_PROFESSION and FALCONER_WILLIAM).
+#### A4. Query interface (Phase 6)
+- `graphrag/query.py` — embed question → vector search → graph context → LLM synthesis
+- Test with known questions: "What does the encyclopedia say about Joseph Black?"
 
-#### 3. Full Corpus Embedding (Phase 3, Lower Priority)
-- `graphrag/embed_articles.py` — 1500-word chunks with 200-word overlap
-- Run on Plato A100, ~2-4 hours total
-- Incremental via `article_manifest.diff.json`
+### Track B: Parser Error Fixes (Ongoing)
 
-### Plato Setup
-- **Repo**: `~/projects/def-jic823/1815EncyclopediaBritannicaNLS` (cloned from GitHub)
-- **Venv**: `~/projects/def-jic823/embed_venv` (sentence-transformers, einops, scipy)
-- **Export data**: rsynced to `data/export/` (gitignored)
-- **SLURM**: use `--gpus-per-node=a100:1` (NOT --partition or --gres)
-- **SSH key**: configured for GitHub access
+**Goal**: Keep improving article quality. Each fix cycle runs the pipeline then `build_article_manifest.py` to generate diffs for incremental re-embedding.
 
-### Pipeline After Fixes
+#### B1. Mid-word fragment merges (26 confirmed)
+These articles start mid-word and are tails of the previous article:
+- PORTRAIT→PORTO (1815,1823), TENCE→VALUE (1810), NUSANCE→NURSING (1797-1823)
+- GAUL→GAUGING (1810-1823), CERES→BROWN (1810,1823), CAPRA→CAPPARIS (1810-1823)
+- IMPOTENCE→MALACIA (1810), ORISSA→ORION (1842), PALAMEDEA→PALACE-COURT (1823)
+- MOUNTAINS→MOUNTAIN (1778,1797), DIFFERENT→DIDACTIC (1823), VERDEN→VEGETABLES (1797)
+Full list in `data/embeddings/topic_shift_analysis.jsonl` (shift_type="topic_shift", check for mid-word starts)
+
+#### B2. Cross-volume treatise recovery (like ASTRONOMY 1778)
+- Large treatises that span volume boundaries get broken by the parser
+- Site review surfaces these: articles starting mid-sentence at beginning of a volume
+- Fix: recover from raw OCR + merge, as done for ASTRONOMY
+
+#### B3. Remaining swallowed articles
+- 2 false positives still classified as SWALLOWED (FOUNDERY, STARCH — plate labels)
+- Topic shift analysis may reveal more via the single-outlier category
+
+#### B4. 1810 4th edition audit
+- The 1810 supplement has non-alphabetical volumes → parser fails more often
+- 56 single-edition outliers are from 1810
+- Systematic check of all 1810 entries for swallowed content
+
+### Track C: Topic Shift Index Splits (89 entries)
+
+**Goal**: Split cross-edition index entries where the encyclopedia editors changed what a headword covers.
+
+#### C1. Build topic split mapping file
+- `data/topic_splits.jsonl` — maps headword → {cluster_name, editions, wikidata_qid}
+- Example: FALCONER → {FALCONER_PROFESSION: [1771-1823], FALCONER_WILLIAM: [1842-1860]}
+- Start with the 12 known shifts from `data/topic_shift_report.md`
+
+#### C2. Update `rebuild_cross_edition_index.py`
+- Read topic split mapping before building index
+- Override edition grouping for mapped headwords
+- Generate separate index entries with distinct IDs
+
+#### C3. Extend to 89 detected shifts
+- Review `data/embeddings/topic_shift_detections.md` Section 1
+- Major cases: LAWRENCE (river→painter), BASIL (botany→saint→city), ROSA (botany→painter), LIBERIA (festival→republic), MUSA (plantain→village→person)
+
+### Track D: Wikidata Grounding (Ongoing)
+
+**Goal**: Link articles, entities, and topics to the knowledge graph.
+
+#### D1. Headword disambiguation (844/4,353 = 19%)
+- Continue with `/headword-disambig` skill
+- Topic splits from Track C will need new QIDs for split entries
+- Priority: ground the 342 topic-shift entries (they need correct QIDs per cluster)
+
+#### D2. Person disambiguation (1,458 matches)
+- Continue with `/person-disambig` skill
+- 1,157,244 NER entities across 8 editions
+
+#### D3. Toponym disambiguation (94.3% grounded)
+- Mostly complete, continue with `/place-disambig` for remaining 5.7%
+
+### Track E: Internal Cross-References
+
+**Goal**: Build cross-edition article links and "See also" relationships.
+
+#### E1. Parse "See X" cross-references
+- Many articles contain "See ASTRONOMY", "See MECHANICS", etc.
+- Extract these as relationships: (:EB_Article)-[:SEE_ALSO]->(:EB_Entry)
+- The article files already have `type: "cross_reference"` and `target` field for pure cross-refs
+
+#### E2. Cross-edition evolution links
+- For non-split entries: link editions as (:EB_Article)-[:NEXT_EDITION]->(:EB_Article)
+- For split entries: link within clusters only
+- Enables queries like "How did the ASTRONOMY article change from 1771 to 1860?"
+
+---
+
+## Fix Pipeline (run after each batch of fixes)
+
 ```bash
+# 1. Apply fixes
 python scripts/fix_mega_articles.py
 python scripts/merge_fragments.py
+
+# 2. Re-export
 python scripts/parse_britannica.py --phase export
+
+# 3. Rebuild index + classify gaps
 python scripts/rebuild_cross_edition_index.py
 python scripts/classify_gaps.py
+
+# 4. Update manifest (detects what changed)
 python graphrag/build_article_manifest.py
-# Then rsync exports to Plato and run embedding
+
+# 5. Regenerate site
+python scripts/generate_site.py
+
+# 6. Incremental re-embed (on Plato, after rsync)
+python graphrag/embed_topic_shifts.py --incremental
+python graphrag/embed_articles.py --incremental  # Phase 3, once built
 ```
 
 ## Key Files
+
 | File | Purpose |
 |------|---------|
-| `scripts/fix_mega_articles.py` | Manual article fixes — splits, merges, deletes, relabels |
+| `scripts/fix_mega_articles.py` | Manual fixes — splits, merges, deletes, relabels |
 | `graphrag/build_article_manifest.py` | Content fingerprinting for incremental processing |
-| `graphrag/embed_topic_shifts.py` | Topic shift detection via embeddings |
-| `graphrag/slurm/embed_topic_shifts.sh` | SLURM wrapper for Plato A100 |
-| `data/embeddings/topic_shift_analysis.jsonl` | Per-entry similarity scores + clusters |
-| `data/embeddings/topic_shift_detections.md` | Human-readable report (342 shifts + 387 outliers + 435 expansions) |
-| `data/graphrag_pipeline_plan_2026-03-30.md` | Full 6-phase GraphRAG plan |
+| `graphrag/embed_topic_shifts.py` | Topic shift detection (Phase 2, complete) |
+| `graphrag/embed_articles.py` | Full-corpus embedding (Phase 3, TODO) |
+| `graphrag/load_neo4j_graphrag.py` | Neo4j graph assembly (Phase 5, TODO) |
+| `graphrag/query.py` | GraphRAG query interface (Phase 6, TODO) |
+| `data/embeddings/topic_shift_analysis.jsonl` | 4,311 entries with similarity scores |
+| `data/embeddings/topic_shift_detections.md` | Categorized report (342 + 387 + 435) |
+| `data/graphrag_pipeline_plan_2026-03-30.md` | Original 6-phase plan |
+| `data/article_manifest.jsonl` | 143,954 article fingerprints |
