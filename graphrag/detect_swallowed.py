@@ -31,6 +31,18 @@ DROP_THRESHOLD = 0.25    # min drop from rolling average to flag
 ABS_THRESHOLD = 0.35     # absolute similarity below this is suspicious
 ROLLING_WINDOW = 5       # paragraphs for rolling average
 
+# Per-category similarity thresholds (from spot-checking)
+# mid_word/mid_sentence: structural signals, always keep
+# new_headword: ALLCAPS is strong evidence, ~80% real even at 0.35
+# person_bio/topic_change: classifier less reliable, need stronger signal
+CATEGORY_THRESHOLDS = {
+    "mid_word": 0.50,
+    "mid_sentence": 0.50,
+    "new_headword": 0.35,
+    "person_bio": 0.20,
+    "topic_change": 0.20,
+}
+
 
 def load_paragraph_embeddings(edition_year: int) -> tuple[np.ndarray, list[dict]]:
     """Load paragraph embeddings for one edition."""
@@ -152,8 +164,104 @@ def classify_break(after_text: str) -> str:
     return "topic_change"
 
 
+def apply_thresholds(detections: list[dict]) -> list[dict]:
+    """Filter detections by per-category similarity thresholds."""
+    kept = []
+    for d in detections:
+        thresh = CATEGORY_THRESHOLDS.get(d["classification"], 0.20)
+        if d["similarity"] < thresh:
+            kept.append(d)
+    return kept
+
+
+def extract_break_headword(after_text: str) -> str:
+    """Try to extract a headword from the text after the break.
+
+    Returns a normalized headword for cross-edition matching, or empty string
+    if no plausible headword can be extracted.
+    """
+    text = after_text.strip().replace("\n", " ")
+    if not text:
+        return ""
+
+    # Bold markdown headword: **WORD** or **Word**
+    m = re.match(r'\*\*([A-Za-z][A-Za-z\s\-\'\.]+?)\*\*', text)
+    if m:
+        hw = m.group(1).strip().upper()
+        if len(hw) >= 2:
+            return hw
+
+    # ALLCAPS headword (3+ chars, not common words)
+    m = re.match(r'([A-Z][A-Z\s\-\']{2,})', text)
+    if m:
+        hw = m.group(1).strip()
+        # Filter out common words that aren't headwords
+        if hw not in {"THE", "AND", "FOR", "BUT", "NOT", "THIS", "THAT",
+                      "WITH", "FROM", "HAVE", "BEEN", "WERE", "THEY",
+                      "WHICH", "THEIR", "THERE", "WHEN", "WHAT", "SOME",
+                      "THESE", "THOSE", "SUCH", "WILL", "EACH", "THAN",
+                      "AFTER", "OTHER", "INTO", "UPON", "ALSO", "MOST",
+                      "VERY", "OVER", "PART", "CHAP"}:
+            return hw
+
+    # Capitalized name (person bio): "Name, ..." or "Name Name"
+    m = re.match(r'([A-Z][a-z]{2,}(?:\s+[A-Z][a-z]+)*)', text)
+    if m:
+        hw = m.group(1).strip().upper()
+        if len(hw) >= 3:
+            return hw
+
+    # No plausible headword found
+    return ""
+
+
+def group_cross_edition(detections: list[dict]) -> list[dict]:
+    """Group detections by parent article title + break headword across editions.
+
+    Breaks that appear in multiple editions are much more likely to be real
+    swallowed articles, since the same content was carried across editions.
+    Detections with no extractable headword are left ungrouped (count=1).
+    """
+    # Extract a break headword for each detection
+    for d in detections:
+        d["break_headword"] = extract_break_headword(d["after_start"])
+
+    # Group by (parent_title, break_headword) — only if headword is non-empty
+    groups = defaultdict(list)
+    for d in detections:
+        bh = d["break_headword"]
+        if bh:
+            key = (d["title"].upper(), bh)
+            groups[key].append(d)
+
+    # Annotate each detection with cross-edition count
+    for key, group in groups.items():
+        editions = sorted(set(d["edition_year"] for d in group))
+        for d in group:
+            d["cross_edition_count"] = len(editions)
+            d["cross_edition_years"] = editions
+
+    # Detections with no headword get count=1
+    for d in detections:
+        if "cross_edition_count" not in d:
+            d["cross_edition_count"] = 1
+            d["cross_edition_years"] = [d["edition_year"]]
+
+    return detections
+
+
 def write_report(detections: list[dict]):
-    """Write markdown report."""
+    """Write markdown report with cross-edition grouping."""
+    # Separate multi-edition and single-edition detections
+    multi = [d for d in detections if d.get("cross_edition_count", 1) >= 2]
+    single = [d for d in detections if d.get("cross_edition_count", 1) == 1]
+
+    # Group multi-edition by (parent, break_headword)
+    multi_groups = defaultdict(list)
+    for d in multi:
+        key = (d["title"].upper(), d["break_headword"])
+        multi_groups[key].append(d)
+
     by_class = defaultdict(list)
     for d in detections:
         by_class[d["classification"]].append(d)
@@ -163,39 +271,64 @@ def write_report(detections: list[dict]):
         "",
         f"**Date:** {time.strftime('%Y-%m-%d')}",
         f"**Method:** Consecutive paragraph embedding similarity (voyage-4-large)",
-        f"**Total detections:** {len(detections)}",
+        f"**Thresholds:** per-category (mid_word/mid_sentence: all, new_headword: <0.35, "
+        f"person_bio/topic_change: <0.20)",
+        f"**Total detections:** {len(detections)} "
+        f"({len(multi)} multi-edition, {len(single)} single-edition)",
         "",
         "## Summary by Classification",
         "",
-        "| Type | Count | Description |",
-        "|------|-------|-------------|",
-        f"| mid_word | {len(by_class['mid_word'])} | Starts mid-word — definitely swallowed |",
-        f"| mid_sentence | {len(by_class['mid_sentence'])} | Starts mid-sentence — likely swallowed |",
-        f"| new_headword | {len(by_class['new_headword'])} | ALLCAPS heading — missed headword boundary |",
-        f"| person_bio | {len(by_class['person_bio'])} | Person name — swallowed biography |",
-        f"| topic_change | {len(by_class['topic_change'])} | Generic topic change — may be legitimate |",
+        "| Type | Count | Threshold | Description |",
+        "|------|-------|-----------|-------------|",
+        f"| mid_word | {len(by_class['mid_word'])} | all | Starts mid-word — definitely swallowed |",
+        f"| mid_sentence | {len(by_class['mid_sentence'])} | all | Starts mid-sentence — likely swallowed |",
+        f"| new_headword | {len(by_class['new_headword'])} | <0.35 | ALLCAPS heading — missed headword |",
+        f"| person_bio | {len(by_class['person_bio'])} | <0.20 | Person name — swallowed biography |",
+        f"| topic_change | {len(by_class['topic_change'])} | <0.20 | Topic change — may be legitimate |",
+        "",
+        "## Cross-Edition Breaks (HIGH CONFIDENCE)",
+        "",
+        f"**{len(multi_groups)} unique breaks** appearing in 2+ editions "
+        f"({len(multi)} total detections):",
         "",
     ]
 
+    # Sort by number of editions (descending), then parent title
+    for key in sorted(multi_groups, key=lambda k: (-len(set(d["edition_year"] for d in multi_groups[k])), k[0])):
+        group = multi_groups[key]
+        parent, bh = key
+        editions = sorted(set(d["edition_year"] for d in group))
+        best = min(group, key=lambda d: d["similarity"])
+        lines.append(
+            f"- **{parent}** → {bh} ({len(editions)} editions: {', '.join(str(y) for y in editions)}) "
+            f"best sim={best['similarity']:.3f} [{best['classification']}]"
+        )
+
+    lines.append("")
+    lines.append("## Single-Edition Breaks")
+    lines.append("")
+    lines.append(f"**{len(single)} detections** in only one edition (lower confidence):")
+    lines.append("")
+
     for cls in ["mid_word", "mid_sentence", "new_headword", "person_bio", "topic_change"]:
-        items = by_class.get(cls, [])
+        items = [d for d in single if d["classification"] == cls]
         if not items:
             continue
-        lines.append(f"## {cls} ({len(items)} detections)")
+        lines.append(f"### {cls} ({len(items)})")
         lines.append("")
-        for d in items[:50]:  # cap at 50 per category for readability
+        for d in sorted(items, key=lambda x: x["similarity"])[:30]:
             before = d["before_end"][-60:].replace("\n", " ")
             after = d["after_start"][:80].replace("\n", " ")
             lines.append(
                 f"- **{d['title']}** ({d['edition_year']}) "
                 f"para {d['para_before']}→{d['para_after']} "
-                f"sim={d['similarity']:.3f} drop={d['drop']:.3f}"
+                f"sim={d['similarity']:.3f}"
             )
             lines.append(f"  - `...{before}`")
             lines.append(f"  - `{after}...`")
             lines.append("")
-        if len(items) > 50:
-            lines.append(f"  ... and {len(items) - 50} more")
+        if len(items) > 30:
+            lines.append(f"  ... and {len(items) - 30} more")
             lines.append("")
 
     with open(OUTPUT_MD, "w") as f:
@@ -208,6 +341,8 @@ def main():
     parser.add_argument("--edition-year", type=int)
     parser.add_argument("--drop-threshold", type=float, default=DROP_THRESHOLD)
     parser.add_argument("--abs-threshold", type=float, default=ABS_THRESHOLD)
+    parser.add_argument("--no-filter", action="store_true",
+                        help="Output all raw detections (skip per-category thresholds)")
     args = parser.parse_args()
 
     years = [args.edition_year] if args.edition_year else EDITION_YEARS
@@ -222,10 +357,21 @@ def main():
         print(f"{len(meta):,} paragraphs")
 
         detections = detect_breaks(emb, meta, args.drop_threshold, args.abs_threshold)
-        print(f"  {len(detections)} breaks detected")
+        print(f"  {len(detections)} raw breaks")
         all_detections.extend(detections)
 
-    print(f"\nTotal: {len(all_detections)} detections across {len(years)} editions")
+    print(f"\nRaw total: {len(all_detections)} detections across {len(years)} editions")
+
+    # Apply per-category thresholds
+    if not args.no_filter:
+        all_detections = apply_thresholds(all_detections)
+        print(f"After thresholds: {len(all_detections)} detections")
+
+    # Cross-edition grouping
+    all_detections = group_cross_edition(all_detections)
+    multi = sum(1 for d in all_detections if d.get("cross_edition_count", 1) >= 2)
+    single = len(all_detections) - multi
+    print(f"Cross-edition: {multi} multi-edition, {single} single-edition")
 
     # Write outputs
     with open(OUTPUT_JSONL, "w") as f:
@@ -242,6 +388,19 @@ def main():
     print("\nBy classification:")
     for cls, count in sorted(by_class.items(), key=lambda x: -x[1]):
         print(f"  {cls}: {count}")
+
+    # Cross-edition summary
+    groups = defaultdict(set)
+    for d in all_detections:
+        key = (d["title"].upper(), d["break_headword"])
+        groups[key].add(d["edition_year"])
+    by_count = defaultdict(int)
+    for editions in groups.values():
+        by_count[len(editions)] += 1
+    print("\nCross-edition groups:")
+    for n in sorted(by_count):
+        label = f"{n} edition{'s' if n > 1 else ''}"
+        print(f"  {label}: {by_count[n]} unique breaks")
 
 
 if __name__ == "__main__":

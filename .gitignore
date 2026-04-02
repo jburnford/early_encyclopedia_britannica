@@ -10,6 +10,11 @@ data/ner/*
 !data/ner/person_lookup_queue.jsonl
 old/
 
+# Large derived data
+data/embeddings/
+data/backup_*/
+data/timber_articles/
+
 # Generated outputs
 graphrag/concept_index.json
 *.db

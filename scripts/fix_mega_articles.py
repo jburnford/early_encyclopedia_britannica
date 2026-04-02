@@ -651,6 +651,17 @@ FIXES = [
     # INDIAN (1810) — tail of INDIA, merge handled in MERGES section below
 
     # ================================================================
+    # RAG-DISCOVERED SWALLOWED ARTICLES — Session Mar 31, 2026
+    # Found via semantic search over embedded corpus
+    # ================================================================
+
+    # DRYANDER (1860) swallowed DRYDEN + DRY ROT
+    (1860, 'DRYANDER', 'eb_8th_1860_v08', [
+        ('DRYDEN', r'Dryden, John, an illustrious English poet', 5),
+        ('DRY ROT', r'DRY ROT,\n\nA most destructive', 40),
+    ]),
+
+    # ================================================================
     # SWALLOWED ARTICLES — Session Mar 29, 2026
     # These 28 gaps were classified SWALLOWED in gap_classifications.
     # 2 false positives excluded (FORTIFICATION/FOUNDERY plate label,

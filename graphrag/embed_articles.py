@@ -212,9 +212,10 @@ def process_edition(edition_year: int, client, model_name: str,
 
     print(f"  {len(articles):,} articles to embed")
 
-    # Chunk all articles
+    # Build units (paragraphs or chunks) for all articles
     texts_to_embed = []
     chunk_metas = []
+    seen_para_ids = set()  # dedup overlapping articles (swallowed content)
 
     for art in articles:
         if paragraph_mode:
@@ -222,7 +223,16 @@ def process_edition(edition_year: int, client, model_name: str,
         else:
             units = chunk_text(art.get("text", ""))
         for ci, u in enumerate(units):
-            uid = f"{art['article_id']}__{unit}_{ci}"
+            if paragraph_mode:
+                # OCR-stable ID: based on source file + absolute char position
+                source_stem = Path(art.get("source_file", "")).stem
+                ocr_char_pos = art.get("char_start", 0) + u["char_start"]
+                uid = f"{source_stem}__char_{ocr_char_pos}"
+                if uid in seen_para_ids:
+                    continue  # same OCR text claimed by overlapping article
+                seen_para_ids.add(uid)
+            else:
+                uid = f"{art['article_id']}__{unit}_{ci}"
             meta = {
                 f"{unit}_id": uid,
                 "article_id": art["article_id"],
@@ -235,8 +245,34 @@ def process_edition(edition_year: int, client, model_name: str,
                 "char_end": u["char_end"],
                 "word_count": u["word_count"],
             }
+            if paragraph_mode:
+                meta["source_file"] = art.get("source_file", "")
+                meta["ocr_char_start"] = ocr_char_pos
+                meta["ocr_char_end"] = art.get("char_start", 0) + u["char_end"]
             texts_to_embed.append(u["text"])
             chunk_metas.append(meta)
+
+    # Checkpoint: load already-embedded IDs and skip them (paragraph mode only)
+    done_ids = set()
+    if paragraph_mode and output_path.exists() and changed_ids is None:
+        with open(output_path) as f:
+            for line in f:
+                rec = json.loads(line)
+                done_ids.add(rec.get("para_id", ""))
+        # Validate: only use checkpoint if IDs are OCR-stable format (__char_)
+        if done_ids and not any("__char_" in pid for pid in list(done_ids)[:10]):
+            print(f"  Old ID format detected, will re-embed from scratch")
+            done_ids = set()
+        if done_ids:
+            print(f"  Checkpoint: {len(done_ids):,} {suffix} already embedded, skipping")
+            filtered_texts = []
+            filtered_metas = []
+            for t, m in zip(texts_to_embed, chunk_metas):
+                if m["para_id"] not in done_ids:
+                    filtered_texts.append(t)
+                    filtered_metas.append(m)
+            texts_to_embed = filtered_texts
+            chunk_metas = filtered_metas
 
     if not texts_to_embed:
         print(f"  Nothing to embed")
@@ -246,17 +282,33 @@ def process_edition(edition_year: int, client, model_name: str,
     t0 = time.time()
     total_tokens = 0
 
-    # Embed in batches
-    all_embeddings = []
+    # In checkpoint mode, append to existing file; otherwise write fresh
+    append_mode = paragraph_mode and bool(done_ids)
+    if not append_mode:
+        EMBEDDINGS_DIR.mkdir(parents=True, exist_ok=True)
+        if changed_ids is not None:
+            changed_article_ids = {art["article_id"] for art in articles}
+            kept = {k: v for k, v in existing.items()
+                    if v["article_id"] not in changed_article_ids}
+            with open(output_path, "w") as f:
+                for rec in kept.values():
+                    f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+        else:
+            with open(output_path, "w") as f:
+                pass  # truncate
+
+    # Embed in batches, writing after each batch (checkpoint-safe)
+    total_embedded = 0
     for i in range(0, len(texts_to_embed), BATCH_SIZE):
-        batch = texts_to_embed[i:i + BATCH_SIZE]
+        batch_texts = texts_to_embed[i:i + BATCH_SIZE]
+        batch_metas = chunk_metas[i:i + BATCH_SIZE]
 
         # Retry with backoff on rate limits
+        embs = None
         for attempt in range(5):
             try:
-                embs = embed_batch(client, batch, model_name)
-                all_embeddings.append(embs)
-                total_tokens += sum(len(t.split()) * 1.3 for t in batch)  # rough token estimate
+                embs = embed_batch(client, batch_texts, model_name)
+                total_tokens += sum(len(t.split()) * 1.3 for t in batch_texts)
                 break
             except Exception as e:
                 if "rate" in str(e).lower() or "429" in str(e):
@@ -266,37 +318,31 @@ def process_edition(edition_year: int, client, model_name: str,
                 else:
                     raise
 
+        if embs is None:
+            print(f"    Failed batch at {i}, stopping")
+            break
+
+        # Append this batch to output immediately (checkpoint)
+        with open(output_path, "a") as f:
+            for meta, emb, txt in zip(batch_metas, embs, batch_texts):
+                meta["embedding"] = emb.tolist()
+                meta["text"] = txt
+                f.write(json.dumps(meta, ensure_ascii=False) + "\n")
+        total_embedded += len(batch_texts)
+
         done = min(i + BATCH_SIZE, len(texts_to_embed))
-        if done % (BATCH_SIZE * 5) == 0 or done == len(texts_to_embed):
+        if done % (BATCH_SIZE * 10) == 0 or done == len(texts_to_embed):
             elapsed = time.time() - t0
             rate = done / elapsed if elapsed > 0 else 0
             print(f"    {done:,}/{len(texts_to_embed):,} {suffix} ({rate:.0f}/sec)")
 
-    embeddings = np.vstack(all_embeddings)
     elapsed = time.time() - t0
-    print(f"  Done in {elapsed:.1f}s ({len(texts_to_embed)/elapsed:.0f} {suffix}/sec)")
+    rate = total_embedded / elapsed if elapsed > 0 else 0
+    print(f"  Done in {elapsed:.1f}s ({rate:.0f} {suffix}/sec)")
 
-    # If incremental, remove old chunks for changed articles
-    if changed_ids is not None:
-        changed_article_ids = {art["article_id"] for art in articles}
-        kept = {k: v for k, v in existing.items()
-                if v["article_id"] not in changed_article_ids}
-    else:
-        kept = {}
-
-    # Write output
-    EMBEDDINGS_DIR.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w") as f:
-        for rec in kept.values():
-            f.write(json.dumps(rec, ensure_ascii=False) + "\n")
-        for idx, (meta, emb) in enumerate(zip(chunk_metas, embeddings)):
-            meta["embedding"] = emb.tolist()
-            meta["text"] = texts_to_embed[idx]
-            f.write(json.dumps(meta, ensure_ascii=False) + "\n")
-
-    total = len(kept) + len(chunk_metas)
-    print(f"  Wrote {total:,} {suffix} to {output_path.name}")
-    return len(chunk_metas), int(total_tokens)
+    total_on_disk = (len(done_ids) if append_mode else 0) + total_embedded
+    print(f"  Total on disk: {total_on_disk:,} {suffix} in {output_path.name}")
+    return total_embedded, int(total_tokens)
 
 
 def main():
