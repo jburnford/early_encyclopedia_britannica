@@ -154,10 +154,54 @@ def generate_article_page(article, prev_art, next_art):
 
 
 def generate_edition_index(year, articles):
-    """Generate index page listing all articles for one edition."""
+    """Generate A-Z landing page for one edition."""
     breadcrumbs = [("Home", "index.html")]
-
     ed_name = next((n for y, _, n, _ in EDITIONS if y == year), f"{year}")
+
+    # Group by first letter
+    by_letter = defaultdict(list)
+    for a in articles:
+        first = a["title"][0].upper() if a["title"] else "?"
+        if not first.isalpha():
+            first = "#"
+        by_letter[first].append(a)
+
+    letters = sorted(by_letter.keys())
+    letter_links = []
+    letter_cards = []
+    for letter in letters:
+        count = len(by_letter[letter])
+        letter_links.append(f'<a href="letter_{letter}.html">{letter}</a>')
+        letter_cards.append(
+            f'<a href="letter_{letter}.html" class="card" style="text-decoration:none;text-align:center">'
+            f'<div style="font-size:2.5rem;color:var(--accent)">{letter}</div>'
+            f'<div class="stats">{count:,} articles</div></a>'
+        )
+
+    total_words = sum(a.get("word_count", 0) for a in articles)
+    body = f"""
+<header>
+<h1>{ed_name} ({year})</h1>
+<div class="sub">{len(articles):,} articles &middot; {total_words:,} words</div>
+</header>
+<div style="text-align:center;margin:1.5rem 0;font-size:1.1rem;line-height:2">
+{" ".join(letter_links)}
+</div>
+<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(80px,1fr))">
+{"".join(letter_cards)}
+</div>
+"""
+    return page(f"{ed_name} ({year})", body, breadcrumbs, depth=2)
+
+
+def generate_letter_page(year, letter, articles):
+    """Generate page listing all articles for one letter in one edition."""
+    ed_name = next((n for y, _, n, _ in EDITIONS if y == year), f"{year}")
+    breadcrumbs = [
+        ("Home", "index.html"),
+        (f"{year} Edition", f"articles/{year}/index.html"),
+    ]
+
     rows = []
     for a in articles:
         aid = a["article_id"]
@@ -171,9 +215,10 @@ def generate_edition_index(year, articles):
 
     body = f"""
 <header>
-<h1>{ed_name} ({year})</h1>
+<h1>{letter} — {ed_name} ({year})</h1>
 <div class="sub">{len(articles):,} articles</div>
 </header>
+<nav><a href="index.html">&larr; All letters</a></nav>
 <input type="text" class="search" id="search" placeholder="Filter articles..." oninput="filterTable()">
 <table id="articles">
 <thead><tr><th>Article</th><th>Vol</th><th>Words</th></tr></thead>
@@ -190,7 +235,7 @@ function filterTable(){{
 }}
 </script>
 """
-    return page(f"{ed_name} ({year})", body, breadcrumbs, depth=2)
+    return page(f"{letter} — {ed_name} ({year})", body, breadcrumbs, depth=2)
 
 
 def generate_home(edition_stats):
@@ -265,10 +310,23 @@ def main():
             html_content = generate_article_page(art, prev_art, next_art)
             (ed_dir / f"{art['article_id']}.html").write_text(html_content)
 
-        # Generate edition index
+        # Generate edition index (A-Z landing page)
         index_html = generate_edition_index(year, articles)
         (ed_dir / "index.html").write_text(index_html)
-        log.info(f"  Wrote {len(articles):,} article pages + index")
+
+        # Generate per-letter pages
+        by_letter = defaultdict(list)
+        for a in articles:
+            first = a["title"][0].upper() if a["title"] else "?"
+            if not first.isalpha():
+                first = "#"
+            by_letter[first].append(a)
+
+        for letter, letter_articles in sorted(by_letter.items()):
+            letter_html = generate_letter_page(year, letter, letter_articles)
+            (ed_dir / f"letter_{letter}.html").write_text(letter_html)
+
+        log.info(f"  Wrote {len(articles):,} article pages + {len(by_letter)} letter pages + index")
 
     # Generate home page
     # Load stats for editions we didn't process this run
