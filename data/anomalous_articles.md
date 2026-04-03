@@ -1,0 +1,407 @@
+# Anomalous Articles Report
+
+**Total flagged:** 370
+
+## By Flag Type
+
+| Flag | Count | Description |
+|------|-------|-------------|
+| wrong_volume | 327 | Article in unexpected volume for its letter |
+| volume_boundary | 22 | 'END OF THE ... VOLUME' marker |
+| section_heading | 12 | SECT./CHAP./ORDER/PART parsed as article |
+| publisher_artifact | 9 | 'AND SONS' or similar publisher text |
+
+## By Edition
+
+- **1771**: 1 flagged
+- **1778**: 7 flagged
+- **1797**: 14 flagged
+- **1810**: 12 flagged
+- **1815**: 66 flagged
+- **1823**: 138 flagged
+- **1842**: 67 flagged
+- **1860**: 65 flagged
+
+## wrong_volume (327)
+
+- 1778 vol 8 **CALIPPIC PERIOD** (228w) — vol 8 not in expected [3]
+- 1778 vol 1 **END OF THE FIRST VOLUME** (6,535w) — vol 1 not in expected [4]
+- 1778 vol 2 **END OF THE SECOND VOLUME** (181w) — vol 2 not in expected [4]
+- 1778 vol 1 **ENIGMATOGRAPHY** (1,081w) — vol 1 not in expected [4]
+- 1797 vol 5 **BROWN-COLOURED** (4,466w) — vol 5 not in expected [3]
+- 1797 vol 17 **ELIZABETH** (4,088w) — vol 17 not in expected [6, 7]
+- 1797 vol 3 **END OF THE THIRD VOLUME** (397w) — vol 3 not in expected [6, 7]
+- 1797 vol 1 **ERRORS** (150w) — vol 1 not in expected [6, 7]
+- 1797 vol 10 **ETCHLADE** (159w) — vol 10 not in expected [6, 7]
+- 1797 vol 4 **OMISSION** (883w) — vol 4 not in expected [13]
+- 1797 vol 3 **RIEUM PALMATUM** (34,167w) — vol 3 not in expected [16]
+- 1797 vol 1 **SECT** (7,844w) — vol 1 not in expected [16, 17]
+- 1797 vol 15 **THE GREAT ONE** (1,106w) — vol 15 not in expected [18]
+- 1797 vol 16 **WHEN THE** (64,239w) — vol 16 not in expected [18]
+- 1797 vol 16 **WOOD** (4,601w) — vol 16 not in expected [18]
+- 1815 vol 7 **AND SONS** (20w) — vol 7 not in expected [1, 2]
+- 1815 vol 8 **AND SONS** (6w) — vol 8 not in expected [1, 2]
+- 1815 vol 9 **AND SONS** (12w) — vol 9 not in expected [1, 2]
+- 1815 vol 11 **AND SONS** (57w) — vol 11 not in expected [1, 2]
+- 1815 vol 13 **AND SONS** (26w) — vol 13 not in expected [1, 2]
+- 1815 vol 15 **AND SONS** (11w) — vol 15 not in expected [1, 2]
+- 1815 vol 19 **AND SONS** (1,365w) — vol 19 not in expected [1, 2]
+- 1815 vol 20 **AND SONS** (6w) — vol 20 not in expected [1, 2]
+- 1815 vol 17 **ANTISTROPHE III** (67w) — vol 17 not in expected [1, 2]
+- 1815 vol 12 **DICTIONARY** (15w) — vol 12 not in expected [7]
+- 1815 vol 1 **END OF THE FIRST VOLUME** (40w) — vol 1 not in expected [8]
+- 1815 vol 4 **END OF THE FOURTH VOLUME** (23w) — vol 4 not in expected [8]
+- 1815 vol 6 **END OF THE SIXTH VOLUME** (64w) — vol 6 not in expected [8]
+- 1815 vol 3 **END OF THE THIRD VOLUME** (88w) — vol 3 not in expected [8]
+- 1815 vol 20 **ENVELOPE** (25w) — vol 20 not in expected [8]
+- 1815 vol 17 **EPISODE III** (43w) — vol 17 not in expected [8]
+- 1815 vol 19 **EZEKIEL** (3,733w) — vol 19 not in expected [8]
+- 1815 vol 16 **GALE** (10w) — vol 16 not in expected [9, 10]
+- 1815 vol 18 **GALE** (32w) — vol 18 not in expected [9, 10]
+- 1815 vol 20 **GALVANISM
+
+PLATE DLXXVIII** (9,998w) — vol 20 not in expected [9, 10]
+- 1815 vol 13 **GENUS LXVII** (2,209w) — vol 13 not in expected [9, 10]
+- 1815 vol 13 **GENUS LXXXV** (3,979w) — vol 13 not in expected [9, 10]
+- 1815 vol 13 **GENUS XCI** (2,462w) — vol 13 not in expected [9, 10]
+- 1815 vol 15 **GEOGRAPHY** (107w) — vol 15 not in expected [9, 10]
+- 1815 vol 19 **GOD** (173w) — vol 19 not in expected [9, 10]
+- 1815 vol 17 **GRAND** (374w) — vol 17 not in expected [9, 10]
+- 1815 vol 19 **HABAKKUK** (274w) — vol 19 not in expected [10]
+- 1815 vol 19 **HAGGAI** (649w) — vol 19 not in expected [10]
+- 1815 vol 17 **HOLD** (160w) — vol 17 not in expected [10]
+- 1815 vol 19 **IGNATIUS** (8,780w) — vol 19 not in expected [11]
+- 1815 vol 19 **JUSTIN** (688w) — vol 19 not in expected [11]
+- 1815 vol 16 **KEPLER** (7,100w) — vol 16 not in expected [11]
+- 1815 vol 8 **LINNAEUS** (1,325w) — vol 8 not in expected [11, 12]
+- 1815 vol 19 **MALACHI** (6,539w) — vol 19 not in expected [12, 13, 14]
+- 1815 vol 17 **MAY** (183w) — vol 17 not in expected [12, 13, 14]
+- 1815 vol 19 **MEN&#x27;S ENGINE** (23,805w) — vol 19 not in expected [12, 13, 14]
+- 1815 vol 19 **MICHAELIS** (8,908w) — vol 19 not in expected [12, 13, 14]
+- 1815 vol 8 **MINDERERUS&#x27;S SPIRIT** (2,220w) — vol 8 not in expected [12, 13, 14]
+- 1815 vol 19 **NEW TESTAMENT** (1,218w) — vol 19 not in expected [14, 15]
+- 1815 vol 12 **OFFICIAL** (226w) — vol 12 not in expected [15]
+- 1815 vol 12 **OFFICINAL** (424w) — vol 12 not in expected [15]
+- 1815 vol 19 **ORDER** (7,973w) — vol 19 not in expected [15]
+- 1815 vol 12 **OXIDUM PLUMBI ALBI** (1,359w) — vol 12 not in expected [15]
+- 1815 vol 12 **PART** (278w) — vol 12 not in expected [16, 17]
+- 1815 vol 19 **PHILEMON** (8,536w) — vol 19 not in expected [16, 17]
+- 1815 vol 5 **POTASH** (1,731w) — vol 5 not in expected [16, 17]
+- 1815 vol 1 **SECT** (13,694w) — vol 1 not in expected [18, 19]
+- 1815 vol 12 **SUBACETAS CUPRI** (4,817w) — vol 12 not in expected [18, 19]
+- 1815 vol 11 **THE END OF THE ELEVENTH VOLUME** (39w) — vol 11 not in expected [20]
+- 1823 vol 14 **ABCDEF** (1,376w) — vol 14 not in expected [1, 2]
+- 1823 vol 8 **ABDC** (4,526w) — vol 8 not in expected [1, 2]
+- 1823 vol 13 **ABN** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AD** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AED** (14w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AEM** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **ALBIN** (17w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **ANGINA PECTORIS** (22,557w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **ANIC** (15w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **ANT** (6w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AP** (15w) — vol 13 not in expected [1, 2]
+- 1823 vol 14 **APPARATUS** (4,054w) — vol 14 not in expected [1, 2]
+- 1823 vol 17 **ARGUMENT** (2,030w) — vol 17 not in expected [1, 2]
+- 1823 vol 13 **ARR** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **ARTHRODYNAIA** (1,086w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AVG** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AVGG** (5w) — vol 13 not in expected [1, 2]
+- 1823 vol 13 **AVR** (13w) — vol 13 not in expected [1, 2]
+- 1823 vol 17 **BACCHUS** (346w) — vol 17 not in expected [3, 4]
+- 1823 vol 17 **BEAR** (415w) — vol 17 not in expected [3, 4]
+- 1823 vol 14 **BEAUTY** (70w) — vol 14 not in expected [3, 4]
+- 1823 vol 17 **BEAUTY** (2,760w) — vol 17 not in expected [3, 4]
+- 1823 vol 13 **BON** (10w) — vol 13 not in expected [3, 4]
+- 1823 vol 17 **BREAK** (874w) — vol 17 not in expected [3, 4]
+- 1823 vol 13 **BRIT** (16w) — vol 13 not in expected [3, 4]
+- 1823 vol 17 **BROWN** (3,843w) — vol 17 not in expected [3, 4]
+- 1823 vol 14 **CAUTION** (56w) — vol 14 not in expected [5, 6]
+- 1823 vol 13 **CEN** (5w) — vol 13 not in expected [5, 6]
+- 1823 vol 17 **CERES** (2,062w) — vol 17 not in expected [5, 6]
+- 1823 vol 9 **CHARLES V** (56,106w) — vol 9 not in expected [5, 6]
+- 1823 vol 13 **CIR** (6w) — vol 13 not in expected [5, 6]
+- 1823 vol 13 **CIVIB** (13w) — vol 13 not in expected [5, 6]
+- 1823 vol 13 **CN** (1,038w) — vol 13 not in expected [5, 6]
+- 1823 vol 13 **CO** (17w) — vol 13 not in expected [5, 6]
+- 1823 vol 17 **CO** (976w) — vol 17 not in expected [5, 6]
+- 1823 vol 13 **COH** (10w) — vol 13 not in expected [5, 6]
+- 1823 vol 13 **COL** (512w) — vol 13 not in expected [5, 6]
+- 1823 vol 14 **COLOUR** (990w) — vol 14 not in expected [5, 6]
+- 1823 vol 17 **COMETS** (680w) — vol 17 not in expected [5, 6]
+- 1823 vol 14 **CUTTING** (291w) — vol 14 not in expected [5, 6]
+- 1823 vol 17 **DEATH** (199w) — vol 17 not in expected [7]
+- 1823 vol 17 **DELIA** (199w) — vol 17 not in expected [7]
+- 1823 vol 13 **DEPT** (99w) — vol 13 not in expected [7]
+- 1823 vol 13 **DESCRIPTION** (6,617w) — vol 13 not in expected [7]
+- 1823 vol 14 **DESCRIPTION** (1,262w) — vol 14 not in expected [7]
+- 1823 vol 17 **DIDACTIC** (835w) — vol 17 not in expected [7]
+- 1823 vol 13 **DIET** (6,073w) — vol 13 not in expected [7]
+- 1823 vol 17 **DIFFERENT** (332w) — vol 17 not in expected [7]
+- 1823 vol 17 **DRAGS** (4,135w) — vol 17 not in expected [7]
+- 1823 vol 17 **DUKE** (1,354w) — vol 17 not in expected [7]
+- 1823 vol 14 **ELEMENTS OF MUSIC** (32,702w) — vol 14 not in expected [8]
+- 1823 vol 1 **END OF THE FIRST VOLUME** (58w) — vol 1 not in expected [8]
+- 1823 vol 4 **END OF THE FOURTH VOLUME** (24w) — vol 4 not in expected [8]
+- 1823 vol 6 **END OF THE SIXTH VOLUME** (73w) — vol 6 not in expected [8]
+- 1823 vol 3 **END OF THE THIRD VOLUME** (80w) — vol 3 not in expected [8]
+- 1823 vol 13 **EPIDEMIA** (15,494w) — vol 13 not in expected [8]
+- 1823 vol 17 **EPITAPH** (98w) — vol 17 not in expected [8]
+- 1823 vol 17 **ERIDANUS** (106w) — vol 17 not in expected [8]
+- 1823 vol 17 **ERROR** (9w) — vol 17 not in expected [8]
+- 1823 vol 13 **ERYSIPELAS** (2,155w) — vol 13 not in expected [8]
+- 1823 vol 17 **EXAMPLES** (215w) — vol 17 not in expected [8]
+- 1823 vol 13 **EXPLANATION** (152w) — vol 13 not in expected [8]
+- 1823 vol 14 **EXPLANATION** (9,195w) — vol 14 not in expected [8]
+- 1823 vol 17 **EXPRESSION** (799w) — vol 17 not in expected [8]
+- 1823 vol 13 **EXTERNAL** (18,233w) — vol 13 not in expected [8]
+- 1823 vol 14 **FACE** (9w) — vol 14 not in expected [8, 9]
+- 1823 vol 17 **FAIR** (521w) — vol 17 not in expected [8, 9]
+- 1823 vol 13 **FIRE** (15,601w) — vol 13 not in expected [8, 9]
+- 1823 vol 14 **FLAT** (6,911w) — vol 14 not in expected [8, 9]
+- 1823 vol 17 **FLORA** (512w) — vol 17 not in expected [8, 9]
+- 1823 vol 14 **FLUID** (4,135w) — vol 14 not in expected [8, 9]
+- 1823 vol 17 **FOREIGN** (213w) — vol 17 not in expected [8, 9]
+- 1823 vol 13 **FORT** (12,642w) — vol 13 not in expected [8, 9]
+- 1823 vol 17 **FREEZE** (112w) — vol 17 not in expected [8, 9]
+- 1823 vol 13 **GALEN** (14,474w) — vol 13 not in expected [9, 10]
+- 1823 vol 17 **GAY** (120w) — vol 17 not in expected [9, 10]
+- 1823 vol 13 **GENUS** (15,448w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS** (75,310w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LII** (378w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LIII** (10,210w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXI** (1,290w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXII** (1,602w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXIII** (1,187w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXIV** (8,951w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXV** (35w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXVI** (61w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXVII** (5,325w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXVI** (479w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXVII** (67w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXVIII** (5,054w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXX** (13w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXI** (70w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXII** (85w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXIII** (1,101w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXIV** (2,070w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXV** (10,005w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS LXXXVII** (3,280w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS XCI** (2,650w) — vol 13 not in expected [9, 10]
+- 1823 vol 13 **GENUS XCII** (2,092w) — vol 13 not in expected [9, 10]
+- 1823 vol 14 **GLASS** (16w) — vol 14 not in expected [9, 10]
+- 1823 vol 17 **GREAT** (775w) — vol 17 not in expected [9, 10]
+- 1823 vol 17 **HEART** (63w) — vol 17 not in expected [10]
+- 1823 vol 17 **HIGH** (493w) — vol 17 not in expected [10]
+- 1823 vol 17 **HYLAS** (376w) — vol 17 not in expected [10]
+- 1823 vol 7 **IMMEDIATELY** (5,090w) — vol 7 not in expected [11]
+- 1823 vol 17 **IMMORTAL** (1,154w) — vol 17 not in expected [11]
+- 1823 vol 17 **IMPERIAL** (560w) — vol 17 not in expected [11]
+- 1823 vol 14 **INGENUOUS** (518w) — vol 14 not in expected [11]
+- 1823 vol 14 **INSECTS** (350w) — vol 14 not in expected [11]
+- 1823 vol 17 **JUST** (42w) — vol 17 not in expected [11]
+- 1823 vol 15 **LONDON** (105w) — vol 15 not in expected [11, 12]
+- 1823 vol 19 **LONDON** (722w) — vol 19 not in expected [11, 12]
+- 1823 vol 17 **LUCILIUS** (605w) — vol 17 not in expected [11, 12]
+- 1823 vol 17 **MONUMENT** (186w) — vol 17 not in expected [12, 13, 14]
+- 1823 vol 17 **MORE** (397w) — vol 17 not in expected [12, 13, 14]
+- 1823 vol 17 **NATURE** (177w) — vol 17 not in expected [14, 15]
+- 1823 vol 17 **NOBLES** (315w) — vol 17 not in expected [14, 15]
+- 1823 vol 17 **NUMBER** (75w) — vol 17 not in expected [14, 15]
+- 1823 vol 14 **PRACTICE OF NAVIGATION** (16,688w) — vol 14 not in expected [16, 17]
+- 1823 vol 15 **RAINBOW** (1,421w) — vol 15 not in expected [17, 18]
+- 1823 vol 16 **SECT** (12,753w) — vol 16 not in expected [18, 19]
+- 1823 vol 16 **SHORN OF HIS BEAMS** (27w) — vol 16 not in expected [18, 19]
+- 1823 vol 1 **SOUND** (3,500w) — vol 1 not in expected [18, 19]
+- 1823 vol 1 **SPHASUS** (9,387w) — vol 1 not in expected [18, 19]
+- 1823 vol 12 **SUBACETAS CUPRI** (200w) — vol 12 not in expected [18, 19]
+- 1823 vol 12 **SULPHAS CUPRI** (5,348w) — vol 12 not in expected [18, 19]
+- 1823 vol 10 **SURREY** (469w) — vol 10 not in expected [18, 19]
+- 1823 vol 15 **SWIFT** (2,010w) — vol 15 not in expected [18, 19]
+- 1823 vol 9 **TAI-OUAN** (2,961w) — vol 9 not in expected [20]
+- 1823 vol 11 **THE END OF THE ELEVENTH VOLUME** (39w) — vol 11 not in expected [20]
+- 1823 vol 16 **THOU SEE&#x27;ST FROM WHAT HEIGHT FALLEN** (31,863w) — vol 16 not in expected [20]
+- 1842 vol 11 **BOTANICAL STRUCTURES** (7,278w) — vol 11 not in expected [4, 5]
+- 1842 vol 16 **CAM** (66w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CAMEL** (194w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CANADA** (2,260w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CANAL** (13,482w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CARDIFF** (77w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CARRON** (101w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CART** (156w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CHESTER** (70w) — vol 16 not in expected [6, 7]
+- 1842 vol 16 **CLYDE** (6,677w) — vol 16 not in expected [6, 7]
+- 1842 vol 3 **CONFUSION** (7,746w) — vol 3 not in expected [6, 7]
+- 1842 vol 16 **CONSTRUCTION OF CANALS** (5,509w) — vol 16 not in expected [6, 7]
+- 1842 vol 3 **CORRECTION** (40w) — vol 3 not in expected [6, 7]
+- 1842 vol 21 **EGETIUS RENATUS** (664w) — vol 21 not in expected [8, 9]
+- 1842 vol 3 **EGYPT** (641w) — vol 3 not in expected [8, 9]
+- 1842 vol 3 **ERATOSTHENES** (562w) — vol 3 not in expected [8, 9]
+- 1842 vol 3 **EULER** (2,306w) — vol 3 not in expected [8, 9]
+- 1842 vol 16 **FIG** (4,527w) — vol 16 not in expected [9, 10]
+- 1842 vol 12 **FIRST GREAT SERIES OF THE CLASS OF FISHES** (8,300w) — vol 12 not in expected [9, 10]
+- 1842 vol 3 **FLAMSTEED** (3,150w) — vol 3 not in expected [9, 10]
+- 1842 vol 12 **GENUS AMMODYTES** (15,611w) — vol 12 not in expected [10]
+- 1842 vol 15 **GOLD** (9,803w) — vol 15 not in expected [10]
+- 1842 vol 16 **GOWN** (907w) — vol 16 not in expected [10]
+- 1842 vol 3 **HERSCHEL** (3,452w) — vol 3 not in expected [11]
+- 1842 vol 3 **HISTORY** (6,128w) — vol 3 not in expected [11]
+- 1842 vol 8 **HISTORY** (4,832w) — vol 8 not in expected [11]
+- 1842 vol 8 **HISTORY OF ANCIENT EGYPT** (3,439w) — vol 8 not in expected [11]
+- 1842 vol 19 **HISTORY OF SCOTLAND** (21,613w) — vol 19 not in expected [11]
+- 1842 vol 13 **HOOKE** (1,961w) — vol 13 not in expected [11]
+- 1842 vol 15 **HYPOTHESES OF VOLCANIC ACTION** (13,389w) — vol 15 not in expected [11]
+- 1842 vol 3 **JOHN** (4,018w) — vol 3 not in expected [12]
+- 1842 vol 3 **JURA** (748w) — vol 3 not in expected [12]
+- 1842 vol 3 **KEPLER** (5,087w) — vol 3 not in expected [12]
+- 1842 vol 20 **KINGDOM OF LEON AND CASTILLE UNITED** (26,322w) — vol 20 not in expected [12]
+- 1842 vol 8 **MENES** (12,999w) — vol 8 not in expected [14, 15]
+- 1842 vol 3 **NEWTON** (1,661w) — vol 3 not in expected [15, 16]
+- 1842 vol 14 **OAXACA** (187w) — vol 14 not in expected [16]
+- 1842 vol 21 **PERITONITIS** (1,948w) — vol 21 not in expected [17, 18]
+- 1842 vol 13 **PETIT** (7,562w) — vol 13 not in expected [17, 18]
+- 1842 vol 20 **PHIDIAS** (407w) — vol 20 not in expected [17, 18]
+- 1842 vol 8 **PHYSCON HAVING BY THIS** (44,938w) — vol 8 not in expected [17, 18]
+- 1842 vol 8 **PHYSICAL GEOGRAPHY OF EGYPT** (18,446w) — vol 8 not in expected [17, 18]
+- 1842 vol 14 **POLITICAL** (67w) — vol 14 not in expected [17, 18]
+- 1842 vol 15 **PRACTICE OF NAVIGATION** (16,502w) — vol 15 not in expected [17, 18]
+- 1842 vol 20 **PRAXITELES** (4,196w) — vol 20 not in expected [17, 18]
+- 1842 vol 14 **PRINCIPAL** (3,710w) — vol 14 not in expected [17, 18]
+- 1842 vol 20 **PRIOR** (1,298w) — vol 20 not in expected [17, 18]
+- 1842 vol 13 **PROFESSOR** (11,889w) — vol 13 not in expected [17, 18]
+- 1842 vol 20 **PROPORTION** (2,931w) — vol 20 not in expected [17, 18]
+- 1842 vol 15 **REMARKS** (21,796w) — vol 15 not in expected [19]
+- 1842 vol 14 **REVENUE** (8,524w) — vol 14 not in expected [19]
+- 1842 vol 14 **RIGHTS** (1,581w) — vol 14 not in expected [19]
+- 1842 vol 14 **SAN** (735w) — vol 14 not in expected [19, 20]
+- 1842 vol 8 **SANCTION** (14,157w) — vol 8 not in expected [19, 20]
+- 1842 vol 14 **SANCTION** (2,646w) — vol 14 not in expected [19, 20]
+- 1842 vol 13 **SECT** (18,039w) — vol 13 not in expected [19, 20]
+- 1842 vol 16 **SECT** (7,723w) — vol 16 not in expected [19, 20]
+- 1842 vol 8 **ST DOMINGO** (7,288w) — vol 8 not in expected [19, 20]
+- 1842 vol 14 **STATISTICS** (2,778w) — vol 14 not in expected [19, 20]
+- 1842 vol 14 **TARIFF** (357w) — vol 14 not in expected [21]
+- 1842 vol 15 **TERTIARY STRATA** (23,557w) — vol 15 not in expected [21]
+- 1842 vol 16 **THE ORNITHOLOGICAL SYSTEM OF M** (7,049w) — vol 16 not in expected [21]
+- 1842 vol 3 **THEORETICAL ASTRONOMY** (48,201w) — vol 3 not in expected [21]
+- 1842 vol 14 **VALLADOLID** (776w) — vol 14 not in expected [21]
+- 1842 vol 14 **VERA CRUZ** (922w) — vol 14 not in expected [21]
+- 1842 vol 8 **WOLSEY** (60,110w) — vol 8 not in expected [21]
+- 1842 vol 14 **YUCATAN** (6,511w) — vol 14 not in expected [21]
+- 1860 vol 9 **ADAM AND CHARLES BLACK** (1,579w) — vol 9 not in expected [2, 3]
+- 1860 vol 12 **AND ALL BOOKSELLERS** (300w) — vol 12 not in expected [2, 3]
+- 1860 vol 12 **AND NUMEROUS ENGRAVINGS** (10,224w) — vol 12 not in expected [2, 3]
+- 1860 vol 12 **AUSONIUS** (8,260w) — vol 12 not in expected [2, 3]
+- 1860 vol 2 **BICHAT** (2,622w) — vol 2 not in expected [4, 5]
+- 1860 vol 18 **BLACK&#x27;S GUIDE BOOKS** (104w) — vol 18 not in expected [4, 5]
+- 1860 vol 18 **BLACK&#x27;S GUIDE TO THE LAKES OF CUMBERLAND** (40w) — vol 18 not in expected [4, 5]
+- 1860 vol 18 **BLACK&#x27;S GUIDE TO WALES** (98w) — vol 18 not in expected [4, 5]
+- 1860 vol 21 **BOOKS FOR CHRISTMAS PRESENTS** (337w) — vol 21 not in expected [4, 5]
+- 1860 vol 10 **CHATEAUBRIAND** (28,866w) — vol 10 not in expected [6, 7]
+- 1860 vol 12 **CHONDROPTERYGIANS** (37,974w) — vol 12 not in expected [6, 7]
+- 1860 vol 10 **CITY** (42,317w) — vol 10 not in expected [6, 7]
+- 1860 vol 15 **CLINICAL LECTURES ON THE PRINCIPLES AND PRACTICE OF MEDICINE** (572w) — vol 15 not in expected [6, 7]
+- 1860 vol 2 **COMPARATIVE ANATOMY** (34,446w) — vol 2 not in expected [6, 7]
+- 1860 vol 10 **CONCORDAT** (23,166w) — vol 10 not in expected [6, 7]
+- 1860 vol 9 **CONRAD GESNER** (7,285w) — vol 9 not in expected [6, 7]
+- 1860 vol 9 **CONSTANTINOPLE** (2,970w) — vol 9 not in expected [6, 7]
+- 1860 vol 10 **COTE D&#x27;OR** (14,040w) — vol 10 not in expected [6, 7]
+- 1860 vol 10 **COTES** (34w) — vol 10 not in expected [6, 7]
+- 1860 vol 10 **COTTON** (20,705w) — vol 10 not in expected [6, 7]
+- 1860 vol 15 **DICTIONARY** (6w) — vol 15 not in expected [7, 8]
+- 1860 vol 2 **DIFFERENT** (12,627w) — vol 2 not in expected [7, 8]
+- 1860 vol 18 **EDINBURGH** (8w) — vol 18 not in expected [8, 9]
+- 1860 vol 15 **EIGHTH EDITION** (15w) — vol 15 not in expected [8, 9]
+- 1860 vol 18 **ENGLAND** (8w) — vol 18 not in expected [8, 9]
+- 1860 vol 18 **ENGLISH** (66w) — vol 18 not in expected [8, 9]
+- 1860 vol 3 **ERATOSTHENES** (563w) — vol 3 not in expected [8, 9]
+- 1860 vol 2 **EUSTACHIUS** (10,935w) — vol 2 not in expected [8, 9]
+- 1860 vol 3 **FLAMSTEED** (9,761w) — vol 3 not in expected [9, 10]
+- 1860 vol 2 **FURTHER** (34,235w) — vol 2 not in expected [9, 10]
+- 1860 vol 18 **GARDENING** (86w) — vol 18 not in expected [10, 11]
+- 1860 vol 3 **HIPPARCHUS** (1,187w) — vol 3 not in expected [11]
+- 1860 vol 3 **HISTORY** (9,474w) — vol 3 not in expected [11]
+- 1860 vol 16 **HISTORY** (4,765w) — vol 16 not in expected [11]
+- 1860 vol 17 **JAMES DONALDSON** (150w) — vol 17 not in expected [12, 13]
+- 1860 vol 17 **JOHN BARTHOLOMEW** (112w) — vol 17 not in expected [12, 13]
+- 1860 vol 3 **JURA** (229w) — vol 3 not in expected [12, 13]
+- 1860 vol 3 **KEPLER** (5,121w) — vol 3 not in expected [13]
+- 1860 vol 11 **KITCHEN GARDEN** (29,997w) — vol 11 not in expected [13]
+- 1860 vol 21 **MINISTER OF CRIEFF** (1,286w) — vol 21 not in expected [14, 15]
+- 1860 vol 12 **MOULDINGS** (8,733w) — vol 12 not in expected [14, 15]
+- 1860 vol 17 **MUNGO PARK&#x27;S TRAVELS IN AFRICA** (946w) — vol 17 not in expected [14, 15]
+- 1860 vol 18 **NEILL&#x27;S FRUIT** (202w) — vol 18 not in expected [16]
+- 1860 vol 3 **NEWTON** (19,009w) — vol 3 not in expected [16]
+- 1860 vol 14 **NOTICE** (13w) — vol 14 not in expected [16]
+- 1860 vol 12 **ORDERS** (17,422w) — vol 12 not in expected [16, 17]
+- 1860 vol 7 **PENDULUM REGULATION** (20,162w) — vol 7 not in expected [17, 18]
+- 1860 vol 12 **PLEDGE** (109w) — vol 12 not in expected [17, 18]
+- 1860 vol 12 **PRESS** (8,247w) — vol 12 not in expected [17, 18]
+- 1860 vol 12 **PRICE** (5,197w) — vol 12 not in expected [17, 18]
+- 1860 vol 16 **RUPEL** (22w) — vol 16 not in expected [18, 19]
+- 1860 vol 16 **SCHLEGEL** (11w) — vol 16 not in expected [19, 20]
+- 1860 vol 16 **SCHOMBURGK** (54w) — vol 16 not in expected [19, 20]
+- 1860 vol 12 **SIRENOIDS** (1,276w) — vol 12 not in expected [19, 20]
+- 1860 vol 16 **SMITH** (11w) — vol 16 not in expected [19, 20]
+- 1860 vol 16 **ST HILAIRE** (10w) — vol 16 not in expected [19, 20]
+- 1860 vol 16 **STRICKLAND** (74w) — vol 16 not in expected [19, 20]
+- 1860 vol 16 **SUNDEVAHL** (14w) — vol 16 not in expected [19, 20]
+- 1860 vol 16 **TEMMINCK** (9w) — vol 16 not in expected [21]
+- 1860 vol 16 **THIENEMANN** (14w) — vol 16 not in expected [21]
+- 1860 vol 16 **THOMPSON** (13w) — vol 16 not in expected [21]
+- 1860 vol 16 **TOWNSEND** (16w) — vol 16 not in expected [21]
+- 1860 vol 16 **TSCHUDI** (24w) — vol 16 not in expected [21]
+- 1860 vol 16 **VERREAUX** (17w) — vol 16 not in expected [21]
+- 1860 vol 16 **YARRELL** (3,088w) — vol 16 not in expected [21]
+
+## section_heading (12)
+
+- 1797 vol 13 **ORDER II** (224w) — ORDER II
+- 1810 vol 13 **GENUS XC** (289w) — GENUS XC
+- 1810 vol 13 **GENUS XCI** (3,156w) — GENUS XCI
+- 1810 vol 13 **GENUS XCV** (131w) — GENUS XCV
+- 1810 vol 13 **GENUS XCVI** (6w) — GENUS XCVI
+- 1810 vol 13 **GENUS XCVII** (621w) — GENUS XCVII
+- 1810 vol 13 **GENUS XCVIII** (1,357w) — GENUS XCVIII
+- 1815 vol 17 **ANTISTROPHE III** (67w) — ANTISTROPHE III
+- 1815 vol 17 **EPISODE III** (43w) — EPISODE III
+- 1815 vol 13 **GENUS XCI** (2,462w) — GENUS XCI
+- 1823 vol 13 **GENUS XCI** (2,650w) — GENUS XCI
+- 1823 vol 13 **GENUS XCII** (2,092w) — GENUS XCII
+
+## publisher_artifact (9)
+
+- 1815 vol 3 **AND SONS** (692w) — AND SONS
+- 1815 vol 7 **AND SONS** (20w) — AND SONS
+- 1815 vol 8 **AND SONS** (6w) — AND SONS
+- 1815 vol 9 **AND SONS** (12w) — AND SONS
+- 1815 vol 11 **AND SONS** (57w) — AND SONS
+- 1815 vol 13 **AND SONS** (26w) — AND SONS
+- 1815 vol 15 **AND SONS** (11w) — AND SONS
+- 1815 vol 19 **AND SONS** (1,365w) — AND SONS
+- 1815 vol 20 **AND SONS** (6w) — AND SONS
+
+## volume_boundary (22)
+
+- 1771 vol 1 **END OF THE FIRST VOLUME** (283w) — END OF THE FIRST VOLUME
+- 1778 vol 1 **END OF THE FIRST VOLUME** (6,535w) — END OF THE FIRST VOLUME
+- 1778 vol 2 **END OF THE SECOND VOLUME** (181w) — END OF THE SECOND VOLUME
+- 1778 vol 3 **END OF THE THIRD VOLUME** (2,256w) — END OF THE THIRD VOLUME
+- 1797 vol 5 **END OF THE FIFTH VOLUME** (175w) — END OF THE FIFTH VOLUME
+- 1797 vol 3 **END OF THE THIRD VOLUME** (397w) — END OF THE THIRD VOLUME
+- 1810 vol 5 **END OF THE FIFTH VOLUME** (79w) — END OF THE FIFTH VOLUME
+- 1810 vol 1 **END OF THE FIRST VOLUME DIRECTIONS FOR PLACING THE PLATES OF VOL** (142w) — END OF THE FIRST VOLUME DIRECTIONS FOR PLACING THE PLATES OF VOL
+- 1810 vol 4 **END OF THE FOURTH VOLUME** (32w) — END OF THE FOURTH VOLUME
+- 1810 vol 2 **END OF THE SECOND VOLUME** (127w) — END OF THE SECOND VOLUME
+- 1810 vol 6 **END OF THE SIXTH VOLUME** (164w) — END OF THE SIXTH VOLUME
+- 1810 vol 3 **END OF THE THIRD VOLUME** (69w) — END OF THE THIRD VOLUME
+- 1815 vol 1 **END OF THE FIRST VOLUME** (40w) — END OF THE FIRST VOLUME
+- 1815 vol 4 **END OF THE FOURTH VOLUME** (23w) — END OF THE FOURTH VOLUME
+- 1815 vol 7 **END OF THE SEVENTH VOLUME** (59w) — END OF THE SEVENTH VOLUME
+- 1815 vol 6 **END OF THE SIXTH VOLUME** (64w) — END OF THE SIXTH VOLUME
+- 1815 vol 3 **END OF THE THIRD VOLUME** (88w) — END OF THE THIRD VOLUME
+- 1823 vol 1 **END OF THE FIRST VOLUME** (58w) — END OF THE FIRST VOLUME
+- 1823 vol 4 **END OF THE FOURTH VOLUME** (24w) — END OF THE FOURTH VOLUME
+- 1823 vol 7 **END OF THE SEVENTH VOLUME** (77w) — END OF THE SEVENTH VOLUME
+- 1823 vol 6 **END OF THE SIXTH VOLUME** (73w) — END OF THE SIXTH VOLUME
+- 1823 vol 3 **END OF THE THIRD VOLUME** (80w) — END OF THE THIRD VOLUME
